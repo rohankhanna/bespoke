@@ -19,6 +19,18 @@
       "source_repo": "trufanov-nok/minidjvu-mod",
       "status": "candidate-context",
       "text": "Windows: [![Build status](https://ci.appveyor.com/api/projects/status/v71a13vhb65ji614?svg=true)](https://ci.appveyor.com/project/Truf/minidjvu-mod-windows), Linux: [![Build status](https://ci.appveyor.com/api/projects/status/11629wtfwqp9ni0j?svg=true)](https://ci.appveyor.com/p\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "status": "candidate-context",
+      "text": "Track when books get added to your Libby/OverDrive library. Watchlists, multi-library profiles, cron-ready notifications. Agent Skills format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "status": "candidate-context",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "trufanov-nok/minidjvu-mod",
       "status": "candidate",
       "text": "Windows: [![Build status](https://ci.appveyor.com/api/projects/status/v71a13vhb65ji614?svg=true)](https://ci.appveyor.com/project/Truf/minidjvu-mod-windows), Linux: [![Build status](https://ci.appveyor.com/api/projects/status/11629wtfwqp9ni0j?svg=true)](https://ci.appveyor.com/p\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "trufanov-nok/minidjvu-mod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "fnproject"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fnproject/flow",
+      "status": "candidate-context",
+      "text": "Fn Flow Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/flow",
+      "status": "candidate-context",
+      "text": "*WARNING* Fn Flow is no longer maintained or supported."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fnproject/fdk-java",
+      "status": "candidate-context",
+      "text": "Java API and runtime for fn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/fdk-java",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/flow",
+      "status": "candidate",
+      "text": "*WARNING* Fn Flow is no longer maintained or supported."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/fdk-java",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "fnproject",
+  "concept_id": "fnproject",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fnproject/flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fnproject/fdk-java"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "fnproject",
+      "sense_id": "fnproject#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

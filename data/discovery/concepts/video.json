@@ -187,6 +187,54 @@
       "source_repo": "ffmpegwasm/ffmpeg.wasm",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FFmpeg/FFmpeg",
+      "status": "candidate-context",
+      "text": "Mirror of https://git.ffmpeg.org/ffmpeg.git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FFmpeg/FFmpeg",
+      "status": "candidate-context",
+      "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kandinskylab/kandinsky-5",
+      "status": "candidate-context",
+      "text": "Kandinsky 5.0: A family of diffusion models for Video & Image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kandinskylab/kandinsky-5",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "status": "candidate-context",
+      "text": "A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, Qwen Image, Hunyuan Video, LTX  Video and Flux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "status": "candidate-context",
+      "text": "-----"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhiTronix/vidgear",
+      "status": "candidate-context",
+      "text": "A High-performance cross-platform Video Processing Python framework powerpacked with unique trailblazing features :fire:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhiTronix/vidgear",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +327,30 @@
       "source_repo": "ffmpegwasm/ffmpeg.wasm",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FFmpeg/FFmpeg",
+      "status": "candidate",
+      "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kandinskylab/kandinsky-5",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "status": "candidate",
+      "text": "-----"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhiTronix/vidgear",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -439,11 +511,47 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "ffmpegwasm/ffmpeg.wasm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FFmpeg/FFmpeg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "WebAV-Tech/WebAV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kandinskylab/kandinsky-5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "deepbeepmeep/Wan2GP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "abhiTronix/vidgear"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AVC2-UESTC/CRAFT-SR",
+      "target": "luissen/esrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AVC2-UESTC/CRAFT-SR",
+      "target": "xpixelgroup/basicsr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AVC2-UESTC/CRAFT-SR",
+      "target": "zhengchen1999/cat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AVC2-UESTC/CRAFT-SR",
+      "target": "swz30/restormer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:47:21.115844+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6270
+    },
+    {
+      "path": "requirements.txt",
+      "size": 145
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV2023] Implementation of \"Feature Modulation Transformer: Cross-Refinement of Global Representation via High-Frequency Prior for Image Super-Resolution\"",
+    "fork": false,
+    "full_name": "AVC2-UESTC/CRAFT-SR",
+    "html_url": "https://github.com/AVC2-UESTC/CRAFT-SR",
+    "language": "Python",
+    "pushed_at": "2025-01-06T09:34:43Z",
+    "stargazers_count": 111,
+    "topics": [],
+    "updated_at": "2026-03-31T02:38:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luissen/esrt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swz30/restormer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xpixelgroup/basicsr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhengchen1999/cat",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

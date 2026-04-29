@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "typstyle-rs/pre-commit-typstyle",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "typstyle-rs/pre-commit-typstyle",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "typstyle-rs/pre-commit-typstyle",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "typstyle-rs/pre-commit-typstyle",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "typstyle-rs/pre-commit-typstyle",
+      "target": "typestyle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "typstyle-rs/pre-commit-typstyle",
+      "target": "typst",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:01:07.463990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 407
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 96
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "typstyle for pre-commit",
+    "fork": false,
+    "full_name": "typstyle-rs/pre-commit-typstyle",
+    "html_url": "https://github.com/typstyle-rs/pre-commit-typstyle",
+    "language": "Rust",
+    "pushed_at": "2026-01-17T05:32:20Z",
+    "stargazers_count": 3,
+    "topics": [
+      "pre-commit",
+      "typestyle",
+      "typst"
+    ],
+    "updated_at": "2026-02-01T13:27:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "typstyle for pre-commit.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "typstyle for pre-commit.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typestyle"
+    },
+    {
+      "context_snippet": "typstyle for pre-commit.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typst"
+    }
+  ]
+}

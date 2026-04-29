@@ -19,6 +19,18 @@
       "source_repo": "lambdalisue/vim-fern",
       "status": "candidate-context",
       "text": "![Support Vim 8.2.5136 or above](https://img.shields.io/badge/support-Vim%208.2.5136%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnonymouX47/termvisage",
+      "status": "candidate-context",
+      "text": "Browse and view images in the terminal (mostly a front-end to https://github.com/AnonymouX47/term-image)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/termvisage",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "lambdalisue/vim-fern",
       "status": "candidate",
       "text": "![Support Vim 8.2.5136 or above](https://img.shields.io/badge/support-Vim%208.2.5136%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/termvisage",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -98,11 +116,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "lambdalisue/vim-fern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AnonymouX47/termvisage"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

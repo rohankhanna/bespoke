@@ -1324,6 +1324,306 @@
       "source_repo": "gpac/mp4box.js",
       "status": "candidate-context",
       "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lutzroeder/netron",
+      "status": "candidate-context",
+      "text": "Visualizer for neural network, deep learning and machine learning models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lutzroeder/netron",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsdom/jsdom",
+      "status": "candidate-context",
+      "text": "A JavaScript implementation of various web standards, for use with Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsdom/jsdom",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automate versioning and package publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate-context",
+      "text": "The Dart language implementation of gRPC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/embedded-svc",
+      "status": "candidate-context",
+      "text": "Rust APIs and abstractions for various embedded services (WiFi, Network, Httpd, Logging, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/embedded-svc",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-idf-hal",
+      "status": "candidate-context",
+      "text": "embedded-hal implementation for Rust on ESP32 and ESP-IDF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-hal",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-idf-sys",
+      "status": "candidate-context",
+      "text": "Bindings for ESP-IDF (Espressif's IoT Development Framework)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-sys",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/packaging",
+      "status": "candidate-context",
+      "text": "Core utilities for Python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/packaging",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcodeIO/long.js",
+      "status": "candidate-context",
+      "text": "A Long class for representing a 64-bit two's-complement integer value."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcodeIO/long.js",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wojtekmaj/react-pdf",
+      "status": "candidate-context",
+      "text": "Display PDFs in your React app as easily as if they were images."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wojtekmaj/react-pdf",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-help",
+      "status": "candidate-context",
+      "text": "standard help for oclif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-help",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-plugins",
+      "status": "candidate-context",
+      "text": "plugins plugin for oclif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-plugins",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "francesca64/hotwatch",
+      "status": "candidate-context",
+      "text": "A Rust library for conveniently watching and handling file changes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "francesca64/hotwatch",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate-context",
+      "text": "An esbuild plugin to inject your application's version number or today's date into your files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate-context",
+      "text": "Blazing fast input validation and transformation \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate-context",
+      "text": "typescript http client and server with zod validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autofac/Autofac.Multitenant",
+      "status": "candidate-context",
+      "text": "Multitenant application support for Autofac IoC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Multitenant",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/jinja",
+      "status": "candidate-context",
+      "text": "A very fast and expressive template engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/jinja",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deanwiseman/DartSassBuilder",
+      "status": "candidate-context",
+      "text": "Sass builder (dart compiler) for .NET projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deanwiseman/DartSassBuilder",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "belav/csharpier",
+      "status": "candidate-context",
+      "text": "CSharpier is an opinionated code formatter for c#."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "belav/csharpier",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tsroten/zhon",
+      "status": "candidate-context",
+      "text": "Constants used in Chinese text processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsroten/zhon",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/core",
+      "status": "candidate-context",
+      "text": "Node.js Open CLI Framework. Built by Salesforce."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/core",
+      "status": "candidate-context",
+      "text": "publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinylibs/tinyexec",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdf A tiny, higher level interface around child_process"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinylibs/tinyexec",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clj-commons/rewrite-clj",
+      "status": "candidate-context",
+      "text": "Rewrite Clojure code and edn"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/rewrite-clj",
+      "status": "candidate-context",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cobalt-org/cobalt-org.github.io",
+      "status": "candidate-context",
+      "text": "Website for cobalt.rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt-org.github.io",
+      "status": "candidate-context",
+      "text": "Publish"
     }
   ],
   "candidate_glosses": [
@@ -1984,6 +2284,156 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gpac/mp4box.js",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lutzroeder/netron",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsdom/jsdom",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/embedded-svc",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-hal",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-sys",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/packaging",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcodeIO/long.js",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wojtekmaj/react-pdf",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-help",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-plugins",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "francesca64/hotwatch",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Multitenant",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/jinja",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deanwiseman/DartSassBuilder",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "belav/csharpier",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsroten/zhon",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/core",
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinylibs/tinyexec",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/rewrite-clj",
+      "status": "candidate",
+      "text": "Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt-org.github.io",
       "status": "candidate",
       "text": "Publish"
     }
@@ -2965,11 +3415,245 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "gpac/mp4box.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "lutzroeder/netron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "jsdom/jsdom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "release-it/release-it"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "esp-rs/embedded-svc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "esp-rs/esp-idf-hal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "esp-rs/esp-idf-sys"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "pypa/packaging"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dcodeIO/long.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "wojtekmaj/react-pdf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "oclif/plugin-help"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "oclif/plugin-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tag.yml",
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "francesca64/hotwatch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "favware/esbuild-plugin-version-injector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sapphiredev/shapeshift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ecyrbe/zodios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "autofac/Autofac.Multitenant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "vercel-labs/skills"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ajv-validator/ajv-keywords"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "pallets/jinja"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-nuget.yml",
+      "source_repo": "deanwiseman/DartSassBuilder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish_beta.yml",
+      "source_repo": "belav/csharpier"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tsroten/zhon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "vercel/ms"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/onRelease.yml",
+      "source_repo": "oclif/core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "tinylibs/tinyexec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "cobalt-org/cobalt-org.github.io"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "OpenGVLab/Ask-Anything",
       "status": "candidate-context",
       "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/InternVideo",
+      "status": "candidate-context",
+      "text": "[ECCV2024] Video Foundation Models & Data for Multimodal Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVideo",
+      "status": "candidate-context",
+      "text": "</div>"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "OpenGVLab/Ask-Anything",
       "status": "candidate",
       "text": "[![Open in OpenXLab](https://cdn-static.openxlab.org.cn/app-center/openxlab_app.svg)](https://openxlab.org.cn/apps/detail/yinanhe/VideoChat2) |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVideo",
+      "status": "candidate",
+      "text": "</div>"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "OpenGVLab/Ask-Anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

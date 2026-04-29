@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Spec Deployment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/csswg-drafts",
+      "status": "candidate-context",
+      "text": "CSS Working Group Editor Drafts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/csswg-drafts",
+      "status": "candidate-context",
+      "text": "Spec Deployment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/csswg-drafts",
+      "status": "candidate",
+      "text": "Spec Deployment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "aaa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "detail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "firm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "isle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10672,
+      "status": "candidate",
+      "text": "long"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Spec Deployment",
+  "concept_id": "spec-deployment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build-specs.yml",
+      "source_repo": "w3c/csswg-drafts"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Spec Deployment",
+      "sense_id": "spec-deployment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -31,6 +31,30 @@
       "source_repo": "apache/doris-spark-connector",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/connectors-community",
+      "status": "candidate-context",
+      "text": "A community space to share fully working and production ready Apollo Connectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/connectors-community",
+      "status": "candidate-context",
+      "text": "This repository is for builders to share API connectors to help accelerate the community with rich starting points. The basic workflow functionality below can help a builder get a new project started in seconds with a fantastic developer experience."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate-context",
+      "text": "Apache Kafka, Apache Flink and Confluent Platform examples and demos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate-context",
+      "text": "![image](images/confluent-logo-300-2.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "apache/doris-spark-connector",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/connectors-community",
+      "status": "candidate",
+      "text": "This repository is for builders to share API connectors to help accelerate the community with rich starting points. The basic workflow functionality below can help a builder get a new project started in seconds with a fantastic developer experience."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate",
+      "text": "![image](images/confluent-logo-300-2.png)"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +165,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "apache/doris-spark-connector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/connectors-community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/examples"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

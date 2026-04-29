@@ -1,0 +1,239 @@
+{
+  "components": [
+    {
+      "component": "generic-pool",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nodeunit",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "underscore",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "temp",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "docker/metadata-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-and-publish-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-and-publish-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-and-publish-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-and-publish-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-and-publish-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "statsd/statsd",
+      "target": "iamcal/flickr-statsd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "statsd/statsd",
+      "target": "etsy/statsd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "statsd/statsd",
+      "target": "generic-pool",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "statsd/statsd",
+      "target": "nodeunit",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "statsd/statsd",
+      "target": "underscore",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "statsd/statsd",
+      "target": "temp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-and-publish-image.yml",
+      "source_repo": "statsd/statsd",
+      "target": "docker/metadata-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-and-publish-image.yml",
+      "source_repo": "statsd/statsd",
+      "target": "docker/setup-buildx-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-and-publish-image.yml",
+      "source_repo": "statsd/statsd",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/package-and-publish-image.yml",
+      "source_repo": "statsd/statsd",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-and-publish-image.yml",
+      "source_repo": "statsd/statsd",
+      "target": "Package and publish container image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "statsd/statsd",
+      "target": "graphite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "statsd/statsd",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "statsd/statsd",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "statsd/statsd",
+      "target": "statsd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:41.504371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4917
+    },
+    {
+      "path": "Dockerfile",
+      "size": 653
+    },
+    {
+      "path": "package.json",
+      "size": 1105
+    },
+    {
+      "path": ".github/workflows/package-and-publish-image.yml",
+      "size": 1923
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Daemon for easy but powerful stats aggregation",
+    "fork": false,
+    "full_name": "statsd/statsd",
+    "html_url": "https://github.com/statsd/statsd",
+    "language": "JavaScript",
+    "pushed_at": "2025-05-20T07:22:42Z",
+    "stargazers_count": 18033,
+    "topics": [
+      "graphite",
+      "javascript",
+      "metrics",
+      "nodejs",
+      "statsd"
+    ],
+    "updated_at": "2026-04-29T19:51:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "etsy/statsd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iamcal/flickr-statsd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Package and publish container image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/package-and-publish-image.yml",
+      "term": "Package and publish container image"
+    },
+    {
+      "context_snippet": "A network daemon that runs on the [Node.js][node] platform and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphite"
+    },
+    {
+      "context_snippet": "A network daemon that runs on the [Node.js][node] platform and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "A network daemon that runs on the [Node.js][node] platform and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "A network daemon that runs on the [Node.js][node] platform and",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statsd"
+    }
+  ]
+}

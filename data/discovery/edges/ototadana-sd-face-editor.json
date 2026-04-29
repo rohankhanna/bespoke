@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ototadana/sd-face-editor",
+      "target": "vladmandic/automatic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ototadana/sd-face-editor",
+      "target": "automatic1111/stable-diffusion-webui-wildcards",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ototadana/sd-face-editor",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ototadana/sd-face-editor",
+      "target": "stable-diffusion-webui",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "ototadana/sd-face-editor"
+}

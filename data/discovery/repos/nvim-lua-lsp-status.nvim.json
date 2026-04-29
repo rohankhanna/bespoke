@@ -1,0 +1,165 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "target": "kristijanhusak/vim-packager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "target": "microsoft/python-language-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "target": "sumneko/lua-language-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "target": "neovim/nvim-lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "target": "lsp-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "target": "lsp-status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "target": "statusline",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:40:27.701260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9471
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Utility functions for getting diagnostic status and progress messages from LSP servers, for use in the Neovim statusline",
+    "fork": false,
+    "full_name": "nvim-lua/lsp-status.nvim",
+    "html_url": "https://github.com/nvim-lua/lsp-status.nvim",
+    "language": "Lua",
+    "pushed_at": "2022-08-31T15:25:20Z",
+    "stargazers_count": 657,
+    "topics": [
+      "lsp",
+      "lsp-client",
+      "lsp-status",
+      "lua",
+      "neovim",
+      "neovim-plugin",
+      "nvim",
+      "statusline"
+    ],
+    "updated_at": "2026-04-18T04:28:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kristijanhusak/vim-packager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/python-language-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neovim/nvim-lsp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sumneko/lua-language-server",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsp-client"
+    },
+    {
+      "context_snippet": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsp-status"
+    },
+    {
+      "context_snippet": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    },
+    {
+      "context_snippet": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statusline"
+    }
+  ]
+}

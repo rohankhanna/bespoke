@@ -136,6 +136,30 @@
       "source_repo": "theroyallab/tabbyAPI",
       "status": "candidate-context",
       "text": "ruff"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "567-labs/instructor",
+      "status": "candidate-context",
+      "text": "structured outputs for llms "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "567-labs/instructor",
+      "status": "candidate-context",
+      "text": "Ruff"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightricks/LTX-Video",
+      "status": "candidate-context",
+      "text": "Official repository for LTX-Video"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightricks/LTX-Video",
+      "status": "candidate-context",
+      "text": "Ruff"
     }
   ],
   "candidate_glosses": [
@@ -204,6 +228,18 @@
       "source_repo": "theroyallab/tabbyAPI",
       "status": "candidate",
       "text": "ruff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "567-labs/instructor",
+      "status": "candidate",
+      "text": "Ruff"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightricks/LTX-Video",
+      "status": "candidate",
+      "text": "Ruff"
     }
   ],
   "candidate_related_terms": [
@@ -379,11 +415,29 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/ruff.yml",
       "source_repo": "theroyallab/tabbyAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ruff-format.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "Lightricks/LTX-Video"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,17 @@
+{
+  "component": "notofonts/install-harfbuzz-action@main",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/megamerge.yaml",
+      "source_repo": "notofonts/notofonts.github.io"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "notofonts/notobuilder"
+    }
+  ]
+}

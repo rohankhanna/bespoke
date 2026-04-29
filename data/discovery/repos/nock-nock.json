@@ -206,20 +206,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "nock/nock",
-      "target": "sindresorhus/got",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nock/nock",
-      "target": "axios/axios",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nock/nock",
       "target": "all-contributors/all-contributors",
       "target_type": "repository"
     },
@@ -511,7 +497,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:07:33.552955+00:00",
+  "fetched_at": "2026-04-29T20:43:07.536468+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -558,16 +544,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "all-contributors/all-contributors",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "axios/axios",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sindresorhus/got",
       "source_file": "README.md"
     }
   ],

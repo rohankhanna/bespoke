@@ -19,6 +19,30 @@
       "source_repo": "citusdata/citus",
       "status": "candidate-context",
       "text": "| **<br/>The Citus database is 100% open source.<br/><img width=1000/><br/>Learn what's new in the [Citus 13.0 release blog](https://www.citusdata.com/blog/2025/02/06/distribute-postgresql-17-with-citus-13/) and the [Citus Updates page](https://www.citusdata.com/updates/).<br/><\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citusdata/activerecord-multi-tenant",
+      "status": "candidate-context",
+      "text": "Rails/ActiveRecord support for distributed multi-tenant databases like Postgres+Citus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/activerecord-multi-tenant",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml/badge.svg)](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml) [![codecov](https://codecov.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citusdata/citus_docs",
+      "status": "candidate-context",
+      "text": "Documentation for Citus. Distributed PostgreSQL as an extension."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/citus_docs",
+      "status": "candidate-context",
+      "text": "This is the repo that generates"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "citusdata/citus",
       "status": "candidate",
       "text": "| **<br/>The Citus database is 100% open source.<br/><img width=1000/><br/>Learn what's new in the [Citus 13.0 release blog](https://www.citusdata.com/blog/2025/02/06/distribute-postgresql-17-with-citus-13/) and the [Citus Updates page](https://www.citusdata.com/updates/).<br/><\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/activerecord-multi-tenant",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml/badge.svg)](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml) [![codecov](https://codecov.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/citus_docs",
+      "status": "candidate",
+      "text": "This is the repo that generates"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "citusdata/citus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "citusdata/activerecord-multi-tenant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "citusdata/citus_docs"
     }
   ],
   "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

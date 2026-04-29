@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "face recognition training project(pytorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dataparallel",
+      "sense_id": "dataparallel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dataparallel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dataparallel",
+  "observation_id": "619b5b1939c172b1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "dataparallel",
+  "source_context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+  "source_file": null,
+  "source_repo": "cavalleria/cavaface",
+  "source_repo_description": "face recognition training project(pytorch)"
+}

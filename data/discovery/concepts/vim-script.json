@@ -19,6 +19,30 @@
       "source_repo": "ap/vim-buftabline",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Buftabline</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate-context",
+      "text": "A comprehensive Vim utility functions for Vim plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/vim-jp/vital.vim](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vim-jp/vital.vim?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thinca/vim-themis",
+      "status": "candidate-context",
+      "text": "A testing framework for Vim script."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinca/vim-themis",
+      "status": "candidate-context",
+      "text": "themis.vim is a testing framework for Vim script."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "ap/vim-buftabline",
       "status": "candidate",
       "text": "<h1 align=\"center\">Buftabline</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/vim-jp/vital.vim](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vim-jp/vital.vim?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinca/vim-themis",
+      "status": "candidate",
+      "text": "themis.vim is a testing framework for Vim script."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ap/vim-buftabline"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vim-jp/vital.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "thinca/vim-themis"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

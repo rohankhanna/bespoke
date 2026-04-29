@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "revelc/formatter-m2e-configurator",
+      "target": "takari/m2e-discovery-catalog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "revelc/formatter-m2e-configurator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "revelc/formatter-m2e-configurator",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "revelc/formatter-m2e-configurator",
+      "target": "mvn verify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "revelc/formatter-m2e-configurator",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:45:38.605447+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2870
+    },
+    {
+      "path": ".github/workflows/maven.yaml",
+      "size": 1615
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "M2E configurator for the formatter-maven-plugin",
+    "fork": false,
+    "full_name": "revelc/formatter-m2e-configurator",
+    "html_url": "https://github.com/revelc/formatter-m2e-configurator",
+    "language": "Java",
+    "pushed_at": "2026-04-16T00:27:59Z",
+    "stargazers_count": 7,
+    "topics": [
+      "hacktoberfest"
+    ],
+    "updated_at": "2026-04-16T00:27:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "takari/m2e-discovery-catalog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "mvn verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yaml",
+      "term": "mvn verify"
+    },
+    {
+      "context_snippet": "[![mvn verify][ci_img]][ci_link]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    }
+  ]
+}

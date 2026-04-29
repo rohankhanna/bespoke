@@ -1,0 +1,12 @@
+{
+  "component": "launchdarkly/find-code-references@89a7d362d1d4b3725fe0fe0ccd0dc69e3bdcba58",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/code-references.yml",
+      "source_repo": "bitwarden/server"
+    }
+  ]
+}

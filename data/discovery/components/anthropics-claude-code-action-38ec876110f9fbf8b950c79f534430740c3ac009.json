@@ -1,0 +1,22 @@
+{
+  "component": "anthropics/claude-code-action@38ec876110f9fbf8b950c79f534430740c3ac009",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-chrome.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-pr.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app"
+    }
+  ]
+}

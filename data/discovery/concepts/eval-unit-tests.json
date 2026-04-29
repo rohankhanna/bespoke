@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Eval: Unit Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-dev",
+      "status": "candidate-context",
+      "text": "A developer CLI for working with Azure resources to build and deploy AI applications. Commands map to key workflow stages: code, build, deploy, and monitor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-dev",
+      "status": "candidate-context",
+      "text": "\"Eval: Unit Tests\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-dev",
+      "status": "candidate",
+      "text": "\"Eval: Unit Tests\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13817,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13817,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13757,
+      "status": "candidate",
+      "text": "review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13516,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13516,
+      "status": "candidate",
+      "text": "inkblot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Eval: Unit Tests",
+  "concept_id": "eval-unit-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/eval-unit.yml",
+      "source_repo": "Azure/azure-dev"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Eval: Unit Tests",
+      "sense_id": "eval-unit-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

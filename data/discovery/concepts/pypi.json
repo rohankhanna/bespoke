@@ -178,6 +178,42 @@
       "source_repo": "google-deepmind/bsuite",
       "status": "candidate-context",
       "text": "pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/twine",
+      "status": "candidate-context",
+      "text": "Utilities for interacting with PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/twine",
+      "status": "candidate-context",
+      "text": ".. |twine-version| image:: https://img.shields.io/pypi/v/twine.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/vizier",
+      "status": "candidate-context",
+      "text": "Python-based research interface for blackbox and hyperparameter optimization, based on the internal Google Vizier Service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/vizier",
+      "status": "candidate-context",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emibcn/pywisp",
+      "status": "candidate-context",
+      "text": "Access AirControl2 (API), AirOS (SSH) & Mikrotik (SSH) from the same place"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/pywisp",
+      "status": "candidate-context",
+      "text": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +300,24 @@
       "source_repo": "google-deepmind/bsuite",
       "status": "candidate",
       "text": "pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/twine",
+      "status": "candidate",
+      "text": ".. |twine-version| image:: https://img.shields.io/pypi/v/twine.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/vizier",
+      "status": "candidate",
+      "text": "pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/pywisp",
+      "status": "candidate",
+      "text": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -373,11 +427,53 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "google-deepmind/bsuite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pypa/twine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google/vizier"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/optax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "emibcn/pywisp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "google-deepmind/jraph"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "google-deepmind/bsuite"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

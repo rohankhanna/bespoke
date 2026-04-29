@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/Lumina-Accessory",
+      "target": "chinchyi/ipictures",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/Lumina-Accessory",
+      "target": "yuanshi9815/ominicontrol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/Lumina-Accessory",
+      "target": "lzyhha/visualcloze",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "Alpha-VLLM/Lumina-Accessory"
+}

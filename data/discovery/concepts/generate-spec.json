@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate spec"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/trusted-types",
+      "status": "candidate-context",
+      "text": "A browser API to prevent DOM-Based Cross Site Scripting in modern web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/trusted-types",
+      "status": "candidate-context",
+      "text": "Generate spec"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/trusted-types",
+      "status": "candidate",
+      "text": "Generate spec"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10728,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10728,
+      "status": "candidate",
+      "text": "grow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10720,
+      "status": "candidate",
+      "text": "size"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10720,
+      "status": "candidate",
+      "text": "specs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10662,
+      "status": "candidate",
+      "text": "cpa"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate spec",
+  "concept_id": "generate-spec",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generate-spec.yml",
+      "source_repo": "w3c/trusted-types"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate spec",
+      "sense_id": "generate-spec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

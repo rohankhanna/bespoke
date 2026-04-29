@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "pixel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "denisyarats/drq",
+      "status": "candidate-context",
+      "text": "DrQ: Data regularized Q"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denisyarats/drq",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of **DrQ** from"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denisyarats/drq",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of **DrQ** from"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952157,
+      "status": "candidate",
+      "text": "pel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000167,
+      "status": "candidate",
+      "text": "picture element"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048175,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048174,
+      "status": "candidate",
+      "text": "dot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20048172,
+      "status": "candidate",
+      "text": "sample"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1025,
+      "status": "candidate",
+      "text": "pel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "picture element"
+    }
+  ],
+  "canonical_name": "pixel",
+  "concept_id": "pixel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "denisyarats/drq"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pixel",
+      "sense_id": "pixel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

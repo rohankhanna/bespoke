@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Doc auto generation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jolibrain/joliGEN",
+      "status": "candidate-context",
+      "text": "Generative AI Image and Video Toolset with GANs and Diffusion for Real-World Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/joliGEN",
+      "status": "candidate-context",
+      "text": "Doc auto generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/joliGEN",
+      "status": "candidate",
+      "text": "Doc auto generation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17963,
+      "status": "candidate",
+      "text": "mri"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17963,
+      "status": "candidate",
+      "text": "scrip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17862,
+      "status": "candidate",
+      "text": "eeg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17862,
+      "status": "candidate",
+      "text": "look"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17862,
+      "status": "candidate",
+      "text": "spec"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Doc auto generation",
+  "concept_id": "doc-auto-generation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/github-actions-doc-options-update.yml",
+      "source_repo": "jolibrain/joliGEN"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Doc auto generation",
+      "sense_id": "doc-auto-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

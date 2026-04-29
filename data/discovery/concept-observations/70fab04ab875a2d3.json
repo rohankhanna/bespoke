@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Apollo iOS Development Repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"PR Subtree Push\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"PR Subtree Push\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19321,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14057,
+      "status": "candidate",
+      "text": "dequeen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14057,
+      "status": "candidate",
+      "text": "instinct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14057,
+      "status": "candidate",
+      "text": "pipe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14057,
+      "status": "candidate",
+      "text": "pipes"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PR Subtree Push",
+      "sense_id": "pr-subtree-push#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pr-subtree-push",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pr-subtree-push",
+  "observation_id": "70fab04ab875a2d3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "PR Subtree Push",
+  "source_context_snippet": "\"PR Subtree Push\"",
+  "source_file": ".github/workflows/pr-subtree-push.yml",
+  "source_repo": "apollographql/apollo-ios-dev",
+  "source_repo_description": "Apollo iOS Development Repo"
+}

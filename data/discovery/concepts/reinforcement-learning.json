@@ -475,6 +475,150 @@
       "source_repo": "hill-a/stable-baselines",
       "status": "candidate-context",
       "text": "**WARNING: This package is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documenta\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinkoff-ai/CORL",
+      "status": "candidate-context",
+      "text": "High-quality single-file implementations of SOTA Offline and Offline-to-Online RL algorithms: AWAC, BC, CQL, DT, EDAC, IQL, SAC-N, TD3+BC, LB-SAC, SPOT, Cal-QL, ReBRAC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinkoff-ai/CORL",
+      "status": "candidate-context",
+      "text": "[![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/vladkurenkov/status/1669361090550177793)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "denisyarats/drq",
+      "status": "candidate-context",
+      "text": "DrQ: Data regularized Q"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denisyarats/drq",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of **DrQ** from"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rail-berkeley/softlearning",
+      "status": "candidate-context",
+      "text": "Softlearning is a reinforcement learning framework for training maximum entropy policies in continuous domains. Includes the official implementation of the Soft Actor-Critic algorithm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rail-berkeley/softlearning",
+      "status": "candidate-context",
+      "text": "Softlearning is a deep reinforcement learning toolbox for training maximum entropy policies in continuous domains. The implementation is fairly thin and primarily optimized for our own development purposes. It utilizes the tf.keras modules for most of the model classes (e.g. pol\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inspirai/TimeChamber",
+      "status": "candidate-context",
+      "text": "A Massively Parallel Large Scale Self-Play Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inspirai/TimeChamber",
+      "status": "candidate-context",
+      "text": "****"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sail-sg/envpool",
+      "status": "candidate-context",
+      "text": "C++-based high-performance parallel environment execution engine (vectorized env) for general RL environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/envpool",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "araffin/rl-baselines-zoo",
+      "status": "candidate-context",
+      "text": "A collection of 100+ pre-trained RL agents using Stable Baselines, training and hyperparameter optimization included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "araffin/rl-baselines-zoo",
+      "status": "candidate-context",
+      "text": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bulletphysics/bullet3",
+      "status": "candidate-context",
+      "text": "Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bulletphysics/bullet3",
+      "status": "candidate-context",
+      "text": "[![Travis Build Status](https://api.travis-ci.org/bulletphysics/bullet3.png?branch=master)](https://travis-ci.org/bulletphysics/bullet3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qgallouedec/panda-gym",
+      "status": "candidate-context",
+      "text": "Set of robotic environments based on PyBullet physics engine and gymnasium."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qgallouedec/panda-gym",
+      "status": "candidate-context",
+      "text": "Set of robotic environments based on PyBullet physics engine and gymnasium."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Stable-Baselines-Team/rl-colab-notebooks",
+      "status": "candidate-context",
+      "text": "Colab notebooks part of the documentation of Stable Baselines reinforcement learning library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stable-Baselines-Team/rl-colab-notebooks",
+      "status": "candidate-context",
+      "text": "Colab notebooks part of the documentation of [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) reinforcement learning library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-sagemaker-examples",
+      "status": "candidate-context",
+      "text": "Example \ud83d\udcd3 Jupyter notebooks that demonstrate how to build, train, and deploy machine learning models using \ud83e\udde0 Amazon SageMaker. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-sagemaker-examples",
+      "status": "candidate-context",
+      "text": "![SageMaker](https://github.com/aws/amazon-sagemaker-examples/raw/main/_static/sagemaker-banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "status": "candidate-context",
+      "text": "(VillagerAgent ACL 2024) A Graph based Minecraft multi agents framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "status": "candidate-context",
+      "text": "<img src=\"img/VillagerBench.png\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OAID/AutoKernel",
+      "status": "candidate-context",
+      "text": "AutoKernel \u662f\u4e00\u4e2a\u7b80\u5355\u6613\u7528\uff0c\u4f4e\u95e8\u69db\u7684\u81ea\u52a8\u7b97\u5b50\u4f18\u5316\u5de5\u5177\uff0c\u63d0\u9ad8\u6df1\u5ea6\u5b66\u4e60\u7b97\u6cd5\u90e8\u7f72\u6548\u7387\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/AutoKernel",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -711,6 +855,78 @@
       "source_repo": "hill-a/stable-baselines",
       "status": "candidate",
       "text": "**WARNING: This package is in maintenance mode, please use [Stable-Baselines3 (SB3)](https://github.com/DLR-RM/stable-baselines3) for an up-to-date version. You can find a [migration guide](https://stable-baselines3.readthedocs.io/en/master/guide/migration.html) in SB3 documenta\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinkoff-ai/CORL",
+      "status": "candidate",
+      "text": "[![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/vladkurenkov/status/1669361090550177793)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "denisyarats/drq",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of **DrQ** from"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rail-berkeley/softlearning",
+      "status": "candidate",
+      "text": "Softlearning is a deep reinforcement learning toolbox for training maximum entropy policies in continuous domains. The implementation is fairly thin and primarily optimized for our own development purposes. It utilizes the tf.keras modules for most of the model classes (e.g. pol\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inspirai/TimeChamber",
+      "status": "candidate",
+      "text": "****"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/envpool",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "araffin/rl-baselines-zoo",
+      "status": "candidate",
+      "text": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bulletphysics/bullet3",
+      "status": "candidate",
+      "text": "[![Travis Build Status](https://api.travis-ci.org/bulletphysics/bullet3.png?branch=master)](https://travis-ci.org/bulletphysics/bullet3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qgallouedec/panda-gym",
+      "status": "candidate",
+      "text": "Set of robotic environments based on PyBullet physics engine and gymnasium."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stable-Baselines-Team/rl-colab-notebooks",
+      "status": "candidate",
+      "text": "Colab notebooks part of the documentation of [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) reinforcement learning library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-sagemaker-examples",
+      "status": "candidate",
+      "text": "![SageMaker](https://github.com/aws/amazon-sagemaker-examples/raw/main/_static/sagemaker-banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "status": "candidate",
+      "text": "<img src=\"img/VillagerBench.png\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/AutoKernel",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1006,11 +1222,101 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "hill-a/stable-baselines"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Agent-RL/ReCall"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tinkoff-ai/CORL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "denisyarats/drq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rail-berkeley/softlearning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "inspirai/TimeChamber"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sail-sg/envpool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/dm_env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "araffin/rl-baselines-zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bulletphysics/bullet3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "qgallouedec/panda-gym"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Stable-Baselines-Team/rl-colab-notebooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws/amazon-sagemaker-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OAID/AutoKernel"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

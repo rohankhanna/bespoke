@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdalisue/vim-fern-renderer-nerdfont",
+      "target": "lambdalisue/fern.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdalisue/vim-fern-renderer-nerdfont",
+      "target": "lambdalisue/nerdfont.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdalisue/vim-fern-renderer-nerdfont",
+      "target": "lambdalisue/glyph-palette.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lambdalisue/vim-fern-renderer-nerdfont",
+      "target": "lambdalisue/fern-renderer-devicons.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern-renderer-nerdfont",
+      "target": "fern-vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-fern-renderer-nerdfont",
+      "target": "nerdfont",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:41:34.303517+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 925
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83c\udf3f fern.vim plugin which add file type icon through nerdfont.vim",
+    "fork": false,
+    "full_name": "lambdalisue/vim-fern-renderer-nerdfont",
+    "html_url": "https://github.com/lambdalisue/vim-fern-renderer-nerdfont",
+    "language": "Vim Script",
+    "pushed_at": "2024-07-13T05:37:13Z",
+    "stargazers_count": 81,
+    "topics": [
+      "fern-vim-plugin",
+      "nerdfont"
+    ],
+    "updated_at": "2026-02-24T15:31:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdalisue/fern-renderer-devicons.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdalisue/fern.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdalisue/glyph-palette.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lambdalisue/nerdfont.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![fern renderer](https://img.shields.io/badge/\ud83c\udf3f%20fern-plugin-yellowgreen)](https://github.com/lambdalisue/fern.vim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fern-vim-plugin"
+    },
+    {
+      "context_snippet": "[![fern renderer](https://img.shields.io/badge/\ud83c\udf3f%20fern-plugin-yellowgreen)](https://github.com/lambdalisue/fern.vim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerdfont"
+    }
+  ]
+}

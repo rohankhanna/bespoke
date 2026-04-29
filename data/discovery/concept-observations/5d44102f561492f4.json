@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "lambdaworks offers implementations for both SNARKs and STARKs provers, along with the flexibility to leverage their individual components for constructing customized SNARKs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> From the heights of these towers of fields, forty centuries of mathematics look down on us."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> From the heights of these towers of fields, forty centuries of mathematics look down on us."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049044,
+      "status": "candidate",
+      "text": "encryption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30049018,
+      "status": "candidate",
+      "text": "encrypt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048881,
+      "status": "candidate",
+      "text": "cryptographic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048836,
+      "status": "candidate",
+      "text": "encrypted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30048735,
+      "status": "candidate",
+      "text": "cipher"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cryptography",
+      "sense_id": "cryptography#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cryptography",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cryptography",
+  "observation_id": "5d44102f561492f4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "cryptography",
+  "source_context_snippet": "> From the heights of these towers of fields, forty centuries of mathematics look down on us.",
+  "source_file": null,
+  "source_repo": "lambdaclass/lambdaworks",
+  "source_repo_description": "lambdaworks offers implementations for both SNARKs and STARKs provers, along with the flexibility to leverage their individual components for constructing customized SNARKs."
+}

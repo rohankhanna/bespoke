@@ -1,0 +1,12 @@
+{
+  "component": "apple-actions/import-codesign-certs@95e84a1a18f2bdbc5c6ab9b7f4429372e4b13a8b",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipfs/distributions"
+    }
+  ]
+}

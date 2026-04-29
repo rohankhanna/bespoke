@@ -165,6 +165,18 @@
       "source_repo": "stx-labs/connect",
       "status": "candidate-context",
       "text": "version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automate versioning and package publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
     }
   ],
   "candidate_glosses": [
@@ -245,6 +257,12 @@
       "source_repo": "stx-labs/connect",
       "status": "candidate",
       "text": "version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
     }
   ],
   "candidate_related_terms": [
@@ -444,11 +462,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "release-it/release-it"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/version.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

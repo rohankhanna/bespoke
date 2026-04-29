@@ -139,6 +139,78 @@
       "source_repo": "dwyl/flutter-todo-list-tutorial",
       "status": "candidate-context",
       "text": "Quickly learn how to setup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/javascript-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "\u2705 A step-by-step complete beginner example/tutorial for building a Todo List App (TodoMVC) from scratch in JavaScript following Test Driven Development (TDD) best practice.  \ud83c\udf31 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/javascript-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-chat-example",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac The Step-by-Step Beginners Tutorial for Building, Testing & Deploying a Chat app in Phoenix 1.7 [Latest] \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-chat-example",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-dart",
+      "status": "candidate-context",
+      "text": "\ud83c\udfafLearn the Dart programming language to build cross-platform (Mobile, Web & Desktop) Apps with Flutter!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-dart",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-istanbul",
+      "status": "candidate-context",
+      "text": ":checkered_flag: Learn how to use the Istanbul JavaScript Code Coverage Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-istanbul",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-liveview-chat-example",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac Step-by-step tutorial creates a Chat App using Phoenix LiveView including Presence, Authentication and Style with Tailwind CSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-chat-example",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR",
+      "status": "candidate-context",
+      "text": "Ray tracing examples and tutorials using VK_KHR_ray_tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR",
+      "status": "candidate-context",
+      "text": "![logo](http://nvidianews.nvidia.com/_ir/219/20157/NV_Designworks_logo_horizontal_greenblack.png)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +279,42 @@
       "source_repo": "dwyl/flutter-todo-list-tutorial",
       "status": "candidate",
       "text": "Quickly learn how to setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/javascript-todo-list-tutorial",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-chat-example",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-dart",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-istanbul",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-chat-example",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR",
+      "status": "candidate",
+      "text": "![logo](http://nvidianews.nvidia.com/_ir/219/20157/NV_Designworks_logo_horizontal_greenblack.png)"
     }
   ],
   "candidate_related_terms": [
@@ -328,11 +436,53 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/javascript-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-chat-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-istanbul"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-liveview-chat-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

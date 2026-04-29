@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "beehive-lab/docker-tornadovm",
-      "target": "intel/compute-runtime",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "beehive-lab/docker-tornadovm",
       "target": "blang/latex-docker",
       "target_type": "repository"
     },
@@ -86,7 +79,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:04:17.168166+00:00",
+  "fetched_at": "2026-04-29T20:59:31.247475+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -123,11 +116,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "blang/latex-docker",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "intel/compute-runtime",
       "source_file": "README.md"
     }
   ],

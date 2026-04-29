@@ -48,7 +48,7 @@
   "normalized_form": "posix-brackets",
   "observation_id": "f09dd7a77072affb",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "posix-brackets",
   "source_context_snippet": "> Expand POSIX bracket expressions (character classes) in glob patterns.",
   "source_file": null,

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chineseocr/darknet-ocr",
+      "target": "pjreddie/darknet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chineseocr/darknet-ocr",
+      "target": "chineseocr/opencv-for-darknet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chineseocr/darknet-ocr",
+      "target": "eragonruan/text-detection-ctpn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chineseocr/darknet-ocr",
+      "target": "tianzhi0549/ctpn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:04.410416+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1766
+    },
+    {
+      "path": "requirements.txt",
+      "size": 76
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "darknet text detect and darknet cnn ocr",
+    "fork": false,
+    "full_name": "chineseocr/darknet-ocr",
+    "html_url": "https://github.com/chineseocr/darknet-ocr",
+    "language": "C",
+    "pushed_at": "2021-10-12T22:51:12Z",
+    "stargazers_count": 1161,
+    "topics": [],
+    "updated_at": "2026-04-16T17:47:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chineseocr/opencv-for-darknet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eragonruan/text-detection-ctpn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pjreddie/darknet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tianzhi0549/ctpn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

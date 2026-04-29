@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jcpeterson/openwebtext",
+      "target": "eukaryote31/openwebtext",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:50:37.958975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4852
+    },
+    {
+      "path": "requirements.txt",
+      "size": 546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Open clone of OpenAI's unreleased WebText dataset scraper. This version uses pushshift.io files instead of the API for speed.",
+    "fork": false,
+    "full_name": "jcpeterson/openwebtext",
+    "html_url": "https://github.com/jcpeterson/openwebtext",
+    "language": "Python",
+    "pushed_at": "2022-12-08T01:37:55Z",
+    "stargazers_count": 763,
+    "topics": [],
+    "updated_at": "2026-03-31T00:41:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eukaryote31/openwebtext",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

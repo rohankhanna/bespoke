@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v6",
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "cshum/vipsgen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hintsanddist.yml",
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cog.yml",
+      "source_repo": "15r10nk/inline-snapshot"
     }
   ]
 }

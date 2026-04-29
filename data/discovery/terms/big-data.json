@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -66,6 +66,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "cython/cython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDAL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
     }
   ],
   "term": "big-data"

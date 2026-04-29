@@ -91,6 +91,54 @@
       "source_repo": "redis/redis",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/github/redis/redis/graph/badge.svg?token=6bVHb5fRuz)](https://codecov.io/github/redis/redis)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/ncnn-android-nanodet",
+      "status": "candidate-context",
+      "text": "ncnn android nanodet lightweight object detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/ncnn-android-nanodet",
+      "status": "candidate-context",
+      "text": "The NanoDet object detection"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MVIG-SJTU/AlphaPose",
+      "status": "candidate-context",
+      "text": "Real-Time and Accurate Full-Body Multi-Person Pose Estimation&Tracking System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MVIG-SJTU/AlphaPose",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-chat-example",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac The Step-by-Step Beginners Tutorial for Building, Testing & Deploying a Chat app in Phoenix 1.7 [Latest] \ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-chat-example",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/phoenix-liveview-chat-example",
+      "status": "candidate-context",
+      "text": "\ud83d\udcac Step-by-step tutorial creates a Chat App using Phoenix LiveView including Presence, Authentication and Style with Tailwind CSS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-chat-example",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "redis/redis",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/github/redis/redis/graph/badge.svg?token=6bVHb5fRuz)](https://codecov.io/github/redis/redis)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/ncnn-android-nanodet",
+      "status": "candidate",
+      "text": "The NanoDet object detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MVIG-SJTU/AlphaPose",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-chat-example",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/phoenix-liveview-chat-example",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -238,11 +310,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "redis/redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nihui/ncnn-android-nanodet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphaPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-chat-example"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/phoenix-liveview-chat-example"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

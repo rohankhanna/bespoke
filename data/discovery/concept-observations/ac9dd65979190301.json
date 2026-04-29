@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Anserini is a Lucene toolkit for reproducible information retrieval research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Anserini <img src=\"docs/anserini-logo.png\" width=\"300\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Anserini <img src=\"docs/anserini-logo.png\" width=\"300\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lucene",
+      "sense_id": "lucene#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lucene",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lucene",
+  "observation_id": "ac9dd65979190301",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "lucene",
+  "source_context_snippet": "Anserini <img src=\"docs/anserini-logo.png\" width=\"300\" />",
+  "source_file": null,
+  "source_repo": "castorini/anserini",
+  "source_repo_description": "Anserini is a Lucene toolkit for reproducible information retrieval research"
+}

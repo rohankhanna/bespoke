@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/RocketQA",
+      "target": "dense-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/RocketQA",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/RocketQA",
+      "target": "question-answering",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:51:06.131972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14572
+    },
+    {
+      "path": "requirements.txt",
+      "size": 5
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\ude80 RocketQA, dense retrieval for information retrieval and question answering, including both Chinese and English state-of-the-art models. ",
+    "fork": false,
+    "full_name": "PaddlePaddle/RocketQA",
+    "html_url": "https://github.com/PaddlePaddle/RocketQA",
+    "language": "Python",
+    "pushed_at": "2023-12-19T08:08:35Z",
+    "stargazers_count": 785,
+    "topics": [
+      "dense-retrieval",
+      "information-retrieval",
+      "nlp",
+      "question-answering"
+    ],
+    "updated_at": "2026-03-18T08:13:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=center> <img src=\"https://github.com/PaddlePaddle/RocketQA/blob/main/RocketQA_title.png\" /> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dense-retrieval"
+    },
+    {
+      "context_snippet": "<p align=center> <img src=\"https://github.com/PaddlePaddle/RocketQA/blob/main/RocketQA_title.png\" /> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "<p align=center> <img src=\"https://github.com/PaddlePaddle/RocketQA/blob/main/RocketQA_title.png\" /> </p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "question-answering"
+    }
+  ]
+}

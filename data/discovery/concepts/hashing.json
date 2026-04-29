@@ -55,6 +55,18 @@
       "source_repo": "ashvardanian/StringZilla",
       "status": "candidate-context",
       "text": "![StringZilla banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-v4.jpg?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate-context",
+      "text": "The Cryspen HACL Distribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate-context",
+      "text": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*]."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "ashvardanian/StringZilla",
       "status": "candidate",
       "text": "![StringZilla banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-v4.jpg?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate",
+      "text": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*]."
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/StringZilla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cryspen/hacl-packages"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

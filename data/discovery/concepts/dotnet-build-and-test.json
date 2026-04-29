@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "dotnet-build-and-test"
+    "dotnet-build-and-test",
+    "Dotnet Build and Test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "microsoft/semantic-kernel",
       "status": "candidate-context",
       "text": "dotnet-build-and-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate-context",
+      "text": "Whisper.net. Speech to text made simple using Whisper Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate-context",
+      "text": "Dotnet Build and Test"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "microsoft/semantic-kernel",
       "status": "candidate",
       "text": "dotnet-build-and-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate",
+      "text": "Dotnet Build and Test"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "form"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "kludge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11684,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11612,
+      "status": "candidate",
+      "text": "rugged"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "dotnet-build-and-test",
   "concept_id": "dotnet-build-and-test",
@@ -40,11 +95,23 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/dotnet-build-and-test.yml",
       "source_repo": "microsoft/semantic-kernel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codeql-github-actions.yml",
+      "source_repo": "sandrohanea/whisper.net"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "sandrohanea/whisper.net"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

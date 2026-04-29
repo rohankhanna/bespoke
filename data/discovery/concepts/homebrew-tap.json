@@ -19,6 +19,18 @@
       "source_repo": "nodenv/homebrew-nodenv",
       "status": "candidate-context",
       "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "robertgzr/homebrew-tap",
+      "status": "candidate-context",
+      "text": "useful formulae"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robertgzr/homebrew-tap",
+      "status": "candidate-context",
+      "text": "https://github.com/Homebrew/brew/blob/master/docs/Taps.md"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nodenv/homebrew-nodenv",
       "status": "candidate",
       "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/homebrew-nodenv/test.yml?label=tests&logo=github)](https://github.com/nodenv/homebrew-nodenv/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "robertgzr/homebrew-tap",
+      "status": "candidate",
+      "text": "https://github.com/Homebrew/brew/blob/master/docs/Taps.md"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "nodenv/homebrew-nodenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "robertgzr/homebrew-tap"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

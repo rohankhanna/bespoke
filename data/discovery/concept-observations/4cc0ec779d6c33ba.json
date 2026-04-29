@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A lightning-fast, cross-platform AI Assistant App built with React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991200,
+      "status": "candidate",
+      "text": "confabulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991104,
+      "status": "candidate",
+      "text": "confab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991078,
+      "status": "candidate",
+      "text": "confabulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39989179,
+      "status": "candidate",
+      "text": "chitchat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985972,
+      "status": "candidate",
+      "text": "natter"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chat",
+      "sense_id": "chat#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16042,
+      "status": "candidate",
+      "text": "chatter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13032,
+      "status": "candidate",
+      "text": "confabulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10031,
+      "status": "candidate",
+      "text": "confab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9045,
+      "status": "candidate",
+      "text": "visit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8058,
+      "status": "candidate",
+      "text": "jaw"
+    }
+  ],
+  "concept_id": "chat",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chat",
+  "observation_id": "4cc0ec779d6c33ba",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "chat",
+  "source_context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+  "source_file": null,
+  "source_repo": "aws-samples/swift-chat",
+  "source_repo_description": "A lightning-fast, cross-platform AI Assistant App built with React Native."
+}

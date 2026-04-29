@@ -235,6 +235,54 @@
       "source_repo": "ymcui/Chinese-BERT-wwm",
       "status": "candidate-context",
       "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/tokenizers",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5 Fast State-of-the-Art Tokenizers optimized for Research and Production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/tokenizers",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate-context",
+      "text": "A Unified Library for Parameter-Efficient and Modular Transfer Learning "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airaria/TextBrewer",
+      "status": "candidate-context",
+      "text": "A PyTorch-based knowledge distillation toolkit for natural language processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airaria/TextBrewer",
+      "status": "candidate-context",
+      "text": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "Easy-to-use and powerful LLM and SLM library with awesome model zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +399,30 @@
       "source_repo": "ymcui/Chinese-BERT-wwm",
       "status": "candidate",
       "text": "[**\u4e2d\u6587\u8bf4\u660e**](https://github.com/ymcui/Chinese-BERT-wwm/) | [**English**](https://github.com/ymcui/Chinese-BERT-wwm/blob/master/README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/tokenizers",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airaria/TextBrewer",
+      "status": "candidate",
+      "text": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate",
+      "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
     }
   ],
   "candidate_related_terms": [
@@ -514,11 +586,41 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "ymcui/Chinese-BERT-wwm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PlayVoice/vits_chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/tokenizers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adapter-hub/adapters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "airaria/TextBrewer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

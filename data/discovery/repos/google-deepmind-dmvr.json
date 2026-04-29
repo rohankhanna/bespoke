@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:52:12.157221+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4431
+    },
+    {
+      "path": "requirements.txt",
+      "size": 63
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "google-deepmind/dmvr",
+    "html_url": "https://github.com/google-deepmind/dmvr",
+    "language": "Python",
+    "pushed_at": "2022-11-03T08:54:51Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2025-10-31T02:11:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,7 +1,7 @@
 {
   "component": "astral-sh/setup-uv@6b9c6063abd6010835644d4c2e1bef4cf5cd0fca",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/integration-tests.yml",
       "source_repo": "ogx-ai/llama-stack-client-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "ogx-ai/ogx-client-python"
     }
   ]
 }

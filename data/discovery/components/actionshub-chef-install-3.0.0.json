@@ -1,0 +1,27 @@
+{
+  "component": "actionshub/chef-install@3.0.0",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-x64.yml",
+      "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-hyperv-x64.yml",
+      "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-arm64.yml",
+      "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-x64.yml",
+      "source_repo": "chef/bento"
+    }
+  ]
+}

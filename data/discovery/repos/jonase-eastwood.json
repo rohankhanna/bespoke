@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonase/eastwood",
+      "target": "clojure/java.jdbc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonase/eastwood",
+      "target": "clojure/core.cache",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonase/eastwood",
+      "target": "clojure/core.memoize",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonase/eastwood",
+      "target": "clojure/data.priority-map",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:58:32.391871+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 93130
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clojure lint tool",
+    "fork": false,
+    "full_name": "jonase/eastwood",
+    "html_url": "https://github.com/jonase/eastwood",
+    "language": "Clojure",
+    "pushed_at": "2024-07-10T21:23:02Z",
+    "stargazers_count": 1083,
+    "topics": [],
+    "updated_at": "2026-04-18T10:06:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/core.cache",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/core.memoize",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/data.priority-map",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure/java.jdbc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

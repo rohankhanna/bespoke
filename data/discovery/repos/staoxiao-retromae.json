@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "staoxiao/RetroMAE",
+      "target": "information-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "staoxiao/RetroMAE",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "staoxiao/RetroMAE",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "staoxiao/RetroMAE",
+      "target": "text-embedding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:50:46.722836+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4737
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Codebase for RetroMAE and beyond.",
+    "fork": false,
+    "full_name": "staoxiao/RetroMAE",
+    "html_url": "https://github.com/staoxiao/RetroMAE",
+    "language": "Python",
+    "pushed_at": "2024-06-07T10:45:29Z",
+    "stargazers_count": 273,
+    "topics": [
+      "information-retrieval",
+      "language-model",
+      "pretrained-models",
+      "text-embedding"
+    ],
+    "updated_at": "2026-03-29T07:09:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Codebase for **[RetroMAE](https://arxiv.org/abs/2205.12035)** and beyond.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-retrieval"
+    },
+    {
+      "context_snippet": "Codebase for **[RetroMAE](https://arxiv.org/abs/2205.12035)** and beyond.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "Codebase for **[RetroMAE](https://arxiv.org/abs/2205.12035)** and beyond.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "Codebase for **[RetroMAE](https://arxiv.org/abs/2205.12035)** and beyond.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-embedding"
+    }
+  ]
+}

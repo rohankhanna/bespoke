@@ -110,6 +110,30 @@
       "source_repo": "folke/lazydev.nvim",
       "status": "candidate-context",
       "text": "PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/trouble.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udea6 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/trouble.nvim",
+      "status": "candidate-context",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matter-labs/zksync-airbender",
+      "status": "candidate-context",
+      "text": "RISC-V prover system for ZKsync OS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync-airbender",
+      "status": "candidate-context",
+      "text": "PR title"
     }
   ],
   "candidate_glosses": [
@@ -166,6 +190,18 @@
       "source_repo": "folke/lazydev.nvim",
       "status": "candidate",
       "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/trouble.nvim",
+      "status": "candidate",
+      "text": "PR Title"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync-airbender",
+      "status": "candidate",
+      "text": "PR title"
     }
   ],
   "candidate_related_terms": [
@@ -269,11 +305,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "folke/lazydev.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "folke/trouble.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr-title.yml",
+      "source_repo": "matter-labs/zksync-airbender"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

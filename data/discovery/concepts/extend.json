@@ -31,6 +31,18 @@
       "source_repo": "jonschlinkert/assign-deep",
       "status": "candidate-context",
       "text": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "status": "candidate-context",
+      "text": "Deeply mix the properties of objects into the first object, while also mixing-in child objects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "status": "candidate-context",
+      "text": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "jonschlinkert/assign-deep",
       "status": "candidate",
       "text": "> Deeply assign the values of all enumerable-own-properties and symbols from one or more source objects to a target object. Returns the target object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "status": "candidate",
+      "text": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies."
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "jonschlinkert/assign-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/mixin-deep"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

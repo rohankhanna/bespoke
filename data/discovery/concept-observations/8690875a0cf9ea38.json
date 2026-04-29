@@ -84,7 +84,7 @@
   "normalized_form": "ci---linux-x64-clang-debug",
   "observation_id": "8690875a0cf9ea38",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "CI - Linux x64 clang debug",
   "source_context_snippet": "CI - Linux x64 clang debug",
   "source_file": ".github/workflows/ci_linux_x64_clang_debug.yml",

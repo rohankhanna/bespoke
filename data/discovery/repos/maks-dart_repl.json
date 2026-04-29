@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "maks/dart_repl",
+      "target": "blackhc/dart_repl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "maks/dart_repl",
+      "target": "ajinasokan/recharge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "maks/dart_repl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "maks/dart_repl",
+      "target": "dart-lang/setup-dart@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "maks/dart_repl",
+      "target": "Dart",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:43:41.603862+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2778
+    },
+    {
+      "path": ".github/workflows/dart.yml",
+      "size": 1250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "maks/dart_repl",
+    "html_url": "https://github.com/maks/dart_repl",
+    "language": "Dart",
+    "pushed_at": "2022-12-23T05:38:17Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2024-10-24T11:03:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ajinasokan/recharge",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blackhc/dart_repl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dart",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dart.yml",
+      "term": "Dart"
+    }
+  ]
+}

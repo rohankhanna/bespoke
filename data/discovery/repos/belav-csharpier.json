@@ -1,0 +1,472 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidatePullRequest.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidatePullRequest.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidatePullRequest.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidatePullRequest.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidatePullRequest.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidatePullRequest.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidatePullRequest.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidatePullRequest.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidatePullRequest.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidatePullRequest.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_playground.yml"
+    },
+    {
+      "component": "dokku/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_playground.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_website.yml"
+    },
+    {
+      "component": "dokku/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_website.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_repositories.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_repositories.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_repositories.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_beta.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_beta.yml"
+    },
+    {
+      "component": "gittools/actions/gitversion/setup@v3.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_beta.yml"
+    },
+    {
+      "component": "gittools/actions/gitversion/execute@v3.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_beta.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_nuget.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_nuget.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_nuget.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_nuget.yml"
+    },
+    {
+      "component": "alirezanet/publish-nuget@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_nuget.yml"
+    },
+    {
+      "component": "alirezanet/publish-nuget@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_nuget.yml"
+    },
+    {
+      "component": "alirezanet/publish-nuget@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_nuget.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "belav/csharpier",
+      "target": "aws/dotnet-foss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidatePullRequest.yml",
+      "source_repo": "belav/csharpier",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ValidatePullRequest.yml",
+      "source_repo": "belav/csharpier",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ValidatePullRequest.yml",
+      "source_repo": "belav/csharpier",
+      "target": "Validate Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign_issue.yml",
+      "source_repo": "belav/csharpier",
+      "target": "Assign Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_playground.yml",
+      "source_repo": "belav/csharpier",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_playground.yml",
+      "source_repo": "belav/csharpier",
+      "target": "dokku/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_playground.yml",
+      "source_repo": "belav/csharpier",
+      "target": "Deploy Playground",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_website.yml",
+      "source_repo": "belav/csharpier",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_website.yml",
+      "source_repo": "belav/csharpier",
+      "target": "dokku/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_website.yml",
+      "source_repo": "belav/csharpier",
+      "target": "Deploy Website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_repositories.yml",
+      "source_repo": "belav/csharpier",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_repositories.yml",
+      "source_repo": "belav/csharpier",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_repositories.yml",
+      "source_repo": "belav/csharpier",
+      "target": "Format Repositories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_beta.yml",
+      "source_repo": "belav/csharpier",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_beta.yml",
+      "source_repo": "belav/csharpier",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_beta.yml",
+      "source_repo": "belav/csharpier",
+      "target": "gittools/actions/gitversion/setup@v3.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_beta.yml",
+      "source_repo": "belav/csharpier",
+      "target": "gittools/actions/gitversion/execute@v3.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_beta.yml",
+      "source_repo": "belav/csharpier",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_nuget.yml",
+      "source_repo": "belav/csharpier",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_nuget.yml",
+      "source_repo": "belav/csharpier",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_nuget.yml",
+      "source_repo": "belav/csharpier",
+      "target": "alirezanet/publish-nuget@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_nuget.yml",
+      "source_repo": "belav/csharpier",
+      "target": "Publish Nuget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "belav/csharpier",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "belav/csharpier",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "belav/csharpier",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "belav/csharpier",
+      "target": "prettier",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:01:21.822880+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2203
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1568
+    },
+    {
+      "path": ".github/workflows/ValidatePullRequest.yml",
+      "size": 1992
+    },
+    {
+      "path": ".github/workflows/ValidatePullRequest_CheckTodos.ps1",
+      "size": 2121
+    },
+    {
+      "path": ".github/workflows/assign_issue.yml",
+      "size": 940
+    },
+    {
+      "path": ".github/workflows/deploy_playground.yml",
+      "size": 494
+    },
+    {
+      "path": ".github/workflows/deploy_website.yml",
+      "size": 492
+    },
+    {
+      "path": ".github/workflows/format_repositories.yml",
+      "size": 697
+    },
+    {
+      "path": ".github/workflows/publish_beta.yml",
+      "size": 844
+    },
+    {
+      "path": ".github/workflows/publish_nuget.yml",
+      "size": 1249
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CSharpier is an opinionated code formatter for c#.",
+    "fork": false,
+    "full_name": "belav/csharpier",
+    "html_url": "https://github.com/belav/csharpier",
+    "language": "C#",
+    "pushed_at": "2026-04-26T14:51:00Z",
+    "stargazers_count": 2202,
+    "topics": [
+      "csharp",
+      "dotnet",
+      "formatter",
+      "prettier"
+    ],
+    "updated_at": "2026-04-29T18:12:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws/dotnet-foss",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Validate Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ValidatePullRequest.yml",
+      "term": "Validate Pull Request"
+    },
+    {
+      "context_snippet": "Assign Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign_issue.yml",
+      "term": "Assign Issue"
+    },
+    {
+      "context_snippet": "Deploy Playground",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_playground.yml",
+      "term": "Deploy Playground"
+    },
+    {
+      "context_snippet": "Deploy Website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_website.yml",
+      "term": "Deploy Website"
+    },
+    {
+      "context_snippet": "Format Repositories",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_repositories.yml",
+      "term": "Format Repositories"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_beta.yml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "Publish Nuget",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_nuget.yml",
+      "term": "Publish Nuget"
+    },
+    {
+      "context_snippet": "![CSharpier](./banner.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "![CSharpier](./banner.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "![CSharpier](./banner.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "![CSharpier](./banner.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prettier"
+    }
+  ]
+}

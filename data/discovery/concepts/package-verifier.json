@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Package Verifier"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fontsource/font-files",
+      "status": "candidate-context",
+      "text": "2000+ open-source fonts bundled into neat packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fontsource/font-files",
+      "status": "candidate-context",
+      "text": "Package Verifier"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fontsource/font-files",
+      "status": "candidate",
+      "text": "Package Verifier"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15188,
+      "status": "candidate",
+      "text": "dna"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15188,
+      "status": "candidate",
+      "text": "ref"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14694,
+      "status": "candidate",
+      "text": "enclose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14574,
+      "status": "candidate",
+      "text": "anticipate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14574,
+      "status": "candidate",
+      "text": "arrest"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Package Verifier",
+  "concept_id": "package-verifier",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "fontsource/font-files"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Package Verifier",
+      "sense_id": "package-verifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

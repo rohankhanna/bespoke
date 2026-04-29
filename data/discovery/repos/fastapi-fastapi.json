@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/build-docs.yml"
     },
     {
-      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/build-docs.yml"
     },
     {
-      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml"
     },
@@ -71,7 +71,7 @@
       "source_file": ".github/workflows/contributors.yml"
     },
     {
-      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/contributors.yml"
     },
@@ -96,7 +96,7 @@
       "source_file": ".github/workflows/deploy-docs.yml"
     },
     {
-      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs.yml"
     },
@@ -131,7 +131,7 @@
       "source_file": ".github/workflows/label-approved.yml"
     },
     {
-      "component": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/label-approved.yml"
     },
@@ -151,21 +151,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fastapi/fastapi",
-      "target": "hugapi/hug",
+      "target": "scalar/scalar",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fastapi/fastapi",
-      "target": "joshdata/python-email-validator",
+      "target": "rebilly/redoc",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "fastapi/fastapi",
-      "target": "ijl/orjson",
+      "target": "kludex/python-multipart",
       "target_type": "repository"
     },
     {
@@ -214,7 +214,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-docs.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -263,7 +263,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/contributors.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -305,7 +305,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/deploy-docs.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -375,7 +375,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/label-approved.yml",
       "source_repo": "fastapi/fastapi",
-      "target": "astral-sh/setup-uv@37802adc94f370d6bfd71619e3f0bf239e1f3b78",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -526,7 +526,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:19:16.792906+00:00",
+  "fetched_at": "2026-04-29T20:51:04.744281+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -578,8 +578,8 @@
     "full_name": "fastapi/fastapi",
     "html_url": "https://github.com/fastapi/fastapi",
     "language": "Python",
-    "pushed_at": "2026-04-22T13:11:12Z",
-    "stargazers_count": 97536,
+    "pushed_at": "2026-04-29T12:22:44Z",
+    "stargazers_count": 97763,
     "topics": [
       "api",
       "async",
@@ -602,7 +602,7 @@
       "uvicorn",
       "web"
     ],
-    "updated_at": "2026-04-23T01:08:46Z"
+    "updated_at": "2026-04-29T20:24:50Z"
   },
   "repo_links": [
     {
@@ -612,17 +612,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hugapi/hug",
+      "full_name": "kludex/python-multipart",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ijl/orjson",
+      "full_name": "rebilly/redoc",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "joshdata/python-email-validator",
+      "full_name": "scalar/scalar",
       "source_file": "README.md"
     }
   ],

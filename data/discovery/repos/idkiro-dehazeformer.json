@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDKiro/DehazeFormer",
+      "target": "idkiro/mct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDKiro/DehazeFormer",
+      "target": "idkiro/gunet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDKiro/DehazeFormer",
+      "target": "liuh127/ntire-2021-dehazing-two-branch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDKiro/DehazeFormer",
+      "target": "zhuqinghe/rs-haze",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDKiro/DehazeFormer",
+      "target": "image-dehazing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDKiro/DehazeFormer",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:51:15.909020+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5903
+    },
+    {
+      "path": "requirements.txt",
+      "size": 78
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Vision Transformers for Single Image Dehazing",
+    "fork": false,
+    "full_name": "IDKiro/DehazeFormer",
+    "html_url": "https://github.com/IDKiro/DehazeFormer",
+    "language": "Python",
+    "pushed_at": "2024-08-18T05:32:04Z",
+    "stargazers_count": 568,
+    "topics": [
+      "image-dehazing",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-04-28T15:53:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idkiro/gunet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idkiro/mct",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuh127/ntire-2021-dehazing-two-branch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhuqinghe/rs-haze",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Demo](https://img.shields.io/badge/Demo-Hugging%20Face-gold)](https://huggingface.co/spaces/IDKiro/DehazeFormer_Demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-dehazing"
+    },
+    {
+      "context_snippet": "[![Demo](https://img.shields.io/badge/Demo-Hugging%20Face-gold)](https://huggingface.co/spaces/IDKiro/DehazeFormer_Demo)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

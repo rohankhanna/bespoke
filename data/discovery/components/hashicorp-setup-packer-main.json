@@ -1,7 +1,7 @@
 {
   "component": "hashicorp/setup-packer@main",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "dokku/dokku"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_image.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-arm64.yml",
+      "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-x64.yml",
+      "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-hyperv-x64.yml",
+      "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-arm64.yml",
+      "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-x64.yml",
+      "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-arm64.yml",
+      "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-x64.yml",
+      "source_repo": "chef/bento"
     }
   ]
 }

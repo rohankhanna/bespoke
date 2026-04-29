@@ -1,0 +1,83 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ototadana/sd-face-editor",
+      "target": "vladmandic/automatic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ototadana/sd-face-editor",
+      "target": "automatic1111/stable-diffusion-webui-wildcards",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ototadana/sd-face-editor",
+      "target": "stable-diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ototadana/sd-face-editor",
+      "target": "stable-diffusion-webui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:47:49.675706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23781
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Face Editor for Stable Diffusion",
+    "fork": false,
+    "full_name": "ototadana/sd-face-editor",
+    "html_url": "https://github.com/ototadana/sd-face-editor",
+    "language": "Python",
+    "pushed_at": "2024-09-15T23:51:41Z",
+    "stargazers_count": 1077,
+    "topics": [
+      "stable-diffusion",
+      "stable-diffusion-webui"
+    ],
+    "updated_at": "2026-04-20T14:10:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "automatic1111/stable-diffusion-webui-wildcards",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vladmandic/automatic",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Face Editor for Stable Diffusion. This Extension is useful for the following purposes:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion"
+    },
+    {
+      "context_snippet": "Face Editor for Stable Diffusion. This Extension is useful for the following purposes:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-webui"
+    }
+  ]
+}

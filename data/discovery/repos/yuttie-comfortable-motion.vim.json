@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "target": "kiwanami/emacs-inertial-scroll",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "target": "physical-based",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "target": "smooth-scrolling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:39:17.405711+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4324
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Brings physics-based smooth scrolling to the Vim world!",
+    "fork": false,
+    "full_name": "yuttie/comfortable-motion.vim",
+    "html_url": "https://github.com/yuttie/comfortable-motion.vim",
+    "language": "Vim script",
+    "pushed_at": "2022-08-11T10:57:47Z",
+    "stargazers_count": 642,
+    "topics": [
+      "neovim",
+      "physical-based",
+      "plugin",
+      "smooth-scrolling",
+      "vim"
+    ],
+    "updated_at": "2026-03-28T09:33:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kiwanami/emacs-inertial-scroll",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Brings physics-based smooth scrolling to the Vim/Neovim world!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Brings physics-based smooth scrolling to the Vim/Neovim world!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physical-based"
+    },
+    {
+      "context_snippet": "Brings physics-based smooth scrolling to the Vim/Neovim world!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "Brings physics-based smooth scrolling to the Vim/Neovim world!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smooth-scrolling"
+    }
+  ]
+}

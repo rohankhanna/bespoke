@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/deploy-pr-preview.yml",
       "source_repo": "grafana/loki"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pr-deploy.yml",
+      "source_repo": "serverless/aws-ai-stack"
     }
   ],
   "term": "Deploy pr preview"

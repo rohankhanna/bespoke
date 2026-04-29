@@ -391,6 +391,78 @@
       "source_repo": "datwaft/bubbly.nvim",
       "status": "candidate-context",
       "text": "Bubbly statusline for neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate-context",
+      "text": "Utility functions for getting diagnostic status and progress messages from LSP servers, for use in the Neovim statusline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate-context",
+      "text": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scalameta/nvim-metals",
+      "status": "candidate-context",
+      "text": "A Metals plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalameta/nvim-metals",
+      "status": "candidate-context",
+      "text": "![nvim-metals logo](https://i.imgur.com/7gqEQOi.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin to improve the default vim.ui interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "status": "candidate-context",
+      "text": "A (N)Vim plugin for formatting Julia code using JuliaFormatter.jl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "status": "candidate-context",
+      "text": "Plugin for formatting Julia code in (n)vim using [`JuliaFormatter.jl`](https://github.com/domluna/JuliaFormatter.jl)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/deoppet.nvim",
+      "status": "candidate-context",
+      "text": "The dark powered snippet plugin for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/deoppet.nvim",
+      "status": "candidate-context",
+      "text": "**Note**: Active developement on denippet.nvim has stopped. The only future"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aileot/vim-foldpeek",
+      "status": "candidate-context",
+      "text": "Peek in fold"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aileot/vim-foldpeek",
+      "status": "candidate-context",
+      "text": "vim-foldpeek starts from a partial fork of"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +657,42 @@
       "source_repo": "datwaft/bubbly.nvim",
       "status": "candidate",
       "text": "Bubbly statusline for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate",
+      "text": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalameta/nvim-metals",
+      "status": "candidate",
+      "text": "![nvim-metals logo](https://i.imgur.com/7gqEQOi.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "status": "candidate",
+      "text": "Plugin for formatting Julia code in (n)vim using [`JuliaFormatter.jl`](https://github.com/domluna/JuliaFormatter.jl)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/deoppet.nvim",
+      "status": "candidate",
+      "text": "**Note**: Active developement on denippet.nvim has stopped. The only future"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aileot/vim-foldpeek",
+      "status": "candidate",
+      "text": "vim-foldpeek starts from a partial fork of"
     }
   ],
   "candidate_related_terms": [],
@@ -796,11 +904,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "datwaft/bubbly.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvim-lua/lsp-status.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "scalameta/nvim-metals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/dressing.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kdheepak/JuliaFormatter.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/deoppet.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

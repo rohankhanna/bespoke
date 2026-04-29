@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Doing Bayesian Data Analysis, 2nd Edition (Kruschke, 2015): Python/PyMC3 code "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bayesian-data-analysis",
+      "sense_id": "bayesian-data-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bayesian-data-analysis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bayesian-data-analysis",
+  "observation_id": "06284c40f7c327e6",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "bayesian-data-analysis",
+  "source_context_snippet": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026",
+  "source_file": null,
+  "source_repo": "JWarmenhoven/DBDA-python",
+  "source_repo_description": "Doing Bayesian Data Analysis, 2nd Edition (Kruschke, 2015): Python/PyMC3 code "
+}

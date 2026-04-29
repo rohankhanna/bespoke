@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bitwarden infrastructure/backend (API, database, Docker, etc)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Load test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Load test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36662,
+      "status": "candidate",
+      "text": "stress test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36661,
+      "status": "candidate",
+      "text": "stress testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36660,
+      "status": "candidate",
+      "text": "test run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36659,
+      "status": "candidate",
+      "text": "load up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36658,
+      "status": "candidate",
+      "text": "loadings"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Load test",
+      "sense_id": "load-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "load-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "load-test",
+  "observation_id": "9a925a354dedc444",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Load test",
+  "source_context_snippet": "Load test",
+  "source_file": ".github/workflows/load-test.yml",
+  "source_repo": "bitwarden/server",
+  "source_repo_description": "Bitwarden infrastructure/backend (API, database, Docker, etc)."
+}

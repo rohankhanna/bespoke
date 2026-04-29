@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:44:48.425325+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 428
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Download Datasets and Ground Truths:  https://github.com/TuSimple/tusimple-benchmark/issues/3",
+    "fork": false,
+    "full_name": "TuSimple/tusimple-benchmark",
+    "html_url": "https://github.com/TuSimple/tusimple-benchmark",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-05-28T18:08:53Z",
+    "stargazers_count": 591,
+    "topics": [],
+    "updated_at": "2026-04-28T00:26:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

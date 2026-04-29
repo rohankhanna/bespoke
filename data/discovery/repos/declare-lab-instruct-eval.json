@@ -12,21 +12,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "declare-lab/instruct-eval",
-      "target": "declare-lab/resta",
+      "target": "declare-lab/tango",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "declare-lab/instruct-eval",
-      "target": "declare-lab/red-instruct",
+      "target": "laion-ai/open-assistant",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "declare-lab/instruct-eval",
-      "target": "declare-lab/flan-alpaca",
+      "target": "stability-ai/stablelm",
       "target_type": "repository"
     },
     {
@@ -37,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T06:49:22.182609+00:00",
+  "fetched_at": "2026-04-29T20:47:58.640022+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -68,22 +68,22 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "declare-lab/flan-alpaca",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "declare-lab/puzzle-reasoning",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "declare-lab/red-instruct",
+      "full_name": "declare-lab/tango",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "declare-lab/resta",
+      "full_name": "laion-ai/open-assistant",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/stablelm",
       "source_file": "README.md"
     }
   ],

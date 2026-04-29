@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:49:23.389224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4841
+    },
+    {
+      "path": "requirements.txt",
+      "size": 4310
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Using open source LLMs to build synthetic datasets for direct preference optimization ",
+    "fork": false,
+    "full_name": "davanstrien/haiku-dpo",
+    "html_url": "https://github.com/davanstrien/haiku-dpo",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-02-29T13:44:40Z",
+    "stargazers_count": 72,
+    "topics": [],
+    "updated_at": "2026-03-26T16:07:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

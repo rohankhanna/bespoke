@@ -2,7 +2,8 @@
   "aliases": [
     "CI-windows",
     "CI (Windows)",
-    "CI-Windows"
+    "CI-Windows",
+    "CI Windows"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -45,6 +46,18 @@
       "source_repo": "PaddlePaddle/Paddle",
       "status": "candidate-context",
       "text": "CI-Windows"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "status": "candidate-context",
+      "text": "Cross-Platform Level Editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "status": "candidate-context",
+      "text": "CI Windows"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +78,12 @@
       "source_repo": "PaddlePaddle/Paddle",
       "status": "candidate",
       "text": "CI-Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "status": "candidate",
+      "text": "CI Windows"
     }
   ],
   "candidate_related_terms": [
@@ -102,6 +121,41 @@
       "score": 6364,
       "status": "candidate",
       "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14408,
+      "status": "candidate",
+      "text": "ci-devant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13746,
+      "status": "candidate",
+      "text": "thousand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13124,
+      "status": "candidate",
+      "text": "eve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13124,
+      "status": "candidate",
+      "text": "pole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10676,
+      "status": "candidate",
+      "text": "curie"
     }
   ],
   "candidate_synonyms": [],
@@ -126,11 +180,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/CI-Windows.yml",
       "source_repo": "PaddlePaddle/Paddle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci-windows.yml",
+      "source_repo": "TrenchBroom/TrenchBroom"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

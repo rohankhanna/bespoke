@@ -1,7 +1,7 @@
 {
   "component": "actions/stale@v8",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -92,6 +92,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "octodns/octodns"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-issues.yml",
+      "source_repo": "wojtekmaj/react-pdf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "adapter-hub/adapters"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "chawyehsu/nvm-windows"
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A community space to share fully working and production ready Apollo Connectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository is for builders to share API connectors to help accelerate the community with rich starting points. The basic workflow functionality below can help a builder get a new project started in seconds with a fantastic developer experience."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository is for builders to share API connectors to help accelerate the community with rich starting points. The basic workflow functionality below can help a builder get a new project started in seconds with a fantastic developer experience."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29721949,
+      "status": "candidate",
+      "text": "coordination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29713891,
+      "status": "candidate",
+      "text": "focal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29708887,
+      "status": "candidate",
+      "text": "coordinated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29708093,
+      "status": "candidate",
+      "text": "coordinating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29707769,
+      "status": "candidate",
+      "text": "organization"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "orchestration",
+      "sense_id": "orchestration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "orchestration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "orchestration",
+  "observation_id": "06091316e804acbb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "orchestration",
+  "source_context_snippet": "This repository is for builders to share API connectors to help accelerate the community with rich starting points. The basic workflow functionality below can help a builder get a new project started in seconds with a fantastic developer experience.",
+  "source_file": null,
+  "source_repo": "apollographql/connectors-community",
+  "source_repo_description": "A community space to share fully working and production ready Apollo Connectors"
+}

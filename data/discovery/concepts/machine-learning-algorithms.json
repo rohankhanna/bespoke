@@ -19,6 +19,42 @@
       "source_repo": "rapidsai/cuml",
       "status": "candidate-context",
       "text": "cuML is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other [RAPIDS](https://rapids.ai/) projects."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneDAL",
+      "status": "candidate-context",
+      "text": "oneAPI Data Analytics Library (oneDAL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDAL",
+      "status": "candidate-context",
+      "text": "\ufeff<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate-context",
+      "text": " Extension for Scikit-learn is a seamless way to speed up your Scikit-learn application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amzn/pecos",
+      "status": "candidate-context",
+      "text": "PECOS - Prediction for Enormous and Correlated Spaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/pecos",
+      "status": "candidate-context",
+      "text": "[![PyPi Latest Release](https://img.shields.io/pypi/v/libpecos)](https://img.shields.io/pypi/v/libpecos)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "rapidsai/cuml",
       "status": "candidate",
       "text": "cuML is a suite of libraries that implement machine learning algorithms and mathematical primitives functions that share compatible APIs with other [RAPIDS](https://rapids.ai/) projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDAL",
+      "status": "candidate",
+      "text": "\ufeff<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/pecos",
+      "status": "candidate",
+      "text": "[![PyPi Latest Release](https://img.shields.io/pypi/v/libpecos)](https://img.shields.io/pypi/v/libpecos)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "rapidsai/cuml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDAL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "amzn/pecos"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

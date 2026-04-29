@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -163,6 +165,42 @@
       "source_repo": "ocurrent/ocurrent",
       "status": "candidate-context",
       "text": "[![OCaml-CI Build Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fci.ocamllabs.io%2Fbadge%2Focurrent%2Focurrent%2Fmaster&logo=ocaml)](https://ci.ocamllabs.io/github/ocurrent/ocurrent)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate-context",
+      "text": "The Cryspen HACL Distribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate-context",
+      "text": "ocaml"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FStarLang/FStar",
+      "status": "candidate-context",
+      "text": "A Proof-oriented Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/FStar",
+      "status": "candidate-context",
+      "text": "F*: A Proof-oriented Programming Language"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +281,24 @@
       "source_repo": "ocurrent/ocurrent",
       "status": "candidate",
       "text": "[![OCaml-CI Build Status](https://img.shields.io/endpoint?url=https%3A%2F%2Fci.ocamllabs.io%2Fbadge%2Focurrent%2Focurrent%2Fmaster&logo=ocaml)](https://ci.ocamllabs.io/github/ocurrent/ocurrent)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate",
+      "text": "ocaml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/FStar",
+      "status": "candidate",
+      "text": "F*: A Proof-oriented Programming Language"
     }
   ],
   "candidate_related_terms": [
@@ -436,11 +492,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "extism/extism"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ocaml.yml",
+      "source_repo": "cryspen/hacl-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

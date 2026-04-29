@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official AWS SDK for Java - Version 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "API Surface Area Review Verification"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "API Surface Area Review Verification"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 45726,
+      "status": "candidate",
+      "text": "examination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44501,
+      "status": "candidate",
+      "text": "land"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43809,
+      "status": "candidate",
+      "text": "process"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43301,
+      "status": "candidate",
+      "text": "slick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43251,
+      "status": "candidate",
+      "text": "level"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "API Surface Area Review Verification",
+      "sense_id": "api-surface-area-review-verification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "api-surface-area-review-verification",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "api-surface-area-review-verification",
+  "observation_id": "b4368d81c0c2fa44",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "API Surface Area Review Verification",
+  "source_context_snippet": "API Surface Area Review Verification",
+  "source_file": ".github/workflows/api-surface-area-review-verification.yml",
+  "source_repo": "aws/aws-sdk-java-v2",
+  "source_repo_description": "The official AWS SDK for Java - Version 2"
+}

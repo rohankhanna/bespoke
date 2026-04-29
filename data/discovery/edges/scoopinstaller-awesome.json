@@ -4,6 +4,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Awesome",
+      "target": "kodybrown/scoop-nirsoft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ScoopInstaller/Awesome",
       "target": "ash258/scoop-jetbrains",
       "target_type": "repository"
     },
@@ -12,13 +19,6 @@
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Awesome",
       "target": "h404bi/dorado",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ScoopInstaller/Awesome",
-      "target": "hermanjustnu/scoop-emulators",
       "target_type": "repository"
     },
     {
@@ -64,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "ScoopInstaller/Awesome"
 }

@@ -1,0 +1,22 @@
+{
+  "component": "regclient/actions/regctl-installer@f3c6d87835906c175eb6ccfc18b348b69bb447e7",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly_build.yaml",
+      "source_repo": "spiffe/spire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml",
+      "source_repo": "spiffe/spire"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_build.yaml",
+      "source_repo": "spiffe/spire"
+    }
+  ]
+}

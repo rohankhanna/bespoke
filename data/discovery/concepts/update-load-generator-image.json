@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Load-Generator Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-observability/aws-otel-test-framework",
+      "status": "candidate-context",
+      "text": "AWS Distro for OpenTelemetry Test Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-test-framework",
+      "status": "candidate-context",
+      "text": "Update Load-Generator Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-test-framework",
+      "status": "candidate",
+      "text": "Update Load-Generator Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12302,
+      "status": "candidate",
+      "text": "refresh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12302,
+      "status": "candidate",
+      "text": "refreshed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12258,
+      "status": "candidate",
+      "text": "presentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12247,
+      "status": "candidate",
+      "text": "section"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11280,
+      "status": "candidate",
+      "text": "amend"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Load-Generator Image",
+  "concept_id": "update-load-generator-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update-load-generator-image.yml",
+      "source_repo": "aws-observability/aws-otel-test-framework"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Load-Generator Image",
+      "sense_id": "update-load-generator-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

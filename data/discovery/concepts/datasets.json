@@ -139,6 +139,42 @@
       "source_repo": "ChineseGLUE/ChineseGLUE",
       "status": "candidate-context",
       "text": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "status": "candidate-context",
+      "text": "pCLUE: 1000000+\u591a\u4efb\u52a1\u63d0\u793a\u5b66\u4e60\u6570\u636e\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "status": "candidate-context",
+      "text": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eosphoros-ai/DB-GPT-Hub",
+      "status": "candidate-context",
+      "text": "A repository that contains models, datasets, and fine-tuning techniques for DB-GPT, with the purpose of enhancing model performance  in Text-to-SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT-Hub",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Arize-ai/phoenix",
+      "status": "candidate-context",
+      "text": "AI Observability & Evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arize-ai/phoenix",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +243,24 @@
       "source_repo": "ChineseGLUE/ChineseGLUE",
       "status": "candidate",
       "text": "Language Understanding Evaluation benchmark for Chinese: datasets, baselines, pre-trained models, corpus and leaderboard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "status": "candidate",
+      "text": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT-Hub",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arize-ai/phoenix",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -316,11 +370,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "ChineseGLUE/ChineseGLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/pCLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eosphoros-ai/DB-GPT-Hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Arize-ai/phoenix"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

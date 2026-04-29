@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "strob/gentle",
+      "target": "lowerquality/gentle",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:43:30.711534+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1375
+    },
+    {
+      "path": "Dockerfile",
+      "size": 678
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "gentle forced aligner",
+    "fork": false,
+    "full_name": "strob/gentle",
+    "html_url": "https://github.com/strob/gentle",
+    "language": "Python",
+    "pushed_at": "2025-05-19T21:35:04Z",
+    "stargazers_count": 1692,
+    "topics": [],
+    "updated_at": "2026-04-29T06:16:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lowerquality/gentle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

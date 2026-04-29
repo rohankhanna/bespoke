@@ -1,0 +1,271 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "FiloSottile/mkcert",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "FiloSottile/mkcert",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "FiloSottile/mkcert",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "FiloSottile/mkcert",
+      "target": "Upload Release Asset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "FiloSottile/mkcert",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "FiloSottile/mkcert",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "FiloSottile/mkcert",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FiloSottile/mkcert",
+      "target": "certificates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FiloSottile/mkcert",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FiloSottile/mkcert",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FiloSottile/mkcert",
+      "target": "https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FiloSottile/mkcert",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FiloSottile/mkcert",
+      "target": "local-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FiloSottile/mkcert",
+      "target": "localhost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FiloSottile/mkcert",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FiloSottile/mkcert",
+      "target": "root-ca",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FiloSottile/mkcert",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:47:22.875920+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6492
+    },
+    {
+      "path": "go.mod",
+      "size": 287
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2356
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple zero-config tool to make locally trusted development certificates with any names you'd like.",
+    "fork": false,
+    "full_name": "FiloSottile/mkcert",
+    "html_url": "https://github.com/FiloSottile/mkcert",
+    "language": "Go",
+    "pushed_at": "2024-08-13T13:37:46Z",
+    "stargazers_count": 58713,
+    "topics": [
+      "certificates",
+      "chrome",
+      "firefox",
+      "https",
+      "ios",
+      "linux",
+      "local-development",
+      "localhost",
+      "macos",
+      "root-ca",
+      "tls",
+      "windows"
+    ],
+    "updated_at": "2026-04-29T19:24:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Upload Release Asset",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Upload Release Asset"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "certificates"
+    },
+    {
+      "context_snippet": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox"
+    },
+    {
+      "context_snippet": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "https"
+    },
+    {
+      "context_snippet": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "local-development"
+    },
+    {
+      "context_snippet": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "localhost"
+    },
+    {
+      "context_snippet": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "root-ca"
+    },
+    {
+      "context_snippet": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

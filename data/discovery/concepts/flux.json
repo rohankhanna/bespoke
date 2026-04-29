@@ -55,6 +55,30 @@
       "source_repo": "sayakpaul/diffusers-torchao",
       "status": "candidate-context",
       "text": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "status": "candidate-context",
+      "text": "A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, Qwen Image, Hunyuan Video, LTX  Video and Flux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "status": "candidate-context",
+      "text": "-----"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "sayakpaul/diffusers-torchao",
       "status": "candidate",
       "text": "**Optimize image and video generation with [`diffusers`](https://github.com/huggingface/diffusers), [`torchao`](https://github.com/pytorch/ao), combining `torch.compile()` \ud83d\udd25**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "status": "candidate",
+      "text": "-----"
     }
   ],
   "candidate_related_terms": [
@@ -195,11 +231,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "deepbeepmeep/Wan2GP"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

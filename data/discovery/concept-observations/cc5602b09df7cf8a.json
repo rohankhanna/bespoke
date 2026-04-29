@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MagicMirror\u00b2 is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror\u00b2 allows you to convert your hallway or bathroom mirror into your personal assistant."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Enforce Pull-Request Rules\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Enforce Pull-Request Rules\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 48497,
+      "status": "candidate",
+      "text": "referee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28679,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28679,
+      "status": "candidate",
+      "text": "umpire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12279,
+      "status": "candidate",
+      "text": "applied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12279,
+      "status": "candidate",
+      "text": "apply"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Enforce Pull-Request Rules",
+      "sense_id": "enforce-pull-request-rules#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "enforce-pull-request-rules",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "enforce-pull-request-rules",
+  "observation_id": "cc5602b09df7cf8a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Enforce Pull-Request Rules",
+  "source_context_snippet": "\"Enforce Pull-Request Rules\"",
+  "source_file": ".github/workflows/enforce-pullrequest-rules.yaml",
+  "source_repo": "MagicMirrorOrg/MagicMirror",
+  "source_repo_description": "MagicMirror\u00b2 is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror\u00b2 allows you to convert your hallway or bathroom mirror into your personal assistant."
+}

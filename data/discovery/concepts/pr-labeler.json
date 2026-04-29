@@ -212,6 +212,42 @@
       "source_repo": "google-gemini/deprecated-generative-ai-python",
       "status": "candidate-context",
       "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/trouble.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udea6 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/trouble.nvim",
+      "status": "candidate-context",
+      "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snowflakedb/universal-driver",
+      "status": "candidate-context",
+      "text": "Universal driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowflakedb/universal-driver",
+      "status": "candidate-context",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-bitcoin/corepc",
+      "status": "candidate-context",
+      "text": "Rust library for interacting with Bitcoin Core over JSONRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/corepc",
+      "status": "candidate-context",
+      "text": "PR Labeler"
     }
   ],
   "candidate_glosses": [
@@ -316,6 +352,24 @@
       "source_repo": "google-gemini/deprecated-generative-ai-python",
       "status": "candidate",
       "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/trouble.nvim",
+      "status": "candidate",
+      "text": "\"PR Labeler\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowflakedb/universal-driver",
+      "status": "candidate",
+      "text": "PR Labeler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/corepc",
+      "status": "candidate",
+      "text": "PR Labeler"
     }
   ],
   "candidate_related_terms": [
@@ -581,11 +635,59 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/labeler.yml",
       "source_repo": "google-gemini/deprecated-generative-ai-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "folke/trouble.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "snowflakedb/universal-driver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "harbor-framework/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr-labeler.yml",
+      "source_repo": "rust-bitcoin/corepc"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

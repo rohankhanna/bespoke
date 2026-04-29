@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:45:40.697026+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1994
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Walk the stack in a Pry session",
+    "fork": false,
+    "full_name": "pry/pry-stack_explorer",
+    "html_url": "https://github.com/pry/pry-stack_explorer",
+    "language": "Ruby",
+    "pushed_at": "2026-04-11T06:33:55Z",
+    "stargazers_count": 457,
+    "topics": [],
+    "updated_at": "2026-04-22T04:58:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

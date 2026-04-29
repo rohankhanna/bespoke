@@ -1,0 +1,120 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "target": "rwkv",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:51:12.852611+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9954
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A relatively basic implementation of RWKV in Rust written by someone with very little math and ML knowledge. Supports 32, 8 and 4 bit evaluation. It can also directly load PyTorch RWKV models.",
+    "fork": false,
+    "full_name": "KerfuffleV2/smolrsrwkv",
+    "html_url": "https://github.com/KerfuffleV2/smolrsrwkv",
+    "language": "Rust",
+    "pushed_at": "2023-09-02T19:19:37Z",
+    "stargazers_count": 94,
+    "topics": [
+      "deep-learning",
+      "language-model",
+      "llm",
+      "machine-learning",
+      "neural-networks",
+      "rnn",
+      "rust",
+      "rwkv"
+    ],
+    "updated_at": "2025-08-05T03:21:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "An example of the RWKV approach to language models written in Rust by someone that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "An example of the RWKV approach to language models written in Rust by someone that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "An example of the RWKV approach to language models written in Rust by someone that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "An example of the RWKV approach to language models written in Rust by someone that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "An example of the RWKV approach to language models written in Rust by someone that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "An example of the RWKV approach to language models written in Rust by someone that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rwkv"
+    }
+  ]
+}

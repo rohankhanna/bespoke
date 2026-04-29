@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@0.9.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging.yml",
+      "source_repo": "gradio-app/gradio-discord-bot",
+      "target": "styfle/cancel-workflow-action@0.9.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging.yml",
+      "source_repo": "gradio-app/gradio-discord-bot",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging.yml",
+      "source_repo": "gradio-app/gradio-discord-bot",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/staging.yml",
+      "source_repo": "gradio-app/gradio-discord-bot",
+      "target": "thollander/actions-comment-pull-request@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/staging.yml",
+      "source_repo": "gradio-app/gradio-discord-bot",
+      "target": "Launch Staging Bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:51:35.713771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6381
+    },
+    {
+      "path": "requirements.txt",
+      "size": 27
+    },
+    {
+      "path": ".github/workflows/staging.yml",
+      "size": 996
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "gradio-app/gradio-discord-bot",
+    "html_url": "https://github.com/gradio-app/gradio-discord-bot",
+    "language": "Python",
+    "pushed_at": "2023-01-19T20:21:14Z",
+    "stargazers_count": 63,
+    "topics": [],
+    "updated_at": "2026-03-13T20:40:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Launch Staging Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/staging.yml",
+      "term": "Launch Staging Bot"
+    }
+  ]
+}

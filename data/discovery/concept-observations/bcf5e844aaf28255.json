@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "YOLOv4 / Scaled-YOLOv4 / YOLO - Neural Networks for Object Detection (Windows and Linux version of Darknet )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "* Read the FAQ: https://www.ccoderun.ca/programming/darknet_faq/"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "* Read the FAQ: https://www.ccoderun.ca/programming/darknet_faq/"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scaled-yolov4",
+      "sense_id": "scaled-yolov4#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scaled-yolov4",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scaled-yolov4",
+  "observation_id": "bcf5e844aaf28255",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "scaled-yolov4",
+  "source_context_snippet": "* Read the FAQ: https://www.ccoderun.ca/programming/darknet_faq/",
+  "source_file": null,
+  "source_repo": "AlexeyAB/darknet",
+  "source_repo_description": "YOLOv4 / Scaled-YOLOv4 / YOLO - Neural Networks for Object Detection (Windows and Linux version of Darknet )"
+}

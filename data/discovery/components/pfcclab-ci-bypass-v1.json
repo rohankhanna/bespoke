@@ -1,0 +1,12 @@
+{
+  "component": "PFCCLab/ci-bypass@v1",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-bypass.yml",
+      "source_repo": "PaddlePaddle/PaddleNLP"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "ikostrikov/jaxrl",
       "status": "candidate-context",
       "text": "[![DOI](https://zenodo.org/badge/330059679.svg)](https://zenodo.org/badge/latestdoi/330059679)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinkoff-ai/CORL",
+      "status": "candidate-context",
+      "text": "High-quality single-file implementations of SOTA Offline and Offline-to-Online RL algorithms: AWAC, BC, CQL, DT, EDAC, IQL, SAC-N, TD3+BC, LB-SAC, SPOT, Cal-QL, ReBRAC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinkoff-ai/CORL",
+      "status": "candidate-context",
+      "text": "[![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/vladkurenkov/status/1669361090550177793)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ikostrikov/jaxrl",
       "status": "candidate",
       "text": "[![DOI](https://zenodo.org/badge/330059679.svg)](https://zenodo.org/badge/latestdoi/330059679)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinkoff-ai/CORL",
+      "status": "candidate",
+      "text": "[![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/vladkurenkov/status/1669361090550177793)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "ikostrikov/jaxrl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tinkoff-ai/CORL"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

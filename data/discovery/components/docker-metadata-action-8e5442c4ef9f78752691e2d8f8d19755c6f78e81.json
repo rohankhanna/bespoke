@@ -1,0 +1,12 @@
+{
+  "component": "docker/metadata-action@8e5442c4ef9f78752691e2d8f8d19755c6f78e81",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "SillyTavern/SillyTavern"
+    }
+  ]
+}

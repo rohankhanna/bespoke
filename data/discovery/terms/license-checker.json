@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -66,6 +66,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/license-checker.yaml",
       "source_repo": "apache/incubator-seata-website"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "api7/wasm-nginx-module"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "mosn/mosn"
     }
   ],
   "term": "License Checker"

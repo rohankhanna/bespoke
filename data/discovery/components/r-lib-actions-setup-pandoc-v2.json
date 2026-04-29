@@ -1,7 +1,7 @@
 {
   "component": "r-lib/actions/setup-pandoc@v2",
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pkgdown.yaml",
       "source_repo": "r-spatial/stars"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yaml",
+      "source_repo": "nx10/httpgd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "nx10/httpgd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-cran.yaml",
+      "source_repo": "nx10/httpgd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "source_repo": "appelmar/gdalcubes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/R-CMD-check.yml",
+      "source_repo": "DOI-USGS/ncdfgeom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "rspatial/raster"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yml",
+      "source_repo": "rspatial/terra"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rcmdcheck.yml",
+      "source_repo": "rspatial/terra"
     }
   ]
 }

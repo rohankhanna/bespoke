@@ -67,6 +67,36 @@
       "source_repo": "gr2m/before-after-hook",
       "status": "candidate-context",
       "text": "> asynchronous hooks for internal functionality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automate versioning and package publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "Customizable JavaScript and React/Redux snippets for VS Code, with first-class support for ES7+ syntax, React 17\u201319, React Router v6, Redux Toolkit, and TypeScript."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sebelga/promised-hooks",
+      "status": "candidate-context",
+      "text": "Middleware utility for your Promises"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebelga/promised-hooks",
+      "status": "candidate-context",
+      "text": "[![NPM Version][npm-image]][npm-url]"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +129,24 @@
       "source_repo": "gr2m/before-after-hook",
       "status": "candidate",
       "text": "> asynchronous hooks for internal functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate",
+      "text": "Customizable JavaScript and React/Redux snippets for VS Code, with first-class support for ES7+ syntax, React 17\u201319, React Router v6, Redux Toolkit, and TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebelga/promised-hooks",
+      "status": "candidate",
+      "text": "[![NPM Version][npm-image]][npm-url]"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +226,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "gr2m/before-after-hook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "release-it/release-it"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sebelga/promised-hooks"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

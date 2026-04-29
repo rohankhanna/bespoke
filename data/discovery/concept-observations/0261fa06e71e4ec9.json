@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This browser extension enables you to filter the GitHub news feeds based on different event types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hacktoberfest",
+      "sense_id": "hacktoberfest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "hacktoberfest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "hacktoberfest",
+  "observation_id": "0261fa06e71e4ec9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "hacktoberfest",
+  "source_context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+  "source_file": null,
+  "source_repo": "gautamkrishnar/refined-github-feeds",
+  "source_repo_description": "This browser extension enables you to filter the GitHub news feeds based on different event types."
+}

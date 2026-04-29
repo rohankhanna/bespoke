@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "jordansissel/fpm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "jordansissel/fpm",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "jordansissel/fpm",
+      "target": "Ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jordansissel/fpm",
+      "target": "packaging",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:19.526170+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2913
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3078
+    },
+    {
+      "path": "requirements.txt",
+      "size": 57
+    },
+    {
+      "path": ".github/workflows/ruby.yml",
+      "size": 747
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Effing package management! Build packages for multiple platforms (deb, rpm, etc) with great ease and sanity.",
+    "fork": false,
+    "full_name": "jordansissel/fpm",
+    "html_url": "https://github.com/jordansissel/fpm",
+    "language": "Ruby",
+    "pushed_at": "2026-04-22T15:59:28Z",
+    "stargazers_count": 11464,
+    "topics": [
+      "packaging"
+    ],
+    "updated_at": "2026-04-29T16:08:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ruby",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ruby.yml",
+      "term": "Ruby"
+    },
+    {
+      "context_snippet": "fpm",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packaging"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "StackExchange/dnscontrol",
       "status": "candidate-context",
       "text": "[![StackExchange/dnscontrol/build](https://github.com/StackExchange/dnscontrol/actions/workflows/pr_build.yml/badge.svg)](https://github.com/StackExchange/dnscontrol/actions/workflows/pr_build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gacts/install-dnscontrol",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Installs DNSControl into your actions workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gacts/install-dnscontrol",
+      "status": "candidate-context",
+      "text": "![Release version][badge_release_version]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "StackExchange/dnscontrol",
       "status": "candidate",
       "text": "[![StackExchange/dnscontrol/build](https://github.com/StackExchange/dnscontrol/actions/workflows/pr_build.yml/badge.svg)](https://github.com/StackExchange/dnscontrol/actions/workflows/pr_build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gacts/install-dnscontrol",
+      "status": "candidate",
+      "text": "![Release version][badge_release_version]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "StackExchange/dnscontrol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gacts/install-dnscontrol"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

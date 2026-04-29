@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tidwall/evio",
+      "target": "libuv/libuv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tidwall/evio",
+      "target": "libevent/libevent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tidwall/evio",
+      "target": "tidwall/tile38",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "tidwall/evio",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "tidwall/evio",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tidwall/evio",
+      "target": "networking",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:30.896044+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6236
+    },
+    {
+      "path": "go.mod",
+      "size": 85
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast event-loop networking for Go",
+    "fork": false,
+    "full_name": "tidwall/evio",
+    "html_url": "https://github.com/tidwall/evio",
+    "language": "Go",
+    "pushed_at": "2023-10-22T11:35:20Z",
+    "stargazers_count": 6036,
+    "topics": [
+      "networking"
+    ],
+    "updated_at": "2026-04-28T10:46:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libevent/libevent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "libuv/libuv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tidwall/tile38",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    }
+  ]
+}

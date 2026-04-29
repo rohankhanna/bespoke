@@ -1,0 +1,125 @@
+{
+  "aliases": [
+    "Test Build Release",
+    "Test build release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iree-org/iree-turbine",
+      "status": "candidate-context",
+      "text": "IREE's PyTorch Frontend, based on Torch Dynamo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree-turbine",
+      "status": "candidate-context",
+      "text": "Test Build Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaiNNer-org/chaiNNer",
+      "status": "candidate-context",
+      "text": "A node-based image processing GUI aimed at making chaining image processing tasks easy and customizable. Born as an AI upscaling application, chaiNNer has grown into an extremely flexible and powerful programmatic image processing application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaiNNer-org/chaiNNer",
+      "status": "candidate-context",
+      "text": "Test build release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree-turbine",
+      "status": "candidate",
+      "text": "Test Build Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaiNNer-org/chaiNNer",
+      "status": "candidate",
+      "text": "Test build release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34927,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26002,
+      "status": "candidate",
+      "text": "beta software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18015,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17964,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17964,
+      "status": "candidate",
+      "text": "turn"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Build Release",
+  "concept_id": "test-build-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test_build_release.yml",
+      "source_repo": "iree-org/iree-turbine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "chaiNNer-org/chaiNNer"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Build Release",
+      "sense_id": "test-build-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

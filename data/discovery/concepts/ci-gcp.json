@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ci-gcp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shader-slang/slang-rhi",
+      "status": "candidate-context",
+      "text": "Slang Render Hardware Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang-rhi",
+      "status": "candidate-context",
+      "text": "ci-gcp"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang-rhi",
+      "status": "candidate",
+      "text": "ci-gcp"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ci-gcp",
+  "concept_id": "ci-gcp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci-gcp.yml",
+      "source_repo": "shader-slang/slang-rhi"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ci-gcp",
+      "sense_id": "ci-gcp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

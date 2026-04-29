@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "SPR LLM Test for Stable Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/ipex-llm",
+      "status": "candidate-context",
+      "text": "Accelerate local LLM inference and finetuning (LLaMA, Mistral, ChatGLM, Qwen, DeepSeek, Mixtral, Gemma, Phi, MiniCPM, Qwen-VL, MiniCPM-V, etc.) on Intel XPU (e.g., local PC with iGPU and NPU, discrete GPU such as Arc, Flex and Max); seamlessly integrate with llama.cpp, Ollama, HuggingFace, LangChain, LlamaIndex, vLLM, DeepSpeed, Axolotl, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ipex-llm",
+      "status": "candidate-context",
+      "text": "SPR LLM Test for Stable Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ipex-llm",
+      "status": "candidate",
+      "text": "SPR LLM Test for Stable Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43556,
+      "status": "candidate",
+      "text": "mean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43527,
+      "status": "candidate",
+      "text": "bag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43444,
+      "status": "candidate",
+      "text": "hard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43444,
+      "status": "candidate",
+      "text": "state"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43362,
+      "status": "candidate",
+      "text": "head"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "SPR LLM Test for Stable Version",
+  "concept_id": "spr-llm-test-for-stable-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/llm_tests_for_stable_version_on_spr.yml",
+      "source_repo": "intel/ipex-llm"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SPR LLM Test for Stable Version",
+      "sense_id": "spr-llm-test-for-stable-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

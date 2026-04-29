@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "matplotlib-tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optuna",
+      "status": "candidate-context",
+      "text": "A hyperparameter optimization framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna",
+      "status": "candidate-context",
+      "text": "matplotlib-tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna",
+      "status": "candidate",
+      "text": "matplotlib-tests"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "matplotlib-tests",
+  "concept_id": "matplotlib-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/matplotlib-tests.yml",
+      "source_repo": "optuna/optuna"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "matplotlib-tests",
+      "sense_id": "matplotlib-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

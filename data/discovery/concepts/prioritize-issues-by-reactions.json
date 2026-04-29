@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Prioritize Issues by Reactions"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NuGet/NuGetGallery",
+      "status": "candidate-context",
+      "text": "NuGet Gallery is a package repository that powers https://www.nuget.org. Use this repo for reporting NuGet.org issues."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGetGallery",
+      "status": "candidate-context",
+      "text": "Prioritize Issues by Reactions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGetGallery",
+      "status": "candidate",
+      "text": "Prioritize Issues by Reactions"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22549,
+      "status": "candidate",
+      "text": "liberal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22549,
+      "status": "candidate",
+      "text": "pros and cons"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22498,
+      "status": "candidate",
+      "text": "baron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22498,
+      "status": "candidate",
+      "text": "chamberlain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22498,
+      "status": "candidate",
+      "text": "count"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prioritize Issues by Reactions",
+  "concept_id": "prioritize-issues-by-reactions",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/prioritize-by-reactions.yaml",
+      "source_repo": "NuGet/NuGetGallery"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prioritize Issues by Reactions",
+      "sense_id": "prioritize-issues-by-reactions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "demo"
+    "demo",
+    "Demo"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -115,6 +118,30 @@
       "source_repo": "ably-labs/realtime-multiplayer-space-invaders",
       "status": "candidate-context",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RReverser/wasm-bindgen-rayon",
+      "status": "candidate-context",
+      "text": "An adapter for enabling Rayon-based concurrency on the Web with WebAssembly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RReverser/wasm-bindgen-rayon",
+      "status": "candidate-context",
+      "text": "Demo"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate-context",
+      "text": "Apache Kafka, Apache Flink and Confluent Platform examples and demos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate-context",
+      "text": "![image](images/confluent-logo-300-2.png)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +198,18 @@
       "source_repo": "ably-labs/realtime-multiplayer-space-invaders",
       "status": "candidate",
       "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RReverser/wasm-bindgen-rayon",
+      "status": "candidate",
+      "text": "Demo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate",
+      "text": "![image](images/confluent-logo-300-2.png)"
     }
   ],
   "candidate_related_terms": [
@@ -322,11 +361,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ably-labs/realtime-quiz-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "RReverser/wasm-bindgen-rayon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-multiplayer-space-invaders"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/realtime-quiz-framework"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

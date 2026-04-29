@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cv-cuda"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVCUDA/CV-CUDA",
+      "status": "candidate-context",
+      "text": "CV-CUDA\u2122 is an open-source, GPU accelerated library for cloud-scale image processing and computer vision."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVCUDA/CV-CUDA",
+      "status": "candidate-context",
+      "text": "[//]: # \"SPDX-FileCopyrightText: Copyright (c) 2022-2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVCUDA/CV-CUDA",
+      "status": "candidate",
+      "text": "[//]: # \"SPDX-FileCopyrightText: Copyright (c) 2022-2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.\""
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cv-cuda",
+  "concept_id": "cv-cuda",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "CVCUDA/CV-CUDA"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cv-cuda",
+      "sense_id": "cv-cuda#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

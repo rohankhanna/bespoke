@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/yell",
+      "target": "rudionrails/yell-rails",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/yell",
+      "target": "raymond-wells/yell-adapters-syslogsd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rsmdt/yell",
+      "target": "red5studios/yell-adapters-fluentd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:56:57.480963+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Yell - Your Extensible Logging Library",
+    "fork": false,
+    "full_name": "rsmdt/yell",
+    "html_url": "https://github.com/rsmdt/yell",
+    "language": "Ruby",
+    "pushed_at": "2024-08-17T03:15:49Z",
+    "stargazers_count": 311,
+    "topics": [],
+    "updated_at": "2026-01-09T23:39:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raymond-wells/yell-adapters-syslogsd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "red5studios/yell-adapters-fluentd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rudionrails/yell-rails",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

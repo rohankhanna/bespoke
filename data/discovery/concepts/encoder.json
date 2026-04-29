@@ -67,6 +67,18 @@
       "source_repo": "randy408/libspng",
       "status": "candidate-context",
       "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xiph/vorbis",
+      "status": "candidate-context",
+      "text": "Reference implementation of the Ogg Vorbis audio format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiph/vorbis",
+      "status": "candidate-context",
+      "text": "[![GitLab Build Status](https://gitlab.xiph.org/xiph/vorbis/badges/master/pipeline.svg)](https://gitlab.xiph.org/xiph/vorbis/-/pipelines)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "randy408/libspng",
       "status": "candidate",
       "text": "[![Gitter](https://badges.gitter.im/libspng/community.svg)](https://gitter.im/libspng/community?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xiph/vorbis",
+      "status": "candidate",
+      "text": "[![GitLab Build Status](https://gitlab.xiph.org/xiph/vorbis/badges/master/pipeline.svg)](https://gitlab.xiph.org/xiph/vorbis/-/pipelines)"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "randy408/libspng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xiph/vorbis"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

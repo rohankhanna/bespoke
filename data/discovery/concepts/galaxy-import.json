@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "galaxy-import"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate-context",
+      "text": "The collection includes a variety of Ansible content to help automate the management of applications in Kubernetes and OpenShift clusters, as well as the provisioning and maintenance of clusters themselves."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate-context",
+      "text": "galaxy-import"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate",
+      "text": "galaxy-import"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "galaxy-import",
+  "concept_id": "galaxy-import",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/galaxy-import.yaml",
+      "source_repo": "ansible-collections/kubernetes.core"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "galaxy-import",
+      "sense_id": "galaxy-import#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

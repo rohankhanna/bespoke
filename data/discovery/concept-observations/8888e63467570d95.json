@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u6587\u672c\u53bb\u91cd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u672c\u9879\u76ee\u7684\u4e3b\u8981\u76ee\u7684\u662f\uff1a"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u672c\u9879\u76ee\u7684\u4e3b\u8981\u76ee\u7684\u662f\uff1a"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese-simplified",
+      "sense_id": "chinese-simplified#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chinese-simplified",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chinese-simplified",
+  "observation_id": "8888e63467570d95",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "chinese-simplified",
+  "source_context_snippet": "\u672c\u9879\u76ee\u7684\u4e3b\u8981\u76ee\u7684\u662f\uff1a",
+  "source_file": null,
+  "source_repo": "aplmikex/deduplication_mnbvc",
+  "source_repo_description": "\u6587\u672c\u53bb\u91cd"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/ConvNeXt",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:42:53.409755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6993
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Code release for ConvNeXt model",
+    "fork": false,
+    "full_name": "facebookresearch/ConvNeXt",
+    "html_url": "https://github.com/facebookresearch/ConvNeXt",
+    "language": "Python",
+    "pushed_at": "2023-01-08T14:23:08Z",
+    "stargazers_count": 6362,
+    "topics": [],
+    "updated_at": "2026-04-29T09:12:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

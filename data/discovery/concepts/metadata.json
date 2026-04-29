@@ -91,6 +91,18 @@
       "source_repo": "docker/metadata-action",
       "status": "candidate-context",
       "text": "[![GitHub release](https://img.shields.io/github/release/docker/metadata-action.svg?style=flat-square)](https://github.com/docker/metadata-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/ut_metadata",
+      "status": "candidate-context",
+      "text": "BitTorrent Extension for Peers to Send Metadata Files (BEP 9)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/ut_metadata",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/webtorrent/ut_metadata/actions/workflows/ci.yml/badge.svg?branch=master"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "docker/metadata-action",
       "status": "candidate",
       "text": "[![GitHub release](https://img.shields.io/github/release/docker/metadata-action.svg?style=flat-square)](https://github.com/docker/metadata-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/ut_metadata",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/webtorrent/ut_metadata/actions/workflows/ci.yml/badge.svg?branch=master"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +244,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "docker/metadata-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/ut_metadata"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -331,6 +331,71 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build_test.yaml",
       "source_repo": "ARM-software/astc-encoder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gautamkrishnar/motrix-webextension"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gautamkrishnar/refined-github-feeds"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "OAID/Tengine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "onnxsim/onnxsim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "grpc/grpc-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "open-telemetry/opentelemetry-collector-contrib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "devgianlu/go-librespot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "julia-vscode/julia-vscode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "autofac/Autofac.Multitenant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auth0/node-jwks-rsa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "lightvector/KataGo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "adamstark/AudioFile"
     }
   ],
   "term": "Build and Test"

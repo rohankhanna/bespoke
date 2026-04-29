@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:53:35.976042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 18627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Doom 3 GPL source release",
+    "fork": true,
+    "full_name": "RobertBeckebans/DOOM-3",
+    "html_url": "https://github.com/RobertBeckebans/DOOM-3",
+    "language": "C++",
+    "pushed_at": "2026-02-11T22:24:55Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-03-31T10:36:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

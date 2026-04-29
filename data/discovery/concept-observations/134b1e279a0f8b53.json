@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Home for explainer documents originated by the Microsoft Edge team"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Welcome! This repo is home to \"explainers\" and related documents originating"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Welcome! This repo is home to \"explainers\" and related documents originating"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "microsoft-edge",
+      "sense_id": "microsoft-edge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "microsoft-edge",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "microsoft-edge",
+  "observation_id": "134b1e279a0f8b53",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "microsoft-edge",
+  "source_context_snippet": "Welcome! This repo is home to \"explainers\" and related documents originating",
+  "source_file": null,
+  "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+  "source_repo_description": "Home for explainer documents originated by the Microsoft Edge team"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nitro goes vroom and fixes everything"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "fast-ci-jobs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "fast-ci-jobs"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "fast-ci-jobs",
+      "sense_id": "fast-ci-jobs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "fast-ci-jobs",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "fast-ci-jobs",
+  "observation_id": "abbf6c2e4f75e0da",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "fast-ci-jobs",
+  "source_context_snippet": "fast-ci-jobs",
+  "source_file": ".github/workflows/_fast.yml",
+  "source_repo": "OffchainLabs/nitro",
+  "source_repo_description": "Nitro goes vroom and fixes everything"
+}

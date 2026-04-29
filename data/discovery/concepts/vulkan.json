@@ -367,6 +367,54 @@
       "source_repo": "g-truc/glm",
       "status": "candidate-context",
       "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvpro-samples/nvpro_core2",
+      "status": "candidate-context",
+      "text": "A comprehensive collection of modular libraries for high-performance graphics development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/nvpro_core2",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR",
+      "status": "candidate-context",
+      "text": "Ray tracing examples and tutorials using VK_KHR_ray_tracing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR",
+      "status": "candidate-context",
+      "text": "![logo](http://nvidianews.nvidia.com/_ir/219/20157/NV_Designworks_logo_horizontal_greenblack.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baldurk/renderdoc",
+      "status": "candidate-context",
+      "text": "RenderDoc is a stand-alone graphics debugging tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baldurk/renderdoc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/Vulkan-Headers",
+      "status": "candidate-context",
+      "text": "Vulkan header files and API registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Headers",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +597,30 @@
       "source_repo": "g-truc/glm",
       "status": "candidate",
       "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/nvpro_core2",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR",
+      "status": "candidate",
+      "text": "![logo](http://nvidianews.nvidia.com/_ir/219/20157/NV_Designworks_logo_horizontal_greenblack.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baldurk/renderdoc",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/Vulkan-Headers",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -763,11 +835,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "g-truc/glm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvpro-samples/nvpro_core2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/Vulkan-Headers"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

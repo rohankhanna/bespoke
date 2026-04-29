@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "google-research/magvit",
+      "target": "google-research/scenic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "google-research/magvit",
+      "target": "deepmind/dmvr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/magvit",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/magvit",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/magvit",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:48:31.166864+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5791
+    },
+    {
+      "path": "requirements.txt",
+      "size": 223
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Official JAX implementation of MAGVIT: Masked Generative Video Transformer",
+    "fork": false,
+    "full_name": "google-research/magvit",
+    "html_url": "https://github.com/google-research/magvit",
+    "language": "Python",
+    "pushed_at": "2024-01-17T18:06:44Z",
+    "stargazers_count": 998,
+    "topics": [
+      "generative-model",
+      "transformers",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-26T16:34:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/dmvr",
+      "source_file": "requirements.txt"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/scenic",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/video-generation-on-ucf-101)](https://paperswithcode.com/sota/video-generation-on-ucf-101?p=language-model-beats-diffusion-tokenizer-is)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/video-generation-on-ucf-101)](https://paperswithcode.com/sota/video-generation-on-ucf-101?p=language-model-beats-diffusion-tokenizer-is)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/video-generation-on-ucf-101)](https://paperswithcode.com/sota/video-generation-on-ucf-101?p=language-model-beats-diffusion-tokenizer-is)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

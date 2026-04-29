@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "databases"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbeaver/cloudbeaver",
+      "status": "candidate-context",
+      "text": "Cloud Database Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/cloudbeaver",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/cloudbeaver",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "airbases"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "banks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "bases"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "basics"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "databases",
+  "concept_id": "databases",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dbeaver/cloudbeaver"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "databases",
+      "sense_id": "databases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

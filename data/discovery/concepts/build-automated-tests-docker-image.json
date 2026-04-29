@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Automated Tests Docker Image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/developer.konghq.com",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8d Source code for developer.konghq.com website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/developer.konghq.com",
+      "status": "candidate-context",
+      "text": "Build Automated Tests Docker Image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/developer.konghq.com",
+      "status": "candidate",
+      "text": "Build Automated Tests Docker Image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29916,
+      "status": "candidate",
+      "text": "loader"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29195,
+      "status": "candidate",
+      "text": "collect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29057,
+      "status": "candidate",
+      "text": "scanner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29024,
+      "status": "candidate",
+      "text": "collecting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29024,
+      "status": "candidate",
+      "text": "feed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Automated Tests Docker Image",
+  "concept_id": "build-automated-tests-docker-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build-automated-tests-image.yaml",
+      "source_repo": "Kong/developer.konghq.com"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Automated Tests Docker Image",
+      "sense_id": "build-automated-tests-docker-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

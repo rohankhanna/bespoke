@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UX-Decoder/Semantic-SAM",
+      "target": "ux-decoder/dinov",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UX-Decoder/Semantic-SAM",
+      "target": "idea-research/maskdino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UX-Decoder/Semantic-SAM",
+      "target": "facebookresearch/vlpart",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:45:42.009758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12418
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1572
+    },
+    {
+      "path": "requirements.txt",
+      "size": 344
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2024] Official implementation of the paper \"Semantic-SAM: Segment and Recognize Anything at Any Granularity\"",
+    "fork": false,
+    "full_name": "UX-Decoder/Semantic-SAM",
+    "html_url": "https://github.com/UX-Decoder/Semantic-SAM",
+    "language": "Python",
+    "pushed_at": "2025-07-10T08:06:44Z",
+    "stargazers_count": 2830,
+    "topics": [],
+    "updated_at": "2026-04-28T17:02:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/vlpart",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/maskdino",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ux-decoder/dinov",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

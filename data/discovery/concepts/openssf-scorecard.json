@@ -128,6 +128,30 @@
       "source_repo": "sigstore/rekor-tiles",
       "status": "candidate-context",
       "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quickwit-oss/tantivy",
+      "status": "candidate-context",
+      "text": "Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/tantivy",
+      "status": "candidate-context",
+      "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate-context",
+      "text": " Extension for Scikit-learn is a seamless way to speed up your Scikit-learn application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate-context",
+      "text": "OpenSSF Scorecard"
     }
   ],
   "candidate_glosses": [
@@ -188,6 +212,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "sigstore/rekor-tiles",
+      "status": "candidate",
+      "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/tantivy",
+      "status": "candidate",
+      "text": "OpenSSF Scorecard"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
       "status": "candidate",
       "text": "OpenSSF Scorecard"
     }
@@ -305,11 +341,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "sigstore/rekor-tiles"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/openssf-scorecard.yml",
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/security-scorecard.yml",
+      "source_repo": "aws-powertools/powertools-lambda-java"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

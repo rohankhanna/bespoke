@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:39:34.287970+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 1505
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "s3bk/pathfinder_view",
+    "html_url": "https://github.com/s3bk/pathfinder_view",
+    "language": "Rust",
+    "pushed_at": "2023-07-11T21:29:50Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2023-10-10T23:43:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

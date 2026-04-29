@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "ActionsDesk/lfs-warning@v2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_size.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "psf/black@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "jamescurtin/isort-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_to_hub.yml.backup"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_to_hub_debug.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "saharmor/dalle-playground",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_size.yml",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "ActionsDesk/lfs-warning@v2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_size.yml",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "Check file size",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "pypa/gh-action-pypi-publish@27b31702a0e7fc50959f5ad993c78deac1bdfc29",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "psf/black@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "jamescurtin/isort-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_to_hub.yml.backup",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_to_hub_debug.yml",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_to_hub_debug.yml",
+      "source_repo": "borisdayma/dalle-mini",
+      "target": "Deploy to debug app",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:50:44.869669+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10627
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 30
+    },
+    {
+      "path": ".github/workflows/check_size.yml",
+      "size": 362
+    },
+    {
+      "path": ".github/workflows/pypi_release.yml",
+      "size": 847
+    },
+    {
+      "path": ".github/workflows/style.yml",
+      "size": 397
+    },
+    {
+      "path": ".github/workflows/sync_to_hub.yml.backup",
+      "size": 489
+    },
+    {
+      "path": ".github/workflows/sync_to_hub_debug.yml",
+      "size": 444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "DALL\u00b7E Mini - Generate images from a text prompt",
+    "fork": false,
+    "full_name": "borisdayma/dalle-mini",
+    "html_url": "https://github.com/borisdayma/dalle-mini",
+    "language": "Python",
+    "pushed_at": "2023-11-09T09:20:46Z",
+    "stargazers_count": 14770,
+    "topics": [],
+    "updated_at": "2026-04-29T15:56:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "saharmor/dalle-playground",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check file size",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_size.yml",
+      "term": "Check file size"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/style.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Deploy to debug app",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_to_hub_debug.yml",
+      "term": "Deploy to debug app"
+    }
+  ]
+}

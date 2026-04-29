@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official PyTorch implementation of Towards Fast, Accurate and Stable 3D Dense Face Alignment, ECCV 2020."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "3d-face-alignment",
+      "sense_id": "3d-face-alignment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "3d-face-alignment",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "3d-face-alignment",
+  "observation_id": "34089fc8085b78cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "3d-face-alignment",
+  "source_context_snippet": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio",
+  "source_file": null,
+  "source_repo": "cleardusk/3DDFA_V2",
+  "source_repo_description": "The official PyTorch implementation of Towards Fast, Accurate and Stable 3D Dense Face Alignment, ECCV 2020."
+}

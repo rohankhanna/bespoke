@@ -19,12 +19,30 @@
       "source_repo": "catalyst-team/catalyst",
       "status": "candidate-context",
       "text": "Greetings"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/mxnet",
+      "status": "candidate-context",
+      "text": "Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mxnet",
+      "status": "candidate-context",
+      "text": "Greetings"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "catalyst-team/catalyst",
+      "status": "candidate",
+      "text": "Greetings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mxnet",
       "status": "candidate",
       "text": "Greetings"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/greetings.yml",
       "source_repo": "catalyst-team/catalyst"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "apache/mxnet"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

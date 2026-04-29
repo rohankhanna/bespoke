@@ -215,7 +215,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:02:47.647779+00:00",
+  "fetched_at": "2026-04-29T19:51:29.999574+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -256,13 +256,13 @@
     "html_url": "https://github.com/eclipse-paho/paho.mqtt.python",
     "language": "Python",
     "pushed_at": "2024-08-01T13:53:38Z",
-    "stargazers_count": 2393,
+    "stargazers_count": 2392,
     "topics": [
       "eclipseiot",
       "internet-of-things",
       "mqtt"
     ],
-    "updated_at": "2026-04-15T06:18:25Z"
+    "updated_at": "2026-04-29T18:14:34Z"
   },
   "repo_links": [
     {

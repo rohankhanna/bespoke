@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/skywalking-eyes.yml",
+      "source_repo": "intel/ScalableVectorSearch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/skywalking-eyes.yml",
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
+    }
+  ],
+  "term": "Check License Header"
+}

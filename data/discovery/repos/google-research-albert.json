@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:51:36.103259+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12641
+    },
+    {
+      "path": "requirements.txt",
+      "size": 202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "ALBERT: A Lite BERT for Self-supervised Learning of Language Representations",
+    "fork": false,
+    "full_name": "google-research/albert",
+    "html_url": "https://github.com/google-research/albert",
+    "language": "Python",
+    "pushed_at": "2023-04-14T18:02:55Z",
+    "stargazers_count": 3283,
+    "topics": [],
+    "updated_at": "2026-04-21T07:07:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

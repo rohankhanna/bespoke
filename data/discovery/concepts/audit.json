@@ -274,6 +274,90 @@
       "source_repo": "apache/arrow-rs",
       "status": "candidate-context",
       "text": "audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-rs-object-store",
+      "status": "candidate-context",
+      "text": "Rust object_store crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-rs-object-store",
+      "status": "candidate-context",
+      "text": "audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate-context",
+      "text": "Cargo subcommand `release`: everything about releasing a rust crate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/directory-connector",
+      "status": "candidate-context",
+      "text": "A tool for syncing a directory (AD, LDAP, Azure, G Suite, Okta) to an organization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/directory-connector",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-bitcoin/corepc",
+      "status": "candidate-context",
+      "text": "Rust library for interacting with Bitcoin Core over JSONRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/corepc",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate-context",
+      "text": "Spack's community package recipes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate-context",
+      "text": "audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate-context",
+      "text": "A cross-platform GUI library for Rust, inspired by Elm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate-context",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "squidowl/iced",
+      "status": "candidate-context",
+      "text": "A cross-platform GUI library for Rust, inspired by Elm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidowl/iced",
+      "status": "candidate-context",
+      "text": "Audit"
     }
   ],
   "candidate_glosses": [
@@ -408,6 +492,48 @@
       "source_repo": "apache/arrow-rs",
       "status": "candidate",
       "text": "audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-rs-object-store",
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/directory-connector",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/corepc",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate",
+      "text": "Audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidowl/iced",
+      "status": "candidate",
+      "text": "Audit"
     }
   ],
   "candidate_related_terms": [
@@ -659,11 +785,59 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "apache/arrow-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "apache/arrow-rs-object-store"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "bitwarden/directory-connector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-bitcoin/corepc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yaml",
+      "source_repo": "spack/spack-packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "iced-rs/iced"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "squidowl/iced"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

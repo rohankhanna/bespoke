@@ -69,6 +69,18 @@
       "source_repo": "Kong/kubernetes-ingress-controller",
       "status": "candidate-context",
       "text": "docker build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library",
+      "status": "candidate-context",
+      "text": "A real-time media transport (DPDK, AF_XDP) stack for both raw and compressed video based on COTS hardware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library",
+      "status": "candidate-context",
+      "text": "Docker Build"
     }
   ],
   "candidate_glosses": [
@@ -101,6 +113,12 @@
       "source_repo": "Kong/kubernetes-ingress-controller",
       "status": "candidate",
       "text": "docker build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library",
+      "status": "candidate",
+      "text": "Docker Build"
     }
   ],
   "candidate_related_terms": [
@@ -180,11 +198,23 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/_docker_build.yaml",
       "source_repo": "Kong/kubernetes-ingress-controller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

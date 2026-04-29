@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Link Check",
-    "Link check"
+    "Link check",
+    "link check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -80,6 +81,30 @@
       "source_repo": "tensorchord/envd",
       "status": "candidate-context",
       "text": "Link check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "maldron0309/asm",
+      "status": "candidate-context",
+      "text": "Learning assembly for Linux x86_64 \ud55c\uad6d\uc5b4 \ubc88\uc5ed \ud3ec\ud06c"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maldron0309/asm",
+      "status": "candidate-context",
+      "text": "\"Link Check\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/mxnet",
+      "status": "candidate-context",
+      "text": "Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mxnet",
+      "status": "candidate-context",
+      "text": "link check"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +143,18 @@
       "source_repo": "tensorchord/envd",
       "status": "candidate",
       "text": "Link check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maldron0309/asm",
+      "status": "candidate",
+      "text": "\"Link Check\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mxnet",
+      "status": "candidate",
+      "text": "link check"
     }
   ],
   "candidate_related_terms": [
@@ -269,11 +306,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/links.yml",
       "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "0x7432/asm-ru"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "maldron0309/asm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "anthropics/claude-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/link_check.yml",
+      "source_repo": "apache/mxnet"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,114 @@
       "source_repo": "ali-vilab/TeaCache",
       "status": "candidate-context",
       "text": "<div class=\"is-size-5 publication-authors\", align=\"center\",>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/magvit",
+      "status": "candidate-context",
+      "text": "Official JAX implementation of MAGVIT: Masked Generative Video Transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/magvit",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/video-generation-on-ucf-101)](https://paperswithcode.com/sota/video-generation-on-ucf-101?p=language-model-beats-diffusion-tokenizer-is)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate-context",
+      "text": "A unified inference and post-training framework for accelerated video generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ali-vilab/UniAnimate-DiT",
+      "status": "candidate-context",
+      "text": "UniAnimate-DiT: Human Image Animation with Large-Scale Video Diffusion Transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/UniAnimate-DiT",
+      "status": "candidate-context",
+      "text": "An expanded version of [UniAnimate](https://arxiv.org/abs/2406.01188) based on [Wan2.1](https://github.com/Wan-Video/Wan2.1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ali-vilab/VACE",
+      "status": "candidate-context",
+      "text": "[ICCV 2025] Official implementations for paper: VACE: All-in-One Video Creation and Editing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/VACE",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelTC/LightX2V",
+      "status": "candidate-context",
+      "text": "Light Image Video Generation Inference Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/LightX2V",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"font-family: charter;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kandinskylab/kandinsky-5",
+      "status": "candidate-context",
+      "text": "Kandinsky 5.0: A family of diffusion models for Video & Image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kandinskylab/kandinsky-5",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "status": "candidate-context",
+      "text": "HunyuanVideo-1.5: A leading lightweight video generation model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "status": "candidate-context",
+      "text": "[\u4e2d\u6587\u6587\u6863](./README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ali-vilab/UniAnimate",
+      "status": "candidate-context",
+      "text": "Code for SCIS-2025 Paper \"UniAnimate: Taming Unified Video Di\ufb00usion Models for Consistent Human Image Animation\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/UniAnimate",
+      "status": "candidate-context",
+      "text": "<!-- main documents -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thu-ml/SageAttention",
+      "status": "candidate-context",
+      "text": "[ICLR2025, ICML2025, NeurIPS2025 Spotlight] Quantized Attention achieves speedup of 2-5x compared to FlashAttention, without losing end-to-end metrics across language, image, and video models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SageAttention",
+      "status": "candidate-context",
+      "text": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +135,60 @@
       "source_repo": "ali-vilab/TeaCache",
       "status": "candidate",
       "text": "<div class=\"is-size-5 publication-authors\", align=\"center\",>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/magvit",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/video-generation-on-ucf-101)](https://paperswithcode.com/sota/video-generation-on-ucf-101?p=language-model-beats-diffusion-tokenizer-is)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/UniAnimate-DiT",
+      "status": "candidate",
+      "text": "An expanded version of [UniAnimate](https://arxiv.org/abs/2406.01188) based on [Wan2.1](https://github.com/Wan-Video/Wan2.1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/VACE",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/LightX2V",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"font-family: charter;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kandinskylab/kandinsky-5",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "status": "candidate",
+      "text": "[\u4e2d\u6587\u6587\u6863](./README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/UniAnimate",
+      "status": "candidate",
+      "text": "<!-- main documents -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SageAttention",
+      "status": "candidate",
+      "text": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +202,65 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ali-vilab/TeaCache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-research/magvit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hao-ai-lab/FastVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/UniAnimate-DiT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/VACE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ModelTC/LightX2V"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kandinskylab/kandinsky-5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-1.5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/UniAnimate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/SageAttention"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

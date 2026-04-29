@@ -19,6 +19,30 @@
       "source_repo": "catalyst-team/catalyst",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate-context",
+      "text": "Pytorch domain library for recommendation systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate-context",
+      "text": "[tool.usort] first_party_detection = false"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/disco",
+      "status": "candidate-context",
+      "text": "Recommendations for Ruby and Rails using collaborative filtering"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/disco",
+      "status": "candidate-context",
+      "text": ":fire: Recommendations for Ruby and Rails using collaborative filtering"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "catalyst-team/catalyst",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate",
+      "text": "[tool.usort] first_party_detection = false"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/disco",
+      "status": "candidate",
+      "text": ":fire: Recommendations for Ruby and Rails using collaborative filtering"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "catalyst-team/catalyst"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchrec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ankane/disco"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

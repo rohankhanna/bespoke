@@ -1,0 +1,301 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-doc.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@v4.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-doc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-doc.yml",
+      "source_repo": "bernedom/SI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-doc.yml",
+      "source_repo": "bernedom/SI",
+      "target": "JamesIves/github-pages-deploy-action@v4.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-doc.yml",
+      "source_repo": "bernedom/SI",
+      "target": "API documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bernedom/SI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "bernedom/SI",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "bernedom/SI",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "bernedom/SI",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "bernedom/SI",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bernedom/SI",
+      "target": "cplusplus-17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bernedom/SI",
+      "target": "cplusplus-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bernedom/SI",
+      "target": "dimensional-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bernedom/SI",
+      "target": "dimensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bernedom/SI",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bernedom/SI",
+      "target": "physical-quantities",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bernedom/SI",
+      "target": "physical-units",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bernedom/SI",
+      "target": "si-unit-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bernedom/SI",
+      "target": "system-of-un",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bernedom/SI",
+      "target": "units",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bernedom/SI",
+      "target": "units-of-measure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:53:14.865882+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15959
+    },
+    {
+      "path": ".github/workflows/api-doc.yml",
+      "size": 915
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 4090
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1286
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A header only C++ library that provides type safety and user defined literals for physical units",
+    "fork": false,
+    "full_name": "bernedom/SI",
+    "html_url": "https://github.com/bernedom/SI",
+    "language": "C++",
+    "pushed_at": "2025-02-11T21:19:32Z",
+    "stargazers_count": 521,
+    "topics": [
+      "cplusplus-17",
+      "cplusplus-library",
+      "cpp",
+      "dimensional-analysis",
+      "dimensions",
+      "header-only",
+      "physical-quantities",
+      "physical-units",
+      "si-unit-conversion",
+      "system-of-un",
+      "units",
+      "units-of-measure"
+    ],
+    "updated_at": "2026-04-21T17:54:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "API documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-doc.yml",
+      "term": "API documentation"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "-<img align=\"right\" src=\"SI-logo.jpg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus-17"
+    },
+    {
+      "context_snippet": "-<img align=\"right\" src=\"SI-logo.jpg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cplusplus-library"
+    },
+    {
+      "context_snippet": "-<img align=\"right\" src=\"SI-logo.jpg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dimensional-analysis"
+    },
+    {
+      "context_snippet": "-<img align=\"right\" src=\"SI-logo.jpg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dimensions"
+    },
+    {
+      "context_snippet": "-<img align=\"right\" src=\"SI-logo.jpg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "-<img align=\"right\" src=\"SI-logo.jpg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physical-quantities"
+    },
+    {
+      "context_snippet": "-<img align=\"right\" src=\"SI-logo.jpg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "physical-units"
+    },
+    {
+      "context_snippet": "-<img align=\"right\" src=\"SI-logo.jpg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "si-unit-conversion"
+    },
+    {
+      "context_snippet": "-<img align=\"right\" src=\"SI-logo.jpg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "system-of-un"
+    },
+    {
+      "context_snippet": "-<img align=\"right\" src=\"SI-logo.jpg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "units"
+    },
+    {
+      "context_snippet": "-<img align=\"right\" src=\"SI-logo.jpg\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "units-of-measure"
+    }
+  ]
+}

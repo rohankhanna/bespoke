@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Add Labels"
+    "Add Labels",
+    "add-labels"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "open-telemetry/opentelemetry-collector",
       "status": "candidate-context",
       "text": "'Add Labels'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-telemetry/opentelemetry-collector-contrib",
+      "status": "candidate-context",
+      "text": "Contrib repository for the OpenTelemetry Collector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector-contrib",
+      "status": "candidate-context",
+      "text": "'Add Labels'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/cli",
+      "status": "candidate-context",
+      "text": "Automate your GitHub workflows using Azure CLI scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/cli",
+      "status": "candidate-context",
+      "text": "add-labels"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "open-telemetry/opentelemetry-collector",
       "status": "candidate",
       "text": "'Add Labels'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-telemetry/opentelemetry-collector-contrib",
+      "status": "candidate",
+      "text": "'Add Labels'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/cli",
+      "status": "candidate",
+      "text": "add-labels"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/add-labels-command.yml",
       "source_repo": "open-telemetry/opentelemetry-collector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/add-labels.yml",
+      "source_repo": "open-telemetry/opentelemetry-collector-contrib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/add-labels.yml",
+      "source_repo": "Azure/cli"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

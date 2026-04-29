@@ -1,0 +1,79 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MegEngine \u662f\u4e00\u4e2a\u5feb\u901f\u3001\u53ef\u62d3\u5c55\u3001\u6613\u4e8e\u4f7f\u7528\u4e14\u652f\u6301\u81ea\u52a8\u6c42\u5bfc\u7684\u6df1\u5ea6\u5b66\u4e60\u6846\u67b6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "human-graded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "manually-graded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 1,
+      "status": "candidate",
+      "text": "teacher-graded"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "autograd",
+      "sense_id": "autograd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "autograd",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "autograd",
+  "observation_id": "df3e8448dbf8f5f9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "autograd",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "MegEngine/MegEngine",
+  "source_repo_description": "MegEngine \u662f\u4e00\u4e2a\u5feb\u901f\u3001\u53ef\u62d3\u5c55\u3001\u6613\u4e8e\u4f7f\u7528\u4e14\u652f\u6301\u81ea\u52a8\u6c42\u5bfc\u7684\u6df1\u5ea6\u5b66\u4e60\u6846\u67b6"
+}

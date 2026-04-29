@@ -19,6 +19,18 @@
       "source_repo": "ultralytics/docs",
       "status": "candidate-context",
       "text": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "status": "candidate-context",
+      "text": "tensorrt for yolo series (YOLOv11,YOLOv10,YOLOv9,YOLOv8,YOLOv7,YOLOv6,YOLOX,YOLOv5), nms plugin support "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "status": "candidate-context",
+      "text": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ultralytics/docs",
       "status": "candidate",
       "text": "<a href=\"https://www.ultralytics.com/\" target=\"_blank\"><img src=\"https://raw.githubusercontent.com/ultralytics/assets/main/logo/Ultralytics_Logotype_Original.svg\" width=\"320\" alt=\"Ultralytics logo\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "status": "candidate",
+      "text": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ultralytics/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,322 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "zhaoj9014/face.evolve.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "pangyupo/mxnet_mtcnn_face_detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "convolutional-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "data-augmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "face-landmark-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "feature-extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "fine-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "hard-negative-mining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "imbalanced-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "model-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "tencent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "target": "transfer-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:02.038175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 57142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd25\ud83d\udd25High-Performance Face Recognition Library on PaddlePaddle & PyTorch\ud83d\udd25\ud83d\udd25",
+    "fork": false,
+    "full_name": "ZhaoJ9014/face.evoLVe",
+    "html_url": "https://github.com/ZhaoJ9014/face.evoLVe",
+    "language": "Python",
+    "pushed_at": "2025-03-20T02:45:06Z",
+    "stargazers_count": 3589,
+    "topics": [
+      "artificial-intelligence",
+      "computer-vision",
+      "convolutional-neural-network",
+      "data-augmentation",
+      "deep-learning",
+      "face-alignment",
+      "face-detection",
+      "face-landmark-detection",
+      "face-recognition",
+      "feature-extraction",
+      "fine-tuning",
+      "hard-negative-mining",
+      "imbalanced-learning",
+      "machine-learning",
+      "model-training",
+      "nus",
+      "pytorch",
+      "supervised-learning",
+      "tencent",
+      "transfer-learning"
+    ],
+    "updated_at": "2026-04-29T02:30:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pangyupo/mxnet_mtcnn_face_detection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhaoj9014/face.evolve.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-network"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-augmentation"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-alignment"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-landmark-detection"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-recognition"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "feature-extraction"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fine-tuning"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hard-negative-mining"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imbalanced-learning"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-training"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "supervised-learning"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tencent"
+    },
+    {
+      "context_snippet": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transfer-learning"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Commit Access Greeter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espressif/llvm-project",
+      "status": "candidate-context",
+      "text": "Fork of LLVM with Xtensa specific patches. To be upstreamed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/llvm-project",
+      "status": "candidate-context",
+      "text": "Commit Access Greeter"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/llvm-project",
+      "status": "candidate",
+      "text": "Commit Access Greeter"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25279,
+      "status": "candidate",
+      "text": "enter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23129,
+      "status": "candidate",
+      "text": "host"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23095,
+      "status": "candidate",
+      "text": "hostess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22546,
+      "status": "candidate",
+      "text": "commend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22429,
+      "status": "candidate",
+      "text": "receive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Commit Access Greeter",
+  "concept_id": "commit-access-greeter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/commit-access-greeter.yml",
+      "source_repo": "espressif/llvm-project"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Commit Access Greeter",
+      "sense_id": "commit-access-greeter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

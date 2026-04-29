@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mobilenets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "status": "candidate-context",
+      "text": "Real-Time Semantic Segmentation in Mobile device"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "status": "candidate-context",
+      "text": "This project is an example project of semantic segmentation for mobile real-time app."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "status": "candidate",
+      "text": "This project is an example project of semantic segmentation for mobile real-time app."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mobilenets",
+  "concept_id": "mobilenets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "akirasosa/mobile-semantic-segmentation"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mobilenets",
+      "sense_id": "mobilenets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

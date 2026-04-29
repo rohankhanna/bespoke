@@ -1,0 +1,147 @@
+{
+  "aliases": [
+    "Renovate",
+    "renovate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lodash/lodash",
+      "status": "candidate-context",
+      "text": "A modern JavaScript utility library delivering modularity, performance, & extras."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lodash/lodash",
+      "status": "candidate-context",
+      "text": "Renovate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc-ecosystem/grpc-gateway",
+      "status": "candidate-context",
+      "text": "gRPC to JSON proxy generator following the gRPC HTTP spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc-ecosystem/grpc-gateway",
+      "status": "candidate-context",
+      "text": "renovate"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lodash/lodash",
+      "status": "candidate",
+      "text": "Renovate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc-ecosystem/grpc-gateway",
+      "status": "candidate",
+      "text": "renovate"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975549,
+      "status": "candidate",
+      "text": "refurbish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974818,
+      "status": "candidate",
+      "text": "restitute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39961937,
+      "status": "candidate",
+      "text": "freshen up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29975575,
+      "status": "candidate",
+      "text": "refurbishment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29975537,
+      "status": "candidate",
+      "text": "revamp"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11020,
+      "status": "candidate",
+      "text": "restitute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3036,
+      "status": "candidate",
+      "text": "refurbish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1022,
+      "status": "candidate",
+      "text": "freshen up"
+    }
+  ],
+  "canonical_name": "Renovate",
+  "concept_id": "renovate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/renovate.yml",
+      "source_repo": "lodash/lodash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/renovate.yml",
+      "source_repo": "grpc-ecosystem/grpc-gateway"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Renovate",
+      "sense_id": "renovate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

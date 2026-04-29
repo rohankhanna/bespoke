@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnproject/docs",
+      "target": "fnproject/fn-helm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnproject/docs",
+      "target": "fnproject/flow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnproject/docs",
+      "target": "fnproject/ui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:50:13.203138+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4392
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "User documentation for the Fn Project.",
+    "fork": false,
+    "full_name": "fnproject/docs",
+    "html_url": "https://github.com/fnproject/docs",
+    "language": "Java",
+    "pushed_at": "2025-09-30T03:44:42Z",
+    "stargazers_count": 159,
+    "topics": [],
+    "updated_at": "2026-03-24T11:08:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fnproject/flow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fnproject/fn-helm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fnproject/ui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

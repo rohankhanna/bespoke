@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ZZ-Cross-CI Trigger beta iOS release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artsy/eigen",
+      "status": "candidate-context",
+      "text": "The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eigen",
+      "status": "candidate-context",
+      "text": "ZZ-Cross-CI Trigger beta iOS release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eigen",
+      "status": "candidate",
+      "text": "ZZ-Cross-CI Trigger beta iOS release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33358,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26880,
+      "status": "candidate",
+      "text": "trip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26480,
+      "status": "candidate",
+      "text": "triggered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26480,
+      "status": "candidate",
+      "text": "triggering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26480,
+      "status": "candidate",
+      "text": "trips"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ZZ-Cross-CI Trigger beta iOS release",
+  "concept_id": "zz-cross-ci-trigger-beta-ios-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/beta-ios.yml",
+      "source_repo": "artsy/eigen"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ZZ-Cross-CI Trigger beta iOS release",
+      "sense_id": "zz-cross-ci-trigger-beta-ios-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

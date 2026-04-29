@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ghcr.yaml",
+      "source_repo": "Bioconductor/bioc2u",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ghcr.yaml",
+      "source_repo": "Bioconductor/bioc2u",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ghcr.yaml",
+      "source_repo": "Bioconductor/bioc2u",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ghcr.yaml",
+      "source_repo": "Bioconductor/bioc2u",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ghcr.yaml",
+      "source_repo": "Bioconductor/bioc2u",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ghcr.yaml",
+      "source_repo": "Bioconductor/bioc2u",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_ghcr.yaml",
+      "source_repo": "Bioconductor/bioc2u",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_ghcr.yaml",
+      "source_repo": "Bioconductor/bioc2u",
+      "target": "Build Container Images",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "Bioconductor/bioc2u"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:57:31.441038+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2950
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Narrow Region Plugin for vim (like Emacs Narrow Region)",
+    "fork": false,
+    "full_name": "chrisbra/NrrwRgn",
+    "html_url": "https://github.com/chrisbra/NrrwRgn",
+    "language": "Vim Script",
+    "pushed_at": "2025-11-05T22:06:04Z",
+    "stargazers_count": 703,
+    "topics": [],
+    "updated_at": "2026-04-24T23:07:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

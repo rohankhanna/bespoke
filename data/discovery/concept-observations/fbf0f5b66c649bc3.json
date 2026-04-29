@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Firefly\u4e2d\u6587LLaMA-2\u5927\u6a21\u578b\uff0c\u652f\u6301\u589e\u91cf\u9884\u8bad\u7ec3Baichuan2\u3001Llama2\u3001Llama\u3001Falcon\u3001Qwen\u3001Baichuan\u3001InternLM\u3001Bloom\u7b49\u5927\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "baichaun2",
+      "sense_id": "baichaun2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "baichaun2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "baichaun2",
+  "observation_id": "fbf0f5b66c649bc3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "baichaun2",
+  "source_context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+  "source_file": null,
+  "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+  "source_repo_description": "Firefly\u4e2d\u6587LLaMA-2\u5927\u6a21\u578b\uff0c\u652f\u6301\u589e\u91cf\u9884\u8bad\u7ec3Baichuan2\u3001Llama2\u3001Llama\u3001Falcon\u3001Qwen\u3001Baichuan\u3001InternLM\u3001Bloom\u7b49\u5927\u6a21\u578b"
+}

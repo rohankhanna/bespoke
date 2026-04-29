@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:46:25.374577+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9806
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 94
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2025] DuoAttention: Efficient Long-Context LLM Inference with Retrieval and Streaming Heads",
+    "fork": false,
+    "full_name": "mit-han-lab/duo-attention",
+    "html_url": "https://github.com/mit-han-lab/duo-attention",
+    "language": "Python",
+    "pushed_at": "2025-02-10T18:01:39Z",
+    "stargazers_count": 540,
+    "topics": [],
+    "updated_at": "2026-04-27T21:38:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

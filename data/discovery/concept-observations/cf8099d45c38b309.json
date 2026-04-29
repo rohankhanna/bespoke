@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Open GenAI Stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "File Processors Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "File Processors Tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19987,
+      "status": "candidate",
+      "text": "acquirer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19987,
+      "status": "candidate",
+      "text": "testimony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12992,
+      "status": "candidate",
+      "text": "processor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12467,
+      "status": "candidate",
+      "text": "shadow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12467,
+      "status": "candidate",
+      "text": "shadowed"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "File Processors Tests",
+      "sense_id": "file-processors-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "file-processors-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "file-processors-tests",
+  "observation_id": "cf8099d45c38b309",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "File Processors Tests",
+  "source_context_snippet": "File Processors Tests",
+  "source_file": ".github/workflows/file-processors-tests.yml",
+  "source_repo": "ogx-ai/ogx",
+  "source_repo_description": "Open GenAI Stack"
+}

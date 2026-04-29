@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pry-byebug"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "status": "candidate-context",
+      "text": "Step-by-step debugging and stack navigation in Pry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "status": "candidate-context",
+      "text": "[![Version][VersionBadge]][VersionURL]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "status": "candidate",
+      "text": "[![Version][VersionBadge]][VersionURL]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pry-byebug",
+  "concept_id": "pry-byebug",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "deivid-rodriguez/pry-byebug"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pry-byebug",
+      "sense_id": "pry-byebug#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

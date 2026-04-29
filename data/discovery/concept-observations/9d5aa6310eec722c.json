@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extract BIOS ROM extensions and bitmap fonts (8x8, 8x14, 8x16)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5bebc8b8aed438da6bf0b2a63161d7a)](https://www.codacy.com/app/alexmyczko/ree?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alexmyczko/ree&amp;utm_campaign=Badge_Grade)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5bebc8b8aed438da6bf0b2a63161d7a)](https://www.codacy.com/app/alexmyczko/ree?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alexmyczko/ree&amp;utm_campaign=Badge_Grade)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bitmap-font",
+      "sense_id": "bitmap-font#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bitmap-font",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bitmap-font",
+  "observation_id": "9d5aa6310eec722c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "bitmap-font",
+  "source_context_snippet": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5bebc8b8aed438da6bf0b2a63161d7a)](https://www.codacy.com/app/alexmyczko/ree?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alexmyczko/ree&amp;utm_campaign=Badge_Grade)",
+  "source_file": null,
+  "source_repo": "alexmyczko/ree",
+  "source_repo_description": "Extract BIOS ROM extensions and bitmap fonts (8x8, 8x14, 8x16)"
+}

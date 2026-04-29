@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:53:38.098292+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 494
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 221
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "monoio-rs/monoio-tls",
+    "html_url": "https://github.com/monoio-rs/monoio-tls",
+    "language": "Rust",
+    "pushed_at": "2024-10-02T23:53:11Z",
+    "stargazers_count": 23,
+    "topics": [],
+    "updated_at": "2026-03-24T05:08:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

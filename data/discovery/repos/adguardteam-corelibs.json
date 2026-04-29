@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AdguardTeam/CoreLibs",
+      "target": "adguard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:49:09.928157+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 76
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Core Adguard libraries",
+    "fork": false,
+    "full_name": "AdguardTeam/CoreLibs",
+    "html_url": "https://github.com/AdguardTeam/CoreLibs",
+    "language": null,
+    "pushed_at": "2024-05-17T15:47:54Z",
+    "stargazers_count": 50,
+    "topics": [
+      "adguard"
+    ],
+    "updated_at": "2026-03-15T07:45:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Core C/C++ libraries used by Adguard.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adguard"
+    }
+  ]
+}

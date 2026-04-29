@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "waltonfuture/InstructionGPT-4",
+      "target": "opengvlab/multi-modality-arena",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "waltonfuture/InstructionGPT-4",
+      "target": "dlyuangod/tinygpt-v",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waltonfuture/InstructionGPT-4",
+      "target": "data-selection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waltonfuture/InstructionGPT-4",
+      "target": "less-is-more",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waltonfuture/InstructionGPT-4",
+      "target": "llm-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waltonfuture/InstructionGPT-4",
+      "target": "multimodal-deep-learning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "waltonfuture/InstructionGPT-4"
+}

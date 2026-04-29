@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HTTP Archive's annual \"State of the Web\" report made by the web community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Check Translation Lengths"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Check Translation Lengths"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18802,
+      "status": "candidate",
+      "text": "inti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18802,
+      "status": "candidate",
+      "text": "into"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18802,
+      "status": "candidate",
+      "text": "splinter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18802,
+      "status": "candidate",
+      "text": "splintering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18802,
+      "status": "candidate",
+      "text": "splinters"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Translation Lengths",
+      "sense_id": "check-translation-lengths#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "check-translation-lengths",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "check-translation-lengths",
+  "observation_id": "f26577a5518e4f56",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Check Translation Lengths",
+  "source_context_snippet": "Check Translation Lengths",
+  "source_file": ".github/workflows/check-translations-lengths.yml",
+  "source_repo": "HTTPArchive/almanac.httparchive.org",
+  "source_repo_description": "HTTP Archive's annual \"State of the Web\" report made by the web community"
+}

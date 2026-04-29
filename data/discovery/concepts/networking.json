@@ -211,6 +211,42 @@
       "source_repo": "smol-rs/smol",
       "status": "candidate-context",
       "text": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate-context",
+      "text": "\ud83d\udd73 bore is a simple CLI tool for making tunnels to localhost"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate-context",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/ekzhang/bore/ci.yml)](https://github.com/ekzhang/bore/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tidwall/evio",
+      "status": "candidate-context",
+      "text": "Fast event-loop networking for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/evio",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "status": "candidate-context",
+      "text": "Repository for the next iteration of composite service (e.g. Ingress) and load balancing APIs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "status": "candidate-context",
+      "text": "The Gateway API is a part of [SIG Network][sn], and this repository contains"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +351,24 @@
       "source_repo": "smol-rs/smol",
       "status": "candidate",
       "text": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/ekzhang/bore/ci.yml)](https://github.com/ekzhang/bore/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tidwall/evio",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "status": "candidate",
+      "text": "The Gateway API is a part of [SIG Network][sn], and this repository contains"
     }
   ],
   "candidate_related_terms": [
@@ -460,11 +514,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "smol-rs/smol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ekzhang/bore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tidwall/evio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/gateway-api"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

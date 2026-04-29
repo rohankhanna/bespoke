@@ -1,0 +1,12 @@
+{
+  "component": "calibreapp/image-actions@f32575787d333b0579f0b7d506ff03be63a669d1",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/calibreapp-image-actions.yml",
+      "source_repo": "twbs/bootstrap"
+    }
+  ]
+}

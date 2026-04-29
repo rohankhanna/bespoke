@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lewis6991/async.nvim",
+      "target": "gregorias/coop.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lewis6991/async.nvim",
+      "target": "nvim-neotest/nvim-nio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lewis6991/async.nvim",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lewis6991/async.nvim",
+      "target": "lua-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lewis6991/async.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lewis6991/async.nvim",
+      "target": "neovim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:44:03.546986+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10241
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 442
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Async library for Neovim plugins",
+    "fork": false,
+    "full_name": "lewis6991/async.nvim",
+    "html_url": "https://github.com/lewis6991/async.nvim",
+    "language": "Lua",
+    "pushed_at": "2026-04-18T09:32:42Z",
+    "stargazers_count": 79,
+    "topics": [
+      "lua",
+      "lua-library",
+      "neovim",
+      "neovim-plugin"
+    ],
+    "updated_at": "2026-04-25T07:47:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gregorias/coop.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvim-neotest/nvim-nio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Structured concurrency library for Lua 5.1, built on coroutines.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lua-library"
+    },
+    {
+      "context_snippet": "Structured concurrency library for Lua 5.1, built on coroutines.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Structured concurrency library for Lua 5.1, built on coroutines.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim-plugin"
+    }
+  ]
+}

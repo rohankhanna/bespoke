@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Beyond the Imitation Game collaborative benchmark for measuring and extrapolating the capabilities of language models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "generate BIG-Bench task summaries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "generate BIG-Bench task summaries"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21012,
+      "status": "candidate",
+      "text": "digest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20789,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20789,
+      "status": "candidate",
+      "text": "summary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20485,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20461,
+      "status": "candidate",
+      "text": "establish"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "generate BIG-Bench task summaries",
+      "sense_id": "generate-big-bench-task-summaries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generate-big-bench-task-summaries",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generate-big-bench-task-summaries",
+  "observation_id": "4220a1751f248b69",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "generate BIG-Bench task summaries",
+  "source_context_snippet": "generate BIG-Bench task summaries",
+  "source_file": ".github/workflows/generate_task_summaries.yml",
+  "source_repo": "google/BIG-bench",
+  "source_repo_description": "Beyond the Imitation Game collaborative benchmark for measuring and extrapolating the capabilities of language models"
+}

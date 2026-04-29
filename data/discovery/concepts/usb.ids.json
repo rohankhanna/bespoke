@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "usb.ids"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dorssel/usbipd-win",
+      "status": "candidate-context",
+      "text": "Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dorssel/usbipd-win",
+      "status": "candidate-context",
+      "text": "usb.ids"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dorssel/usbipd-win",
+      "status": "candidate",
+      "text": "usb.ids"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "usb.ids",
+  "concept_id": "usb.ids",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/usbids.yml",
+      "source_repo": "dorssel/usbipd-win"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "usb.ids",
+      "sense_id": "usb.ids#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "auth0/auth0-ai-pr-analyzer-gh-action/.github/workflows/claude-code-review.yml@main",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "auth0/node-jwks-rsa"
+    }
+  ]
+}

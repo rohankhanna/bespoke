@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/crossbuild-mingw.yml"
     },
     {
-      "component": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "component": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/crossbuild-mingw.yml"
     },
@@ -71,7 +71,7 @@
       "source_file": ".github/workflows/docs.yml"
     },
     {
-      "component": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "component": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml"
     },
@@ -91,7 +91,7 @@
       "source_file": ".github/workflows/linux.yml"
     },
     {
-      "component": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "component": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux.yml"
     },
@@ -121,7 +121,7 @@
       "source_file": ".github/workflows/macos.yml"
     },
     {
-      "component": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "component": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yml"
     },
@@ -227,7 +227,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/crossbuild-mingw.yml",
       "source_repo": "harfbuzz/harfbuzz",
-      "target": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "target": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "target_type": "component"
     },
     {
@@ -269,7 +269,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "harfbuzz/harfbuzz",
-      "target": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "target": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "target_type": "component"
     },
     {
@@ -304,7 +304,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/linux.yml",
       "source_repo": "harfbuzz/harfbuzz",
-      "target": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "target": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "target_type": "component"
     },
     {
@@ -346,7 +346,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/macos.yml",
       "source_repo": "harfbuzz/harfbuzz",
-      "target": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "target": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "target_type": "component"
     },
     {
@@ -420,7 +420,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:57:46.368608+00:00",
+  "fetched_at": "2026-04-29T21:48:01.086478+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -472,8 +472,8 @@
     "full_name": "harfbuzz/harfbuzz",
     "html_url": "https://github.com/harfbuzz/harfbuzz",
     "language": "C++",
-    "pushed_at": "2026-04-23T09:19:14Z",
-    "stargazers_count": 5581,
+    "pushed_at": "2026-04-28T19:59:28Z",
+    "stargazers_count": 5589,
     "topics": [
       "aat",
       "c",
@@ -487,7 +487,7 @@
       "unicode",
       "variable-fonts"
     ],
-    "updated_at": "2026-04-24T06:04:19Z"
+    "updated_at": "2026-04-29T14:20:34Z"
   },
   "repo_links": [],
   "terms": [

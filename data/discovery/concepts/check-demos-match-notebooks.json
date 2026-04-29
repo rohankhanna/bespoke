@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Demos Match Notebooks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashen-sensored/gradio",
+      "status": "candidate-context",
+      "text": "Create UIs for your machine learning model in Python in 3 minutes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashen-sensored/gradio",
+      "status": "candidate-context",
+      "text": "Check Demos Match Notebooks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashen-sensored/gradio",
+      "status": "candidate",
+      "text": "Check Demos Match Notebooks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36277,
+      "status": "candidate",
+      "text": "contest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32489,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28478,
+      "status": "candidate",
+      "text": "books"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22229,
+      "status": "candidate",
+      "text": "ruled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21537,
+      "status": "candidate",
+      "text": "default"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Demos Match Notebooks",
+  "concept_id": "check-demos-match-notebooks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/check-demo-notebooks.yml",
+      "source_repo": "ashen-sensored/gradio"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Demos Match Notebooks",
+      "sense_id": "check-demos-match-notebooks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A rich developer experience for deploying containers to AWS Lambda and AWS ECS Fargate \u2013 without rearchitecting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aws-fargate",
+      "sense_id": "aws-fargate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aws-fargate",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aws-fargate",
+  "observation_id": "131070097ef896cb",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "aws-fargate",
+  "source_context_snippet": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)",
+  "source_file": null,
+  "source_repo": "serverless/containers",
+  "source_repo_description": "A rich developer experience for deploying containers to AWS Lambda and AWS ECS Fargate \u2013 without rearchitecting."
+}

@@ -4,28 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "onsails/lspkind.nvim",
-      "target": "hrsh7th/nvim-compe",
+      "target": "onsails/lspkind-nvim",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "onsails/lspkind.nvim",
-      "target": "hrsh7th/vim-vsnip",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "onsails/lspkind.nvim",
-      "target": "hrsh7th/vim-vsnip-integ",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "onsails/lspkind.nvim",
-      "target": "metalelf0/jellybeans-nvim",
+      "target": "onsails/diaglist.nvim",
       "target_type": "repository"
     },
     {
@@ -43,6 +29,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "onsails/lspkind.nvim"
 }

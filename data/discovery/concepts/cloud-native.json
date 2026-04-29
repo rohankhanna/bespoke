@@ -259,6 +259,42 @@
       "source_repo": "dotnet/orleans",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f Build multimodal AI applications with cloud-native stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "<a href=\"https://pypi.org/project/jina/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/jina?label=Release&style=flat-square\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sorintlab/stolon",
+      "status": "candidate-context",
+      "text": "PostgreSQL cloud native High Availability and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorintlab/stolon",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate-context",
+      "text": "An open source trusted cloud native registry project that stores, signs, and scans content."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +423,24 @@
       "source_repo": "dotnet/orleans",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate",
+      "text": "<a href=\"https://pypi.org/project/jina/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/jina?label=Release&style=flat-square\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorintlab/stolon",
+      "status": "candidate",
+      "text": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -538,11 +592,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "dotnet/orleans"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "goharbor/harbor"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

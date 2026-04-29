@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple Kubernetes Operator for MinIO clusters :computer:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tenant Tests On Kind"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tenant Tests On Kind"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29290,
+      "status": "candidate",
+      "text": "kain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28858,
+      "status": "candidate",
+      "text": "tac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28490,
+      "status": "candidate",
+      "text": "render"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28058,
+      "status": "candidate",
+      "text": "estrepement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28058,
+      "status": "candidate",
+      "text": "lieu"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tenant Tests On Kind",
+      "sense_id": "tenant-tests-on-kind#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tenant-tests-on-kind",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tenant-tests-on-kind",
+  "observation_id": "5c5c4fd114c16bcb",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Tenant Tests On Kind",
+  "source_context_snippet": "Tenant Tests On Kind",
+  "source_file": ".github/workflows/kubernetes-tests.yml",
+  "source_repo": "minio/operator",
+  "source_repo_description": "Simple Kubernetes Operator for MinIO clusters :computer:"
+}

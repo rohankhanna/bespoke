@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "karpathy/minbpe",
+      "target": "gnp/minbpe-rs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:59:27.732459+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9270
+    },
+    {
+      "path": "requirements.txt",
+      "size": 14
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Minimal, clean code for the Byte Pair Encoding (BPE) algorithm commonly used in LLM tokenization.",
+    "fork": false,
+    "full_name": "karpathy/minbpe",
+    "html_url": "https://github.com/karpathy/minbpe",
+    "language": "Python",
+    "pushed_at": "2024-07-01T14:20:22Z",
+    "stargazers_count": 10460,
+    "topics": [],
+    "updated_at": "2026-04-29T16:42:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gnp/minbpe-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

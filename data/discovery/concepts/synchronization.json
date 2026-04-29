@@ -31,6 +31,18 @@
       "source_repo": "crossbeam-rs/crossbeam",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/crossbeam-rs/crossbeam/workflows/CI/badge.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locize/locize-cli",
+      "status": "candidate-context",
+      "text": "locize cli to import / export locales, add / edit / remove, sync segments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-cli",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/locize/locize-cli/workflows/node/badge.svg)](https://github.com/locize/locize-cli/actions?query=workflow%3Anode)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "crossbeam-rs/crossbeam",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/crossbeam-rs/crossbeam/workflows/CI/badge.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-cli",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/locize/locize-cli/workflows/node/badge.svg)](https://github.com/locize/locize-cli/actions?query=workflow%3Anode)"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "crossbeam-rs/crossbeam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "locize/locize-cli"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

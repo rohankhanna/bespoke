@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Changesets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wevm/abitype",
+      "status": "candidate-context",
+      "text": "Strict TypeScript types for Ethereum ABIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wevm/abitype",
+      "status": "candidate-context",
+      "text": "Changesets"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wevm/abitype",
+      "status": "candidate",
+      "text": "Changesets"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9817079,
+      "status": "candidate",
+      "text": "changes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9817078,
+      "status": "candidate",
+      "text": "change"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9817077,
+      "status": "candidate",
+      "text": "revisions"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9817076,
+      "status": "candidate",
+      "text": "changed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9817075,
+      "status": "candidate",
+      "text": "changing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Changesets",
+  "concept_id": "changesets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changesets.yml",
+      "source_repo": "wevm/abitype"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Changesets",
+      "sense_id": "changesets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

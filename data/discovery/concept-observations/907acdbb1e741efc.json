@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Language server implementation for Elm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Matrix](https://img.shields.io/matrix/elm-language-server:matrix.org?label=Matrix%20chat&logo=Matrix)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Matrix](https://img.shields.io/matrix/elm-language-server:matrix.org?label=Matrix%20chat&logo=Matrix)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kak-lsp",
+      "sense_id": "kak-lsp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kak-lsp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kak-lsp",
+  "observation_id": "907acdbb1e741efc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "kak-lsp",
+  "source_context_snippet": "![Matrix](https://img.shields.io/matrix/elm-language-server:matrix.org?label=Matrix%20chat&logo=Matrix)",
+  "source_file": null,
+  "source_repo": "elm-tooling/elm-language-server",
+  "source_repo_description": "Language server implementation for Elm"
+}

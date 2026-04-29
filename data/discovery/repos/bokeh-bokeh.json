@@ -1,0 +1,673 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci-full.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci-full.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci-full.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci-full.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci-full.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci-full.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci-full.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci-full.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci-full.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci-full.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci.yml"
+    },
+    {
+      "component": "tspascoal/get-user-teams-membership@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-release-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-release-build.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-release-build.yml"
+    },
+    {
+      "component": "tspascoal/get-user-teams-membership@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-release-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-release-deploy.yml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-release-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-test-chromium.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-test-chromium.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-test-chromium.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-test-chromium.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bokeh/bokeh",
+      "target": "bokeh/tutorial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci-full.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci-full.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bokeh-ci-full.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "Bokeh-CI-Full",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-ci.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bokeh-ci.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "Bokeh-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-release-build.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "tspascoal/get-user-teams-membership@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-release-build.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-release-build.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "conda-incubator/setup-miniconda@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bokeh-release-build.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "Release - Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-release-deploy.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "tspascoal/get-user-teams-membership@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-release-deploy.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokeh-release-deploy.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "conda-incubator/setup-miniconda@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bokeh-release-deploy.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "Release - Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-ci.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-ci.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-ci.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bokehjs-ci.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "BokehJS-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-test-chromium.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-test-chromium.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bokehjs-test-chromium.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bokehjs-test-chromium.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "BokehJS - Test Chromium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "bokeh/bokeh",
+      "target": "Downstream",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokeh/bokeh",
+      "target": "bokeh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokeh/bokeh",
+      "target": "data-visualisation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokeh/bokeh",
+      "target": "interactive-plots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokeh/bokeh",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokeh/bokeh",
+      "target": "notebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokeh/bokeh",
+      "target": "numfocus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokeh/bokeh",
+      "target": "plots",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokeh/bokeh",
+      "target": "plotting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokeh/bokeh",
+      "target": "visualisation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bokeh/bokeh",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:54:44.865407+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8674
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 12455
+    },
+    {
+      "path": ".github/workflows/bokeh-ci-full.yml",
+      "size": 13217
+    },
+    {
+      "path": ".github/workflows/bokeh-ci.yml",
+      "size": 6982
+    },
+    {
+      "path": ".github/workflows/bokeh-release-build.yml",
+      "size": 2255
+    },
+    {
+      "path": ".github/workflows/bokeh-release-deploy.yml",
+      "size": 2072
+    },
+    {
+      "path": ".github/workflows/bokehjs-ci.yml",
+      "size": 3727
+    },
+    {
+      "path": ".github/workflows/bokehjs-test-chromium.yml",
+      "size": 3281
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1092
+    },
+    {
+      "path": ".github/workflows/downstream.yml",
+      "size": 1045
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "branch-3.10",
+    "description": "Interactive Data Visualization in the browser, from  Python",
+    "fork": false,
+    "full_name": "bokeh/bokeh",
+    "html_url": "https://github.com/bokeh/bokeh",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-28T12:02:31Z",
+    "stargazers_count": 20376,
+    "topics": [
+      "bokeh",
+      "data-visualisation",
+      "interactive-plots",
+      "javascript",
+      "jupyter",
+      "notebooks",
+      "numfocus",
+      "plots",
+      "plotting",
+      "python",
+      "visualisation",
+      "visualization"
+    ],
+    "updated_at": "2026-04-29T18:11:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bokeh/tutorial",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bokeh-CI-Full",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bokeh-ci-full.yml",
+      "term": "Bokeh-CI-Full"
+    },
+    {
+      "context_snippet": "Bokeh-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bokeh-ci.yml",
+      "term": "Bokeh-CI"
+    },
+    {
+      "context_snippet": "Release - Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bokeh-release-build.yml",
+      "term": "Release - Build"
+    },
+    {
+      "context_snippet": "Release - Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bokeh-release-deploy.yml",
+      "term": "Release - Deploy"
+    },
+    {
+      "context_snippet": "BokehJS-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bokehjs-ci.yml",
+      "term": "BokehJS-CI"
+    },
+    {
+      "context_snippet": "BokehJS - Test Chromium",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bokehjs-test-chromium.yml",
+      "term": "BokehJS - Test Chromium"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Downstream",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/downstream.yml",
+      "term": "Downstream"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bokeh"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-visualisation"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive-plots"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notebooks"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numfocus"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plots"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plotting"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualisation"
+    },
+    {
+      "context_snippet": "<picture>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

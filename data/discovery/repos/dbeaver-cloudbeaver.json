@@ -1,0 +1,437 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-build.yml"
+    },
+    {
+      "component": "dbeaver/github-actions/clone-repositories@devel",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-build.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-build.yml"
+    },
+    {
+      "component": "dbeaver/github-actions/install-maven@devel",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-build.yml"
+    },
+    {
+      "component": "dbeaver/dbeaver-common/.github/workflows/cleanup-caches.yml@devel",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-cleanup.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-build.yml"
+    },
+    {
+      "component": "dbeaver/github-actions/clone-repositories@devel",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-build.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-lint.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-lint.yml"
+    },
+    {
+      "component": "dbeaver/dbeaver-common/.github/workflows/mvn-package.yml@devel",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-pr-devel.yml"
+    },
+    {
+      "component": "dbeaver/dbeaver-common/.github/workflows/java-checkstyle.yml@devel",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-pr-devel.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-build.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-build.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "dbeaver/github-actions/clone-repositories@devel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-build.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-build.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "dbeaver/github-actions/install-maven@devel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-build.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-build.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "Backend Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/common-cleanup.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "dbeaver/dbeaver-common/.github/workflows/cleanup-caches.yml@devel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-cleanup.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "Cleanup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-and-push.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "Build and Push Docker Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-build.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-build.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "dbeaver/github-actions/clone-repositories@devel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-build.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-build.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-build.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-build.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "Frontend Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-lint.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend-lint.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-lint.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "Frontend Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-pr-devel.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "dbeaver/dbeaver-common/.github/workflows/mvn-package.yml@devel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push-pr-devel.yml",
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "dbeaver/dbeaver-common/.github/workflows/java-checkstyle.yml@devel",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "cloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "cloud-database-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "databases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "dbeaver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dbeaver/cloudbeaver",
+      "target": "webapp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:45:35.836785+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11596
+    },
+    {
+      "path": ".github/workflows/backend-build.yml",
+      "size": 1043
+    },
+    {
+      "path": ".github/workflows/common-cleanup.yml",
+      "size": 230
+    },
+    {
+      "path": ".github/workflows/docker-build-and-push.yml",
+      "size": 3440
+    },
+    {
+      "path": ".github/workflows/frontend-build.yml",
+      "size": 2111
+    },
+    {
+      "path": ".github/workflows/frontend-lint.yml",
+      "size": 1249
+    },
+    {
+      "path": ".github/workflows/push-pr-devel.yml",
+      "size": 1721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "devel",
+    "description": "Cloud Database Manager",
+    "fork": false,
+    "full_name": "dbeaver/cloudbeaver",
+    "html_url": "https://github.com/dbeaver/cloudbeaver",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-29T16:55:07Z",
+    "stargazers_count": 4840,
+    "topics": [
+      "cloud",
+      "cloud-database-manager",
+      "database",
+      "databases",
+      "dbeaver",
+      "webapp"
+    ],
+    "updated_at": "2026-04-29T20:35:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Backend Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-build.yml",
+      "term": "Backend Build"
+    },
+    {
+      "context_snippet": "Cleanup",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/common-cleanup.yml",
+      "term": "Cleanup"
+    },
+    {
+      "context_snippet": "Build and Push Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build-and-push.yml",
+      "term": "Build and Push Docker Image"
+    },
+    {
+      "context_snippet": "Frontend Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-build.yml",
+      "term": "Frontend Build"
+    },
+    {
+      "context_snippet": "Frontend Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend-lint.yml",
+      "term": "Frontend Lint"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-database-manager"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "databases"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dbeaver"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webapp"
+    }
+  ]
+}

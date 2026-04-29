@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "integrations/slack",
+      "target": "github-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "integrations/slack",
+      "target": "probot-app",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:58:08.066103+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 30992
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bring your code to the conversations you care about with GitHub's integration for Slack",
+    "fork": false,
+    "full_name": "integrations/slack",
+    "html_url": "https://github.com/integrations/slack",
+    "language": null,
+    "pushed_at": "2025-06-19T08:37:47Z",
+    "stargazers_count": 3448,
+    "topics": [
+      "github-app",
+      "probot-app"
+    ],
+    "updated_at": "2026-04-28T05:20:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The GitHub integration for Slack gives you and your teams full",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-app"
+    },
+    {
+      "context_snippet": "The GitHub integration for Slack gives you and your teams full",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probot-app"
+    }
+  ]
+}

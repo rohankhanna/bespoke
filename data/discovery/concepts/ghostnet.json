@@ -19,6 +19,18 @@
       "source_repo": "huawei-noah/Efficient-AI-Backbones",
       "status": "candidate-context",
       "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cavalleria/cavaface",
+      "status": "candidate-context",
+      "text": "face recognition training project(pytorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cavalleria/cavaface",
+      "status": "candidate-context",
+      "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "huawei-noah/Efficient-AI-Backbones",
       "status": "candidate",
       "text": "Efficient AI Backbones including GhostNet, TNT and MLP, developed by Huawei Noah's Ark Lab."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cavalleria/cavaface",
+      "status": "candidate",
+      "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "huawei-noah/Efficient-AI-Backbones"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

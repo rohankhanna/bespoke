@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "platform-api-tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": ":rocket: \u00a0A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": "platform-api-tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate",
+      "text": "platform-api-tests"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "platform-api-tests",
+  "concept_id": "platform-api-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/platform-api-tests.yml",
+      "source_repo": "apollographql/apollo-kotlin"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "platform-api-tests",
+      "sense_id": "platform-api-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

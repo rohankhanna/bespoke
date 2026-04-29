@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asafigan/pdfium_rs",
+      "target": "bblanchon/pdfium-binaries.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:42:46.689181+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 949
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 604
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Rust wrapper around PDFium allowing you to render PDFs from Rust",
+    "fork": false,
+    "full_name": "asafigan/pdfium_rs",
+    "html_url": "https://github.com/asafigan/pdfium_rs",
+    "language": "Rust",
+    "pushed_at": "2021-05-19T14:48:00Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2025-08-10T09:23:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bblanchon/pdfium-binaries.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -19,6 +19,30 @@
       "source_repo": "PaddlePaddle/PaddleSeg",
       "status": "candidate-context",
       "text": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "status": "candidate-context",
+      "text": "Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\"."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection-v2",
+      "status": "candidate-context",
+      "text": "Ultra Fast Deep Lane Detection With Hybrid Anchor Driven Ordinal Classification (TPAMI 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection-v2",
+      "status": "candidate-context",
+      "text": "PyTorch implementation of the paper \"[Ultra Fast Deep Lane Detection with Hybrid Anchor Driven Ordinal Classification](https://arxiv.org/abs/2206.07389)\"."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "PaddlePaddle/PaddleSeg",
       "status": "candidate",
       "text": "pyyaml >= 5.1 visualdl >= 2.2.0 opencv-python <= 4.6.0 tqdm filelock scipy prettytable scikit-learn scikit-image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "status": "candidate",
+      "text": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection-v2",
+      "status": "candidate",
+      "text": "PyTorch implementation of the paper \"[Ultra Fast Deep Lane Detection with Hybrid Anchor Driven Ordinal Classification](https://arxiv.org/abs/2206.07389)\"."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleSeg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection-v2"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

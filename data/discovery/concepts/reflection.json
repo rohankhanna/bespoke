@@ -19,6 +19,18 @@
       "source_repo": "jhump/protoreflect",
       "status": "candidate-context",
       "text": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aantron/better-enums",
+      "status": "candidate-context",
+      "text": "C++ compile-time enum to string, iteration, in a single header file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aantron/better-enums",
+      "status": "candidate-context",
+      "text": "[wandbox]: http://melpon.org/wandbox/permlink/2QCi3cwQnplAToge"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jhump/protoreflect",
       "status": "candidate",
       "text": "[![Build Status](https://circleci.com/gh/jhump/protoreflect/tree/v2.svg?style=svg)](https://circleci.com/gh/jhump/protoreflect/tree/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aantron/better-enums",
+      "status": "candidate",
+      "text": "[wandbox]: http://melpon.org/wandbox/permlink/2QCi3cwQnplAToge"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "jhump/protoreflect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aantron/better-enums"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

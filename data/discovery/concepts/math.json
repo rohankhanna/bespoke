@@ -55,6 +55,30 @@
       "source_repo": "nfrechette/rtm",
       "status": "candidate-context",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/rtm)](https://cla-assistant.io/nfrechette/rtm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcodeIO/long.js",
+      "status": "candidate-context",
+      "text": "A Long class for representing a 64-bit two's-complement integer value."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcodeIO/long.js",
+      "status": "candidate-context",
+      "text": "A Long class for representing a 64 bit two's-complement integer value derived from the [Closure Library](https://github.com/google/closure-library)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hendrycks/math",
+      "status": "candidate-context",
+      "text": "The MATH Dataset (NeurIPS 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hendrycks/math",
+      "status": "candidate-context",
+      "text": "This is the repository for [Measuring Mathematical Problem Solving With the MATH Dataset](https://arxiv.org/pdf/2103.03874) by"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "nfrechette/rtm",
       "status": "candidate",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/rtm)](https://cla-assistant.io/nfrechette/rtm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcodeIO/long.js",
+      "status": "candidate",
+      "text": "A Long class for representing a 64 bit two's-complement integer value derived from the [Closure Library](https://github.com/google/closure-library)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hendrycks/math",
+      "status": "candidate",
+      "text": "This is the repository for [Measuring Mathematical Problem Solving With the MATH Dataset](https://arxiv.org/pdf/2103.03874) by"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +199,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "nfrechette/rtm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dcodeIO/long.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hendrycks/math"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

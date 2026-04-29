@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:50:36.561382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8068
+    },
+    {
+      "path": "Dockerfile",
+      "size": 660
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "DEPRECATED: Open-source software for robot simulation, integrated with OpenAI Gym.",
+    "fork": false,
+    "full_name": "openai/roboschool",
+    "html_url": "https://github.com/openai/roboschool",
+    "language": "Python",
+    "pushed_at": "2023-04-02T11:37:04Z",
+    "stargazers_count": 2170,
+    "topics": [],
+    "updated_at": "2026-04-22T08:15:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

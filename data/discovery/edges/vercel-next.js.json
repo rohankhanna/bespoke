@@ -445,6 +445,13 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vercel/next.js",
+      "target": "@vercel/blob",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "vercel/next.js",
       "target": "@vercel/devlow-bench",
       "target_type": "component"
     },
@@ -1429,6 +1436,13 @@
       "target_type": "component"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "vercel/next.js",
+      "target": "actions/create-github-app-token@v3",
+      "target_type": "component"
+    },
+    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build_and_deploy.yml",
       "source_repo": "vercel/next.js",
@@ -1446,14 +1460,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_test.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/setup-node@v4",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build_and_test.yml",
       "source_repo": "vercel/next.js",
-      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target": "actions/setup-node@v4",
       "target_type": "component"
     },
     {
@@ -1531,6 +1545,13 @@
       "source_file": ".github/workflows/create_release_branch.yml",
       "source_repo": "vercel/next.js",
       "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create_release_branch.yml",
+      "source_repo": "vercel/next.js",
+      "target": "actions/create-github-app-token@v3",
       "target_type": "component"
     },
     {
@@ -1688,6 +1709,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "vercel/next.js"
 }

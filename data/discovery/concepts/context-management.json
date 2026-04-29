@@ -19,6 +19,18 @@
       "source_repo": "danielrosehill/Claude-Code-Context-Toolkit",
       "status": "candidate-context",
       "text": "A comprehensive Claude Code plugin that implements the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielrosehill/CONTEXT.md",
+      "status": "candidate-context",
+      "text": "Notes, loader for project context as a single markdown file (method)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/CONTEXT.md",
+      "status": "candidate-context",
+      "text": "![alt text](graphics/banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "danielrosehill/Claude-Code-Context-Toolkit",
       "status": "candidate",
       "text": "A comprehensive Claude Code plugin that implements the CONTEXT.md workflow system for managing human-authored context and agent-ready briefings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielrosehill/CONTEXT.md",
+      "status": "candidate",
+      "text": "![alt text](graphics/banner.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Claude-Code-Context-Toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/CONTEXT.md"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

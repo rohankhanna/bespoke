@@ -1,0 +1,286 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "mymindstorm/setup-emsdk@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "lukka/get-cmake@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "numworks/setup-emscripten@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "AButler/upload-release-assets@v2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    },
+    {
+      "component": "geekyeggo/delete-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atteneder/draco",
+      "target": "atteneder/dracounity.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "atteneder/draco",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "atteneder/draco",
+      "target": "draco-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco",
+      "target": "nttld/setup-ndk@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco",
+      "target": "mymindstorm/setup-emsdk@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco",
+      "target": "lukka/get-cmake@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco",
+      "target": "numworks/setup-emscripten@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco",
+      "target": "AButler/upload-release-assets@v2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco",
+      "target": "geekyeggo/delete-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco",
+      "target": "Draco Unity library CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:59:43.032451+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24608
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 12340
+    },
+    {
+      "path": ".github/workflows/unity.yml",
+      "size": 15965
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "unity",
+    "description": "Draco is a library for compressing and decompressing 3D geometric meshes and point clouds. It is intended to improve the storage and transmission of 3D graphics.",
+    "fork": true,
+    "full_name": "atteneder/draco",
+    "html_url": "https://github.com/atteneder/draco",
+    "language": "C++",
+    "pushed_at": "2024-01-26T15:14:53Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2024-07-18T13:07:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atteneder/dracounity.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "draco-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "draco-ci"
+    },
+    {
+      "context_snippet": "Draco Unity library CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unity.yml",
+      "term": "Draco Unity library CI"
+    }
+  ]
+}

@@ -1,0 +1,247 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "thu-mig/yolov10",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "meituan/yolov6",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "ultralytics/yolov5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "ultralytics/yolov3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "tensorrt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "yolo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "yolo11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "yolo12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "yolov10",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "yolov3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "yolov5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "yolov6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "yolov7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "yolov8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "yolov9",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "target": "yolox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:40:14.285318+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6651
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "cuda-python",
+    "description": "tensorrt for yolo series (YOLOv11,YOLOv10,YOLOv9,YOLOv8,YOLOv7,YOLOv6,YOLOX,YOLOv5), nms plugin support ",
+    "fork": false,
+    "full_name": "Linaom1214/TensorRT-For-YOLO-Series",
+    "html_url": "https://github.com/Linaom1214/TensorRT-For-YOLO-Series",
+    "language": "Python",
+    "pushed_at": "2025-10-15T07:52:02Z",
+    "stargazers_count": 1150,
+    "topics": [
+      "tensorrt",
+      "yolo",
+      "yolo11",
+      "yolo12",
+      "yolov10",
+      "yolov3",
+      "yolov5",
+      "yolov6",
+      "yolov7",
+      "yolov8",
+      "yolov9",
+      "yolox"
+    ],
+    "updated_at": "2026-04-23T15:12:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meituan/yolov6",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thu-mig/yolov10",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ultralytics/yolov3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ultralytics/yolov5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorrt"
+    },
+    {
+      "context_snippet": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    },
+    {
+      "context_snippet": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo11"
+    },
+    {
+      "context_snippet": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo12"
+    },
+    {
+      "context_snippet": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov10"
+    },
+    {
+      "context_snippet": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov3"
+    },
+    {
+      "context_snippet": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov5"
+    },
+    {
+      "context_snippet": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov6"
+    },
+    {
+      "context_snippet": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov7"
+    },
+    {
+      "context_snippet": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov8"
+    },
+    {
+      "context_snippet": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov9"
+    },
+    {
+      "context_snippet": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolox"
+    }
+  ]
+}

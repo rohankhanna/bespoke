@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:45:20.314376+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15497
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mr. TyDi is a multi-lingual benchmark dataset built on TyDi, covering eleven typologically diverse languages.",
+    "fork": false,
+    "full_name": "castorini/mr.tydi",
+    "html_url": "https://github.com/castorini/mr.tydi",
+    "language": "Python",
+    "pushed_at": "2022-02-16T17:40:50Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-04-28T09:54:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

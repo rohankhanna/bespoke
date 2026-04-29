@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yenchenlin/nerf-pytorch",
+      "target": "bmild/nerf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:35.011507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6319
+    },
+    {
+      "path": "requirements.txt",
+      "size": 118
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch implementation of NeRF (Neural Radiance Fields) that reproduces the results.",
+    "fork": false,
+    "full_name": "yenchenlin/nerf-pytorch",
+    "html_url": "https://github.com/yenchenlin/nerf-pytorch",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:27:44Z",
+    "stargazers_count": 6025,
+    "topics": [],
+    "updated_at": "2026-04-29T02:24:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bmild/nerf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

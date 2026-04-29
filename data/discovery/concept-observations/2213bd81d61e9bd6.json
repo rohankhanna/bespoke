@@ -120,7 +120,7 @@
   "normalized_form": "analyze",
   "observation_id": "2213bd81d61e9bd6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Analyze",
   "source_context_snippet": "Analyze",
   "source_file": ".github/workflows/analyze.yaml",

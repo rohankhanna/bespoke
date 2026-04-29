@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -79,6 +81,36 @@
       "source_repo": "ipfs/i18n",
       "status": "candidate-context",
       "text": "> Adapting IPFS apps and websites for a specific language by translating text and adding locale-specific components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codesyntax/volto-countup-block",
+      "status": "candidate-context",
+      "text": "i18n"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringZilla-CLI",
+      "status": "candidate-context",
+      "text": "Collection of SIMD-accelerated CLI tools for binary & UTF-8-aware text processing with StringZilla combining ICU Functionality, RipGrep Speeds, & External Memory Scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla-CLI",
+      "status": "candidate-context",
+      "text": "![StringZilla CLI banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-CLI.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-scanner",
+      "status": "candidate-context",
+      "text": "Scan your code, extract translation keys/values, and merge them into i18n resource files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-scanner",
+      "status": "candidate-context",
+      "text": "[![NPM](https://nodei.co/npm/i18next-scanner.png?downloads=true&stars=true)](https://www.npmjs.com/package/i18next-scanner)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +149,24 @@
       "source_repo": "ipfs/i18n",
       "status": "candidate",
       "text": "> Adapting IPFS apps and websites for a specific language by translating text and adding locale-specific components"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codesyntax/volto-countup-block",
+      "status": "candidate",
+      "text": "i18n"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla-CLI",
+      "status": "candidate",
+      "text": "![StringZilla CLI banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-CLI.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-scanner",
+      "status": "candidate",
+      "text": "[![NPM](https://nodei.co/npm/i18next-scanner.png?downloads=true&stars=true)](https://www.npmjs.com/package/i18next-scanner)"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +306,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "lobehub/lobe-cli-toolbox"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/i18n.yml",
+      "source_repo": "codesyntax/volto-countup-block"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ajv-validator/ajv-i18n"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-scanner"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

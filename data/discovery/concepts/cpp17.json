@@ -115,6 +115,78 @@
       "source_repo": "bshoshany/thread-pool",
       "status": "candidate-context",
       "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate-context",
+      "text": "A Minimal, Header only Modern c++ library for terminal goodies \ud83d\udc84\u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate-context",
+      "text": "![rang-demo](https://cloud.githubusercontent.com/assets/7630575/13501282/0bd00074-e18c-11e5-9848-5bd1f20566d9.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bfgroup/Lyra",
+      "status": "candidate-context",
+      "text": "A simple to use, composable, command line parser for C++ 11 and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bfgroup/Lyra",
+      "status": "candidate-context",
+      "text": "\"Release: Archives\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "martinus/unordered_dense",
+      "status": "candidate-context",
+      "text": "A fast & densely stored hashmap and hashset based on robin-hood backward shift deletion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinus/unordered_dense",
+      "status": "candidate-context",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eyalz800/serializer",
+      "status": "candidate-context",
+      "text": "A single header standard C++ serialization framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalz800/serializer",
+      "status": "candidate-context",
+      "text": "zpp serializer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sail-sg/envpool",
+      "status": "candidate-context",
+      "text": "C++-based high-performance parallel environment execution engine (vectorized env) for general RL environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/envpool",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heal-research/operon",
+      "status": "candidate-context",
+      "text": "C++ Large Scale Genetic Programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heal-research/operon",
+      "status": "candidate-context",
+      "text": "<picture>"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +243,42 @@
       "source_repo": "bshoshany/thread-pool",
       "status": "candidate",
       "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate",
+      "text": "![rang-demo](https://cloud.githubusercontent.com/assets/7630575/13501282/0bd00074-e18c-11e5-9848-5bd1f20566d9.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bfgroup/Lyra",
+      "status": "candidate",
+      "text": "\"Release: Archives\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "martinus/unordered_dense",
+      "status": "candidate",
+      "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalz800/serializer",
+      "status": "candidate",
+      "text": "zpp serializer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/envpool",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heal-research/operon",
+      "status": "candidate",
+      "text": "<picture>"
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +346,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "agauniyal/rang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "martinus/unordered_dense"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sail-sg/envpool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "heal-research/operon"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

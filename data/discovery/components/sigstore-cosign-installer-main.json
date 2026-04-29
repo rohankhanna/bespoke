@@ -1,7 +1,7 @@
 {
   "component": "sigstore/cosign-installer@main",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/image-sbom.yml",
       "source_repo": "redhat-et/triton-dev-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push.yaml",
+      "source_repo": "chainguard-dev/nginx-image-demo"
     }
   ]
 }

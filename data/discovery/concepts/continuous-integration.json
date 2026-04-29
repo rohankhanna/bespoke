@@ -1253,6 +1253,258 @@
       "source_repo": "executablebooks/MyST-Parser",
       "status": "candidate-context",
       "text": "continuous-integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate-context",
+      "text": "A free, open source, and privacy-focused browser extension to block \u201cnot safe for work\u201d content built using TypeScript and TensorFlow.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Backblaze/B2_Command_Line_Tool",
+      "status": "candidate-context",
+      "text": "The command-line tool that gives easy access to all of the capabilities of B2 Cloud Storage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Backblaze/B2_Command_Line_Tool",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axios/axios",
+      "status": "candidate-context",
+      "text": "Promise based HTTP client for the browser and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axios/axios",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "localstack/localstack",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbb A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localstack/localstack",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate-context",
+      "text": "A spotify daemon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neulab/ExplainaBoard",
+      "status": "candidate-context",
+      "text": "Interpretable Evaluation for AI Systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neulab/ExplainaBoard",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clog-tool/clog-lib",
+      "status": "candidate-context",
+      "text": "A library for generating conventional changelogs from git metadata, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clog-tool/clog-lib",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate-context",
+      "text": "An esbuild plugin to inject your application's version number or today's date into your files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate-context",
+      "text": "Common JavaScript utilities for your TypeScript projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bodil/sized-chunks",
+      "status": "candidate-context",
+      "text": "Efficient sized chunk datatypes for immutable.rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bodil/sized-chunks",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autofac/Autofac.Multitenant",
+      "status": "candidate-context",
+      "text": "Multitenant application support for Autofac IoC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Multitenant",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/mdit-py-plugins",
+      "status": "candidate-context",
+      "text": "Collection of core plugins for markdown-it-py"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/mdit-py-plugins",
+      "status": "candidate-context",
+      "text": "continuous-integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel-labs/include_dir",
+      "status": "candidate-context",
+      "text": "The logical evolution of the include_str macro for embedding a directory tree into your binary."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel-labs/include_dir",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "Boa is an embeddable Javascript engine written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/pie",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 The PHP Installer for Extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/pie",
+      "status": "candidate-context",
+      "text": "\"Continuous Integration\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gogo/protobuf",
+      "status": "candidate-context",
+      "text": "[Deprecated] Protocol Buffers for Go with Gadgets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogo/protobuf",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libbitcoin/libbitcoin-server",
+      "status": "candidate-context",
+      "text": "Bitcoin Full Node and Query Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-server",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-bitcoin/corepc",
+      "status": "candidate-context",
+      "text": "Rust library for interacting with Bitcoin Core over JSONRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/corepc",
+      "status": "candidate-context",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate-context",
+      "text": "Runs the psf/black formatter to check/format your python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/rickstaa/action-black/workflows/Test/badge.svg)](https://github.com/rickstaa/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "heal-research/operon",
+      "status": "candidate-context",
+      "text": "C++ Large Scale Genetic Programming"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heal-research/operon",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hoodie/toastify",
+      "status": "candidate-context",
+      "text": "\ud83c\udf5eA commandline tool that shows desktop notifications using notify-rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/toastify",
+      "status": "candidate-context",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_glosses": [
@@ -1873,6 +2125,132 @@
       "source_repo": "executablebooks/MyST-Parser",
       "status": "candidate",
       "text": "continuous-integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Backblaze/B2_Command_Line_Tool",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axios/axios",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localstack/localstack",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neulab/ExplainaBoard",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clog-tool/clog-lib",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bodil/sized-chunks",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Multitenant",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/mdit-py-plugins",
+      "status": "candidate",
+      "text": "continuous-integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel-labs/include_dir",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/pie",
+      "status": "candidate",
+      "text": "\"Continuous Integration\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogo/protobuf",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-server",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/corepc",
+      "status": "candidate",
+      "text": "Continuous integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/rickstaa/action-black/workflows/Test/badge.svg)](https://github.com/rickstaa/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "heal-research/operon",
+      "status": "candidate",
+      "text": "Continuous Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/toastify",
+      "status": "candidate",
+      "text": "Continuous Integration"
     }
   ],
   "candidate_related_terms": [
@@ -2654,11 +3032,167 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "executablebooks/MyST-Parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/integrate.yml",
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Backblaze/B2_Command_Line_Tool"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive/compose-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-archive-public/docker.compose-ecs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/run-ci.yml",
+      "source_repo": "axios/axios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "localstack/localstack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "actions/container-toolkit-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Spotifyd/spotifyd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "neulab/ExplainaBoard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "clog-tool/clog-lib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "favware/esbuild-plugin-version-injector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "sapphiredev/utilities"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bodil/sized-chunks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "autofac/Autofac.Multitenant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "executablebooks/mdit-py-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vercel-labs/include_dir"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "boa-dev/boa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "php/pie"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci-workflow.yml",
+      "source_repo": "gogo/protobuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "libbitcoin/libbitcoin-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/continuous-integration.yaml",
+      "source_repo": "nock/nock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yaml",
+      "source_repo": "rust-bitcoin/corepc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rickstaa/action-black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heal-research/operon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hoodie/toastify"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

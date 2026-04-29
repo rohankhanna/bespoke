@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":rocket: \u00a0A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "publish-snapshot-and-kdoc"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "publish-snapshot-and-kdoc"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "publish-snapshot-and-kdoc",
+      "sense_id": "publish-snapshot-and-kdoc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-snapshot-and-kdoc",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-snapshot-and-kdoc",
+  "observation_id": "bc3e043a926b166b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "publish-snapshot-and-kdoc",
+  "source_context_snippet": "publish-snapshot-and-kdoc",
+  "source_file": ".github/workflows/publish-snapshot-and-kdoc.yml",
+  "source_repo": "apollographql/apollo-kotlin",
+  "source_repo_description": ":rocket: \u00a0A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform."
+}

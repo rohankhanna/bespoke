@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "join public router. quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "module github.com/azimjohn/jprq go 1.22 require ( github.com/djherbis/buffer v1.2.0 github.com/djherbis/nio/v3 v3.0.1 )"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "module github.com/azimjohn/jprq go 1.22 require ( github.com/djherbis/buffer v1.2.0 github.com/djherbis/nio/v3 v3.0.1 )"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tunnel-server",
+      "sense_id": "tunnel-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tunnel-server",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tunnel-server",
+  "observation_id": "fb6b671b671f547b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "tunnel-server",
+  "source_context_snippet": "module github.com/azimjohn/jprq go 1.22 require ( github.com/djherbis/buffer v1.2.0 github.com/djherbis/nio/v3 v3.0.1 )",
+  "source_file": null,
+  "source_repo": "azimjohn/jprq",
+  "source_repo_description": "join public router. quickly."
+}

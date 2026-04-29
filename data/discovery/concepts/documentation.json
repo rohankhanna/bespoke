@@ -808,6 +808,174 @@
       "source_repo": "5sControl/5s-dev-documentation",
       "status": "candidate-context",
       "text": "<br><br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/tokenizers",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5 Fast State-of-the-Art Tokenizers optimized for Research and Production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/tokenizers",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/packaging",
+      "status": "candidate-context",
+      "text": "Core utilities for Python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/packaging",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/tsdoc",
+      "status": "candidate-context",
+      "text": "A doc comment standard for TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/tsdoc",
+      "status": "candidate-context",
+      "text": "<table><tr><td>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codechecks/docs",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdaDocumentation for codechecks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codechecks/docs",
+      "status": "candidate-context",
+      "text": "Open source platform for code review automation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/docs",
+      "status": "candidate-context",
+      "text": "MinIO Object Storage Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/docs",
+      "status": "candidate-context",
+      "text": "As of October 10, 2025, the MinIO object store documentation was pulled from web hosting."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "assemble/assemble",
+      "status": "candidate-context",
+      "text": "Get the rocks out of your socks! Assemble makes you fast at web development! Used by thousands of projects for rapid prototyping, themes, scaffolds, boilerplates, e-books, UI components, API documentation, blogs, building websites/static site generator, an alternative to Jekyll for gh-pages and more! Gulp- and grunt-friendly.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assemble/assemble",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "discordjs/discord.js",
+      "status": "candidate-context",
+      "text": "A powerful JavaScript library for interacting with the Discord API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "discordjs/discord.js",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate-context",
+      "text": "Blazing fast input validation and transformation \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate-context",
+      "text": "Common JavaScript utilities for your TypeScript projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "verbose/verb",
+      "status": "candidate-context",
+      "text": "HEADS UP! Verb is going though a major transition, we've completely refactored everything from the ground up. If you're interested, please see the dev branch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbose/verb",
+      "status": "candidate-context",
+      "text": "> Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used on hundreds of projects of all sizes to generate everything from API docs to readmes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/any-llm",
+      "status": "candidate-context",
+      "text": "Communicate with an LLM provider using a single interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/any-llm",
+      "status": "candidate-context",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate-context",
+      "text": "Mkdocs Markdown includer plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate-context",
+      "text": "<!-- mdpo-disable-next-line -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citusdata/citus_docs",
+      "status": "candidate-context",
+      "text": "Documentation for Citus. Distributed PostgreSQL as an extension."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/citus_docs",
+      "status": "candidate-context",
+      "text": "This is the repo that generates"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plone/cookieplone",
+      "status": "candidate-context",
+      "text": "Create Plone projects, addons, documentation with ease!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/cookieplone",
+      "status": "candidate-context",
+      "text": "Documentation"
     }
   ],
   "candidate_glosses": [
@@ -1218,6 +1386,90 @@
       "source_repo": "5sControl/5s-dev-documentation",
       "status": "candidate",
       "text": "<br><br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/tokenizers",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/packaging",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/tsdoc",
+      "status": "candidate",
+      "text": "<table><tr><td>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codechecks/docs",
+      "status": "candidate",
+      "text": "Open source platform for code review automation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/docs",
+      "status": "candidate",
+      "text": "As of October 10, 2025, the MinIO object store documentation was pulled from web hosting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assemble/assemble",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "discordjs/discord.js",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbose/verb",
+      "status": "candidate",
+      "text": "> Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used on hundreds of projects of all sizes to generate everything from API docs to readmes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/any-llm",
+      "status": "candidate",
+      "text": "Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate",
+      "text": "<!-- mdpo-disable-next-line -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/citus_docs",
+      "status": "candidate",
+      "text": "This is the repo that generates"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/cookieplone",
+      "status": "candidate",
+      "text": "Documentation"
     }
   ],
   "candidate_related_terms": [
@@ -1770,11 +2022,125 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "5sControl/5s-dev-documentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs-check.yml",
+      "source_repo": "huggingface/tokenizers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "pypa/packaging"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/tsdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "codechecks/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "minio/docs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "assemble/assemble"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "atom/flight-manual.atom.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "discordjs/discord.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "sapphiredev/shapeshift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "sapphiredev/utilities"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "verbose/verb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "mozilla-ai/any-llm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "citusdata/citus_docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/documentation.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "plone/cookieplone"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -211,6 +211,30 @@
       "source_repo": "2KAbhishek/tmux2k",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate-context",
+      "text": "Goal: Enable awesome tooling for Bazel users of the C language family."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "galaxyproject/tools-iuc",
+      "status": "candidate-context",
+      "text": "Tool Shed repositories maintained by the Intergalactic Utilities Commission"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/tools-iuc",
+      "status": "candidate-context",
+      "text": "[![Galaxy Tool Linting and Tests for push and PR](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml/badge.svg?branch=main)](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml?query=branch:main)"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +339,18 @@
       "source_repo": "2KAbhishek/tmux2k",
       "status": "candidate",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/tools-iuc",
+      "status": "candidate",
+      "text": "[![Galaxy Tool Linting and Tests for push and PR](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml/badge.svg?branch=main)](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml?query=branch:main)"
     }
   ],
   "candidate_related_terms": [
@@ -490,11 +526,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "get-gah/gah"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "galaxyproject/tools-iuc"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

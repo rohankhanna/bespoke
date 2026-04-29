@@ -202,6 +202,30 @@
       "source_repo": "apache/camel-examples",
       "status": "candidate-context",
       "text": "main pr build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "m00qek/plugin-template.nvim",
+      "status": "candidate-context",
+      "text": "A template to create Neovim plugins written in Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m00qek/plugin-template.nvim",
+      "status": "candidate-context",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate-context",
+      "text": "\ud83d\udd75\ufe0f\u200d\u2640\ufe0f Validate schema, get schema change notifications, validate operations, find breaking changes, look for similar types, schema coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate-context",
+      "text": "Integration"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +324,18 @@
       "source_repo": "apache/camel-examples",
       "status": "candidate",
       "text": "main pr build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m00qek/plugin-template.nvim",
+      "status": "candidate",
+      "text": "Integration"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate",
+      "text": "Integration"
     }
   ],
   "candidate_related_terms": [
@@ -473,11 +509,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "apache/camel-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "m00qek/plugin-template.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

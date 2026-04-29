@@ -84,7 +84,7 @@
   "normalized_form": "test-spm",
   "observation_id": "54abf56b4a7789bd",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Test SPM",
   "source_context_snippet": "Test SPM",
   "source_file": ".github/workflows/test-spm.yml",

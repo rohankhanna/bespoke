@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sphinx.yaml",
+      "source_repo": "Charlie-XIAO/ml3m"
+    }
+  ],
+  "term": "Sphinx build"
+}

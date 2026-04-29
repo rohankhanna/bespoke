@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "enum"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aantron/better-enums",
+      "status": "candidate-context",
+      "text": "C++ compile-time enum to string, iteration, in a single header file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aantron/better-enums",
+      "status": "candidate-context",
+      "text": "[wandbox]: http://melpon.org/wandbox/permlink/2QCi3cwQnplAToge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aantron/better-enums",
+      "status": "candidate",
+      "text": "[wandbox]: http://melpon.org/wandbox/permlink/2QCi3cwQnplAToge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19756860,
+      "status": "candidate",
+      "text": "enumeration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19756859,
+      "status": "candidate",
+      "text": "numeration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19756858,
+      "status": "candidate",
+      "text": "sequence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19756857,
+      "status": "candidate",
+      "text": "amount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19756856,
+      "status": "candidate",
+      "text": "population"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "enum",
+  "concept_id": "enum",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aantron/better-enums"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "enum",
+      "sense_id": "enum#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

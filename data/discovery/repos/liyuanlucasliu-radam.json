@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiyuanLucasLiu/RAdam",
+      "target": "liyuanlucasliu/transformer-clinic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiyuanLucasLiu/RAdam",
+      "target": "cyberzhg/keras-radam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiyuanLucasLiu/RAdam",
+      "target": "titu1994/keras_rectified_adam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/RAdam",
+      "target": "adam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/RAdam",
+      "target": "adam-optimizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/RAdam",
+      "target": "optimizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/RAdam",
+      "target": "warmup",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:45:57.450630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11053
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "On the Variance of the Adaptive Learning Rate and Beyond",
+    "fork": false,
+    "full_name": "LiyuanLucasLiu/RAdam",
+    "html_url": "https://github.com/LiyuanLucasLiu/RAdam",
+    "language": "Python",
+    "pushed_at": "2021-07-31T17:55:32Z",
+    "stargazers_count": 2551,
+    "topics": [
+      "adam",
+      "adam-optimizer",
+      "optimizer",
+      "warmup"
+    ],
+    "updated_at": "2026-04-11T12:04:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyberzhg/keras-radam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liyuanlucasliu/transformer-clinic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "titu1994/keras_rectified_adam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adam"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adam-optimizer"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimizer"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "warmup"
+    }
+  ]
+}

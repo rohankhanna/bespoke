@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:43:44.201281+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of \"Composer: Creative and Controllable Image Synthesis with Composable Conditions\"",
+    "fork": false,
+    "full_name": "ali-vilab/composer",
+    "html_url": "https://github.com/ali-vilab/composer",
+    "language": null,
+    "pushed_at": "2023-12-26T02:54:09Z",
+    "stargazers_count": 1558,
+    "topics": [],
+    "updated_at": "2026-04-06T09:23:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

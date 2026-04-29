@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SeanNaren/warp-ctc",
+      "target": "baidu-research/warp-ctc",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:03.802264+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2351
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "pytorch_bindings",
+    "description": "Pytorch Bindings for warp-ctc",
+    "fork": false,
+    "full_name": "SeanNaren/warp-ctc",
+    "html_url": "https://github.com/SeanNaren/warp-ctc",
+    "language": "Cuda",
+    "pushed_at": "2023-07-02T07:31:58Z",
+    "stargazers_count": 762,
+    "topics": [],
+    "updated_at": "2026-04-15T19:20:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baidu-research/warp-ctc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

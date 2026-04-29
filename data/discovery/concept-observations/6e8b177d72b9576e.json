@@ -70,7 +70,7 @@
   "normalized_form": "run-tck",
   "observation_id": "6e8b177d72b9576e",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Run TCK",
   "source_context_snippet": "Run TCK",
   "source_file": ".github/workflows/run-tck.yaml",

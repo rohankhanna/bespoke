@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -236,6 +236,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "a2aproject/a2a-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "idanarye/nu_plugin_skim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "mrcjkb/vimcats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "mdn/mdn-http-observatory"
     }
   ],
   "term": "Release Please"

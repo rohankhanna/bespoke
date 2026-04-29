@@ -67,6 +67,30 @@
       "source_repo": "CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers",
       "status": "candidate-context",
       "text": "The Bayesian method is the natural approach to inference, yet it is hidden from readers behind chapters of slow, mathematical analysis. The typical text on Bayesian inference involves two to three chapters on probability theory, then enters what Bayesian inference is. Unfortunat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-sagemaker-examples",
+      "status": "candidate-context",
+      "text": "Example \ud83d\udcd3 Jupyter notebooks that demonstrate how to build, train, and deploy machine learning models using \ud83e\udde0 Amazon SageMaker. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-sagemaker-examples",
+      "status": "candidate-context",
+      "text": "![SageMaker](https://github.com/aws/amazon-sagemaker-examples/raw/main/_static/sagemaker-banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vizzuhq/ipyvizzu",
+      "status": "candidate-context",
+      "text": "Build animated charts in Jupyter Notebook and similar environments with a simple Python syntax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers",
       "status": "candidate",
       "text": "The Bayesian method is the natural approach to inference, yet it is hidden from readers behind chapters of slow, mathematical analysis. The typical text on Bayesian inference involves two to three chapters on probability theory, then enters what Bayesian inference is. Unfortunat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-sagemaker-examples",
+      "status": "candidate",
+      "text": "![SageMaker](https://github.com/aws/amazon-sagemaker-examples/raw/main/_static/sagemaker-banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws/amazon-sagemaker-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vizzuhq/ipyvizzu"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

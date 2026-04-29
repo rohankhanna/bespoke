@@ -19,6 +19,18 @@
       "source_repo": "badgen/badgen.net",
       "status": "candidate-context",
       "text": "Lint and Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate-context",
+      "text": "Web UI for Jaeger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate-context",
+      "text": "'Lint and Build'"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "badgen/badgen.net",
       "status": "candidate",
       "text": "Lint and Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate",
+      "text": "'Lint and Build'"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/nodejs.yml",
       "source_repo": "badgen/badgen.net"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint-build.yml",
+      "source_repo": "jaegertracing/jaeger-ui"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

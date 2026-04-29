@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Fuzz & Audit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "status": "candidate-context",
+      "text": "Strongly typed YAML library for Rust maintained by Bourumir Wyngs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "status": "candidate-context",
+      "text": "Fuzz & Audit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "status": "candidate",
+      "text": "Fuzz & Audit"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10715,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10715,
+      "status": "candidate",
+      "text": "fur"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10715,
+      "status": "candidate",
+      "text": "heat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10715,
+      "status": "candidate",
+      "text": "law"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10715,
+      "status": "candidate",
+      "text": "narc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Fuzz & Audit",
+  "concept_id": "fuzz-audit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Fuzz & Audit",
+      "sense_id": "fuzz-audit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

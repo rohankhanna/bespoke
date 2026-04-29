@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hamiltonian-monte-carlo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blackjax-devs/blackjax",
+      "status": "candidate-context",
+      "text": "BlackJAX is a Bayesian Inference library designed for ease of use, speed and modularity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackjax-devs/blackjax",
+      "status": "candidate-context",
+      "text": "![Continuous integration](https://github.com/blackjax-devs/blackjax/actions/workflows/test.yml/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackjax-devs/blackjax",
+      "status": "candidate",
+      "text": "![Continuous integration](https://github.com/blackjax-devs/blackjax/actions/workflows/test.yml/badge.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hamiltonian-monte-carlo",
+  "concept_id": "hamiltonian-monte-carlo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "blackjax-devs/blackjax"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hamiltonian-monte-carlo",
+      "sense_id": "hamiltonian-monte-carlo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

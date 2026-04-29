@@ -43,6 +43,30 @@
       "source_repo": "etclabscore/core-geth",
       "status": "candidate-context",
       "text": "Publish docs via GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate-context",
+      "text": "a Hassle-Free Python Experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate-context",
+      "text": "Publish docs via GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "15r10nk/inline-snapshot",
+      "status": "candidate-context",
+      "text": "inline-snapshot boosts efficiency when writing tests by generating code with the expected values and simplifies snapshot tests with pytest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "15r10nk/inline-snapshot",
+      "status": "candidate-context",
+      "text": "Publish docs via GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "etclabscore/core-geth",
+      "status": "candidate",
+      "text": "Publish docs via GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate",
+      "text": "Publish docs via GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "15r10nk/inline-snapshot",
       "status": "candidate",
       "text": "Publish docs via GitHub Pages"
     }
@@ -124,11 +160,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/docs-deploy.yml",
       "source_repo": "etclabscore/core-geth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "OpenMathLib/OpenBLAS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "astral-sh/rye"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "15r10nk/inline-snapshot"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

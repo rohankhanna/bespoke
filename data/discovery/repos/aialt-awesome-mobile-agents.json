@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aialt/awesome-mobile-agents",
+      "target": "cooelf/auto-gui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aialt/awesome-mobile-agents",
+      "target": "google-research/android_world",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aialt/awesome-mobile-agents",
+      "target": "lavague-ai/lavague",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aialt/awesome-mobile-agents",
+      "target": "mcgill-nlp/webllama",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:54:27.505689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u2728\u2728Latest Papers and Datasets on Mobile and PC GUI Agent",
+    "fork": false,
+    "full_name": "aialt/awesome-mobile-agents",
+    "html_url": "https://github.com/aialt/awesome-mobile-agents",
+    "language": null,
+    "pushed_at": "2024-11-29T12:11:06Z",
+    "stargazers_count": 156,
+    "topics": [],
+    "updated_at": "2026-04-10T13:08:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cooelf/auto-gui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/android_world",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lavague-ai/lavague",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mcgill-nlp/webllama",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

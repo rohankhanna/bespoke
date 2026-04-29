@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ashvardanian/tinysemver@v2.1.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "katyo/publish-crates@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ashvardanian/StringTape",
+      "target": "ashvardanian/fork_union",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/StringTape",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/StringTape",
+      "target": "ashvardanian/tinysemver@v2.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/StringTape",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/StringTape",
+      "target": "katyo/publish-crates@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ashvardanian/StringTape",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringTape",
+      "target": "allocator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringTape",
+      "target": "apache-arrow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringTape",
+      "target": "arrow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringTape",
+      "target": "pyarrow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringTape",
+      "target": "string-manipulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringTape",
+      "target": "tape",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:41:57.965892+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9460
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 772
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache Arrow-compatible space-efficient \"tape\" class in pure Rust to be used with StringZilla for GPU, NUMA, and disk transfers of variable length strings",
+    "fork": false,
+    "full_name": "ashvardanian/StringTape",
+    "html_url": "https://github.com/ashvardanian/StringTape",
+    "language": "Rust",
+    "pushed_at": "2025-11-21T00:44:00Z",
+    "stargazers_count": 29,
+    "topics": [
+      "allocator",
+      "apache-arrow",
+      "arrow",
+      "pyarrow",
+      "string-manipulation",
+      "tape"
+    ],
+    "updated_at": "2026-01-23T10:41:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashvardanian/fork_union",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "![StringTape banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringTape.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "allocator"
+    },
+    {
+      "context_snippet": "![StringTape banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringTape.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-arrow"
+    },
+    {
+      "context_snippet": "![StringTape banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringTape.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arrow"
+    },
+    {
+      "context_snippet": "![StringTape banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringTape.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyarrow"
+    },
+    {
+      "context_snippet": "![StringTape banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringTape.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "string-manipulation"
+    },
+    {
+      "context_snippet": "![StringTape banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringTape.png?raw=true)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tape"
+    }
+  ]
+}

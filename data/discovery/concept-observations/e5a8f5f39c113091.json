@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":rocket: \u00a0A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<header>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<header>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "apollographql",
+      "sense_id": "apollographql#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "apollographql",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "apollographql",
+  "observation_id": "e5a8f5f39c113091",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "apollographql",
+  "source_context_snippet": "<header>",
+  "source_file": null,
+  "source_repo": "apollographql/apollo-kotlin",
+  "source_repo_description": ":rocket: \u00a0A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform."
+}

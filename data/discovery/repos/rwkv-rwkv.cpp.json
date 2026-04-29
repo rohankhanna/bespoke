@@ -102,20 +102,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "RWKV/rwkv.cpp",
-      "target": "seasonjs/rwkv",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "RWKV/rwkv.cpp",
-      "target": "atome-fe/llama-node",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "RWKV/rwkv.cpp",
@@ -221,7 +207,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T12:38:42.734509+00:00",
+  "fetched_at": "2026-04-29T20:51:11.280437+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -242,7 +228,7 @@
     "html_url": "https://github.com/RWKV/rwkv.cpp",
     "language": "C++",
     "pushed_at": "2025-03-23T05:04:42Z",
-    "stargazers_count": 1568,
+    "stargazers_count": 1569,
     "topics": [
       "deep-learning",
       "ggml",
@@ -252,14 +238,9 @@
       "quantization",
       "rwkv"
     ],
-    "updated_at": "2026-04-17T03:16:18Z"
+    "updated_at": "2026-04-28T08:54:33Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "atome-fe/llama-node",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ggerganov/ggml",
@@ -268,11 +249,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "saharnooby/rwkv.cpp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "seasonjs/rwkv",
       "source_file": "README.md"
     }
   ],

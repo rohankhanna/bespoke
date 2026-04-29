@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "996icu/996.ICU",
+      "target": "623637646/996.leave",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "996icu/996.ICU",
+      "target": "996-icu-avengers/natasha",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "996icu/996.ICU",
+      "target": "0594mazhiyuan/996.survey",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "996icu/996.ICU",
+      "target": "996bc/996.blockchain",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "996icu/996.ICU"
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "rubik/xenon",
+      "target": "rubik/radon",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:45:05.232349+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4007
+    },
+    {
+      "path": "requirements.txt",
+      "size": 48
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Monitoring tool based on radon",
+    "fork": false,
+    "full_name": "rubik/xenon",
+    "html_url": "https://github.com/rubik/xenon",
+    "language": "Python",
+    "pushed_at": "2024-10-21T10:27:41Z",
+    "stargazers_count": 273,
+    "topics": [],
+    "updated_at": "2026-04-11T11:57:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rubik/radon",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

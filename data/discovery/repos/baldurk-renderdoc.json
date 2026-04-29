@@ -1,0 +1,306 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "klaasnicolaas/action-inactivity-lock@v1.1.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactivity-lock.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baldurk/renderdoc",
+      "target": "baldurk/renderdoc-contrib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "baldurk/renderdoc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "baldurk/renderdoc",
+      "target": "microsoft/setup-msbuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "baldurk/renderdoc",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/inactivity-lock.yml",
+      "source_repo": "baldurk/renderdoc",
+      "target": "klaasnicolaas/action-inactivity-lock@v1.1.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inactivity-lock.yml",
+      "source_repo": "baldurk/renderdoc",
+      "target": "Lock old issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc",
+      "target": "d3d11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc",
+      "target": "d3d12",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc",
+      "target": "direct3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc",
+      "target": "directx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc",
+      "target": "graphics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc",
+      "target": "graphics-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc",
+      "target": "renderdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc",
+      "target": "vulkan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc",
+      "target": "vulkan-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:53:26.595034+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6487
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 19778
+    },
+    {
+      "path": ".github/workflows/inactivity-lock.yml",
+      "size": 611
+    },
+    {
+      "path": ".github/workflows/install-vs-components.py",
+      "size": 1311
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v1.x",
+    "description": "RenderDoc is a stand-alone graphics debugging tool.",
+    "fork": false,
+    "full_name": "baldurk/renderdoc",
+    "html_url": "https://github.com/baldurk/renderdoc",
+    "language": "C++",
+    "pushed_at": "2026-04-28T13:48:06Z",
+    "stargazers_count": 10655,
+    "topics": [
+      "d3d11",
+      "d3d12",
+      "debugger",
+      "direct3d",
+      "directx",
+      "graphics",
+      "graphics-programming",
+      "opengl",
+      "renderdoc",
+      "vulkan",
+      "vulkan-api"
+    ],
+    "updated_at": "2026-04-29T18:42:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baldurk/renderdoc-contrib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lock old issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/inactivity-lock.yml",
+      "term": "Lock old issues and PRs"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "d3d11"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "d3d12"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "direct3d"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directx"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graphics-programming"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "renderdoc"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    },
+    {
+      "context_snippet": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan-api"
+    }
+  ]
+}

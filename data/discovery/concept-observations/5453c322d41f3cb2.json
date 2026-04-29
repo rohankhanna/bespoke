@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cloud Foundry Cloud Controller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Gem freshness report"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Gem freshness report"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17991,
+      "status": "candidate",
+      "text": "fault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17991,
+      "status": "candidate",
+      "text": "hammerhead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17991,
+      "status": "candidate",
+      "text": "lively"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17991,
+      "status": "candidate",
+      "text": "magma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17991,
+      "status": "candidate",
+      "text": "plate tectonics"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gem freshness report",
+      "sense_id": "gem-freshness-report#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gem-freshness-report",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gem-freshness-report",
+  "observation_id": "5453c322d41f3cb2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Gem freshness report",
+  "source_context_snippet": "Gem freshness report",
+  "source_file": ".github/workflows/gem_freshness_report.yml",
+  "source_repo": "cloudfoundry/cloud_controller_ng",
+  "source_repo_description": "Cloud Foundry Cloud Controller"
+}

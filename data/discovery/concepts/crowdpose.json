@@ -19,6 +19,30 @@
       "source_repo": "open-mmlab/mmpose",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MVIG-SJTU/AlphaPose",
+      "status": "candidate-context",
+      "text": "Real-Time and Accurate Full-Body Multi-Person Pose Estimation&Tracking System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MVIG-SJTU/AlphaPose",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jin-s13/xtcocoapi",
+      "status": "candidate-context",
+      "text": "Extended COCO-API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jin-s13/xtcocoapi",
+      "status": "candidate-context",
+      "text": "[2023.10.19] Release xtcocotools v1.14.3. Support python3.7~3.11 on Linux, mac and windows systems."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "open-mmlab/mmpose",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MVIG-SJTU/AlphaPose",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jin-s13/xtcocoapi",
+      "status": "candidate",
+      "text": "[2023.10.19] Release xtcocotools v1.14.3. Support python3.7~3.11 on Linux, mac and windows systems."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmpose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MVIG-SJTU/AlphaPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jin-s13/xtcocoapi"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

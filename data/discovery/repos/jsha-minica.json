@@ -1,0 +1,49 @@
+{
+  "components": [
+    {
+      "component": "ngs/go-release.action@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "jsha/minica",
+      "target": "ngs/go-release.action@v1.0.2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:47:25.742380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1687
+    },
+    {
+      "path": "go.mod",
+      "size": 39
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 63
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "minica is a small, simple CA intended for use in situations where the CA operator also operates each host where a certificate will be used.",
+    "fork": false,
+    "full_name": "jsha/minica",
+    "html_url": "https://github.com/jsha/minica",
+    "language": "Go",
+    "pushed_at": "2025-09-03T23:39:33Z",
+    "stargazers_count": 3276,
+    "topics": [],
+    "updated_at": "2026-04-28T20:33:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

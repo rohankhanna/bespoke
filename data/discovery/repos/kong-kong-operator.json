@@ -1,0 +1,896 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "mukunku/tag-exists-action@5c39604fe8aef7e65acb6fbcf96ec580f7680313",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "booxmedialtd/ws-action-parse-semver@7784200024d6b3fc01253e617ec0168daf603de3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "8398a7/action-slack@77eaa4f1c608a7d68b38af4e3f739dcd8cba273e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "int128/docker-manifest-create-action@3de37de96c4e900bc3eef9055d3c50abdb4f769d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "int128/docker-manifest-create-action@3de37de96c4e900bc3eef9055d3c50abdb4f769d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "int128/docker-manifest-create-action@3de37de96c4e900bc3eef9055d3c50abdb4f769d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "8398a7/action-slack@77eaa4f1c608a7d68b38af4e3f739dcd8cba273e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml"
+    },
+    {
+      "component": "jdx/mise-action@1648a7812b9aeae629881980618f079932869151",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml"
+    },
+    {
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml"
+    },
+    {
+      "component": "jdx/mise-action@1648a7812b9aeae629881980618f079932869151",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml"
+    },
+    {
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_chainsaw_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_chainsaw_tests.yaml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_chainsaw_tests.yaml"
+    },
+    {
+      "component": "jdx/mise-action@1648a7812b9aeae629881980618f079932869151",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_chainsaw_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_chainsaw_tests.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml"
+    },
+    {
+      "component": "jdx/mise-action@1648a7812b9aeae629881980618f079932869151",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml"
+    },
+    {
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml"
+    },
+    {
+      "component": "jdx/mise-action@1648a7812b9aeae629881980618f079932869151",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml"
+    },
+    {
+      "component": "Kong/kong-license@62d5e200998d4b19ed6b78591332a092536c63f5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml"
+    },
+    {
+      "component": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml"
+    },
+    {
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__govulncheck.yaml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__govulncheck.yaml"
+    },
+    {
+      "component": "golang/govulncheck-action@b625fbe08f3bccbe446d94fbf87fcc875a4f50ee",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__govulncheck.yaml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__govulncheck.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/kong-operator",
+      "target": "k8s-operatorhub/community-operators",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/kong-operator",
+      "target": "kubernetes-sigs/gateway-api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "mukunku/tag-exists-action@5c39604fe8aef7e65acb6fbcf96ec580f7680313",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "booxmedialtd/ws-action-parse-semver@7784200024d6b3fc01253e617ec0168daf603de3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "docker/login-action@4907a6ddec9925e35a0a9e82d7399ccc52663121",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "docker/metadata-action@030e881283bb7a6894de51c315a6bfe6a94e05cf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "docker/build-push-action@bcafcacb16a39f128d818304e6c9c0c18556b85f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "docker/setup-qemu-action@ce360397dd3f832beb865e1373c09c0e9f86d70a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "8398a7/action-slack@77eaa4f1c608a7d68b38af4e3f739dcd8cba273e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "int128/docker-manifest-create-action@3de37de96c4e900bc3eef9055d3c50abdb4f769d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "Reusable build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "jdx/mise-action@1648a7812b9aeae629881980618f079932869151",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__conformance_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "Conformance tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "jdx/mise-action@1648a7812b9aeae629881980618f079932869151",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "CRD validation tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_chainsaw_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_chainsaw_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_chainsaw_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_chainsaw_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "jdx/mise-action@1648a7812b9aeae629881980618f079932869151",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_chainsaw_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__e2e_chainsaw_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "E2E Chainsaw tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "jdx/mise-action@1648a7812b9aeae629881980618f079932869151",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__e2e_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "E2E tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "jdx/mise-action@1648a7812b9aeae629881980618f079932869151",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "Kong/kong-license@62d5e200998d4b19ed6b78591332a092536c63f5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/cache/restore@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__envtest_tests.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "envtest tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__govulncheck.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__govulncheck.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__govulncheck.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "golang/govulncheck-action@b625fbe08f3bccbe446d94fbf87fcc875a4f50ee",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/__govulncheck.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__govulncheck.yaml",
+      "source_repo": "Kong/kong-operator",
+      "target": "Reusable govulncheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Kong/kong-operator",
+      "target": "team-k8s",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:03:03.731490+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7094
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2803
+    },
+    {
+      "path": "go.mod",
+      "size": 19148
+    },
+    {
+      "path": ".github/workflows/__build-workflow.yaml",
+      "size": 16474
+    },
+    {
+      "path": ".github/workflows/__conformance_tests.yaml",
+      "size": 4323
+    },
+    {
+      "path": ".github/workflows/__crdvalidation_tests.yaml",
+      "size": 2709
+    },
+    {
+      "path": ".github/workflows/__e2e_chainsaw_tests.yaml",
+      "size": 2800
+    },
+    {
+      "path": ".github/workflows/__e2e_tests.yaml",
+      "size": 3062
+    },
+    {
+      "path": ".github/workflows/__envtest_tests.yaml",
+      "size": 3283
+    },
+    {
+      "path": ".github/workflows/__govulncheck.yaml",
+      "size": 1199
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Kubernetes Operator for Kong Gateways",
+    "fork": false,
+    "full_name": "Kong/kong-operator",
+    "html_url": "https://github.com/Kong/kong-operator",
+    "language": "Go",
+    "pushed_at": "2026-04-29T16:20:30Z",
+    "stargazers_count": 98,
+    "topics": [
+      "team-k8s"
+    ],
+    "updated_at": "2026-04-29T13:22:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "k8s-operatorhub/community-operators",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/gateway-api",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Reusable build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "term": "Reusable build"
+    },
+    {
+      "context_snippet": "Conformance tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__conformance_tests.yaml",
+      "term": "Conformance tests"
+    },
+    {
+      "context_snippet": "CRD validation tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml",
+      "term": "CRD validation tests"
+    },
+    {
+      "context_snippet": "E2E Chainsaw tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__e2e_chainsaw_tests.yaml",
+      "term": "E2E Chainsaw tests"
+    },
+    {
+      "context_snippet": "E2E tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__e2e_tests.yaml",
+      "term": "E2E tests"
+    },
+    {
+      "context_snippet": "envtest tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__envtest_tests.yaml",
+      "term": "envtest tests"
+    },
+    {
+      "context_snippet": "Reusable govulncheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/__govulncheck.yaml",
+      "term": "Reusable govulncheck"
+    },
+    {
+      "context_snippet": "<img src=\"./logo/logo.png\" alt=\"KGO logo\" title=\"Kong Operator\" height=\"150\" width=\"150\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "team-k8s"
+    }
+  ]
+}

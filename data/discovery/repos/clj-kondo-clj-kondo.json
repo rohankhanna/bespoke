@@ -91,20 +91,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "bbatsov/clojure-style-guide",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clj-kondo/clj-kondo",
-      "target": "clj-kondo/configs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clj-kondo/clj-kondo",
       "target": "babashka/babashka.pods",
       "target_type": "repository"
     },
@@ -112,7 +98,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "candid82/joker",
+      "target": "xsc/rewrite-clj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "graalvm/graalvm-ce-builds",
       "target_type": "repository"
     },
     {
@@ -284,7 +277,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:42:19.758793+00:00",
+  "fetched_at": "2026-04-29T21:58:44.575508+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -321,7 +314,7 @@
     "html_url": "https://github.com/clj-kondo/clj-kondo",
     "language": "Clojure",
     "pushed_at": "2026-04-18T09:56:33Z",
-    "stargazers_count": 1828,
+    "stargazers_count": 1832,
     "topics": [
       "clojure",
       "clojurescript",
@@ -330,7 +323,7 @@
       "linter",
       "static-analysis"
     ],
-    "updated_at": "2026-04-22T09:55:46Z"
+    "updated_at": "2026-04-29T06:18:23Z"
   },
   "repo_links": [
     {
@@ -340,18 +333,13 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bbatsov/clojure-style-guide",
+      "full_name": "xsc/rewrite-clj",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "candid82/joker",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "clj-kondo/configs",
-      "source_file": "README.md"
+      "full_name": "graalvm/graalvm-ce-builds",
+      "source_file": "Dockerfile"
     }
   ],
   "terms": [

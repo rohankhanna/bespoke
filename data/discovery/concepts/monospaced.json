@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "monospaced"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fcambus/spleen",
+      "status": "candidate-context",
+      "text": "Monospaced bitmap fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fcambus/spleen",
+      "status": "candidate-context",
+      "text": "```"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fcambus/spleen",
+      "status": "candidate",
+      "text": "```"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19918079,
+      "status": "candidate",
+      "text": "font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019401,
+      "status": "candidate",
+      "text": "monospace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019400,
+      "status": "candidate",
+      "text": "monophonic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019399,
+      "status": "candidate",
+      "text": "solid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019398,
+      "status": "candidate",
+      "text": "serifless"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "monospaced",
+  "concept_id": "monospaced",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fcambus/spleen"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "monospaced",
+      "sense_id": "monospaced#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

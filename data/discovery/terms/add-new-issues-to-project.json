@@ -1,11 +1,51 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/issue_handler.yml",
       "source_repo": "esp-rs/esp-idf-svc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/embedded-svc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/esp-idf-hal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/esp-idf-sys"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/esp-idf-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "open-edge-platform/training_extensions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/rust-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/espflash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/std-training"
     }
   ],
   "term": "Add new issues to project"

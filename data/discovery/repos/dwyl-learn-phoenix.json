@@ -19,7 +19,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/learn-phoenix",
-      "target": "dwyl/learn-postgresql",
+      "target": "dwyl/phoenix-ecto-append-only-log-example",
       "target_type": "repository"
     },
     {
@@ -30,7 +30,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T12:58:23.999598+00:00",
+  "fetched_at": "2026-04-29T20:57:25.985888+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -69,7 +69,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dwyl/learn-postgresql",
+      "full_name": "dwyl/phoenix-ecto-append-only-log-example",
       "source_file": "README.md"
     }
   ],

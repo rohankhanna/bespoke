@@ -1,0 +1,83 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "intel/opencl-clang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "khronosgroup/spirv-llvm-translator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "intel/vc-intrinsics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "oprypin/find-latest-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-IGC.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "Build IGC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-pr-update.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "Notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "Stale Pull Requests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "intel/intel-graphics-compiler"
+}

@@ -1,0 +1,304 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions-rs/audit-check@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "rust-build/rust-build.action@v1.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions-rs/install@v0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "morantron/tmux-fingers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "yomguithereal/react-blessed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "rtbhouse/tmux-picker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "actions-rs/audit-check@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "Security audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "rust-build/rust-build.action@v1.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "actions-rs/install@v0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "actions/upload-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "tmux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "tmux-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "vimium",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcsonline/tmux-thumbs",
+      "target": "vimperator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:55:09.335138+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15298
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 558
+    },
+    {
+      "path": ".github/workflows/audit.yml",
+      "size": 288
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 740
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 1498
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A lightning fast version of tmux-fingers written in Rust, copy/pasting tmux like vimium/vimperator",
+    "fork": false,
+    "full_name": "fcsonline/tmux-thumbs",
+    "html_url": "https://github.com/fcsonline/tmux-thumbs",
+    "language": "Rust",
+    "pushed_at": "2024-04-20T05:12:22Z",
+    "stargazers_count": 1065,
+    "topics": [
+      "rust",
+      "tmux",
+      "tmux-plugins",
+      "vimium",
+      "vimperator"
+    ],
+    "updated_at": "2026-04-26T05:37:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "morantron/tmux-fingers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rtbhouse/tmux-picker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yomguithereal/react-blessed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Security audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/audit.yml",
+      "term": "Security audit"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/fcsonline/tmux-thumbs/workflows/Rust/badge.svg)](https://github.com/fcsonline/tmux-thumbs/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/fcsonline/tmux-thumbs/workflows/Rust/badge.svg)](https://github.com/fcsonline/tmux-thumbs/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/fcsonline/tmux-thumbs/workflows/Rust/badge.svg)](https://github.com/fcsonline/tmux-thumbs/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tmux-plugins"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/fcsonline/tmux-thumbs/workflows/Rust/badge.svg)](https://github.com/fcsonline/tmux-thumbs/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimium"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/fcsonline/tmux-thumbs/workflows/Rust/badge.svg)](https://github.com/fcsonline/tmux-thumbs/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimperator"
+    }
+  ]
+}

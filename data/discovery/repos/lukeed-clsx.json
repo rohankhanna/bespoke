@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "esm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "terser",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "uvu",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeed/clsx",
+      "target": "esm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeed/clsx",
+      "target": "terser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lukeed/clsx",
+      "target": "uvu",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lukeed/clsx",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lukeed/clsx",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "lukeed/clsx",
+      "target": "actions/cache@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:56:43.761154+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1192
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1066
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tiny (239B) utility for constructing `className` strings conditionally.",
+    "fork": false,
+    "full_name": "lukeed/clsx",
+    "html_url": "https://github.com/lukeed/clsx",
+    "language": "JavaScript",
+    "pushed_at": "2024-06-10T15:48:22Z",
+    "stargazers_count": 9743,
+    "topics": [],
+    "updated_at": "2026-04-29T18:11:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

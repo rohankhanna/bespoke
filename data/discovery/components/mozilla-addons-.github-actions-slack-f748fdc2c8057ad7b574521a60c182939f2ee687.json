@@ -1,0 +1,17 @@
+{
+  "component": "mozilla/addons/.github/actions/slack@f748fdc2c8057ad7b574521a60c182939f2ee687",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_health_check.yml",
+      "source_repo": "mozilla/addons-server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/health_check.yml",
+      "source_repo": "mozilla/addons-server"
+    }
+  ]
+}

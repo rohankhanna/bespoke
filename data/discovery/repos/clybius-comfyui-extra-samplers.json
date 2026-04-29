@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Clybius/ComfyUI-Extra-Samplers",
+      "target": "google-research/torchsde",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:09.090825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5749
+    },
+    {
+      "path": "requirements.txt",
+      "size": 7
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repository of extra samplers, usable within ComfyUI for most nodes.",
+    "fork": false,
+    "full_name": "Clybius/ComfyUI-Extra-Samplers",
+    "html_url": "https://github.com/Clybius/ComfyUI-Extra-Samplers",
+    "language": "Python",
+    "pushed_at": "2024-11-15T17:21:45Z",
+    "stargazers_count": 102,
+    "topics": [],
+    "updated_at": "2026-04-12T20:06:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/torchsde",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

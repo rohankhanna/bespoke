@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:55:01.910526+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1073
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A repository for shared resources among SwiftGen repos",
+    "fork": false,
+    "full_name": "SwiftGen/Eve",
+    "html_url": "https://github.com/SwiftGen/Eve",
+    "language": "Ruby",
+    "pushed_at": "2022-10-05T22:49:08Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-01-02T15:30:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

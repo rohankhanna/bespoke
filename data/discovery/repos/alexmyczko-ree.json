@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmyczko/ree",
+      "target": "flashrom/flashrom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmyczko/ree",
+      "target": "rewtnull/amigafonts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmyczko/ree",
+      "target": "swordfish90/cool-retro-term",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexmyczko/ree",
+      "target": "fcambus/bdf2sfd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmyczko/ree",
+      "target": "bios",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmyczko/ree",
+      "target": "bitmap-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmyczko/ree",
+      "target": "dumper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexmyczko/ree",
+      "target": "undi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:43:52.953028+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1688
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extract BIOS ROM extensions and bitmap fonts (8x8, 8x14, 8x16)",
+    "fork": false,
+    "full_name": "alexmyczko/ree",
+    "html_url": "https://github.com/alexmyczko/ree",
+    "language": "C",
+    "pushed_at": "2024-02-02T14:19:20Z",
+    "stargazers_count": 18,
+    "topics": [
+      "bios",
+      "bitmap-font",
+      "dumper",
+      "rom",
+      "undi",
+      "vga"
+    ],
+    "updated_at": "2025-10-24T20:19:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fcambus/bdf2sfd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flashrom/flashrom",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rewtnull/amigafonts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swordfish90/cool-retro-term",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5bebc8b8aed438da6bf0b2a63161d7a)](https://www.codacy.com/app/alexmyczko/ree?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alexmyczko/ree&amp;utm_campaign=Badge_Grade)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bios"
+    },
+    {
+      "context_snippet": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5bebc8b8aed438da6bf0b2a63161d7a)](https://www.codacy.com/app/alexmyczko/ree?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alexmyczko/ree&amp;utm_campaign=Badge_Grade)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitmap-font"
+    },
+    {
+      "context_snippet": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5bebc8b8aed438da6bf0b2a63161d7a)](https://www.codacy.com/app/alexmyczko/ree?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alexmyczko/ree&amp;utm_campaign=Badge_Grade)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dumper"
+    },
+    {
+      "context_snippet": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5bebc8b8aed438da6bf0b2a63161d7a)](https://www.codacy.com/app/alexmyczko/ree?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alexmyczko/ree&amp;utm_campaign=Badge_Grade)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "undi"
+    }
+  ]
+}

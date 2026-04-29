@@ -67,6 +67,18 @@
       "source_repo": "ninenines/cowboy",
       "status": "candidate-context",
       "text": "Check Cowboy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adonisjs/core",
+      "status": "candidate-context",
+      "text": "AdonisJS is a TypeScript-first web framework for building web apps and API servers. It comes with support for testing, modern tooling, an ecosystem of official packages, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adonisjs/core",
+      "status": "candidate-context",
+      "text": "**Featured sponsors**"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "ninenines/cowboy",
       "status": "candidate",
       "text": "Check Cowboy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adonisjs/core",
+      "status": "candidate",
+      "text": "**Featured sponsors**"
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "ninenines/cowboy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adonisjs/core"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

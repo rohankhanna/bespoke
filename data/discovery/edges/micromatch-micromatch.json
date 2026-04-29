@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "micromatch/micromatch",
-      "target": "sindresorhus/multimatch",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "micromatch/micromatch",
       "target": "jonschlinkert/glob-object",
       "target_type": "repository"
     },
@@ -19,13 +12,6 @@
       "source_file": "README.md",
       "source_repo": "micromatch/micromatch",
       "target": "micromatch/extglob",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "micromatch/micromatch",
-      "target": "micromatch/nanomatch",
       "target_type": "repository"
     },
     {
@@ -232,6 +218,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T00:33:56.049672+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "micromatch/micromatch"
 }

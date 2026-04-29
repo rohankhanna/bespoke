@@ -109,6 +109,30 @@
       "source_repo": "ipfs/go-ds-s3",
       "status": "candidate-context",
       "text": "Go Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-check",
+      "status": "candidate-context",
+      "text": "A tool for checking the accessibility of your data by IPFS peers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-check",
+      "status": "candidate-context",
+      "text": "Go Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/go-ipfs-example-plugin",
+      "status": "candidate-context",
+      "text": "Demo plugin for Kubo IPFS daemon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-ipfs-example-plugin",
+      "status": "candidate-context",
+      "text": "Go Checks"
     }
   ],
   "candidate_glosses": [
@@ -163,6 +187,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/go-ds-s3",
+      "status": "candidate",
+      "text": "Go Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-check",
+      "status": "candidate",
+      "text": "Go Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-ipfs-example-plugin",
       "status": "candidate",
       "text": "Go Checks"
     }
@@ -262,11 +298,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/go-check.yml",
       "source_repo": "ipfs/go-ds-s3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/ipfs-check"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/go-check.yml",
+      "source_repo": "ipfs/go-ipfs-example-plugin"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

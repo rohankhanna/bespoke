@@ -1,0 +1,12 @@
+{
+  "component": "actions-rs/toolchain@88dc2356392166efad76775c878094f4e83ff746",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "octokit/openapi"
+    }
+  ]
+}

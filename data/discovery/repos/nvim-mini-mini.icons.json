@@ -2,27 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-mini/mini.icons",
-      "target": "nvim-mini/mini.nvim",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-mini/mini.icons",
-      "target": "nvim-tree/nvim-web-devicons",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-mini/mini.icons",
-      "target": "onsails/lspkind.nvim",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "nvim-mini/mini.icons",
@@ -44,7 +23,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T19:06:47.226424+00:00",
+  "fetched_at": "2026-04-29T19:41:37.410278+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -61,32 +40,16 @@
     "html_url": "https://github.com/nvim-mini/mini.icons",
     "language": "Lua",
     "pushed_at": "2026-04-14T11:57:15Z",
-    "stargazers_count": 371,
+    "stargazers_count": 373,
     "topics": [
       "lua",
       "mini-nvim",
       "neovim",
       "neovim-plugin"
     ],
-    "updated_at": "2026-04-22T02:46:34Z"
+    "updated_at": "2026-04-27T13:04:13Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nvim-mini/mini.nvim",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "nvim-tree/nvim-web-devicons",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "onsails/lspkind.nvim",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "<p align=\"center\"> <img src=\"https://github.com/nvim-mini/assets/blob/main/logo-2/logo-icons_readme.png?raw=true\" alt=\"mini.icons\" style=\"max-width:100%;border:solid 2px\"/> </p>",

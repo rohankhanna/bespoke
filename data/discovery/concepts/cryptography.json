@@ -403,6 +403,54 @@
       "source_repo": "crev-dev/pip-crev",
       "status": "candidate-context",
       "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate-context",
+      "text": "HACL*, a formally verified cryptographic library written in F*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate-context",
+      "text": "This repository contains verified code for a library of modern"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdaclass/lambdaworks",
+      "status": "candidate-context",
+      "text": "lambdaworks offers implementations for both SNARKs and STARKs provers, along with the flexibility to leverage their individual components for constructing customized SNARKs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/lambdaworks",
+      "status": "candidate-context",
+      "text": "> From the heights of these towers of fields, forty centuries of mathematics look down on us."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate-context",
+      "text": "The Cryspen HACL Distribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate-context",
+      "text": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FStarLang/karamel",
+      "status": "candidate-context",
+      "text": "KaRaMeL is a tool for extracting low-level F* programs to readable C code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/karamel",
+      "status": "candidate-context",
+      "text": "KaRaMeL"
     }
   ],
   "candidate_glosses": [
@@ -609,6 +657,30 @@
       "source_repo": "crev-dev/pip-crev",
       "status": "candidate",
       "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate",
+      "text": "This repository contains verified code for a library of modern"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/lambdaworks",
+      "status": "candidate",
+      "text": "> From the heights of these towers of fields, forty centuries of mathematics look down on us."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate",
+      "text": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/karamel",
+      "status": "candidate",
+      "text": "KaRaMeL"
     }
   ],
   "candidate_related_terms": [
@@ -892,11 +964,53 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "crev-dev/pip-crev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "C2SP/wycheproof"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lambdaclass/lambdaworks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cryspen/hacl-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FStarLang/karamel"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

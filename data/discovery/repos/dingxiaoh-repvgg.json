@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepVGG",
+      "target": "benjaminjellis/objax-repvgg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepVGG",
+      "target": "dingxiaoh/acnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepVGG",
+      "target": "dingxiaoh/centripetal-sgd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/RepVGG",
+      "target": "dingxiaoh/aofp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:38:45.695460+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RepVGG: Making VGG-style ConvNets Great Again",
+    "fork": false,
+    "full_name": "DingXiaoH/RepVGG",
+    "html_url": "https://github.com/DingXiaoH/RepVGG",
+    "language": "Python",
+    "pushed_at": "2023-02-10T08:29:25Z",
+    "stargazers_count": 3473,
+    "topics": [],
+    "updated_at": "2026-04-19T14:54:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benjaminjellis/objax-repvgg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/acnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/aofp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/centripetal-sgd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

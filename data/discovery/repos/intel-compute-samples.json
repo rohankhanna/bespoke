@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/compute-samples",
+      "target": "intel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/compute-samples",
+      "target": "opencl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:42:05.420940+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2148
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " Intel\u00ae GPU Compute Samples",
+    "fork": false,
+    "full_name": "intel/compute-samples",
+    "html_url": "https://github.com/intel/compute-samples",
+    "language": "C++",
+    "pushed_at": "2025-09-10T13:15:11Z",
+    "stargazers_count": 108,
+    "topics": [
+      "gpu",
+      "intel",
+      "opencl"
+    ],
+    "updated_at": "2026-03-20T18:34:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/intel/compute-samples.svg?branch=master)](https://travis-ci.org/intel/compute-samples)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intel"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/intel/compute-samples.svg?branch=master)](https://travis-ci.org/intel/compute-samples)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencl"
+    }
+  ]
+}

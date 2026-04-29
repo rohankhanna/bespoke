@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackyjsy/CVPR21Chal-SLR",
+      "target": "cvpr2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackyjsy/CVPR21Chal-SLR",
+      "target": "multi-modality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackyjsy/CVPR21Chal-SLR",
+      "target": "sign-language-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackyjsy/CVPR21Chal-SLR",
+      "target": "sign-language-recognition-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jackyjsy/CVPR21Chal-SLR",
+      "target": "skeleton-features",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:29.015927+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo contains the official code of our work SAM-SLR which won the CVPR 2021 Challenge on Large Scale Signer Independent Isolated Sign Language Recognition.",
+    "fork": false,
+    "full_name": "jackyjsy/CVPR21Chal-SLR",
+    "html_url": "https://github.com/jackyjsy/CVPR21Chal-SLR",
+    "language": "Python",
+    "pushed_at": "2022-11-16T01:42:37Z",
+    "stargazers_count": 229,
+    "topics": [
+      "cvpr2021",
+      "multi-modality",
+      "sign-language-recognition",
+      "sign-language-recognition-system",
+      "skeleton-features"
+    ],
+    "updated_at": "2026-04-25T07:15:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo contains the official code of our work SAM-SLR which won the CVPR 2021 Challenge on Large Scale Signer Independent Isolated Sign Language Recognition.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cvpr2021"
+    },
+    {
+      "context_snippet": "This repo contains the official code of our work SAM-SLR which won the CVPR 2021 Challenge on Large Scale Signer Independent Isolated Sign Language Recognition.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modality"
+    },
+    {
+      "context_snippet": "This repo contains the official code of our work SAM-SLR which won the CVPR 2021 Challenge on Large Scale Signer Independent Isolated Sign Language Recognition.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sign-language-recognition"
+    },
+    {
+      "context_snippet": "This repo contains the official code of our work SAM-SLR which won the CVPR 2021 Challenge on Large Scale Signer Independent Isolated Sign Language Recognition.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sign-language-recognition-system"
+    },
+    {
+      "context_snippet": "This repo contains the official code of our work SAM-SLR which won the CVPR 2021 Challenge on Large Scale Signer Independent Isolated Sign Language Recognition.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "skeleton-features"
+    }
+  ]
+}

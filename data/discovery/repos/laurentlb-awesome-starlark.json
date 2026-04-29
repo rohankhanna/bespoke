@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "laurentlb/awesome-starlark",
+      "target": "caketop/python-starlark-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "laurentlb/awesome-starlark",
+      "target": "1set/starlet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "laurentlb/awesome-starlark",
+      "target": "autokitteh/autokitteh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "laurentlb/awesome-starlark",
+      "target": "cruise-automation/isopod",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "laurentlb/awesome-starlark",
+      "target": "awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "laurentlb/awesome-starlark",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "laurentlb/awesome-starlark",
+      "target": "starlark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:47:06.955053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9522
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A list of awesome things related to the Starlark language",
+    "fork": false,
+    "full_name": "laurentlb/awesome-starlark",
+    "html_url": "https://github.com/laurentlb/awesome-starlark",
+    "language": null,
+    "pushed_at": "2025-10-16T19:10:46Z",
+    "stargazers_count": 74,
+    "topics": [
+      "awesome",
+      "awesome-list",
+      "starlark"
+    ],
+    "updated_at": "2026-04-27T20:49:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1set/starlet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autokitteh/autokitteh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caketop/python-starlark-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cruise-automation/isopod",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "*A list of awesome things related to the Starlark language.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome"
+    },
+    {
+      "context_snippet": "*A list of awesome things related to the Starlark language.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "*A list of awesome things related to the Starlark language.*",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starlark"
+    }
+  ]
+}

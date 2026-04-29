@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Kubernetes Operator for Kong Gateways"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"./logo/logo.png\" alt=\"KGO logo\" title=\"Kong Operator\" height=\"150\" width=\"150\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"./logo/logo.png\" alt=\"KGO logo\" title=\"Kong Operator\" height=\"150\" width=\"150\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "team-k8s",
+      "sense_id": "team-k8s#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "team-k8s",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "team-k8s",
+  "observation_id": "20b54ca9b659d6f0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "team-k8s",
+  "source_context_snippet": "<img src=\"./logo/logo.png\" alt=\"KGO logo\" title=\"Kong Operator\" height=\"150\" width=\"150\" />",
+  "source_file": null,
+  "source_repo": "Kong/kong-operator",
+  "source_repo_description": "Kubernetes Operator for Kong Gateways"
+}

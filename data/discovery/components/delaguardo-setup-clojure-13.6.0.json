@@ -1,0 +1,17 @@
+{
+  "component": "DeLaGuardo/setup-clojure@13.6.0",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "cognitect-labs/aws-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/libs-test.yml",
+      "source_repo": "clj-commons/rewrite-clj"
+    }
+  ]
+}

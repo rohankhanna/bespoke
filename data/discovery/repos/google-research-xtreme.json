@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:42:01.118607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "XTREME is a benchmark for the evaluation of the cross-lingual generalization ability of pre-trained multilingual models that covers 40 typologically diverse languages and includes nine tasks.",
+    "fork": false,
+    "full_name": "google-research/xtreme",
+    "html_url": "https://github.com/google-research/xtreme",
+    "language": "Python",
+    "pushed_at": "2023-01-04T11:37:25Z",
+    "stargazers_count": 652,
+    "topics": [],
+    "updated_at": "2026-04-19T15:50:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

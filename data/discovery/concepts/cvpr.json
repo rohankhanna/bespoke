@@ -43,6 +43,18 @@
       "source_repo": "luost26/diffusion-point-cloud",
       "status": "candidate-context",
       "text": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeffffffli/HybrIK",
+      "status": "candidate-context",
+      "text": "Official code of \"HybrIK: A Hybrid Analytical-Neural Inverse Kinematics Solution for 3D Human Pose and Shape Estimation\", CVPR 2021"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffffffli/HybrIK",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "luost26/diffusion-point-cloud",
       "status": "candidate",
       "text": "<img src=\"teaser.png\" alt=\"teaser\" width=\"50%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffffffli/HybrIK",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -96,11 +114,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "luost26/diffusion-point-cloud"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jeffffffli/HybrIK"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

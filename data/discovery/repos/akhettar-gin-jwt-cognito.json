@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    },
+    {
+      "component": "anothrNick/github-tag-action@1.17.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "akhettar/gin-jwt-cognito",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "akhettar/gin-jwt-cognito",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "akhettar/gin-jwt-cognito",
+      "target": "anothrNick/github-tag-action@1.17.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "akhettar/gin-jwt-cognito",
+      "target": "Master CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akhettar/gin-jwt-cognito",
+      "target": "cognito-user-pool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akhettar/gin-jwt-cognito",
+      "target": "jwt-authentication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akhettar/gin-jwt-cognito",
+      "target": "middleware-handlers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:50:17.325734+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1916
+    },
+    {
+      "path": "go.mod",
+      "size": 1148
+    },
+    {
+      "path": ".github/workflows/master.yml",
+      "size": 885
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Gin Cognito JWT Authentication Middleware",
+    "fork": false,
+    "full_name": "akhettar/gin-jwt-cognito",
+    "html_url": "https://github.com/akhettar/gin-jwt-cognito",
+    "language": "Go",
+    "pushed_at": "2024-05-28T18:50:39Z",
+    "stargazers_count": 9,
+    "topics": [
+      "cognito-user-pool",
+      "jwt-authentication",
+      "middleware-handlers"
+    ],
+    "updated_at": "2025-12-29T12:15:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Master CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/master.yml",
+      "term": "Master CI"
+    },
+    {
+      "context_snippet": "![Master CI](https://github.com/akhettar/gin-jwt-cognito/workflows/Master%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cognito-user-pool"
+    },
+    {
+      "context_snippet": "![Master CI](https://github.com/akhettar/gin-jwt-cognito/workflows/Master%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jwt-authentication"
+    },
+    {
+      "context_snippet": "![Master CI](https://github.com/akhettar/gin-jwt-cognito/workflows/Master%20CI/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "middleware-handlers"
+    }
+  ]
+}

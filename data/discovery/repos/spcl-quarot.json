@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:50:06.949790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1902
+    },
+    {
+      "path": "requirements.txt",
+      "size": 239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for Neurips24 paper: QuaRot, an end-to-end 4-bit inference of large language models.",
+    "fork": false,
+    "full_name": "spcl/QuaRot",
+    "html_url": "https://github.com/spcl/QuaRot",
+    "language": "Python",
+    "pushed_at": "2024-11-26T11:08:33Z",
+    "stargazers_count": 506,
+    "topics": [],
+    "updated_at": "2026-04-27T19:58:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

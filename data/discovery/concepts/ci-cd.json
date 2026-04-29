@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "ci-cd"
+    "ci-cd",
+    "CI-CD"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -129,6 +130,42 @@
       "source_repo": "gitleaks/gitleaks",
       "status": "candidate-context",
       "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vizzuhq/ipyvizzu",
+      "status": "candidate-context",
+      "text": "Build animated charts in Jupyter Notebook and similar environments with a simple Python syntax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu",
+      "status": "candidate-context",
+      "text": "CI-CD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ctlllll/axolotl",
+      "status": "candidate-context",
+      "text": "Go ahead and axolotl questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctlllll/axolotl",
+      "status": "candidate-context",
+      "text": "ci-cd"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "earthly/earthly",
+      "status": "candidate-context",
+      "text": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax \u2013 like Dockerfile and Makefile had a baby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "earthly/earthly",
+      "status": "candidate-context",
+      "text": "<h1>Earthly</h1>"
     }
   ],
   "candidate_glosses": [
@@ -191,6 +228,24 @@
       "source_repo": "gitleaks/gitleaks",
       "status": "candidate",
       "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu",
+      "status": "candidate",
+      "text": "CI-CD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctlllll/axolotl",
+      "status": "candidate",
+      "text": "ci-cd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "earthly/earthly",
+      "status": "candidate",
+      "text": "<h1>Earthly</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -276,11 +331,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cicd.yml",
+      "source_repo": "vizzuhq/ipyvizzu"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ctlllll/axolotl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "earthly/earthly"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

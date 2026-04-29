@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eea/eea.rancher.catalog",
+      "target": "slashgear/generator-rancher-catalog",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:44:32.214934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2073
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Catalog of EEA's application stacks deploy-able via Rancher ",
+    "fork": false,
+    "full_name": "eea/eea.rancher.catalog",
+    "html_url": "https://github.com/eea/eea.rancher.catalog",
+    "language": "Go Template",
+    "pushed_at": "2026-04-29T16:04:54Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-29T16:04:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "slashgear/generator-rancher-catalog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

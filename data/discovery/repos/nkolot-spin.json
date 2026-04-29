@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nkolot/SPIN",
+      "target": "vchoutas/smplify-x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nkolot/SPIN",
+      "target": "vchoutas/smplx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:23.782507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7822
+    },
+    {
+      "path": "requirements.txt",
+      "size": 173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Repository for the paper \"Learning to Reconstruct 3D Human Pose and Shape via Model-fitting in the Loop\"",
+    "fork": false,
+    "full_name": "nkolot/SPIN",
+    "html_url": "https://github.com/nkolot/SPIN",
+    "language": "Python",
+    "pushed_at": "2023-12-12T22:28:36Z",
+    "stargazers_count": 882,
+    "topics": [],
+    "updated_at": "2026-04-22T02:56:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vchoutas/smplify-x",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vchoutas/smplx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

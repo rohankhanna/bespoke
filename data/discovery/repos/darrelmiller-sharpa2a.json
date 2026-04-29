@@ -1,0 +1,72 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build.yml",
+      "source_repo": "darrelmiller/sharpa2a",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-build.yml",
+      "source_repo": "darrelmiller/sharpa2a",
+      "target": "actions/setup-dotnet@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:55:35.352698+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2867
+    },
+    {
+      "path": ".github/workflows/dotnet-build.yml",
+      "size": 1565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "darrelmiller/sharpa2a",
+    "html_url": "https://github.com/darrelmiller/sharpa2a",
+    "language": "C#",
+    "pushed_at": "2025-11-21T23:17:16Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2025-08-29T15:25:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

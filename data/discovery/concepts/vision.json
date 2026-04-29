@@ -19,6 +19,30 @@
       "source_repo": "BVLC/caffe",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate-context",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from https://arxiv.org/abs/2106.05237."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate-context",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from the paper [Knowledge distillation:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate-context",
+      "text": "Automate browser based workflows with AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate-context",
+      "text": "<!-- DOCTOC SKIP -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "BVLC/caffe",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/BVLC/caffe.svg?branch=master)](https://travis-ci.org/BVLC/caffe)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from the paper [Knowledge distillation:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate",
+      "text": "<!-- DOCTOC SKIP -->"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "BVLC/caffe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/FunMatch-Distillation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Skyvern-AI/skyvern"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

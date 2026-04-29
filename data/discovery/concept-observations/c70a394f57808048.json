@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python-based research interface for blackbox and hyperparameter optimization, based on the internal Google Vizier Service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<figure>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<figure>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047958,
+      "status": "candidate",
+      "text": "nawab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047853,
+      "status": "candidate",
+      "text": "nabob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048171,
+      "status": "candidate",
+      "text": "vizir"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048170,
+      "status": "candidate",
+      "text": "vizeer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10048169,
+      "status": "candidate",
+      "text": "vezir"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vizier",
+      "sense_id": "vizier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vizier",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vizier",
+  "observation_id": "c70a394f57808048",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "vizier",
+  "source_context_snippet": "<figure>",
+  "source_file": null,
+  "source_repo": "google/vizier",
+  "source_repo_description": "Python-based research interface for blackbox and hyperparameter optimization, based on the internal Google Vizier Service."
+}

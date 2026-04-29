@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Matrix <--> Slack bridge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Contribution requirements"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Contribution requirements"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11637,
+      "status": "candidate",
+      "text": "credit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11637,
+      "status": "candidate",
+      "text": "excess"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11637,
+      "status": "candidate",
+      "text": "funding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11637,
+      "status": "candidate",
+      "text": "laws"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11564,
+      "status": "candidate",
+      "text": "credits"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Contribution requirements",
+      "sense_id": "contribution-requirements#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "contribution-requirements",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "contribution-requirements",
+  "observation_id": "ec8d665c20746c2c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Contribution requirements",
+  "source_context_snippet": "Contribution requirements",
+  "source_file": ".github/workflows/sign-off.yml",
+  "source_repo": "matrix-org/matrix-appservice-slack",
+  "source_repo_description": "A Matrix <--> Slack bridge"
+}

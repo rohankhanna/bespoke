@@ -103,6 +103,54 @@
       "source_repo": "AdguardTeam/dnsproxy",
       "status": "candidate-context",
       "text": "[![Code Coverage](https://img.shields.io/codecov/c/github/AdguardTeam/dnsproxy/master.svg)](https://codecov.io/github/AdguardTeam/dnsproxy?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate-context",
+      "text": "\ud83d\udd73 bore is a simple CLI tool for making tunnels to localhost"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate-context",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/ekzhang/bore/ci.yml)](https://github.com/ekzhang/bore/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anacrolix/btlink",
+      "status": "candidate-context",
+      "text": "a HTTP(s) addressing scheme for BitTorrent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/btlink",
+      "status": "candidate-context",
+      "text": "btlink is a peer-to-peer web hosting implementation. It uses constructs provided by BitTorrent and the BitTorrent DHT to handle DNS and serve websites. It supports domain certificates, subdomains, origin isolation and CORS. btlink can be progressively integrated, starting from n\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosn/mosn",
+      "status": "candidate-context",
+      "text": "The Cloud-Native Network Proxy Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosn/mosn",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avwo/whistle",
+      "status": "candidate-context",
+      "text": "HTTP, HTTP2, HTTPS, Websocket debugging proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avwo/whistle",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +201,30 @@
       "source_repo": "AdguardTeam/dnsproxy",
       "status": "candidate",
       "text": "[![Code Coverage](https://img.shields.io/codecov/c/github/AdguardTeam/dnsproxy/master.svg)](https://codecov.io/github/AdguardTeam/dnsproxy?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/ekzhang/bore/ci.yml)](https://github.com/ekzhang/bore/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/btlink",
+      "status": "candidate",
+      "text": "btlink is a peer-to-peer web hosting implementation. It uses constructs provided by BitTorrent and the BitTorrent DHT to handle DNS and serve websites. It supports domain certificates, subdomains, origin isolation and CORS. btlink can be progressively integrated, starting from n\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosn/mosn",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avwo/whistle",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -265,11 +337,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "AdguardTeam/dnsproxy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ekzhang/bore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "anacrolix/btlink"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mosn/mosn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "avwo/whistle"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

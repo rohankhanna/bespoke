@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dart Plugin for Eclipse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044410,
+      "status": "candidate",
+      "text": "flit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043984,
+      "status": "candidate",
+      "text": "flap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043934,
+      "status": "candidate",
+      "text": "flapping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043514,
+      "status": "candidate",
+      "text": "flopping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035837,
+      "status": "candidate",
+      "text": "flicker"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flutter",
+      "sense_id": "flutter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31044,
+      "status": "candidate",
+      "text": "quiver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25030,
+      "status": "candidate",
+      "text": "flitter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20054,
+      "status": "candidate",
+      "text": "dart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18050,
+      "status": "candidate",
+      "text": "flap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17041,
+      "status": "candidate",
+      "text": "flicker"
+    }
+  ],
+  "concept_id": "flutter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flutter",
+  "observation_id": "0a5b9a3ddd6b5e59",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "flutter",
+  "source_context_snippet": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026",
+  "source_file": null,
+  "source_repo": "eclipse-archived/dartboard",
+  "source_repo_description": "Dart Plugin for Eclipse"
+}

@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnproject/cli",
+      "target": "fnproject/docs",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:50:11.845411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1724
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1018
+    },
+    {
+      "path": "go.mod",
+      "size": 2819
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CLI tool for fnproject. ",
+    "fork": false,
+    "full_name": "fnproject/cli",
+    "html_url": "https://github.com/fnproject/cli",
+    "language": "Go",
+    "pushed_at": "2026-04-29T16:07:55Z",
+    "stargazers_count": 140,
+    "topics": [],
+    "updated_at": "2026-04-29T16:07:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fnproject/docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

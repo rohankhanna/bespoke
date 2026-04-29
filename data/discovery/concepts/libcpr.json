@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "libcpr"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate-context",
+      "text": "Goal: Make it easy to place HTTPS Requests from C++, leveraging Bazel, CPR, and CURL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "libcpr",
+  "concept_id": "libcpr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "libcpr",
+      "sense_id": "libcpr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

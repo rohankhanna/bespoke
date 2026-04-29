@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:40:21.981067+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1387
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of dark and light vim colorschemes.",
+    "fork": false,
+    "full_name": "habamax/vim-nod",
+    "html_url": "https://github.com/habamax/vim-nod",
+    "language": "Vim Script",
+    "pushed_at": "2025-07-19T12:03:06Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-10-06T09:27:26Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,187 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "target": "contributions-welcome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "target": "curl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "target": "http",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "target": "http-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "target": "https",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "target": "https-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "target": "libcpr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:40:47.672210+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7990
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Goal: Make it easy to place HTTPS Requests from C++, leveraging Bazel, CPR, and CURL.",
+    "fork": false,
+    "full_name": "hedronvision/bazel-make-cc-https-easy",
+    "html_url": "https://github.com/hedronvision/bazel-make-cc-https-easy",
+    "language": "Starlark",
+    "pushed_at": "2026-02-15T16:45:27Z",
+    "stargazers_count": 34,
+    "topics": [
+      "bazel",
+      "build",
+      "c",
+      "contributions-welcome",
+      "cpp",
+      "cpr",
+      "cross-platform",
+      "curl",
+      "hacktoberfest",
+      "http",
+      "http-client",
+      "https",
+      "https-client",
+      "libcpr"
+    ],
+    "updated_at": "2026-03-15T12:53:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contributions-welcome"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curl"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "http-client"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "https"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "https-client"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libcpr"
+    }
+  ]
+}

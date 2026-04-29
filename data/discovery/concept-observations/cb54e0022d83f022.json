@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Check prescription medication stock at Maccabi pharmacies before you go. Search all nearby branches in one query. Agent Skills format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980469,
+      "status": "candidate",
+      "text": "maccabee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980468,
+      "status": "candidate",
+      "text": "machabee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980467,
+      "status": "candidate",
+      "text": "macc."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980466,
+      "status": "candidate",
+      "text": "maccabees"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980465,
+      "status": "candidate",
+      "text": "hasmonean"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "maccabi",
+      "sense_id": "maccabi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "maccabi",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "maccabi",
+  "observation_id": "cb54e0022d83f022",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "maccabi",
+  "source_context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+  "source_file": null,
+  "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+  "source_repo_description": "Check prescription medication stock at Maccabi pharmacies before you go. Search all nearby branches in one query. Agent Skills format."
+}

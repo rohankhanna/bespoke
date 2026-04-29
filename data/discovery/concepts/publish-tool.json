@@ -19,12 +19,30 @@
       "source_repo": "johan-v-r/LibSassBuilder",
       "status": "candidate-context",
       "text": "Publish Tool"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deanwiseman/DartSassBuilder",
+      "status": "candidate-context",
+      "text": "Sass builder (dart compiler) for .NET projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deanwiseman/DartSassBuilder",
+      "status": "candidate-context",
+      "text": "Publish Tool"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "johan-v-r/LibSassBuilder",
+      "status": "candidate",
+      "text": "Publish Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deanwiseman/DartSassBuilder",
       "status": "candidate",
       "text": "Publish Tool"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/publish-tool.yml",
       "source_repo": "johan-v-r/LibSassBuilder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-tool.yml",
+      "source_repo": "deanwiseman/DartSassBuilder"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

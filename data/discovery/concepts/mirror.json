@@ -1,0 +1,127 @@
+{
+  "aliases": [
+    "mirror",
+    "Mirror"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MagicMirrorOrg/MagicMirror",
+      "status": "candidate-context",
+      "text": "MagicMirror\u00b2 is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror\u00b2 allows you to convert your hallway or bathroom mirror into your personal assistant."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicMirrorOrg/MagicMirror",
+      "status": "candidate-context",
+      "text": "<p style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sbozzolo/libvterm-mirror",
+      "status": "candidate-context",
+      "text": "Mirror of https://launchpad.net/libvterm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sbozzolo/libvterm-mirror",
+      "status": "candidate-context",
+      "text": "Mirror"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicMirrorOrg/MagicMirror",
+      "status": "candidate",
+      "text": "<p style=\"text-align: center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sbozzolo/libvterm-mirror",
+      "status": "candidate",
+      "text": "Mirror"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046358,
+      "status": "candidate",
+      "text": "reflected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046357,
+      "status": "candidate",
+      "text": "reflector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30046129,
+      "status": "candidate",
+      "text": "lens"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045602,
+      "status": "candidate",
+      "text": "reflection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045438,
+      "status": "candidate",
+      "text": "reflect"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mirror",
+  "concept_id": "mirror",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MagicMirrorOrg/MagicMirror"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "Sbozzolo/libvterm-mirror"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mirror",
+      "sense_id": "mirror#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

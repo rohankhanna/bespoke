@@ -116,7 +116,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kurrent-io/KurrentDB",
-      "target": "kurrent-io/kurrentdb-client-java",
+      "target": "kurrent-io/kurrentdb-client-nodejs",
       "target_type": "repository"
     },
     {
@@ -130,14 +130,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kurrent-io/KurrentDB",
-      "target": "kurrent-io/kurrentdb-client-go",
+      "target": "kurrent-io/kurrentdb-client-rust",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "kurrent-io/KurrentDB",
-      "target": "kurrent-io/eventstoredb-client-dotnet-legacy",
+      "target": "nfibrokerage/spear",
       "target_type": "repository"
     },
     {
@@ -351,7 +351,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:04:56.449695+00:00",
+  "fetched_at": "2026-04-29T21:00:46.664535+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -403,8 +403,8 @@
     "full_name": "kurrent-io/KurrentDB",
     "html_url": "https://github.com/kurrent-io/KurrentDB",
     "language": "C#",
-    "pushed_at": "2026-04-23T15:33:21Z",
-    "stargazers_count": 5777,
+    "pushed_at": "2026-04-29T13:17:08Z",
+    "stargazers_count": 5780,
     "topics": [
       "cqrs",
       "database",
@@ -413,7 +413,7 @@
       "eventsourcing",
       "eventstore"
     ],
-    "updated_at": "2026-04-21T19:29:38Z"
+    "updated_at": "2026-04-29T12:58:39Z"
   },
   "repo_links": [
     {
@@ -423,17 +423,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kurrent-io/eventstoredb-client-dotnet-legacy",
+      "full_name": "kurrent-io/kurrentdb-client-nodejs",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kurrent-io/kurrentdb-client-go",
+      "full_name": "kurrent-io/kurrentdb-client-rust",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "kurrent-io/kurrentdb-client-java",
+      "full_name": "nfibrokerage/spear",
       "source_file": "README.md"
     }
   ],

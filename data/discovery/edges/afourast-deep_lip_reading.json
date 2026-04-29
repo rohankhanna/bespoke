@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "afourast/deep_lip_reading",
+      "target": "kyubyong/transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "afourast/deep_lip_reading",
+      "target": "tensorflow/tensor2tensor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "afourast/deep_lip_reading",
+      "target": "sherjilozair/char-rnn-tensorflow",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "afourast/deep_lip_reading"
+}

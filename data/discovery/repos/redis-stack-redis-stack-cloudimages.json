@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws.yml"
+    },
+    {
+      "component": "appleboy/scp-action@v0.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws.yml"
+    },
+    {
+      "component": "appleboy/ssh-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml"
+    },
+    {
+      "component": "azure/login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml"
+    },
+    {
+      "component": "appleboy/scp-action@v0.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml"
+    },
+    {
+      "component": "appleboy/ssh-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image.yml"
+    },
+    {
+      "component": "hashicorp/setup-packer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp.yml"
+    },
+    {
+      "component": "actions/download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp.yml"
+    },
+    {
+      "component": "appleboy/scp-action@v0.1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp.yml"
+    },
+    {
+      "component": "appleboy/ssh-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "appleboy/scp-action@v0.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "appleboy/ssh-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "AWS CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "azure/login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "appleboy/scp-action@v0.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "appleboy/ssh-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "AZURE CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "Packer CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "hashicorp/setup-packer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_image.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_image.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "Build Cloud Provisioner Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "actions/download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "google-github-actions/auth@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "google-github-actions/setup-gcloud@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "appleboy/scp-action@v0.1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gcp.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "appleboy/ssh-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gcp.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages",
+      "target": "GCP CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:23.951416+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 728
+    },
+    {
+      "path": ".github/workflows/aws.yml",
+      "size": 5645
+    },
+    {
+      "path": ".github/workflows/azure.yml",
+      "size": 6180
+    },
+    {
+      "path": ".github/workflows/build_and_deploy.yml",
+      "size": 3428
+    },
+    {
+      "path": ".github/workflows/build_image.yml",
+      "size": 1779
+    },
+    {
+      "path": ".github/workflows/gcp.yml",
+      "size": 4909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "redis-stack/redis-stack-cloudimages",
+    "html_url": "https://github.com/redis-stack/redis-stack-cloudimages",
+    "language": "HCL",
+    "pushed_at": "2023-06-25T06:29:32Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-03-05T11:44:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "AWS CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws.yml",
+      "term": "AWS CI"
+    },
+    {
+      "context_snippet": "AZURE CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/azure.yml",
+      "term": "AZURE CI"
+    },
+    {
+      "context_snippet": "Packer CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_and_deploy.yml",
+      "term": "Packer CI"
+    },
+    {
+      "context_snippet": "Build Cloud Provisioner Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_image.yml",
+      "term": "Build Cloud Provisioner Images"
+    },
+    {
+      "context_snippet": "GCP CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gcp.yml",
+      "term": "GCP CI"
+    }
+  ]
+}

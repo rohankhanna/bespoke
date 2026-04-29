@@ -19,12 +19,48 @@
       "source_repo": "OpenMathLib/OpenBLAS",
       "status": "candidate-context",
       "text": "continuous build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/mxnet",
+      "status": "candidate-context",
+      "text": "Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mxnet",
+      "status": "candidate-context",
+      "text": "continuous build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate-context",
+      "text": "NLP made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate-context",
+      "text": "continuous build"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "OpenMathLib/OpenBLAS",
+      "status": "candidate",
+      "text": "continuous build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mxnet",
+      "status": "candidate",
+      "text": "continuous build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/gluon-nlp",
       "status": "candidate",
       "text": "continuous build"
     }
@@ -76,11 +112,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/dynamic_arch.yml",
       "source_repo": "OpenMathLib/OpenBLAS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dynamic_arch.yml",
+      "source_repo": "OpenMathLib/OpenBLAS"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/os_x_staticbuild.yml",
+      "source_repo": "apache/mxnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "dmlc/gluon-nlp"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

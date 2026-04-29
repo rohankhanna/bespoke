@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "System tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/go-spacemesh",
+      "status": "candidate-context",
+      "text": "Go Implementation of the Spacemesh protocol full node. \ud83d\udcbe\u23f0\ud83d\udcaa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/go-spacemesh",
+      "status": "candidate-context",
+      "text": "System tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/go-spacemesh",
+      "status": "candidate",
+      "text": "System tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13566,
+      "status": "candidate",
+      "text": "shakedown"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13566,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13506,
+      "status": "candidate",
+      "text": "stress test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13325,
+      "status": "candidate",
+      "text": "analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13019,
+      "status": "candidate",
+      "text": "blood"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "System tests",
+  "concept_id": "system-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/systest.yml",
+      "source_repo": "spacemeshos/go-spacemesh"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "System tests",
+      "sense_id": "system-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

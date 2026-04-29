@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dance-generation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ali-vilab/UniAnimate",
+      "status": "candidate-context",
+      "text": "Code for SCIS-2025 Paper \"UniAnimate: Taming Unified Video Di\ufb00usion Models for Consistent Human Image Animation\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/UniAnimate",
+      "status": "candidate-context",
+      "text": "<!-- main documents -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ali-vilab/UniAnimate",
+      "status": "candidate",
+      "text": "<!-- main documents -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dance-generation",
+  "concept_id": "dance-generation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ali-vilab/UniAnimate"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dance-generation",
+      "sense_id": "dance-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:58:20.138563+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4771
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The nREPL server from babashka as a library, so it can be used from other SCI-based CLIs.",
+    "fork": false,
+    "full_name": "babashka/babashka.nrepl",
+    "html_url": "https://github.com/babashka/babashka.nrepl",
+    "language": "Clojure",
+    "pushed_at": "2026-04-20T18:56:01Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-04-20T18:56:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

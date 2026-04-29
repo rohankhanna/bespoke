@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Systemcluster/tokenizer-bench",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Systemcluster/tokenizer-bench",
+      "target": "comparison",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Systemcluster/tokenizer-bench",
+      "target": "tokenizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:48:21.643272+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 2471
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Benchmark for tokenizers. Utility to compare the performance of different tokenizers with different datasets.",
+    "fork": false,
+    "full_name": "Systemcluster/tokenizer-bench",
+    "html_url": "https://github.com/Systemcluster/tokenizer-bench",
+    "language": "Python",
+    "pushed_at": "2026-03-23T18:30:29Z",
+    "stargazers_count": 0,
+    "topics": [
+      "benchmark",
+      "comparison",
+      "tokenizer"
+    ],
+    "updated_at": "2026-03-23T18:30:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[project] name = \"tokenizer-bench\" description = \"Benchmark for tokenizers.\" version = \"0.0.0\" requires-python = \">=3.12,<3.13\" authors = [{ name = \"Christian Sdunek\", email = \"me@systemcluster.me\" }] urls = { repository = \"https://github.com/Systemcluster/tokenizer-bench\" } dep\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "[project] name = \"tokenizer-bench\" description = \"Benchmark for tokenizers.\" version = \"0.0.0\" requires-python = \">=3.12,<3.13\" authors = [{ name = \"Christian Sdunek\", email = \"me@systemcluster.me\" }] urls = { repository = \"https://github.com/Systemcluster/tokenizer-bench\" } dep\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comparison"
+    },
+    {
+      "context_snippet": "[project] name = \"tokenizer-bench\" description = \"Benchmark for tokenizers.\" version = \"0.0.0\" requires-python = \">=3.12,<3.13\" authors = [{ name = \"Christian Sdunek\", email = \"me@systemcluster.me\" }] urls = { repository = \"https://github.com/Systemcluster/tokenizer-bench\" } dep\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokenizer"
+    }
+  ]
+}

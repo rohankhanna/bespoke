@@ -67,6 +67,54 @@
       "source_repo": "beehive-lab/docker-tornadovm",
       "status": "candidate-context",
       "text": "[![](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/sci",
+      "status": "candidate-context",
+      "text": "Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"100px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borkdude/jet",
+      "status": "candidate-context",
+      "text": "CLI to transform between JSON, EDN, YAML and Transit using Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/jet",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mukel/gemma4.java",
+      "status": "candidate-context",
+      "text": "Fast Gemma 4 inference in pure Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/gemma4.java",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mukel/gptoss.java",
+      "status": "candidate-context",
+      "text": "Fast OpenAI's gpt-oss inference in pure Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/gptoss.java",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +147,30 @@
       "source_repo": "beehive-lab/docker-tornadovm",
       "status": "candidate",
       "text": "[![](https://img.shields.io/badge/License-Apache%202.0-orange.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"100px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/jet",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/gemma4.java",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/gptoss.java",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +256,53 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "beehive-lab/TornadoVM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "borkdude/jet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mukel/gemma4.java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mukel/gptoss.java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/docker-tornadovm"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

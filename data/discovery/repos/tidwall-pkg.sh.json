@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:57:32.024755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A generalized package manager for whatever code.",
+    "fork": false,
+    "full_name": "tidwall/pkg.sh",
+    "html_url": "https://github.com/tidwall/pkg.sh",
+    "language": "Shell",
+    "pushed_at": "2023-07-30T22:57:14Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-03-10T04:44:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

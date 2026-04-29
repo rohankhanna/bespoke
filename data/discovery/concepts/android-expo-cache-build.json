@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Android Expo Cache Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artsy/eigen",
+      "status": "candidate-context",
+      "text": "The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eigen",
+      "status": "candidate-context",
+      "text": "Android Expo Cache Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eigen",
+      "status": "candidate",
+      "text": "Android Expo Cache Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29742,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28827,
+      "status": "candidate",
+      "text": "arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28803,
+      "status": "candidate",
+      "text": "phone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28094,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19267,
+      "status": "candidate",
+      "text": "icon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Android Expo Cache Build",
+  "concept_id": "android-expo-cache-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/android-expo-build.yml",
+      "source_repo": "artsy/eigen"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Android Expo Cache Build",
+      "sense_id": "android-expo-cache-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

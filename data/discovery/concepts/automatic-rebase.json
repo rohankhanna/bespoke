@@ -127,6 +127,30 @@
       "source_repo": "asteroid-team/asteroid",
       "status": "candidate-context",
       "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "form-data/form-data",
+      "status": "candidate-context",
+      "text": "A module to create readable `\"multipart/form-data\"` streams.  Can be used to submit forms and file uploads to other web applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "form-data/form-data",
+      "status": "candidate-context",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ljharb/qs",
+      "status": "candidate-context",
+      "text": "A querystring parser and serializer with nesting support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ljharb/qs",
+      "status": "candidate-context",
+      "text": "Automatic Rebase"
     }
   ],
   "candidate_glosses": [
@@ -187,6 +211,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "asteroid-team/asteroid",
+      "status": "candidate",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "form-data/form-data",
+      "status": "candidate",
+      "text": "Automatic Rebase"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ljharb/qs",
       "status": "candidate",
       "text": "Automatic Rebase"
     }
@@ -346,11 +382,41 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/rebase.yml",
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "tape-testing/tape"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "form-data/form-data"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rebase.yml",
+      "source_repo": "ljharb/qs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

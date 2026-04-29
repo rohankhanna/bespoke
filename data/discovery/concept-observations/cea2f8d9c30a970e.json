@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PostGIS spatial database extension to PostgreSQL [mirror]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This file is here to play nicely with modern code repository facilities."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This file is here to play nicely with modern code repository facilities."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "plpgsql",
+      "sense_id": "plpgsql#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "plpgsql",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "plpgsql",
+  "observation_id": "cea2f8d9c30a970e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "plpgsql",
+  "source_context_snippet": "This file is here to play nicely with modern code repository facilities.",
+  "source_file": null,
+  "source_repo": "postgis/postgis",
+  "source_repo_description": "PostGIS spatial database extension to PostgreSQL [mirror]"
+}

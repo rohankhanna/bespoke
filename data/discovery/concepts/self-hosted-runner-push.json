@@ -19,12 +19,30 @@
       "source_repo": "microsoft/huggingface-transformers",
       "status": "candidate-context",
       "text": "Self-hosted runner (push)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "finetunej/transformers",
+      "status": "candidate-context",
+      "text": "\ud83e\udd17Transformers: State-of-the-art Natural Language Processing for Pytorch and TensorFlow 2.0."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finetunej/transformers",
+      "status": "candidate-context",
+      "text": "Self-hosted runner (push)"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/huggingface-transformers",
+      "status": "candidate",
+      "text": "Self-hosted runner (push)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "finetunej/transformers",
       "status": "candidate",
       "text": "Self-hosted runner (push)"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/self-push.yml",
       "source_repo": "microsoft/huggingface-transformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/self-push.yml",
+      "source_repo": "finetunej/transformers"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

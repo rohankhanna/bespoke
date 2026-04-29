@@ -55,6 +55,18 @@
       "source_repo": "stx-labs/connect",
       "status": "candidate-context",
       "text": "Head over to the [`@stacks/connect` README](https://github.com/stx-labs/connect/tree/main/packages/connect)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ben-rogerson/twin.examples",
+      "status": "candidate-context",
+      "text": "Packed with examples for different frameworks, this repo helps you get started with twin a whole lot faster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-rogerson/twin.examples",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "stx-labs/connect",
       "status": "candidate",
       "text": "Head over to the [`@stacks/connect` README](https://github.com/stx-labs/connect/tree/main/packages/connect)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-rogerson/twin.examples",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ben-rogerson/twin.examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "stx-labs/connect"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

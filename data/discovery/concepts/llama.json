@@ -541,6 +541,144 @@
       "source_repo": "mukel/llama3.java",
       "status": "candidate-context",
       "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "A large-scale 7B pretraining language model developed by BaiChuan-Inc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "status": "candidate-context",
+      "text": "Firefly\u4e2d\u6587LLaMA-2\u5927\u6a21\u578b\uff0c\u652f\u6301\u589e\u91cf\u9884\u8bad\u7ec3Baichuan2\u3001Llama2\u3001Llama\u3001Falcon\u3001Qwen\u3001Baichuan\u3001InternLM\u3001Bloom\u7b49\u5927\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "status": "candidate-context",
+      "text": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate-context",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate-context",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arcee-ai/mergekit",
+      "status": "candidate-context",
+      "text": "Tools for merging pretrained large language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arcee-ai/mergekit",
+      "status": "candidate-context",
+      "text": "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate-context",
+      "text": "[ACL 2024] An Easy-to-use Knowledge Editing Framework for LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aider-AI/aider",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain4j/langchain4j",
+      "status": "candidate-context",
+      "text": "LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It integrates seamlessly with enterprise Java frameworks like Quarkus and Spring Boot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain4j/langchain4j",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/langchain4j/langchain4j/main.yaml?branch=main&style=for-the-badge&label=CI%20BUILD&logo=github)](https://github.com/langchain4j/langchain4j/actions/workflows/main.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awaescher/OllamaSharp",
+      "status": "candidate-context",
+      "text": "The easiest way to use Ollama in .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awaescher/OllamaSharp",
+      "status": "candidate-context",
+      "text": "[![nuget version](https://img.shields.io/nuget/v/OllamaSharp)](https://www.nuget.org/packages/OllamaSharp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jianzhnie/LLamaTuner",
+      "status": "candidate-context",
+      "text": "Easy and Efficient Finetuning  LLMs. (Supported LLama, LLama2, LLama3, Qwen,  Baichuan, GLM , Falcon) \u5927\u6a21\u578b\u9ad8\u6548\u91cf\u5316\u8bad\u7ec3+\u90e8\u7f72. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jianzhnie/LLamaTuner",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpcaitech/SwiftInfer",
+      "status": "candidate-context",
+      "text": "Efficient AI Inference & Serving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/SwiftInfer",
+      "status": "candidate-context",
+      "text": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/rtp-llm",
+      "status": "candidate-context",
+      "text": "RTP-LLM: Alibaba's high-performance LLM inference engine for diverse applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/rtp-llm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"rtpllmtop\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "Easy-to-use and powerful LLM and SLM library with awesome model zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
     }
   ],
   "candidate_glosses": [
@@ -807,6 +945,78 @@
       "source_repo": "mukel/llama3.java",
       "status": "candidate",
       "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "status": "candidate",
+      "text": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arcee-ai/mergekit",
+      "status": "candidate",
+      "text": "[![License: LGPL v3](https://img.shields.io/badge/License-LGPL_v3-blue.svg)](https://www.gnu.org/licenses/lgpl-3.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aider-AI/aider",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain4j/langchain4j",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/langchain4j/langchain4j/main.yaml?branch=main&style=for-the-badge&label=CI%20BUILD&logo=github)](https://github.com/langchain4j/langchain4j/actions/workflows/main.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awaescher/OllamaSharp",
+      "status": "candidate",
+      "text": "[![nuget version](https://img.shields.io/nuget/v/OllamaSharp)](https://www.nuget.org/packages/OllamaSharp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jianzhnie/LLamaTuner",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/SwiftInfer",
+      "status": "candidate",
+      "text": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/rtp-llm",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"rtpllmtop\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate",
+      "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
     }
   ],
   "candidate_related_terms": [
@@ -1234,11 +1444,137 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/ao"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "young-geng/EasyLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zjunlp/EasyEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Aider-AI/aider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "langchain4j/langchain4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "awaescher/OllamaSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jianzhnie/LLamaTuner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hpcaitech/SwiftInfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/rtp-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

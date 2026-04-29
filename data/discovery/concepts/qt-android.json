@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "qt-android"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "status": "candidate-context",
+      "text": "Template for a Qt/QML application with batteries included: GitHub C.I. for QML apps; ASan/UBSan; automated GUI testing with Xvfb; automatic code-format checks; and more. Compiles for Desktop and Mobile (Linux, Mac, Windows, Android, iOS)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "status": "candidate-context",
+      "text": "A template for building a Qt/QML application with **many batteries included**,"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "status": "candidate",
+      "text": "A template for building a Qt/QML application with **many batteries included**,"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "qt-android",
+  "concept_id": "qt-android",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "qt-android",
+      "sense_id": "qt-android#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

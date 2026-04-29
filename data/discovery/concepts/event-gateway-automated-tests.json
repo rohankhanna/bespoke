@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Event Gateway Automated Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/developer.konghq.com",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8d Source code for developer.konghq.com website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/developer.konghq.com",
+      "status": "candidate-context",
+      "text": "Event Gateway Automated Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/developer.konghq.com",
+      "status": "candidate",
+      "text": "Event Gateway Automated Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33937,
+      "status": "candidate",
+      "text": "governor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33260,
+      "status": "candidate",
+      "text": "automation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23090,
+      "status": "candidate",
+      "text": "foreground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23090,
+      "status": "candidate",
+      "text": "foregrounding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23090,
+      "status": "candidate",
+      "text": "guide"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Event Gateway Automated Tests",
+  "concept_id": "event-gateway-automated-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/event-gateway-tests.yaml",
+      "source_repo": "Kong/developer.konghq.com"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Event Gateway Automated Tests",
+      "sense_id": "event-gateway-automated-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "Homebrew/actions/setup-homebrew@main",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/post-release.yml",
       "source_repo": "realm/SwiftLint"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rose-pine/homebrew-tap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rose-pine/homebrew-tap"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-cask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "Homebrew/homebrew-cask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "Homebrew/homebrew-cask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Homebrew/homebrew-cask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clean-up-closed-prs.yml",
+      "source_repo": "Homebrew/homebrew-cask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "Homebrew/homebrew-cask"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yml",
+      "source_repo": "Homebrew/homebrew-cask"
     }
   ]
 }

@@ -31,6 +31,18 @@
       "source_repo": "wjakob/nanobind",
       "status": "candidate-context",
       "text": "[![Documentation](https://img.shields.io/readthedocs/nanobind/latest)](https://nanobind.readthedocs.io/en/latest/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sail-sg/envpool",
+      "status": "candidate-context",
+      "text": "C++-based high-performance parallel environment execution engine (vectorized env) for general RL environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/envpool",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "wjakob/nanobind",
       "status": "candidate",
       "text": "[![Documentation](https://img.shields.io/readthedocs/nanobind/latest)](https://nanobind.readthedocs.io/en/latest/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/envpool",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "wjakob/nanobind"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sail-sg/envpool"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

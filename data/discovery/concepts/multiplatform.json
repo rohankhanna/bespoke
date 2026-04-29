@@ -67,6 +67,18 @@
       "source_repo": "lmbelo/python3-embeddable",
       "status": "candidate-context",
       "text": "Python 3 embeddables for Windows, Linux, MacOS and Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": ":rocket: \u00a0A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": "<header>"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "lmbelo/python3-embeddable",
       "status": "candidate",
       "text": "Python 3 embeddables for Windows, Linux, MacOS and Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate",
+      "text": "<header>"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "lmbelo/python3-embeddable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-kotlin"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

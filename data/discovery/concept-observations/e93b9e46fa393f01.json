@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Base16 for Windows Terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update Color Schemes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update Color Schemes"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36709,
+      "status": "candidate",
+      "text": "theme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22669,
+      "status": "candidate",
+      "text": "patch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22669,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21764,
+      "status": "candidate",
+      "text": "chrominance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21754,
+      "status": "candidate",
+      "text": "replete"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Color Schemes",
+      "sense_id": "update-color-schemes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-color-schemes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-color-schemes",
+  "observation_id": "e93b9e46fa393f01",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Update Color Schemes",
+  "source_context_snippet": "Update Color Schemes",
+  "source_file": ".github/workflows/update.yml",
+  "source_repo": "wuqs-net/base16-windows-terminal",
+  "source_repo_description": "Base16 for Windows Terminal"
+}

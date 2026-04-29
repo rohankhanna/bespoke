@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Calculate width of unicode strings rendered to a terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PHP Version](https://img.shields.io/packagist/php-v/alecrabbit/php-wcwidth/dev-master.svg)](https://php.net)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PHP Version](https://img.shields.io/packagist/php-v/alecrabbit/php-wcwidth/dev-master.svg)](https://php.net)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wcwidth",
+      "sense_id": "wcwidth#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "wcwidth",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wcwidth",
+  "observation_id": "03d1751b6b5b1ab9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "wcwidth",
+  "source_context_snippet": "[![PHP Version](https://img.shields.io/packagist/php-v/alecrabbit/php-wcwidth/dev-master.svg)](https://php.net)",
+  "source_file": null,
+  "source_repo": "alecrabbit/php-wcwidth",
+  "source_repo_description": "Calculate width of unicode strings rendered to a terminal"
+}

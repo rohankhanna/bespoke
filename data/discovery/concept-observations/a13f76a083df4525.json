@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Maintainable configuration files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "You will probably want to read the language-agnostic `README` here:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "You will probably want to read the language-agnostic `README` here:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17560670,
+      "status": "candidate",
+      "text": "asquith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17560669,
+      "status": "candidate",
+      "text": "asby"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17560668,
+      "status": "candidate",
+      "text": "ashworth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17560667,
+      "status": "candidate",
+      "text": "hesketh"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17560666,
+      "status": "candidate",
+      "text": "askwith"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "haskell",
+      "sense_id": "haskell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "haskell",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "haskell",
+  "observation_id": "a13f76a083df4525",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "haskell",
+  "source_context_snippet": "You will probably want to read the language-agnostic `README` here:",
+  "source_file": null,
+  "source_repo": "dhall-lang/dhall-haskell",
+  "source_repo_description": "Maintainable configuration files"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "google-github-actions/upload-cloud-storage@c0f6160ff80057923ff50e5e567695cea181ec23",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/warden.yml",
+      "source_repo": "getsentry/.github"
+    }
+  ]
+}

@@ -1,0 +1,288 @@
+{
+  "components": [
+    {
+      "component": "@chlorophytum/cli",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@chlorophytum/font-format-ttf",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@chlorophytum/hint-store-provider-file",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@chlorophytum/hm-combine",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@chlorophytum/hm-ideograph",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@chlorophytum/hm-select-glyphs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "fs-extra",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ot-builder",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "otb-ttc-bundle",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "verda",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "which",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-config-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "eslint-plugin-prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "Vankka/pr-target-branch-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-target-branch-check.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "@chlorophytum/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "@chlorophytum/font-format-ttf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "@chlorophytum/hint-store-provider-file",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "@chlorophytum/hm-combine",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "@chlorophytum/hm-ideograph",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "@chlorophytum/hm-select-glyphs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "fs-extra",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "ot-builder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "otb-ttc-bundle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "verda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "which",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "eslint-config-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "eslint-plugin-prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-target-branch-check.yml",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "Vankka/pr-target-branch-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "target": "typeface",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:48:42.653049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1824
+    },
+    {
+      "path": "package.json",
+      "size": 902
+    },
+    {
+      "path": ".github/workflows/pr-target-branch-check.yml",
+      "size": 498
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 509
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sarasa Gothic / \u66f4\u7eb1\u9ed1\u4f53 / \u66f4\u7d17\u9ed1\u9ad4 / \u66f4\u7d17\u30b4\u30b7\u30c3\u30af / \uc0ac\ub77c\uc0ac \uace0\ub515",
+    "fork": false,
+    "full_name": "be5invis/Sarasa-Gothic",
+    "html_url": "https://github.com/be5invis/Sarasa-Gothic",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-11T05:33:25Z",
+    "stargazers_count": 12160,
+    "topics": [
+      "font",
+      "typeface"
+    ],
+    "updated_at": "2026-04-29T14:11:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "This is SARASA GOTHIC, a CJK composite font based on Inter, Iosevka and Source Han Sans.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "font"
+    },
+    {
+      "context_snippet": "This is SARASA GOTHIC, a CJK composite font based on Inter, Iosevka and Source Han Sans.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typeface"
+    }
+  ]
+}

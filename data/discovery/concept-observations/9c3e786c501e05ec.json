@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ECCV2020 paper \"Whole-Body Human Pose Estimation in the Wild\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the official repo for ECCV2020 paper [\"Whole-Body Human Pose Estimation in the Wild\"](https://arxiv.org/abs/2007.11858). The slides of this work can be found in [Slides](https://drive.google.com/file/d/1nebo1h07BwKDhomWy4n98X4cJ1qHVy2X/view?usp=sharing)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the official repo for ECCV2020 paper [\"Whole-Body Human Pose Estimation in the Wild\"](https://arxiv.org/abs/2007.11858). The slides of this work can be found in [Slides](https://drive.google.com/file/d/1nebo1h07BwKDhomWy4n98X4cJ1qHVy2X/view?usp=sharing)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39808381,
+      "status": "candidate",
+      "text": "cheek"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39801633,
+      "status": "candidate",
+      "text": "nerve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39697511,
+      "status": "candidate",
+      "text": "facial expression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39676535,
+      "status": "candidate",
+      "text": "grimace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39663035,
+      "status": "candidate",
+      "text": "fount"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "face",
+      "sense_id": "face#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 107035,
+      "status": "candidate",
+      "text": "grimace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 68056,
+      "status": "candidate",
+      "text": "aspect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50048,
+      "status": "candidate",
+      "text": "present"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34045,
+      "status": "candidate",
+      "text": "look"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27059,
+      "status": "candidate",
+      "text": "front"
+    }
+  ],
+  "concept_id": "face",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "face",
+  "observation_id": "9c3e786c501e05ec",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "face",
+  "source_context_snippet": "This is the official repo for ECCV2020 paper [\"Whole-Body Human Pose Estimation in the Wild\"](https://arxiv.org/abs/2007.11858). The slides of this work can be found in [Slides](https://drive.google.com/file/d/1nebo1h07BwKDhomWy4n98X4cJ1qHVy2X/view?usp=sharing).",
+  "source_file": null,
+  "source_repo": "jin-s13/COCO-WholeBody",
+  "source_repo_description": "ECCV2020 paper \"Whole-Body Human Pose Estimation in the Wild\""
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:47:10.302921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2818
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "StarGAN v2 - Official Tensorflow Implementation (CVPR 2020)",
+    "fork": false,
+    "full_name": "clovaai/stargan-v2-tensorflow",
+    "html_url": "https://github.com/clovaai/stargan-v2-tensorflow",
+    "language": "Python",
+    "pushed_at": "2023-02-27T05:37:53Z",
+    "stargazers_count": 186,
+    "topics": [],
+    "updated_at": "2026-02-17T11:25:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

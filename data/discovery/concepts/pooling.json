@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pooling"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sail-sg/poolformer",
+      "status": "candidate-context",
+      "text": "PoolFormer: MetaFormer Is Actually What You Need for Vision (CVPR 2022 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/poolformer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/poolformer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002291,
+      "status": "candidate",
+      "text": "pond"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998947,
+      "status": "candidate",
+      "text": "puddle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39867369,
+      "status": "candidate",
+      "text": "kitty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39866382,
+      "status": "candidate",
+      "text": "syndicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39862167,
+      "status": "candidate",
+      "text": "combine"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pooling",
+  "concept_id": "pooling",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sail-sg/poolformer"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pooling",
+      "sense_id": "pooling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

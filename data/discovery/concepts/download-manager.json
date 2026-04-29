@@ -19,6 +19,30 @@
       "source_repo": "fatiando/pooch",
       "status": "candidate-context",
       "text": "<h1><img src=\"https://github.com/fatiando/pooch/raw/main/doc/_static/readme-banner.png\" alt=\"Pooch: A friend to fetch your data files\"></h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate-context",
+      "text": "A browser extension for the Motrix Download Manager and its forks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate-context",
+      "text": "This WebExtension allows you to automatically download all the files via [Motrix Download Manager](https://motrix.app/) instead of your browser's native download manager."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agalwood/Motrix",
+      "status": "candidate-context",
+      "text": "A full-featured download manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agalwood/Motrix",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "fatiando/pooch",
       "status": "candidate",
       "text": "<h1><img src=\"https://github.com/fatiando/pooch/raw/main/doc/_static/readme-banner.png\" alt=\"Pooch: A friend to fetch your data files\"></h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate",
+      "text": "This WebExtension allows you to automatically download all the files via [Motrix Download Manager](https://motrix.app/) instead of your browser's native download manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agalwood/Motrix",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-20T03:16:48.146869+00:00",
       "source_file": null,
       "source_repo": "fatiando/pooch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/motrix-webextension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "agalwood/Motrix"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

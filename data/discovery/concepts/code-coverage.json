@@ -245,6 +245,42 @@
       "source_repo": "bytedance/monoio",
       "status": "candidate-context",
       "text": "Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EspressoSystems/surf-disco",
+      "status": "candidate-context",
+      "text": "Client library for Tide Disco applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/surf-disco",
+      "status": "candidate-context",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EspressoSystems/tide-disco",
+      "status": "candidate-context",
+      "text": "Discoverability for Tide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/tide-disco",
+      "status": "candidate-context",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clj-commons/rewrite-clj",
+      "status": "candidate-context",
+      "text": "Rewrite Clojure code and edn"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/rewrite-clj",
+      "status": "candidate-context",
+      "text": "Code Coverage"
     }
   ],
   "candidate_glosses": [
@@ -365,6 +401,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bytedance/monoio",
+      "status": "candidate",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/surf-disco",
+      "status": "candidate",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/tide-disco",
+      "status": "candidate",
+      "text": "Code Coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clj-commons/rewrite-clj",
       "status": "candidate",
       "text": "Code Coverage"
     }
@@ -560,11 +614,47 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/coverage.yml",
       "source_repo": "bytedance/monoio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "EspressoSystems/surf-disco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "EspressoSystems/tide-disco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/code-coverage.yml",
+      "source_repo": "clj-commons/rewrite-clj"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

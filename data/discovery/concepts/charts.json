@@ -115,6 +115,42 @@
       "source_repo": "BorisPolonsky/dify-helm",
       "status": "candidate-context",
       "text": "[![Github All Releases](https://img.shields.io/github/downloads/borispolonsky/dify-helm/total.svg)]()"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d3/d3",
+      "status": "candidate-context",
+      "text": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3",
+      "status": "candidate-context",
+      "text": "<a href=\"https://d3js.org\"><img src=\"./docs/public/logo.svg\" width=\"256\" height=\"256\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotly/plotly.js",
+      "status": "candidate-context",
+      "text": "Open-source JavaScript charting library behind Plotly and Dash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/plotly.js",
+      "status": "candidate-context",
+      "text": "<a href=\"https://plotly.com/javascript/\"><img src=\"https://images.plot.ly/logo/plotlyjs-logo@2x.png\" height=\"70\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vizzuhq/ipyvizzu",
+      "status": "candidate-context",
+      "text": "Build animated charts in Jupyter Notebook and similar environments with a simple Python syntax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +207,24 @@
       "source_repo": "BorisPolonsky/dify-helm",
       "status": "candidate",
       "text": "[![Github All Releases](https://img.shields.io/github/downloads/borispolonsky/dify-helm/total.svg)]()"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3",
+      "status": "candidate",
+      "text": "<a href=\"https://d3js.org\"><img src=\"./docs/public/logo.svg\" width=\"256\" height=\"256\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/plotly.js",
+      "status": "candidate",
+      "text": "<a href=\"https://plotly.com/javascript/\"><img src=\"https://images.plot.ly/logo/plotlyjs-logo@2x.png\" height=\"70\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vizzuhq/ipyvizzu",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -280,11 +334,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "BorisPolonsky/dify-helm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "d3/d3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "plotly/plotly.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vizzuhq/ipyvizzu"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

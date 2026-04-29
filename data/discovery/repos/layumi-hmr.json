@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/hmr",
+      "target": "mandymo/pytorch_hmr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "layumi/hmr",
+      "target": "dene33/video_to_bvh",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:19.844467+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3793
+    },
+    {
+      "path": "requirements.txt",
+      "size": 125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Project page for End-to-end Recovery of Human Shape and Pose",
+    "fork": true,
+    "full_name": "layumi/hmr",
+    "html_url": "https://github.com/layumi/hmr",
+    "language": "Python",
+    "pushed_at": "2022-04-04T16:13:15Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-03-23T22:21:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dene33/video_to_bvh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mandymo/pytorch_hmr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

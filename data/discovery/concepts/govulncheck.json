@@ -92,6 +92,42 @@
       "source_repo": "kubernetes/kube-state-metrics",
       "status": "candidate-context",
       "text": "govulncheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/trillian",
+      "status": "candidate-context",
+      "text": "A transparent, highly scalable and cryptographically verifiable data store."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trillian",
+      "status": "candidate-context",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate-context",
+      "text": "A Middleware for Go Programming Language to check for JWTs on HTTP requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate-context",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/node_exporter",
+      "status": "candidate-context",
+      "text": "Exporter for machine metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/node_exporter",
+      "status": "candidate-context",
+      "text": "govulncheck"
     }
   ],
   "candidate_glosses": [
@@ -128,6 +164,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "kubernetes/kube-state-metrics",
+      "status": "candidate",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trillian",
+      "status": "candidate",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate",
+      "text": "govulncheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/node_exporter",
       "status": "candidate",
       "text": "govulncheck"
     }
@@ -179,11 +233,29 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/govulncheck.yml",
       "source_repo": "kubernetes/kube-state-metrics"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "google/trillian"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "auth0/go-jwt-middleware"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/govulncheck.yml",
+      "source_repo": "prometheus/node_exporter"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

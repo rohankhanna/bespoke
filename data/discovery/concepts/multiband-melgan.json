@@ -31,6 +31,30 @@
       "source_repo": "TensorSpeech/TensorFlowTTS",
       "status": "candidate-context",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "monatis/german-tts",
+      "status": "candidate-context",
+      "text": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monatis/german-tts",
+      "status": "candidate-context",
+      "text": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZDisket/TensorVox",
+      "status": "candidate-context",
+      "text": "Desktop application for neural speech synthesis written in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZDisket/TensorVox",
+      "status": "candidate-context",
+      "text": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "TensorSpeech/TensorFlowTTS",
       "status": "candidate",
       "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monatis/german-tts",
+      "status": "candidate",
+      "text": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZDisket/TensorVox",
+      "status": "candidate",
+      "text": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "TensorSpeech/TensorFlowTTS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "monatis/german-tts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ZDisket/TensorVox"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

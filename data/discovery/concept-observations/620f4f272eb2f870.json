@@ -77,7 +77,7 @@
   "normalized_form": "ci---linux-x64-clang",
   "observation_id": "620f4f272eb2f870",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "CI - Linux x64 clang",
   "source_context_snippet": "CI - Linux x64 clang",
   "source_file": ".github/workflows/ci_linux_x64_clang.yml",

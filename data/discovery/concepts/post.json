@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "post"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/protocol",
+      "status": "candidate-context",
+      "text": "This repo contains the Spacemesh protocol specifications and related documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/protocol",
+      "status": "candidate-context",
+      "text": "This document and the documents it links to collectively present an overview of the Spacemesh protocol in its entirety, and its constituent components."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/local-testnet",
+      "status": "candidate-context",
+      "text": "A local testnet of go-spacemesh full nodes running the Spacemesh protocol and a functional CLI wallet. \ud83d\udcbe\u23f0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/local-testnet",
+      "status": "candidate-context",
+      "text": "This repo contains the source code of the `spacemesh-local-testnet` npm pacakge."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/protocol",
+      "status": "candidate",
+      "text": "This document and the documents it links to collectively present an overview of the Spacemesh protocol in its entirety, and its constituent components."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/local-testnet",
+      "status": "candidate",
+      "text": "This repo contains the source code of the `spacemesh-local-testnet` npm pacakge."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39918851,
+      "status": "candidate",
+      "text": "mail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39911005,
+      "status": "candidate",
+      "text": "send"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39873325,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39871373,
+      "status": "candidate",
+      "text": "position"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39864391,
+      "status": "candidate",
+      "text": "place"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 58114,
+      "status": "candidate",
+      "text": "base"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30067,
+      "status": "candidate",
+      "text": "position"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26045,
+      "status": "candidate",
+      "text": "berth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21055,
+      "status": "candidate",
+      "text": "office"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20055,
+      "status": "candidate",
+      "text": "brand"
+    }
+  ],
+  "canonical_name": "post",
+  "concept_id": "post",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "spacemeshos/protocol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "spacemeshos/local-testnet"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "post",
+      "sense_id": "post#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

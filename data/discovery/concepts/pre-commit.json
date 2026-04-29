@@ -803,6 +803,258 @@
       "source_repo": "HabanaAI/vllm-fork",
       "status": "candidate-context",
       "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "status": "candidate-context",
+      "text": "Sync pre-commit hook dependencies based on other installed hooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "status": "candidate-context",
+      "text": "sync-pre-commit-deps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate-context",
+      "text": "A unified inference and post-training framework for accelerated video generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shader-slang/slang-rhi",
+      "status": "candidate-context",
+      "text": "Slang Render Hardware Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang-rhi",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ogx-ai/ogx-client-python",
+      "status": "candidate-context",
+      "text": "Python SDK for OGX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogx-ai/ogx-client-python",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sudo-suhas/lint-staged-django-react-demo",
+      "status": "candidate-context",
+      "text": "Example repo to demonstrate use of `lint-staged` to lint files outside of project directory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sudo-suhas/lint-staged-django-react-demo",
+      "status": "candidate-context",
+      "text": "Example repo to demonstrate use of `lint-staged` to lint files outside of project directory."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate-context",
+      "text": "Static site generator written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate-context",
+      "text": "Cargo subcommand `release`: everything about releasing a rust crate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autofac/Autofac.Multitenant",
+      "status": "candidate-context",
+      "text": "Multitenant application support for Autofac IoC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Multitenant",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ScalableVectorSearch",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snowflakedb/universal-driver",
+      "status": "candidate-context",
+      "text": "Universal driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowflakedb/universal-driver",
+      "status": "candidate-context",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iree-org/iree-turbine",
+      "status": "candidate-context",
+      "text": "IREE's PyTorch Frontend, based on Torch Dynamo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree-turbine",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpcaitech/torchrec",
+      "status": "candidate-context",
+      "text": "Pytorch domain library for recommendation systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/torchrec",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate-context",
+      "text": "Pytorch domain library for recommendation systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arcee-ai/mergekit",
+      "status": "candidate-context",
+      "text": "Tools for merging pretrained large language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arcee-ai/mergekit",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MoonshotAI/checkpoint-engine",
+      "status": "candidate-context",
+      "text": "Checkpoint-engine is a simple middleware to update model weights in LLM inference engines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonshotAI/checkpoint-engine",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/jinja",
+      "status": "candidate-context",
+      "text": "A very fast and expressive template engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/jinja",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aider-AI/aider",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate-context",
+      "text": "Python best practices project cookiecutter \ud83c\udf6a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate-context",
+      "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typstyle-rs/pre-commit-typstyle",
+      "status": "candidate-context",
+      "text": "typstyle for pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typstyle-rs/pre-commit-typstyle",
+      "status": "candidate-context",
+      "text": "typstyle for pre-commit."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asottile/yesqa",
+      "status": "candidate-context",
+      "text": "Automatically remove unnecessary `# noqa` comments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/yesqa",
+      "status": "candidate-context",
+      "text": "[![build status](https://github.com/asottile/yesqa/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/yesqa/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate-context",
+      "text": "Panic messages for humans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate-context",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cobalt-org/cobalt-org.github.io",
+      "status": "candidate-context",
+      "text": "Website for cobalt.rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt-org.github.io",
+      "status": "candidate-context",
+      "text": "pre-commit"
     }
   ],
   "candidate_glosses": [
@@ -1199,6 +1451,138 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "HabanaAI/vllm-fork",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "status": "candidate",
+      "text": "sync-pre-commit-deps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang-rhi",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogx-ai/ogx-client-python",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sudo-suhas/lint-staged-django-react-demo",
+      "status": "candidate",
+      "text": "Example repo to demonstrate use of `lint-staged` to lint files outside of project directory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autofac/Autofac.Multitenant",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ScalableVectorSearch",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowflakedb/universal-driver",
+      "status": "candidate",
+      "text": "Pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree-turbine",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/torchrec",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arcee-ai/mergekit",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonshotAI/checkpoint-engine",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/jinja",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aider-AI/aider",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate",
+      "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typstyle-rs/pre-commit-typstyle",
+      "status": "candidate",
+      "text": "typstyle for pre-commit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/yesqa",
+      "status": "candidate",
+      "text": "[![build status](https://github.com/asottile/yesqa/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/yesqa/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate",
+      "text": "pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt-org.github.io",
       "status": "candidate",
       "text": "pre-commit"
     }
@@ -1724,11 +2108,167 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/pre-commit.yml",
       "source_repo": "HabanaAI/vllm-fork"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pre-commit/sync-pre-commit-deps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci-precommit.yml",
+      "source_repo": "hao-ai-lab/FastVideo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "shader-slang/slang-rhi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "ogx-ai/ogx-client-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sudo-suhas/lint-staged-django-react-demo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "cobalt-org/cobalt.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "autofac/Autofac.Multitenant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/precommit.yml",
+      "source_repo": "eclipse-paho/paho.mqtt.python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "intel/ScalableVectorSearch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "snowflakedb/universal-driver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "iree-org/iree-turbine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "hpcaitech/torchrec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "meta-pytorch/torchrec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "MoonshotAI/checkpoint-engine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "pallets/jinja"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "Aider-AI/aider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "typstyle-rs/pre-commit-typstyle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "aphrodite-engine/aphrodite-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "asottile/yesqa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "rust-cli/human-panic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "cobalt-org/cobalt-org.github.io"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

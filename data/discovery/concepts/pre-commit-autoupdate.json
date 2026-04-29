@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Pre-commit autoupdate"
+    "Pre-commit autoupdate",
+    "pre-commit autoupdate"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "nvim-tree/nvim-web-devicons",
       "status": "candidate-context",
       "text": "Pre-commit autoupdate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate-context",
+      "text": "Mkdocs Markdown includer plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate-context",
+      "text": "pre-commit autoupdate"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "nvim-tree/nvim-web-devicons",
       "status": "candidate",
       "text": "Pre-commit autoupdate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate",
+      "text": "pre-commit autoupdate"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +59,23 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/pre-commit-autoupdate.yml",
       "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pre-commit-autoupdate.yml",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

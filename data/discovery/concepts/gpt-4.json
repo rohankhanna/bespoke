@@ -319,6 +319,48 @@
       "source_repo": "aorwall/moatless-tools",
       "status": "candidate-context",
       "text": "Moatless Tools is a hobby project where I experiment with some ideas I have about how LLMs can be used to edit code in large existing codebases. I believe that rather than relying on an agent to reason its way to a solution, it is crucial to build good tools to insert the right \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "A large-scale 7B pretraining language model developed by BaiChuan-Inc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "A 13B large language model developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aider-AI/aider",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "A series of large language models developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +519,30 @@
       "source_repo": "aorwall/moatless-tools",
       "status": "candidate",
       "text": "Moatless Tools is a hobby project where I experiment with some ideas I have about how LLMs can be used to edit code in large existing codebases. I believe that rather than relying on an agent to reason its way to a solution, it is crucial to build good tools to insert the right \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aider-AI/aider",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
     }
   ],
   "candidate_related_terms": [],
@@ -688,11 +754,59 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "aorwall/moatless-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OpenBMB/RepoAgent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "EvolvingLMMs-Lab/Otter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Aider-AI/aider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

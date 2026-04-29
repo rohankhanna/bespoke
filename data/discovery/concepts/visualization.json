@@ -199,6 +199,90 @@
       "source_repo": "enola-dev/enola",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d3/d3",
+      "status": "candidate-context",
+      "text": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3",
+      "status": "candidate-context",
+      "text": "<a href=\"https://d3js.org\"><img src=\"./docs/public/logo.svg\" width=\"256\" height=\"256\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plotly/plotly.js",
+      "status": "candidate-context",
+      "text": "Open-source JavaScript charting library behind Plotly and Dash"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/plotly.js",
+      "status": "candidate-context",
+      "text": "<a href=\"https://plotly.com/javascript/\"><img src=\"https://images.plot.ly/logo/plotlyjs-logo@2x.png\" height=\"70\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lanpa/tensorboardX",
+      "status": "candidate-context",
+      "text": "tensorboard for pytorch (and chainer, mxnet, numpy, ...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lanpa/tensorboardX",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/tensorboardX.svg)](https://badge.fury.io/py/tensorboardX)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmcinnes/umap",
+      "status": "candidate-context",
+      "text": "Uniform Manifold Approximation and Projection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmcinnes/umap",
+      "status": "candidate-context",
+      "text": ".. -*- mode: rst -*-"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokeh/bokeh",
+      "status": "candidate-context",
+      "text": "Interactive Data Visualization in the browser, from  Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokeh/bokeh",
+      "status": "candidate-context",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "laixintao/tokei-pie",
+      "status": "candidate-context",
+      "text": "Render tokei's output to interactive sunburst chart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "laixintao/tokei-pie",
+      "status": "candidate-context",
+      "text": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vlaaad/reveal",
+      "status": "candidate-context",
+      "text": "Read Eval Visualize Loop for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlaaad/reveal",
+      "status": "candidate-context",
+      "text": "![demo](https://vlaaad.github.io/assets/reveal/demo.gif)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +381,48 @@
       "source_repo": "enola-dev/enola",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3",
+      "status": "candidate",
+      "text": "<a href=\"https://d3js.org\"><img src=\"./docs/public/logo.svg\" width=\"256\" height=\"256\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plotly/plotly.js",
+      "status": "candidate",
+      "text": "<a href=\"https://plotly.com/javascript/\"><img src=\"https://images.plot.ly/logo/plotlyjs-logo@2x.png\" height=\"70\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lanpa/tensorboardX",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/tensorboardX.svg)](https://badge.fury.io/py/tensorboardX)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmcinnes/umap",
+      "status": "candidate",
+      "text": ".. -*- mode: rst -*-"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokeh/bokeh",
+      "status": "candidate",
+      "text": "<picture>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "laixintao/tokei-pie",
+      "status": "candidate",
+      "text": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlaaad/reveal",
+      "status": "candidate",
+      "text": "![demo](https://vlaaad.github.io/assets/reveal/demo.gif)"
     }
   ],
   "candidate_related_terms": [
@@ -457,11 +583,53 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "enola-dev/enola"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "d3/d3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "plotly/plotly.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lanpa/tensorboardX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lmcinnes/umap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bokeh/bokeh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "laixintao/tokei-pie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vlaaad/reveal"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,140 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielgtaylor/openapi-cli-generator",
+      "target": "danielgtaylor/restish",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielgtaylor/openapi-cli-generator",
+      "target": "h2non/gentleman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielgtaylor/openapi-cli-generator",
+      "target": "rs/zerolog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielgtaylor/openapi-cli-generator",
+      "target": "danielgtaylor/go-jmespath-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgtaylor/openapi-cli-generator",
+      "target": "code-generator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgtaylor/openapi-cli-generator",
+      "target": "openapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgtaylor/openapi-cli-generator",
+      "target": "rest-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielgtaylor/openapi-cli-generator",
+      "target": "rest-client",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:57.900263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14585
+    },
+    {
+      "path": "go.mod",
+      "size": 1468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generate a CLI from an OpenAPI 3 specification",
+    "fork": false,
+    "full_name": "danielgtaylor/openapi-cli-generator",
+    "html_url": "https://github.com/danielgtaylor/openapi-cli-generator",
+    "language": "Go",
+    "pushed_at": "2023-10-25T21:22:27Z",
+    "stargazers_count": 212,
+    "topics": [
+      "cli",
+      "code-generator",
+      "openapi",
+      "rest-api",
+      "rest-client"
+    ],
+    "updated_at": "2026-04-23T02:52:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielgtaylor/go-jmespath-plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielgtaylor/restish",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "h2non/gentleman",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rs/zerolog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator?status.svg)](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generator"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator?status.svg)](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openapi"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator?status.svg)](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-api"
+    },
+    {
+      "context_snippet": "[![GoDoc](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator?status.svg)](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rest-client"
+    }
+  ]
+}

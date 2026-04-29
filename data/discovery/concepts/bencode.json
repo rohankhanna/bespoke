@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "bencode"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrepl/bencode",
+      "status": "candidate-context",
+      "text": "A netstring and bencode implementation for Clojure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/bencode",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/nrepl/bencode/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/bencode/tree/master)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/bencode",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/nrepl/bencode/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/bencode/tree/master)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "bittorrent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "torrent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "glossary of bittorrent terms"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "bittorrent tracker"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "interplanetary file system"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "bencode",
+  "concept_id": "bencode",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nrepl/bencode"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bencode",
+      "sense_id": "bencode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta",
+      "target": "a2aproject/a2a-tck",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta",
+      "target": "Build and Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yml",
+      "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yml",
+      "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yml",
+      "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tck.yml",
+      "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tck.yml",
+      "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta",
+      "target": "Build and Run TCK",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "wildfly-extras/a2a-java-sdk-server-jakarta"
+}

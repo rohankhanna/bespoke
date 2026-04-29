@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Benchmark Nightly"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate-context",
+      "text": "Pytorch domain library for recommendation systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate-context",
+      "text": "Benchmark Nightly"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate",
+      "text": "Benchmark Nightly"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10620,
+      "status": "candidate",
+      "text": "noctuary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10534,
+      "status": "candidate",
+      "text": "day"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10534,
+      "status": "candidate",
+      "text": "days"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10534,
+      "status": "candidate",
+      "text": "daywork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10534,
+      "status": "candidate",
+      "text": "dow-jones average"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Benchmark Nightly",
+  "concept_id": "benchmark-nightly",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/benchmark-nightly.yml",
+      "source_repo": "meta-pytorch/torchrec"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Benchmark Nightly",
+      "sense_id": "benchmark-nightly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

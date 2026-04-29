@@ -1,0 +1,12 @@
+{
+  "component": "AndreKurait/docker-cache@0fe76702a40db986d9663c24954fc14c6a6031b7",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "open-telemetry/opentelemetry-collector-contrib"
+    }
+  ]
+}

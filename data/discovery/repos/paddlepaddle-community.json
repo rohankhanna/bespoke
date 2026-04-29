@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/community",
+      "target": "paddlepaddle/paddle2onnx",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:39:30.452988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2211
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PaddlePaddle Developer Community",
+    "fork": false,
+    "full_name": "PaddlePaddle/community",
+    "html_url": "https://github.com/PaddlePaddle/community",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-28T06:25:21Z",
+    "stargazers_count": 141,
+    "topics": [],
+    "updated_at": "2026-04-29T12:01:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paddlepaddle/paddle2onnx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

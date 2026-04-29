@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "intel/neural-speed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "timdettmers/bitsandbytes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "ggerganov/ggml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Scaner_BDBA.yaml",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "intel-innersource/frameworks.ai.infrastructure.code-scan-tools/.github/workflows/Scanner_Bdba.yml@one-ci-cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Scaner_BDBA.yaml",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "Scanner BDBA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Scaner_Coverity.yaml",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Scaner_Coverity.yaml",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "intel-innersource/frameworks.devops.github.actions.coverity@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Scaner_Trivy.yaml",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "intel-innersource/frameworks.ai.infrastructure.code-scan-tools/.github/workflows/Scanner_Trivy.yml@one-ci-cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Scaner_Trivy.yaml",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "Trivy Scan for Containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yaml",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yaml",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-container.yaml",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "ITREX Containers Weekly Builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chatbot-finetune-mpt-7b-chat-hpu.yml",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chatbot-finetune-mpt-7b-chat.yml",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chatbot-inference-llama-2-7b-chat-hf.yml",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chatbot-inference-llama-2-7b-chat-hf.yml",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "Chatbot inference on llama-2-7b-chat-hf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "4-bits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "autoround",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "chatpdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "gaudi3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "habana",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "intel-optimized-llamacpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "large-language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "llm-cpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "neural-chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "neural-chat-7b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "speculative-decoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers",
+      "target": "streamingllm",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "intel/intel-extension-for-transformers"
+}

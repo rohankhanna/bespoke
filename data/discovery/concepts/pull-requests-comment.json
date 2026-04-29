@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pull requests comment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "status": "candidate-context",
+      "text": "All JetBrains Utilities and IDEs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "status": "candidate-context",
+      "text": "Pull requests comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "status": "candidate",
+      "text": "Pull requests comment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18732,
+      "status": "candidate",
+      "text": "address"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18149,
+      "status": "candidate",
+      "text": "back"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18017,
+      "status": "candidate",
+      "text": "fund"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18017,
+      "status": "candidate",
+      "text": "sue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18015,
+      "status": "candidate",
+      "text": "bringing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull requests comment",
+  "concept_id": "pull-requests-comment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull requests comment",
+      "sense_id": "pull-requests-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

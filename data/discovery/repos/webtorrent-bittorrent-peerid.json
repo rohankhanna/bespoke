@@ -1,0 +1,263 @@
+{
+  "components": [
+    {
+      "component": "@webtorrent/semantic-release-config",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semantic-release",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "@webtorrent/semantic-release-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "semantic-release",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "tape",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "actions/setup-node@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "azureus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "bittorrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "bittorrent-peerid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "peerid",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "torrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "target": "webtorrent",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:38:15.666458+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2658
+    },
+    {
+      "path": "package.json",
+      "size": 1436
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 478
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 839
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Map a BitTorrent peer ID to a human-readable client name and version",
+    "fork": false,
+    "full_name": "webtorrent/bittorrent-peerid",
+    "html_url": "https://github.com/webtorrent/bittorrent-peerid",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-16T15:15:29Z",
+    "stargazers_count": 69,
+    "topics": [
+      "azureus",
+      "bittorrent",
+      "bittorrent-peerid",
+      "javascript",
+      "nodejs",
+      "peerid",
+      "torrent",
+      "webtorrent"
+    ],
+    "updated_at": "2026-04-16T15:14:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-peerid/actions/workflows/ci.yml/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azureus"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-peerid/actions/workflows/ci.yml/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bittorrent"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-peerid/actions/workflows/ci.yml/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bittorrent-peerid"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-peerid/actions/workflows/ci.yml/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-peerid/actions/workflows/ci.yml/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "peerid"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-peerid/actions/workflows/ci.yml/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "torrent"
+    },
+    {
+      "context_snippet": "[ci-image]: https://github.com/webtorrent/bittorrent-peerid/actions/workflows/ci.yml/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webtorrent"
+    }
+  ]
+}

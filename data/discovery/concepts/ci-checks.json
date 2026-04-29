@@ -1,7 +1,8 @@
 {
   "aliases": [
     "ci-checks",
-    "CI checks"
+    "CI checks",
+    "CI Checks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -38,6 +39,18 @@
       "source_repo": "flatpak/xdg-dbus-proxy",
       "status": "candidate-context",
       "text": "CI checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "0xPolygonHermez/pil2-proofman",
+      "status": "candidate-context",
+      "text": "Prover Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPolygonHermez/pil2-proofman",
+      "status": "candidate-context",
+      "text": "CI Checks"
     }
   ],
   "candidate_glosses": [
@@ -58,6 +71,12 @@
       "source_repo": "flatpak/xdg-dbus-proxy",
       "status": "candidate",
       "text": "CI checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "0xPolygonHermez/pil2-proofman",
+      "status": "candidate",
+      "text": "CI Checks"
     }
   ],
   "candidate_related_terms": [
@@ -119,11 +138,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "flatpak/xdg-dbus-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "0xPolygonHermez/pil2-proofman"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

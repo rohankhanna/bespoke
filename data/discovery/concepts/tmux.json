@@ -151,6 +151,30 @@
       "source_repo": "2KAbhishek/tmux2k",
       "status": "candidate-context",
       "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "status": "candidate-context",
+      "text": "A lightning fast version of tmux-fingers written in Rust, copy/pasting tmux like vimium/vimperator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/fcsonline/tmux-thumbs/workflows/Rust/badge.svg)](https://github.com/fcsonline/tmux-thumbs/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "Passionately Crafted CLI Setup \ud83d\udc27\u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -223,6 +247,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "2KAbhishek/tmux2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/fcsonline/tmux-thumbs/workflows/Rust/badge.svg)](https://github.com/fcsonline/tmux-thumbs/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
       "status": "candidate",
       "text": "<div align = \"center\">"
     }
@@ -352,11 +388,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "2KAbhishek/tmux2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fcsonline/tmux-thumbs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/dots2k"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

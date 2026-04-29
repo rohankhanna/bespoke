@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Gather issues stats"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "notofonts/notofonts.github.io",
+      "status": "candidate-context",
+      "text": "Distribution site for Noto fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notofonts/notofonts.github.io",
+      "status": "candidate-context",
+      "text": "Gather issues stats"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "notofonts/notofonts.github.io",
+      "status": "candidate",
+      "text": "Gather issues stats"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19516,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19229,
+      "status": "candidate",
+      "text": "assembling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19229,
+      "status": "candidate",
+      "text": "centralize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19186,
+      "status": "candidate",
+      "text": "get"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19143,
+      "status": "candidate",
+      "text": "assembly"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Gather issues stats",
+  "concept_id": "gather-issues-stats",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stats.yaml",
+      "source_repo": "notofonts/notofonts.github.io"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gather issues stats",
+      "sense_id": "gather-issues-stats#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "GEOS packaging for SPM & CocoaPods"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This library is an SPM-compatible repackaging of the source code from [libgeos/geos](https://github.com/libgeos/geos) for use on Apple and Linux systems."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This library is an SPM-compatible repackaging of the source code from [libgeos/geos](https://github.com/libgeos/geos) for use on Apple and Linux systems."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "swift-pm",
+      "sense_id": "swift-pm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "swift-pm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "swift-pm",
+  "observation_id": "fea575bbb6d2cef5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "swift-pm",
+  "source_context_snippet": "This library is an SPM-compatible repackaging of the source code from [libgeos/geos](https://github.com/libgeos/geos) for use on Apple and Linux systems.",
+  "source_file": null,
+  "source_repo": "GEOSwift/geos",
+  "source_repo_description": "GEOS packaging for SPM & CocoaPods"
+}

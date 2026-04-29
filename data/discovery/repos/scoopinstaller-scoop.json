@@ -26,28 +26,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Scoop",
-      "target": "scoopinstaller/install",
+      "target": "scoopinstaller/php",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Scoop",
-      "target": "scoopinstaller/nirsoft",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ScoopInstaller/Scoop",
-      "target": "scoopinstaller/java",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ScoopInstaller/Scoop",
-      "target": "scoopinstaller/nonportable",
+      "target": "scoopinstaller/versions",
       "target_type": "repository"
     },
     {
@@ -100,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:05:49.952520+00:00",
+  "fetched_at": "2026-04-29T21:56:08.368914+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -120,35 +106,25 @@
     "full_name": "ScoopInstaller/Scoop",
     "html_url": "https://github.com/ScoopInstaller/Scoop",
     "language": "PowerShell",
-    "pushed_at": "2026-04-24T05:38:03Z",
-    "stargazers_count": 23994,
+    "pushed_at": "2026-04-27T14:01:34Z",
+    "stargazers_count": 24030,
     "topics": [
       "installer",
       "powershell",
       "scoop",
       "windows"
     ],
-    "updated_at": "2026-04-24T08:01:08Z"
+    "updated_at": "2026-04-29T19:38:49Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "scoopinstaller/install",
+      "full_name": "scoopinstaller/php",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "scoopinstaller/java",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "scoopinstaller/nirsoft",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "scoopinstaller/nonportable",
+      "full_name": "scoopinstaller/versions",
       "source_file": "README.md"
     }
   ],

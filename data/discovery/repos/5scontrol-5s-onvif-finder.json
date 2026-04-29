@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/5s-onvif-finder",
+      "target": "5scontrol/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/5s-onvif-finder",
+      "target": "5scontrol/5s-user-documentation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/5s-onvif-finder",
+      "target": "5scontrol/5s-webserver",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "5sControl/5s-onvif-finder",
+      "target": "5scontrol/idle-control",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/5s-onvif-finder",
+      "target": "ip-camera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/5s-onvif-finder",
+      "target": "onvif",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "5sControl/5s-onvif-finder",
+      "target": "onvif-camera",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:42:39.678958+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4852
+    },
+    {
+      "path": "Dockerfile",
+      "size": 216
+    },
+    {
+      "path": "go.mod",
+      "size": 256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Finder of onvif devices for 5s platform",
+    "fork": false,
+    "full_name": "5sControl/5s-onvif-finder",
+    "html_url": "https://github.com/5sControl/5s-onvif-finder",
+    "language": "Go",
+    "pushed_at": "2024-11-19T12:00:58Z",
+    "stargazers_count": 0,
+    "topics": [
+      "ip-camera",
+      "onvif",
+      "onvif-camera"
+    ],
+    "updated_at": "2024-11-19T12:01:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/.github",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/5s-user-documentation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/5s-webserver",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "5scontrol/idle-control",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ip-camera"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onvif"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onvif-camera"
+    }
+  ]
+}

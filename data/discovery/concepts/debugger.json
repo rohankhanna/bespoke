@@ -175,6 +175,42 @@
       "source_repo": "criteo/mesos-term",
       "status": "candidate-context",
       "text": "**MesosTerm** is a web-based terminal for Mesos. It allows you to execute commands"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "status": "candidate-context",
+      "text": "Step-by-step debugging and stack navigation in Pry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "status": "candidate-context",
+      "text": "[![Version][VersionBadge]][VersionURL]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ManuelHentschel/VSCode-R-Debugger",
+      "status": "candidate-context",
+      "text": "R Debugger Extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManuelHentschel/VSCode-R-Debugger",
+      "status": "candidate-context",
+      "text": "r-debugger \u2014 R Debugger for VS Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baldurk/renderdoc",
+      "status": "candidate-context",
+      "text": "RenderDoc is a stand-alone graphics debugging tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baldurk/renderdoc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +297,24 @@
       "source_repo": "criteo/mesos-term",
       "status": "candidate",
       "text": "**MesosTerm** is a web-based terminal for Mesos. It allows you to execute commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "status": "candidate",
+      "text": "[![Version][VersionBadge]][VersionURL]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManuelHentschel/VSCode-R-Debugger",
+      "status": "candidate",
+      "text": "r-debugger \u2014 R Debugger for VS Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baldurk/renderdoc",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +442,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "deivid-rodriguez/pry-byebug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ManuelHentschel/VSCode-R-Debugger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -30,13 +30,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "EleutherAI/gpt-neo",
-      "target": "leogao2/lm_dataformat",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "EleutherAI/gpt-neo",
       "target": "idsia/sacred",
       "target_type": "repository"
     },
@@ -83,7 +76,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:15:15.373133+00:00",
+  "fetched_at": "2026-04-29T20:42:35.305093+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -112,7 +105,7 @@
     "html_url": "https://github.com/EleutherAI/gpt-neo",
     "language": "Python",
     "pushed_at": "2022-02-25T06:27:12Z",
-    "stargazers_count": 8282,
+    "stargazers_count": 8281,
     "topics": [
       "gpt",
       "gpt-2",
@@ -120,7 +113,7 @@
       "language-model",
       "transformers"
     ],
-    "updated_at": "2026-04-24T06:00:52Z"
+    "updated_at": "2026-04-28T19:24:07Z"
   },
   "repo_links": [
     {
@@ -131,11 +124,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "idsia/sacred",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "leogao2/lm_dataformat",
       "source_file": "README.md"
     },
     {

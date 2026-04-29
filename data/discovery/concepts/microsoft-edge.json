@@ -19,6 +19,18 @@
       "source_repo": "web-platform-tests/wpt",
       "status": "candidate-context",
       "text": "The web-platform-tests Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "status": "candidate-context",
+      "text": "Home for explainer documents originated by the Microsoft Edge team"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "status": "candidate-context",
+      "text": "Welcome! This repo is home to \"explainers\" and related documents originating"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "web-platform-tests/wpt",
       "status": "candidate",
       "text": "The web-platform-tests Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "status": "candidate",
+      "text": "Welcome! This repo is home to \"explainers\" and related documents originating"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "pystardust/ytfzf",
       "status": "candidate-context",
       "text": "This project is no longer actively maintained, it should still work for the foreseeable future"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/dexe",
+      "status": "candidate-context",
+      "text": "The exe launcher \ud83d\udc1a\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dexe",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "pystardust/ytfzf",
       "status": "candidate",
       "text": "This project is no longer actively maintained, it should still work for the foreseeable future"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dexe",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "pystardust/ytfzf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/dexe"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

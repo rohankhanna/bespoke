@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:55:12.735896+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 185
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "repository-moved",
+    "description": "Official cleanlab repo is at https://github.com/cleanlab/cleanlab",
+    "fork": true,
+    "full_name": "cgnorthcutt/cleanlab",
+    "html_url": "https://github.com/cgnorthcutt/cleanlab",
+    "language": null,
+    "pushed_at": "2023-02-01T06:27:59Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2026-04-19T01:57:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

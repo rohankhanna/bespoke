@@ -53,21 +53,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "commonmark/cmark",
-      "target": "gjtorikian/commonmarker",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "commonmark/cmark",
-      "target": "jgm/cmark-lua",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "commonmark/cmark",
-      "target": "commonmark/commonmark.js",
+      "target": "sparsetech/cmark-scala",
       "target_type": "repository"
     },
     {
@@ -127,7 +113,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:56:01.341307+00:00",
+  "fetched_at": "2026-04-29T19:46:42.396997+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -151,30 +137,20 @@
     "full_name": "commonmark/cmark",
     "html_url": "https://github.com/commonmark/cmark",
     "language": "C",
-    "pushed_at": "2026-04-17T10:53:25Z",
-    "stargazers_count": 1956,
+    "pushed_at": "2026-04-27T19:14:40Z",
+    "stargazers_count": 1963,
     "topics": [],
-    "updated_at": "2026-04-22T10:41:10Z"
+    "updated_at": "2026-04-29T09:13:56Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "commonmark/commonmark.js",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gjtorikian/commonmarker",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jgm/cmark-lua",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "rhinoman/go-commonmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sparsetech/cmark-scala",
       "source_file": "README.md"
     }
   ],

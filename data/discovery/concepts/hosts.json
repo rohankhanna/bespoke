@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "hosts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avwo/whistle",
+      "status": "candidate-context",
+      "text": "HTTP, HTTP2, HTTPS, Websocket debugging proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avwo/whistle",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avwo/whistle",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10042754,
+      "status": "candidate",
+      "text": "master of ceremonies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10041920,
+      "status": "candidate",
+      "text": "emcee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10029527,
+      "status": "candidate",
+      "text": "horde"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10025512,
+      "status": "candidate",
+      "text": "legion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9981550,
+      "status": "candidate",
+      "text": "server"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "hosts",
+  "concept_id": "hosts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "avwo/whistle"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hosts",
+      "sense_id": "hosts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "XAMPPRocky/get-github-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "diwic/dbus-rs",
+      "target": "dbus2/zbus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "diwic/dbus-rs",
+      "target": "killingspark/rustbus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "diwic/dbus-rs",
+      "target": "killingspark/rust-dbus-comparisons",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml",
+      "source_repo": "diwic/dbus-rs",
+      "target": "XAMPPRocky/get-github-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml",
+      "source_repo": "diwic/dbus-rs",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml",
+      "source_repo": "diwic/dbus-rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml",
+      "source_repo": "diwic/dbus-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml",
+      "source_repo": "diwic/dbus-rs",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml",
+      "source_repo": "diwic/dbus-rs",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml",
+      "source_repo": "diwic/dbus-rs",
+      "target": "Dbus-rs-ci",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:58:41.438690+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8465
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 214
+    },
+    {
+      "path": ".github/workflows/dbus-rs-github-ci.yml",
+      "size": 3090
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "D-Bus binding for the Rust language",
+    "fork": false,
+    "full_name": "diwic/dbus-rs",
+    "html_url": "https://github.com/diwic/dbus-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-22T15:22:08Z",
+    "stargazers_count": 662,
+    "topics": [],
+    "updated_at": "2026-04-29T07:36:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dbus2/zbus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "killingspark/rust-dbus-comparisons",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "killingspark/rustbus",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dbus-rs-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dbus-rs-github-ci.yml",
+      "term": "Dbus-rs-ci"
+    }
+  ]
+}

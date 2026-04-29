@@ -117,6 +117,30 @@
       "source_repo": "conda/conda-lock",
       "status": "candidate-context",
       "text": "mkdocs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jimporter/mike",
+      "status": "candidate-context",
+      "text": "Manage multiple versions of your MkDocs-powered documentation via Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jimporter/mike",
+      "status": "candidate-context",
+      "text": "[![PyPi version][pypi-image]][pypi-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate-context",
+      "text": "Mkdocs Markdown includer plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate-context",
+      "text": "<!-- mdpo-disable-next-line -->"
     }
   ],
   "candidate_glosses": [
@@ -173,6 +197,18 @@
       "source_repo": "conda/conda-lock",
       "status": "candidate",
       "text": "mkdocs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jimporter/mike",
+      "status": "candidate",
+      "text": "[![PyPi version][pypi-image]][pypi-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate",
+      "text": "<!-- mdpo-disable-next-line -->"
     }
   ],
   "candidate_related_terms": [],
@@ -234,11 +270,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/mkdocs.yml",
       "source_repo": "conda/conda-lock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jimporter/mike"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

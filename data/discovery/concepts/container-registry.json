@@ -31,6 +31,18 @@
       "source_repo": "estesp/manifest-tool",
       "status": "candidate-context",
       "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate-context",
+      "text": "An open source trusted cloud native registry project that stores, signs, and scans content."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "estesp/manifest-tool",
       "status": "candidate",
       "text": "`manifest-tool` is a command line utility used to view or push multi-platform container image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "estesp/manifest-tool"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "goharbor/harbor"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

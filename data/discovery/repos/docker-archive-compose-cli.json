@@ -348,7 +348,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:03:44.043868+00:00",
+  "fetched_at": "2026-04-29T21:54:37.747280+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -401,7 +401,7 @@
     "html_url": "https://github.com/docker-archive/compose-cli",
     "language": "Go",
     "pushed_at": "2023-11-27T11:12:15Z",
-    "stargazers_count": 965,
+    "stargazers_count": 963,
     "topics": [
       "aci",
       "amazon-ecs",
@@ -417,7 +417,7 @@
       "fargate",
       "moby"
     ],
-    "updated_at": "2026-03-22T00:23:20Z"
+    "updated_at": "2026-04-27T20:13:44Z"
   },
   "repo_links": [
     {

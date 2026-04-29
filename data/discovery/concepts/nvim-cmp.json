@@ -79,6 +79,18 @@
       "source_repo": "saadparwaiz1/cmp_luasnip",
       "status": "candidate-context",
       "text": "[luasnip](https://github.com/L3MON4D3/LuaSnip) completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmitmel/cmp-digraphs",
+      "status": "candidate-context",
+      "text": "A nvim-cmp source for completing digraphs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitmel/cmp-digraphs",
+      "status": "candidate-context",
+      "text": "A [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) source for completing [digraphs](https://vimhelp.org/digraph.txt.html) (both built-in and custom ones)."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "saadparwaiz1/cmp_luasnip",
       "status": "candidate",
       "text": "[luasnip](https://github.com/L3MON4D3/LuaSnip) completion source for [nvim-cmp](https://github.com/hrsh7th/nvim-cmp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmitmel/cmp-digraphs",
+      "status": "candidate",
+      "text": "A [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) source for completing [digraphs](https://vimhelp.org/digraph.txt.html) (both built-in and custom ones)."
     }
   ],
   "candidate_related_terms": [],
@@ -172,11 +190,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dmitmel/cmp-digraphs"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

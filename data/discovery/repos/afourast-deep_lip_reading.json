@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "afourast/deep_lip_reading",
+      "target": "kyubyong/transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "afourast/deep_lip_reading",
+      "target": "tensorflow/tensor2tensor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "afourast/deep_lip_reading",
+      "target": "sherjilozair/char-rnn-tensorflow",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:49:13.796142+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5222
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code and models for evaluating a state-of-the-art lip reading network",
+    "fork": false,
+    "full_name": "afourast/deep_lip_reading",
+    "html_url": "https://github.com/afourast/deep_lip_reading",
+    "language": "Python",
+    "pushed_at": "2023-03-24T21:55:47Z",
+    "stargazers_count": 195,
+    "topics": [],
+    "updated_at": "2026-04-08T16:46:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kyubyong/transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sherjilozair/char-rnn-tensorflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tensorflow/tensor2tensor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

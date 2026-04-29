@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tgi-gaudi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tgi-gaudi",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tgi-gaudi",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tgi-gaudi",
+      "target": "docker/metadata-action@v4.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tgi-gaudi",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "huggingface/tgi-gaudi"
+}

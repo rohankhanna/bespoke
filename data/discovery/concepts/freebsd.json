@@ -148,6 +148,18 @@
       "source_repo": "alexmyczko/fnt",
       "status": "candidate-context",
       "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chef/bento",
+      "status": "candidate-context",
+      "text": "Packer templates for building minimal Vagrant baseboxes for multiple platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/bento",
+      "status": "candidate-context",
+      "text": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026"
     }
   ],
   "candidate_glosses": [
@@ -222,6 +234,12 @@
       "source_repo": "alexmyczko/fnt",
       "status": "candidate",
       "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/bento",
+      "status": "candidate",
+      "text": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -330,11 +348,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "alexmyczko/fnt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chef/bento"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

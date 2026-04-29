@@ -19,6 +19,18 @@
       "source_repo": "mit-ll-responsible-ai/hydra-zen",
       "status": "candidate-context",
       "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDSIA/sacred",
+      "status": "candidate-context",
+      "text": "Sacred is a tool to help you configure, organize, log and reproduce experiments developed at IDSIA."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDSIA/sacred",
+      "status": "candidate-context",
+      "text": "Sacred"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mit-ll-responsible-ai/hydra-zen",
       "status": "candidate",
       "text": "![image](brand/Hydra-Zen_logo_full_filled_bkgrnd_small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDSIA/sacred",
+      "status": "candidate",
+      "text": "Sacred"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "mit-ll-responsible-ai/hydra-zen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "IDSIA/sacred"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

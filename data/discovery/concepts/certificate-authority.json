@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "certificate-authority"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "anacrolix/btlink",
+      "status": "candidate-context",
+      "text": "a HTTP(s) addressing scheme for BitTorrent"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/btlink",
+      "status": "candidate-context",
+      "text": "btlink is a peer-to-peer web hosting implementation. It uses constructs provided by BitTorrent and the BitTorrent DHT to handle DNS and serve websites. It supports domain certificates, subdomains, origin isolation and CORS. btlink can be progressively integrated, starting from n\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "anacrolix/btlink",
+      "status": "candidate",
+      "text": "btlink is a peer-to-peer web hosting implementation. It uses constructs provided by BitTorrent and the BitTorrent DHT to handle DNS and serve websites. It supports domain certificates, subdomains, origin isolation and CORS. btlink can be progressively integrated, starting from n\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "certificate-authority",
+  "concept_id": "certificate-authority",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "anacrolix/btlink"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "certificate-authority",
+      "sense_id": "certificate-authority#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

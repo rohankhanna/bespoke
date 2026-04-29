@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "APPS: Automated Programming Progress Standard (NeurIPS 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the repository for [Measuring Coding Challenge Competence With APPS](https://arxiv.org/pdf/2105.09938) by"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the repository for [Measuring Coding Challenge Competence With APPS](https://arxiv.org/pdf/2105.09938) by"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "program-synthesis",
+      "sense_id": "program-synthesis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "program-synthesis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "program-synthesis",
+  "observation_id": "e40bd4e8f4767149",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "program-synthesis",
+  "source_context_snippet": "This is the repository for [Measuring Coding Challenge Competence With APPS](https://arxiv.org/pdf/2105.09938) by",
+  "source_file": null,
+  "source_repo": "hendrycks/apps",
+  "source_repo_description": "APPS: Automated Programming Progress Standard (NeurIPS 2021)"
+}

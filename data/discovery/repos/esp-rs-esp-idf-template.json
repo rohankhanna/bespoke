@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "dtolnay/rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml"
+    },
+    {
+      "component": "esp-rs/xtensa-toolchain@v1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml"
+    },
+    {
+      "component": "addnab/docker-run-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cmake.yml"
+    },
+    {
+      "component": "esp-rs/xtensa-toolchain@v1.7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cmake.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cmake.yml"
+    },
+    {
+      "component": "actions/add-to-project@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_handler.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "bjoernq/esp-web-flash-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "esp-rs/espflash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "esp-rs/rust-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "dorssel/usbipd-win",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "dtolnay/rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "esp-rs/xtensa-toolchain@v1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "addnab/docker-run-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cargo.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "Cargo CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cmake.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "dtolnay/rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cmake.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "esp-rs/xtensa-toolchain@v1.7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cmake.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cmake.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cmake.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "CMake CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "actions/add-to-project@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "Add new issues to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "esp-rs/esp-idf-template",
+      "target": "cargo-generate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:50:47.835099+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15697
+    },
+    {
+      "path": ".github/workflows/ci_cargo.yml",
+      "size": 5803
+    },
+    {
+      "path": ".github/workflows/ci_cmake.yml",
+      "size": 4036
+    },
+    {
+      "path": ".github/workflows/issue_handler.yml",
+      "size": 333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A \"Hello, world!\" template of a Rust binary crate for the ESP-IDF framework.",
+    "fork": false,
+    "full_name": "esp-rs/esp-idf-template",
+    "html_url": "https://github.com/esp-rs/esp-idf-template",
+    "language": "CMake",
+    "pushed_at": "2026-04-27T11:49:52Z",
+    "stargazers_count": 642,
+    "topics": [
+      "cargo-generate"
+    ],
+    "updated_at": "2026-04-27T11:49:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bjoernq/esp-web-flash-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dorssel/usbipd-win",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "esp-rs/espflash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "esp-rs/rust-build",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cargo CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cargo.yml",
+      "term": "Cargo CI"
+    },
+    {
+      "context_snippet": "CMake CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cmake.yml",
+      "term": "CMake CI"
+    },
+    {
+      "context_snippet": "Add new issues to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "term": "Add new issues to project"
+    },
+    {
+      "context_snippet": "[![Cargo CI](https://github.com/esp-rs/esp-idf-template/actions/workflows/ci_cargo.yml/badge.svg)](https://github.com/esp-rs/esp-idf-template/actions/workflows/ci_cargo.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo-generate"
+    }
+  ]
+}

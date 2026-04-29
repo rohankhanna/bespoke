@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwt-dev/libbwt",
+      "target": "bwt-dev/libbwt-jni",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bwt-dev/libbwt",
+      "target": "bwt-dev/libbwt-nodejs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwt-dev/libbwt",
+      "target": "bitcoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwt-dev/libbwt",
+      "target": "bitcoin-wallet-tracker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:58:32.085057+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12265
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 841
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C FFI for Bitcoin Wallet Tracker, a lightweight personal indexer for bitcoin wallets",
+    "fork": false,
+    "full_name": "bwt-dev/libbwt",
+    "html_url": "https://github.com/bwt-dev/libbwt",
+    "language": "Rust",
+    "pushed_at": "2021-10-06T14:31:23Z",
+    "stargazers_count": 4,
+    "topics": [
+      "bitcoin",
+      "bitcoin-wallet-tracker",
+      "bwt",
+      "ffi"
+    ],
+    "updated_at": "2025-09-01T06:46:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bwt-dev/libbwt-jni",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bwt-dev/libbwt-nodejs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/bwt-dev/libbwt.svg?branch=master)](https://travis-ci.org/bwt-dev/libbwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/bwt-dev/libbwt.svg?branch=master)](https://travis-ci.org/bwt-dev/libbwt)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin-wallet-tracker"
+    }
+  ]
+}

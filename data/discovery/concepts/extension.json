@@ -91,6 +91,36 @@
       "source_repo": "intel/intel-extension-for-tensorflow",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "Customizable JavaScript and React/Redux snippets for VS Code, with first-class support for ES7+ syntax, React 17\u201319, React Router v6, Redux Toolkit, and TypeScript."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HypoPG/hypopg",
+      "status": "candidate-context",
+      "text": "Hypothetical Indexes for PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypoPG/hypopg",
+      "status": "candidate-context",
+      "text": "HypoPG"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate-context",
+      "text": "A web extension for Firefox and Chrome to insert login credentials from gopass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/gopasspw/gopassbridge/actions/workflows/nodejs.yml/badge.svg?branch=master)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +165,24 @@
       "source_repo": "intel/intel-extension-for-tensorflow",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate",
+      "text": "Customizable JavaScript and React/Redux snippets for VS Code, with first-class support for ES7+ syntax, React 17\u201319, React Router v6, Redux Toolkit, and TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypoPG/hypopg",
+      "status": "candidate",
+      "text": "HypoPG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/gopasspw/gopassbridge/actions/workflows/nodejs.yml/badge.svg?branch=master)"
     }
   ],
   "candidate_related_terms": [
@@ -274,11 +322,41 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "intel/intel-extension-for-tensorflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "HypoPG/hypopg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gopasspw/gopassbridge"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

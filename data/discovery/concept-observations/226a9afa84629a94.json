@@ -13,14 +13,14 @@
     {
       "source_kind": "source-snippet",
       "status": "context-only",
-      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)"
+      "text": "Customizable JavaScript and React/Redux snippets for VS Code, with first-class support for ES7+ syntax, React 17\u201319, React Router v6, Redux Toolkit, and TypeScript."
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "status": "candidate",
-      "text": "[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)"
+      "text": "Customizable JavaScript and React/Redux snippets for VS Code, with first-class support for ES7+ syntax, React 17\u201319, React Router v6, Redux Toolkit, and TypeScript."
     }
   ],
   "candidate_primary_bucket": "tool-component",
@@ -84,9 +84,9 @@
   "normalized_form": "hooks",
   "observation_id": "226a9afa84629a94",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "hooks",
-  "source_context_snippet": "[![Version](https://vsmarketplacebadge.apphb.com/version/dsznajder.es7-react-js-snippets.svg)](https://vsmarketplacebadge.apphb.com/version-short/dsznajder.es7-react-js-snippets.svg)",
+  "source_context_snippet": "Customizable JavaScript and React/Redux snippets for VS Code, with first-class support for ES7+ syntax, React 17\u201319, React Router v6, Redux Toolkit, and TypeScript.",
   "source_file": null,
   "source_repo": "r5n-labs/vscode-react-javascript-snippets",
   "source_repo_description": "Extension for React/Javascript snippets with search supporting ES7+ and babel features"

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dotnet Maui Build and Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate-context",
+      "text": "Whisper.net. Speech to text made simple using Whisper Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate-context",
+      "text": "Dotnet Maui Build and Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate",
+      "text": "Dotnet Maui Build and Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19387,
+      "status": "candidate",
+      "text": "palm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19201,
+      "status": "candidate",
+      "text": "construction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19201,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19192,
+      "status": "candidate",
+      "text": "refuge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19163,
+      "status": "candidate",
+      "text": "house"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dotnet Maui Build and Test",
+  "concept_id": "dotnet-maui-build-and-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dotnet-maui.yml",
+      "source_repo": "sandrohanea/whisper.net"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dotnet Maui Build and Test",
+      "sense_id": "dotnet-maui-build-and-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

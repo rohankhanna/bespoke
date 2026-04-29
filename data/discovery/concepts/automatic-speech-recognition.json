@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "automatic-speech-recognition"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smeetrs/deep_avsr",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of the Deep Audio-Visual Speech Recognition paper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smeetrs/deep_avsr",
+      "status": "candidate-context",
+      "text": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smeetrs/deep_avsr",
+      "status": "candidate",
+      "text": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "automatic-speech-recognition",
+  "concept_id": "automatic-speech-recognition",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "smeetrs/deep_avsr"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "automatic-speech-recognition",
+      "sense_id": "automatic-speech-recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

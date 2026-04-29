@@ -1,0 +1,110 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpencerPark/jupyter-jvm-basekernel",
+      "target": "zeromq/jeromq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpencerPark/jupyter-jvm-basekernel",
+      "target": "google/gson",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpencerPark/jupyter-jvm-basekernel",
+      "target": "spencerpark/mellowd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpencerPark/jupyter-jvm-basekernel",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpencerPark/jupyter-jvm-basekernel",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpencerPark/jupyter-jvm-basekernel",
+      "target": "jupyter-kernels",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:45:50.454621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4004
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An abstract kernel implementation for Jupyter kernels running on the Java virtual machine.",
+    "fork": false,
+    "full_name": "SpencerPark/jupyter-jvm-basekernel",
+    "html_url": "https://github.com/SpencerPark/jupyter-jvm-basekernel",
+    "language": "Java",
+    "pushed_at": "2024-02-11T23:46:08Z",
+    "stargazers_count": 39,
+    "topics": [
+      "java",
+      "jupyter",
+      "jupyter-kernels",
+      "jvm"
+    ],
+    "updated_at": "2026-04-03T08:25:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/gson",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spencerpark/mellowd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zeromq/jeromq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project is a Java implementation of the [Jupyter kernel messaging spec](http://jupyter-client.readthedocs.io/en/latest/messaging.html). Consumers of this project need to simply extend the `BaseKernel` and implement the things specific to the language that the kernel is work\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "This project is a Java implementation of the [Jupyter kernel messaging spec](http://jupyter-client.readthedocs.io/en/latest/messaging.html). Consumers of this project need to simply extend the `BaseKernel` and implement the things specific to the language that the kernel is work\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "This project is a Java implementation of the [Jupyter kernel messaging spec](http://jupyter-client.readthedocs.io/en/latest/messaging.html). Consumers of this project need to simply extend the `BaseKernel` and implement the things specific to the language that the kernel is work\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter-kernels"
+    }
+  ]
+}

@@ -43,6 +43,54 @@
       "source_repo": "webtorrent/webtorrent",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/bittorrent-lsd",
+      "status": "candidate-context",
+      "text": "Local Service Discovery (BEP14) implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-lsd",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-lsd/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "status": "candidate-context",
+      "text": "Map a BitTorrent peer ID to a human-readable client name and version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-peerid/actions/workflows/ci.yml/badge.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/bittorrent-protocol",
+      "status": "candidate-context",
+      "text": "Simple, robust, BitTorrent peer wire protocol implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-protocol",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/webtorrent/bittorrent-protocol/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/ut_metadata",
+      "status": "candidate-context",
+      "text": "BitTorrent Extension for Peers to Send Metadata Files (BEP 9)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/ut_metadata",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/webtorrent/ut_metadata/actions/workflows/ci.yml/badge.svg?branch=master"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +111,30 @@
       "source_repo": "webtorrent/webtorrent",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-lsd",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-lsd/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-peerid/actions/workflows/ci.yml/badge.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-protocol",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/webtorrent/bittorrent-protocol/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/ut_metadata",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/webtorrent/ut_metadata/actions/workflows/ci.yml/badge.svg?branch=master"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +160,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "webtorrent/webtorrent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-lsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-peerid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-protocol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/ut_metadata"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

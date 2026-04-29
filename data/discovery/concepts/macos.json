@@ -1151,6 +1151,174 @@
       "source_repo": "GEOSwift/GEOSwift",
       "status": "candidate-context",
       "text": "![GEOSwift](/README-images/GEOSwift.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spack/spack",
+      "status": "candidate-context",
+      "text": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack",
+      "status": "candidate-context",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate-context",
+      "text": "The MacPorts ports tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate-context",
+      "text": "This repository contains the source definitions for the open source software packages offered through MacPorts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate-context",
+      "text": "Count your code, quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate-context",
+      "text": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kentcdodds/cross-env",
+      "status": "candidate-context",
+      "text": "\ud83d\udd00 Cross platform setting of environment scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kentcdodds/cross-env",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate-context",
+      "text": "\u261d\ufe0fsend desktop notifications from your Rust app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FiloSottile/mkcert",
+      "status": "candidate-context",
+      "text": "A simple zero-config tool to make locally trusted development certificates with any names you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FiloSottile/mkcert",
+      "status": "candidate-context",
+      "text": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate-context",
+      "text": "IDE-style autocomplete for your existing terminal & shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate-context",
+      "text": "[![Badge: macOS](https://img.shields.io/badge/os-\uf8ff%20macOS-light)](#)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluebear94/Terminal-WCWidth",
+      "status": "candidate-context",
+      "text": "Returns character width on a terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluebear94/Terminal-WCWidth",
+      "status": "candidate-context",
+      "text": "MacOS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chef/bento",
+      "status": "candidate-context",
+      "text": "Packer templates for building minimal Vagrant baseboxes for multiple platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/bento",
+      "status": "candidate-context",
+      "text": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies \ud83d\ude80 by @miguelmota"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agalwood/Motrix",
+      "status": "candidate-context",
+      "text": "A full-featured download manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agalwood/Motrix",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate-context",
+      "text": "Spack's community package recipes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate-context",
+      "text": "<h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Swordfish90/cool-retro-term",
+      "status": "candidate-context",
+      "text": "A good looking terminal emulator which mimics the old cathode display..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Swordfish90/cool-retro-term",
+      "status": "candidate-context",
+      "text": "|> Default Amber|C:\\ IBM DOS|$ Default Green|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "status": "candidate-context",
+      "text": "Bazel rules for generating Xcode projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -1729,6 +1897,90 @@
       "source_repo": "GEOSwift/GEOSwift",
       "status": "candidate",
       "text": "![GEOSwift](/README-images/GEOSwift.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack",
+      "status": "candidate",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate",
+      "text": "This repository contains the source definitions for the open source software packages offered through MacPorts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate",
+      "text": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kentcdodds/cross-env",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FiloSottile/mkcert",
+      "status": "candidate",
+      "text": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate",
+      "text": "[![Badge: macOS](https://img.shields.io/badge/os-\uf8ff%20macOS-light)](#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluebear94/Terminal-WCWidth",
+      "status": "candidate",
+      "text": "MacOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/bento",
+      "status": "candidate",
+      "text": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agalwood/Motrix",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate",
+      "text": "<h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Swordfish90/cool-retro-term",
+      "status": "candidate",
+      "text": "|> Default Amber|C:\\ IBM DOS|$ Default Green|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -2468,11 +2720,137 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "spack/spack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "macports/macports-ports"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kentcdodds/cross-env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hoodie/notify-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FiloSottile/mkcert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "withfig/autocomplete"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "bluebear94/Terminal-WCWidth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/macos-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/cointop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "agalwood/Motrix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "spack/spack-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Swordfish90/cool-retro-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

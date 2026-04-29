@@ -1,0 +1,292 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "avaneev/prvhash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "marton78/pffft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "unevens/curvessor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "audio-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "audio-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "interpolation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "libsamplerate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "resample",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "resampler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "resampling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "sample-rate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "sample-rate-conversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "sample-rate-converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "sound",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "sound-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "soxr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "time-series",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src",
+      "target": "timeseries",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:49:46.903546+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "High-quality pro audio resampler / sample rate conversion header-only C++ library. Very fast, for both audio resampling and time-series interpolation.",
+    "fork": false,
+    "full_name": "avaneev/r8brain-free-src",
+    "html_url": "https://github.com/avaneev/r8brain-free-src",
+    "language": "C++",
+    "pushed_at": "2026-03-12T12:57:20Z",
+    "stargazers_count": 691,
+    "topics": [
+      "audio",
+      "audio-library",
+      "audio-processing",
+      "dsp",
+      "interpolation",
+      "libsamplerate",
+      "resample",
+      "resampler",
+      "resampling",
+      "sample-rate",
+      "sample-rate-conversion",
+      "sample-rate-converter",
+      "sound",
+      "sound-processing",
+      "soxr",
+      "time-series",
+      "timeseries"
+    ],
+    "updated_at": "2026-04-28T11:30:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "avaneev/prvhash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marton78/pffft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unevens/curvessor",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-library"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-processing"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpolation"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libsamplerate"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resample"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resampler"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resampling"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sample-rate"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sample-rate-conversion"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sample-rate-converter"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sound"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sound-processing"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "soxr"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "time-series"
+    },
+    {
+      "context_snippet": "Open source (under the MIT license) high-quality professional audio sample",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "timeseries"
+    }
+  ]
+}

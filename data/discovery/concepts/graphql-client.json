@@ -43,6 +43,30 @@
       "source_repo": "apollographql/apollo-ios",
       "status": "candidate-context",
       "text": "<header>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-guild-org/apollo-angular",
+      "status": "candidate-context",
+      "text": "A fully-featured, production ready caching GraphQL client for Angular and every GraphQL server \ud83c\udf81"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-guild-org/apollo-angular",
+      "status": "candidate-context",
+      "text": "[![Angular](https://user-images.githubusercontent.com/25294569/63955021-b99fca80-ca8c-11e9-9362-1ee8083edd2e.gif)](https://www.apollo-angular.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": ":rocket: \u00a0A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": "<header>"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apollographql/apollo-ios",
+      "status": "candidate",
+      "text": "<header>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-guild-org/apollo-angular",
+      "status": "candidate",
+      "text": "[![Angular](https://user-images.githubusercontent.com/25294569/63955021-b99fca80-ca8c-11e9-9362-1ee8083edd2e.gif)](https://www.apollo-angular.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
       "status": "candidate",
       "text": "<header>"
     }
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-ios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "the-guild-org/apollo-angular"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-kotlin"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

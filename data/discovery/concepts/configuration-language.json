@@ -19,6 +19,30 @@
       "source_repo": "hashicorp/hcl",
       "status": "candidate-context",
       "text": "HCL is a toolkit for creating structured configuration languages that are"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "status": "candidate-context",
+      "text": "Maintainable configuration files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "status": "candidate-context",
+      "text": "You will probably want to read the language-agnostic `README` here:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dhall-lang/dhall-lang",
+      "status": "candidate-context",
+      "text": "Maintainable configuration files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dhall-lang/dhall-lang",
+      "status": "candidate-context",
+      "text": "<img src=\"./img/dhall-logo.svg\" width=\"600\" alt=\"Dhall Logo\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "hashicorp/hcl",
       "status": "candidate",
       "text": "HCL is a toolkit for creating structured configuration languages that are"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "status": "candidate",
+      "text": "You will probably want to read the language-agnostic `README` here:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dhall-lang/dhall-lang",
+      "status": "candidate",
+      "text": "<img src=\"./img/dhall-logo.svg\" width=\"600\" alt=\"Dhall Logo\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "hashicorp/hcl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dhall-lang/dhall-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dhall-lang/dhall-lang"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

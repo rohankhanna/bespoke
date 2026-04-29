@@ -1,0 +1,498 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwebsite.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwebsite.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwebsite.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwebsite.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwebsite.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwebsite.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/data-pipeline.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/data-pipeline.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-test.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests-gpu.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests-gpu.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests-gpu.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests-gpu.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "dmlc/gluonnlp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwebsite.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwebsite.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwebsite.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwebsite.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildwebsite.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "peter-evans/create-or-update-comment@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildwebsite.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "continuous build - docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/data-pipeline.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/data-pipeline.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/data-pipeline.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "data pipeline end-to-end",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-test.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-test.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-test.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-test.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "nightly test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests-gpu.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests-gpu.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests-gpu.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "aws-actions/configure-aws-credentials@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests-gpu.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittests-gpu.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "continuous build - gpu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "continuous build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "gluon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "gluonnlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "mxnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "natural-language-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "natural-language-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "natural-language-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmlc/gluon-nlp",
+      "target": "numpy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:49:21.610621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3605
+    },
+    {
+      "path": ".github/workflows/buildwebsite.yml",
+      "size": 4874
+    },
+    {
+      "path": ".github/workflows/data-pipeline.yml",
+      "size": 1334
+    },
+    {
+      "path": ".github/workflows/nightly-test.yml",
+      "size": 1999
+    },
+    {
+      "path": ".github/workflows/unittests-gpu.yml",
+      "size": 3941
+    },
+    {
+      "path": ".github/workflows/unittests.yml",
+      "size": 3422
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "NLP made easy",
+    "fork": false,
+    "full_name": "dmlc/gluon-nlp",
+    "html_url": "https://github.com/dmlc/gluon-nlp",
+    "language": "Python",
+    "pushed_at": "2023-10-06T04:01:21Z",
+    "stargazers_count": 2547,
+    "topics": [
+      "deep-learning",
+      "gluon",
+      "gluonnlp",
+      "machine-learning",
+      "mxnet",
+      "natural-language-generation",
+      "natural-language-inference",
+      "natural-language-processing",
+      "natural-language-understanding",
+      "nlg",
+      "nlp",
+      "nlu",
+      "numpy"
+    ],
+    "updated_at": "2026-04-12T20:10:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmlc/gluonnlp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "continuous build - docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildwebsite.yml",
+      "term": "continuous build - docs"
+    },
+    {
+      "context_snippet": "data pipeline end-to-end",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/data-pipeline.yml",
+      "term": "data pipeline end-to-end"
+    },
+    {
+      "context_snippet": "nightly test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-test.yml",
+      "term": "nightly test"
+    },
+    {
+      "context_snippet": "continuous build - gpu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittests-gpu.yml",
+      "term": "continuous build - gpu"
+    },
+    {
+      "context_snippet": "continuous build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittests.yml",
+      "term": "continuous build"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gluon"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gluonnlp"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mxnet"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-generation"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-inference"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-understanding"
+    },
+    {
+      "context_snippet": "<h2 align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "numpy"
+    }
+  ]
+}

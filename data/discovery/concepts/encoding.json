@@ -67,6 +67,30 @@
       "source_repo": "OpenVisualCloud/Dockerfiles",
       "status": "candidate-context",
       "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dermesser/integer-encoding-rs",
+      "status": "candidate-context",
+      "text": "Integer encoding for primitive integer types: Supports varint/varint+zigzag and fixed-length integer encoding and decoding, and provides synchronous and asynchronous Write/Read types for easily writing/reading integers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dermesser/integer-encoding-rs",
+      "status": "candidate-context",
+      "text": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ljharb/qs",
+      "status": "candidate-context",
+      "text": "A querystring parser and serializer with nesting support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ljharb/qs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
       "source_repo": "OpenVisualCloud/Dockerfiles",
       "status": "candidate",
       "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dermesser/integer-encoding-rs",
+      "status": "candidate",
+      "text": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ljharb/qs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -186,11 +222,29 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "OpenVisualCloud/Dockerfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dermesser/integer-encoding-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pillarjs/iconv-lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ljharb/qs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

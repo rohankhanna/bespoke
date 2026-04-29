@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "asottile/workflows/.github/workflows/tox.yml@v1.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "asottile/workflows/.github/workflows/tox.yml@v1.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "target": "pycqa/flake8",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "target": "asottile/yesqa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "target": "asottile/workflows/.github/workflows/tox.yml@v1.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "target": "pre-commit-hooks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:45:09.352153+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1855
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sync pre-commit hook dependencies based on other installed hooks",
+    "fork": false,
+    "full_name": "pre-commit/sync-pre-commit-deps",
+    "html_url": "https://github.com/pre-commit/sync-pre-commit-deps",
+    "language": "Python",
+    "pushed_at": "2026-04-28T22:26:02Z",
+    "stargazers_count": 30,
+    "topics": [
+      "pre-commit",
+      "pre-commit-hooks"
+    ],
+    "updated_at": "2026-04-28T22:26:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asottile/yesqa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pycqa/flake8",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "sync-pre-commit-deps",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "sync-pre-commit-deps",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-commit-hooks"
+    }
+  ]
+}

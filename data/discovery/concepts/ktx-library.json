@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ktx-library"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/KTX-Software",
+      "status": "candidate-context",
+      "text": "KTX (Khronos Texture) Library and Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/KTX-Software",
+      "status": "candidate-context",
+      "text": "<!-- Copyright 2013-2020 Mark Callow -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/KTX-Software",
+      "status": "candidate",
+      "text": "<!-- Copyright 2013-2020 Mark Callow -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ktx-library",
+  "concept_id": "ktx-library",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/KTX-Software"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ktx-library",
+      "sense_id": "ktx-library#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

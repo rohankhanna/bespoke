@@ -223,6 +223,30 @@
       "source_repo": "logpai/Drain3",
       "status": "candidate-context",
       "text": "Drain3 was moved to the `logpai` GitHub organization (which is also the home for the original Drain implementation). We always welcome more contributors and maintainers to join us and push the project forward. We welcome more contributions and variants of implementations if you \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-observability/aws-otel-community",
+      "status": "candidate-context",
+      "text": "Welcome to the AWS Distro for OpenTelemetry project. If you're using monitoring and observability tools for AWS products and services, this is a great place to ask questions, request features and network with other community members. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-community",
+      "status": "candidate-context",
+      "text": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-observability/aws-otel-test-framework",
+      "status": "candidate-context",
+      "text": "AWS Distro for OpenTelemetry Test Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-test-framework",
+      "status": "candidate-context",
+      "text": "Before adding a new component into ADOT Collector, we require contributors to add related end-to-end test cases, this project is a testing framework which helps contributors to easily add testing into AWS Otel Collector."
     }
   ],
   "candidate_glosses": [
@@ -333,6 +357,18 @@
       "source_repo": "logpai/Drain3",
       "status": "candidate",
       "text": "Drain3 was moved to the `logpai` GitHub organization (which is also the home for the original Drain implementation). We always welcome more contributors and maintainers to join us and push the project forward. We welcome more contributions and variants of implementations if you \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-community",
+      "status": "candidate",
+      "text": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-test-framework",
+      "status": "candidate",
+      "text": "Before adding a new component into ADOT Collector, we require contributors to add related end-to-end test cases, this project is a testing framework which helps contributors to easily add testing into AWS Otel Collector."
     }
   ],
   "candidate_related_terms": [
@@ -490,11 +526,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws-observability/aws-otel-community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws-observability/aws-otel-test-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,279 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml"
+    },
+    {
+      "component": "bazel-contrib/setup-bazel@0.19.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_bazel.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_bazel.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_bazel.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64_macos_bazel.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64_macos_bazel.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64_macos_bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64_macos_bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "bazel-contrib/setup-bazel@0.19.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "amd64 Linux Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "amd64 MacOS Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd64_windows_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "amd64 Windows Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "arm64 MacOS Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:58.244004+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2671
+    },
+    {
+      "path": ".github/workflows/amd64_linux_bazel.yml",
+      "size": 2164
+    },
+    {
+      "path": ".github/workflows/amd64_macos_bazel.yml",
+      "size": 2018
+    },
+    {
+      "path": ".github/workflows/amd64_windows_bazel.yml",
+      "size": 1923
+    },
+    {
+      "path": ".github/workflows/arm64_macos_bazel.yml",
+      "size": 2016
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 884
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bazel wrapper around the pybind11 repository",
+    "fork": false,
+    "full_name": "pybind/pybind11_bazel",
+    "html_url": "https://github.com/pybind/pybind11_bazel",
+    "language": "Starlark",
+    "pushed_at": "2026-03-30T07:42:21Z",
+    "stargazers_count": 115,
+    "topics": [],
+    "updated_at": "2026-03-30T07:42:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "amd64 Linux Bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml",
+      "term": "amd64 Linux Bazel"
+    },
+    {
+      "context_snippet": "amd64 MacOS Bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd64_macos_bazel.yml",
+      "term": "amd64 MacOS Bazel"
+    },
+    {
+      "context_snippet": "amd64 Windows Bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd64_windows_bazel.yml",
+      "term": "amd64 Windows Bazel"
+    },
+    {
+      "context_snippet": "arm64 MacOS Bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm64_macos_bazel.yml",
+      "term": "arm64 MacOS Bazel"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

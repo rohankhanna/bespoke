@@ -988,6 +988,186 @@
       "source_repo": "terser/html-minifier-terser",
       "status": "candidate-context",
       "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f Build multimodal AI applications with cloud-native stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Systemcluster/tokenizer-bench",
+      "status": "candidate-context",
+      "text": "Benchmark for tokenizers. Utility to compare the performance of different tokenizers with different datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/tokenizer-bench",
+      "status": "candidate-context",
+      "text": "[project] name = \"tokenizer-bench\" description = \"Benchmark for tokenizers.\" version = \"0.0.0\" requires-python = \">=3.12,<3.13\" authors = [{ name = \"Christian Sdunek\", email = \"me@systemcluster.me\" }] urls = { repository = \"https://github.com/Systemcluster/tokenizer-bench\" } dep\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benchmark-action/github-action-benchmark",
+      "status": "candidate-context",
+      "text": "GitHub Action for continuous benchmarking to keep performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benchmark-action/github-action-benchmark",
+      "status": "candidate-context",
+      "text": "GitHub Action for Continuous Benchmarking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "A High Performance HTTP Server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "A 13B large language model developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/InternVideo",
+      "status": "candidate-context",
+      "text": "[ECCV2024] Video Foundation Models & Data for Multimodal Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVideo",
+      "status": "candidate-context",
+      "text": "</div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logpai/logparser",
+      "status": "candidate-context",
+      "text": "A machine learning toolkit for log parsing [ICSE'19, DSN'16]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logpai/logparser",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <a href=\"https://github.com/logpai\"> <img src=\"https://cdn.jsdelivr.net/gh/logpai/logpai.github.io@master/img/logpai_logo.jpg\" width=\"480\"></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/turnkeyml",
+      "status": "candidate-context",
+      "text": "No-code CLI designed for accelerating ONNX workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/turnkeyml",
+      "status": "candidate-context",
+      "text": "[![Lemonade tests](https://github.com/onnx/turnkeyml/actions/workflows/test_lemonade.yml/badge.svg)](https://github.com/onnx/turnkeyml/tree/main/test \"Check out our tests\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "erikbern/ann-benchmarks",
+      "status": "candidate-context",
+      "text": "Benchmarks of approximate nearest neighbor libraries in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikbern/ann-benchmarks",
+      "status": "candidate-context",
+      "text": "Benchmarking nearest neighbors"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate-context",
+      "text": "The fast, flexible, and elegant library for parsing and manipulating HTML and XML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate-context",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "A series of large language models developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate-context",
+      "text": "The official repo for the extension of [NeurIPS'22] \"APT-36K: A Large-scale Benchmark for Animal Pose Estimation and Tracking\": https://github.com/pandorgan/APT-36K"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate-context",
+      "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optunahub-registry",
+      "status": "candidate-context",
+      "text": "The registry of the OptunaHub packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub-registry",
+      "status": "candidate-context",
+      "text": "OptunaHub Registry"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luau-lang/luau",
+      "status": "candidate-context",
+      "text": "A small, fast, and embeddable programming language based on Lua with a gradual type system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luau-lang/luau",
+      "status": "candidate-context",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "base/base",
+      "status": "candidate-context",
+      "text": "All components used to run Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "base/base",
+      "status": "candidate-context",
+      "text": "Benchmark"
     }
   ],
   "candidate_glosses": [
@@ -1480,6 +1660,96 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "terser/html-minifier-terser",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/tokenizer-bench",
+      "status": "candidate",
+      "text": "[project] name = \"tokenizer-bench\" description = \"Benchmark for tokenizers.\" version = \"0.0.0\" requires-python = \">=3.12,<3.13\" authors = [{ name = \"Christian Sdunek\", email = \"me@systemcluster.me\" }] urls = { repository = \"https://github.com/Systemcluster/tokenizer-bench\" } dep\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benchmark-action/github-action-benchmark",
+      "status": "candidate",
+      "text": "GitHub Action for Continuous Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVideo",
+      "status": "candidate",
+      "text": "</div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logpai/logparser",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <a href=\"https://github.com/logpai\"> <img src=\"https://cdn.jsdelivr.net/gh/logpai/logpai.github.io@master/img/logpai_logo.jpg\" width=\"480\"></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/turnkeyml",
+      "status": "candidate",
+      "text": "[![Lemonade tests](https://github.com/onnx/turnkeyml/actions/workflows/test_lemonade.yml/badge.svg)](https://github.com/onnx/turnkeyml/tree/main/test \"Check out our tests\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "erikbern/ann-benchmarks",
+      "status": "candidate",
+      "text": "Benchmarking nearest neighbors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate",
+      "text": "Benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate",
+      "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub-registry",
+      "status": "candidate",
+      "text": "OptunaHub Registry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luau-lang/luau",
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "base/base",
       "status": "candidate",
       "text": "Benchmark"
     }
@@ -2169,11 +2439,131 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/benchmarks.yml",
       "source_repo": "terser/html-minifier-terser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Systemcluster/tokenizer-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "apache/casbin-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ohler55/agoo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/bench.yml.disabled",
+      "source_repo": "ggml-org/llama.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "logpai/logparser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "onnx/turnkeyml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "erikbern/ann-benchmarks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "cheeriojs/cheerio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/APTv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "optuna/optunahub-registry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "luau-lang/luau"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "base/base"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

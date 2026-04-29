@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tag Milestone"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f Firefox Focus (Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate-context",
+      "text": "Tag Milestone"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate",
+      "text": "Tag Milestone"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10768,
+      "status": "candidate",
+      "text": "anniversary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10768,
+      "status": "candidate",
+      "text": "date"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10768,
+      "status": "candidate",
+      "text": "forty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10768,
+      "status": "candidate",
+      "text": "milepost"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10768,
+      "status": "candidate",
+      "text": "stela"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tag Milestone",
+  "concept_id": "tag-milestone",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "mozilla-mobile/focus-android"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tag Milestone",
+      "sense_id": "tag-milestone#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

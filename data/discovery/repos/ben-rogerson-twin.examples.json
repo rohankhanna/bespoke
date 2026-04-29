@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ben-rogerson/twin.examples",
+      "target": "emotionjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ben-rogerson/twin.examples",
+      "target": "styled-components",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ben-rogerson/twin.examples",
+      "target": "tailwind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ben-rogerson/twin.examples",
+      "target": "tailwindcss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ben-rogerson/twin.examples",
+      "target": "twin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:57:48.302311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4969
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Packed with examples for different frameworks, this repo helps you get started with twin a whole lot faster.",
+    "fork": false,
+    "full_name": "ben-rogerson/twin.examples",
+    "html_url": "https://github.com/ben-rogerson/twin.examples",
+    "language": "TypeScript",
+    "pushed_at": "2024-04-11T03:21:20Z",
+    "stargazers_count": 466,
+    "topics": [
+      "emotionjs",
+      "styled-components",
+      "tailwind",
+      "tailwindcss",
+      "twin"
+    ],
+    "updated_at": "2026-03-19T14:58:26Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emotionjs"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styled-components"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tailwind"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tailwindcss"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "twin"
+    }
+  ]
+}

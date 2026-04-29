@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:58:27.538428+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 433
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "archive",
+    "description": "This repo is building the .NET Standard",
+    "fork": false,
+    "full_name": "dotnet/standard",
+    "html_url": "https://github.com/dotnet/standard",
+    "language": null,
+    "pushed_at": "2022-09-12T20:18:34Z",
+    "stargazers_count": 3042,
+    "topics": [],
+    "updated_at": "2026-04-27T19:38:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,87 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "esp-rs/esp-web-flash-server",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "esp-rs/esp-web-flash-server",
+      "target": "dtolnay/rust-toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "esp-rs/esp-web-flash-server",
+      "target": "svenstaro/upload-release-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "esp-rs/esp-web-flash-server",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:54:21.401368+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 541
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 304
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 3277
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Starts a local server serving a web page to flash a given ELF file",
+    "fork": false,
+    "full_name": "esp-rs/esp-web-flash-server",
+    "html_url": "https://github.com/esp-rs/esp-web-flash-server",
+    "language": "Rust",
+    "pushed_at": "2024-01-22T08:39:28Z",
+    "stargazers_count": 50,
+    "topics": [],
+    "updated_at": "2026-03-04T21:29:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

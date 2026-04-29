@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "mvn verify"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "status": "candidate-context",
+      "text": "Formatter Maven Plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "status": "candidate-context",
+      "text": "mvn verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "revelc/formatter-m2e-configurator",
+      "status": "candidate-context",
+      "text": "M2E configurator for the formatter-maven-plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "revelc/formatter-m2e-configurator",
+      "status": "candidate-context",
+      "text": "mvn verify"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "status": "candidate",
+      "text": "mvn verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "revelc/formatter-m2e-configurator",
+      "status": "candidate",
+      "text": "mvn verify"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "affirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "ascertain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "attest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "check"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mvn verify",
+  "concept_id": "mvn-verify",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "revelc/formatter-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "revelc/formatter-m2e-configurator"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "mvn verify",
+      "sense_id": "mvn-verify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

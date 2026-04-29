@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -121,6 +121,31 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "ashvardanian/StringZilla"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "ganler/code-r1"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "Visual-Agent/DeepEyes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-chan/Total-Text-Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "detectRecog/CCPD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/APTv2"
     }
   ],
   "term": "dataset"

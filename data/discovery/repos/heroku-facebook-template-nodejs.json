@@ -1,0 +1,77 @@
+{
+  "components": [
+    {
+      "component": "async",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "ejs",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "faceplate",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "heroku/facebook-template-nodejs",
+      "target": "async",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "heroku/facebook-template-nodejs",
+      "target": "ejs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "heroku/facebook-template-nodejs",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "heroku/facebook-template-nodejs",
+      "target": "faceplate",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:57:15.552778+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 321
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "heroku/facebook-template-nodejs",
+    "html_url": "https://github.com/heroku/facebook-template-nodejs",
+    "language": "JavaScript",
+    "pushed_at": "2024-10-15T23:38:48Z",
+    "stargazers_count": 134,
+    "topics": [],
+    "updated_at": "2026-02-22T19:08:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

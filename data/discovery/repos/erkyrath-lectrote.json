@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "electron",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "electron-packager",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@electron/universal",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erkyrath/lectrote",
+      "target": "curiousdannii/ifvms.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erkyrath/lectrote",
+      "target": "y-lohse/inkjs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "erkyrath/lectrote",
+      "target": "erkyrath/quixe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "erkyrath/lectrote",
+      "target": "electron",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "erkyrath/lectrote",
+      "target": "electron-packager",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "erkyrath/lectrote",
+      "target": "@electron/universal",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:48:46.031155+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12278
+    },
+    {
+      "path": "package.json",
+      "size": 1107
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The IF interpreter in an Electron shell",
+    "fork": false,
+    "full_name": "erkyrath/lectrote",
+    "html_url": "https://github.com/erkyrath/lectrote",
+    "language": "JavaScript",
+    "pushed_at": "2025-10-04T21:05:23Z",
+    "stargazers_count": 264,
+    "topics": [],
+    "updated_at": "2026-04-26T19:51:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "curiousdannii/ifvms.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "y-lohse/inkjs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erkyrath/quixe",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

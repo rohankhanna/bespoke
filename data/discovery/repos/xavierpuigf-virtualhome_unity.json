@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:53:59.424833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Source Code for VirtualHome environment",
+    "fork": false,
+    "full_name": "xavierpuigf/virtualhome_unity",
+    "html_url": "https://github.com/xavierpuigf/virtualhome_unity",
+    "language": "C#",
+    "pushed_at": "2023-07-31T07:14:32Z",
+    "stargazers_count": 67,
+    "topics": [],
+    "updated_at": "2026-01-17T14:17:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

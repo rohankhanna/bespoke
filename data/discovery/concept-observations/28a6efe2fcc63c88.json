@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easy-to-use and powerful LLM and SLM library with awesome model zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Approval"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Approval"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012016,
+      "status": "candidate",
+      "text": "approving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40008637,
+      "status": "candidate",
+      "text": "commendation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39986430,
+      "status": "candidate",
+      "text": "blessing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016738,
+      "status": "candidate",
+      "text": "favorable reception"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016737,
+      "status": "candidate",
+      "text": "approved"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Approval",
+      "sense_id": "approval#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26034,
+      "status": "candidate",
+      "text": "commendation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19036,
+      "status": "candidate",
+      "text": "blessing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4027,
+      "status": "candidate",
+      "text": "approving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2009,
+      "status": "candidate",
+      "text": "favorable reception"
+    }
+  ],
+  "concept_id": "approval",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "approval",
+  "observation_id": "28a6efe2fcc63c88",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Approval",
+  "source_context_snippet": "Approval",
+  "source_file": ".github/workflows/approval.yml",
+  "source_repo": "PaddlePaddle/PaddleNLP",
+  "source_repo_description": "Easy-to-use and powerful LLM and SLM library with awesome model zoo."
+}

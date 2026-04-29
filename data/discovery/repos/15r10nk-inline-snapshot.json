@@ -1,0 +1,439 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@cc203385981b70ca67e1cc392babf9cc229d5806",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cog.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cog.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cog.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_development_docs.yml"
+    },
+    {
+      "component": "suzuki-shunsuke/lock-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_development_docs.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "suzuki-shunsuke/lock-action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "15r10nk/inline-snapshots",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "actions/upload-artifact@4cec3d8aa04e39d1a68397de0c4cd6fb9dce8ec1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "actions/download-artifact@cc203385981b70ca67e1cc392babf9cc229d5806",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "pypa/gh-action-pypi-publish@76f52bc884231f62b9a034ebfe128415bbaabdfc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cog.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cog.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cog.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cog.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "Weekly Cog Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_development_docs.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy_development_docs.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "suzuki-shunsuke/lock-action@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_development_docs.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "deploy development docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "suzuki-shunsuke/lock-action@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "Publish docs via GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "test docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "approval-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "golden-master",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "pytest-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "snapshot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "snapshot-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "snapshot-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "snapshot-testing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "snapshot-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "snapshottest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "15r10nk/inline-snapshot",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:51:25.348520+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7921
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5750
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 5505
+    },
+    {
+      "path": ".github/workflows/cog.yml",
+      "size": 834
+    },
+    {
+      "path": ".github/workflows/deploy_development_docs.yml",
+      "size": 923
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1087
+    },
+    {
+      "path": ".github/workflows/test_docs.yml",
+      "size": 332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "inline-snapshot boosts efficiency when writing tests by generating code with the expected values and simplifies snapshot tests with pytest.",
+    "fork": false,
+    "full_name": "15r10nk/inline-snapshot",
+    "html_url": "https://github.com/15r10nk/inline-snapshot",
+    "language": "Python",
+    "pushed_at": "2026-04-24T08:50:03Z",
+    "stargazers_count": 725,
+    "topics": [
+      "approval-testing",
+      "golden-master",
+      "pytest",
+      "pytest-plugin",
+      "python",
+      "snapshot",
+      "snapshot-plugin",
+      "snapshot-test",
+      "snapshot-testing",
+      "snapshot-tests",
+      "snapshottest",
+      "testing"
+    ],
+    "updated_at": "2026-04-29T13:19:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "15r10nk/inline-snapshots",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Weekly Cog Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cog.yml",
+      "term": "Weekly Cog Update"
+    },
+    {
+      "context_snippet": "deploy development docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_development_docs.yml",
+      "term": "deploy development docs"
+    },
+    {
+      "context_snippet": "Publish docs via GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Publish docs via GitHub Pages"
+    },
+    {
+      "context_snippet": "test docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test_docs.yml",
+      "term": "test docs"
+    },
+    {
+      "context_snippet": "<!-- -8<- [start:Header] -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "approval-testing"
+    },
+    {
+      "context_snippet": "<!-- -8<- [start:Header] -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golden-master"
+    },
+    {
+      "context_snippet": "<!-- -8<- [start:Header] -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest"
+    },
+    {
+      "context_snippet": "<!-- -8<- [start:Header] -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest-plugin"
+    },
+    {
+      "context_snippet": "<!-- -8<- [start:Header] -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snapshot"
+    },
+    {
+      "context_snippet": "<!-- -8<- [start:Header] -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snapshot-plugin"
+    },
+    {
+      "context_snippet": "<!-- -8<- [start:Header] -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snapshot-test"
+    },
+    {
+      "context_snippet": "<!-- -8<- [start:Header] -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snapshot-testing"
+    },
+    {
+      "context_snippet": "<!-- -8<- [start:Header] -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snapshot-tests"
+    },
+    {
+      "context_snippet": "<!-- -8<- [start:Header] -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snapshottest"
+    },
+    {
+      "context_snippet": "<!-- -8<- [start:Header] -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

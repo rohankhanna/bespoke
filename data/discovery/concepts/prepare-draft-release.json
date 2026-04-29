@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Prepare draft release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tats-u/markdown-cjk-friendly",
+      "status": "candidate-context",
+      "text": "Make CommonMark more friendly for Japanese/Chinese/Korean (CommonMark next specification draft)\u2014plugins & patched packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tats-u/markdown-cjk-friendly",
+      "status": "candidate-context",
+      "text": "Prepare draft release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tats-u/markdown-cjk-friendly",
+      "status": "candidate",
+      "text": "Prepare draft release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26229,
+      "status": "candidate",
+      "text": "draw up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19012,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17959,
+      "status": "candidate",
+      "text": "banked"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17959,
+      "status": "candidate",
+      "text": "drafted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17959,
+      "status": "candidate",
+      "text": "draw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Prepare draft release",
+  "concept_id": "prepare-draft-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/prepare-draft.yml",
+      "source_repo": "tats-u/markdown-cjk-friendly"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prepare draft release",
+      "sense_id": "prepare-draft-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

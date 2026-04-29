@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Auto-label New Issues"
+    "Auto-label New Issues",
+    "auto-label-new-issues"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "OpenHands/software-agent-sdk",
       "status": "candidate-context",
       "text": "Auto-label New Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencost/opencost",
+      "status": "candidate-context",
+      "text": "Cost monitoring for Kubernetes workloads and cloud costs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost",
+      "status": "candidate-context",
+      "text": "auto-label-new-issues"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "OpenHands/software-agent-sdk",
       "status": "candidate",
       "text": "Auto-label New Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost",
+      "status": "candidate",
+      "text": "auto-label-new-issues"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/auto-label-issues.yml",
       "source_repo": "OpenHands/software-agent-sdk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/auto_label_issues.yml",
+      "source_repo": "opencost/opencost"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

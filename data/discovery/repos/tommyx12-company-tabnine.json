@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TommyX12/company-tabnine",
+      "target": "zxqfl/tabnine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TommyX12/company-tabnine",
+      "target": "emacs-ess/ess",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:43:47.252445+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3965
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A company-mode backend for TabNine, the all-language autocompleter: https://tabnine.com/",
+    "fork": false,
+    "full_name": "TommyX12/company-tabnine",
+    "html_url": "https://github.com/TommyX12/company-tabnine",
+    "language": "Emacs Lisp",
+    "pushed_at": "2023-10-09T18:30:33Z",
+    "stargazers_count": 687,
+    "topics": [],
+    "updated_at": "2026-04-20T10:44:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "emacs-ess/ess",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zxqfl/tabnine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

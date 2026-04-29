@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bootscore/bootscore-child",
+      "target": "bootscore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bootscore/bootscore-child",
+      "target": "wordpress-child-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:00:26.120197+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 926
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Child-theme for Bootscore",
+    "fork": false,
+    "full_name": "bootscore/bootscore-child",
+    "html_url": "https://github.com/bootscore/bootscore-child",
+    "language": "SCSS",
+    "pushed_at": "2024-07-29T15:34:57Z",
+    "stargazers_count": 41,
+    "topics": [
+      "bootscore",
+      "wordpress-child-theme"
+    ],
+    "updated_at": "2026-04-11T06:53:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Github All Releases](https://img.shields.io/github/downloads/bootscore/bootscore-child/total.svg)](https://github.com/bootscore/bootscore-child/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootscore"
+    },
+    {
+      "context_snippet": "[![Github All Releases](https://img.shields.io/github/downloads/bootscore/bootscore-child/total.svg)](https://github.com/bootscore/bootscore-child/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wordpress-child-theme"
+    }
+  ]
+}

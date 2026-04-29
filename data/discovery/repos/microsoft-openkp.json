@@ -5,25 +5,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "microsoft/OpenKP",
-      "target": "microsoft/msmarco-question-answering",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/OpenKP",
-      "target": "microsoft/trec-2019-deep-learning",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/OpenKP",
       "target": "microsoft/msmarco-optimal-freshness-crawl-under-politeness-constraints",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T08:00:28.658800+00:00",
+  "fetched_at": "2026-04-29T18:47:11.190616+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -48,16 +34,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "microsoft/msmarco-optimal-freshness-crawl-under-politeness-constraints",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/msmarco-question-answering",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "microsoft/trec-2019-deep-learning",
       "source_file": "README.md"
     }
   ],

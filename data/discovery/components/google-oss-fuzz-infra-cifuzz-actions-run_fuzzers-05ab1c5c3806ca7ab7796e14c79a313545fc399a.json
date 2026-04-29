@@ -1,0 +1,12 @@
+{
+  "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@05ab1c5c3806ca7ab7796e14c79a313545fc399a",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "grpc-ecosystem/grpc-gateway"
+    }
+  ]
+}

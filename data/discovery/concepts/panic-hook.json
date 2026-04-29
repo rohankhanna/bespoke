@@ -19,6 +19,18 @@
       "source_repo": "rustwasm/console_error_panic_hook",
       "status": "candidate-context",
       "text": "[![](https://docs.rs/console_error_panic_hook/badge.svg)](https://docs.rs/console_error_panic_hook/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate-context",
+      "text": "Panic messages for humans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate-context",
+      "text": "[![crates.io version][1]][2] [![build status][3]][4]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "rustwasm/console_error_panic_hook",
       "status": "candidate",
       "text": "[![](https://docs.rs/console_error_panic_hook/badge.svg)](https://docs.rs/console_error_panic_hook/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate",
+      "text": "[![crates.io version][1]][2] [![build status][3]][4]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "rustwasm/console_error_panic_hook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rust-cli/human-panic"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

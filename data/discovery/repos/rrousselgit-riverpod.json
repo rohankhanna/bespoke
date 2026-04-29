@@ -1,0 +1,319 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generation.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generation.yml"
+    },
+    {
+      "component": "actions/checkout@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/riverpod_lint.yml"
+    },
+    {
+      "component": "subosito/flutter-action@v2.7.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/riverpod_lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rrousselGit/riverpod",
+      "target": "rrousselgit/provider",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rrousselGit/riverpod",
+      "target": "rrousselgit/flutter_hooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rrousselGit/riverpod",
+      "target": "actions/checkout@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rrousselGit/riverpod",
+      "target": "subosito/flutter-action@v2.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rrousselGit/riverpod",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "rrousselGit/riverpod",
+      "target": "actions/checkout@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "rrousselGit/riverpod",
+      "target": "subosito/flutter-action@v2.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generation.yml",
+      "source_repo": "rrousselGit/riverpod",
+      "target": "actions/checkout@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_generation.yml",
+      "source_repo": "rrousselGit/riverpod",
+      "target": "subosito/flutter-action@v2.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_generation.yml",
+      "source_repo": "rrousselGit/riverpod",
+      "target": "Check code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/riverpod_lint.yml",
+      "source_repo": "rrousselGit/riverpod",
+      "target": "actions/checkout@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/riverpod_lint.yml",
+      "source_repo": "rrousselGit/riverpod",
+      "target": "subosito/flutter-action@v2.7.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/riverpod_lint.yml",
+      "source_repo": "rrousselGit/riverpod",
+      "target": "Riverpod lint tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/riverpod",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/riverpod",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/riverpod",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/riverpod",
+      "target": "inheritedwidget",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/riverpod",
+      "target": "provider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/riverpod",
+      "target": "riverpod",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/riverpod",
+      "target": "service-locator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/riverpod",
+      "target": "state-management",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:57:37.718397+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4437
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2341
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 772
+    },
+    {
+      "path": ".github/workflows/check_generation.yml",
+      "size": 837
+    },
+    {
+      "path": ".github/workflows/riverpod_lint.yml",
+      "size": 1451
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A reactive caching and data-binding framework.   Riverpod makes working with asynchronous code a breeze.",
+    "fork": false,
+    "full_name": "rrousselGit/riverpod",
+    "html_url": "https://github.com/rrousselGit/riverpod",
+    "language": "Dart",
+    "pushed_at": "2026-04-28T18:43:09Z",
+    "stargazers_count": 7234,
+    "topics": [
+      "dart",
+      "flutter",
+      "hacktoberfest",
+      "inheritedwidget",
+      "provider",
+      "riverpod",
+      "service-locator",
+      "state-management"
+    ],
+    "updated_at": "2026-04-29T20:19:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rrousselgit/flutter_hooks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rrousselgit/provider",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Check code-generation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_generation.yml",
+      "term": "Check code-generation"
+    },
+    {
+      "context_snippet": "Riverpod lint tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/riverpod_lint.yml",
+      "term": "Riverpod lint tests"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inheritedwidget"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "provider"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "riverpod"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service-locator"
+    },
+    {
+      "context_snippet": "<p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "state-management"
+    }
+  ]
+}

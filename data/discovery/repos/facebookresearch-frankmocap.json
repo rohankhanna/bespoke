@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/frankmocap",
+      "target": "jhugestar/jhugestar.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/frankmocap",
+      "target": "mattloper/opendr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/frankmocap",
+      "target": "nkolot/spin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/frankmocap",
+      "target": "daniil-osokin/lightweight-human-pose-estimation.pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:42:18.678477+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4684
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "A Strong and Easy-to-use Single View 3D Hand+Body Pose Estimator",
+    "fork": false,
+    "full_name": "facebookresearch/frankmocap",
+    "html_url": "https://github.com/facebookresearch/frankmocap",
+    "language": "Python",
+    "pushed_at": "2022-11-21T20:42:18Z",
+    "stargazers_count": 2285,
+    "topics": [],
+    "updated_at": "2026-04-21T19:34:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daniil-osokin/lightweight-human-pose-estimation.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jhugestar/jhugestar.github.io",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattloper/opendr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nkolot/spin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

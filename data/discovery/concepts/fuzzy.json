@@ -45,6 +45,42 @@
       "source_repo": "alexpasmantier/television",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-fuzzbox/fuzzbox-lsp.vim",
+      "status": "candidate-context",
+      "text": "Fuzzbox extension for yegappan/lsp"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fuzzbox/fuzzbox-lsp.vim",
+      "status": "candidate-context",
+      "text": "An extension for [fuzzbox.vim](https://github.com/vim-fuzzbox/fuzzbox.vim) that"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "habamax/vim-select",
+      "status": "candidate-context",
+      "text": "Vim fuzzy file/buffer/mru selector plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "habamax/vim-select",
+      "status": "candidate-context",
+      "text": "Vim fuzzy file/buffer/mru selector plugin"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhawthorn/fzy",
+      "status": "candidate-context",
+      "text": ":mag: A simple, fast fuzzy finder for the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhawthorn/fzy",
+      "status": "candidate-context",
+      "text": "![fzy](http://i.hawth.ca/u/fzy-github.svg)"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +101,24 @@
       "source_repo": "alexpasmantier/television",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-fuzzbox/fuzzbox-lsp.vim",
+      "status": "candidate",
+      "text": "An extension for [fuzzbox.vim](https://github.com/vim-fuzzbox/fuzzbox.vim) that"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "habamax/vim-select",
+      "status": "candidate",
+      "text": "Vim fuzzy file/buffer/mru selector plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhawthorn/fzy",
+      "status": "candidate",
+      "text": "![fzy](http://i.hawth.ca/u/fzy-github.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -162,11 +216,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "alexpasmantier/television"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox-lsp.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "habamax/vim-select"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jhawthorn/fzy"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

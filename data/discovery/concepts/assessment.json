@@ -1,0 +1,122 @@
+{
+  "aliases": [
+    "assessment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xinntao/facexlib",
+      "status": "candidate-context",
+      "text": "FaceXlib aims at providing ready-to-use face-related functions based on current STOA open-source methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/facexlib",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/facexlib)](https://pypi.org/project/facexlib/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/facexlib",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/facexlib)](https://pypi.org/project/facexlib/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042555,
+      "status": "candidate",
+      "text": "appraisal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040878,
+      "status": "candidate",
+      "text": "judgement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039805,
+      "status": "candidate",
+      "text": "judgment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044823,
+      "status": "candidate",
+      "text": "assessor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044328,
+      "status": "candidate",
+      "text": "assessing"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27061,
+      "status": "candidate",
+      "text": "judgment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16057,
+      "status": "candidate",
+      "text": "appraisal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10032,
+      "status": "candidate",
+      "text": "judgement"
+    }
+  ],
+  "canonical_name": "assessment",
+  "concept_id": "assessment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xinntao/facexlib"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "assessment",
+      "sense_id": "assessment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -30,7 +30,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T09:16:58.449947+00:00",
+  "fetched_at": "2026-04-29T21:56:46.640896+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -47,7 +47,7 @@
   ],
   "related_repositories": [],
   "repo": {
-    "archived": false,
+    "archived": true,
     "default_branch": "main",
     "description": "Agentic components of the Llama Stack APIs",
     "fork": false,
@@ -55,9 +55,9 @@
     "html_url": "https://github.com/ogx-ai/llama-stack-apps",
     "language": null,
     "pushed_at": "2025-08-05T14:49:58Z",
-    "stargazers_count": 4300,
+    "stargazers_count": 4304,
     "topics": [],
-    "updated_at": "2026-04-23T19:58:06Z"
+    "updated_at": "2026-04-29T11:22:16Z"
   },
   "repo_links": [
     {

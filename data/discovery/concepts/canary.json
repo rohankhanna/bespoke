@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Canary"
+    "Canary",
+    "canary"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -43,6 +46,18 @@
       "source_repo": "Bearer/bearer",
       "status": "candidate-context",
       "text": "Canary"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-rollouts",
+      "status": "candidate-context",
+      "text": "Progressive Delivery for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-rollouts",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/gh/argoproj/argo-rollouts/branch/master/graph/badge.svg)](https://codecov.io/gh/argoproj/argo-rollouts)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +78,12 @@
       "source_repo": "Bearer/bearer",
       "status": "candidate",
       "text": "Canary"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-rollouts",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/gh/argoproj/argo-rollouts/branch/master/graph/badge.svg)](https://codecov.io/gh/argoproj/argo-rollouts)"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +181,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/canary.yml",
       "source_repo": "Bearer/bearer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "argoproj/argo-rollouts"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "endian"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dermesser/integer-encoding-rs",
+      "status": "candidate-context",
+      "text": "Integer encoding for primitive integer types: Supports varint/varint+zigzag and fixed-length integer encoding and decoding, and provides synchronous and asynchronous Write/Read types for easily writing/reading integers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dermesser/integer-encoding-rs",
+      "status": "candidate-context",
+      "text": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dermesser/integer-encoding-rs",
+      "status": "candidate",
+      "text": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027691,
+      "status": "candidate",
+      "text": "little-endian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027690,
+      "status": "candidate",
+      "text": "big-endian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027689,
+      "status": "candidate",
+      "text": "bi-endian"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10027688,
+      "status": "candidate",
+      "text": "bytesexual"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "endian",
+  "concept_id": "endian",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dermesser/integer-encoding-rs"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "endian",
+      "sense_id": "endian#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

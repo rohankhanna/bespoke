@@ -7,7 +7,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -117,6 +119,30 @@
       "source_repo": "ROCm/rocm-libraries",
       "status": "candidate-context",
       "text": "clang-tidy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate-context",
+      "text": "Goal: Enable awesome tooling for Bazel users of the C language family."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sail-sg/envpool",
+      "status": "candidate-context",
+      "text": "C++-based high-performance parallel environment execution engine (vectorized env) for general RL environments."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/envpool",
+      "status": "candidate-context",
+      "text": "Clang-Tidy"
     }
   ],
   "candidate_glosses": [
@@ -173,6 +199,18 @@
       "source_repo": "ROCm/rocm-libraries",
       "status": "candidate",
       "text": "clang-tidy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/envpool",
+      "status": "candidate",
+      "text": "Clang-Tidy"
     }
   ],
   "candidate_related_terms": [
@@ -276,11 +314,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/clang-tidy.yml",
       "source_repo": "ROCm/rocm-libraries"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "sail-sg/envpool"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -579,6 +579,114 @@
       "source_repo": "octodns/octodns",
       "status": "candidate-context",
       "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spack/spack",
+      "status": "candidate-context",
+      "text": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate-context",
+      "text": "A unified inference and post-training framework for accelerated video generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate-context",
+      "text": "Close Stale Issues and PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MagicMirrorOrg/MagicMirror",
+      "status": "candidate-context",
+      "text": "MagicMirror\u00b2 is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror\u00b2 allows you to convert your hallway or bathroom mirror into your personal assistant."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicMirrorOrg/MagicMirror",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/operator-lifecycle-manager",
+      "status": "candidate-context",
+      "text": "A management framework for extending Kubernetes with Operators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-lifecycle-manager",
+      "status": "candidate-context",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "praw-dev/praw",
+      "status": "candidate-context",
+      "text": "PRAW, an acronym for \"Python Reddit API Wrapper\", is a python package that allows for simple access to Reddit's API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "praw-dev/praw",
+      "status": "candidate-context",
+      "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "status": "candidate-context",
+      "text": "Sarasa Gothic / \u66f4\u7eb1\u9ed1\u4f53 / \u66f4\u7d17\u9ed1\u9ad4 / \u66f4\u7d17\u30b4\u30b7\u30c3\u30af / \uc0ac\ub77c\uc0ac \uace0\ub515"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/seatunnel-tools",
+      "status": "candidate-context",
+      "text": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-tools",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate-context",
+      "text": "Spack's community package recipes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adonisjs/core",
+      "status": "candidate-context",
+      "text": "AdonisJS is a TypeScript-first web framework for building web apps and API servers. It comes with support for testing, modern tooling, an ecosystem of official packages, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adonisjs/core",
+      "status": "candidate-context",
+      "text": "'Close stale issues and PRs'"
     }
   ],
   "candidate_glosses": [
@@ -861,6 +969,60 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "octodns/octodns",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate",
+      "text": "Close Stale Issues and PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicMirrorOrg/MagicMirror",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-lifecycle-manager",
+      "status": "candidate",
+      "text": "\"Close stale issues and PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "praw-dev/praw",
+      "status": "candidate",
+      "text": "Close stale issues and PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-tools",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate",
+      "text": "'Close stale issues and PRs'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adonisjs/core",
       "status": "candidate",
       "text": "'Close stale issues and PRs'"
     }
@@ -1236,11 +1398,83 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/close-stale.yml",
       "source_repo": "jestjs/jest"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "spack/spack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/community-stale.yml",
+      "source_repo": "hao-ai-lab/FastVideo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "MagicMirrorOrg/MagicMirror"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "operator-framework/operator-lifecycle-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale_action.yml",
+      "source_repo": "praw-dev/praw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "be5invis/Sarasa-Gothic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "apache/seatunnel-tools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "spack/spack-packages"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "adonisjs/core"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

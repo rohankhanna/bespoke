@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " Data, code & materials from the paper \"Generalisation in humans and deep neural networks\" (NeurIPS 2018)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Would you like to test how well your own model performs on challenging generalisation tests, and whether it might even match or outperform human observers? This has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-h\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Would you like to test how well your own model performs on challenging generalisation tests, and whether it might even match or outperform human observers? This has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-h\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028273,
+      "status": "candidate",
+      "text": "generalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025315,
+      "status": "candidate",
+      "text": "generality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021654,
+      "status": "candidate",
+      "text": "mainstreaming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30021047,
+      "status": "candidate",
+      "text": "universalization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30019230,
+      "status": "candidate",
+      "text": "prevalence"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "generalisation",
+      "sense_id": "generalisation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "generalisation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "generalisation",
+  "observation_id": "acfe37a9de576cc0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "generalisation",
+  "source_context_snippet": "Would you like to test how well your own model performs on challenging generalisation tests, and whether it might even match or outperform human observers? This has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-h\u2026",
+  "source_file": null,
+  "source_repo": "rgeirhos/generalisation-humans-DNNs",
+  "source_repo_description": " Data, code & materials from the paper \"Generalisation in humans and deep neural networks\" (NeurIPS 2018)"
+}

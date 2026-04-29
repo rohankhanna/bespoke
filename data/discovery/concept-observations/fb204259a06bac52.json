@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Integer encoding for primitive integer types: Supports varint/varint+zigzag and fixed-length integer encoding and decoding, and provides synchronous and asynchronous Write/Read types for easily writing/reading integers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021041,
+      "status": "candidate",
+      "text": "unsignedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021040,
+      "status": "candidate",
+      "text": "endogeneity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021039,
+      "status": "candidate",
+      "text": "euclideanness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021038,
+      "status": "candidate",
+      "text": "indentedness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021037,
+      "status": "candidate",
+      "text": "signedness"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "endianness",
+      "sense_id": "endianness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "endianness",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "endianness",
+  "observation_id": "fb204259a06bac52",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "endianness",
+  "source_context_snippet": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)",
+  "source_file": null,
+  "source_repo": "dermesser/integer-encoding-rs",
+  "source_repo_description": "Integer encoding for primitive integer types: Supports varint/varint+zigzag and fixed-length integer encoding and decoding, and provides synchronous and asynchronous Write/Read types for easily writing/reading integers."
+}

@@ -1,0 +1,482 @@
+{
+  "components": [
+    {
+      "component": "chalk",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv-expand",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "proxyquire",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "publish-me-maybe",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "sinon-chai",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "serverless",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "coverallsapp/github-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/github-script@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment-created.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-cron.yml"
+    },
+    {
+      "component": "actions/labeler@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-node-dependency-updates.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-node-dependency-updates.yml"
+    },
+    {
+      "component": "neverendingqs/gh-action-node-update-deps@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-node-dependency-updates.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-new-npm-package-releases-change.yml"
+    },
+    {
+      "component": "neverendingqs/gh-action-tag-on-npm-version@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-new-npm-package-releases-change.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "neverendingqs/serverless-dotenv-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "dotenv-expand",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "proxyquire",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "publish-me-maybe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "sinon",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "sinon-chai",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "serverless",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "coverallsapp/github-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment-created.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "actions/github-script@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment-created.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "Issue Comments (Created).",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-cron.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-cron.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "Issues (Cron)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "actions/labeler@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "Release new version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-node-dependency-updates.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-node-dependency-updates.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled-node-dependency-updates.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "neverendingqs/gh-action-node-update-deps@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-node-dependency-updates.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "Scheduled Node Dependencies Update (npm)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-new-npm-package-releases-change.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-new-npm-package-releases-change.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "neverendingqs/gh-action-tag-on-npm-version@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-new-npm-package-releases-change.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "Tag new npm package releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "serverless-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "target": "serverless-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:55:28.364777+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15380
+    },
+    {
+      "path": "package.json",
+      "size": 1401
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1650
+    },
+    {
+      "path": ".github/workflows/issue_comment-created.yml",
+      "size": 1280
+    },
+    {
+      "path": ".github/workflows/issues-cron.yml",
+      "size": 730
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 296
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 779
+    },
+    {
+      "path": ".github/workflows/scheduled-node-dependency-updates.yml",
+      "size": 485
+    },
+    {
+      "path": ".github/workflows/tag-new-npm-package-releases-change.yml",
+      "size": 309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Preload Environment Variables with Dotenv into Serverless",
+    "fork": false,
+    "full_name": "neverendingqs/serverless-dotenv-plugin",
+    "html_url": "https://github.com/neverendingqs/serverless-dotenv-plugin",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-01T16:02:27Z",
+    "stargazers_count": 351,
+    "topics": [
+      "serverless-framework",
+      "serverless-plugin"
+    ],
+    "updated_at": "2026-04-04T08:21:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "neverendingqs/serverless-dotenv-example",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Issue Comments (Created).",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment-created.yml",
+      "term": "Issue Comments (Created)."
+    },
+    {
+      "context_snippet": "Issues (Cron)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues-cron.yml",
+      "term": "Issues (Cron)"
+    },
+    {
+      "context_snippet": "Pull Request Labeler",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "Release new version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release new version"
+    },
+    {
+      "context_snippet": "Scheduled Node Dependencies Update (npm)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled-node-dependency-updates.yml",
+      "term": "Scheduled Node Dependencies Update (npm)"
+    },
+    {
+      "context_snippet": "Tag new npm package releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-new-npm-package-releases-change.yml",
+      "term": "Tag new npm package releases"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/neverendingqs/serverless-dotenv-plugin/workflows/CI/badge.svg)](https://github.com/neverendingqs/serverless-dotenv-plugin/actions?query=workflow%3ACI+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-framework"
+    },
+    {
+      "context_snippet": "[![CI](https://github.com/neverendingqs/serverless-dotenv-plugin/workflows/CI/badge.svg)](https://github.com/neverendingqs/serverless-dotenv-plugin/actions?query=workflow%3ACI+branch%3Amaster)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-plugin"
+    }
+  ]
+}

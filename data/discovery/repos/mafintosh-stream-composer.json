@@ -1,0 +1,111 @@
+{
+  "components": [
+    {
+      "component": "streamx",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "brittle",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-node.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-node.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mafintosh/stream-composer",
+      "target": "streamx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mafintosh/stream-composer",
+      "target": "brittle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mafintosh/stream-composer",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-node.yml",
+      "source_repo": "mafintosh/stream-composer",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-node.yml",
+      "source_repo": "mafintosh/stream-composer",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-node.yml",
+      "source_repo": "mafintosh/stream-composer",
+      "target": "Build Status",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:50:13.742993+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1661
+    },
+    {
+      "path": "package.json",
+      "size": 619
+    },
+    {
+      "path": ".github/workflows/test-node.yml",
+      "size": 498
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Modern stream composer",
+    "fork": false,
+    "full_name": "mafintosh/stream-composer",
+    "html_url": "https://github.com/mafintosh/stream-composer",
+    "language": "JavaScript",
+    "pushed_at": "2023-06-01T00:23:20Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-10-28T23:19:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Status",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-node.yml",
+      "term": "Build Status"
+    }
+  ]
+}

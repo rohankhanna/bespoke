@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Bump"
+    "Bump",
+    "bump"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "AIPexStudio/AIPex",
       "status": "candidate-context",
       "text": "Bump"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automate versioning and package publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "AIPexStudio/AIPex",
       "status": "candidate",
       "text": "Bump"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +133,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/bump.yml",
       "source_repo": "AIPexStudio/AIPex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "release-it/release-it"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

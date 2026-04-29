@@ -31,6 +31,18 @@
       "source_repo": "alex000kim/nsfw_data_scraper",
       "status": "candidate-context",
       "text": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate-context",
+      "text": "A free, open source, and privacy-focused browser extension to block \u201cnot safe for work\u201d content built using TypeScript and TensorFlow.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate-context",
+      "text": "A free, open source, and privacy-focused browser extension to block \"not safe for work\" content."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "alex000kim/nsfw_data_scraper",
       "status": "candidate",
       "text": "This is a set of scripts that allows for an automatic collection of _tens of thousands_ of images for the following (loosely defined) categories to be later used for training an image classifier:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate",
+      "text": "A free, open source, and privacy-focused browser extension to block \"not safe for work\" content."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "alex000kim/nsfw_data_scraper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alex000kim/nsfw_data_scraper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "@plone/scripts",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@release-it/conventional-changelog",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "release-it",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "affinitic/volto-icon-selector-widget",
+      "target": "@plone/scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "affinitic/volto-icon-selector-widget",
+      "target": "@release-it/conventional-changelog",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "affinitic/volto-icon-selector-widget",
+      "target": "release-it",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:44:21.213311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1349
+    },
+    {
+      "path": "package.json",
+      "size": 830
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "affinitic/volto-icon-selector-widget",
+    "html_url": "https://github.com/affinitic/volto-icon-selector-widget",
+    "language": "JavaScript",
+    "pushed_at": "2024-08-28T09:34:03Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-08-28T09:34:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

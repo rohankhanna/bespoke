@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "ncipollo/release-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "kubernetes-sigs/apiserver-runtime",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "kubernetes-sigs/apiserver-runtime",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "kubernetes-sigs/apiserver-runtime",
+      "target": "golangci/golangci-lint-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/apiserver-runtime",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/apiserver-runtime",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/apiserver-runtime",
+      "target": "ncipollo/release-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kubernetes-sigs/apiserver-runtime",
+      "target": "GoRelease",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/apiserver-runtime",
+      "target": "apiserver-aggregation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/apiserver-runtime",
+      "target": "k8s-sig-api-machinery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/apiserver-runtime",
+      "target": "server-sdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:38:28.270934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2295
+    },
+    {
+      "path": "go.mod",
+      "size": 14667
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 790
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1004
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Libraries for implementing aggregated apiservers",
+    "fork": false,
+    "full_name": "kubernetes-sigs/apiserver-runtime",
+    "html_url": "https://github.com/kubernetes-sigs/apiserver-runtime",
+    "language": "Go",
+    "pushed_at": "2026-04-23T00:04:13Z",
+    "stargazers_count": 92,
+    "topics": [
+      "apiserver-aggregation",
+      "k8s-sig-api-machinery",
+      "server-sdk"
+    ],
+    "updated_at": "2026-04-07T01:37:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GoRelease",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "GoRelease"
+    },
+    {
+      "context_snippet": "**Note**: This project is Alpha with no commitments from its maintainers to provide any sort of support.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apiserver-aggregation"
+    },
+    {
+      "context_snippet": "**Note**: This project is Alpha with no commitments from its maintainers to provide any sort of support.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-api-machinery"
+    },
+    {
+      "context_snippet": "**Note**: This project is Alpha with no commitments from its maintainers to provide any sort of support.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server-sdk"
+    }
+  ]
+}

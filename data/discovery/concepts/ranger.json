@@ -19,6 +19,18 @@
       "source_repo": "kevinhwang91/rnvimr",
       "status": "candidate-context",
       "text": "Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "Passionately Crafted CLI Setup \ud83d\udc27\u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kevinhwang91/rnvimr",
       "status": "candidate",
       "text": "Rnvimr is a NeoVim plugin that allows you to use Ranger in a floating window."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -105,11 +123,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "kevinhwang91/rnvimr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/dots2k"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

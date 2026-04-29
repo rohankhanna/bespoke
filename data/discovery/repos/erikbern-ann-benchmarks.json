@@ -1,0 +1,164 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikbern/ann-benchmarks",
+      "target": "aaalgo/kgraph",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikbern/ann-benchmarks",
+      "target": "brj0/nndescent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikbern/ann-benchmarks",
+      "target": "alexklibisz/elastiknn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "erikbern/ann-benchmarks",
+      "target": "antgroup/vsag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "erikbern/ann-benchmarks",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "erikbern/ann-benchmarks",
+      "target": "ANN benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikbern/ann-benchmarks",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikbern/ann-benchmarks",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "erikbern/ann-benchmarks",
+      "target": "nearest-neighbors",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:55:04.311823+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17342
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 62
+    },
+    {
+      "path": "requirements.txt",
+      "size": 186
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 3051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Benchmarks of approximate nearest neighbor libraries in Python",
+    "fork": false,
+    "full_name": "erikbern/ann-benchmarks",
+    "html_url": "https://github.com/erikbern/ann-benchmarks",
+    "language": "Python",
+    "pushed_at": "2025-06-10T02:05:22Z",
+    "stargazers_count": 5653,
+    "topics": [
+      "benchmark",
+      "docker",
+      "nearest-neighbors"
+    ],
+    "updated_at": "2026-04-29T14:06:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aaalgo/kgraph",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexklibisz/elastiknn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antgroup/vsag",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "brj0/nndescent",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ANN benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "ANN benchmarks"
+    },
+    {
+      "context_snippet": "Benchmarking nearest neighbors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "Benchmarking nearest neighbors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "Benchmarking nearest neighbors",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nearest-neighbors"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "spotifyd"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate-context",
+      "text": "A spotify daemon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate-context",
+      "text": "[![Matrix][matrix-badge]](https://matrix.to/#/#spotifyd:matrix.org)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate",
+      "text": "[![Matrix][matrix-badge]](https://matrix.to/#/#spotifyd:matrix.org)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "spotifyd",
+  "concept_id": "spotifyd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Spotifyd/spotifyd"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spotifyd",
+      "sense_id": "spotifyd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

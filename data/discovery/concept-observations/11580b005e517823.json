@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Similarities: a toolkit for similarity calculation and semantic search. \u76f8\u4f3c\u5ea6\u8ba1\u7b97\u3001\u5339\u914d\u641c\u7d22\u5de5\u5177\u5305\uff0c\u652f\u6301\u4ebf\u7ea7\u6570\u636e\u6587\u641c\u6587\u3001\u6587\u641c\u56fe\u3001\u56fe\u641c\u56fe\uff0cpython3\u5f00\u53d1\uff0c\u5f00\u7bb1\u5373\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "similarity-search",
+      "sense_id": "similarity-search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "similarity-search",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "similarity-search",
+  "observation_id": "11580b005e517823",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "similarity-search",
+  "source_context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+  "source_file": null,
+  "source_repo": "shibing624/similarities",
+  "source_repo_description": "Similarities: a toolkit for similarity calculation and semantic search. \u76f8\u4f3c\u5ea6\u8ba1\u7b97\u3001\u5339\u914d\u641c\u7d22\u5de5\u5177\u5305\uff0c\u652f\u6301\u4ebf\u7ea7\u6570\u636e\u6587\u641c\u6587\u3001\u6587\u641c\u56fe\u3001\u56fe\u641c\u56fe\uff0cpython3\u5f00\u53d1\uff0c\u5f00\u7bb1\u5373\u7528\u3002"
+}

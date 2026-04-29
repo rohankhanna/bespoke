@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "icmp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/blackbox_exporter",
+      "status": "candidate-context",
+      "text": "Blackbox prober exporter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/blackbox_exporter",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/prometheus/blackbox_exporter/tree/master.svg?style=shield)][circleci]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/blackbox_exporter",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/prometheus/blackbox_exporter/tree/master.svg?style=shield)][circleci]"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19972166,
+      "status": "candidate",
+      "text": "ices"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19972166,
+      "status": "candidate",
+      "text": "icpd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19972166,
+      "status": "candidate",
+      "text": "itac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19972165,
+      "status": "candidate",
+      "text": "ipv6"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19972164,
+      "status": "candidate",
+      "text": "ipv4"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "icmp",
+  "concept_id": "icmp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "prometheus/blackbox_exporter"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "icmp",
+      "sense_id": "icmp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

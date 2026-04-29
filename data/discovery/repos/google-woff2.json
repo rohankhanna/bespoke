@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:43:54.788041+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1721
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "google/woff2",
+    "html_url": "https://github.com/google/woff2",
+    "language": "C++",
+    "pushed_at": "2026-04-16T01:13:55Z",
+    "stargazers_count": 1773,
+    "topics": [],
+    "updated_at": "2026-04-28T03:19:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

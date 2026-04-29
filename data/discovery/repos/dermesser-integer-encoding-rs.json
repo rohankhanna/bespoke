@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dermesser/integer-encoding-rs",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dermesser/integer-encoding-rs",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dermesser/integer-encoding-rs",
+      "target": "Actions CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dermesser/integer-encoding-rs",
+      "target": "encoding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dermesser/integer-encoding-rs",
+      "target": "endian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dermesser/integer-encoding-rs",
+      "target": "endianness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dermesser/integer-encoding-rs",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dermesser/integer-encoding-rs",
+      "target": "varint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:45:15.809924+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2504
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1266
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Integer encoding for primitive integer types: Supports varint/varint+zigzag and fixed-length integer encoding and decoding, and provides synchronous and asynchronous Write/Read types for easily writing/reading integers.",
+    "fork": false,
+    "full_name": "dermesser/integer-encoding-rs",
+    "html_url": "https://github.com/dermesser/integer-encoding-rs",
+    "language": "Rust",
+    "pushed_at": "2025-10-28T19:40:03Z",
+    "stargazers_count": 70,
+    "topics": [
+      "encoding",
+      "endian",
+      "endianness",
+      "rust",
+      "varint"
+    ],
+    "updated_at": "2026-04-07T13:59:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Actions CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Actions CI"
+    },
+    {
+      "context_snippet": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoding"
+    },
+    {
+      "context_snippet": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "endian"
+    },
+    {
+      "context_snippet": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "endianness"
+    },
+    {
+      "context_snippet": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "varint"
+    }
+  ]
+}

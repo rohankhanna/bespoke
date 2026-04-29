@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Promise based HTTP client for the browser and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Update readme sponsor block"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Update readme sponsor block"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32320,
+      "status": "candidate",
+      "text": "notepad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32102,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32023,
+      "status": "candidate",
+      "text": "save"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21919,
+      "status": "candidate",
+      "text": "check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21919,
+      "status": "candidate",
+      "text": "checking"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update readme sponsor block",
+      "sense_id": "update-readme-sponsor-block#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "update-readme-sponsor-block",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "update-readme-sponsor-block",
+  "observation_id": "8a87a06933f644bd",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Update readme sponsor block",
+  "source_context_snippet": "Update readme sponsor block",
+  "source_file": ".github/workflows/update-sponsor-block.yml",
+  "source_repo": "axios/axios",
+  "source_repo_description": "Promise based HTTP client for the browser and node.js"
+}

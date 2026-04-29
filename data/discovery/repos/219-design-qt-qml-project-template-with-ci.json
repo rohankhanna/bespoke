@@ -1,0 +1,391 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmakebuild_linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmakebuild_linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmakebuild_linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmakebuild_linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmakebuild_linux.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmakebuild_windows.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cookiecutter.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac2023.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify_authors.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "miurahr/aqtinstall",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "qbs/qbs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmakebuild_linux.yml",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmakebuild_linux.yml",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmakebuild_windows.yml",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cookiecutter.yml",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cookiecutter.yml",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "Cookiecutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mac2023.yml",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify_authors.yml",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "android-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "cookiecutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "cookiecutter-cpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "cookiecutter-qt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "cookiecutter-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "github-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "gui-test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "project-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "qmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "qt-android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "target": "template-project",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:49:20.116568+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8666
+    },
+    {
+      "path": ".github/workflows/cmakebuild_linux.yml",
+      "size": 3355
+    },
+    {
+      "path": ".github/workflows/cmakebuild_windows.yml",
+      "size": 523
+    },
+    {
+      "path": ".github/workflows/cookiecutter.yml",
+      "size": 1311
+    },
+    {
+      "path": ".github/workflows/mac2023.yml",
+      "size": 219
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2140
+    },
+    {
+      "path": ".github/workflows/verify_authors.yml",
+      "size": 917
+    },
+    {
+      "path": ".github/workflows/windows.yml",
+      "size": 556
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Template for a Qt/QML application with batteries included: GitHub C.I. for QML apps; ASan/UBSan; automated GUI testing with Xvfb; automatic code-format checks; and more. Compiles for Desktop and Mobile (Linux, Mac, Windows, Android, iOS).",
+    "fork": false,
+    "full_name": "219-design/qt-qml-project-template-with-ci",
+    "html_url": "https://github.com/219-design/qt-qml-project-template-with-ci",
+    "language": "QML",
+    "pushed_at": "2026-03-14T17:45:07Z",
+    "stargazers_count": 63,
+    "topics": [
+      "android-application",
+      "cmake",
+      "cookiecutter",
+      "cookiecutter-cpp",
+      "cookiecutter-qt",
+      "cookiecutter-template",
+      "github-template",
+      "gui-test",
+      "project-template",
+      "qmake",
+      "qml",
+      "qt",
+      "qt-android",
+      "qt6",
+      "template-project"
+    ],
+    "updated_at": "2026-03-31T07:52:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miurahr/aqtinstall",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qbs/qbs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cookiecutter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cookiecutter.yml",
+      "term": "Cookiecutter"
+    },
+    {
+      "context_snippet": "A template for building a Qt/QML application with **many batteries included**,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android-application"
+    },
+    {
+      "context_snippet": "A template for building a Qt/QML application with **many batteries included**,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "A template for building a Qt/QML application with **many batteries included**,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter"
+    },
+    {
+      "context_snippet": "A template for building a Qt/QML application with **many batteries included**,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter-cpp"
+    },
+    {
+      "context_snippet": "A template for building a Qt/QML application with **many batteries included**,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter-qt"
+    },
+    {
+      "context_snippet": "A template for building a Qt/QML application with **many batteries included**,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter-template"
+    },
+    {
+      "context_snippet": "A template for building a Qt/QML application with **many batteries included**,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-template"
+    },
+    {
+      "context_snippet": "A template for building a Qt/QML application with **many batteries included**,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gui-test"
+    },
+    {
+      "context_snippet": "A template for building a Qt/QML application with **many batteries included**,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project-template"
+    },
+    {
+      "context_snippet": "A template for building a Qt/QML application with **many batteries included**,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qmake"
+    },
+    {
+      "context_snippet": "A template for building a Qt/QML application with **many batteries included**,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qt-android"
+    },
+    {
+      "context_snippet": "A template for building a Qt/QML application with **many batteries included**,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template-project"
+    }
+  ]
+}

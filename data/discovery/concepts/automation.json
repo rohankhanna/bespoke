@@ -454,6 +454,90 @@
       "source_repo": "CVEProject/automation-working-group",
       "status": "candidate-context",
       "text": "The Automation Working Group seeks to leverage automation technologies to reduce the workload related to reporting and managing vulnerabilities with an open data model. In this repository you will find mostly \"logistics\" related to the execution of the AWG objectives, specifical\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automate versioning and package publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chef/chef",
+      "status": "candidate-context",
+      "text": "Chef Infra, a powerful automation platform that transforms infrastructure into code automating how infrastructure is configured, deployed and managed across any environment, at any scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/chef",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://badge.buildkite.com/c82093430ceec7d27af05febb9dcafe3aa331fff9d74c0ab9d.svg?branch=main)](https://buildkite.com/chef-oss/chef-chef-main-verify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "input-output-hk/cicero",
+      "status": "candidate-context",
+      "text": "event-driven automation for Nomad"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "input-output-hk/cicero",
+      "status": "candidate-context",
+      "text": "Cicero is an action execution engine."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate-context",
+      "text": "The collection includes a variety of Ansible content to help automate the management of applications in Kubernetes and OpenShift clusters, as well as the provisioning and maintenance of clusters themselves."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate-context",
+      "text": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ariya/phantomjs",
+      "status": "candidate-context",
+      "text": "Scriptable Headless Browser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ariya/phantomjs",
+      "status": "candidate-context",
+      "text": "PhantomJS ([phantomjs.org](http://phantomjs.org)) is a headless WebKit scriptable with JavaScript. The latest [stable release](http://phantomjs.org/release-2.1.html) is version 2.1."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate-context",
+      "text": "Automate browser based workflows with AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate-context",
+      "text": "<!-- DOCTOC SKIP -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-devops",
+      "status": "candidate-context",
+      "text": "\ud83d\udea7 Learn the craft of \"DevOps\" (Developer Operations) to Deploy your App and Monitor it so it stays \"Up\"! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-devops",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -672,6 +756,48 @@
       "source_repo": "CVEProject/automation-working-group",
       "status": "candidate",
       "text": "The Automation Working Group seeks to leverage automation technologies to reduce the workload related to reporting and managing vulnerabilities with an open data model. In this repository you will find mostly \"logistics\" related to the execution of the AWG objectives, specifical\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/chef",
+      "status": "candidate",
+      "text": "[![Build Status](https://badge.buildkite.com/c82093430ceec7d27af05febb9dcafe3aa331fff9d74c0ab9d.svg?branch=main)](https://buildkite.com/chef-oss/chef-chef-main-verify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "input-output-hk/cicero",
+      "status": "candidate",
+      "text": "Cicero is an action execution engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate",
+      "text": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ariya/phantomjs",
+      "status": "candidate",
+      "text": "PhantomJS ([phantomjs.org](http://phantomjs.org)) is a headless WebKit scriptable with JavaScript. The latest [stable release](http://phantomjs.org/release-2.1.html) is version 2.1."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate",
+      "text": "<!-- DOCTOC SKIP -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-devops",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1032,11 +1158,59 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "CVEProject/automation-working-group"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "release-it/release-it"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chef/chef"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "input-output-hk/cicero"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ansible-collections/kubernetes.core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ariya/phantomjs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Skyvern-AI/skyvern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-devops"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

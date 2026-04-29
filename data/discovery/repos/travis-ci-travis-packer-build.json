@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "travis-ci/travis-packer-build",
+      "target": "travis-infrastructure/packer-build",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:55:22.880565+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 171
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":package: :construction: ",
+    "fork": false,
+    "full_name": "travis-ci/travis-packer-build",
+    "html_url": "https://github.com/travis-ci/travis-packer-build",
+    "language": "Ruby",
+    "pushed_at": "2024-01-02T14:48:05Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-09-11T08:19:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "travis-infrastructure/packer-build",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

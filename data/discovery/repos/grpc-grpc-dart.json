@@ -1,0 +1,222 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml"
+    },
+    {
+      "component": "dart-lang/ecosystem/.github/workflows/health.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health.yaml"
+    },
+    {
+      "component": "dart-lang/ecosystem/.github/workflows/post_summaries.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_summaries.yaml"
+    },
+    {
+      "component": "dart-lang/ecosystem/.github/workflows/publish.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grpc/grpc-dart",
+      "target": "grpc/grpc-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grpc/grpc-dart",
+      "target": "dart-lang/grpc-dart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "grpc/grpc-dart",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "grpc/grpc-dart",
+      "target": "dart-lang/setup-dart@e51d8e571e22473a2ddebf0ef8a2123f0ab2c02c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "grpc/grpc-dart",
+      "target": "Dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "grpc/grpc-dart",
+      "target": "dart-lang/ecosystem/.github/workflows/health.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "grpc/grpc-dart",
+      "target": "Health",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/post_summaries.yaml",
+      "source_repo": "grpc/grpc-dart",
+      "target": "dart-lang/ecosystem/.github/workflows/post_summaries.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post_summaries.yaml",
+      "source_repo": "grpc/grpc-dart",
+      "target": "Comment on the pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "grpc/grpc-dart",
+      "target": "dart-lang/ecosystem/.github/workflows/publish.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "source_repo": "grpc/grpc-dart",
+      "target": "Publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc/grpc-dart",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc/grpc-dart",
+      "target": "grpc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:54:07.531588+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1255
+    },
+    {
+      "path": ".github/workflows/dart.yml",
+      "size": 3132
+    },
+    {
+      "path": ".github/workflows/health.yaml",
+      "size": 315
+    },
+    {
+      "path": ".github/workflows/post_summaries.yaml",
+      "size": 456
+    },
+    {
+      "path": ".github/workflows/publish.yaml",
+      "size": 346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Dart language implementation of gRPC.",
+    "fork": false,
+    "full_name": "grpc/grpc-dart",
+    "html_url": "https://github.com/grpc/grpc-dart",
+    "language": "Dart",
+    "pushed_at": "2026-02-01T04:22:30Z",
+    "stargazers_count": 886,
+    "topics": [
+      "dart",
+      "grpc"
+    ],
+    "updated_at": "2026-04-16T18:33:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dart-lang/grpc-dart",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grpc/grpc-web",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dart",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dart.yml",
+      "term": "Dart"
+    },
+    {
+      "context_snippet": "Health",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/health.yaml",
+      "term": "Health"
+    },
+    {
+      "context_snippet": "Comment on the pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/post_summaries.yaml",
+      "term": "Comment on the pull request"
+    },
+    {
+      "context_snippet": "Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yaml",
+      "term": "Publish"
+    },
+    {
+      "context_snippet": "[![Dart](https://github.com/grpc/grpc-dart/actions/workflows/dart.yml/badge.svg)](https://github.com/grpc/grpc-dart/actions/workflows/dart.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "[![Dart](https://github.com/grpc/grpc-dart/actions/workflows/dart.yml/badge.svg)](https://github.com/grpc/grpc-dart/actions/workflows/dart.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grpc"
+    }
+  ]
+}

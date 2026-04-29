@@ -55,6 +55,18 @@
       "source_repo": "logpai/Drain3",
       "status": "candidate-context",
       "text": "Drain3 was moved to the `logpai` GitHub organization (which is also the home for the original Drain implementation). We always welcome more contributors and maintainers to join us and push the project forward. We welcome more contributions and variants of implementations if you \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "A High Performance HTTP Server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "logpai/Drain3",
       "status": "candidate",
       "text": "Drain3 was moved to the `logpai` GitHub organization (which is also the home for the original Drain implementation). We always welcome more contributors and maintainers to join us and push the project forward. We welcome more contributions and variants of implementations if you \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ohler55/agoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

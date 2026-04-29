@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udca5 Fast State-of-the-Art Tokenizers optimized for Research and Production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Delete doc comment trigger"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Delete doc comment trigger"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27553,
+      "status": "candidate",
+      "text": "scrub"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27418,
+      "status": "candidate",
+      "text": "strike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27399,
+      "status": "candidate",
+      "text": "cuts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27342,
+      "status": "candidate",
+      "text": "blot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27273,
+      "status": "candidate",
+      "text": "edge"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Delete doc comment trigger",
+      "sense_id": "delete-doc-comment-trigger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "delete-doc-comment-trigger",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "delete-doc-comment-trigger",
+  "observation_id": "0d6fb57af841e1a3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Delete doc comment trigger",
+  "source_context_snippet": "Delete doc comment trigger",
+  "source_file": ".github/workflows/delete_doc_comment_trigger.yml",
+  "source_repo": "huggingface/tokenizers",
+  "source_repo_description": "\ud83d\udca5 Fast State-of-the-Art Tokenizers optimized for Research and Production"
+}

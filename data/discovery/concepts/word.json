@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "word"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "high-moctane/mocword",
+      "status": "candidate-context",
+      "text": "Predict next words (\uff40\uff65\u03c9\uff65\u00b4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/mocword",
+      "status": "candidate-context",
+      "text": "[![Release](https://github.com/high-moctane/mocword/actions/workflows/release.yml/badge.svg)](https://github.com/high-moctane/mocword/actions/workflows/release.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/poi",
+      "status": "candidate-context",
+      "text": "Mirror of Apache POI gitbox. The Java API for Microsoft Documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/poi",
+      "status": "candidate-context",
+      "text": "A Java library for reading and writing Microsoft Office binary and OOXML file formats."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/mocword",
+      "status": "candidate",
+      "text": "[![Release](https://github.com/high-moctane/mocword/actions/workflows/release.yml/badge.svg)](https://github.com/high-moctane/mocword/actions/workflows/release.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/poi",
+      "status": "candidate",
+      "text": "A Java library for reading and writing Microsoft Office binary and OOXML file formats."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972497,
+      "status": "candidate",
+      "text": "phrase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972293,
+      "status": "candidate",
+      "text": "logos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971437,
+      "status": "candidate",
+      "text": "watchword"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968427,
+      "status": "candidate",
+      "text": "articulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39964573,
+      "status": "candidate",
+      "text": "formulate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 91043,
+      "status": "candidate",
+      "text": "articulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20030,
+      "status": "candidate",
+      "text": "formulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18038,
+      "status": "candidate",
+      "text": "discussion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11047,
+      "status": "candidate",
+      "text": "intelligence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9044,
+      "status": "candidate",
+      "text": "phrase"
+    }
+  ],
+  "canonical_name": "word",
+  "concept_id": "word",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "high-moctane/mocword"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/poi"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "word",
+      "sense_id": "word#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

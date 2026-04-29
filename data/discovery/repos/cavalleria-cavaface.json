@@ -1,0 +1,359 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cavalleria/cavaface",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cavalleria/cavaface",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cavalleria/cavaface",
+      "target": "cavalleria/cavaface.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cavalleria/cavaface",
+      "target": "osmr/imgclsmob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "amsoftmax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "apex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "arcface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "arcnegface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "attention-irse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "circleloss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "cosface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "curricularface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "dataparallel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "efficientnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "ghostnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "loss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "mixup",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "model-parallel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "randaugment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "resnest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface",
+      "target": "resnet-irse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:45:02.859722+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "face recognition training project(pytorch)",
+    "fork": false,
+    "full_name": "cavalleria/cavaface",
+    "html_url": "https://github.com/cavalleria/cavaface",
+    "language": "Python",
+    "pushed_at": "2021-11-12T08:01:36Z",
+    "stargazers_count": 485,
+    "topics": [
+      "amsoftmax",
+      "apex",
+      "arcface",
+      "arcnegface",
+      "attention-irse",
+      "circleloss",
+      "cosface",
+      "curricularface",
+      "dataparallel",
+      "efficientnet",
+      "face-recognition",
+      "ghostnet",
+      "loss",
+      "mixup",
+      "model-parallel",
+      "network",
+      "pytorch",
+      "randaugment",
+      "resnest",
+      "resnet-irse"
+    ],
+    "updated_at": "2026-04-16T01:21:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cavalleria/cavaface.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osmr/imgclsmob",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amsoftmax"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apex"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arcface"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arcnegface"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-irse"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "circleloss"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cosface"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curricularface"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataparallel"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficientnet"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-recognition"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghostnet"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "loss"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixup"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-parallel"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "network"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "randaugment"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnest"
+    },
+    {
+      "context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet-irse"
+    }
+  ]
+}

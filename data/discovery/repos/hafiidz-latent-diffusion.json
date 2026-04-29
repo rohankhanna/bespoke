@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hafiidz/latent-diffusion",
+      "target": "sd-webui/stable-diffusion-webui",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:47:44.305377+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2645
+    },
+    {
+      "path": "requirements.txt",
+      "size": 65
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-Resolution Image Synthesis with Latent Diffusion Models",
+    "fork": true,
+    "full_name": "hafiidz/latent-diffusion",
+    "html_url": "https://github.com/hafiidz/latent-diffusion",
+    "language": "Python",
+    "pushed_at": "2022-09-26T23:33:29Z",
+    "stargazers_count": 92,
+    "topics": [],
+    "updated_at": "2025-11-27T00:32:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sd-webui/stable-diffusion-webui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

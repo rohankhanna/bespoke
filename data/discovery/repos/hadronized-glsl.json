@@ -95,7 +95,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:56:28.839062+00:00",
+  "fetched_at": "2026-04-29T19:45:25.017538+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -120,7 +120,7 @@
     "html_url": "https://github.com/hadronized/glsl",
     "language": "Rust",
     "pushed_at": "2025-02-06T00:07:58Z",
-    "stargazers_count": 198,
+    "stargazers_count": 199,
     "topics": [
       "compiler",
       "glsl",
@@ -128,7 +128,7 @@
       "parser",
       "spir-v"
     ],
-    "updated_at": "2026-01-27T13:12:21Z"
+    "updated_at": "2026-04-26T22:32:46Z"
   },
   "repo_links": [],
   "terms": [

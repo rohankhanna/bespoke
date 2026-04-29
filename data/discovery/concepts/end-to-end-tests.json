@@ -4,7 +4,8 @@
     "End to end tests",
     "End to end Tests",
     "End-to-End Tests",
-    "End-to-end Tests"
+    "End-to-end Tests",
+    "End to End tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -83,6 +84,18 @@
       "source_repo": "SemiAnalysisAI/InferenceX",
       "status": "candidate-context",
       "text": "End-to-End Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate-context",
+      "text": "Java SDK for building Kubernetes Operators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate-context",
+      "text": "End to End tests"
     }
   ],
   "candidate_glosses": [
@@ -121,6 +134,12 @@
       "source_repo": "SemiAnalysisAI/InferenceX",
       "status": "candidate",
       "text": "End-to-End Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate",
+      "text": "End to End tests"
     }
   ],
   "candidate_related_terms": [
@@ -253,11 +272,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/e2e-tests.yml",
       "source_repo": "SemiAnalysisAI/InferenceX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "operator-framework/java-operator-sdk"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -30,6 +30,27 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "Code Style Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "argotorg/solidity",
       "target": "actions/stale@3a9db7e6a41a89f618792c92c0e97cc736e1b13f",
@@ -99,6 +120,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "argotorg/solidity"
 }

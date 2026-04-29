@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:56:02.218876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 531
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "blink current search match",
+    "fork": false,
+    "full_name": "ivyl/vim-bling",
+    "html_url": "https://github.com/ivyl/vim-bling",
+    "language": "Vim script",
+    "pushed_at": "2022-07-27T20:53:08Z",
+    "stargazers_count": 48,
+    "topics": [],
+    "updated_at": "2024-02-13T11:07:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

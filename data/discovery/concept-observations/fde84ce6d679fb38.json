@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bitwarden mobile apps (Password Manager and Authenticator) for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish Authenticator GitHub Release as newest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish Authenticator GitHub Release as newest"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26327,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23616,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21639,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21639,
+      "status": "candidate",
+      "text": "launch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21616,
+      "status": "candidate",
+      "text": "power line"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Authenticator GitHub Release as newest",
+      "sense_id": "publish-authenticator-github-release-as-newest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-authenticator-github-release-as-newest",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-authenticator-github-release-as-newest",
+  "observation_id": "fde84ce6d679fb38",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Publish Authenticator GitHub Release as newest",
+  "source_context_snippet": "Publish Authenticator GitHub Release as newest",
+  "source_file": ".github/workflows/publish-github-release-bwa.yml",
+  "source_repo": "bitwarden/android",
+  "source_repo_description": "Bitwarden mobile apps (Password Manager and Authenticator) for Android."
+}

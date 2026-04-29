@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bootstrapping"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bootstrapping"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987592,
+      "status": "candidate",
+      "text": "initialize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29987396,
+      "status": "candidate",
+      "text": "bootup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986377,
+      "status": "candidate",
+      "text": "init"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29952338,
+      "status": "candidate",
+      "text": "initializer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29952058,
+      "status": "candidate",
+      "text": "initialisation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bootstrapping",
+      "sense_id": "bootstrapping#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bootstrapping",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bootstrapping",
+  "observation_id": "e8a7a35d4a47f0ee",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Bootstrapping",
+  "source_context_snippet": "Bootstrapping",
+  "source_file": ".github/workflows/bootstrap.yml",
+  "source_repo": "spack/spack",
+  "source_repo_description": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers."
+}

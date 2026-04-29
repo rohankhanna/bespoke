@@ -1,0 +1,384 @@
+{
+  "components": [
+    {
+      "component": "PFCCLab/ci-bypass@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-bypass.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PaddleFormers-PR-Check.yml",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "PaddleFormers PR Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approval.yml",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "Approval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-bypass.yml",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "PFCCLab/ci-bypass@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/distribute-a100.yml",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "Distribute CI (A100)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/distribute-v100.yml",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "Distribute CI (V100)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "Codestyle Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llm.yml",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "LLM CI (DISABLED)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "distributed-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "document-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "embedding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "ernie",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "information-extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "neural-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "paddlenlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "search-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "semantic-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "sentiment-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:51:01.776638+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32110
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 885
+    },
+    {
+      "path": "requirements.txt",
+      "size": 491
+    },
+    {
+      "path": ".github/workflows/PaddleFormers-PR-Check.yml",
+      "size": 1508
+    },
+    {
+      "path": ".github/workflows/approval.yml",
+      "size": 1485
+    },
+    {
+      "path": ".github/workflows/check-bypass.yml",
+      "size": 1462
+    },
+    {
+      "path": ".github/workflows/distribute-a100.yml",
+      "size": 7705
+    },
+    {
+      "path": ".github/workflows/distribute-v100.yml",
+      "size": 7198
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 4164
+    },
+    {
+      "path": ".github/workflows/llm.yml",
+      "size": 9086
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Easy-to-use and powerful LLM and SLM library with awesome model zoo.",
+    "fork": false,
+    "full_name": "PaddlePaddle/PaddleNLP",
+    "html_url": "https://github.com/PaddlePaddle/PaddleNLP",
+    "language": "Python",
+    "pushed_at": "2025-12-17T09:19:22Z",
+    "stargazers_count": 12935,
+    "topics": [
+      "bert",
+      "compression",
+      "distributed-training",
+      "document-intelligence",
+      "embedding",
+      "ernie",
+      "information-extraction",
+      "llama",
+      "llm",
+      "neural-search",
+      "nlp",
+      "paddlenlp",
+      "pretrained-models",
+      "question-answering",
+      "search-engine",
+      "semantic-analysis",
+      "sentiment-analysis",
+      "transformers",
+      "uie"
+    ],
+    "updated_at": "2026-04-29T09:40:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "PaddleFormers PR Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PaddleFormers-PR-Check.yml",
+      "term": "PaddleFormers PR Check"
+    },
+    {
+      "context_snippet": "Approval",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/approval.yml",
+      "term": "Approval"
+    },
+    {
+      "context_snippet": "Distribute CI (A100)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/distribute-a100.yml",
+      "term": "Distribute CI (A100)"
+    },
+    {
+      "context_snippet": "Distribute CI (V100)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/distribute-v100.yml",
+      "term": "Distribute CI (V100)"
+    },
+    {
+      "context_snippet": "Codestyle Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Codestyle Check"
+    },
+    {
+      "context_snippet": "LLM CI (DISABLED)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/llm.yml",
+      "term": "LLM CI (DISABLED)"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-training"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "document-intelligence"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedding"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ernie"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "information-extraction"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-search"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "paddlenlp"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "question-answering"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search-engine"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-analysis"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sentiment-analysis"
+    },
+    {
+      "context_snippet": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

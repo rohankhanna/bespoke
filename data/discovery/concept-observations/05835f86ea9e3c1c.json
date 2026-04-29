@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, and elegance (in that order of priority)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "issue comments bisects"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "issue comments bisects"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984683,
+      "status": "candidate",
+      "text": "effective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39982215,
+      "status": "candidate",
+      "text": "competent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39979588,
+      "status": "candidate",
+      "text": "businesslike"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976982,
+      "status": "candidate",
+      "text": "timesaving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39955857,
+      "status": "candidate",
+      "text": "economic"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "efficient",
+      "sense_id": "efficient#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54044,
+      "status": "candidate",
+      "text": "prompt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34046,
+      "status": "candidate",
+      "text": "competent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23028,
+      "status": "candidate",
+      "text": "expeditious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21044,
+      "status": "candidate",
+      "text": "effective"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17023,
+      "status": "candidate",
+      "text": "streamlined"
+    }
+  ],
+  "concept_id": "efficient",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "efficient",
+  "observation_id": "05835f86ea9e3c1c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "efficient",
+  "source_context_snippet": "issue comments bisects",
+  "source_file": null,
+  "source_repo": "nim-lang/Nim",
+  "source_repo_description": "Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, and elegance (in that order of priority)."
+}

@@ -1,0 +1,118 @@
+{
+  "aliases": [
+    "Test and publish documentation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielward27/paramax",
+      "status": "candidate-context",
+      "text": "A small library of paramaterizations and parameter constraints for PyTrees."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielward27/paramax",
+      "status": "candidate-context",
+      "text": "Test and publish documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielward27/flowjax",
+      "status": "candidate-context",
+      "text": "Test and publish documentation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielward27/paramax",
+      "status": "candidate",
+      "text": "Test and publish documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielward27/flowjax",
+      "status": "candidate",
+      "text": "Test and publish documentation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18646,
+      "status": "candidate",
+      "text": "document"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18646,
+      "status": "candidate",
+      "text": "paper"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18646,
+      "status": "candidate",
+      "text": "supporting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18558,
+      "status": "candidate",
+      "text": "copyright"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18512,
+      "status": "candidate",
+      "text": "acetate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test and publish documentation",
+  "concept_id": "test-and-publish-documentation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "danielward27/paramax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "danielward27/flowjax"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test and publish documentation",
+      "sense_id": "test-and-publish-documentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

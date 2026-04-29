@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -56,6 +56,51 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pull-requests.yml",
       "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "chawyehsu/dorado"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "hermanjustnu/scoop-emulators"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ScoopInstaller/Java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ScoopInstaller/Nonportable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "codechecks/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "littleli/scoop-clojure"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pull requests.yml",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor"
     }
   ],
   "term": "pull-requests"

@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "NPM Deprecate PR versions On Merge"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate-context",
+      "text": "Blazing fast input validation and transformation \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate-context",
+      "text": "NPM Deprecate PR versions On Merge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate-context",
+      "text": "Common JavaScript utilities for your TypeScript projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate-context",
+      "text": "NPM Deprecate PR versions On Merge"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate",
+      "text": "NPM Deprecate PR versions On Merge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate",
+      "text": "NPM Deprecate PR versions On Merge"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30445,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30394,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30394,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30394,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30394,
+      "status": "candidate",
+      "text": "press"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "NPM Deprecate PR versions On Merge",
+  "concept_id": "npm-deprecate-pr-versions-on-merge",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/deprecate-on-merge.yml",
+      "source_repo": "sapphiredev/shapeshift"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/deprecate-on-merge.yml",
+      "source_repo": "sapphiredev/utilities"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "NPM Deprecate PR versions On Merge",
+      "sense_id": "npm-deprecate-pr-versions-on-merge#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

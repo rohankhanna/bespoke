@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "qstylesheet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "status": "candidate-context",
+      "text": "simple MainWindow class implementation with frameless window and custom dark style. It adds also support for titlebar and buttons (minimize, maximize, close)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "status": "candidate-context",
+      "text": "simple MainWindow class implementation with frameless window and custom dark style."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "status": "candidate",
+      "text": "simple MainWindow class implementation with frameless window and custom dark style."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "qstylesheet",
+  "concept_id": "qstylesheet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "qstylesheet",
+      "sense_id": "qstylesheet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

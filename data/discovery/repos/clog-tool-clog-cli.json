@@ -118,13 +118,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clog-tool/clog-cli",
-      "target": "clog-tool/clog-lib",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clog-tool/clog-cli",
       "target": "thoughtram/clog",
       "target_type": "repository"
     },
@@ -262,7 +255,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:17:15.106863+00:00",
+  "fetched_at": "2026-04-29T19:44:29.580547+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -299,19 +292,14 @@
     "html_url": "https://github.com/clog-tool/clog-cli",
     "language": "Rust",
     "pushed_at": "2024-08-15T12:54:21Z",
-    "stargazers_count": 912,
+    "stargazers_count": 915,
     "topics": [],
-    "updated_at": "2026-04-23T10:05:14Z"
+    "updated_at": "2026-04-29T14:49:19Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "ajoslin/conventional-changelog",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "clog-tool/clog-lib",
       "source_file": "README.md"
     },
     {

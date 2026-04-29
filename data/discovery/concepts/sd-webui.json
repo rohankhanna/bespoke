@@ -43,6 +43,18 @@
       "source_repo": "Bing-su/dddetailer",
       "status": "candidate-context",
       "text": "Dotgeo(hijack) Detection Detailer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wkpark/uddetailer",
+      "status": "candidate-context",
+      "text": "\u03bc DDetailer, DDetailer fork to support DDetailer as an extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkpark/uddetailer",
+      "status": "candidate-context",
+      "text": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "Bing-su/dddetailer",
       "status": "candidate",
       "text": "Dotgeo(hijack) Detection Detailer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkpark/uddetailer",
+      "status": "candidate",
+      "text": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Bing-su/dddetailer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "wkpark/uddetailer"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

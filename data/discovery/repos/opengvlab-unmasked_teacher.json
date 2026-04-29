@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/unmasked_teacher",
+      "target": "llyx97/fetv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/unmasked_teacher",
+      "target": "lisaanne/temporallanguagerelease",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/unmasked_teacher",
+      "target": "jayleicn/singularity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/unmasked_teacher",
+      "target": "klauscc/vindlu",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:51.462802+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10966
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV2023 Oral] Unmasked Teacher: Towards Training-Efficient Video Foundation Models",
+    "fork": false,
+    "full_name": "OpenGVLab/unmasked_teacher",
+    "html_url": "https://github.com/OpenGVLab/unmasked_teacher",
+    "language": "Python",
+    "pushed_at": "2024-05-27T05:22:56Z",
+    "stargazers_count": 346,
+    "topics": [],
+    "updated_at": "2026-03-07T05:19:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jayleicn/singularity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "klauscc/vindlu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lisaanne/temporallanguagerelease",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llyx97/fetv",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

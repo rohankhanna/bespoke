@@ -1,14 +1,14 @@
 {
   "components": [
     {
-      "component": "actions/checkout@v2",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
-      "component": "ocaml/setup-ocaml@v3",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml"
+      "source_file": ".github/workflows/format.yml"
     }
   ],
   "edges": [
@@ -30,14 +30,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "ocaml-tracing/ocaml-tracy",
-      "target": "actions/checkout@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml",
-      "source_repo": "ocaml-tracing/ocaml-tracy",
-      "target": "ocaml/setup-ocaml@v3",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
@@ -45,6 +38,20 @@
       "source_file": ".github/workflows/build.yml",
       "source_repo": "ocaml-tracing/ocaml-tracy",
       "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
+      "target": "format",
       "target_type": "term"
     },
     {
@@ -76,7 +83,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:06:24.676581+00:00",
+  "fetched_at": "2026-04-29T19:55:53.535366+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -84,7 +91,11 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 959
+      "size": 739
+    },
+    {
+      "path": ".github/workflows/format.yml",
+      "size": 285
     }
   ],
   "related_repositories": [],
@@ -96,15 +107,15 @@
     "full_name": "ocaml-tracing/ocaml-tracy",
     "html_url": "https://github.com/ocaml-tracing/ocaml-tracy",
     "language": "OCaml",
-    "pushed_at": "2026-02-06T19:13:15Z",
-    "stargazers_count": 32,
+    "pushed_at": "2026-04-25T01:20:14Z",
+    "stargazers_count": 33,
     "topics": [
       "bindings",
       "ocaml",
       "profiling",
       "tracy"
     ],
-    "updated_at": "2026-02-06T19:13:20Z"
+    "updated_at": "2026-04-27T21:53:40Z"
   },
   "repo_links": [
     {
@@ -124,6 +135,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/build.yml",
       "term": "build"
+    },
+    {
+      "context_snippet": "format",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format.yml",
+      "term": "format"
     },
     {
       "context_snippet": "This repo contains bindings to [Tracy](https://github.com/wolfpld/tracy),",

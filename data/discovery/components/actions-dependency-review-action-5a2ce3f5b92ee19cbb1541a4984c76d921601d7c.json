@@ -1,0 +1,12 @@
+{
+  "component": "actions/dependency-review-action@5a2ce3f5b92ee19cbb1541a4984c76d921601d7c",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "getsentry/.github"
+    }
+  ]
+}

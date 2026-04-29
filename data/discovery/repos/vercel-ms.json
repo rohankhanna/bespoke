@@ -103,13 +103,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vercel/ms",
-      "target": "knpwrs/ms.macro",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "vercel/ms",
@@ -292,7 +285,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:04:01.392071+00:00",
+  "fetched_at": "2026-04-29T21:54:43.998751+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -325,21 +318,15 @@
     "html_url": "https://github.com/vercel/ms",
     "language": "TypeScript",
     "pushed_at": "2026-01-16T16:27:00Z",
-    "stargazers_count": 5519,
+    "stargazers_count": 5521,
     "topics": [
       "conversion",
       "milliseconds",
       "utility"
     ],
-    "updated_at": "2026-04-23T14:58:24Z"
+    "updated_at": "2026-04-25T11:43:45Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "knpwrs/ms.macro",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Quality",

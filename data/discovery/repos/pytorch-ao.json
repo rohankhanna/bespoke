@@ -116,7 +116,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "pytorch/ao",
-      "target": "sayakpaul/diffusers-torchao",
+      "target": "pytorch/mslk",
       "target_type": "repository"
     },
     {
@@ -124,20 +124,6 @@
       "source_file": "README.md",
       "source_repo": "pytorch/ao",
       "target": "pytorch/torchtune",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pytorch/ao",
-      "target": "pytorch/torchtitan",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pytorch/ao",
-      "target": "meta-pytorch/mslk",
       "target_type": "repository"
     },
     {
@@ -407,7 +393,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:11:49.179159+00:00",
+  "fetched_at": "2026-04-29T20:42:29.960989+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -459,8 +445,8 @@
     "full_name": "pytorch/ao",
     "html_url": "https://github.com/pytorch/ao",
     "language": "Python",
-    "pushed_at": "2026-04-23T20:58:49Z",
-    "stargazers_count": 2794,
+    "pushed_at": "2026-04-29T19:19:16Z",
+    "stargazers_count": 2804,
     "topics": [
       "brrr",
       "cuda",
@@ -475,27 +461,17 @@
       "training",
       "transformer"
     ],
-    "updated_at": "2026-04-23T18:59:29Z"
+    "updated_at": "2026-04-29T14:41:53Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "meta-pytorch/mslk",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pytorch/torchtitan",
+      "full_name": "pytorch/mslk",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
       "full_name": "pytorch/torchtune",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sayakpaul/diffusers-torchao",
       "source_file": "README.md"
     }
   ],

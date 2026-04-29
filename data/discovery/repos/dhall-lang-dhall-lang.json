@@ -1,0 +1,107 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dhall-lang/dhall-lang",
+      "target": "dhall-lang/dhall-nix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dhall-lang/dhall-lang",
+      "target": "amarpotghan/dhall-scala",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dhall-lang/dhall-lang",
+      "target": "dhall-lang/dhall-json",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dhall-lang/dhall-lang",
+      "target": "dhall-lang/dhall-bash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dhall-lang/dhall-lang",
+      "target": "configuration-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dhall-lang/dhall-lang",
+      "target": "dhall",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:01:26.524846+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Maintainable configuration files",
+    "fork": false,
+    "full_name": "dhall-lang/dhall-lang",
+    "html_url": "https://github.com/dhall-lang/dhall-lang",
+    "language": "Dhall",
+    "pushed_at": "2026-03-29T16:02:45Z",
+    "stargazers_count": 4440,
+    "topics": [
+      "configuration-language",
+      "dhall"
+    ],
+    "updated_at": "2026-04-28T06:08:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amarpotghan/dhall-scala",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dhall-lang/dhall-bash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dhall-lang/dhall-json",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dhall-lang/dhall-nix",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"./img/dhall-logo.svg\" width=\"600\" alt=\"Dhall Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration-language"
+    },
+    {
+      "context_snippet": "<img src=\"./img/dhall-logo.svg\" width=\"600\" alt=\"Dhall Logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dhall"
+    }
+  ]
+}

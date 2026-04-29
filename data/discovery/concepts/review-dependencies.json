@@ -32,6 +32,18 @@
       "source_repo": "kubernetes/kops",
       "status": "candidate-context",
       "text": "'Review Dependencies'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MagicMirrorOrg/MagicMirror",
+      "status": "candidate-context",
+      "text": "MagicMirror\u00b2 is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror\u00b2 allows you to convert your hallway or bathroom mirror into your personal assistant."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicMirrorOrg/MagicMirror",
+      "status": "candidate-context",
+      "text": "\"Review Dependencies\""
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "kubernetes/kops",
       "status": "candidate",
       "text": "'Review Dependencies'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicMirrorOrg/MagicMirror",
+      "status": "candidate",
+      "text": "\"Review Dependencies\""
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/depsreview.yaml",
       "source_repo": "kubernetes/kops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dep-review.yaml",
+      "source_repo": "MagicMirrorOrg/MagicMirror"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

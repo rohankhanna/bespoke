@@ -151,6 +151,42 @@
       "source_repo": "sigstore/rekor",
       "status": "candidate-context",
       "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/community",
+      "status": "candidate-context",
+      "text": "General sigstore community repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/community",
+      "status": "candidate-context",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "status": "candidate-context",
+      "text": "A plug-in for Google's Protocol Buffers (protobufs) compiler to lint .proto files for style violations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "status": "candidate-context",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/commons-jexl",
+      "status": "candidate-context",
+      "text": "Apache Commons JEXL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/commons-jexl",
+      "status": "candidate-context",
+      "text": "\"Scorecards supply-chain security\""
     }
   ],
   "candidate_glosses": [
@@ -225,6 +261,24 @@
       "source_repo": "sigstore/rekor",
       "status": "candidate",
       "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/community",
+      "status": "candidate",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "status": "candidate",
+      "text": "Scorecards supply-chain security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/commons-jexl",
+      "status": "candidate",
+      "text": "\"Scorecards supply-chain security\""
     }
   ],
   "candidate_related_terms": [
@@ -346,11 +400,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/scorecards.yml",
       "source_repo": "rust-cross/rust-musl-cross"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/reusable-scorecard.yml",
+      "source_repo": "sigstore/community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/scorecards-analysis.yml",
+      "source_repo": "apache/commons-jexl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

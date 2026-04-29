@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tenant Tests On Kind"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/operator",
+      "status": "candidate-context",
+      "text": "Simple Kubernetes Operator for MinIO clusters :computer:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/operator",
+      "status": "candidate-context",
+      "text": "Tenant Tests On Kind"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/operator",
+      "status": "candidate",
+      "text": "Tenant Tests On Kind"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29290,
+      "status": "candidate",
+      "text": "kain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28858,
+      "status": "candidate",
+      "text": "tac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28490,
+      "status": "candidate",
+      "text": "render"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28058,
+      "status": "candidate",
+      "text": "estrepement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28058,
+      "status": "candidate",
+      "text": "lieu"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tenant Tests On Kind",
+  "concept_id": "tenant-tests-on-kind",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/kubernetes-tests.yml",
+      "source_repo": "minio/operator"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tenant Tests On Kind",
+      "sense_id": "tenant-tests-on-kind#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:58:07.012491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5725
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Help developers to easily get started with GitHub Action workflows to deploy to Azure",
+    "fork": false,
+    "full_name": "Azure/actions-workflow-samples",
+    "html_url": "https://github.com/Azure/actions-workflow-samples",
+    "language": "Pug",
+    "pushed_at": "2025-11-12T11:23:53Z",
+    "stargazers_count": 506,
+    "topics": [],
+    "updated_at": "2026-04-29T12:43:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

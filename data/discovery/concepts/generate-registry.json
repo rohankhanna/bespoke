@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Registry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate-context",
+      "text": "Sample application built using Atlan Application SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate-context",
+      "text": "Generate Registry"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate",
+      "text": "Generate Registry"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11673,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10611,
+      "status": "candidate",
+      "text": "call"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10611,
+      "status": "candidate",
+      "text": "digest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10611,
+      "status": "candidate",
+      "text": "hype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10611,
+      "status": "candidate",
+      "text": "original"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Registry",
+  "concept_id": "generate-registry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generate-registry.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Registry",
+      "sense_id": "generate-registry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

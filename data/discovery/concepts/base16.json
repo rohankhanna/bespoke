@@ -91,6 +91,30 @@
       "source_repo": "ajlende/base16-atlas-scheme",
       "status": "candidate-context",
       "text": "Inspired by some No Man's Sky concept art."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/base16-jetbrains",
+      "status": "candidate-context",
+      "text": "Base16 themes for Jetbrains IDE's (IntelliJ, PyCharm, Webstorm, etc) - and the Material Theme plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-jetbrains",
+      "status": "candidate-context",
+      "text": "This repository contains [base16] themes for Jetbrains IDEs. Unlike This"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate-context",
+      "text": "Base16 template for xfce4-terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate-context",
+      "text": "**Deprecation Notice**: tinted-xfce4-terminal and all the other Tinted"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "ajlende/base16-atlas-scheme",
       "status": "candidate",
       "text": "Inspired by some No Man's Sky concept art."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-jetbrains",
+      "status": "candidate",
+      "text": "This repository contains [base16] themes for Jetbrains IDEs. Unlike This"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate",
+      "text": "**Deprecation Notice**: tinted-xfce4-terminal and all the other Tinted"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +220,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ajlende/base16-atlas-scheme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-jetbrains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-xfce4-terminal"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

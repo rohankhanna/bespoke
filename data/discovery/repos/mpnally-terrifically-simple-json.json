@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:50:02.203389+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15494
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The simplest way we know to use JSON in Web APIs",
+    "fork": false,
+    "full_name": "mpnally/Terrifically-Simple-JSON",
+    "html_url": "https://github.com/mpnally/Terrifically-Simple-JSON",
+    "language": null,
+    "pushed_at": "2022-07-17T03:25:26Z",
+    "stargazers_count": 294,
+    "topics": [],
+    "updated_at": "2026-03-12T19:16:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

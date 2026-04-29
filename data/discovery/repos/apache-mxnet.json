@@ -1,0 +1,323 @@
+{
+  "components": [
+    {
+      "component": "actions/first-interaction@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greetings.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license_check.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license_check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_x_mklbuild.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_x_mklbuild.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_x_mklbuild.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_x_staticbuild.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_x_staticbuild.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_x_staticbuild.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/mxnet",
+      "target": "apache/mxnet-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/mxnet",
+      "target": "dmlc/mxnet-gtc-tutorial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/mxnet",
+      "target": "dmlc/cxxnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/mxnet",
+      "target": "dmlc/minerva",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "apache/mxnet",
+      "target": "actions/first-interaction@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greetings.yml",
+      "source_repo": "apache/mxnet",
+      "target": "Greetings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "apache/mxnet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "apache/mxnet",
+      "target": "apache/skywalking-eyes@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "apache/mxnet",
+      "target": "license check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml",
+      "source_repo": "apache/mxnet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml",
+      "source_repo": "apache/mxnet",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml",
+      "source_repo": "apache/mxnet",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link_check.yml",
+      "source_repo": "apache/mxnet",
+      "target": "link check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_x_mklbuild.yml",
+      "source_repo": "apache/mxnet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_x_mklbuild.yml",
+      "source_repo": "apache/mxnet",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_x_mklbuild.yml",
+      "source_repo": "apache/mxnet",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/os_x_mklbuild.yml",
+      "source_repo": "apache/mxnet",
+      "target": "mkl continuous build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_x_staticbuild.yml",
+      "source_repo": "apache/mxnet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_x_staticbuild.yml",
+      "source_repo": "apache/mxnet",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/os_x_staticbuild.yml",
+      "source_repo": "apache/mxnet",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/os_x_staticbuild.yml",
+      "source_repo": "apache/mxnet",
+      "target": "continuous build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/mxnet",
+      "target": "mxnet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:52:55.932961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16698
+    },
+    {
+      "path": ".github/workflows/greetings.yml",
+      "size": 1577
+    },
+    {
+      "path": ".github/workflows/license_check.yml",
+      "size": 487
+    },
+    {
+      "path": ".github/workflows/link_check.yml",
+      "size": 2386
+    },
+    {
+      "path": ".github/workflows/os_x_mklbuild.yml",
+      "size": 2603
+    },
+    {
+      "path": ".github/workflows/os_x_staticbuild.yml",
+      "size": 4868
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more",
+    "fork": false,
+    "full_name": "apache/mxnet",
+    "html_url": "https://github.com/apache/mxnet",
+    "language": "C++",
+    "pushed_at": "2023-10-25T21:28:33Z",
+    "stargazers_count": 20810,
+    "topics": [
+      "mxnet"
+    ],
+    "updated_at": "2026-04-29T09:14:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/mxnet-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmlc/cxxnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmlc/minerva",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmlc/mxnet-gtc-tutorial",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Greetings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/greetings.yml",
+      "term": "Greetings"
+    },
+    {
+      "context_snippet": "license check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/license_check.yml",
+      "term": "license check"
+    },
+    {
+      "context_snippet": "link check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link_check.yml",
+      "term": "link check"
+    },
+    {
+      "context_snippet": "mkl continuous build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/os_x_mklbuild.yml",
+      "term": "mkl continuous build"
+    },
+    {
+      "context_snippet": "continuous build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/os_x_staticbuild.yml",
+      "term": "continuous build"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mxnet"
+    }
+  ]
+}

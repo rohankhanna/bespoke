@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "netty"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helidon-io/helidon",
+      "status": "candidate-context",
+      "text": "Java libraries for writing microservices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helidon-io/helidon",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helidon-io/helidon",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19945513,
+      "status": "candidate",
+      "text": "gent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19945512,
+      "status": "candidate",
+      "text": "natty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19945511,
+      "status": "candidate",
+      "text": "nait"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19945510,
+      "status": "candidate",
+      "text": "neat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19945509,
+      "status": "candidate",
+      "text": "nifty"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "netty",
+  "concept_id": "netty",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "helidon-io/helidon"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "netty",
+      "sense_id": "netty#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -45,6 +45,18 @@
       "source_repo": "Yubico/libfido2",
       "status": "candidate-context",
       "text": "alpine"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhart/alpine-node",
+      "status": "candidate-context",
+      "text": "Minimal Node.js Docker Images built on Alpine Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhart/alpine-node",
+      "status": "candidate-context",
+      "text": "This project is now in archive mode. Please use the official Node.js Alpine images at:"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +77,12 @@
       "source_repo": "Yubico/libfido2",
       "status": "candidate",
       "text": "alpine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhart/alpine-node",
+      "status": "candidate",
+      "text": "This project is now in archive mode. Please use the official Node.js Alpine images at:"
     }
   ],
   "candidate_related_terms": [
@@ -134,11 +152,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/alpine_builds.yml",
       "source_repo": "Yubico/libfido2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mhart/alpine-node"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

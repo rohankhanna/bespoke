@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cadene/pretrained-models.pytorch",
+      "target": "cuhk-mmlab/polynet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cadene/pretrained-models.pytorch",
+      "target": "cadene/tensorflow-model-zoo.torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cadene/pretrained-models.pytorch",
+      "target": "cypw/dpns",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Cadene/pretrained-models.pytorch",
+      "target": "clcarwin/convert_torch_to_pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cadene/pretrained-models.pytorch",
+      "target": "imagenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cadene/pretrained-models.pytorch",
+      "target": "inception",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cadene/pretrained-models.pytorch",
+      "target": "pretrained",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cadene/pretrained-models.pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cadene/pretrained-models.pytorch",
+      "target": "resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Cadene/pretrained-models.pytorch",
+      "target": "resnext",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:59.613165+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29321
+    },
+    {
+      "path": "requirements.txt",
+      "size": 35
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pretrained ConvNets for pytorch: NASNet, ResNeXt, ResNet, InceptionV4, InceptionResnetV2, Xception, DPN, etc.",
+    "fork": false,
+    "full_name": "Cadene/pretrained-models.pytorch",
+    "html_url": "https://github.com/Cadene/pretrained-models.pytorch",
+    "language": "Python",
+    "pushed_at": "2022-04-22T09:08:45Z",
+    "stargazers_count": 9110,
+    "topics": [
+      "imagenet",
+      "inception",
+      "pretrained",
+      "pytorch",
+      "resnet",
+      "resnext"
+    ],
+    "updated_at": "2026-04-27T02:51:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cadene/tensorflow-model-zoo.torch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clcarwin/convert_torch_to_pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cuhk-mmlab/polynet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cypw/dpns",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The goal of this repo is:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagenet"
+    },
+    {
+      "context_snippet": "The goal of this repo is:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inception"
+    },
+    {
+      "context_snippet": "The goal of this repo is:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained"
+    },
+    {
+      "context_snippet": "The goal of this repo is:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "The goal of this repo is:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnet"
+    },
+    {
+      "context_snippet": "The goal of this repo is:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resnext"
+    }
+  ]
+}

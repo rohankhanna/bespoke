@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Post-Commit Static Analyzer"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espressif/llvm-project",
+      "status": "candidate-context",
+      "text": "Fork of LLVM with Xtensa specific patches. To be upstreamed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/llvm-project",
+      "status": "candidate-context",
+      "text": "Post-Commit Static Analyzer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/llvm-project",
+      "status": "candidate",
+      "text": "Post-Commit Static Analyzer"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10830,
+      "status": "candidate",
+      "text": "biometrics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10830,
+      "status": "candidate",
+      "text": "biometry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10830,
+      "status": "candidate",
+      "text": "biosystematics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10830,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10830,
+      "status": "candidate",
+      "text": "demographic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Post-Commit Static Analyzer",
+  "concept_id": "post-commit-static-analyzer",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci-post-commit-analyzer.yml",
+      "source_repo": "espressif/llvm-project"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Post-Commit Static Analyzer",
+      "sense_id": "post-commit-static-analyzer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

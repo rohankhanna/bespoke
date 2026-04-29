@@ -115,6 +115,66 @@
       "source_repo": "apollographql/apollo-scalajs",
       "status": "candidate-context",
       "text": "This repo was archived by the Apollo Security team on 2023-05-26"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/rover",
+      "status": "candidate-context",
+      "text": "The CLI for Apollo GraphOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/rover",
+      "status": "candidate-context",
+      "text": "[![GitHub Release Downloads](https://shields.io/github/downloads/apollographql/rover/total.svg)](https://github.com/apollographql/rover/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Urigo/graphql-cli",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdf  Command line tool for common GraphQL development workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Urigo/graphql-cli",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/20847995/67651234-85bf1500-f916-11e9-90e5-cb3bd0e6a338.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaydenseric/graphql-upload",
+      "status": "candidate-context",
+      "text": "Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaydenseric/graphql-upload",
+      "status": "candidate-context",
+      "text": "graphql-upload \u2014 Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-rs",
+      "status": "candidate-context",
+      "text": "Spec compliant GraphQL Tools in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-rs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate-context",
+      "text": "One configuration for all your GraphQL tools (supported by most tools, editors & IDEs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate-context",
+      "text": "![GraphQL Config](https://i.imgur.com/hw5tXw2.gif 'GraphQL Config')"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +231,36 @@
       "source_repo": "apollographql/apollo-scalajs",
       "status": "candidate",
       "text": "This repo was archived by the Apollo Security team on 2023-05-26"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/rover",
+      "status": "candidate",
+      "text": "[![GitHub Release Downloads](https://shields.io/github/downloads/apollographql/rover/total.svg)](https://github.com/apollographql/rover/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Urigo/graphql-cli",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/20847995/67651234-85bf1500-f916-11e9-90e5-cb3bd0e6a338.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaydenseric/graphql-upload",
+      "status": "candidate",
+      "text": "graphql-upload \u2014 Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-rs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate",
+      "text": "![GraphQL Config](https://i.imgur.com/hw5tXw2.gif 'GraphQL Config')"
     }
   ],
   "candidate_related_terms": [
@@ -283,11 +373,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/rover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jaydenseric/graphql-upload"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

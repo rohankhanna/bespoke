@@ -80,6 +80,18 @@
       "source_repo": "microsoft/windows-rs",
       "status": "candidate-context",
       "text": "clippy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate-context",
+      "text": "a Hassle-Free Python Experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate-context",
+      "text": "Clippy"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
       "source_repo": "microsoft/windows-rs",
       "status": "candidate",
       "text": "clippy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate",
+      "text": "Clippy"
     }
   ],
   "candidate_related_terms": [],
@@ -167,11 +185,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/clippy.yml",
       "source_repo": "microsoft/windows-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/clippy.yml",
+      "source_repo": "astral-sh/rye"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

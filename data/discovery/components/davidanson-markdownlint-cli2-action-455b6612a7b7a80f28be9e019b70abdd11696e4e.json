@@ -1,0 +1,12 @@
+{
+  "component": "DavidAnson/markdownlint-cli2-action@455b6612a7b7a80f28be9e019b70abdd11696e4e",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "ROCm/rocm-docs-core"
+    }
+  ]
+}

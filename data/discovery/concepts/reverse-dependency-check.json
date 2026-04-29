@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Reverse dependency check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rspatial/raster",
+      "status": "candidate-context",
+      "text": "R raster package https://rspatial.github.io/raster/reference/raster-package.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspatial/raster",
+      "status": "candidate-context",
+      "text": "Reverse dependency check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rspatial/terra",
+      "status": "candidate-context",
+      "text": "R package for spatial data handling https://rspatial.github.io/terra/reference/terra-package.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspatial/terra",
+      "status": "candidate-context",
+      "text": "Reverse dependency check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspatial/raster",
+      "status": "candidate",
+      "text": "Reverse dependency check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspatial/terra",
+      "status": "candidate",
+      "text": "Reverse dependency check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26574,
+      "status": "candidate",
+      "text": "setback"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26161,
+      "status": "candidate",
+      "text": "reactionary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19572,
+      "status": "candidate",
+      "text": "length"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19504,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19478,
+      "status": "candidate",
+      "text": "bak"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Reverse dependency check",
+  "concept_id": "reverse-dependency-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/recheck.yaml",
+      "source_repo": "rspatial/raster"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/recheck.yaml",
+      "source_repo": "rspatial/terra"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reverse dependency check",
+      "sense_id": "reverse-dependency-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

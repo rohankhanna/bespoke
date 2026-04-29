@@ -19,6 +19,18 @@
       "source_repo": "aiden0z/pptx-renderer",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/aiden0z/pptx-renderer/actions/workflows/ci.yml/badge.svg)](https://github.com/aiden0z/pptx-renderer/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/aiden0z/pptx-renderer/graph/badge.svg)](https://codecov.io/gh/aiden0z/pptx-renderer) [![npm](\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/poi",
+      "status": "candidate-context",
+      "text": "Mirror of Apache POI gitbox. The Java API for Microsoft Documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/poi",
+      "status": "candidate-context",
+      "text": "A Java library for reading and writing Microsoft Office binary and OOXML file formats."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "aiden0z/pptx-renderer",
       "status": "candidate",
       "text": "[![CI](https://github.com/aiden0z/pptx-renderer/actions/workflows/ci.yml/badge.svg)](https://github.com/aiden0z/pptx-renderer/actions/workflows/ci.yml) [![codecov](https://codecov.io/gh/aiden0z/pptx-renderer/graph/badge.svg)](https://codecov.io/gh/aiden0z/pptx-renderer) [![npm](\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/poi",
+      "status": "candidate",
+      "text": "A Java library for reading and writing Microsoft Office binary and OOXML file formats."
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "aiden0z/pptx-renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/poi"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

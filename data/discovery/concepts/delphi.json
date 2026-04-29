@@ -19,6 +19,18 @@
       "source_repo": "lmbelo/python3-embeddable",
       "status": "candidate-context",
       "text": "Python 3 embeddables for Windows, Linux, MacOS and Android"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmbelo/python4delphi",
+      "status": "candidate-context",
+      "text": "Free components that wrap up Python into Delphi and Lazarus (FPC)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmbelo/python4delphi",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/pyscripter/python4delphi/wiki/Images/Python4Delphi.svg\" alt=\"drawing\" width=\"25%\" align=\"right\"/>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "lmbelo/python3-embeddable",
       "status": "candidate",
       "text": "Python 3 embeddables for Windows, Linux, MacOS and Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmbelo/python4delphi",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/pyscripter/python4delphi/wiki/Images/Python4Delphi.svg\" alt=\"drawing\" width=\"25%\" align=\"right\"/>"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "lmbelo/python3-embeddable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lmbelo/python4delphi"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

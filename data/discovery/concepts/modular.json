@@ -55,6 +55,18 @@
       "source_repo": "OrchardCMS/OrchardCore",
       "status": "candidate-context",
       "text": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate-context",
+      "text": "Plugin-driven, extensible HTTP client toolkit for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate-context",
+      "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "OrchardCMS/OrchardCore",
       "status": "candidate",
       "text": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate",
+      "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +174,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "OrchardCMS/OrchardCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "h2non/gentleman"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

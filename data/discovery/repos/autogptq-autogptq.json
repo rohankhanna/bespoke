@@ -128,6 +128,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "AutoGPTQ/AutoGPTQ",
+      "target": "ist-daslab/marlin.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
       "target": "turboderp/exllamav2",
       "target_type": "repository"
     },
@@ -356,7 +363,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T18:21:31.710855+00:00",
+  "fetched_at": "2026-04-29T21:02:54.282775+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -401,7 +408,7 @@
     "html_url": "https://github.com/AutoGPTQ/AutoGPTQ",
     "language": "Python",
     "pushed_at": "2025-04-11T13:27:20Z",
-    "stargazers_count": 5053,
+    "stargazers_count": 5057,
     "topics": [
       "deep-learning",
       "inference",
@@ -413,9 +420,14 @@
       "transformer",
       "transformers"
     ],
-    "updated_at": "2026-04-23T15:15:11Z"
+    "updated_at": "2026-04-29T08:36:35Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ist-daslab/marlin.",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "panqiwei/autogptq",

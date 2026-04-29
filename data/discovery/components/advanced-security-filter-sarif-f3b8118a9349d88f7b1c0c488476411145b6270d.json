@@ -1,0 +1,12 @@
+{
+  "component": "advanced-security/filter-sarif@f3b8118a9349d88f7b1c0c488476411145b6270d",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Kong/ngx_wasm_module"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "waltonfuture/InstructionGPT-4",
+      "target": "opengvlab/multi-modality-arena",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "waltonfuture/InstructionGPT-4",
+      "target": "dlyuangod/tinygpt-v",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waltonfuture/InstructionGPT-4",
+      "target": "data-selection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waltonfuture/InstructionGPT-4",
+      "target": "less-is-more",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waltonfuture/InstructionGPT-4",
+      "target": "llm-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "waltonfuture/InstructionGPT-4",
+      "target": "multimodal-deep-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:45:15.682222+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3962
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "InstructionGPT-4",
+    "fork": false,
+    "full_name": "waltonfuture/InstructionGPT-4",
+    "html_url": "https://github.com/waltonfuture/InstructionGPT-4",
+    "language": "Python",
+    "pushed_at": "2023-12-29T15:05:46Z",
+    "stargazers_count": 42,
+    "topics": [
+      "data-selection",
+      "less-is-more",
+      "llm",
+      "llm-training",
+      "multimodal-deep-learning"
+    ],
+    "updated_at": "2025-10-28T11:24:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dlyuangod/tinygpt-v",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/multi-modality-arena",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[Lai Wei](https://waltonfuture.github.io/) , Zihao Jiang, [Weiran Huang](https://www.weiranhuang.com/), [Lichao Sun](https://lichao-sun.github.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-selection"
+    },
+    {
+      "context_snippet": "[Lai Wei](https://waltonfuture.github.io/) , Zihao Jiang, [Weiran Huang](https://www.weiranhuang.com/), [Lichao Sun](https://lichao-sun.github.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "less-is-more"
+    },
+    {
+      "context_snippet": "[Lai Wei](https://waltonfuture.github.io/) , Zihao Jiang, [Weiran Huang](https://www.weiranhuang.com/), [Lichao Sun](https://lichao-sun.github.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-training"
+    },
+    {
+      "context_snippet": "[Lai Wei](https://waltonfuture.github.io/) , Zihao Jiang, [Weiran Huang](https://www.weiranhuang.com/), [Lichao Sun](https://lichao-sun.github.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-deep-learning"
+    }
+  ]
+}

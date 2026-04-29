@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -96,6 +96,51 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "getsentry/sentry-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavBfr/dart_pdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-archived/dartboard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "maks/dart_repl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "dwyl/learn-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "rrousselGit/riverpod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "antlr/antlr4"
     }
   ],
   "term": "dart"

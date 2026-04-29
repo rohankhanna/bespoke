@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Swift JS Bundle"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-ios-dev",
+      "status": "candidate-context",
+      "text": "Apollo iOS Development Repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios-dev",
+      "status": "candidate-context",
+      "text": "\"Update Swift JS Bundle\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios-dev",
+      "status": "candidate",
+      "text": "\"Update Swift JS Bundle\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21722,
+      "status": "candidate",
+      "text": "kite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17816,
+      "status": "candidate",
+      "text": "beta"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17816,
+      "status": "candidate",
+      "text": "dictionary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17807,
+      "status": "candidate",
+      "text": "super"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17116,
+      "status": "candidate",
+      "text": "maintaining"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Swift JS Bundle",
+  "concept_id": "update-swift-js-bundle",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update-swift-js-bundle.yml",
+      "source_repo": "apollographql/apollo-ios-dev"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Swift JS Bundle",
+      "sense_id": "update-swift-js-bundle#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

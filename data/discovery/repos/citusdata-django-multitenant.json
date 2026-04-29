@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-base-image.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-base-image.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "pombredanne/django-simple-multitenant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-base-image.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-base-image.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-base-image.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "Django MT Docker Image For Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-multitenant-tests.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "Django Multitenant Tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:43:42.288008+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9181
+    },
+    {
+      "path": ".github/workflows/django-base-image.yml",
+      "size": 1000
+    },
+    {
+      "path": ".github/workflows/django-multitenant-tests.yml",
+      "size": 4672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python/Django support for distributed multi-tenant databases like Postgres+Citus",
+    "fork": false,
+    "full_name": "citusdata/django-multitenant",
+    "html_url": "https://github.com/citusdata/django-multitenant",
+    "language": "Python",
+    "pushed_at": "2026-03-30T16:29:15Z",
+    "stargazers_count": 820,
+    "topics": [],
+    "updated_at": "2026-04-12T14:15:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pombredanne/django-simple-multitenant",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Django MT Docker Image For Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-base-image.yml",
+      "term": "Django MT Docker Image For Tests"
+    },
+    {
+      "context_snippet": "\"Django Multitenant Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-multitenant-tests.yml",
+      "term": "Django Multitenant Tests"
+    }
+  ]
+}

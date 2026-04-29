@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/ComfyUI-sonar",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/ComfyUI-sonar",
+      "target": "alexblattner/modified-euler-samplers-for-sonar-diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/ComfyUI-sonar",
+      "target": "clybius/comfyui-extra-samplers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "blepping/ComfyUI-sonar",
+      "target": "clownsharkbatwing/res4lyf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/ComfyUI-sonar",
+      "target": "aiart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/ComfyUI-sonar",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/ComfyUI-sonar",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blepping/ComfyUI-sonar",
+      "target": "stablediffusion",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:07.549462+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Somewhat janky implementation of Sonar Sampling (momentum based sampling) for ComfyUI along with an assortment of advanced noise tools (schedule noise types, composite and a lot more!)",
+    "fork": false,
+    "full_name": "blepping/ComfyUI-sonar",
+    "html_url": "https://github.com/blepping/ComfyUI-sonar",
+    "language": "Python",
+    "pushed_at": "2025-08-08T16:02:55Z",
+    "stargazers_count": 48,
+    "topics": [
+      "aiart",
+      "comfyui",
+      "diffusion",
+      "stablediffusion"
+    ],
+    "updated_at": "2026-02-15T00:11:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alexblattner/modified-euler-samplers-for-sonar-diffusers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clownsharkbatwing/res4lyf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clybius/comfyui-extra-samplers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A janky implementation of Sonar sampling (momentum-based sampling) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) as well as an assortment of advanced noise tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aiart"
+    },
+    {
+      "context_snippet": "A janky implementation of Sonar sampling (momentum-based sampling) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) as well as an assortment of advanced noise tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "A janky implementation of Sonar sampling (momentum-based sampling) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) as well as an assortment of advanced noise tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "A janky implementation of Sonar sampling (momentum-based sampling) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) as well as an assortment of advanced noise tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stablediffusion"
+    }
+  ]
+}

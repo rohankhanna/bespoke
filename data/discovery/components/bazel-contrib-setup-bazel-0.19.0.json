@@ -1,12 +1,17 @@
 {
   "component": "bazel-contrib/setup-bazel@0.19.0",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "aspect-build/aspect-gazelle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel"
     }
   ]
 }

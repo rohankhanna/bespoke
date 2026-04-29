@@ -37,6 +37,18 @@
       "source_repo": "caronc/apprise-api",
       "status": "candidate-context",
       "text": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "frewsxcv/alert-after",
+      "status": "candidate-context",
+      "text": "Get a desktop notification after a command finishes executing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frewsxcv/alert-after",
+      "status": "candidate-context",
+      "text": "Get a desktop notification after a command finishes executing. Helpful for notifying when long running CLI tasks are completed. Works on macOS, Linux, and Windows."
     }
   ],
   "candidate_glosses": [
@@ -51,6 +63,12 @@
       "source_repo": "caronc/apprise-api",
       "status": "candidate",
       "text": "Take advantage of [Apprise](https://github.com/caronc/apprise) through your network with a user-friendly API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "frewsxcv/alert-after",
+      "status": "candidate",
+      "text": "Get a desktop notification after a command finishes executing. Helpful for notifying when long running CLI tasks are completed. Works on macOS, Linux, and Windows."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "caronc/apprise-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "frewsxcv/alert-after"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

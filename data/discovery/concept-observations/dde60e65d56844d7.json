@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Array.prototype.includes but for iterators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build spec"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build spec"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12291,
+      "status": "candidate",
+      "text": "slim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11597,
+      "status": "candidate",
+      "text": "specs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11412,
+      "status": "candidate",
+      "text": "spanghew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11355,
+      "status": "candidate",
+      "text": "detail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11349,
+      "status": "candidate",
+      "text": "customize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build spec",
+      "sense_id": "build-spec#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-spec",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-spec",
+  "observation_id": "dde60e65d56844d7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Build spec",
+  "source_context_snippet": "Build spec",
+  "source_file": ".github/workflows/build.yml",
+  "source_repo": "tc39/proposal-iterator-includes",
+  "source_repo_description": "Array.prototype.includes but for iterators"
+}

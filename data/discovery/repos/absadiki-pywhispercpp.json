@@ -195,7 +195,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:14:22.225039+00:00",
+  "fetched_at": "2026-04-29T20:41:14.621553+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -232,12 +232,12 @@
     "html_url": "https://github.com/absadiki/pywhispercpp",
     "language": "Python",
     "pushed_at": "2026-02-20T04:47:23Z",
-    "stargazers_count": 335,
+    "stargazers_count": 336,
     "topics": [
       "openai-whisper",
       "whisper-cpp"
     ],
-    "updated_at": "2026-04-19T00:37:20Z"
+    "updated_at": "2026-04-28T02:59:42Z"
   },
   "repo_links": [
     {

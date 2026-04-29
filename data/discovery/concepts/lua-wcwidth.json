@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "lua-wcwidth"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aperezdc/lua-wcwidth",
+      "status": "candidate-context",
+      "text": "Pure Lua implementation of the wcwidth() function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aperezdc/lua-wcwidth",
+      "status": "candidate-context",
+      "text": "lua-wcwidth"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aperezdc/lua-wcwidth",
+      "status": "candidate",
+      "text": "lua-wcwidth"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lua-wcwidth",
+  "concept_id": "lua-wcwidth",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aperezdc/lua-wcwidth"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lua-wcwidth",
+      "sense_id": "lua-wcwidth#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -487,6 +487,66 @@
       "source_repo": "composer/composer",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spack/spack",
+      "status": "candidate-context",
+      "text": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack",
+      "status": "candidate-context",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate-context",
+      "text": "The MacPorts ports tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate-context",
+      "text": "This repository contains the source definitions for the open source software packages offered through MacPorts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "18fadly-anthony/rookie",
+      "status": "candidate-context",
+      "text": "Yet another Nix inspired package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "18fadly-anthony/rookie",
+      "status": "candidate-context",
+      "text": "- Yet another [Nix](https://nixos.org) inspired package manager"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate-context",
+      "text": "a Hassle-Free Python Experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate-context",
+      "text": "Spack's community package recipes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate-context",
+      "text": "<h2>"
     }
   ],
   "candidate_glosses": [
@@ -729,6 +789,36 @@
       "source_repo": "composer/composer",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack",
+      "status": "candidate",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate",
+      "text": "This repository contains the source definitions for the open source software packages offered through MacPorts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "18fadly-anthony/rookie",
+      "status": "candidate",
+      "text": "- Yet another [Nix](https://nixos.org) inspired package manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate",
+      "text": "<h2>"
     }
   ],
   "candidate_related_terms": [],
@@ -988,11 +1078,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "composer/composer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "spack/spack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "macports/macports-ports"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "18fadly-anthony/rookie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "astral-sh/rye"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "spack/spack-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Awesome"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

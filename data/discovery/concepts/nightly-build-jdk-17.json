@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly Build JDK 17"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain4j/langchain4j",
+      "status": "candidate-context",
+      "text": "LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It integrates seamlessly with enterprise Java frameworks like Quarkus and Spring Boot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain4j/langchain4j",
+      "status": "candidate-context",
+      "text": "Nightly Build JDK 17"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain4j/langchain4j",
+      "status": "candidate",
+      "text": "Nightly Build JDK 17"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19706,
+      "status": "candidate",
+      "text": "abc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19555,
+      "status": "candidate",
+      "text": "life"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19555,
+      "status": "candidate",
+      "text": "open"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19555,
+      "status": "candidate",
+      "text": "quarter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13880,
+      "status": "candidate",
+      "text": "snore"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly Build JDK 17",
+  "concept_id": "nightly-build-jdk-17",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/nightly_jdk17.yaml",
+      "source_repo": "langchain4j/langchain4j"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Build JDK 17",
+      "sense_id": "nightly-build-jdk-17#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -268,7 +268,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:44:21.254286+00:00",
+  "fetched_at": "2026-04-29T18:39:44.814862+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -320,10 +320,10 @@
     "full_name": "actions/runner-images",
     "html_url": "https://github.com/actions/runner-images",
     "language": "PowerShell",
-    "pushed_at": "2026-04-23T15:37:08Z",
-    "stargazers_count": 12670,
+    "pushed_at": "2026-04-29T14:09:21Z",
+    "stargazers_count": 12697,
     "topics": [],
-    "updated_at": "2026-04-23T14:58:38Z"
+    "updated_at": "2026-04-29T06:48:53Z"
   },
   "repo_links": [],
   "terms": [

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/co3d",
+      "target": "facebookresearch/visdom",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:32.848455+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11324
+    },
+    {
+      "path": "requirements.txt",
+      "size": 25
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tooling for the Common Objects In 3D dataset.",
+    "fork": false,
+    "full_name": "facebookresearch/co3d",
+    "html_url": "https://github.com/facebookresearch/co3d",
+    "language": "Python",
+    "pushed_at": "2024-08-14T10:23:58Z",
+    "stargazers_count": 1142,
+    "topics": [],
+    "updated_at": "2026-04-28T21:54:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/visdom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

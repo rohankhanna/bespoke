@@ -1,0 +1,145 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "devinus/poison",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "devinus/poison",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "devinus/poison",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devinus/poison",
+      "target": "elixir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devinus/poison",
+      "target": "elixir-libraries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devinus/poison",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devinus/poison",
+      "target": "json-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devinus/poison",
+      "target": "json-parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:38:12.391196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6216
+    },
+    {
+      "path": "Dockerfile",
+      "size": 679
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1496
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An incredibly fast, pure Elixir JSON library",
+    "fork": false,
+    "full_name": "devinus/poison",
+    "html_url": "https://github.com/devinus/poison",
+    "language": "Elixir",
+    "pushed_at": "2024-08-12T12:23:55Z",
+    "stargazers_count": 2033,
+    "topics": [
+      "elixir",
+      "elixir-libraries",
+      "json",
+      "json-library",
+      "json-parser"
+    ],
+    "updated_at": "2026-04-20T16:45:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/devinus/poison/ci.yml)](https://github.com/devinus/poison/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/devinus/poison/ci.yml)](https://github.com/devinus/poison/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "elixir-libraries"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/devinus/poison/ci.yml)](https://github.com/devinus/poison/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/devinus/poison/ci.yml)](https://github.com/devinus/poison/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-library"
+    },
+    {
+      "context_snippet": "[![Build Status](https://img.shields.io/github/actions/workflow/status/devinus/poison/ci.yml)](https://github.com/devinus/poison/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json-parser"
+    }
+  ]
+}

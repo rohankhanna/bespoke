@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Misc tools for working with the Google Fonts library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI Build Status](https://github.com/googlefonts/gftools/workflows/Test/badge.svg?branch=main)](https://github.com/googlefonts/gftools/actions/workflows/ci.yml?query=workflow%3ATest+branch%3Amain)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI Build Status](https://github.com/googlefonts/gftools/workflows/Test/badge.svg?branch=main)](https://github.com/googlefonts/gftools/actions/workflows/ci.yml?query=workflow%3ATest+branch%3Amain)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "google-fonts",
+      "sense_id": "google-fonts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "google-fonts",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "google-fonts",
+  "observation_id": "d1d5e7eb2a1896fd",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "google-fonts",
+  "source_context_snippet": "[![CI Build Status](https://github.com/googlefonts/gftools/workflows/Test/badge.svg?branch=main)](https://github.com/googlefonts/gftools/actions/workflows/ci.yml?query=workflow%3ATest+branch%3Amain)",
+  "source_file": null,
+  "source_repo": "googlefonts/gftools",
+  "source_repo_description": "Misc tools for working with the Google Fonts library"
+}

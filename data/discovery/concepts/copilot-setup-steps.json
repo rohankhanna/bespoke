@@ -416,6 +416,66 @@
       "source_repo": "executablebooks/MyST-Parser",
       "status": "candidate-context",
       "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/rover",
+      "status": "candidate-context",
+      "text": "The CLI for Apollo GraphOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/rover",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "licensee/licensee",
+      "status": "candidate-context",
+      "text": "A Ruby Gem to detect under what license a project is distributed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "licensee/licensee",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-dev",
+      "status": "candidate-context",
+      "text": "A developer CLI for working with Azure resources to build and deploy AI applications. Commands map to key workflow stages: code, build, deploy, and monitor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-dev",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/mdit-py-plugins",
+      "status": "candidate-context",
+      "text": "Collection of core plugins for markdown-it-py"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/mdit-py-plugins",
+      "status": "candidate-context",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate-context",
+      "text": "The Microsoft Build Engine (MSBuild) is the build platform for .NET and Visual Studio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate-context",
+      "text": "\"Copilot Setup Steps\""
     }
   ],
   "candidate_glosses": [
@@ -622,6 +682,36 @@
       "source_repo": "executablebooks/MyST-Parser",
       "status": "candidate",
       "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/rover",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "licensee/licensee",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-dev",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/mdit-py-plugins",
+      "status": "candidate",
+      "text": "Copilot Setup Steps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate",
+      "text": "\"Copilot Setup Steps\""
     }
   ],
   "candidate_related_terms": [
@@ -881,11 +971,41 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "executablebooks/MyST-Parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "apollographql/rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "licensee/licensee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "executablebooks/mdit-py-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/msbuild"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

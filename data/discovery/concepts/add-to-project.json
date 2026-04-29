@@ -128,6 +128,18 @@
       "source_repo": "fastapi/typer",
       "status": "candidate-context",
       "text": "Add to Project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/conda",
+      "status": "candidate-context",
+      "text": "A system-level, binary package and environment manager running on all major operating systems and platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda",
+      "status": "candidate-context",
+      "text": "Add to Project"
     }
   ],
   "candidate_glosses": [
@@ -188,6 +200,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fastapi/typer",
+      "status": "candidate",
+      "text": "Add to Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda",
       "status": "candidate",
       "text": "Add to Project"
     }
@@ -293,11 +311,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/add-to-project.yml",
       "source_repo": "fastapi/typer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "conda/conda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

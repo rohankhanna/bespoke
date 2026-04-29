@@ -67,6 +67,42 @@
       "source_repo": "dwyl/flutter-todo-list-tutorial",
       "status": "candidate-context",
       "text": "Quickly learn how to setup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "status": "candidate-context",
+      "text": "A starter project for working with Redis and C#/ASP.NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "status": "candidate-context",
+      "text": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-developer/redis-starter-go",
+      "status": "candidate-context",
+      "text": "A starter project for working with Redis and Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-go",
+      "status": "candidate-context",
+      "text": "This is a [Redis](https://redis.io/) starter template for Go:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-developer/redis-starter-java",
+      "status": "candidate-context",
+      "text": "A starter project for working with Redis and Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-java",
+      "status": "candidate-context",
+      "text": "This is a Redis starter template for Java and Spring Boot 4."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "dwyl/flutter-todo-list-tutorial",
       "status": "candidate",
       "text": "Quickly learn how to setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "status": "candidate",
+      "text": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-go",
+      "status": "candidate",
+      "text": "This is a [Redis](https://redis.io/) starter template for Go:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-java",
+      "status": "candidate",
+      "text": "This is a Redis starter template for Java and Spring Boot 4."
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +262,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "dwyl/flutter-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-java"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

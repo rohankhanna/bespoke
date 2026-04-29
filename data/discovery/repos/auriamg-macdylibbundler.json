@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:49:44.116953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5498
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Utility to ease bundling libraries into executables for OSX",
+    "fork": false,
+    "full_name": "auriamg/macdylibbundler",
+    "html_url": "https://github.com/auriamg/macdylibbundler",
+    "language": "C++",
+    "pushed_at": "2024-02-21T15:32:59Z",
+    "stargazers_count": 607,
+    "topics": [],
+    "updated_at": "2026-04-22T20:31:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

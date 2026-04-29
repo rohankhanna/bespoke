@@ -1,0 +1,236 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "shovel-org/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "shovel-org/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "shovel-org/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    },
+    {
+      "component": "shovel-org/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "ash258/scoop-core",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "shovel-org/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "Pull requests comment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "shovel-org/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "shovel-org/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "Pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "shovel-org/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "Excavator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "shovel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "target": "shovel-bucket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:53:47.231960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11023
+    },
+    {
+      "path": ".github/workflows/issue_comment.yml",
+      "size": 462
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 438
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 324
+    },
+    {
+      "path": ".github/workflows/schedule.yml",
+      "size": 340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "All JetBrains Utilities and IDEs",
+    "fork": false,
+    "full_name": "shovel-org/Windows-JetBrains-Bucket",
+    "html_url": "https://github.com/shovel-org/Windows-JetBrains-Bucket",
+    "language": "PowerShell",
+    "pushed_at": "2025-10-30T12:53:10Z",
+    "stargazers_count": 105,
+    "topics": [
+      "shovel",
+      "shovel-bucket"
+    ],
+    "updated_at": "2026-01-09T23:46:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ash258/scoop-core",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Pull requests comment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "term": "Pull requests comment"
+    },
+    {
+      "context_snippet": "Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "term": "Issues"
+    },
+    {
+      "context_snippet": "Pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Pull requests"
+    },
+    {
+      "context_snippet": "Excavator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/schedule.yml",
+      "term": "Excavator"
+    },
+    {
+      "context_snippet": "`shovel bucket add JetBrains`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shovel"
+    },
+    {
+      "context_snippet": "`shovel bucket add JetBrains`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shovel-bucket"
+    }
+  ]
+}

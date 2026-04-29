@@ -1,0 +1,184 @@
+{
+  "aliases": [
+    "shovel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "status": "candidate-context",
+      "text": "All JetBrains Utilities and IDEs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "status": "candidate-context",
+      "text": "`shovel bucket add JetBrains`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket",
+      "status": "candidate-context",
+      "text": "Shovel bucket containing all Sysinternals tools as separate manifests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket",
+      "status": "candidate-context",
+      "text": "`shovel bucket add sysinternals` or using URL `shovel bucket add sysinternals 'https://github.com/shovel-org/Sysinternals-Bucket.git'`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ash258/Scoop-Core",
+      "status": "candidate-context",
+      "text": "Shovel. Alternative, more advanced, and user-friendly implementation of windows command-line installer scoop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ash258/Scoop-Core",
+      "status": "candidate-context",
+      "text": "Command-line installer for Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket",
+      "status": "candidate",
+      "text": "`shovel bucket add JetBrains`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket",
+      "status": "candidate",
+      "text": "`shovel bucket add sysinternals` or using URL `shovel bucket add sysinternals 'https://github.com/shovel-org/Sysinternals-Bucket.git'`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ash258/Scoop-Core",
+      "status": "candidate",
+      "text": "Command-line installer for Windows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042055,
+      "status": "candidate",
+      "text": "shovelful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041268,
+      "status": "candidate",
+      "text": "spadeful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041213,
+      "status": "candidate",
+      "text": "digger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040998,
+      "status": "candidate",
+      "text": "excavator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30042333,
+      "status": "candidate",
+      "text": "power shovel"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4036,
+      "status": "candidate",
+      "text": "digger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4035,
+      "status": "candidate",
+      "text": "excavator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "spadeful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27,
+      "status": "candidate",
+      "text": "shovelful"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16,
+      "status": "candidate",
+      "text": "power shovel"
+    }
+  ],
+  "canonical_name": "shovel",
+  "concept_id": "shovel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Ash258/Scoop-Core"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "shovel",
+      "sense_id": "shovel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

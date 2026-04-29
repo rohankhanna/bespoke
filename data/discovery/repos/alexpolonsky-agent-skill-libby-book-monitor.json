@@ -1,0 +1,171 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "target": "ai-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "target": "book-tracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "target": "ebooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "target": "libby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "target": "openclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "target": "overdrive",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:53:13.989868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7965
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Track when books get added to your Libby/OverDrive library. Watchlists, multi-library profiles, cron-ready notifications. Agent Skills format.",
+    "fork": false,
+    "full_name": "alexpolonsky/agent-skill-libby-book-monitor",
+    "html_url": "https://github.com/alexpolonsky/agent-skill-libby-book-monitor",
+    "language": "Python",
+    "pushed_at": "2026-02-21T10:35:07Z",
+    "stargazers_count": 2,
+    "topics": [
+      "agent-skills",
+      "ai-tools",
+      "book-tracker",
+      "claude-code",
+      "cursor",
+      "ebooks",
+      "libby",
+      "library",
+      "openclaw",
+      "overdrive",
+      "python"
+    ],
+    "updated_at": "2026-02-21T10:35:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-tools"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "book-tracker"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursor"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ebooks"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libby"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "overdrive"
+    }
+  ]
+}

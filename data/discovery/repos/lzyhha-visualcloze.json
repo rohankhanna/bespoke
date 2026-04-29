@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lzyhha/VisualCloze",
+      "target": "shadow2496/viton-hd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lzyhha/VisualCloze",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lzyhha/VisualCloze",
+      "target": "in-context-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lzyhha/VisualCloze",
+      "target": "multi-task-image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lzyhha/VisualCloze",
+      "target": "text-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lzyhha/VisualCloze",
+      "target": "universal-image-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:15.781259+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12534
+    },
+    {
+      "path": "requirements.txt",
+      "size": 168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2025] VisualCloze: A universal image generation framework that can support a wide range of in-domain tasks and generalize to unseen ones. (\ud83d\udd25 \ud83d\udd25 \ud83d\udd25 Merged into offical pipelines of diffusers.)",
+    "fork": false,
+    "full_name": "lzyhha/VisualCloze",
+    "html_url": "https://github.com/lzyhha/VisualCloze",
+    "language": "Python",
+    "pushed_at": "2026-01-07T01:02:44Z",
+    "stargazers_count": 281,
+    "topics": [
+      "image-generation",
+      "in-context-learning",
+      "multi-task-image-generation",
+      "text-to-image",
+      "universal-image-generation"
+    ],
+    "updated_at": "2026-04-26T09:38:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shadow2496/viton-hd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-context-learning"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-task-image-generation"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-image"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "universal-image-generation"
+    }
+  ]
+}

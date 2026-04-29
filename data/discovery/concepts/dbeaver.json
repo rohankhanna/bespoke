@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "dbeaver"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate-context",
+      "text": "Free universal database tool and SQL client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate-context",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/dbeaver_news.svg?style=social&label=Follow%20%40dbeaver_news)](https://twitter.com/dbeaver_news)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbeaver/cloudbeaver",
+      "status": "candidate-context",
+      "text": "Cloud Database Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/cloudbeaver",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/dbeaver_news.svg?style=social&label=Follow%20%40dbeaver_news)](https://twitter.com/dbeaver_news)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/cloudbeaver",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "squirrel sql client"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "adminer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "oracle sql developer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "microsoft sql server"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "database administration"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "dbeaver",
+  "concept_id": "dbeaver",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dbeaver/dbeaver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dbeaver/cloudbeaver"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dbeaver",
+      "sense_id": "dbeaver#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "app-store"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artsy/eigen",
+      "status": "candidate-context",
+      "text": "The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eigen",
+      "status": "candidate-context",
+      "text": "<a href=\"http://iphone.artsy.net\"><img src =\"docs/screenshots/overview.png\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eigen",
+      "status": "candidate",
+      "text": "<a href=\"http://iphone.artsy.net\"><img src =\"docs/screenshots/overview.png\"></a>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "app-store",
+  "concept_id": "app-store",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "artsy/eigen"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "app-store",
+      "sense_id": "app-store#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

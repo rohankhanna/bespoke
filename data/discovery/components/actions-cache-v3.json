@@ -1,7 +1,7 @@
 {
   "component": "actions/cache@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1137,6 +1137,171 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "mozilla/http-observatory"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webtorrent/bittorrent-lsd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "OAID/Tengine"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend.yml",
+      "source_repo": "ashen-sensored/gradio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "blackjax-devs/blackjax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mac-tests.yml",
+      "source_repo": "optuna/optuna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/matplotlib-tests.yml",
+      "source_repo": "optuna/optuna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sphinx-build.yml",
+      "source_repo": "optuna/optuna"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "sachinraja/simple-icons-py"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sachinraja/simple-icons-py"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emibcn/pywisp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "apollographql/apollo-ios-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly-health-check.yml",
+      "source_repo": "apollographql/apollo-ios-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kubernetes-tests.yml",
+      "source_repo": "minio/operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mrcjkb/vimcats"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cachebug.yml",
+      "source_repo": "dixyes/ghactionsplay"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "sokra/triomphe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "watchexec/cargo-watch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-backend.yml",
+      "source_repo": "chaiNNer-org/chaiNNer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ModelTC/LightX2V"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "VirtusLab/bazel-steward"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/elixir-auth-github-demo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "rspatial/raster"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "extism/extism"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compiler-build.yml",
+      "source_repo": "kendryte/nncase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compiler-python-release.yml",
+      "source_repo": "kendryte/nncase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Mikubill/sd-webui-controlnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "wangshuai09/stable-diffusion-webui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ocaml.yml",
+      "source_repo": "cryspen/hacl-packages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "babashka/sci.configs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "borkdude/carve"
     }
   ]
 }

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github-sync-main-sigstore-conformance.yml",
+      "source_repo": "sigstore/community"
+    }
+  ],
+  "term": "sync-changes-sigstore-conformance"
+}

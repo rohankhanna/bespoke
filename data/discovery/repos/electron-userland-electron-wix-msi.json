@@ -141,13 +141,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "electron-userland/electron-wix-msi",
-      "target": "electron/windows-installer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "electron-userland/electron-wix-msi",
       "target": "felixrieseberg/electron-wix-msi",
       "target_type": "repository"
     },
@@ -163,6 +156,13 @@
       "source_file": "README.md",
       "source_repo": "electron-userland/electron-wix-msi",
       "target": "electron-userland/electron-packager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "electron-userland/electron-wix-msi",
+      "target": "felixrieseberg/electron-wix-msi",
       "target_type": "repository"
     },
     {
@@ -383,7 +383,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:13:25.670831+00:00",
+  "fetched_at": "2026-04-29T20:40:38.885832+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -423,11 +423,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "electron/windows-installer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "felixrieseberg/electron-wix-msi",
       "source_file": "README.md"
     },
@@ -435,6 +430,11 @@
       "edge_type": "explicit-github-link",
       "full_name": "wixtoolset/wix3",
       "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "felixrieseberg/electron-wix-msi",
+      "source_file": "package.json"
     }
   ],
   "terms": [

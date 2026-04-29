@@ -31,6 +31,42 @@
       "source_repo": "JDAI-CV/FaceX-Zoo",
       "status": "candidate-context",
       "text": "<img src=\"./data/images/logo.png\" width=\"150\" >"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cavalleria/cavaface",
+      "status": "candidate-context",
+      "text": "face recognition training project(pytorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cavalleria/cavaface",
+      "status": "candidate-context",
+      "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25\ud83d\udd25High-Performance Face Recognition Library on PaddlePaddle & PyTorch\ud83d\udd25\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate-context",
+      "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "status": "candidate-context",
+      "text": "A large-scale face dataset for face parsing, recognition, generation and editing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "status": "candidate-context",
+      "text": "[[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "JDAI-CV/FaceX-Zoo",
       "status": "candidate",
       "text": "<img src=\"./data/images/logo.png\" width=\"150\" >"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cavalleria/cavaface",
+      "status": "candidate",
+      "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate",
+      "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "status": "candidate",
+      "text": "[[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +118,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "JDAI-CV/FaceX-Zoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "switchablenorms/CelebAMask-HQ"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

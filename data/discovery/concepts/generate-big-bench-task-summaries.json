@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "generate BIG-Bench task summaries"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/BIG-bench",
+      "status": "candidate-context",
+      "text": "Beyond the Imitation Game collaborative benchmark for measuring and extrapolating the capabilities of language models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/BIG-bench",
+      "status": "candidate-context",
+      "text": "generate BIG-Bench task summaries"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/BIG-bench",
+      "status": "candidate",
+      "text": "generate BIG-Bench task summaries"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21012,
+      "status": "candidate",
+      "text": "digest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20789,
+      "status": "candidate",
+      "text": "abstract"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20789,
+      "status": "candidate",
+      "text": "summary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20485,
+      "status": "candidate",
+      "text": "pull"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20461,
+      "status": "candidate",
+      "text": "establish"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "generate BIG-Bench task summaries",
+  "concept_id": "generate-big-bench-task-summaries",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generate_task_summaries.yml",
+      "source_repo": "google/BIG-bench"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "generate BIG-Bench task summaries",
+      "sense_id": "generate-big-bench-task-summaries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

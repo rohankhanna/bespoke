@@ -1,0 +1,207 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "r-lib/actions/setup-r@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "randy3k/radian",
+      "target": "eitsupi/arf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "randy3k/radian",
+      "target": "ipython/ipython",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "randy3k/radian",
+      "target": "jonathanslenders/python-prompt-toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "randy3k/radian",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "randy3k/radian",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "randy3k/radian",
+      "target": "r-lib/actions/setup-r@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "randy3k/radian",
+      "target": "Main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy3k/radian",
+      "target": "console",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy3k/radian",
+      "target": "ipython",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy3k/radian",
+      "target": "radian",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy3k/radian",
+      "target": "repl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "randy3k/radian",
+      "target": "terminal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:43:59.595312+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10919
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 984
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2202
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A 21 century R console",
+    "fork": false,
+    "full_name": "randy3k/radian",
+    "html_url": "https://github.com/randy3k/radian",
+    "language": "Python",
+    "pushed_at": "2026-03-07T04:32:55Z",
+    "stargazers_count": 2272,
+    "topics": [
+      "cli",
+      "console",
+      "ipython",
+      "r",
+      "radian",
+      "repl",
+      "terminal"
+    ],
+    "updated_at": "2026-04-26T08:54:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eitsupi/arf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ipython/ipython",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonathanslenders/python-prompt-toolkit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main"
+    },
+    {
+      "context_snippet": "`radian` is no longer under active development. While I may address critical or obvious bugs, no new features will be added. If you are looking for an active alternative, I recommend checking out [arf](https://github.com/eitsupi/arf) by @eitsupi.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "console"
+    },
+    {
+      "context_snippet": "`radian` is no longer under active development. While I may address critical or obvious bugs, no new features will be added. If you are looking for an active alternative, I recommend checking out [arf](https://github.com/eitsupi/arf) by @eitsupi.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipython"
+    },
+    {
+      "context_snippet": "`radian` is no longer under active development. While I may address critical or obvious bugs, no new features will be added. If you are looking for an active alternative, I recommend checking out [arf](https://github.com/eitsupi/arf) by @eitsupi.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radian"
+    },
+    {
+      "context_snippet": "`radian` is no longer under active development. While I may address critical or obvious bugs, no new features will be added. If you are looking for an active alternative, I recommend checking out [arf](https://github.com/eitsupi/arf) by @eitsupi.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    },
+    {
+      "context_snippet": "`radian` is no longer under active development. While I may address critical or obvious bugs, no new features will be added. If you are looking for an active alternative, I recommend checking out [arf](https://github.com/eitsupi/arf) by @eitsupi.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    }
+  ]
+}

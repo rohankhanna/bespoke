@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:55:06.824403+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Command line interface to the X11 clipboard",
+    "fork": false,
+    "full_name": "astrand/xclip",
+    "html_url": "https://github.com/astrand/xclip",
+    "language": "C",
+    "pushed_at": "2025-01-09T22:05:21Z",
+    "stargazers_count": 1292,
+    "topics": [],
+    "updated_at": "2026-04-29T10:54:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

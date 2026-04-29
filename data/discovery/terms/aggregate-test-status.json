@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci-aggregate-status.yml",
+      "source_repo": "hao-ai-lab/FastVideo"
+    }
+  ],
+  "term": "Aggregate Test Status"
+}

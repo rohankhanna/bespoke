@@ -31,6 +31,30 @@
       "source_repo": "hacker1024/coretemp",
       "status": "candidate-context",
       "text": "Outputs current CPU core and package temperatures on macOS."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+      "status": "candidate-context",
+      "text": "Libre Hardware Monitor is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of your computer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psmux/pstop",
+      "status": "candidate-context",
+      "text": "htop for Windows . TUI system monitor with per-core CPU bars, memory/swap/network, tree view, process kill, 7 color schemes, mouse support. cargo install pstop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/pstop",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "hacker1024/coretemp",
       "status": "candidate",
       "text": "Outputs current CPU core and package temperatures on macOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/pstop",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "hacker1024/coretemp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

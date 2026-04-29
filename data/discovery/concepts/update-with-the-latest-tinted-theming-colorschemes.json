@@ -1,0 +1,142 @@
+{
+  "aliases": [
+    "Update with the latest tinted-theming colorschemes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/base16-jetbrains",
+      "status": "candidate-context",
+      "text": "Base16 themes for Jetbrains IDE's (IntelliJ, PyCharm, Webstorm, etc) - and the Material Theme plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-jetbrains",
+      "status": "candidate-context",
+      "text": "\"Update with the latest tinted-theming colorschemes\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate-context",
+      "text": "Base16 template for xfce4-terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate-context",
+      "text": "Update with the latest tinted-theming colorschemes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-terminal",
+      "status": "candidate-context",
+      "text": "Update with the latest tinted-theming colorschemes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-jetbrains",
+      "status": "candidate",
+      "text": "\"Update with the latest tinted-theming colorschemes\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate",
+      "text": "Update with the latest tinted-theming colorschemes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-terminal",
+      "status": "candidate",
+      "text": "Update with the latest tinted-theming colorschemes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11657,
+      "status": "candidate",
+      "text": "evolution"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11657,
+      "status": "candidate",
+      "text": "new"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11657,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11657,
+      "status": "candidate",
+      "text": "posted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11657,
+      "status": "candidate",
+      "text": "trends"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update with the latest tinted-theming colorschemes",
+  "concept_id": "update-with-the-latest-tinted-theming-colorschemes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "tinted-theming/base16-jetbrains"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "tinted-theming/tinted-terminal"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update with the latest tinted-theming colorschemes",
+      "sense_id": "update-with-the-latest-tinted-theming-colorschemes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

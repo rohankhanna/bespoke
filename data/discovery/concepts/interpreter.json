@@ -43,6 +43,42 @@
       "source_repo": "engine262/engine262",
       "status": "candidate-context",
       "text": "An implementation of ECMA-262 in JavaScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/sci",
+      "status": "candidate-context",
+      "text": "Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"100px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "Boa is an embeddable Javascript engine written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/nbb",
+      "status": "candidate-context",
+      "text": "Scripting in Clojure on Node.js using SCI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "engine262/engine262",
       "status": "candidate",
       "text": "An implementation of ECMA-262 in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"100px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb",
+      "status": "candidate",
+      "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +214,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "engine262/engine262"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "boa-dev/boa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

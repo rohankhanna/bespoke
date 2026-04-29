@@ -442,6 +442,114 @@
       "source_repo": "microsoft/ai-dev-gallery",
       "status": "candidate-context",
       "text": "![WindowsAI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NuGet/NuGetGallery",
+      "status": "candidate-context",
+      "text": "NuGet Gallery is a package repository that powers https://www.nuget.org. Use this repo for reporting NuGet.org issues."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGetGallery",
+      "status": "candidate-context",
+      "text": "\ufeff[NuGet Gallery](https://www.nuget.org/) \u2014 Where packages are found"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "status": "candidate-context",
+      "text": "A starter project for working with Redis and C#/ASP.NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "status": "candidate-context",
+      "text": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-om-dotnet",
+      "status": "candidate-context",
+      "text": "Object mapping, and more, for Redis and .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-dotnet",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/server",
+      "status": "candidate-context",
+      "text": "Bitwarden infrastructure/backend (API, database, Docker, etc)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/server",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate-context",
+      "text": "Whisper.net. Speech to text made simple using Whisper Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate-context",
+      "text": "Android Native build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hanabi1224/RuAnnoy",
+      "status": "candidate-context",
+      "text": "Rust port of annoy (https://github.com/spotify/annoy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hanabi1224/RuAnnoy",
+      "status": "candidate-context",
+      "text": "[![main](https://github.com/hanabi1224/RuAnnoy/actions/workflows/main.yml/badge.svg)](https://github.com/hanabi1224/RuAnnoy/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Taritsyn/DartSassHost",
+      "status": "candidate-context",
+      "text": ".NET wrapper around the Dart Sass."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taritsyn/DartSassHost",
+      "status": "candidate-context",
+      "text": "Dart Sass Host for .NET [![NuGet version](http://img.shields.io/nuget/v/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/) [![Download count](https://img.shields.io/nuget/dt/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "belav/csharpier",
+      "status": "candidate-context",
+      "text": "CSharpier is an opinionated code formatter for c#."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "belav/csharpier",
+      "status": "candidate-context",
+      "text": "![CSharpier](./banner.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -660,6 +768,60 @@
       "source_repo": "microsoft/ai-dev-gallery",
       "status": "candidate",
       "text": "![WindowsAI hero image](docs/images/header.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGetGallery",
+      "status": "candidate",
+      "text": "\ufeff[NuGet Gallery](https://www.nuget.org/) \u2014 Where packages are found"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "status": "candidate",
+      "text": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-dotnet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/server",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate",
+      "text": "Android Native build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hanabi1224/RuAnnoy",
+      "status": "candidate",
+      "text": "[![main](https://github.com/hanabi1224/RuAnnoy/actions/workflows/main.yml/badge.svg)](https://github.com/hanabi1224/RuAnnoy/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Taritsyn/DartSassHost",
+      "status": "candidate",
+      "text": "Dart Sass Host for .NET [![NuGet version](http://img.shields.io/nuget/v/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/) [![Download count](https://img.shields.io/nuget/dt/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "belav/csharpier",
+      "status": "candidate",
+      "text": "![CSharpier](./banner.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -943,11 +1105,95 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "NuGet/NuGetGallery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-Casbin.NET"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bitwarden/server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sandrohanea/whisper.net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hanabi1224/RuAnnoy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Taritsyn/DartSassHost"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "belav/csharpier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "extism/extism"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

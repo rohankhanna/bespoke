@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airaria/TextPruner",
+      "target": "ymcui/chinese-electra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airaria/TextPruner",
+      "target": "facebookresearch/xlm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airaria/TextPruner",
+      "target": "google-research-datasets/paws",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airaria/TextPruner",
+      "target": "facebookresearch/xnli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airaria/TextPruner",
+      "target": "model-pruning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airaria/TextPruner",
+      "target": "pre-trained-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airaria/TextPruner",
+      "target": "pruning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airaria/TextPruner",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:51:48.810369+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21742
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A PyTorch-based model pruning toolkit for pre-trained language models",
+    "fork": false,
+    "full_name": "airaria/TextPruner",
+    "html_url": "https://github.com/airaria/TextPruner",
+    "language": "Python",
+    "pushed_at": "2023-08-31T00:31:15Z",
+    "stargazers_count": 390,
+    "topics": [
+      "model-pruning",
+      "pre-trained-language-models",
+      "pruning",
+      "transformer"
+    ],
+    "updated_at": "2026-04-21T02:24:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/xlm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/xnli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research-datasets/paws",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/chinese-electra",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-pruning"
+    },
+    {
+      "context_snippet": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-trained-language-models"
+    },
+    {
+      "context_snippet": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pruning"
+    },
+    {
+      "context_snippet": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

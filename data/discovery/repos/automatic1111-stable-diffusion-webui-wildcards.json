@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AUTOMATIC1111/stable-diffusion-webui-wildcards",
+      "target": "jtkelm2/stable-diffusion-webui-1",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:51:45.653756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 750
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Wildcards",
+    "fork": false,
+    "full_name": "AUTOMATIC1111/stable-diffusion-webui-wildcards",
+    "html_url": "https://github.com/AUTOMATIC1111/stable-diffusion-webui-wildcards",
+    "language": "Python",
+    "pushed_at": "2024-08-03T12:25:23Z",
+    "stargazers_count": 482,
+    "topics": [],
+    "updated_at": "2026-04-26T03:16:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jtkelm2/stable-diffusion-webui-1",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

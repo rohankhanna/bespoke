@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:41:49.706336+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8203
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1034
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "crux82/ExtremITA",
+    "html_url": "https://github.com/crux82/ExtremITA",
+    "language": "Python",
+    "pushed_at": "2023-12-05T18:11:56Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2025-10-17T15:23:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

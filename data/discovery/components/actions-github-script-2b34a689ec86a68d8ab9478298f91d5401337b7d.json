@@ -1,0 +1,12 @@
+{
+  "component": "actions/github-script@2b34a689ec86a68d8ab9478298f91d5401337b7d",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-for-spammy-issues.yml",
+      "source_repo": "github/rest-api-description"
+    }
+  ]
+}

@@ -118,6 +118,18 @@
       "source_repo": "dwyl/home",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate-context",
+      "text": "The Dart language implementation of gRPC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate-context",
+      "text": "Health"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +186,12 @@
       "source_repo": "dwyl/home",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate",
+      "text": "Health"
     }
   ],
   "candidate_related_terms": [
@@ -271,11 +289,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "dwyl/home"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/health.yaml",
+      "source_repo": "grpc/grpc-dart"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

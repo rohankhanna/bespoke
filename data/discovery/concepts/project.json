@@ -31,6 +31,18 @@
       "source_repo": "jonschlinkert/markdown-toc",
       "status": "candidate-context",
       "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "update/update",
+      "status": "candidate-context",
+      "text": "Update is a new developer framework and CLI for automating updates of any kind in code projects. If you know how to use assemble, generate or verb, you'll know how to use update."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "update/update",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "jonschlinkert/markdown-toc",
       "status": "candidate",
       "text": "> Generate a markdown TOC (table of contents) with Remarkable."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "update/update",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "jonschlinkert/markdown-toc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "update/update"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

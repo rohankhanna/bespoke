@@ -1,0 +1,179 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-gcc_x64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-gcc_x64.yml"
+    },
+    {
+      "component": "actions/checkout@v4.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-gcc_x64.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-gcc_x64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-gcc_x64.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-gcc_x64.yml",
+      "source_repo": "hogsy/chronon",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-gcc_x64.yml",
+      "source_repo": "hogsy/chronon",
+      "target": "actions/upload-artifact@v4.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-gcc_x64.yml",
+      "source_repo": "hogsy/chronon",
+      "target": "Build (Linux GCC x64)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-gcc_x64.yml",
+      "source_repo": "hogsy/chronon",
+      "target": "actions/checkout@v4.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-gcc_x64.yml",
+      "source_repo": "hogsy/chronon",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-gcc_x64.yml",
+      "source_repo": "hogsy/chronon",
+      "target": "actions/upload-artifact@v4.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-gcc_x64.yml",
+      "source_repo": "hogsy/chronon",
+      "target": "Build (Windows GCC x64)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hogsy/chronon",
+      "target": "anachronox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hogsy/chronon",
+      "target": "game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hogsy/chronon",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hogsy/chronon",
+      "target": "quake2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:53.888502+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build-linux-gcc_x64.yml",
+      "size": 732
+    },
+    {
+      "path": ".github/workflows/build-windows-gcc_x64.yml",
+      "size": 1173
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is an open-source reimplementation of Anachronox, built on top of the Quake 2 engine (which funnily enough is the same engine Anachronox was developed upon).",
+    "fork": false,
+    "full_name": "hogsy/chronon",
+    "html_url": "https://github.com/hogsy/chronon",
+    "language": "C++",
+    "pushed_at": "2025-06-21T11:33:34Z",
+    "stargazers_count": 62,
+    "topics": [
+      "anachronox",
+      "c",
+      "cpp",
+      "game-engine",
+      "opengl",
+      "quake2"
+    ],
+    "updated_at": "2026-04-04T13:29:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build (Linux GCC x64)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-gcc_x64.yml",
+      "term": "Build (Linux GCC x64)"
+    },
+    {
+      "context_snippet": "Build (Windows GCC x64)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows-gcc_x64.yml",
+      "term": "Build (Windows GCC x64)"
+    },
+    {
+      "context_snippet": "Build (Linux GCC x64)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anachronox"
+    },
+    {
+      "context_snippet": "Build (Linux GCC x64)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine"
+    },
+    {
+      "context_snippet": "Build (Linux GCC x64)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "Build (Linux GCC x64)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quake2"
+    }
+  ]
+}

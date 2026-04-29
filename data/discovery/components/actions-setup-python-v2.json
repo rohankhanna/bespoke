@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-python@v2",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1412,6 +1412,291 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ruff.yml",
       "source_repo": "theroyallab/tabbyAPI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "agiresearch/OpenAGI"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "rishikksh20/FastSpeech2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-style-check.yml",
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "mlcommons/algorithmic-efficiency"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emibcn/pywisp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "joerick/pyinstrument_cext"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/validation-repo-test.yml",
+      "source_repo": "Azure/actions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "redis-stack/helm-redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "tensorflow/mesh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "xinntao/facexlib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/adapter_docs_build.yml",
+      "source_repo": "adapter-hub/adapters"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests_torch.yml",
+      "source_repo": "adapter-hub/adapters"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-doc-options-update.yml",
+      "source_repo": "jolibrain/joliGEN"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "blackjack4494/yt-dlc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml.disable",
+      "source_repo": "blackjack4494/yt-dlc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "kingoflolz/mesh-transformer-jax"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "open-mmlab/mmyolo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "HKUDS/RAG-Anything"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "hpcaitech/torchrec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "machow/quartodoc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "shibing624/similarities"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate_task_summaries.yml",
+      "source_repo": "google/BIG-bench"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/BIG-bench"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ROCm/rocm-cmake"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/link_check.yml",
+      "source_repo": "apache/mxnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/os_x_mklbuild.yml",
+      "source_repo": "apache/mxnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/os_x_staticbuild.yml",
+      "source_repo": "apache/mxnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macOS.yaml",
+      "source_repo": "apache/singa"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "fugue-project/fugue-jupyter"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "joaotavora/eglot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jupyter-test.yml",
+      "source_repo": "kendryte/nncase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "MegEngine/Hub"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "blindpandas/chessmart"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheel.yml",
+      "source_repo": "mlflow/mlflow-torchserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mlflow/mlflow-torchserve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "facebookresearch/fvcore"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/newsfile.yml",
+      "source_repo": "matrix-org/matrix-appservice-slack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "m4rc1e/test-ufr-family"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/buildwebsite.yml",
+      "source_repo": "dmlc/gluon-nlp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unittests-gpu.yml",
+      "source_repo": "dmlc/gluon-nlp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unittests.yml",
+      "source_repo": "dmlc/gluon-nlp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "chenkui164/FastASR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-core-release-pypi.yml",
+      "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-deploy-pypi-if-release-more-than-once-per-day.yml",
+      "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-llm-nightly-release.yml",
+      "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-llm-stable-release-pypi.yml",
+      "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-release-pypi.yml",
+      "source_repo": "intel/BigDL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/style.yml",
+      "source_repo": "borisdayma/dalle-mini"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "lucidrains/tab-transformer-pytorch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/staging.yml",
+      "source_repo": "gradio-app/gradio-discord-bot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "xinntao/Real-ESRGAN"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "dbolya/tomesd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "heal-research/operon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "cobalt-org/cobalt-org.github.io"
     }
   ]
 }

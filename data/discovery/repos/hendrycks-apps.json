@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hendrycks/apps",
+      "target": "hendrycks/math",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hendrycks/apps",
+      "target": "hendrycks/ethics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hendrycks/apps",
+      "target": "code-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hendrycks/apps",
+      "target": "program-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:48:34.212778+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1955
+    },
+    {
+      "path": "requirements.txt",
+      "size": 233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "APPS: Automated Programming Progress Standard (NeurIPS 2021)",
+    "fork": false,
+    "full_name": "hendrycks/apps",
+    "html_url": "https://github.com/hendrycks/apps",
+    "language": "Python",
+    "pushed_at": "2024-06-19T06:32:49Z",
+    "stargazers_count": 525,
+    "topics": [
+      "code-generation",
+      "program-synthesis"
+    ],
+    "updated_at": "2026-04-29T06:55:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hendrycks/ethics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hendrycks/math",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the repository for [Measuring Coding Challenge Competence With APPS](https://arxiv.org/pdf/2105.09938) by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-generation"
+    },
+    {
+      "context_snippet": "This is the repository for [Measuring Coding Challenge Competence With APPS](https://arxiv.org/pdf/2105.09938) by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "program-synthesis"
+    }
+  ]
+}

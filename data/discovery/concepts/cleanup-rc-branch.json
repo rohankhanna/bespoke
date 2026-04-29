@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cleanup RC Branch"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/server",
+      "status": "candidate-context",
+      "text": "Bitwarden infrastructure/backend (API, database, Docker, etc)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/server",
+      "status": "candidate-context",
+      "text": "Cleanup RC Branch"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/server",
+      "status": "candidate",
+      "text": "Cleanup RC Branch"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22826,
+      "status": "candidate",
+      "text": "icu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22826,
+      "status": "candidate",
+      "text": "lav"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15815,
+      "status": "candidate",
+      "text": "coke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15055,
+      "status": "candidate",
+      "text": "breviary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15055,
+      "status": "candidate",
+      "text": "presbytery"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cleanup RC Branch",
+  "concept_id": "cleanup-rc-branch",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cleanup-rc-branch.yml",
+      "source_repo": "bitwarden/server"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cleanup RC Branch",
+      "sense_id": "cleanup-rc-branch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

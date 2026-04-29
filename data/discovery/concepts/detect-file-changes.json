@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "detect-file-changes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OffchainLabs/nitro",
+      "status": "candidate-context",
+      "text": "Nitro goes vroom and fixes everything"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/nitro",
+      "status": "candidate-context",
+      "text": "detect-file-changes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/nitro",
+      "status": "candidate",
+      "text": "detect-file-changes"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "detect-file-changes",
+  "concept_id": "detect-file-changes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/_detect-changes.yml",
+      "source_repo": "OffchainLabs/nitro"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "detect-file-changes",
+      "sense_id": "detect-file-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

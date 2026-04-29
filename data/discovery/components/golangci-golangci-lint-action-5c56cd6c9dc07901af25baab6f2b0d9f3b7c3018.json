@@ -1,0 +1,12 @@
+{
+  "component": "golangci/golangci-lint-action@5c56cd6c9dc07901af25baab6f2b0d9f3b7c3018",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint"
+    }
+  ]
+}

@@ -43,6 +43,18 @@
       "source_repo": "tatethurston/ProtoScript",
       "status": "candidate-context",
       "text": "Publish NPM Package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tatethurston/TwirpScript",
+      "status": "candidate-context",
+      "text": "A protobuf RPC framework for JavaScript and TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatethurston/TwirpScript",
+      "status": "candidate-context",
+      "text": "Publish NPM Package"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tatethurston/ProtoScript",
+      "status": "candidate",
+      "text": "Publish NPM Package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tatethurston/TwirpScript",
       "status": "candidate",
       "text": "Publish NPM Package"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "tatethurston/ProtoScript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tatethurston/TwirpScript"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -360,7 +360,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T12:53:23.127685+00:00",
+  "fetched_at": "2026-04-29T20:55:24.993522+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -375,14 +375,13 @@
       "size": 436
     }
   ],
-  "metadata_refreshed_at": "2026-04-29T05:37:03.576128+00:00",
   "related_repositories": [],
   "repo": {
     "archived": true,
     "default_branch": "master",
     "description": "Checks a new dts against the JavaScript sources and tells you what problems it has",
     "fork": false,
-    "full_name": "definitelytyped/dts-critic",
+    "full_name": "DefinitelyTyped/dts-critic",
     "html_url": "https://github.com/DefinitelyTyped/dts-critic",
     "language": "TypeScript",
     "pushed_at": "2022-02-11T15:41:55Z",

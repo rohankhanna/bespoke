@@ -1,0 +1,169 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asdine/storm",
+      "target": "coreos/bbolt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asdine/storm",
+      "target": "asdine/genji",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asdine/storm",
+      "target": "favadi/protoc-go-inject-tag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdine/storm",
+      "target": "boltdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdine/storm",
+      "target": "bucket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdine/storm",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdine/storm",
+      "target": "indexes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdine/storm",
+      "target": "query-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdine/storm",
+      "target": "storm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asdine/storm",
+      "target": "toolkit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:45:33.147034+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15984
+    },
+    {
+      "path": "go.mod",
+      "size": 671
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple and powerful toolkit for BoltDB",
+    "fork": false,
+    "full_name": "asdine/storm",
+    "html_url": "https://github.com/asdine/storm",
+    "language": "Go",
+    "pushed_at": "2024-01-07T00:07:01Z",
+    "stargazers_count": 2100,
+    "topics": [
+      "boltdb",
+      "bucket",
+      "database",
+      "indexes",
+      "query-engine",
+      "storm",
+      "toolkit"
+    ],
+    "updated_at": "2026-04-14T14:32:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "asdine/genji",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreos/bbolt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "favadi/protoc-go-inject-tag",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boltdb"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bucket"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "indexes"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "query-engine"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storm"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "toolkit"
+    }
+  ]
+}

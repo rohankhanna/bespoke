@@ -1,0 +1,54 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "habamax/vim-select",
+      "target": "files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "habamax/vim-select",
+      "target": "fuzzy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:40:22.348788+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim fuzzy file/buffer/mru selector plugin",
+    "fork": false,
+    "full_name": "habamax/vim-select",
+    "html_url": "https://github.com/habamax/vim-select",
+    "language": "Vim Script",
+    "pushed_at": "2025-01-06T22:26:01Z",
+    "stargazers_count": 42,
+    "topics": [
+      "files",
+      "fuzzy",
+      "vim"
+    ],
+    "updated_at": "2025-06-07T14:12:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Vim fuzzy file/buffer/mru selector plugin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "files"
+    },
+    {
+      "context_snippet": "Vim fuzzy file/buffer/mru selector plugin",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy"
+    }
+  ]
+}

@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-cs-version.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-cs-version.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "Bump CS Version in REPO",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-license-year.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-license-year.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "Bump license year",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-no-exception-workflow.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-no-exception-workflow.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks-no-exception-workflow.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "checks",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "sevntu-checkstyle/sevntu.checkstyle"
+}

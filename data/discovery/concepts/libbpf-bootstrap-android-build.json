@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "libbpf-bootstrap android build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libbpf/libbpf-bootstrap",
+      "status": "candidate-context",
+      "text": "Scaffolding for BPF application development with libbpf and BPF CO-RE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbpf/libbpf-bootstrap",
+      "status": "candidate-context",
+      "text": "libbpf-bootstrap android build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbpf/libbpf-bootstrap",
+      "status": "candidate",
+      "text": "libbpf-bootstrap android build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13582,
+      "status": "candidate",
+      "text": "ash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12986,
+      "status": "candidate",
+      "text": "email"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12986,
+      "status": "candidate",
+      "text": "robot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12561,
+      "status": "candidate",
+      "text": "data"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12561,
+      "status": "candidate",
+      "text": "icon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "libbpf-bootstrap android build",
+  "concept_id": "libbpf-bootstrap-android-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "libbpf/libbpf-bootstrap"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "libbpf-bootstrap android build",
+      "sense_id": "libbpf-bootstrap-android-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

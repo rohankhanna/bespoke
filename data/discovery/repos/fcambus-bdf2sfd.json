@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fcambus/bdf2sfd",
+      "target": "fcambus/spleen",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:43:54.300927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3825
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BDF to SFD converter, allowing to vectorize bitmap fonts",
+    "fork": false,
+    "full_name": "fcambus/bdf2sfd",
+    "html_url": "https://github.com/fcambus/bdf2sfd",
+    "language": "C",
+    "pushed_at": "2026-04-10T13:35:59Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-04-10T13:36:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fcambus/spleen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "transformer-cv"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate-context",
+      "text": "An ultimately comprehensive paper list of Vision Transformer/Attention, including papers, codes, and related websites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate-context",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "status": "candidate-context",
+      "text": "Collect some papers about transformer with vision. Awesome Transformer with Computer Vision (CV)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "status": "candidate-context",
+      "text": "Collect some Transformer with Computer-Vision (CV) papers."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "status": "candidate",
+      "text": "Collect some Transformer with Computer-Vision (CV) papers."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "transformer-cv",
+  "concept_id": "transformer-cv",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transformer-cv",
+      "sense_id": "transformer-cv#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

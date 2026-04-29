@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "grommet",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "grommet-icons",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-dom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "react-scripts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "styled-components",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grommet/grommet-starter-new-app",
+      "target": "grommet/grommet-site",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "grommet/grommet-starter-new-app",
+      "target": "grommet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "grommet/grommet-starter-new-app",
+      "target": "grommet-icons",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "grommet/grommet-starter-new-app",
+      "target": "react",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "grommet/grommet-starter-new-app",
+      "target": "react-dom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "grommet/grommet-starter-new-app",
+      "target": "react-scripts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "grommet/grommet-starter-new-app",
+      "target": "styled-components",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:37:35.194245+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18630
+    },
+    {
+      "path": "package.json",
+      "size": 588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tutorial to show how to use Grommet with create-react-app.",
+    "fork": false,
+    "full_name": "grommet/grommet-starter-new-app",
+    "html_url": "https://github.com/grommet/grommet-starter-new-app",
+    "language": "JavaScript",
+    "pushed_at": "2024-10-01T19:41:30Z",
+    "stargazers_count": 327,
+    "topics": [],
+    "updated_at": "2026-04-29T04:43:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grommet/grommet-site",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

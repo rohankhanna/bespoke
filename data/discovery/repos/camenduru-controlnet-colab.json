@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:43:43.580009+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25378
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "camenduru/controlnet-colab",
+    "html_url": "https://github.com/camenduru/controlnet-colab",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-06-26T08:30:49Z",
+    "stargazers_count": 534,
+    "topics": [],
+    "updated_at": "2026-03-27T13:23:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

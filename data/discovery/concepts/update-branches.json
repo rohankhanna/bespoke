@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update branches"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmderdev/cmder",
+      "status": "candidate-context",
+      "text": "Lovely console emulator package for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmderdev/cmder",
+      "status": "candidate-context",
+      "text": "Update branches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmderdev/cmder",
+      "status": "candidate",
+      "text": "Update branches"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12050,
+      "status": "candidate",
+      "text": "stock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12039,
+      "status": "candidate",
+      "text": "conference"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11028,
+      "status": "candidate",
+      "text": "debriefing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11028,
+      "status": "candidate",
+      "text": "developments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11028,
+      "status": "candidate",
+      "text": "eta"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update branches",
+  "concept_id": "update-branches",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/branches.yml",
+      "source_repo": "cmderdev/cmder"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update branches",
+      "sense_id": "update-branches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

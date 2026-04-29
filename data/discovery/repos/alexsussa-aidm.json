@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexsussa/AIDM",
+      "target": "aidm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexsussa/AIDM",
+      "target": "appimage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexsussa/AIDM",
+      "target": "appimage-desktop-maker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexsussa/AIDM",
+      "target": "appimage-integration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexsussa/AIDM",
+      "target": "appimage-integration-system",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:49:23.624111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AppImage Desktop Maker",
+    "fork": false,
+    "full_name": "Alexsussa/AIDM",
+    "html_url": "https://github.com/Alexsussa/AIDM",
+    "language": "Python",
+    "pushed_at": "2023-06-24T13:18:25Z",
+    "stargazers_count": 20,
+    "topics": [
+      "aidm",
+      "appimage",
+      "appimage-desktop-maker",
+      "appimage-integration",
+      "appimage-integration-system"
+    ],
+    "updated_at": "2026-03-05T14:53:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "AppImage Desktop Maker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aidm"
+    },
+    {
+      "context_snippet": "AppImage Desktop Maker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appimage"
+    },
+    {
+      "context_snippet": "AppImage Desktop Maker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appimage-desktop-maker"
+    },
+    {
+      "context_snippet": "AppImage Desktop Maker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appimage-integration"
+    },
+    {
+      "context_snippet": "AppImage Desktop Maker",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "appimage-integration-system"
+    }
+  ]
+}

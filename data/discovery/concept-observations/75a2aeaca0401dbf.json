@@ -1,0 +1,86 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A header only C++ library that provides type safety and user defined literals for physical units"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "-<img align=\"right\" src=\"SI-logo.jpg\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "-<img align=\"right\" src=\"SI-logo.jpg\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016457,
+      "status": "candidate",
+      "text": "proportion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998672,
+      "status": "candidate",
+      "text": "attribute"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9954529,
+      "status": "candidate",
+      "text": "property"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "angles"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dimensions",
+      "sense_id": "dimensions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dimensions",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dimensions",
+  "observation_id": "75a2aeaca0401dbf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "dimensions",
+  "source_context_snippet": "-<img align=\"right\" src=\"SI-logo.jpg\">",
+  "source_file": null,
+  "source_repo": "bernedom/SI",
+  "source_repo_description": "A header only C++ library that provides type safety and user defined literals for physical units"
+}

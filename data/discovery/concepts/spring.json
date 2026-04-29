@@ -55,6 +55,42 @@
       "source_repo": "alibaba/compileflow",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-projects/spring-tools",
+      "status": "candidate-context",
+      "text": "The next generation of tooling for Spring Boot, including support for Cloud Foundry manifest files, Concourse CI pipeline definitions, BOSH deployment manifests, and more... - Available for Visual Studio Code, Cursor, Eclipse, and Theia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-tools",
+      "status": "candidate-context",
+      "text": "The all-new Spring Tools for Visual Studio Code, Eclipse, and Theia. Learn more at https://spring.io/tools."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-developer/redis-starter-java",
+      "status": "candidate-context",
+      "text": "A starter project for working with Redis and Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-java",
+      "status": "candidate-context",
+      "text": "This is a Redis starter template for Java and Spring Boot 4."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-om-spring",
+      "status": "candidate-context",
+      "text": "Spring Data Redis extensions for better search, documents models, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-spring",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +115,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "alibaba/compileflow",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-tools",
+      "status": "candidate",
+      "text": "The all-new Spring Tools for Visual Studio Code, Eclipse, and Theia. Learn more at https://spring.io/tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-java",
+      "status": "candidate",
+      "text": "This is a Redis starter template for Java and Spring Boot 4."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-spring",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -184,11 +238,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "alibaba/compileflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-spring"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

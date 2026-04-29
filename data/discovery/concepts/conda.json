@@ -106,6 +106,30 @@
       "source_repo": "conda/conda-lock",
       "status": "candidate-context",
       "text": "[![GitHub deployments](https://img.shields.io/github/deployments/conda/conda-lock/github-pages?label=docs&style=for-the-badge)](https://conda.github.io/conda-lock/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/conda",
+      "status": "candidate-context",
+      "text": "A system-level, binary package and environment manager running on all major operating systems and platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda",
+      "status": "candidate-context",
+      "text": "[conda-logo]: https://s3.amazonaws.com/conda-dev/conda_logo.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/singa",
+      "status": "candidate-context",
+      "text": "a distributed deep learning platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/singa",
+      "status": "candidate-context",
+      "text": "conda"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +180,18 @@
       "source_repo": "conda/conda-lock",
       "status": "candidate",
       "text": "[![GitHub deployments](https://img.shields.io/github/deployments/conda/conda-lock/github-pages?label=docs&style=for-the-badge)](https://conda.github.io/conda-lock/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda",
+      "status": "candidate",
+      "text": "[conda-logo]: https://s3.amazonaws.com/conda-dev/conda_logo.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/singa",
+      "status": "candidate",
+      "text": "conda"
     }
   ],
   "candidate_related_terms": [],
@@ -211,11 +247,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "conda/conda-lock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "conda/conda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/conda.yaml",
+      "source_repo": "apache/singa"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

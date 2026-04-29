@@ -460,6 +460,90 @@
       "source_repo": "fugue-project/fugue",
       "status": "candidate-context",
       "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate-context",
+      "text": "Image annotation with Python. Supports polygon, rectangle, circle, line, point, and AI-assisted annotation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielgatis/rembg",
+      "status": "candidate-context",
+      "text": "Rembg is a tool to remove images background"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgatis/rembg",
+      "status": "candidate-context",
+      "text": "Publish to Pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/twine",
+      "status": "candidate-context",
+      "text": "Utilities for interacting with PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/twine",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielward27/paramax",
+      "status": "candidate-context",
+      "text": "A small library of paramaterizations and parameter constraints for PyTrees."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielward27/paramax",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psf/requests",
+      "status": "candidate-context",
+      "text": "A simple, yet elegant, HTTP library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/requests",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benchling/refac",
+      "status": "candidate-context",
+      "text": "A tool for moving and refactoring python code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benchling/refac",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thu-ml/SageAttention",
+      "status": "candidate-context",
+      "text": "[ICLR2025, ICML2025, NeurIPS2025 Spotlight] Quantized Attention achieves speedup of 2-5x compared to FlashAttention, without losing end-to-end metrics across language, image, and video models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SageAttention",
+      "status": "candidate-context",
+      "text": "Publish to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -688,6 +772,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fugue-project/fugue",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgatis/rembg",
+      "status": "candidate",
+      "text": "Publish to Pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/twine",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielward27/paramax",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/requests",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benchling/refac",
+      "status": "candidate",
+      "text": "Publish to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SageAttention",
       "status": "candidate",
       "text": "Publish to PyPI"
     }
@@ -1039,11 +1165,83 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "fugue-project/fugue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "wkentaro/labelme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish_pypi.yml",
+      "source_repo": "danielgatis/rembg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pypa/twine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "danielward27/paramax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish_package.yml",
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "Comfy-Org/ComfyUI-Manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "meta-llama/prompt-ops"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "OpenHands/ToM-SWE"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "psf/requests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-to-pypi.yaml",
+      "source_repo": "benchling/refac"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "thu-ml/SageAttention"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

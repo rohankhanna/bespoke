@@ -1,0 +1,12 @@
+{
+  "component": "docker/metadata-action@818d4b7b91585d195f67373fd9cb0332e31a7175",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
+    }
+  ]
+}

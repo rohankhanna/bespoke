@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cszn/SCUNet",
+      "target": "cszn/cszn.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SCUNet",
+      "target": "blind-image-denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SCUNet",
+      "target": "degradation-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SCUNet",
+      "target": "image-denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SCUNet",
+      "target": "practical-image-denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/SCUNet",
+      "target": "real-world-image-denoising",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:09.534549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Practical Blind Denoising via Swin-Conv-UNet and Data Synthesis (Machine Intelligence Research 2023)",
+    "fork": false,
+    "full_name": "cszn/SCUNet",
+    "html_url": "https://github.com/cszn/SCUNet",
+    "language": "Python",
+    "pushed_at": "2023-12-15T13:31:20Z",
+    "stargazers_count": 804,
+    "topics": [
+      "blind-image-denoising",
+      "degradation-model",
+      "image-denoising",
+      "practical-image-denoising",
+      "real-world-image-denoising"
+    ],
+    "updated_at": "2026-04-29T17:38:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cszn/cszn.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SCUNet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blind-image-denoising"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SCUNet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "degradation-model"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SCUNet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-denoising"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SCUNet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "practical-image-denoising"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/SCUNet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-world-image-denoising"
+    }
+  ]
+}

@@ -43,6 +43,18 @@
       "source_repo": "babbel/puma-plugin-telemetry",
       "status": "candidate-context",
       "text": "Puma plugin which should be able to handle all your metric needs regarding your webserver:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "A High Performance HTTP Server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "babbel/puma-plugin-telemetry",
       "status": "candidate",
       "text": "Puma plugin which should be able to handle all your metric needs regarding your webserver:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "babbel/puma-plugin-telemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ohler55/agoo"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

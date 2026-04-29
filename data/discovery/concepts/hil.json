@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "HIL"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/espflash",
+      "status": "candidate-context",
+      "text": "Serial flasher utility for Espressif SoCs and modules based on esptool.py"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/espflash",
+      "status": "candidate-context",
+      "text": "HIL"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/espflash",
+      "status": "candidate",
+      "text": "HIL"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19887989,
+      "status": "candidate",
+      "text": "hill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19801736,
+      "status": "candidate",
+      "text": "hale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020777,
+      "status": "candidate",
+      "text": "hawn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020776,
+      "status": "candidate",
+      "text": "leese"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020775,
+      "status": "candidate",
+      "text": "nao"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "HIL",
+  "concept_id": "hil",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/hil.yml",
+      "source_repo": "esp-rs/espflash"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "HIL",
+      "sense_id": "hil#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

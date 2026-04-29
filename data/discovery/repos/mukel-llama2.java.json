@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mukel/llama2.java",
+      "target": "jrudolph/llama2.scala",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:59:27.211821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6036
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Inference Llama 2 in one file of pure Java",
+    "fork": false,
+    "full_name": "mukel/llama2.java",
+    "html_url": "https://github.com/mukel/llama2.java",
+    "language": "Java",
+    "pushed_at": "2024-05-17T00:07:44Z",
+    "stargazers_count": 227,
+    "topics": [],
+    "updated_at": "2026-04-17T04:19:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jrudolph/llama2.scala",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

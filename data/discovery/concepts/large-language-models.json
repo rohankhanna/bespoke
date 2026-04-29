@@ -859,6 +859,162 @@
       "source_repo": "reasoning-machines/pal",
       "status": "candidate-context",
       "text": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "A large-scale 7B pretraining language model developed by BaiChuan-Inc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate-context",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate-context",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "A 13B large language model developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bigscience-workshop/xmtf",
+      "status": "candidate-context",
+      "text": "Crosslingual Generalization through Multitask Finetuning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigscience-workshop/xmtf",
+      "status": "candidate-context",
+      "text": "![](xmtf_banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUDS/MiniRAG",
+      "status": "candidate-context",
+      "text": "[ACL2026] \"MiniRAG: Making RAG Simpler with Small and Open-Sourced Language Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/MiniRAG",
+      "status": "candidate-context",
+      "text": "![MiniRAG](https://files.mdnice.com/user/87760/ff711e74-c382-4432-bec2-e6f2aa787df1.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUDS/VideoRAG",
+      "status": "candidate-context",
+      "text": "[KDD'2026] \"VideoRAG: Chat with Your Videos\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/VideoRAG",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "declare-lab/tango",
+      "status": "candidate-context",
+      "text": "A family of diffusion models for text-to-audio generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/tango",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25If you enjoyed Tango, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate-context",
+      "text": "[ACL 2024] An Easy-to-use Knowledge Editing Framework for LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jd-opensource/xllm",
+      "status": "candidate-context",
+      "text": "A high-performance inference engine for LLM, VLM, DiT and REC models, optimized for diverse AI accelerators."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jd-opensource/xllm",
+      "status": "candidate-context",
+      "text": "<!-- Copyright 2022 JD Co."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate-context",
+      "text": "Run generative AI models in sophgo BM1684X/BM1688"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reasoning-machines/prompt-lib",
+      "status": "candidate-context",
+      "text": "A set of utilities for running few-shot prompting experiments on large-language models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/prompt-lib",
+      "status": "candidate-context",
+      "text": "- A library for hassle-free few-shot prompting."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BAAI-Agents/Cradle",
+      "status": "candidate-context",
+      "text": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BAAI-Agents/Cradle",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "A series of large language models developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
     }
   ],
   "candidate_glosses": [
@@ -1287,6 +1443,84 @@
       "source_repo": "reasoning-machines/pal",
       "status": "candidate",
       "text": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigscience-workshop/xmtf",
+      "status": "candidate",
+      "text": "![](xmtf_banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/MiniRAG",
+      "status": "candidate",
+      "text": "![MiniRAG](https://files.mdnice.com/user/87760/ff711e74-c382-4432-bec2-e6f2aa787df1.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/VideoRAG",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/tango",
+      "status": "candidate",
+      "text": "\ud83d\udd25If you enjoyed Tango, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jd-opensource/xllm",
+      "status": "candidate",
+      "text": "<!-- Copyright 2022 JD Co."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/prompt-lib",
+      "status": "candidate",
+      "text": "- A library for hassle-free few-shot prompting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BAAI-Agents/Cradle",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
     }
   ],
   "candidate_related_terms": [],
@@ -1906,11 +2140,179 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "zai-org/ChatGLM2-6B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/ggml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MME-Benchmarks/Video-MME"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FMInference/FlexLLMGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "young-geng/EasyLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/xmtf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "HKUDS/MiniRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "HKUDS/VideoRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/tango"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/LLM-PuzzleTest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zjunlp/EasyEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jd-opensource/xllm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sophgo/LLM-TPU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/prompt-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "BAAI-Agents/Cradle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/ChatGLM2-6B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

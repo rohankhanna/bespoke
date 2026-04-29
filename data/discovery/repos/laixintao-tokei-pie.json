@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "laixintao/tokei-pie",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "laixintao/tokei-pie",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "laixintao/tokei-pie",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "laixintao/tokei-pie",
+      "target": "cloc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "laixintao/tokei-pie",
+      "target": "code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "laixintao/tokei-pie",
+      "target": "code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "laixintao/tokei-pie",
+      "target": "statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "laixintao/tokei-pie",
+      "target": "tokei",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "laixintao/tokei-pie",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:55:43.726200+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 454
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 454
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Render tokei's output to interactive sunburst chart.",
+    "fork": false,
+    "full_name": "laixintao/tokei-pie",
+    "html_url": "https://github.com/laixintao/tokei-pie",
+    "language": "Python",
+    "pushed_at": "2026-04-01T09:35:01Z",
+    "stargazers_count": 207,
+    "topics": [
+      "cloc",
+      "code",
+      "code-analysis",
+      "statistics",
+      "tokei",
+      "visualization"
+    ],
+    "updated_at": "2026-04-25T15:24:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloc"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-analysis"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokei"
+    },
+    {
+      "context_snippet": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

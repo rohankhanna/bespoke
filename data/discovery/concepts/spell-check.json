@@ -43,6 +43,18 @@
       "source_repo": "jekyll/jekyll",
       "status": "candidate-context",
       "text": "Spell Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "squidowl/halloy",
+      "status": "candidate-context",
+      "text": "IRC application written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidowl/halloy",
+      "status": "candidate-context",
+      "text": "Spell Check"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jekyll/jekyll",
+      "status": "candidate",
+      "text": "Spell Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidowl/halloy",
       "status": "candidate",
       "text": "Spell Check"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/spelling.yml",
       "source_repo": "jekyll/jekyll"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/spell-check.yml",
+      "source_repo": "squidowl/halloy"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -187,6 +187,42 @@
       "source_repo": "crev-dev/pip-crev",
       "status": "candidate-context",
       "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optuna",
+      "status": "candidate-context",
+      "text": "A hyperparameter optimization framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna",
+      "status": "candidate-context",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/optuna/optuna/master/docs/image/optuna-logo.png\" width=\"800\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/CNTK",
+      "status": "candidate-context",
+      "text": "Microsoft Cognitive Toolkit (CNTK), an open source deep-learning toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CNTK",
+      "status": "candidate-context",
+      "text": "| **Chat** | **Windows build status** | **Linux build status** |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optuna-examples",
+      "status": "candidate-context",
+      "text": "Examples for https://github.com/optuna/optuna"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-examples",
+      "status": "candidate-context",
+      "text": "Optuna Examples"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +315,24 @@
       "source_repo": "crev-dev/pip-crev",
       "status": "candidate",
       "text": "**WARNING: This code is in development, is being provided without support, and is subject to change at any time without notification**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna",
+      "status": "candidate",
+      "text": "<div align=\"center\"><img src=\"https://raw.githubusercontent.com/optuna/optuna/master/docs/image/optuna-logo.png\" width=\"800\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CNTK",
+      "status": "candidate",
+      "text": "| **Chat** | **Windows build status** | **Linux build status** |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-examples",
+      "status": "candidate",
+      "text": "Optuna Examples"
     }
   ],
   "candidate_related_terms": [
@@ -490,11 +544,47 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "crev-dev/pip-crev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "optuna/optuna"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/CNTK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "optuna/optuna-examples"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

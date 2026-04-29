@@ -145,27 +145,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-mmlab/mmagic",
-      "target": "open-mmlab/mmrotate",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-mmlab/mmagic",
-      "target": "open-mmlab/mmselfsup",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "open-mmlab/mmagic",
-      "target": "open-mmlab/mmtracking",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "open-mmlab/mmagic",
@@ -411,7 +390,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:19:34.419405+00:00",
+  "fetched_at": "2026-04-29T20:46:58.705709+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -452,7 +431,7 @@
     "html_url": "https://github.com/open-mmlab/mmagic",
     "language": "Jupyter Notebook",
     "pushed_at": "2024-08-06T07:19:40Z",
-    "stargazers_count": 7421,
+    "stargazers_count": 7424,
     "topics": [
       "aigc",
       "computer-vision",
@@ -474,27 +453,12 @@
       "video-interpolation",
       "video-super-resolution"
     ],
-    "updated_at": "2026-04-24T06:12:19Z"
+    "updated_at": "2026-04-29T10:52:57Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "open-mmlab/mmediting",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmrotate",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmselfsup",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "open-mmlab/mmtracking",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "finder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "A neovim integration for television"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991368,
+      "status": "candidate",
+      "text": "discoverer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39987678,
+      "status": "candidate",
+      "text": "spotter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899586,
+      "status": "candidate",
+      "text": "viewfinder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29991666,
+      "status": "candidate",
+      "text": "view finder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990329,
+      "status": "candidate",
+      "text": "search"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5024,
+      "status": "candidate",
+      "text": "discoverer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1035,
+      "status": "candidate",
+      "text": "spotter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1029,
+      "status": "candidate",
+      "text": "viewfinder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "view finder"
+    }
+  ],
+  "canonical_name": "finder",
+  "concept_id": "finder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexpasmantier/tv.nvim"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "finder",
+      "sense_id": "finder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

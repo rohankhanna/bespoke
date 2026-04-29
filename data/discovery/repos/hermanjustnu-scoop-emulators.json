@@ -1,0 +1,280 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "scoopinstaller/awesome-scoop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "Excavator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "Commented Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "emulators",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "target": "scoop",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:53:56.614880+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 846
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1198
+    },
+    {
+      "path": ".github/workflows/excavator.yml",
+      "size": 343
+    },
+    {
+      "path": ".github/workflows/issue_comment.yml",
+      "size": 400
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 444
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 330
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Scoop bucket for emulators",
+    "fork": false,
+    "full_name": "hermanjustnu/scoop-emulators",
+    "html_url": "https://github.com/hermanjustnu/scoop-emulators",
+    "language": "PowerShell",
+    "pushed_at": "2026-04-29T03:33:17Z",
+    "stargazers_count": 49,
+    "topics": [
+      "emulators",
+      "scoop"
+    ],
+    "updated_at": "2026-04-29T03:33:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scoopinstaller/awesome-scoop",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Excavator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/excavator.yml",
+      "term": "Excavator"
+    },
+    {
+      "context_snippet": "Commented Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "term": "Commented Pull Request"
+    },
+    {
+      "context_snippet": "Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "term": "Issues"
+    },
+    {
+      "context_snippet": "Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Pull Requests"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/ci.yml/badge.svg)](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/ci.yml) [![Excavator](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/excavator.yml/badge.svg)](http\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emulators"
+    },
+    {
+      "context_snippet": "[![Tests](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/ci.yml/badge.svg)](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/ci.yml) [![Excavator](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/excavator.yml/badge.svg)](http\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop"
+    }
+  ]
+}

@@ -43,6 +43,18 @@
       "source_repo": "rust-lang/rustup",
       "status": "candidate-context",
       "text": "[![Build Status][actions-default-branch]][actions-default-branch-status]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/std-training",
+      "status": "candidate-context",
+      "text": "Embedded Rust on Espressif training material."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/std-training",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/esp-rs/std-training/actions/workflows/ci.yml/badge.svg)](https://github.com/esp-rs/std-training/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "rust-lang/rustup",
       "status": "candidate",
       "text": "[![Build Status][actions-default-branch]][actions-default-branch-status]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/std-training",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/esp-rs/std-training/actions/workflows/ci.yml/badge.svg)](https://github.com/esp-rs/std-training/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "rust-lang/rustup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "esp-rs/std-training"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

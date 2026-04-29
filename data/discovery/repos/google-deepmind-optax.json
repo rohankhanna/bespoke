@@ -103,27 +103,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/optax",
-      "target": "google-research/tuning_playbook",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/optax",
-      "target": "patrick-kidger/optimistix",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "google-deepmind/optax",
-      "target": "pnkraemer/matfree",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pypi-publish.yml",
       "source_repo": "google-deepmind/optax",
@@ -201,7 +180,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:00:54.514083+00:00",
+  "fetched_at": "2026-04-29T18:48:09.185256+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -233,31 +212,15 @@
     "full_name": "google-deepmind/optax",
     "html_url": "https://github.com/google-deepmind/optax",
     "language": "Python",
-    "pushed_at": "2026-04-22T08:56:54Z",
-    "stargazers_count": 2243,
+    "pushed_at": "2026-04-29T16:52:13Z",
+    "stargazers_count": 2252,
     "topics": [
       "machine-learning",
       "optimization"
     ],
-    "updated_at": "2026-04-23T21:20:51Z"
+    "updated_at": "2026-04-29T16:52:15Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "google-research/tuning_playbook",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "patrick-kidger/optimistix",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pnkraemer/matfree",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "pypi",

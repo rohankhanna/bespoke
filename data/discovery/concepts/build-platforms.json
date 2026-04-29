@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Platforms"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate-context",
+      "text": "\u261d\ufe0fsend desktop notifications from your Rust app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate-context",
+      "text": "Build Platforms"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate",
+      "text": "Build Platforms"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13056,
+      "status": "candidate",
+      "text": "deck"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11935,
+      "status": "candidate",
+      "text": "decking"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11935,
+      "status": "candidate",
+      "text": "gantry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11935,
+      "status": "candidate",
+      "text": "lake dwelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11935,
+      "status": "candidate",
+      "text": "staging"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Platforms",
+  "concept_id": "build-platforms",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build-platforms.yml",
+      "source_repo": "hoodie/notify-rust"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Platforms",
+      "sense_id": "build-platforms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

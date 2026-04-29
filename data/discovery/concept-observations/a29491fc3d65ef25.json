@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Command-line copy/paste utilities for Wayland"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This project implements two command-line Wayland clipboard utilities, `wl-copy`"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This project implements two command-line Wayland clipboard utilities, `wl-copy`"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28543637,
+      "status": "candidate",
+      "text": "wieland"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19851399,
+      "status": "candidate",
+      "text": "wayland the smith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19851398,
+      "status": "candidate",
+      "text": "reproductive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019407,
+      "status": "candidate",
+      "text": "wotan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019406,
+      "status": "candidate",
+      "text": "wyrd"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wayland",
+      "sense_id": "wayland#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12,
+      "status": "candidate",
+      "text": "wayland the smith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "wieland"
+    }
+  ],
+  "concept_id": "wayland",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "wayland",
+  "observation_id": "a29491fc3d65ef25",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "wayland",
+  "source_context_snippet": "This project implements two command-line Wayland clipboard utilities, `wl-copy`",
+  "source_file": null,
+  "source_repo": "bugaevc/wl-clipboard",
+  "source_repo_description": "Command-line copy/paste utilities for Wayland"
+}

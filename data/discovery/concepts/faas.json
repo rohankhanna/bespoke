@@ -55,6 +55,30 @@
       "source_repo": "fnproject/fn",
       "status": "candidate-context",
       "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fnproject/flow",
+      "status": "candidate-context",
+      "text": "Fn Flow Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/flow",
+      "status": "candidate-context",
+      "text": "*WARNING* Fn Flow is no longer maintained or supported."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fnproject/fdk-java",
+      "status": "candidate-context",
+      "text": "Java API and runtime for fn."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/fdk-java",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "fnproject/fn",
       "status": "candidate",
       "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/flow",
+      "status": "candidate",
+      "text": "*WARNING* Fn Flow is no longer maintained or supported."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fnproject/fdk-java",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "fnproject/fn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fnproject/flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fnproject/fdk-java"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

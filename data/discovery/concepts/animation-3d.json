@@ -19,6 +19,18 @@
       "source_repo": "nfrechette/acl",
       "status": "candidate-context",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "status": "candidate-context",
+      "text": "The official Animation Compression Library Unreal Engine 4 and 5 plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nfrechette/acl",
       "status": "candidate",
       "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl)](https://cla-assistant.io/nfrechette/acl)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "nfrechette/acl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nfrechette/acl-ue4-plugin"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

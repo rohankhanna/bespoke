@@ -19,12 +19,48 @@
       "source_repo": "tc39/template-for-proposals",
       "status": "candidate-context",
       "text": "Render PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-native-promise-predicate",
+      "status": "candidate-context",
+      "text": "ECMAScript Proposal and spec for exposing a native promise predicate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-native-promise-predicate",
+      "status": "candidate-context",
+      "text": "Render PR"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-import-bytes",
+      "status": "candidate-context",
+      "text": "A modest proposal for importing bytes in javascript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-import-bytes",
+      "status": "candidate-context",
+      "text": "Render PR"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "tc39/template-for-proposals",
+      "status": "candidate",
+      "text": "Render PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-native-promise-predicate",
+      "status": "candidate",
+      "text": "Render PR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-import-bytes",
       "status": "candidate",
       "text": "Render PR"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/render-pr.yml",
       "source_repo": "tc39/template-for-proposals"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/render-pr.yml",
+      "source_repo": "tc39/proposal-native-promise-predicate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/render-pr.yml",
+      "source_repo": "tc39/proposal-import-bytes"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

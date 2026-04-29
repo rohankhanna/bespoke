@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googlefonts/radiocanadadisplay",
+      "target": "googlefonts/unified-font-repository",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:48:14.286039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1200
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Radio Canada Display",
+    "fork": false,
+    "full_name": "googlefonts/radiocanadadisplay",
+    "html_url": "https://github.com/googlefonts/radiocanadadisplay",
+    "language": null,
+    "pushed_at": "2024-04-17T09:30:55Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-04-16T20:13:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/unified-font-repository",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

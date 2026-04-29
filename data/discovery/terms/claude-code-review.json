@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -211,6 +211,41 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/claude-code-review.yml",
       "source_repo": "CharlieFRuan/harbor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Arize-ai/openinference"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "openvm-org/openvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Skyvern-AI/skyvern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Arize-ai/phoenix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "ag2ai/ag2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "base/base"
     }
   ],
   "term": "Claude Code Review"

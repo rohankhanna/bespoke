@@ -1,0 +1,130 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fdk-java",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fdk-java",
+      "target": "faas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fdk-java",
+      "target": "fn-fdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fdk-java",
+      "target": "fnproject",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fdk-java",
+      "target": "functions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fdk-java",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fnproject/fdk-java",
+      "target": "service",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:53:56.095263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Java API and runtime for fn.",
+    "fork": false,
+    "full_name": "fnproject/fdk-java",
+    "html_url": "https://github.com/fnproject/fdk-java",
+    "language": "Java",
+    "pushed_at": "2026-04-01T06:51:12Z",
+    "stargazers_count": 144,
+    "topics": [
+      "docker",
+      "faas",
+      "fdk",
+      "fn",
+      "fn-fdk",
+      "fnproject",
+      "functions",
+      "java",
+      "service"
+    ],
+    "updated_at": "2026-04-01T06:51:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faas"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fn-fdk"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fnproject"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functions"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/fnproject/fdk-java.svg?style=svg&circle-token=348bec5610c34421f6c436ab8f6a18e153cb1c01)](https://circleci.com/gh/fnproject/fdk-java)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "service"
+    }
+  ]
+}

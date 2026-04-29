@@ -19,6 +19,18 @@
       "source_repo": "crux82/CLiC-it_2023_tutorial",
       "status": "candidate-context",
       "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "status": "candidate-context",
+      "text": "pCLUE: 1000000+\u591a\u4efb\u52a1\u63d0\u793a\u5b66\u4e60\u6570\u636e\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "status": "candidate-context",
+      "text": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "crux82/CLiC-it_2023_tutorial",
       "status": "candidate",
       "text": "This repository hosts materials from the [CLiC-IT 2023 tutorial](https://clic2023.ilc.cnr.it/tutorial/), aiming to:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "status": "candidate",
+      "text": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "crux82/CLiC-it_2023_tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/pCLUE"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

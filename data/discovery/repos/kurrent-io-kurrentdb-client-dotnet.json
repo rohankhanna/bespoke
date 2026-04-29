@@ -217,7 +217,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T13:05:08.910829+00:00",
+  "fetched_at": "2026-04-29T21:00:51.473723+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -257,7 +257,7 @@
     "full_name": "kurrent-io/KurrentDB-Client-Dotnet",
     "html_url": "https://github.com/kurrent-io/KurrentDB-Client-Dotnet",
     "language": "C#",
-    "pushed_at": "2026-04-23T21:47:24Z",
+    "pushed_at": "2026-04-28T07:54:39Z",
     "stargazers_count": 174,
     "topics": [
       "client-libraries",
@@ -269,7 +269,7 @@
       "eventstoredb",
       "grpc"
     ],
-    "updated_at": "2026-04-14T06:44:56Z"
+    "updated_at": "2026-04-28T07:52:18Z"
   },
   "repo_links": [],
   "terms": [

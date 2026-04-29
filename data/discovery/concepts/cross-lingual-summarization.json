@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "cross-lingual-summarization"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csebuetnlp/CrossSum",
+      "status": "candidate-context",
+      "text": "This repository contains the code, data, and models of the paper titled \"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\" published in Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL\u201923), July 9-14, 2023."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csebuetnlp/CrossSum",
+      "status": "candidate-context",
+      "text": "This repository contains the code, data, and models of the paper titled [**\"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\"**](https://aclanthology.org/2023.acl-long.143/) published in Proceedings of the 61st Annual Meeting of the Associat\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csebuetnlp/CrossSum",
+      "status": "candidate",
+      "text": "This repository contains the code, data, and models of the paper titled [**\"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\"**](https://aclanthology.org/2023.acl-long.143/) published in Proceedings of the 61st Annual Meeting of the Associat\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "cross-lingual-summarization",
+  "concept_id": "cross-lingual-summarization",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "csebuetnlp/CrossSum"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cross-lingual-summarization",
+      "sense_id": "cross-lingual-summarization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

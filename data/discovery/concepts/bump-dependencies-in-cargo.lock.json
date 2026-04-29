@@ -31,6 +31,18 @@
       "source_repo": "FuelLabs/fuel-core",
       "status": "candidate-context",
       "text": "Bump dependencies in Cargo.lock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/rust",
+      "status": "candidate-context",
+      "text": "Rust for the xtensa architecture. Built in targets for the ESP32 and ESP8266"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/rust",
+      "status": "candidate-context",
+      "text": "Bump dependencies in Cargo.lock"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "FuelLabs/fuel-core",
+      "status": "candidate",
+      "text": "Bump dependencies in Cargo.lock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/rust",
       "status": "candidate",
       "text": "Bump dependencies in Cargo.lock"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "FuelLabs/fuel-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "esp-rs/rust"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

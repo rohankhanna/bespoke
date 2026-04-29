@@ -1,0 +1,32 @@
+{
+  "component": "GH-ACE/issue-dashboard@v1",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/health-dashboard.yml",
+      "source_repo": "Azure/actions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue-view.yml",
+      "source_repo": "Azure/actions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues-ace-team.yml",
+      "source_repo": "Azure/actions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-view.yml",
+      "source_repo": "Azure/actions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/transitioned-issues.yml",
+      "source_repo": "Azure/actions"
+    }
+  ]
+}

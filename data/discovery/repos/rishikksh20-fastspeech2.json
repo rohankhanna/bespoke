@@ -1,0 +1,159 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rishikksh20/FastSpeech2",
+      "target": "seungwonpark/melgan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rishikksh20/FastSpeech2",
+      "target": "ivanvovk/durian",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "rishikksh20/FastSpeech2",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-app.yml",
+      "source_repo": "rishikksh20/FastSpeech2",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rishikksh20/FastSpeech2",
+      "target": "fastspeech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rishikksh20/FastSpeech2",
+      "target": "fastspeech2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rishikksh20/FastSpeech2",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rishikksh20/FastSpeech2",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rishikksh20/FastSpeech2",
+      "target": "tts-engines",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:45:37.176298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4297
+    },
+    {
+      "path": "requirements.txt",
+      "size": 156
+    },
+    {
+      "path": ".github/workflows/python-app.yml",
+      "size": 1306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch Implementation of FastSpeech 2 :  Fast and High-Quality End-to-End Text to Speech",
+    "fork": false,
+    "full_name": "rishikksh20/FastSpeech2",
+    "html_url": "https://github.com/rishikksh20/FastSpeech2",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-06-22T02:26:43Z",
+    "stargazers_count": 235,
+    "topics": [
+      "fastspeech",
+      "fastspeech2",
+      "pytorch",
+      "text-to-speech",
+      "tts",
+      "tts-engines"
+    ],
+    "updated_at": "2026-04-29T11:46:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ivanvovk/durian",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seungwonpark/melgan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "UnOfficial PyTorch implementation of [**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**](https://arxiv.org/abs/2006.04558). This repo uses the FastSpeech implementation of [Espnet](https://github.com/espnet/espnet) as a base. In this implementation I tried to rep\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastspeech"
+    },
+    {
+      "context_snippet": "UnOfficial PyTorch implementation of [**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**](https://arxiv.org/abs/2006.04558). This repo uses the FastSpeech implementation of [Espnet](https://github.com/espnet/espnet) as a base. In this implementation I tried to rep\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastspeech2"
+    },
+    {
+      "context_snippet": "UnOfficial PyTorch implementation of [**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**](https://arxiv.org/abs/2006.04558). This repo uses the FastSpeech implementation of [Espnet](https://github.com/espnet/espnet) as a base. In this implementation I tried to rep\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "UnOfficial PyTorch implementation of [**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**](https://arxiv.org/abs/2006.04558). This repo uses the FastSpeech implementation of [Espnet](https://github.com/espnet/espnet) as a base. In this implementation I tried to rep\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "UnOfficial PyTorch implementation of [**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**](https://arxiv.org/abs/2006.04558). This repo uses the FastSpeech implementation of [Espnet](https://github.com/espnet/espnet) as a base. In this implementation I tried to rep\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tts-engines"
+    }
+  ]
+}

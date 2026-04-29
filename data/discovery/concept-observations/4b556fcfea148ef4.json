@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "IRC application written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"./assets/banner.png\" alt=\"banner\" title=\"Icon by Rune Seir\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"./assets/banner.png\" alt=\"banner\" title=\"Icon by Rune Seir\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044120,
+      "status": "candidate",
+      "text": "ice-cold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043719,
+      "status": "candidate",
+      "text": "cold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40043695,
+      "status": "candidate",
+      "text": "chilled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045156,
+      "status": "candidate",
+      "text": "frosted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30044886,
+      "status": "candidate",
+      "text": "frozen"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "iced",
+      "sense_id": "iced#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50061,
+      "status": "candidate",
+      "text": "cold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4032,
+      "status": "candidate",
+      "text": "chilled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4021,
+      "status": "candidate",
+      "text": "ice-cold"
+    }
+  ],
+  "concept_id": "iced",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "iced",
+  "observation_id": "4b556fcfea148ef4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "iced",
+  "source_context_snippet": "<img src=\"./assets/banner.png\" alt=\"banner\" title=\"Icon by Rune Seir\">",
+  "source_file": null,
+  "source_repo": "squidowl/halloy",
+  "source_repo_description": "IRC application written in Rust"
+}

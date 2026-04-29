@@ -31,6 +31,18 @@
       "source_repo": "dottxt-ai/outlines",
       "status": "candidate-context",
       "text": "Build the documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blackjax-devs/blackjax",
+      "status": "candidate-context",
+      "text": "BlackJAX is a Bayesian Inference library designed for ease of use, speed and modularity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackjax-devs/blackjax",
+      "status": "candidate-context",
+      "text": "Build the documentation"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dottxt-ai/outlines",
+      "status": "candidate",
+      "text": "Build the documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackjax-devs/blackjax",
       "status": "candidate",
       "text": "Build the documentation"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/build_documentation.yml",
       "source_repo": "dottxt-ai/outlines"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build_documentation.yml",
+      "source_repo": "blackjax-devs/blackjax"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

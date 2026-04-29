@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUCAIBox/Slow_Thinking_with_LLMs",
+      "target": "rucaibox/cir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUCAIBox/Slow_Thinking_with_LLMs",
+      "target": "rucaibox/icpc-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUCAIBox/Slow_Thinking_with_LLMs",
+      "target": "rucaibox/olymmath",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RUCAIBox/Slow_Thinking_with_LLMs",
+      "target": "rucaibox/r1-searcher",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:49:54.777522+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A series of technical report on Slow Thinking with LLM",
+    "fork": false,
+    "full_name": "RUCAIBox/Slow_Thinking_with_LLMs",
+    "html_url": "https://github.com/RUCAIBox/Slow_Thinking_with_LLMs",
+    "language": "Python",
+    "pushed_at": "2025-08-13T04:14:22Z",
+    "stargazers_count": 764,
+    "topics": [],
+    "updated_at": "2026-04-25T23:57:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rucaibox/cir",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rucaibox/icpc-eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rucaibox/olymmath",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rucaibox/r1-searcher",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

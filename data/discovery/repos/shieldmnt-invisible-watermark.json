@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShieldMnt/invisible-watermark",
+      "target": "dai-lab/rivagan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShieldMnt/invisible-watermark",
+      "target": "blind-watermark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ShieldMnt/invisible-watermark",
+      "target": "image-watermark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:47:29.562821+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7499
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "python library for invisible image watermark (blind image watermark)",
+    "fork": false,
+    "full_name": "ShieldMnt/invisible-watermark",
+    "html_url": "https://github.com/ShieldMnt/invisible-watermark",
+    "language": "Python",
+    "pushed_at": "2023-09-23T05:49:41Z",
+    "stargazers_count": 1904,
+    "topics": [
+      "blind-watermark",
+      "image-watermark"
+    ],
+    "updated_at": "2026-04-28T20:48:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dai-lab/rivagan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/invisible-watermark)](https://pypi.org/project/invisible-watermark/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blind-watermark"
+    },
+    {
+      "context_snippet": "[![PyPI](https://img.shields.io/pypi/v/invisible-watermark)](https://pypi.org/project/invisible-watermark/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-watermark"
+    }
+  ]
+}

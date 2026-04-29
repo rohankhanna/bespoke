@@ -1,0 +1,12 @@
+{
+  "component": "huggingface/doc-builder/.github/workflows/delete_doc_comment.yml@90b4ee2c10b81b5c1a6367c4e6fc9e2fb510a7e3",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/delete_doc_comment.yml",
+      "source_repo": "huggingface/tokenizers"
+    }
+  ]
+}

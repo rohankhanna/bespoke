@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "frewsxcv/alert-after",
+      "target": "diwic/dbus-rs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frewsxcv/alert-after",
+      "target": "alert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frewsxcv/alert-after",
+      "target": "desktop-notifications",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "frewsxcv/alert-after",
+      "target": "notifications",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:58:52.763111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 661
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 346
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Get a desktop notification after a command finishes executing.",
+    "fork": false,
+    "full_name": "frewsxcv/alert-after",
+    "html_url": "https://github.com/frewsxcv/alert-after",
+    "language": "Rust",
+    "pushed_at": "2021-07-19T00:49:20Z",
+    "stargazers_count": 289,
+    "topics": [
+      "alert",
+      "cli",
+      "desktop-notifications",
+      "notifications"
+    ],
+    "updated_at": "2026-02-26T19:53:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "diwic/dbus-rs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Get a desktop notification after a command finishes executing. Helpful for notifying when long running CLI tasks are completed. Works on macOS, Linux, and Windows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alert"
+    },
+    {
+      "context_snippet": "Get a desktop notification after a command finishes executing. Helpful for notifying when long running CLI tasks are completed. Works on macOS, Linux, and Windows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop-notifications"
+    },
+    {
+      "context_snippet": "Get a desktop notification after a command finishes executing. Helpful for notifying when long running CLI tasks are completed. Works on macOS, Linux, and Windows.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "notifications"
+    }
+  ]
+}

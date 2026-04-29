@@ -1,12 +1,32 @@
 {
   "component": "actions/checkout@v3.1.0",
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "syrupy-project/syrupy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "rrousselGit/riverpod"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "rrousselGit/riverpod"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check_generation.yml",
+      "source_repo": "rrousselGit/riverpod"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/riverpod_lint.yml",
+      "source_repo": "rrousselGit/riverpod"
     }
   ]
 }

@@ -337,6 +337,54 @@
       "source_repo": "TabbyML/tabby",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "localstack/localstack",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbb A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localstack/localstack",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "watchexec/cargo-watch",
+      "status": "candidate-context",
+      "text": "Watches over your Cargo project's source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/cargo-watch",
+      "status": "candidate-context",
+      "text": "[![Crate release version](https://flat.badgen.net/crates/v/cargo-watch)](https://crates.io/crates/cargo-watch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/any-llm",
+      "status": "candidate-context",
+      "text": "Communicate with an LLM provider using a single interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/any-llm",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tilt-dev/tilt-extensions",
+      "status": "candidate-context",
+      "text": "Extensions for Tilt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tilt-dev/tilt-extensions",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/tilt-dev/tilt-extensions/tree/master.svg?style=shield)](https://circleci.com/gh/tilt-dev/tilt-extensions)"
     }
   ],
   "candidate_glosses": [
@@ -501,6 +549,30 @@
       "source_repo": "TabbyML/tabby",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localstack/localstack",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/cargo-watch",
+      "status": "candidate",
+      "text": "[![Crate release version](https://flat.badgen.net/crates/v/cargo-watch)](https://crates.io/crates/cargo-watch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/any-llm",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tilt-dev/tilt-extensions",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/tilt-dev/tilt-extensions/tree/master.svg?style=shield)](https://circleci.com/gh/tilt-dev/tilt-extensions)"
     }
   ],
   "candidate_related_terms": [],
@@ -712,11 +784,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "TabbyML/tabby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "localstack/localstack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/cargo-watch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-ai/any-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tilt-dev/tilt-extensions"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

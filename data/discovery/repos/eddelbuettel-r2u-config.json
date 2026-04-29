@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:59:02.824110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 288
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "eddelbuettel/r2u-config",
+    "html_url": "https://github.com/eddelbuettel/r2u-config",
+    "language": null,
+    "pushed_at": "2026-04-25T16:38:04Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-25T16:38:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

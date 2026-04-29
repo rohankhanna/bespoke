@@ -1,0 +1,197 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelTC/LightX2V",
+      "target": "modeltc/genrl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelTC/LightX2V",
+      "target": "mit-han-lab/radial-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelTC/LightX2V",
+      "target": "konakona666/q8_kernels",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ModelTC/LightX2V",
+      "target": "qwenlm/qwen-image",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ModelTC/LightX2V",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ModelTC/LightX2V",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ModelTC/LightX2V",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "ModelTC/LightX2V",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ModelTC/LightX2V",
+      "target": "auto-regressive-diffusion-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ModelTC/LightX2V",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ModelTC/LightX2V",
+      "target": "video-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ModelTC/LightX2V",
+      "target": "wan-video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:49:51.884366+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23250
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2401
+    },
+    {
+      "path": "requirements.txt",
+      "size": 438
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 1152
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Light Image Video Generation Inference Framework",
+    "fork": false,
+    "full_name": "ModelTC/LightX2V",
+    "html_url": "https://github.com/ModelTC/LightX2V",
+    "language": "Python",
+    "pushed_at": "2026-04-28T09:44:38Z",
+    "stargazers_count": 2228,
+    "topics": [
+      "auto-regressive-diffusion-model",
+      "diffusion-models",
+      "video-generation",
+      "wan-video"
+    ],
+    "updated_at": "2026-04-29T17:20:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "konakona666/q8_kernels",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/radial-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modeltc/genrl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwenlm/qwen-image",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "<div align=\"center\" style=\"font-family: charter;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-regressive-diffusion-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\" style=\"font-family: charter;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\" style=\"font-family: charter;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\" style=\"font-family: charter;\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wan-video"
+    }
+  ]
+}

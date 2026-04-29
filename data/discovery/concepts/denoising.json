@@ -19,6 +19,30 @@
       "source_repo": "JingyunLiang/SwinIR",
       "status": "candidate-context",
       "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Guolei Sun](https://vision.ee.ethz.ch/people-details.MjYzMjMw.TGlzdC8zMjg5LC0xOTcxNDY1MTc4.html), [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://scholar.google.com/citat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cszn/KAIR",
+      "status": "candidate-context",
+      "text": "Image Restoration Toolbox (PyTorch). Training and testing codes for DPIR, USRNet, DnCNN, FFDNet, SRMD, DPSR, BSRGAN, SwinIR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/KAIR",
+      "status": "candidate-context",
+      "text": "[![download](https://img.shields.io/github/downloads/cszn/KAIR/total.svg)](https://github.com/cszn/KAIR/releases) ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/KAIR)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cszn/DPIR",
+      "status": "candidate-context",
+      "text": "Plug-and-Play Image Restoration with Deep Denoiser Prior (IEEE TPAMI 2021) (PyTorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/DPIR",
+      "status": "candidate-context",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DPIR)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "JingyunLiang/SwinIR",
       "status": "candidate",
       "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Guolei Sun](https://vision.ee.ethz.ch/people-details.MjYzMjMw.TGlzdC8zMjg5LC0xOTcxNDY1MTc4.html), [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://scholar.google.com/citat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/KAIR",
+      "status": "candidate",
+      "text": "[![download](https://img.shields.io/github/downloads/cszn/KAIR/total.svg)](https://github.com/cszn/KAIR/releases) ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/KAIR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/DPIR",
+      "status": "candidate",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DPIR)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "JingyunLiang/SwinIR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cszn/KAIR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cszn/DPIR"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

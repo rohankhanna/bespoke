@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy repository to GCS"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/root-signing",
+      "status": "candidate-context",
+      "text": "TUF repository for Sigstore trust root"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/root-signing",
+      "status": "candidate-context",
+      "text": "Deploy repository to GCS"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/root-signing",
+      "status": "candidate",
+      "text": "Deploy repository to GCS"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22604,
+      "status": "candidate",
+      "text": "silo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14580,
+      "status": "candidate",
+      "text": "aerospace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14580,
+      "status": "candidate",
+      "text": "allies"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14580,
+      "status": "candidate",
+      "text": "allu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14580,
+      "status": "candidate",
+      "text": "ally"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy repository to GCS",
+  "concept_id": "deploy-repository-to-gcs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/deploy-to-gcs.yml",
+      "source_repo": "sigstore/root-signing"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy repository to GCS",
+      "sense_id": "deploy-repository-to-gcs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

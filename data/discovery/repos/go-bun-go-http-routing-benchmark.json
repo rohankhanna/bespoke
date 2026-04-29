@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-bun/go-http-routing-benchmark",
+      "target": "ant0ine/go-json-rest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-bun/go-http-routing-benchmark",
+      "target": "dimfeld/httptreemux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-bun/go-http-routing-benchmark",
+      "target": "go-martini/martini",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-bun/go-http-routing-benchmark",
+      "target": "bmizerany/pat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:56:47.466861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31904
+    },
+    {
+      "path": "go.mod",
+      "size": 3204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "go-bun/go-http-routing-benchmark",
+    "html_url": "https://github.com/go-bun/go-http-routing-benchmark",
+    "language": "Go",
+    "pushed_at": "2021-10-21T06:48:19Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2023-12-05T00:48:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ant0ine/go-json-rest",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bmizerany/pat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dimfeld/httptreemux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-martini/martini",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

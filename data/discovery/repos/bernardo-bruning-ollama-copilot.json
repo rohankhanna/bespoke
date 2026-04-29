@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bernardo-bruning/ollama-copilot",
+      "target": "github/copilot.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bernardo-bruning/ollama-copilot",
+      "target": "zed-industries/zed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bernardo-bruning/ollama-copilot",
+      "target": "copilot-emacs/copilot.el",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:02:52.628869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5231
+    },
+    {
+      "path": "go.mod",
+      "size": 610
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Proxy that allows you to use ollama as a copilot like Github copilot",
+    "fork": false,
+    "full_name": "bernardo-bruning/ollama-copilot",
+    "html_url": "https://github.com/bernardo-bruning/ollama-copilot",
+    "language": "Go",
+    "pushed_at": "2026-04-15T01:53:44Z",
+    "stargazers_count": 869,
+    "topics": [],
+    "updated_at": "2026-04-28T06:05:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "copilot-emacs/copilot.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/copilot.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zed-industries/zed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

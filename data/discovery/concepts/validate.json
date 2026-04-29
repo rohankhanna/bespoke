@@ -2,7 +2,8 @@
   "aliases": [
     "Validate",
     "validate",
-    "\ud83d\udcd0 Validate"
+    "\ud83d\udcd0 Validate",
+    "\ud83d\ude80 Validate"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -261,6 +262,42 @@
       "source_repo": "onnx/tutorials",
       "status": "candidate-context",
       "text": "validate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kentcdodds/cross-env",
+      "status": "candidate-context",
+      "text": "\ud83d\udd00 Cross platform setting of environment scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kentcdodds/cross-env",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Validate"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helidon-io/helidon",
+      "status": "candidate-context",
+      "text": "Java libraries for writing microservices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helidon-io/helidon",
+      "status": "candidate-context",
+      "text": "\"Validate\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/common",
+      "status": "candidate-context",
+      "text": "Location for shared common files in github.com/containers repos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/common",
+      "status": "candidate-context",
+      "text": "validate"
     }
   ],
   "candidate_glosses": [
@@ -387,6 +424,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "onnx/tutorials",
+      "status": "candidate",
+      "text": "validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kentcdodds/cross-env",
+      "status": "candidate",
+      "text": "\ud83d\ude80 Validate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helidon-io/helidon",
+      "status": "candidate",
+      "text": "\"Validate\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/common",
       "status": "candidate",
       "text": "validate"
     }
@@ -662,11 +717,47 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/validate.yml",
       "source_repo": "onnx/tutorials"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/validate.yaml",
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "kentcdodds/cross-env"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "containers/common"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/validate.yml",
+      "source_repo": "kentcdodds/babel-plugin-macros"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

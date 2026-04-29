@@ -31,6 +31,18 @@
       "source_repo": "manim-kindergarten/manim",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "status": "candidate-context",
+      "text": ":octocat: GitHub Action to render manim videos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "status": "candidate-context",
+      "text": "[![logo](test/header.png)](https://github.com/manim-kindergarten/manim_action_renderer)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "manim-kindergarten/manim",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "status": "candidate",
+      "text": "[![logo](test/header.png)](https://github.com/manim-kindergarten/manim_action_renderer)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "manim-kindergarten/manim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim_action_renderer"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

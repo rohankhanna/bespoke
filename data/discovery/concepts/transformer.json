@@ -385,6 +385,192 @@
       "source_repo": "kpe/bert-for-tf2",
       "status": "candidate-context",
       "text": "BERT for TensorFlow v2"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sail-sg/poolformer",
+      "status": "candidate-context",
+      "text": "PoolFormer: MetaFormer Is Actually What You Need for Vision (CVPR 2022 Oral)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/poolformer",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "status": "candidate-context",
+      "text": "Easy-to-use Speech Toolkit including Self-Supervised Learning model, SOTA/Streaming ASR with punctuation, Streaming TTS with text frontend, Speaker Verification System, End-to-End Speech Translation and Keyword Spotting. Won NAACL2022 Best Demo Award."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "status": "candidate-context",
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "status": "candidate-context",
+      "text": "\"Retinexformer: One-stage Retinex-based Transformer for Low-light Image Enhancement\" (ICCV 2023) & (NTIRE 2024 Runner-Up)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "status": "candidate-context",
+      "text": "&nbsp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "researchmm/Stark",
+      "status": "candidate-context",
+      "text": "[ICCV'21] Learning Spatio-Temporal Transformer for Visual Tracking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "researchmm/Stark",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate-context",
+      "text": "An ultimately comprehensive paper list of Vision Transformer/Attention, including papers, codes, and related websites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate-context",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "status": "candidate-context",
+      "text": "Collect some papers about transformer with vision. Awesome Transformer with Computer Vision (CV)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "status": "candidate-context",
+      "text": "Collect some Transformer with Computer-Vision (CV) papers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate-context",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate-context",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kmeng01/memit",
+      "status": "candidate-context",
+      "text": "Mass-editing thousands of facts into a transformer memory (ICLR 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kmeng01/memit",
+      "status": "candidate-context",
+      "text": "Editing thousands of facts into a transformer memory at once."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "corl-team/rebased",
+      "status": "candidate-context",
+      "text": "Official implementation of the paper \"Linear Transformers with Learnable Kernel Functions are Better In-Context Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "corl-team/rebased",
+      "status": "candidate-context",
+      "text": "The recent Based model emerged as a hybrid solution, blending a Linear Transformer with a kernel inspired by the Taylor expansion of exponential functions, augmented by convolutional networks. Mirroring the Transformer's in-context adeptness, it became a strong contender in the \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airaria/TextPruner",
+      "status": "candidate-context",
+      "text": "A PyTorch-based model pruning toolkit for pre-trained language models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airaria/TextPruner",
+      "status": "candidate-context",
+      "text": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/SwissArmyTransformer",
+      "status": "candidate-context",
+      "text": "SwissArmyTransformer is a flexible and powerful library to develop your own Transformer variants."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/SwissArmyTransformer",
+      "status": "candidate-context",
+      "text": "`sat`(`SwissArmyTransformer`) is a flexible and powerful library to develop your own Transformer variants."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sail-sg/metaformer",
+      "status": "candidate-context",
+      "text": "MetaFormer Baselines for Vision (TPAMI 2024)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/metaformer",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic",
+      "status": "candidate-context",
+      "text": "Understanding the Difficulty of Training Transformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic",
+      "status": "candidate-context",
+      "text": "----------------------------------"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "swz30/Restormer",
+      "status": "candidate-context",
+      "text": "[CVPR 2022--Oral] Restormer: Efficient Transformer for High-Resolution Image Restoration. SOTA  for motion deblurring, image deraining, denoising (Gaussian/real data), and defocus deblurring. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/Restormer",
+      "status": "candidate-context",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/tab-transformer-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of TabTransformer, attention network for tabular data, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/tab-transformer-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./tab.png\" width=\"250px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -573,6 +759,102 @@
       "source_repo": "kpe/bert-for-tf2",
       "status": "candidate",
       "text": "BERT for TensorFlow v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/poolformer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "status": "candidate",
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "status": "candidate",
+      "text": "&nbsp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "researchmm/Stark",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "status": "candidate",
+      "text": "Collect some Transformer with Computer-Vision (CV) papers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kmeng01/memit",
+      "status": "candidate",
+      "text": "Editing thousands of facts into a transformer memory at once."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "corl-team/rebased",
+      "status": "candidate",
+      "text": "The recent Based model emerged as a hybrid solution, blending a Linear Transformer with a kernel inspired by the Taylor expansion of exponential functions, augmented by convolutional networks. Mirroring the Transformer's in-context adeptness, it became a strong contender in the \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airaria/TextPruner",
+      "status": "candidate",
+      "text": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/SwissArmyTransformer",
+      "status": "candidate",
+      "text": "`sat`(`SwissArmyTransformer`) is a flexible and powerful library to develop your own Transformer variants."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sail-sg/metaformer",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic",
+      "status": "candidate",
+      "text": "----------------------------------"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "swz30/Restormer",
+      "status": "candidate",
+      "text": "[Syed Waqas Zamir](https://scholar.google.ae/citations?hl=en&user=POoai-QAAAAJ), [Aditya Arora](https://adityac8.github.io/), [Salman Khan](https://salman-h-khan.github.io/), [Munawar Hayat](https://scholar.google.com/citations?user=Mx8MbWYAAAAJ&hl=en), [Fahad Shahbaz Khan](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/tab-transformer-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./tab.png\" width=\"250px\"></img>"
     }
   ],
   "candidate_related_terms": [
@@ -874,11 +1156,125 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sail-sg/poolformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/ao"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "researchmm/Stark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "young-geng/EasyLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kmeng01/memit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "corl-team/rebased"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "airaria/TextPruner"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/SwissArmyTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sail-sg/metaformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "swz30/Restormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/tab-transformer-pytorch"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

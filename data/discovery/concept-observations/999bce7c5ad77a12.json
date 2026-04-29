@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Universal driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Detect Changes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Detect Changes"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11778,
+      "status": "candidate",
+      "text": "electroscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "lie detector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11628,
+      "status": "candidate",
+      "text": "lateral line system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11628,
+      "status": "candidate",
+      "text": "photoelectric cell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11628,
+      "status": "candidate",
+      "text": "squid"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Detect Changes",
+      "sense_id": "detect-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "detect-changes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "detect-changes",
+  "observation_id": "999bce7c5ad77a12",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Detect Changes",
+  "source_context_snippet": "Detect Changes",
+  "source_file": ".github/workflows/detect-changes.yml",
+  "source_repo": "snowflakedb/universal-driver",
+  "source_repo_description": "Universal driver"
+}

@@ -1,0 +1,747 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_nightly.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_nightly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_nightly.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_nightly.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_nightly.yml"
+    },
+    {
+      "component": "dacbd/create-issue-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_nightly.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_torch_compile_nightly.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_torch_compile_nightly.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_torch_compile_nightly.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cpu-cpp.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cpu-cpp.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cpu-cpp.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cpu-cpp.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cpu.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cpu.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cpu.yml"
+    },
+    {
+      "component": "nick-fields/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cpu.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_gpu.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_gpu.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_gpu.yml"
+    },
+    {
+      "component": "nick-fields/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_gpu.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_graviton_cpu.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_graviton_cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_graviton_cpu.yml"
+    },
+    {
+      "component": "nick-fields/retry@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_graviton_cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-automation.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-automation.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-automation.yml"
+    },
+    {
+      "component": "dacbd/create-issue-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-automation.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/serve",
+      "target": "mlflow/mlflow-torchserve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pytorch/serve",
+      "target": "awslabs/multi-model-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_nightly.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_nightly.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_nightly.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_nightly.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_nightly.yml",
+      "source_repo": "pytorch/serve",
+      "target": "dawidd6/action-download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_nightly.yml",
+      "source_repo": "pytorch/serve",
+      "target": "dacbd/create-issue-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_nightly.yml",
+      "source_repo": "pytorch/serve",
+      "target": "Benchmark torchserve nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_torch_compile_nightly.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_torch_compile_nightly.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_torch_compile_nightly.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_torch_compile_nightly.yml",
+      "source_repo": "pytorch/serve",
+      "target": "Benchmark torch.compile models nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cpu-cpp.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cpu-cpp.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-cpu-cpp.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cpu-cpp.yml",
+      "source_repo": "pytorch/serve",
+      "target": "CI CPU - CPP Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_cpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "CI CPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_gpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_gpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_gpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_gpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_gpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "CI GPU",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_graviton_cpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_graviton_cpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_graviton_cpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_graviton_cpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "nick-fields/retry@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_graviton_cpu.yml",
+      "source_repo": "pytorch/serve",
+      "target": "CI CPU Graviton",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pytorch/serve",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pytorch/serve",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "pytorch/serve",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-automation.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-automation.yml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-automation.yml",
+      "source_repo": "pytorch/serve",
+      "target": "JamesIves/github-pages-deploy-action@releases/v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/doc-automation.yml",
+      "source_repo": "pytorch/serve",
+      "target": "dacbd/create-issue-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-ci.yaml",
+      "source_repo": "pytorch/serve",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-ci.yaml",
+      "source_repo": "pytorch/serve",
+      "target": "Docker CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/serve",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/serve",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/serve",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/serve",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/serve",
+      "target": "metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/serve",
+      "target": "mlops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/serve",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/serve",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pytorch/serve",
+      "target": "serving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:42:07.725049+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15232
+    },
+    {
+      "path": ".github/workflows/benchmark_nightly.yml",
+      "size": 3320
+    },
+    {
+      "path": ".github/workflows/benchmark_torch_compile_nightly.yml",
+      "size": 1375
+    },
+    {
+      "path": ".github/workflows/ci-cpu-cpp.yml",
+      "size": 1810
+    },
+    {
+      "path": ".github/workflows/ci_cpu.yml",
+      "size": 1848
+    },
+    {
+      "path": ".github/workflows/ci_gpu.yml",
+      "size": 1699
+    },
+    {
+      "path": ".github/workflows/ci_graviton_cpu.yml",
+      "size": 1163
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 1688
+    },
+    {
+      "path": ".github/workflows/doc-automation.yml",
+      "size": 1345
+    },
+    {
+      "path": ".github/workflows/docker-ci.yaml",
+      "size": 2069
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Serve, optimize and scale PyTorch models in production",
+    "fork": false,
+    "full_name": "pytorch/serve",
+    "html_url": "https://github.com/pytorch/serve",
+    "language": "Java",
+    "pushed_at": "2025-08-06T19:17:08Z",
+    "stargazers_count": 4360,
+    "topics": [
+      "cpu",
+      "deep-learning",
+      "docker",
+      "gpu",
+      "kubernetes",
+      "machine-learning",
+      "metrics",
+      "mlops",
+      "optimization",
+      "pytorch",
+      "serving"
+    ],
+    "updated_at": "2026-04-28T08:52:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/multi-model-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlflow/mlflow-torchserve",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark torchserve nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_nightly.yml",
+      "term": "Benchmark torchserve nightly"
+    },
+    {
+      "context_snippet": "Benchmark torch.compile models nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark_torch_compile_nightly.yml",
+      "term": "Benchmark torch.compile models nightly"
+    },
+    {
+      "context_snippet": "CI CPU - CPP Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-cpu-cpp.yml",
+      "term": "CI CPU - CPP Build"
+    },
+    {
+      "context_snippet": "CI CPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_cpu.yml",
+      "term": "CI CPU"
+    },
+    {
+      "context_snippet": "CI GPU",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_gpu.yml",
+      "term": "CI GPU"
+    },
+    {
+      "context_snippet": "CI CPU Graviton",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_graviton_cpu.yml",
+      "term": "CI CPU Graviton"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Docker CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-ci.yaml",
+      "term": "Docker CI"
+    },
+    {
+      "context_snippet": "<font size=\"5\"> \u26a0\ufe0f Notice: Limited Maintenance </font>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<font size=\"5\"> \u26a0\ufe0f Notice: Limited Maintenance </font>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<font size=\"5\"> \u26a0\ufe0f Notice: Limited Maintenance </font>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "<font size=\"5\"> \u26a0\ufe0f Notice: Limited Maintenance </font>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "<font size=\"5\"> \u26a0\ufe0f Notice: Limited Maintenance </font>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metrics"
+    },
+    {
+      "context_snippet": "<font size=\"5\"> \u26a0\ufe0f Notice: Limited Maintenance </font>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlops"
+    },
+    {
+      "context_snippet": "<font size=\"5\"> \u26a0\ufe0f Notice: Limited Maintenance </font>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "<font size=\"5\"> \u26a0\ufe0f Notice: Limited Maintenance </font>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<font size=\"5\"> \u26a0\ufe0f Notice: Limited Maintenance </font>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serving"
+    }
+  ]
+}

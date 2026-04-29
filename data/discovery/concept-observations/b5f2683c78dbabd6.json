@@ -56,7 +56,7 @@
   "normalized_form": "upstream-sync",
   "observation_id": "b5f2683c78dbabd6",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Upstream Sync",
   "source_context_snippet": "Upstream Sync",
   "source_file": ".github/workflows/sync.yml",

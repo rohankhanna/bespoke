@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Sarasa Gothic / \u66f4\u7eb1\u9ed1\u4f53 / \u66f4\u7d17\u9ed1\u9ad4 / \u66f4\u7d17\u30b4\u30b7\u30c3\u30af / \uc0ac\ub77c\uc0ac \uace0\ub515"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is SARASA GOTHIC, a CJK composite font based on Inter, Iosevka and Source Han Sans."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is SARASA GOTHIC, a CJK composite font based on Inter, Iosevka and Source Han Sans."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892196,
+      "status": "candidate",
+      "text": "baptistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892182,
+      "status": "candidate",
+      "text": "baptismal font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39891606,
+      "status": "candidate",
+      "text": "baptistery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39789457,
+      "status": "candidate",
+      "text": "typeface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39661453,
+      "status": "candidate",
+      "text": "fount"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "font",
+      "sense_id": "font#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25096,
+      "status": "candidate",
+      "text": "face"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8035,
+      "status": "candidate",
+      "text": "fount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1035,
+      "status": "candidate",
+      "text": "typeface"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1021,
+      "status": "candidate",
+      "text": "baptistry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1015,
+      "status": "candidate",
+      "text": "baptismal font"
+    }
+  ],
+  "concept_id": "font",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "font",
+  "observation_id": "b209a60e20f65bf3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "font",
+  "source_context_snippet": "This is SARASA GOTHIC, a CJK composite font based on Inter, Iosevka and Source Han Sans.",
+  "source_file": null,
+  "source_repo": "be5invis/Sarasa-Gothic",
+  "source_repo_description": "Sarasa Gothic / \u66f4\u7eb1\u9ed1\u4f53 / \u66f4\u7d17\u9ed1\u9ad4 / \u66f4\u7d17\u30b4\u30b7\u30c3\u30af / \uc0ac\ub77c\uc0ac \uace0\ub515"
+}

@@ -19,12 +19,66 @@
       "source_repo": "esp-rs/esp-idf-svc",
       "status": "candidate-context",
       "text": "PublishDryRun"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/embedded-svc",
+      "status": "candidate-context",
+      "text": "Rust APIs and abstractions for various embedded services (WiFi, Network, Httpd, Logging, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/embedded-svc",
+      "status": "candidate-context",
+      "text": "PublishDryRun"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-idf-hal",
+      "status": "candidate-context",
+      "text": "embedded-hal implementation for Rust on ESP32 and ESP-IDF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-hal",
+      "status": "candidate-context",
+      "text": "PublishDryRun"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-idf-sys",
+      "status": "candidate-context",
+      "text": "Bindings for ESP-IDF (Espressif's IoT Development Framework)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-sys",
+      "status": "candidate-context",
+      "text": "PublishDryRun"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "esp-rs/esp-idf-svc",
+      "status": "candidate",
+      "text": "PublishDryRun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/embedded-svc",
+      "status": "candidate",
+      "text": "PublishDryRun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-hal",
+      "status": "candidate",
+      "text": "PublishDryRun"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-sys",
       "status": "candidate",
       "text": "PublishDryRun"
     }
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/publish-dry-run.yml",
       "source_repo": "esp-rs/esp-idf-svc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-dry-run.yml",
+      "source_repo": "esp-rs/embedded-svc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-dry-run.yml",
+      "source_repo": "esp-rs/esp-idf-hal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-dry-run.yml",
+      "source_repo": "esp-rs/esp-idf-sys"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

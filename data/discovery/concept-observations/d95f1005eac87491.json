@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "UnitGen \u662f\u4e00\u4e2a\u7528\u4e8e\u751f\u6210\u5fae\u8c03\u4ee3\u7801\u7684\u6570\u636e\u6846\u67b6 \u2014\u2014 \u76f4\u63a5\u4ece\u4f60\u7684\u4ee3\u7801\u5e93\u4e2d\u751f\u6210\u5fae\u8c03\u6570\u636e\uff1a\u4ee3\u7801\u8865\u5168\u3001\u6d4b\u8bd5\u751f\u6210\u3001\u6587\u6863\u751f\u6210\u7b49\u3002UnitGen is a code fine-tuning data framework that generates data from your existing codebase."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25000,
+      "status": "candidate",
+      "text": "fine tuning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "fine tune"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "tunning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "tuning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "finessing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "finetuning",
+      "sense_id": "finetuning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "finetuning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "finetuning",
+  "observation_id": "d95f1005eac87491",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "finetuning",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "unit-mesh/unit-gen",
+  "source_repo_description": "UnitGen \u662f\u4e00\u4e2a\u7528\u4e8e\u751f\u6210\u5fae\u8c03\u4ee3\u7801\u7684\u6570\u636e\u6846\u67b6 \u2014\u2014 \u76f4\u63a5\u4ece\u4f60\u7684\u4ee3\u7801\u5e93\u4e2d\u751f\u6210\u5fae\u8c03\u6570\u636e\uff1a\u4ee3\u7801\u8865\u5168\u3001\u6d4b\u8bd5\u751f\u6210\u3001\u6587\u6863\u751f\u6210\u7b49\u3002UnitGen is a code fine-tuning data framework that generates data from your existing codebase."
+}

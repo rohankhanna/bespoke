@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/coverage-pr-base.yml",
+      "source_repo": "PyO3/pyo3"
+    }
+  ],
+  "term": "Set Codecov PR base"
+}

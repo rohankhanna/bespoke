@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Nightly Test",
-    "nightly-test"
+    "nightly-test",
+    "nightly test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,18 @@
       "source_repo": "inisis/OnnxSlim",
       "status": "candidate-context",
       "text": "nightly-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate-context",
+      "text": "NLP made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate-context",
+      "text": "nightly test"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +77,12 @@
       "source_repo": "inisis/OnnxSlim",
       "status": "candidate",
       "text": "nightly-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate",
+      "text": "nightly test"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +144,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/nightly-test.yml",
       "source_repo": "inisis/OnnxSlim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/nightly-test.yml",
+      "source_repo": "dmlc/gluon-nlp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/bump-openinference-semantic-conventions-version.yml",
+      "source_repo": "Arize-ai/openinference"
+    }
+  ],
+  "term": "Bump openinference-semantic-conventions minimum version"
+}

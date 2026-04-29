@@ -424,6 +424,42 @@
       "source_repo": "sass-contrib/sass-embedded-host-ruby",
       "status": "candidate-context",
       "text": "[![build](https://github.com/sass-contrib/sass-embedded-host-ruby/actions/workflows/build.yml/badge.svg)](https://github.com/sass-contrib/sass-embedded-host-ruby/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docarray/docarray",
+      "status": "candidate-context",
+      "text": "Represent, send, store and search multimodal data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docarray/docarray",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "status": "candidate-context",
+      "text": "A plug-in for Google's Protocol Buffers (protobufs) compiler to lint .proto files for style violations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gogo/protobuf",
+      "status": "candidate-context",
+      "text": "[Deprecated] Protocol Buffers for Go with Gadgets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogo/protobuf",
+      "status": "candidate-context",
+      "text": "module github.com/gogo/protobuf go 1.15 require ( github.com/kisielk/errcheck v1.5.0 // indirect github.com/kisielk/gotool v1.0.0 // indirect golang.org/x/tools v0.0.0-20210106214847-113979e3529a // indirect )"
     }
   ],
   "candidate_glosses": [
@@ -624,6 +660,24 @@
       "source_repo": "sass-contrib/sass-embedded-host-ruby",
       "status": "candidate",
       "text": "[![build](https://github.com/sass-contrib/sass-embedded-host-ruby/actions/workflows/build.yml/badge.svg)](https://github.com/sass-contrib/sass-embedded-host-ruby/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docarray/docarray",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogo/protobuf",
+      "status": "candidate",
+      "text": "module github.com/gogo/protobuf go 1.15 require ( github.com/kisielk/errcheck v1.5.0 // indirect github.com/kisielk/gotool v1.0.0 // indirect golang.org/x/tools v0.0.0-20210106214847-113979e3529a // indirect )"
     }
   ],
   "candidate_related_terms": [],
@@ -913,11 +967,41 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/protobuf.yaml",
       "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "protocolbuffers/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ckaznocha/protoc-gen-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gogo/protobuf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/protobuf.yaml",
+      "source_repo": "google/protobuf.dart"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

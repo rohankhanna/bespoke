@@ -1,0 +1,132 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-bun/bun-starter-kit",
+      "target": "go-bun/bun-realworld-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "go-bun/bun-starter-kit",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "go-bun/bun-starter-kit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "go-bun/bun-starter-kit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "go-bun/bun-starter-kit",
+      "target": "golangci/golangci-lint-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "go-bun/bun-starter-kit",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "go-bun/bun-starter-kit",
+      "target": "golang",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:56:45.426203+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1263
+    },
+    {
+      "path": "go.mod",
+      "size": 688
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 760
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yml",
+      "size": 293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bun starter kit",
+    "fork": false,
+    "full_name": "go-bun/bun-starter-kit",
+    "html_url": "https://github.com/go-bun/bun-starter-kit",
+    "language": "Go",
+    "pushed_at": "2024-02-02T18:47:03Z",
+    "stargazers_count": 33,
+    "topics": [
+      "golang",
+      "orm"
+    ],
+    "updated_at": "2025-10-30T09:29:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "go-bun/bun-realworld-app",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "[![build workflow](https://github.com/go-bun/bun-starter-kit/actions/workflows/build.yml/badge.svg)](https://github.com/go-bun/bun-starter-kit/actions)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    }
+  ]
+}

@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aileot/vim-foldpeek",
+      "target": "leafcage/foldcc.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aileot/vim-foldpeek",
+      "target": "kaile256/vim-foldpeek",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek",
+      "target": "foldtext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:57:32.391643+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1988
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Peek in fold",
+    "fork": false,
+    "full_name": "aileot/vim-foldpeek",
+    "html_url": "https://github.com/aileot/vim-foldpeek",
+    "language": "Vim script",
+    "pushed_at": "2021-10-16T07:30:27Z",
+    "stargazers_count": 1,
+    "topics": [
+      "foldtext",
+      "neovim",
+      "nvim",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2023-10-26T17:56:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaile256/vim-foldpeek",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leafcage/foldcc.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "vim-foldpeek starts from a partial fork of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foldtext"
+    },
+    {
+      "context_snippet": "vim-foldpeek starts from a partial fork of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "vim-foldpeek starts from a partial fork of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "vim-foldpeek starts from a partial fork of",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

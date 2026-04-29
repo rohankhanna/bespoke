@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Pull Request Checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "status": "candidate-context",
+      "text": "All Hands AI OpenHands Self-hosted Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "status": "candidate-context",
+      "text": "Pull Request Checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "status": "candidate",
+      "text": "Pull Request Checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19468,
+      "status": "candidate",
+      "text": "balance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18426,
+      "status": "candidate",
+      "text": "curb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18426,
+      "status": "candidate",
+      "text": "stop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18367,
+      "status": "candidate",
+      "text": "counterbalance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18367,
+      "status": "candidate",
+      "text": "kite"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull Request Checks",
+  "concept_id": "pull-request-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request Checks",
+      "sense_id": "pull-request-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,896 @@
+{
+  "components": [
+    {
+      "component": "chef/github-workflows/.github/workflows/markdown-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/markdown-link-checker.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/yaml-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/json-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/xml-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/shellcheck-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/powershell-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/packer-iso-url-checker.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/packer-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "re-actors/alls-green@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/markdown-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/markdown-link-checker.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/yaml-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/json-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/xml-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/shellcheck-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/powershell-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/packer-iso-url-checker.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "chef/github-workflows/.github/workflows/packer-lint.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-arm64.yml"
+    },
+    {
+      "component": "hashicorp/setup-packer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-arm64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-arm64.yml"
+    },
+    {
+      "component": "actionshub/chef-install@3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-x64.yml"
+    },
+    {
+      "component": "hashicorp/setup-packer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-x64.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-x64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-x64.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-hyperv-x64.yml"
+    },
+    {
+      "component": "actionshub/chef-install@3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-hyperv-x64.yml"
+    },
+    {
+      "component": "hashicorp/setup-packer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-hyperv-x64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-hyperv-x64.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-arm64.yml"
+    },
+    {
+      "component": "hashicorp/setup-packer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-arm64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-arm64.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-x64.yml"
+    },
+    {
+      "component": "hashicorp/setup-packer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-x64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-x64.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-arm64.yml"
+    },
+    {
+      "component": "actionshub/chef-install@3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-arm64.yml"
+    },
+    {
+      "component": "hashicorp/setup-packer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-arm64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-arm64.yml"
+    },
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-x64.yml"
+    },
+    {
+      "component": "actionshub/chef-install@3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-x64.yml"
+    },
+    {
+      "component": "hashicorp/setup-packer@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-x64.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-x64.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chef/bento",
+      "target": "lavabit/robox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chef/bento",
+      "target": "mcandre/packer-templates",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chef/bento",
+      "target": "ferventcoder/vagrant-windows-puppet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chef/bento",
+      "target": "jedi4ever/veewee",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/markdown-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/markdown-link-checker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/yaml-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/json-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/xml-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/shellcheck-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/powershell-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/packer-iso-url-checker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/packer-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-build.yml",
+      "source_repo": "chef/bento",
+      "target": "re-actors/alls-green@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/markdown-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/markdown-link-checker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/yaml-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/json-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/xml-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/shellcheck-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/powershell-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/packer-iso-url-checker.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint.yml",
+      "source_repo": "chef/bento",
+      "target": "chef/github-workflows/.github/workflows/packer-lint.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-arm64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-arm64.yml",
+      "source_repo": "chef/bento",
+      "target": "hashicorp/setup-packer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-arm64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "actionshub/chef-install@3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "hashicorp/setup-packer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-amazonlinux-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-hyperv-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-hyperv-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "actionshub/chef-install@3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-hyperv-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "hashicorp/setup-packer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-hyperv-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-arm64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-arm64.yml",
+      "source_repo": "chef/bento",
+      "target": "hashicorp/setup-packer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-arm64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "hashicorp/setup-packer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-parallels-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-arm64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-arm64.yml",
+      "source_repo": "chef/bento",
+      "target": "actionshub/chef-install@3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-arm64.yml",
+      "source_repo": "chef/bento",
+      "target": "hashicorp/setup-packer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-arm64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "actionshub/chef-install@3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "hashicorp/setup-packer@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkr-bld-qemu-x64.yml",
+      "source_repo": "chef/bento",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "amazon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "centos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "freebsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "oracle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "packer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "packer-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "parallels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "redhat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "rhel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "vagrant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "virtualbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "vmware",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "vmware-fusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "vmware-workstation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/bento",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:55:17.067210+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10721
+    },
+    {
+      "path": ".github/workflows/ci-build.yml",
+      "size": 2971
+    },
+    {
+      "path": ".github/workflows/ci-lint.yml",
+      "size": 927
+    },
+    {
+      "path": ".github/workflows/pkr-bld-amazonlinux-arm64.yml",
+      "size": 1686
+    },
+    {
+      "path": ".github/workflows/pkr-bld-amazonlinux-x64.yml",
+      "size": 2525
+    },
+    {
+      "path": ".github/workflows/pkr-bld-hyperv-x64.yml",
+      "size": 2379
+    },
+    {
+      "path": ".github/workflows/pkr-bld-parallels-arm64.yml",
+      "size": 2306
+    },
+    {
+      "path": ".github/workflows/pkr-bld-parallels-x64.yml",
+      "size": 2299
+    },
+    {
+      "path": ".github/workflows/pkr-bld-qemu-arm64.yml",
+      "size": 3199
+    },
+    {
+      "path": ".github/workflows/pkr-bld-qemu-x64.yml",
+      "size": 3390
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Packer templates for building minimal Vagrant baseboxes for multiple platforms",
+    "fork": false,
+    "full_name": "chef/bento",
+    "html_url": "https://github.com/chef/bento",
+    "language": "HCL",
+    "pushed_at": "2026-03-31T19:40:18Z",
+    "stargazers_count": 4424,
+    "topics": [
+      "amazon",
+      "centos",
+      "freebsd",
+      "linux",
+      "macos",
+      "oracle",
+      "packer",
+      "packer-templates",
+      "parallels",
+      "redhat",
+      "rhel",
+      "ubuntu",
+      "vagrant",
+      "virtualbox",
+      "vmware",
+      "vmware-fusion",
+      "vmware-workstation",
+      "windows"
+    ],
+    "updated_at": "2026-04-28T02:11:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ferventcoder/vagrant-windows-puppet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jedi4ever/veewee",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lavabit/robox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mcandre/packer-templates",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "centos"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "freebsd"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oracle"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packer"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "packer-templates"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallels"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redhat"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rhel"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubuntu"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vagrant"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtualbox"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vmware"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vmware-fusion"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vmware-workstation"
+    },
+    {
+      "context_snippet": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

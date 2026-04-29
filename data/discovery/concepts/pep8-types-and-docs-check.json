@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "PEP8, Types and Docs Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuyq18/tianshou",
+      "status": "candidate-context",
+      "text": "An elegant PyTorch deep reinforcement learning library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyq18/tianshou",
+      "status": "candidate-context",
+      "text": "PEP8, Types and Docs Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyq18/tianshou",
+      "status": "candidate",
+      "text": "PEP8, Types and Docs Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22476,
+      "status": "candidate",
+      "text": "par"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22448,
+      "status": "candidate",
+      "text": "oscillograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22448,
+      "status": "candidate",
+      "text": "soul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22187,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22187,
+      "status": "candidate",
+      "text": "auditing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "PEP8, Types and Docs Check",
+  "concept_id": "pep8-types-and-docs-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint_and_docs.yml",
+      "source_repo": "yuyq18/tianshou"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PEP8, Types and Docs Check",
+      "sense_id": "pep8-types-and-docs-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

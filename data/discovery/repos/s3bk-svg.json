@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:59:58.741777+00:00",
+  "fetched_files": [
+    {
+      "path": "Cargo.toml",
+      "size": 1308
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "s3bk/svg",
+    "html_url": "https://github.com/s3bk/svg",
+    "language": "Rust",
+    "pushed_at": "2024-03-23T15:04:33Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-10-17T11:35:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

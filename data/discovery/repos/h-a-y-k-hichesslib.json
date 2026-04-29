@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "H-a-y-k/hichesslib",
+      "target": "chess",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "H-a-y-k/hichesslib",
+      "target": "pyside2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "H-a-y-k/hichesslib",
+      "target": "python-chess",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "H-a-y-k/hichesslib",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "H-a-y-k/hichesslib",
+      "target": "python36",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "H-a-y-k/hichesslib",
+      "target": "python37",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:52.696261+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3079
+    },
+    {
+      "path": "requirements.txt",
+      "size": 21
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "hichesslib is a cross-platform Python GUI chess library.",
+    "fork": false,
+    "full_name": "H-a-y-k/hichesslib",
+    "html_url": "https://github.com/H-a-y-k/hichesslib",
+    "language": "Python",
+    "pushed_at": "2024-07-16T21:09:31Z",
+    "stargazers_count": 12,
+    "topics": [
+      "chess",
+      "pyside2",
+      "python-chess",
+      "python3",
+      "python36",
+      "python37",
+      "qt"
+    ],
+    "updated_at": "2025-12-29T17:13:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/hichesslib/) [![Build Status](https://app.travis-ci.com/H-a-y-k/hichesslib.svg?token=nP5fyR4hXGDypLNHLdGX&branch=master)](https://app.travis-ci.com/H-a-y-k/hichesslib) [![Coverage Stat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chess"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/hichesslib/) [![Build Status](https://app.travis-ci.com/H-a-y-k/hichesslib.svg?token=nP5fyR4hXGDypLNHLdGX&branch=master)](https://app.travis-ci.com/H-a-y-k/hichesslib) [![Coverage Stat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyside2"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/hichesslib/) [![Build Status](https://app.travis-ci.com/H-a-y-k/hichesslib.svg?token=nP5fyR4hXGDypLNHLdGX&branch=master)](https://app.travis-ci.com/H-a-y-k/hichesslib) [![Coverage Stat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-chess"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/hichesslib/) [![Build Status](https://app.travis-ci.com/H-a-y-k/hichesslib.svg?token=nP5fyR4hXGDypLNHLdGX&branch=master)](https://app.travis-ci.com/H-a-y-k/hichesslib) [![Coverage Stat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/hichesslib/) [![Build Status](https://app.travis-ci.com/H-a-y-k/hichesslib.svg?token=nP5fyR4hXGDypLNHLdGX&branch=master)](https://app.travis-ci.com/H-a-y-k/hichesslib) [![Coverage Stat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python36"
+    },
+    {
+      "context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/hichesslib/) [![Build Status](https://app.travis-ci.com/H-a-y-k/hichesslib.svg?token=nP5fyR4hXGDypLNHLdGX&branch=master)](https://app.travis-ci.com/H-a-y-k/hichesslib) [![Coverage Stat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python37"
+    }
+  ]
+}

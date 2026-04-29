@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-18T09:09:30.058377+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/issue-labels.yml",
       "source_repo": "larksuite/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue-labels.yml",
+      "source_repo": "microsoft/vscode-python"
     }
   ],
   "term": "Issue Labels"

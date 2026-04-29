@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AEgir - Automated JavaScript project building"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29712778,
+      "status": "candidate",
+      "text": "tidal bore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29671620,
+      "status": "candidate",
+      "text": "eagre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29658258,
+      "status": "candidate",
+      "text": "eager"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29590227,
+      "status": "candidate",
+      "text": "bore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9974101,
+      "status": "candidate",
+      "text": "aegaeon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aegir",
+      "sense_id": "aegir#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14067,
+      "status": "candidate",
+      "text": "bore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7029,
+      "status": "candidate",
+      "text": "eagre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4018,
+      "status": "candidate",
+      "text": "tidal bore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "eager"
+    }
+  ],
+  "concept_id": "aegir",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aegir",
+  "observation_id": "5b598b1803e5f28f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "aegir",
+  "source_context_snippet": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)",
+  "source_file": null,
+  "source_repo": "ipfs/aegir",
+  "source_repo_description": "AEgir - Automated JavaScript project building"
+}

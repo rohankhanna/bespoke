@@ -1,0 +1,397 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-macos.yml"
+    },
+    {
+      "component": "apple-actions/import-codesign-certs@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-macos.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-windows.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-check.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-check.yml"
+    },
+    {
+      "component": "cpp-linter/cpp-linter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-check.yml"
+    },
+    {
+      "component": "TrenchBroom/clean-commit-action@v0.8.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-commit.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-nuget-package-versions.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autosquash.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autosquash.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autosquash.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autosquash.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autosquash.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autosquash.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autosquash.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autosquash.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "kduske/trenchbroom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-linux.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linux.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "CI Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-macos.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-macos.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "apple-actions/import-codesign-certs@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-macos.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "CI macOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-windows.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-windows.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "CI Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-check.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-check.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "jurplel/install-qt-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-check.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "cpp-linter/cpp-linter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-check.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "CPP Linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-commit.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "TrenchBroom/clean-commit-action@v0.8.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-commit.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "Check Commits",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cleanup-nuget-package-versions.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-nuget-package-versions.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "Cleanup NuGet Package Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autosquash.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-autosquash.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-autosquash.yml",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "PR Bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "game-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "games",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "target": "level-editor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:53:32.004133+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2996
+    },
+    {
+      "path": ".github/workflows/ci-linux.yml",
+      "size": 4228
+    },
+    {
+      "path": ".github/workflows/ci-macos.yml",
+      "size": 5025
+    },
+    {
+      "path": ".github/workflows/ci-windows.yml",
+      "size": 3096
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 371
+    },
+    {
+      "path": ".github/workflows/clang-tidy-check.yml",
+      "size": 3239
+    },
+    {
+      "path": ".github/workflows/clean-commit.yml",
+      "size": 291
+    },
+    {
+      "path": ".github/workflows/cleanup-nuget-package-versions.yml",
+      "size": 4113
+    },
+    {
+      "path": ".github/workflows/pr-autosquash.yml",
+      "size": 8523
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cross-Platform Level Editor",
+    "fork": false,
+    "full_name": "TrenchBroom/TrenchBroom",
+    "html_url": "https://github.com/TrenchBroom/TrenchBroom",
+    "language": "C++",
+    "pushed_at": "2026-04-29T20:47:21Z",
+    "stargazers_count": 2593,
+    "topics": [
+      "c-plus-plus",
+      "game-development",
+      "games",
+      "level-editor"
+    ],
+    "updated_at": "2026-04-29T20:47:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kduske/trenchbroom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-linux.yml",
+      "term": "CI Linux"
+    },
+    {
+      "context_snippet": "CI macOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-macos.yml",
+      "term": "CI macOS"
+    },
+    {
+      "context_snippet": "CI Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-windows.yml",
+      "term": "CI Windows"
+    },
+    {
+      "context_snippet": "CPP Linter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy-check.yml",
+      "term": "CPP Linter"
+    },
+    {
+      "context_snippet": "Check Commits",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-commit.yml",
+      "term": "Check Commits"
+    },
+    {
+      "context_snippet": "Cleanup NuGet Package Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cleanup-nuget-package-versions.yml",
+      "term": "Cleanup NuGet Package Versions"
+    },
+    {
+      "context_snippet": "PR Bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-autosquash.yml",
+      "term": "PR Bot"
+    },
+    {
+      "context_snippet": "[![TrenchBroom Icon](app/TrenchBroom/resources/graphics/images/AppIcon.png)](https://www.youtube.com/watch?v=shcAvnYp9ow)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "[![TrenchBroom Icon](app/TrenchBroom/resources/graphics/images/AppIcon.png)](https://www.youtube.com/watch?v=shcAvnYp9ow)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-development"
+    },
+    {
+      "context_snippet": "[![TrenchBroom Icon](app/TrenchBroom/resources/graphics/images/AppIcon.png)](https://www.youtube.com/watch?v=shcAvnYp9ow)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "games"
+    },
+    {
+      "context_snippet": "[![TrenchBroom Icon](app/TrenchBroom/resources/graphics/images/AppIcon.png)](https://www.youtube.com/watch?v=shcAvnYp9ow)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "level-editor"
+    }
+  ]
+}

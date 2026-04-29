@@ -1,0 +1,139 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "target": "r-lyeh/statvs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "target": "all-contributors/all-contributors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "target": "animation-3d",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "target": "animation-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "target": "compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "target": "game-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "target": "unreal-engine-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "target": "unreal-engine-5",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:45:18.445551+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5739
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "The official Animation Compression Library Unreal Engine 4 and 5 plugin",
+    "fork": false,
+    "full_name": "nfrechette/acl-ue4-plugin",
+    "html_url": "https://github.com/nfrechette/acl-ue4-plugin",
+    "language": "C++",
+    "pushed_at": "2023-12-09T03:12:23Z",
+    "stargazers_count": 493,
+    "topics": [
+      "animation-3d",
+      "animation-compression",
+      "compression",
+      "game-engine",
+      "unreal-engine-4",
+      "unreal-engine-5"
+    ],
+    "updated_at": "2026-04-17T12:59:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "all-contributors/all-contributors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r-lyeh/statvs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation-3d"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "animation-compression"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compression"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game-engine"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unreal-engine-4"
+    },
+    {
+      "context_snippet": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unreal-engine-5"
+    }
+  ]
+}

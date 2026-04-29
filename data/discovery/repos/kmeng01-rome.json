@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kmeng01/rome",
+      "target": "interpretability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kmeng01/rome",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kmeng01/rome",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:49:10.845580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Locating and editing factual associations in GPT (NeurIPS 2022)",
+    "fork": false,
+    "full_name": "kmeng01/rome",
+    "html_url": "https://github.com/kmeng01/rome",
+    "language": "Python",
+    "pushed_at": "2024-04-20T05:32:37Z",
+    "stargazers_count": 750,
+    "topics": [
+      "gpt",
+      "interpretability",
+      "pytorch",
+      "transformers"
+    ],
+    "updated_at": "2026-04-27T17:28:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository provides an implementation of Rank-One Model Editing (ROME) on auto-regressive transformers (GPU-only).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interpretability"
+    },
+    {
+      "context_snippet": "This repository provides an implementation of Rank-One Model Editing (ROME) on auto-regressive transformers (GPU-only).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository provides an implementation of Rank-One Model Editing (ROME) on auto-regressive transformers (GPU-only).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

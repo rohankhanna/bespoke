@@ -1,0 +1,290 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crd-validation.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crd-validation.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kal.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kal.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monthly-release.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monthly-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-broken-links.yml"
+    },
+    {
+      "component": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-release-artifacts.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crd-validation.yml",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crd-validation.yml",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crd-validation.yml",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "CRD Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kal.yml",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kal.yml",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kal.yml",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "PR golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monthly-release.yml",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monthly-release.yml",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monthly-release.yml",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "Monthly Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-broken-links.yml",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-broken-links.yml",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "Verify docs broken links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-release-artifacts.yml",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "actions/setup-go@4a3601121dd01d1626a1e23e37211e3254c1c06c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-release-artifacts.yml",
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "Verify Release Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "gateway-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "k8s-sig-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "networking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/gateway-api",
+      "target": "sig-network",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:03:07.171347+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2909
+    },
+    {
+      "path": "go.mod",
+      "size": 2226
+    },
+    {
+      "path": ".github/workflows/crd-validation.yml",
+      "size": 1234
+    },
+    {
+      "path": ".github/workflows/kal.yml",
+      "size": 959
+    },
+    {
+      "path": ".github/workflows/monthly-release.yml",
+      "size": 5835
+    },
+    {
+      "path": ".github/workflows/release-notes-header.template.md",
+      "size": 694
+    },
+    {
+      "path": ".github/workflows/verify-broken-links.yml",
+      "size": 514
+    },
+    {
+      "path": ".github/workflows/verify-release-artifacts.yml",
+      "size": 3236
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Repository for the next iteration of composite service (e.g. Ingress) and load balancing APIs.",
+    "fork": false,
+    "full_name": "kubernetes-sigs/gateway-api",
+    "html_url": "https://github.com/kubernetes-sigs/gateway-api",
+    "language": "Go",
+    "pushed_at": "2026-04-28T20:23:27Z",
+    "stargazers_count": 2817,
+    "topics": [
+      "gateway-api",
+      "k8s-sig-network",
+      "kubernetes",
+      "networking",
+      "sig-network"
+    ],
+    "updated_at": "2026-04-29T20:12:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CRD Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/crd-validation.yml",
+      "term": "CRD Validation"
+    },
+    {
+      "context_snippet": "PR golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kal.yml",
+      "term": "PR golangci-lint"
+    },
+    {
+      "context_snippet": "Monthly Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monthly-release.yml",
+      "term": "Monthly Release"
+    },
+    {
+      "context_snippet": "Verify docs broken links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-broken-links.yml",
+      "term": "Verify docs broken links"
+    },
+    {
+      "context_snippet": "Verify Release Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-release-artifacts.yml",
+      "term": "Verify Release Artifacts"
+    },
+    {
+      "context_snippet": "The Gateway API is a part of [SIG Network][sn], and this repository contains",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gateway-api"
+    },
+    {
+      "context_snippet": "The Gateway API is a part of [SIG Network][sn], and this repository contains",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-network"
+    },
+    {
+      "context_snippet": "The Gateway API is a part of [SIG Network][sn], and this repository contains",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "The Gateway API is a part of [SIG Network][sn], and this repository contains",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "networking"
+    },
+    {
+      "context_snippet": "The Gateway API is a part of [SIG Network][sn], and this repository contains",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sig-network"
+    }
+  ]
+}

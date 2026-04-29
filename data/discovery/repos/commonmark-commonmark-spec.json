@@ -12,18 +12,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "commonmark/commonmark-spec",
-      "target": "jgm/pandoc",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "commonmark/commonmark-spec",
       "target": "jgm/peg-markdown",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T08:57:46.576686+00:00",
+  "fetched_at": "2026-04-29T19:46:20.666545+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -43,20 +36,15 @@
     "full_name": "commonmark/commonmark-spec",
     "html_url": "https://github.com/commonmark/commonmark-spec",
     "language": "Python",
-    "pushed_at": "2026-03-08T10:21:59Z",
-    "stargazers_count": 5080,
+    "pushed_at": "2026-04-27T19:15:35Z",
+    "stargazers_count": 5084,
     "topics": [],
-    "updated_at": "2026-04-21T17:49:09Z"
+    "updated_at": "2026-04-29T17:48:22Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "commonmark/commonmark",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jgm/pandoc",
       "source_file": "README.md"
     },
     {

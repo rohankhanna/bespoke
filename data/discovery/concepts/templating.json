@@ -43,6 +43,18 @@
       "source_repo": "cruft/cruft",
       "status": "candidate-context",
       "text": "[![cruft - Fight Back Against the Boilerplate Monster!](https://raw.github.com/cruft/cruft/master/art/logo_large.png)](https://cruft.github.io/cruft/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yonaskolb/Genesis",
+      "status": "candidate-context",
+      "text": "Templating, scaffolding and generation tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/Genesis",
+      "status": "candidate-context",
+      "text": "[![SPM](https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=for-the-badge)](https://swift.org/package-manager)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "cruft/cruft",
       "status": "candidate",
       "text": "[![cruft - Fight Back Against the Boilerplate Monster!](https://raw.github.com/cruft/cruft/master/art/logo_large.png)](https://cruft.github.io/cruft/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/Genesis",
+      "status": "candidate",
+      "text": "[![SPM](https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=for-the-badge)](https://swift.org/package-manager)"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "hyperhype/hyperscript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "yonaskolb/Genesis"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

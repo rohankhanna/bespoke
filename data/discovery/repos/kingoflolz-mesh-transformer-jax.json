@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kingoflolz/mesh-transformer-jax",
+      "target": "microsoft/deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kingoflolz/mesh-transformer-jax",
+      "target": "kingoflolz/swarm-jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kingoflolz/mesh-transformer-jax",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "kingoflolz/mesh-transformer-jax",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint_python.yml",
+      "source_repo": "kingoflolz/mesh-transformer-jax",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:45:48.941756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11245
+    },
+    {
+      "path": "requirements.txt",
+      "size": 370
+    },
+    {
+      "path": ".github/workflows/lint_python.yml",
+      "size": 930
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Model parallel transformers in JAX and Haiku",
+    "fork": false,
+    "full_name": "kingoflolz/mesh-transformer-jax",
+    "html_url": "https://github.com/kingoflolz/mesh-transformer-jax",
+    "language": "Python",
+    "pushed_at": "2023-01-21T00:09:29Z",
+    "stargazers_count": 6367,
+    "topics": [],
+    "updated_at": "2026-04-29T11:44:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kingoflolz/swarm-jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/deepspeed",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

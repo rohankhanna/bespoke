@@ -1,0 +1,93 @@
+{
+  "components": [
+    {
+      "component": "asottile/workflows/.github/workflows/tox.yml@v1.8.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "asottile/workflows/.github/workflows/tox.yml@v1.8.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "asottile/yesqa",
+      "target": "asottile/workflows/.github/workflows/tox.yml@v1.8.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "asottile/yesqa",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asottile/yesqa",
+      "target": "flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "asottile/yesqa",
+      "target": "pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:48:56.067572+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1135
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 371
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Automatically remove unnecessary `# noqa` comments",
+    "fork": false,
+    "full_name": "asottile/yesqa",
+    "html_url": "https://github.com/asottile/yesqa",
+    "language": "Python",
+    "pushed_at": "2026-04-28T22:22:41Z",
+    "stargazers_count": 262,
+    "topics": [
+      "flake8",
+      "pre-commit"
+    ],
+    "updated_at": "2026-04-28T22:22:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "[![build status](https://github.com/asottile/yesqa/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/yesqa/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8"
+    },
+    {
+      "context_snippet": "[![build status](https://github.com/asottile/yesqa/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/yesqa/actions/workflows/main.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-commit"
+    }
+  ]
+}

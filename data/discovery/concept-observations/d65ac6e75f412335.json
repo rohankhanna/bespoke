@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A demo app that runs librespot-java on Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "librespot",
+      "sense_id": "librespot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "librespot",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "librespot",
+  "observation_id": "d65ac6e75f412335",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "librespot",
+  "source_context_snippet": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026",
+  "source_file": null,
+  "source_repo": "devgianlu/librespot-android",
+  "source_repo_description": "A demo app that runs librespot-java on Android"
+}

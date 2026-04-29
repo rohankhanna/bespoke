@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/socialconnect-template",
+      "target": "celo-org/celo-composer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/socialconnect-template",
+      "target": "celo-org/react-celo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "celo-org/socialconnect-template",
+      "target": "celo-org/rainbowkit-celo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "celo-org/socialconnect-template",
+      "target": "celo-org/celo-composer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:56:43.803169+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7109
+    },
+    {
+      "path": "package.json",
+      "size": 543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Template project for SocialConnect",
+    "fork": false,
+    "full_name": "celo-org/socialconnect-template",
+    "html_url": "https://github.com/celo-org/socialconnect-template",
+    "language": "TypeScript",
+    "pushed_at": "2025-06-28T19:50:10Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-10-28T12:53:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celo-org/celo-composer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celo-org/rainbowkit-celo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celo-org/react-celo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "celo-org/celo-composer",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

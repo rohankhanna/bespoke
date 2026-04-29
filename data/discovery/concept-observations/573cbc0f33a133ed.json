@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The official Python Library for the Groq API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Code Freeze Bypass Status\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Code Freeze Bypass Status\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29428,
+      "status": "candidate",
+      "text": "disregarded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29428,
+      "status": "candidate",
+      "text": "disregarding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29428,
+      "status": "candidate",
+      "text": "suspensation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29349,
+      "status": "candidate",
+      "text": "interlock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29311,
+      "status": "candidate",
+      "text": "jump"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Freeze Bypass Status",
+      "sense_id": "code-freeze-bypass-status#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "code-freeze-bypass-status",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "code-freeze-bypass-status",
+  "observation_id": "573cbc0f33a133ed",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Code Freeze Bypass Status",
+  "source_context_snippet": "\"Code Freeze Bypass Status\"",
+  "source_file": ".github/workflows/code-freeze-bypass.yaml",
+  "source_repo": "groq/groq-python",
+  "source_repo_description": "The official Python Library for the Groq API"
+}

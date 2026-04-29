@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-acute/aCute",
+      "target": "eclipse/acute",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-acute/aCute",
+      "target": "samsung/netcoredbg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-acute/aCute",
+      "target": "microsoft/vscode-debugadapter-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-acute/aCute",
+      "target": "omnisharp/omnisharp-node-client",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:43:28.922548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2762
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Eclipse aCute - C# edition in Eclipse IDE",
+    "fork": false,
+    "full_name": "eclipse-acute/aCute",
+    "html_url": "https://github.com/eclipse-acute/aCute",
+    "language": "Java",
+    "pushed_at": "2025-04-11T11:35:30Z",
+    "stargazers_count": 84,
+    "topics": [],
+    "updated_at": "2026-03-17T18:29:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse/acute",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/vscode-debugadapter-node",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "omnisharp/omnisharp-node-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samsung/netcoredbg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

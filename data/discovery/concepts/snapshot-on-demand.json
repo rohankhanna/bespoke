@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Snapshot on demand"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/tools.reader",
+      "status": "candidate-context",
+      "text": "Clojure reader in Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.reader",
+      "status": "candidate-context",
+      "text": "Snapshot on demand"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.reader",
+      "status": "candidate",
+      "text": "Snapshot on demand"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11496,
+      "status": "candidate",
+      "text": "brief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11496,
+      "status": "candidate",
+      "text": "freeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11496,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11496,
+      "status": "candidate",
+      "text": "insight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11496,
+      "status": "candidate",
+      "text": "photo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Snapshot on demand",
+  "concept_id": "snapshot-on-demand",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/snapshot.yml",
+      "source_repo": "clojure/tools.reader"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Snapshot on demand",
+      "sense_id": "snapshot-on-demand#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

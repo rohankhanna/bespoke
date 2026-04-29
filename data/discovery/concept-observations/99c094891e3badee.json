@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd73 bore is a simple CLI tool for making tunnels to localhost"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mean Bean Deploy"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mean Bean Deploy"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21988,
+      "status": "candidate",
+      "text": "should"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21935,
+      "status": "candidate",
+      "text": "hang"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21935,
+      "status": "candidate",
+      "text": "nod"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21935,
+      "status": "candidate",
+      "text": "smap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21935,
+      "status": "candidate",
+      "text": "snap"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mean Bean Deploy",
+      "sense_id": "mean-bean-deploy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mean-bean-deploy",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mean-bean-deploy",
+  "observation_id": "99c094891e3badee",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Mean Bean Deploy",
+  "source_context_snippet": "Mean Bean Deploy",
+  "source_file": ".github/workflows/mean_bean_deploy.yml",
+  "source_repo": "ekzhang/bore",
+  "source_repo_description": "\ud83d\udd73 bore is a simple CLI tool for making tunnels to localhost"
+}

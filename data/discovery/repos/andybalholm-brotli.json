@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andybalholm/brotli",
+      "target": "andybalholm/c2go.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "andybalholm/brotli",
+      "target": "andybalholm/redwood.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:49:10.753321+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 801
+    },
+    {
+      "path": "go.mod",
+      "size": 151
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pure Go Brotli encoder and decoder",
+    "fork": false,
+    "full_name": "andybalholm/brotli",
+    "html_url": "https://github.com/andybalholm/brotli",
+    "language": "Go",
+    "pushed_at": "2026-04-13T17:17:38Z",
+    "stargazers_count": 723,
+    "topics": [],
+    "updated_at": "2026-04-28T19:54:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andybalholm/c2go.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andybalholm/redwood.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

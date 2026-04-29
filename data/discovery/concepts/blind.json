@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "blind"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blindpandas/chessmart",
+      "status": "candidate-context",
+      "text": "The most accessible chessboard in the planet earth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blindpandas/chessmart",
+      "status": "candidate-context",
+      "text": "Build add-on"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blindpandas/chessmart",
+      "status": "candidate",
+      "text": "Build add-on"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988579,
+      "status": "candidate",
+      "text": "sand-blind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988567,
+      "status": "candidate",
+      "text": "purblind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988546,
+      "status": "candidate",
+      "text": "visually impaired"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988328,
+      "status": "candidate",
+      "text": "blindfolded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988192,
+      "status": "candidate",
+      "text": "excecate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 64027,
+      "status": "candidate",
+      "text": "besotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43036,
+      "status": "candidate",
+      "text": "subterfuge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34056,
+      "status": "candidate",
+      "text": "stiff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33049,
+      "status": "candidate",
+      "text": "dim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28057,
+      "status": "candidate",
+      "text": "wet"
+    }
+  ],
+  "canonical_name": "blind",
+  "concept_id": "blind",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "blindpandas/chessmart"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blind",
+      "sense_id": "blind#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

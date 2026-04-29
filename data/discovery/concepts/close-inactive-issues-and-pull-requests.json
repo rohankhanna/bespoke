@@ -43,6 +43,18 @@
       "source_repo": "bbatsov/projectile",
       "status": "candidate-context",
       "text": "Close inactive issues and pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/cider",
+      "status": "candidate-context",
+      "text": "The Clojure Interactive Development Environment that Rocks for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/cider",
+      "status": "candidate-context",
+      "text": "Close inactive issues and pull requests"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bbatsov/projectile",
+      "status": "candidate",
+      "text": "Close inactive issues and pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/cider",
       "status": "candidate",
       "text": "Close inactive issues and pull requests"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "bbatsov/projectile"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "clojure-emacs/cider"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

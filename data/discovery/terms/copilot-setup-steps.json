@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:09:30.058377+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -186,6 +186,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/copilot-setup-steps.yml",
       "source_repo": "executablebooks/MyST-Parser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "apollographql/rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "licensee/licensee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "executablebooks/mdit-py-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "dotnet/msbuild"
     }
   ],
   "term": "Copilot Setup Steps"

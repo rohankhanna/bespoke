@@ -1,0 +1,589 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yml"
+    },
+    {
+      "component": "manusa/actions-setup-minikube@v2.16.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yaml"
+    },
+    {
+      "component": "actions/configure-pages@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yaml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yaml"
+    },
+    {
+      "component": "actions/deploy-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "manusa/actions-setup-minikube@v2.16.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "azure/setup-helm@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-project-in-dir.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-project-in-dir.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-project-in-dir.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-project-in-dir.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-project-in-dir.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-releases.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-releases.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-releases.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-releases.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "apache/flink-kubernetes-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "apache/spark-kubernetes-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "abdelrhmanhamouda/locust-k8s-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "cdmikechen/airflow-dag-operator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "Build with Kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "manusa/actions-setup-minikube@v2.16.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "End to End tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yaml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yaml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yaml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/configure-pages@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yaml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/upload-pages-artifact@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hugo.yaml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/deploy-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hugo.yaml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "Deploy Hugo site to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "manusa/actions-setup-minikube@v2.16.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "Parameterized Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "azure/setup-helm@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "Verify Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-project-in-dir.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-project-in-dir.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-project-in-dir.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-project-in-dir.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "Release project in specified directory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "Release to Maven Central",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-releases.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/snapshot-releases.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sonar.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar.yml",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "Sonar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "java-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "operator-framework/java-operator-sdk",
+      "target": "kubernetes-operator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:01:45.947477+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6427
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1429
+    },
+    {
+      "path": ".github/workflows/e2e-test.yml",
+      "size": 1911
+    },
+    {
+      "path": ".github/workflows/hugo.yaml",
+      "size": 7138
+    },
+    {
+      "path": ".github/workflows/integration-tests.yml",
+      "size": 1859
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 1066
+    },
+    {
+      "path": ".github/workflows/release-project-in-dir.yml",
+      "size": 2939
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1838
+    },
+    {
+      "path": ".github/workflows/snapshot-releases.yml",
+      "size": 1420
+    },
+    {
+      "path": ".github/workflows/sonar.yml",
+      "size": 1420
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Java SDK for building Kubernetes Operators",
+    "fork": false,
+    "full_name": "operator-framework/java-operator-sdk",
+    "html_url": "https://github.com/operator-framework/java-operator-sdk",
+    "language": "Java",
+    "pushed_at": "2026-04-29T13:25:41Z",
+    "stargazers_count": 928,
+    "topics": [
+      "hacktoberfest",
+      "java",
+      "java-library",
+      "kubernetes-operator"
+    ],
+    "updated_at": "2026-04-29T14:26:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abdelrhmanhamouda/locust-k8s-operator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/flink-kubernetes-operator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/spark-kubernetes-operator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cdmikechen/airflow-dag-operator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build with Kubernetes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build with Kubernetes"
+    },
+    {
+      "context_snippet": "End to End tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "term": "End to End tests"
+    },
+    {
+      "context_snippet": "Deploy Hugo site to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hugo.yaml",
+      "term": "Deploy Hugo site to Pages"
+    },
+    {
+      "context_snippet": "Parameterized Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "term": "Parameterized Integration Tests"
+    },
+    {
+      "context_snippet": "Verify Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "Verify Pull Request"
+    },
+    {
+      "context_snippet": "Release project in specified directory",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-project-in-dir.yml",
+      "term": "Release project in specified directory"
+    },
+    {
+      "context_snippet": "Release to Maven Central",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release to Maven Central"
+    },
+    {
+      "context_snippet": "Sonar",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sonar.yml",
+      "term": "Sonar"
+    },
+    {
+      "context_snippet": "![Java CI with Maven](https://github.com/operator-framework/java-operator-sdk/actions/workflows/snapshot-releases.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![Java CI with Maven](https://github.com/operator-framework/java-operator-sdk/actions/workflows/snapshot-releases.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "![Java CI with Maven](https://github.com/operator-framework/java-operator-sdk/actions/workflows/snapshot-releases.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java-library"
+    },
+    {
+      "context_snippet": "![Java CI with Maven](https://github.com/operator-framework/java-operator-sdk/actions/workflows/snapshot-releases.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-operator"
+    }
+  ]
+}

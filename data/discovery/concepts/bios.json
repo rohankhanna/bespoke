@@ -19,6 +19,18 @@
       "source_repo": "jart/cosmopolitan",
       "status": "candidate-context",
       "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexmyczko/ree",
+      "status": "candidate-context",
+      "text": "Extract BIOS ROM extensions and bitmap fonts (8x8, 8x14, 8x16)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmyczko/ree",
+      "status": "candidate-context",
+      "text": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5bebc8b8aed438da6bf0b2a63161d7a)](https://www.codacy.com/app/alexmyczko/ree?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alexmyczko/ree&amp;utm_campaign=Badge_Grade)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jart/cosmopolitan",
       "status": "candidate",
       "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexmyczko/ree",
+      "status": "candidate",
+      "text": "[![Codacy Badge](https://api.codacy.com/project/badge/Grade/b5bebc8b8aed438da6bf0b2a63161d7a)](https://www.codacy.com/app/alexmyczko/ree?utm_source=github.com&amp;utm_medium=referral&amp;utm_content=alexmyczko/ree&amp;utm_campaign=Badge_Grade)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "jart/cosmopolitan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexmyczko/ree"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

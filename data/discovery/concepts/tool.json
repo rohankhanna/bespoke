@@ -151,6 +151,78 @@
       "source_repo": "python-semantic-release/python-semantic-release",
       "status": "candidate-context",
       "text": "Python Semantic Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automate versioning and package publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yonaskolb/Genesis",
+      "status": "candidate-context",
+      "text": "Templating, scaffolding and generation tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/Genesis",
+      "status": "candidate-context",
+      "text": "[![SPM](https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=for-the-badge)](https://swift.org/package-manager)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blackducksoftware/ohcount",
+      "status": "candidate-context",
+      "text": "The Ohloh source code line counter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackducksoftware/ohcount",
+      "status": "candidate-context",
+      "text": "![Coverity Scan Build](https://github.com/blackducksoftware/ohcount/actions/workflows/coverity.yml/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate-context",
+      "text": "[ACL 2024] An Easy-to-use Knowledge Editing Framework for LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/CodeGeeX2",
+      "status": "candidate-context",
+      "text": "CodeGeeX2: A More Powerful Multilingual Code Generation Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CodeGeeX2",
+      "status": "candidate-context",
+      "text": "![](resources/codegeex_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vlaaad/reveal",
+      "status": "candidate-context",
+      "text": "Read Eval Visualize Loop for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlaaad/reveal",
+      "status": "candidate-context",
+      "text": "![demo](https://vlaaad.github.io/assets/reveal/demo.gif)"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +297,42 @@
       "source_repo": "python-semantic-release/python-semantic-release",
       "status": "candidate",
       "text": "Python Semantic Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/Genesis",
+      "status": "candidate",
+      "text": "[![SPM](https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=for-the-badge)](https://swift.org/package-manager)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackducksoftware/ohcount",
+      "status": "candidate",
+      "text": "![Coverity Scan Build](https://github.com/blackducksoftware/ohcount/actions/workflows/coverity.yml/badge.svg?branch=main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CodeGeeX2",
+      "status": "candidate",
+      "text": "![](resources/codegeex_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlaaad/reveal",
+      "status": "candidate",
+      "text": "![demo](https://vlaaad.github.io/assets/reveal/demo.gif)"
     }
   ],
   "candidate_related_terms": [
@@ -376,11 +484,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "python-semantic-release/python-semantic-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "release-it/release-it"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "yonaskolb/Genesis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "blackducksoftware/ohcount"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zjunlp/EasyEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vlaaad/reveal"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

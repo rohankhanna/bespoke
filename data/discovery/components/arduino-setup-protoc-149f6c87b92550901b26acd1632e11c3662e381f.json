@@ -1,0 +1,12 @@
+{
+  "component": "arduino/setup-protoc@149f6c87b92550901b26acd1632e11c3662e381f",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "huggingface/text-embeddings-inference"
+    }
+  ]
+}

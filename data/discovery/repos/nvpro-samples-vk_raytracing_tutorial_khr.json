@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR",
+      "target": "nvpro-samples/vk_gltf_renderer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR",
+      "target": "raytracing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR",
+      "target": "tutorial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nvpro-samples/vk_raytracing_tutorial_KHR",
+      "target": "vulkan",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:53:25.302029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23479
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v2",
+    "description": "Ray tracing examples and tutorials using VK_KHR_ray_tracing",
+    "fork": false,
+    "full_name": "nvpro-samples/vk_raytracing_tutorial_KHR",
+    "html_url": "https://github.com/nvpro-samples/vk_raytracing_tutorial_KHR",
+    "language": "C++",
+    "pushed_at": "2026-04-20T09:44:37Z",
+    "stargazers_count": 1706,
+    "topics": [
+      "raytracing",
+      "tutorial",
+      "vulkan"
+    ],
+    "updated_at": "2026-04-28T06:14:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvpro-samples/vk_gltf_renderer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![logo](http://nvidianews.nvidia.com/_ir/219/20157/NV_Designworks_logo_horizontal_greenblack.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raytracing"
+    },
+    {
+      "context_snippet": "![logo](http://nvidianews.nvidia.com/_ir/219/20157/NV_Designworks_logo_horizontal_greenblack.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorial"
+    },
+    {
+      "context_snippet": "![logo](http://nvidianews.nvidia.com/_ir/219/20157/NV_Designworks_logo_horizontal_greenblack.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vulkan"
+    }
+  ]
+}

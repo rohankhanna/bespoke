@@ -111,6 +111,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/babashka",
+      "target": "borkdude/sci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "babashka/babashka",
       "target": "archlinuxfr/yaourt",
       "target_type": "repository"
     },
@@ -126,13 +133,6 @@
       "source_file": "README.md",
       "source_repo": "babashka/babashka",
       "target": "borkdude/clj-kondo",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "babashka/babashka",
-      "target": "borkdude/jet",
       "target_type": "repository"
     },
     {
@@ -283,7 +283,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:08:34.135190+00:00",
+  "fetched_at": "2026-04-29T21:58:12.787730+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -312,7 +312,7 @@
     "html_url": "https://github.com/babashka/babashka",
     "language": "Clojure",
     "pushed_at": "2026-04-20T18:57:41Z",
-    "stargazers_count": 4475,
+    "stargazers_count": 4484,
     "topics": [
       "babashka",
       "bash",
@@ -321,7 +321,7 @@
       "scripting",
       "shell-scripting"
     ],
-    "updated_at": "2026-04-23T02:13:07Z"
+    "updated_at": "2026-04-28T12:10:26Z"
   },
   "repo_links": [
     {
@@ -341,7 +341,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "borkdude/jet",
+      "full_name": "borkdude/sci",
       "source_file": "README.md"
     }
   ],

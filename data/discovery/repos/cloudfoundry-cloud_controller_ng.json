@@ -1,0 +1,486 @@
+{
+  "components": [
+    {
+      "component": "hmarr/debug-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_bbs_protos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_bbs_protos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_bbs_protos.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_bbs_protos.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_test.yml"
+    },
+    {
+      "component": "ravsamhq/notify-slack-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_test.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_freshness_report.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_freshness_report.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_freshness_report.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    },
+    {
+      "component": "ravsamhq/notify-slack-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    },
+    {
+      "component": "ravsamhq/notify-slack-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    },
+    {
+      "component": "ravsamhq/notify-slack-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests_backwards_compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests_backwards_compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests_backwards_compatibility.yml"
+    },
+    {
+      "component": "hmarr/debug-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests_backwards_compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests_backwards_compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests_backwards_compatibility.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "cloudfoundry/capi-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "cloudfoundry/diego-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "cloudfoundry/diego-design-notes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_bbs_protos.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "hmarr/debug-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_bbs_protos.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_bbs_protos.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_bbs_protos.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "Bump BBS Protos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_v3_docs.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "Deploy V3 API Docs to Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_test.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "hmarr/debug-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_test.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs_test.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "ravsamhq/notify-slack-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_test.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "Docs Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_freshness_report.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "hmarr/debug-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_freshness_report.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_freshness_report.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem_freshness_report.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "Gem freshness report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "hmarr/debug-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "ravsamhq/notify-slack-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests_backwards_compatibility.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "hmarr/debug-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit_tests_backwards_compatibility.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests_backwards_compatibility.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "Backwards Compatibility Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "cloudfoundry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:42:42.449355+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11067
+    },
+    {
+      "path": ".github/workflows/bump_bbs_protos.yml",
+      "size": 2976
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4728
+    },
+    {
+      "path": ".github/workflows/deploy_v3_docs.yml",
+      "size": 369
+    },
+    {
+      "path": ".github/workflows/docs_test.yml",
+      "size": 1389
+    },
+    {
+      "path": ".github/workflows/gem_freshness_report.yml",
+      "size": 700
+    },
+    {
+      "path": ".github/workflows/unit_tests.yml",
+      "size": 3166
+    },
+    {
+      "path": ".github/workflows/unit_tests_backwards_compatibility.yml",
+      "size": 4926
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cloud Foundry Cloud Controller",
+    "fork": false,
+    "full_name": "cloudfoundry/cloud_controller_ng",
+    "html_url": "https://github.com/cloudfoundry/cloud_controller_ng",
+    "language": "Ruby",
+    "pushed_at": "2026-04-29T11:08:51Z",
+    "stargazers_count": 203,
+    "topics": [
+      "cloudfoundry",
+      "ruby"
+    ],
+    "updated_at": "2026-04-28T17:28:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/capi-release",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/diego-design-notes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cloudfoundry/diego-release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bump BBS Protos",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump_bbs_protos.yml",
+      "term": "Bump BBS Protos"
+    },
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "Deploy V3 API Docs to Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy_v3_docs.yml",
+      "term": "Deploy V3 API Docs to Pages"
+    },
+    {
+      "context_snippet": "Docs Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs_test.yml",
+      "term": "Docs Tests"
+    },
+    {
+      "context_snippet": "Gem freshness report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gem_freshness_report.yml",
+      "term": "Gem freshness report"
+    },
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests.yml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "Backwards Compatibility Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit_tests_backwards_compatibility.yml",
+      "term": "Backwards Compatibility Unit Tests"
+    },
+    {
+      "context_snippet": "[![Code Climate](https://api.codeclimate.com/v1/badges/aa47fb93c59ced5fcc4f/maintainability)](https://codeclimate.com/github/cloudfoundry/cloud_controller_ng)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudfoundry"
+    },
+    {
+      "context_snippet": "[![Code Climate](https://api.codeclimate.com/v1/badges/aa47fb93c59ced5fcc4f/maintainability)](https://codeclimate.com/github/cloudfoundry/cloud_controller_ng)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

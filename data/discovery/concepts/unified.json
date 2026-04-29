@@ -19,6 +19,30 @@
       "source_repo": "remarkjs/remark",
       "status": "candidate-context",
       "text": "remark"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromark/micromark",
+      "status": "candidate-context",
+      "text": "small, safe, and great commonmark (optionally gfm, mdx) compliant markdown parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromark/micromark",
+      "status": "candidate-context",
+      "text": "micromark-mono"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rehypejs/rehype",
+      "status": "candidate-context",
+      "text": "HTML processor powered by plugins part of the @unifiedjs collective"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehypejs/rehype",
+      "status": "candidate-context",
+      "text": "rehype"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "remarkjs/remark",
       "status": "candidate",
       "text": "remark"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromark/micromark",
+      "status": "candidate",
+      "text": "micromark-mono"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehypejs/rehype",
+      "status": "candidate",
+      "text": "rehype"
     }
   ],
   "candidate_related_terms": [
@@ -118,11 +154,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "remarkjs/remark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromark/micromark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rehypejs/rehype"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

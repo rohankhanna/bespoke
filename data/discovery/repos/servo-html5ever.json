@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "servo/actions/cargo-annotation@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semver-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/html5ever",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "servo/html5ever",
+      "target": "servo/actions/cargo-annotation@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/semver-check.yml",
+      "source_repo": "servo/html5ever",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semver-check.yml",
+      "source_repo": "servo/html5ever",
+      "target": "Semver Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:00:23.929319+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2941
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1013
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2862
+    },
+    {
+      "path": ".github/workflows/semver-check.yml",
+      "size": 1228
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "High-performance browser-grade HTML5 parser",
+    "fork": false,
+    "full_name": "servo/html5ever",
+    "html_url": "https://github.com/servo/html5ever",
+    "language": "Rust",
+    "pushed_at": "2026-04-20T07:19:52Z",
+    "stargazers_count": 2567,
+    "topics": [],
+    "updated_at": "2026-04-29T10:07:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Semver Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/semver-check.yml",
+      "term": "Semver Check"
+    }
+  ]
+}

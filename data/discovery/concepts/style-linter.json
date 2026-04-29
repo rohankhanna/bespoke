@@ -31,6 +31,18 @@
       "source_repo": "airbnb/javascript",
       "status": "candidate-context",
       "text": "*A mostly reasonable approach to JavaScript*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "status": "candidate-context",
+      "text": "A plug-in for Google's Protocol Buffers (protobufs) compiler to lint .proto files for style violations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "airbnb/javascript",
       "status": "candidate",
       "text": "*A mostly reasonable approach to JavaScript*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "airbnb/javascript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ckaznocha/protoc-gen-lint"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

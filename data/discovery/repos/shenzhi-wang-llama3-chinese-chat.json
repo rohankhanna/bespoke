@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shenzhi-Wang/Llama3-Chinese-Chat",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:54:16.558949+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the first Chinese chat model specifically fine-tuned for Chinese through ORPO based on the Meta-Llama-3-8B-Instruct model.",
+    "fork": false,
+    "full_name": "Shenzhi-Wang/Llama3-Chinese-Chat",
+    "html_url": "https://github.com/Shenzhi-Wang/Llama3-Chinese-Chat",
+    "language": null,
+    "pushed_at": "2024-05-06T13:26:01Z",
+    "stargazers_count": 318,
+    "topics": [],
+    "updated_at": "2026-04-20T14:39:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

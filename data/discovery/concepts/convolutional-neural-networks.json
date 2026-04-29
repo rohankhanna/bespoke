@@ -55,6 +55,42 @@
       "source_repo": "google-research/big_transfer",
       "status": "candidate-context",
       "text": "*by Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Joan Puigcerver, Jessica Yung, Sylvain Gelly, Neil Houlsby*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MrGemy95/Tensorflow-Project-Template",
+      "status": "candidate-context",
+      "text": "A best practice for tensorflow project template architecture. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrGemy95/Tensorflow-Project-Template",
+      "status": "candidate-context",
+      "text": "A simple and well designed structure is essential for any Deep Learning project, so after a lot of practice and contributing in tensorflow projects here's a tensorflow project template that combines **simplcity**, **best practice for folder structure** and **good OOP design**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lausbert/Exermote",
+      "status": "candidate-context",
+      "text": "Using Machine Learning to predict the type of exercise from movement data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lausbert/Exermote",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TropComplique/mtcnn-pytorch",
+      "status": "candidate-context",
+      "text": "Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TropComplique/mtcnn-pytorch",
+      "status": "candidate-context",
+      "text": "`pytorch` implementation of **inference stage** of face detection algorithm described in"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "google-research/big_transfer",
       "status": "candidate",
       "text": "*by Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Joan Puigcerver, Jessica Yung, Sylvain Gelly, Neil Houlsby*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrGemy95/Tensorflow-Project-Template",
+      "status": "candidate",
+      "text": "A simple and well designed structure is essential for any Deep Learning project, so after a lot of practice and contributing in tensorflow projects here's a tensorflow project template that combines **simplcity**, **best practice for folder structure** and **good OOP design**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lausbert/Exermote",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TropComplique/mtcnn-pytorch",
+      "status": "candidate",
+      "text": "`pytorch` implementation of **inference stage** of face detection algorithm described in"
     }
   ],
   "candidate_related_terms": [],
@@ -118,11 +172,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "google-research/big_transfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Lausbert/Exermote"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "TropComplique/mtcnn-pytorch"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

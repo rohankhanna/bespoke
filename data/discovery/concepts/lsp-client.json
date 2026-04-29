@@ -31,6 +31,30 @@
       "source_repo": "mfussenegger/nvim-jdtls",
       "status": "candidate-context",
       "text": "Extensions for the built-in [Language Server Protocol][1] support in [Neovim][2] (>= 0.6.0) for [eclipse.jdt.ls][3]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate-context",
+      "text": "Utility functions for getting diagnostic status and progress messages from LSP servers, for use in the Neovim statusline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate-context",
+      "text": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "status": "candidate-context",
+      "text": "lsp-mode :heart: dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "status": "candidate-context",
+      "text": "lsp-dart"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "mfussenegger/nvim-jdtls",
       "status": "candidate",
       "text": "Extensions for the built-in [Language Server Protocol][1] support in [Neovim][2] (>= 0.6.0) for [eclipse.jdt.ls][3]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate",
+      "text": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "status": "candidate",
+      "text": "lsp-dart"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "mfussenegger/nvim-jdtls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvim-lua/lsp-status.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

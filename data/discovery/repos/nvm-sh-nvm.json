@@ -500,11 +500,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T13:06:21.862979+00:00",
+  "fetched_at": "2026-04-29T21:01:43.424279+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 51565
+      "size": 51573
     },
     {
       "path": "Dockerfile",
@@ -552,8 +552,8 @@
     "full_name": "nvm-sh/nvm",
     "html_url": "https://github.com/nvm-sh/nvm",
     "language": "Shell",
-    "pushed_at": "2026-04-04T15:37:46Z",
-    "stargazers_count": 93067,
+    "pushed_at": "2026-04-24T18:05:27Z",
+    "stargazers_count": 93146,
     "topics": [
       "bash",
       "install",
@@ -569,7 +569,7 @@
       "version-manager",
       "zsh"
     ],
-    "updated_at": "2026-04-24T13:01:03Z"
+    "updated_at": "2026-04-29T19:24:21Z"
   },
   "repo_links": [
     {

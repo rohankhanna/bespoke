@@ -19,6 +19,18 @@
       "source_repo": "clovaai/rebias",
       "status": "candidate-context",
       "text": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "status": "candidate-context",
+      "text": "[ICML 2021, Long Talk] Delving into Deep Imbalanced Regression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "status": "candidate-context",
+      "text": "This repository contains the implementation code for paper: <br>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "clovaai/rebias",
       "status": "candidate",
       "text": "Official Pytorch implementation of **ReBias** | [Paper](https://arxiv.org/abs/1910.02806)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "status": "candidate",
+      "text": "This repository contains the implementation code for paper: <br>"
     }
   ],
   "candidate_related_terms": [
@@ -48,11 +66,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "clovaai/rebias"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

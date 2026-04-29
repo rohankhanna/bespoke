@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A High-performance cross-platform Video Processing Python framework powerpacked with unique trailblazing features :fire:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39788613,
+      "status": "candidate",
+      "text": "twinge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39787862,
+      "status": "candidate",
+      "text": "pinch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39781832,
+      "status": "candidate",
+      "text": "vellicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39764632,
+      "status": "candidate",
+      "text": "squeeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39755334,
+      "status": "candidate",
+      "text": "nip"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "twitch",
+      "sense_id": "twitch#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 57053,
+      "status": "candidate",
+      "text": "jerk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 39034,
+      "status": "candidate",
+      "text": "twinge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26026,
+      "status": "candidate",
+      "text": "vellicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21054,
+      "status": "candidate",
+      "text": "squeeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17048,
+      "status": "candidate",
+      "text": "pinch"
+    }
+  ],
+  "concept_id": "twitch",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "twitch",
+  "observation_id": "c50c4df6c62b6265",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "twitch",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "abhiTronix/vidgear",
+  "source_repo_description": "A High-performance cross-platform Video Processing Python framework powerpacked with unique trailblazing features :fire:"
+}

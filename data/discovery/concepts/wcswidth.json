@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "wcswidth"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecrabbit/php-wcwidth",
+      "status": "candidate-context",
+      "text": "Calculate width of unicode strings rendered to a terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecrabbit/php-wcwidth",
+      "status": "candidate-context",
+      "text": "[![PHP Version](https://img.shields.io/packagist/php-v/alecrabbit/php-wcwidth/dev-master.svg)](https://php.net)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecrabbit/php-wcwidth",
+      "status": "candidate",
+      "text": "[![PHP Version](https://img.shields.io/packagist/php-v/alecrabbit/php-wcwidth/dev-master.svg)](https://php.net)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "wcswidth",
+  "concept_id": "wcswidth",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alecrabbit/php-wcwidth"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wcswidth",
+      "sense_id": "wcswidth#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

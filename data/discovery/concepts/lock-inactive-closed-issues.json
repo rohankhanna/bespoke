@@ -19,12 +19,30 @@
       "source_repo": "pallets/markupsafe",
       "status": "candidate-context",
       "text": "Lock inactive closed issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pallets/jinja",
+      "status": "candidate-context",
+      "text": "A very fast and expressive template engine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/jinja",
+      "status": "candidate-context",
+      "text": "Lock inactive closed issues"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "pallets/markupsafe",
+      "status": "candidate",
+      "text": "Lock inactive closed issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pallets/jinja",
       "status": "candidate",
       "text": "Lock inactive closed issues"
     }
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/lock.yaml",
       "source_repo": "pallets/markupsafe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lock.yaml",
+      "source_repo": "pallets/jinja"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

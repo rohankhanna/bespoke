@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "luissen/ESRT",
+      "target": "zheng222/imdn",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:51:16.703589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1415
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "luissen/ESRT",
+    "html_url": "https://github.com/luissen/ESRT",
+    "language": "Python",
+    "pushed_at": "2022-03-29T02:12:05Z",
+    "stargazers_count": 185,
+    "topics": [],
+    "updated_at": "2026-04-20T06:02:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zheng222/imdn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

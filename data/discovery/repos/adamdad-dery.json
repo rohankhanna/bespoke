@@ -1,0 +1,154 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adamdad/DeRy",
+      "target": "open-mmlab/mmclassification",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Adamdad/DeRy",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adamdad/DeRy",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adamdad/DeRy",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adamdad/DeRy",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adamdad/DeRy",
+      "target": "model-reuse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adamdad/DeRy",
+      "target": "neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adamdad/DeRy",
+      "target": "neurips-2022",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Adamdad/DeRy",
+      "target": "transfer-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:01.097510+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6366
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS2022] Deep Model Reassembly",
+    "fork": false,
+    "full_name": "Adamdad/DeRy",
+    "html_url": "https://github.com/Adamdad/DeRy",
+    "language": "Python",
+    "pushed_at": "2023-08-29T08:02:03Z",
+    "stargazers_count": 254,
+    "topics": [
+      "ai",
+      "deep-learning",
+      "deep-neural-networks",
+      "machine-learning",
+      "model-reuse",
+      "neural-networks",
+      "neurips-2022",
+      "transfer-learning"
+    ],
+    "updated_at": "2026-04-03T06:22:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-mmlab/mmclassification",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the offical implementation for our paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository contains the offical implementation for our paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "This repository contains the offical implementation for our paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "This repository contains the offical implementation for our paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-reuse"
+    },
+    {
+      "context_snippet": "This repository contains the offical implementation for our paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-networks"
+    },
+    {
+      "context_snippet": "This repository contains the offical implementation for our paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neurips-2022"
+    },
+    {
+      "context_snippet": "This repository contains the offical implementation for our paper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transfer-learning"
+    }
+  ]
+}

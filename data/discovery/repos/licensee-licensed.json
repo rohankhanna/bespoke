@@ -543,19 +543,19 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:09:07.215616+00:00",
+  "fetched_at": "2026-04-29T21:59:06.828621+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 5204
+      "size": 5180
     },
     {
       "path": ".github/workflows/licensed.yml",
-      "size": 2814
+      "size": 2926
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 1142
+      "size": 1254
     },
     {
       "path": ".github/workflows/stale.yml",
@@ -575,7 +575,7 @@
     "full_name": "licensee/licensed",
     "html_url": "https://github.com/licensee/licensed",
     "language": "Ruby",
-    "pushed_at": "2026-04-14T14:52:35Z",
+    "pushed_at": "2026-04-28T16:00:50Z",
     "stargazers_count": 1029,
     "topics": [
       "dependencies",
@@ -583,7 +583,7 @@
       "licensing",
       "open-source-licensing"
     ],
-    "updated_at": "2026-04-20T07:15:34Z"
+    "updated_at": "2026-04-28T15:28:37Z"
   },
   "repo_links": [
     {

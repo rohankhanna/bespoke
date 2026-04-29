@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection-v2",
+      "target": "pinto0309/pinto_model_zoo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection-v2",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection-v2",
+      "target": "lane-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection-v2",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "cfzd/Ultra-Fast-Lane-Detection-v2"
+}

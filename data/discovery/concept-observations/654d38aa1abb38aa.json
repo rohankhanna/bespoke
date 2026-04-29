@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "a state-of-the-art-level open visual language model | \u591a\u6a21\u6001\u9884\u8bad\u7ec3\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\ud83d\udcd7 [\u4e2d\u6587\u7248README](./README_zh.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\ud83d\udcd7 [\u4e2d\u6587\u7248README](./README_zh.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "visual-language-models",
+      "sense_id": "visual-language-models#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "visual-language-models",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "visual-language-models",
+  "observation_id": "654d38aa1abb38aa",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "visual-language-models",
+  "source_context_snippet": "\ud83d\udcd7 [\u4e2d\u6587\u7248README](./README_zh.md)",
+  "source_file": null,
+  "source_repo": "zai-org/CogVLM",
+  "source_repo_description": "a state-of-the-art-level open visual language model | \u591a\u6a21\u6001\u9884\u8bad\u7ec3\u6a21\u578b"
+}

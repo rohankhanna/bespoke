@@ -16,7 +16,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T09:04:58.388811+00:00",
+  "fetched_at": "2026-04-29T19:54:12.203012+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -33,9 +33,9 @@
     "html_url": "https://github.com/hadronized/hop.nvim",
     "language": "Lua",
     "pushed_at": "2023-09-12T07:51:51Z",
-    "stargazers_count": 2511,
+    "stargazers_count": 2510,
     "topics": [],
-    "updated_at": "2026-04-17T04:39:09Z"
+    "updated_at": "2026-04-28T02:15:13Z"
   },
   "repo_links": [
     {

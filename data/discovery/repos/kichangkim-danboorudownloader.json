@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:51:44.683742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Danbooru image downloader.",
+    "fork": false,
+    "full_name": "KichangKim/DanbooruDownloader",
+    "html_url": "https://github.com/KichangKim/DanbooruDownloader",
+    "language": "C#",
+    "pushed_at": "2023-06-21T23:32:46Z",
+    "stargazers_count": 161,
+    "topics": [],
+    "updated_at": "2026-02-21T08:50:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

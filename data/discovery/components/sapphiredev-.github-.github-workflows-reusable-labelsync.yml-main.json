@@ -1,0 +1,17 @@
+{
+  "component": "sapphiredev/.github/.github/workflows/reusable-labelsync.yml@main",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labelsync.yml",
+      "source_repo": "sapphiredev/shapeshift"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labelsync.yml",
+      "source_repo": "sapphiredev/utilities"
+    }
+  ]
+}

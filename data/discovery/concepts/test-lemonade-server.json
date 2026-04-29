@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Lemonade Server"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/turnkeyml",
+      "status": "candidate-context",
+      "text": "No-code CLI designed for accelerating ONNX workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/turnkeyml",
+      "status": "candidate-context",
+      "text": "Test Lemonade Server"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/turnkeyml",
+      "status": "candidate",
+      "text": "Test Lemonade Server"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21474,
+      "status": "candidate",
+      "text": "jerk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14645,
+      "status": "candidate",
+      "text": "stand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14522,
+      "status": "candidate",
+      "text": "pink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14107,
+      "status": "candidate",
+      "text": "punchbowl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13743,
+      "status": "candidate",
+      "text": "mix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Lemonade Server",
+  "concept_id": "test-lemonade-server",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test_server.yml",
+      "source_repo": "onnx/turnkeyml"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Lemonade Server",
+      "sense_id": "test-lemonade-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,18 +19,11 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "chenfei-wu/TaskMatrix",
-      "target": "lllyasviel/controlnet",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "chenfei-wu/TaskMatrix",
       "target": "timojl/clipseg",
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T09:04:46.782896+00:00",
+  "fetched_at": "2026-04-29T19:53:58.387755+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,19 +44,14 @@
     "html_url": "https://github.com/chenfei-wu/TaskMatrix",
     "language": "Python",
     "pushed_at": "2024-01-06T02:41:20Z",
-    "stargazers_count": 34153,
+    "stargazers_count": 34140,
     "topics": [],
-    "updated_at": "2026-04-24T08:12:01Z"
+    "updated_at": "2026-04-29T10:43:50Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "hwchase17/langchain",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lllyasviel/controlnet",
       "source_file": "README.md"
     },
     {

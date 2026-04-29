@@ -1,0 +1,293 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "irongut/CodeCoverageSummary@v1.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "irongut/CodeCoverageSummary@v1.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "machine-learning-apps/pr-comment@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emibcn/badge-action@v2.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "marocchino/sticky-pull-request-comment@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emibcn/pywisp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emibcn/pywisp",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emibcn/pywisp",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emibcn/pywisp",
+      "target": "irongut/CodeCoverageSummary@v1.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emibcn/pywisp",
+      "target": "machine-learning-apps/pr-comment@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emibcn/pywisp",
+      "target": "emibcn/badge-action@v2.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emibcn/pywisp",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emibcn/pywisp",
+      "target": "marocchino/sticky-pull-request-comment@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emibcn/pywisp",
+      "target": "aircontrol2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emibcn/pywisp",
+      "target": "airos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emibcn/pywisp",
+      "target": "device",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emibcn/pywisp",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emibcn/pywisp",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emibcn/pywisp",
+      "target": "mikrotik",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emibcn/pywisp",
+      "target": "pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emibcn/pywisp",
+      "target": "wisp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:48:47.634509+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4916
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 104
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 10206
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Access AirControl2 (API), AirOS (SSH) & Mikrotik (SSH) from the same place",
+    "fork": false,
+    "full_name": "emibcn/pywisp",
+    "html_url": "https://github.com/emibcn/pywisp",
+    "language": "Python",
+    "pushed_at": "2024-04-26T10:38:34Z",
+    "stargazers_count": 10,
+    "topics": [
+      "aircontrol2",
+      "airos",
+      "device",
+      "devops",
+      "hacktoberfest",
+      "mikrotik",
+      "pypi",
+      "ssh",
+      "wisp"
+    ],
+    "updated_at": "2026-04-16T22:22:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aircontrol2"
+    },
+    {
+      "context_snippet": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "airos"
+    },
+    {
+      "context_snippet": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "device"
+    },
+    {
+      "context_snippet": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mikrotik"
+    },
+    {
+      "context_snippet": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pypi"
+    },
+    {
+      "context_snippet": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wisp"
+    }
+  ]
+}

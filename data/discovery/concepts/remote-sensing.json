@@ -19,6 +19,18 @@
       "source_repo": "HakamShams/Focal_TSMP",
       "status": "candidate-context",
       "text": "![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appelmar/gdalcubes",
+      "status": "candidate-context",
+      "text": "Creating and analyzing Earth observation data cubes in R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appelmar/gdalcubes",
+      "status": "candidate-context",
+      "text": "[![R-CMD-check](https://github.com/appelmar/gdalcubes_R/actions/workflows/R-CMD-check.yml/badge.svg)](https://github.com/appelmar/gdalcubes_R/actions/workflows/R-CMD-check.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "HakamShams/Focal_TSMP",
       "status": "candidate",
       "text": "![Python 3.10](https://img.shields.io/badge/python-3.10-green.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appelmar/gdalcubes",
+      "status": "candidate",
+      "text": "[![R-CMD-check](https://github.com/appelmar/gdalcubes_R/actions/workflows/R-CMD-check.yml/badge.svg)](https://github.com/appelmar/gdalcubes_R/actions/workflows/R-CMD-check.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -62,11 +80,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "HakamShams/Focal_TSMP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "appelmar/gdalcubes"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

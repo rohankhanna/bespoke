@@ -1,12 +1,17 @@
 {
   "component": "AndrewRadev/mirror-branch-action@main",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/mirror.yml",
       "source_repo": "AndrewRadev/switch.vim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "AndrewRadev/splitjoin.vim"
     }
   ]
 }

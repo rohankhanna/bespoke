@@ -469,6 +469,54 @@
       "source_repo": "codota/TabNine",
       "status": "candidate-context",
       "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "romkatv/gitstatus",
+      "status": "candidate-context",
+      "text": "Git status for Bash and Zsh prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "romkatv/gitstatus",
+      "status": "candidate-context",
+      "text": "- **THE PROJECT HAS VERY LIMITED SUPPORT**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate-context",
+      "text": ":atom:  Atom client for Tabnine - Code Faster with the All-Language AI Assistant for Code Completion, autocomplete JavaScript, Python, TypeScript, PHP, Go, Java, node.js, Ruby, C/C++, HTML/CSS, C#, Rust, SQL, Bash, Kotlin, React, Swift, Scala, Sass, Perl, Objective C, Node JS, Matlab, Haskell, Dart, Angular. https://atom.io/packages/tabnine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate-context",
+      "text": "IDE-style autocomplete for your existing terminal & shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate-context",
+      "text": "[![Badge: macOS](https://img.shields.io/badge/os-\uf8ff%20macOS-light)](#)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "Passionately Crafted CLI Setup \ud83d\udc27\u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -699,6 +747,30 @@
       "source_repo": "codota/TabNine",
       "status": "candidate",
       "text": "This is the repository for the backend of [TabNine](https://tabnine.com), the all-language autocompleter."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "romkatv/gitstatus",
+      "status": "candidate",
+      "text": "- **THE PROJECT HAS VERY LIMITED SUPPORT**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate",
+      "text": "[![Badge: macOS](https://img.shields.io/badge/os-\uf8ff%20macOS-light)](#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1078,11 +1150,59 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "romkatv/gitstatus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "withfig/autocomplete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/dots2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

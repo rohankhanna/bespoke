@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A performant and modular zkVM framework built for customization and extensibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"OpenVM Benchmarks: Coordinate Runner & Reporting\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"OpenVM Benchmarks: Coordinate Runner & Reporting\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17984,
+      "status": "candidate",
+      "text": "anchor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17984,
+      "status": "candidate",
+      "text": "anchoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17984,
+      "status": "candidate",
+      "text": "time"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17950,
+      "status": "candidate",
+      "text": "align"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17950,
+      "status": "candidate",
+      "text": "curve"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "OpenVM Benchmarks: Coordinate Runner & Reporting",
+      "sense_id": "openvm-benchmarks-coordinate-runner-reporting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "openvm-benchmarks-coordinate-runner-reporting",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "openvm-benchmarks-coordinate-runner-reporting",
+  "observation_id": "8e9a4eeeb6a307ca",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "OpenVM Benchmarks: Coordinate Runner & Reporting",
+  "source_context_snippet": "\"OpenVM Benchmarks: Coordinate Runner & Reporting\"",
+  "source_file": ".github/workflows/benchmarks.yml",
+  "source_repo": "openvm-org/openvm",
+  "source_repo_description": "A performant and modular zkVM framework built for customization and extensibility."
+}

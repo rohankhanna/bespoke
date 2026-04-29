@@ -1,7 +1,7 @@
 {
   "component": "aws-actions/stale-issue-cleanup@7de35968489e4142233d2a6812519a82e68b5c38",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

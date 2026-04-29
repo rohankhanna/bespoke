@@ -19,12 +19,48 @@
       "source_repo": "microsoft/java-debug",
       "status": "candidate-context",
       "text": "AI Triage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-java-debug",
+      "status": "candidate-context",
+      "text": "Java Debugger for Visual Studio Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-java-debug",
+      "status": "candidate-context",
+      "text": "AI Triage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-java-test",
+      "status": "candidate-context",
+      "text": "Run and debug Java test cases in Visual Studio Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-java-test",
+      "status": "candidate-context",
+      "text": "AI Triage"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/java-debug",
+      "status": "candidate",
+      "text": "AI Triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-java-debug",
+      "status": "candidate",
+      "text": "AI Triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-java-test",
       "status": "candidate",
       "text": "AI Triage"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/triage-agent.yml",
       "source_repo": "microsoft/java-debug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/triage-agent.yml",
+      "source_repo": "microsoft/vscode-java-debug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/triage-agent.yml",
+      "source_repo": "microsoft/vscode-java-test"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

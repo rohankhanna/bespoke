@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tilt-dev/tilt",
+      "target": "tilt-dev/tilt-extensions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "tilt-dev/tilt",
+      "target": "pkg/browser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tilt-dev/tilt",
+      "target": "development-environment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tilt-dev/tilt",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:38:31.143018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3614
+    },
+    {
+      "path": "go.mod",
+      "size": 12589
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Define your dev environment as code. For microservice apps on Kubernetes.",
+    "fork": false,
+    "full_name": "tilt-dev/tilt",
+    "html_url": "https://github.com/tilt-dev/tilt",
+    "language": "Go",
+    "pushed_at": "2026-04-24T20:18:03Z",
+    "stargazers_count": 9667,
+    "topics": [
+      "development-environment",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-29T15:45:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tilt-dev/tilt-extensions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pkg/browser",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"assets/logo-wordmark.png\" width=\"250\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development-environment"
+    },
+    {
+      "context_snippet": "<img src=\"assets/logo-wordmark.png\" width=\"250\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains source code and the HealthVer dataset presented in the paper [Evidence-based Fact-Checking of Health-related Claims]() by Mourad Sarrouti, Asma Ben Abacha, Yassine Mrabet and Dina Demner-Fushman."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains source code and the HealthVer dataset presented in the paper [Evidence-based Fact-Checking of Health-related Claims]() by Mourad Sarrouti, Asma Ben Abacha, Yassine Mrabet and Dina Demner-Fushman."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025892,
+      "status": "candidate",
+      "text": "incorrect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023634,
+      "status": "candidate",
+      "text": "false"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022658,
+      "status": "candidate",
+      "text": "mislead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010484,
+      "status": "candidate",
+      "text": "misrepresentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006528,
+      "status": "candidate",
+      "text": "deception"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "misinformation",
+      "sense_id": "misinformation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "misinformation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "misinformation",
+  "observation_id": "d834dbac7a1b9be1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "misinformation",
+  "source_context_snippet": "This repository contains source code and the HealthVer dataset presented in the paper [Evidence-based Fact-Checking of Health-related Claims]() by Mourad Sarrouti, Asma Ben Abacha, Yassine Mrabet and Dina Demner-Fushman.",
+  "source_file": null,
+  "source_repo": "sarrouti/HealthVer",
+  "source_repo_description": null
+}

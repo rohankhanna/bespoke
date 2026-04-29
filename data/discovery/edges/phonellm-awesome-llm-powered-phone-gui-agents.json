@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",
+      "target": "agiresearch/a-mem",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",
+      "target": "aburns4/textualforesight",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",
+      "target": "aburns4/motif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",
+      "target": "ai-agents-2030/spa-bench",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents"
+}

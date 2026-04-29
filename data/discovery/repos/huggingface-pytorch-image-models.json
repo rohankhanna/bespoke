@@ -41,7 +41,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "huggingface/pytorch-image-models",
-      "target": "chongjie-si/adamuon",
+      "target": "davda54/ada-hessian",
       "target_type": "repository"
     },
     {
@@ -283,7 +283,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:57:01.182220+00:00",
+  "fetched_at": "2026-04-29T21:47:38.651923+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -327,8 +327,8 @@
     "full_name": "huggingface/pytorch-image-models",
     "html_url": "https://github.com/huggingface/pytorch-image-models",
     "language": "Python",
-    "pushed_at": "2026-04-24T05:14:47Z",
-    "stargazers_count": 36691,
+    "pushed_at": "2026-04-29T18:09:08Z",
+    "stargazers_count": 36733,
     "topics": [
       "augmix",
       "convnext",
@@ -351,17 +351,12 @@
       "resnet",
       "vision-transformer-models"
     ],
-    "updated_at": "2026-04-24T07:30:19Z"
+    "updated_at": "2026-04-29T18:09:23Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "alphadl/lookahead.pytorch",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "chongjie-si/adamuon",
       "source_file": "README.md"
     },
     {
@@ -372,6 +367,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "cypw/dpns",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davda54/ada-hessian",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "postgis/postgis",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "postgis/postgis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "postgis/postgis",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "postgis/postgis",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "postgis/postgis",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "postgis/postgis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "source_repo": "postgis/postgis",
+      "target": "Codespell Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys.yml",
+      "source_repo": "postgis/postgis",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys.yml",
+      "source_repo": "postgis/postgis",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys.yml",
+      "source_repo": "postgis/postgis",
+      "target": "MSYS2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "postgis/postgis",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "postgis/postgis",
+      "target": "plpgsql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "postgis/postgis",
+      "target": "postgis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "postgis/postgis",
+      "target": "postgresql",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:59:03.907378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1515
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2481
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2666
+    },
+    {
+      "path": ".github/workflows/codespell.yml",
+      "size": 994
+    },
+    {
+      "path": ".github/workflows/msys.yml",
+      "size": 1984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PostGIS spatial database extension to PostgreSQL [mirror]",
+    "fork": false,
+    "full_name": "postgis/postgis",
+    "html_url": "https://github.com/postgis/postgis",
+    "language": "PLpgSQL",
+    "pushed_at": "2026-04-20T18:30:44Z",
+    "stargazers_count": 2105,
+    "topics": [
+      "c",
+      "geospatial",
+      "gis",
+      "plpgsql",
+      "postgis",
+      "postgresql"
+    ],
+    "updated_at": "2026-04-28T14:31:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Codespell Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codespell.yml",
+      "term": "Codespell Check"
+    },
+    {
+      "context_snippet": "MSYS2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys.yml",
+      "term": "MSYS2"
+    },
+    {
+      "context_snippet": "This file is here to play nicely with modern code repository facilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial"
+    },
+    {
+      "context_snippet": "This file is here to play nicely with modern code repository facilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plpgsql"
+    },
+    {
+      "context_snippet": "This file is here to play nicely with modern code repository facilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgis"
+    },
+    {
+      "context_snippet": "This file is here to play nicely with modern code repository facilities.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    }
+  ]
+}

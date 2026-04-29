@@ -367,6 +367,30 @@
       "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
       "status": "candidate-context",
       "text": "<!-- Copyright 2013-2020 Mark Callow -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "status": "candidate-context",
+      "text": "The official Animation Compression Library Unreal Engine 4 and 5 plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "status": "candidate-context",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "Easy-to-use and powerful LLM and SLM library with awesome model zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +573,18 @@
       "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
       "status": "candidate",
       "text": "<!-- Copyright 2013-2020 Mark Callow -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nfrechette/acl-ue4-plugin",
+      "status": "candidate",
+      "text": "[![CLA assistant](https://cla-assistant.io/readme/badge/nfrechette/acl-ue4-plugin)](https://cla-assistant.io/nfrechette/acl-ue4-plugin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate",
+      "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
     }
   ],
   "candidate_related_terms": [
@@ -832,11 +868,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "deepspeedai/DeepSpeed"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nfrechette/acl-ue4-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

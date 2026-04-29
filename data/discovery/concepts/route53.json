@@ -19,6 +19,18 @@
       "source_repo": "kubernetes-sigs/external-dns",
       "status": "candidate-context",
       "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amplify-education/serverless-domain-manager",
+      "status": "candidate-context",
+      "text": "Serverless plugin for managing custom domains with API Gateways."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amplify-education/serverless-domain-manager",
+      "status": "candidate-context",
+      "text": "[![serverless](https://assets.serverless-extras.com/website/general/icon-serverless-framework.svg)](https://www.serverless.com/plugins/serverless-domain-manager)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kubernetes-sigs/external-dns",
       "status": "candidate",
       "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amplify-education/serverless-domain-manager",
+      "status": "candidate",
+      "text": "[![serverless](https://assets.serverless-extras.com/website/general/icon-serverless-framework.svg)](https://www.serverless.com/plugins/serverless-domain-manager)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "kubernetes-sigs/external-dns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "amplify-education/serverless-domain-manager"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

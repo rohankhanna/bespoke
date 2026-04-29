@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MagicEraser bot for telegram"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "MagicEraser - Telegram Bot for removing objects from pictures<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "MagicEraser - Telegram Bot for removing objects from pictures<br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032926,
+      "status": "candidate",
+      "text": "impression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032910,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031479,
+      "status": "candidate",
+      "text": "painting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031203,
+      "status": "candidate",
+      "text": "depict"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029453,
+      "status": "candidate",
+      "text": "motion picture"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pictures",
+      "sense_id": "pictures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pictures",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pictures",
+  "observation_id": "f95b8af720e7a089",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "pictures",
+  "source_context_snippet": "MagicEraser - Telegram Bot for removing objects from pictures<br>",
+  "source_file": null,
+  "source_repo": "Moldoteck/MagicEraser",
+  "source_repo_description": "MagicEraser bot for telegram"
+}

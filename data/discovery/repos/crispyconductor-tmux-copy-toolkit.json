@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrispyConductor/tmux-copy-toolkit",
+      "target": "schasse/tmux-jump",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrispyConductor/tmux-copy-toolkit",
+      "target": "morantron/tmux-fingers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrispyConductor/tmux-copy-toolkit",
+      "target": "tmux-plugins/tmux-open",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:55:08.197199+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "TMUX plugin with various copy-mode tools",
+    "fork": false,
+    "full_name": "CrispyConductor/tmux-copy-toolkit",
+    "html_url": "https://github.com/CrispyConductor/tmux-copy-toolkit",
+    "language": "Python",
+    "pushed_at": "2021-12-20T07:25:27Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2026-01-26T10:07:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "morantron/tmux-fingers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "schasse/tmux-jump",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tmux-plugins/tmux-open",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

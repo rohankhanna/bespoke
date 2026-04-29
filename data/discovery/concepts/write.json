@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "write"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adamstark/AudioFile",
+      "status": "candidate-context",
+      "text": "A simple C++ library for reading and writing audio files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamstark/AudioFile",
+      "status": "candidate-context",
+      "text": "<!-- Version and License Badges -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adamstark/AudioFile",
+      "status": "candidate",
+      "text": "<!-- Version and License Badges -->"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40042460,
+      "status": "candidate",
+      "text": "indite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040201,
+      "status": "candidate",
+      "text": "publish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028949,
+      "status": "candidate",
+      "text": "compose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998372,
+      "status": "candidate",
+      "text": "spell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39844097,
+      "status": "candidate",
+      "text": "pen"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32041,
+      "status": "candidate",
+      "text": "compose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18033,
+      "status": "candidate",
+      "text": "indite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 14050,
+      "status": "candidate",
+      "text": "spell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7066,
+      "status": "candidate",
+      "text": "pen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2041,
+      "status": "candidate",
+      "text": "publish"
+    }
+  ],
+  "canonical_name": "write",
+  "concept_id": "write",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adamstark/AudioFile"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "write",
+      "sense_id": "write#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

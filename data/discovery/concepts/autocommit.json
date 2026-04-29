@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Autocommit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f Build multimodal AI applications with cloud-native stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "Autocommit"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate",
+      "text": "Autocommit"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024001,
+      "status": "candidate",
+      "text": "commit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024000,
+      "status": "candidate",
+      "text": "autoconfirm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023999,
+      "status": "candidate",
+      "text": "file"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023998,
+      "status": "candidate",
+      "text": "enter into"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023997,
+      "status": "candidate",
+      "text": "autocorrect"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Autocommit",
+  "concept_id": "autocommit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/autocommit.yml",
+      "source_repo": "jina-ai/serve"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Autocommit",
+      "sense_id": "autocommit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

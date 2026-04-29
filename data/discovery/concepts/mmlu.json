@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "mmlu"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "A large-scale 7B pretraining language model developed by BaiChuan-Inc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "A 13B large language model developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "A series of large language models developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mmlu",
+  "concept_id": "mmlu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mmlu",
+      "sense_id": "mmlu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

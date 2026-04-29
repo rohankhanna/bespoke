@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/I2L-MeshNet_RELEASE",
+      "target": "mmatl/pyopengl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/I2L-MeshNet_RELEASE",
+      "target": "gulvarol/smplpytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/I2L-MeshNet_RELEASE",
+      "target": "hassony2/manopth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/I2L-MeshNet_RELEASE",
+      "target": "mks0601/3dmppe_rootnet_release",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:34.731649+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16564
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official PyTorch implementation of \"I2L-MeshNet: Image-to-Lixel Prediction Network for Accurate 3D Human Pose and Mesh Estimation from a Single RGB Image\", ECCV 2020",
+    "fork": false,
+    "full_name": "mks0601/I2L-MeshNet_RELEASE",
+    "html_url": "https://github.com/mks0601/I2L-MeshNet_RELEASE",
+    "language": "Python",
+    "pushed_at": "2024-07-10T03:28:20Z",
+    "stargazers_count": 740,
+    "topics": [],
+    "updated_at": "2026-03-24T05:16:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gulvarol/smplpytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hassony2/manopth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mks0601/3dmppe_rootnet_release",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmatl/pyopengl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

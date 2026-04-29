@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lh3/miniasm",
+      "target": "lh3/minimap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lh3/miniasm",
+      "target": "pacificbiosciences/devnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lh3/miniasm",
+      "target": "marbl/mhap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lh3/miniasm",
+      "target": "pacificbiosciences/bioinformatics-training",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/miniasm",
+      "target": "bioinformatics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/miniasm",
+      "target": "denovo-assembly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lh3/miniasm",
+      "target": "genomics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:53:39.835974+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5445
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ultrafast de novo assembly for long noisy reads (though having no consensus step)",
+    "fork": false,
+    "full_name": "lh3/miniasm",
+    "html_url": "https://github.com/lh3/miniasm",
+    "language": "TeX",
+    "pushed_at": "2025-07-19T03:08:43Z",
+    "stargazers_count": 353,
+    "topics": [
+      "bioinformatics",
+      "denovo-assembly",
+      "genomics"
+    ],
+    "updated_at": "2026-04-15T08:45:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lh3/minimap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marbl/mhap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pacificbiosciences/bioinformatics-training",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pacificbiosciences/devnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "```sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bioinformatics"
+    },
+    {
+      "context_snippet": "```sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denovo-assembly"
+    },
+    {
+      "context_snippet": "```sh",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genomics"
+    }
+  ]
+}

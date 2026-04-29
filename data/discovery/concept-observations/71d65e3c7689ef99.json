@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from https://arxiv.org/abs/2106.05237."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from the paper [Knowledge distillation:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from the paper [Knowledge distillation:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bit-resnet",
+      "sense_id": "bit-resnet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bit-resnet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bit-resnet",
+  "observation_id": "71d65e3c7689ef99",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "bit-resnet",
+  "source_context_snippet": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from the paper [Knowledge distillation:",
+  "source_file": null,
+  "source_repo": "sayakpaul/FunMatch-Distillation",
+  "source_repo_description": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from https://arxiv.org/abs/2106.05237."
+}

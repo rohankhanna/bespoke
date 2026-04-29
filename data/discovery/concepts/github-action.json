@@ -31,6 +31,42 @@
       "source_repo": "axel-op/googlejavaformat-action",
       "status": "candidate-context",
       "text": "Automatically format your Java files using [Google Java Style guidelines](https://google.github.io/styleguide/javaguide.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benchmark-action/github-action-benchmark",
+      "status": "candidate-context",
+      "text": "GitHub Action for continuous benchmarking to keep performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benchmark-action/github-action-benchmark",
+      "status": "candidate-context",
+      "text": "GitHub Action for Continuous Benchmarking"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gacts/install-dnscontrol",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Installs DNSControl into your actions workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gacts/install-dnscontrol",
+      "status": "candidate-context",
+      "text": "![Release version][badge_release_version]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "koenrh/dnscontrol-action",
+      "status": "candidate-context",
+      "text": "Deploy your DNS configuration using GitHub Actions using DNSControl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koenrh/dnscontrol-action",
+      "status": "candidate-context",
+      "text": "![](https://github.com/koenrh/dnscontrol-action/workflows/build/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "axel-op/googlejavaformat-action",
       "status": "candidate",
       "text": "Automatically format your Java files using [Google Java Style guidelines](https://google.github.io/styleguide/javaguide.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benchmark-action/github-action-benchmark",
+      "status": "candidate",
+      "text": "GitHub Action for Continuous Benchmarking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gacts/install-dnscontrol",
+      "status": "candidate",
+      "text": "![Release version][badge_release_version]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "koenrh/dnscontrol-action",
+      "status": "candidate",
+      "text": "![](https://github.com/koenrh/dnscontrol-action/workflows/build/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +118,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "axel-op/googlejavaformat-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gacts/install-dnscontrol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "koenrh/dnscontrol-action"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

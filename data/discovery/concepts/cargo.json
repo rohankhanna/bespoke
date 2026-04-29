@@ -223,6 +223,54 @@
       "source_repo": "sagiegurari/cargo-make",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate-context",
+      "text": "Cargo subcommand `release`: everything about releasing a rust crate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate-context",
+      "text": "> Streamline your crate release process"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JanLikar/cargo-clone",
+      "status": "candidate-context",
+      "text": "A cargo subcommand to fetch the source code of a Rust crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JanLikar/cargo-clone",
+      "status": "candidate-context",
+      "text": "cargo-clone can be used to fetch the source code of a Rust crate from a registry."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "killercup/cargo-edit",
+      "status": "candidate-context",
+      "text": "A utility for managing cargo dependencies from the command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "killercup/cargo-edit",
+      "status": "candidate-context",
+      "text": "This tool extends [Cargo](http://doc.crates.io/) to allow you to add, remove, and upgrade dependencies by modifying your `Cargo.toml` file from the command line."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "watchexec/cargo-watch",
+      "status": "candidate-context",
+      "text": "Watches over your Cargo project's source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/cargo-watch",
+      "status": "candidate-context",
+      "text": "[![Crate release version](https://flat.badgen.net/crates/v/cargo-watch)](https://crates.io/crates/cargo-watch)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +381,30 @@
       "source_repo": "sagiegurari/cargo-make",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate",
+      "text": "> Streamline your crate release process"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JanLikar/cargo-clone",
+      "status": "candidate",
+      "text": "cargo-clone can be used to fetch the source code of a Rust crate from a registry."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "killercup/cargo-edit",
+      "status": "candidate",
+      "text": "This tool extends [Cargo](http://doc.crates.io/) to allow you to add, remove, and upgrade dependencies by modifying your `Cargo.toml` file from the command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/cargo-watch",
+      "status": "candidate",
+      "text": "[![Crate release version](https://flat.badgen.net/crates/v/cargo-watch)](https://crates.io/crates/cargo-watch)"
     }
   ],
   "candidate_related_terms": [
@@ -526,11 +598,35 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "sagiegurari/cargo-make"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "JanLikar/cargo-clone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "killercup/cargo-edit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/cargo-watch"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

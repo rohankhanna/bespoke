@@ -163,6 +163,18 @@
       "source_repo": "GoogleChrome/web-vitals",
       "status": "candidate-context",
       "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "status": "candidate-context",
+      "text": "HTTP Archive's annual \"State of the Web\" report made by the web community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "status": "candidate-context",
+      "text": "Lint Code Base"
     }
   ],
   "candidate_glosses": [
@@ -241,6 +253,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "GoogleChrome/web-vitals",
+      "status": "candidate",
+      "text": "Lint Code Base"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
       "status": "candidate",
       "text": "Lint Code Base"
     }
@@ -406,11 +424,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "GoogleChrome/web-vitals"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/super-linter.yml",
+      "source_repo": "pytorch/gloo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "crytic/evm_cfg_builder"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

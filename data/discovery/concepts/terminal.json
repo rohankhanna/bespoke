@@ -1099,6 +1099,174 @@
       "source_repo": "achannarasappa/ticker",
       "status": "candidate-context",
       "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate-context",
+      "text": "A Minimal, Header only Modern c++ library for terminal goodies \ud83d\udc84\u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate-context",
+      "text": "![rang-demo](https://cloud.githubusercontent.com/assets/7630575/13501282/0bd00074-e18c-11e5-9848-5bd1f20566d9.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate-context",
+      "text": "Base16 template for xfce4-terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate-context",
+      "text": "**Deprecation Notice**: tinted-xfce4-terminal and all the other Tinted"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Urigo/graphql-cli",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdf  Command line tool for common GraphQL development workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Urigo/graphql-cli",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/20847995/67651234-85bf1500-f916-11e9-90e5-cb3bd0e6a338.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "randy3k/radian",
+      "status": "candidate-context",
+      "text": "A 21 century R console"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy3k/radian",
+      "status": "candidate-context",
+      "text": "`radian` is no longer under active development. While I may address critical or obvious bugs, no new features will be added. If you are looking for an active alternative, I recommend checking out [arf](https://github.com/eitsupi/arf) by @eitsupi."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jixiuf/vterm-toggle",
+      "status": "candidate-context",
+      "text": "toggles between the vterm buffer and whatever buffer you are editing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jixiuf/vterm-toggle",
+      "status": "candidate-context",
+      "text": "[![MELPA](https://melpa.org/packages/vterm-toggle-badge.svg)](https://melpa.org/#/vterm-toggle)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sonph/onehalf",
+      "status": "candidate-context",
+      "text": "Clean, vibrant and pleasing color schemes for Vim, Sublime Text, iTerm, gnome-terminal and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sonph/onehalf",
+      "status": "candidate-context",
+      "text": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate-context",
+      "text": "IDE-style autocomplete for your existing terminal & shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate-context",
+      "text": "[![Badge: macOS](https://img.shields.io/badge/os-\uf8ff%20macOS-light)](#)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electerm/electerm-web",
+      "status": "candidate-context",
+      "text": "Running electerm as web app"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm-web",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psmux/pstop",
+      "status": "candidate-context",
+      "text": "htop for Windows . TUI system monitor with per-core CPU bars, memory/swap/network, tree view, process kill, 7 color schemes, mouse support. cargo install pstop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/pstop",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnonymouX47/termvisage",
+      "status": "candidate-context",
+      "text": "Browse and view images in the terminal (mostly a front-end to https://github.com/AnonymouX47/term-image)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/termvisage",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-n-t-h-o-n-y/TermOx",
+      "status": "candidate-context",
+      "text": "C++20 Terminal User Interface (TUI) Library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-n-t-h-o-n-y/TermOx",
+      "status": "candidate-context",
+      "text": "**TermOx** is a C++20 library for creating rich, interactive terminal user interfaces"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies \ud83d\ude80 by @miguelmota"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Swordfish90/cool-retro-term",
+      "status": "candidate-context",
+      "text": "A good looking terminal emulator which mimics the old cathode display..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Swordfish90/cool-retro-term",
+      "status": "candidate-context",
+      "text": "|> Default Amber|C:\\ IBM DOS|$ Default Green|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbucher/console",
+      "status": "candidate-context",
+      "text": "This is a modified version of Console 2 for a better experience under Windows Vista/7/8/10 and a better visual rendering."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbucher/console",
+      "status": "candidate-context",
+      "text": "ConsoleZ"
     }
   ],
   "candidate_glosses": [
@@ -1647,6 +1815,90 @@
       "source_repo": "achannarasappa/ticker",
       "status": "candidate",
       "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate",
+      "text": "![rang-demo](https://cloud.githubusercontent.com/assets/7630575/13501282/0bd00074-e18c-11e5-9848-5bd1f20566d9.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate",
+      "text": "**Deprecation Notice**: tinted-xfce4-terminal and all the other Tinted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Urigo/graphql-cli",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/20847995/67651234-85bf1500-f916-11e9-90e5-cb3bd0e6a338.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy3k/radian",
+      "status": "candidate",
+      "text": "`radian` is no longer under active development. While I may address critical or obvious bugs, no new features will be added. If you are looking for an active alternative, I recommend checking out [arf](https://github.com/eitsupi/arf) by @eitsupi."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jixiuf/vterm-toggle",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/vterm-toggle-badge.svg)](https://melpa.org/#/vterm-toggle)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sonph/onehalf",
+      "status": "candidate",
+      "text": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate",
+      "text": "[![Badge: macOS](https://img.shields.io/badge/os-\uf8ff%20macOS-light)](#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm-web",
+      "status": "candidate",
+      "text": "<h1 align=\"center\" style=\"padding-top: 60px;padding-bottom: 40px;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/pstop",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/termvisage",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-n-t-h-o-n-y/TermOx",
+      "status": "candidate",
+      "text": "**TermOx** is a C++20 library for creating rich, interactive terminal user interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Swordfish90/cool-retro-term",
+      "status": "candidate",
+      "text": "|> Default Amber|C:\\ IBM DOS|$ Default Green|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbucher/console",
+      "status": "candidate",
+      "text": "ConsoleZ"
     }
   ],
   "candidate_related_terms": [
@@ -2380,11 +2632,125 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "achannarasappa/ticker"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "agauniyal/rang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "spaceship-prompt/spaceship-prompt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-xfce4-terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "randy3k/radian"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jixiuf/vterm-toggle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sonph/onehalf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "withfig/autocomplete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "electerm/electerm-web"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AnonymouX47/termvisage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "a-n-t-h-o-n-y/TermOx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/cointop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Swordfish90/cool-retro-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cbucher/console"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

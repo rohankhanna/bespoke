@@ -19,6 +19,30 @@
       "source_repo": "uber/petastorm",
       "status": "candidate-context",
       "text": "Petastorm"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringTape",
+      "status": "candidate-context",
+      "text": "Apache Arrow-compatible space-efficient \"tape\" class in pure Rust to be used with StringZilla for GPU, NUMA, and disk transfers of variable length strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringTape",
+      "status": "candidate-context",
+      "text": "![StringTape banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringTape.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibis-project/ibis",
+      "status": "candidate-context",
+      "text": "the portable Python dataframe library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibis-project/ibis",
+      "status": "candidate-context",
+      "text": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "uber/petastorm",
       "status": "candidate",
       "text": "Petastorm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringTape",
+      "status": "candidate",
+      "text": "![StringTape banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringTape.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibis-project/ibis",
+      "status": "candidate",
+      "text": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "uber/petastorm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringTape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

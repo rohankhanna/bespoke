@@ -1,0 +1,268 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IBM/FfDL",
+      "target": "kubernetes-sigs/kubeadm-dind-cluster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IBM/FfDL",
+      "target": "ibm/adversarial-robustness-toolbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "caffe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "deeplearning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "ibm-research-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "keras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "kubernetes-cluster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IBM/FfDL",
+      "target": "watson",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:45:31.353419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9172
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Fabric for Deep Learning (FfDL, pronounced fiddle) is a Deep Learning Platform offering TensorFlow, Caffe, PyTorch etc. as a Service on Kubernetes",
+    "fork": false,
+    "full_name": "IBM/FfDL",
+    "html_url": "https://github.com/IBM/FfDL",
+    "language": "Go",
+    "pushed_at": "2026-01-29T17:14:34Z",
+    "stargazers_count": 689,
+    "topics": [
+      "ai",
+      "artificial-intelligence",
+      "caffe",
+      "deep-learning",
+      "deep-neural-networks",
+      "deeplearning",
+      "ibm-research-ai",
+      "jupyter",
+      "keras",
+      "kubernetes-cluster",
+      "machine-learning",
+      "ml",
+      "model",
+      "python",
+      "pytorch",
+      "storage",
+      "tensorflow",
+      "watson"
+    ],
+    "updated_at": "2026-03-13T14:44:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibm/adversarial-robustness-toolbox",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kubernetes-sigs/kubeadm-dind-cluster",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "caffe"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deeplearning"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ibm-research-ai"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes-cluster"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "storage"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "> This repository will not be updated. The repository will be kept available in read-only mode.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watson"
+    }
+  ]
+}

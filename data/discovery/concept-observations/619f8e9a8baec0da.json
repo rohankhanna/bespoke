@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "VimTeX: A modern Vim and neovim filetype plugin for LaTeX files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neovim",
+      "sense_id": "neovim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "neovim",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "neovim",
+  "observation_id": "619f8e9a8baec0da",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "neovim",
+  "source_context_snippet": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)",
+  "source_file": null,
+  "source_repo": "lervag/vimtex",
+  "source_repo_description": "VimTeX: A modern Vim and neovim filetype plugin for LaTeX files."
+}

@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openSUSE/catatonit",
+      "target": "cyphar/initrs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "openSUSE/catatonit",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openSUSE/catatonit",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "openSUSE/catatonit",
+      "target": "docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:54:27.414002+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4182
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A container init that is so simple it's effectively brain-dead.",
+    "fork": false,
+    "full_name": "openSUSE/catatonit",
+    "html_url": "https://github.com/openSUSE/catatonit",
+    "language": "C",
+    "pushed_at": "2026-04-22T09:10:14Z",
+    "stargazers_count": 265,
+    "topics": [
+      "containers",
+      "docker"
+    ],
+    "updated_at": "2026-04-24T02:39:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cyphar/initrs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://github.com/openSUSE/catatonit/actions/workflows/ci.yml/badge.svg)](https://github.com/openSUSE/catatonit/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/openSUSE/catatonit/actions/workflows/ci.yml/badge.svg)](https://github.com/openSUSE/catatonit/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Google Cloud Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Java idiomatic client for [Google Cloud Platform][cloud-platform] services."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Java idiomatic client for [Google Cloud Platform][cloud-platform] services."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968971,
+      "status": "candidate",
+      "text": "handicraft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968878,
+      "status": "candidate",
+      "text": "handmade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968759,
+      "status": "candidate",
+      "text": "home-made"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968729,
+      "status": "candidate",
+      "text": "homemade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29919128,
+      "status": "candidate",
+      "text": "coastal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "artisanal",
+      "sense_id": "artisanal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "artisanal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "artisanal",
+  "observation_id": "567d61ec7d65650f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "artisanal",
+  "source_context_snippet": "> Java idiomatic client for [Google Cloud Platform][cloud-platform] services.",
+  "source_file": null,
+  "source_repo": "googleapis/google-cloud-java",
+  "source_repo_description": "Google Cloud Client Library for Java"
+}

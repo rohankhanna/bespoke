@@ -427,6 +427,162 @@
       "source_repo": "OpenAutoCoder/Agentless",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "A large-scale 7B pretraining language model developed by BaiChuan-Inc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate-context",
+      "text": "Tengine is a lite, high performance, modular inference engine for embedded device "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25\ud83d\udd25High-Performance Face Recognition Library on PaddlePaddle & PyTorch\ud83d\udd25\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate-context",
+      "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IBM/FfDL",
+      "status": "candidate-context",
+      "text": "Fabric for Deep Learning (FfDL, pronounced fiddle) is a Deep Learning Platform offering TensorFlow, Caffe, PyTorch etc. as a Service on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/FfDL",
+      "status": "candidate-context",
+      "text": "> This repository will not be updated. The repository will be kept available in read-only mode."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/x-transformers",
+      "status": "candidate-context",
+      "text": "A concise but complete full-attention transformer with a set of promising experimental features from various papers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/x-transformers",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/x-transformers.svg)](https://badge.fury.io/py/x-transformers)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate-context",
+      "text": ":atom:  Atom client for Tabnine - Code Faster with the All-Language AI Assistant for Code Completion, autocomplete JavaScript, Python, TypeScript, PHP, Go, Java, node.js, Ruby, C/C++, HTML/CSS, C#, Rust, SQL, Bash, Kotlin, React, Swift, Scala, Sass, Perl, Objective C, Node JS, Matlab, Haskell, Dart, Angular. https://atom.io/packages/tabnine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "A 13B large language model developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate-context",
+      "text": "[ACL 2024] An Easy-to-use Knowledge Editing Framework for LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "qgallouedec/panda-gym",
+      "status": "candidate-context",
+      "text": "Set of robotic environments based on PyBullet physics engine and gymnasium."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qgallouedec/panda-gym",
+      "status": "candidate-context",
+      "text": "Set of robotic environments based on PyBullet physics engine and gymnasium."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "A series of large language models developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "status": "candidate-context",
+      "text": "Adversarial Robustness Toolbox (ART) - Python Library for Machine Learning Security - Evasion, Poisoning, Extraction, Inference - Red and Blue Teams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpcaitech/SwiftInfer",
+      "status": "candidate-context",
+      "text": "Efficient AI Inference & Serving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/SwiftInfer",
+      "status": "candidate-context",
+      "text": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/tab-transformer-pytorch",
+      "status": "candidate-context",
+      "text": "Implementation of TabTransformer, attention network for tabular data, in Pytorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/tab-transformer-pytorch",
+      "status": "candidate-context",
+      "text": "<img src=\"./tab.png\" width=\"250px\"></img>"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +795,84 @@
       "source_repo": "OpenAutoCoder/Agentless",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate",
+      "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/FfDL",
+      "status": "candidate",
+      "text": "> This repository will not be updated. The repository will be kept available in read-only mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/x-transformers",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/x-transformers.svg)](https://badge.fury.io/py/x-transformers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "qgallouedec/panda-gym",
+      "status": "candidate",
+      "text": "Set of robotic environments based on PyBullet physics engine and gymnasium."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/SwiftInfer",
+      "status": "candidate",
+      "text": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/tab-transformer-pytorch",
+      "status": "candidate",
+      "text": "<img src=\"./tab.png\" width=\"250px\"></img>"
     }
   ],
   "candidate_related_terms": [],
@@ -994,11 +1228,131 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "OpenAutoCoder/Agentless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "f/prompts.chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OAID/Tengine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "IBM/FfDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/x-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "facebookresearch/fairseq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Alibaba-NLP/DeepResearch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zjunlp/EasyEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "qgallouedec/panda-gym"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hpcaitech/SwiftInfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/tab-transformer-pytorch"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

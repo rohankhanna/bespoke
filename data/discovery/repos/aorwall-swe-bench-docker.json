@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aorwall/SWE-bench-docker",
+      "target": "princeton-nlp/swe-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aorwall/SWE-bench-docker",
+      "target": "princeton-nlp/swe-agent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aorwall/SWE-bench-docker",
+      "target": "nus-apr/auto-code-rover",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:52:25.539598+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8189
+    },
+    {
+      "path": "requirements.txt",
+      "size": 24
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aorwall/SWE-bench-docker",
+    "html_url": "https://github.com/aorwall/SWE-bench-docker",
+    "language": "Python",
+    "pushed_at": "2024-07-17T19:56:29Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-03-31T20:12:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nus-apr/auto-code-rover",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "princeton-nlp/swe-agent",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "princeton-nlp/swe-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

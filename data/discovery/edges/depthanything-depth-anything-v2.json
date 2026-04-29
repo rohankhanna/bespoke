@@ -1,0 +1,41 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DepthAnything/Depth-Anything-V2",
+      "target": "fabio-sim/depth-anything-onnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DepthAnything/Depth-Anything-V2",
+      "target": "kijai/comfyui-depthanythingv2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DepthAnything/Depth-Anything-V2",
+      "target": "feigechuanshu/ncnn-android-depth_anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DepthAnything/Depth-Anything-V2",
+      "target": "facebookresearch/dinov2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DepthAnything/Depth-Anything-V2",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "DepthAnything/Depth-Anything-V2"
+}

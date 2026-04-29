@@ -84,7 +84,7 @@
   "normalized_form": "code-freeze",
   "observation_id": "7e5c50de261b1753",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Code Freeze",
   "source_context_snippet": "Code Freeze",
   "source_file": ".github/workflows/code_freeze.yml",

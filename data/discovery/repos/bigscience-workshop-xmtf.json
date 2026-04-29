@@ -1,0 +1,193 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigscience-workshop/xmtf",
+      "target": "bigscience-workshop/megatron-deepspeed",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigscience-workshop/xmtf",
+      "target": "bigscience-workshop/bigscience",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigscience-workshop/xmtf",
+      "target": "bigscience-workshop/lm-evaluation-harness",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bigscience-workshop/xmtf",
+      "target": "albanie/prompt_formatting_in_latex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/xmtf",
+      "target": "bloom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/xmtf",
+      "target": "bloomz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/xmtf",
+      "target": "instruction-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/xmtf",
+      "target": "language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/xmtf",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/xmtf",
+      "target": "multilingual-nlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/xmtf",
+      "target": "multitask-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/xmtf",
+      "target": "zero-shot-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:47:35.172831+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16890
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Crosslingual Generalization through Multitask Finetuning",
+    "fork": false,
+    "full_name": "bigscience-workshop/xmtf",
+    "html_url": "https://github.com/bigscience-workshop/xmtf",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-09-22T00:38:33Z",
+    "stargazers_count": 536,
+    "topics": [
+      "bloom",
+      "bloomz",
+      "instruction-tuning",
+      "language-models",
+      "large-language-models",
+      "mt0",
+      "multilingual-nlp",
+      "multitask-learning",
+      "t5",
+      "zero-shot-learning"
+    ],
+    "updated_at": "2026-04-11T02:02:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "albanie/prompt_formatting_in_latex",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigscience-workshop/bigscience",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigscience-workshop/lm-evaluation-harness",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bigscience-workshop/megatron-deepspeed",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![](xmtf_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bloom"
+    },
+    {
+      "context_snippet": "![](xmtf_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bloomz"
+    },
+    {
+      "context_snippet": "![](xmtf_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruction-tuning"
+    },
+    {
+      "context_snippet": "![](xmtf_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-models"
+    },
+    {
+      "context_snippet": "![](xmtf_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "![](xmtf_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual-nlp"
+    },
+    {
+      "context_snippet": "![](xmtf_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multitask-learning"
+    },
+    {
+      "context_snippet": "![](xmtf_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot-learning"
+    }
+  ]
+}

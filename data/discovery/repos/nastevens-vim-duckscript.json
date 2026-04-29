@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nastevens/vim-duckscript",
+      "target": "sagiegurari/duckscript",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:02:37.883359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1071
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim syntax highlighting plugin for duckscript",
+    "fork": false,
+    "full_name": "nastevens/vim-duckscript",
+    "html_url": "https://github.com/nastevens/vim-duckscript",
+    "language": "Vim script",
+    "pushed_at": "2022-04-20T17:39:11Z",
+    "stargazers_count": 7,
+    "topics": [],
+    "updated_at": "2024-08-11T03:21:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sagiegurari/duckscript",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

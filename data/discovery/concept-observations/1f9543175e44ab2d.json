@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Docker images for reproducible Geocomputation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Continuous Integration and Delivery"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Continuous Integration and Delivery"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26864,
+      "status": "candidate",
+      "text": "barrage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26394,
+      "status": "candidate",
+      "text": "onslaught"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25994,
+      "status": "candidate",
+      "text": "bombardment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25994,
+      "status": "candidate",
+      "text": "outpouring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18179,
+      "status": "candidate",
+      "text": "cue"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Continuous Integration and Delivery",
+      "sense_id": "continuous-integration-and-delivery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "continuous-integration-and-delivery",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "continuous-integration-and-delivery",
+  "observation_id": "1f9543175e44ab2d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Continuous Integration and Delivery",
+  "source_context_snippet": "Continuous Integration and Delivery",
+  "source_file": ".github/workflows/ci.yml",
+  "source_repo": "geocompx/docker",
+  "source_repo_description": "Docker images for reproducible Geocomputation"
+}

@@ -283,7 +283,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:19:53.813251+00:00",
+  "fetched_at": "2026-04-29T20:47:03.762252+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -320,7 +320,7 @@
     "html_url": "https://github.com/open-mmlab/mmpretrain",
     "language": "Python",
     "pushed_at": "2024-11-01T06:27:36Z",
-    "stargazers_count": 3840,
+    "stargazers_count": 3843,
     "topics": [
       "beit",
       "clip",
@@ -340,7 +340,7 @@
       "swin-transformer",
       "vision-transformer"
     ],
-    "updated_at": "2026-04-20T07:44:11Z"
+    "updated_at": "2026-04-27T08:21:27Z"
   },
   "repo_links": [
     {

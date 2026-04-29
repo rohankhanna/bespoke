@@ -1,0 +1,103 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_arm64.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_arm64.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_arm64.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_arm64.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_arm64.yml",
+      "source_repo": "eea/eea-website-backend",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_arm64.yml",
+      "source_repo": "eea/eea-website-backend",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_arm64.yml",
+      "source_repo": "eea/eea-website-backend",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_arm64.yml",
+      "source_repo": "eea/eea-website-backend",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_arm64.yml",
+      "source_repo": "eea/eea-website-backend",
+      "target": "Build and Push ARM Docker Image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:44:30.091381+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1290
+    },
+    {
+      "path": "Dockerfile",
+      "size": 248
+    },
+    {
+      "path": "requirements.txt",
+      "size": 233
+    },
+    {
+      "path": ".github/workflows/release_arm64.yml",
+      "size": 1338
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "EEA Main Website back-end (Plone 6)",
+    "fork": false,
+    "full_name": "eea/eea-website-backend",
+    "html_url": "https://github.com/eea/eea-website-backend",
+    "language": "Python",
+    "pushed_at": "2026-04-29T15:23:24Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-29T15:28:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Push ARM Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_arm64.yml",
+      "term": "Build and Push ARM Docker Image"
+    }
+  ]
+}

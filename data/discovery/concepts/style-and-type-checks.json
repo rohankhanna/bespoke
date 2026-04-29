@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Style and type checks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amzn/pecos",
+      "status": "candidate-context",
+      "text": "PECOS - Prediction for Enormous and Correlated Spaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/pecos",
+      "status": "candidate-context",
+      "text": "Style and type checks"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/pecos",
+      "status": "candidate",
+      "text": "Style and type checks"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34707,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29693,
+      "status": "candidate",
+      "text": "italic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28093,
+      "status": "candidate",
+      "text": "face"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28093,
+      "status": "candidate",
+      "text": "font"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28093,
+      "status": "candidate",
+      "text": "roman"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Style and type checks",
+  "concept_id": "style-and-type-checks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/style_type_check.yml",
+      "source_repo": "amzn/pecos"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Style and type checks",
+      "sense_id": "style-and-type-checks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

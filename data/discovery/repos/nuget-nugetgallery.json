@@ -1,0 +1,102 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prioritize-by-reactions.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prioritize-by-reactions.yaml",
+      "source_repo": "NuGet/NuGetGallery",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prioritize-by-reactions.yaml",
+      "source_repo": "NuGet/NuGetGallery",
+      "target": "Prioritize Issues by Reactions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NuGet/NuGetGallery",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NuGet/NuGetGallery",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NuGet/NuGetGallery",
+      "target": "nuget",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:46:18.464468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9408
+    },
+    {
+      "path": ".github/workflows/prioritize-by-reactions.yaml",
+      "size": 3849
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NuGet Gallery is a package repository that powers https://www.nuget.org. Use this repo for reporting NuGet.org issues.",
+    "fork": false,
+    "full_name": "NuGet/NuGetGallery",
+    "html_url": "https://github.com/NuGet/NuGetGallery",
+    "language": "C#",
+    "pushed_at": "2026-04-29T19:36:17Z",
+    "stargazers_count": 1628,
+    "topics": [
+      "dotnet",
+      "hacktoberfest",
+      "nuget"
+    ],
+    "updated_at": "2026-04-23T17:28:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Prioritize Issues by Reactions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prioritize-by-reactions.yaml",
+      "term": "Prioritize Issues by Reactions"
+    },
+    {
+      "context_snippet": "\ufeff[NuGet Gallery](https://www.nuget.org/) \u2014 Where packages are found",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "\ufeff[NuGet Gallery](https://www.nuget.org/) \u2014 Where packages are found",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "\ufeff[NuGet Gallery](https://www.nuget.org/) \u2014 Where packages are found",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nuget"
+    }
+  ]
+}

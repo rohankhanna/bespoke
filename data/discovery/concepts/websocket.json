@@ -187,6 +187,66 @@
       "source_repo": "ninenines/cowboy",
       "status": "candidate-context",
       "text": "Check Cowboy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fasthttp/websocket",
+      "status": "candidate-context",
+      "text": "WebSocket implementation for fasthttp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fasthttp/websocket",
+      "status": "candidate-context",
+      "text": "[![Test status](https://github.com/fasthttp/websocket/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/fasthttp/websocket/actions?workflow=test)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gobwas/ws",
+      "status": "candidate-context",
+      "text": "A tiny WebSocket library for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobwas/ws",
+      "status": "candidate-context",
+      "text": "[![GoDoc][godoc-image]][godoc-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/websocket",
+      "status": "candidate-context",
+      "text": "Minimal and idiomatic WebSocket library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/websocket",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/coder/websocket.svg)](https://pkg.go.dev/github.com/coder/websocket)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "A High Performance HTTP Server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-websockets/websockets",
+      "status": "candidate-context",
+      "text": "Library for building WebSocket servers and clients in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-websockets/websockets",
+      "status": "candidate-context",
+      "text": ".. image:: logo/horizontal.svg"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +339,36 @@
       "source_repo": "ninenines/cowboy",
       "status": "candidate",
       "text": "Check Cowboy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fasthttp/websocket",
+      "status": "candidate",
+      "text": "[![Test status](https://github.com/fasthttp/websocket/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/fasthttp/websocket/actions?workflow=test)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobwas/ws",
+      "status": "candidate",
+      "text": "[![GoDoc][godoc-image]][godoc-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/websocket",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/coder/websocket.svg)](https://pkg.go.dev/github.com/coder/websocket)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-websockets/websockets",
+      "status": "candidate",
+      "text": ".. image:: logo/horizontal.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -382,11 +472,41 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "ninenines/cowboy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fasthttp/websocket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gobwas/ws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "coder/websocket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ohler55/agoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "python-websockets/websockets"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

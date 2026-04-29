@@ -319,6 +319,102 @@
       "source_repo": "xlang-ai/OSWorld",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/seatunnel",
+      "status": "candidate-context",
+      "text": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel",
+      "status": "candidate-context",
+      "text": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"SeaTunnel Logo\" height=\"200px\" align=\"right\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docarray/docarray",
+      "status": "candidate-context",
+      "text": "Represent, send, store and search multimodal data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docarray/docarray",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f Build multimodal AI applications with cloud-native stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "<a href=\"https://pypi.org/project/jina/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/jina?label=Release&style=flat-square\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2U1/Qwen-VL-Series-Finetune",
+      "status": "candidate-context",
+      "text": "An open-source implementaion for fine-tuning Qwen-VL series by Alibaba Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Qwen-VL-Series-Finetune",
+      "status": "candidate-context",
+      "text": "This repository contains a script for training [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/InternVideo",
+      "status": "candidate-context",
+      "text": "[ECCV2024] Video Foundation Models & Data for Multimodal Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVideo",
+      "status": "candidate-context",
+      "text": "</div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agentsea/surfkit",
+      "status": "candidate-context",
+      "text": "A toolkit for building computer use AI agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentsea/surfkit",
+      "status": "candidate-context",
+      "text": "<!-- PROJECT LOGO -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ParisNeo/lollms",
+      "status": "candidate-context",
+      "text": "An all in one AI solution compatible with any known AI service on the planet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParisNeo/lollms",
+      "status": "candidate-context",
+      "text": "One tool to rule them all!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/seatunnel-tools",
+      "status": "candidate-context",
+      "text": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-tools",
+      "status": "candidate-context",
+      "text": "**English** | [\u4e2d\u6587](README_CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -477,6 +573,54 @@
       "source_repo": "xlang-ai/OSWorld",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel",
+      "status": "candidate",
+      "text": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"SeaTunnel Logo\" height=\"200px\" align=\"right\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docarray/docarray",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate",
+      "text": "<a href=\"https://pypi.org/project/jina/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/jina?label=Release&style=flat-square\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Qwen-VL-Series-Finetune",
+      "status": "candidate",
+      "text": "This repository contains a script for training [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVideo",
+      "status": "candidate",
+      "text": "</div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agentsea/surfkit",
+      "status": "candidate",
+      "text": "<!-- PROJECT LOGO -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ParisNeo/lollms",
+      "status": "candidate",
+      "text": "One tool to rule them all!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-tools",
+      "status": "candidate",
+      "text": "**English** | [\u4e2d\u6587](README_CN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -712,11 +856,65 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "xlang-ai/OSWorld"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/seatunnel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "docarray/docarray"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Qwen-VL-Series-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "agentsea/surfkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ParisNeo/lollms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-tools"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

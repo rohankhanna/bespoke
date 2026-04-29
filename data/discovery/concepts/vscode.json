@@ -435,6 +435,60 @@
       "source_repo": "smallcloudai/refact",
       "status": "candidate-context",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "status": "candidate-context",
+      "text": "Containerised Jupyter deployment. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-vscode/julia-vscode",
+      "status": "candidate-context",
+      "text": "Julia extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/julia-vscode",
+      "status": "candidate-context",
+      "text": "[![Build and Test](https://github.com/julia-vscode/julia-vscode/actions/workflows/main.yml/badge.svg)](https://github.com/julia-vscode/julia-vscode/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-java-test",
+      "status": "candidate-context",
+      "text": "Run and debug Java test cases in Visual Studio Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-java-test",
+      "status": "candidate-context",
+      "text": "> Run and debug Java test cases in Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "Customizable JavaScript and React/Redux snippets for VS Code, with first-class support for ES7+ syntax, React 17\u201319, React Router v6, Redux Toolkit, and TypeScript."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ManuelHentschel/VSCode-R-Debugger",
+      "status": "candidate-context",
+      "text": "R Debugger Extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManuelHentschel/VSCode-R-Debugger",
+      "status": "candidate-context",
+      "text": "r-debugger \u2014 R Debugger for VS Code"
     }
   ],
   "candidate_glosses": [
@@ -653,6 +707,36 @@
       "source_repo": "smallcloudai/refact",
       "status": "candidate",
       "text": "<a name=\"readme-top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/julia-vscode",
+      "status": "candidate",
+      "text": "[![Build and Test](https://github.com/julia-vscode/julia-vscode/actions/workflows/main.yml/badge.svg)](https://github.com/julia-vscode/julia-vscode/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-java-test",
+      "status": "candidate",
+      "text": "> Run and debug Java test cases in Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate",
+      "text": "Customizable JavaScript and React/Redux snippets for VS Code, with first-class support for ES7+ syntax, React 17\u201319, React Router v6, Redux Toolkit, and TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManuelHentschel/VSCode-R-Debugger",
+      "status": "candidate",
+      "text": "r-debugger \u2014 R Debugger for VS Code"
     }
   ],
   "candidate_related_terms": [],
@@ -912,11 +996,59 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "smallcloudai/refact"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "julia-vscode/julia-vscode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-java-test"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ManuelHentschel/VSCode-R-Debugger"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-openvsx/openvsx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "coder/code-server"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,12 +1,17 @@
 {
   "component": "kentaro-m/auto-assign-action@0a2c53d3721e4c5cfcce6afd4014aecc337979f6",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/autoassign.yml",
       "source_repo": "cbrgm/githubevents"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-assign-owners.yml",
+      "source_repo": "open-telemetry/opentelemetry-collector-contrib"
     }
   ]
 }

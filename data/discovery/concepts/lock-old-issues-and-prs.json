@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lock old issues and PRs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baldurk/renderdoc",
+      "status": "candidate-context",
+      "text": "RenderDoc is a stand-alone graphics debugging tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baldurk/renderdoc",
+      "status": "candidate-context",
+      "text": "Lock old issues and PRs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baldurk/renderdoc",
+      "status": "candidate",
+      "text": "Lock old issues and PRs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22481,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21251,
+      "status": "candidate",
+      "text": "beeb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21251,
+      "status": "candidate",
+      "text": "ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18259,
+      "status": "candidate",
+      "text": "dos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18131,
+      "status": "candidate",
+      "text": "keys"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lock old issues and PRs",
+  "concept_id": "lock-old-issues-and-prs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/inactivity-lock.yml",
+      "source_repo": "baldurk/renderdoc"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lock old issues and PRs",
+      "sense_id": "lock-old-issues-and-prs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

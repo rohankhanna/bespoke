@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csebuetnlp/CrossSum",
+      "target": "cross-lingual-summarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csebuetnlp/CrossSum",
+      "target": "cross-lingual-transfer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "csebuetnlp/CrossSum",
+      "target": "multilingual-nlp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:42:21.816463+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository contains the code, data, and models of the paper titled \"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\" published in Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL\u201923), July 9-14, 2023.",
+    "fork": false,
+    "full_name": "csebuetnlp/CrossSum",
+    "html_url": "https://github.com/csebuetnlp/CrossSum",
+    "language": "Python",
+    "pushed_at": "2024-03-26T06:21:41Z",
+    "stargazers_count": 53,
+    "topics": [
+      "cross-lingual-summarization",
+      "cross-lingual-transfer",
+      "multilingual-nlp"
+    ],
+    "updated_at": "2025-09-30T05:17:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the code, data, and models of the paper titled [**\"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\"**](https://aclanthology.org/2023.acl-long.143/) published in Proceedings of the 61st Annual Meeting of the Associat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-lingual-summarization"
+    },
+    {
+      "context_snippet": "This repository contains the code, data, and models of the paper titled [**\"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\"**](https://aclanthology.org/2023.acl-long.143/) published in Proceedings of the 61st Annual Meeting of the Associat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-lingual-transfer"
+    },
+    {
+      "context_snippet": "This repository contains the code, data, and models of the paper titled [**\"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\"**](https://aclanthology.org/2023.acl-long.143/) published in Proceedings of the 61st Annual Meeting of the Associat\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multilingual-nlp"
+    }
+  ]
+}

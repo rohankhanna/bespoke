@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Gradle CI.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Gradle CI.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release Publisher.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release Publisher.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release Publisher.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-mirai/chat-command",
+      "target": "itxtech/mirai-console-loader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Gradle CI.yml",
+      "source_repo": "project-mirai/chat-command",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Gradle CI.yml",
+      "source_repo": "project-mirai/chat-command",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Gradle CI.yml",
+      "source_repo": "project-mirai/chat-command",
+      "target": "Gradle CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release Publisher.yml",
+      "source_repo": "project-mirai/chat-command",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release Publisher.yml",
+      "source_repo": "project-mirai/chat-command",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Release Publisher.yml",
+      "source_repo": "project-mirai/chat-command",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release Publisher.yml",
+      "source_repo": "project-mirai/chat-command",
+      "target": "Release Publisher",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:41:43.438240+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1420
+    },
+    {
+      "path": ".github/workflows/Gradle CI.yml",
+      "size": 383
+    },
+    {
+      "path": ".github/workflows/Release Publisher.yml",
+      "size": 1114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Chat command executor for mirai-console",
+    "fork": false,
+    "full_name": "project-mirai/chat-command",
+    "html_url": "https://github.com/project-mirai/chat-command",
+    "language": "Kotlin",
+    "pushed_at": "2023-06-30T14:28:00Z",
+    "stargazers_count": 131,
+    "topics": [],
+    "updated_at": "2026-04-15T12:11:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "itxtech/mirai-console-loader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Gradle CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Gradle CI.yml",
+      "term": "Gradle CI"
+    },
+    {
+      "context_snippet": "Release Publisher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Release Publisher.yml",
+      "term": "Release Publisher"
+    }
+  ]
+}

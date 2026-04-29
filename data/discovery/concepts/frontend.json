@@ -112,6 +112,18 @@
       "source_repo": "grafana/pyroscope",
       "status": "candidate-context",
       "text": "frontend"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tachyons-css/tachyons",
+      "status": "candidate-context",
+      "text": "Functional css for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tachyons-css/tachyons",
+      "status": "candidate-context",
+      "text": "Functional CSS for humans."
     }
   ],
   "candidate_glosses": [
@@ -168,6 +180,12 @@
       "source_repo": "grafana/pyroscope",
       "status": "candidate",
       "text": "frontend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tachyons-css/tachyons",
+      "status": "candidate",
+      "text": "Functional CSS for humans."
     }
   ],
   "candidate_related_terms": [
@@ -265,11 +283,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/frontend.yml",
       "source_repo": "grafana/pyroscope"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tachyons-css/tachyons"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

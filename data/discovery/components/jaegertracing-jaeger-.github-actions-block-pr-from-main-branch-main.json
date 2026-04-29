@@ -1,0 +1,17 @@
+{
+  "component": "jaegertracing/jaeger/.github/actions/block-pr-from-main-branch@main",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "jaegertracing/documentation"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-build.yml",
+      "source_repo": "jaegertracing/jaeger-ui"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "evil"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doomemacs/doomemacs",
+      "status": "candidate-context",
+      "text": "An Emacs framework for the stubborn martian hacker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doomemacs/doomemacs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doomemacs/doomemacs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020980,
+      "status": "candidate",
+      "text": "malefic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020979,
+      "status": "candidate",
+      "text": "maleficent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020977,
+      "status": "candidate",
+      "text": "malign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020958,
+      "status": "candidate",
+      "text": "malevolent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020955,
+      "status": "candidate",
+      "text": "evil-minded"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 79035,
+      "status": "candidate",
+      "text": "malevolent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66034,
+      "status": "candidate",
+      "text": "grievous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 60037,
+      "status": "candidate",
+      "text": "malign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50035,
+      "status": "candidate",
+      "text": "atrocious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46046,
+      "status": "candidate",
+      "text": "wicked"
+    }
+  ],
+  "canonical_name": "evil",
+  "concept_id": "evil",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "doomemacs/doomemacs"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "evil",
+      "sense_id": "evil#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

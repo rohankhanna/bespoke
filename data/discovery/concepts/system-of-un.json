@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "system-of-un"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bernedom/SI",
+      "status": "candidate-context",
+      "text": "A header only C++ library that provides type safety and user defined literals for physical units"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bernedom/SI",
+      "status": "candidate-context",
+      "text": "-<img align=\"right\" src=\"SI-logo.jpg\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bernedom/SI",
+      "status": "candidate",
+      "text": "-<img align=\"right\" src=\"SI-logo.jpg\">"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "system-of-un",
+  "concept_id": "system-of-un",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bernedom/SI"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "system-of-un",
+      "sense_id": "system-of-un#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

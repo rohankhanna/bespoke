@@ -31,6 +31,30 @@
       "source_repo": "ronaldoussoren/py2app",
       "status": "candidate-context",
       "text": "py2app is a tool that will create standalone application"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eyalz800/serializer",
+      "status": "candidate-context",
+      "text": "A single header standard C++ serialization framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalz800/serializer",
+      "status": "candidate-context",
+      "text": "zpp serializer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aperezdc/lua-wcwidth",
+      "status": "candidate-context",
+      "text": "Pure Lua implementation of the wcwidth() function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aperezdc/lua-wcwidth",
+      "status": "candidate-context",
+      "text": "lua-wcwidth"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "ronaldoussoren/py2app",
       "status": "candidate",
       "text": "py2app is a tool that will create standalone application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalz800/serializer",
+      "status": "candidate",
+      "text": "zpp serializer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aperezdc/lua-wcwidth",
+      "status": "candidate",
+      "text": "lua-wcwidth"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ronaldoussoren/py2app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aperezdc/lua-wcwidth"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

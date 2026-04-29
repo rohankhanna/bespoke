@@ -9,11 +9,58 @@
       "source_kind": "repo-description",
       "status": "context-only",
       "text": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Add model like runner"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Add model like runner"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35866,
+      "status": "candidate",
+      "text": "flagellate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35844,
+      "status": "candidate",
+      "text": "miler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34994,
+      "status": "candidate",
+      "text": "tot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34989,
+      "status": "candidate",
+      "text": "porridge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34901,
+      "status": "candidate",
+      "text": "retouch"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -30,14 +77,16 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "add-model-like-runner",
   "observation_id": "70fbb146bd1521e1",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Add model like runner",
-  "source_context_snippet": null,
+  "source_context_snippet": "Add model like runner",
   "source_file": ".github/workflows/add-model-like.yml",
   "source_repo": "huggingface/transformers",
   "source_repo_description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "

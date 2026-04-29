@@ -1,0 +1,116 @@
+{
+  "components": [
+    {
+      "component": "dessant/repo-lockdown@0b093279a77b44bbc38e85089b5463dd06b4aea4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lockdown.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lockdown.yml",
+      "source_repo": "flashrom/flashrom",
+      "target": "dessant/repo-lockdown@0b093279a77b44bbc38e85089b5463dd06b4aea4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lockdown.yml",
+      "source_repo": "flashrom/flashrom",
+      "target": "Close issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashrom/flashrom",
+      "target": "firmware-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashrom/flashrom",
+      "target": "firmware-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashrom/flashrom",
+      "target": "firmware-updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashrom/flashrom",
+      "target": "firmware-updates",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:48:19.369580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1639
+    },
+    {
+      "path": ".github/workflows/lockdown.yml",
+      "size": 1823
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Send patches to https://review.coreboot.org: https://www.flashrom.org/Development_Guidelines#GitHub",
+    "fork": false,
+    "full_name": "flashrom/flashrom",
+    "html_url": "https://github.com/flashrom/flashrom",
+    "language": "C",
+    "pushed_at": "2026-04-29T18:41:59Z",
+    "stargazers_count": 1114,
+    "topics": [
+      "firmware-tools",
+      "firmware-update",
+      "firmware-updater",
+      "firmware-updates"
+    ],
+    "updated_at": "2026-04-29T18:42:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Close issues and PRs'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lockdown.yml",
+      "term": "Close issues and PRs"
+    },
+    {
+      "context_snippet": "flashrom README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firmware-tools"
+    },
+    {
+      "context_snippet": "flashrom README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firmware-update"
+    },
+    {
+      "context_snippet": "flashrom README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firmware-updater"
+    },
+    {
+      "context_snippet": "flashrom README",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firmware-updates"
+    }
+  ]
+}

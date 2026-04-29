@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "replicator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate-context",
+      "text": "Apache Kafka, Apache Flink and Confluent Platform examples and demos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate-context",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29941116,
+      "status": "candidate",
+      "text": "replicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29921365,
+      "status": "candidate",
+      "text": "partner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964529,
+      "status": "candidate",
+      "text": "replicon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964528,
+      "status": "candidate",
+      "text": "autoreproduction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19964527,
+      "status": "candidate",
+      "text": "bioreplicate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "replicator",
+  "concept_id": "replicator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/examples"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "replicator",
+      "sense_id": "replicator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "code"
+    "code",
+    "Code"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -103,6 +106,54 @@
       "source_repo": "mschwager/cohesion",
       "status": "candidate-context",
       "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate-context",
+      "text": "Count your code, quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate-context",
+      "text": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/rocm-docs-core",
+      "status": "candidate-context",
+      "text": " ROCm Documentation Python package for ReadTheDocs build standardization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-docs-core",
+      "status": "candidate-context",
+      "text": "Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/CodeGeeX2",
+      "status": "candidate-context",
+      "text": "CodeGeeX2: A More Powerful Multilingual Code Generation Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CodeGeeX2",
+      "status": "candidate-context",
+      "text": "![](resources/codegeex_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "laixintao/tokei-pie",
+      "status": "candidate-context",
+      "text": "Render tokei's output to interactive sunburst chart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "laixintao/tokei-pie",
+      "status": "candidate-context",
+      "text": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +204,30 @@
       "source_repo": "mschwager/cohesion",
       "status": "candidate",
       "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate",
+      "text": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rocm-docs-core",
+      "status": "candidate",
+      "text": "Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CodeGeeX2",
+      "status": "candidate",
+      "text": "![](resources/codegeex_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "laixintao/tokei-pie",
+      "status": "candidate",
+      "text": "[tool.poetry] name = \"tokei-pie\" version = \"1.2.2\" description = \"Draw a pie chart for tokei output.\" authors = [\"laixintao <laixintaoo@gmail.com>\"] readme = 'readme.md' [tool.poetry.dependencies] python = \"^3.6\" plotly = \"^5.4.0\" [tool.poetry.dev-dependencies] bumpversion = \"^0\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -322,11 +397,53 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ROCm/rocm-docs-core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "crev-dev/cargo-crev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "laixintao/tokei-pie"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

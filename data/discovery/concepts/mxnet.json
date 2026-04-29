@@ -79,6 +79,66 @@
       "source_repo": "bytedance/byteps",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.org/bytedance/byteps.svg?branch=master)](https://travis-ci.org/bytedance/byteps)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/mxnet",
+      "status": "candidate-context",
+      "text": "Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mxnet",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate-context",
+      "text": "Sandbox for training deep learning networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/multi-model-server",
+      "status": "candidate-context",
+      "text": "Multi Model Server is a tool for serving neural net models for inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/multi-model-server",
+      "status": "candidate-context",
+      "text": "Multi Model Server"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate-context",
+      "text": "NLP made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheese-roll/light-anime-face-detector",
+      "status": "candidate-context",
+      "text": "A fast and light-weighted anime face detection based on LFFD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheese-roll/light-anime-face-detector",
+      "status": "candidate-context",
+      "text": "![Demo GIF](/assets/demo.gif)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +177,36 @@
       "source_repo": "bytedance/byteps",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.org/bytedance/byteps.svg?branch=master)](https://travis-ci.org/bytedance/byteps)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mxnet",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/multi-model-server",
+      "status": "candidate",
+      "text": "Multi Model Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheese-roll/light-anime-face-detector",
+      "status": "candidate",
+      "text": "![Demo GIF](/assets/demo.gif)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +250,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "bytedance/byteps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/mxnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "osmr/imgclsmob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "awslabs/multi-model-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dmlc/gluon-nlp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cheese-roll/light-anime-face-detector"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

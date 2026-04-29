@@ -1,0 +1,112 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "target": "openai/point-e",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "target": "openai/glide-text2im",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "target": "compositionality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "target": "energy-based-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "target": "generative-model",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:47:42.589316+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12320
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2022] Compositional Generation using Diffusion Models",
+    "fork": false,
+    "full_name": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+    "html_url": "https://github.com/energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-04-24T21:51:19Z",
+    "stargazers_count": 486,
+    "topics": [
+      "compositionality",
+      "diffusion-models",
+      "ebm",
+      "energy-based-model",
+      "generative-model"
+    ],
+    "updated_at": "2026-04-28T15:04:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/glide-text2im",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/point-e",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![][colab]][composable-demo] [![][huggingface]][huggingface-demo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compositionality"
+    },
+    {
+      "context_snippet": "[![][colab]][composable-demo] [![][huggingface]][huggingface-demo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "[![][colab]][composable-demo] [![][huggingface]][huggingface-demo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "energy-based-model"
+    },
+    {
+      "context_snippet": "[![][colab]][composable-demo] [![][huggingface]][huggingface-demo]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    }
+  ]
+}

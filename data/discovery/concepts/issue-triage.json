@@ -103,6 +103,24 @@
       "source_repo": "microsoft/ai-dev-gallery",
       "status": "candidate-context",
       "text": "Issue Triage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/rover",
+      "status": "candidate-context",
+      "text": "The CLI for Apollo GraphOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/rover",
+      "status": "candidate-context",
+      "text": "\"Issue Triage\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/rover",
+      "status": "candidate-context",
+      "text": "Issue Triage"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +169,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/ai-dev-gallery",
+      "status": "candidate",
+      "text": "Issue Triage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/rover",
+      "status": "candidate",
+      "text": "\"Issue Triage\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/rover",
       "status": "candidate",
       "text": "Issue Triage"
     }
@@ -274,11 +304,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/issue-triage.yml",
       "source_repo": "microsoft/ai-dev-gallery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue-triage.lock.yml",
+      "source_repo": "apollographql/rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue-triage.md",
+      "source_repo": "apollographql/rover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/claude-issue-triage.yml",
+      "source_repo": "aden-hive/hive"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,71 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/critcmp",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "BurntSushi/critcmp",
+      "target": "dtolnay/rust-toolchain@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:47:42.062927+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4407
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 991
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1524
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A command line tool for comparing benchmarks run by Criterion.",
+    "fork": false,
+    "full_name": "BurntSushi/critcmp",
+    "html_url": "https://github.com/BurntSushi/critcmp",
+    "language": "Rust",
+    "pushed_at": "2024-09-25T20:47:24Z",
+    "stargazers_count": 263,
+    "topics": [],
+    "updated_at": "2026-03-29T20:46:34Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

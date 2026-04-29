@@ -84,7 +84,7 @@
   "normalized_form": "transformer",
   "observation_id": "1b2fa6652eda5d6a",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "transformer",
   "source_context_snippet": "<h1 align=\"center\"> \ud83d\udea8 AutoGPTQ is unmaintained - we suggest using <a href=\"https://github.com/ModelCloud/GPTQModel\">GPTQModel</a> for bug fixes and new models support \ud83d\udea8",
   "source_file": null,

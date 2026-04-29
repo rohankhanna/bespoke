@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u2601\ufe0f Build multimodal AI applications with cloud-native stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a href=\"https://pypi.org/project/jina/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/jina?label=Release&style=flat-square\"></a>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a href=\"https://pypi.org/project/jina/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/jina?label=Release&style=flat-square\"></a>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29721949,
+      "status": "candidate",
+      "text": "coordination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29713891,
+      "status": "candidate",
+      "text": "focal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29708887,
+      "status": "candidate",
+      "text": "coordinated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29708093,
+      "status": "candidate",
+      "text": "coordinating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29707769,
+      "status": "candidate",
+      "text": "organization"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "orchestration",
+      "sense_id": "orchestration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "orchestration",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "orchestration",
+  "observation_id": "76a6431d02b33fcf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "orchestration",
+  "source_context_snippet": "<a href=\"https://pypi.org/project/jina/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/jina?label=Release&style=flat-square\"></a>",
+  "source_file": null,
+  "source_repo": "jina-ai/serve",
+  "source_repo_description": "\u2601\ufe0f Build multimodal AI applications with cloud-native stack"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "github/super-linter/slim@4e51915f4a812abf59fed160bb14595c0a38a9e7",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    }
+  ]
+}

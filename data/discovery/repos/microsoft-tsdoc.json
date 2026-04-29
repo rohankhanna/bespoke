@@ -1,0 +1,186 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/tsdoc",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "microsoft/tsdoc",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/tsdoc",
+      "target": "comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/tsdoc",
+      "target": "doc-comments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/tsdoc",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/tsdoc",
+      "target": "jsdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/tsdoc",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/tsdoc",
+      "target": "parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/tsdoc",
+      "target": "rushstack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/tsdoc",
+      "target": "specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/tsdoc",
+      "target": "syntax",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:53:04.313407+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3458
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A doc comment standard for TypeScript",
+    "fork": false,
+    "full_name": "microsoft/tsdoc",
+    "html_url": "https://github.com/microsoft/tsdoc",
+    "language": "TypeScript",
+    "pushed_at": "2026-03-31T04:12:28Z",
+    "stargazers_count": 4949,
+    "topics": [
+      "comments",
+      "doc-comments",
+      "documentation",
+      "jsdoc",
+      "markdown",
+      "parser",
+      "rushstack",
+      "specification",
+      "syntax",
+      "typescript"
+    ],
+    "updated_at": "2026-04-23T11:51:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<table><tr><td>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comments"
+    },
+    {
+      "context_snippet": "<table><tr><td>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doc-comments"
+    },
+    {
+      "context_snippet": "<table><tr><td>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "<table><tr><td>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsdoc"
+    },
+    {
+      "context_snippet": "<table><tr><td>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "<table><tr><td>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    },
+    {
+      "context_snippet": "<table><tr><td>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rushstack"
+    },
+    {
+      "context_snippet": "<table><tr><td>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    },
+    {
+      "context_snippet": "<table><tr><td>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax"
+    }
+  ]
+}

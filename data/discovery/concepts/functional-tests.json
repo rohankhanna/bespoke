@@ -19,12 +19,30 @@
       "source_repo": "minio/minio",
       "status": "candidate-context",
       "text": "Functional Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/directpv",
+      "status": "candidate-context",
+      "text": "Kubernetes CSI driver for Direct Attached Storage :minidisc:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/directpv",
+      "status": "candidate-context",
+      "text": "Functional Tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "minio/minio",
+      "status": "candidate",
+      "text": "Functional Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/directpv",
       "status": "candidate",
       "text": "Functional Tests"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/go.yml",
       "source_repo": "minio/minio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/functests.yml",
+      "source_repo": "minio/directpv"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

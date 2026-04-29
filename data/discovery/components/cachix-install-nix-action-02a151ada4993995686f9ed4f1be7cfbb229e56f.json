@@ -1,0 +1,12 @@
+{
+  "component": "cachix/install-nix-action@02a151ada4993995686f9ed4f1be7cfbb229e56f",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-website.yml",
+      "source_repo": "nix-darwin/nix-darwin"
+    }
+  ]
+}

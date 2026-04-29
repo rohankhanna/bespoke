@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:23:47.800515+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -46,6 +46,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "ByteNess/aws-vault"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "Azure/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Build release.yml",
+      "source_repo": "avh4/elm-format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-build.yml",
+      "source_repo": "gomodule/redigo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "base/base"
     }
   ],
   "term": "Build & Release"

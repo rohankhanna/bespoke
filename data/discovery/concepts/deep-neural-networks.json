@@ -127,6 +127,90 @@
       "source_repo": "albanie/collaborative-experts",
       "status": "candidate-context",
       "text": "This repo provides code:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlexeyAB/darknet",
+      "status": "candidate-context",
+      "text": "YOLOv4 / Scaled-YOLOv4 / YOLO - Neural Networks for Object Detection (Windows and Linux version of Darknet )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexeyAB/darknet",
+      "status": "candidate-context",
+      "text": "* Read the FAQ: https://www.ccoderun.ca/programming/darknet_faq/"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IBM/FfDL",
+      "status": "candidate-context",
+      "text": "Fabric for Deep Learning (FfDL, pronounced fiddle) is a Deep Learning Platform offering TensorFlow, Caffe, PyTorch etc. as a Service on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/FfDL",
+      "status": "candidate-context",
+      "text": "> This repository will not be updated. The repository will be kept available in read-only mode."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adamdad/DeRy",
+      "status": "candidate-context",
+      "text": "[NeurIPS2022] Deep Model Reassembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adamdad/DeRy",
+      "status": "candidate-context",
+      "text": "This repository contains the offical implementation for our paper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenNMT/CTranslate2",
+      "status": "candidate-context",
+      "text": "Fast inference engine for Transformer models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenNMT/CTranslate2",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/OpenNMT/CTranslate2/workflows/CI/badge.svg)](https://github.com/OpenNMT/CTranslate2/actions?query=workflow%3ACI) [![PyPI version](https://badge.fury.io/py/ctranslate2.svg)](https://badge.fury.io/py/ctranslate2) [![Documentation](https://img.shields.io/b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rail-berkeley/softlearning",
+      "status": "candidate-context",
+      "text": "Softlearning is a reinforcement learning framework for training maximum entropy policies in continuous domains. Includes the official implementation of the Soft Actor-Critic algorithm."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rail-berkeley/softlearning",
+      "status": "candidate-context",
+      "text": "Softlearning is a deep reinforcement learning toolbox for training maximum entropy policies in continuous domains. The implementation is fairly thin and primarily optimized for our own development purposes. It utilizes the tf.keras modules for most of the model classes (e.g. pol\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/CNTK",
+      "status": "candidate-context",
+      "text": "Microsoft Cognitive Toolkit (CNTK), an open source deep-learning toolkit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CNTK",
+      "status": "candidate-context",
+      "text": "| **Chat** | **Windows build status** | **Linux build status** |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/torchsde",
+      "status": "candidate-context",
+      "text": "Differentiable SDE solvers with GPU support and efficient sensitivity analysis. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/torchsde",
+      "status": "candidate-context",
+      "text": "This library provides [stochastic differential equation (SDE)](https://en.wikipedia.org/wiki/Stochastic_differential_equation) solvers with GPU support and efficient backpropagation."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +273,48 @@
       "source_repo": "albanie/collaborative-experts",
       "status": "candidate",
       "text": "This repo provides code:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexeyAB/darknet",
+      "status": "candidate",
+      "text": "* Read the FAQ: https://www.ccoderun.ca/programming/darknet_faq/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/FfDL",
+      "status": "candidate",
+      "text": "> This repository will not be updated. The repository will be kept available in read-only mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adamdad/DeRy",
+      "status": "candidate",
+      "text": "This repository contains the offical implementation for our paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenNMT/CTranslate2",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/OpenNMT/CTranslate2/workflows/CI/badge.svg)](https://github.com/OpenNMT/CTranslate2/actions?query=workflow%3ACI) [![PyPI version](https://badge.fury.io/py/ctranslate2.svg)](https://badge.fury.io/py/ctranslate2) [![Documentation](https://img.shields.io/b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rail-berkeley/softlearning",
+      "status": "candidate",
+      "text": "Softlearning is a deep reinforcement learning toolbox for training maximum entropy policies in continuous domains. The implementation is fairly thin and primarily optimized for our own development purposes. It utilizes the tf.keras modules for most of the model classes (e.g. pol\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/CNTK",
+      "status": "candidate",
+      "text": "| **Chat** | **Windows build status** | **Linux build status** |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/torchsde",
+      "status": "candidate",
+      "text": "This library provides [stochastic differential equation (SDE)](https://en.wikipedia.org/wiki/Stochastic_differential_equation) solvers with GPU support and efficient backpropagation."
     }
   ],
   "candidate_related_terms": [],
@@ -268,11 +394,65 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AlexeyAB/darknet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "IBM/FfDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "teticio/Deej-AI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Adamdad/DeRy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OpenNMT/CTranslate2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rail-berkeley/softlearning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/CNTK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-research/torchsde"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

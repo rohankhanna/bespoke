@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:44:57.523321+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "yangjianxin1/LLMPruner",
+    "html_url": "https://github.com/yangjianxin1/LLMPruner",
+    "language": "Python",
+    "pushed_at": "2023-04-06T02:47:40Z",
+    "stargazers_count": 310,
+    "topics": [],
+    "updated_at": "2026-04-07T04:25:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -79,6 +79,18 @@
       "source_repo": "simplex-chat/simplex-chat",
       "status": "candidate-context",
       "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate-context",
+      "text": "The Cryspen HACL Distribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate-context",
+      "text": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*]."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "simplex-chat/simplex-chat",
       "status": "candidate",
       "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate",
+      "text": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*]."
     }
   ],
   "candidate_related_terms": [
@@ -204,11 +222,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "simplex-chat/simplex-chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cryspen/hacl-packages"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

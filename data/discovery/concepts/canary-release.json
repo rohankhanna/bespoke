@@ -57,6 +57,18 @@
       "source_repo": "parcel-bundler/parcel",
       "status": "candidate-context",
       "text": "canary-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate-context",
+      "text": "One configuration for all your GraphQL tools (supported by most tools, editors & IDEs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate-context",
+      "text": "Canary Release"
     }
   ],
   "candidate_glosses": [
@@ -83,6 +95,12 @@
       "source_repo": "parcel-bundler/parcel",
       "status": "candidate",
       "text": "canary-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate",
+      "text": "Canary Release"
     }
   ],
   "candidate_related_terms": [
@@ -150,11 +168,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/canary-release.yml",
       "source_repo": "parcel-bundler/parcel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "graphql-hive/graphql-config"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -463,6 +463,78 @@
       "source_repo": "softprops/hubcaps",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate-context",
+      "text": "A comprehensive Vim utility functions for Vim plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/vim-jp/vital.vim](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vim-jp/vital.vim?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "status": "candidate-context",
+      "text": "Track when books get added to your Libby/OverDrive library. Watchlists, multi-library profiles, cron-ready notifications. Agent Skills format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "status": "candidate-context",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blackjack4494/yt-dlc",
+      "status": "candidate-context",
+      "text": "media downloader and library for various sites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackjack4494/yt-dlc",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/blackjack4494/yt-dlc.svg?branch=master)](https://travis-ci.com/blackjack4494/yt-dlc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awaescher/OllamaSharp",
+      "status": "candidate-context",
+      "text": "The easiest way to use Ollama in .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awaescher/OllamaSharp",
+      "status": "candidate-context",
+      "text": "[![nuget version](https://img.shields.io/nuget/v/OllamaSharp)](https://www.nuget.org/packages/OllamaSharp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/poi",
+      "status": "candidate-context",
+      "text": "Mirror of Apache POI gitbox. The Java API for Microsoft Documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/poi",
+      "status": "candidate-context",
+      "text": "A Java library for reading and writing Microsoft Office binary and OOXML file formats."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "attractivechaos/klib",
+      "status": "candidate-context",
+      "text": "A standalone and lightweight C library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attractivechaos/klib",
+      "status": "candidate-context",
+      "text": "Klib is a standalone and lightweight C library distributed under [MIT/X11"
     }
   ],
   "candidate_glosses": [
@@ -693,6 +765,42 @@
       "source_repo": "softprops/hubcaps",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/vim-jp/vital.vim](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vim-jp/vital.vim?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackjack4494/yt-dlc",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/blackjack4494/yt-dlc.svg?branch=master)](https://travis-ci.com/blackjack4494/yt-dlc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awaescher/OllamaSharp",
+      "status": "candidate",
+      "text": "[![nuget version](https://img.shields.io/nuget/v/OllamaSharp)](https://www.nuget.org/packages/OllamaSharp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/poi",
+      "status": "candidate",
+      "text": "A Java library for reading and writing Microsoft Office binary and OOXML file formats."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "attractivechaos/klib",
+      "status": "candidate",
+      "text": "Klib is a standalone and lightweight C library distributed under [MIT/X11"
     }
   ],
   "candidate_related_terms": [
@@ -1003,11 +1111,53 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "softprops/hubcaps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vim-jp/vital.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-libby-book-monitor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "blackjack4494/yt-dlc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "awaescher/OllamaSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/poi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "attractivechaos/klib"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

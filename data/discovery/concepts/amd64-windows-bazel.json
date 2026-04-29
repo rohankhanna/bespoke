@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "amd64 Windows Bazel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pybind/pybind11_bazel",
+      "status": "candidate-context",
+      "text": "Bazel wrapper around the pybind11 repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/pybind11_bazel",
+      "status": "candidate-context",
+      "text": "amd64 Windows Bazel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pybind/pybind11_bazel",
+      "status": "candidate",
+      "text": "amd64 Windows Bazel"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "ia-32"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5050,
+      "status": "candidate",
+      "text": "x86"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "basel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "basle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "amd64 Windows Bazel",
+  "concept_id": "amd64-windows-bazel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/amd64_windows_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "amd64 Windows Bazel",
+      "sense_id": "amd64-windows-bazel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

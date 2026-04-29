@@ -16,15 +16,15 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T09:19:27.717182+00:00",
+  "fetched_at": "2026-04-29T20:46:52.711860+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 7697
+      "size": 7605
     },
     {
       "path": "requirements.txt",
-      "size": 218
+      "size": 414
     }
   ],
   "related_repositories": [],
@@ -36,10 +36,10 @@
     "full_name": "LoRexxar/Kunlun-M",
     "html_url": "https://github.com/LoRexxar/Kunlun-M",
     "language": "Python",
-    "pushed_at": "2026-04-24T09:05:25Z",
-    "stargazers_count": 2383,
+    "pushed_at": "2026-04-29T07:24:31Z",
+    "stargazers_count": 2382,
     "topics": [],
-    "updated_at": "2026-04-23T01:43:33Z"
+    "updated_at": "2026-04-29T06:33:07Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:40:58.003007+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Community-submitted Stacks Improvement Proposals (SIPs)",
+    "fork": true,
+    "full_name": "janniks/sips",
+    "html_url": "https://github.com/janniks/sips",
+    "language": "Shell",
+    "pushed_at": "2025-03-24T02:38:24Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-03-24T02:38:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "megvii-research/HiDiffusion",
+      "target": "megvii-model/hidiffusion",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:33.239863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18405
+    },
+    {
+      "path": "requirements.txt",
+      "size": 64
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV 2024] HiDiffusion: Increases the resolution and speed of your diffusion model by only adding a single line of code!",
+    "fork": false,
+    "full_name": "megvii-research/HiDiffusion",
+    "html_url": "https://github.com/megvii-research/HiDiffusion",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-01-07T10:04:51Z",
+    "stargazers_count": 841,
+    "topics": [],
+    "updated_at": "2026-04-23T14:00:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "megvii-model/hidiffusion",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

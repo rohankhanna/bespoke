@@ -4162,6 +4162,642 @@
       "source_repo": "sagiegurari/cargo-make",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fonttools/fontspector",
+      "status": "candidate-context",
+      "text": "Skrifa/Read-Fonts-based font QA tool (successor to fontbakery)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontspector",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googlefonts/shaperglot",
+      "status": "candidate-context",
+      "text": "Test font files for language support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/shaperglot",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate-context",
+      "text": "\ud83d\udd73 bore is a simple CLI tool for making tunnels to localhost"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate-context",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/ekzhang/bore/ci.yml)](https://github.com/ekzhang/bore/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Systemcluster/kitoken",
+      "status": "candidate-context",
+      "text": "Fast tokenizer for language models, compatible with SentencePiece, Tokenizers, Tiktoken and more. Supports BPE, Unigram and WordPiece tokenization in JavaScript, Python and Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/kitoken",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/kitoken)](https://crates.io/crates/kitoken)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/embedded-svc",
+      "status": "candidate-context",
+      "text": "Rust APIs and abstractions for various embedded services (WiFi, Network, Httpd, Logging, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/embedded-svc",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/esp-rs/embedded-svc/actions/workflows/ci.yml/badge.svg)](https://github.com/esp-rs/embedded-svc/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-idf-hal",
+      "status": "candidate-context",
+      "text": "embedded-hal implementation for Rust on ESP32 and ESP-IDF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-hal",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/esp-rs/esp-idf-hal/actions/workflows/ci.yml/badge.svg)](https://github.com/esp-rs/esp-idf-hal/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-idf-sys",
+      "status": "candidate-context",
+      "text": "Bindings for ESP-IDF (Espressif's IoT Development Framework)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-sys",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/esp-rs/esp-idf-sys/actions/workflows/ci.yml/badge.svg)](https://github.com/esp-rs/esp-idf-sys/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate-context",
+      "text": "Count your code, quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate-context",
+      "text": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "squidowl/halloy",
+      "status": "candidate-context",
+      "text": "IRC application written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidowl/halloy",
+      "status": "candidate-context",
+      "text": "<img src=\"./assets/banner.png\" alt=\"banner\" title=\"Icon by Rune Seir\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/rover",
+      "status": "candidate-context",
+      "text": "The CLI for Apollo GraphOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/rover",
+      "status": "candidate-context",
+      "text": "[![GitHub Release Downloads](https://shields.io/github/downloads/apollographql/rover/total.svg)](https://github.com/apollographql/rover/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate-context",
+      "text": "Static site generator written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate-context",
+      "text": "[![](https://img.shields.io/crates/v/cobalt-bin.svg?maxAge=25920)](https://crates.io/crates/cobalt-bin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate-context",
+      "text": "A spotify daemon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate-context",
+      "text": "[![Matrix][matrix-badge]](https://matrix.to/#/#spotifyd:matrix.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "noib3/nvim-oxi",
+      "status": "candidate-context",
+      "text": ":link: Rust bindings to all things Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noib3/nvim-oxi",
+      "status": "candidate-context",
+      "text": "[![Latest version]](https://crates.io/crates/nvim-oxi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/arrow-rs-object-store",
+      "status": "candidate-context",
+      "text": "Rust object_store crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-rs-object-store",
+      "status": "candidate-context",
+      "text": "rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "status": "candidate-context",
+      "text": "Eclipse Corrosion - Rust edition in Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "status": "candidate-context",
+      "text": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate-context",
+      "text": ":atom:  Atom client for Tabnine - Code Faster with the All-Language AI Assistant for Code Completion, autocomplete JavaScript, Python, TypeScript, PHP, Go, Java, node.js, Ruby, C/C++, HTML/CSS, C#, Rust, SQL, Bash, Kotlin, React, Swift, Scala, Sass, Perl, Objective C, Node JS, Matlab, Haskell, Dart, Angular. https://atom.io/packages/tabnine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "<img alt=\"FFF\" src=\"./assets/logo-orange.png\" width=\"300\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helix-editor/nucleo",
+      "status": "candidate-context",
+      "text": "A fast and convenient fuzzy matcher library for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-editor/nucleo",
+      "status": "candidate-context",
+      "text": "`nucleo` is a highly performant fuzzy matcher written in Rust. It aims to fill the same use case as `fzf` and `skim`. Compared to `fzf` `nucleo` has a significantly faster matching algorithm. This mainly makes a difference when matching patterns with low selectivity on many item\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate-context",
+      "text": "Cargo subcommand `release`: everything about releasing a rust crate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate-context",
+      "text": "> Streamline your crate release process"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JanLikar/cargo-clone",
+      "status": "candidate-context",
+      "text": "A cargo subcommand to fetch the source code of a Rust crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JanLikar/cargo-clone",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "killercup/cargo-edit",
+      "status": "candidate-context",
+      "text": "A utility for managing cargo dependencies from the command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "killercup/cargo-edit",
+      "status": "candidate-context",
+      "text": "This tool extends [Cargo](http://doc.crates.io/) to allow you to add, remove, and upgrade dependencies by modifying your `Cargo.toml` file from the command line."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate-context",
+      "text": "Nginx + WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "status": "candidate-context",
+      "text": "Strongly typed YAML library for Rust maintained by Bourumir Wyngs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dermesser/integer-encoding-rs",
+      "status": "candidate-context",
+      "text": "Integer encoding for primitive integer types: Supports varint/varint+zigzag and fixed-length integer encoding and decoding, and provides synchronous and asynchronous Write/Read types for easily writing/reading integers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dermesser/integer-encoding-rs",
+      "status": "candidate-context",
+      "text": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate-context",
+      "text": "Solidity Compiler for Solana, Polkadot and Stellar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/hyperledger/solang/main/docs/hl_solang_horizontal-color.svg\" alt=\"Solang Logo\" width=\"75%\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helix-editor/helix",
+      "status": "candidate-context",
+      "text": "A post-modern modal text editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-editor/helix",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate-context",
+      "text": "CommonMark + GFM compatible Markdown parser and renderer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/kivikakk/comrak/actions/workflows/rust.yml/badge.svg)](https://github.com/kivikakk/comrak/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulldown-cmark/pulldown-cmark",
+      "status": "candidate-context",
+      "text": "An efficient, reliable parser for CommonMark, a standard dialect of Markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulldown-cmark/pulldown-cmark",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulldown-cmark/pulldown-cmark",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/pulldown-cmark/pulldown-cmark/actions/workflows/rust.yml/badge.svg)](https://github.com/pulldown-cmark/pulldown-cmark/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smol-rs/async-channel",
+      "status": "candidate-context",
+      "text": "Async multi-producer multi-consumer channel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/async-channel",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/smol-rs/async-channel/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-lang/vscode-rust",
+      "status": "candidate-context",
+      "text": "Rust extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/vscode-rust",
+      "status": "candidate-context",
+      "text": "[![](https://vsmarketplacebadge.apphb.com/version/rust-lang.rust.svg)](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "Boa is an embeddable Javascript engine written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "A neovim integration for television"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psmux/pstop",
+      "status": "candidate-context",
+      "text": "htop for Windows . TUI system monitor with per-core CPU bars, memory/swap/network, tree view, process kill, 7 color schemes, mouse support. cargo install pstop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/pstop",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "status": "candidate-context",
+      "text": "A lightning fast version of tmux-fingers written in Rust, copy/pasting tmux like vimium/vimperator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/fcsonline/tmux-thumbs/workflows/Rust/badge.svg)](https://github.com/fcsonline/tmux-thumbs/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/examples",
+      "status": "candidate-context",
+      "text": "Community showcase and examples of Actix Web ecosystem usage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/examples",
+      "status": "candidate-context",
+      "text": "> Curated examples using the Actix ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "watchexec/cargo-watch",
+      "status": "candidate-context",
+      "text": "Watches over your Cargo project's source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/cargo-watch",
+      "status": "candidate-context",
+      "text": "[![Crate release version](https://flat.badgen.net/crates/v/cargo-watch)](https://crates.io/crates/cargo-watch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust3ds/ctru-rs",
+      "status": "candidate-context",
+      "text": "Rust wrapper for libctru"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust3ds/ctru-rs",
+      "status": "candidate-context",
+      "text": "This repository is home of the `ctru-rs` project, which aims to bring full control of the Nintendo 3DS console to homebrew developers using Rust."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyO3/setuptools-rust",
+      "status": "candidate-context",
+      "text": "Setuptools plugin for Rust support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/setuptools-rust",
+      "status": "candidate-context",
+      "text": "[![github actions](https://github.com/PyO3/setuptools-rust/actions/workflows/ci.yml/badge.svg)](https://github.com/PyO3/setuptools-rust/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "status": "candidate-context",
+      "text": "A relatively basic implementation of RWKV in Rust written by someone with very little math and ML knowledge. Supports 32, 8 and 4 bit evaluation. It can also directly load PyTorch RWKV models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "status": "candidate-context",
+      "text": "An example of the RWKV approach to language models written in Rust by someone that"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tower-rs/tower",
+      "status": "candidate-context",
+      "text": "async fn(Request) -> Result<Response, Error>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tower-rs/tower",
+      "status": "candidate-context",
+      "text": "Tower is a library of modular and reusable components for building robust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyO3/pyo3",
+      "status": "candidate-context",
+      "text": "Rust bindings for the Python interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/pyo3",
+      "status": "candidate-context",
+      "text": "[![actions status](https://img.shields.io/github/actions/workflow/status/PyO3/pyo3/ci.yml?branch=main&logo=github&style=)](https://github.com/PyO3/pyo3/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quickwit-oss/tantivy",
+      "status": "candidate-context",
+      "text": "Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/tantivy",
+      "status": "candidate-context",
+      "text": "[![Docs](https://docs.rs/tantivy/badge.svg)](https://docs.rs/crate/tantivy/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hanabi1224/RuAnnoy",
+      "status": "candidate-context",
+      "text": "Rust port of annoy (https://github.com/spotify/annoy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hanabi1224/RuAnnoy",
+      "status": "candidate-context",
+      "text": "[![main](https://github.com/hanabi1224/RuAnnoy/actions/workflows/main.yml/badge.svg)](https://github.com/hanabi1224/RuAnnoy/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tarkah/tickrs",
+      "status": "candidate-context",
+      "text": "Realtime ticker data in your terminal \ud83d\udcc8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tarkah/tickrs",
+      "status": "candidate-context",
+      "text": "[![Actions Status](https://github.com/tarkah/tickrs/workflows/Test/badge.svg)](https://github.com/tarkah/tickrs/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jeffa5/typstfmt",
+      "status": "candidate-context",
+      "text": "Moved to https://git.jeffas.net"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffa5/typstfmt",
+      "status": "candidate-context",
+      "text": "`typstfmt` is a formatter for [Typst](https://typst.app) code."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Marwes/pretty.rs",
+      "status": "candidate-context",
+      "text": "Wadler-style pretty-printing combinators in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Marwes/pretty.rs",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/Marwes/pretty.rs/actions/workflows/build.yml/badge.svg)](https://github.com/Marwes/pretty.rs/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dabevlohn/rand16",
+      "status": "candidate-context",
+      "text": "Yet another WASM plugin for Hyper-MCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dabevlohn/rand16",
+      "status": "candidate-context",
+      "text": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/glyphsets",
+      "status": "candidate-context",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate-context",
+      "text": "A cross-platform GUI library for Rust, inspired by Elm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate-context",
+      "text": "Panic messages for humans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate-context",
+      "text": "[![crates.io version][1]][2] [![build status][3]][4]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-rs",
+      "status": "candidate-context",
+      "text": "Spec compliant GraphQL Tools in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-rs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -6294,6 +6930,336 @@
       "source_repo": "sagiegurari/cargo-make",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontspector",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/shaperglot",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/ekzhang/bore/ci.yml)](https://github.com/ekzhang/bore/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/kitoken",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/kitoken)](https://crates.io/crates/kitoken)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/embedded-svc",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/esp-rs/embedded-svc/actions/workflows/ci.yml/badge.svg)](https://github.com/esp-rs/embedded-svc/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-hal",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/esp-rs/esp-idf-hal/actions/workflows/ci.yml/badge.svg)](https://github.com/esp-rs/esp-idf-hal/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-sys",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/esp-rs/esp-idf-sys/actions/workflows/ci.yml/badge.svg)](https://github.com/esp-rs/esp-idf-sys/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate",
+      "text": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidowl/halloy",
+      "status": "candidate",
+      "text": "<img src=\"./assets/banner.png\" alt=\"banner\" title=\"Icon by Rune Seir\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/rover",
+      "status": "candidate",
+      "text": "[![GitHub Release Downloads](https://shields.io/github/downloads/apollographql/rover/total.svg)](https://github.com/apollographql/rover/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate",
+      "text": "[![](https://img.shields.io/crates/v/cobalt-bin.svg?maxAge=25920)](https://crates.io/crates/cobalt-bin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate",
+      "text": "[![Matrix][matrix-badge]](https://matrix.to/#/#spotifyd:matrix.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noib3/nvim-oxi",
+      "status": "candidate",
+      "text": "[![Latest version]](https://crates.io/crates/nvim-oxi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/arrow-rs-object-store",
+      "status": "candidate",
+      "text": "rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "status": "candidate",
+      "text": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate",
+      "text": "<img alt=\"FFF\" src=\"./assets/logo-orange.png\" width=\"300\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-editor/nucleo",
+      "status": "candidate",
+      "text": "`nucleo` is a highly performant fuzzy matcher written in Rust. It aims to fill the same use case as `fzf` and `skim`. Compared to `fzf` `nucleo` has a significantly faster matching algorithm. This mainly makes a difference when matching patterns with low selectivity on many item\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate",
+      "text": "> Streamline your crate release process"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JanLikar/cargo-clone",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "killercup/cargo-edit",
+      "status": "candidate",
+      "text": "This tool extends [Cargo](http://doc.crates.io/) to allow you to add, remove, and upgrade dependencies by modifying your `Cargo.toml` file from the command line."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dermesser/integer-encoding-rs",
+      "status": "candidate",
+      "text": "[![GitHub repo](https://img.shields.io/badge/github-dermesser/integer--encoding-8da0cb?logo=github)](https://github.com/dermesser/integer-encoding-rs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/hyperledger/solang/main/docs/hl_solang_horizontal-color.svg\" alt=\"Solang Logo\" width=\"75%\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-editor/helix",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/kivikakk/comrak/actions/workflows/rust.yml/badge.svg)](https://github.com/kivikakk/comrak/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulldown-cmark/pulldown-cmark",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulldown-cmark/pulldown-cmark",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/pulldown-cmark/pulldown-cmark/actions/workflows/rust.yml/badge.svg)](https://github.com/pulldown-cmark/pulldown-cmark/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/async-channel",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/smol-rs/async-channel/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-lang/vscode-rust",
+      "status": "candidate",
+      "text": "[![](https://vsmarketplacebadge.apphb.com/version/rust-lang.rust.svg)](https://marketplace.visualstudio.com/items?itemName=rust-lang.rust)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/pstop",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/fcsonline/tmux-thumbs/workflows/Rust/badge.svg)](https://github.com/fcsonline/tmux-thumbs/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/examples",
+      "status": "candidate",
+      "text": "> Curated examples using the Actix ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/cargo-watch",
+      "status": "candidate",
+      "text": "[![Crate release version](https://flat.badgen.net/crates/v/cargo-watch)](https://crates.io/crates/cargo-watch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust3ds/ctru-rs",
+      "status": "candidate",
+      "text": "This repository is home of the `ctru-rs` project, which aims to bring full control of the Nintendo 3DS console to homebrew developers using Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/setuptools-rust",
+      "status": "candidate",
+      "text": "[![github actions](https://github.com/PyO3/setuptools-rust/actions/workflows/ci.yml/badge.svg)](https://github.com/PyO3/setuptools-rust/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "status": "candidate",
+      "text": "An example of the RWKV approach to language models written in Rust by someone that"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tower-rs/tower",
+      "status": "candidate",
+      "text": "Tower is a library of modular and reusable components for building robust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/pyo3",
+      "status": "candidate",
+      "text": "[![actions status](https://img.shields.io/github/actions/workflow/status/PyO3/pyo3/ci.yml?branch=main&logo=github&style=)](https://github.com/PyO3/pyo3/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/tantivy",
+      "status": "candidate",
+      "text": "[![Docs](https://docs.rs/tantivy/badge.svg)](https://docs.rs/crate/tantivy/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hanabi1224/RuAnnoy",
+      "status": "candidate",
+      "text": "[![main](https://github.com/hanabi1224/RuAnnoy/actions/workflows/main.yml/badge.svg)](https://github.com/hanabi1224/RuAnnoy/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tarkah/tickrs",
+      "status": "candidate",
+      "text": "[![Actions Status](https://github.com/tarkah/tickrs/workflows/Test/badge.svg)](https://github.com/tarkah/tickrs/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jeffa5/typstfmt",
+      "status": "candidate",
+      "text": "`typstfmt` is a formatter for [Typst](https://typst.app) code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Marwes/pretty.rs",
+      "status": "candidate",
+      "text": "[![build](https://github.com/Marwes/pretty.rs/actions/workflows/build.yml/badge.svg)](https://github.com/Marwes/pretty.rs/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dabevlohn/rand16",
+      "status": "candidate",
+      "text": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/glyphsets",
+      "status": "candidate",
+      "text": "Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate",
+      "text": "[![crates.io version][1]][2] [![build status][3]][4]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-rs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -9103,11 +10069,485 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "sagiegurari/cargo-make"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "fonttools/fontspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "googlefonts/shaperglot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ekzhang/bore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Systemcluster/kitoken"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "esp-rs/embedded-svc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "esp-rs/esp-idf-hal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "esp-rs/esp-idf-sys"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "squidowl/halloy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/rover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vaporif/parry-guard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cobalt-org/cobalt.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Spotifyd/spotifyd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "noib3/nvim-oxi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/arrow-rs-object-store"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "helix-editor/nucleo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "JanLikar/cargo-clone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "killercup/cargo-edit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Kong/ngx_wasm_module"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dermesser/integer-encoding-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hyperledger-solang/solang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tikv/grpc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "helix-editor/helix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "kivikakk/comrak"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kivikakk/comrak"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "pulldown-cmark/pulldown-cmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pulldown-cmark/pulldown-cmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "smol-rs/async-channel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/poly-commit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "arkworks-rs/std"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "Layr-Labs/bn254-bls-keystore-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "winfunc/opcode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dirs-dev/dirs-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/vscode-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "boa-dev/boa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "wasm-bindgen/wasm-pack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexpasmantier/tv.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "fcsonline/tmux-thumbs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fcsonline/tmux-thumbs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "actix/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-rust-actix-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/cargo-watch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rust3ds/ctru-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "safetensors/safetensors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PyO3/setuptools-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "KerfuffleV2/smolrsrwkv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tower-rs/tower"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/datafusion-ballista-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PyO3/pyo3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hanabi1224/RuAnnoy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tarkah/tickrs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jeffa5/typstfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Marwes/pretty.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dabevlohn/rand16"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "extism/extism"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "googlefonts/glyphsets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "iced-rs/iced"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rust-cli/human-panic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "notify-rs/notify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "georust/geo"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

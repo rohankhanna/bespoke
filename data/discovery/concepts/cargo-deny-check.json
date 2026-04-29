@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Cargo-deny Check"
+    "Cargo-deny Check",
+    "Cargo deny check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "bytedance/monoio",
       "status": "candidate-context",
       "text": "Cargo-deny Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matter-labs/zksync-airbender",
+      "status": "candidate-context",
+      "text": "RISC-V prover system for ZKsync OS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync-airbender",
+      "status": "candidate-context",
+      "text": "Cargo deny check"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "bytedance/monoio",
       "status": "candidate",
       "text": "Cargo-deny Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync-airbender",
+      "status": "candidate",
+      "text": "Cargo deny check"
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +83,41 @@
       "score": 26424,
       "status": "candidate",
       "text": "ascertain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34256,
+      "status": "candidate",
+      "text": "tally"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18412,
+      "status": "candidate",
+      "text": "refuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18290,
+      "status": "candidate",
+      "text": "defend"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18260,
+      "status": "candidate",
+      "text": "turn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18257,
+      "status": "candidate",
+      "text": "discharge"
     }
   ],
   "candidate_synonyms": [],
@@ -76,11 +130,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/cargo-deny.yml",
       "source_repo": "bytedance/monoio"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/deny.yml",
+      "source_repo": "matter-labs/zksync-airbender"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

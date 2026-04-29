@@ -1,0 +1,17 @@
+{
+  "component": "appany/helm-oci-chart-releaser@v0.4.2",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud"
+    }
+  ]
+}

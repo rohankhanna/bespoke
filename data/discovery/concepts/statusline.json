@@ -109,6 +109,18 @@
       "source_repo": "datwaft/bubbly.nvim",
       "status": "candidate-context",
       "text": "Bubbly statusline for neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate-context",
+      "text": "Utility functions for getting diagnostic status and progress messages from LSP servers, for use in the Neovim statusline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate-context",
+      "text": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client."
     }
   ],
   "candidate_glosses": [
@@ -159,6 +171,12 @@
       "source_repo": "datwaft/bubbly.nvim",
       "status": "candidate",
       "text": "Bubbly statusline for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate",
+      "text": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client."
     }
   ],
   "candidate_related_terms": [],
@@ -226,11 +244,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "datwaft/bubbly.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvim-lua/lsp-status.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

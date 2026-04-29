@@ -67,6 +67,18 @@
       "source_repo": "BcryptNet/bcrypt.net",
       "status": "candidate-context",
       "text": "FROM mcr.microsoft.com/dotnet/sdk:9.0 AS test WORKDIR /src COPY ./ ./ #RUN dotnet test BCrypt.Net.UnitTests RUN dotnet build BCrypt.Net.sln -c Benchmark --framework net9.0 RUN dotnet run --project Benchmark/Benchmark.csproj -c Benchmark --framework net9.0"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NuGet/NuGetGallery",
+      "status": "candidate-context",
+      "text": "NuGet Gallery is a package repository that powers https://www.nuget.org. Use this repo for reporting NuGet.org issues."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGetGallery",
+      "status": "candidate-context",
+      "text": "\ufeff[NuGet Gallery](https://www.nuget.org/) \u2014 Where packages are found"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "BcryptNet/bcrypt.net",
       "status": "candidate",
       "text": "FROM mcr.microsoft.com/dotnet/sdk:9.0 AS test WORKDIR /src COPY ./ ./ #RUN dotnet test BCrypt.Net.UnitTests RUN dotnet build BCrypt.Net.sln -c Benchmark --framework net9.0 RUN dotnet run --project Benchmark/Benchmark.csproj -c Benchmark --framework net9.0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGetGallery",
+      "status": "candidate",
+      "text": "\ufeff[NuGet Gallery](https://www.nuget.org/) \u2014 Where packages are found"
     }
   ],
   "candidate_related_terms": [
@@ -178,11 +196,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "BcryptNet/bcrypt.net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "NuGet/NuGetGallery"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

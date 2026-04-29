@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "depup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate-context",
+      "text": "A comprehensive Vim utility functions for Vim plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate-context",
+      "text": "depup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-suggester",
+      "status": "candidate-context",
+      "text": ":dog: Suggests any code changes based on diff through GitHub Multi-line code suggestions by using reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-suggester",
+      "status": "candidate-context",
+      "text": "depup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate",
+      "text": "depup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-suggester",
+      "status": "candidate",
+      "text": "depup"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "depup",
+  "concept_id": "depup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "vim-jp/vital.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-suggester"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "depup",
+      "sense_id": "depup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

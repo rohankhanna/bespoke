@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazel-contrib/rules_jvm_external",
+      "target": "bazelbuild/rules_jvm_external",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazel-contrib/rules_jvm_external",
+      "target": "google/bazel-common",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bazel-contrib/rules_jvm_external",
+      "target": "coursier/coursier",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_jvm_external",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_jvm_external",
+      "target": "maven",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:56:28.672298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 39630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bazel rules to resolve, fetch and export Maven artifacts",
+    "fork": false,
+    "full_name": "bazel-contrib/rules_jvm_external",
+    "html_url": "https://github.com/bazel-contrib/rules_jvm_external",
+    "language": "Java",
+    "pushed_at": "2026-04-21T15:24:42Z",
+    "stargazers_count": 371,
+    "topics": [
+      "bazel",
+      "maven"
+    ],
+    "updated_at": "2026-04-21T15:24:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/rules_jvm_external",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coursier/coursier",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/bazel-common",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Transitive Maven artifact resolution and publishing rules for Bazel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "Transitive Maven artifact resolution and publishing rules for Bazel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maven"
+    }
+  ]
+}

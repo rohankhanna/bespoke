@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qwopqwop200/lama-with-maskdino",
+      "target": "idea-research/maskdino",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qwopqwop200/lama-with-maskdino",
+      "target": "geomagical/lama-with-refiner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qwopqwop200/lama-with-maskdino",
+      "target": "idea-research/detrex-storage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "qwopqwop200/lama-with-maskdino",
+      "target": "meamarp/maskdino",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:00.642618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2496
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " automatic image inpainting (lama(with refinement) and maskdino)",
+    "fork": false,
+    "full_name": "qwopqwop200/lama-with-maskdino",
+    "html_url": "https://github.com/qwopqwop200/lama-with-maskdino",
+    "language": "Python",
+    "pushed_at": "2023-02-02T09:03:20Z",
+    "stargazers_count": 46,
+    "topics": [],
+    "updated_at": "2026-03-02T01:37:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geomagical/lama-with-refiner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/detrex-storage",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idea-research/maskdino",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meamarp/maskdino",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

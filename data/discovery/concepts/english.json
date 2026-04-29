@@ -67,6 +67,18 @@
       "source_repo": "high-moctane/nextword-data",
       "status": "candidate-context",
       "text": "[Mocword](https://github.com/high-moctane/mocword) is more advanced engine than Nextword."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "high-moctane/mocword",
+      "status": "candidate-context",
+      "text": "Predict next words (\uff40\uff65\u03c9\uff65\u00b4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/mocword",
+      "status": "candidate-context",
+      "text": "[![Release](https://github.com/high-moctane/mocword/actions/workflows/release.yml/badge.svg)](https://github.com/high-moctane/mocword/actions/workflows/release.yml)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "high-moctane/nextword-data",
       "status": "candidate",
       "text": "[Mocword](https://github.com/high-moctane/mocword) is more advanced engine than Nextword."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/mocword",
+      "status": "candidate",
+      "text": "[![Release](https://github.com/high-moctane/mocword/actions/workflows/release.yml/badge.svg)](https://github.com/high-moctane/mocword/actions/workflows/release.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -201,11 +219,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "high-moctane/nextword-data"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "high-moctane/mocword"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

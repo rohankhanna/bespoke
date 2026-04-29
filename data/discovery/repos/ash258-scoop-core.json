@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ash258/Scoop-Core",
+      "target": "shovel-org/base",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ash258/Scoop-Core",
+      "target": "ash258/scoop-jetbrains",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ash258/Scoop-Core",
+      "target": "scoopinstaller/php",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ash258/Scoop-Core",
+      "target": "scoopinstaller/versions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ash258/Scoop-Core",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ash258/Scoop-Core",
+      "target": "installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ash258/Scoop-Core",
+      "target": "shovel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ash258/Scoop-Core",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:56:03.749110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4861
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Shovel. Alternative, more advanced, and user-friendly implementation of windows command-line installer scoop.",
+    "fork": true,
+    "full_name": "Ash258/Scoop-Core",
+    "html_url": "https://github.com/Ash258/Scoop-Core",
+    "language": "PowerShell",
+    "pushed_at": "2023-07-27T21:53:10Z",
+    "stargazers_count": 214,
+    "topics": [
+      "command-line",
+      "installer",
+      "shovel",
+      "windows"
+    ],
+    "updated_at": "2026-04-20T00:12:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ash258/scoop-jetbrains",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scoopinstaller/php",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scoopinstaller/versions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shovel-org/base",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Command-line installer for Windows",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "Command-line installer for Windows",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "installer"
+    },
+    {
+      "context_snippet": "Command-line installer for Windows",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shovel"
+    },
+    {
+      "context_snippet": "Command-line installer for Windows",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "scedit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "modelscope/scepter",
+      "status": "candidate-context",
+      "text": "SCEPTER is an open-source framework used for training, fine-tuning, and inference with generative models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/scepter",
+      "status": "candidate-context",
+      "text": "-r requirements/framework.txt -r requirements/scepter_studio.txt"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "modelscope/scepter",
+      "status": "candidate",
+      "text": "-r requirements/framework.txt -r requirements/scepter_studio.txt"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "scedit",
+  "concept_id": "scedit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "modelscope/scepter"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scedit",
+      "sense_id": "scedit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

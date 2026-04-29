@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "@faker-js/faker",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "dotenv",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "graphql",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "graphql-request",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "js-yaml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prompts",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/connectors-community",
+      "target": "@faker-js/faker",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/connectors-community",
+      "target": "dotenv",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/connectors-community",
+      "target": "graphql",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/connectors-community",
+      "target": "graphql-request",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/connectors-community",
+      "target": "js-yaml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "apollographql/connectors-community",
+      "target": "prompts",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/connectors-community",
+      "target": "connector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/connectors-community",
+      "target": "orchestration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:56:55.976237+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4635
+    },
+    {
+      "path": "package.json",
+      "size": 586
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A community space to share fully working and production ready Apollo Connectors",
+    "fork": false,
+    "full_name": "apollographql/connectors-community",
+    "html_url": "https://github.com/apollographql/connectors-community",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-28T23:41:07Z",
+    "stargazers_count": 20,
+    "topics": [
+      "api",
+      "connector",
+      "orchestration"
+    ],
+    "updated_at": "2026-03-09T00:05:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository is for builders to share API connectors to help accelerate the community with rich starting points. The basic workflow functionality below can help a builder get a new project started in seconds with a fantastic developer experience.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "connector"
+    },
+    {
+      "context_snippet": "This repository is for builders to share API connectors to help accelerate the community with rich starting points. The basic workflow functionality below can help a builder get a new project started in seconds with a fantastic developer experience.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "orchestration"
+    }
+  ]
+}

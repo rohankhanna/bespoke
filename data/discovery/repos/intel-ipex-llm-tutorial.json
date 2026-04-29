@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/ipex-llm-tutorial",
+      "target": "intel-analytics/ipex-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "intel/ipex-llm-tutorial",
+      "target": "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "intel/ipex-llm-tutorial",
+      "target": "ossf/scorecard-action@0864cf19026789058feabb7e87baa5f140aac736",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "intel/ipex-llm-tutorial",
+      "target": "actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "intel/ipex-llm-tutorial",
+      "target": "github/codeql-action/upload-sarif@17573ee1cc1b9d061760f3a006fc4aac4f944fd5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "intel/ipex-llm-tutorial",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:50:27.649807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1893
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 3024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Accelerate LLM with low-bit (FP4 / INT4 / FP8 / INT8) optimizations using ipex-llm",
+    "fork": false,
+    "full_name": "intel/ipex-llm-tutorial",
+    "html_url": "https://github.com/intel/ipex-llm-tutorial",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-04-29T01:41:09Z",
+    "stargazers_count": 171,
+    "topics": [],
+    "updated_at": "2026-04-18T13:52:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel-analytics/ipex-llm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    }
+  ]
+}

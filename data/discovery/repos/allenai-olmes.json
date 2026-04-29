@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "allenai/olmes",
+      "target": "allenai/olmo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "allenai/olmes",
+      "target": "allenai/olmes-docker",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:53:58.854675+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9854
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reproducible, flexible LLM evaluations",
+    "fork": false,
+    "full_name": "allenai/olmes",
+    "html_url": "https://github.com/allenai/olmes",
+    "language": "Python",
+    "pushed_at": "2026-03-24T17:47:10Z",
+    "stargazers_count": 367,
+    "topics": [],
+    "updated_at": "2026-04-28T23:40:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/olmes-docker",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenai/olmo",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

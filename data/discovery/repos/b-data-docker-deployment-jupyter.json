@@ -1,0 +1,304 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "piotrpalarz/vscode-gitignore-generator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "cdr/code-server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "randy3k/radian",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "defeo/jupyterhub-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "amd64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "arm64",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "code-oss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "data-science",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "jupyter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "jupyterhub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "jupyterlab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "multi-arch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "podman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "rstudio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "target": "vscode",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:39:39.113687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12296
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Containerised Jupyter deployment. Please submit Pull Requests to the GitLab repository. Mirror of",
+    "fork": false,
+    "full_name": "b-data/docker-deployment-jupyter",
+    "html_url": "https://github.com/b-data/docker-deployment-jupyter",
+    "language": "Python",
+    "pushed_at": "2026-01-05T12:28:39Z",
+    "stargazers_count": 3,
+    "topics": [
+      "amd64",
+      "arm64",
+      "code-oss",
+      "container",
+      "data-science",
+      "deployment",
+      "docker",
+      "ide",
+      "jupyter",
+      "jupyterhub",
+      "jupyterlab",
+      "language",
+      "multi-arch",
+      "podman",
+      "programming-language",
+      "rstudio",
+      "vscode"
+    ],
+    "updated_at": "2026-01-05T12:27:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cdr/code-server",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "defeo/jupyterhub-docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "piotrpalarz/vscode-gitignore-generator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "randy3k/radian",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amd64"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arm64"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-oss"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-science"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployment"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterhub"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyterlab"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-arch"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "podman"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rstudio"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable line-length -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode"
+    }
+  ]
+}

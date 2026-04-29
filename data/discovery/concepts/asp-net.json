@@ -19,6 +19,18 @@
       "source_repo": "OrchardCMS/OrchardCore",
       "status": "candidate-context",
       "text": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "status": "candidate-context",
+      "text": "A starter project for working with Redis and C#/ASP.NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "status": "candidate-context",
+      "text": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "OrchardCMS/OrchardCore",
       "status": "candidate",
       "text": "Orchard Core is an open-source, modular, multi-tenant application framework and CMS for ASP.NET Core."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "status": "candidate",
+      "text": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "OrchardCMS/OrchardCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

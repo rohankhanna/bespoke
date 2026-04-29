@@ -12,21 +12,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "JIA-Lab-research/LongLoRA",
-      "target": "mit-han-lab/streaming-llm",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/LongLoRA",
       "target": "microsoft/deepspeed",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "JIA-Lab-research/LongLoRA",
-      "target": "epfml/landmark-attention",
       "target_type": "repository"
     },
     {
@@ -58,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:59:56.353946+00:00",
+  "fetched_at": "2026-04-29T21:49:52.431787+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -79,7 +65,7 @@
     "html_url": "https://github.com/JIA-Lab-research/LongLoRA",
     "language": "Python",
     "pushed_at": "2024-08-14T12:48:54Z",
-    "stargazers_count": 2693,
+    "stargazers_count": 2694,
     "topics": [
       "fine-tuning-llm",
       "large-language-models",
@@ -87,7 +73,7 @@
       "long-context",
       "lora"
     ],
-    "updated_at": "2026-04-23T11:16:31Z"
+    "updated_at": "2026-04-29T04:20:03Z"
   },
   "repo_links": [
     {
@@ -97,17 +83,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "epfml/landmark-attention",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "microsoft/deepspeed",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mit-han-lab/streaming-llm",
       "source_file": "README.md"
     }
   ],

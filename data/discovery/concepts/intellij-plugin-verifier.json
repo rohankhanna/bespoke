@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Intellij Plugin Verifier"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djblue/portal",
+      "status": "candidate-context",
+      "text": "A clojure tool to navigate through your data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djblue/portal",
+      "status": "candidate-context",
+      "text": "Intellij Plugin Verifier"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djblue/portal",
+      "status": "candidate",
+      "text": "Intellij Plugin Verifier"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10614,
+      "status": "candidate",
+      "text": "blot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10614,
+      "status": "candidate",
+      "text": "cosigner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10614,
+      "status": "candidate",
+      "text": "curb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10614,
+      "status": "candidate",
+      "text": "essay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10614,
+      "status": "candidate",
+      "text": "inkblot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Intellij Plugin Verifier",
+  "concept_id": "intellij-plugin-verifier",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ij-plugin.yaml",
+      "source_repo": "djblue/portal"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Intellij Plugin Verifier",
+      "sense_id": "intellij-plugin-verifier#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Earthly Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "earthly/earthly",
+      "status": "candidate-context",
+      "text": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax \u2013 like Dockerfile and Makefile had a baby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "earthly/earthly",
+      "status": "candidate-context",
+      "text": "Earthly Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "earthly/earthly",
+      "status": "candidate",
+      "text": "Earthly Build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11064,
+      "status": "candidate",
+      "text": "earth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11064,
+      "status": "candidate",
+      "text": "eden"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11064,
+      "status": "candidate",
+      "text": "tomb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11019,
+      "status": "candidate",
+      "text": "acre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11019,
+      "status": "candidate",
+      "text": "life"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Earthly Build",
+  "concept_id": "earthly-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build-earthly.yml",
+      "source_repo": "earthly/earthly"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Earthly Build",
+      "sense_id": "earthly-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

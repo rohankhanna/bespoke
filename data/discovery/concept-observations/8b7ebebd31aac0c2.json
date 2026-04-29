@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Benchmark for tokenizers. Utility to compare the performance of different tokenizers with different datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[project] name = \"tokenizer-bench\" description = \"Benchmark for tokenizers.\" version = \"0.0.0\" requires-python = \">=3.12,<3.13\" authors = [{ name = \"Christian Sdunek\", email = \"me@systemcluster.me\" }] urls = { repository = \"https://github.com/Systemcluster/tokenizer-bench\" } dep\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[project] name = \"tokenizer-bench\" description = \"Benchmark for tokenizers.\" version = \"0.0.0\" requires-python = \">=3.12,<3.13\" authors = [{ name = \"Christian Sdunek\", email = \"me@systemcluster.me\" }] urls = { repository = \"https://github.com/Systemcluster/tokenizer-bench\" } dep\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023780,
+      "status": "candidate",
+      "text": "tokeniser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023779,
+      "status": "candidate",
+      "text": "parser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023778,
+      "status": "candidate",
+      "text": "lexical analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023777,
+      "status": "candidate",
+      "text": "terp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10023776,
+      "status": "candidate",
+      "text": "serializer"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tokenizer",
+      "sense_id": "tokenizer#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tokenizer",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tokenizer",
+  "observation_id": "8b7ebebd31aac0c2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "tokenizer",
+  "source_context_snippet": "[project] name = \"tokenizer-bench\" description = \"Benchmark for tokenizers.\" version = \"0.0.0\" requires-python = \">=3.12,<3.13\" authors = [{ name = \"Christian Sdunek\", email = \"me@systemcluster.me\" }] urls = { repository = \"https://github.com/Systemcluster/tokenizer-bench\" } dep\u2026",
+  "source_file": null,
+  "source_repo": "Systemcluster/tokenizer-bench",
+  "source_repo_description": "Benchmark for tokenizers. Utility to compare the performance of different tokenizers with different datasets."
+}

@@ -1,0 +1,507 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-nightly-releases.yaml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issues.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reopen-issues.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "gaparmar/img2img-turbo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "mit-han-lab/hart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "efeslab/atom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "Build Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-nightly-releases.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-nightly-releases.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "Clean Old Nightly Releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "Close Inactive Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nightly-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "Nightly Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-test.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "PR Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "Release Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reopen-issues.yaml",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "comfyui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "flux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "iclr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "iclr2025",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "lora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "mlsys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku",
+      "target": "quantization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:50:11.217697+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17515
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2575
+    },
+    {
+      "path": ".github/workflows/build-docs.yaml",
+      "size": 2045
+    },
+    {
+      "path": ".github/workflows/clean-nightly-releases.yaml",
+      "size": 1307
+    },
+    {
+      "path": ".github/workflows/close-inactive-issues.yaml",
+      "size": 3739
+    },
+    {
+      "path": ".github/workflows/lint.yaml",
+      "size": 613
+    },
+    {
+      "path": ".github/workflows/nightly-build.yaml",
+      "size": 5564
+    },
+    {
+      "path": ".github/workflows/pr-test.yaml",
+      "size": 3722
+    },
+    {
+      "path": ".github/workflows/release-build.yaml",
+      "size": 5169
+    },
+    {
+      "path": ".github/workflows/reopen-issues.yaml",
+      "size": 2689
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models",
+    "fork": false,
+    "full_name": "nunchaku-ai/nunchaku",
+    "html_url": "https://github.com/nunchaku-ai/nunchaku",
+    "language": "Python",
+    "pushed_at": "2026-03-07T06:42:49Z",
+    "stargazers_count": 3825,
+    "topics": [
+      "comfyui",
+      "diffusion-models",
+      "flux",
+      "genai",
+      "iclr",
+      "iclr2025",
+      "lora",
+      "mlsys",
+      "quantization"
+    ],
+    "updated_at": "2026-04-29T08:18:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "efeslab/atom",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gaparmar/img2img-turbo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/hart",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-docs.yaml",
+      "term": "Build Docs"
+    },
+    {
+      "context_snippet": "Clean Old Nightly Releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-nightly-releases.yaml",
+      "term": "Clean Old Nightly Releases"
+    },
+    {
+      "context_snippet": "Close Inactive Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "term": "Close Inactive Issues"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Nightly Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nightly-build.yaml",
+      "term": "Nightly Build"
+    },
+    {
+      "context_snippet": "PR Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-test.yaml",
+      "term": "PR Tests"
+    },
+    {
+      "context_snippet": "Release Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-build.yaml",
+      "term": "Release Build"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "comfyui"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iclr"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iclr2025"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlsys"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"nunchaku_logo\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    }
+  ]
+}

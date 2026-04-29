@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "cuiziteng/aleth-nerf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "li-chongyi/zero-dce",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "cuiziteng/iccv_maet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "bmvc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "exposure-correction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "image-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "low-level-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "low-light-enhance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "low-light-image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "transformer-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cuiziteng/Illumination-Adaptive-Transformer",
+      "target": "transformer-models",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "cuiziteng/Illumination-Adaptive-Transformer"
+}

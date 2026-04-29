@@ -1243,7 +1243,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T19:19:48.037268+00:00",
+  "fetched_at": "2026-04-29T22:00:00.774001+00:00",
   "fetched_files": [
     {
       "path": "package.json",
@@ -1287,8 +1287,8 @@
     "full_name": "coder/code-server",
     "html_url": "https://github.com/coder/code-server",
     "language": "TypeScript",
-    "pushed_at": "2026-04-17T19:14:57Z",
-    "stargazers_count": 77224,
+    "pushed_at": "2026-04-27T17:59:20Z",
+    "stargazers_count": 77329,
     "topics": [
       "browser-ide",
       "dev-tools",
@@ -1298,7 +1298,7 @@
       "vscode",
       "vscode-remote"
     ],
-    "updated_at": "2026-04-22T18:25:08Z"
+    "updated_at": "2026-04-29T21:56:39Z"
   },
   "repo_links": [],
   "terms": [

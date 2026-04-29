@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LargeKernel3D: Scaling up Kernels in 3D Sparse CNNs (CVPR 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is the implementation of ***LargeKernel3D*** (CVPR 2023). Large kernels are important but expensive in 3D CNNs. We propose spatial-wise partition to conv enable 3D large kernels. High performance on 3D semantic segmentation & object detection."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is the implementation of ***LargeKernel3D*** (CVPR 2023). Large kernels are important but expensive in 3D CNNs. We propose spatial-wise partition to conv enable 3D large kernels. High performance on 3D semantic segmentation & object detection."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "semantic-segmentation",
+      "sense_id": "semantic-segmentation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "semantic-segmentation",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "semantic-segmentation",
+  "observation_id": "643cec3d0ef38002",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "semantic-segmentation",
+  "source_context_snippet": "This is the implementation of ***LargeKernel3D*** (CVPR 2023). Large kernels are important but expensive in 3D CNNs. We propose spatial-wise partition to conv enable 3D large kernels. High performance on 3D semantic segmentation & object detection.",
+  "source_file": null,
+  "source_repo": "JIA-Lab-research/LargeKernel3D",
+  "source_repo_description": "LargeKernel3D: Scaling up Kernels in 3D Sparse CNNs (CVPR 2023)"
+}

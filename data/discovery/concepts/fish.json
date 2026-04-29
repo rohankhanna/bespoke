@@ -295,6 +295,18 @@
       "source_repo": "jorgebucaran/nvm.fish",
       "status": "candidate-context",
       "text": "> The Node.js version manager you'll adore, crafted just for [Fish](https://fishshell.com)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate-context",
+      "text": "IDE-style autocomplete for your existing terminal & shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate-context",
+      "text": "[![Badge: macOS](https://img.shields.io/badge/os-\uf8ff%20macOS-light)](#)"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +453,12 @@
       "source_repo": "jorgebucaran/nvm.fish",
       "status": "candidate",
       "text": "> The Node.js version manager you'll adore, crafted just for [Fish](https://fishshell.com)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate",
+      "text": "[![Badge: macOS](https://img.shields.io/badge/os-\uf8ff%20macOS-light)](#)"
     }
   ],
   "candidate_related_terms": [
@@ -664,11 +682,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "jorgebucaran/nvm.fish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "withfig/autocomplete"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

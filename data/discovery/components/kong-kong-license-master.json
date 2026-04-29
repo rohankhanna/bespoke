@@ -1,12 +1,27 @@
 {
   "component": "Kong/kong-license@master",
   "first_seen_at": "2026-04-24T18:19:44.660705+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/integration-enterprise.yaml",
       "source_repo": "Kong/deck"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automated-tests.yaml",
+      "source_repo": "Kong/developer.konghq.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/event-gateway-tests.yaml",
+      "source_repo": "Kong/developer.konghq.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gateway-tests.yaml",
+      "source_repo": "Kong/developer.konghq.com"
     }
   ]
 }

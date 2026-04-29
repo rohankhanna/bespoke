@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kmeng01/memit",
+      "target": "editing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kmeng01/memit",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kmeng01/memit",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:49:09.769166+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2632
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mass-editing thousands of facts into a transformer memory (ICLR 2023)",
+    "fork": false,
+    "full_name": "kmeng01/memit",
+    "html_url": "https://github.com/kmeng01/memit",
+    "language": "Python",
+    "pushed_at": "2024-01-31T21:25:13Z",
+    "stargazers_count": 544,
+    "topics": [
+      "editing",
+      "gpt",
+      "pytorch",
+      "transformer"
+    ],
+    "updated_at": "2026-04-23T11:53:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Editing thousands of facts into a transformer memory at once.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "editing"
+    },
+    {
+      "context_snippet": "Editing thousands of facts into a transformer memory at once.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "Editing thousands of facts into a transformer memory at once.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

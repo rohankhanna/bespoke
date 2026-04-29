@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI Cache Warmup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyO3/pyo3",
+      "status": "candidate-context",
+      "text": "Rust bindings for the Python interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/pyo3",
+      "status": "candidate-context",
+      "text": "CI Cache Warmup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/pyo3",
+      "status": "candidate",
+      "text": "CI Cache Warmup"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10246,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10246,
+      "status": "candidate",
+      "text": "unit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9506,
+      "status": "candidate",
+      "text": "lap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9506,
+      "status": "candidate",
+      "text": "lob"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9506,
+      "status": "candidate",
+      "text": "pepper"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI Cache Warmup",
+  "concept_id": "ci-cache-warmup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci-cache-warmup.yml",
+      "source_repo": "PyO3/pyo3"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI Cache Warmup",
+      "sense_id": "ci-cache-warmup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Pull Request Slack Notification"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-help",
+      "status": "candidate-context",
+      "text": "standard help for oclif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-help",
+      "status": "candidate-context",
+      "text": "Pull Request Slack Notification"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-plugins",
+      "status": "candidate-context",
+      "text": "plugins plugin for oclif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-plugins",
+      "status": "candidate-context",
+      "text": "Pull Request Slack Notification"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/core",
+      "status": "candidate-context",
+      "text": "Node.js Open CLI Framework. Built by Salesforce."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/core",
+      "status": "candidate-context",
+      "text": "Pull Request Slack Notification"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-help",
+      "status": "candidate",
+      "text": "Pull Request Slack Notification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-plugins",
+      "status": "candidate",
+      "text": "Pull Request Slack Notification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/core",
+      "status": "candidate",
+      "text": "Pull Request Slack Notification"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27972,
+      "status": "candidate",
+      "text": "remit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27930,
+      "status": "candidate",
+      "text": "draft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27919,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27786,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27784,
+      "status": "candidate",
+      "text": "iff"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Pull Request Slack Notification",
+  "concept_id": "pull-request-slack-notification",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
+      "source_repo": "oclif/plugin-help"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
+      "source_repo": "oclif/plugin-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/notify-slack-on-pr-open.yml",
+      "source_repo": "oclif/core"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Pull Request Slack Notification",
+      "sense_id": "pull-request-slack-notification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

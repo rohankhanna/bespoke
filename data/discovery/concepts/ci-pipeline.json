@@ -56,6 +56,18 @@
       "source_repo": "NVIDIA/nvidia-container-toolkit",
       "status": "candidate-context",
       "text": "CI Pipeline"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blackducksoftware/ohcount",
+      "status": "candidate-context",
+      "text": "The Ohloh source code line counter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackducksoftware/ohcount",
+      "status": "candidate-context",
+      "text": "CI Pipeline"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +92,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "NVIDIA/nvidia-container-toolkit",
+      "status": "candidate",
+      "text": "CI Pipeline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackducksoftware/ohcount",
       "status": "candidate",
       "text": "CI Pipeline"
     }
@@ -149,11 +167,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "NVIDIA/nvidia-container-toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "blackducksoftware/ohcount"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

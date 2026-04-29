@@ -43,6 +43,18 @@
       "source_repo": "redai-infra/TransferQueue",
       "status": "candidate-context",
       "text": "sanity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/operator-lifecycle-manager",
+      "status": "candidate-context",
+      "text": "A management framework for extending Kubernetes with Operators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-lifecycle-manager",
+      "status": "candidate-context",
+      "text": "sanity"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "redai-infra/TransferQueue",
+      "status": "candidate",
+      "text": "sanity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-lifecycle-manager",
       "status": "candidate",
       "text": "sanity"
     }
@@ -132,11 +150,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/sanity.yml",
       "source_repo": "redai-infra/TransferQueue"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/sanity.yaml",
+      "source_repo": "operator-framework/operator-lifecycle-manager"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

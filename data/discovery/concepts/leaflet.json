@@ -1,0 +1,160 @@
+{
+  "aliases": [
+    "leaflet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Leaflet/Leaflet",
+      "status": "candidate-context",
+      "text": "\ud83c\udf43 JavaScript library for mobile-friendly interactive maps \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Leaflet/Leaflet",
+      "status": "candidate-context",
+      "text": "Leaflet was created in September 2010, 15 years ago, by [Volodymyr Agafonkin](https://agafonkin.com), a Ukrainian citizen living in Kyiv."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaulLeCam/react-leaflet",
+      "status": "candidate-context",
+      "text": "React components for Leaflet maps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaulLeCam/react-leaflet",
+      "status": "candidate-context",
+      "text": "React components for Leaflet maps."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Leaflet/Leaflet",
+      "status": "candidate",
+      "text": "Leaflet was created in September 2010, 15 years ago, by [Volodymyr Agafonkin](https://agafonkin.com), a Ukrainian citizen living in Kyiv."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaulLeCam/react-leaflet",
+      "status": "candidate",
+      "text": "React components for Leaflet maps."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39622599,
+      "status": "candidate",
+      "text": "cusp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39542666,
+      "status": "candidate",
+      "text": "folder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39383520,
+      "status": "candidate",
+      "text": "booklet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39354390,
+      "status": "candidate",
+      "text": "pamphlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39348135,
+      "status": "candidate",
+      "text": "brochure"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 19061,
+      "status": "candidate",
+      "text": "cusp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5037,
+      "status": "candidate",
+      "text": "pamphlet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5033,
+      "status": "candidate",
+      "text": "booklet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4044,
+      "status": "candidate",
+      "text": "folder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1038,
+      "status": "candidate",
+      "text": "brochure"
+    }
+  ],
+  "canonical_name": "leaflet",
+  "concept_id": "leaflet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Leaflet/Leaflet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PaulLeCam/react-leaflet"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "leaflet",
+      "sense_id": "leaflet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

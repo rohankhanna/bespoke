@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:51:35.427884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2881
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "google-research/adapter-bert",
+    "html_url": "https://github.com/google-research/adapter-bert",
+    "language": "Python",
+    "pushed_at": "2023-10-25T12:26:21Z",
+    "stargazers_count": 507,
+    "topics": [],
+    "updated_at": "2026-04-24T11:50:13Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "dghubble/.github/.github/workflows/golang-library.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dghubble/gologin",
+      "target": "markbates/goth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dghubble/gologin",
+      "target": "stretchr/gomniauth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dghubble/gologin",
+      "target": "dghubble/.github/.github/workflows/golang-library.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dghubble/gologin",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:54:49.093920+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9571
+    },
+    {
+      "path": "go.mod",
+      "size": 1738
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go login handlers for authentication providers (OAuth1, OAuth2)",
+    "fork": false,
+    "full_name": "dghubble/gologin",
+    "html_url": "https://github.com/dghubble/gologin",
+    "language": "Go",
+    "pushed_at": "2026-04-26T04:21:28Z",
+    "stargazers_count": 1953,
+    "topics": [],
+    "updated_at": "2026-04-22T08:55:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "markbates/goth",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stretchr/gomniauth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    }
+  ]
+}

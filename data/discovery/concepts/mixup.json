@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "mixup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cavalleria/cavaface",
+      "status": "candidate-context",
+      "text": "face recognition training project(pytorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cavalleria/cavaface",
+      "status": "candidate-context",
+      "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cavalleria/cavaface",
+      "status": "candidate",
+      "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29961125,
+      "status": "candidate",
+      "text": "confusion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19961319,
+      "status": "candidate",
+      "text": "mix-up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19961318,
+      "status": "candidate",
+      "text": "messup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19961316,
+      "status": "candidate",
+      "text": "crossed wires"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19961315,
+      "status": "candidate",
+      "text": "confusement"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mixup",
+  "concept_id": "mixup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mixup",
+      "sense_id": "mixup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

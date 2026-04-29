@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Commit Title Lint"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/swift-chat",
+      "status": "candidate-context",
+      "text": "A lightning-fast, cross-platform AI Assistant App built with React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/swift-chat",
+      "status": "candidate-context",
+      "text": "Commit Title Lint"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/swift-chat",
+      "status": "candidate",
+      "text": "Commit Title Lint"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23369,
+      "status": "candidate",
+      "text": "strip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22526,
+      "status": "candidate",
+      "text": "condenser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22478,
+      "status": "candidate",
+      "text": "tentatively"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22057,
+      "status": "candidate",
+      "text": "can"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22057,
+      "status": "candidate",
+      "text": "connection"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Commit Title Lint",
+  "concept_id": "commit-title-lint",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/title-lint.yml",
+      "source_repo": "aws-samples/swift-chat"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Commit Title Lint",
+      "sense_id": "commit-title-lint#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

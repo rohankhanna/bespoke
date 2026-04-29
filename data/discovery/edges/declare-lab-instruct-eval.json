@@ -11,21 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "declare-lab/instruct-eval",
-      "target": "declare-lab/resta",
+      "target": "declare-lab/tango",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "declare-lab/instruct-eval",
-      "target": "declare-lab/red-instruct",
+      "target": "laion-ai/open-assistant",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "declare-lab/instruct-eval",
-      "target": "declare-lab/flan-alpaca",
+      "target": "stability-ai/stablelm",
       "target_type": "repository"
     },
     {
@@ -36,6 +36,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "declare-lab/instruct-eval"
 }

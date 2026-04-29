@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/fenics-dolfinx-feedstock",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/fenics-dolfinx-feedstock",
+      "target": "Build conda package",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:43:17.098726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33859
+    },
+    {
+      "path": ".github/workflows/conda-build.yml",
+      "size": 9534
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A conda-smithy repository for fenics-dolfinx.",
+    "fork": false,
+    "full_name": "conda-forge/fenics-dolfinx-feedstock",
+    "html_url": "https://github.com/conda-forge/fenics-dolfinx-feedstock",
+    "language": "Shell",
+    "pushed_at": "2026-04-24T00:47:27Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-04-24T00:47:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build conda package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda-build.yml",
+      "term": "Build conda package"
+    }
+  ]
+}

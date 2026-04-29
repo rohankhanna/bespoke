@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "juliaformatter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "status": "candidate-context",
+      "text": "A (N)Vim plugin for formatting Julia code using JuliaFormatter.jl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "status": "candidate-context",
+      "text": "Plugin for formatting Julia code in (n)vim using [`JuliaFormatter.jl`](https://github.com/domluna/JuliaFormatter.jl)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "status": "candidate",
+      "text": "Plugin for formatting Julia code in (n)vim using [`JuliaFormatter.jl`](https://github.com/domluna/JuliaFormatter.jl)."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "juliaformatter",
+  "concept_id": "juliaformatter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kdheepak/JuliaFormatter.vim"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "juliaformatter",
+      "sense_id": "juliaformatter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

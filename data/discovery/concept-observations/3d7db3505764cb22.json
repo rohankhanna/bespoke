@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The fast, flexible, and elegant library for parsing and manipulating HTML and XML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cheerio \u2014 The fast, flexible & elegant library for parsing and manipulating HTML and XML."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cheerio \u2014 The fast, flexible & elegant library for parsing and manipulating HTML and XML."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030581,
+      "status": "candidate",
+      "text": "selector switch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030580,
+      "status": "candidate",
+      "text": "selection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030512,
+      "status": "candidate",
+      "text": "chooser"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030482,
+      "status": "candidate",
+      "text": "choosing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20030426,
+      "status": "candidate",
+      "text": "choice"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "selector",
+      "sense_id": "selector#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "selector switch"
+    }
+  ],
+  "concept_id": "selector",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "selector",
+  "observation_id": "3d7db3505764cb22",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "selector",
+  "source_context_snippet": "cheerio \u2014 The fast, flexible & elegant library for parsing and manipulating HTML and XML.",
+  "source_file": null,
+  "source_repo": "cheeriojs/cheerio",
+  "source_repo_description": "The fast, flexible, and elegant library for parsing and manipulating HTML and XML."
+}

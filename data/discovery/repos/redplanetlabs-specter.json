@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "turtlequeue/setup-babashka@v1.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "redplanetlabs/specter",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "redplanetlabs/specter",
+      "target": "turtlequeue/setup-babashka@v1.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "redplanetlabs/specter",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "redplanetlabs/specter",
+      "target": "DeLaGuardo/setup-clojure@4.0",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:58:36.623621+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14168
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 709
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clojure(Script)'s missing piece",
+    "fork": false,
+    "full_name": "redplanetlabs/specter",
+    "html_url": "https://github.com/redplanetlabs/specter",
+    "language": "Clojure",
+    "pushed_at": "2025-09-30T05:13:29Z",
+    "stargazers_count": 2614,
+    "topics": [],
+    "updated_at": "2026-04-29T04:40:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

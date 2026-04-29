@@ -1,0 +1,145 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpencerPark/ijava-binder",
+      "target": "michaelmior/calcite-notebooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpencerPark/ijava-binder",
+      "target": "inspire99/vavr-notebook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SpencerPark/ijava-binder",
+      "target": "padreati/rapaio-notebooks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpencerPark/ijava-binder",
+      "target": "binder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpencerPark/ijava-binder",
+      "target": "binder-ready",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpencerPark/ijava-binder",
+      "target": "ijava",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpencerPark/ijava-binder",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SpencerPark/ijava-binder",
+      "target": "jupyter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:45:49.137899+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8717
+    },
+    {
+      "path": "Dockerfile",
+      "size": 986
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An IJava binder base for trying the Java Jupyter kernel on https://mybinder.org/",
+    "fork": false,
+    "full_name": "SpencerPark/ijava-binder",
+    "html_url": "https://github.com/SpencerPark/ijava-binder",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-01-17T03:10:30Z",
+    "stargazers_count": 34,
+    "topics": [
+      "binder",
+      "binder-ready",
+      "ijava",
+      "java",
+      "jupyter"
+    ],
+    "updated_at": "2025-11-03T05:07:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inspire99/vavr-notebook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michaelmior/calcite-notebooks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "padreati/rapaio-notebooks",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Launch IJava binder][binder-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master) [![Launch IJava lab binder][binder-lab-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master?urlpath=lab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binder"
+    },
+    {
+      "context_snippet": "[![Launch IJava binder][binder-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master) [![Launch IJava lab binder][binder-lab-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master?urlpath=lab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "binder-ready"
+    },
+    {
+      "context_snippet": "[![Launch IJava binder][binder-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master) [![Launch IJava lab binder][binder-lab-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master?urlpath=lab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ijava"
+    },
+    {
+      "context_snippet": "[![Launch IJava binder][binder-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master) [![Launch IJava lab binder][binder-lab-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master?urlpath=lab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "[![Launch IJava binder][binder-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master) [![Launch IJava lab binder][binder-lab-badge-img]](https://mybinder.org/v2/gh/SpencerPark/ijava-binder/master?urlpath=lab)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jupyter"
+    }
+  ]
+}

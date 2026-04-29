@@ -1,0 +1,544 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "eskatos/gradle-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "eskatos/gradle-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "eskatos/gradle-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "eskatos/gradle-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "eskatos/gradle-command-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@v2.21.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml"
+    },
+    {
+      "component": "mozilla-mobile/fenix-beta-version@4.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-sync-strings.yml"
+    },
+    {
+      "component": "andymckay/cancel-action@0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-sync-strings.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-sync-strings.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-sync-strings.yml"
+    },
+    {
+      "component": "mozilla-mobile/sync-strings-action@1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-sync-strings.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-sync-strings.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml"
+    },
+    {
+      "component": "mozilla-mobile/update-experiments@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml"
+    },
+    {
+      "component": "mozilla/probe-scraper/.github/workflows/glean.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glean-probe-scraper.yml"
+    },
+    {
+      "component": "gabrielluong/issue-linker@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-linker.yml"
+    },
+    {
+      "component": "gabrielluong/milestone@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone.yml"
+    },
+    {
+      "component": "gabrielluong/qa-needed@1.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qa-needed.yml"
+    },
+    {
+      "component": "gabrielluong/reopen-for-qa-needed@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reopen-for-qa-needed.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "mozilla-mobile/shared-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "mozilla-mobile/firefox-android",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "eskatos/gradle-command-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "reactivecircus/android-emulator-runner@v2.21.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "Android build PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-sync-strings.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "mozilla-mobile/fenix-beta-version@4.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-sync-strings.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "andymckay/cancel-action@0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-sync-strings.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-sync-strings.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "mozilla-mobile/sync-strings-action@1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-sync-strings.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/focus-sync-strings.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "Focus - Sync Strings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "mozilla-mobile/update-experiments@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "peter-evans/create-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "Focus - Update Nimbus Experiments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "mozilla/probe-scraper/.github/workflows/glean.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "Glean probe-scraper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-linker.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "gabrielluong/issue-linker@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-linker.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "Issue Linker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "gabrielluong/milestone@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "Tag Milestone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qa-needed.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "gabrielluong/qa-needed@1.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/qa-needed.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "QA Needed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reopen-for-qa-needed.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "gabrielluong/reopen-for-qa-needed@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reopen-for-qa-needed.yml",
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "Reopen for QA Needed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "mozilla",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/focus-android",
+      "target": "privacy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:43:58.918597+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6546
+    },
+    {
+      "path": ".github/workflows/build-contributor-pr.yml",
+      "size": 4171
+    },
+    {
+      "path": ".github/workflows/focus-sync-strings.yml",
+      "size": 1658
+    },
+    {
+      "path": ".github/workflows/focus-update-nimbus-experiments.yml",
+      "size": 1684
+    },
+    {
+      "path": ".github/workflows/glean-probe-scraper.yml",
+      "size": 195
+    },
+    {
+      "path": ".github/workflows/issue-linker.yml",
+      "size": 552
+    },
+    {
+      "path": ".github/workflows/milestone.yml",
+      "size": 494
+    },
+    {
+      "path": ".github/workflows/qa-needed.yml",
+      "size": 599
+    },
+    {
+      "path": ".github/workflows/reopen-for-qa-needed.yml",
+      "size": 561
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "\u26a0\ufe0f Firefox Focus (Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android ",
+    "fork": false,
+    "full_name": "mozilla-mobile/focus-android",
+    "html_url": "https://github.com/mozilla-mobile/focus-android",
+    "language": "Kotlin",
+    "pushed_at": "2022-12-13T09:16:32Z",
+    "stargazers_count": 2091,
+    "topics": [
+      "android",
+      "browser",
+      "mozilla",
+      "privacy"
+    ],
+    "updated_at": "2026-04-26T07:41:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-mobile/firefox-android",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-mobile/shared-docs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Android build PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "term": "Android build PR"
+    },
+    {
+      "context_snippet": "\"Focus - Sync Strings\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/focus-sync-strings.yml",
+      "term": "Focus - Sync Strings"
+    },
+    {
+      "context_snippet": "\"Focus - Update Nimbus Experiments\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/focus-update-nimbus-experiments.yml",
+      "term": "Focus - Update Nimbus Experiments"
+    },
+    {
+      "context_snippet": "Glean probe-scraper",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glean-probe-scraper.yml",
+      "term": "Glean probe-scraper"
+    },
+    {
+      "context_snippet": "Issue Linker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-linker.yml",
+      "term": "Issue Linker"
+    },
+    {
+      "context_snippet": "Tag Milestone",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/milestone.yml",
+      "term": "Tag Milestone"
+    },
+    {
+      "context_snippet": "QA Needed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/qa-needed.yml",
+      "term": "QA Needed"
+    },
+    {
+      "context_snippet": "Reopen for QA Needed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reopen-for-qa-needed.yml",
+      "term": "Reopen for QA Needed"
+    },
+    {
+      "context_snippet": "_Browse like no one\u2019s watching. The new Firefox Focus automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "_Browse like no one\u2019s watching. The new Firefox Focus automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "_Browse like no one\u2019s watching. The new Firefox Focus automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mozilla"
+    },
+    {
+      "context_snippet": "_Browse like no one\u2019s watching. The new Firefox Focus automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads._",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    }
+  ]
+}

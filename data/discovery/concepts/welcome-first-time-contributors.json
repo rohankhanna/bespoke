@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Welcome First-Time Contributors"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate-context",
+      "text": "A unified inference and post-training framework for accelerated video generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate-context",
+      "text": "Welcome First-Time Contributors"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate",
+      "text": "Welcome First-Time Contributors"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10487,
+      "status": "candidate",
+      "text": "sending"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10307,
+      "status": "candidate",
+      "text": "early"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10307,
+      "status": "candidate",
+      "text": "emerging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10307,
+      "status": "candidate",
+      "text": "first"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10307,
+      "status": "candidate",
+      "text": "initial"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Welcome First-Time Contributors",
+  "concept_id": "welcome-first-time-contributors",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/community-welcome.yml",
+      "source_repo": "hao-ai-lab/FastVideo"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Welcome First-Time Contributors",
+      "sense_id": "welcome-first-time-contributors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

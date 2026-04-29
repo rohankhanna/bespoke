@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@9c156ee8a17a598857849441385a2041ef570552",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "target": "docker/setup-qemu-action@29109295f81e9208d7d86ff1c6c12d2833863392",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "target": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "target": "docker/login-action@74a5d142397b4f367a81961eba4e8cd7edddf772",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "target": "goreleaser/goreleaser-action@9c156ee8a17a598857849441385a2041ef570552",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "target": "goreleaser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikepan/clickhouse-bulk",
+      "target": "clickhouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikepan/clickhouse-bulk",
+      "target": "clickhouse-bulk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nikepan/clickhouse-bulk",
+      "target": "clickhouse-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:56:54.934203+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4257
+    },
+    {
+      "path": "Dockerfile",
+      "size": 602
+    },
+    {
+      "path": "go.mod",
+      "size": 1251
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1058
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 809
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Collects many small inserts to ClickHouse and send in big inserts",
+    "fork": false,
+    "full_name": "nikepan/clickhouse-bulk",
+    "html_url": "https://github.com/nikepan/clickhouse-bulk",
+    "language": "Go",
+    "pushed_at": "2026-03-12T14:56:55Z",
+    "stargazers_count": 506,
+    "topics": [
+      "clickhouse",
+      "clickhouse-bulk",
+      "clickhouse-server"
+    ],
+    "updated_at": "2026-04-12T01:32:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "goreleaser",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "goreleaser"
+    },
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/nikepan/clickhouse-bulk/actions/workflows/test.yml/badge.svg)](https://github.com/nikepan/clickhouse-bulk/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clickhouse"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/nikepan/clickhouse-bulk/actions/workflows/test.yml/badge.svg)](https://github.com/nikepan/clickhouse-bulk/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clickhouse-bulk"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/nikepan/clickhouse-bulk/actions/workflows/test.yml/badge.svg)](https://github.com/nikepan/clickhouse-bulk/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clickhouse-server"
+    }
+  ]
+}

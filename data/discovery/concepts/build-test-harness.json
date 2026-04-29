@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Test Harness"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/android",
+      "status": "candidate-context",
+      "text": "Bitwarden mobile apps (Password Manager and Authenticator) for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/android",
+      "status": "candidate-context",
+      "text": "Build Test Harness"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/android",
+      "status": "candidate",
+      "text": "Build Test Harness"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19210,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18194,
+      "status": "candidate",
+      "text": "harnessed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18099,
+      "status": "candidate",
+      "text": "levy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18085,
+      "status": "candidate",
+      "text": "leading reins"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18085,
+      "status": "candidate",
+      "text": "martingale"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Test Harness",
+  "concept_id": "build-test-harness",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build-testharness.yml",
+      "source_repo": "bitwarden/android"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Test Harness",
+      "sense_id": "build-test-harness#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:54:36.134922+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2312
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 205
+    },
+    {
+      "path": "requirements.txt",
+      "size": 216
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Parse LaTeX math expressions",
+    "fork": true,
+    "full_name": "purdue-tlt/latex2sympy",
+    "html_url": "https://github.com/purdue-tlt/latex2sympy",
+    "language": "Python",
+    "pushed_at": "2024-10-22T13:55:42Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2025-03-24T11:18:08Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

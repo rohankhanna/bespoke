@@ -23,9 +23,9 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Dockerfile",
       "source_repo": "mudler/LocalAI",
-      "target": "rhasspy/piper",
+      "target": "mudler/vulkan-sdk-arm",
       "target_type": "repository"
     },
     {
@@ -138,6 +138,20 @@
       "source_file": ".github/workflows/backend_build_darwin.yml",
       "source_repo": "mudler/LocalAI",
       "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_build_darwin.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_build_darwin.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "actions/cache/save@v4",
       "target_type": "component"
     },
     {
@@ -344,6 +358,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "mudler/LocalAI"
 }

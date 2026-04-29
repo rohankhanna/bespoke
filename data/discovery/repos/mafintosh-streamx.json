@@ -63,20 +63,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "mafintosh/streamx",
-      "target": "mafintosh/stream-composer",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mafintosh/streamx",
-      "target": "mafintosh/teex",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "mafintosh/streamx",
       "target": "holepunchto/merge-readable",
       "target_type": "repository"
     },
@@ -158,7 +144,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:01:12.750095+00:00",
+  "fetched_at": "2026-04-29T19:50:16.351792+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -191,16 +177,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "holepunchto/merge-readable",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mafintosh/stream-composer",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mafintosh/teex",
       "source_file": "README.md"
     },
     {

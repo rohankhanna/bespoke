@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Publish Authenticator GitHub Release as newest"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/android",
+      "status": "candidate-context",
+      "text": "Bitwarden mobile apps (Password Manager and Authenticator) for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/android",
+      "status": "candidate-context",
+      "text": "Publish Authenticator GitHub Release as newest"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/ios",
+      "status": "candidate-context",
+      "text": "Bitwarden mobile apps (Password Manager and Authenticator) for iOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/ios",
+      "status": "candidate-context",
+      "text": "Publish Authenticator GitHub Release as newest"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/android",
+      "status": "candidate",
+      "text": "Publish Authenticator GitHub Release as newest"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/ios",
+      "status": "candidate",
+      "text": "Publish Authenticator GitHub Release as newest"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26327,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23616,
+      "status": "candidate",
+      "text": "seal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21639,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21639,
+      "status": "candidate",
+      "text": "launch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21616,
+      "status": "candidate",
+      "text": "power line"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Authenticator GitHub Release as newest",
+  "concept_id": "publish-authenticator-github-release-as-newest",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-github-release-bwa.yml",
+      "source_repo": "bitwarden/android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-github-release-bwa.yml",
+      "source_repo": "bitwarden/ios"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Authenticator GitHub Release as newest",
+      "sense_id": "publish-authenticator-github-release-as-newest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Color Schemes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wuqs-net/base16-windows-terminal",
+      "status": "candidate-context",
+      "text": "Base16 for Windows Terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wuqs-net/base16-windows-terminal",
+      "status": "candidate-context",
+      "text": "Update Color Schemes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wuqs-net/base16-windows-terminal",
+      "status": "candidate",
+      "text": "Update Color Schemes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36709,
+      "status": "candidate",
+      "text": "theme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22669,
+      "status": "candidate",
+      "text": "patch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22669,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21764,
+      "status": "candidate",
+      "text": "chrominance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21754,
+      "status": "candidate",
+      "text": "replete"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Color Schemes",
+  "concept_id": "update-color-schemes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "wuqs-net/base16-windows-terminal"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Color Schemes",
+      "sense_id": "update-color-schemes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

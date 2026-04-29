@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TreB1eN/InsightFace_Pytorch",
+      "target": "tropcomplique/mtcnn-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TreB1eN/InsightFace_Pytorch",
+      "target": "auroua/insightface_tf",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:41:54.596121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4867
+    },
+    {
+      "path": "requirements.txt",
+      "size": 231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pytorch0.4.1 codes for InsightFace",
+    "fork": false,
+    "full_name": "TreB1eN/InsightFace_Pytorch",
+    "html_url": "https://github.com/TreB1eN/InsightFace_Pytorch",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-11-22T02:49:08Z",
+    "stargazers_count": 1889,
+    "topics": [],
+    "updated_at": "2026-04-20T13:32:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auroua/insightface_tf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tropcomplique/mtcnn-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

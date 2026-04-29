@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "alecrabbit/php-wcwidth",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "alecrabbit/php-wcwidth",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "alecrabbit/php-wcwidth",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alecrabbit/php-wcwidth",
+      "target": "unicode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alecrabbit/php-wcwidth",
+      "target": "wcswidth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alecrabbit/php-wcwidth",
+      "target": "wcwidth",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:59:45.162338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2573
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1674
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Calculate width of unicode strings rendered to a terminal",
+    "fork": false,
+    "full_name": "alecrabbit/php-wcwidth",
+    "html_url": "https://github.com/alecrabbit/php-wcwidth",
+    "language": "PHP",
+    "pushed_at": "2024-05-10T10:06:41Z",
+    "stargazers_count": 4,
+    "topics": [
+      "php",
+      "unicode",
+      "wcswidth",
+      "wcwidth"
+    ],
+    "updated_at": "2025-03-16T17:45:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "[![PHP Version](https://img.shields.io/packagist/php-v/alecrabbit/php-wcwidth/dev-master.svg)](https://php.net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unicode"
+    },
+    {
+      "context_snippet": "[![PHP Version](https://img.shields.io/packagist/php-v/alecrabbit/php-wcwidth/dev-master.svg)](https://php.net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wcswidth"
+    },
+    {
+      "context_snippet": "[![PHP Version](https://img.shields.io/packagist/php-v/alecrabbit/php-wcwidth/dev-master.svg)](https://php.net)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wcwidth"
+    }
+  ]
+}

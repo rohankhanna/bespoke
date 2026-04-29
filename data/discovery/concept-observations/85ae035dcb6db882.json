@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Real-Time and Accurate Full-Body Multi-Person Pose Estimation&Tracking System"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998121,
+      "status": "candidate",
+      "text": "veracious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39998069,
+      "status": "candidate",
+      "text": "true"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997816,
+      "status": "candidate",
+      "text": "exact"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997231,
+      "status": "candidate",
+      "text": "precise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992410,
+      "status": "candidate",
+      "text": "straight"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "accurate",
+      "sense_id": "accurate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45062,
+      "status": "candidate",
+      "text": "close"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41028,
+      "status": "candidate",
+      "text": "veracious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 30071,
+      "status": "candidate",
+      "text": "right"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27050,
+      "status": "candidate",
+      "text": "true"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23039,
+      "status": "candidate",
+      "text": "precise"
+    }
+  ],
+  "concept_id": "accurate",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "accurate",
+  "observation_id": "85ae035dcb6db882",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "accurate",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "MVIG-SJTU/AlphaPose",
+  "source_repo_description": "Real-Time and Accurate Full-Body Multi-Person Pose Estimation&Tracking System"
+}

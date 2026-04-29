@@ -127,6 +127,66 @@
       "source_repo": "CLIUtils/CLI11",
       "status": "candidate-context",
       "text": "![CLI11 Logo](./docs/CLI11_300.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adishavit/argh",
+      "status": "candidate-context",
+      "text": "Argh! A minimalist argument handler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adishavit/argh",
+      "status": "candidate-context",
+      "text": "![logo](assets/argh_logo_small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate-context",
+      "text": "A Minimal, Header only Modern c++ library for terminal goodies \ud83d\udc84\u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate-context",
+      "text": "![rang-demo](https://cloud.githubusercontent.com/assets/7630575/13501282/0bd00074-e18c-11e5-9848-5bd1f20566d9.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bfgroup/Lyra",
+      "status": "candidate-context",
+      "text": "A simple to use, composable, command line parser for C++ 11 and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bfgroup/Lyra",
+      "status": "candidate-context",
+      "text": "\"Release: Archives\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eyalz800/serializer",
+      "status": "candidate-context",
+      "text": "A single header standard C++ serialization framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalz800/serializer",
+      "status": "candidate-context",
+      "text": "zpp serializer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "accabog/MedianFilter",
+      "status": "candidate-context",
+      "text": "Heap-free sliding window median filter for embedded C/C++ \u2014 O(n/2) insert, zero allocations, ideal for ADC noise removal on bare-metal and RTOS targets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "accabog/MedianFilter",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml/badge.svg)](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +249,36 @@
       "source_repo": "CLIUtils/CLI11",
       "status": "candidate",
       "text": "![CLI11 Logo](./docs/CLI11_300.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adishavit/argh",
+      "status": "candidate",
+      "text": "![logo](assets/argh_logo_small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate",
+      "text": "![rang-demo](https://cloud.githubusercontent.com/assets/7630575/13501282/0bd00074-e18c-11e5-9848-5bd1f20566d9.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bfgroup/Lyra",
+      "status": "candidate",
+      "text": "\"Release: Archives\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalz800/serializer",
+      "status": "candidate",
+      "text": "zpp serializer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "accabog/MedianFilter",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml/badge.svg)](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +352,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "doctest/doctest"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adishavit/argh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "agauniyal/rang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "accabog/MedianFilter"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

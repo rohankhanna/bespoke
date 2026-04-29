@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "mlcommons/cla-bot@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_submission.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_submission.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_submission.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_pr.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_pr.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "mlcommons/cla-bot@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "cla-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_submission.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_submission.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_submission.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_submission.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "Sync Submission on Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_pr.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_pr.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_pr.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate_pr.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "Validate PR Template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:51:50.070369+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9753
+    },
+    {
+      "path": ".github/workflows/cla.yml",
+      "size": 2599
+    },
+    {
+      "path": ".github/workflows/sync_submission.yml",
+      "size": 3432
+    },
+    {
+      "path": ".github/workflows/validate_pr.yml",
+      "size": 2613
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "mlcommons/submissions_algorithms",
+    "html_url": "https://github.com/mlcommons/submissions_algorithms",
+    "language": "Python",
+    "pushed_at": "2026-04-27T17:36:09Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-23T17:55:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"cla-bot\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "term": "cla-bot"
+    },
+    {
+      "context_snippet": "Sync Submission on Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_submission.yml",
+      "term": "Sync Submission on Merge"
+    },
+    {
+      "context_snippet": "Validate PR Template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate_pr.yml",
+      "term": "Validate PR Template"
+    }
+  ]
+}

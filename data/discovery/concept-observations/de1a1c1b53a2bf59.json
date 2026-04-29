@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NetCDF-CF Geometry and Timeseries Tools for R: https://code.usgs.gov/water/ncdfgeom"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "NetCDF-CF Geometry and Timeseries Tools for R"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "NetCDF-CF Geometry and Timeseries Tools for R"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021338,
+      "status": "candidate",
+      "text": "detrended"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021337,
+      "status": "candidate",
+      "text": "dataset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021336,
+      "status": "candidate",
+      "text": "graph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021335,
+      "status": "candidate",
+      "text": "barchart"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20021334,
+      "status": "candidate",
+      "text": "detrending"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "timeseries",
+      "sense_id": "timeseries#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "timeseries",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "timeseries",
+  "observation_id": "de1a1c1b53a2bf59",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "timeseries",
+  "source_context_snippet": "NetCDF-CF Geometry and Timeseries Tools for R",
+  "source_file": null,
+  "source_repo": "DOI-USGS/ncdfgeom",
+  "source_repo_description": "NetCDF-CF Geometry and Timeseries Tools for R: https://code.usgs.gov/water/ncdfgeom"
+}

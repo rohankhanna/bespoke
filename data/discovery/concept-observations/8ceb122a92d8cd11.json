@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Android Expo Cache Build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Android Expo Cache Build"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29742,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28827,
+      "status": "candidate",
+      "text": "arm"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28803,
+      "status": "candidate",
+      "text": "phone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28094,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19267,
+      "status": "candidate",
+      "text": "icon"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Android Expo Cache Build",
+      "sense_id": "android-expo-cache-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "android-expo-cache-build",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "android-expo-cache-build",
+  "observation_id": "8ceb122a92d8cd11",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Android Expo Cache Build",
+  "source_context_snippet": "Android Expo Cache Build",
+  "source_file": ".github/workflows/android-expo-build.yml",
+  "source_repo": "artsy/eigen",
+  "source_repo_description": "The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app."
+}

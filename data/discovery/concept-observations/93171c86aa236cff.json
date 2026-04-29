@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A nvim-cmp source for completing digraphs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) source for completing [digraphs](https://vimhelp.org/digraph.txt.html) (both built-in and custom ones)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) source for completing [digraphs](https://vimhelp.org/digraph.txt.html) (both built-in and custom ones)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nvim-cmp",
+      "sense_id": "nvim-cmp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "nvim-cmp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "nvim-cmp",
+  "observation_id": "93171c86aa236cff",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "nvim-cmp",
+  "source_context_snippet": "A [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) source for completing [digraphs](https://vimhelp.org/digraph.txt.html) (both built-in and custom ones).",
+  "source_file": null,
+  "source_repo": "dmitmel/cmp-digraphs",
+  "source_repo_description": "A nvim-cmp source for completing digraphs."
+}

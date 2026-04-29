@@ -19,6 +19,18 @@
       "source_repo": "dask-contrib/dask-sql",
       "status": "candidate-context",
       "text": "**Dask-SQL is currently not in active maintenance, see [#1344](https://github.com/dask-contrib/dask-sql/issues/1344) for more information**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/server",
+      "status": "candidate-context",
+      "text": "Bitwarden infrastructure/backend (API, database, Docker, etc)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/server",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "dask-contrib/dask-sql",
       "status": "candidate",
       "text": "**Dask-SQL is currently not in active maintenance, see [#1344](https://github.com/dask-contrib/dask-sql/issues/1344) for more information**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/server",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "dask-contrib/dask-sql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bitwarden/server"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

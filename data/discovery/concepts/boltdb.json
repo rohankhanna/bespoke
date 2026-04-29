@@ -19,6 +19,18 @@
       "source_repo": "hairyhenderson/gomplate",
       "status": "candidate-context",
       "text": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdine/storm",
+      "status": "candidate-context",
+      "text": "Simple and powerful toolkit for BoltDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdine/storm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "hairyhenderson/gomplate",
       "status": "candidate",
       "text": "<img src=\"docs/static/images/gomplate.png\" width=\"512px\" alt=\"gomplate logo\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdine/storm",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "hairyhenderson/gomplate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "asdine/storm"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

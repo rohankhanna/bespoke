@@ -358,6 +358,198 @@
       "source_repo": "octokit/authentication-strategies.js",
       "status": "candidate-context",
       "text": "> GitHub API authentication strategies for Browsers, Node.js, and Deno"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate-context",
+      "text": "A browser extension for the Motrix Download Manager and its forks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate-context",
+      "text": "This WebExtension allows you to automatically download all the files via [Motrix Download Manager](https://motrix.app/) instead of your browser's native download manager."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "status": "candidate-context",
+      "text": "Brings physics-based smooth scrolling to the Vim world!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "status": "candidate-context",
+      "text": "Brings physics-based smooth scrolling to the Vim/Neovim world!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-browser-languageDetector",
+      "status": "candidate-context",
+      "text": "language detector used in browser environment for i18next"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-browser-languageDetector",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/i18next-browser-languagedetector.svg?style=flat-square)](https://www.npmjs.com/package/i18next-browser-languagedetector)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-xhr-backend",
+      "status": "candidate-context",
+      "text": "[deprecated] can be replaced with i18next-http-backend"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-xhr-backend",
+      "status": "candidate-context",
+      "text": "Can be replaced with: [i18next-http-backend](https://github.com/i18next/i18next-http-backend)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locize/i18next-locize-backend",
+      "status": "candidate-context",
+      "text": "A simple i18next backend for locize.com which can be used in Node.js, in the browser and for Deno."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/i18next-locize-backend",
+      "status": "candidate-context",
+      "text": "[![Actions](https://github.com/locize/i18next-locize-backend/workflows/node/badge.svg)](https://github.com/locize/i18next-locize-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "base-repos/base",
+      "status": "candidate-context",
+      "text": "Base is the foundation for creating modular, unit testable and highly pluggable, server-side node.js applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "base-repos/base",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate-context",
+      "text": "An esbuild plugin to inject your application's version number or today's date into your files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/mdit-py-plugins",
+      "status": "candidate-context",
+      "text": "Collection of core plugins for markdown-it-py"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/mdit-py-plugins",
+      "status": "candidate-context",
+      "text": "[![Github-CI][github-ci]][github-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "A neovim integration for television"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "status": "candidate-context",
+      "text": "A plug-in for Google's Protocol Buffers (protobufs) compiler to lint .proto files for style violations."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/action.js",
+      "status": "candidate-context",
+      "text": "GitHub API client for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/action.js",
+      "status": "candidate-context",
+      "text": "> GitHub API client for GitHub Actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/app.js",
+      "status": "candidate-context",
+      "text": "GitHub Apps toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app.js",
+      "status": "candidate-context",
+      "text": "> GitHub App toolset for Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-action.js",
+      "status": "candidate-context",
+      "text": "GitHub API token authentication for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-action.js",
+      "status": "candidate-context",
+      "text": "> GitHub API token authentication for GitHub Actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-app.js",
+      "status": "candidate-context",
+      "text": "GitHub App authentication for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-app.js",
+      "status": "candidate-context",
+      "text": "> GitHub App authentication for JavaScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate-context",
+      "text": "Mkdocs Markdown includer plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate-context",
+      "text": "<!-- mdpo-disable-next-line -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dabevlohn/rand16",
+      "status": "candidate-context",
+      "text": "Yet another WASM plugin for Hyper-MCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dabevlohn/rand16",
+      "status": "candidate-context",
+      "text": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri."
     }
   ],
   "candidate_glosses": [
@@ -534,6 +726,102 @@
       "source_repo": "octokit/authentication-strategies.js",
       "status": "candidate",
       "text": "> GitHub API authentication strategies for Browsers, Node.js, and Deno"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate",
+      "text": "This WebExtension allows you to automatically download all the files via [Motrix Download Manager](https://motrix.app/) instead of your browser's native download manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "status": "candidate",
+      "text": "Brings physics-based smooth scrolling to the Vim/Neovim world!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-browser-languageDetector",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/i18next-browser-languagedetector.svg?style=flat-square)](https://www.npmjs.com/package/i18next-browser-languagedetector)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-xhr-backend",
+      "status": "candidate",
+      "text": "Can be replaced with: [i18next-http-backend](https://github.com/i18next/i18next-http-backend)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/i18next-locize-backend",
+      "status": "candidate",
+      "text": "[![Actions](https://github.com/locize/i18next-locize-backend/workflows/node/badge.svg)](https://github.com/locize/i18next-locize-backend/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "base-repos/base",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/mdit-py-plugins",
+      "status": "candidate",
+      "text": "[![Github-CI][github-ci]][github-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/action.js",
+      "status": "candidate",
+      "text": "> GitHub API client for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app.js",
+      "status": "candidate",
+      "text": "> GitHub App toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-action.js",
+      "status": "candidate",
+      "text": "> GitHub API token authentication for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-app.js",
+      "status": "candidate",
+      "text": "> GitHub App authentication for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate",
+      "text": "<!-- mdpo-disable-next-line -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dabevlohn/rand16",
+      "status": "candidate",
+      "text": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri."
     }
   ],
   "candidate_related_terms": [
@@ -763,11 +1051,119 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "octokit/authentication-strategies.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/motrix-webextension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "yuttie/comfortable-motion.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-browser-languageDetector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "i18next/i18next-xhr-backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "locize/i18next-locize-backend"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "favware/esbuild-plugin-version-injector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "executablebooks/mdit-py-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexpasmantier/tv.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ckaznocha/protoc-gen-lint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/action.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/app.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-action.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-app.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dabevlohn/rand16"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

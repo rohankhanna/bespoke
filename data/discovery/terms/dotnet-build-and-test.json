@@ -1,11 +1,21 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/dotnet-build-and-test.yml",
       "source_repo": "microsoft/semantic-kernel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/codeql-github-actions.yml",
+      "source_repo": "sandrohanea/whisper.net"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "sandrohanea/whisper.net"
     }
   ],
   "term": "dotnet-build-and-test"

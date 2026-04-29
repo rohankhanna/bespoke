@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvpro-samples/vk_mini_samples",
+      "target": "nvpro-samples/nvpro_core2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvpro-samples/vk_mini_samples",
+      "target": "nvpro-samples/vk_raytracing_tutorial_khr",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "nvpro-samples/vk_mini_samples"
+}

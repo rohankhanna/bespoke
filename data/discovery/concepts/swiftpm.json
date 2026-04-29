@@ -19,12 +19,30 @@
       "source_repo": "jpsim/Yams",
       "status": "candidate-context",
       "text": "SwiftPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpsim/SourceKitten",
+      "status": "candidate-context",
+      "text": "An adorable little framework and command line tool for interacting with SourceKit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpsim/SourceKitten",
+      "status": "candidate-context",
+      "text": "SwiftPM"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "jpsim/Yams",
+      "status": "candidate",
+      "text": "SwiftPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpsim/SourceKitten",
       "status": "candidate",
       "text": "SwiftPM"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/swiftpm.yml",
       "source_repo": "jpsim/Yams"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/swiftpm.yml",
+      "source_repo": "jpsim/SourceKitten"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/bi-att-flow",
+      "target": "bidaf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/bi-att-flow",
+      "target": "question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/bi-att-flow",
+      "target": "squad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "allenai/bi-att-flow",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:03:21.351607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6576
+    },
+    {
+      "path": "requirements.txt",
+      "size": 33
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bi-directional Attention Flow (BiDAF) network is a multi-stage hierarchical process that represents context at different levels of granularity and uses a bi-directional attention flow mechanism to achieve a query-aware context representation without early summarization.",
+    "fork": false,
+    "full_name": "allenai/bi-att-flow",
+    "html_url": "https://github.com/allenai/bi-att-flow",
+    "language": "Python",
+    "pushed_at": "2023-05-31T01:34:05Z",
+    "stargazers_count": 1542,
+    "topics": [
+      "bidaf",
+      "nlp",
+      "question-answering",
+      "squad",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-02T08:33:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "- This the original implementation of [Bi-directional Attention Flow for Machine Comprehension][paper].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bidaf"
+    },
+    {
+      "context_snippet": "- This the original implementation of [Bi-directional Attention Flow for Machine Comprehension][paper].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "question-answering"
+    },
+    {
+      "context_snippet": "- This the original implementation of [Bi-directional Attention Flow for Machine Comprehension][paper].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "squad"
+    },
+    {
+      "context_snippet": "- This the original implementation of [Bi-directional Attention Flow for Machine Comprehension][paper].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Proofs"
+    "Proofs",
+    "proofs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "GaloisInc/BLST-Verification",
       "status": "candidate-context",
       "text": "Proofs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FStarLang/karamel",
+      "status": "candidate-context",
+      "text": "KaRaMeL is a tool for extracting low-level F* programs to readable C code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/karamel",
+      "status": "candidate-context",
+      "text": "KaRaMeL"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "GaloisInc/BLST-Verification",
       "status": "candidate",
       "text": "Proofs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/karamel",
+      "status": "candidate",
+      "text": "KaRaMeL"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +97,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "GaloisInc/BLST-Verification"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FStarLang/karamel"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

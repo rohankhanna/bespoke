@@ -1,0 +1,384 @@
+{
+  "components": [
+    {
+      "component": "praw-dev/.github/.github/workflows/ci.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "praw-dev/.github/.github/workflows/manual_tag_release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_tag_release.yml"
+    },
+    {
+      "component": "praw-dev/.github/.github/workflows/pre-commit_autoupdate.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit_autoupdate.yml"
+    },
+    {
+      "component": "praw-dev/.github/.github/workflows/prepare_release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare_release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@dd746615b3b9d728a6a37ca2045b68ca76d4841a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml"
+    },
+    {
+      "component": "praw-dev/.github/.github/workflows/set_active_docs.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set_active_docs.yml"
+    },
+    {
+      "component": "praw-dev/.github/.github/workflows/stale_action.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_action.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "praw-dev/praw",
+      "target": "praw-dev/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "praw-dev/praw",
+      "target": "reddit/reddit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "praw-dev/.github/.github/workflows/ci.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/manual_tag_release.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "praw-dev/.github/.github/workflows/manual_tag_release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual_tag_release.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "Manual Tag Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit_autoupdate.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "praw-dev/.github/.github/workflows/pre-commit_autoupdate.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit_autoupdate.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "Update pre-commit hooks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare_release.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "praw-dev/.github/.github/workflows/prepare_release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare_release.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "Prepare Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "ossf/scorecard-action@62b2cac7ed8198b15735ed49ab1e5cf35480ba46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "actions/upload-artifact@65c4c4a1ddee5b72f698fdd19549f0f0fb45cf08",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "github/codeql-action/upload-sarif@dd746615b3b9d728a6a37ca2045b68ca76d4841a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/set_active_docs.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "praw-dev/.github/.github/workflows/set_active_docs.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/set_active_docs.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "Set Active Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_action.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "praw-dev/.github/.github/workflows/stale_action.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_action.yml",
+      "source_repo": "praw-dev/praw",
+      "target": "Close stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "praw-dev/praw",
+      "target": "oauth",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "praw-dev/praw",
+      "target": "praw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "praw-dev/praw",
+      "target": "reddit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "praw-dev/praw",
+      "target": "reddit-api",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:48:20.502301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7022
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4196
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 191
+    },
+    {
+      "path": ".github/workflows/manual_tag_release.yml",
+      "size": 384
+    },
+    {
+      "path": ".github/workflows/pre-commit_autoupdate.yml",
+      "size": 306
+    },
+    {
+      "path": ".github/workflows/prepare_release.yml",
+      "size": 395
+    },
+    {
+      "path": ".github/workflows/pypi.yml",
+      "size": 676
+    },
+    {
+      "path": ".github/workflows/scorecard.yml",
+      "size": 3116
+    },
+    {
+      "path": ".github/workflows/set_active_docs.yml",
+      "size": 234
+    },
+    {
+      "path": ".github/workflows/stale_action.yml",
+      "size": 293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PRAW, an acronym for \"Python Reddit API Wrapper\", is a python package that allows for simple access to Reddit's API.",
+    "fork": false,
+    "full_name": "praw-dev/praw",
+    "html_url": "https://github.com/praw-dev/praw",
+    "language": "Python",
+    "pushed_at": "2026-04-27T16:21:25Z",
+    "stargazers_count": 4109,
+    "topics": [
+      "api",
+      "oauth",
+      "praw",
+      "python",
+      "reddit",
+      "reddit-api"
+    ],
+    "updated_at": "2026-04-29T11:18:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "praw-dev/.github",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reddit/reddit",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Manual Tag Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/manual_tag_release.yml",
+      "term": "Manual Tag Release"
+    },
+    {
+      "context_snippet": "Update pre-commit hooks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit_autoupdate.yml",
+      "term": "Update pre-commit hooks"
+    },
+    {
+      "context_snippet": "Prepare Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare_release.yml",
+      "term": "Prepare Release"
+    },
+    {
+      "context_snippet": "Scorecard supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "term": "Scorecard supply-chain security"
+    },
+    {
+      "context_snippet": "Set Active Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/set_active_docs.yml",
+      "term": "Set Active Docs"
+    },
+    {
+      "context_snippet": "Close stale issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_action.yml",
+      "term": "Close stale issues and PRs"
+    },
+    {
+      "context_snippet": "PRAW: The Python Reddit API Wrapper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oauth"
+    },
+    {
+      "context_snippet": "PRAW: The Python Reddit API Wrapper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "praw"
+    },
+    {
+      "context_snippet": "PRAW: The Python Reddit API Wrapper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reddit"
+    },
+    {
+      "context_snippet": "PRAW: The Python Reddit API Wrapper",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reddit-api"
+    }
+  ]
+}

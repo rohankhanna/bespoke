@@ -31,6 +31,30 @@
       "source_repo": "ben-rogerson/twin.macro",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ben-rogerson/twin.examples",
+      "status": "candidate-context",
+      "text": "Packed with examples for different frameworks, this repo helps you get started with twin a whole lot faster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-rogerson/twin.examples",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bradlc/babel-plugin-tailwind-components",
+      "status": "candidate-context",
+      "text": "Use Tailwind with any CSS-in-JS library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradlc/babel-plugin-tailwind-components",
+      "status": "candidate-context",
+      "text": "> Use [Tailwind](https://tailwindcss.com/) with any CSS-in-JS library"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "ben-rogerson/twin.macro",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ben-rogerson/twin.examples",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bradlc/babel-plugin-tailwind-components",
+      "status": "candidate",
+      "text": "> Use [Tailwind](https://tailwindcss.com/) with any CSS-in-JS library"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ben-rogerson/twin.macro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ben-rogerson/twin.examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bradlc/babel-plugin-tailwind-components"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

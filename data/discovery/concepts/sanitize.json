@@ -1,0 +1,108 @@
+{
+  "aliases": [
+    "sanitize"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate-context",
+      "text": "Use DOMPurify on server and client in the same way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40000571,
+      "status": "candidate",
+      "text": "hygienize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001332,
+      "status": "candidate",
+      "text": "disinfect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999221,
+      "status": "candidate",
+      "text": "purify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998460,
+      "status": "candidate",
+      "text": "cleanse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29986400,
+      "status": "candidate",
+      "text": "wash"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "hygienize"
+    }
+  ],
+  "canonical_name": "sanitize",
+  "concept_id": "sanitize",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sanitize",
+      "sense_id": "sanitize#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

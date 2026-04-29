@@ -1,0 +1,156 @@
+{
+  "components": [
+    {
+      "component": "@playwright/test",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "target": "@playwright/test",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "target": "dompurify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "target": "isomorphic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "target": "isomorphic-dompurify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "target": "playgrounds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:29.063611+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 764
+    },
+    {
+      "path": "package.json",
+      "size": 650
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "isomorphic-dompurify playgrounds for testing it with different frameworks",
+    "fork": false,
+    "full_name": "kkomelin/isomorphic-dompurify-playgrounds",
+    "html_url": "https://github.com/kkomelin/isomorphic-dompurify-playgrounds",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-29T14:37:45Z",
+    "stargazers_count": 1,
+    "topics": [
+      "dompurify",
+      "isomorphic",
+      "isomorphic-dompurify",
+      "playgrounds"
+    ],
+    "updated_at": "2026-04-29T14:41:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "[![Run Tests](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml/badge.svg)](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dompurify"
+    },
+    {
+      "context_snippet": "[![Run Tests](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml/badge.svg)](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isomorphic"
+    },
+    {
+      "context_snippet": "[![Run Tests](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml/badge.svg)](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isomorphic-dompurify"
+    },
+    {
+      "context_snippet": "[![Run Tests](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml/badge.svg)](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "playgrounds"
+    }
+  ]
+}

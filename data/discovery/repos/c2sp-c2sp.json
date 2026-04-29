@@ -1,0 +1,318 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly.yml"
+    },
+    {
+      "component": "superfly/flyctl-actions/setup-flyctl@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website-test.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "Create tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fetch-website.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "Notify website",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fly.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "superfly/flyctl-actions/setup-flyctl@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fly.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "Fly deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "Check generated files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-maintainers.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-maintainers.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "Update Maintainers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website-test.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/website-test.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website-test.yml",
+      "source_repo": "C2SP/C2SP",
+      "target": "Website tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:49:00.206587+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/create-tag.yml",
+      "size": 934
+    },
+    {
+      "path": ".github/workflows/fetch-website.yml",
+      "size": 313
+    },
+    {
+      "path": ".github/workflows/fly.yml",
+      "size": 424
+    },
+    {
+      "path": ".github/workflows/generate.yml",
+      "size": 379
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 323
+    },
+    {
+      "path": ".github/workflows/update-maintainers.yml",
+      "size": 1613
+    },
+    {
+      "path": ".github/workflows/website-test.yml",
+      "size": 399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Community Cryptography Specification Project",
+    "fork": false,
+    "full_name": "C2SP/C2SP",
+    "html_url": "https://github.com/C2SP/C2SP",
+    "language": "Python",
+    "pushed_at": "2026-04-24T19:51:41Z",
+    "stargazers_count": 572,
+    "topics": [],
+    "updated_at": "2026-04-29T16:10:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Create tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-tag.yml",
+      "term": "Create tag"
+    },
+    {
+      "context_snippet": "Notify website",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fetch-website.yml",
+      "term": "Notify website"
+    },
+    {
+      "context_snippet": "Fly deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fly.yml",
+      "term": "Fly deploy"
+    },
+    {
+      "context_snippet": "Check generated files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate.yml",
+      "term": "Check generated files"
+    },
+    {
+      "context_snippet": "Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint"
+    },
+    {
+      "context_snippet": "Update Maintainers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-maintainers.yml",
+      "term": "Update Maintainers"
+    },
+    {
+      "context_snippet": "Website tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/website-test.yml",
+      "term": "Website tests"
+    }
+  ]
+}

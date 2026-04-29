@@ -1,0 +1,179 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "target": "clojure-emacs/orchard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "target": "clojure-emacs/cljs-tooling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "target": "bhauman/rebel-readline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-suitable",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-suitable",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-suitable",
+      "target": "code-completion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-suitable",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-suitable",
+      "target": "figwheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-suitable",
+      "target": "intellisense",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-suitable",
+      "target": "repl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-suitable",
+      "target": "tooling",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:40:40.848381+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ClojureScript \"IntelliSense\" support for JS objects and their properties/methods. Via figwheel and Emacs CIDER.",
+    "fork": false,
+    "full_name": "clojure-emacs/clj-suitable",
+    "html_url": "https://github.com/clojure-emacs/clj-suitable",
+    "language": "Clojure",
+    "pushed_at": "2024-01-14T21:24:03Z",
+    "stargazers_count": 118,
+    "topics": [
+      "clojure",
+      "clojurescript",
+      "code-completion",
+      "emacs",
+      "figwheel",
+      "intellisense",
+      "repl",
+      "tooling"
+    ],
+    "updated_at": "2026-03-21T16:18:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bhauman/rebel-readline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure-emacs/cljs-tooling",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clojure-emacs/orchard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-completion"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "figwheel"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellisense"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tooling"
+    }
+  ]
+}

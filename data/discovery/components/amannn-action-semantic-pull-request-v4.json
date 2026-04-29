@@ -1,12 +1,17 @@
 {
   "component": "amannn/action-semantic-pull-request@v4",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pull-request.yml",
       "source_repo": "yassinedoghri/astro-i18next"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/on-pull-request.yml",
+      "source_repo": "lquixada/cross-fetch"
     }
   ]
 }

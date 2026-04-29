@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A relatively basic implementation of RWKV in Rust written by someone with very little math and ML knowledge. Supports 32, 8 and 4 bit evaluation. It can also directly load PyTorch RWKV models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "An example of the RWKV approach to language models written in Rust by someone that"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "An example of the RWKV approach to language models written in Rust by someone that"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-learning",
+      "sense_id": "deep-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deep-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep-learning",
+  "observation_id": "fb8e37497ce33a26",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "deep-learning",
+  "source_context_snippet": "An example of the RWKV approach to language models written in Rust by someone that",
+  "source_file": null,
+  "source_repo": "KerfuffleV2/smolrsrwkv",
+  "source_repo_description": "A relatively basic implementation of RWKV in Rust written by someone with very little math and ML knowledge. Supports 32, 8 and 4 bit evaluation. It can also directly load PyTorch RWKV models."
+}

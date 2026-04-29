@@ -6,22 +6,37 @@
       "source_file": ".github/workflows/build.yml"
     },
     {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
       "component": "actions/setup-python@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
     {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.11.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "svenstaro/upload-release-action@2.11.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
       "component": "codecov/codecov-action@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml"
-    },
-    {
-      "component": "svenstaro/upload-release-action@2.11.5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/build.yml"
-    },
-    {
-      "component": "svenstaro/upload-release-action@2.11.5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml"
     },
@@ -78,6 +93,13 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "zlib-ng/minizip-ng",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zlib-ng/minizip-ng",
       "target": "actions/setup-python@v6",
       "target_type": "component"
     },
@@ -85,7 +107,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "zlib-ng/minizip-ng",
-      "target": "codecov/codecov-action@v6",
+      "target": "actions/upload-artifact@v6",
       "target_type": "component"
     },
     {
@@ -93,6 +115,20 @@
       "source_file": ".github/workflows/build.yml",
       "source_repo": "zlib-ng/minizip-ng",
       "target": "svenstaro/upload-release-action@2.11.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "zlib-ng/minizip-ng",
+      "target": "codecov/codecov-action@v6",
       "target_type": "component"
     },
     {
@@ -271,7 +307,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T01:23:50.032200+00:00",
+  "fetched_at": "2026-04-29T20:41:38.738682+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -279,7 +315,7 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 11434
+      "size": 15148
     },
     {
       "path": ".github/workflows/codeql.yml",
@@ -307,8 +343,8 @@
     "full_name": "zlib-ng/minizip-ng",
     "html_url": "https://github.com/zlib-ng/minizip-ng",
     "language": "C",
-    "pushed_at": "2026-04-21T00:26:22Z",
-    "stargazers_count": 1443,
+    "pushed_at": "2026-04-27T19:23:39Z",
+    "stargazers_count": 1444,
     "topics": [
       "bzip2",
       "c",
@@ -326,7 +362,7 @@
       "zip",
       "zlib"
     ],
-    "updated_at": "2026-04-21T06:24:37Z"
+    "updated_at": "2026-04-28T01:51:44Z"
   },
   "repo_links": [],
   "terms": [

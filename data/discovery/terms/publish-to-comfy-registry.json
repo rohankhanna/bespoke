@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -66,6 +66,26 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/comfy_registry.yml",
       "source_repo": "finegrain-ai/refiners"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kijai/ComfyUI-LuminaWrapper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish_action.yml",
+      "source_repo": "chrisgoringe/cg-image-filter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "modelscope/scepter"
     }
   ],
   "term": "Publish to Comfy registry"

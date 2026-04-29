@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Test Docs"
+    "Test Docs",
+    "test docs"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "vega/vega-lite",
       "status": "candidate-context",
       "text": "Test Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "567-labs/instructor",
+      "status": "candidate-context",
+      "text": "structured outputs for llms "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "567-labs/instructor",
+      "status": "candidate-context",
+      "text": "Test Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "15r10nk/inline-snapshot",
+      "status": "candidate-context",
+      "text": "inline-snapshot boosts efficiency when writing tests by generating code with the expected values and simplifies snapshot tests with pytest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "15r10nk/inline-snapshot",
+      "status": "candidate-context",
+      "text": "test docs"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "vega/vega-lite",
       "status": "candidate",
       "text": "Test Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "567-labs/instructor",
+      "status": "candidate",
+      "text": "Test Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "15r10nk/inline-snapshot",
+      "status": "candidate",
+      "text": "test docs"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/test-docs.yml",
       "source_repo": "vega/vega-lite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test_docs.yml",
+      "source_repo": "15r10nk/inline-snapshot"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

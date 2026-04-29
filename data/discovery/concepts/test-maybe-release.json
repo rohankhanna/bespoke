@@ -128,6 +128,66 @@
       "source_repo": "ipld/js-dag-pb",
       "status": "candidate-context",
       "text": "test & maybe release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/nodejs-dist-indexer",
+      "status": "candidate-context",
+      "text": "An application to create nodejs.org distribution index files: index.json and index.tab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/nodejs-dist-indexer",
+      "status": "candidate-context",
+      "text": "Test & Maybe Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rvagg/github-webhook",
+      "status": "candidate-context",
+      "text": "A flexible web server for reacting GitHub Webhooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rvagg/github-webhook",
+      "status": "candidate-context",
+      "text": "Test & Maybe Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/js-ipfsd-ctl",
+      "status": "candidate-context",
+      "text": "Control an IPFS daemon (go-ipfs or js-ipfs) using JavaScript!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfsd-ctl",
+      "status": "candidate-context",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/aegir",
+      "status": "candidate-context",
+      "text": "AEgir - Automated JavaScript project building"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/aegir",
+      "status": "candidate-context",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rvagg/js-bitcoin-block",
+      "status": "candidate-context",
+      "text": "A Bitcoin block interface and decoder for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rvagg/js-bitcoin-block",
+      "status": "candidate-context",
+      "text": "Test & Maybe Release"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +250,36 @@
       "source_repo": "ipld/js-dag-pb",
       "status": "candidate",
       "text": "test & maybe release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/nodejs-dist-indexer",
+      "status": "candidate",
+      "text": "Test & Maybe Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rvagg/github-webhook",
+      "status": "candidate",
+      "text": "Test & Maybe Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfsd-ctl",
+      "status": "candidate",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/aegir",
+      "status": "candidate",
+      "text": "test & maybe release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rvagg/js-bitcoin-block",
+      "status": "candidate",
+      "text": "Test & Maybe Release"
     }
   ],
   "candidate_related_terms": [
@@ -293,11 +383,47 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/js-test-and-release.yml",
       "source_repo": "ipld/js-dag-pb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "nodejs/nodejs-dist-indexer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "rvagg/github-webhook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipfs/js-ipfsd-ctl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/js-test-and-release.yml",
+      "source_repo": "ipfs/aegir"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "rvagg/js-bitcoin-block"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

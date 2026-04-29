@@ -1,0 +1,147 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/undefined_names.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/undefined_names.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aqlaboratory/openfold",
+      "target": "deepmind/alphafold",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "aqlaboratory/openfold",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "aqlaboratory/openfold",
+      "target": "Docker Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/undefined_names.yml",
+      "source_repo": "aqlaboratory/openfold",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/undefined_names.yml",
+      "source_repo": "aqlaboratory/openfold",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aqlaboratory/openfold",
+      "target": "alphafold2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aqlaboratory/openfold",
+      "target": "protein-structure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aqlaboratory/openfold",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:47:42.480553+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3009
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1813
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 516
+    },
+    {
+      "path": ".github/workflows/undefined_names.yml",
+      "size": 333
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Trainable, memory-efficient, and GPU-friendly PyTorch reproduction of AlphaFold 2",
+    "fork": false,
+    "full_name": "aqlaboratory/openfold",
+    "html_url": "https://github.com/aqlaboratory/openfold",
+    "language": "Python",
+    "pushed_at": "2025-12-16T09:41:53Z",
+    "stargazers_count": 3348,
+    "topics": [
+      "alphafold2",
+      "protein-structure",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-29T05:10:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/alphafold",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker Image CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Docker Image CI"
+    },
+    {
+      "context_snippet": "![header ](imgs/of_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alphafold2"
+    },
+    {
+      "context_snippet": "![header ](imgs/of_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protein-structure"
+    },
+    {
+      "context_snippet": "![header ](imgs/of_banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

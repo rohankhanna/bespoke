@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":star: Pretty-print `git` repository collaborators sorted by contributions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "git-fame"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "git-fame"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047395,
+      "status": "candidate",
+      "text": "writer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022808,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899184,
+      "status": "candidate",
+      "text": "generator"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047935,
+      "status": "candidate",
+      "text": "authorship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047422,
+      "status": "candidate",
+      "text": "novelist"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "author",
+      "sense_id": "author#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26071,
+      "status": "candidate",
+      "text": "source"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7052,
+      "status": "candidate",
+      "text": "writer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5047,
+      "status": "candidate",
+      "text": "generator"
+    }
+  ],
+  "concept_id": "author",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "author",
+  "observation_id": "14f9d271e69c5eae",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "author",
+  "source_context_snippet": "git-fame",
+  "source_file": null,
+  "source_repo": "casperdcl/git-fame",
+  "source_repo_description": ":star: Pretty-print `git` repository collaborators sorted by contributions"
+}

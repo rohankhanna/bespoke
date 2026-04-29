@@ -4,50 +4,22 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aws/aws-sam-cli",
+      "target": "awslabs/aws-lambda-powertools-java",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "awslabs/aws-lambda-powertools-typescript",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws/aws-sam-cli",
       "target": "awslabs/aws-lambda-powertools-dotnet",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aws/aws-sam-cli",
-      "target": "aws/aws-sam-cli-app-templates",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aws/aws-sam-cli",
-      "target": "aws/aws-lambda-builders",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aws/aws-sam-cli",
-      "target": "awsdocs/aws-sam-developer-guide",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ai-code-review.yml",
-      "source_repo": "aws/aws-sam-cli",
-      "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ai-code-review.yml",
-      "source_repo": "aws/aws-sam-cli",
-      "target": "roger-zhangg/sam-pr-reviewer@742fd2b1a8574050bcdeb41ffe0b762a11ba24d5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/ai-code-review.yml",
-      "source_repo": "aws/aws-sam-cli",
-      "target": "AI Code Review",
-      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -204,6 +176,83 @@
       "target_type": "term"
     },
     {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "ruby/setup-ruby@4dc28cf14d77b0afa6832d9765ac422dbf0dfedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "hashicorp/setup-terraform@5e8dbf3c6d9deaf4193ca7a8fb23f2ac83bb6c85",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "aws-actions/configure-aws-credentials@ec61189d14ec14c8efccab744f656cffd0e33f37",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "aws/aws-sam-cli",
+      "target": "Integration Tests",
+      "target_type": "term"
+    },
+    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "aws/aws-sam-cli",
@@ -239,6 +288,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "aws/aws-sam-cli"
 }

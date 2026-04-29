@@ -1,0 +1,12 @@
+{
+  "component": "hishamhm/github-action-push-to-another-repository@2101498712d973a9cee4f67fe773ece41d642795",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/composite-docs.yml",
+      "source_repo": "teal-language/tl"
+    }
+  ]
+}

@@ -191,14 +191,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "expressjs/body-parser",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pillarjs/iconv-lite",
-      "target": "bnoordhuis/node-iconv",
+      "target": "substack/node-browserify",
       "target_type": "repository"
     },
     {
@@ -206,13 +199,6 @@
       "source_file": "README.md",
       "source_repo": "pillarjs/iconv-lite",
       "target": "ashtuchkin/iconv-lite",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pillarjs/iconv-lite",
-      "target": "danielgindi/node-autodetect-decoder-stream",
       "target_type": "repository"
     },
     {
@@ -447,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:01:03.682362+00:00",
+  "fetched_at": "2026-04-29T19:50:04.464240+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -497,17 +483,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "bnoordhuis/node-iconv",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "danielgindi/node-autodetect-decoder-stream",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "expressjs/body-parser",
+      "full_name": "substack/node-browserify",
       "source_file": "README.md"
     }
   ],

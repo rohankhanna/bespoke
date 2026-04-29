@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml"
+    },
+    {
+      "component": "vedantmgoyal2009/winget-releaser@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/winget.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chawyehsu/nvm-windows",
+      "target": "creationix/nvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chawyehsu/nvm-windows",
+      "target": "coreybutler/nvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chawyehsu/nvm-windows",
+      "target": "hakobera/nvmw",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chawyehsu/nvm-windows",
+      "target": "coreybutler/nodedistro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "chawyehsu/nvm-windows",
+      "target": "actions/stale@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "chawyehsu/nvm-windows",
+      "target": "Close stale issues and PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "chawyehsu/nvm-windows",
+      "target": "vedantmgoyal2009/winget-releaser@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "chawyehsu/nvm-windows",
+      "target": "Publish to Winget",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:56:07.279972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19098
+    },
+    {
+      "path": ".github/workflows/bot.yml",
+      "size": 831
+    },
+    {
+      "path": ".github/workflows/winget.yml",
+      "size": 377
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "v1.1.12",
+    "description": "For what it's worth, a nvm-windows fork with NTFS junction patch which was rejected by upstream",
+    "fork": true,
+    "full_name": "chawyehsu/nvm-windows",
+    "html_url": "https://github.com/chawyehsu/nvm-windows",
+    "language": "Go",
+    "pushed_at": "2024-03-20T02:24:44Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-05-03T04:54:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreybutler/nodedistro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreybutler/nvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "creationix/nvm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hakobera/nvmw",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Close stale issues and PR'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot.yml",
+      "term": "Close stale issues and PR"
+    },
+    {
+      "context_snippet": "Publish to Winget",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/winget.yml",
+      "term": "Publish to Winget"
+    }
+  ]
+}

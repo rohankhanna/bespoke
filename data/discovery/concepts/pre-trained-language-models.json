@@ -19,6 +19,18 @@
       "source_repo": "brightmart/roberta_zh",
       "status": "candidate-context",
       "text": "RoBERTa for Chinese, TensorFlow & PyTorch"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "airaria/TextPruner",
+      "status": "candidate-context",
+      "text": "A PyTorch-based model pruning toolkit for pre-trained language models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airaria/TextPruner",
+      "status": "candidate-context",
+      "text": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "brightmart/roberta_zh",
       "status": "candidate",
       "text": "RoBERTa for Chinese, TensorFlow & PyTorch"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "airaria/TextPruner",
+      "status": "candidate",
+      "text": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "brightmart/roberta_zh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "airaria/TextPruner"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

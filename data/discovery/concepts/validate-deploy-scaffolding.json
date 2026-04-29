@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Validate Deploy Scaffolding"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate-context",
+      "text": "Sample application built using Atlan Application SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate-context",
+      "text": "Validate Deploy Scaffolding"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate",
+      "text": "Validate Deploy Scaffolding"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17801,
+      "status": "candidate",
+      "text": "attest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17721,
+      "status": "candidate",
+      "text": "abide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17721,
+      "status": "candidate",
+      "text": "erect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17721,
+      "status": "candidate",
+      "text": "wash"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17631,
+      "status": "candidate",
+      "text": "set"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Validate Deploy Scaffolding",
+  "concept_id": "validate-deploy-scaffolding",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/validate-deploy-scaffolding.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Validate Deploy Scaffolding",
+      "sense_id": "validate-deploy-scaffolding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

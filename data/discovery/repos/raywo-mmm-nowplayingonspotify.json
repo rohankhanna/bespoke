@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "cookie-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "moment-duration-format",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "npm",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "querystring",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "request",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "request-promise-native",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "body-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "raywo/MMM-NowPlayingOnSpotify",
+      "target": "michmich/magicmirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "raywo/MMM-NowPlayingOnSpotify",
+      "target": "cookie-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "raywo/MMM-NowPlayingOnSpotify",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "raywo/MMM-NowPlayingOnSpotify",
+      "target": "moment-duration-format",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "raywo/MMM-NowPlayingOnSpotify",
+      "target": "npm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "raywo/MMM-NowPlayingOnSpotify",
+      "target": "querystring",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "raywo/MMM-NowPlayingOnSpotify",
+      "target": "request",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "raywo/MMM-NowPlayingOnSpotify",
+      "target": "request-promise-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "raywo/MMM-NowPlayingOnSpotify",
+      "target": "body-parser",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:59:50.138861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7127
+    },
+    {
+      "path": "package.json",
+      "size": 1061
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A module for MagicMirror displaying the song currently playing on Spotify.",
+    "fork": false,
+    "full_name": "raywo/MMM-NowPlayingOnSpotify",
+    "html_url": "https://github.com/raywo/MMM-NowPlayingOnSpotify",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-13T15:49:04Z",
+    "stargazers_count": 214,
+    "topics": [],
+    "updated_at": "2026-02-28T10:09:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michmich/magicmirror",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -43,13 +43,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "apache/casbin-actix-casbin-auth",
-      "target": "actix/actix-web",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "apache/casbin-actix-casbin-auth",
       "target": "casbin-rs/actix-casbin-auth",
@@ -182,7 +175,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:06:57.202770+00:00",
+  "fetched_at": "2026-04-29T19:56:22.798955+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -215,7 +208,7 @@
     "html_url": "https://github.com/apache/casbin-actix-casbin-auth",
     "language": "Rust",
     "pushed_at": "2026-03-23T12:21:26Z",
-    "stargazers_count": 56,
+    "stargazers_count": 58,
     "topics": [
       "abac",
       "acl",
@@ -230,14 +223,9 @@
       "rbac",
       "rust"
     ],
-    "updated_at": "2026-03-28T13:44:46Z"
+    "updated_at": "2026-04-27T15:52:06Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "actix/actix-web",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "casbin-rs/actix-casbin-auth",

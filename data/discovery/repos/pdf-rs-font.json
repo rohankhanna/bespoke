@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pdf-rs/font",
+      "target": "adobe-type-tools/agl-aglfn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "pdf-rs/font",
+      "target": "s3bk/tuple",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "pdf-rs/font",
+      "target": "s3bk/svg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:39:33.814380+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1706
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1544
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "pdf-rs/font",
+    "html_url": "https://github.com/pdf-rs/font",
+    "language": "Rust",
+    "pushed_at": "2024-07-23T13:02:38Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-10-21T20:44:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adobe-type-tools/agl-aglfn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "s3bk/svg",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "s3bk/tuple",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

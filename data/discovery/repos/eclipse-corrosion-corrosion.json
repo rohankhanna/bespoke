@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "stCarolas/setup-maven@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "target": "rust-analyzer/rust-analyzer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "target": "eclipse/corrosion",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "target": "stCarolas/setup-maven@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "target": "Build Tycho",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion",
+      "target": "eclipse-ide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion",
+      "target": "redox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion",
+      "target": "rust-language-server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:43:29.829035+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4980
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 978
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Eclipse Corrosion - Rust edition in Eclipse IDE",
+    "fork": false,
+    "full_name": "eclipse-corrosion/corrosion",
+    "html_url": "https://github.com/eclipse-corrosion/corrosion",
+    "language": "Java",
+    "pushed_at": "2025-12-12T09:08:22Z",
+    "stargazers_count": 240,
+    "topics": [
+      "eclipse-ide",
+      "hacktoberfest",
+      "redox",
+      "rls",
+      "rust",
+      "rust-language-server"
+    ],
+    "updated_at": "2026-04-24T18:41:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eclipse/corrosion",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-analyzer/rust-analyzer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Tycho",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Build Tycho"
+    },
+    {
+      "context_snippet": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse-ide"
+    },
+    {
+      "context_snippet": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redox"
+    },
+    {
+      "context_snippet": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-language-server"
+    }
+  ]
+}

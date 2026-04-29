@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "artisanal"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-java",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-java",
+      "status": "candidate-context",
+      "text": "> Java idiomatic client for [Google Cloud Platform][cloud-platform] services."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-java",
+      "status": "candidate",
+      "text": "> Java idiomatic client for [Google Cloud Platform][cloud-platform] services."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968971,
+      "status": "candidate",
+      "text": "handicraft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968878,
+      "status": "candidate",
+      "text": "handmade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968759,
+      "status": "candidate",
+      "text": "home-made"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968729,
+      "status": "candidate",
+      "text": "homemade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29919128,
+      "status": "candidate",
+      "text": "coastal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "artisanal",
+  "concept_id": "artisanal",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-java"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "artisanal",
+      "sense_id": "artisanal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

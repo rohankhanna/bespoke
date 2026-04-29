@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate header mapping index"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EngFlow/gazelle_cc",
+      "status": "candidate-context",
+      "text": "Public repository for the Gazelle C++ extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EngFlow/gazelle_cc",
+      "status": "candidate-context",
+      "text": "Generate header mapping index"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EngFlow/gazelle_cc",
+      "status": "candidate",
+      "text": "Generate header mapping index"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27562,
+      "status": "candidate",
+      "text": "drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27240,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27240,
+      "status": "candidate",
+      "text": "force"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27240,
+      "status": "candidate",
+      "text": "tap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27013,
+      "status": "candidate",
+      "text": "concordance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate header mapping index",
+  "concept_id": "generate-header-mapping-index",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generate_bzldep_index.yaml",
+      "source_repo": "EngFlow/gazelle_cc"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate header mapping index",
+      "sense_id": "generate-header-mapping-index#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

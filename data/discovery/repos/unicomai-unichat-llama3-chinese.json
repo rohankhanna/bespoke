@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UnicomAI/Unichat-llama3-Chinese",
+      "target": "oobabooga/text-generation-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UnicomAI/Unichat-llama3-Chinese",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UnicomAI/Unichat-llama3-Chinese",
+      "target": "openaccess-ai-collective/axolotl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UnicomAI/Unichat-llama3-Chinese",
+      "target": "crazyboym/llama3-chinese-chat",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:54:21.566141+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6604
+    },
+    {
+      "path": "requirements.txt",
+      "size": 120
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "UnicomAI/Unichat-llama3-Chinese",
+    "html_url": "https://github.com/UnicomAI/Unichat-llama3-Chinese",
+    "language": "Python",
+    "pushed_at": "2024-07-27T01:45:44Z",
+    "stargazers_count": 345,
+    "topics": [],
+    "updated_at": "2026-04-27T04:43:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crazyboym/llama3-chinese-chat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oobabooga/text-generation-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openaccess-ai-collective/axolotl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

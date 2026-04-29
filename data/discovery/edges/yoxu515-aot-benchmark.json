@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yoxu515/aot-benchmark",
+      "target": "masterbin-iiau/alpharefine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yoxu515/aot-benchmark",
+      "target": "clementpinard/pytorch-correlation-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yoxu515/aot-benchmark",
+      "target": "xmlyqing00/afb-urr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yoxu515/aot-benchmark",
+      "target": "davisvideochallenge/davis-2017",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "yoxu515/aot-benchmark"
+}

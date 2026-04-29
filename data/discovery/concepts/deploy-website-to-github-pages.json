@@ -19,12 +19,30 @@
       "source_repo": "dilanx/craco",
       "status": "candidate-context",
       "text": "Deploy website to GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate-context",
+      "text": "The fast, flexible, and elegant library for parsing and manipulating HTML and XML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate-context",
+      "text": "Deploy website to GitHub Pages"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "dilanx/craco",
+      "status": "candidate",
+      "text": "Deploy website to GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheeriojs/cheerio",
       "status": "candidate",
       "text": "Deploy website to GitHub Pages"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/website-deploy.yml",
       "source_repo": "dilanx/craco"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/site.yml",
+      "source_repo": "cheeriojs/cheerio"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

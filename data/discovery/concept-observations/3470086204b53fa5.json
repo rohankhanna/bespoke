@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Solidity Compiler for Solana, Polkadot and Stellar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://raw.githubusercontent.com/hyperledger/solang/main/docs/hl_solang_horizontal-color.svg\" alt=\"Solang Logo\" width=\"75%\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/hyperledger/solang/main/docs/hl_solang_horizontal-color.svg\" alt=\"Solang Logo\" width=\"75%\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045611,
+      "status": "candidate",
+      "text": "souanpan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045610,
+      "status": "candidate",
+      "text": "masu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045609,
+      "status": "candidate",
+      "text": "sangaku"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045608,
+      "status": "candidate",
+      "text": "pakapoo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20045607,
+      "status": "candidate",
+      "text": "paiban"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "soroban",
+      "sense_id": "soroban#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "soroban",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "soroban",
+  "observation_id": "3470086204b53fa5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "soroban",
+  "source_context_snippet": "<img src=\"https://raw.githubusercontent.com/hyperledger/solang/main/docs/hl_solang_horizontal-color.svg\" alt=\"Solang Logo\" width=\"75%\"/>",
+  "source_file": null,
+  "source_repo": "hyperledger-solang/solang",
+  "source_repo_description": "Solidity Compiler for Solana, Polkadot and Stellar"
+}

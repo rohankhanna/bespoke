@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "tunnels to localhost and other ssh plumbing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "module github.com/fasmide/remotemoe go 1.17 require ( github.com/fasmide/hostkeys v0.0.0-20211023164018-0a66d786b24e github.com/fatih/color v1.16.0 github.com/spf13/cobra v1.8.0 github.com/spf13/pflag v1.0.5 golang.org/x/crypto v0.19.0 golang.org/x/sync v0.6.0 golang.org/x/term \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "module github.com/fasmide/remotemoe go 1.17 require ( github.com/fasmide/hostkeys v0.0.0-20211023164018-0a66d786b24e github.com/fatih/color v1.16.0 github.com/spf13/cobra v1.8.0 github.com/spf13/pflag v1.0.5 golang.org/x/crypto v0.19.0 golang.org/x/sync v0.6.0 golang.org/x/term \u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032903,
+      "status": "candidate",
+      "text": "burrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033994,
+      "status": "candidate",
+      "text": "underground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033902,
+      "status": "candidate",
+      "text": "hole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032871,
+      "status": "candidate",
+      "text": "dig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020592,
+      "status": "candidate",
+      "text": "gate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tunnel",
+      "sense_id": "tunnel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9039,
+      "status": "candidate",
+      "text": "burrow"
+    }
+  ],
+  "concept_id": "tunnel",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tunnel",
+  "observation_id": "9bdd14c9375e115a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "tunnel",
+  "source_context_snippet": "module github.com/fasmide/remotemoe go 1.17 require ( github.com/fasmide/hostkeys v0.0.0-20211023164018-0a66d786b24e github.com/fatih/color v1.16.0 github.com/spf13/cobra v1.8.0 github.com/spf13/pflag v1.0.5 golang.org/x/crypto v0.19.0 golang.org/x/sync v0.6.0 golang.org/x/term \u2026",
+  "source_file": null,
+  "source_repo": "fasmide/remotemoe",
+  "source_repo_description": "tunnels to localhost and other ssh plumbing"
+}

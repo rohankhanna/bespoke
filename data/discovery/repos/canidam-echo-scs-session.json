@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "canidam/echo-scs-session",
+      "target": "spazzymoto/echo-scs-session",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "canidam/echo-scs-session",
+      "target": "gorilla/sessions",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:53:58.451118+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3518
+    },
+    {
+      "path": "go.mod",
+      "size": 828
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Echo Middleware for scs sessions",
+    "fork": true,
+    "full_name": "canidam/echo-scs-session",
+    "html_url": "https://github.com/canidam/echo-scs-session",
+    "language": "Go",
+    "pushed_at": "2024-04-02T09:31:14Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-02-05T10:38:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gorilla/sessions",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spazzymoto/echo-scs-session",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

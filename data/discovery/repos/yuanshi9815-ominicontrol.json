@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Yuanshi9815/OminiControl",
+      "target": "yuanshi9815/subjects200k",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Yuanshi9815/OminiControl",
+      "target": "macoron/comfyui-diffusers-ominicontrol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Yuanshi9815/OminiControl",
+      "target": "hm-runninghub/comfyui_rh_ominicontrol",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:17.173663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11629
+    },
+    {
+      "path": "requirements.txt",
+      "size": 87
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2025 Highlight] OminiControl: Minimal and Universal Control for Diffusion Transformer",
+    "fork": false,
+    "full_name": "Yuanshi9815/OminiControl",
+    "html_url": "https://github.com/Yuanshi9815/OminiControl",
+    "language": "Python",
+    "pushed_at": "2025-07-03T07:32:59Z",
+    "stargazers_count": 1913,
+    "topics": [],
+    "updated_at": "2026-04-28T19:31:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hm-runninghub/comfyui_rh_ominicontrol",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "macoron/comfyui-diffusers-ominicontrol",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuanshi9815/subjects200k",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

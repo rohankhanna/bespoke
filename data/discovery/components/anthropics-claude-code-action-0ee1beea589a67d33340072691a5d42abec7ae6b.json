@@ -1,0 +1,17 @@
+{
+  "component": "anthropics/claude-code-action@0ee1beea589a67d33340072691a5d42abec7ae6b",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Skyvern-AI/skyvern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Skyvern-AI/skyvern"
+    }
+  ]
+}

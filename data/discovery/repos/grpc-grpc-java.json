@@ -239,7 +239,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:07:08.944292+00:00",
+  "fetched_at": "2026-04-29T19:56:30.176790+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -271,8 +271,8 @@
     "full_name": "grpc/grpc-java",
     "html_url": "https://github.com/grpc/grpc-java",
     "language": "Java",
-    "pushed_at": "2026-04-23T15:53:54Z",
-    "stargazers_count": 12002,
+    "pushed_at": "2026-04-29T18:39:44Z",
+    "stargazers_count": 12010,
     "topics": [
       "grpc",
       "java",
@@ -280,7 +280,7 @@
       "proto",
       "rpc"
     ],
-    "updated_at": "2026-04-24T08:29:44Z"
+    "updated_at": "2026-04-29T17:08:43Z"
   },
   "repo_links": [
     {

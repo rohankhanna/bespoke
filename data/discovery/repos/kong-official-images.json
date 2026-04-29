@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/munge-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/munge-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/munge-pr.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/munge-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/official-images",
+      "target": "docker-library/python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/official-images",
+      "target": "docker-library/ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/official-images",
+      "target": "example/docker-example",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kong/official-images",
+      "target": "example/docker-example-rc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/munge-pr.yml",
+      "source_repo": "Kong/official-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/munge-pr.yml",
+      "source_repo": "Kong/official-images",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/munge-pr.yml",
+      "source_repo": "Kong/official-images",
+      "target": "Munge PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "Kong/official-images",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yml",
+      "source_repo": "Kong/official-images",
+      "target": "Test PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:02:57.070031+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 34741
+    },
+    {
+      "path": "Dockerfile",
+      "size": 928
+    },
+    {
+      "path": ".github/workflows/generate.sh",
+      "size": 2500
+    },
+    {
+      "path": ".github/workflows/munge-pr.yml",
+      "size": 10076
+    },
+    {
+      "path": ".github/workflows/naughty.sh",
+      "size": 1986
+    },
+    {
+      "path": ".github/workflows/test-pr.yml",
+      "size": 2666
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Primary source of truth for the Docker \"Official Images\" program",
+    "fork": true,
+    "full_name": "Kong/official-images",
+    "html_url": "https://github.com/Kong/official-images",
+    "language": "Shell",
+    "pushed_at": "2025-06-05T09:11:09Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-06-05T06:57:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker-library/python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker-library/ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "example/docker-example",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "example/docker-example-rc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Munge PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/munge-pr.yml",
+      "term": "Munge PR"
+    },
+    {
+      "context_snippet": "Test PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-pr.yml",
+      "term": "Test PR"
+    }
+  ]
+}

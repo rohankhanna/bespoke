@@ -34,6 +34,18 @@
       "source_repo": "taylorwilsdon/google_workspace_mcp",
       "status": "candidate-context",
       "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-random/getrandom",
+      "status": "candidate-context",
+      "text": "A small cross-platform library for retrieving random data from (operating) system source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-random/getrandom",
+      "status": "candidate-context",
+      "text": "Workspace"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "taylorwilsdon/google_workspace_mcp",
       "status": "candidate",
       "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-random/getrandom",
+      "status": "candidate",
+      "text": "Workspace"
     }
   ],
   "candidate_related_terms": [
@@ -103,11 +121,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "taylorwilsdon/google_workspace_mcp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/workspace.yml",
+      "source_repo": "rust-random/getrandom"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

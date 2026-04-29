@@ -1,0 +1,12 @@
+{
+  "component": "christophebedard/dco-check@7b0205d25ead0f898e0b706b58227dd5fa7e3f55",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dco.yaml",
+      "source_repo": "spiffe/go-spiffe"
+    }
+  ]
+}

@@ -43,6 +43,30 @@
       "source_repo": "privatenumber/esbuild-loader-examples",
       "status": "candidate-context",
       "text": "This repo contains usage examples for [esbuild-loader](https://github.com/privatenumber/esbuild-loader) that demonstrate setup."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate-context",
+      "text": "An esbuild plugin to inject your application's version number or today's date into your files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/aegir",
+      "status": "candidate-context",
+      "text": "AEgir - Automated JavaScript project building"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/aegir",
+      "status": "candidate-context",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "privatenumber/esbuild-loader-examples",
       "status": "candidate",
       "text": "This repo contains usage examples for [esbuild-loader](https://github.com/privatenumber/esbuild-loader) that demonstrate setup."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/aegir",
+      "status": "candidate",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "privatenumber/esbuild-loader-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "favware/esbuild-plugin-version-injector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/aegir"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

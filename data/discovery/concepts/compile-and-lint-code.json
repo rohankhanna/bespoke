@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Compile and lint code"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Moldoteck/MagicEraser",
+      "status": "candidate-context",
+      "text": "MagicEraser bot for telegram"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Moldoteck/MagicEraser",
+      "status": "candidate-context",
+      "text": "Compile and lint code"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Moldoteck/MagicEraser",
+      "status": "candidate",
+      "text": "Compile and lint code"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20495,
+      "status": "candidate",
+      "text": "make"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20452,
+      "status": "candidate",
+      "text": "mak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20452,
+      "status": "candidate",
+      "text": "poeticize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20020,
+      "status": "candidate",
+      "text": "brush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19783,
+      "status": "candidate",
+      "text": "compress"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Compile and lint code",
+  "concept_id": "compile-and-lint-code",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "Moldoteck/MagicEraser"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Compile and lint code",
+      "sense_id": "compile-and-lint-code#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

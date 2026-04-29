@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Automatic Data Update"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate-context",
+      "text": "Common JavaScript utilities for your TypeScript projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate-context",
+      "text": "Automatic Data Update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate",
+      "text": "Automatic Data Update"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26533,
+      "status": "candidate",
+      "text": "adp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26533,
+      "status": "candidate",
+      "text": "edp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26533,
+      "status": "candidate",
+      "text": "telemetry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26519,
+      "status": "candidate",
+      "text": "idp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26133,
+      "status": "candidate",
+      "text": "adps"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Automatic Data Update",
+  "concept_id": "automatic-data-update",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/auto-updater.yml",
+      "source_repo": "sapphiredev/utilities"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automatic Data Update",
+      "sense_id": "automatic-data-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

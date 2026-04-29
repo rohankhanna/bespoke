@@ -175,6 +175,54 @@
       "source_repo": "ninenines/cowboy",
       "status": "candidate-context",
       "text": "Check Cowboy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/seatunnel",
+      "status": "candidate-context",
+      "text": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel",
+      "status": "candidate-context",
+      "text": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"SeaTunnel Logo\" height=\"200px\" align=\"right\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate-context",
+      "text": "HACL*, a formally verified cryptographic library written in F*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate-context",
+      "text": "This repository contains verified code for a library of modern"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/librdkafka",
+      "status": "candidate-context",
+      "text": "The Apache Kafka C/C++ library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/librdkafka",
+      "status": "candidate-context",
+      "text": "librdkafka - the Apache Kafka\u00ae C/C++ client library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/seatunnel-tools",
+      "status": "candidate-context",
+      "text": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-tools",
+      "status": "candidate-context",
+      "text": "**English** | [\u4e2d\u6587](README_CN.md)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +309,30 @@
       "source_repo": "ninenines/cowboy",
       "status": "candidate",
       "text": "Check Cowboy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel",
+      "status": "candidate",
+      "text": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"SeaTunnel Logo\" height=\"200px\" align=\"right\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate",
+      "text": "This repository contains verified code for a library of modern"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/librdkafka",
+      "status": "candidate",
+      "text": "librdkafka - the Apache Kafka\u00ae C/C++ client library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-tools",
+      "status": "candidate",
+      "text": "**English** | [\u4e2d\u6587](README_CN.md)"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +460,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "ninenines/cowboy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/seatunnel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-tools"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

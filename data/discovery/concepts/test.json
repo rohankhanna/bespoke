@@ -4235,6 +4235,828 @@
       "source_repo": "gpac/mp4box.js",
       "status": "candidate-context",
       "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate-context",
+      "text": "Do you think you are safe using private browsing or incognito mode?. :smile: :imp: This will prove that you're wrong.   Previously hosted at nothingprivate.ml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate-context",
+      "text": "Image annotation with Python. Supports polygon, rectangle, circle, line, point, and AI-assisted annotation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niklasf/python-chess",
+      "status": "candidate-context",
+      "text": "A chess library for Python, with move generation and validation, PGN parsing and writing, Polyglot opening book reading, Gaviota tablebase probing, Syzygy tablebase probing, and UCI/XBoard engine communication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niklasf/python-chess",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googlefonts/gftools",
+      "status": "candidate-context",
+      "text": "Misc tools for working with the Google Fonts library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/gftools",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielward27/paramax",
+      "status": "candidate-context",
+      "text": "A small library of paramaterizations and parameter constraints for PyTrees."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielward27/paramax",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rs/cors",
+      "status": "candidate-context",
+      "text": "Go net/http configurable handler to handle CORS requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rs/cors",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/packaging",
+      "status": "candidate-context",
+      "text": "Core utilities for Python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/packaging",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcodeIO/long.js",
+      "status": "candidate-context",
+      "text": "A Long class for representing a 64-bit two's-complement integer value."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcodeIO/long.js",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "casperdcl/git-fame",
+      "status": "candidate-context",
+      "text": ":star: Pretty-print `git` repository collaborators sorted by contributions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casperdcl/git-fame",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intlify/eslint-plugin-svelte",
+      "status": "candidate-context",
+      "text": "ESLint plugin for internationalization with Svelte"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/eslint-plugin-svelte",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv-update",
+      "status": "candidate-context",
+      "text": "A nodenv plugin to update nodenv and installed plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-update",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "d3/d3",
+      "status": "candidate-context",
+      "text": "Bring data to life with SVG, Canvas and HTML. :bar_chart::chart_with_upwards_trend::tada:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-darwin/nix-darwin",
+      "status": "candidate-context",
+      "text": "Manage your macOS using Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-darwin/nix-darwin",
+      "status": "candidate-context",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-random/getrandom",
+      "status": "candidate-context",
+      "text": "A small cross-platform library for retrieving random data from (operating) system source"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-random/getrandom",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrierwaveuploader/carrierwave-i18n",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cpplint/cpplint",
+      "status": "candidate-context",
+      "text": "Static code checker for C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpplint/cpplint",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wemake-services/flake8-eradicate",
+      "status": "candidate-context",
+      "text": "Flake8 plugin to find commented out or dead code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/flake8-eradicate",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-java-test",
+      "status": "candidate-context",
+      "text": "Run and debug Java test cases in Visual Studio Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-java-test",
+      "status": "candidate-context",
+      "text": "> Run and debug Java test cases in Visual Studio Code"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tarsius/llama",
+      "status": "candidate-context",
+      "text": "Compact syntax for short lambda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tarsius/llama",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/parquet-format",
+      "status": "candidate-context",
+      "text": "Apache Parquet Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/parquet-format",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aarroyoc/djota",
+      "status": "candidate-context",
+      "text": "A Djot implementation in Prolog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aarroyoc/djota",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asciidoc-py/asciidoc-py",
+      "status": "candidate-context",
+      "text": "Legacy python processor for AsciiDoc"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciidoc-py/asciidoc-py",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fasthttp/websocket",
+      "status": "candidate-context",
+      "text": "WebSocket implementation for fasthttp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fasthttp/websocket",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FiloSottile/mkcert",
+      "status": "candidate-context",
+      "text": "A simple zero-config tool to make locally trusted development certificates with any names you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FiloSottile/mkcert",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thinca/vim-themis",
+      "status": "candidate-context",
+      "text": "A testing framework for Vim script."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinca/vim-themis",
+      "status": "candidate-context",
+      "text": "'Test'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "electerm/electerm-locales",
+      "status": "candidate-context",
+      "text": "Multi language files for electerm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm-locales",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tancredi/fantasticon",
+      "status": "candidate-context",
+      "text": "Icon font generation tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tancredi/fantasticon",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dghubble/gologin",
+      "status": "candidate-context",
+      "text": "Go login handlers for authentication providers (OAuth1, OAuth2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dghubble/gologin",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dghubble/oauth1",
+      "status": "candidate-context",
+      "text": "Go OAuth1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dghubble/oauth1",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EpicStep/clickhouse-go-rows-utils",
+      "status": "candidate-context",
+      "text": "Library that simplify working with rows in clickhouse-go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EpicStep/clickhouse-go-rows-utils",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mailru/go-clickhouse",
+      "status": "candidate-context",
+      "text": "Golang SQL database driver for Yandex ClickHouse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/go-clickhouse",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate-context",
+      "text": "A Middleware for Go Programming Language to check for JWTs on HTTP requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/documentation",
+      "status": "candidate-context",
+      "text": "Documentation/website for the Jaeger Distributed Tracing project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/documentation",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/btree",
+      "status": "candidate-context",
+      "text": "BTree provides a simple, ordered, in-memory data structure for Go programs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/btree",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/app-permissions",
+      "status": "candidate-context",
+      "text": "machine-readable, always up-to-date GitHub App permissions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app-permissions",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate-context",
+      "text": "GitHub\u2019s GraphQL Schema with validation. Automatically updated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/openapi",
+      "status": "candidate-context",
+      "text": "GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/action.js",
+      "status": "candidate-context",
+      "text": "GitHub API client for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/action.js",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/app.js",
+      "status": "candidate-context",
+      "text": "GitHub Apps toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app.js",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-action.js",
+      "status": "candidate-context",
+      "text": "GitHub API token authentication for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-action.js",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-app.js",
+      "status": "candidate-context",
+      "text": "GitHub App authentication for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-app.js",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/many-level",
+      "status": "candidate-context",
+      "text": "Share an abstract-level database over the network or other kind of stream."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/many-level",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-pillow/pillow-perf",
+      "status": "candidate-context",
+      "text": "Pillow Performance Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-pillow/pillow-perf",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "567-labs/instructor",
+      "status": "candidate-context",
+      "text": "structured outputs for llms "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "567-labs/instructor",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ebitengine/purego",
+      "status": "candidate-context",
+      "text": "A library for calling C functions from Go without Cgo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebitengine/purego",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dockur/windows",
+      "status": "candidate-context",
+      "text": "Windows inside a Docker container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dockur/windows",
+      "status": "candidate-context",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tarkah/tickrs",
+      "status": "candidate-context",
+      "text": "Realtime ticker data in your terminal \ud83d\udcc8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tarkah/tickrs",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ysmood/goob",
+      "status": "candidate-context",
+      "text": "A lightweight buffered event lib"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ysmood/goob",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ava-labs/avalanche-dapp-sdks",
+      "status": "candidate-context",
+      "text": "Working example of a dapp working with core extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ava-labs/avalanche-dapp-sdks",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-insomnia",
+      "status": "candidate-context",
+      "text": "Learn how to use insomnia to build/manage an API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-insomnia",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-suggester",
+      "status": "candidate-context",
+      "text": ":dog: Suggests any code changes based on diff through GitHub Multi-line code suggestions by using reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-suggester",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate-context",
+      "text": "Runs the psf/black formatter to check/format your python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joaotavora/eglot",
+      "status": "candidate-context",
+      "text": "A client for Language Server Protocol servers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joaotavora/eglot",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rtfeldman/node-test-runner",
+      "status": "candidate-context",
+      "text": "Runs elm-test suites from Node.js. Get it with npm install -g elm-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rtfeldman/node-test-runner",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mgaitan/sphinxcontrib-mermaid",
+      "status": "candidate-context",
+      "text": "Mermaid diagrams in yours sphinx powered docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgaitan/sphinxcontrib-mermaid",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate-context",
+      "text": "Backend for HTTP Observatory on MDN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OHF-Voice/piper1-gpl",
+      "status": "candidate-context",
+      "text": "Fast and local neural text-to-speech engine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OHF-Voice/piper1-gpl",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/glyphsets",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielward27/flowjax",
+      "status": "candidate-context",
+      "text": "test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rs/zerolog",
+      "status": "candidate-context",
+      "text": "Zero Allocation JSON Logger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rs/zerolog",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/sessions",
+      "status": "candidate-context",
+      "text": "Package gorilla/sessions provides cookie and filesystem sessions and infrastructure for custom session backends."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/sessions",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinas/alice",
+      "status": "candidate-context",
+      "text": "Painless middleware chaining for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinas/alice",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-embedded/critical-section",
+      "status": "candidate-context",
+      "text": "Pluggable critical section"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/critical-section",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "laixintao/tokei-pie",
+      "status": "candidate-context",
+      "text": "Render tokei's output to interactive sunburst chart."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "laixintao/tokei-pie",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate-context",
+      "text": "A cross-platform GUI library for Rust, inspired by Elm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "squidowl/iced",
+      "status": "candidate-context",
+      "text": "A cross-platform GUI library for Rust, inspired by Elm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidowl/iced",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postcss/postcss-nested",
+      "status": "candidate-context",
+      "text": "PostCSS plugin to unwrap nested rules like how Sass does it."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss-nested",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/tools.reader",
+      "status": "candidate-context",
+      "text": "Clojure reader in Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.reader",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lread/test-doc-blocks",
+      "status": "candidate-context",
+      "text": "Test AsciiDoc and CommonMark code blocks found in articles and docstrings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lread/test-doc-blocks",
+      "status": "candidate-context",
+      "text": "Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "athos/trenchman",
+      "status": "candidate-context",
+      "text": "A standalone nREPL/prepl client written in Go and heavily inspired by Grenchman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athos/trenchman",
+      "status": "candidate-context",
+      "text": "test"
     }
   ],
   "candidate_glosses": [
@@ -6367,6 +7189,426 @@
       "source_repo": "gpac/mp4box.js",
       "status": "candidate",
       "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niklasf/python-chess",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/gftools",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielward27/paramax",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rs/cors",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/packaging",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcodeIO/long.js",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "casperdcl/git-fame",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intlify/eslint-plugin-svelte",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-update",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "d3/d3",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-darwin/nix-darwin",
+      "status": "candidate",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-random/getrandom",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "carrierwaveuploader/carrierwave-i18n",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cpplint/cpplint",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/flake8-eradicate",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-java-test",
+      "status": "candidate",
+      "text": "> Run and debug Java test cases in Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tarsius/llama",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/parquet-format",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aarroyoc/djota",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asciidoc-py/asciidoc-py",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fasthttp/websocket",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FiloSottile/mkcert",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinca/vim-themis",
+      "status": "candidate",
+      "text": "'Test'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "electerm/electerm-locales",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tancredi/fantasticon",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dghubble/gologin",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dghubble/oauth1",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EpicStep/clickhouse-go-rows-utils",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/go-clickhouse",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/documentation",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/btree",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app-permissions",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/action.js",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app.js",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-action.js",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-app.js",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/many-level",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-pillow/pillow-perf",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "567-labs/instructor",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebitengine/purego",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dockur/windows",
+      "status": "candidate",
+      "text": "\"Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tarkah/tickrs",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ysmood/goob",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ava-labs/avalanche-dapp-sdks",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-insomnia",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-suggester",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joaotavora/eglot",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rtfeldman/node-test-runner",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgaitan/sphinxcontrib-mermaid",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OHF-Voice/piper1-gpl",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/glyphsets",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielward27/flowjax",
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rs/zerolog",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/sessions",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinas/alice",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/critical-section",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "laixintao/tokei-pie",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidowl/iced",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postcss/postcss-nested",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.reader",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lread/test-doc-blocks",
+      "status": "candidate",
+      "text": "Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athos/trenchman",
+      "status": "candidate",
+      "text": "test"
     }
   ],
   "candidate_related_terms": [
@@ -8941,11 +10183,575 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "gpac/mp4box.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gautamkrishnar/nothing-private"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wkentaro/labelme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "niklasf/python-chess"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "googlefonts/lang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "googlefonts/gftools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "danielward27/paramax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "rs/cors"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "pypa/packaging"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/Test.yml",
+      "source_repo": "igor-makarov/xcake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dcodeIO/long.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "casperdcl/git-fame"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "intlify/eslint-plugin-svelte"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nodenv/nodenv-update"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "licensee/licensed"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "d3/d3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "nix-darwin/nix-darwin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "LuaLS/lua-language-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rust-random/getrandom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "carrierwaveuploader/carrierwave-i18n"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "cpplint/cpplint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PyCQA/eradicate"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-java-test"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tarsius/llama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "apache/parquet-format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aarroyoc/djota"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "asciidoc-py/asciidoc-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fasthttp/websocket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "FiloSottile/mkcert"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "thinca/vim-themis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electerm/electerm-locales"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "tancredi/fantasticon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dghubble/gologin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dghubble/oauth1"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "EpicStep/clickhouse-go-rows-utils"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mailru/go-clickhouse"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "auth0/go-jwt-middleware"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci-test.yml",
+      "source_repo": "jaegertracing/documentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/btree"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/app-permissions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/graphql-schema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/openapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "prompt-toolkit/python-prompt-toolkit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/action.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/app.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/auth-action.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "octokit/auth-app.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "Level/many-level"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "python-pillow/pillow-perf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "PrimeIntellect-ai/verifiers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ebitengine/purego"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dockur/windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dukesoferl/re2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tarkah/tickrs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ysmood/goob"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ava-labs/avalanche-dapp-sdks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dwyl/learn-insomnia"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "auth0/node-jws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "reviewdog/action-suggester"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rickstaa/action-black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "joaotavora/eglot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rtfeldman/node-test-runner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "zplug/zplug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mgaitan/sphinxcontrib-mermaid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "mdn/mdn-http-observatory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "OHF-Voice/piper1-gpl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "googlefonts/glyphsets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "fonttools/fonttools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "danielward27/flowjax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rs/zerolog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "gorilla/sessions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "justinas/alice"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rust-embedded/critical-section"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "vercel/ms"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "laixintao/tokei-pie"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rbenv/ruby-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "iced-rs/iced"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "squidowl/iced"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "postcss/postcss-nested"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "clojure/tools.reader"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "lread/test-doc-blocks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "athos/trenchman"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

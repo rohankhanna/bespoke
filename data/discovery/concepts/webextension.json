@@ -31,6 +31,42 @@
       "source_repo": "bitwarden/clients",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate-context",
+      "text": "A browser extension for the Motrix Download Manager and its forks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate-context",
+      "text": "This WebExtension allows you to automatically download all the files via [Motrix Download Manager](https://motrix.app/) instead of your browser's native download manager."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate-context",
+      "text": "This browser extension enables you to filter the GitHub news feeds based on different event types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate-context",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate-context",
+      "text": "Small CLI toolbox for cross-browser WebExtension development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate-context",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\">](https://www.npmjs.com/package/@webextension-toolbox/webextension-toolbox)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "bitwarden/clients",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate",
+      "text": "This WebExtension allows you to automatically download all the files via [Motrix Download Manager](https://motrix.app/) instead of your browser's native download manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\">](https://www.npmjs.com/package/@webextension-toolbox/webextension-toolbox)"
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +124,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/motrix-webextension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webextension-toolbox/webextension-toolbox"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

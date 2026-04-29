@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "@web3-react/types",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@tsconfig/recommended",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "trustwallet/web3-react-trust-wallet",
+      "target": "@web3-react/types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "trustwallet/web3-react-trust-wallet",
+      "target": "@tsconfig/recommended",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:57:02.590456+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 342
+    },
+    {
+      "path": "package.json",
+      "size": 706
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "trustwallet/web3-react-trust-wallet",
+    "html_url": "https://github.com/trustwallet/web3-react-trust-wallet",
+    "language": "TypeScript",
+    "pushed_at": "2024-04-22T11:30:56Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2026-03-29T01:11:04Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly Coverity Scan"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ofiwg/libfabric",
+      "status": "candidate-context",
+      "text": "Open Fabric Interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ofiwg/libfabric",
+      "status": "candidate-context",
+      "text": "Nightly Coverity Scan"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ofiwg/libfabric",
+      "status": "candidate",
+      "text": "Nightly Coverity Scan"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11096,
+      "status": "candidate",
+      "text": "sunset"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11052,
+      "status": "candidate",
+      "text": "eleven"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11052,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10903,
+      "status": "candidate",
+      "text": "pbs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10822,
+      "status": "candidate",
+      "text": "read"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly Coverity Scan",
+  "concept_id": "nightly-coverity-scan",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "ofiwg/libfabric"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Coverity Scan",
+      "sense_id": "nightly-coverity-scan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

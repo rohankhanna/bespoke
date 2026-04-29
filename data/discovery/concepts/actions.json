@@ -226,6 +226,66 @@
       "source_repo": "gitleaks/gitleaks-action",
       "status": "candidate-context",
       "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eyalz800/zpp_throwing",
+      "status": "candidate-context",
+      "text": "Using coroutines to implement C++ exceptions for freestanding environments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalz800/zpp_throwing",
+      "status": "candidate-context",
+      "text": "actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosn/mosn",
+      "status": "candidate-context",
+      "text": "The Cloud-Native Network Proxy Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosn/mosn",
+      "status": "candidate-context",
+      "text": "actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosn/proxy-wasm-go-host",
+      "status": "candidate-context",
+      "text": "WebAssembly for Proxies (Golang host implementation)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosn/proxy-wasm-go-host",
+      "status": "candidate-context",
+      "text": "actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "status": "candidate-context",
+      "text": ":octocat: GitHub Action to render manim videos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "status": "candidate-context",
+      "text": "[![logo](test/header.png)](https://github.com/manim-kindergarten/manim_action_renderer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gacts/install-dnscontrol",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Installs DNSControl into your actions workflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gacts/install-dnscontrol",
+      "status": "candidate-context",
+      "text": "![Release version][badge_release_version]"
     }
   ],
   "candidate_glosses": [
@@ -336,6 +396,36 @@
       "source_repo": "gitleaks/gitleaks-action",
       "status": "candidate",
       "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalz800/zpp_throwing",
+      "status": "candidate",
+      "text": "actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosn/mosn",
+      "status": "candidate",
+      "text": "actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosn/proxy-wasm-go-host",
+      "status": "candidate",
+      "text": "actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "status": "candidate",
+      "text": "[![logo](test/header.png)](https://github.com/manim-kindergarten/manim_action_renderer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gacts/install-dnscontrol",
+      "status": "candidate",
+      "text": "![Release version][badge_release_version]"
     }
   ],
   "candidate_related_terms": [
@@ -493,11 +583,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/actions.yml",
+      "source_repo": "eyalz800/zpp_throwing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "mosn/mosn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "mosn/proxy-wasm-go-host"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim_action_renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gacts/install-dnscontrol"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

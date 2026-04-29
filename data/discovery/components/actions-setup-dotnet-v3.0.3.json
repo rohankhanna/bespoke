@@ -1,0 +1,17 @@
+{
+  "component": "actions/setup-dotnet@v3.0.3",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-dotnet-native.yaml",
+      "source_repo": "extism/extism"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hosted.yml",
+      "source_repo": "antlr/antlr4"
+    }
+  ]
+}

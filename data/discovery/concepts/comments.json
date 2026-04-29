@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "comments"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/tsdoc",
+      "status": "candidate-context",
+      "text": "A doc comment standard for TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/tsdoc",
+      "status": "candidate-context",
+      "text": "<table><tr><td>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wemake-services/flake8-eradicate",
+      "status": "candidate-context",
+      "text": "Flake8 plugin to find commented out or dead code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/flake8-eradicate",
+      "status": "candidate-context",
+      "text": "[![wemake.services](https://img.shields.io/badge/-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/tsdoc",
+      "status": "candidate",
+      "text": "<table><tr><td>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/flake8-eradicate",
+      "status": "candidate",
+      "text": "[![wemake.services](https://img.shields.io/badge/-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20050103,
+      "status": "candidate",
+      "text": "remark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20049776,
+      "status": "candidate",
+      "text": "notice"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20039104,
+      "status": "candidate",
+      "text": "point out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20031091,
+      "status": "candidate",
+      "text": "commentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20006213,
+      "status": "candidate",
+      "text": "gossip"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "comments",
+  "concept_id": "comments",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/tsdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "wemake-services/flake8-eradicate"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "comments",
+      "sense_id": "comments#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

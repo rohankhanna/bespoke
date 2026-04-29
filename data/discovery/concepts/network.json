@@ -79,6 +79,18 @@
       "source_repo": "twisted/twisted",
       "status": "candidate-context",
       "text": "Twisted"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cavalleria/cavaface",
+      "status": "candidate-context",
+      "text": "face recognition training project(pytorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cavalleria/cavaface",
+      "status": "candidate-context",
+      "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "twisted/twisted",
       "status": "candidate",
       "text": "Twisted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cavalleria/cavaface",
+      "status": "candidate",
+      "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +286,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Consensys/ethereum-dissectors"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cavalleria/cavaface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Consensys/ethereum-dissectors"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

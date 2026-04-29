@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An elegant PyTorch deep reinforcement learning library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PEP8, Types and Docs Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PEP8, Types and Docs Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22476,
+      "status": "candidate",
+      "text": "par"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22448,
+      "status": "candidate",
+      "text": "oscillograph"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22448,
+      "status": "candidate",
+      "text": "soul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22187,
+      "status": "candidate",
+      "text": "audit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22187,
+      "status": "candidate",
+      "text": "auditing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "PEP8, Types and Docs Check",
+      "sense_id": "pep8-types-and-docs-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pep8-types-and-docs-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pep8-types-and-docs-check",
+  "observation_id": "e92a84b940deaa0e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "PEP8, Types and Docs Check",
+  "source_context_snippet": "PEP8, Types and Docs Check",
+  "source_file": ".github/workflows/lint_and_docs.yml",
+  "source_repo": "yuyq18/tianshou",
+  "source_repo_description": "An elegant PyTorch deep reinforcement learning library."
+}

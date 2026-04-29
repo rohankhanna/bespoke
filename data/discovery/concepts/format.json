@@ -179,6 +179,42 @@
       "source_repo": "doom-neovim/doom-nvim",
       "status": "candidate-context",
       "text": "format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
+      "status": "candidate-context",
+      "text": "Bindings to the Tracy profiler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
+      "status": "candidate-context",
+      "text": "format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate-context",
+      "text": "A cross-platform GUI library for Rust, inspired by Elm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate-context",
+      "text": "Format"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "squidowl/iced",
+      "status": "candidate-context",
+      "text": "A cross-platform GUI library for Rust, inspired by Elm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidowl/iced",
+      "status": "candidate-context",
+      "text": "Format"
     }
   ],
   "candidate_glosses": [
@@ -265,6 +301,24 @@
       "source_repo": "doom-neovim/doom-nvim",
       "status": "candidate",
       "text": "format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ocaml-tracing/ocaml-tracy",
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate",
+      "text": "Format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidowl/iced",
+      "status": "candidate",
+      "text": "Format"
     }
   ],
   "candidate_related_terms": [
@@ -553,11 +607,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/format.yml",
       "source_repo": "doom-neovim/doom-nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "langchain-ai/langchainjs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "iced-rs/iced"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/format.yml",
+      "source_repo": "squidowl/iced"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

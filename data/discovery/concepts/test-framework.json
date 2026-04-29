@@ -55,6 +55,18 @@
       "source_repo": "LukasKalbertodt/libtest-mimic",
       "status": "candidate-context",
       "text": "[<img alt=\"CI status of master\" src=\"https://img.shields.io/github/actions/workflow/status/LukasKalbertodt/libtest-mimic/ci.yml?branch=master&label=CI&logo=github&logoColor=white&style=for-the-badge\" height=\"23\">](https://github.com/LukasKalbertodt/libtest-mimic/actions?query=wo\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thinca/vim-themis",
+      "status": "candidate-context",
+      "text": "A testing framework for Vim script."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinca/vim-themis",
+      "status": "candidate-context",
+      "text": "themis.vim is a testing framework for Vim script."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "LukasKalbertodt/libtest-mimic",
       "status": "candidate",
       "text": "[<img alt=\"CI status of master\" src=\"https://img.shields.io/github/actions/workflow/status/LukasKalbertodt/libtest-mimic/ci.yml?branch=master&label=CI&logo=github&logoColor=white&style=for-the-badge\" height=\"23\">](https://github.com/LukasKalbertodt/libtest-mimic/actions?query=wo\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thinca/vim-themis",
+      "status": "candidate",
+      "text": "themis.vim is a testing framework for Vim script."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "LukasKalbertodt/libtest-mimic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "catchorg/Catch2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "thinca/vim-themis"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

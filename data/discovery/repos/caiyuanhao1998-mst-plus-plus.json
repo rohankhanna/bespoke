@@ -1,0 +1,117 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caiyuanhao1998/MST-plus-plus",
+      "target": "caiyuanhao1998/mst",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST-plus-plus",
+      "target": "hyperspectral-image-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST-plus-plus",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST-plus-plus",
+      "target": "ntire",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST-plus-plus",
+      "target": "spectral-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST-plus-plus",
+      "target": "spectral-superresolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:51:29.427487+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22139
+    },
+    {
+      "path": "requirements.txt",
+      "size": 108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\"MST++: Multi-stage Spectral-wise Transformer for Efficient Spectral Reconstruction\"  (CVPRW 2022) & (Winner of NTIRE 2022 Spectral Recovery Challenge) and a toolbox for spectral reconstruction",
+    "fork": false,
+    "full_name": "caiyuanhao1998/MST-plus-plus",
+    "html_url": "https://github.com/caiyuanhao1998/MST-plus-plus",
+    "language": "Python",
+    "pushed_at": "2025-11-11T17:55:01Z",
+    "stargazers_count": 550,
+    "topics": [
+      "hyperspectral-image-reconstruction",
+      "image-restoration",
+      "ntire",
+      "spectral-reconstruction",
+      "spectral-superresolution"
+    ],
+    "updated_at": "2026-04-24T01:56:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caiyuanhao1998/mst",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![winner](https://img.shields.io/badge/Winner-NTIRE_2022_Challenge_on_Spectral_Reconstruction_from_RGB-179bd3)](https://codalab.lisn.upsaclay.fr/competitions/721#learn_the_details)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperspectral-image-reconstruction"
+    },
+    {
+      "context_snippet": "[![winner](https://img.shields.io/badge/Winner-NTIRE_2022_Challenge_on_Spectral_Reconstruction_from_RGB-179bd3)](https://codalab.lisn.upsaclay.fr/competitions/721#learn_the_details)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "[![winner](https://img.shields.io/badge/Winner-NTIRE_2022_Challenge_on_Spectral_Reconstruction_from_RGB-179bd3)](https://codalab.lisn.upsaclay.fr/competitions/721#learn_the_details)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ntire"
+    },
+    {
+      "context_snippet": "[![winner](https://img.shields.io/badge/Winner-NTIRE_2022_Challenge_on_Spectral_Reconstruction_from_RGB-179bd3)](https://codalab.lisn.upsaclay.fr/competitions/721#learn_the_details)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spectral-reconstruction"
+    },
+    {
+      "context_snippet": "[![winner](https://img.shields.io/badge/Winner-NTIRE_2022_Challenge_on_Spectral_Reconstruction_from_RGB-179bd3)](https://codalab.lisn.upsaclay.fr/competitions/721#learn_the_details)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spectral-superresolution"
+    }
+  ]
+}

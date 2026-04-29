@@ -337,6 +337,156 @@
       "source_repo": "google-research/bert",
       "status": "candidate-context",
       "text": "**\\*\\*\\*\\*\\* New March 11th, 2020: Smaller BERT Models \\*\\*\\*\\*\\***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "A large-scale 7B pretraining language model developed by BaiChuan-Inc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "status": "candidate-context",
+      "text": "[ICML 2021, Long Talk] Delving into Deep Imbalanced Regression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "status": "candidate-context",
+      "text": "This repository contains the implementation code for paper: <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/tokenizers",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5 Fast State-of-the-Art Tokenizers optimized for Research and Production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/tokenizers",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate-context",
+      "text": "A Unified Library for Parameter-Efficient and Modular Transfer Learning "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate-context",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate-context",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "A 13B large language model developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate-context",
+      "text": "[ACL 2024] An Easy-to-use Knowledge Editing Framework for LLMs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenLMLab/MOSS_Vortex",
+      "status": "candidate-context",
+      "text": "Moss Vortex is a lightweight and high-performance deployment and inference backend engineered specifically for MOSS 003, providing a wealth of features aimed at enhancing performance and functionality, built upon the foundations of MOSEC and Torch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenLMLab/MOSS_Vortex",
+      "status": "candidate-context",
+      "text": "Moss Vortex is a lightweight, fast, simple, and high-performance deployment and inference backend engineered specifically for MOSS 003, providing a wealth of features aimed at enhancing performance and functionality, built upon the foundations of MOSEC and Torch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/Chinese-XLNet",
+      "status": "candidate-context",
+      "text": "Pre-Trained Chinese XLNet\uff08\u4e2d\u6587XLNet\u9884\u8bad\u7ec3\u6a21\u578b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-XLNet",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "A series of large language models developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate-context",
+      "text": "NLP made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate-context",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jadore801120/attention-is-all-you-need-pytorch",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of the Transformer model in \"Attention is All You Need\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jadore801120/attention-is-all-you-need-pytorch",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of the Transformer model in \"[Attention is All You Need](https://arxiv.org/abs/1706.03762)\" (Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, arxiv, 2017)."
     }
   ],
   "candidate_glosses": [
@@ -501,6 +651,84 @@
       "source_repo": "google-research/bert",
       "status": "candidate",
       "text": "**\\*\\*\\*\\*\\* New March 11th, 2020: Smaller BERT Models \\*\\*\\*\\*\\***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "status": "candidate",
+      "text": "This repository contains the implementation code for paper: <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/tokenizers",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zjunlp/EasyEdit",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenLMLab/MOSS_Vortex",
+      "status": "candidate",
+      "text": "Moss Vortex is a lightweight, fast, simple, and high-performance deployment and inference backend engineered specifically for MOSS 003, providing a wealth of features aimed at enhancing performance and functionality, built upon the foundations of MOSEC and Torch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-XLNet",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate",
+      "text": "<h2 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jadore801120/attention-is-all-you-need-pytorch",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of the Transformer model in \"[Attention is All You Need](https://arxiv.org/abs/1706.03762)\" (Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, arxiv, 2017)."
     }
   ],
   "candidate_related_terms": [],
@@ -688,11 +916,95 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "google-research/bert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/tokenizers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adapter-hub/adapters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "young-geng/EasyLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zjunlp/EasyEdit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OpenMOSS/MOSS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OpenLMLab/MOSS_Vortex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-XLNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dmlc/gluon-nlp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jadore801120/attention-is-all-you-need-pytorch"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

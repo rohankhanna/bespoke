@@ -189,7 +189,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:06:53.319062+00:00",
+  "fetched_at": "2026-04-29T19:56:19.207628+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -222,7 +222,7 @@
     "html_url": "https://github.com/apache/casbin-rust-actix-casbin",
     "language": "Rust",
     "pushed_at": "2024-03-03T07:47:11Z",
-    "stargazers_count": 34,
+    "stargazers_count": 35,
     "topics": [
       "abac",
       "acl",
@@ -237,7 +237,7 @@
       "rbac",
       "rust"
     ],
-    "updated_at": "2026-03-28T13:44:34Z"
+    "updated_at": "2026-04-27T15:52:27Z"
   },
   "repo_links": [
     {

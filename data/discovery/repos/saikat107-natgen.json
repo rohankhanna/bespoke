@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saikat107/NatGen",
+      "target": "salesforce/codet5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "saikat107/NatGen",
+      "target": "microsoft/codexglue",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:53:52.241887+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4373
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "saikat107/NatGen",
+    "html_url": "https://github.com/saikat107/NatGen",
+    "language": "Python",
+    "pushed_at": "2023-01-13T03:39:47Z",
+    "stargazers_count": 41,
+    "topics": [],
+    "updated_at": "2026-01-31T12:47:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/codexglue",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salesforce/codet5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/DartSassHost",
+      "target": "koenvzeijl/aspnetcore.sasscompiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/DartSassHost",
+      "target": "deanwiseman/dartsassbuilder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/DartSassHost",
+      "target": "excubo-ag/webcompiler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Taritsyn/DartSassHost",
+      "target": "ligershark/weboptimizer.sass",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/DartSassHost",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/DartSassHost",
+      "target": "dart-sass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/DartSassHost",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Taritsyn/DartSassHost",
+      "target": "sass",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:00:32.493468+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18009
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ".NET wrapper around the Dart Sass.",
+    "fork": false,
+    "full_name": "Taritsyn/DartSassHost",
+    "html_url": "https://github.com/Taritsyn/DartSassHost",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-20T16:29:40Z",
+    "stargazers_count": 21,
+    "topics": [
+      "csharp",
+      "dart-sass",
+      "dotnet",
+      "sass"
+    ],
+    "updated_at": "2026-04-20T16:29:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deanwiseman/dartsassbuilder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "excubo-ag/webcompiler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "koenvzeijl/aspnetcore.sasscompiler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ligershark/weboptimizer.sass",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dart Sass Host for .NET [![NuGet version](http://img.shields.io/nuget/v/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/) [![Download count](https://img.shields.io/nuget/dt/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "Dart Sass Host for .NET [![NuGet version](http://img.shields.io/nuget/v/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/) [![Download count](https://img.shields.io/nuget/dt/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart-sass"
+    },
+    {
+      "context_snippet": "Dart Sass Host for .NET [![NuGet version](http://img.shields.io/nuget/v/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/) [![Download count](https://img.shields.io/nuget/dt/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "Dart Sass Host for .NET [![NuGet version](http://img.shields.io/nuget/v/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/) [![Download count](https://img.shields.io/nuget/dt/DartSassHost.svg)](https://www.nuget.org/packages/DartSassHost/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sass"
+    }
+  ]
+}

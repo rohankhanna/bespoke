@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "logic"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hendrycks/math",
+      "status": "candidate-context",
+      "text": "The MATH Dataset (NeurIPS 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hendrycks/math",
+      "status": "candidate-context",
+      "text": "This is the repository for [Measuring Mathematical Problem Solving With the MATH Dataset](https://arxiv.org/pdf/2103.03874) by"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hendrycks/math",
+      "status": "candidate",
+      "text": "This is the repository for [Measuring Mathematical Problem Solving With the MATH Dataset](https://arxiv.org/pdf/2103.03874) by"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39965997,
+      "status": "candidate",
+      "text": "logical system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003979,
+      "status": "candidate",
+      "text": "system of logic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003978,
+      "status": "candidate",
+      "text": "logical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30003449,
+      "status": "candidate",
+      "text": "reasoning"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002644,
+      "status": "candidate",
+      "text": "rationale"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2012,
+      "status": "candidate",
+      "text": "logical system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "system of logic"
+    }
+  ],
+  "canonical_name": "logic",
+  "concept_id": "logic",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hendrycks/math"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "logic",
+      "sense_id": "logic#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

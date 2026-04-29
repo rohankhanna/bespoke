@@ -55,6 +55,66 @@
       "source_repo": "google-research/big_transfer",
       "status": "candidate-context",
       "text": "*by Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Joan Puigcerver, Jessica Yung, Sylvain Gelly, Neil Houlsby*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25\ud83d\udd25High-Performance Face Recognition Library on PaddlePaddle & PyTorch\ud83d\udd25\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate-context",
+      "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate-context",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from https://arxiv.org/abs/2106.05237."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate-context",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from the paper [Knowledge distillation:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/training_extensions",
+      "status": "candidate-context",
+      "text": "Train, Evaluate, Optimize, Deploy Computer Vision Models via OpenVINO\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/training_extensions",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 MD042 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adamdad/DeRy",
+      "status": "candidate-context",
+      "text": "[NeurIPS2022] Deep Model Reassembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adamdad/DeRy",
+      "status": "candidate-context",
+      "text": "This repository contains the offical implementation for our paper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate-context",
+      "text": "The official repo for the extension of [NeurIPS'22] \"APT-36K: A Large-scale Benchmark for Animal Pose Estimation and Tracking\": https://github.com/pandorgan/APT-36K"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate-context",
+      "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +141,36 @@
       "source_repo": "google-research/big_transfer",
       "status": "candidate",
       "text": "*by Alexander Kolesnikov, Lucas Beyer, Xiaohua Zhai, Joan Puigcerver, Jessica Yung, Sylvain Gelly, Neil Houlsby*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate",
+      "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from the paper [Knowledge distillation:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/training_extensions",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 MD042 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adamdad/DeRy",
+      "status": "candidate",
+      "text": "This repository contains the offical implementation for our paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate",
+      "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +202,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "google-research/big_transfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/FunMatch-Distillation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-edge-platform/training_extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Adamdad/DeRy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/APTv2"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

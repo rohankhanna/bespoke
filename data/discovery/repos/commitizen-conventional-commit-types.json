@@ -1,0 +1,82 @@
+{
+  "components": [
+    {
+      "component": "jsonschema",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "commitizen/conventional-commit-types",
+      "target": "commitizen/cz-conventional-changelog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "commitizen/conventional-commit-types",
+      "target": "kentcdodds/validate-commit-msg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "commitizen/conventional-commit-types",
+      "target": "andersdjohnson/conventional-commit-types-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "commitizen/conventional-commit-types",
+      "target": "jsonschema",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:41:10.786365+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1314
+    },
+    {
+      "path": "package.json",
+      "size": 434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "List of conventional commit types.",
+    "fork": false,
+    "full_name": "commitizen/conventional-commit-types",
+    "html_url": "https://github.com/commitizen/conventional-commit-types",
+    "language": "JavaScript",
+    "pushed_at": "2021-06-05T01:07:56Z",
+    "stargazers_count": 468,
+    "topics": [],
+    "updated_at": "2026-04-27T12:31:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andersdjohnson/conventional-commit-types-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "commitizen/cz-conventional-changelog",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kentcdodds/validate-commit-msg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

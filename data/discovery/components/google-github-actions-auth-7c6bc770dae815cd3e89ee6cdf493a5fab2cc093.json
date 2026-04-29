@@ -1,7 +1,7 @@
 {
   "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -37,6 +37,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/platform-test.yml",
       "source_repo": "grafana/k8s-monitoring-helm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "source_repo": "sigstore/community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-gcs.yml",
+      "source_repo": "sigstore/root-signing"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/warden.yml",
+      "source_repo": "getsentry/.github"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly_jdk17.yaml",
+      "source_repo": "langchain4j/langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly_jdk21.yaml",
+      "source_repo": "langchain4j/langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly_jdk25.yaml",
+      "source_repo": "langchain4j/langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build.yml",
+      "source_repo": "mdn/mdn-http-observatory"
     }
   ]
 }

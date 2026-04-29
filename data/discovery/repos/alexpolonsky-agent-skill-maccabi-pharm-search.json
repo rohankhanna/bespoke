@@ -1,0 +1,174 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "target": "agent-skills",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "target": "ai-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "target": "cursor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "target": "healthcare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "target": "israel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "target": "maccabi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "target": "openclaw",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "target": "pharmacy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:53:16.266356+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5193
+    },
+    {
+      "path": "package.json",
+      "size": 791
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Check prescription medication stock at Maccabi pharmacies before you go. Search all nearby branches in one query. Agent Skills format.",
+    "fork": false,
+    "full_name": "alexpolonsky/agent-skill-maccabi-pharm-search",
+    "html_url": "https://github.com/alexpolonsky/agent-skill-maccabi-pharm-search",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-21T10:35:04Z",
+    "stargazers_count": 2,
+    "topics": [
+      "agent-skills",
+      "ai-tools",
+      "claude-code",
+      "cursor",
+      "healthcare",
+      "israel",
+      "maccabi",
+      "nodejs",
+      "openclaw",
+      "pharmacy"
+    ],
+    "updated_at": "2026-04-06T19:33:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-skills"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-tools"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cursor"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "healthcare"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "israel"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maccabi"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openclaw"
+    },
+    {
+      "context_snippet": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pharmacy"
+    }
+  ]
+}

@@ -19,6 +19,18 @@
       "source_repo": "kondrak/vkQuake2",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hogsy/chronon",
+      "status": "candidate-context",
+      "text": "This is an open-source reimplementation of Anachronox, built on top of the Quake 2 engine (which funnily enough is the same engine Anachronox was developed upon)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hogsy/chronon",
+      "status": "candidate-context",
+      "text": "Build (Linux GCC x64)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kondrak/vkQuake2",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"vkQuake2.png\"></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hogsy/chronon",
+      "status": "candidate",
+      "text": "Build (Linux GCC x64)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "kondrak/vkQuake2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hogsy/chronon"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

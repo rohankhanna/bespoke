@@ -1,0 +1,62 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "potatoqualitee/psmodulecache@ee5e9494714abf56f6efbfa51527b2aec5c761b8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ScoopInstaller/Install",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ScoopInstaller/Install",
+      "target": "potatoqualitee/psmodulecache@ee5e9494714abf56f6efbfa51527b2aec5c761b8",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:53:58.465353+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3830
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udce5 Next-generation Scoop (un)installer",
+    "fork": false,
+    "full_name": "ScoopInstaller/Install",
+    "html_url": "https://github.com/ScoopInstaller/Install",
+    "language": "PowerShell",
+    "pushed_at": "2026-03-19T08:27:03Z",
+    "stargazers_count": 1213,
+    "topics": [],
+    "updated_at": "2026-04-28T08:03:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

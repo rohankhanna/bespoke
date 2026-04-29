@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/ToolBench",
+      "target": "zhichengg/stabletoolbench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/ToolBench",
+      "target": "lilbillybiscuit/chatbot-ui-toolllama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/ToolBench",
+      "target": "thunlp/toollearningpapers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/ToolBench",
+      "target": "thunlp/webcpm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:53:31.711499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 32357
+    },
+    {
+      "path": "requirements.txt",
+      "size": 480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ICLR'24 spotlight] An open platform for training, serving, and evaluating large language model for tool learning.",
+    "fork": false,
+    "full_name": "OpenBMB/ToolBench",
+    "html_url": "https://github.com/OpenBMB/ToolBench",
+    "language": "Python",
+    "pushed_at": "2025-05-21T15:46:59Z",
+    "stargazers_count": 5621,
+    "topics": [],
+    "updated_at": "2026-04-28T08:13:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lilbillybiscuit/chatbot-ui-toolllama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thunlp/toollearningpapers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thunlp/webcpm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhichengg/stabletoolbench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

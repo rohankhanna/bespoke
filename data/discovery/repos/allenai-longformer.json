@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:39:31.729064+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8241
+    },
+    {
+      "path": "requirements.txt",
+      "size": 274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Longformer: The Long-Document Transformer",
+    "fork": false,
+    "full_name": "allenai/longformer",
+    "html_url": "https://github.com/allenai/longformer",
+    "language": "Python",
+    "pushed_at": "2023-02-08T02:52:14Z",
+    "stargazers_count": 2194,
+    "topics": [],
+    "updated_at": "2026-04-27T07:25:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

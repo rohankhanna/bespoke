@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:37:42.035438+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cognitect's aws-api for babashka",
+    "fork": false,
+    "full_name": "grzm/awyeah-api",
+    "html_url": "https://github.com/grzm/awyeah-api",
+    "language": "Clojure",
+    "pushed_at": "2025-01-19T17:05:32Z",
+    "stargazers_count": 100,
+    "topics": [],
+    "updated_at": "2026-02-25T10:56:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

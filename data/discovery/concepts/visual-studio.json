@@ -141,6 +141,30 @@
       "source_repo": "dotnet/project-system",
       "status": "candidate-context",
       "text": "| Release | Build | Compliance | Publish | Localization"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redhat-developer/vscode-yaml",
+      "status": "candidate-context",
+      "text": "YAML support for VS Code with built-in kubernetes syntax support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-yaml",
+      "status": "candidate-context",
+      "text": "[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/redhat.vscode-yaml?style=for-the-badge&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate-context",
+      "text": "The Microsoft Build Engine (MSBuild) is the build platform for .NET and Visual Studio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/75?branchName=main&label=Public)](https://dev.azure.com/dnceng-public/public/_build?definitionId=75) [![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/9434?label=Internal&bran\u2026"
     }
   ],
   "candidate_glosses": [
@@ -209,6 +233,18 @@
       "source_repo": "dotnet/project-system",
       "status": "candidate",
       "text": "| Release | Build | Compliance | Publish | Localization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redhat-developer/vscode-yaml",
+      "status": "candidate",
+      "text": "[![Visual Studio Marketplace](https://img.shields.io/visual-studio-marketplace/v/redhat.vscode-yaml?style=for-the-badge&label=VS%20Marketplace&logo=visual-studio-code)](https://marketplace.visualstudio.com/items?itemName=redhat.vscode-yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/75?branchName=main&label=Public)](https://dev.azure.com/dnceng-public/public/_build?definitionId=75) [![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/9434?label=Internal&bran\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -282,11 +318,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "dotnet/project-system"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redhat-developer/vscode-yaml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/msbuild"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

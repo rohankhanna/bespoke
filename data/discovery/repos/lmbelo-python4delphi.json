@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lmbelo/python4delphi",
+      "target": "pyscripter/python4delphi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmbelo/python4delphi",
+      "target": "delphi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmbelo/python4delphi",
+      "target": "lazarus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmbelo/python4delphi",
+      "target": "pascal",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:18.150941+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2065
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Free components that wrap up Python into Delphi and Lazarus (FPC)",
+    "fork": false,
+    "full_name": "lmbelo/python4delphi",
+    "html_url": "https://github.com/lmbelo/python4delphi",
+    "language": "Pascal",
+    "pushed_at": "2025-11-26T11:54:48Z",
+    "stargazers_count": 1038,
+    "topics": [
+      "delphi",
+      "lazarus",
+      "pascal",
+      "python"
+    ],
+    "updated_at": "2026-04-24T14:13:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pyscripter/python4delphi",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"https://github.com/pyscripter/python4delphi/wiki/Images/Python4Delphi.svg\" alt=\"drawing\" width=\"25%\" align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "delphi"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/pyscripter/python4delphi/wiki/Images/Python4Delphi.svg\" alt=\"drawing\" width=\"25%\" align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lazarus"
+    },
+    {
+      "context_snippet": "<img src=\"https://github.com/pyscripter/python4delphi/wiki/Images/Python4Delphi.svg\" alt=\"drawing\" width=\"25%\" align=\"right\"/>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pascal"
+    }
+  ]
+}

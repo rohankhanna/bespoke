@@ -1,0 +1,223 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_2.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_2.yaml"
+    },
+    {
+      "component": "docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_2.yaml"
+    },
+    {
+      "component": "docker/metadata-action@96383f45573cb7f253c731d3b3ab81c87ef81934",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_2.yaml"
+    },
+    {
+      "component": "docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_2.yaml"
+    },
+    {
+      "component": "docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_2.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_3.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_3.yml"
+    },
+    {
+      "component": "docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_3.yml"
+    },
+    {
+      "component": "docker/metadata-action@96383f45573cb7f253c731d3b3ab81c87ef81934",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_3.yml"
+    },
+    {
+      "component": "docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_3.yml"
+    },
+    {
+      "component": "docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_3.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "imagick/imagick",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "docker-library/wordpress",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_2.yaml",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_2.yaml",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_2.yaml",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_2.yaml",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "docker/metadata-action@96383f45573cb7f253c731d3b3ab81c87ef81934",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_2.yaml",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php-8_2.yaml",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_3.yml",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_3.yml",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_3.yml",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "docker/login-action@343f7c4344506bcbf9b4de18042ae17996df046d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_3.yml",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "docker/metadata-action@96383f45573cb7f253c731d3b3ab81c87ef81934",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/php-8_3.yml",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php-8_3.yml",
+      "source_repo": "StephenMiracle/frankenwp",
+      "target": "Docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:38.410054+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4943
+    },
+    {
+      "path": "Dockerfile",
+      "size": 5015
+    },
+    {
+      "path": ".github/workflows/php-8_2.yaml",
+      "size": 2894
+    },
+    {
+      "path": ".github/workflows/php-8_3.yml",
+      "size": 2846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "StephenMiracle/frankenwp",
+    "html_url": "https://github.com/StephenMiracle/frankenwp",
+    "language": "Dockerfile",
+    "pushed_at": "2024-06-05T13:04:30Z",
+    "stargazers_count": 338,
+    "topics": [],
+    "updated_at": "2026-04-13T02:04:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker-library/wordpress",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "imagick/imagick",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php-8_2.yaml",
+      "term": "Docker"
+    },
+    {
+      "context_snippet": "Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/php-8_3.yml",
+      "term": "Docker"
+    }
+  ]
+}

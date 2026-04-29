@@ -43,6 +43,30 @@
       "source_repo": "AdguardTeam/urlfilter",
       "status": "candidate-context",
       "text": "[![Code Coverage](https://img.shields.io/codecov/c/github/AdguardTeam/urlfilter/master.svg)](https://codecov.io/github/AdguardTeam/urlfilter?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/AdguardBrowserExtension",
+      "status": "candidate-context",
+      "text": "AdGuard browser extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardBrowserExtension",
+      "status": "candidate-context",
+      "text": "&nbsp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/CoreLibs",
+      "status": "candidate-context",
+      "text": "Core Adguard libraries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/CoreLibs",
+      "status": "candidate-context",
+      "text": "Core C/C++ libraries used by Adguard."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "AdguardTeam/urlfilter",
       "status": "candidate",
       "text": "[![Code Coverage](https://img.shields.io/codecov/c/github/AdguardTeam/urlfilter/master.svg)](https://codecov.io/github/AdguardTeam/urlfilter?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardBrowserExtension",
+      "status": "candidate",
+      "text": "&nbsp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/CoreLibs",
+      "status": "candidate",
+      "text": "Core C/C++ libraries used by Adguard."
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "AdguardTeam/urlfilter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdguardBrowserExtension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/CoreLibs"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

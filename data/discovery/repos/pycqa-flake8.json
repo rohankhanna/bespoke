@@ -1,0 +1,227 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/flake8",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/flake8",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/flake8",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8",
+      "target": "complexity-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8",
+      "target": "flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8",
+      "target": "linter-flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8",
+      "target": "pep8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8",
+      "target": "python3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8",
+      "target": "static-code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8",
+      "target": "style-guide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8",
+      "target": "styleguide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8",
+      "target": "stylelint",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:48:57.158346+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 2663
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1213
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "flake8 is a python tool that glues together pycodestyle, pyflakes, mccabe, and third-party plugins to check the style and quality of some python code.",
+    "fork": false,
+    "full_name": "PyCQA/flake8",
+    "html_url": "https://github.com/PyCQA/flake8",
+    "language": "Python",
+    "pushed_at": "2026-04-28T22:22:31Z",
+    "stargazers_count": 3780,
+    "topics": [
+      "complexity-analysis",
+      "flake8",
+      "linter",
+      "linter-flake8",
+      "pep8",
+      "python",
+      "python3",
+      "static-analysis",
+      "static-code-analysis",
+      "style-guide",
+      "styleguide",
+      "stylelint"
+    ],
+    "updated_at": "2026-04-28T22:22:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "complexity-analysis"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter-flake8"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pep8"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python3"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-code-analysis"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-guide"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styleguide"
+    },
+    {
+      "context_snippet": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylelint"
+    }
+  ]
+}

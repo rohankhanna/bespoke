@@ -43,6 +43,18 @@
       "source_repo": "vim-fuzzbox/fuzzbox.vim",
       "status": "candidate-context",
       "text": "A modern fuzzy finder with minimal dependencies. Written in vim9script using"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "girishji/fFtT.vim",
+      "status": "candidate-context",
+      "text": "More accurate f, F, t, T navigation in Vim."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/fFtT.vim",
+      "status": "candidate-context",
+      "text": "Characters that are reachable with a single jump are highlighted, while others are dimmed. This enhancement enhances the accuracy of navigation using `f`, `F`, `t`, and `T` commands. Moreover, you can prefix the command with a numerical `[count]` (e.g., `3f`), which will exclusi\u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "vim-fuzzbox/fuzzbox.vim",
       "status": "candidate",
       "text": "A modern fuzzy finder with minimal dependencies. Written in vim9script using"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "girishji/fFtT.vim",
+      "status": "candidate",
+      "text": "Characters that are reachable with a single jump are highlighted, while others are dimmed. This enhancement enhances the accuracy of navigation using `f`, `F`, `t`, and `T` commands. Moreover, you can prefix the command with a numerical `[count]` (e.g., `3f`), which will exclusi\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "vim-fuzzbox/fuzzbox.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "girishji/fFtT.vim"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

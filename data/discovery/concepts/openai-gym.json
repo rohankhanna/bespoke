@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "openai-gym"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "araffin/rl-baselines-zoo",
+      "status": "candidate-context",
+      "text": "A collection of 100+ pre-trained RL agents using Stable Baselines, training and hyperparameter optimization included."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "araffin/rl-baselines-zoo",
+      "status": "candidate-context",
+      "text": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "araffin/rl-baselines-zoo",
+      "status": "candidate",
+      "text": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "openai-gym",
+  "concept_id": "openai-gym",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "araffin/rl-baselines-zoo"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "openai-gym",
+      "sense_id": "openai-gym#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,6 +19,18 @@
       "source_repo": "celery/vine",
       "status": "candidate-context",
       "text": "====================================================================="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sebelga/promised-hooks",
+      "status": "candidate-context",
+      "text": "Middleware utility for your Promises"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebelga/promised-hooks",
+      "status": "candidate-context",
+      "text": "[![NPM Version][npm-image]][npm-url]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "celery/vine",
       "status": "candidate",
       "text": "====================================================================="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebelga/promised-hooks",
+      "status": "candidate",
+      "text": "[![NPM Version][npm-image]][npm-url]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "celery/vine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sebelga/promised-hooks"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -115,6 +115,54 @@
       "source_repo": "CesiumGS/3d-tiles",
       "status": "candidate-context",
       "text": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/tsdoc",
+      "status": "candidate-context",
+      "text": "A doc comment standard for TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/tsdoc",
+      "status": "candidate-context",
+      "text": "<table><tr><td>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate-context",
+      "text": "GitHub\u2019s GraphQL Schema with validation. Automatically updated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate-context",
+      "text": "> GitHub\u2019s GraphQL Schema with validation. Automatically updated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/openapi",
+      "status": "candidate-context",
+      "text": "GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi",
+      "status": "candidate-context",
+      "text": "> GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/navigation-timing",
+      "status": "candidate-context",
+      "text": "Navigation Timing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/navigation-timing",
+      "status": "candidate-context",
+      "text": "Navigation Timing"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +219,30 @@
       "source_repo": "CesiumGS/3d-tiles",
       "status": "candidate",
       "text": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/tsdoc",
+      "status": "candidate",
+      "text": "<table><tr><td>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate",
+      "text": "> GitHub\u2019s GraphQL Schema with validation. Automatically updated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi",
+      "status": "candidate",
+      "text": "> GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/navigation-timing",
+      "status": "candidate",
+      "text": "Navigation Timing"
     }
   ],
   "candidate_related_terms": [
@@ -289,11 +361,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "CesiumGS/3d-tiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/tsdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/graphql-schema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "w3c/navigation-timing"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

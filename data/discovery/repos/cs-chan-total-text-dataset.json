@@ -1,0 +1,183 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "target": "yuliang-liu/curve-text-detector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "target": "curve-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "target": "icdar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "target": "scene-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "target": "scene-text-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "target": "scene-text-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "target": "text-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "target": "text-detection-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "target": "text-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "target": "total-text",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:45:58.480632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27581
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Total Text Dataset. It consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind.",
+    "fork": false,
+    "full_name": "cs-chan/Total-Text-Dataset",
+    "html_url": "https://github.com/cs-chan/Total-Text-Dataset",
+    "language": "MATLAB",
+    "pushed_at": "2023-10-05T05:13:30Z",
+    "stargazers_count": 767,
+    "topics": [
+      "curve-text",
+      "dataset",
+      "icdar",
+      "scene-text",
+      "scene-text-detection",
+      "scene-text-recognition",
+      "text-detection",
+      "text-detection-recognition",
+      "text-recognition",
+      "total-text"
+    ],
+    "updated_at": "2026-04-09T21:48:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuliang-liu/curve-text-detector",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "curve-text"
+    },
+    {
+      "context_snippet": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icdar"
+    },
+    {
+      "context_snippet": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text"
+    },
+    {
+      "context_snippet": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text-detection"
+    },
+    {
+      "context_snippet": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-text-recognition"
+    },
+    {
+      "context_snippet": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-detection"
+    },
+    {
+      "context_snippet": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-detection-recognition"
+    },
+    {
+      "context_snippet": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-recognition"
+    },
+    {
+      "context_snippet": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "total-text"
+    }
+  ]
+}

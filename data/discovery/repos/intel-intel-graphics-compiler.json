@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "oprypin/find-latest-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "oprypin/find-latest-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "intel/opencl-clang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "khronosgroup/spirv-llvm-translator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "intel/vc-intrinsics",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "oprypin/find-latest-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-IGC.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-IGC.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "Build IGC",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-pr-update.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "Notify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel/intel-graphics-compiler",
+      "target": "Stale Pull Requests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:42:07.159969+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2885
+    },
+    {
+      "path": ".github/workflows/build-IGC.yml",
+      "size": 9601
+    },
+    {
+      "path": ".github/workflows/on-pr-update.yml",
+      "size": 879
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "intel/intel-graphics-compiler",
+    "html_url": "https://github.com/intel/intel-graphics-compiler",
+    "language": "C++",
+    "pushed_at": "2026-04-29T18:11:41Z",
+    "stargazers_count": 701,
+    "topics": [],
+    "updated_at": "2026-04-29T18:11:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/opencl-clang",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel/vc-intrinsics",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "khronosgroup/spirv-llvm-translator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build IGC",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-IGC.yml",
+      "term": "Build IGC"
+    },
+    {
+      "context_snippet": "Notify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on-pr-update.yml",
+      "term": "Notify"
+    },
+    {
+      "context_snippet": "Stale Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale Pull Requests"
+    }
+  ]
+}

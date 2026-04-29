@@ -1,0 +1,12 @@
+{
+  "component": "jidicula/clang-format-action@654a770daa28443dd111d133e4083e21c1075674",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "ofiwg/libfabric"
+    }
+  ]
+}

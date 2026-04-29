@@ -43,6 +43,30 @@
       "source_repo": "Ar-Ray-code/YOLOX-ROS",
       "status": "candidate-context",
       "text": "![](https://img.shields.io/github/stars/Ar-Ray-code/YOLOX-ROS)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "monatis/german-tts",
+      "status": "candidate-context",
+      "text": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monatis/german-tts",
+      "status": "candidate-context",
+      "text": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate-context",
+      "text": "YOLOv5 \ud83d\ude80 in PyTorch > ONNX > CoreML > TFLite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "Ar-Ray-code/YOLOX-ROS",
       "status": "candidate",
       "text": "![](https://img.shields.io/github/stars/Ar-Ray-code/YOLOX-ROS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monatis/german-tts",
+      "status": "candidate",
+      "text": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Ar-Ray-code/YOLOX-ROS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "monatis/german-tts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ultralytics/yolov5"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

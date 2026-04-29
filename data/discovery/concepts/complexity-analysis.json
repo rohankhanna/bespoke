@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "complexity-analysis"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/flake8",
+      "status": "candidate-context",
+      "text": "flake8 is a python tool that glues together pycodestyle, pyflakes, mccabe, and third-party plugins to check the style and quality of some python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "complexity-analysis",
+  "concept_id": "complexity-analysis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "complexity-analysis",
+      "sense_id": "complexity-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

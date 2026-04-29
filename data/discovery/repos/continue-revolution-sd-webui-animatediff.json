@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-webui-animatediff",
+      "target": "s9roll7/animatediff-cli-prompt-travel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-webui-animatediff",
+      "target": "continue-revolution/sd-forge-animatediff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-webui-animatediff",
+      "target": "g-u-n/animatelcm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-webui-animatediff",
+      "target": "magic-research/magic-animate",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:51:15.326729+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AnimateDiff for AUTOMATIC1111 Stable Diffusion WebUI",
+    "fork": false,
+    "full_name": "continue-revolution/sd-webui-animatediff",
+    "html_url": "https://github.com/continue-revolution/sd-webui-animatediff",
+    "language": "Python",
+    "pushed_at": "2024-09-22T00:17:59Z",
+    "stargazers_count": 3421,
+    "topics": [],
+    "updated_at": "2026-04-29T13:41:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "continue-revolution/sd-forge-animatediff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "g-u-n/animatelcm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "magic-research/magic-animate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "s9roll7/animatediff-cli-prompt-travel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

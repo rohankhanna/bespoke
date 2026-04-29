@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:48:51.845183+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10002
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Proposal documents for user-facing changes to Inform.",
+    "fork": false,
+    "full_name": "ganelson/inform-evolution",
+    "html_url": "https://github.com/ganelson/inform-evolution",
+    "language": null,
+    "pushed_at": "2026-04-15T05:49:22Z",
+    "stargazers_count": 47,
+    "topics": [],
+    "updated_at": "2026-04-15T05:49:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

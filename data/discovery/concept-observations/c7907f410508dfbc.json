@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "C++20 Terminal User Interface (TUI) Library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**TermOx** is a C++20 library for creating rich, interactive terminal user interfaces"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**TermOx** is a C++20 library for creating rich, interactive terminal user interfaces"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "terminal-colors",
+      "sense_id": "terminal-colors#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "terminal-colors",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "terminal-colors",
+  "observation_id": "c7907f410508dfbc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "terminal-colors",
+  "source_context_snippet": "**TermOx** is a C++20 library for creating rich, interactive terminal user interfaces",
+  "source_file": null,
+  "source_repo": "a-n-t-h-o-n-y/TermOx",
+  "source_repo_description": "C++20 Terminal User Interface (TUI) Library."
+}

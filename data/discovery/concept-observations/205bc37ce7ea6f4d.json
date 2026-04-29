@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "KaRaMeL is a tool for extracting low-level F* programs to readable C code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "KaRaMeL"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "KaRaMeL"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29990568,
+      "status": "candidate",
+      "text": "validation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29985629,
+      "status": "candidate",
+      "text": "proofread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29890920,
+      "status": "candidate",
+      "text": "imperviable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29888353,
+      "status": "candidate",
+      "text": "impervious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29802893,
+      "status": "candidate",
+      "text": "proving"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "proofs",
+      "sense_id": "proofs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "proofs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "proofs",
+  "observation_id": "205bc37ce7ea6f4d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "proofs",
+  "source_context_snippet": "KaRaMeL",
+  "source_file": null,
+  "source_repo": "FStarLang/karamel",
+  "source_repo_description": "KaRaMeL is a tool for extracting low-level F* programs to readable C code"
+}

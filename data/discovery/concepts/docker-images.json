@@ -59,6 +59,18 @@
       "source_repo": "OpenVisualCloud/Dockerfiles",
       "status": "candidate-context",
       "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "earthly/earthly",
+      "status": "candidate-context",
+      "text": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax \u2013 like Dockerfile and Makefile had a baby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "earthly/earthly",
+      "status": "candidate-context",
+      "text": "<h1>Earthly</h1>"
     }
   ],
   "candidate_glosses": [
@@ -85,6 +97,12 @@
       "source_repo": "OpenVisualCloud/Dockerfiles",
       "status": "candidate",
       "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "earthly/earthly",
+      "status": "candidate",
+      "text": "<h1>Earthly</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -158,11 +176,17 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "OpenVisualCloud/Dockerfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "earthly/earthly"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "IDEA-Research/OSX",
       "status": "candidate-context",
       "text": "[Jing Lin](https://jinglin7.github.io), [Ailing Zeng](https://ailingzeng.site/), [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm), [Lei Zhang](https://www.leizhang.org/), [Yu Li](https://yu-li.github.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vchoutas/expose",
+      "status": "candidate-context",
+      "text": "ExPose - EXpressive POse and Shape rEgression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vchoutas/expose",
+      "status": "candidate-context",
+      "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.09062)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "IDEA-Research/OSX",
       "status": "candidate",
       "text": "[Jing Lin](https://jinglin7.github.io), [Ailing Zeng](https://ailingzeng.site/), [Haoqian Wang](https://www.sigs.tsinghua.edu.cn/whq_en/main.htm), [Lei Zhang](https://www.leizhang.org/), [Yu Li](https://yu-li.github.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vchoutas/expose",
+      "status": "candidate",
+      "text": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.09062)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "IDEA-Research/OSX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vchoutas/expose"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

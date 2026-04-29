@@ -3,13 +3,6 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
-      "target": "zhangxj199/tinyllava-video",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "TinyLLaVA/TinyLLaVA_Factory",
       "target": "dlcv-buaa/tinyllavabench",
@@ -58,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:18:34.104320+00:00",
+  "fetched_at": "2026-04-29T20:46:17.423625+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -78,8 +71,8 @@
     "full_name": "TinyLLaVA/TinyLLaVA_Factory",
     "html_url": "https://github.com/TinyLLaVA/TinyLLaVA_Factory",
     "language": "Python",
-    "pushed_at": "2026-04-21T15:23:28Z",
-    "stargazers_count": 977,
+    "pushed_at": "2026-04-27T08:30:30Z",
+    "stargazers_count": 976,
     "topics": [
       "large-multimodal-models",
       "llama",
@@ -89,14 +82,9 @@
       "transformers",
       "vision-language"
     ],
-    "updated_at": "2026-04-22T07:16:52Z"
+    "updated_at": "2026-04-28T21:54:48Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zhangxj199/tinyllava-video",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "dlcv-buaa/tinyllavabench",

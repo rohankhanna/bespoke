@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "notofonts/notobuilder/.github/workflows/build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "notofonts/noto-project-template",
+      "target": "googlefonts/fontbakery",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "notofonts/noto-project-template",
+      "target": "notofonts/notobuilder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "notofonts/noto-project-template",
+      "target": "notofonts/notobuilder/.github/workflows/build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "notofonts/noto-project-template",
+      "target": "Build, QA, Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:48:16.753580+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2448
+    },
+    {
+      "path": "requirements.txt",
+      "size": 100
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 144
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "(DEMO) Repository architecture example for a typeface design project",
+    "fork": true,
+    "full_name": "notofonts/noto-project-template",
+    "html_url": "https://github.com/notofonts/noto-project-template",
+    "language": "Python",
+    "pushed_at": "2024-02-28T15:00:59Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-05-10T01:19:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/fontbakery",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "notofonts/notobuilder",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build, QA, Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "Build, QA, Release"
+    }
+  ]
+}

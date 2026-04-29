@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A performant and modular zkVM framework built for customization and extensibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\"Upload benchmark fixtures\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\"Upload benchmark fixtures\""
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17997,
+      "status": "candidate",
+      "text": "kamikaze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17997,
+      "status": "candidate",
+      "text": "land office"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17997,
+      "status": "candidate",
+      "text": "placed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17997,
+      "status": "candidate",
+      "text": "placing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17997,
+      "status": "candidate",
+      "text": "translate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload benchmark fixtures",
+      "sense_id": "upload-benchmark-fixtures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "upload-benchmark-fixtures",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "upload-benchmark-fixtures",
+  "observation_id": "d966bb2a85a42143",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Upload benchmark fixtures",
+  "source_context_snippet": "\"Upload benchmark fixtures\"",
+  "source_file": ".github/workflows/benchmarks-upload-fixtures.yml",
+  "source_repo": "openvm-org/openvm",
+  "source_repo_description": "A performant and modular zkVM framework built for customization and extensibility."
+}

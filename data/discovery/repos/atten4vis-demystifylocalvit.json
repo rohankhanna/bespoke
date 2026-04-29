@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Atten4Vis/DemystifyLocalViT",
+      "target": "rwightman/pytorch-image-models",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:36.982726+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6729
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official code for paper \"On the Connection between Local Attention and Dynamic Depth-wise Convolution\" ICLR 2022 Spotlight",
+    "fork": false,
+    "full_name": "Atten4Vis/DemystifyLocalViT",
+    "html_url": "https://github.com/Atten4Vis/DemystifyLocalViT",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-11-17T23:56:46Z",
+    "stargazers_count": 184,
+    "topics": [],
+    "updated_at": "2026-04-18T15:13:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rwightman/pytorch-image-models",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

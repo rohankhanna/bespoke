@@ -1,7 +1,7 @@
 {
   "component": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tests.yaml",
       "source_repo": "regro/cf-graph-countyfair"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot-bot.yml",
+      "source_repo": "regro/cf-scripts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot-cache.yml",
+      "source_repo": "regro/cf-scripts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot-events.yml",
+      "source_repo": "regro/cf-scripts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot-feedstocks.yml",
+      "source_repo": "regro/cf-scripts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot-make-graph.yml",
+      "source_repo": "regro/cf-scripts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot-make-migrators.yml",
+      "source_repo": "regro/cf-scripts"
     }
   ]
 }

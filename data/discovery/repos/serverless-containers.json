@@ -1,0 +1,143 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/containers",
+      "target": "aws-ecs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/containers",
+      "target": "aws-ecs-fargate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/containers",
+      "target": "aws-fargate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/containers",
+      "target": "aws-lambda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/containers",
+      "target": "containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/containers",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/containers",
+      "target": "serverless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "serverless/containers",
+      "target": "serverless-framework",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:57:11.871211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7403
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A rich developer experience for deploying containers to AWS Lambda and AWS ECS Fargate \u2013 without rearchitecting.",
+    "fork": false,
+    "full_name": "serverless/containers",
+    "html_url": "https://github.com/serverless/containers",
+    "language": "JavaScript",
+    "pushed_at": "2025-06-05T15:36:41Z",
+    "stargazers_count": 102,
+    "topics": [
+      "api",
+      "aws-ecs",
+      "aws-ecs-fargate",
+      "aws-fargate",
+      "aws-lambda",
+      "containers",
+      "docker",
+      "serverless",
+      "serverless-framework"
+    ],
+    "updated_at": "2026-02-15T13:07:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-ecs"
+    },
+    {
+      "context_snippet": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-ecs-fargate"
+    },
+    {
+      "context_snippet": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-fargate"
+    },
+    {
+      "context_snippet": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-lambda"
+    },
+    {
+      "context_snippet": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "containers"
+    },
+    {
+      "context_snippet": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless"
+    },
+    {
+      "context_snippet": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serverless-framework"
+    }
+  ]
+}

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "bitrise"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitrise-io/bitrise",
+      "status": "candidate-context",
+      "text": "Bitrise runner CLI - run your automations on your Mac or Linux machine -"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitrise-io/bitrise",
+      "status": "candidate-context",
+      "text": "Bitrise CLI is the workflow runner that powers [Bitrise](https://bitrise.io/) builds. It's the component that runs inside build machines and execute steps defined in `bitrise.yml`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitrise-io/stepman",
+      "status": "candidate-context",
+      "text": "Step collection manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitrise-io/stepman",
+      "status": "candidate-context",
+      "text": "You can manage decentralized StepLib Step (script) Collections with `stepman`."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitrise-io/envman",
+      "status": "candidate-context",
+      "text": "Environment variable manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitrise-io/envman",
+      "status": "candidate-context",
+      "text": "Manage your Environment Variable collections. Switch between Environment Variable sets"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitrise-io/bitrise-plugins-step",
+      "status": "candidate-context",
+      "text": "Bitrise Plugin to interact with steps, list them, retrieve information, or create your own!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitrise-io/bitrise-plugins-step",
+      "status": "candidate-context",
+      "text": "Bitrise Plugin to interact with steps, list them, retrieve information, or create your own!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitrise-io/bitrise",
+      "status": "candidate",
+      "text": "Bitrise CLI is the workflow runner that powers [Bitrise](https://bitrise.io/) builds. It's the component that runs inside build machines and execute steps defined in `bitrise.yml`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitrise-io/stepman",
+      "status": "candidate",
+      "text": "You can manage decentralized StepLib Step (script) Collections with `stepman`."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitrise-io/envman",
+      "status": "candidate",
+      "text": "Manage your Environment Variable collections. Switch between Environment Variable sets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitrise-io/bitrise-plugins-step",
+      "status": "candidate",
+      "text": "Bitrise Plugin to interact with steps, list them, retrieve information, or create your own!"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bitrise",
+  "concept_id": "bitrise",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bitrise-io/bitrise"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bitrise-io/stepman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bitrise-io/envman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bitrise-io/bitrise-plugins-step"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bitrise",
+      "sense_id": "bitrise#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

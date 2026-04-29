@@ -1,0 +1,92 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plone_addon.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plone_addon.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "plone/cookiecutter-plone",
+      "target": "plone/cookieplone",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plone_addon.yml",
+      "source_repo": "plone/cookiecutter-plone",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/plone_addon.yml",
+      "source_repo": "plone/cookiecutter-plone",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plone_addon.yml",
+      "source_repo": "plone/cookiecutter-plone",
+      "target": "Plone Addon CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:48:32.463382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 986
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 428
+    },
+    {
+      "path": "requirements.txt",
+      "size": 53
+    },
+    {
+      "path": ".github/workflows/plone_addon.yml",
+      "size": 869
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Collection of cookiecutter templates for Plone",
+    "fork": false,
+    "full_name": "plone/cookiecutter-plone",
+    "html_url": "https://github.com/plone/cookiecutter-plone",
+    "language": "Python",
+    "pushed_at": "2024-05-15T22:38:30Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-05-15T22:39:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plone/cookieplone",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Plone Addon CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/plone_addon.yml",
+      "term": "Plone Addon CI"
+    }
+  ]
+}

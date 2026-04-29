@@ -67,7 +67,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-24T09:06:14.185232+00:00",
+  "fetched_at": "2026-04-29T19:55:47.139540+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -78,14 +78,13 @@
       "size": 442
     }
   ],
-  "metadata_refreshed_at": "2026-04-29T05:36:13.569306+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "master",
     "description": "common command-line program functions",
     "fork": false,
-    "full_name": "tritondatacenter/node-cmdutil",
+    "full_name": "TritonDataCenter/node-cmdutil",
     "html_url": "https://github.com/TritonDataCenter/node-cmdutil",
     "language": "Shell",
     "pushed_at": "2021-11-02T21:55:37Z",

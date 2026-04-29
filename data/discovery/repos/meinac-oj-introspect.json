@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:58:45.236016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "meinac/oj-introspect",
+    "html_url": "https://github.com/meinac/oj-introspect",
+    "language": "C",
+    "pushed_at": "2025-07-30T11:37:51Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-07-30T11:37:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

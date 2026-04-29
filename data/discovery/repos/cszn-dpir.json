@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/DPIR",
+      "target": "demosaicing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/DPIR",
+      "target": "denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/DPIR",
+      "target": "plug-and-play",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/DPIR",
+      "target": "super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:11.204095+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4300
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plug-and-Play Image Restoration with Deep Denoiser Prior (IEEE TPAMI 2021) (PyTorch)",
+    "fork": false,
+    "full_name": "cszn/DPIR",
+    "html_url": "https://github.com/cszn/DPIR",
+    "language": "Python",
+    "pushed_at": "2022-11-21T14:43:45Z",
+    "stargazers_count": 761,
+    "topics": [
+      "demosaicing",
+      "denoising",
+      "plug-and-play",
+      "super-resolution"
+    ],
+    "updated_at": "2026-04-15T08:51:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DPIR)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "demosaicing"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DPIR)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "denoising"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DPIR)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plug-and-play"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DPIR)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    }
+  ]
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llm-attacks/llm-attacks",
+      "target": "grayswanai/nanogcg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:48:04.080108+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5898
+    },
+    {
+      "path": "requirements.txt",
+      "size": 51
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Universal and Transferable Attacks on Aligned Language Models",
+    "fork": false,
+    "full_name": "llm-attacks/llm-attacks",
+    "html_url": "https://github.com/llm-attacks/llm-attacks",
+    "language": "Python",
+    "pushed_at": "2024-08-02T06:02:18Z",
+    "stargazers_count": 4639,
+    "topics": [],
+    "updated_at": "2026-04-29T15:48:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grayswanai/nanogcg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

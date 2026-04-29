@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml"
+    },
+    {
+      "component": "reproducible-containers/buildkit-cache-dance@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml"
+    },
+    {
+      "component": "docker/bake-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml"
+    },
+    {
+      "component": "dataaxiom/ghcr-cleanup-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "target": "sheredom/subprocess.h",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "target": "yhirose/cpp-httplib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "target": "reproducible-containers/buildkit-cache-dance@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "target": "docker/bake-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-container.yml",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "target": "dataaxiom/ghcr-cleanup-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-container.yml",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "target": "Build and Push Docker Image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:42:55.298208+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23517
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1279
+    },
+    {
+      "path": "requirements.txt",
+      "size": 614
+    },
+    {
+      "path": ".github/workflows/build-container.yml",
+      "size": 3755
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "llama.cpp fork with additional SOTA quants and improved performance",
+    "fork": false,
+    "full_name": "ikawrakow/ik_llama.cpp",
+    "html_url": "https://github.com/ikawrakow/ik_llama.cpp",
+    "language": "C++",
+    "pushed_at": "2026-04-29T07:33:45Z",
+    "stargazers_count": 2267,
+    "topics": [],
+    "updated_at": "2026-04-29T20:50:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sheredom/subprocess.h",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yhirose/cpp-httplib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and Push Docker Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-container.yml",
+      "term": "Build and Push Docker Image"
+    }
+  ]
+}

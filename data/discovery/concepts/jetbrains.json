@@ -31,6 +31,30 @@
       "source_repo": "nodenv/jetbrains-npm",
       "status": "candidate-context",
       "text": "Fix IntelliJ/WebStorm's npm integration under nodenv."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/base16-jetbrains",
+      "status": "candidate-context",
+      "text": "Base16 themes for Jetbrains IDE's (IntelliJ, PyCharm, Webstorm, etc) - and the Material Theme plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-jetbrains",
+      "status": "candidate-context",
+      "text": "This repository contains [base16] themes for Jetbrains IDEs. Unlike This"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "subtheme-dev/monokai-pro",
+      "status": "candidate-context",
+      "text": "The unofficial Monokai Pro theme by Subtheme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subtheme-dev/monokai-pro",
+      "status": "candidate-context",
+      "text": "The unofficial Monokai Pro theme, adapted by [Subtheme](https://subtheme.dev). This repository includes the default theme, classic theme, and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: [https://monokai.pro](https://monokai.pro)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "nodenv/jetbrains-npm",
       "status": "candidate",
       "text": "Fix IntelliJ/WebStorm's npm integration under nodenv."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-jetbrains",
+      "status": "candidate",
+      "text": "This repository contains [base16] themes for Jetbrains IDEs. Unlike This"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subtheme-dev/monokai-pro",
+      "status": "candidate",
+      "text": "The unofficial Monokai Pro theme, adapted by [Subtheme](https://subtheme.dev). This repository includes the default theme, classic theme, and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: [https://monokai.pro](https://monokai.pro)."
     }
   ],
   "candidate_related_terms": [],
@@ -70,11 +106,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "nodenv/jetbrains-npm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/base16-jetbrains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "subtheme-dev/monokai-pro"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

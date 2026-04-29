@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check Translation Lengths"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "status": "candidate-context",
+      "text": "HTTP Archive's annual \"State of the Web\" report made by the web community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "status": "candidate-context",
+      "text": "Check Translation Lengths"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "status": "candidate",
+      "text": "Check Translation Lengths"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18802,
+      "status": "candidate",
+      "text": "inti"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18802,
+      "status": "candidate",
+      "text": "into"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18802,
+      "status": "candidate",
+      "text": "splinter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18802,
+      "status": "candidate",
+      "text": "splintering"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18802,
+      "status": "candidate",
+      "text": "splinters"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check Translation Lengths",
+  "concept_id": "check-translation-lengths",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/check-translations-lengths.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check Translation Lengths",
+      "sense_id": "check-translation-lengths#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

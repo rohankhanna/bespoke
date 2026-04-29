@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Environment cleanup"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snowflakedb/universal-driver",
+      "status": "candidate-context",
+      "text": "Universal driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowflakedb/universal-driver",
+      "status": "candidate-context",
+      "text": "Environment cleanup"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowflakedb/universal-driver",
+      "status": "candidate",
+      "text": "Environment cleanup"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12955,
+      "status": "candidate",
+      "text": "epa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12895,
+      "status": "candidate",
+      "text": "superfund"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12714,
+      "status": "candidate",
+      "text": "clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12495,
+      "status": "candidate",
+      "text": "sty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11834,
+      "status": "candidate",
+      "text": "act"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Environment cleanup",
+  "concept_id": "environment-cleanup",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/environment-cleanup.yml",
+      "source_repo": "snowflakedb/universal-driver"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Environment cleanup",
+      "sense_id": "environment-cleanup#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

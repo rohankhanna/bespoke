@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:43:42.393344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2420
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A tiny scalar-valued autograd engine and a neural net library on top of it with PyTorch-like API",
+    "fork": false,
+    "full_name": "karpathy/micrograd",
+    "html_url": "https://github.com/karpathy/micrograd",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-08T12:54:44Z",
+    "stargazers_count": 15676,
+    "topics": [],
+    "updated_at": "2026-04-29T20:04:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

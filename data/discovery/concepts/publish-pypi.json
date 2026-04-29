@@ -64,6 +64,42 @@
       "source_repo": "redis/redis-om-python",
       "status": "candidate-context",
       "text": "Publish Pypi"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ogx-ai/ogx-client-python",
+      "status": "candidate-context",
+      "text": "Python SDK for OGX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogx-ai/ogx-client-python",
+      "status": "candidate-context",
+      "text": "Publish PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "groq/groq-python",
+      "status": "candidate-context",
+      "text": "The official Python Library for the Groq API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "groq/groq-python",
+      "status": "candidate-context",
+      "text": "Publish PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ctlllll/axolotl",
+      "status": "candidate-context",
+      "text": "Go ahead and axolotl questions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctlllll/axolotl",
+      "status": "candidate-context",
+      "text": "publish pypi"
     }
   ],
   "candidate_glosses": [
@@ -96,6 +132,24 @@
       "source_repo": "redis/redis-om-python",
       "status": "candidate",
       "text": "Publish Pypi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogx-ai/ogx-client-python",
+      "status": "candidate",
+      "text": "Publish PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "groq/groq-python",
+      "status": "candidate",
+      "text": "Publish PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ctlllll/axolotl",
+      "status": "candidate",
+      "text": "publish pypi"
     }
   ],
   "candidate_related_terms": [
@@ -211,11 +265,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/pypi-publish.yaml",
       "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "ogx-ai/ogx-client-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pypi-publish.yaml",
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "groq/groq-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pypi.yml",
+      "source_repo": "ctlllll/axolotl"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

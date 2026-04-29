@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Export issue to Jira"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "puppetlabs/puppet",
+      "status": "candidate-context",
+      "text": "Server automation framework and application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puppetlabs/puppet",
+      "status": "candidate-context",
+      "text": "Export issue to Jira"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "puppetlabs/puppet",
+      "status": "candidate",
+      "text": "Export issue to Jira"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28208,
+      "status": "candidate",
+      "text": "tariff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11821,
+      "status": "candidate",
+      "text": "imports"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11821,
+      "status": "candidate",
+      "text": "oil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11821,
+      "status": "candidate",
+      "text": "ore"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11821,
+      "status": "candidate",
+      "text": "traffic"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Export issue to Jira",
+  "concept_id": "export-issue-to-jira",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/jira.yml",
+      "source_repo": "puppetlabs/puppet"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Export issue to Jira",
+      "sense_id": "export-issue-to-jira#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

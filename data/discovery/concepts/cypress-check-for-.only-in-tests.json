@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Cypress check for .only in tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitconcept/volto-light-theme",
+      "status": "candidate-context",
+      "text": "\"Cypress check for .only in tests\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitconcept/volto-light-theme",
+      "status": "candidate",
+      "text": "\"Cypress check for .only in tests\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11235,
+      "status": "candidate",
+      "text": "cone"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11235,
+      "status": "candidate",
+      "text": "cyprus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10918,
+      "status": "candidate",
+      "text": "knee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10918,
+      "status": "candidate",
+      "text": "lie"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10918,
+      "status": "candidate",
+      "text": "oink"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cypress check for .only in tests",
+  "concept_id": "cypress-check-for-.only-in-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cypress-no-only.yml",
+      "source_repo": "kitconcept/volto-light-theme"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cypress check for .only in tests",
+      "sense_id": "cypress-check-for-.only-in-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

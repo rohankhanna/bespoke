@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HTTP Archive's annual \"State of the Web\" report made by the web community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Add to Release Notes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Add to Release Notes"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34619,
+      "status": "candidate",
+      "text": "append"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34619,
+      "status": "candidate",
+      "text": "footnote"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34298,
+      "status": "candidate",
+      "text": "harmonize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34219,
+      "status": "candidate",
+      "text": "margin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27390,
+      "status": "candidate",
+      "text": "annotate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add to Release Notes",
+      "sense_id": "add-to-release-notes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "add-to-release-notes",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "add-to-release-notes",
+  "observation_id": "09a7d5f9dc3c4c0d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Add to Release Notes",
+  "source_context_snippet": "Add to Release Notes",
+  "source_file": ".github/workflows/add-to-release-notes.yml",
+  "source_repo": "HTTPArchive/almanac.httparchive.org",
+  "source_repo_description": "HTTP Archive's annual \"State of the Web\" report made by the web community"
+}

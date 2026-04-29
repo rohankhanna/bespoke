@@ -787,6 +787,96 @@
       "source_repo": "ipld/js-dag-pb",
       "status": "candidate-context",
       "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/github-mgmt",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-check",
+      "status": "candidate-context",
+      "text": "A tool for checking the accessibility of your data by IPFS peers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-check",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/ansible-ipfs",
+      "status": "candidate-context",
+      "text": "Ansible collection for IPFS applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/ansible-ipfs",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/nopfs",
+      "status": "candidate-context",
+      "text": "Say NO with NOpfs! NOpfs provides content-blocking-layer capabilities for IPFS (Kubo)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/nopfs",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/js-ipfsd-ctl",
+      "status": "candidate-context",
+      "text": "Control an IPFS daemon (go-ipfs or js-ipfs) using JavaScript!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfsd-ctl",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/distributions",
+      "status": "candidate-context",
+      "text": "Legacy dist.ipfs.tech website and artifact build tools. Currently only used for notarizing builds of Kubo and IPFS Cluster."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/distributions",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/go-ipfs-example-plugin",
+      "status": "candidate-context",
+      "text": "Demo plugin for Kubo IPFS daemon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-ipfs-example-plugin",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/aegir",
+      "status": "candidate-context",
+      "text": "AEgir - Automated JavaScript project building"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/aegir",
+      "status": "candidate-context",
+      "text": "Close Generated PRs"
     }
   ],
   "candidate_glosses": [
@@ -1183,6 +1273,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipld/js-dag-pb",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/github-mgmt",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-check",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/ansible-ipfs",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/nopfs",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfsd-ctl",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/distributions",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-ipfs-example-plugin",
+      "status": "candidate",
+      "text": "Close Generated PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/aegir",
       "status": "candidate",
       "text": "Close Generated PRs"
     }
@@ -1678,11 +1816,95 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/generated-pr.yml",
       "source_repo": "ipld/js-dag-pb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/github-mgmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/ipfs-check"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-shipyard/ansible-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-shipyard/nopfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/js-ipfsd-ctl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/distributions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/go-ipfs-example-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs/aegir"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "ipfs-shipyard/contributors-hex-grid"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generated-pr.yml",
+      "source_repo": "multiformats/cid"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

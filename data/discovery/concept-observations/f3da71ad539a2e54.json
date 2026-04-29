@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AppImage Desktop Maker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "AppImage Desktop Maker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "AppImage Desktop Maker"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "appimage-desktop-maker",
+      "sense_id": "appimage-desktop-maker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "appimage-desktop-maker",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "appimage-desktop-maker",
+  "observation_id": "f3da71ad539a2e54",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "appimage-desktop-maker",
+  "source_context_snippet": "AppImage Desktop Maker",
+  "source_file": null,
+  "source_repo": "Alexsussa/AIDM",
+  "source_repo_description": "AppImage Desktop Maker"
+}

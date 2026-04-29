@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "lint & build changed ports"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate-context",
+      "text": "The MacPorts ports tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate-context",
+      "text": "\"lint & build changed ports\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate",
+      "text": "\"lint & build changed ports\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28199,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18848,
+      "status": "candidate",
+      "text": "fluff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18845,
+      "status": "candidate",
+      "text": "hospital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18098,
+      "status": "candidate",
+      "text": "ageratum houstonianum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18098,
+      "status": "candidate",
+      "text": "assonance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lint & build changed ports",
+  "concept_id": "lint-build-changed-ports",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "macports/macports-ports"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "lint & build changed ports",
+      "sense_id": "lint-build-changed-ports#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

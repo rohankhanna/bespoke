@@ -1,0 +1,306 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodebuild.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodebuild.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "appsquickly/typhoonswift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "banjun/bansan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "beaver/beavercodegen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "ben-g/meet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "Jazzy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "SwiftLint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftpm.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftpm.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "SwiftPM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodebuild.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/xcodebuild.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "maxim-lobanov/setup-xcode@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/xcodebuild.yml",
+      "source_repo": "jpsim/SourceKitten",
+      "target": "xcodebuild",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:52:12.508652+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11045
+    },
+    {
+      "path": ".github/workflows/bazel.yml",
+      "size": 1019
+    },
+    {
+      "path": ".github/workflows/jazzy.yml",
+      "size": 697
+    },
+    {
+      "path": ".github/workflows/swiftlint.yml",
+      "size": 297
+    },
+    {
+      "path": ".github/workflows/swiftpm.yml",
+      "size": 686
+    },
+    {
+      "path": ".github/workflows/xcodebuild.yml",
+      "size": 512
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An adorable little framework and command line tool for interacting with SourceKit.",
+    "fork": false,
+    "full_name": "jpsim/SourceKitten",
+    "html_url": "https://github.com/jpsim/SourceKitten",
+    "language": "Swift",
+    "pushed_at": "2026-04-08T09:21:29Z",
+    "stargazers_count": 2413,
+    "topics": [],
+    "updated_at": "2026-04-24T17:20:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appsquickly/typhoonswift",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "banjun/bansan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beaver/beavercodegen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ben-g/meet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazel.yml",
+      "term": "Bazel"
+    },
+    {
+      "context_snippet": "Jazzy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jazzy.yml",
+      "term": "Jazzy"
+    },
+    {
+      "context_snippet": "SwiftLint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "term": "SwiftLint"
+    },
+    {
+      "context_snippet": "SwiftPM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftpm.yml",
+      "term": "SwiftPM"
+    },
+    {
+      "context_snippet": "xcodebuild",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/xcodebuild.yml",
+      "term": "xcodebuild"
+    }
+  ]
+}

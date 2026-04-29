@@ -73,6 +73,30 @@
       "source_repo": "google-deepmind/acme",
       "status": "candidate-context",
       "text": "<img src=\"docs/imgs/acme.png\" width=\"50%\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bytedance/ATI",
+      "status": "candidate-context",
+      "text": "Official implementation of ATI: Any Trajectory Instruction for Controllable Video Generation. https://arxiv.org/pdf/2505.22944"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/ATI",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/scenic",
+      "status": "candidate-context",
+      "text": "Scenic: A Jax Library for Computer Vision Research and Beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/scenic",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: left\">"
     }
   ],
   "candidate_glosses": [
@@ -111,6 +135,18 @@
       "source_repo": "google-deepmind/acme",
       "status": "candidate",
       "text": "<img src=\"docs/imgs/acme.png\" width=\"50%\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bytedance/ATI",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/scenic",
+      "status": "candidate",
+      "text": "<div style=\"text-align: left\">"
     }
   ],
   "candidate_related_terms": [
@@ -231,11 +267,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bytedance/ATI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/acme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-research/scenic"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

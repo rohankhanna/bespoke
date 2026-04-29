@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "target": "julia-vscode/languageserver.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "target": "invenia/bluestyle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "target": "jrevels/yasguide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "target": "julialang/packagecompiler.jl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "target": "juliaformatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "target": "nvim",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:51:11.967763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A (N)Vim plugin for formatting Julia code using JuliaFormatter.jl.",
+    "fork": false,
+    "full_name": "kdheepak/JuliaFormatter.vim",
+    "html_url": "https://github.com/kdheepak/JuliaFormatter.vim",
+    "language": "Vim Script",
+    "pushed_at": "2025-08-08T03:05:35Z",
+    "stargazers_count": 72,
+    "topics": [
+      "juliaformatter",
+      "neovim",
+      "nvim",
+      "vim"
+    ],
+    "updated_at": "2026-01-05T00:15:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "invenia/bluestyle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jrevels/yasguide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "julia-vscode/languageserver.jl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "julialang/packagecompiler.jl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Plugin for formatting Julia code in (n)vim using [`JuliaFormatter.jl`](https://github.com/domluna/JuliaFormatter.jl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "juliaformatter"
+    },
+    {
+      "context_snippet": "Plugin for formatting Julia code in (n)vim using [`JuliaFormatter.jl`](https://github.com/domluna/JuliaFormatter.jl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Plugin for formatting Julia code in (n)vim using [`JuliaFormatter.jl`](https://github.com/domluna/JuliaFormatter.jl).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    }
+  ]
+}

@@ -1,0 +1,186 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chineseocr/chineseocr",
+      "target": "pjreddie/darknet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chineseocr/chineseocr",
+      "target": "chineseocr/darknet-ocr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chineseocr/chineseocr",
+      "target": "eragonruan/text-detection-ctpn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chineseocr/chineseocr",
+      "target": "lukhy/masr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chineseocr/chineseocr",
+      "target": "chinese-ocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chineseocr/chineseocr",
+      "target": "chinese-text-detect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chineseocr/chineseocr",
+      "target": "darknet-text-detect",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chineseocr/chineseocr",
+      "target": "idcard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chineseocr/chineseocr",
+      "target": "opencv-dnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chineseocr/chineseocr",
+      "target": "trainticket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chineseocr/chineseocr",
+      "target": "yolo3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:40:36.744467+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3363
+    },
+    {
+      "path": "Dockerfile",
+      "size": 989
+    },
+    {
+      "path": "requirements.txt",
+      "size": 149
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "app",
+    "description": "yolo3+ocr",
+    "fork": false,
+    "full_name": "chineseocr/chineseocr",
+    "html_url": "https://github.com/chineseocr/chineseocr",
+    "language": "Python",
+    "pushed_at": "2022-08-29T02:53:47Z",
+    "stargazers_count": 6120,
+    "topics": [
+      "chinese-ocr",
+      "chinese-text-detect",
+      "darknet-text-detect",
+      "idcard",
+      "ocr",
+      "opencv-dnn",
+      "trainticket",
+      "yolo3"
+    ],
+    "updated_at": "2026-04-28T09:03:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chineseocr/darknet-ocr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eragonruan/text-detection-ctpn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lukhy/masr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pjreddie/darknet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ocr ctc\u8bad\u7ec3\u6570\u636e\u96c6(\u538b\u7f29\u5305\u89e3\u7801:chineseocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-ocr"
+    },
+    {
+      "context_snippet": "ocr ctc\u8bad\u7ec3\u6570\u636e\u96c6(\u538b\u7f29\u5305\u89e3\u7801:chineseocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-text-detect"
+    },
+    {
+      "context_snippet": "ocr ctc\u8bad\u7ec3\u6570\u636e\u96c6(\u538b\u7f29\u5305\u89e3\u7801:chineseocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "darknet-text-detect"
+    },
+    {
+      "context_snippet": "ocr ctc\u8bad\u7ec3\u6570\u636e\u96c6(\u538b\u7f29\u5305\u89e3\u7801:chineseocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "idcard"
+    },
+    {
+      "context_snippet": "ocr ctc\u8bad\u7ec3\u6570\u636e\u96c6(\u538b\u7f29\u5305\u89e3\u7801:chineseocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencv-dnn"
+    },
+    {
+      "context_snippet": "ocr ctc\u8bad\u7ec3\u6570\u636e\u96c6(\u538b\u7f29\u5305\u89e3\u7801:chineseocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trainticket"
+    },
+    {
+      "context_snippet": "ocr ctc\u8bad\u7ec3\u6570\u636e\u96c6(\u538b\u7f29\u5305\u89e3\u7801:chineseocr)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo3"
+    }
+  ]
+}

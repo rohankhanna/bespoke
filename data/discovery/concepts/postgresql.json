@@ -199,6 +199,90 @@
       "source_repo": "citusdata/citus",
       "status": "candidate-context",
       "text": "| **<br/>The Citus database is 100% open source.<br/><img width=1000/><br/>Learn what's new in the [Citus 13.0 release blog](https://www.citusdata.com/blog/2025/02/06/distribute-postgresql-17-with-citus-13/) and the [Citus Updates page](https://www.citusdata.com/updates/).<br/><\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate-context",
+      "text": "Free universal database tool and SQL client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate-context",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/dbeaver_news.svg?style=social&label=Follow%20%40dbeaver_news)](https://twitter.com/dbeaver_news)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HypoPG/hypopg",
+      "status": "candidate-context",
+      "text": "Hypothetical Indexes for PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypoPG/hypopg",
+      "status": "candidate-context",
+      "text": "HypoPG"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibis-project/ibis",
+      "status": "candidate-context",
+      "text": "the portable Python dataframe library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibis-project/ibis",
+      "status": "candidate-context",
+      "text": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgpartman/pg_partman",
+      "status": "candidate-context",
+      "text": "Partition management extension for PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgpartman/pg_partman",
+      "status": "candidate-context",
+      "text": "[![PGXN version](https://badge.fury.io/pg/pg_partman.svg)](https://badge.fury.io/pg/pg_partman)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sorintlab/stolon",
+      "status": "candidate-context",
+      "text": "PostgreSQL cloud native High Availability and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorintlab/stolon",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postgis/postgis",
+      "status": "candidate-context",
+      "text": "PostGIS spatial database extension to PostgreSQL [mirror]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postgis/postgis",
+      "status": "candidate-context",
+      "text": "This file is here to play nicely with modern code repository facilities."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hapostgres/pg_auto_failover",
+      "status": "candidate-context",
+      "text": "Postgres extension and service for automated failover and high-availability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hapostgres/pg_auto_failover",
+      "status": "candidate-context",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +381,48 @@
       "source_repo": "citusdata/citus",
       "status": "candidate",
       "text": "| **<br/>The Citus database is 100% open source.<br/><img width=1000/><br/>Learn what's new in the [Citus 13.0 release blog](https://www.citusdata.com/blog/2025/02/06/distribute-postgresql-17-with-citus-13/) and the [Citus Updates page](https://www.citusdata.com/updates/).<br/><\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/dbeaver_news.svg?style=social&label=Follow%20%40dbeaver_news)](https://twitter.com/dbeaver_news)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypoPG/hypopg",
+      "status": "candidate",
+      "text": "HypoPG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibis-project/ibis",
+      "status": "candidate",
+      "text": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgpartman/pg_partman",
+      "status": "candidate",
+      "text": "[![PGXN version](https://badge.fury.io/pg/pg_partman.svg)](https://badge.fury.io/pg/pg_partman)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorintlab/stolon",
+      "status": "candidate",
+      "text": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postgis/postgis",
+      "status": "candidate",
+      "text": "This file is here to play nicely with modern code repository facilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hapostgres/pg_auto_failover",
+      "status": "candidate",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)"
     }
   ],
   "candidate_related_terms": [
@@ -441,11 +567,65 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "citusdata/citus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dbeaver/dbeaver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "HypoPG/hypopg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pgpartman/pg_partman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "postgis/postgis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hapostgres/pg_auto_failover"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

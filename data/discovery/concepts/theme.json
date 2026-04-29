@@ -217,6 +217,30 @@
       "source_repo": "bootscore/bootscore",
       "status": "candidate-context",
       "text": "<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate-context",
+      "text": "Base16 template for xfce4-terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate-context",
+      "text": "**Deprecation Notice**: tinted-xfce4-terminal and all the other Tinted"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "subtheme-dev/monokai-pro",
+      "status": "candidate-context",
+      "text": "The unofficial Monokai Pro theme by Subtheme."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subtheme-dev/monokai-pro",
+      "status": "candidate-context",
+      "text": "The unofficial Monokai Pro theme, adapted by [Subtheme](https://subtheme.dev). This repository includes the default theme, classic theme, and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: [https://monokai.pro](https://monokai.pro)."
     }
   ],
   "candidate_glosses": [
@@ -321,6 +345,18 @@
       "source_repo": "bootscore/bootscore",
       "status": "candidate",
       "text": "<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate",
+      "text": "**Deprecation Notice**: tinted-xfce4-terminal and all the other Tinted"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "subtheme-dev/monokai-pro",
+      "status": "candidate",
+      "text": "The unofficial Monokai Pro theme, adapted by [Subtheme](https://subtheme.dev). This repository includes the default theme, classic theme, and four filters: Machine, Octagon, Ristretto, and Spectrum. Credit goes to the original creator: [https://monokai.pro](https://monokai.pro)."
     }
   ],
   "candidate_related_terms": [
@@ -556,11 +592,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "bootscore/bootscore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tinted-theming/tinted-xfce4-terminal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "subtheme-dev/monokai-pro"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

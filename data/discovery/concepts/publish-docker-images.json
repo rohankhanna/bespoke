@@ -93,6 +93,42 @@
       "source_repo": "apache/datafusion-comet",
       "status": "candidate-context",
       "text": "Publish Docker images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate-context",
+      "text": "Count your code, quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate-context",
+      "text": "Publish Docker Images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/yolov3",
+      "status": "candidate-context",
+      "text": "YOLOv3 in PyTorch > ONNX > CoreML > TFLite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov3",
+      "status": "candidate-context",
+      "text": "Publish Docker Images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate-context",
+      "text": "YOLOv5 \ud83d\ude80 in PyTorch > ONNX > CoreML > TFLite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate-context",
+      "text": "Publish Docker Images"
     }
   ],
   "candidate_glosses": [
@@ -137,6 +173,24 @@
       "source_repo": "apache/datafusion-comet",
       "status": "candidate",
       "text": "Publish Docker images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate",
+      "text": "Publish Docker Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov3",
+      "status": "candidate",
+      "text": "Publish Docker Images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate",
+      "text": "Publish Docker Images"
     }
   ],
   "candidate_related_terms": [
@@ -222,11 +276,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/docker-publish.yml",
       "source_repo": "apache/datafusion-comet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish_image.yaml",
+      "source_repo": "XAMPPRocky/tokei"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ultralytics/yolov3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ultralytics/yolov5"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

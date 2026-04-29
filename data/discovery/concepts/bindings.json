@@ -142,6 +142,18 @@
       "source_repo": "bet4it/udbserver",
       "status": "candidate-context",
       "text": "`udbserver` is a debugging plugin for [Unicorn Engine](https://www.unicorn-engine.org/) that implements the [GDB Remote Serial Protocol](https://sourceware.org/gdb/onlinedocs/gdb/Remote-Protocol.html)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust3ds/ctru-rs",
+      "status": "candidate-context",
+      "text": "Rust wrapper for libctru"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust3ds/ctru-rs",
+      "status": "candidate-context",
+      "text": "This repository is home of the `ctru-rs` project, which aims to bring full control of the Nintendo 3DS console to homebrew developers using Rust."
     }
   ],
   "candidate_glosses": [
@@ -210,6 +222,12 @@
       "source_repo": "bet4it/udbserver",
       "status": "candidate",
       "text": "`udbserver` is a debugging plugin for [Unicorn Engine](https://www.unicorn-engine.org/) that implements the [GDB Remote Serial Protocol](https://sourceware.org/gdb/onlinedocs/gdb/Remote-Protocol.html)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust3ds/ctru-rs",
+      "status": "candidate",
+      "text": "This repository is home of the `ctru-rs` project, which aims to bring full control of the Nintendo 3DS console to homebrew developers using Rust."
     }
   ],
   "candidate_related_terms": [
@@ -349,11 +367,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-tracy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rust3ds/ctru-rs"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

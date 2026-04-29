@@ -1,0 +1,410 @@
+{
+  "components": [
+    {
+      "component": "@changesets/cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a3.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a3.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a3.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a3.yml"
+    },
+    {
+      "component": "supercharge/mongodb-github-action@1.12.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a3.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "webfactory/ssh-agent@v0.9.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "apostrophecms/starter-kit-astro-essentials",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "@changesets/cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a3.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a3.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a3.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a3.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "webfactory/ssh-agent@v0.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/a3.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "supercharge/mongodb-github-action@1.12.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/a3.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "A3 Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "webfactory/ssh-agent@v0.9.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/monorepo.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monorepo.yml",
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "Monorepo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "apostrophe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "cms-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "jamstack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "node-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apostrophecms/apostrophe",
+      "target": "website-builder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:40:58.023599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7423
+    },
+    {
+      "path": "package.json",
+      "size": 1088
+    },
+    {
+      "path": ".github/workflows/a3.yml",
+      "size": 1947
+    },
+    {
+      "path": ".github/workflows/monorepo.yml",
+      "size": 15723
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A full-featured, open-source content management framework built with Node.js that empowers organizations by combining in-context editing and headless architecture in a full-stack JS environment.",
+    "fork": false,
+    "full_name": "apostrophecms/apostrophe",
+    "html_url": "https://github.com/apostrophecms/apostrophe",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-29T18:00:20Z",
+    "stargazers_count": 4552,
+    "topics": [
+      "apostrophe",
+      "cms",
+      "cms-framework",
+      "jamstack",
+      "javascript",
+      "node",
+      "node-js",
+      "nodejs",
+      "website-builder"
+    ],
+    "updated_at": "2026-04-29T18:00:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apostrophecms/starter-kit-astro-essentials",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A3 Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/a3.yml",
+      "term": "A3 Tests"
+    },
+    {
+      "context_snippet": "Monorepo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/monorepo.yml",
+      "term": "Monorepo"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apostrophe"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cms-framework"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jamstack"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node-js"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "website-builder"
+    }
+  ]
+}

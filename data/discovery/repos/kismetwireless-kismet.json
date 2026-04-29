@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-all-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-all-no-wext-build.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-default-build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-all-build.yaml",
+      "source_repo": "kismetwireless/kismet",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-all-build.yaml",
+      "source_repo": "kismetwireless/kismet",
+      "target": "Ubuntu All Build Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-all-no-wext-build.yaml",
+      "source_repo": "kismetwireless/kismet",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-all-no-wext-build.yaml",
+      "source_repo": "kismetwireless/kismet",
+      "target": "Ubuntu All No WEXT Build Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-default-build.yaml",
+      "source_repo": "kismetwireless/kismet",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-default-build.yaml",
+      "source_repo": "kismetwireless/kismet",
+      "target": "Ubuntu Default Build Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kismetwireless/kismet",
+      "target": "kismet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kismetwireless/kismet",
+      "target": "wi-fi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kismetwireless/kismet",
+      "target": "wids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kismetwireless/kismet",
+      "target": "wireless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:53:21.876874+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 373
+    },
+    {
+      "path": ".github/workflows/ubuntu-all-build.yaml",
+      "size": 693
+    },
+    {
+      "path": ".github/workflows/ubuntu-all-no-wext-build.yaml",
+      "size": 717
+    },
+    {
+      "path": ".github/workflows/ubuntu-default-build.yaml",
+      "size": 705
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Github mirror of official Kismet repository",
+    "fork": false,
+    "full_name": "kismetwireless/kismet",
+    "html_url": "https://github.com/kismetwireless/kismet",
+    "language": "C++",
+    "pushed_at": "2026-04-28T12:24:31Z",
+    "stargazers_count": 2097,
+    "topics": [
+      "kismet",
+      "sdr",
+      "wi-fi",
+      "wids",
+      "wireless"
+    ],
+    "updated_at": "2026-04-29T14:02:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Ubuntu All Build Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-all-build.yaml",
+      "term": "Ubuntu All Build Test"
+    },
+    {
+      "context_snippet": "Ubuntu All No WEXT Build Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-all-no-wext-build.yaml",
+      "term": "Ubuntu All No WEXT Build Test"
+    },
+    {
+      "context_snippet": "Ubuntu Default Build Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-default-build.yaml",
+      "term": "Ubuntu Default Build Test"
+    },
+    {
+      "context_snippet": "https://www.kismetwireless.net",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kismet"
+    },
+    {
+      "context_snippet": "https://www.kismetwireless.net",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wi-fi"
+    },
+    {
+      "context_snippet": "https://www.kismetwireless.net",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wids"
+    },
+    {
+      "context_snippet": "https://www.kismetwireless.net",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wireless"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "BCC Build and tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "BCC Build and tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14320,
+      "status": "candidate",
+      "text": "gmt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14293,
+      "status": "candidate",
+      "text": "body"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14267,
+      "status": "candidate",
+      "text": "abc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14267,
+      "status": "candidate",
+      "text": "alloyed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14267,
+      "status": "candidate",
+      "text": "consistency"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "BCC Build and tests",
+      "sense_id": "bcc-build-and-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bcc-build-and-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bcc-build-and-tests",
+  "observation_id": "4e6bd04ac54d1ae6",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "BCC Build and tests",
+  "source_context_snippet": "BCC Build and tests",
+  "source_file": ".github/workflows/bcc-test.yml",
+  "source_repo": "iovisor/bcc",
+  "source_repo_description": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more"
+}

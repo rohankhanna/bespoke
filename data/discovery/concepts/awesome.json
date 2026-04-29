@@ -499,6 +499,42 @@
       "source_repo": "agarrharr/awesome-cli-apps",
       "status": "candidate-context",
       "text": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vinta/awesome-python",
+      "status": "candidate-context",
+      "text": "An opinionated list of Python frameworks, libraries, tools, and resources"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vinta/awesome-python",
+      "status": "candidate-context",
+      "text": "An opinionated list of Python frameworks, libraries, tools, and resources."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "laurentlb/awesome-starlark",
+      "status": "candidate-context",
+      "text": "A list of awesome things related to the Starlark language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "laurentlb/awesome-starlark",
+      "status": "candidate-context",
+      "text": "*A list of awesome things related to the Starlark language.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/awesome-nodejs",
+      "status": "candidate-context",
+      "text": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED UNTIL SEPTEMBER]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/awesome-nodejs",
+      "status": "candidate-context",
+      "text": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED UNTIL SEPTEMBER]"
     }
   ],
   "candidate_glosses": [
@@ -741,6 +777,24 @@
       "source_repo": "agarrharr/awesome-cli-apps",
       "status": "candidate",
       "text": "\ud83d\udda5 \ud83d\udcca \ud83d\udd79 \ud83d\udee0 A curated list of command line apps"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vinta/awesome-python",
+      "status": "candidate",
+      "text": "An opinionated list of Python frameworks, libraries, tools, and resources."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "laurentlb/awesome-starlark",
+      "status": "candidate",
+      "text": "*A list of awesome things related to the Starlark language.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/awesome-nodejs",
+      "status": "candidate",
+      "text": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED UNTIL SEPTEMBER]"
     }
   ],
   "candidate_related_terms": [
@@ -1078,11 +1132,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "agarrharr/awesome-cli-apps"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vinta/awesome-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "laurentlb/awesome-starlark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/awesome-nodejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Awesome"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

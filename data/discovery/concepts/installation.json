@@ -19,12 +19,30 @@
       "source_repo": "mosaicml/streaming",
       "status": "candidate-context",
       "text": "Installation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GitoxideLabs/cargo-smart-release",
+      "status": "candidate-context",
+      "text": "Release complex cargo-workspaces automatically with changelog generation, used by `gitoxide`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/cargo-smart-release",
+      "status": "candidate-context",
+      "text": "Installation"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "mosaicml/streaming",
+      "status": "candidate",
+      "text": "Installation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/cargo-smart-release",
       "status": "candidate",
       "text": "Installation"
     }
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/install.yaml",
       "source_repo": "mosaicml/streaming"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/install.yml",
+      "source_repo": "GitoxideLabs/cargo-smart-release"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,104 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "dcampbell24/djot-implementations",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "dcampbell24/djot-implementations",
+      "target": "Run Benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "dcampbell24/djot-implementations",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "dcampbell24/djot-implementations",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "dcampbell24/djot-implementations",
+      "target": "zizmor",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:46:26.032998+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2882
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 705
+    },
+    {
+      "path": ".github/workflows/run-benchmarks.yml",
+      "size": 1127
+    },
+    {
+      "path": ".github/workflows/zizmor.yml",
+      "size": 841
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Various Djot Implementations Benchmarked",
+    "fork": false,
+    "full_name": "dcampbell24/djot-implementations",
+    "html_url": "https://github.com/dcampbell24/djot-implementations",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T17:24:51Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-29T17:24:55Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Benchmarks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "term": "Run Benchmarks"
+    },
+    {
+      "context_snippet": "zizmor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/zizmor.yml",
+      "term": "zizmor"
+    }
+  ]
+}

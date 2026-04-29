@@ -1,0 +1,137 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jin-s13/COCO-WholeBody",
+      "target": "jackyjsy/cvpr21chal-slr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jin-s13/COCO-WholeBody",
+      "target": "ustc-slr/chalearn-2021-islr-challenge",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jin-s13/COCO-WholeBody",
+      "target": "jin-s13/xtcocoapi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jin-s13/COCO-WholeBody",
+      "target": "coco-wholebody",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jin-s13/COCO-WholeBody",
+      "target": "face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jin-s13/COCO-WholeBody",
+      "target": "hand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jin-s13/COCO-WholeBody",
+      "target": "keypoints",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jin-s13/COCO-WholeBody",
+      "target": "wholebody-benchmark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:42:29.183328+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16987
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ECCV2020 paper \"Whole-Body Human Pose Estimation in the Wild\"",
+    "fork": false,
+    "full_name": "jin-s13/COCO-WholeBody",
+    "html_url": "https://github.com/jin-s13/COCO-WholeBody",
+    "language": "Python",
+    "pushed_at": "2025-04-22T09:15:29Z",
+    "stargazers_count": 852,
+    "topics": [
+      "coco-wholebody",
+      "face",
+      "hand",
+      "keypoints",
+      "wholebody-benchmark"
+    ],
+    "updated_at": "2026-04-28T07:18:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jackyjsy/cvpr21chal-slr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jin-s13/xtcocoapi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ustc-slr/chalearn-2021-islr-challenge",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is the official repo for ECCV2020 paper [\"Whole-Body Human Pose Estimation in the Wild\"](https://arxiv.org/abs/2007.11858). The slides of this work can be found in [Slides](https://drive.google.com/file/d/1nebo1h07BwKDhomWy4n98X4cJ1qHVy2X/view?usp=sharing).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coco-wholebody"
+    },
+    {
+      "context_snippet": "This is the official repo for ECCV2020 paper [\"Whole-Body Human Pose Estimation in the Wild\"](https://arxiv.org/abs/2007.11858). The slides of this work can be found in [Slides](https://drive.google.com/file/d/1nebo1h07BwKDhomWy4n98X4cJ1qHVy2X/view?usp=sharing).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face"
+    },
+    {
+      "context_snippet": "This is the official repo for ECCV2020 paper [\"Whole-Body Human Pose Estimation in the Wild\"](https://arxiv.org/abs/2007.11858). The slides of this work can be found in [Slides](https://drive.google.com/file/d/1nebo1h07BwKDhomWy4n98X4cJ1qHVy2X/view?usp=sharing).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hand"
+    },
+    {
+      "context_snippet": "This is the official repo for ECCV2020 paper [\"Whole-Body Human Pose Estimation in the Wild\"](https://arxiv.org/abs/2007.11858). The slides of this work can be found in [Slides](https://drive.google.com/file/d/1nebo1h07BwKDhomWy4n98X4cJ1qHVy2X/view?usp=sharing).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keypoints"
+    },
+    {
+      "context_snippet": "This is the official repo for ECCV2020 paper [\"Whole-Body Human Pose Estimation in the Wild\"](https://arxiv.org/abs/2007.11858). The slides of this work can be found in [Slides](https://drive.google.com/file/d/1nebo1h07BwKDhomWy4n98X4cJ1qHVy2X/view?usp=sharing).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wholebody-benchmark"
+    }
+  ]
+}

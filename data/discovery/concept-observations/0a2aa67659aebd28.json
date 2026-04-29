@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NuGet Gallery is a package repository that powers https://www.nuget.org. Use this repo for reporting NuGet.org issues."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Prioritize Issues by Reactions"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Prioritize Issues by Reactions"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22549,
+      "status": "candidate",
+      "text": "liberal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22549,
+      "status": "candidate",
+      "text": "pros and cons"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22498,
+      "status": "candidate",
+      "text": "baron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22498,
+      "status": "candidate",
+      "text": "chamberlain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22498,
+      "status": "candidate",
+      "text": "count"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Prioritize Issues by Reactions",
+      "sense_id": "prioritize-issues-by-reactions#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "prioritize-issues-by-reactions",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "prioritize-issues-by-reactions",
+  "observation_id": "0a2aa67659aebd28",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Prioritize Issues by Reactions",
+  "source_context_snippet": "Prioritize Issues by Reactions",
+  "source_file": ".github/workflows/prioritize-by-reactions.yaml",
+  "source_repo": "NuGet/NuGetGallery",
+  "source_repo_description": "NuGet Gallery is a package repository that powers https://www.nuget.org. Use this repo for reporting NuGet.org issues."
+}

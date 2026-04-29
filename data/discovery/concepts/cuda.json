@@ -655,6 +655,90 @@
       "source_repo": "AFD-Illinois/kharma",
       "status": "candidate-context",
       "text": "KHARMA is an implementation of the HARM scheme for general relativistic magnetohydrodynamics (GRMHD) in C++. It is based on the Parthenon AMR framework, using Kokkos for parallelism and GPU support. It is composed of modular \"packages,\" which in theory make it easy to add or swa\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate-context",
+      "text": "Tengine is a lite, high performance, modular inference engine for embedded device "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVCUDA/CV-CUDA",
+      "status": "candidate-context",
+      "text": "CV-CUDA\u2122 is an open-source, GPU accelerated library for cloud-scale image processing and computer vision."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVCUDA/CV-CUDA",
+      "status": "candidate-context",
+      "text": "[//]: # \"SPDX-FileCopyrightText: Copyright (c) 2022-2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate-context",
+      "text": "Goal: Enable awesome tooling for Bazel users of the C language family."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenNMT/CTranslate2",
+      "status": "candidate-context",
+      "text": "Fast inference engine for Transformer models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenNMT/CTranslate2",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/OpenNMT/CTranslate2/workflows/CI/badge.svg)](https://github.com/OpenNMT/CTranslate2/actions?query=workflow%3ACI) [![PyPI version](https://badge.fury.io/py/ctranslate2.svg)](https://badge.fury.io/py/ctranslate2) [![Documentation](https://img.shields.io/b\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate-context",
+      "text": "Pytorch domain library for recommendation systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate-context",
+      "text": "[tool.usort] first_party_detection = false"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "status": "candidate-context",
+      "text": "Dashboard for InferenceX\u2122, Open Source Continuous Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "status": "candidate-context",
+      "text": "A [Next.js](https://nextjs.org) dashboard for visualizing ML inference benchmark data. DB-backed with Neon PostgreSQL, React Query for data fetching, D3.js for interactive charts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thu-ml/SageAttention",
+      "status": "candidate-context",
+      "text": "[ICLR2025, ICML2025, NeurIPS2025 Spotlight] Quantized Attention achieves speedup of 2-5x compared to FlashAttention, without losing end-to-end metrics across language, image, and video models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SageAttention",
+      "status": "candidate-context",
+      "text": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated."
     }
   ],
   "candidate_glosses": [
@@ -981,6 +1065,48 @@
       "source_repo": "AFD-Illinois/kharma",
       "status": "candidate",
       "text": "KHARMA is an implementation of the HARM scheme for general relativistic magnetohydrodynamics (GRMHD) in C++. It is based on the Parthenon AMR framework, using Kokkos for parallelism and GPU support. It is composed of modular \"packages,\" which in theory make it easy to add or swa\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVCUDA/CV-CUDA",
+      "status": "candidate",
+      "text": "[//]: # \"SPDX-FileCopyrightText: Copyright (c) 2022-2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenNMT/CTranslate2",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/OpenNMT/CTranslate2/workflows/CI/badge.svg)](https://github.com/OpenNMT/CTranslate2/actions?query=workflow%3ACI) [![PyPI version](https://badge.fury.io/py/ctranslate2.svg)](https://badge.fury.io/py/ctranslate2) [![Documentation](https://img.shields.io/b\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate",
+      "text": "[tool.usort] first_party_detection = false"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "status": "candidate",
+      "text": "A [Next.js](https://nextjs.org) dashboard for visualizing ML inference benchmark data. DB-backed with Neon PostgreSQL, React Query for data fetching, D3.js for interactive charts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SageAttention",
+      "status": "candidate",
+      "text": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated."
     }
   ],
   "candidate_related_terms": [
@@ -1408,11 +1534,83 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "AFD-Illinois/kharma"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OAID/Tengine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "CVCUDA/CV-CUDA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/ao"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OpenNMT/CTranslate2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchrec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aphrodite-engine/aphrodite-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/SageAttention"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

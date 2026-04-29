@@ -1,0 +1,22 @@
+{
+  "component": "bitwarden/ios/.github/actions/log-inputs@main",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build-any.yml",
+      "source_repo": "bitwarden/ios"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_version.yml",
+      "source_repo": "bitwarden/ios"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/ios"
+    }
+  ]
+}

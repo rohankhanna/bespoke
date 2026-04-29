@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Build the PIE assets"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/pie",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 The PHP Installer for Extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/pie",
+      "status": "candidate-context",
+      "text": "\"Build the PIE assets\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/pie",
+      "status": "candidate",
+      "text": "\"Build the PIE assets\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17792,
+      "status": "candidate",
+      "text": "block"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17782,
+      "status": "candidate",
+      "text": "filling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17782,
+      "status": "candidate",
+      "text": "stoned"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17738,
+      "status": "candidate",
+      "text": "basis"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build the PIE assets",
+  "concept_id": "build-the-pie-assets",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build-assets.yml",
+      "source_repo": "php/pie"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build the PIE assets",
+      "sense_id": "build-the-pie-assets#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

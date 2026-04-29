@@ -19,6 +19,18 @@
       "source_repo": "himkt/allennlp-optuna",
       "status": "candidate-context",
       "text": "`allennlp-optuna` is [AllenNLP](https://github.com/allenai/allennlp) plugin for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optuna-dashboard",
+      "status": "candidate-context",
+      "text": "Real-time Web Dashboard for Optuna."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-dashboard",
+      "status": "candidate-context",
+      "text": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "himkt/allennlp-optuna",
       "status": "candidate",
       "text": "`allennlp-optuna` is [AllenNLP](https://github.com/allenai/allennlp) plugin for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-dashboard",
+      "status": "candidate",
+      "text": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "himkt/allennlp-optuna"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "optuna/optuna-dashboard"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

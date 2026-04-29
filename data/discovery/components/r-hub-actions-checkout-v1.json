@@ -1,7 +1,7 @@
 {
   "component": "r-hub/actions/checkout@v1",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/rhub.yaml",
       "source_repo": "r-spatial/sf"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "nx10/httpgd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "appelmar/gdalcubes"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "DOI-USGS/ncdfgeom"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "rspatial/terra"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Containerized Regression Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlcommons/algorithmic-efficiency",
+      "status": "candidate-context",
+      "text": "MLCommons Algorithmic Efficiency is a benchmark and competition measuring neural network training speedups due to algorithmic improvements in both training algorithms and models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlcommons/algorithmic-efficiency",
+      "status": "candidate-context",
+      "text": "Containerized Regression Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlcommons/algorithmic-efficiency",
+      "status": "candidate",
+      "text": "Containerized Regression Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19437,
+      "status": "candidate",
+      "text": "graduate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19437,
+      "status": "candidate",
+      "text": "mixer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19437,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19437,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19437,
+      "status": "candidate",
+      "text": "spill"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Containerized Regression Tests",
+  "concept_id": "containerized-regression-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/regression_tests.yml",
+      "source_repo": "mlcommons/algorithmic-efficiency"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Containerized Regression Tests",
+      "sense_id": "containerized-regression-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -84,7 +84,7 @@
   "normalized_form": "conflict-detector",
   "observation_id": "9f42269c69b24fa5",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Conflict detector",
   "source_context_snippet": "\"Conflict detector\"",
   "source_file": ".github/workflows/detect-conflicts.yml",

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The Ohloh source code line counter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Coverity Scan Build](https://github.com/blackducksoftware/ohcount/actions/workflows/coverity.yml/badge.svg?branch=main)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Coverity Scan Build](https://github.com/blackducksoftware/ohcount/actions/workflows/coverity.yml/badge.svg?branch=main)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "line-counter",
+      "sense_id": "line-counter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "line-counter",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "line-counter",
+  "observation_id": "e40faaaa16b008a0",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "line-counter",
+  "source_context_snippet": "![Coverity Scan Build](https://github.com/blackducksoftware/ohcount/actions/workflows/coverity.yml/badge.svg?branch=main)",
+  "source_file": null,
+  "source_repo": "blackducksoftware/ohcount",
+  "source_repo_description": "The Ohloh source code line counter"
+}

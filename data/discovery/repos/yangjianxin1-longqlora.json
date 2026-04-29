@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/LongQLoRA",
+      "target": "long-context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/LongQLoRA",
+      "target": "longlora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/LongQLoRA",
+      "target": "lora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/LongQLoRA",
+      "target": "qlora",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:57.990619+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 269
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LongQLoRA: Extent Context Length of LLMs Efficiently ",
+    "fork": false,
+    "full_name": "yangjianxin1/LongQLoRA",
+    "html_url": "https://github.com/yangjianxin1/LongQLoRA",
+    "language": "Python",
+    "pushed_at": "2023-11-12T04:15:10Z",
+    "stargazers_count": 168,
+    "topics": [
+      "llm",
+      "long-context",
+      "longlora",
+      "lora",
+      "qlora"
+    ],
+    "updated_at": "2026-01-09T11:42:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.31.0 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx flash_attn==2.3.3 joblib==1.2.0 scikit_learn==0.24.2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-context"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.31.0 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx flash_attn==2.3.3 joblib==1.2.0 scikit_learn==0.24.2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "longlora"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.31.0 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx flash_attn==2.3.3 joblib==1.2.0 scikit_learn==0.24.2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.31.0 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx flash_attn==2.3.3 joblib==1.2.0 scikit_learn==0.24.2",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qlora"
+    }
+  ]
+}

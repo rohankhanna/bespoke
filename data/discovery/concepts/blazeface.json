@@ -19,6 +19,18 @@
       "source_repo": "PaddlePaddle/PaddleDetection",
       "status": "candidate-context",
       "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepcam-cn/yolov5-face",
+      "status": "candidate-context",
+      "text": "YOLO5Face: Why Reinventing a Face Detector (https://arxiv.org/abs/2105.12931)       ECCV Workshops 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepcam-cn/yolov5-face",
+      "status": "candidate-context",
+      "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "PaddlePaddle/PaddleDetection",
       "status": "candidate",
       "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepcam-cn/yolov5-face",
+      "status": "candidate",
+      "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "PaddlePaddle/PaddleDetection"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "deepcam-cn/yolov5-face"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

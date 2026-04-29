@@ -1,7 +1,7 @@
 {
   "component": "actions/upload-artifact@v3",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -687,6 +687,141 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-wheels.yml",
       "source_repo": "jllllll/exllama"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/llm-c-evaluation.yml",
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/llm-harness-evaluation.yml",
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/llm-ppl-evaluation.yml",
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/llm-whisper-evaluation.yml",
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-pr.yml",
+      "source_repo": "ashen-sensored/gradio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-demo-notebooks.yml",
+      "source_repo": "ashen-sensored/gradio"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/perf.yml",
+      "source_repo": "glimmerjs/glimmer-vm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/static-binaries.yml",
+      "source_repo": "ochorocho/franken-typo3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "watchexec/cargo-watch"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make.yml",
+      "source_repo": "chaiNNer-org/chaiNNer"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_dynamic_embedding_wheels.yml",
+      "source_repo": "hpcaitech/torchrec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hanabi1224/RuAnnoy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unity.yml",
+      "source_repo": "atteneder/draco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/runtime-build.yml",
+      "source_repo": "kendryte/nncase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Mikubill/sd-webui-controlnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "chenkui164/FastASR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos.yml",
+      "source_repo": "chenkui164/FastASR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows.yml",
+      "source_repo": "chenkui164/FastASR"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yml",
+      "source_repo": "alibaba/FederatedScope"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cpp-graph-test.yml",
+      "source_repo": "intel/neural-speed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format_scan.yml",
+      "source_repo": "intel/neural-speed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-bestla.yml",
+      "source_repo": "intel/neural-speed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-llmruntime.yml",
+      "source_repo": "intel/neural-speed"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "openvinotoolkit/stable-diffusion-webui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yaml",
+      "source_repo": "wangshuai09/stable-diffusion-webui"
     }
   ]
 }

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:48:59.550126+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1161
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 84
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "luolin101/Visual-SWE-bench",
+    "html_url": "https://github.com/luolin101/Visual-SWE-bench",
+    "language": "Python",
+    "pushed_at": "2024-12-28T12:50:31Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-12-28T12:50:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

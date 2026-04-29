@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "face recognition training project(pytorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018521,
+      "status": "candidate",
+      "text": "solar apex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992152,
+      "status": "candidate",
+      "text": "vertex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39969549,
+      "status": "candidate",
+      "text": "peak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39960323,
+      "status": "candidate",
+      "text": "acme"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027470,
+      "status": "candidate",
+      "text": "zenith"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "apex",
+      "sense_id": "apex#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25051,
+      "status": "candidate",
+      "text": "vertex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20064,
+      "status": "candidate",
+      "text": "peak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3015,
+      "status": "candidate",
+      "text": "solar apex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "acme"
+    }
+  ],
+  "concept_id": "apex",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "apex",
+  "observation_id": "0edc5a47945bdcf4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "apex",
+  "source_context_snippet": "[![python-url](https://img.shields.io/badge/Python-3.x-red.svg)](https://www.python.org/)",
+  "source_file": null,
+  "source_repo": "cavalleria/cavaface",
+  "source_repo_description": "face recognition training project(pytorch)"
+}

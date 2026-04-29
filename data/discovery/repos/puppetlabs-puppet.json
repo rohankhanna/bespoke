@@ -1,0 +1,248 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "korthout/backport-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "puppetlabs/phoenix-github-actions/.github/workflows/jira.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mend.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mend.yaml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mend.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec_tests.yaml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec_tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "puppetlabs/puppet",
+      "target": "puppetlabs/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "korthout/backport-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "Backport merged pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/jira.yml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "puppetlabs/phoenix-github-actions/.github/workflows/jira.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jira.yml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "Export issue to Jira",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mend.yaml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mend.yaml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mend.yaml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mend.yaml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "Mend Monitor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec_tests.yaml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rspec_tests.yaml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rspec_tests.yaml",
+      "source_repo": "puppetlabs/puppet",
+      "target": "RSpec tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:47:35.075302+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3411
+    },
+    {
+      "path": ".github/workflows/backport.yml",
+      "size": 720
+    },
+    {
+      "path": ".github/workflows/checks.yaml",
+      "size": 963
+    },
+    {
+      "path": ".github/workflows/jira.yml",
+      "size": 393
+    },
+    {
+      "path": ".github/workflows/mend.yaml",
+      "size": 1011
+    },
+    {
+      "path": ".github/workflows/rspec_tests.yaml",
+      "size": 2822
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Server automation framework and application",
+    "fork": false,
+    "full_name": "puppetlabs/puppet",
+    "html_url": "https://github.com/puppetlabs/puppet",
+    "language": "Ruby",
+    "pushed_at": "2026-03-16T11:58:10Z",
+    "stargazers_count": 7845,
+    "topics": [],
+    "updated_at": "2026-04-29T14:06:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "puppetlabs/.github",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Backport merged pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backport.yml",
+      "term": "Backport merged pull request"
+    },
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "term": "Checks"
+    },
+    {
+      "context_snippet": "Export issue to Jira",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/jira.yml",
+      "term": "Export issue to Jira"
+    },
+    {
+      "context_snippet": "Mend Monitor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mend.yaml",
+      "term": "Mend Monitor"
+    },
+    {
+      "context_snippet": "RSpec tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rspec_tests.yaml",
+      "term": "RSpec tests"
+    }
+  ]
+}

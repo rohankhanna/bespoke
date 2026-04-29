@@ -331,6 +331,78 @@
       "source_repo": "adinhodovic/argo-cd-mixin",
       "status": "candidate-context",
       "text": "A set of Grafana dashboards and Prometheus alerts for ArgoCD."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+      "status": "candidate-context",
+      "text": "Libre Hardware Monitor is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of your computer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate-context",
+      "text": "Apache Kafka, Apache Flink and Confluent Platform examples and demos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate-context",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate-context",
+      "text": "Web UI for Jaeger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate-context",
+      "text": "[![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![FOSSA Status][fossa-img]][fossa] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-ui/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jaegertracing/j\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies \ud83d\ude80 by @miguelmota"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencost/opencost",
+      "status": "candidate-context",
+      "text": "Cost monitoring for Kubernetes workloads and cloud costs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate-context",
+      "text": "\ud83d\udd75\ufe0f\u200d\u2640\ufe0f Validate schema, get schema change notifications, validate operations, find breaking changes, look for similar types, schema coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate-context",
+      "text": "[![Inspector](https://user-images.githubusercontent.com/25294569/64163641-50cc9f80-ce4a-11e9-89b0-248c7d12142f.gif)](https://graphql-inspector.com/)"
     }
   ],
   "candidate_glosses": [
@@ -495,6 +567,42 @@
       "source_repo": "adinhodovic/argo-cd-mixin",
       "status": "candidate",
       "text": "A set of Grafana dashboards and Prometheus alerts for ArgoCD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate",
+      "text": "[![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![FOSSA Status][fossa-img]][fossa] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-ui/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jaegertracing/j\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate",
+      "text": "[![Inspector](https://user-images.githubusercontent.com/25294569/64163641-50cc9f80-ce4a-11e9-89b0-248c7d12142f.gif)](https://graphql-inspector.com/)"
     }
   ],
   "candidate_related_terms": [
@@ -724,11 +832,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "adinhodovic/argo-cd-mixin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/cointop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "opencost/opencost"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-inspector"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/federation-rs",
+      "target": "apollographql/federation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/federation-rs",
+      "target": "apollographql/router",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:57:11.701943+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 813
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Contains source code for Apollo Federation's Rust<--> JavaScript interop",
+    "fork": false,
+    "full_name": "apollographql/federation-rs",
+    "html_url": "https://github.com/apollographql/federation-rs",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T20:45:36Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-04-06T16:12:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apollographql/federation",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apollographql/router",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

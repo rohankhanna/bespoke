@@ -1,0 +1,155 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "target": "tier4/awsim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "target": "ros2-foxy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "target": "ros2-galactic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "target": "ros2-humble",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "target": "simulation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "target": "unity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "target": "unity3d",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:44:55.639000+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "High-performance ROS2 solution for Unity3D",
+    "fork": false,
+    "full_name": "RobotecAI/ros2-for-unity",
+    "html_url": "https://github.com/RobotecAI/ros2-for-unity",
+    "language": "C#",
+    "pushed_at": "2025-11-24T08:11:58Z",
+    "stargazers_count": 618,
+    "topics": [
+      "performance",
+      "ros2",
+      "ros2-foxy",
+      "ros2-galactic",
+      "ros2-humble",
+      "simulation",
+      "unity",
+      "unity3d"
+    ],
+    "updated_at": "2026-04-29T21:22:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tier4/awsim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Ros2 For Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "Ros2 For Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2"
+    },
+    {
+      "context_snippet": "Ros2 For Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2-foxy"
+    },
+    {
+      "context_snippet": "Ros2 For Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2-galactic"
+    },
+    {
+      "context_snippet": "Ros2 For Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2-humble"
+    },
+    {
+      "context_snippet": "Ros2 For Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simulation"
+    },
+    {
+      "context_snippet": "Ros2 For Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    },
+    {
+      "context_snippet": "Ros2 For Unity",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity3d"
+    }
+  ]
+}

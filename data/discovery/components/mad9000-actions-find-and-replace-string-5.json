@@ -1,0 +1,12 @@
+{
+  "component": "mad9000/actions-find-and-replace-string@5",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/asf-updates.yml",
+      "source_repo": "localstack/localstack"
+    }
+  ]
+}

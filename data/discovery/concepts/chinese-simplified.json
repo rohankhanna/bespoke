@@ -19,6 +19,18 @@
       "source_repo": "esbatmop/MNBVC",
       "status": "candidate-context",
       "text": "\u4e2d\u6587\u4e92\u8054\u7f51\u4e0a\u6700\u53e4\u8001\u6700\u795e\u79d8(\u6ca1\u6709\u4e4b\u4e00)\u7684[MOP\u91cc\u5c4b\u793e\u533a](http://mnbvc.253874.net/)\u4e8e2023.1.1\u5e84\u91cd\u5ba3\u5e03:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aplmikex/deduplication_mnbvc",
+      "status": "candidate-context",
+      "text": "\u6587\u672c\u53bb\u91cd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aplmikex/deduplication_mnbvc",
+      "status": "candidate-context",
+      "text": "\u672c\u9879\u76ee\u7684\u4e3b\u8981\u76ee\u7684\u662f\uff1a"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "esbatmop/MNBVC",
       "status": "candidate",
       "text": "\u4e2d\u6587\u4e92\u8054\u7f51\u4e0a\u6700\u53e4\u8001\u6700\u795e\u79d8(\u6ca1\u6709\u4e4b\u4e00)\u7684[MOP\u91cc\u5c4b\u793e\u533a](http://mnbvc.253874.net/)\u4e8e2023.1.1\u5e84\u91cd\u5ba3\u5e03:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aplmikex/deduplication_mnbvc",
+      "status": "candidate",
+      "text": "\u672c\u9879\u76ee\u7684\u4e3b\u8981\u76ee\u7684\u662f\uff1a"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "esbatmop/MNBVC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aplmikex/deduplication_mnbvc"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

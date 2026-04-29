@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Your Personalized Dev Env \u2764\ufe0f\ud83d\udc68\u200d\ud83d\udcbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40040825,
+      "status": "candidate",
+      "text": "usage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020678,
+      "status": "candidate",
+      "text": "custom-made"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40019552,
+      "status": "candidate",
+      "text": "made-to-order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40018911,
+      "status": "candidate",
+      "text": "bespoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40017986,
+      "status": "candidate",
+      "text": "tradition"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "custom",
+      "sense_id": "custom#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16033,
+      "status": "candidate",
+      "text": "bespoke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12029,
+      "status": "candidate",
+      "text": "tailored"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11049,
+      "status": "candidate",
+      "text": "tradition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8039,
+      "status": "candidate",
+      "text": "usage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7028,
+      "status": "candidate",
+      "text": "tailor-made"
+    }
+  ],
+  "concept_id": "custom",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "custom",
+  "observation_id": "033ab730657c1305",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "custom",
+  "source_context_snippet": "<div align = \"center\">",
+  "source_file": null,
+  "source_repo": "2KAbhishek/nvim2k",
+  "source_repo_description": "Your Personalized Dev Env \u2764\ufe0f\ud83d\udc68\u200d\ud83d\udcbb"
+}

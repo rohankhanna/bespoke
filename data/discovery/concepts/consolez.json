@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "consolez"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbucher/console",
+      "status": "candidate-context",
+      "text": "This is a modified version of Console 2 for a better experience under Windows Vista/7/8/10 and a better visual rendering."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbucher/console",
+      "status": "candidate-context",
+      "text": "ConsoleZ"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbucher/console",
+      "status": "candidate",
+      "text": "ConsoleZ"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "consolez",
+  "concept_id": "consolez",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cbucher/console"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "consolez",
+      "sense_id": "consolez#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "trustwallet/web3-react-trust-wallet",
+      "target": "@web3-react/types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "trustwallet/web3-react-trust-wallet",
+      "target": "@tsconfig/recommended",
+      "target_type": "component"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "trustwallet/web3-react-trust-wallet"
+}

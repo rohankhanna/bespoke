@@ -124,6 +124,42 @@
       "source_repo": "bitwarden/clients",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "A JavaScript implementation of a web browser without its graphical user interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-guild-org/apollo-angular",
+      "status": "candidate-context",
+      "text": "A fully-featured, production ready caching GraphQL client for Angular and every GraphQL server \ud83c\udf81"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-guild-org/apollo-angular",
+      "status": "candidate-context",
+      "text": "[![Angular](https://user-images.githubusercontent.com/25294569/63955021-b99fca80-ca8c-11e9-9362-1ee8083edd2e.gif)](https://www.apollo-angular.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/directory-connector",
+      "status": "candidate-context",
+      "text": "A tool for syncing a directory (AD, LDAP, Azure, G Suite, Okta) to an organization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/directory-connector",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/bitwarden/directory-connector/workflows/Build/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -186,6 +222,24 @@
       "source_repo": "bitwarden/clients",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-guild-org/apollo-angular",
+      "status": "candidate",
+      "text": "[![Angular](https://user-images.githubusercontent.com/25294569/63955021-b99fca80-ca8c-11e9-9362-1ee8083edd2e.gif)](https://www.apollo-angular.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/directory-connector",
+      "status": "candidate",
+      "text": "![Build](https://github.com/bitwarden/directory-connector/workflows/Build/badge.svg)"
     }
   ],
   "candidate_related_terms": [
@@ -325,11 +379,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "bitwarden/clients"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "capricorn86/happy-dom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "the-guild-org/apollo-angular"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bitwarden/directory-connector"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

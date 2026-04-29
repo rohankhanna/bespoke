@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "yolo3+ocr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "ocr ctc\u8bad\u7ec3\u6570\u636e\u96c6(\u538b\u7f29\u5305\u89e3\u7801:chineseocr)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "ocr ctc\u8bad\u7ec3\u6570\u636e\u96c6(\u538b\u7f29\u5305\u89e3\u7801:chineseocr)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chinese-text-detect",
+      "sense_id": "chinese-text-detect#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chinese-text-detect",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chinese-text-detect",
+  "observation_id": "e7dc3c282e5a4226",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "chinese-text-detect",
+  "source_context_snippet": "ocr ctc\u8bad\u7ec3\u6570\u636e\u96c6(\u538b\u7f29\u5305\u89e3\u7801:chineseocr)",
+  "source_file": null,
+  "source_repo": "chineseocr/chineseocr",
+  "source_repo_description": "yolo3+ocr"
+}

@@ -141,6 +141,30 @@
       "source_repo": "redhat-developer/vscode-java",
       "status": "candidate-context",
       "text": "No Response"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-java-debug",
+      "status": "candidate-context",
+      "text": "Java Debugger for Visual Studio Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-java-debug",
+      "status": "candidate-context",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/vscode-java-test",
+      "status": "candidate-context",
+      "text": "Run and debug Java test cases in Visual Studio Code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-java-test",
+      "status": "candidate-context",
+      "text": "No Response"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "redhat-developer/vscode-java",
+      "status": "candidate",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-java-debug",
+      "status": "candidate",
+      "text": "No Response"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/vscode-java-test",
       "status": "candidate",
       "text": "No Response"
     }
@@ -324,11 +360,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/no-response.yml",
       "source_repo": "redhat-developer/vscode-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "microsoft/vscode-java-debug"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/no-response.yml",
+      "source_repo": "microsoft/vscode-java-test"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

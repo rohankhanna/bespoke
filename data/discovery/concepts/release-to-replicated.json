@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release to Replicated"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "status": "candidate-context",
+      "text": "All Hands AI OpenHands Self-hosted Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "status": "candidate-context",
+      "text": "Release to Replicated"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "status": "candidate",
+      "text": "Release to Replicated"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16843,
+      "status": "candidate",
+      "text": "play"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16602,
+      "status": "candidate",
+      "text": "duplicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16602,
+      "status": "candidate",
+      "text": "repeated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16602,
+      "status": "candidate",
+      "text": "replicate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15668,
+      "status": "candidate",
+      "text": "breed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release to Replicated",
+  "concept_id": "release-to-replicated",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release-replicated.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release to Replicated",
+      "sense_id": "release-to-replicated#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -19,6 +19,30 @@
       "source_repo": "clojure-emacs/cider-nrepl",
       "status": "candidate-context",
       "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexander-yakushev/compliment",
+      "status": "candidate-context",
+      "text": "Clojure completion library that you deserve"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexander-yakushev/compliment",
+      "status": "candidate-context",
+      "text": "Compliment is a fast and smart completion library for Clojure. It can complete"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/cider",
+      "status": "candidate-context",
+      "text": "The Clojure Interactive Development Environment that Rocks for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/cider",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "clojure-emacs/cider-nrepl",
       "status": "candidate",
       "text": "[![CircleCI](https://img.shields.io/circleci/build/github/clojure-emacs/cider-nrepl/master.svg)](https://circleci.com/gh/clojure-emacs/cider-nrepl/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexander-yakushev/compliment",
+      "status": "candidate",
+      "text": "Compliment is a fast and smart completion library for Clojure. It can complete"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/cider",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +127,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "clojure-emacs/cider-nrepl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexander-yakushev/compliment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/cider"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

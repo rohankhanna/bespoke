@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "zksync"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matter-labs/zksync-airbender",
+      "status": "candidate-context",
+      "text": "RISC-V prover system for ZKsync OS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync-airbender",
+      "status": "candidate-context",
+      "text": "[![Logo](zksync-airbender-logo.png)](https://zksync.io/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync-airbender",
+      "status": "candidate",
+      "text": "[![Logo](zksync-airbender-logo.png)](https://zksync.io/)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "zksync",
+  "concept_id": "zksync",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "matter-labs/zksync-airbender"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zksync",
+      "sense_id": "zksync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

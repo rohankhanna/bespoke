@@ -1,0 +1,138 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUDS/VideoRAG",
+      "target": "hkuds/vimo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUDS/VideoRAG",
+      "target": "gusye1234/nano-graphrag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUDS/VideoRAG",
+      "target": "bytedance/ui-tars-desktop",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUDS/VideoRAG",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUDS/VideoRAG",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUDS/VideoRAG",
+      "target": "long-video-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUDS/VideoRAG",
+      "target": "multi-modal-llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUDS/VideoRAG",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:47:40.463733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12926
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[KDD'2026] \"VideoRAG: Chat with Your Videos\"",
+    "fork": false,
+    "full_name": "HKUDS/VideoRAG",
+    "html_url": "https://github.com/HKUDS/VideoRAG",
+    "language": "Python",
+    "pushed_at": "2026-03-18T08:33:07Z",
+    "stargazers_count": 2919,
+    "topics": [
+      "large-language-models",
+      "llms",
+      "long-video-understanding",
+      "multi-modal-llms",
+      "rag",
+      "retrieval-augmented-generation"
+    ],
+    "updated_at": "2026-04-29T14:34:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytedance/ui-tars-desktop",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gusye1234/nano-graphrag",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkuds/vimo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-video-understanding"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal-llms"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-augmented-generation"
+    }
+  ]
+}

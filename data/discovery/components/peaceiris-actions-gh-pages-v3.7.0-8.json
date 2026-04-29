@@ -1,0 +1,12 @@
+{
+  "component": "peaceiris/actions-gh-pages@v3.7.0-8",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/guide.yml",
+      "source_repo": "awestlake87/pyo3-asyncio"
+    }
+  ]
+}

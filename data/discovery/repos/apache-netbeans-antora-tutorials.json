@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:43:33.052858+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache netbeans",
+    "fork": false,
+    "full_name": "apache/netbeans-antora-tutorials",
+    "html_url": "https://github.com/apache/netbeans-antora-tutorials",
+    "language": "Java",
+    "pushed_at": "2025-11-16T21:55:21Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2026-04-09T10:35:00Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

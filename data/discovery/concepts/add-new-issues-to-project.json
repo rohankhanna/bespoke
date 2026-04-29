@@ -19,12 +19,156 @@
       "source_repo": "esp-rs/esp-idf-svc",
       "status": "candidate-context",
       "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/embedded-svc",
+      "status": "candidate-context",
+      "text": "Rust APIs and abstractions for various embedded services (WiFi, Network, Httpd, Logging, etc.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/embedded-svc",
+      "status": "candidate-context",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-idf-hal",
+      "status": "candidate-context",
+      "text": "embedded-hal implementation for Rust on ESP32 and ESP-IDF"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-hal",
+      "status": "candidate-context",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-idf-sys",
+      "status": "candidate-context",
+      "text": "Bindings for ESP-IDF (Espressif's IoT Development Framework)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-sys",
+      "status": "candidate-context",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-idf-template",
+      "status": "candidate-context",
+      "text": "A \"Hello, world!\" template of a Rust binary crate for the ESP-IDF framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-template",
+      "status": "candidate-context",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/training_extensions",
+      "status": "candidate-context",
+      "text": "Train, Evaluate, Optimize, Deploy Computer Vision Models via OpenVINO\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/training_extensions",
+      "status": "candidate-context",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/rust-build",
+      "status": "candidate-context",
+      "text": "Installation tools and workflows for deploying/building Rust fork esp-rs/rust with Xtensa and RISC-V support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/rust-build",
+      "status": "candidate-context",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/espflash",
+      "status": "candidate-context",
+      "text": "Serial flasher utility for Espressif SoCs and modules based on esptool.py"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/espflash",
+      "status": "candidate-context",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/std-training",
+      "status": "candidate-context",
+      "text": "Embedded Rust on Espressif training material."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/std-training",
+      "status": "candidate-context",
+      "text": "Add new issues to project"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "esp-rs/esp-idf-svc",
+      "status": "candidate",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/embedded-svc",
+      "status": "candidate",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-hal",
+      "status": "candidate",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-sys",
+      "status": "candidate",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-template",
+      "status": "candidate",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/training_extensions",
+      "status": "candidate",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/rust-build",
+      "status": "candidate",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/espflash",
+      "status": "candidate",
+      "text": "Add new issues to project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/std-training",
       "status": "candidate",
       "text": "Add new issues to project"
     }
@@ -76,11 +220,59 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/issue_handler.yml",
       "source_repo": "esp-rs/esp-idf-svc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/embedded-svc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/esp-idf-hal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/esp-idf-sys"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/esp-idf-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "open-edge-platform/training_extensions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/rust-build"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/espflash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/std-training"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

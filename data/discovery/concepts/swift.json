@@ -598,6 +598,138 @@
       "source_repo": "GEOSwift/GEOSwift",
       "status": "candidate-context",
       "text": "![GEOSwift](/README-images/GEOSwift.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artsy/eidolon",
+      "status": "candidate-context",
+      "text": "The Artsy Auction Kiosk App."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eidolon",
+      "status": "candidate-context",
+      "text": "Eidolon"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kitura/Kitura",
+      "status": "candidate-context",
+      "text": "A Swift web framework and HTTP server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kitura/Kitura",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scribd/Weaver",
+      "status": "candidate-context",
+      "text": "Dependency Injection framework for Swift (iOS/macOS/Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scribd/Weaver",
+      "status": "candidate-context",
+      "text": "| :exclamation: Deprecation Notice |"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yonaskolb/Genesis",
+      "status": "candidate-context",
+      "text": "Templating, scaffolding and generation tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/Genesis",
+      "status": "candidate-context",
+      "text": "[![SPM](https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=for-the-badge)](https://swift.org/package-manager)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate-context",
+      "text": ":atom:  Atom client for Tabnine - Code Faster with the All-Language AI Assistant for Code Completion, autocomplete JavaScript, Python, TypeScript, PHP, Go, Java, node.js, Ruby, C/C++, HTML/CSS, C#, Rust, SQL, Bash, Kotlin, React, Swift, Scala, Sass, Perl, Objective C, Node JS, Matlab, Haskell, Dart, Angular. https://atom.io/packages/tabnine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/ios",
+      "status": "candidate-context",
+      "text": "Bitwarden mobile apps (Password Manager and Authenticator) for iOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/ios",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GEOSwift/geos",
+      "status": "candidate-context",
+      "text": "GEOS packaging for SPM & CocoaPods"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEOSwift/geos",
+      "status": "candidate-context",
+      "text": "This library is an SPM-compatible repackaging of the source code from [libgeos/geos](https://github.com/libgeos/geos) for use on Apple and Linux systems."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antlr/antlr4",
+      "status": "candidate-context",
+      "text": "ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antlr/antlr4",
+      "status": "candidate-context",
+      "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lausbert/Exermote",
+      "status": "candidate-context",
+      "text": "Using Machine Learning to predict the type of exercise from movement data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lausbert/Exermote",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artsy/eigen",
+      "status": "candidate-context",
+      "text": "The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eigen",
+      "status": "candidate-context",
+      "text": "<a href=\"http://iphone.artsy.net\"><img src =\"docs/screenshots/overview.png\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "status": "candidate-context",
+      "text": "Bazel rules for generating Xcode projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -900,6 +1032,72 @@
       "source_repo": "GEOSwift/GEOSwift",
       "status": "candidate",
       "text": "![GEOSwift](/README-images/GEOSwift.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eidolon",
+      "status": "candidate",
+      "text": "Eidolon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kitura/Kitura",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scribd/Weaver",
+      "status": "candidate",
+      "text": "| :exclamation: Deprecation Notice |"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yonaskolb/Genesis",
+      "status": "candidate",
+      "text": "[![SPM](https://img.shields.io/badge/spm-compatible-brightgreen.svg?style=for-the-badge)](https://swift.org/package-manager)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/ios",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEOSwift/geos",
+      "status": "candidate",
+      "text": "This library is an SPM-compatible repackaging of the source code from [libgeos/geos](https://github.com/libgeos/geos) for use on Apple and Linux systems."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antlr/antlr4",
+      "status": "candidate",
+      "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lausbert/Exermote",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eigen",
+      "status": "candidate",
+      "text": "<a href=\"http://iphone.artsy.net\"><img src =\"docs/screenshots/overview.png\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -1345,11 +1543,113 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "SwiftGen/SwiftGen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "artsy/eidolon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Kitura/Kitura"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "scribd/Weaver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "yonaskolb/Genesis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "swiftlang/swift-llbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bitwarden/ios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/swift.yml",
+      "source_repo": "ggerganov/whisper.spm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "GEOSwift/geos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gluonfield/enchanted"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "antlr/antlr4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Lausbert/Exermote"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "artsy/eigen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

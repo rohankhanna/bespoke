@@ -84,7 +84,7 @@
   "normalized_form": "build-rocm",
   "observation_id": "df63a1e6a6a50a41",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Build ROCm",
   "source_context_snippet": "Build ROCm",
   "source_file": ".github/workflows/build-portable-release-rocm.yml",

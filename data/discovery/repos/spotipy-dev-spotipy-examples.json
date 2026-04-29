@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:39:10.317371+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 646
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83d\udd30 A place to showcase the usage of spotipy",
+    "fork": false,
+    "full_name": "spotipy-dev/spotipy-examples",
+    "html_url": "https://github.com/spotipy-dev/spotipy-examples",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-04-01T12:23:23Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2026-03-01T14:11:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

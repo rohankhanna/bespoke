@@ -1,0 +1,235 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-core.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nuget-release.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nuget-release.yml"
+    },
+    {
+      "component": "alirezanet/publish-nuget@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nuget-release.yml"
+    },
+    {
+      "component": "alirezanet/publish-nuget@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nuget-release.yml"
+    },
+    {
+      "component": "alirezanet/publish-nuget@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nuget-release.yml"
+    },
+    {
+      "component": "alirezanet/publish-nuget@v3.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nuget-release.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "redis-developer/redis-developer-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "redis-developer/redis-om-node",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "redis-developer/redis-om-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "redis-developer/redis-om-spring",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-core.yml",
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nuget-release.yml",
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nuget-release.yml",
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "actions/setup-dotnet@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nuget-release.yml",
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "alirezanet/publish-nuget@v3.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nuget-release.yml",
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "Nuget Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "release-drafter/release-drafter@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "linq",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis/redis-om-dotnet",
+      "target": "redis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:26.043689+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26379
+    },
+    {
+      "path": ".github/workflows/dotnet-core.yml",
+      "size": 330
+    },
+    {
+      "path": ".github/workflows/nuget-release.yml",
+      "size": 1725
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 558
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Object mapping, and more, for Redis and .NET",
+    "fork": false,
+    "full_name": "redis/redis-om-dotnet",
+    "html_url": "https://github.com/redis/redis-om-dotnet",
+    "language": "C#",
+    "pushed_at": "2026-04-21T12:20:30Z",
+    "stargazers_count": 513,
+    "topics": [
+      "dotnet",
+      "linq",
+      "redis"
+    ],
+    "updated_at": "2026-04-21T12:20:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis-developer/redis-developer-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis-developer/redis-om-node",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis-developer/redis-om-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis-developer/redis-om-spring",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Nuget Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nuget-release.yml",
+      "term": "Nuget Release"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linq"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    }
+  ]
+}

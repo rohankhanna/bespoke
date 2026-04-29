@@ -155,7 +155,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aws-cloudformation/cfn-lint",
-      "target": "patmyron/cfn-lint-online",
+      "target": "speshak/vim-cfn",
       "target_type": "repository"
     },
     {
@@ -334,7 +334,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:08:18.884551+00:00",
+  "fetched_at": "2026-04-29T21:58:02.245936+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -346,7 +346,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 5178
+      "size": 5292
     },
     {
       "path": ".github/workflows/cd-pypi.yaml",
@@ -358,7 +358,7 @@
     },
     {
       "path": ".github/workflows/ci-branch.yaml",
-      "size": 2263
+      "size": 2271
     },
     {
       "path": ".github/workflows/ci-pr-data.yaml",
@@ -366,7 +366,7 @@
     },
     {
       "path": ".github/workflows/ci-pr.yaml",
-      "size": 2185
+      "size": 2193
     },
     {
       "path": ".github/workflows/maintenance-v1.yaml",
@@ -382,7 +382,7 @@
     "full_name": "aws-cloudformation/cfn-lint",
     "html_url": "https://github.com/aws-cloudformation/cfn-lint",
     "language": "Python",
-    "pushed_at": "2026-04-23T21:18:28Z",
+    "pushed_at": "2026-04-29T21:43:04Z",
     "stargazers_count": 2610,
     "topics": [
       "aws",
@@ -391,7 +391,7 @@
       "cloudformation",
       "linter"
     ],
-    "updated_at": "2026-04-23T15:04:12Z"
+    "updated_at": "2026-04-29T21:43:09Z"
   },
   "repo_links": [
     {
@@ -411,7 +411,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "patmyron/cfn-lint-online",
+      "full_name": "speshak/vim-cfn",
       "source_file": "README.md"
     }
   ],

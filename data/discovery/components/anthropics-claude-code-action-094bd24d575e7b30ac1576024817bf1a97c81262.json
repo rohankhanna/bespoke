@@ -1,0 +1,37 @@
+{
+  "component": "anthropics/claude-code-action@094bd24d575e7b30ac1576024817bf1a97c81262",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Arize-ai/openinference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "Arize-ai/openinference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "Arize-ai/phoenix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-docs-gap-audit.yml",
+      "source_repo": "Arize-ai/phoenix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-implement-issue.yml",
+      "source_repo": "Arize-ai/phoenix"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-llms-txt.yml",
+      "source_repo": "Arize-ai/phoenix"
+    }
+  ]
+}

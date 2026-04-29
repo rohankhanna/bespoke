@@ -67,6 +67,42 @@
       "source_repo": "datreeio/datree",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MrGemy95/Tensorflow-Project-Template",
+      "status": "candidate-context",
+      "text": "A best practice for tensorflow project template architecture. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrGemy95/Tensorflow-Project-Template",
+      "status": "candidate-context",
+      "text": "A simple and well designed structure is essential for any Deep Learning project, so after a lot of practice and contributing in tensorflow projects here's a tensorflow project template that combines **simplcity**, **best practice for folder structure** and **good OOP design**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/javascript-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "\u2705 A step-by-step complete beginner example/tutorial for building a Todo List App (TodoMVC) from scratch in JavaScript following Test Driven Development (TDD) best practice.  \ud83c\udf31 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/javascript-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate-context",
+      "text": "Python best practices project cookiecutter \ud83c\udf6a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate-context",
+      "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "datreeio/datree",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrGemy95/Tensorflow-Project-Template",
+      "status": "candidate",
+      "text": "A simple and well designed structure is essential for any Deep Learning project, so after a lot of practice and contributing in tensorflow projects here's a tensorflow project template that combines **simplcity**, **best practice for folder structure** and **good OOP design**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/javascript-todo-list-tutorial",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate",
+      "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +190,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "datreeio/datree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/javascript-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

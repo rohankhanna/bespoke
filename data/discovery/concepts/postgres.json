@@ -127,6 +127,30 @@
       "source_repo": "citusdata/citus",
       "status": "candidate-context",
       "text": "| **<br/>The Citus database is 100% open source.<br/><img width=1000/><br/>Learn what's new in the [Citus 13.0 release blog](https://www.citusdata.com/blog/2025/02/06/distribute-postgresql-17-with-citus-13/) and the [Citus Updates page](https://www.citusdata.com/updates/).<br/><\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgsty/pigsty",
+      "status": "candidate-context",
+      "text": "Enterprise-Grade OSS PostgreSQL Distribution with HA, PITR, IaC, Monitor, 12 kernel forks and 460 PG extensions. Best-of-breed products integrated as a platform. Self-host Postgres like a Pro!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgsty/pigsty",
+      "status": "candidate-context",
+      "text": "[![Website: pigsty.io](https://img.shields.io/badge/website-pigsty.io-slategray?style=flat&logo=cilium&logoColor=white)](https://pigsty.io)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hapostgres/pg_auto_failover",
+      "status": "candidate-context",
+      "text": "Postgres extension and service for automated failover and high-availability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hapostgres/pg_auto_failover",
+      "status": "candidate-context",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "citusdata/citus",
       "status": "candidate",
       "text": "| **<br/>The Citus database is 100% open source.<br/><img width=1000/><br/>Learn what's new in the [Citus 13.0 release blog](https://www.citusdata.com/blog/2025/02/06/distribute-postgresql-17-with-citus-13/) and the [Citus Updates page](https://www.citusdata.com/updates/).<br/><\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgsty/pigsty",
+      "status": "candidate",
+      "text": "[![Website: pigsty.io](https://img.shields.io/badge/website-pigsty.io-slategray?style=flat&logo=cilium&logoColor=white)](https://pigsty.io)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hapostgres/pg_auto_failover",
+      "status": "candidate",
+      "text": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)"
     }
   ],
   "candidate_related_terms": [
@@ -298,11 +334,23 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "citusdata/citus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pgsty/pigsty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hapostgres/pg_auto_failover"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "isomorphic-dompurify playgrounds for testing it with different frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Run Tests](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml/badge.svg)](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Run Tests](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml/badge.svg)](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10033264,
+      "status": "candidate",
+      "text": "resort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "holiday resort"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51427,
+      "status": "candidate",
+      "text": "vacation spot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "courses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 51426,
+      "status": "candidate",
+      "text": "courts"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "playgrounds",
+      "sense_id": "playgrounds#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "playgrounds",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "playgrounds",
+  "observation_id": "30beaaf43c6e0c8d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "playgrounds",
+  "source_context_snippet": "[![Run Tests](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml/badge.svg)](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml)",
+  "source_file": null,
+  "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+  "source_repo_description": "isomorphic-dompurify playgrounds for testing it with different frameworks"
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "pre-commit-hooks"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "status": "candidate-context",
+      "text": "Sync pre-commit hook dependencies based on other installed hooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "status": "candidate-context",
+      "text": "sync-pre-commit-deps"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "status": "candidate",
+      "text": "sync-pre-commit-deps"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "pre-commit-hooks",
+  "concept_id": "pre-commit-hooks",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pre-commit/sync-pre-commit-deps"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pre-commit-hooks",
+      "sense_id": "pre-commit-hooks#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

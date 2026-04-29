@@ -1,0 +1,17 @@
+{
+  "component": "crowdin/github-action@0749939f635900a2521aa6aac7a3766642b2dc71",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/android"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml",
+      "source_repo": "bitwarden/android"
+    }
+  ]
+}

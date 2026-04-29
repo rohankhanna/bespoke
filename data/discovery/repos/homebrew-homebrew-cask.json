@@ -1,0 +1,550 @@
+{
+  "components": [
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "Homebrew/actions/cache-homebrew-prefix@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-user-config@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-commit-signing@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-up-closed-prs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-user-config@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-commit-signing@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-try-push@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-user-config@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-commit-signing@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml"
+    },
+    {
+      "component": "Homebrew/actions/remove-disabled-packages@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-try-push@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/cache-homebrew-prefix@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "github/codeql-action/upload-sarif@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Actionlint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/git-user-config@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/setup-commit-signing@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autobump.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Bump casks on schedule or request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-retry.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "CI Retry Failed Jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-up-closed-prs.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-up-closed-prs.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Clean up closed PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/git-user-config@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/setup-commit-signing@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/git-try-push@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Google Fonts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/git-user-config@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/setup-commit-signing@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/remove-disabled-packages@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/git-try-push@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Remove disabled packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scheduled.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled.yml",
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "Scheduled online check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "cask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Homebrew/homebrew-cask",
+      "target": "homebrew",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:39:36.122298+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3874
+    },
+    {
+      "path": ".github/workflows/actionlint.yml",
+      "size": 3443
+    },
+    {
+      "path": ".github/workflows/autobump.yml",
+      "size": 1632
+    },
+    {
+      "path": ".github/workflows/cache.yml",
+      "size": 1117
+    },
+    {
+      "path": ".github/workflows/ci-retry.yml",
+      "size": 2980
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 10349
+    },
+    {
+      "path": ".github/workflows/clean-up-closed-prs.yml",
+      "size": 2112
+    },
+    {
+      "path": ".github/workflows/google-fonts.yml",
+      "size": 3936
+    },
+    {
+      "path": ".github/workflows/remove-disabled-packages.yml",
+      "size": 2669
+    },
+    {
+      "path": ".github/workflows/scheduled.yml",
+      "size": 3480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries",
+    "fork": false,
+    "full_name": "Homebrew/homebrew-cask",
+    "html_url": "https://github.com/Homebrew/homebrew-cask",
+    "language": "Ruby",
+    "pushed_at": "2026-04-29T19:39:06Z",
+    "stargazers_count": 21991,
+    "topics": [
+      "cask",
+      "hacktoberfest",
+      "homebrew"
+    ],
+    "updated_at": "2026-04-29T19:31:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Actionlint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/actionlint.yml",
+      "term": "Actionlint"
+    },
+    {
+      "context_snippet": "Bump casks on schedule or request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/autobump.yml",
+      "term": "Bump casks on schedule or request"
+    },
+    {
+      "context_snippet": "Cache",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache.yml",
+      "term": "Cache"
+    },
+    {
+      "context_snippet": "CI Retry Failed Jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-retry.yml",
+      "term": "CI Retry Failed Jobs"
+    },
+    {
+      "context_snippet": "Clean up closed PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-up-closed-prs.yml",
+      "term": "Clean up closed PRs"
+    },
+    {
+      "context_snippet": "Google Fonts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "term": "Google Fonts"
+    },
+    {
+      "context_snippet": "Remove disabled packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/remove-disabled-packages.yml",
+      "term": "Remove disabled packages"
+    },
+    {
+      "context_snippet": "Scheduled online check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scheduled.yml",
+      "term": "Scheduled online check"
+    },
+    {
+      "context_snippet": "_\u201cTo install, drag this icon\u2026\u201d no more!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cask"
+    },
+    {
+      "context_snippet": "_\u201cTo install, drag this icon\u2026\u201d no more!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "_\u201cTo install, drag this icon\u2026\u201d no more!_",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebrew"
+    }
+  ]
+}

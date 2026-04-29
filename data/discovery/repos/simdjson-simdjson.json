@@ -131,28 +131,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "apache/doris",
+      "target": "dgraph-io/dgraph",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "adamritter/fastgron",
+      "target": "crazyxman/simdjson_php",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "anilmaurya/fast_jsonparser",
+      "target": "eddelbuettel/rcppsimdjson",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "asmod4n/mruby-fast-json",
+      "target": "chompert/simdjson_erlang",
       "target_type": "repository"
     },
     {
@@ -492,7 +492,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T21:00:26.942491+00:00",
+  "fetched_at": "2026-04-29T19:58:54.481364+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -544,8 +544,8 @@
     "full_name": "simdjson/simdjson",
     "html_url": "https://github.com/simdjson/simdjson",
     "language": "C++",
-    "pushed_at": "2026-04-22T17:54:16Z",
-    "stargazers_count": 23681,
+    "pushed_at": "2026-04-29T17:05:45Z",
+    "stargazers_count": 23698,
     "topics": [
       "aarch64",
       "arm64",
@@ -568,27 +568,27 @@
       "vs2019",
       "x64"
     ],
-    "updated_at": "2026-04-23T18:46:29Z"
+    "updated_at": "2026-04-29T18:12:17Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "adamritter/fastgron",
+      "full_name": "chompert/simdjson_erlang",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "anilmaurya/fast_jsonparser",
+      "full_name": "crazyxman/simdjson_php",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "apache/doris",
+      "full_name": "dgraph-io/dgraph",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "asmod4n/mruby-fast-json",
+      "full_name": "eddelbuettel/rcppsimdjson",
       "source_file": "README.md"
     }
   ],

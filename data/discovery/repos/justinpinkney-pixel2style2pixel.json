@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:47:12.058618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 880
+    },
+    {
+      "path": "requirements.txt",
+      "size": 142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official Implementation for \"Encoding in Style: a StyleGAN Encoder for Image-to-Image Translation\"",
+    "fork": true,
+    "full_name": "justinpinkney/pixel2style2pixel",
+    "html_url": "https://github.com/justinpinkney/pixel2style2pixel",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-04-29T20:09:21Z",
+    "stargazers_count": 71,
+    "topics": [],
+    "updated_at": "2026-03-30T19:40:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

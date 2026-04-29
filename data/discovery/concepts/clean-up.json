@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Clean Up"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/github-mgmt",
+      "status": "candidate-context",
+      "text": "Clean Up"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/github-mgmt",
+      "status": "candidate",
+      "text": "Clean Up"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40041687,
+      "status": "candidate",
+      "text": "tidy up"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034781,
+      "status": "candidate",
+      "text": "neaten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033697,
+      "status": "candidate",
+      "text": "square away"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031776,
+      "status": "candidate",
+      "text": "straighten"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031732,
+      "status": "candidate",
+      "text": "straighten out"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Clean Up",
+  "concept_id": "clean-up",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cleanup.yml",
+      "source_repo": "ipfs/github-mgmt"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Clean Up",
+      "sense_id": "clean-up#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

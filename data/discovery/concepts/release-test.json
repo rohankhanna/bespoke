@@ -19,12 +19,30 @@
       "source_repo": "apache/dubbo",
       "status": "candidate-context",
       "text": "Release Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaiNNer-org/chaiNNer",
+      "status": "candidate-context",
+      "text": "A node-based image processing GUI aimed at making chaining image processing tasks easy and customizable. Born as an AI upscaling application, chaiNNer has grown into an extremely flexible and powerful programmatic image processing application."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaiNNer-org/chaiNNer",
+      "status": "candidate-context",
+      "text": "Release Test"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/dubbo",
+      "status": "candidate",
+      "text": "Release Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaiNNer-org/chaiNNer",
       "status": "candidate",
       "text": "Release Test"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": ".github/workflows/release-test.yml",
       "source_repo": "apache/dubbo"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release-test.yml",
+      "source_repo": "chaiNNer-org/chaiNNer"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

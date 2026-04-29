@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Comments (Created)."
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "status": "candidate-context",
+      "text": "Preload Environment Variables with Dotenv into Serverless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "status": "candidate-context",
+      "text": "Issue Comments (Created)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "status": "candidate",
+      "text": "Issue Comments (Created)."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11772,
+      "status": "candidate",
+      "text": "evidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11772,
+      "status": "candidate",
+      "text": "opinion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11772,
+      "status": "candidate",
+      "text": "point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11772,
+      "status": "candidate",
+      "text": "points"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11725,
+      "status": "candidate",
+      "text": "bounce"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Comments (Created).",
+  "concept_id": "issue-comments-created-.",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue_comment-created.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Comments (Created).",
+      "sense_id": "issue-comments-created-.#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

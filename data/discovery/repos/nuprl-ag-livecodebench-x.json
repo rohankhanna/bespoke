@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:53:55.138829+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "nuprl/Ag-LiveCodeBench-X",
+    "html_url": "https://github.com/nuprl/Ag-LiveCodeBench-X",
+    "language": "Python",
+    "pushed_at": "2025-08-07T13:36:52Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-01-10T03:23:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

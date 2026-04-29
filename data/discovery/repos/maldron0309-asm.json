@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yaml"
+    },
+    {
+      "component": "lycheeverse/lychee-action@v1.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "maldron0309/asm",
+      "target": "furkanonder/asm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "maldron0309/asm",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "maldron0309/asm",
+      "target": "lycheeverse/lychee-action@v1.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yaml",
+      "source_repo": "maldron0309/asm",
+      "target": "Link Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:46:48.229039+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6915
+    },
+    {
+      "path": ".github/workflows/link-check.yaml",
+      "size": 672
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Learning assembly for Linux x86_64 \ud55c\uad6d\uc5b4 \ubc88\uc5ed \ud3ec\ud06c",
+    "fork": true,
+    "full_name": "maldron0309/asm",
+    "html_url": "https://github.com/maldron0309/asm",
+    "language": "Assembly",
+    "pushed_at": "2024-09-03T05:13:13Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2025-07-25T02:15:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "furkanonder/asm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Link Check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/link-check.yaml",
+      "term": "Link Check"
+    }
+  ]
+}

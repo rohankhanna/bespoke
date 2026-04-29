@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:42:56.472149+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9419
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 7903
+    },
+    {
+      "path": "requirements.txt",
+      "size": 157
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "release/0.11",
+    "description": null,
+    "fork": false,
+    "full_name": "amd/Quark",
+    "html_url": "https://github.com/amd/Quark",
+    "language": "Python",
+    "pushed_at": "2026-02-19T16:55:07Z",
+    "stargazers_count": 130,
+    "topics": [],
+    "updated_at": "2026-04-27T03:56:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

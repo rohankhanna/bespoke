@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd8d Source code for developer.konghq.com website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Scheduled Broken Links Checker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Scheduled Broken Links Checker"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27721,
+      "status": "candidate",
+      "text": "hold"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27687,
+      "status": "candidate",
+      "text": "crossed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27587,
+      "status": "candidate",
+      "text": "measure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27487,
+      "status": "candidate",
+      "text": "guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27487,
+      "status": "candidate",
+      "text": "hang"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Scheduled Broken Links Checker",
+      "sense_id": "scheduled-broken-links-checker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scheduled-broken-links-checker",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scheduled-broken-links-checker",
+  "observation_id": "cc4e41fda6a653a2",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Scheduled Broken Links Checker",
+  "source_context_snippet": "Scheduled Broken Links Checker",
+  "source_file": ".github/workflows/check-links-scheduled.yml",
+  "source_repo": "Kong/developer.konghq.com",
+  "source_repo_description": "\ud83e\udd8d Source code for developer.konghq.com website."
+}

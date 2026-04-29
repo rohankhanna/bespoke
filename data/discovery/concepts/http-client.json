@@ -115,6 +115,66 @@
       "source_repo": "node-fetch/node-fetch",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axios/axios",
+      "status": "candidate-context",
+      "text": "Promise based HTTP client for the browser and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axios/axios",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">\ud83d\udc8e Platinum sponsors <br /></h3>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/got",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 Human-friendly and powerful HTTP request library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/got",
+      "status": "candidate-context",
+      "text": "got \u2014 Human-friendly and powerful HTTP request library for Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate-context",
+      "text": "Goal: Make it easy to place HTTPS Requests from C++, leveraging Bazel, CPR, and CURL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lquixada/cross-fetch",
+      "status": "candidate-context",
+      "text": "Universal WHATWG Fetch API for Node, Browsers and React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lquixada/cross-fetch",
+      "status": "candidate-context",
+      "text": "cross-fetch<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate-context",
+      "text": "Plugin-driven, extensible HTTP client toolkit for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate-context",
+      "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +231,36 @@
       "source_repo": "node-fetch/node-fetch",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axios/axios",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">\ud83d\udc8e Platinum sponsors <br /></h3>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/got",
+      "status": "candidate",
+      "text": "got \u2014 Human-friendly and powerful HTTP request library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lquixada/cross-fetch",
+      "status": "candidate",
+      "text": "cross-fetch<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate",
+      "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
     }
   ],
   "candidate_related_terms": [],
@@ -232,11 +322,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "node-fetch/node-fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "axios/axios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/got"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lquixada/cross-fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "h2non/gentleman"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

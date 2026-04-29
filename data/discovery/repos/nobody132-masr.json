@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nobody132/masr",
+      "target": "chinese-speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nobody132/masr",
+      "target": "mandarin-chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nobody132/masr",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nobody132/masr",
+      "target": "speech-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:07.108014+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 921
+    },
+    {
+      "path": "requirements.txt",
+      "size": 26
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u4e2d\u6587\u8bed\u97f3\u8bc6\u522b; Mandarin Automatic Speech Recognition;",
+    "fork": false,
+    "full_name": "nobody132/masr",
+    "html_url": "https://github.com/nobody132/masr",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:15:30Z",
+    "stargazers_count": 1971,
+    "topics": [
+      "chinese-speech-recognition",
+      "mandarin-chinese",
+      "pytorch",
+      "speech-recognition"
+    ],
+    "updated_at": "2026-04-29T12:15:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**MASR**\u662f\u4e00\u4e2a\u57fa\u4e8e**\u7aef\u5230\u7aef\u7684\u6df1\u5ea6\u795e\u7ecf\u7f51\u7edc**\u7684**\u4e2d\u6587\u666e\u901a\u8bdd\u8bed\u97f3\u8bc6\u522b**\u9879\u76ee\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-speech-recognition"
+    },
+    {
+      "context_snippet": "**MASR**\u662f\u4e00\u4e2a\u57fa\u4e8e**\u7aef\u5230\u7aef\u7684\u6df1\u5ea6\u795e\u7ecf\u7f51\u7edc**\u7684**\u4e2d\u6587\u666e\u901a\u8bdd\u8bed\u97f3\u8bc6\u522b**\u9879\u76ee\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mandarin-chinese"
+    },
+    {
+      "context_snippet": "**MASR**\u662f\u4e00\u4e2a\u57fa\u4e8e**\u7aef\u5230\u7aef\u7684\u6df1\u5ea6\u795e\u7ecf\u7f51\u7edc**\u7684**\u4e2d\u6587\u666e\u901a\u8bdd\u8bed\u97f3\u8bc6\u522b**\u9879\u76ee\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "**MASR**\u662f\u4e00\u4e2a\u57fa\u4e8e**\u7aef\u5230\u7aef\u7684\u6df1\u5ea6\u795e\u7ecf\u7f51\u7edc**\u7684**\u4e2d\u6587\u666e\u901a\u8bdd\u8bed\u97f3\u8bc6\u522b**\u9879\u76ee\u3002",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    }
+  ]
+}

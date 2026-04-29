@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:50:10.775346+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8500
+    },
+    {
+      "path": "requirements.txt",
+      "size": 90
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Muon is Scalable for LLM Training",
+    "fork": false,
+    "full_name": "MoonshotAI/Moonlight",
+    "html_url": "https://github.com/MoonshotAI/Moonlight",
+    "language": null,
+    "pushed_at": "2025-08-03T06:31:18Z",
+    "stargazers_count": 1468,
+    "topics": [],
+    "updated_at": "2026-04-29T11:30:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

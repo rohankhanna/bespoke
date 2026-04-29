@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mmyolo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wkpark/uddetailer",
+      "status": "candidate-context",
+      "text": "\u03bc DDetailer, DDetailer fork to support DDetailer as an extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkpark/uddetailer",
+      "status": "candidate-context",
+      "text": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkpark/uddetailer",
+      "status": "candidate",
+      "text": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mmyolo",
+  "concept_id": "mmyolo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "wkpark/uddetailer"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mmyolo",
+      "sense_id": "mmyolo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

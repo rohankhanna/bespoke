@@ -211,6 +211,78 @@
       "source_repo": "celery/kombu",
       "status": "candidate-context",
       "text": "========================================"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "status": "candidate-context",
+      "text": "A starter project for working with Redis and C#/ASP.NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "status": "candidate-context",
+      "text": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-developer/redis-starter-go",
+      "status": "candidate-context",
+      "text": "A starter project for working with Redis and Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-go",
+      "status": "candidate-context",
+      "text": "This is a [Redis](https://redis.io/) starter template for Go:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-developer/redis-starter-java",
+      "status": "candidate-context",
+      "text": "A starter project for working with Redis and Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-java",
+      "status": "candidate-context",
+      "text": "This is a Redis starter template for Java and Spring Boot 4."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-om-dotnet",
+      "status": "candidate-context",
+      "text": "Object mapping, and more, for Redis and .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-dotnet",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-om-spring",
+      "status": "candidate-context",
+      "text": "Spring Data Redis extensions for better search, documents models, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-spring",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gomodule/redigo",
+      "status": "candidate-context",
+      "text": "Go client for Redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gomodule/redigo",
+      "status": "candidate-context",
+      "text": "module github.com/gomodule/redigo go 1.17 require github.com/stretchr/testify v1.8.4 require ( github.com/davecgh/go-spew v1.1.1 // indirect github.com/pmezard/go-difflib v1.0.0 // indirect gopkg.in/yaml.v3 v3.0.1 // indirect ) retract ( v2.0.0+incompatible // Old development ve\u2026"
     }
   ],
   "candidate_glosses": [
@@ -315,6 +387,42 @@
       "source_repo": "celery/kombu",
       "status": "candidate",
       "text": "========================================"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "status": "candidate",
+      "text": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-go",
+      "status": "candidate",
+      "text": "This is a [Redis](https://redis.io/) starter template for Go:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-java",
+      "status": "candidate",
+      "text": "This is a Redis starter template for Java and Spring Boot 4."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-dotnet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-spring",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gomodule/redigo",
+      "status": "candidate",
+      "text": "module github.com/gomodule/redigo go 1.17 require github.com/stretchr/testify v1.8.4 require ( github.com/davecgh/go-spew v1.1.1 // indirect github.com/pmezard/go-difflib v1.0.0 // indirect gopkg.in/yaml.v3 v3.0.1 // indirect ) retract ( v2.0.0+incompatible // Old development ve\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -514,11 +622,71 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "celery/kombu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gobackup/gobackup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-spring"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gomodule/redigo"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

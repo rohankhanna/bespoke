@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "Plone Addon CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plone/cookiecutter-plone",
+      "status": "candidate-context",
+      "text": "Collection of cookiecutter templates for Plone"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/cookiecutter-plone",
+      "status": "candidate-context",
+      "text": "Plone Addon CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/cookiecutter-plone",
+      "status": "candidate",
+      "text": "Plone Addon CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15274,
+      "status": "candidate",
+      "text": "ion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "aire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15264,
+      "status": "candidate",
+      "text": "subscript"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Plone Addon CI",
+  "concept_id": "plone-addon-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/plone_addon.yml",
+      "source_repo": "plone/cookiecutter-plone"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Plone Addon CI",
+      "sense_id": "plone-addon-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

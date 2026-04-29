@@ -1,0 +1,383 @@
+{
+  "components": [
+    {
+      "component": "webextension-toolbox",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "fregante/daily-version-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "fregante/release-with-changelog@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "handtrix/webextension-toolbox",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "webextension-toolbox",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "Build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "fregante/daily-version-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "fregante/release-with-changelog@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "browser-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "chrome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "chrome-extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "extensions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "firefox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "firefox-addon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "github",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "hack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "news",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "newsfeed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "opera",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "webextension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "target": "webextensions",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:37:30.228570+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3712
+    },
+    {
+      "path": "package.json",
+      "size": 449
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 345
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "This browser extension enables you to filter the GitHub news feeds based on different event types.",
+    "fork": false,
+    "full_name": "gautamkrishnar/refined-github-feeds",
+    "html_url": "https://github.com/gautamkrishnar/refined-github-feeds",
+    "language": "JavaScript",
+    "pushed_at": "2021-10-19T12:53:02Z",
+    "stargazers_count": 66,
+    "topics": [
+      "browser",
+      "browser-extension",
+      "chrome",
+      "chrome-extension",
+      "edge",
+      "extensions",
+      "firefox",
+      "firefox-addon",
+      "github",
+      "hack",
+      "hacktoberfest",
+      "news",
+      "newsfeed",
+      "opera",
+      "webextension",
+      "webextensions"
+    ],
+    "updated_at": "2025-07-16T06:21:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "handtrix/webextension-toolbox",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build and test"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "browser-extension"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-extension"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extensions"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefox-addon"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hack"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "news"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "newsfeed"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opera"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webextension"
+    },
+    {
+      "context_snippet": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webextensions"
+    }
+  ]
+}

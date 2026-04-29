@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:46:08.353419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1771
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MoeGoe Android Application by calling Azure function API",
+    "fork": false,
+    "full_name": "fumiama/MoeGoe-Android",
+    "html_url": "https://github.com/fumiama/MoeGoe-Android",
+    "language": "Kotlin",
+    "pushed_at": "2022-08-20T07:18:31Z",
+    "stargazers_count": 57,
+    "topics": [],
+    "updated_at": "2025-12-01T16:07:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

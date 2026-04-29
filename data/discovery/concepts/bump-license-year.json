@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump license year"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "status": "candidate-context",
+      "text": "Additional Checkstyle checks, that could be added as extension to EclipseCS plugin and maven-checkstyle-plugin, Sonar checkstyle plugin, extension for CheckStyle IDEA plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "status": "candidate-context",
+      "text": "\"Bump license year\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "status": "candidate",
+      "text": "\"Bump license year\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18818,
+      "status": "candidate",
+      "text": "displace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18818,
+      "status": "candidate",
+      "text": "hit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18818,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18818,
+      "status": "candidate",
+      "text": "raise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18818,
+      "status": "candidate",
+      "text": "ram"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump license year",
+  "concept_id": "bump-license-year",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/bump-license-year.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump license year",
+      "sense_id": "bump-license-year#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

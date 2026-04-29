@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-qemu-action@v4",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -342,6 +342,71 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release_draft.yml",
       "source_repo": "StackExchange/dnscontrol"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/java-spiffe-helper-ci.yaml",
+      "source_repo": "spiffe/java-spiffe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_build.yml",
+      "source_repo": "spiffe/java-spiffe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-push-docker-image.yml",
+      "source_repo": "php/pie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "operator-framework/operator-lifecycle-manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "python-websockets/websockets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_repo": "mozilla-ai/any-llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "PyO3/setuptools-rust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ipfs/ipfs-check"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/core.yml",
+      "source_repo": "rocker-org/rocker-versioned2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/devel.yml",
+      "source_repo": "rocker-org/rocker-versioned2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ultralytics/yolov3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ultralytics/yolov5"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker_image.yml",
+      "source_repo": "esp-rs/std-training"
     }
   ]
 }

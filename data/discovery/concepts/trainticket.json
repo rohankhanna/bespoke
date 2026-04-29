@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "trainticket"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chineseocr/chineseocr",
+      "status": "candidate-context",
+      "text": "yolo3+ocr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chineseocr/chineseocr",
+      "status": "candidate-context",
+      "text": "ocr ctc\u8bad\u7ec3\u6570\u636e\u96c6(\u538b\u7f29\u5305\u89e3\u7801:chineseocr)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chineseocr/chineseocr",
+      "status": "candidate",
+      "text": "ocr ctc\u8bad\u7ec3\u6570\u636e\u96c6(\u538b\u7f29\u5305\u89e3\u7801:chineseocr)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "trainticket",
+  "concept_id": "trainticket",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chineseocr/chineseocr"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trainticket",
+      "sense_id": "trainticket#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

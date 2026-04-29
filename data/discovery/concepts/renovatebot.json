@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Renovatebot"
+    "Renovatebot",
+    "renovatebot"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "kubecfg/kubecfg",
       "status": "candidate-context",
       "text": "Renovatebot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "status": "candidate-context",
+      "text": "Maintainable configuration files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "status": "candidate-context",
+      "text": "renovatebot"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "kubecfg/kubecfg",
       "status": "candidate",
       "text": "Renovatebot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "status": "candidate",
+      "text": "renovatebot"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +59,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/renovate.yml",
       "source_repo": "kubecfg/kubecfg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/renovatebot.yml",
+      "source_repo": "dhall-lang/dhall-haskell"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

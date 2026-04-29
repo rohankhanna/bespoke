@@ -43,6 +43,66 @@
       "source_repo": "serverless/serverless",
       "status": "candidate-context",
       "text": "[![Serverless Framework AWS Lambda AWS DynamoDB AWS API Gateway](https://github.com/serverless/serverless/assets/2752551/66a8c6a9-bc4a-4116-b139-90c12963337e)](https://serverless.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "status": "candidate-context",
+      "text": "Preload Environment Variables with Dotenv into Serverless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/neverendingqs/serverless-dotenv-plugin/workflows/CI/badge.svg)](https://github.com/neverendingqs/serverless-dotenv-plugin/actions?query=workflow%3ACI+branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "middyjs/middy",
+      "status": "candidate-context",
+      "text": "\ud83d\udef5 The stylish Node.js middleware engine for AWS Lambda \ud83d\udef5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "middyjs/middy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serverless-operations/serverless-step-functions",
+      "status": "candidate-context",
+      "text": "AWS Step Functions plugin for Serverless Framework \u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless-operations/serverless-step-functions",
+      "status": "candidate-context",
+      "text": "![CI](https://github.com/serverless-operations/serverless-step-functions/actions/workflows/config.yml/badge.svg) [![npm version](https://badge.fury.io/js/serverless-step-functions.svg)](https://badge.fury.io/js/serverless-step-functions) [![codecov](https://codecov.io/gh/serverl\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serverless/aws-ai-stack",
+      "status": "candidate-context",
+      "text": "AWS AI Stack \u2013 A ready-to-use, full-stack boilerplate project for building serverless AI applications on AWS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/aws-ai-stack",
+      "status": "candidate-context",
+      "text": "[![AWS AI Stack](https://github.com/user-attachments/assets/0550b6d6-5b97-4549-92a0-9c919d8e0b45)](https://awsaistack.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serverless/containers",
+      "status": "candidate-context",
+      "text": "A rich developer experience for deploying containers to AWS Lambda and AWS ECS Fargate \u2013 without rearchitecting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/containers",
+      "status": "candidate-context",
+      "text": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +123,36 @@
       "source_repo": "serverless/serverless",
       "status": "candidate",
       "text": "[![Serverless Framework AWS Lambda AWS DynamoDB AWS API Gateway](https://github.com/serverless/serverless/assets/2752551/66a8c6a9-bc4a-4116-b139-90c12963337e)](https://serverless.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/neverendingqs/serverless-dotenv-plugin/workflows/CI/badge.svg)](https://github.com/neverendingqs/serverless-dotenv-plugin/actions?query=workflow%3ACI+branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "middyjs/middy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless-operations/serverless-step-functions",
+      "status": "candidate",
+      "text": "![CI](https://github.com/serverless-operations/serverless-step-functions/actions/workflows/config.yml/badge.svg) [![npm version](https://badge.fury.io/js/serverless-step-functions.svg)](https://badge.fury.io/js/serverless-step-functions) [![codecov](https://codecov.io/gh/serverl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/aws-ai-stack",
+      "status": "candidate",
+      "text": "[![AWS AI Stack](https://github.com/user-attachments/assets/0550b6d6-5b97-4549-92a0-9c919d8e0b45)](https://awsaistack.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless/containers",
+      "status": "candidate",
+      "text": "[![Serverless Container Framework](https://github.com/user-attachments/assets/38751c4c-3632-4be2-b15f-d92ace24bd9e)](https://serverless.com/containers/docs)"
     }
   ],
   "candidate_related_terms": [],
@@ -100,11 +190,41 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "serverless/serverless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "neverendingqs/serverless-dotenv-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "middyjs/middy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "serverless-operations/serverless-step-functions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "serverless/aws-ai-stack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "serverless/containers"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

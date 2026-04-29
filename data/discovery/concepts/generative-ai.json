@@ -247,6 +247,66 @@
       "source_repo": "a2aproject/a2a-python",
       "status": "candidate-context",
       "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f Build multimodal AI applications with cloud-native stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "<a href=\"https://pypi.org/project/jina/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/jina?label=Release&style=flat-square\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate-context",
+      "text": "Run generative AI models in sophgo BM1684X/BM1688"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BAAI-Agents/Cradle",
+      "status": "candidate-context",
+      "text": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BAAI-Agents/Cradle",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/distrifuser",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 Highlight] DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/distrifuser",
+      "status": "candidate-context",
+      "text": "**[Dec 1, 2024]** DistriFusion is integrated in NVIDIA's [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/blob/main/examples/sdxl/README.md) for distributed inference on high-resolution image generation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "status": "candidate-context",
+      "text": "A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, Qwen Image, Hunyuan Video, LTX  Video and Flux."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "status": "candidate-context",
+      "text": "-----"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +429,36 @@
       "source_repo": "a2aproject/a2a-python",
       "status": "candidate",
       "text": "[![License](https://img.shields.io/badge/License-Apache_2.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate",
+      "text": "<a href=\"https://pypi.org/project/jina/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/jina?label=Release&style=flat-square\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BAAI-Agents/Cradle",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/distrifuser",
+      "status": "candidate",
+      "text": "**[Dec 1, 2024]** DistriFusion is integrated in NVIDIA's [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/blob/main/examples/sdxl/README.md) for distributed inference on high-resolution image generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "status": "candidate",
+      "text": "-----"
     }
   ],
   "candidate_related_terms": [],
@@ -556,11 +646,65 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sophgo/LLM-TPU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "BAAI-Agents/Cradle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/distrifuser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "deepbeepmeep/Wan2GP"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

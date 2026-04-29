@@ -2,7 +2,8 @@
   "aliases": [
     "Run Tests",
     "Run tests",
-    "run tests"
+    "run tests",
+    "run-tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -519,6 +520,150 @@
       "source_repo": "citusdata/citus",
       "status": "candidate-context",
       "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin to improve the default vim.ui interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/vim-maktaba",
+      "status": "candidate-context",
+      "text": "Consistent Vimscript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/vim-maktaba",
+      "status": "candidate-context",
+      "text": "run-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipython/ipython",
+      "status": "candidate-context",
+      "text": "Official repository for IPython itself. Other repos in the IPython organization contain things like the website, documentation builds, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipython/ipython",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "js-temporal/temporal-polyfill",
+      "status": "candidate-context",
+      "text": "Polyfill for Temporal (under construction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "js-temporal/temporal-polyfill",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-iterator-includes",
+      "status": "candidate-context",
+      "text": "Array.prototype.includes but for iterators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-iterator-includes",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmderdev/cmder",
+      "status": "candidate-context",
+      "text": "Lovely console emulator package for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmderdev/cmder",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-websockets/websockets",
+      "status": "candidate-context",
+      "text": "Library for building WebSocket servers and clients in Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-websockets/websockets",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ronf/asyncssh",
+      "status": "candidate-context",
+      "text": "AsyncSSH is a Python package which provides an asynchronous client and server implementation of the SSHv2 protocol on top of the Python asyncio framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ronf/asyncssh",
+      "status": "candidate-context",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodists/nodist",
+      "status": "candidate-context",
+      "text": "Natural node.js and npm version manager for windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodists/nodist",
+      "status": "candidate-context",
+      "text": "run-tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hapostgres/pg_auto_failover",
+      "status": "candidate-context",
+      "text": "Postgres extension and service for automated failover and high-availability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hapostgres/pg_auto_failover",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "status": "candidate-context",
+      "text": "isomorphic-dompurify playgrounds for testing it with different frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "status": "candidate-context",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/torchsde",
+      "status": "candidate-context",
+      "text": "Differentiable SDE solvers with GPU support and efficient sensitivity analysis. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/torchsde",
+      "status": "candidate-context",
+      "text": "Run tests"
     }
   ],
   "candidate_glosses": [
@@ -779,6 +924,78 @@
       "source_repo": "citusdata/citus",
       "status": "candidate",
       "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/vim-maktaba",
+      "status": "candidate",
+      "text": "run-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipython/ipython",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "js-temporal/temporal-polyfill",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-iterator-includes",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmderdev/cmder",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-websockets/websockets",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ronf/asyncssh",
+      "status": "candidate",
+      "text": "Run tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodists/nodist",
+      "status": "candidate",
+      "text": "run-tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hapostgres/pg_auto_failover",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "status": "candidate",
+      "text": "Run Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/torchsde",
+      "status": "candidate",
+      "text": "Run tests"
     }
   ],
   "candidate_related_terms": [
@@ -1140,11 +1357,101 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/run_tests.yml",
       "source_repo": "citusdata/citus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "stevearc/dressing.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-maktaba"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ipython/ipython"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "js-temporal/temporal-polyfill"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tc39/proposal-iterator-includes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "cmderdev/cmder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "python-websockets/websockets"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "ronf/asyncssh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "hapostgres/pg_auto_failover"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "google-research/torchsde"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "georust/geo"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

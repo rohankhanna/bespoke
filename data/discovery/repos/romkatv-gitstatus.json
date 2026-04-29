@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/gitstatus",
+      "target": "romkatv/libgit2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/gitstatus",
+      "target": "google/pprof",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "romkatv/gitstatus",
+      "target": "bash",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:53:09.550204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26103
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Git status for Bash and Zsh prompt",
+    "fork": false,
+    "full_name": "romkatv/gitstatus",
+    "html_url": "https://github.com/romkatv/gitstatus",
+    "language": "C++",
+    "pushed_at": "2026-03-14T06:06:29Z",
+    "stargazers_count": 1806,
+    "topics": [
+      "bash",
+      "git",
+      "zsh"
+    ],
+    "updated_at": "2026-04-26T18:24:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/pprof",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "romkatv/libgit2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- **THE PROJECT HAS VERY LIMITED SUPPORT**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bash"
+    }
+  ]
+}

@@ -1,0 +1,137 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "rhysd/action-setup-vim@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@nightly",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "noib3/nvim-oxi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "noib3/nvim-oxi",
+      "target": "rhysd/action-setup-vim@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "noib3/nvim-oxi",
+      "target": "dtolnay/rust-toolchain@nightly",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "noib3/nvim-oxi",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "noib3/nvim-oxi",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "noib3/nvim-oxi",
+      "target": "rust-bindings",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:41:47.066800+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3569
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2825
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1836
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":link: Rust bindings to all things Neovim",
+    "fork": false,
+    "full_name": "noib3/nvim-oxi",
+    "html_url": "https://github.com/noib3/nvim-oxi",
+    "language": "Rust",
+    "pushed_at": "2026-04-06T10:01:24Z",
+    "stargazers_count": 1116,
+    "topics": [
+      "neovim",
+      "rust",
+      "rust-bindings"
+    ],
+    "updated_at": "2026-04-28T22:17:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Latest version]](https://crates.io/crates/nvim-oxi)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[![Latest version]](https://crates.io/crates/nvim-oxi)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Latest version]](https://crates.io/crates/nvim-oxi)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-bindings"
+    }
+  ]
+}

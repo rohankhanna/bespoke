@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-deploy.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-deploy.yml"
+    },
+    {
+      "component": "easingthemes/ssh-deploy@v5.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "3d12/rookognition",
+      "target": "pallets/flask",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-deploy.yml",
+      "source_repo": "3d12/rookognition",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-deploy.yml",
+      "source_repo": "3d12/rookognition",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-deploy.yml",
+      "source_repo": "3d12/rookognition",
+      "target": "easingthemes/ssh-deploy@v5.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "3d12/rookognition",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml",
+      "source_repo": "3d12/rookognition",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:48.855358+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 345
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 524
+    },
+    {
+      "path": ".github/workflows/python-deploy.yml",
+      "size": 1961
+    },
+    {
+      "path": ".github/workflows/python-tests.yml",
+      "size": 636
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A web-based chess vision exercise",
+    "fork": false,
+    "full_name": "3d12/rookognition",
+    "html_url": "https://github.com/3d12/rookognition",
+    "language": "Python",
+    "pushed_at": "2025-01-11T22:30:46Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-12-29T16:49:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pallets/flask",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

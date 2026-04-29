@@ -1,0 +1,12 @@
+{
+  "component": "actions/dependency-review-action@0efb1d1d84fc9633afcdaad14c485cbbc90ef46c",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint"
+    }
+  ]
+}

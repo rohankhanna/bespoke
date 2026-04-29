@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test TurnkeyML on Azure GPUs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/turnkeyml",
+      "status": "candidate-context",
+      "text": "No-code CLI designed for accelerating ONNX workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/turnkeyml",
+      "status": "candidate-context",
+      "text": "Test TurnkeyML on Azure GPUs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/turnkeyml",
+      "status": "candidate",
+      "text": "Test TurnkeyML on Azure GPUs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12501,
+      "status": "candidate",
+      "text": "bluest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12501,
+      "status": "candidate",
+      "text": "color"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12501,
+      "status": "candidate",
+      "text": "colour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12260,
+      "status": "candidate",
+      "text": "blue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12260,
+      "status": "candidate",
+      "text": "haw"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test TurnkeyML on Azure GPUs",
+  "concept_id": "test-turnkeyml-on-azure-gpus",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test_gpu_turnkey.yml",
+      "source_repo": "onnx/turnkeyml"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test TurnkeyML on Azure GPUs",
+      "sense_id": "test-turnkeyml-on-azure-gpus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

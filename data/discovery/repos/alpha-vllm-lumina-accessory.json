@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/Lumina-Accessory",
+      "target": "chinchyi/ipictures",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/Lumina-Accessory",
+      "target": "yuanshi9815/ominicontrol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Alpha-VLLM/Lumina-Accessory",
+      "target": "lzyhha/visualcloze",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:48:33.984171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7091
+    },
+    {
+      "path": "requirements.txt",
+      "size": 112
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Alpha-VLLM/Lumina-Accessory",
+    "html_url": "https://github.com/Alpha-VLLM/Lumina-Accessory",
+    "language": "Python",
+    "pushed_at": "2025-04-25T08:39:04Z",
+    "stargazers_count": 116,
+    "topics": [],
+    "updated_at": "2026-04-19T18:02:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chinchyi/ipictures",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lzyhha/visualcloze",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuanshi9815/ominicontrol",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

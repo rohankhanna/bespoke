@@ -175,6 +175,42 @@
       "source_repo": "aspect-build/rules_esbuild",
       "status": "candidate-context",
       "text": "This is a Bazel rule which wraps the esbuild CLI."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VirtusLab/bazel-steward",
+      "status": "candidate-context",
+      "text": "A bot to keep Bazel dependencies up to date"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VirtusLab/bazel-steward",
+      "status": "candidate-context",
+      "text": "<!--suppress HtmlDeprecatedAttribute -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "status": "candidate-context",
+      "text": "Bazel rules for generating Xcode projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grailbio/rules_r",
+      "status": "candidate-context",
+      "text": "R rules for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grailbio/rules_r",
+      "status": "candidate-context",
+      "text": "- [Overview](#overview)"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +297,24 @@
       "source_repo": "aspect-build/rules_esbuild",
       "status": "candidate",
       "text": "This is a Bazel rule which wraps the esbuild CLI."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VirtusLab/bazel-steward",
+      "status": "candidate",
+      "text": "<!--suppress HtmlDeprecatedAttribute -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grailbio/rules_r",
+      "status": "candidate",
+      "text": "- [Overview](#overview)"
     }
   ],
   "candidate_related_terms": [],
@@ -364,11 +418,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "aspect-build/rules_esbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "VirtusLab/bazel-steward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "grailbio/rules_r"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

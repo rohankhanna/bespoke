@@ -32,6 +32,18 @@
       "source_repo": "tensorflow/tensorflow",
       "status": "candidate-context",
       "text": "Reusable Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kong-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes Operator for Kong Gateways"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong-operator",
+      "status": "candidate-context",
+      "text": "Reusable build"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +58,12 @@
       "source_repo": "tensorflow/tensorflow",
       "status": "candidate",
       "text": "Reusable Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong-operator",
+      "status": "candidate",
+      "text": "Reusable build"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +119,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/build-reusable.yml",
       "source_repo": "tensorflow/tensorflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "gentoo/guru",
       "status": "candidate-context",
       "text": "pkgcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microcai/gentoo-zh",
+      "status": "candidate-context",
+      "text": "Overlay for Gentoo Users."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microcai/gentoo-zh",
+      "status": "candidate-context",
+      "text": "pkgcheck"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gentoo/guru",
+      "status": "candidate",
+      "text": "pkgcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microcai/gentoo-zh",
       "status": "candidate",
       "text": "pkgcheck"
     }
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/pkgcheck.yml",
       "source_repo": "gentoo/guru"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pkgcheck.yml",
+      "source_repo": "microcai/gentoo-zh"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

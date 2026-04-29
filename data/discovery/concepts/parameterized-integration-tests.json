@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Parameterized Integration Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate-context",
+      "text": "Java SDK for building Kubernetes Operators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate-context",
+      "text": "Parameterized Integration Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate",
+      "text": "Parameterized Integration Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25645,
+      "status": "candidate",
+      "text": "battleship"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22294,
+      "status": "candidate",
+      "text": "regression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10163,
+      "status": "candidate",
+      "text": "algebraic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10163,
+      "status": "candidate",
+      "text": "combinatory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "approximated"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Parameterized Integration Tests",
+  "concept_id": "parameterized-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "operator-framework/java-operator-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Parameterized Integration Tests",
+      "sense_id": "parameterized-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

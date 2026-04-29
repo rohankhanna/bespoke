@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "attractivechaos/k8",
+      "target": "tlrobinson/narwhal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "attractivechaos/k8",
+      "target": "samlecuyer/sorrow.js",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:53:38.528283+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6194
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "k8 Javascript shell",
+    "fork": false,
+    "full_name": "attractivechaos/k8",
+    "html_url": "https://github.com/attractivechaos/k8",
+    "language": "JavaScript",
+    "pushed_at": "2025-12-07T18:49:44Z",
+    "stargazers_count": 158,
+    "topics": [],
+    "updated_at": "2025-12-07T18:49:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "samlecuyer/sorrow.js",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tlrobinson/narwhal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

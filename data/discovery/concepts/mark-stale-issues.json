@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Mark stale issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/cli",
+      "status": "candidate-context",
+      "text": "Automate your GitHub workflows using Azure CLI scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/cli",
+      "status": "candidate-context",
+      "text": "Mark stale issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locustio/locust",
+      "status": "candidate-context",
+      "text": "Write scalable load tests in plain Python \ud83d\ude97\ud83d\udca8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locustio/locust",
+      "status": "candidate-context",
+      "text": "Mark stale issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/cli",
+      "status": "candidate",
+      "text": "Mark stale issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locustio/locust",
+      "status": "candidate",
+      "text": "Mark stale issues"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35858,
+      "status": "candidate",
+      "text": "stall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27795,
+      "status": "candidate",
+      "text": "stalls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20597,
+      "status": "candidate",
+      "text": "flag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20597,
+      "status": "candidate",
+      "text": "flagged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19784,
+      "status": "candidate",
+      "text": "flat"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Mark stale issues",
+  "concept_id": "mark-stale-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "Azure/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "locustio/locust"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mark stale issues",
+      "sense_id": "mark-stale-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

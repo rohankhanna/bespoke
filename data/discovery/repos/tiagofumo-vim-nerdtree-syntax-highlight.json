@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tiagofumo/vim-nerdtree-syntax-highlight",
+      "target": "shougo/neobundle.vim",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:40:19.142558+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7995
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extra syntax and highlight for nerdtree files",
+    "fork": false,
+    "full_name": "tiagofumo/vim-nerdtree-syntax-highlight",
+    "html_url": "https://github.com/tiagofumo/vim-nerdtree-syntax-highlight",
+    "language": "Vim Script",
+    "pushed_at": "2023-07-07T03:26:38Z",
+    "stargazers_count": 790,
+    "topics": [],
+    "updated_at": "2026-04-25T11:33:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neobundle.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

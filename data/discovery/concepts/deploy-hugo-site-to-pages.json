@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy Hugo site to Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate-context",
+      "text": "Java SDK for building Kubernetes Operators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate-context",
+      "text": "Deploy Hugo site to Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate",
+      "text": "Deploy Hugo site to Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24062,
+      "status": "candidate",
+      "text": "pen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22177,
+      "status": "candidate",
+      "text": "lay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22155,
+      "status": "candidate",
+      "text": "page"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22133,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22133,
+      "status": "candidate",
+      "text": "booking"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy Hugo site to Pages",
+  "concept_id": "deploy-hugo-site-to-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/hugo.yaml",
+      "source_repo": "operator-framework/java-operator-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy Hugo site to Pages",
+      "sense_id": "deploy-hugo-site-to-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

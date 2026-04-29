@@ -1,0 +1,12 @@
+{
+  "component": "vmactions/openbsd-vm@9004791062e748d95cc87e499e77485f91888ce1",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml",
+      "source_repo": "prometheus/node_exporter"
+    }
+  ]
+}

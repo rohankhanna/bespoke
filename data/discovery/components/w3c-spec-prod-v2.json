@@ -1,7 +1,7 @@
 {
   "component": "w3c/spec-prod@v2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tr-publication.yml",
       "source_repo": "w3c/core-aam"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autopublish.yml",
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-spec.yml",
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "w3c/navigation-timing"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/css-2026.yml",
+      "source_repo": "w3c/csswg-drafts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/css-2027.yml",
+      "source_repo": "w3c/csswg-drafts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/css-color-4.yml",
+      "source_repo": "w3c/csswg-drafts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/css-color-5.yml",
+      "source_repo": "w3c/csswg-drafts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/css-color-hdr-1.yml",
+      "source_repo": "w3c/csswg-drafts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/css-fonts-4.yml",
+      "source_repo": "w3c/csswg-drafts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/css-fonts-5.yml",
+      "source_repo": "w3c/csswg-drafts"
     }
   ]
 }

@@ -1,0 +1,265 @@
+{
+  "components": [
+    {
+      "component": "postcss-load-config",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-calc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-import",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-nested",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss-preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "postcss",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    },
+    {
+      "component": "actions/setup-node@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "postcss/postcss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "zeit/styled-jsx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "timarney/react-app-rewired",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "postcss-load-config",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "postcss-calc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "postcss-import",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "postcss-nested",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "postcss-preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "postcss",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "actions/setup-node@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "Node.js CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "css-in-js",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "postcss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "styled-jsx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "target": "styled-jsx-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:57:52.634903+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3169
+    },
+    {
+      "path": "package.json",
+      "size": 964
+    },
+    {
+      "path": ".github/workflows/node.js.yml",
+      "size": 813
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Plugin to add PostCSS support to styled-jsx.",
+    "fork": false,
+    "full_name": "giuseppeg/styled-jsx-plugin-postcss",
+    "html_url": "https://github.com/giuseppeg/styled-jsx-plugin-postcss",
+    "language": "JavaScript",
+    "pushed_at": "2021-08-10T17:02:29Z",
+    "stargazers_count": 90,
+    "topics": [
+      "css-in-js",
+      "postcss",
+      "styled-jsx",
+      "styled-jsx-plugin"
+    ],
+    "updated_at": "2025-11-11T23:53:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "postcss/postcss",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timarney/react-app-rewired",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zeit/styled-jsx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Node.js CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "term": "Node.js CI"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/giuseppeg/styled-jsx-plugin-postcss.svg?branch=master)](https://travis-ci.org/giuseppeg/styled-jsx-plugin-postcss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "css-in-js"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/giuseppeg/styled-jsx-plugin-postcss.svg?branch=master)](https://travis-ci.org/giuseppeg/styled-jsx-plugin-postcss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postcss"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/giuseppeg/styled-jsx-plugin-postcss.svg?branch=master)](https://travis-ci.org/giuseppeg/styled-jsx-plugin-postcss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styled-jsx"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/giuseppeg/styled-jsx-plugin-postcss.svg?branch=master)](https://travis-ci.org/giuseppeg/styled-jsx-plugin-postcss)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "styled-jsx-plugin"
+    }
+  ]
+}

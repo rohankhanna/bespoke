@@ -1,7 +1,8 @@
 {
   "aliases": [
     "API Documentation",
-    "api-documentation"
+    "api-documentation",
+    "API documentation"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -46,6 +47,18 @@
       "source_repo": "json-schema-org/json-schema-spec",
       "status": "candidate-context",
       "text": "[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/json-schema-org/.github/blob/main/CODE_OF_CONDUCT.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bernedom/SI",
+      "status": "candidate-context",
+      "text": "A header only C++ library that provides type safety and user defined literals for physical units"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bernedom/SI",
+      "status": "candidate-context",
+      "text": "API documentation"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +79,12 @@
       "source_repo": "json-schema-org/json-schema-spec",
       "status": "candidate",
       "text": "[![Contributor Covenant](https://img.shields.io/badge/Contributor%20Covenant-2.1-4baaaa.svg)](https://github.com/json-schema-org/.github/blob/main/CODE_OF_CONDUCT.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bernedom/SI",
+      "status": "candidate",
+      "text": "API documentation"
     }
   ],
   "candidate_related_terms": [
@@ -127,11 +146,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "json-schema-org/json-schema-spec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/api-doc.yml",
+      "source_repo": "bernedom/SI"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

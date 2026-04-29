@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "wasm-bindgen/wasm-pack",
-      "target": "drager/wasm-pack",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "wasm-bindgen/wasm-pack",
-      "target": "drager/wasm-pack",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/approve.yml",
       "source_repo": "wasm-bindgen/wasm-pack",
@@ -197,6 +183,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "wasm-bindgen/wasm-pack"
 }

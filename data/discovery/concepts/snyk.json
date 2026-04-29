@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "snyk"
+    "snyk",
+    "Snyk"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -13,6 +14,18 @@
       "source_repo": "snowplow-incubator/cla-bot",
       "status": "candidate-context",
       "text": "snyk"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/node-jwks-rsa",
+      "status": "candidate-context",
+      "text": "A library to retrieve RSA public keys from a JWKS (JSON Web Key Set) endpoint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jwks-rsa",
+      "status": "candidate-context",
+      "text": "Snyk"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +34,12 @@
       "source_repo": "snowplow-incubator/cla-bot",
       "status": "candidate",
       "text": "snyk"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jwks-rsa",
+      "status": "candidate",
+      "text": "Snyk"
     }
   ],
   "candidate_related_terms": [
@@ -70,11 +89,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/snyk.yml",
       "source_repo": "snowplow-incubator/cla-bot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/snyk.yml",
+      "source_repo": "auth0/node-jwks-rsa"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

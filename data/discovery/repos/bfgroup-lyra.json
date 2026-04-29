@@ -1,0 +1,306 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_archives.yml"
+    },
+    {
+      "component": "actions/upload-artifact@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_archives.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_archives.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_archives.yml",
+      "source_repo": "bfgroup/Lyra",
+      "target": "actions/checkout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_archives.yml",
+      "source_repo": "bfgroup/Lyra",
+      "target": "actions/upload-artifact@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_archives.yml",
+      "source_repo": "bfgroup/Lyra",
+      "target": "softprops/action-gh-release@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_archives.yml",
+      "source_repo": "bfgroup/Lyra",
+      "target": "Release: Archives",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "argument-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "argument-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "arguments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "cmdline-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "command-line-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "cpp20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "option-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "options",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "options-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "parameters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra",
+      "target": "parser",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:43:10.547557+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/release_archives.yml",
+      "size": 2691
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "A simple to use, composable, command line parser for C++ 11 and beyond",
+    "fork": false,
+    "full_name": "bfgroup/Lyra",
+    "html_url": "https://github.com/bfgroup/Lyra",
+    "language": "C++",
+    "pushed_at": "2026-04-23T12:08:16Z",
+    "stargazers_count": 584,
+    "topics": [
+      "argument-parser",
+      "argument-parsing",
+      "arguments",
+      "cli",
+      "cmdline-parser",
+      "command-line",
+      "command-line-parser",
+      "cpp",
+      "cpp11",
+      "cpp14",
+      "cpp17",
+      "cpp20",
+      "header-only",
+      "option-parser",
+      "options",
+      "options-parsing",
+      "parameters",
+      "parser"
+    ],
+    "updated_at": "2026-04-27T06:36:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_archives.yml",
+      "term": "Release: Archives"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argument-parser"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argument-parsing"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "arguments"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cmdline-parser"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-parser"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp20"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "option-parser"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "options"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "options-parsing"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parameters"
+    },
+    {
+      "context_snippet": "\"Release: Archives\"",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parser"
+    }
+  ]
+}

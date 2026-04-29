@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:44:30.018985+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 282
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4131
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u4e3a\u65b9\u4fbfmnbvc\u7f16\u7801\u7814\u7a76\u5de5\u4f5c\u800c\u5f00\u53d1\u7684\u5de5\u5177",
+    "fork": false,
+    "full_name": "alanshi/mnbvc-charset-tool",
+    "html_url": "https://github.com/alanshi/mnbvc-charset-tool",
+    "language": "Python",
+    "pushed_at": "2024-01-13T07:58:38Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-03-16T05:41:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

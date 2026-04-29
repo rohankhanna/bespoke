@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Focus - Sync Strings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f Firefox Focus (Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate-context",
+      "text": "\"Focus - Sync Strings\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate",
+      "text": "\"Focus - Sync Strings\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22457,
+      "status": "candidate",
+      "text": "keys"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22369,
+      "status": "candidate",
+      "text": "chord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22345,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22345,
+      "status": "candidate",
+      "text": "heads"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22345,
+      "status": "candidate",
+      "text": "sympathy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Focus - Sync Strings",
+  "concept_id": "focus---sync-strings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/focus-sync-strings.yml",
+      "source_repo": "mozilla-mobile/focus-android"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Focus - Sync Strings",
+      "sense_id": "focus---sync-strings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -175,6 +175,66 @@
       "source_repo": "tqdm/tqdm",
       "status": "candidate-context",
       "text": "|Logo|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate-context",
+      "text": "A Minimal, Header only Modern c++ library for terminal goodies \ud83d\udc84\u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate-context",
+      "text": "![rang-demo](https://cloud.githubusercontent.com/assets/7630575/13501282/0bd00074-e18c-11e5-9848-5bd1f20566d9.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mattphillips/babel-plugin-console",
+      "status": "candidate-context",
+      "text": "Babel Plugin that adds useful build time console functions \ud83c\udfae "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattphillips/babel-plugin-console",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "randy3k/radian",
+      "status": "candidate-context",
+      "text": "A 21 century R console"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy3k/radian",
+      "status": "candidate-context",
+      "text": "`radian` is no longer under active development. While I may address critical or obvious bugs, no new features will be added. If you are looking for an active alternative, I recommend checking out [arf](https://github.com/eitsupi/arf) by @eitsupi."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies \ud83d\ude80 by @miguelmota"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cbucher/console",
+      "status": "candidate-context",
+      "text": "This is a modified version of Console 2 for a better experience under Windows Vista/7/8/10 and a better visual rendering."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbucher/console",
+      "status": "candidate-context",
+      "text": "ConsoleZ"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +321,36 @@
       "source_repo": "tqdm/tqdm",
       "status": "candidate",
       "text": "|Logo|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate",
+      "text": "![rang-demo](https://cloud.githubusercontent.com/assets/7630575/13501282/0bd00074-e18c-11e5-9848-5bd1f20566d9.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mattphillips/babel-plugin-console",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy3k/radian",
+      "status": "candidate",
+      "text": "`radian` is no longer under active development. While I may address critical or obvious bugs, no new features will be added. If you are looking for an active alternative, I recommend checking out [arf](https://github.com/eitsupi/arf) by @eitsupi."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cbucher/console",
+      "status": "candidate",
+      "text": "ConsoleZ"
     }
   ],
   "candidate_related_terms": [
@@ -430,11 +520,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "tqdm/tqdm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "agauniyal/rang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mattphillips/babel-plugin-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "randy3k/radian"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/cointop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cbucher/console"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

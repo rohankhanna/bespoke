@@ -1,0 +1,632 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BiWeekly_docker.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-core-release-pypi.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-core-release-pypi.yml"
+    },
+    {
+      "component": "stCarolas/setup-maven@v4.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-core-release-pypi.yml"
+    },
+    {
+      "component": "s4u/maven-settings-action@v2.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-core-release-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-core-release-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-deploy-pypi-if-release-more-than-once-per-day.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-deploy-pypi-if-release-more-than-once-per-day.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-llm-nightly-release.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-llm-nightly-release.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-llm-stable-release-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-llm-stable-release-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-release-docker.yml"
+    },
+    {
+      "component": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-release-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-release-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/BigDL",
+      "target": "intel-analytics/ipex-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/BigDL",
+      "target": "intel-analytics/bigdl-2.x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "intel/BigDL",
+      "target": "intel-analytics/bigdl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/BiWeekly_docker.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/BiWeekly_docker.yml",
+      "source_repo": "intel/BigDL",
+      "target": "BiWeekly Release Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/PR_validation.yml",
+      "source_repo": "intel/BigDL",
+      "target": "dorny/paths-filter@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR_validation.yml",
+      "source_repo": "intel/BigDL",
+      "target": "PR Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-core-release-pypi.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-core-release-pypi.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-core-release-pypi.yml",
+      "source_repo": "intel/BigDL",
+      "target": "stCarolas/setup-maven@v4.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-core-release-pypi.yml",
+      "source_repo": "intel/BigDL",
+      "target": "s4u/maven-settings-action@v2.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-core-release-pypi.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigdl-core-release-pypi.yml",
+      "source_repo": "intel/BigDL",
+      "target": "BigDL Core Release Pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-deploy-pypi-if-release-more-than-once-per-day.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-deploy-pypi-if-release-more-than-once-per-day.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-llm-nightly-release.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-llm-nightly-release.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigdl-llm-nightly-release.yml",
+      "source_repo": "intel/BigDL",
+      "target": "BigDL-LLM Nightly Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-llm-stable-release-pypi.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-llm-stable-release-pypi.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigdl-llm-stable-release-pypi.yml",
+      "source_repo": "intel/BigDL",
+      "target": "BigDL-LLM Stable Release Pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-release-docker.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigdl-release-docker.yml",
+      "source_repo": "intel/BigDL",
+      "target": "BigDL Release Docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-release-pypi.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/checkout@f43a0e5ff2bd294095638e18286ca9a3d1956744",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigdl-release-pypi.yml",
+      "source_repo": "intel/BigDL",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigdl-release-pypi.yml",
+      "source_repo": "intel/BigDL",
+      "target": "BigDL Release Pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/BigDL",
+      "target": "analytics-zoo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/BigDL",
+      "target": "apache-spark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/BigDL",
+      "target": "bigdl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/BigDL",
+      "target": "deep-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/BigDL",
+      "target": "distributed-deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/BigDL",
+      "target": "keras-tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/BigDL",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/BigDL",
+      "target": "scala",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:50:20.639066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18416
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 296
+    },
+    {
+      "path": ".github/workflows/BiWeekly_docker.yml",
+      "size": 1866
+    },
+    {
+      "path": ".github/workflows/PR_validation.yml",
+      "size": 21964
+    },
+    {
+      "path": ".github/workflows/bigdl-core-release-pypi.yml",
+      "size": 3614
+    },
+    {
+      "path": ".github/workflows/bigdl-deploy-pypi-if-release-more-than-once-per-day.yml",
+      "size": 1616
+    },
+    {
+      "path": ".github/workflows/bigdl-llm-nightly-release.yml",
+      "size": 1500
+    },
+    {
+      "path": ".github/workflows/bigdl-llm-stable-release-pypi.yml",
+      "size": 1498
+    },
+    {
+      "path": ".github/workflows/bigdl-release-docker.yml",
+      "size": 5478
+    },
+    {
+      "path": ".github/workflows/bigdl-release-pypi.yml",
+      "size": 1500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "BigDL: Distributed TensorFlow, Keras and PyTorch on Apache Spark/Flink & Ray",
+    "fork": false,
+    "full_name": "intel/BigDL",
+    "html_url": "https://github.com/intel/BigDL",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-20T04:29:14Z",
+    "stargazers_count": 2695,
+    "topics": [
+      "analytics-zoo",
+      "apache-spark",
+      "bigdl",
+      "deep-neural-network",
+      "distributed-deep-learning",
+      "keras-tensorflow",
+      "python",
+      "pytorch",
+      "scala"
+    ],
+    "updated_at": "2026-04-29T09:14:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel-analytics/bigdl-2.x",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel-analytics/ipex-llm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel-analytics/bigdl",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "BiWeekly Release Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/BiWeekly_docker.yml",
+      "term": "BiWeekly Release Docker"
+    },
+    {
+      "context_snippet": "PR Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/PR_validation.yml",
+      "term": "PR Validation"
+    },
+    {
+      "context_snippet": "BigDL Core Release Pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigdl-core-release-pypi.yml",
+      "term": "BigDL Core Release Pypi"
+    },
+    {
+      "context_snippet": "BigDL-LLM Nightly Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigdl-llm-nightly-release.yml",
+      "term": "BigDL-LLM Nightly Build"
+    },
+    {
+      "context_snippet": "BigDL-LLM Stable Release Pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigdl-llm-stable-release-pypi.yml",
+      "term": "BigDL-LLM Stable Release Pypi"
+    },
+    {
+      "context_snippet": "BigDL Release Docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigdl-release-docker.yml",
+      "term": "BigDL Release Docker"
+    },
+    {
+      "context_snippet": "BigDL Release Pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigdl-release-pypi.yml",
+      "term": "BigDL Release Pypi"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analytics-zoo"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-spark"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bigdl"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-network"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed-deep-learning"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras-tensorflow"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "> [!IMPORTANT]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scala"
+    }
+  ]
+}

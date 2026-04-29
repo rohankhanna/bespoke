@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-archived/dartboard",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-archived/dartboard",
+      "target": "eclipse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-archived/dartboard",
+      "target": "eclipse-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-archived/dartboard",
+      "target": "flutter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:43:31.572349+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 542
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Dart Plugin for Eclipse",
+    "fork": false,
+    "full_name": "eclipse-archived/dartboard",
+    "html_url": "https://github.com/eclipse-archived/dartboard",
+    "language": "Java",
+    "pushed_at": "2023-09-04T09:15:49Z",
+    "stargazers_count": 55,
+    "topics": [
+      "dart",
+      "eclipse",
+      "eclipse-plugin",
+      "flutter"
+    ],
+    "updated_at": "2025-09-03T13:33:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse"
+    },
+    {
+      "context_snippet": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse-plugin"
+    },
+    {
+      "context_snippet": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    }
+  ]
+}

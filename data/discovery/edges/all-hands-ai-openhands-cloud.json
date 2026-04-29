@@ -1,0 +1,202 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "all-hands-ai/openhands",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-checks.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "Pull Request Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-review-by-openhands.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "OpenHands/extensions/plugins/pr-review@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-review-by-openhands.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "PR Review by OpenHands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "azure/setup-helm@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/preview-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "appany/helm-oci-chart-releaser@v0.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/preview-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "Preview Helm Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "azure/setup-helm@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "appany/helm-oci-chart-releaser@v0.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "Publish Helm Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-replicated.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-replicated.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "azure/setup-helm@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-replicated.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "mikefarah/yq@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-replicated.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "Release to Replicated",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-docker-images.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scan-docker-images.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "aquasecurity/trivy-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scan-docker-images.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "Scan Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-chart-versions.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-chart-versions.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "mikefarah/yq@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-chart-versions.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "Tag Chart Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/terraform-lint.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/terraform-lint.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "hashicorp/setup-terraform@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/terraform-lint.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "terraform-linters/setup-tflint@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/terraform-lint.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "Terraform Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-chart-versions.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-chart-versions.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "target": "Validate Chart Versions",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "All-Hands-AI/OpenHands-Cloud"
+}

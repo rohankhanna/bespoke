@@ -1,12 +1,27 @@
 {
   "component": "docker/setup-buildx-action@f95db51fddba0c2d1ec667646a06c2ce06100226",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-build-publish.yaml",
       "source_repo": "clearbluejar/ghidrecomp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "devgianlu/go-librespot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/php-8_2.yaml",
+      "source_repo": "StephenMiracle/frankenwp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/php-8_3.yml",
+      "source_repo": "StephenMiracle/frankenwp"
     }
   ]
 }

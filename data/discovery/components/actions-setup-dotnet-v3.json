@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-dotnet@v3",
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -72,6 +72,56 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pr-validation.yml",
       "source_repo": "dotnet/eShop"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/benchmarkdotnet.yml",
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-results-repo.yml",
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "benchmark-action/github-action-benchmark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation-maui.yml",
+      "source_repo": "Azure-Samples/eShopOnAzure"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-validation.yml",
+      "source_repo": "Azure-Samples/eShopOnAzure"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nuget-release.yml",
+      "source_repo": "redis/redis-om-dotnet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ValidatePullRequest.yml",
+      "source_repo": "belav/csharpier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_beta.yml",
+      "source_repo": "belav/csharpier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_nuget.yml",
+      "source_repo": "belav/csharpier"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "awaescher/OllamaSharp"
     }
   ]
 }

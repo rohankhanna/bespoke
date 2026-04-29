@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Discord Notify"
+    "Discord Notify",
+    "discord-notify"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "reactjs/react.dev",
       "status": "candidate-context",
       "text": "Discord Notify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate-context",
+      "text": "Image annotation with Python. Supports polygon, rectangle, circle, line, point, and AI-assisted annotation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate-context",
+      "text": "discord-notify"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "reactjs/react.dev",
       "status": "candidate",
       "text": "Discord Notify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate",
+      "text": "discord-notify"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/discord_notify.yml",
       "source_repo": "reactjs/react.dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/discord-notify.yml",
+      "source_repo": "wkentaro/labelme"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

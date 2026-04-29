@@ -56,7 +56,7 @@
       "source_file": ".github/workflows/build-and-test-snapdragon.yml"
     },
     {
-      "component": "actions/download-artifact@v4",
+      "component": "actions/download-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-and-test-snapdragon.yml"
     },
@@ -191,28 +191,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "edgenai/llama_cpp-rs",
+      "target": "ggml-org/llama.vscode",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "donderom/llm4s",
+      "target": "ggml-org/llama.vim",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "distantmagic/resonance",
+      "target": "go-skynet/go-llama.cpp",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "embarcadero/llama-cpp-delphi",
+      "target": "firatkiral/kodibot",
       "target_type": "repository"
     },
     {
@@ -310,7 +310,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-and-test-snapdragon.yml",
       "source_repo": "ggml-org/llama.cpp",
-      "target": "actions/download-artifact@v4",
+      "target": "actions/download-artifact@v7",
       "target_type": "component"
     },
     {
@@ -433,7 +433,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:14:07.599101+00:00",
+  "fetched_at": "2026-04-29T20:41:06.915389+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -461,7 +461,7 @@
     },
     {
       "path": ".github/workflows/build-and-test-snapdragon.yml",
-      "size": 3495
+      "size": 3628
     },
     {
       "path": ".github/workflows/build-android.yml",
@@ -485,32 +485,32 @@
     "full_name": "ggml-org/llama.cpp",
     "html_url": "https://github.com/ggml-org/llama.cpp",
     "language": "C++",
-    "pushed_at": "2026-04-24T08:42:06Z",
-    "stargazers_count": 106136,
+    "pushed_at": "2026-04-29T19:10:58Z",
+    "stargazers_count": 107434,
     "topics": [
       "ggml"
     ],
-    "updated_at": "2026-04-24T09:14:02Z"
+    "updated_at": "2026-04-29T20:29:10Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "distantmagic/resonance",
+      "full_name": "firatkiral/kodibot",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "donderom/llm4s",
+      "full_name": "ggml-org/llama.vim",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "edgenai/llama_cpp-rs",
+      "full_name": "ggml-org/llama.vscode",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "embarcadero/llama-cpp-delphi",
+      "full_name": "go-skynet/go-llama.cpp",
       "source_file": "README.md"
     }
   ],

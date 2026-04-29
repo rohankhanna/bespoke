@@ -175,6 +175,78 @@
       "source_repo": "simplex-chat/simplex-chat",
       "status": "candidate-context",
       "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Arize-ai/openinference",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Instrumentation for AI Observability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arize-ai/openinference",
+      "status": "candidate-context",
+      "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate-context",
+      "text": "Image annotation with Python. Supports polygon, rectangle, circle, line, point, and AI-assisted annotation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate-context",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "arcee-ai/mergekit",
+      "status": "candidate-context",
+      "text": "Tools for merging pretrained large language models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arcee-ai/mergekit",
+      "status": "candidate-context",
+      "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Arize-ai/phoenix",
+      "status": "candidate-context",
+      "text": "AI Observability & Evaluation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arize-ai/phoenix",
+      "status": "candidate-context",
+      "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/yolov3",
+      "status": "candidate-context",
+      "text": "YOLOv3 in PyTorch > ONNX > CoreML > TFLite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov3",
+      "status": "candidate-context",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate-context",
+      "text": "YOLOv5 \ud83d\ude80 in PyTorch > ONNX > CoreML > TFLite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate-context",
+      "text": "CLA Assistant"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +333,42 @@
       "source_repo": "simplex-chat/simplex-chat",
       "status": "candidate",
       "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arize-ai/openinference",
+      "status": "candidate",
+      "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "arcee-ai/mergekit",
+      "status": "candidate",
+      "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arize-ai/phoenix",
+      "status": "candidate",
+      "text": "\"CLA Assistant\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov3",
+      "status": "candidate",
+      "text": "CLA Assistant"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate",
+      "text": "CLA Assistant"
     }
   ],
   "candidate_related_terms": [
@@ -412,11 +520,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "simplex-chat/simplex-chat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cla.yaml",
+      "source_repo": "Arize-ai/openinference"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "wkentaro/labelme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "SpecterOps/AzureHound"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "arcee-ai/mergekit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "Arize-ai/phoenix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "ultralytics/yolov3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "ultralytics/yolov5"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Preview Helm Charts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "status": "candidate-context",
+      "text": "All Hands AI OpenHands Self-hosted Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "status": "candidate-context",
+      "text": "Preview Helm Charts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "status": "candidate",
+      "text": "Preview Helm Charts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17960,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17842,
+      "status": "candidate",
+      "text": "cheat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17814,
+      "status": "candidate",
+      "text": "index"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17814,
+      "status": "candidate",
+      "text": "indexed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17814,
+      "status": "candidate",
+      "text": "indexing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Preview Helm Charts",
+  "concept_id": "preview-helm-charts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/preview-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Preview Helm Charts",
+      "sense_id": "preview-helm-charts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

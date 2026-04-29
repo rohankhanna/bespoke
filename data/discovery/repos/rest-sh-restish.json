@@ -35,27 +35,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rest-sh/restish",
-      "target": "mpnally/terrifically-simple-json",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rest-sh/restish",
-      "target": "danielgtaylor/openapi-cli-generator",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "rest-sh/restish",
-      "target": "danielgtaylor/shorthand",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "rest-sh/restish",
@@ -231,7 +210,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:02:25.194423+00:00",
+  "fetched_at": "2026-04-29T21:53:40.882941+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -283,27 +262,12 @@
       "swagger",
       "yaml"
     ],
-    "updated_at": "2026-04-23T12:03:43Z"
+    "updated_at": "2026-04-29T12:37:12Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielgtaylor/openapi-cli-generator",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "danielgtaylor/shorthand",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "kevinswiber/siren",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mpnally/terrifically-simple-json",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "aggregated-metrics"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "statsite/statsite",
+      "status": "candidate-context",
+      "text": "C implementation of statsd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statsite/statsite",
+      "status": "candidate-context",
+      "text": "Statsite [![Build Status](https://travis-ci.org/statsite/statsite.png)](https://travis-ci.org/statsite/statsite)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statsite/statsite",
+      "status": "candidate",
+      "text": "Statsite [![Build Status](https://travis-ci.org/statsite/statsite.png)](https://travis-ci.org/statsite/statsite)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "aggregated-metrics",
+  "concept_id": "aggregated-metrics",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "statsite/statsite"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aggregated-metrics",
+      "sense_id": "aggregated-metrics#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@83961fc0a2afe7f045535b5741d9a6418d7e1168",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "GitoxideLabs/cargo-smart-release"
+    }
+  ]
+}

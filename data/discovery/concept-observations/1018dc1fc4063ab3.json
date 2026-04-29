@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "No-code CLI designed for accelerating ONNX workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Server Installer Windows-Latest Build and Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Server Installer Windows-Latest Build and Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34071,
+      "status": "candidate",
+      "text": "installation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34039,
+      "status": "candidate",
+      "text": "install"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32375,
+      "status": "candidate",
+      "text": "station"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32128,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32071,
+      "status": "candidate",
+      "text": "commission"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Server Installer Windows-Latest Build and Test",
+      "sense_id": "server-installer-windows-latest-build-and-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "server-installer-windows-latest-build-and-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "server-installer-windows-latest-build-and-test",
+  "observation_id": "1018dc1fc4063ab3",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Server Installer Windows-Latest Build and Test",
+  "source_context_snippet": "Server Installer Windows-Latest Build and Test",
+  "source_file": ".github/workflows/server_installer_windows_latest.yml",
+  "source_repo": "onnx/turnkeyml",
+  "source_repo_description": "No-code CLI designed for accelerating ONNX workflows"
+}

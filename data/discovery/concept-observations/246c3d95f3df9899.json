@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "libs - Release Publish to pypi"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "libs - Release Publish to pypi"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25901,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22496,
+      "status": "candidate",
+      "text": "spread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22381,
+      "status": "candidate",
+      "text": "ads"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22381,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22381,
+      "status": "candidate",
+      "text": "airs"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "libs - Release Publish to pypi",
+      "sense_id": "libs---release-publish-to-pypi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "libs---release-publish-to-pypi",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "libs---release-publish-to-pypi",
+  "observation_id": "246c3d95f3df9899",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "libs - Release Publish to pypi",
+  "source_context_snippet": "libs - Release Publish to pypi",
+  "source_file": ".github/workflows/pypi_release.yaml",
+  "source_repo": "michaelfeil/infinity",
+  "source_repo_description": "Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali"
+}

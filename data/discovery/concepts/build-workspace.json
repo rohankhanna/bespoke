@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build Workspace"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvm-org/openvm",
+      "status": "candidate-context",
+      "text": "A performant and modular zkVM framework built for customization and extensibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvm-org/openvm",
+      "status": "candidate-context",
+      "text": "Build Workspace"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvm-org/openvm",
+      "status": "candidate",
+      "text": "Build Workspace"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14693,
+      "status": "candidate",
+      "text": "work"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14452,
+      "status": "candidate",
+      "text": "desktop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14452,
+      "status": "candidate",
+      "text": "working"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13825,
+      "status": "candidate",
+      "text": "island"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13825,
+      "status": "candidate",
+      "text": "lab"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Workspace",
+  "concept_id": "build-workspace",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openvm-org/openvm"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Workspace",
+      "sense_id": "build-workspace#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

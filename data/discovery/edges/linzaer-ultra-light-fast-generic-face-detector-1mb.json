@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
+      "target": "kendryte/nncase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
+      "target": "ian778/facedetect-ios",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
+      "target": "jackweiwang/android-facedetection-ultranet-mnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
+      "target": "jason9075/ultra-light-fast-generic-face-detector_tensorflow-model-converter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
+      "target": "ncnn",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB"
+}

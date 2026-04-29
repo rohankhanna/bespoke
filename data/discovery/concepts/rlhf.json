@@ -103,6 +103,30 @@
       "source_repo": "Gen-Verse/Open-AgentRL",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/ChatGLM-Efficient-Tuning",
+      "status": "candidate-context",
+      "text": "Fine-tuning ChatGLM-6B with PEFT | \u57fa\u4e8e PEFT \u7684\u9ad8\u6548 ChatGLM \u5fae\u8c03"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/ChatGLM-Efficient-Tuning",
+      "status": "candidate-context",
+      "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/ChatGLM-Efficient-Tuning?style=social)](https://github.com/hiyouga/ChatGLM-Efficient-Tuning/stargazers)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jianzhnie/LLamaTuner",
+      "status": "candidate-context",
+      "text": "Easy and Efficient Finetuning  LLMs. (Supported LLama, LLama2, LLama3, Qwen,  Baichuan, GLM , Falcon) \u5927\u6a21\u578b\u9ad8\u6548\u91cf\u5316\u8bad\u7ec3+\u90e8\u7f72. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jianzhnie/LLamaTuner",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +175,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Gen-Verse/Open-AgentRL",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/ChatGLM-Efficient-Tuning",
+      "status": "candidate",
+      "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/ChatGLM-Efficient-Tuning?style=social)](https://github.com/hiyouga/ChatGLM-Efficient-Tuning/stargazers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jianzhnie/LLamaTuner",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -220,11 +256,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "Gen-Verse/Open-AgentRL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/ChatGLM-Efficient-Tuning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jianzhnie/LLamaTuner"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

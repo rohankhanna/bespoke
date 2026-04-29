@@ -3,7 +3,8 @@
     "E2E Tests",
     "E2E tests",
     "e2e-tests",
-    "e2e tests"
+    "e2e tests",
+    "e2e Tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -238,6 +239,42 @@
       "source_repo": "Kong/kubernetes-ingress-controller",
       "status": "candidate-context",
       "text": "e2e tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "e2e Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate-context",
+      "text": "A web extension for Firefox and Chrome to insert login credentials from gopass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate-context",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/kong-operator",
+      "status": "candidate-context",
+      "text": "Kubernetes Operator for Kong Gateways"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong-operator",
+      "status": "candidate-context",
+      "text": "E2E tests"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +391,24 @@
       "source_repo": "Kong/kubernetes-ingress-controller",
       "status": "candidate",
       "text": "e2e tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate",
+      "text": "e2e Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate",
+      "text": "E2E Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/kong-operator",
+      "status": "candidate",
+      "text": "E2E tests"
     }
   ],
   "candidate_related_terms": [
@@ -583,11 +638,65 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/_e2e_tests.yaml",
       "source_repo": "Kong/kubernetes-ingress-controller"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "dkron-io/dkron"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/external-tests.yml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gastownhall/gastown"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test-e2e.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/e2e_tests.yml",
+      "source_repo": "electron-userland/electron-windows-msix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "gopasspw/gopassbridge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/__e2e_tests.yaml",
+      "source_repo": "Kong/kong-operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/check-e2e.yml",
+      "source_repo": "aws-powertools/powertools-lambda-java"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

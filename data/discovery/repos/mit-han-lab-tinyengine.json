@@ -1,0 +1,255 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yaml"
+    },
+    {
+      "component": "nick-fields/assert-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "mit-han-lab/mcunet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "mit-han-lab/tiny-training",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "mit-han-lab/tinyml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "arm-software/cmsis-nn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "nick-fields/assert-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "Integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "codegenerator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "edge-computing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "microcontroller",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "neural-architecture-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mit-han-lab/tinyengine",
+      "target": "tinyml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:48.955047+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18882
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1315
+    },
+    {
+      "path": "requirements.txt",
+      "size": 52
+    },
+    {
+      "path": ".github/workflows/code_quality.yaml",
+      "size": 1146
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2020] MCUNet: Tiny Deep Learning on IoT Devices; [NeurIPS 2021] MCUNetV2: Memory-Efficient Patch-based Inference for Tiny Deep Learning; [NeurIPS 2022] MCUNetV3: On-Device Training Under 256KB Memory",
+    "fork": false,
+    "full_name": "mit-han-lab/tinyengine",
+    "html_url": "https://github.com/mit-han-lab/tinyengine",
+    "language": "C",
+    "pushed_at": "2024-11-27T18:51:37Z",
+    "stargazers_count": 942,
+    "topics": [
+      "c",
+      "codegenerator",
+      "cpp",
+      "deep-learning",
+      "edge-computing",
+      "microcontroller",
+      "neural-architecture-search",
+      "pytorch",
+      "quantization",
+      "tinyml"
+    ],
+    "updated_at": "2026-04-27T23:44:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arm-software/cmsis-nn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/mcunet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/tiny-training",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/tinyml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Integration tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "term": "Integration tests"
+    },
+    {
+      "context_snippet": "This is the official implementation of TinyEngine, a memory-efficient and high-performance neural network library for Microcontrollers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codegenerator"
+    },
+    {
+      "context_snippet": "This is the official implementation of TinyEngine, a memory-efficient and high-performance neural network library for Microcontrollers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is the official implementation of TinyEngine, a memory-efficient and high-performance neural network library for Microcontrollers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "edge-computing"
+    },
+    {
+      "context_snippet": "This is the official implementation of TinyEngine, a memory-efficient and high-performance neural network library for Microcontrollers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microcontroller"
+    },
+    {
+      "context_snippet": "This is the official implementation of TinyEngine, a memory-efficient and high-performance neural network library for Microcontrollers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-architecture-search"
+    },
+    {
+      "context_snippet": "This is the official implementation of TinyEngine, a memory-efficient and high-performance neural network library for Microcontrollers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is the official implementation of TinyEngine, a memory-efficient and high-performance neural network library for Microcontrollers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    },
+    {
+      "context_snippet": "This is the official implementation of TinyEngine, a memory-efficient and high-performance neural network library for Microcontrollers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tinyml"
+    }
+  ]
+}

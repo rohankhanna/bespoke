@@ -1,0 +1,142 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sophgo/tpu-mlir",
+      "target": "ultralytics/yolov5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml",
+      "source_repo": "sophgo/tpu-mlir",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml",
+      "source_repo": "sophgo/tpu-mlir",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml",
+      "source_repo": "sophgo/tpu-mlir",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml",
+      "source_repo": "sophgo/tpu-mlir",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yml",
+      "source_repo": "sophgo/tpu-mlir",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sophgo/tpu-mlir",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sophgo/tpu-mlir",
+      "target": "mlir",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:51:22.001197+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17783
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1640
+    },
+    {
+      "path": ".github/workflows/pypi_release.yml",
+      "size": 1875
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Machine learning compiler based on MLIR for Sophgo TPU.",
+    "fork": false,
+    "full_name": "sophgo/tpu-mlir",
+    "html_url": "https://github.com/sophgo/tpu-mlir",
+    "language": "C++",
+    "pushed_at": "2026-04-29T10:15:34Z",
+    "stargazers_count": 911,
+    "topics": [
+      "compiler",
+      "llm",
+      "mlir",
+      "tpu"
+    ],
+    "updated_at": "2026-04-29T13:53:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ultralytics/yolov5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlir"
+    }
+  ]
+}

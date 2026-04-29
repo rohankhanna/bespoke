@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "lint and test"
+    "lint and test",
+    "Lint and test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "mosecorg/mosec",
       "status": "candidate-context",
       "text": "lint and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/deoppet.nvim",
+      "status": "candidate-context",
+      "text": "The dark powered snippet plugin for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/deoppet.nvim",
+      "status": "candidate-context",
+      "text": "Lint and test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elm-tooling/elm-language-server",
+      "status": "candidate-context",
+      "text": "Language server implementation for Elm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-server",
+      "status": "candidate-context",
+      "text": "Lint and test"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "mosecorg/mosec",
       "status": "candidate",
       "text": "lint and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/deoppet.nvim",
+      "status": "candidate",
+      "text": "Lint and test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-server",
+      "status": "candidate",
+      "text": "Lint and test"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/check.yml",
       "source_repo": "mosecorg/mosec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Shougo/deoppet.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "elm-tooling/elm-language-server"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

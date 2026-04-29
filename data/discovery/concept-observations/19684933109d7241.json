@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A library to retrieve RSA public keys from a JWKS (JSON Web Key Set) endpoint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![A library to retrieve signing keys from a JWKS (JSON Web Key Set) endpoint.](https://cdn.auth0.com/website/sdks/banner/node-jwks-rsa-banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![A library to retrieve signing keys from a JWKS (JSON Web Key Set) endpoint.](https://cdn.auth0.com/website/sdks/banner/node-jwks-rsa-banner.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dx-sdk",
+      "sense_id": "dx-sdk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dx-sdk",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dx-sdk",
+  "observation_id": "19684933109d7241",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "dx-sdk",
+  "source_context_snippet": "![A library to retrieve signing keys from a JWKS (JSON Web Key Set) endpoint.](https://cdn.auth0.com/website/sdks/banner/node-jwks-rsa-banner.png)",
+  "source_file": null,
+  "source_repo": "auth0/node-jwks-rsa",
+  "source_repo_description": "A library to retrieve RSA public keys from a JWKS (JSON Web Key Set) endpoint."
+}

@@ -263,13 +263,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "conventional-changelog/conventional-changelog",
-      "target": "trigensoftware/simple-release-action",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "conventional-changelog/conventional-changelog",
@@ -578,7 +571,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T18:33:07.205430+00:00",
+  "fetched_at": "2026-04-29T19:44:25.010234+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -614,8 +607,8 @@
     "full_name": "conventional-changelog/conventional-changelog",
     "html_url": "https://github.com/conventional-changelog/conventional-changelog",
     "language": "TypeScript",
-    "pushed_at": "2026-04-23T13:20:54Z",
-    "stargazers_count": 8426,
+    "pushed_at": "2026-04-29T09:35:35Z",
+    "stargazers_count": 8433,
     "topics": [
       "changelog",
       "git",
@@ -624,15 +617,9 @@
       "metadata",
       "tag"
     ],
-    "updated_at": "2026-04-23T01:40:58Z"
+    "updated_at": "2026-04-29T14:50:38Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "trigensoftware/simple-release-action",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Checks",

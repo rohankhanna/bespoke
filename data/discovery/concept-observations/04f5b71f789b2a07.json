@@ -48,7 +48,7 @@
   "normalized_form": "swiftlint",
   "observation_id": "04f5b71f789b2a07",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "SwiftLint",
   "source_context_snippet": "SwiftLint",
   "source_file": ".github/workflows/swiftlint.yml",

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "zerobot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aimerneige/yukichan-bot",
+      "status": "candidate-context",
+      "text": "\u3086\u304d\u9171\u662f\u4f7f\u7528 ZeroBot \u6784\u5efa\u7684\u56fd\u9645\u8c61\u68cb\u804a\u5929\u673a\u5668\u4eba\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimerneige/yukichan-bot",
+      "status": "candidate-context",
+      "text": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimerneige/yukichan-bot",
+      "status": "candidate",
+      "text": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "zerobot",
+  "concept_id": "zerobot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aimerneige/yukichan-bot"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "zerobot",
+      "sense_id": "zerobot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

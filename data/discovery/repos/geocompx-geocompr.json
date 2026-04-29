@@ -1,0 +1,450 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-sf.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-no-deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qgis-ext.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geocompx/geocompr",
+      "target": "git-guides/install-git",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geocompx/geocompr",
+      "target": "r-lib/remotes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "geocompx/geocompr",
+      "target": "retorquere/zotero-better-bibtex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dev-sf.yaml",
+      "source_repo": "geocompx/geocompr",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-sf.yaml",
+      "source_repo": "geocompx/geocompr",
+      "target": "dev-pkgs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main-no-deploy.yml",
+      "source_repo": "geocompx/geocompr",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-no-deploy.yml",
+      "source_repo": "geocompx/geocompr",
+      "target": "Render-no-deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "geocompx/geocompr",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "geocompx/geocompr",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "geocompx/geocompr",
+      "target": "Render",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qgis-ext.yaml",
+      "source_repo": "geocompx/geocompr",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/qgis-ext.yaml",
+      "source_repo": "geocompx/geocompr",
+      "target": "qgis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "book",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "course",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "education",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "gdal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "geocomputation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "geocompx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "geography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "geos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "geospatial-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "mapping-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "maps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "postgis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "raster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "rspatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "rstats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "simple-features",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr",
+      "target": "spatial",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T22:00:10.627113+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17001
+    },
+    {
+      "path": ".github/workflows/dev-sf.yaml",
+      "size": 898
+    },
+    {
+      "path": ".github/workflows/main-no-deploy.yml",
+      "size": 384
+    },
+    {
+      "path": ".github/workflows/main.yaml",
+      "size": 1108
+    },
+    {
+      "path": ".github/workflows/qgis-ext.yaml",
+      "size": 592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Geocomputation with R: an open source book",
+    "fork": false,
+    "full_name": "geocompx/geocompr",
+    "html_url": "https://github.com/geocompx/geocompr",
+    "language": "R",
+    "pushed_at": "2026-04-02T11:03:25Z",
+    "stargazers_count": 1756,
+    "topics": [
+      "book",
+      "course",
+      "education",
+      "gdal",
+      "geo",
+      "geocomputation",
+      "geocompx",
+      "geography",
+      "geos",
+      "geospatial",
+      "geospatial-data",
+      "mapping-tools",
+      "maps",
+      "postgis",
+      "r",
+      "raster",
+      "rspatial",
+      "rstats",
+      "simple-features",
+      "spatial"
+    ],
+    "updated_at": "2026-04-28T13:03:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "git-guides/install-git",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r-lib/remotes",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "retorquere/zotero-better-bibtex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dev-pkgs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dev-sf.yaml",
+      "term": "dev-pkgs"
+    },
+    {
+      "context_snippet": "Render-no-deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main-no-deploy.yml",
+      "term": "Render-no-deploy"
+    },
+    {
+      "context_snippet": "Render",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yaml",
+      "term": "Render"
+    },
+    {
+      "context_snippet": "qgis",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/qgis-ext.yaml",
+      "term": "qgis"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "book"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "course"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "education"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gdal"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geocomputation"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geocompx"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geography"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geos"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial-data"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapping-tools"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maps"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgis"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "raster"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rspatial"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rstats"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simple-features"
+    },
+    {
+      "context_snippet": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatial"
+    }
+  ]
+}

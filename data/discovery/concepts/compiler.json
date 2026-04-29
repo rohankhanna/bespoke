@@ -391,6 +391,114 @@
       "source_repo": "FuelLabs/sway",
       "status": "candidate-context",
       "text": "[![build](https://github.com/FuelLabs/sway/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/sway/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ispc/ispc",
+      "status": "candidate-context",
+      "text": "Intel\u00ae Implicit SPMD Program Compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ispc/ispc",
+      "status": "candidate-context",
+      "text": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teal-language/tl",
+      "status": "candidate-context",
+      "text": "The compiler for Teal, a typed dialect of Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teal-language/tl",
+      "status": "candidate-context",
+      "text": "Teal"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate-context",
+      "text": "Solidity Compiler for Solana, Polkadot and Stellar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/hyperledger/solang/main/docs/hl_solang_horizontal-color.svg\" alt=\"Solang Logo\" width=\"75%\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate-context",
+      "text": "Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, and elegance (in that order of priority)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate-context",
+      "text": "issue comments bisects"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iree-org/iree-turbine",
+      "status": "candidate-context",
+      "text": "IREE's PyTorch Frontend, based on Torch Dynamo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree-turbine",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/iree-turbine.svg)](https://badge.fury.io/py/iree-turbine)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llvm/torch-mlir",
+      "status": "candidate-context",
+      "text": "The Torch-MLIR project aims to provide first class support from the PyTorch ecosystem to the MLIR ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llvm/torch-mlir",
+      "status": "candidate-context",
+      "text": "The Torch-MLIR project aims to provide first class compiler support from the [PyTorch](https://pytorch.org) ecosystem to the MLIR ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sophgo/tpu-mlir",
+      "status": "candidate-context",
+      "text": "Machine learning compiler based on MLIR for Sophgo TPU."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophgo/tpu-mlir",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kendryte/nncase",
+      "status": "candidate-context",
+      "text": "Open deep learning compiler stack for Kendryte AI accelerators \u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kendryte/nncase",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-rs",
+      "status": "candidate-context",
+      "text": "Spec compliant GraphQL Tools in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-rs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -585,6 +693,60 @@
       "source_repo": "FuelLabs/sway",
       "status": "candidate",
       "text": "[![build](https://github.com/FuelLabs/sway/actions/workflows/ci.yml/badge.svg)](https://github.com/FuelLabs/sway/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ispc/ispc",
+      "status": "candidate",
+      "text": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teal-language/tl",
+      "status": "candidate",
+      "text": "Teal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/hyperledger/solang/main/docs/hl_solang_horizontal-color.svg\" alt=\"Solang Logo\" width=\"75%\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate",
+      "text": "issue comments bisects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree-turbine",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/iree-turbine.svg)](https://badge.fury.io/py/iree-turbine)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llvm/torch-mlir",
+      "status": "candidate",
+      "text": "The Torch-MLIR project aims to provide first class compiler support from the [PyTorch](https://pytorch.org) ecosystem to the MLIR ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophgo/tpu-mlir",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kendryte/nncase",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-rs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -847,11 +1009,83 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ispc/ispc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "teal-language/tl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hadronized/glsl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hyperledger-solang/solang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nim-lang/Nim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "iree-org/iree-turbine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "llvm/torch-mlir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sophgo/tpu-mlir"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kendryte/nncase"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-rs"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

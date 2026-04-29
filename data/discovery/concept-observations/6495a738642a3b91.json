@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u4e00\u4e2aMirai\u7684\u5f00\u6e90\u56f4\u68cb\u63d2\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u57fa\u4e8eMiraiConsole \u7684\u4e00\u4e2a\u5f00\u6e90\u56f4\u68cb\u63d2\u4ef6"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u57fa\u4e8eMiraiConsole \u7684\u4e00\u4e2a\u5f00\u6e90\u56f4\u68cb\u63d2\u4ef6"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mirai-plugin",
+      "sense_id": "mirai-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mirai-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mirai-plugin",
+  "observation_id": "6495a738642a3b91",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "mirai-plugin",
+  "source_context_snippet": "\u57fa\u4e8eMiraiConsole \u7684\u4e00\u4e2a\u5f00\u6e90\u56f4\u68cb\u63d2\u4ef6",
+  "source_file": null,
+  "source_repo": "Minxyzgo/MiraiGoChess",
+  "source_repo_description": "\u4e00\u4e2aMirai\u7684\u5f00\u6e90\u56f4\u68cb\u63d2\u4ef6"
+}

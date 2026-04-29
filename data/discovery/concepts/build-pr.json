@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "build-pr"
+    "build-pr",
+    "Build PR"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "servo/servo.org",
       "status": "candidate-context",
       "text": "build-pr"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/directory-connector",
+      "status": "candidate-context",
+      "text": "A tool for syncing a directory (AD, LDAP, Azure, G Suite, Okta) to an organization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/directory-connector",
+      "status": "candidate-context",
+      "text": "Build PR"
     }
   ],
   "candidate_glosses": [
@@ -45,9 +58,51 @@
       "source_repo": "servo/servo.org",
       "status": "candidate",
       "text": "build-pr"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/directory-connector",
+      "status": "candidate",
+      "text": "Build PR"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11905,
+      "status": "candidate",
+      "text": "hype"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11905,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11027,
+      "status": "candidate",
+      "text": "ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11027,
+      "status": "candidate",
+      "text": "clinometer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11027,
+      "status": "candidate",
+      "text": "fint"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "build-pr",
   "concept_id": "build-pr",
@@ -64,11 +119,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "servo/servo.org"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build-pr.yml",
+      "source_repo": "bitwarden/directory-connector"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

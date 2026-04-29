@@ -19,6 +19,18 @@
       "source_repo": "nodenv/node-build-update-defs",
       "status": "candidate-context",
       "text": "A [nodenv][] plugin to generate [node-build][] definitions from [nodejs.org](https://nodejs.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodenv/nodenv-update",
+      "status": "candidate-context",
+      "text": "A nodenv plugin to update nodenv and installed plugins."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-update",
+      "status": "candidate-context",
+      "text": "A [nodenv][] plugin to update nodenv and installed plugins."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "nodenv/node-build-update-defs",
       "status": "candidate",
       "text": "A [nodenv][] plugin to generate [node-build][] definitions from [nodejs.org](https://nodejs.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodenv/nodenv-update",
+      "status": "candidate",
+      "text": "A [nodenv][] plugin to update nodenv and installed plugins."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "nodenv/node-build-update-defs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nodenv/nodenv-update"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

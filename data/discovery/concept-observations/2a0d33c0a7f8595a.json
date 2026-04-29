@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Improved AnimateDiff for ComfyUI and Advanced Sampling Support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish to Comfy registry"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish to Comfy registry"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17869,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9840,
+      "status": "candidate",
+      "text": "cozy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9840,
+      "status": "candidate",
+      "text": "ease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9840,
+      "status": "candidate",
+      "text": "sit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9840,
+      "status": "candidate",
+      "text": "snug"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish to Comfy registry",
+      "sense_id": "publish-to-comfy-registry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-to-comfy-registry",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-to-comfy-registry",
+  "observation_id": "2a0d33c0a7f8595a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Publish to Comfy registry",
+  "source_context_snippet": "Publish to Comfy registry",
+  "source_file": ".github/workflows/publish.yml",
+  "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+  "source_repo_description": "Improved AnimateDiff for ComfyUI and Advanced Sampling Support"
+}

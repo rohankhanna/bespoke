@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -56,6 +56,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ruff.yml",
       "source_repo": "theroyallab/tabbyAPI"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ruff.yml",
+      "source_repo": "567-labs/instructor"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "Lightricks/LTX-Video"
     }
   ],
   "term": "ruff"

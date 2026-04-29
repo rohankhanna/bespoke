@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "monorepo"
+    "monorepo",
+    "Monorepo"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -91,6 +94,18 @@
       "source_repo": "travis-ci/travis-cookbooks",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.com/travis-ci/travis-cookbooks.svg?branch=master)](https://travis-ci.com/travis-ci/travis-cookbooks)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apostrophecms/apostrophe",
+      "status": "candidate-context",
+      "text": "A full-featured, open-source content management framework built with Node.js that empowers organizations by combining in-context editing and headless architecture in a full-stack JS environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apostrophecms/apostrophe",
+      "status": "candidate-context",
+      "text": "Monorepo"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +150,12 @@
       "source_repo": "travis-ci/travis-cookbooks",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.com/travis-ci/travis-cookbooks.svg?branch=master)](https://travis-ci.com/travis-ci/travis-cookbooks)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apostrophecms/apostrophe",
+      "status": "candidate",
+      "text": "Monorepo"
     }
   ],
   "candidate_related_terms": [
@@ -220,11 +241,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "travis-ci/travis-cookbooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/monorepo.yml",
+      "source_repo": "apostrophecms/apostrophe"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "bootleg"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate-context",
+      "text": "Install Clojure on Windows with Scoop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate-context",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011073,
+      "status": "candidate",
+      "text": "contraband"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010734,
+      "status": "candidate",
+      "text": "black-market"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40007499,
+      "status": "candidate",
+      "text": "smuggle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39952527,
+      "status": "candidate",
+      "text": "illegal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922462,
+      "status": "candidate",
+      "text": "black"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35063,
+      "status": "candidate",
+      "text": "black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5038,
+      "status": "candidate",
+      "text": "smuggle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4017,
+      "status": "candidate",
+      "text": "black-market"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3046,
+      "status": "candidate",
+      "text": "contraband"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3039,
+      "status": "candidate",
+      "text": "illegal"
+    }
+  ],
+  "canonical_name": "bootleg",
+  "concept_id": "bootleg",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "littleli/scoop-clojure"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bootleg",
+      "sense_id": "bootleg#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

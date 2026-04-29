@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:41:10.103623+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 40771
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Miscellaneous auto-load Vim scripts",
+    "fork": false,
+    "full_name": "xolox/vim-misc",
+    "html_url": "https://github.com/xolox/vim-misc",
+    "language": "VimL",
+    "pushed_at": "2021-05-22T15:22:45Z",
+    "stargazers_count": 363,
+    "topics": [],
+    "updated_at": "2026-03-08T17:04:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

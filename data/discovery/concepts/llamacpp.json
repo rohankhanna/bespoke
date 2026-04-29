@@ -127,6 +127,42 @@
       "source_repo": "mukel/llama3.java",
       "status": "candidate-context",
       "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mukel/gptoss.java",
+      "status": "candidate-context",
+      "text": "Fast OpenAI's gpt-oss inference in pure Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/gptoss.java",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awaescher/OllamaSharp",
+      "status": "candidate-context",
+      "text": "The easiest way to use Ollama in .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awaescher/OllamaSharp",
+      "status": "candidate-context",
+      "text": "[![nuget version](https://img.shields.io/nuget/v/OllamaSharp)](https://www.nuget.org/packages/OllamaSharp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/neural-speed",
+      "status": "candidate-context",
+      "text": "An innovative library for efficient LLM inference via low-bit quantization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-speed",
+      "status": "candidate-context",
+      "text": "This project will no longer be maintained by Intel."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "mukel/llama3.java",
       "status": "candidate",
       "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/gptoss.java",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awaescher/OllamaSharp",
+      "status": "candidate",
+      "text": "[![nuget version](https://img.shields.io/nuget/v/OllamaSharp)](https://www.nuget.org/packages/OllamaSharp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-speed",
+      "status": "candidate",
+      "text": "This project will no longer be maintained by Intel."
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +334,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "mukel/llama3.java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mukel/gptoss.java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "awaescher/OllamaSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "intel/neural-speed"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

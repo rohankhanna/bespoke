@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "target": "gmarull/qtmodern",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "target": "antonypro/qgoodwindow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "target": "dark-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "target": "fancy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "target": "qstylesheet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "target": "stylesheets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:49:50.080966+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4758
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "simple MainWindow class implementation with frameless window and custom dark style. It adds also support for titlebar and buttons (minimize, maximize, close)",
+    "fork": false,
+    "full_name": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+    "html_url": "https://github.com/Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+    "language": "C++",
+    "pushed_at": "2022-12-15T07:11:10Z",
+    "stargazers_count": 1221,
+    "topics": [
+      "cpp",
+      "dark-theme",
+      "fancy",
+      "qstylesheet",
+      "qt",
+      "qt5",
+      "stylesheets"
+    ],
+    "updated_at": "2026-04-21T10:08:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "antonypro/qgoodwindow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarull/qtmodern",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "simple MainWindow class implementation with frameless window and custom dark style.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dark-theme"
+    },
+    {
+      "context_snippet": "simple MainWindow class implementation with frameless window and custom dark style.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fancy"
+    },
+    {
+      "context_snippet": "simple MainWindow class implementation with frameless window and custom dark style.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qstylesheet"
+    },
+    {
+      "context_snippet": "simple MainWindow class implementation with frameless window and custom dark style.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stylesheets"
+    }
+  ]
+}

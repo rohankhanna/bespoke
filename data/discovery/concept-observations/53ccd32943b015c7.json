@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Setting environment variables from a file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Linux Tests](https://github.com/toddbluhm/env-cmd/workflows/linux%20tests/badge.svg)](https://github.com/toddbluhm/env-cmd/actions?query=workflow%3A%22linux%20tests%22)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Linux Tests](https://github.com/toddbluhm/env-cmd/workflows/linux%20tests/badge.svg)](https://github.com/toddbluhm/env-cmd/actions?query=workflow%3A%22linux%20tests%22)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "environment-variables",
+      "sense_id": "environment-variables#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "environment-variables",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "environment-variables",
+  "observation_id": "53ccd32943b015c7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "environment-variables",
+  "source_context_snippet": "[![Linux Tests](https://github.com/toddbluhm/env-cmd/workflows/linux%20tests/badge.svg)](https://github.com/toddbluhm/env-cmd/actions?query=workflow%3A%22linux%20tests%22)",
+  "source_file": null,
+  "source_repo": "toddbluhm/env-cmd",
+  "source_repo_description": "Setting environment variables from a file"
+}

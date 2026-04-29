@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/trivy.yml",
       "source_repo": "dani-garcia/vaultwarden"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps"
     }
   ],
   "term": "Trivy"

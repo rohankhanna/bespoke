@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "target": "openai/point-e",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "target": "openai/glide-text2im",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "target": "compositionality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "target": "energy-based-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "target": "generative-model",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch"
+}

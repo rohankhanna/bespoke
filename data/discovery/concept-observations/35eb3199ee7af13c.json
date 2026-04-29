@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast transformer inference for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ":fire: Fast [transformer](https://github.com/huggingface/transformers.js) inference for Ruby"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ":fire: Fast [transformer](https://github.com/huggingface/transformers.js) inference for Ruby"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sentiment-analysis",
+      "sense_id": "sentiment-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sentiment-analysis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sentiment-analysis",
+  "observation_id": "35eb3199ee7af13c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "sentiment-analysis",
+  "source_context_snippet": ":fire: Fast [transformer](https://github.com/huggingface/transformers.js) inference for Ruby",
+  "source_file": null,
+  "source_repo": "ankane/informers",
+  "source_repo_description": "Fast transformer inference for Ruby"
+}

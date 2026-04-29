@@ -106,6 +106,78 @@
       "source_repo": "saghen/blink.cmp",
       "status": "candidate-context",
       "text": "Spelling"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate-context",
+      "text": "Static site generator written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate-context",
+      "text": "Spelling"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "Spelling"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate-context",
+      "text": "Cargo subcommand `release`: everything about releasing a rust crate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate-context",
+      "text": "Spelling"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate-context",
+      "text": "a Hassle-Free Python Experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate-context",
+      "text": "Spelling"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate-context",
+      "text": "Panic messages for humans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate-context",
+      "text": "Spelling"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cobalt-org/cobalt-org.github.io",
+      "status": "candidate-context",
+      "text": "Website for cobalt.rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt-org.github.io",
+      "status": "candidate-context",
+      "text": "Spelling"
     }
   ],
   "candidate_glosses": [
@@ -154,6 +226,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "saghen/blink.cmp",
+      "status": "candidate",
+      "text": "Spelling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate",
+      "text": "Spelling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate",
+      "text": "Spelling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate",
+      "text": "Spelling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate",
+      "text": "Spelling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate",
+      "text": "Spelling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt-org.github.io",
       "status": "candidate",
       "text": "Spelling"
     }
@@ -247,11 +355,47 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/spelling.yaml",
       "source_repo": "saghen/blink.cmp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "cobalt-org/cobalt.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/spelling.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "astral-sh/rye"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "rust-cli/human-panic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "cobalt-org/cobalt-org.github.io"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

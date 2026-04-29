@@ -67,6 +67,18 @@
       "source_repo": "atlassian-api/atlassian-python-api",
       "status": "candidate-context",
       "text": "============================"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate-context",
+      "text": "Use DOMPurify on server and client in the same way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "atlassian-api/atlassian-python-api",
       "status": "candidate",
       "text": "============================"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "atlassian-api/atlassian-python-api"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

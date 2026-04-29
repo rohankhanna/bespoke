@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "htmlparser2"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate-context",
+      "text": "The fast, flexible, and elegant library for parsing and manipulating HTML and XML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate-context",
+      "text": "cheerio \u2014 The fast, flexible & elegant library for parsing and manipulating HTML and XML."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate",
+      "text": "cheerio \u2014 The fast, flexible & elegant library for parsing and manipulating HTML and XML."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "htmlparser2",
+  "concept_id": "htmlparser2",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cheeriojs/cheerio"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "htmlparser2",
+      "sense_id": "htmlparser2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

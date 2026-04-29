@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Test Images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-observability/aws-otel-test-framework",
+      "status": "candidate-context",
+      "text": "AWS Distro for OpenTelemetry Test Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-test-framework",
+      "status": "candidate-context",
+      "text": "Update Test Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-test-framework",
+      "status": "candidate",
+      "text": "Update Test Images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25826,
+      "status": "candidate",
+      "text": "tachistoscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18798,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18484,
+      "status": "candidate",
+      "text": "footage"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18484,
+      "status": "candidate",
+      "text": "psychedelic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18429,
+      "status": "candidate",
+      "text": "engraving"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Test Images",
+  "concept_id": "update-test-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update-test-images.yml",
+      "source_repo": "aws-observability/aws-otel-test-framework"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Test Images",
+      "sense_id": "update-test-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

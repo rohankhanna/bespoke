@@ -1,7 +1,7 @@
 {
   "component": "actions/add-to-project@v0.5.0",
   "first_seen_at": "2026-04-18T09:23:05.253565+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/add-to-octokit-project.yml",
       "source_repo": "octokit/openapi-webhooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/embedded-svc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/esp-idf-hal"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/esp-idf-sys"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues.yaml",
+      "source_repo": "minio/operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "gorilla/sessions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/espflash"
     }
   ]
 }

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Say NO with NOpfs! NOpfs provides content-blocking-layer capabilities for IPFS (Kubo)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "NOPfs helps IPFS to say No!"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "NOPfs helps IPFS to say No!"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20003348,
+      "status": "candidate",
+      "text": "cuba"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016433,
+      "status": "candidate",
+      "text": "baruga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016432,
+      "status": "candidate",
+      "text": "kobon"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016431,
+      "status": "candidate",
+      "text": "nanubae"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10016430,
+      "status": "candidate",
+      "text": "monumbo"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kubo",
+      "sense_id": "kubo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "kubo",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kubo",
+  "observation_id": "c8befb4583ee5e4a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "kubo",
+  "source_context_snippet": "NOPfs helps IPFS to say No!",
+  "source_file": null,
+  "source_repo": "ipfs-shipyard/nopfs",
+  "source_repo_description": "Say NO with NOpfs! NOpfs provides content-blocking-layer capabilities for IPFS (Kubo)."
+}

@@ -1,0 +1,318 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "20000yshust/swarm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "164140757/scm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "072jiajia/image-text-co-decomposition",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "1adrianb/video-transformers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "attention-mechanism",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "attention-mechanisms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "awesome-list",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "detr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "papers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "self-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "transformer-architecture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "transformer-awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "transformer-cv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "transformer-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "transformer-with-cv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "vision-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "target": "visual-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:37.584866+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 449065
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An ultimately comprehensive paper list of Vision Transformer/Attention, including papers, codes, and related websites",
+    "fork": false,
+    "full_name": "cmhungsteve/Awesome-Transformer-Attention",
+    "html_url": "https://github.com/cmhungsteve/Awesome-Transformer-Attention",
+    "language": null,
+    "pushed_at": "2024-07-30T06:57:18Z",
+    "stargazers_count": 5037,
+    "topics": [
+      "attention-mechanism",
+      "attention-mechanisms",
+      "awesome-list",
+      "computer-vision",
+      "deep-learning",
+      "detr",
+      "papers",
+      "self-attention",
+      "transformer",
+      "transformer-architecture",
+      "transformer-awesome",
+      "transformer-cv",
+      "transformer-models",
+      "transformer-with-cv",
+      "transformers",
+      "vision-transformer",
+      "visual-transformer",
+      "vit"
+    ],
+    "updated_at": "2026-04-28T23:57:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "072jiajia/image-text-co-decomposition",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "164140757/scm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "1adrianb/video-transformers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "20000yshust/swarm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-mechanism"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention-mechanisms"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "awesome-list"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detr"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "papers"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-attention"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-architecture"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-awesome"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-cv"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-models"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-with-cv"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    },
+    {
+      "context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-transformer"
+    }
+  ]
+}

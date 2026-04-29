@@ -445,6 +445,138 @@
       "source_repo": "apollographql/apollo-server",
       "status": "candidate-context",
       "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/rover",
+      "status": "candidate-context",
+      "text": "The CLI for Apollo GraphOS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/rover",
+      "status": "candidate-context",
+      "text": "[![GitHub Release Downloads](https://shields.io/github/downloads/apollographql/rover/total.svg)](https://github.com/apollographql/rover/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Urigo/graphql-cli",
+      "status": "candidate-context",
+      "text": "\ud83d\udcdf  Command line tool for common GraphQL development workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Urigo/graphql-cli",
+      "status": "candidate-context",
+      "text": "![image](https://user-images.githubusercontent.com/20847995/67651234-85bf1500-f916-11e9-90e5-cb3bd0e6a338.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-guild-org/apollo-angular",
+      "status": "candidate-context",
+      "text": "A fully-featured, production ready caching GraphQL client for Angular and every GraphQL server \ud83c\udf81"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-guild-org/apollo-angular",
+      "status": "candidate-context",
+      "text": "[![Angular](https://user-images.githubusercontent.com/25294569/63955021-b99fca80-ca8c-11e9-9362-1ee8083edd2e.gif)](https://www.apollo-angular.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardatan/graphql-tools",
+      "status": "candidate-context",
+      "text": ":wrench: Utility library for GraphQL to build, stitch and mock GraphQL schemas in the SDL-first approach"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardatan/graphql-tools",
+      "status": "candidate-context",
+      "text": "[![GraphQLConf 2024 Banner: September 10-12, San Francisco. Hosted by the GraphQL Foundation](https://github.com/user-attachments/assets/bdb8cd5d-5186-4ece-b06b-b00a499b7868)](https://graphql.org/conf/2024/?utm_source=github&utm_medium=graphql_tools&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate-context",
+      "text": "GitHub\u2019s GraphQL Schema with validation. Automatically updated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate-context",
+      "text": "> GitHub\u2019s GraphQL Schema with validation. Automatically updated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "A High Performance HTTP Server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaydenseric/graphql-upload",
+      "status": "candidate-context",
+      "text": "Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaydenseric/graphql-upload",
+      "status": "candidate-context",
+      "text": "graphql-upload \u2014 Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": ":rocket: \u00a0A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": "<header>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-rs",
+      "status": "candidate-context",
+      "text": "Spec compliant GraphQL Tools in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-rs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate-context",
+      "text": "One configuration for all your GraphQL tools (supported by most tools, editors & IDEs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate-context",
+      "text": "![GraphQL Config](https://i.imgur.com/hw5tXw2.gif 'GraphQL Config')"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate-context",
+      "text": "\ud83d\udd75\ufe0f\u200d\u2640\ufe0f Validate schema, get schema change notifications, validate operations, find breaking changes, look for similar types, schema coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate-context",
+      "text": "[![Inspector](https://user-images.githubusercontent.com/25294569/64163641-50cc9f80-ce4a-11e9-89b0-248c7d12142f.gif)](https://graphql-inspector.com/)"
     }
   ],
   "candidate_glosses": [
@@ -669,6 +801,72 @@
       "source_repo": "apollographql/apollo-server",
       "status": "candidate",
       "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/rover",
+      "status": "candidate",
+      "text": "[![GitHub Release Downloads](https://shields.io/github/downloads/apollographql/rover/total.svg)](https://github.com/apollographql/rover/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Urigo/graphql-cli",
+      "status": "candidate",
+      "text": "![image](https://user-images.githubusercontent.com/20847995/67651234-85bf1500-f916-11e9-90e5-cb3bd0e6a338.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-guild-org/apollo-angular",
+      "status": "candidate",
+      "text": "[![Angular](https://user-images.githubusercontent.com/25294569/63955021-b99fca80-ca8c-11e9-9362-1ee8083edd2e.gif)](https://www.apollo-angular.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardatan/graphql-tools",
+      "status": "candidate",
+      "text": "[![GraphQLConf 2024 Banner: September 10-12, San Francisco. Hosted by the GraphQL Foundation](https://github.com/user-attachments/assets/bdb8cd5d-5186-4ece-b06b-b00a499b7868)](https://graphql.org/conf/2024/?utm_source=github&utm_medium=graphql_tools&utm_campaign=readme)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate",
+      "text": "> GitHub\u2019s GraphQL Schema with validation. Automatically updated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaydenseric/graphql-upload",
+      "status": "candidate",
+      "text": "graphql-upload \u2014 Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate",
+      "text": "<header>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-rs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate",
+      "text": "![GraphQL Config](https://i.imgur.com/hw5tXw2.gif 'GraphQL Config')"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate",
+      "text": "[![Inspector](https://user-images.githubusercontent.com/25294569/64163641-50cc9f80-ce4a-11e9-89b0-248c7d12142f.gif)](https://graphql-inspector.com/)"
     }
   ],
   "candidate_related_terms": [
@@ -946,11 +1144,101 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "apollographql/apollo-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/rover"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-tooling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Urigo/graphql-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "the-guild-org/apollo-angular"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ardatan/graphql-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/graphql-schema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ohler55/agoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jaydenseric/graphql-upload"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-inspector"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

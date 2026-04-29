@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:58:54.313952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "cognitect-labs/anomalies",
+    "html_url": "https://github.com/cognitect-labs/anomalies",
+    "language": "Clojure",
+    "pushed_at": "2024-07-15T17:48:18Z",
+    "stargazers_count": 202,
+    "topics": [],
+    "updated_at": "2026-04-08T10:24:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

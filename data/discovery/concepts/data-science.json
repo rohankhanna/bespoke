@@ -427,6 +427,54 @@
       "source_repo": "xlang-ai/DS-1000",
       "status": "candidate-context",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "status": "candidate-context",
+      "text": "Containerised Jupyter deployment. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipython/ipython",
+      "status": "candidate-context",
+      "text": "Official repository for IPython itself. Other repos in the IPython organization contain things like the website, documentation builds, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipython/ipython",
+      "status": "candidate-context",
+      "text": ".. image:: https://codecov.io/github/ipython/ipython/coverage.svg?branch=main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-sagemaker-examples",
+      "status": "candidate-context",
+      "text": "Example \ud83d\udcd3 Jupyter notebooks that demonstrate how to build, train, and deploy machine learning models using \ud83e\udde0 Amazon SageMaker. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-sagemaker-examples",
+      "status": "candidate-context",
+      "text": "![SageMaker](https://github.com/aws/amazon-sagemaker-examples/raw/main/_static/sagemaker-banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneDAL",
+      "status": "candidate-context",
+      "text": "oneAPI Data Analytics Library (oneDAL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDAL",
+      "status": "candidate-context",
+      "text": "\ufeff<!--"
     }
   ],
   "candidate_glosses": [
@@ -639,6 +687,30 @@
       "source_repo": "xlang-ai/DS-1000",
       "status": "candidate",
       "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipython/ipython",
+      "status": "candidate",
+      "text": ".. image:: https://codecov.io/github/ipython/ipython/coverage.svg?branch=main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-sagemaker-examples",
+      "status": "candidate",
+      "text": "![SageMaker](https://github.com/aws/amazon-sagemaker-examples/raw/main/_static/sagemaker-banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDAL",
+      "status": "candidate",
+      "text": "\ufeff<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -880,11 +952,53 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipython/ipython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/pytorch-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws/amazon-sagemaker-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "openhackathons-org/gpubootcamp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDAL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xlang-ai/DS-1000"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

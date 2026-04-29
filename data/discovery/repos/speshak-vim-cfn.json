@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "speshak/vim-cfn",
+      "target": "awslabs/cfn-python-lint",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "speshak/vim-cfn",
+      "target": "syntastic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "speshak/vim-cfn",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:58:03.616116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 565
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "cfn-lint Checker for vim Syntastic",
+    "fork": false,
+    "full_name": "speshak/vim-cfn",
+    "html_url": "https://github.com/speshak/vim-cfn",
+    "language": "Vim script",
+    "pushed_at": "2023-12-15T08:34:16Z",
+    "stargazers_count": 14,
+    "topics": [
+      "syntastic",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2025-02-26T13:59:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/cfn-python-lint",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a vim plugin that provides CloudFormation syntax checking/highlighting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntastic"
+    },
+    {
+      "context_snippet": "This is a vim plugin that provides CloudFormation syntax checking/highlighting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

@@ -79,6 +79,18 @@
       "source_repo": "luizm/asdf-shfmt",
       "status": "candidate-context",
       "text": "[![Build](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml/badge.svg)](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-shellwax/shellwax",
+      "status": "candidate-context",
+      "text": "Shell script editor plugin for Eclipse "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-shellwax/shellwax",
+      "status": "candidate-context",
+      "text": "<a href=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/redirect.html\"><img src=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/cloneToEclipseBadge.png\" alt=\"Clone to Eclipse IDE\"/></a>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "luizm/asdf-shfmt",
       "status": "candidate",
       "text": "[![Build](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml/badge.svg)](https://github.com/luizm/asdf-shfmt/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-shellwax/shellwax",
+      "status": "candidate",
+      "text": "<a href=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/redirect.html\"><img src=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/cloneToEclipseBadge.png\" alt=\"Clone to Eclipse IDE\"/></a>"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "luizm/asdf-shfmt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-shellwax/shellwax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hyperupcall/autoenv"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

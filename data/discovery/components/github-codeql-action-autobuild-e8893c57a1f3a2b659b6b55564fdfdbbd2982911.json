@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/autobuild@e8893c57a1f3a2b659b6b55564fdfdbbd2982911",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "kennethreitz/requests"
+    }
+  ]
+}

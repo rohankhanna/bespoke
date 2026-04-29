@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/co-tracker",
+      "target": "facebookresearch/vggsfm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/co-tracker",
+      "target": "deepmind/tapnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/co-tracker",
+      "target": "aharley/pips",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/co-tracker",
+      "target": "cvlab-kaist/locotrack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/co-tracker",
+      "target": "optical-flow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/co-tracker",
+      "target": "point-tracking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "facebookresearch/co-tracker",
+      "target": "track-anything",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:49.823523+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17787
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CoTracker is a model for tracking any point (pixel) on a video.",
+    "fork": false,
+    "full_name": "facebookresearch/co-tracker",
+    "html_url": "https://github.com/facebookresearch/co-tracker",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-03T21:51:22Z",
+    "stargazers_count": 4925,
+    "topics": [
+      "optical-flow",
+      "point-tracking",
+      "track-anything"
+    ],
+    "updated_at": "2026-04-29T11:10:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aharley/pips",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvlab-kaist/locotrack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/tapnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/vggsfm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**[Meta AI Research, GenAI](https://ai.facebook.com/research/)**; **[University of Oxford, VGG](https://www.robots.ox.ac.uk/~vgg/)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optical-flow"
+    },
+    {
+      "context_snippet": "**[Meta AI Research, GenAI](https://ai.facebook.com/research/)**; **[University of Oxford, VGG](https://www.robots.ox.ac.uk/~vgg/)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "point-tracking"
+    },
+    {
+      "context_snippet": "**[Meta AI Research, GenAI](https://ai.facebook.com/research/)**; **[University of Oxford, VGG](https://www.robots.ox.ac.uk/~vgg/)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "track-anything"
+    }
+  ]
+}

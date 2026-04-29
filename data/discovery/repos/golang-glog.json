@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "golang/glog",
+      "target": "google/glog",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:01:33.788630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1485
+    },
+    {
+      "path": "go.mod",
+      "size": 92
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Leveled execution logs for Go",
+    "fork": false,
+    "full_name": "golang/glog",
+    "html_url": "https://github.com/golang/glog",
+    "language": "Go",
+    "pushed_at": "2025-04-29T08:47:46Z",
+    "stargazers_count": 3605,
+    "topics": [],
+    "updated_at": "2026-04-29T08:29:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/glog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

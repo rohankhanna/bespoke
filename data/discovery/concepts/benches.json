@@ -31,6 +31,18 @@
       "source_repo": "tauri-apps/wry",
       "status": "candidate-context",
       "text": "benches"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyO3/pyo3",
+      "status": "candidate-context",
+      "text": "Rust bindings for the Python interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/pyo3",
+      "status": "candidate-context",
+      "text": "benches"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tauri-apps/wry",
+      "status": "candidate",
+      "text": "benches"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/pyo3",
       "status": "candidate",
       "text": "benches"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/bench.yml",
       "source_repo": "tauri-apps/wry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/benches.yml",
+      "source_repo": "PyO3/pyo3"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

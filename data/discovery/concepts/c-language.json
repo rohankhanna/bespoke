@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "c-language"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FStarLang/FStar",
+      "status": "candidate-context",
+      "text": "A Proof-oriented Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/FStar",
+      "status": "candidate-context",
+      "text": "F*: A Proof-oriented Programming Language"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FStarLang/karamel",
+      "status": "candidate-context",
+      "text": "KaRaMeL is a tool for extracting low-level F* programs to readable C code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/karamel",
+      "status": "candidate-context",
+      "text": "KaRaMeL"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/FStar",
+      "status": "candidate",
+      "text": "F*: A Proof-oriented Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/karamel",
+      "status": "candidate",
+      "text": "KaRaMeL"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "c-language",
+  "concept_id": "c-language",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FStarLang/karamel"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "c-language",
+      "sense_id": "c-language#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -202,6 +202,78 @@
       "source_repo": "danielgtaylor/apisprout",
       "status": "candidate-context",
       "text": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate-context",
+      "text": "Apache Kafka, Apache Flink and Confluent Platform examples and demos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate-context",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actix/examples",
+      "status": "candidate-context",
+      "text": "Community showcase and examples of Actix Web ecosystem usage."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/examples",
+      "status": "candidate-context",
+      "text": "> Curated examples using the Actix ecosystem."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/amazon-sagemaker-examples",
+      "status": "candidate-context",
+      "text": "Example \ud83d\udcd3 Jupyter notebooks that demonstrate how to build, train, and deploy machine learning models using \ud83e\udde0 Amazon SageMaker. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-sagemaker-examples",
+      "status": "candidate-context",
+      "text": "![SageMaker](https://github.com/aws/amazon-sagemaker-examples/raw/main/_static/sagemaker-banner.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wsxiaoys/sqlx",
+      "status": "candidate-context",
+      "text": "\ud83e\uddf0 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wsxiaoys/sqlx",
+      "status": "candidate-context",
+      "text": "Examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optuna-examples",
+      "status": "candidate-context",
+      "text": "Examples for https://github.com/optuna/optuna"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-examples",
+      "status": "candidate-context",
+      "text": "Optuna Examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate-context",
+      "text": "The Cryspen HACL Distribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate-context",
+      "text": "examples"
     }
   ],
   "candidate_glosses": [
@@ -300,6 +372,42 @@
       "source_repo": "danielgtaylor/apisprout",
       "status": "candidate",
       "text": "<img src=\"https://user-images.githubusercontent.com/106826/43119494-78be9224-8ecb-11e8-9d1a-9fc6f3014b91.png\" width=\"300\" alt=\"API Sprout\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate",
+      "text": "![image](images/confluent-logo-300-2.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actix/examples",
+      "status": "candidate",
+      "text": "> Curated examples using the Actix ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/amazon-sagemaker-examples",
+      "status": "candidate",
+      "text": "![SageMaker](https://github.com/aws/amazon-sagemaker-examples/raw/main/_static/sagemaker-banner.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wsxiaoys/sqlx",
+      "status": "candidate",
+      "text": "Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-examples",
+      "status": "candidate",
+      "text": "Optuna Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cryspen/hacl-packages",
+      "status": "candidate",
+      "text": "examples"
     }
   ],
   "candidate_related_terms": [
@@ -463,11 +571,59 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "actix/examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws/amazon-sagemaker-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "wsxiaoys/sqlx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/mvp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "optuna/optuna-examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "cryspen/hacl-packages"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

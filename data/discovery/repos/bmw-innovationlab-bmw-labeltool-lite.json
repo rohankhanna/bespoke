@@ -1,0 +1,322 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "bmw-innovationlab/bmw-tensorflow-training-gui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "bmw-innovationlab/bmw-yolov4-training-automation",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "annotaion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "auto-label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "autolabeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "bounding-box",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "boundingbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "image-annotation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "label",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "labeling-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "labeltool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "smart-labeling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "synthetic-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "target": "yolov4",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:44:43.501890+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository provides you with an easy-to-use labeling tool for State-of-the-art Deep Learning training purposes. It supports Auto-Labeling.",
+    "fork": false,
+    "full_name": "BMW-InnovationLab/BMW-Labeltool-Lite",
+    "html_url": "https://github.com/BMW-InnovationLab/BMW-Labeltool-Lite",
+    "language": "C#",
+    "pushed_at": "2024-07-26T13:58:24Z",
+    "stargazers_count": 323,
+    "topics": [
+      "annotaion",
+      "auto-label",
+      "autolabeling",
+      "bounding-box",
+      "boundingbox",
+      "computer-vision",
+      "deep-learning",
+      "docker",
+      "image-annotation",
+      "inference",
+      "label",
+      "labeling-tool",
+      "labeltool",
+      "neural-network",
+      "object-detection",
+      "smart-labeling",
+      "synthetic-data",
+      "tensorflow",
+      "voc",
+      "yolov4"
+    ],
+    "updated_at": "2026-04-06T21:36:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bmw-innovationlab/bmw-tensorflow-training-gui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bmw-innovationlab/bmw-yolov4-training-automation",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "annotaion"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-label"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autolabeling"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bounding-box"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "boundingbox"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-annotation"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "label"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "labeling-tool"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "labeltool"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smart-labeling"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synthetic-data"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov4"
+    }
+  ]
+}

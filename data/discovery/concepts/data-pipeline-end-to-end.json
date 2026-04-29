@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "data pipeline end-to-end"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate-context",
+      "text": "NLP made easy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate-context",
+      "text": "data pipeline end-to-end"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmlc/gluon-nlp",
+      "status": "candidate",
+      "text": "data pipeline end-to-end"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10530,
+      "status": "candidate",
+      "text": "pipe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10530,
+      "status": "candidate",
+      "text": "pipes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10530,
+      "status": "candidate",
+      "text": "processing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10409,
+      "status": "candidate",
+      "text": "course"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10409,
+      "status": "candidate",
+      "text": "crossover"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "data pipeline end-to-end",
+  "concept_id": "data-pipeline-end-to-end",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/data-pipeline.yml",
+      "source_repo": "dmlc/gluon-nlp"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "data pipeline end-to-end",
+      "sense_id": "data-pipeline-end-to-end#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

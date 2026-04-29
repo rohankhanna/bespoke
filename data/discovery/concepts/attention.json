@@ -31,6 +31,54 @@
       "source_repo": "SkyworkAI/MoH",
       "status": "candidate-context",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "status": "candidate-context",
+      "text": "This is a pytorch repository of YOLOv4, attentive YOLOv4 and mobilenet YOLOv4 with PASCAL VOC and COCO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "status": "candidate-context",
+      "text": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jadore801120/attention-is-all-you-need-pytorch",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of the Transformer model in \"Attention is All You Need\"."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jadore801120/attention-is-all-you-need-pytorch",
+      "status": "candidate-context",
+      "text": "This is a PyTorch implementation of the Transformer model in \"[Attention is All You Need](https://arxiv.org/abs/1706.03762)\" (Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, arxiv, 2017)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/scenic",
+      "status": "candidate-context",
+      "text": "Scenic: A Jax Library for Computer Vision Research and Beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/scenic",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thu-ml/SageAttention",
+      "status": "candidate-context",
+      "text": "[ICLR2025, ICML2025, NeurIPS2025 Spotlight] Quantized Attention achieves speedup of 2-5x compared to FlashAttention, without losing end-to-end metrics across language, image, and video models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SageAttention",
+      "status": "candidate-context",
+      "text": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +93,30 @@
       "source_repo": "SkyworkAI/MoH",
       "status": "candidate",
       "text": "<div align=center>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "status": "candidate",
+      "text": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jadore801120/attention-is-all-you-need-pytorch",
+      "status": "candidate",
+      "text": "This is a PyTorch implementation of the Transformer model in \"[Attention is All You Need](https://arxiv.org/abs/1706.03762)\" (Ashish Vaswani, Noam Shazeer, Niki Parmar, Jakob Uszkoreit, Llion Jones, Aidan N. Gomez, Lukasz Kaiser, Illia Polosukhin, arxiv, 2017)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/scenic",
+      "status": "candidate",
+      "text": "<div style=\"text-align: left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thu-ml/SageAttention",
+      "status": "candidate",
+      "text": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated."
     }
   ],
   "candidate_related_terms": [
@@ -135,11 +207,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "SkyworkAI/MoH"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "argusswift/YOLOv4-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jadore801120/attention-is-all-you-need-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-research/scenic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "thu-ml/SageAttention"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

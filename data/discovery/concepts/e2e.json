@@ -200,6 +200,30 @@
       "source_repo": "ipfs/ipfs-companion",
       "status": "candidate-context",
       "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/ch-go",
+      "status": "candidate-context",
+      "text": "Low-level Go Client for ClickHouse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ch-go",
+      "status": "candidate-context",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/operator-lifecycle-manager",
+      "status": "candidate-context",
+      "text": "A management framework for extending Kubernetes with Operators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-lifecycle-manager",
+      "status": "candidate-context",
+      "text": "e2e"
     }
   ],
   "candidate_glosses": [
@@ -296,6 +320,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/ipfs-companion",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ch-go",
+      "status": "candidate",
+      "text": "e2e"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-lifecycle-manager",
       "status": "candidate",
       "text": "e2e"
     }
@@ -527,11 +563,41 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/e2e.yml",
       "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/e2e-base.yml",
+      "source_repo": "facebook/create-react-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "ClickHouse/ch-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "AndyMik90/Aperant"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "operator-framework/operator-lifecycle-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "ipfs/ipfs-companion"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

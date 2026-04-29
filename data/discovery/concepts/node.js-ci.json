@@ -391,6 +391,102 @@
       "source_repo": "bjornharrtell/jsts",
       "status": "candidate-context",
       "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate-context",
+      "text": "A web extension for Firefox and Chrome to insert login credentials from gopass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cryptonomic/ConseilJS-ledgersigner",
+      "status": "candidate-context",
+      "text": "Ledger device plugin for ConseilJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/ConseilJS-ledgersigner",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cryptonomic/ConseilJS-softsigner",
+      "status": "candidate-context",
+      "text": "Cryptography services plugin for ConseilJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/ConseilJS-softsigner",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/javascript-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "\u2705 A step-by-step complete beginner example/tutorial for building a Todo List App (TodoMVC) from scratch in JavaScript following Test Driven Development (TDD) best practice.  \ud83c\udf31 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/javascript-todo-list-tutorial",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/hapi-error",
+      "status": "candidate-context",
+      "text": ":umbrella: Intercept errors in your Hapi Web App/API and send a *useful* message to the client OR redirect to the desired endpoint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/hapi-error",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "brettstimmerman/mensch",
+      "status": "candidate-context",
+      "text": "A decent CSS parser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brettstimmerman/mensch",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "status": "candidate-context",
+      "text": "Plugin to add PostCSS support to styled-jsx."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "status": "candidate-context",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "i18next/i18next-scanner",
+      "status": "candidate-context",
+      "text": "Scan your code, extract translation keys/values, and merge them into i18n resource files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-scanner",
+      "status": "candidate-context",
+      "text": "Node.js CI"
     }
   ],
   "candidate_glosses": [
@@ -577,6 +673,54 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "bjornharrtell/jsts",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/ConseilJS-ledgersigner",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cryptonomic/ConseilJS-softsigner",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/javascript-todo-list-tutorial",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/hapi-error",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "brettstimmerman/mensch",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss",
+      "status": "candidate",
+      "text": "Node.js CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "i18next/i18next-scanner",
       "status": "candidate",
       "text": "Node.js CI"
     }
@@ -892,11 +1036,89 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/node.js.yml",
       "source_repo": "bjornharrtell/jsts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tests.js.yml",
+      "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "gopasspw/gopassbridge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/nodejs.yml",
+      "source_repo": "DefinitelyTyped/dts-critic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Cryptonomic/ConseilJS-ledgersigner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "Cryptonomic/ConseilJS-softsigner"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "dwyl/javascript-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/npm-test.yml",
+      "source_repo": "dwyl/hapi-error"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "brettstimmerman/mensch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "giuseppeg/styled-jsx-plugin-postcss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "i18next/i18next-scanner"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

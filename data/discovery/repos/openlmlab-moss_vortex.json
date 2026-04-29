@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenLMLab/MOSS_Vortex",
+      "target": "piglaker/vortex",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenLMLab/MOSS_Vortex",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenLMLab/MOSS_Vortex",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenLMLab/MOSS_Vortex",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenLMLab/MOSS_Vortex",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:50:59.000660+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Moss Vortex is a lightweight and high-performance deployment and inference backend engineered specifically for MOSS 003, providing a wealth of features aimed at enhancing performance and functionality, built upon the foundations of MOSEC and Torch.",
+    "fork": false,
+    "full_name": "OpenLMLab/MOSS_Vortex",
+    "html_url": "https://github.com/OpenLMLab/MOSS_Vortex",
+    "language": "Python",
+    "pushed_at": "2023-04-25T05:28:01Z",
+    "stargazers_count": 37,
+    "topics": [
+      "chatgpt",
+      "deployment",
+      "inference",
+      "natural-language-processing"
+    ],
+    "updated_at": "2024-01-18T08:43:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "piglaker/vortex",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Moss Vortex is a lightweight, fast, simple, and high-performance deployment and inference backend engineered specifically for MOSS 003, providing a wealth of features aimed at enhancing performance and functionality, built upon the foundations of MOSEC and Torch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "Moss Vortex is a lightweight, fast, simple, and high-performance deployment and inference backend engineered specifically for MOSS 003, providing a wealth of features aimed at enhancing performance and functionality, built upon the foundations of MOSEC and Torch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployment"
+    },
+    {
+      "context_snippet": "Moss Vortex is a lightweight, fast, simple, and high-performance deployment and inference backend engineered specifically for MOSS 003, providing a wealth of features aimed at enhancing performance and functionality, built upon the foundations of MOSEC and Torch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "Moss Vortex is a lightweight, fast, simple, and high-performance deployment and inference backend engineered specifically for MOSS 003, providing a wealth of features aimed at enhancing performance and functionality, built upon the foundations of MOSEC and Torch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    }
+  ]
+}

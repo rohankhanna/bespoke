@@ -1,0 +1,27 @@
+{
+  "component": "astral-sh/setup-uv@v7.3.0",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "ibis-project/ibis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml",
+      "source_repo": "ibis-project/ibis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "ibis-project/ibis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml",
+      "source_repo": "ibis-project/ibis"
+    }
+  ]
+}

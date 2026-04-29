@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sail-sg/EditAnything",
+      "target": "cheems-seminar/segment-anything-and-name-it",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sail-sg/EditAnything",
+      "target": "sail-sg/mdt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:51:45.245635+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11327
+    },
+    {
+      "path": "requirements.txt",
+      "size": 469
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Edit anything in images  powered by segment-anything, ControlNet, StableDiffusion, etc. (ACM MM)",
+    "fork": false,
+    "full_name": "sail-sg/EditAnything",
+    "html_url": "https://github.com/sail-sg/EditAnything",
+    "language": "Python",
+    "pushed_at": "2025-02-23T04:58:34Z",
+    "stargazers_count": 3430,
+    "topics": [],
+    "updated_at": "2026-04-24T10:19:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cheems-seminar/segment-anything-and-name-it",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sail-sg/mdt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "parameter-efficient-tuning"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate-context",
+      "text": "A Unified Library for Parameter-Efficient and Modular Transfer Learning "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate-context",
+      "text": "<!---"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate",
+      "text": "<!---"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "parameter-efficient-tuning",
+  "concept_id": "parameter-efficient-tuning",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adapter-hub/adapters"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "parameter-efficient-tuning",
+      "sense_id": "parameter-efficient-tuning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

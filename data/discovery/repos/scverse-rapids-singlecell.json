@@ -340,7 +340,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T12:47:00.270227+00:00",
+  "fetched_at": "2026-04-29T20:54:53.117589+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -352,11 +352,11 @@
     },
     {
       "path": ".github/workflows/docker.yml",
-      "size": 7989
+      "size": 8139
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 6422
+      "size": 6454
     },
     {
       "path": ".github/workflows/test-gpu.yml",
@@ -372,8 +372,8 @@
     "full_name": "scverse/rapids-singlecell",
     "html_url": "https://github.com/scverse/rapids-singlecell",
     "language": "Python",
-    "pushed_at": "2026-04-24T00:50:04Z",
-    "stargazers_count": 358,
+    "pushed_at": "2026-04-29T16:02:57Z",
+    "stargazers_count": 359,
     "topics": [
       "anndata",
       "bioinformatics",
@@ -381,7 +381,7 @@
       "scverse",
       "single-cell"
     ],
-    "updated_at": "2026-04-24T01:07:01Z"
+    "updated_at": "2026-04-29T09:36:13Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaojie/ComfyUI-CameraCtrl-Wrapper",
+      "target": "hehao13/cameractrl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:48:29.917904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 765
+    },
+    {
+      "path": "requirements.txt",
+      "size": 135
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "chaojie/ComfyUI-CameraCtrl-Wrapper",
+    "html_url": "https://github.com/chaojie/ComfyUI-CameraCtrl-Wrapper",
+    "language": "Python",
+    "pushed_at": "2024-06-14T09:07:23Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2025-09-13T15:47:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hehao13/cameractrl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

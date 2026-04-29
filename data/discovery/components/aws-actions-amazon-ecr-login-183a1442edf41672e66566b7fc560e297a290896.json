@@ -1,0 +1,12 @@
+{
+  "component": "aws-actions/amazon-ecr-login@183a1442edf41672e66566b7fc560e297a290896",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "Skyvern-AI/skyvern"
+    }
+  ]
+}

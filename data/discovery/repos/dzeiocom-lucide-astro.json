@@ -1,0 +1,372 @@
+{
+  "components": [
+    {
+      "component": "lucide-static",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "semver",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "astro",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "lucide-static",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "semver",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "astro",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yaml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yaml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yaml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yaml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yaml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker.yaml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "Build Docker image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_publish.yml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "Build & Package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "Build, check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "Manual publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "astro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "lucide",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "lucide-astro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "lucide-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dzeiocom/lucide-astro",
+      "target": "node",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:48:44.039957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 66
+    },
+    {
+      "path": "package.json",
+      "size": 987
+    },
+    {
+      "path": ".github/workflows/build_docker.yaml",
+      "size": 1438
+    },
+    {
+      "path": ".github/workflows/build_publish.yml",
+      "size": 1671
+    },
+    {
+      "path": ".github/workflows/check.yaml",
+      "size": 593
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 586
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Astro library to get the Lucide.dev icons to the Astro Framework https://lucide-astro.dzeio.com",
+    "fork": false,
+    "full_name": "dzeiocom/lucide-astro",
+    "html_url": "https://github.com/dzeiocom/lucide-astro",
+    "language": "JavaScript",
+    "pushed_at": "2026-01-05T13:27:29Z",
+    "stargazers_count": 109,
+    "topics": [
+      "astro",
+      "icons",
+      "lucide",
+      "lucide-astro",
+      "lucide-icons",
+      "node"
+    ],
+    "updated_at": "2026-03-31T15:52:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Docker image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_docker.yaml",
+      "term": "Build Docker image"
+    },
+    {
+      "context_snippet": "Build & Package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_publish.yml",
+      "term": "Build & Package"
+    },
+    {
+      "context_snippet": "Build, check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "term": "Build, check"
+    },
+    {
+      "context_snippet": "Manual publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Manual publish"
+    },
+    {
+      "context_snippet": "Project is deprecated, please use `@lucide/astro`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "astro"
+    },
+    {
+      "context_snippet": "Project is deprecated, please use `@lucide/astro`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "Project is deprecated, please use `@lucide/astro`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lucide"
+    },
+    {
+      "context_snippet": "Project is deprecated, please use `@lucide/astro`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lucide-astro"
+    },
+    {
+      "context_snippet": "Project is deprecated, please use `@lucide/astro`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lucide-icons"
+    },
+    {
+      "context_snippet": "Project is deprecated, please use `@lucide/astro`",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    }
+  ]
+}

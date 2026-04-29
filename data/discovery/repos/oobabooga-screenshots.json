@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:42:56.082942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "oobabooga/screenshots",
+    "html_url": "https://github.com/oobabooga/screenshots",
+    "language": null,
+    "pushed_at": "2026-04-23T19:22:16Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-04-23T19:22:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

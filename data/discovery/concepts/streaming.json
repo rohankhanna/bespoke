@@ -127,6 +127,78 @@
       "source_repo": "anacrolix/confluence",
       "status": "candidate-context",
       "text": "confluence"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/seatunnel",
+      "status": "candidate-context",
+      "text": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel",
+      "status": "candidate-context",
+      "text": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"SeaTunnel Logo\" height=\"200px\" align=\"right\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blackjack4494/yt-dlc",
+      "status": "candidate-context",
+      "text": "media downloader and library for various sites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackjack4494/yt-dlc",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/blackjack4494/yt-dlc.svg?branch=master)](https://travis-ci.com/blackjack4494/yt-dlc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awaescher/OllamaSharp",
+      "status": "candidate-context",
+      "text": "The easiest way to use Ollama in .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awaescher/OllamaSharp",
+      "status": "candidate-context",
+      "text": "[![nuget version](https://img.shields.io/nuget/v/OllamaSharp)](https://www.nuget.org/packages/OllamaSharp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FFmpeg/FFmpeg",
+      "status": "candidate-context",
+      "text": "Mirror of https://git.ffmpeg.org/ffmpeg.git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FFmpeg/FFmpeg",
+      "status": "candidate-context",
+      "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/seatunnel-tools",
+      "status": "candidate-context",
+      "text": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-tools",
+      "status": "candidate-context",
+      "text": "**English** | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhiTronix/vidgear",
+      "status": "candidate-context",
+      "text": "A High-performance cross-platform Video Processing Python framework powerpacked with unique trailblazing features :fire:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhiTronix/vidgear",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +261,42 @@
       "source_repo": "anacrolix/confluence",
       "status": "candidate",
       "text": "confluence"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel",
+      "status": "candidate",
+      "text": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"SeaTunnel Logo\" height=\"200px\" align=\"right\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackjack4494/yt-dlc",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/blackjack4494/yt-dlc.svg?branch=master)](https://travis-ci.com/blackjack4494/yt-dlc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awaescher/OllamaSharp",
+      "status": "candidate",
+      "text": "[![nuget version](https://img.shields.io/nuget/v/OllamaSharp)](https://www.nuget.org/packages/OllamaSharp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FFmpeg/FFmpeg",
+      "status": "candidate",
+      "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/seatunnel-tools",
+      "status": "candidate",
+      "text": "**English** | [\u4e2d\u6587](README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhiTronix/vidgear",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -314,11 +422,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "anacrolix/confluence"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/seatunnel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "blackjack4494/yt-dlc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "awaescher/OllamaSharp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FFmpeg/FFmpeg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/seatunnel-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "abhiTronix/vidgear"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

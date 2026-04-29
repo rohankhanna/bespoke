@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "readthedocs/recommonmark",
-      "target": "executablebooks/myst-parser",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "readthedocs/recommonmark",
       "target": "rtfd/recommonmark",
       "target_type": "repository"
     },
@@ -20,6 +13,13 @@
       "source_file": "README.md",
       "source_repo": "readthedocs/recommonmark",
       "target": "rtfd/commonmark-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "readthedocs/recommonmark",
+      "target": "sgenoud/remarkdown",
       "target_type": "repository"
     },
     {
@@ -51,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T13:06:43.338680+00:00",
+  "fetched_at": "2026-04-29T21:01:57.027787+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -79,11 +79,6 @@
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "executablebooks/myst-parser",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "python-parsley/parsley",
       "source_file": "README.md"
     },
@@ -95,6 +90,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "rtfd/recommonmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sgenoud/remarkdown",
       "source_file": "README.md"
     }
   ],

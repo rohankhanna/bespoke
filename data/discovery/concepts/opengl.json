@@ -199,6 +199,66 @@
       "source_repo": "hadronized/glsl",
       "status": "candidate-context",
       "text": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hogsy/chronon",
+      "status": "candidate-context",
+      "text": "This is an open-source reimplementation of Anachronox, built on top of the Quake 2 engine (which funnily enough is the same engine Anachronox was developed upon)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hogsy/chronon",
+      "status": "candidate-context",
+      "text": "Build (Linux GCC x64)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KhronosGroup/KTX-Software",
+      "status": "candidate-context",
+      "text": "KTX (Khronos Texture) Library and Tools"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/KTX-Software",
+      "status": "candidate-context",
+      "text": "<!-- Copyright 2013-2020 Mark Callow -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvpro-samples/nvpro_core2",
+      "status": "candidate-context",
+      "text": "A comprehensive collection of modular libraries for high-performance graphics development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/nvpro_core2",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baldurk/renderdoc",
+      "status": "candidate-context",
+      "text": "RenderDoc is a stand-alone graphics debugging tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baldurk/renderdoc",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nigels-com/glew",
+      "status": "candidate-context",
+      "text": "The OpenGL Extension Wrangler Library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nigels-com/glew",
+      "status": "candidate-context",
+      "text": "The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform. OpenGL core and extension functionality is expo\u2026"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +357,36 @@
       "source_repo": "hadronized/glsl",
       "status": "candidate",
       "text": "The project has moved to [sourcehut](https://sr.ht/~hadronized/glsl)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hogsy/chronon",
+      "status": "candidate",
+      "text": "Build (Linux GCC x64)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KhronosGroup/KTX-Software",
+      "status": "candidate",
+      "text": "<!-- Copyright 2013-2020 Mark Callow -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvpro-samples/nvpro_core2",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](LICENSE)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baldurk/renderdoc",
+      "status": "candidate",
+      "text": "<p align=\"center\"><img src=\"https://user-images.githubusercontent.com/661798/36482670-f81601c0-170b-11e8-8adb-2365b346ac27.png\" /></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nigels-com/glew",
+      "status": "candidate",
+      "text": "The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform. OpenGL core and extension functionality is expo\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -436,11 +526,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "hadronized/glsl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hogsy/chronon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hadronized/glsl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "KhronosGroup/KTX-Software"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvpro-samples/nvpro_core2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baldurk/renderdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nigels-com/glew"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

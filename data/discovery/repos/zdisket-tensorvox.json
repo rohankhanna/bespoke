@@ -1,0 +1,220 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZDisket/TensorVox",
+      "target": "adamstark/audiofile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZDisket/TensorVox",
+      "target": "jorgen-vikinggod/qt-frameless-window-darkstyle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZDisket/TensorVox",
+      "target": "avaneev/r8brain-free-src",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ZDisket/TensorVox",
+      "target": "almogh52/rnnoise-cmake",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZDisket/TensorVox",
+      "target": "desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZDisket/TensorVox",
+      "target": "fastspeech2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZDisket/TensorVox",
+      "target": "mb-melgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZDisket/TensorVox",
+      "target": "multiband-melgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZDisket/TensorVox",
+      "target": "phoneme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZDisket/TensorVox",
+      "target": "real-time",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZDisket/TensorVox",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZDisket/TensorVox",
+      "target": "tacotron2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZDisket/TensorVox",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ZDisket/TensorVox",
+      "target": "voice-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:46:04.316329+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6403
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Desktop application for neural speech synthesis written in C++",
+    "fork": false,
+    "full_name": "ZDisket/TensorVox",
+    "html_url": "https://github.com/ZDisket/TensorVox",
+    "language": "C++",
+    "pushed_at": "2026-02-05T02:14:58Z",
+    "stargazers_count": 213,
+    "topics": [
+      "desktop",
+      "fastspeech2",
+      "mb-melgan",
+      "multiband-melgan",
+      "phoneme",
+      "real-time",
+      "speech-synthesis",
+      "tacotron2",
+      "text-to-speech",
+      "tts",
+      "voice-synthesis"
+    ],
+    "updated_at": "2026-03-31T20:44:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adamstark/audiofile",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "almogh52/rnnoise-cmake",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "avaneev/r8brain-free-src",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jorgen-vikinggod/qt-frameless-window-darkstyle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "desktop"
+    },
+    {
+      "context_snippet": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fastspeech2"
+    },
+    {
+      "context_snippet": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mb-melgan"
+    },
+    {
+      "context_snippet": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiband-melgan"
+    },
+    {
+      "context_snippet": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phoneme"
+    },
+    {
+      "context_snippet": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-time"
+    },
+    {
+      "context_snippet": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tacotron2"
+    },
+    {
+      "context_snippet": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "TensorVox is an application designed to enable user-friendly and lightweight neural speech synthesis in the desktop, aimed at increasing accessibility to such technology.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-synthesis"
+    }
+  ]
+}

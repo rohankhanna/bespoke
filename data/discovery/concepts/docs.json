@@ -1097,6 +1097,198 @@
       "source_repo": "5sControl/5s-dev-documentation",
       "status": "candidate-context",
       "text": "<br><br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mindspore-lab/mindocr",
+      "status": "candidate-context",
+      "text": "A toolbox of ocr models and algorithms based on MindSpore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mindspore-lab/mindocr",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-pillow/Pillow",
+      "status": "candidate-context",
+      "text": "Python Imaging Library (fork)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-pillow/Pillow",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "assemble/assemble",
+      "status": "candidate-context",
+      "text": "Get the rocks out of your socks! Assemble makes you fast at web development! Used by thousands of projects for rapid prototyping, themes, scaffolds, boilerplates, e-books, UI components, API documentation, blogs, building websites/static site generator, an alternative to Jekyll for gh-pages and more! Gulp- and grunt-friendly.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assemble/assemble",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teal-language/tl",
+      "status": "candidate-context",
+      "text": "The compiler for Teal, a typed dialect of Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teal-language/tl",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "status": "candidate-context",
+      "text": "lsp-mode :heart: dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "verbose/verb",
+      "status": "candidate-context",
+      "text": "HEADS UP! Verb is going though a major transition, we've completely refactored everything from the ground up. If you're interested, please see the dev branch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbose/verb",
+      "status": "candidate-context",
+      "text": "> Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used on hundreds of projects of all sizes to generate everything from API docs to readmes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "A neovim integration for television"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twbs/bootstrap",
+      "status": "candidate-context",
+      "text": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twbs/bootstrap",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Olive",
+      "status": "candidate-context",
+      "text": "Olive: Simplify ML Model Finetuning, Conversion, Quantization, and Optimization for CPUs, GPUs and NPUs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Olive",
+      "status": "candidate-context",
+      "text": "\"Docs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-pillow/pillow-perf",
+      "status": "candidate-context",
+      "text": "Pillow Performance Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-pillow/pillow-perf",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter/nbconvert",
+      "status": "candidate-context",
+      "text": "Jupyter Notebook Conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/nbconvert",
+      "status": "candidate-context",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mkdocstrings/griffe",
+      "status": "candidate-context",
+      "text": "Signatures for entire Python programs. Extract the structure, the frame, the skeleton of your project, to generate API documentation or find breaking changes in your API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkdocstrings/griffe",
+      "status": "candidate-context",
+      "text": "[![ci](https://github.com/mkdocstrings/griffe/workflows/ci/badge.svg)](https://github.com/mkdocstrings/griffe/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AstraZeneca/runnable",
+      "status": "candidate-context",
+      "text": "Runnable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AstraZeneca/runnable",
+      "status": "candidate-context",
+      "text": "docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5Scontrol-manual",
+      "status": "candidate-context",
+      "text": "User documentation for 5controlS platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5Scontrol-manual",
+      "status": "candidate-context",
+      "text": "<br><br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tsroten/zhon",
+      "status": "candidate-context",
+      "text": "Constants used in Chinese text processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsroten/zhon",
+      "status": "candidate-context",
+      "text": "docs"
     }
   ],
   "candidate_glosses": [
@@ -1645,6 +1837,102 @@
       "source_repo": "5sControl/5s-dev-documentation",
       "status": "candidate",
       "text": "<br><br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mindspore-lab/mindocr",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-pillow/Pillow",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assemble/assemble",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teal-language/tl",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbose/verb",
+      "status": "candidate",
+      "text": "> Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used on hundreds of projects of all sizes to generate everything from API docs to readmes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twbs/bootstrap",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Olive",
+      "status": "candidate",
+      "text": "\"Docs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-pillow/pillow-perf",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/nbconvert",
+      "status": "candidate",
+      "text": "Docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mkdocstrings/griffe",
+      "status": "candidate",
+      "text": "[![ci](https://github.com/mkdocstrings/griffe/workflows/ci/badge.svg)](https://github.com/mkdocstrings/griffe/actions?query=workflow%3Aci)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AstraZeneca/runnable",
+      "status": "candidate",
+      "text": "docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5Scontrol-manual",
+      "status": "candidate",
+      "text": "<br><br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tsroten/zhon",
+      "status": "candidate",
+      "text": "docs"
     }
   ],
   "candidate_related_terms": [
@@ -2406,11 +2694,155 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "5sControl/5s-dev-documentation"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mindspore-lab/mindocr"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "python-pillow/Pillow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "assemble/assemble"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "teal-language/tl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/lsp-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/panvimdoc.yaml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "verbose/verb"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "alexpasmantier/tv.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-casbin.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "twbs/bootstrap"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "absadiki/pywhispercpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "microsoft/Olive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "meta-pytorch/torchft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "python-pillow/pillow-perf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jupyter/nbconvert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mkdocstrings/griffe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "AstraZeneca/runnable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "5sControl/5Scontrol-manual"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "tsroten/zhon"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

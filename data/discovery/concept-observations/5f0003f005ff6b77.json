@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A module for MagicMirror displaying the song currently streaming on your librespot java speaker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "librespot-java",
+      "sense_id": "librespot-java#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "librespot-java",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "librespot-java",
+  "observation_id": "5f0003f005ff6b77",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "librespot-java",
+  "source_context_snippet": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine.",
+  "source_file": null,
+  "source_repo": "l3d00m/MMM-LibrespotJava",
+  "source_repo_description": "A module for MagicMirror displaying the song currently streaming on your librespot java speaker."
+}

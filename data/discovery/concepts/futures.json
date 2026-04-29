@@ -43,6 +43,18 @@
       "source_repo": "smol-rs/smol",
       "status": "candidate-context",
       "text": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mtrebi/thread-pool",
+      "status": "candidate-context",
+      "text": "Thread pool implementation using c++11 threads "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtrebi/thread-pool",
+      "status": "candidate-context",
+      "text": "&nbsp;[Introduction](https://github.com/mtrebi/thread-pool/blob/master/README.md#introduction) <br/>"
     }
   ],
   "candidate_glosses": [
@@ -57,6 +69,12 @@
       "source_repo": "smol-rs/smol",
       "status": "candidate",
       "text": "[![Build](https://github.com/smol-rs/smol/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mtrebi/thread-pool",
+      "status": "candidate",
+      "text": "&nbsp;[Introduction](https://github.com/mtrebi/thread-pool/blob/master/README.md#introduction) <br/>"
     }
   ],
   "candidate_related_terms": [
@@ -118,11 +136,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "smol-rs/smol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mtrebi/thread-pool"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

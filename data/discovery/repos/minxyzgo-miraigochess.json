@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Minxyzgo/MiraiGoChess",
+      "target": "lightvector/katago",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Minxyzgo/MiraiGoChess",
+      "target": "mirai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Minxyzgo/MiraiGoChess",
+      "target": "mirai-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Minxyzgo/MiraiGoChess",
+      "target": "mirai-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Minxyzgo/MiraiGoChess",
+      "target": "qqbot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:41:33.038209+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 701
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u4e00\u4e2aMirai\u7684\u5f00\u6e90\u56f4\u68cb\u63d2\u4ef6",
+    "fork": false,
+    "full_name": "Minxyzgo/MiraiGoChess",
+    "html_url": "https://github.com/Minxyzgo/MiraiGoChess",
+    "language": "Kotlin",
+    "pushed_at": "2023-04-02T17:06:31Z",
+    "stargazers_count": 16,
+    "topics": [
+      "mirai",
+      "mirai-bot",
+      "mirai-plugin",
+      "qq",
+      "qqbot"
+    ],
+    "updated_at": "2025-09-30T04:15:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lightvector/katago",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\u57fa\u4e8eMiraiConsole \u7684\u4e00\u4e2a\u5f00\u6e90\u56f4\u68cb\u63d2\u4ef6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai"
+    },
+    {
+      "context_snippet": "\u57fa\u4e8eMiraiConsole \u7684\u4e00\u4e2a\u5f00\u6e90\u56f4\u68cb\u63d2\u4ef6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai-bot"
+    },
+    {
+      "context_snippet": "\u57fa\u4e8eMiraiConsole \u7684\u4e00\u4e2a\u5f00\u6e90\u56f4\u68cb\u63d2\u4ef6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai-plugin"
+    },
+    {
+      "context_snippet": "\u57fa\u4e8eMiraiConsole \u7684\u4e00\u4e2a\u5f00\u6e90\u56f4\u68cb\u63d2\u4ef6",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qqbot"
+    }
+  ]
+}

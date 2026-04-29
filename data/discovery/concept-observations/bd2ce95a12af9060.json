@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Gatsby Publish"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Gatsby Publish"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11175,
+      "status": "candidate",
+      "text": "great"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5165,
+      "status": "candidate",
+      "text": "boa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5165,
+      "status": "candidate",
+      "text": "daisy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5165,
+      "status": "candidate",
+      "text": "f. scott fitzgerald"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5165,
+      "status": "candidate",
+      "text": "fitzgerald"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Gatsby Publish",
+      "sense_id": "gatsby-publish#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "gatsby-publish",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gatsby-publish",
+  "observation_id": "bd2ce95a12af9060",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Gatsby Publish",
+  "source_context_snippet": "Gatsby Publish",
+  "source_file": ".github/workflows/main.yml",
+  "source_repo": "aws-otel/aws-otel.github.io",
+  "source_repo_description": null
+}

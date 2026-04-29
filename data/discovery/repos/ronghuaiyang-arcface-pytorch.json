@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ronghuaiyang/arcface-pytorch",
+      "target": "auroua/insightface_tf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ronghuaiyang/arcface-pytorch",
+      "target": "mugglewang/cosface_pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:01.515790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ronghuaiyang/arcface-pytorch",
+    "html_url": "https://github.com/ronghuaiyang/arcface-pytorch",
+    "language": "Python",
+    "pushed_at": "2021-12-09T11:00:04Z",
+    "stargazers_count": 1892,
+    "topics": [],
+    "updated_at": "2026-04-19T06:54:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "auroua/insightface_tf",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mugglewang/cosface_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

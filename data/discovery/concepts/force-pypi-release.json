@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Force PyPI Release"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AstraZeneca/runnable",
+      "status": "candidate-context",
+      "text": "Runnable"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AstraZeneca/runnable",
+      "status": "candidate-context",
+      "text": "Force PyPI Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AstraZeneca/runnable",
+      "status": "candidate",
+      "text": "Force PyPI Release"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29830,
+      "status": "candidate",
+      "text": "erupt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28630,
+      "status": "candidate",
+      "text": "burst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28630,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28630,
+      "status": "candidate",
+      "text": "flush"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28574,
+      "status": "candidate",
+      "text": "boot"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Force PyPI Release",
+  "concept_id": "force-pypi-release",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/force-pypi.yaml",
+      "source_repo": "AstraZeneca/runnable"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Force PyPI Release",
+      "sense_id": "force-pypi-release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

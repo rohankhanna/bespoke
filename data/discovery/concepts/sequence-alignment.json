@@ -43,6 +43,18 @@
       "source_repo": "lh3/minimap2",
       "status": "candidate-context",
       "text": "[![GitHub Downloads](https://img.shields.io/github/downloads/lh3/minimap2/total.svg?style=social&logo=github&label=Download)](https://github.com/lh3/minimap2/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lh3/ksw2",
+      "status": "candidate-context",
+      "text": "Global alignment and alignment extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lh3/ksw2",
+      "status": "candidate-context",
+      "text": "KSW2 is a library to align a pair of biological sequences based on dynamic"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "lh3/minimap2",
       "status": "candidate",
       "text": "[![GitHub Downloads](https://img.shields.io/github/downloads/lh3/minimap2/total.svg?style=social&logo=github&label=Download)](https://github.com/lh3/minimap2/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lh3/ksw2",
+      "status": "candidate",
+      "text": "KSW2 is a library to align a pair of biological sequences based on dynamic"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "lh3/minimap2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lh3/ksw2"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

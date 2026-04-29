@@ -91,6 +91,18 @@
       "source_repo": "reasoning-machines/pal",
       "status": "candidate-context",
       "text": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hendrycks/math",
+      "status": "candidate-context",
+      "text": "The MATH Dataset (NeurIPS 2021)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hendrycks/math",
+      "status": "candidate-context",
+      "text": "This is the repository for [Measuring Mathematical Problem Solving With the MATH Dataset](https://arxiv.org/pdf/2103.03874) by"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "reasoning-machines/pal",
       "status": "candidate",
       "text": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hendrycks/math",
+      "status": "candidate",
+      "text": "This is the repository for [Measuring Mathematical Problem Solving With the MATH Dataset](https://arxiv.org/pdf/2103.03874) by"
     }
   ],
   "candidate_related_terms": [
@@ -255,11 +273,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hendrycks/math"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

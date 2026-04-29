@@ -19,12 +19,30 @@
       "source_repo": "Homebrew/homebrew-core",
       "status": "candidate-context",
       "text": "Clean up closed PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/homebrew-cask",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-cask",
+      "status": "candidate-context",
+      "text": "Clean up closed PRs"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "Homebrew/homebrew-core",
+      "status": "candidate",
+      "text": "Clean up closed PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-cask",
       "status": "candidate",
       "text": "Clean up closed PRs"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/clean-up-closed-prs.yml",
       "source_repo": "Homebrew/homebrew-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/clean-up-closed-prs.yml",
+      "source_repo": "Homebrew/homebrew-cask"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

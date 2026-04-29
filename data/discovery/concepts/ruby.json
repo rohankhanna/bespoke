@@ -568,6 +568,138 @@
       "source_repo": "fffaraz/awesome-cpp",
       "status": "candidate-context",
       "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "status": "candidate-context",
+      "text": "Step-by-step debugging and stack navigation in Pry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "status": "candidate-context",
+      "text": "[![Version][VersionBadge]][VersionURL]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "licensee/licensee",
+      "status": "candidate-context",
+      "text": "A Ruby Gem to detect under what license a project is distributed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "licensee/licensee",
+      "status": "candidate-context",
+      "text": "FROM ruby:3.4.7@sha256:779ca68b84fe3804e27f5b7ea5ab001005c708b7236a798c15b860d71cba9d21 WORKDIR /usr/src/app RUN git init RUN apt-get update && apt-get install -y cmake COPY Gemfile licensee.gemspec ./ COPY lib/licensee/version.rb ./lib/licensee/version.rb RUN bundle install COP\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "status": "candidate-context",
+      "text": "Cloud Foundry Cloud Controller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "status": "candidate-context",
+      "text": "[![Code Climate](https://api.codeclimate.com/v1/badges/aa47fb93c59ced5fcc4f/maintainability)](https://codeclimate.com/github/cloudfoundry/cloud_controller_ng)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate-context",
+      "text": ":atom:  Atom client for Tabnine - Code Faster with the All-Language AI Assistant for Code Completion, autocomplete JavaScript, Python, TypeScript, PHP, Go, Java, node.js, Ruby, C/C++, HTML/CSS, C#, Rust, SQL, Bash, Kotlin, React, Swift, Scala, Sass, Perl, Objective C, Node JS, Matlab, Haskell, Dart, Angular. https://atom.io/packages/tabnine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dpep/ice_age_rb",
+      "status": "candidate-context",
+      "text": "Freeze your ENVironment for testing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dpep/ice_age_rb",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "thoughtbot/climate_control",
+      "status": "candidate-context",
+      "text": "Modify your ENV"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/climate_control",
+      "status": "candidate-context",
+      "text": "![GitHub Actions CI](https://github.com/thoughtbot/climate_control/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jordansissel/fpm",
+      "status": "candidate-context",
+      "text": "Effing package management! Build packages for multiple platforms (deb, rpm, etc) with great ease and sanity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordansissel/fpm",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intridea/multi_json",
+      "status": "candidate-context",
+      "text": "A generic swappable back-end for JSON handling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intridea/multi_json",
+      "status": "candidate-context",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "A High Performance HTTP Server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nixme/pry-nav",
+      "status": "candidate-context",
+      "text": "Binding navigation commands for Pry to make a simple debugger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nixme/pry-nav",
+      "status": "candidate-context",
+      "text": "Ruby"
     }
   ],
   "candidate_glosses": [
@@ -856,6 +988,72 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fffaraz/awesome-cpp",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "status": "candidate",
+      "text": "[![Version][VersionBadge]][VersionURL]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "licensee/licensee",
+      "status": "candidate",
+      "text": "FROM ruby:3.4.7@sha256:779ca68b84fe3804e27f5b7ea5ab001005c708b7236a798c15b860d71cba9d21 WORKDIR /usr/src/app RUN git init RUN apt-get update && apt-get install -y cmake COPY Gemfile licensee.gemspec ./ COPY lib/licensee/version.rb ./lib/licensee/version.rb RUN bundle install COP\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloudfoundry/cloud_controller_ng",
+      "status": "candidate",
+      "text": "[![Code Climate](https://api.codeclimate.com/v1/badges/aa47fb93c59ced5fcc4f/maintainability)](https://codeclimate.com/github/cloudfoundry/cloud_controller_ng)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dpep/ice_age_rb",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "thoughtbot/climate_control",
+      "status": "candidate",
+      "text": "![GitHub Actions CI](https://github.com/thoughtbot/climate_control/actions/workflows/ci.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jordansissel/fpm",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intridea/multi_json",
+      "status": "candidate",
+      "text": "Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nixme/pry-nav",
       "status": "candidate",
       "text": "Ruby"
     }
@@ -1243,11 +1441,83 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/ruby.yml",
       "source_repo": "fffaraz/awesome-cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "deivid-rodriguez/pry-byebug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "licensee/licensee"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cloudfoundry/cloud_controller_ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-atom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "dpep/ice_age_rb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "thoughtbot/climate_control"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "jordansissel/fpm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "intridea/multi_json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ohler55/agoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "extism/extism"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "nixme/pry-nav"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/ruby-build"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

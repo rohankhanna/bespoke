@@ -1,0 +1,12 @@
+{
+  "component": "yezz123/setup-uv@v4",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.disabled",
+      "source_repo": "open-webui/open-webui"
+    }
+  ]
+}

@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/CONTEXT.md",
+      "target": "context-handling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/CONTEXT.md",
+      "target": "context-management",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "danielrosehill/CONTEXT.md",
+      "target": "ideas",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:53:20.860833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3683
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Notes, loader for project context as a single markdown file (method)",
+    "fork": false,
+    "full_name": "danielrosehill/CONTEXT.md",
+    "html_url": "https://github.com/danielrosehill/CONTEXT.md",
+    "language": null,
+    "pushed_at": "2025-10-27T14:58:34Z",
+    "stargazers_count": 1,
+    "topics": [
+      "context-handling",
+      "context-management",
+      "ideas"
+    ],
+    "updated_at": "2026-01-10T23:04:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![alt text](graphics/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "context-handling"
+    },
+    {
+      "context_snippet": "![alt text](graphics/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "context-management"
+    },
+    {
+      "context_snippet": "![alt text](graphics/banner.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ideas"
+    }
+  ]
+}

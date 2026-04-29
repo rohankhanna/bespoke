@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFD-Illinois/iharm3d",
+      "target": "afd-illinois/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFD-Illinois/iharm3d",
+      "target": "afd-illinois/pyharm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFD-Illinois/iharm3d",
+      "target": "afd-illinois/iharm2d_v3",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:42:10.673400+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10925
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Hybrid MPI/OpenMP 3D HARM with vectorization",
+    "fork": false,
+    "full_name": "AFD-Illinois/iharm3d",
+    "html_url": "https://github.com/AFD-Illinois/iharm3d",
+    "language": "C",
+    "pushed_at": "2026-04-10T00:38:37Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-10T00:38:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afd-illinois/docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afd-illinois/iharm2d_v3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afd-illinois/pyharm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

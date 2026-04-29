@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jixiuf/vterm-toggle",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jixiuf/vterm-toggle",
+      "target": "libvterm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jixiuf/vterm-toggle",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jixiuf/vterm-toggle",
+      "target": "vterm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:51:06.607934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6328
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "toggles between the vterm buffer and whatever buffer you are editing.",
+    "fork": false,
+    "full_name": "jixiuf/vterm-toggle",
+    "html_url": "https://github.com/jixiuf/vterm-toggle",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-20T12:44:17Z",
+    "stargazers_count": 220,
+    "topics": [
+      "emacs",
+      "libvterm",
+      "terminal",
+      "vterm"
+    ],
+    "updated_at": "2026-04-26T07:14:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/vterm-toggle-badge.svg)](https://melpa.org/#/vterm-toggle)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/vterm-toggle-badge.svg)](https://melpa.org/#/vterm-toggle)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libvterm"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/vterm-toggle-badge.svg)](https://melpa.org/#/vterm-toggle)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "[![MELPA](https://melpa.org/packages/vterm-toggle-badge.svg)](https://melpa.org/#/vterm-toggle)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vterm"
+    }
+  ]
+}

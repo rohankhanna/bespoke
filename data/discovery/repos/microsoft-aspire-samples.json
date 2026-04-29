@@ -108,13 +108,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "microsoft/aspire-samples",
-      "target": "dotnet/eshop",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "microsoft/aspire-samples",
       "target": "dotnet/aspire",
       "target_type": "repository"
     },
@@ -259,7 +252,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:09:43.355020+00:00",
+  "fetched_at": "2026-04-29T21:59:18.917882+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -303,10 +296,10 @@
     "full_name": "microsoft/aspire-samples",
     "html_url": "https://github.com/microsoft/aspire-samples",
     "language": "C#",
-    "pushed_at": "2026-04-23T21:43:13Z",
-    "stargazers_count": 1167,
+    "pushed_at": "2026-04-28T07:00:42Z",
+    "stargazers_count": 1170,
     "topics": [],
-    "updated_at": "2026-04-20T15:56:09Z"
+    "updated_at": "2026-04-29T13:03:27Z"
   },
   "repo_links": [
     {
@@ -317,11 +310,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "dotnet/aspire-samples",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "dotnet/eshop",
       "source_file": "README.md"
     }
   ],

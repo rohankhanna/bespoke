@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -226,6 +226,51 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "gopasspw/gopass-summon-provider"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "google/trillian"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "ameshkov/dnscrypt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "go-bun/bun-starter-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "go-bun/bun-realworld-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "auth0/go-jwt-middleware"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "prometheus/node_exporter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "opencost/opencost"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "prometheus/blackbox_exporter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "gomodule/redigo"
     }
   ],
   "term": "golangci-lint"

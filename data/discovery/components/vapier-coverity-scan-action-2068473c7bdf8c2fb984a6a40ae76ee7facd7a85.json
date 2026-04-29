@@ -1,0 +1,12 @@
+{
+  "component": "vapier/coverity-scan-action@2068473c7bdf8c2fb984a6a40ae76ee7facd7a85",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    }
+  ]
+}

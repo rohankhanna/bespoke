@@ -441,28 +441,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ashvardanian/NumKong",
-      "target": "openmathlib/openblas",
+      "target": "scikit-learn/scikit-learn",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ashvardanian/NumKong",
-      "target": "joblib/threadpoolctl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ashvardanian/NumKong",
-      "target": "numpy/numpy",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ashvardanian/NumKong",
-      "target": "giaf/blasfeo",
+      "target": "rapidsai/raft",
       "target_type": "repository"
     },
     {
@@ -809,7 +795,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:14:05.084019+00:00",
+  "fetched_at": "2026-04-29T19:41:54.022945+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -862,7 +848,7 @@
     "html_url": "https://github.com/ashvardanian/NumKong",
     "language": "C",
     "pushed_at": "2026-04-23T20:15:25Z",
-    "stargazers_count": 1801,
+    "stargazers_count": 1805,
     "topics": [
       "arm-neon",
       "assembly",
@@ -881,27 +867,17 @@
       "tensor",
       "vector-search"
     ],
-    "updated_at": "2026-04-23T18:44:51Z"
+    "updated_at": "2026-04-29T06:00:27Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "giaf/blasfeo",
+      "full_name": "rapidsai/raft",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "joblib/threadpoolctl",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "numpy/numpy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openmathlib/openblas",
+      "full_name": "scikit-learn/scikit-learn",
       "source_file": "README.md"
     }
   ],

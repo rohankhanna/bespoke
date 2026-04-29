@@ -25,6 +25,18 @@
       "source_repo": "criterion-rs/criterion.rs",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">Criterion.<span></span>rs</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locustio/locust",
+      "status": "candidate-context",
+      "text": "Write scalable load tests in plain Python \ud83d\ude97\ud83d\udca8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locustio/locust",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/locust.svg)](https://pypi.org/project/locust/)"
     }
   ],
   "candidate_glosses": [
@@ -39,6 +51,12 @@
       "source_repo": "criterion-rs/criterion.rs",
       "status": "candidate",
       "text": "<h1 align=\"center\">Criterion.<span></span>rs</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locustio/locust",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/locust.svg)](https://pypi.org/project/locust/)"
     }
   ],
   "candidate_related_terms": [],
@@ -58,11 +76,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "criterion-rs/criterion.rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "locustio/locust"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

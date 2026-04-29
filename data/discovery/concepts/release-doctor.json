@@ -67,6 +67,42 @@
       "source_repo": "ogx-ai/llama-stack-client-python",
       "status": "candidate-context",
       "text": "Release Doctor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ogx-ai/ogx-client-python",
+      "status": "candidate-context",
+      "text": "Python SDK for OGX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogx-ai/ogx-client-python",
+      "status": "candidate-context",
+      "text": "Release Doctor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ogx-ai/ogx-client-typescript",
+      "status": "candidate-context",
+      "text": "Typescript library for OGX"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogx-ai/ogx-client-typescript",
+      "status": "candidate-context",
+      "text": "Release Doctor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "groq/groq-python",
+      "status": "candidate-context",
+      "text": "The official Python Library for the Groq API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "groq/groq-python",
+      "status": "candidate-context",
+      "text": "Release Doctor"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +133,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ogx-ai/llama-stack-client-python",
+      "status": "candidate",
+      "text": "Release Doctor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogx-ai/ogx-client-python",
+      "status": "candidate",
+      "text": "Release Doctor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ogx-ai/ogx-client-typescript",
+      "status": "candidate",
+      "text": "Release Doctor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "groq/groq-python",
       "status": "candidate",
       "text": "Release Doctor"
     }
@@ -244,11 +298,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release-doctor.yml",
       "source_repo": "ogx-ai/llama-stack-client-typescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release-doctor.yml",
+      "source_repo": "ogx-ai/ogx-client-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release-doctor.yml",
+      "source_repo": "ogx-ai/ogx-client-typescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release-doctor.yml",
+      "source_repo": "groq/groq-python"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

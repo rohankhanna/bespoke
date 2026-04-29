@@ -84,7 +84,7 @@
   "normalized_form": "fix-formatting",
   "observation_id": "501aaa6262f3ef33",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Fix formatting",
   "source_context_snippet": "Fix formatting",
   "source_file": ".github/workflows/fix-formatting.yaml",

@@ -129,6 +129,18 @@
       "source_repo": "redis/redis-om-python",
       "status": "candidate-context",
       "text": "spellcheck"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teal-language/tl",
+      "status": "candidate-context",
+      "text": "The compiler for Teal, a typed dialect of Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teal-language/tl",
+      "status": "candidate-context",
+      "text": "spellcheck"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +201,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "redis/redis-om-python",
+      "status": "candidate",
+      "text": "spellcheck"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teal-language/tl",
       "status": "candidate",
       "text": "spellcheck"
     }
@@ -342,11 +360,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/spellcheck.yml",
       "source_repo": "meta-llama/llama-cookbook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "teal-language/tl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "redis/redis-om-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/spellcheck.yml",
+      "source_repo": "meta-llama/llama-cookbook"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

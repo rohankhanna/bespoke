@@ -67,6 +67,30 @@
       "source_repo": "r-spatial/stars",
       "status": "candidate-context",
       "text": "pkgdown"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nx10/httpgd",
+      "status": "candidate-context",
+      "text": "Asynchronous HTTP/WebSocket graphics device for R with an interactive plot viewer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx10/httpgd",
+      "status": "candidate-context",
+      "text": "pkgdown"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rspatial/raster",
+      "status": "candidate-context",
+      "text": "R raster package https://rspatial.github.io/raster/reference/raster-package.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspatial/raster",
+      "status": "candidate-context",
+      "text": "pkgdown"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +121,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "r-spatial/stars",
+      "status": "candidate",
+      "text": "pkgdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx10/httpgd",
+      "status": "candidate",
+      "text": "pkgdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspatial/raster",
       "status": "candidate",
       "text": "pkgdown"
     }
@@ -136,11 +172,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/pkgdown.yaml",
       "source_repo": "r-spatial/stars"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "nx10/httpgd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pkgdown.yaml",
+      "source_repo": "rspatial/raster"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

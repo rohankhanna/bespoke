@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zarazhangrui/frontend-slides",
+      "target": "ai-slides",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zarazhangrui/frontend-slides",
+      "target": "anthropic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zarazhangrui/frontend-slides",
+      "target": "claude-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zarazhangrui/frontend-slides",
+      "target": "claude-skill",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zarazhangrui/frontend-slides",
+      "target": "generative-ui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zarazhangrui/frontend-slides",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zarazhangrui/frontend-slides",
+      "target": "presentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zarazhangrui/frontend-slides",
+      "target": "slides",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zarazhangrui/frontend-slides",
+      "target": "vibe-coding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:53:10.796047+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6641
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Create beautiful slides on the web using Claude's frontend skills",
+    "fork": false,
+    "full_name": "zarazhangrui/frontend-slides",
+    "html_url": "https://github.com/zarazhangrui/frontend-slides",
+    "language": "Shell",
+    "pushed_at": "2026-04-08T18:23:28Z",
+    "stargazers_count": 16054,
+    "topics": [
+      "ai-slides",
+      "anthropic",
+      "claude",
+      "claude-code",
+      "claude-skill",
+      "generative-ui",
+      "html",
+      "presentation",
+      "slides",
+      "vibe-coding"
+    ],
+    "updated_at": "2026-04-29T19:30:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-slides"
+    },
+    {
+      "context_snippet": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anthropic"
+    },
+    {
+      "context_snippet": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-code"
+    },
+    {
+      "context_snippet": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-skill"
+    },
+    {
+      "context_snippet": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ui"
+    },
+    {
+      "context_snippet": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "presentation"
+    },
+    {
+      "context_snippet": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "slides"
+    },
+    {
+      "context_snippet": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vibe-coding"
+    }
+  ]
+}

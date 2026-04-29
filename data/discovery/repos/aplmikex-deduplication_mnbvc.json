@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aplmikex/deduplication_mnbvc",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aplmikex/deduplication_mnbvc",
+      "target": "chinese-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aplmikex/deduplication_mnbvc",
+      "target": "chinese-nlp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aplmikex/deduplication_mnbvc",
+      "target": "chinese-simplified",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aplmikex/deduplication_mnbvc",
+      "target": "corpus-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aplmikex/deduplication_mnbvc",
+      "target": "nlp-machine-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:38:10.746753+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 929
+    },
+    {
+      "path": "requirements.txt",
+      "size": 113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u6587\u672c\u53bb\u91cd",
+    "fork": false,
+    "full_name": "aplmikex/deduplication_mnbvc",
+    "html_url": "https://github.com/aplmikex/deduplication_mnbvc",
+    "language": "Python",
+    "pushed_at": "2024-05-23T14:00:07Z",
+    "stargazers_count": 78,
+    "topics": [
+      "chinese",
+      "chinese-language",
+      "chinese-nlp",
+      "chinese-simplified",
+      "corpus-data",
+      "nlp",
+      "nlp-machine-learning"
+    ],
+    "updated_at": "2026-02-10T07:23:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\u672c\u9879\u76ee\u7684\u4e3b\u8981\u76ee\u7684\u662f\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "\u672c\u9879\u76ee\u7684\u4e3b\u8981\u76ee\u7684\u662f\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-language"
+    },
+    {
+      "context_snippet": "\u672c\u9879\u76ee\u7684\u4e3b\u8981\u76ee\u7684\u662f\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-nlp"
+    },
+    {
+      "context_snippet": "\u672c\u9879\u76ee\u7684\u4e3b\u8981\u76ee\u7684\u662f\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese-simplified"
+    },
+    {
+      "context_snippet": "\u672c\u9879\u76ee\u7684\u4e3b\u8981\u76ee\u7684\u662f\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "corpus-data"
+    },
+    {
+      "context_snippet": "\u672c\u9879\u76ee\u7684\u4e3b\u8981\u76ee\u7684\u662f\uff1a",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nlp-machine-learning"
+    }
+  ]
+}

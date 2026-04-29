@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/btree",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/btree",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "google/btree",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:58:06.382061+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 371
+    },
+    {
+      "path": "go.mod",
+      "size": 629
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 543
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "BTree provides a simple, ordered, in-memory data structure for Go programs.",
+    "fork": false,
+    "full_name": "google/btree",
+    "html_url": "https://github.com/google/btree",
+    "language": "Go",
+    "pushed_at": "2024-08-21T16:46:53Z",
+    "stargazers_count": 4155,
+    "topics": [],
+    "updated_at": "2026-04-25T11:48:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

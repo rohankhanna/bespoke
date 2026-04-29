@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check PR Checklist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate-context",
+      "text": " Extension for Scikit-learn is a seamless way to speed up your Scikit-learn application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate-context",
+      "text": "Check PR Checklist"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate",
+      "text": "Check PR Checklist"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22810,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15323,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15202,
+      "status": "candidate",
+      "text": "list"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15081,
+      "status": "candidate",
+      "text": "listing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15081,
+      "status": "candidate",
+      "text": "roster"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check PR Checklist",
+  "concept_id": "check-pr-checklist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr-checklist.yml",
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check PR Checklist",
+      "sense_id": "check-pr-checklist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

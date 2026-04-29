@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish to the Bazel Central Registry"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EngFlow/gazelle_cc",
+      "status": "candidate-context",
+      "text": "Public repository for the Gazelle C++ extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EngFlow/gazelle_cc",
+      "status": "candidate-context",
+      "text": "Publish to the Bazel Central Registry"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EngFlow/gazelle_cc",
+      "status": "candidate",
+      "text": "Publish to the Bazel Central Registry"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37092,
+      "status": "candidate",
+      "text": "registration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21819,
+      "status": "candidate",
+      "text": "register"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21819,
+      "status": "candidate",
+      "text": "registered"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21809,
+      "status": "candidate",
+      "text": "book"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21809,
+      "status": "candidate",
+      "text": "file"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish to the Bazel Central Registry",
+  "concept_id": "publish-to-the-bazel-central-registry",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-to-bcr.yaml",
+      "source_repo": "EngFlow/gazelle_cc"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish to the Bazel Central Registry",
+      "sense_id": "publish-to-the-bazel-central-registry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

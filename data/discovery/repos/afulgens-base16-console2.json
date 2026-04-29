@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFulgens/base16-console2",
+      "target": "wuqs-net/base16-windows-terminal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFulgens/base16-console2",
+      "target": "obahareth/base16-builder-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFulgens/base16-console2",
+      "target": "cbucher/console",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFulgens/base16-console2",
+      "target": "afulgens/base16-consolez",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:55:58.094533+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 945
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Base16 for Console2",
+    "fork": false,
+    "full_name": "AFulgens/base16-console2",
+    "html_url": "https://github.com/AFulgens/base16-console2",
+    "language": "Mustache",
+    "pushed_at": "2024-01-02T12:37:58Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2024-01-02T12:38:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afulgens/base16-consolez",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cbucher/console",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "obahareth/base16-builder-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wuqs-net/base16-windows-terminal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

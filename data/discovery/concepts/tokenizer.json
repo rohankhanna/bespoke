@@ -43,6 +43,42 @@
       "source_repo": "dmitry-brazhenko/SharpToken",
       "status": "candidate-context",
       "text": "[![NuGet](https://img.shields.io/nuget/v/SharpToken.svg)](https://www.nuget.org/packages/SharpToken)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Systemcluster/kitoken",
+      "status": "candidate-context",
+      "text": "Fast tokenizer for language models, compatible with SentencePiece, Tokenizers, Tiktoken and more. Supports BPE, Unigram and WordPiece tokenization in JavaScript, Python and Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/kitoken",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/kitoken)](https://crates.io/crates/kitoken)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Systemcluster/tokenizer-bench",
+      "status": "candidate-context",
+      "text": "Benchmark for tokenizers. Utility to compare the performance of different tokenizers with different datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/tokenizer-bench",
+      "status": "candidate-context",
+      "text": "[project] name = \"tokenizer-bench\" description = \"Benchmark for tokenizers.\" version = \"0.0.0\" requires-python = \">=3.12,<3.13\" authors = [{ name = \"Christian Sdunek\", email = \"me@systemcluster.me\" }] urls = { repository = \"https://github.com/Systemcluster/tokenizer-bench\" } dep\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sugarme/tokenizer",
+      "status": "candidate-context",
+      "text": "NLP tokenizers written in Go language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sugarme/tokenizer",
+      "status": "candidate-context",
+      "text": "`tokenizer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +99,24 @@
       "source_repo": "dmitry-brazhenko/SharpToken",
       "status": "candidate",
       "text": "[![NuGet](https://img.shields.io/nuget/v/SharpToken.svg)](https://www.nuget.org/packages/SharpToken)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/kitoken",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/kitoken)](https://crates.io/crates/kitoken)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/tokenizer-bench",
+      "status": "candidate",
+      "text": "[project] name = \"tokenizer-bench\" description = \"Benchmark for tokenizers.\" version = \"0.0.0\" requires-python = \">=3.12,<3.13\" authors = [{ name = \"Christian Sdunek\", email = \"me@systemcluster.me\" }] urls = { repository = \"https://github.com/Systemcluster/tokenizer-bench\" } dep\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sugarme/tokenizer",
+      "status": "candidate",
+      "text": "`tokenizer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go."
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +178,29 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "dmitry-brazhenko/SharpToken"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Systemcluster/kitoken"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Systemcluster/tokenizer-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sugarme/tokenizer"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

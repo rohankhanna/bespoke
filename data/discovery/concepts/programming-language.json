@@ -223,6 +223,54 @@
       "source_repo": "apple/pkl",
       "status": "candidate-context",
       "text": "__lockfile__"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ispc/ispc",
+      "status": "candidate-context",
+      "text": "Intel\u00ae Implicit SPMD Program Compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ispc/ispc",
+      "status": "candidate-context",
+      "text": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "status": "candidate-context",
+      "text": "Containerised Jupyter deployment. Please submit Pull Requests to the GitLab repository. Mirror of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FStarLang/FStar",
+      "status": "candidate-context",
+      "text": "A Proof-oriented Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/FStar",
+      "status": "candidate-context",
+      "text": "F*: A Proof-oriented Programming Language"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "luau-lang/luau",
+      "status": "candidate-context",
+      "text": "A small, fast, and embeddable programming language based on Lua with a gradual type system."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luau-lang/luau",
+      "status": "candidate-context",
+      "text": "Luau ![CI](https://github.com/luau-lang/luau/actions/workflows/build.yml/badge.svg) [![codecov](https://codecov.io/gh/luau-lang/luau/branch/master/graph/badge.svg)](https://codecov.io/gh/luau-lang/luau)"
     }
   ],
   "candidate_glosses": [
@@ -333,6 +381,30 @@
       "source_repo": "apple/pkl",
       "status": "candidate",
       "text": "__lockfile__"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ispc/ispc",
+      "status": "candidate",
+      "text": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "b-data/docker-deployment-jupyter",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable line-length -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/FStar",
+      "status": "candidate",
+      "text": "F*: A Proof-oriented Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "luau-lang/luau",
+      "status": "candidate",
+      "text": "Luau ![CI](https://github.com/luau-lang/luau/actions/workflows/build.yml/badge.svg) [![codecov](https://codecov.io/gh/luau-lang/luau/branch/master/graph/badge.svg)](https://codecov.io/gh/luau-lang/luau)"
     }
   ],
   "candidate_related_terms": [],
@@ -478,11 +550,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ispc/ispc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "b-data/docker-deployment-jupyter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "luau-lang/luau"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

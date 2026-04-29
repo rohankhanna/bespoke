@@ -514,6 +514,78 @@
       "source_repo": "cython/cython",
       "status": "candidate-context",
       "text": "Welcome to Cython!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antoinemadec/FixCursorHold.nvim",
+      "status": "candidate-context",
+      "text": "Fix CursorHold Performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoinemadec/FixCursorHold.nvim",
+      "status": "candidate-context",
+      "text": "Fix CursorHold Performance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helix-editor/nucleo",
+      "status": "candidate-context",
+      "text": "A fast and convenient fuzzy matcher library for rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-editor/nucleo",
+      "status": "candidate-context",
+      "text": "`nucleo` is a highly performant fuzzy matcher written in Rust. It aims to fill the same use case as `fzf` and `skim`. Compared to `fzf` `nucleo` has a significantly faster matching algorithm. This mainly makes a difference when matching patterns with low selectivity on many item\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/navigation-timing",
+      "status": "candidate-context",
+      "text": "Navigation Timing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/navigation-timing",
+      "status": "candidate-context",
+      "text": "Navigation Timing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locustio/locust",
+      "status": "candidate-context",
+      "text": "Write scalable load tests in plain Python \ud83d\ude97\ud83d\udca8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locustio/locust",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/locust.svg)](https://pypi.org/project/locust/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "status": "candidate-context",
+      "text": "High-performance ROS2 solution for Unity3D"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "status": "candidate-context",
+      "text": "Ros2 For Unity"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/pprof",
+      "status": "candidate-context",
+      "text": "pprof is a tool for visualization and analysis of profiling data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/pprof",
+      "status": "candidate-context",
+      "text": "[![Github Action CI](https://github.com/google/pprof/workflows/ci/badge.svg)](https://github.com/google/pprof/actions)"
     }
   ],
   "candidate_glosses": [
@@ -768,6 +840,42 @@
       "source_repo": "cython/cython",
       "status": "candidate",
       "text": "Welcome to Cython!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoinemadec/FixCursorHold.nvim",
+      "status": "candidate",
+      "text": "Fix CursorHold Performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-editor/nucleo",
+      "status": "candidate",
+      "text": "`nucleo` is a highly performant fuzzy matcher written in Rust. It aims to fill the same use case as `fzf` and `skim`. Compared to `fzf` `nucleo` has a significantly faster matching algorithm. This mainly makes a difference when matching patterns with low selectivity on many item\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/navigation-timing",
+      "status": "candidate",
+      "text": "Navigation Timing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locustio/locust",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/locust.svg)](https://pypi.org/project/locust/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "status": "candidate",
+      "text": "Ros2 For Unity"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/pprof",
+      "status": "candidate",
+      "text": "[![Github Action CI](https://github.com/google/pprof/workflows/ci/badge.svg)](https://github.com/google/pprof/actions)"
     }
   ],
   "candidate_related_terms": [
@@ -1135,11 +1243,71 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "antoinemadec/FixCursorHold.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "helix-editor/nucleo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Mithril-mine/libmdbx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pycompression/python-isal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "w3c/navigation-timing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "locustio/locust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "RobotecAI/ros2-for-unity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google/pprof"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

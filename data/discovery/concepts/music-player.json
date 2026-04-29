@@ -31,6 +31,18 @@
       "source_repo": "astrofra/demo-marine-melodies",
       "status": "candidate-context",
       "text": "Marine Melodies by [Resistance](http://resistance.no/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devgianlu/librespot-android",
+      "status": "candidate-context",
+      "text": "A demo app that runs librespot-java on Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/librespot-android",
+      "status": "candidate-context",
+      "text": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "astrofra/demo-marine-melodies",
       "status": "candidate",
       "text": "Marine Melodies by [Resistance](http://resistance.no/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/librespot-android",
+      "status": "candidate",
+      "text": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "astrofra/demo-marine-melodies"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "devgianlu/librespot-android"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,201 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "target": "dotnet/dotnet-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "target": "asp-net",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "target": "asp-net-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "target": "asp-net-core-web-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "target": "csharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "target": "dotnet-core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "target": "nredisstack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "target": "stackexchange-redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "target": "starter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-csharp",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:09.124907+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3498
+    },
+    {
+      "path": "Dockerfile",
+      "size": 953
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A starter project for working with Redis and C#/ASP.NET",
+    "fork": false,
+    "full_name": "redis-developer/redis-starter-csharp",
+    "html_url": "https://github.com/redis-developer/redis-starter-csharp",
+    "language": "C#",
+    "pushed_at": "2026-03-12T21:30:05Z",
+    "stargazers_count": 6,
+    "topics": [
+      "asp-net",
+      "asp-net-core",
+      "asp-net-core-web-api",
+      "csharp",
+      "dotnet",
+      "dotnet-core",
+      "nredisstack",
+      "redis",
+      "stackexchange-redis",
+      "starter",
+      "template"
+    ],
+    "updated_at": "2026-03-28T17:05:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dotnet/dotnet-docker",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "asp-net-core-web-api"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "csharp"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet-core"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nredisstack"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stackexchange-redis"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starter"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for C#/ASP.NET using:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

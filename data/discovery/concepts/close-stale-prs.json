@@ -45,6 +45,30 @@
       "source_repo": "ROCm/rocm-libraries",
       "status": "candidate-context",
       "text": "Close Stale PRs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "groq/groq-python",
+      "status": "candidate-context",
+      "text": "The official Python Library for the Groq API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "groq/groq-python",
+      "status": "candidate-context",
+      "text": "\"Close stale PRs\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-ai/any-llm",
+      "status": "candidate-context",
+      "text": "Communicate with an LLM provider using a single interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/any-llm",
+      "status": "candidate-context",
+      "text": "'Close stale PRs'"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +89,18 @@
       "source_repo": "ROCm/rocm-libraries",
       "status": "candidate",
       "text": "Close Stale PRs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "groq/groq-python",
+      "status": "candidate",
+      "text": "\"Close stale PRs\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-ai/any-llm",
+      "status": "candidate",
+      "text": "'Close stale PRs'"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +162,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/close-stale-prs.yml",
       "source_repo": "ROCm/rocm-libraries"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "groq/groq-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/close-stale.yaml",
+      "source_repo": "mozilla-ai/any-llm"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

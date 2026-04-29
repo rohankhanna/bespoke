@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Bazel defs and rules for building Python projects with nanobind extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo contains Bazel build defs for Python bindings created with [nanobind](https://github.com/wjakob/nanobind)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo contains Bazel build defs for Python bindings created with [nanobind](https://github.com/wjakob/nanobind)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "python-bindings",
+      "sense_id": "python-bindings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "python-bindings",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "python-bindings",
+  "observation_id": "67480e3e9a33ce4f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "python-bindings",
+  "source_context_snippet": "This repo contains Bazel build defs for Python bindings created with [nanobind](https://github.com/wjakob/nanobind).",
+  "source_file": null,
+  "source_repo": "nicholasjng/nanobind-bazel",
+  "source_repo_description": "Bazel defs and rules for building Python projects with nanobind extensions."
+}

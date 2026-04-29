@@ -79,6 +79,54 @@
       "source_repo": "anacrolix/dht",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/anacrolix/dht/v2.svg)](https://pkg.go.dev/github.com/anacrolix/dht/v2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/bittorrent-lsd",
+      "status": "candidate-context",
+      "text": "Local Service Discovery (BEP14) implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-lsd",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-lsd/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "status": "candidate-context",
+      "text": "Map a BitTorrent peer ID to a human-readable client name and version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-peerid/actions/workflows/ci.yml/badge.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/bittorrent-protocol",
+      "status": "candidate-context",
+      "text": "Simple, robust, BitTorrent peer wire protocol implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-protocol",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/webtorrent/bittorrent-protocol/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agalwood/Motrix",
+      "status": "candidate-context",
+      "text": "A full-featured download manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agalwood/Motrix",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +165,30 @@
       "source_repo": "anacrolix/dht",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/anacrolix/dht/v2.svg)](https://pkg.go.dev/github.com/anacrolix/dht/v2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-lsd",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-lsd/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-peerid/actions/workflows/ci.yml/badge.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-protocol",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/webtorrent/bittorrent-protocol/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agalwood/Motrix",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [
@@ -232,11 +304,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "anacrolix/dht"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-lsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-peerid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-protocol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "agalwood/Motrix"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

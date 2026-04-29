@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Helm Charts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "status": "candidate-context",
+      "text": "All Hands AI OpenHands Self-hosted Cloud"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "status": "candidate-context",
+      "text": "Publish Helm Charts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud",
+      "status": "candidate",
+      "text": "Publish Helm Charts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17781,
+      "status": "candidate",
+      "text": "apostrophe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17781,
+      "status": "candidate",
+      "text": "concoct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17781,
+      "status": "candidate",
+      "text": "concocted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17781,
+      "status": "candidate",
+      "text": "contoured"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17781,
+      "status": "candidate",
+      "text": "crinkle"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Helm Charts",
+  "concept_id": "publish-helm-charts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Helm Charts",
+      "sense_id": "publish-helm-charts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

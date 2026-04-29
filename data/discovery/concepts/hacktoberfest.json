@@ -3637,6 +3637,774 @@
       "source_repo": "web-platform-tests/wpt.fyi",
       "status": "candidate-context",
       "text": "[![GitHub Actions](https://github.com/web-platform-tests/wpt.fyi/workflows/Continuous%20Integration/badge.svg)](https://github.com/web-platform-tests/wpt.fyi/actions?query=workflow%3A%22Continuous+Integration%22+branch%3Amaster)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate-context",
+      "text": "A browser extension for the Motrix Download Manager and its forks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate-context",
+      "text": "This WebExtension allows you to automatically download all the files via [Motrix Download Manager](https://motrix.app/) instead of your browser's native download manager."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate-context",
+      "text": "Do you think you are safe using private browsing or incognito mode?. :smile: :imp: This will prove that you're wrong.   Previously hosted at nothingprivate.ml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/gautamkrishnar/nothing-private.svg?branch=master)](https://travis-ci.org/gautamkrishnar/nothing-private) [![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg)](#contributors) [![ProductHunt](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate-context",
+      "text": "This browser extension enables you to filter the GitHub news feeds based on different event types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate-context",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "status": "candidate-context",
+      "text": "Formatter Maven Plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Arize-ai/openinference",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Instrumentation for AI Observability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arize-ai/openinference",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "A JavaScript implementation of a web browser without its graphical user interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate-context",
+      "text": "A free, open source, and privacy-focused browser extension to block \u201cnot safe for work\u201d content built using TypeScript and TensorFlow.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate-context",
+      "text": "A free, open source, and privacy-focused browser extension to block \"not safe for work\" content."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emibcn/pywisp",
+      "status": "candidate-context",
+      "text": "Access AirControl2 (API), AirOS (SSH) & Mikrotik (SSH) from the same place"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/pywisp",
+      "status": "candidate-context",
+      "text": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielgtaylor/shorthand",
+      "status": "candidate-context",
+      "text": "Structured data & CLI shorthand syntax for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/shorthand",
+      "status": "candidate-context",
+      "text": "[![Docs](https://godoc.org/github.com/danielgtaylor/shorthand?status.svg)](https://pkg.go.dev/github.com/danielgtaylor/shorthand?tab=doc) [![Go Report Card](https://goreportcard.com/badge/github.com/danielgtaylor/shorthand)](https://goreportcard.com/report/github.com/danielgtayl\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "status": "candidate-context",
+      "text": "Send Sir Perceval on a quest to retrieve and gather data from software repositories."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "status": "candidate-context",
+      "text": "Send Sir Perceval on a quest to retrieve and gather data from software"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axios/axios",
+      "status": "candidate-context",
+      "text": "Promise based HTTP client for the browser and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axios/axios",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">\ud83d\udc8e Platinum sponsors <br /></h3>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glimmerjs/glimmer-vm",
+      "status": "candidate-context",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "status": "candidate-context",
+      "text": "A module for MagicMirror displaying the song currently streaming on your librespot java speaker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "status": "candidate-context",
+      "text": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+      "status": "candidate-context",
+      "text": "Libre Hardware Monitor is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of your computer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/homebrew-cask",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-cask",
+      "status": "candidate-context",
+      "text": "_\u201cTo install, drag this icon\u2026\u201d no more!_"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate-context",
+      "text": "Goal: Enable awesome tooling for Bazel users of the C language family."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate-context",
+      "text": "Goal: Make it easy to place HTTPS Requests from C++, leveraging Bazel, CPR, and CURL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate-context",
+      "text": "A comprehensive Vim utility functions for Vim plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/vim-jp/vital.vim](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vim-jp/vital.vim?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavBfr/dart_pdf",
+      "status": "candidate-context",
+      "text": "Pdf creation module for dart/flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavBfr/dart_pdf",
+      "status": "candidate-context",
+      "text": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "status": "candidate-context",
+      "text": "Eclipse Corrosion - Rust edition in Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "status": "candidate-context",
+      "text": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "discordjs/discord.js",
+      "status": "candidate-context",
+      "text": "A powerful JavaScript library for interacting with the Discord API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "discordjs/discord.js",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate-context",
+      "text": "An esbuild plugin to inject your application's version number or today's date into your files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate-context",
+      "text": "Blazing fast input validation and transformation \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate-context",
+      "text": "Common JavaScript utilities for your TypeScript projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipython/ipython",
+      "status": "candidate-context",
+      "text": "Official repository for IPython itself. Other repos in the IPython organization contain things like the website, documentation builds, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipython/ipython",
+      "status": "candidate-context",
+      "text": ".. image:: https://codecov.io/github/ipython/ipython/coverage.svg?branch=main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "NuGet/NuGetGallery",
+      "status": "candidate-context",
+      "text": "NuGet Gallery is a package repository that powers https://www.nuget.org. Use this repo for reporting NuGet.org issues."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGetGallery",
+      "status": "candidate-context",
+      "text": "\ufeff[NuGet Gallery](https://www.nuget.org/) \u2014 Where packages are found"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chef/chef",
+      "status": "candidate-context",
+      "text": "Chef Infra, a powerful automation platform that transforms infrastructure into code automating how infrastructure is configured, deployed and managed across any environment, at any scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/chef",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://badge.buildkite.com/c82093430ceec7d27af05febb9dcafe3aa331fff9d74c0ab9d.svg?branch=main)](https://buildkite.com/chef-oss/chef-chef-main-verify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate-context",
+      "text": "Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, and elegance (in that order of priority)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate-context",
+      "text": "issue comments bisects"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate-context",
+      "text": "IDE-style autocomplete for your existing terminal & shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate-context",
+      "text": "[![Badge: macOS](https://img.shields.io/badge/os-\uf8ff%20macOS-light)](#)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flathub-infra/website",
+      "status": "candidate-context",
+      "text": "Monorepo with website and API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flathub-infra/website",
+      "status": "candidate-context",
+      "text": "[![Backend CI](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml/badge.svg)](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "Boa is an embeddable Javascript engine written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/documentation",
+      "status": "candidate-context",
+      "text": "Documentation/website for the Jaeger Distributed Tracing project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/documentation",
+      "status": "candidate-context",
+      "text": "[![Netlify Status][netlify-img]][netlify]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate-context",
+      "text": "Web UI for Jaeger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate-context",
+      "text": "[![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![FOSSA Status][fossa-img]][fossa] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-ui/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jaegertracing/j\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/app-permissions",
+      "status": "candidate-context",
+      "text": "machine-readable, always up-to-date GitHub App permissions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app-permissions",
+      "status": "candidate-context",
+      "text": "> machine-readable, always up-to-date GitHub App permissions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate-context",
+      "text": "GitHub\u2019s GraphQL Schema with validation. Automatically updated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate-context",
+      "text": "> GitHub\u2019s GraphQL Schema with validation. Automatically updated."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/openapi",
+      "status": "candidate-context",
+      "text": "GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi",
+      "status": "candidate-context",
+      "text": "> GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-cdk",
+      "status": "candidate-context",
+      "text": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cdk",
+      "status": "candidate-context",
+      "text": "![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSy9rWmVENzRDbXBoVlhYaHBsNks4OGJDRXFtV1IySmhCVjJoaytDU2dtVWhhVys3NS9Odk5DbC9lR2JUTkRvSWlHSXZrNVhYQ3ZsaUJFY3o4OERQY1pnPSIsIml2UGFyYW1ldGVyU3BlYyI6IlB3ODEyRW9KdU0yaEp6NDkiLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scssphp/scssphp",
+      "status": "candidate-context",
+      "text": "SCSS compiler written in PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scssphp/scssphp",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/scssphp/scssphp/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/action.js",
+      "status": "candidate-context",
+      "text": "GitHub API client for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/action.js",
+      "status": "candidate-context",
+      "text": "> GitHub API client for GitHub Actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/app.js",
+      "status": "candidate-context",
+      "text": "GitHub Apps toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app.js",
+      "status": "candidate-context",
+      "text": "> GitHub App toolset for Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-action.js",
+      "status": "candidate-context",
+      "text": "GitHub API token authentication for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-action.js",
+      "status": "candidate-context",
+      "text": "> GitHub API token authentication for GitHub Actions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/auth-app.js",
+      "status": "candidate-context",
+      "text": "GitHub App authentication for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-app.js",
+      "status": "candidate-context",
+      "text": "> GitHub App authentication for JavaScript"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate-context",
+      "text": "The collection includes a variety of Ansible content to help automate the management of applications in Kubernetes and OpenShift clusters, as well as the provisioning and maintenance of clusters themselves."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate-context",
+      "text": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate-context",
+      "text": "Java SDK for building Kubernetes Operators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate-context",
+      "text": "![Java CI with Maven](https://github.com/operator-framework/java-operator-sdk/actions/workflows/snapshot-releases.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate-context",
+      "text": "Whisper.net. Speech to text made simple using Whisper Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate-context",
+      "text": "Android Native build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scala-interop/slinc",
+      "status": "candidate-context",
+      "text": "Scala <-> C interop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scala-interop/slinc",
+      "status": "candidate-context",
+      "text": "![workflow status](https://github.com/markehammons/slinc/actions/workflows/ci.yml/badge.svg)![Maven Central](https://img.shields.io/maven-central/v/fr.hammons/slinc-core_3)[![codecov](https://codecov.io/gh/markehammons/slinc/branch/master/graph/badge.svg?token=MSTGFQYNXI)](https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-rollouts",
+      "status": "candidate-context",
+      "text": "Progressive Delivery for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-rollouts",
+      "status": "candidate-context",
+      "text": "[![codecov](https://codecov.io/gh/argoproj/argo-rollouts/branch/master/graph/badge.svg)](https://codecov.io/gh/argoproj/argo-rollouts)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eosphoros-ai/DB-GPT-Hub",
+      "status": "candidate-context",
+      "text": "A repository that contains models, datasets, and fine-tuning techniques for DB-GPT, with the purpose of enhancing model performance  in Text-to-SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT-Hub",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "galaxyproject/tools-iuc",
+      "status": "candidate-context",
+      "text": "Tool Shed repositories maintained by the Intergalactic Utilities Commission"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/tools-iuc",
+      "status": "candidate-context",
+      "text": "[![Galaxy Tool Linting and Tests for push and PR](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml/badge.svg?branch=main)](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml?query=branch:main)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rrousselGit/riverpod",
+      "status": "candidate-context",
+      "text": "A reactive caching and data-binding framework.   Riverpod makes working with asynchronous code a breeze."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/riverpod",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate-context",
+      "text": "The fast, flexible, and elegant library for parsing and manipulating HTML and XML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate-context",
+      "text": "cheerio \u2014 The fast, flexible & elegant library for parsing and manipulating HTML and XML."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate-context",
+      "text": "The Microsoft Build Engine (MSBuild) is the build platform for .NET and Visual Studio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/75?branchName=main&label=Public)](https://dev.azure.com/dnceng-public/public/_build?definitionId=75) [![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/9434?label=Internal&bran\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "elm-tooling/elm-language-server",
+      "status": "candidate-context",
+      "text": "Language server implementation for Elm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-server",
+      "status": "candidate-context",
+      "text": "![Matrix](https://img.shields.io/matrix/elm-language-server:matrix.org?label=Matrix%20chat&logo=Matrix)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate-context",
+      "text": "An open source trusted cloud native registry project that stores, signs, and scans content."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneDAL",
+      "status": "candidate-context",
+      "text": "oneAPI Data Analytics Library (oneDAL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDAL",
+      "status": "candidate-context",
+      "text": "\ufeff<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate-context",
+      "text": " Extension for Scikit-learn is a seamless way to speed up your Scikit-learn application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grommet/grommet-site",
+      "status": "candidate-context",
+      "text": "Site for Grommet v2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grommet/grommet-site",
+      "status": "candidate-context",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/0ccebcd5-3c08-46b6-857d-bca551102609/deploy-status)](https://app.netlify.com/sites/upbeat-ardinghelli-95952e/deploys)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "revelc/formatter-m2e-configurator",
+      "status": "candidate-context",
+      "text": "M2E configurator for the formatter-maven-plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "revelc/formatter-m2e-configurator",
+      "status": "candidate-context",
+      "text": "[![mvn verify][ci_img]][ci_link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matrix-org/matrix-appservice-slack",
+      "status": "candidate-context",
+      "text": "A Matrix <--> Slack bridge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matrix-org/matrix-appservice-slack",
+      "status": "candidate-context",
+      "text": "The public Matrix.org Slack bridge has been decommissioned on January 14th, 2026. Please see the following"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optuna-examples",
+      "status": "candidate-context",
+      "text": "Examples for https://github.com/optuna/optuna"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-examples",
+      "status": "candidate-context",
+      "text": "Optuna Examples"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielgtaylor/mexpr",
+      "status": "candidate-context",
+      "text": "Micro expression parser library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/mexpr",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/danielgtaylor/mexpr.svg)](https://pkg.go.dev/github.com/danielgtaylor/mexpr) [![Go Report Card](https://goreportcard.com/badge/github.com/danielgtaylor/mexpr)](https://goreportcard.com/report/github.com/danielgtaylor/mexpr) ![\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "earthly/earthly",
+      "status": "candidate-context",
+      "text": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax \u2013 like Dockerfile and Makefile had a baby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "earthly/earthly",
+      "status": "candidate-context",
+      "text": "<h1>Earthly</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-java-v2",
+      "status": "candidate-context",
+      "text": "The official AWS SDK for Java - Version 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-java-v2",
+      "status": "candidate-context",
+      "text": "![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTFJSRXBBN1hkU1ZEQzZ4M1hoaWlFUExuNER3WjNpVllSQ09Qam1YdFlTSDNTd3RpZzNia3F0VkJRUTBwZlQwR1BEelpSV2dWVnp4YTBCOFZKRzRUR004PSIsIml2UGFyYW1ldGVyU3BlYyI6ImdHdEp1UHhKckpDRmhmQU4iLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tilt-dev/tilt-extensions",
+      "status": "candidate-context",
+      "text": "Extensions for Tilt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tilt-dev/tilt-extensions",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/tilt-dev/tilt-extensions/tree/master.svg?style=shield)](https://circleci.com/gh/tilt-dev/tilt-extensions)"
     }
   ],
   "candidate_glosses": [
@@ -5451,6 +6219,396 @@
       "source_repo": "web-platform-tests/wpt.fyi",
       "status": "candidate",
       "text": "[![GitHub Actions](https://github.com/web-platform-tests/wpt.fyi/workflows/Continuous%20Integration/badge.svg)](https://github.com/web-platform-tests/wpt.fyi/actions?query=workflow%3A%22Continuous+Integration%22+branch%3Amaster)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate",
+      "text": "This WebExtension allows you to automatically download all the files via [Motrix Download Manager](https://motrix.app/) instead of your browser's native download manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/gautamkrishnar/nothing-private.svg?branch=master)](https://travis-ci.org/gautamkrishnar/nothing-private) [![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg)](#contributors) [![ProductHunt](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arize-ai/openinference",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate",
+      "text": "A free, open source, and privacy-focused browser extension to block \"not safe for work\" content."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/pywisp",
+      "status": "candidate",
+      "text": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/shorthand",
+      "status": "candidate",
+      "text": "[![Docs](https://godoc.org/github.com/danielgtaylor/shorthand?status.svg)](https://pkg.go.dev/github.com/danielgtaylor/shorthand?tab=doc) [![Go Report Card](https://goreportcard.com/badge/github.com/danielgtaylor/shorthand)](https://goreportcard.com/report/github.com/danielgtayl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "status": "candidate",
+      "text": "Send Sir Perceval on a quest to retrieve and gather data from software"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axios/axios",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">\ud83d\udc8e Platinum sponsors <br /></h3>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "glimmerjs/glimmer-vm",
+      "status": "candidate",
+      "text": "> [!CAUTION]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "status": "candidate",
+      "text": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-cask",
+      "status": "candidate",
+      "text": "_\u201cTo install, drag this icon\u2026\u201d no more!_"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/vim-jp/vital.vim](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/vim-jp/vital.vim?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavBfr/dart_pdf",
+      "status": "candidate",
+      "text": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "status": "candidate",
+      "text": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "discordjs/discord.js",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "favware/esbuild-plugin-version-injector",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/utilities",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipython/ipython",
+      "status": "candidate",
+      "text": ".. image:: https://codecov.io/github/ipython/ipython/coverage.svg?branch=main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "NuGet/NuGetGallery",
+      "status": "candidate",
+      "text": "\ufeff[NuGet Gallery](https://www.nuget.org/) \u2014 Where packages are found"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/chef",
+      "status": "candidate",
+      "text": "[![Build Status](https://badge.buildkite.com/c82093430ceec7d27af05febb9dcafe3aa331fff9d74c0ab9d.svg?branch=main)](https://buildkite.com/chef-oss/chef-chef-main-verify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate",
+      "text": "issue comments bisects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate",
+      "text": "[![Badge: macOS](https://img.shields.io/badge/os-\uf8ff%20macOS-light)](#)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flathub-infra/website",
+      "status": "candidate",
+      "text": "[![Backend CI](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml/badge.svg)](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/documentation",
+      "status": "candidate",
+      "text": "[![Netlify Status][netlify-img]][netlify]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate",
+      "text": "[![Build Status][ci-img]][ci] [![Coverage Status][cov-img]][cov] [![FOSSA Status][fossa-img]][fossa] [![OpenSSF Scorecard](https://api.securityscorecards.dev/projects/github.com/jaegertracing/jaeger-ui/badge)](https://securityscorecards.dev/viewer/?uri=github.com/jaegertracing/j\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app-permissions",
+      "status": "candidate",
+      "text": "> machine-readable, always up-to-date GitHub App permissions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate",
+      "text": "> GitHub\u2019s GraphQL Schema with validation. Automatically updated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi",
+      "status": "candidate",
+      "text": "> GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cdk",
+      "status": "candidate",
+      "text": "![Build Status](https://codebuild.us-east-1.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiSy9rWmVENzRDbXBoVlhYaHBsNks4OGJDRXFtV1IySmhCVjJoaytDU2dtVWhhVys3NS9Odk5DbC9lR2JUTkRvSWlHSXZrNVhYQ3ZsaUJFY3o4OERQY1pnPSIsIml2UGFyYW1ldGVyU3BlYyI6IlB3ODEyRW9KdU0yaEp6NDkiLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scssphp/scssphp",
+      "status": "candidate",
+      "text": "![Build](https://github.com/scssphp/scssphp/workflows/CI/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/action.js",
+      "status": "candidate",
+      "text": "> GitHub API client for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app.js",
+      "status": "candidate",
+      "text": "> GitHub App toolset for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-action.js",
+      "status": "candidate",
+      "text": "> GitHub API token authentication for GitHub Actions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/auth-app.js",
+      "status": "candidate",
+      "text": "> GitHub App authentication for JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate",
+      "text": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate",
+      "text": "![Java CI with Maven](https://github.com/operator-framework/java-operator-sdk/actions/workflows/snapshot-releases.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate",
+      "text": "Android Native build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scala-interop/slinc",
+      "status": "candidate",
+      "text": "![workflow status](https://github.com/markehammons/slinc/actions/workflows/ci.yml/badge.svg)![Maven Central](https://img.shields.io/maven-central/v/fr.hammons/slinc-core_3)[![codecov](https://codecov.io/gh/markehammons/slinc/branch/master/graph/badge.svg?token=MSTGFQYNXI)](https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-rollouts",
+      "status": "candidate",
+      "text": "[![codecov](https://codecov.io/gh/argoproj/argo-rollouts/branch/master/graph/badge.svg)](https://codecov.io/gh/argoproj/argo-rollouts)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT-Hub",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "galaxyproject/tools-iuc",
+      "status": "candidate",
+      "text": "[![Galaxy Tool Linting and Tests for push and PR](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml/badge.svg?branch=main)](https://github.com/galaxyproject/tools-iuc/actions/workflows/pr.yaml?query=branch:main)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/riverpod",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate",
+      "text": "cheerio \u2014 The fast, flexible & elegant library for parsing and manipulating HTML and XML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/75?branchName=main&label=Public)](https://dev.azure.com/dnceng-public/public/_build?definitionId=75) [![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/9434?label=Internal&bran\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "elm-tooling/elm-language-server",
+      "status": "candidate",
+      "text": "![Matrix](https://img.shields.io/matrix/elm-language-server:matrix.org?label=Matrix%20chat&logo=Matrix)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDAL",
+      "status": "candidate",
+      "text": "\ufeff<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grommet/grommet-site",
+      "status": "candidate",
+      "text": "[![Netlify Status](https://api.netlify.com/api/v1/badges/0ccebcd5-3c08-46b6-857d-bca551102609/deploy-status)](https://app.netlify.com/sites/upbeat-ardinghelli-95952e/deploys)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "revelc/formatter-m2e-configurator",
+      "status": "candidate",
+      "text": "[![mvn verify][ci_img]][ci_link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matrix-org/matrix-appservice-slack",
+      "status": "candidate",
+      "text": "The public Matrix.org Slack bridge has been decommissioned on January 14th, 2026. Please see the following"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-examples",
+      "status": "candidate",
+      "text": "Optuna Examples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/mexpr",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/danielgtaylor/mexpr.svg)](https://pkg.go.dev/github.com/danielgtaylor/mexpr) [![Go Report Card](https://goreportcard.com/badge/github.com/danielgtaylor/mexpr)](https://goreportcard.com/report/github.com/danielgtaylor/mexpr) ![\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "earthly/earthly",
+      "status": "candidate",
+      "text": "<h1>Earthly</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-java-v2",
+      "status": "candidate",
+      "text": "![Build Status](https://codebuild.us-west-2.amazonaws.com/badges?uuid=eyJlbmNyeXB0ZWREYXRhIjoiTFJSRXBBN1hkU1ZEQzZ4M1hoaWlFUExuNER3WjNpVllSQ09Qam1YdFlTSDNTd3RpZzNia3F0VkJRUTBwZlQwR1BEelpSV2dWVnp4YTBCOFZKRzRUR004PSIsIml2UGFyYW1ldGVyU3BlYyI6ImdHdEp1UHhKckpDRmhmQU4iLCJtYXRlcmlhbFNld\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tilt-dev/tilt-extensions",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/tilt-dev/tilt-extensions/tree/master.svg?style=shield)](https://circleci.com/gh/tilt-dev/tilt-extensions)"
     }
   ],
   "candidate_related_terms": [],
@@ -7660,11 +8818,557 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "web-platform-tests/wpt.fyi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/motrix-webextension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/nothing-private"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "revelc/formatter-maven-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Arize-ai/openinference"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "capricorn86/happy-dom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "emibcn/pywisp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "danielgtaylor/shorthand"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "filhodanuvem/gitql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "abapGit/abapGit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-perceval"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "axios/axios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "glimmerjs/glimmer-vm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/aspire"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "l3d00m/MMM-LibrespotJava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Homebrew/homebrew-cask"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "LuaLS/lua-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vim-jp/vital.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "DavBfr/dart_pdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "discordjs/discord.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "favware/esbuild-plugin-version-injector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sapphiredev/shapeshift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sapphiredev/utilities"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipython/ipython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "NuGet/NuGetGallery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chef/chef"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nim-lang/Nim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mightyiam/eslint-config-love"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "withfig/autocomplete"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "flathub-infra/website"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rust-lang/rustup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "boa-dev/boa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/vscode-js-debug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jaegertracing/documentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jaegertracing/jaeger-ui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/app-permissions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/graphql-schema"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "node-lightning/node-lightning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-cdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "scssphp/scssphp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/action.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/app.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-action.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/auth-app.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "podman-desktop/podman-desktop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ansible-collections/kubernetes.core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "operator-framework/java-operator-sdk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sandrohanea/whisper.net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "callstack/react-native-builder-bob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "argoproj/argo-rollouts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eosphoros-ai/DB-GPT-Hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "galaxyproject/tools-iuc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rrousselGit/riverpod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vim-php/phpctags"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cheeriojs/cheerio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/msbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "elm-tooling/elm-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "goharbor/harbor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/oneDAL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "grommet/grommet-site"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "revelc/formatter-m2e-configurator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "matrix-org/matrix-appservice-slack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "optuna/optuna-examples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "danielgtaylor/mexpr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "earthly/earthly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rbenv/ruby-build"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-sdk-java-v2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tilt-dev/tilt-extensions"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

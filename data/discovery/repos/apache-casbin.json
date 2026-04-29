@@ -257,7 +257,7 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/source-snapshot.yml",
       "source_repo": "apache/casbin",
-      "target": "Build Source Snapshot",
+      "target": "Semantic Release",
       "target_type": "term"
     },
     {
@@ -359,7 +359,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:06:27.498095+00:00",
+  "fetched_at": "2026-04-29T19:55:59.572017+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -387,11 +387,11 @@
     },
     {
       "path": ".github/workflows/source-release-draft.yml",
-      "size": 4694
+      "size": 4887
     },
     {
       "path": ".github/workflows/source-snapshot.yml",
-      "size": 4778
+      "size": 5571
     }
   ],
   "related_repositories": [],
@@ -403,8 +403,8 @@
     "full_name": "apache/casbin",
     "html_url": "https://github.com/apache/casbin",
     "language": "Go",
-    "pushed_at": "2026-04-23T16:58:54Z",
-    "stargazers_count": 20036,
+    "pushed_at": "2026-04-26T16:58:33Z",
+    "stargazers_count": 20053,
     "topics": [
       "abac",
       "access-control",
@@ -425,7 +425,7 @@
       "saml",
       "sso"
     ],
-    "updated_at": "2026-04-24T08:43:10Z"
+    "updated_at": "2026-04-29T16:43:03Z"
   },
   "repo_links": [
     {
@@ -481,10 +481,10 @@
       "term": "Build Source Release Draft"
     },
     {
-      "context_snippet": "Build Source Snapshot",
+      "context_snippet": "Semantic Release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/source-snapshot.yml",
-      "term": "Build Source Snapshot"
+      "term": "Semantic Release"
     },
     {
       "context_snippet": "Casbin",

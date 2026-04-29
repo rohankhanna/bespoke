@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Manual Release Candidate Generation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "libbitcoin/libbitcoin-server",
+      "status": "candidate-context",
+      "text": "Bitcoin Full Node and Query Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-server",
+      "status": "candidate-context",
+      "text": "Manual Release Candidate Generation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "libbitcoin/libbitcoin-server",
+      "status": "candidate",
+      "text": "Manual Release Candidate Generation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27343,
+      "status": "candidate",
+      "text": "catechism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27286,
+      "status": "candidate",
+      "text": "handing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27274,
+      "status": "candidate",
+      "text": "frame"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27194,
+      "status": "candidate",
+      "text": "bible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27194,
+      "status": "candidate",
+      "text": "exhibit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Manual Release Candidate Generation",
+  "concept_id": "manual-release-candidate-generation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/manual-release.yml",
+      "source_repo": "libbitcoin/libbitcoin-server"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Manual Release Candidate Generation",
+      "sense_id": "manual-release-candidate-generation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

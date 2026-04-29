@@ -79,6 +79,18 @@
       "source_repo": "allweonedev/presentation-ai",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zarazhangrui/frontend-slides",
+      "status": "candidate-context",
+      "text": "Create beautiful slides on the web using Claude's frontend skills"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarazhangrui/frontend-slides",
+      "status": "candidate-context",
+      "text": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "allweonedev/presentation-ai",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarazhangrui/frontend-slides",
+      "status": "candidate",
+      "text": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files."
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "allweonedev/presentation-ai"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2slides/mcp-2slides"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zarazhangrui/frontend-slides"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,78 @@
       "source_repo": "sczhou/CodeFormer",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cszn/BSRGAN",
+      "status": "candidate-context",
+      "text": "Designing a Practical Degradation Model for Deep Blind Image Super-Resolution (ICCV, 2021) (PyTorch) - We released the training code!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/BSRGAN",
+      "status": "candidate-context",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/BSRGAN)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cszn/DnCNN",
+      "status": "candidate-context",
+      "text": "Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising (TIP, 2017)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/DnCNN",
+      "status": "candidate-context",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DnCNN)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cszn/KAIR",
+      "status": "candidate-context",
+      "text": "Image Restoration Toolbox (PyTorch). Training and testing codes for DPIR, USRNet, DnCNN, FFDNet, SRMD, DPSR, BSRGAN, SwinIR"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/KAIR",
+      "status": "candidate-context",
+      "text": "[![download](https://img.shields.io/github/downloads/cszn/KAIR/total.svg)](https://github.com/cszn/KAIR/releases) ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/KAIR)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cszn/DPIR",
+      "status": "candidate-context",
+      "text": "Plug-and-Play Image Restoration with Deep Denoiser Prior (IEEE TPAMI 2021) (PyTorch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/DPIR",
+      "status": "candidate-context",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DPIR)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XPixelGroup/BasicSR",
+      "status": "candidate-context",
+      "text": "Open Source Image and Video Restoration Toolbox for Super-resolution, Denoise, Deblurring, etc. Currently, it includes EDSR, RCAN, SRResNet, SRGAN, ESRGAN, EDVR, BasicVSR, SwinIR, ECBSR, etc. Also support StyleGAN2, DFDNet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XPixelGroup/BasicSR",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xinntao/Real-ESRGAN",
+      "status": "candidate-context",
+      "text": "Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/Real-ESRGAN",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +133,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "sczhou/CodeFormer",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/BSRGAN",
+      "status": "candidate",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/BSRGAN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/DnCNN",
+      "status": "candidate",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DnCNN)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/KAIR",
+      "status": "candidate",
+      "text": "[![download](https://img.shields.io/github/downloads/cszn/KAIR/total.svg)](https://github.com/cszn/KAIR/releases) ![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/KAIR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cszn/DPIR",
+      "status": "candidate",
+      "text": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DPIR)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XPixelGroup/BasicSR",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/Real-ESRGAN",
       "status": "candidate",
       "text": "<p align=\"center\">"
     }
@@ -100,11 +208,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "sczhou/CodeFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cszn/BSRGAN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cszn/DnCNN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cszn/KAIR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cszn/DPIR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xinntao/Real-ESRGAN"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

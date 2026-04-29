@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "MSBuild"
+    "MSBuild",
+    "msbuild"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,42 @@
       "source_repo": "microsoft/DirectXTK12",
       "status": "candidate-context",
       "text": "MSBuild"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DirectXTex",
+      "status": "candidate-context",
+      "text": "DirectXTex texture processing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTex",
+      "status": "candidate-context",
+      "text": "MSBuild"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DirectXTK",
+      "status": "candidate-context",
+      "text": "The DirectX Tool Kit (aka DirectXTK) is a collection of helper classes for writing DirectX 11.x code in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTK",
+      "status": "candidate-context",
+      "text": "MSBuild"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate-context",
+      "text": "The Microsoft Build Engine (MSBuild) is the build platform for .NET and Visual Studio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/75?branchName=main&label=Public)](https://dev.azure.com/dnceng-public/public/_build?definitionId=75) [![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/9434?label=Internal&bran\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +84,24 @@
       "source_repo": "microsoft/DirectXTK12",
       "status": "candidate",
       "text": "MSBuild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTex",
+      "status": "candidate",
+      "text": "MSBuild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTK",
+      "status": "candidate",
+      "text": "MSBuild"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/75?branchName=main&label=Public)](https://dev.azure.com/dnceng-public/public/_build?definitionId=75) [![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/9434?label=Internal&bran\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +157,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/msbuild.yml",
       "source_repo": "microsoft/DirectXTK12"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/msbuild.yml",
+      "source_repo": "microsoft/DirectXTex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/msbuild.yml",
+      "source_repo": "microsoft/DirectXTK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/msbuild"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

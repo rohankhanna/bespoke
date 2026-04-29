@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apostrophecms/starter-kit-astro-essentials",
+      "target": "apostrophecms/apollo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apostrophecms/starter-kit-astro-essentials",
+      "target": "apostrophecms/apostrophe-astro",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "apostrophecms/starter-kit-astro-essentials",
+      "target": "apostrophecms/combined-astro-starter-kit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:24.682208+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22670
+    },
+    {
+      "path": "package.json",
+      "size": 1573
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Astro + Apostrophe project in a single repository. An example of how to do this with our hosted platform.",
+    "fork": false,
+    "full_name": "apostrophecms/starter-kit-astro-essentials",
+    "html_url": "https://github.com/apostrophecms/starter-kit-astro-essentials",
+    "language": "JavaScript",
+    "pushed_at": "2026-02-18T20:40:27Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-03-31T15:04:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apostrophecms/apollo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apostrophecms/apostrophe-astro",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apostrophecms/combined-astro-starter-kit",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

@@ -91,6 +91,42 @@
       "source_repo": "dart4e/dart4e-studio",
       "status": "candidate-context",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e-studio/build.yml?logo=github)](https://github.com/dart4e/dart4e-studio/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "status": "candidate-context",
+      "text": "Formatter Maven Plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-projects/spring-tools",
+      "status": "candidate-context",
+      "text": "The next generation of tooling for Spring Boot, including support for Cloud Foundry manifest files, Concourse CI pipeline definitions, BOSH deployment manifests, and more... - Available for Visual Studio Code, Cursor, Eclipse, and Theia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-tools",
+      "status": "candidate-context",
+      "text": "The all-new Spring Tools for Visual Studio Code, Eclipse, and Theia. Learn more at https://spring.io/tools."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-archived/dartboard",
+      "status": "candidate-context",
+      "text": "Dart Plugin for Eclipse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-archived/dartboard",
+      "status": "candidate-context",
+      "text": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "dart4e/dart4e-studio",
       "status": "candidate",
       "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/dart4e/dart4e-studio/build.yml?logo=github)](https://github.com/dart4e/dart4e-studio/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-tools",
+      "status": "candidate",
+      "text": "The all-new Spring Tools for Visual Studio Code, Eclipse, and Theia. Learn more at https://spring.io/tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-archived/dartboard",
+      "status": "candidate",
+      "text": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -307,11 +361,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "dart4e/dart4e-studio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "revelc/formatter-maven-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-jdtls/eclipse.jdt.ls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-lsp4j/lsp4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-archived/dartboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-tm4e/tm4e"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

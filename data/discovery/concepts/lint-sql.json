@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Lint SQL"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "status": "candidate-context",
+      "text": "HTTP Archive's annual \"State of the Web\" report made by the web community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "status": "candidate-context",
+      "text": "Lint SQL"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "status": "candidate",
+      "text": "Lint SQL"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10654,
+      "status": "candidate",
+      "text": "ban"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10654,
+      "status": "candidate",
+      "text": "black"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10654,
+      "status": "candidate",
+      "text": "ken"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10654,
+      "status": "candidate",
+      "text": "speak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 4712,
+      "status": "candidate",
+      "text": "cobol"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Lint SQL",
+  "concept_id": "lint-sql",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lintsql.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Lint SQL",
+      "sense_id": "lint-sql#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

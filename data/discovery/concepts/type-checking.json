@@ -31,6 +31,30 @@
       "source_repo": "ruby/rbs",
       "status": "candidate-context",
       "text": "RBS is a language to describe the structure of Ruby programs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "teal-language/tl",
+      "status": "candidate-context",
+      "text": "The compiler for Teal, a typed dialect of Lua"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teal-language/tl",
+      "status": "candidate-context",
+      "text": "Teal"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate-context",
+      "text": "Blazing fast input validation and transformation \u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "ruby/rbs",
       "status": "candidate",
       "text": "RBS is a language to describe the structure of Ruby programs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "teal-language/tl",
+      "status": "candidate",
+      "text": "Teal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sapphiredev/shapeshift",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -86,11 +122,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ruby/rbs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "teal-language/tl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sapphiredev/shapeshift"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

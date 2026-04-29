@@ -1,0 +1,22 @@
+{
+  "component": "localstack/tinybird-workflow-push@v3",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aws-main.yml",
+      "source_repo": "localstack/localstack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aws-tests-mamr.yml",
+      "source_repo": "localstack/localstack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aws-tests-s3-image.yml",
+      "source_repo": "localstack/localstack"
+    }
+  ]
+}

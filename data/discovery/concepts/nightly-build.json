@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Nightly build",
-    "Nightly Build"
+    "Nightly Build",
+    "Nightly-build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -140,6 +141,66 @@
       "source_repo": "status-im/nimbus-eth2",
       "status": "candidate-context",
       "text": "Nightly build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helidon-io/helidon",
+      "status": "candidate-context",
+      "text": "Java libraries for writing microservices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helidon-io/helidon",
+      "status": "candidate-context",
+      "text": "\"Nightly Build\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "Boa is an embeddable Javascript engine written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "Nightly Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spiffe/spire",
+      "status": "candidate-context",
+      "text": "The SPIFFE Runtime Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/spire",
+      "status": "candidate-context",
+      "text": "Nightly Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/oneDAL",
+      "status": "candidate-context",
+      "text": "oneAPI Data Analytics Library (oneDAL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDAL",
+      "status": "candidate-context",
+      "text": "Nightly-build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "Nightly Build"
     }
   ],
   "candidate_glosses": [
@@ -202,6 +263,36 @@
       "source_repo": "status-im/nimbus-eth2",
       "status": "candidate",
       "text": "Nightly build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helidon-io/helidon",
+      "status": "candidate",
+      "text": "\"Nightly Build\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate",
+      "text": "Nightly Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/spire",
+      "status": "candidate",
+      "text": "Nightly Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/oneDAL",
+      "status": "candidate",
+      "text": "Nightly-build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate",
+      "text": "Nightly Build"
     }
   ],
   "candidate_related_terms": [
@@ -317,11 +408,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/nightly_build.yml",
       "source_repo": "status-im/nimbus-eth2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/nightly.yaml",
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/nightly_build.yml",
+      "source_repo": "boa-dev/boa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/nightly_build.yaml",
+      "source_repo": "spiffe/spire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/building_nightly.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/nightly-build.yml",
+      "source_repo": "uxlfoundation/oneDAL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/nightly-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

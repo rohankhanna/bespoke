@@ -1,0 +1,95 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JUGGHM/OREPA_CVPR2022",
+      "target": "dingxiaoh/acnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JUGGHM/OREPA_CVPR2022",
+      "target": "guoshuxuan/expandnets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "JUGGHM/OREPA_CVPR2022",
+      "target": "dingxiaoh/diversebranchblock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JUGGHM/OREPA_CVPR2022",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JUGGHM/OREPA_CVPR2022",
+      "target": "re-parameterization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:40:13.019548+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CVPR 2022 \"Online Convolutional Re-parameterization\"",
+    "fork": false,
+    "full_name": "JUGGHM/OREPA_CVPR2022",
+    "html_url": "https://github.com/JUGGHM/OREPA_CVPR2022",
+    "language": "Python",
+    "pushed_at": "2022-04-08T02:47:51Z",
+    "stargazers_count": 182,
+    "topics": [
+      "pytorch",
+      "re-parameterization"
+    ],
+    "updated_at": "2026-04-19T01:57:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/acnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/diversebranchblock",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "guoshuxuan/expandnets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repo is the PyTorch implementation of our paper to appear in CVPR2022 on [\"Online Convolutional Re-parameterization\"](https://arxiv.org/abs/2204.00826), authored by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repo is the PyTorch implementation of our paper to appear in CVPR2022 on [\"Online Convolutional Re-parameterization\"](https://arxiv.org/abs/2204.00826), authored by",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "re-parameterization"
+    }
+  ]
+}

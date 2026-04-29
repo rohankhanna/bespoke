@@ -1,0 +1,487 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-docker-image.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-docker-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "kserve/open-inference-protocol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "autodeployai/pmml4s",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "kserve/kserve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-docker-image.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-docker-image.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-docker-image.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-docker-image.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cuda-docker-image.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cuda-docker-image.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "CUDA Docker Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "Docker Image CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yml",
+      "source_repo": "autodeployai/ai-serving",
+      "target": "Unittest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "ai-serving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "inference-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "onnx-grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "onnx-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "onnx-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "onnx-realtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "onnx-rest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "pmml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "pmml-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "pmml-grpc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "pmml-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "pmml-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "pmml-realtime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving",
+      "target": "pmml-rest",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:53:00.539231+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27177
+    },
+    {
+      "path": ".github/workflows/cuda-docker-image.yml",
+      "size": 1282
+    },
+    {
+      "path": ".github/workflows/docker-image.yml",
+      "size": 1267
+    },
+    {
+      "path": ".github/workflows/unittest.yml",
+      "size": 367
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Serving AI/ML models in the open standard formats PMML and ONNX with both HTTP (REST API) and gRPC endpoints",
+    "fork": false,
+    "full_name": "autodeployai/ai-serving",
+    "html_url": "https://github.com/autodeployai/ai-serving",
+    "language": "Scala",
+    "pushed_at": "2026-02-24T02:56:29Z",
+    "stargazers_count": 166,
+    "topics": [
+      "ai-serving",
+      "inference",
+      "inference-server",
+      "onnx",
+      "onnx-grpc",
+      "onnx-inference",
+      "onnx-models",
+      "onnx-realtime",
+      "onnx-rest",
+      "pmml",
+      "pmml-deployment",
+      "pmml-grpc",
+      "pmml-inference",
+      "pmml-model",
+      "pmml-realtime",
+      "pmml-rest"
+    ],
+    "updated_at": "2026-03-25T06:08:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "autodeployai/pmml4s",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kserve/kserve",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kserve/open-inference-protocol",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CUDA Docker Image CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cuda-docker-image.yml",
+      "term": "CUDA Docker Image CI"
+    },
+    {
+      "context_snippet": "Docker Image CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image.yml",
+      "term": "Docker Image CI"
+    },
+    {
+      "context_snippet": "Unittest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yml",
+      "term": "Unittest"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-serving"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-server"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx-grpc"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx-inference"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx-models"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx-realtime"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx-rest"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-deployment"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-grpc"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-inference"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-model"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-realtime"
+    },
+    {
+      "context_snippet": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pmml-rest"
+    }
+  ]
+}

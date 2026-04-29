@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localstack/homebrew-tap",
+      "target": "localstack/localstack-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "localstack/homebrew-tap",
+      "target": "justintime50/homebrew-releaser",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:58:54.739372+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "localstack/homebrew-tap",
+    "html_url": "https://github.com/localstack/homebrew-tap",
+    "language": "Ruby",
+    "pushed_at": "2026-04-29T08:27:41Z",
+    "stargazers_count": 6,
+    "topics": [],
+    "updated_at": "2026-04-29T08:27:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "justintime50/homebrew-releaser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "localstack/localstack-cli",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

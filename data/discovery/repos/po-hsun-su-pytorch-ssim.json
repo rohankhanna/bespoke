@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Po-Hsun-Su/pytorch-ssim",
+      "target": "image-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Po-Hsun-Su/pytorch-ssim",
+      "target": "image-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Po-Hsun-Su/pytorch-ssim",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:43:59.716776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1859
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "pytorch structural similarity (SSIM) loss",
+    "fork": false,
+    "full_name": "Po-Hsun-Su/pytorch-ssim",
+    "html_url": "https://github.com/Po-Hsun-Su/pytorch-ssim",
+    "language": "Python",
+    "pushed_at": "2024-02-22T09:28:51Z",
+    "stargazers_count": 1947,
+    "topics": [
+      "image-analysis",
+      "image-processing",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-07T17:03:21Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The code doesn't work because it is on super old pytorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-analysis"
+    },
+    {
+      "context_snippet": "The code doesn't work because it is on super old pytorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-processing"
+    },
+    {
+      "context_snippet": "The code doesn't work because it is on super old pytorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

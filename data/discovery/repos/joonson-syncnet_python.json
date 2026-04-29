@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:45:25.420259+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Out of time: automated lip sync in the wild",
+    "fork": false,
+    "full_name": "joonson/syncnet_python",
+    "html_url": "https://github.com/joonson/syncnet_python",
+    "language": "Python",
+    "pushed_at": "2026-04-17T06:41:31Z",
+    "stargazers_count": 883,
+    "topics": [],
+    "updated_at": "2026-04-17T18:42:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

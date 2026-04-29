@@ -232,15 +232,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T13:16:16.685846+00:00",
+  "fetched_at": "2026-04-29T21:03:24.011483+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 17816
+      "size": 17817
     },
     {
       "path": "pyproject.toml",
-      "size": 5771
+      "size": 5879
     },
     {
       "path": ".github/workflows/TROUBLESHOOT.md",
@@ -275,7 +275,6 @@
       "size": 633
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:53.098206+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
@@ -285,8 +284,8 @@
     "full_name": "huggingface/transformers",
     "html_url": "https://github.com/huggingface/transformers",
     "language": "Python",
-    "pushed_at": "2026-04-19T13:24:58Z",
-    "stargazers_count": 159615,
+    "pushed_at": "2026-04-29T17:16:57Z",
+    "stargazers_count": 160086,
     "topics": [
       "audio",
       "deep-learning",
@@ -308,101 +307,120 @@
       "transformer",
       "vlm"
     ],
-    "updated_at": "2026-04-19T13:53:54Z"
+    "updated_at": "2026-04-29T19:41:25Z"
   },
   "repo_links": [],
   "terms": [
     {
+      "context_snippet": "Add model like runner",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/add-model-like.yml",
       "term": "Add model like runner"
     },
     {
+      "context_snippet": "Anti-Slop",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/anti-slop.yml",
       "term": "Anti-Slop"
     },
     {
+      "context_snippet": "Assign PR Reviewers",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/assign-reviewers.yml",
       "term": "Assign PR Reviewers"
     },
     {
+      "context_snippet": "Self-hosted runner (benchmark)",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/benchmark.yml",
       "term": "Self-hosted runner (benchmark)"
     },
     {
+      "context_snippet": "Benchmark v2 Framework",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/benchmark_v2.yml",
       "term": "Benchmark v2 Framework"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "audio"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "deep-learning"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "deepseek"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gemma"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "hacktoberfest"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "machine-learning"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "model-hub"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "natural-language-processing"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "pretrained-models"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "pytorch"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "pytorch-transformers"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "qwen"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "speech-recognition"
     },
     {
+      "context_snippet": "<!---",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "transformer"

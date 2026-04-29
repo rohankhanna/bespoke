@@ -1,0 +1,13 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dot-org-filter.yml",
+      "source_repo": "ContinuumIO/anaconda-issues",
+      "target": "Anaconda.org Issues Notification to Slack",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "ContinuumIO/anaconda-issues"
+}

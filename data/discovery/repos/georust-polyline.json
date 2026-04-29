@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "georust/polyline",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "georust/polyline",
+      "target": "Run Polyline tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/polyline",
+      "target": "polyline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/polyline",
+      "target": "polyline-decoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "georust/polyline",
+      "target": "polyline-encoder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:38:46.603772+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1333
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 532
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 365
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast Google Encoded Polyline encoding & decoding in Rust",
+    "fork": false,
+    "full_name": "georust/polyline",
+    "html_url": "https://github.com/georust/polyline",
+    "language": "Rust",
+    "pushed_at": "2025-07-26T15:49:02Z",
+    "stargazers_count": 32,
+    "topics": [
+      "polyline",
+      "polyline-decoder",
+      "polyline-encoder"
+    ],
+    "updated_at": "2026-02-27T21:05:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Polyline tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Run Polyline tests"
+    },
+    {
+      "context_snippet": "[![polyline](https://avatars1.githubusercontent.com/u/10320338?v=4&s=50)](https://github.com/georust)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyline"
+    },
+    {
+      "context_snippet": "[![polyline](https://avatars1.githubusercontent.com/u/10320338?v=4&s=50)](https://github.com/georust)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyline-decoder"
+    },
+    {
+      "context_snippet": "[![polyline](https://avatars1.githubusercontent.com/u/10320338?v=4&s=50)](https://github.com/georust)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polyline-encoder"
+    }
+  ]
+}

@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "psmux/scoop-psmux",
+      "target": "marlocarlo/psmux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "psmux/scoop-psmux",
+      "target": "marlocarlo/scoop-psmux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "psmux/scoop-psmux",
+      "target": "scoop-bucket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:55:06.364123+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 454
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scoop bucket for psmux - terminal multiplexer for Windows",
+    "fork": false,
+    "full_name": "psmux/scoop-psmux",
+    "html_url": "https://github.com/psmux/scoop-psmux",
+    "language": null,
+    "pushed_at": "2026-04-28T08:48:54Z",
+    "stargazers_count": 3,
+    "topics": [
+      "scoop-bucket"
+    ],
+    "updated_at": "2026-04-28T08:48:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marlocarlo/psmux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marlocarlo/scoop-psmux",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Scoop bucket for [psmux](https://github.com/marlocarlo/psmux) \u2014 terminal multiplexer for Windows (tmux alternative).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop-bucket"
+    }
+  ]
+}

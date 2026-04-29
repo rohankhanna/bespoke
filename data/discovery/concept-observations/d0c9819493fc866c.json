@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Kernel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Kernel"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30017370,
+      "status": "candidate",
+      "text": "center"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30002535,
+      "status": "candidate",
+      "text": "sum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977374,
+      "status": "candidate",
+      "text": "gist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29972701,
+      "status": "candidate",
+      "text": "nitty-gritty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29960456,
+      "status": "candidate",
+      "text": "substance"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Kernel",
+      "sense_id": "kernel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47054,
+      "status": "candidate",
+      "text": "essence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41088,
+      "status": "candidate",
+      "text": "core"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34045,
+      "status": "candidate",
+      "text": "pith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28062,
+      "status": "candidate",
+      "text": "substance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23047,
+      "status": "candidate",
+      "text": "marrow"
+    }
+  ],
+  "concept_id": "kernel",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "kernel",
+  "observation_id": "d0c9819493fc866c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Kernel",
+  "source_context_snippet": "Kernel",
+  "source_file": ".github/workflows/kernel.yml",
+  "source_repo": "extism/extism",
+  "source_repo_description": "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps."
+}

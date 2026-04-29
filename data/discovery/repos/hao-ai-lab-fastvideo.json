@@ -1,0 +1,521 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_template-build-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_template-build-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_template-build-image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_template-build-image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_template-build-image.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-aggregate-status.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-aggregate-status.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-precommit.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-precommit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-precommit.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-slash-commands.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-slash-commands.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-slash-commands.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-slash-commands.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-slash-commands.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-slash-commands.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-slash-commands.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-trigger-full-suite.yml"
+    },
+    {
+      "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-issue-labeler.yml"
+    },
+    {
+      "component": "actions/stale@997185467fa4f803885201cee163a9f38240193d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-stale.yml"
+    },
+    {
+      "component": "actions/first-interaction@34f15e814fe48ac9312ccf29db4e74fa767cbab7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-welcome.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "tencent-hunyuan/hunyuanvideo-1.5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "kandinskylab/kandinsky-5",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "meituan-longcat/longcat-video",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "hazyresearch/thunderkittens",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_template-build-image.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_template-build-image.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_template-build-image.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_template-build-image.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_template-build-image.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_template-build-image.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "Build Image Template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-aggregate-status.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-aggregate-status.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-aggregate-status.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "Aggregate Test Status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-precommit.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-precommit.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-precommit.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-precommit.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-slash-commands.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-slash-commands.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-slash-commands.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "Slash Commands",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-trigger-full-suite.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-trigger-full-suite.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "Trigger Full Suite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-issue-labeler.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-issue-labeler.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "Auto-Label Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-stale.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "actions/stale@997185467fa4f803885201cee163a9f38240193d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-stale.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "Close Stale Issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/community-welcome.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "actions/first-interaction@34f15e814fe48ac9312ccf29db4e74fa767cbab7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-welcome.yml",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "Welcome First-Time Contributors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "diffusers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "post-training",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hao-ai-lab/FastVideo",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:14.421622+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9897
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 4075
+    },
+    {
+      "path": ".github/workflows/_template-build-image.yml",
+      "size": 3228
+    },
+    {
+      "path": ".github/workflows/ci-aggregate-status.yml",
+      "size": 2551
+    },
+    {
+      "path": ".github/workflows/ci-precommit.yml",
+      "size": 867
+    },
+    {
+      "path": ".github/workflows/ci-slash-commands.yml",
+      "size": 10741
+    },
+    {
+      "path": ".github/workflows/ci-trigger-full-suite.yml",
+      "size": 3507
+    },
+    {
+      "path": ".github/workflows/community-issue-labeler.yml",
+      "size": 3364
+    },
+    {
+      "path": ".github/workflows/community-stale.yml",
+      "size": 1958
+    },
+    {
+      "path": ".github/workflows/community-welcome.yml",
+      "size": 2500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A unified inference and post-training framework for accelerated video generation.",
+    "fork": false,
+    "full_name": "hao-ai-lab/FastVideo",
+    "html_url": "https://github.com/hao-ai-lab/FastVideo",
+    "language": "Python",
+    "pushed_at": "2026-04-28T22:52:46Z",
+    "stargazers_count": 3443,
+    "topics": [
+      "diffusers",
+      "diffusion-models",
+      "distillation",
+      "inference",
+      "post-training",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-29T15:31:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/thunderkittens",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kandinskylab/kandinsky-5",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meituan-longcat/longcat-video",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent-hunyuan/hunyuanvideo-1.5",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Image Template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_template-build-image.yml",
+      "term": "Build Image Template"
+    },
+    {
+      "context_snippet": "Aggregate Test Status",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-aggregate-status.yml",
+      "term": "Aggregate Test Status"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-precommit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "Slash Commands",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-slash-commands.yml",
+      "term": "Slash Commands"
+    },
+    {
+      "context_snippet": "Trigger Full Suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-trigger-full-suite.yml",
+      "term": "Trigger Full Suite"
+    },
+    {
+      "context_snippet": "Auto-Label Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-issue-labeler.yml",
+      "term": "Auto-Label Issues"
+    },
+    {
+      "context_snippet": "Close Stale Issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-stale.yml",
+      "term": "Close Stale Issues and PRs"
+    },
+    {
+      "context_snippet": "Welcome First-Time Contributors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/community-welcome.yml",
+      "term": "Welcome First-Time Contributors"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusers"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distillation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post-training"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

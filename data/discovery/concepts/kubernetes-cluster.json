@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "kubernetes-cluster"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IBM/FfDL",
+      "status": "candidate-context",
+      "text": "Fabric for Deep Learning (FfDL, pronounced fiddle) is a Deep Learning Platform offering TensorFlow, Caffe, PyTorch etc. as a Service on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/FfDL",
+      "status": "candidate-context",
+      "text": "> This repository will not be updated. The repository will be kept available in read-only mode."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/FfDL",
+      "status": "candidate",
+      "text": "> This repository will not be updated. The repository will be kept available in read-only mode."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "kubernetes-cluster",
+  "concept_id": "kubernetes-cluster",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "IBM/FfDL"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kubernetes-cluster",
+      "sense_id": "kubernetes-cluster#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,184 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sonph/onehalf",
+      "target": "dylanaraps/pywal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonph/onehalf",
+      "target": "alacritty",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonph/onehalf",
+      "target": "colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonph/onehalf",
+      "target": "gnome-terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonph/onehalf",
+      "target": "iterm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonph/onehalf",
+      "target": "iterm2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonph/onehalf",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonph/onehalf",
+      "target": "sublimetext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonph/onehalf",
+      "target": "terminal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonph/onehalf",
+      "target": "xcode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sonph/onehalf",
+      "target": "xcode-color-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:52:54.930172+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4505
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clean, vibrant and pleasing color schemes for Vim, Sublime Text, iTerm, gnome-terminal and more.",
+    "fork": false,
+    "full_name": "sonph/onehalf",
+    "html_url": "https://github.com/sonph/onehalf",
+    "language": "Vim script",
+    "pushed_at": "2024-06-07T14:54:17Z",
+    "stargazers_count": 1890,
+    "topics": [
+      "alacritty",
+      "colorscheme",
+      "gnome-terminal",
+      "iterm",
+      "iterm2",
+      "neovim",
+      "sublimetext",
+      "terminal",
+      "vim",
+      "xcode",
+      "xcode-color-theme"
+    ],
+    "updated_at": "2026-04-29T02:33:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dylanaraps/pywal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alacritty"
+    },
+    {
+      "context_snippet": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorscheme"
+    },
+    {
+      "context_snippet": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gnome-terminal"
+    },
+    {
+      "context_snippet": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iterm"
+    },
+    {
+      "context_snippet": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iterm2"
+    },
+    {
+      "context_snippet": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sublimetext"
+    },
+    {
+      "context_snippet": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "terminal"
+    },
+    {
+      "context_snippet": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode"
+    },
+    {
+      "context_snippet": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode-color-theme"
+    }
+  ]
+}

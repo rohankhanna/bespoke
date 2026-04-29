@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "neural-architecture-search"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/tinyengine",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2020] MCUNet: Tiny Deep Learning on IoT Devices; [NeurIPS 2021] MCUNetV2: Memory-Efficient Patch-based Inference for Tiny Deep Learning; [NeurIPS 2022] MCUNetV3: On-Device Training Under 256KB Memory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/tinyengine",
+      "status": "candidate-context",
+      "text": "This is the official implementation of TinyEngine, a memory-efficient and high-performance neural network library for Microcontrollers."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/tinyengine",
+      "status": "candidate",
+      "text": "This is the official implementation of TinyEngine, a memory-efficient and high-performance neural network library for Microcontrollers."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "neural-architecture-search",
+  "concept_id": "neural-architecture-search",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/tinyengine"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neural-architecture-search",
+      "sense_id": "neural-architecture-search#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,22 @@
+{
+  "component": "docker/build-push-action@0565240e2d4ab88bba5387d719585280857ece09",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "devgianlu/go-librespot"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/php-8_2.yaml",
+      "source_repo": "StephenMiracle/frankenwp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/php-8_3.yml",
+      "source_repo": "StephenMiracle/frankenwp"
+    }
+  ]
+}

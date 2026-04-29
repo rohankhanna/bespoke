@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "asaakyan/covidfact",
+      "target": "pytorch/fairseq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:39:33.040236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5276
+    },
+    {
+      "path": "requirements.txt",
+      "size": 3207
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Data and code for the paper COVID-Fact: Fact Extraction and Verification of Real-World Claims on COVID-19 Pandemic.",
+    "fork": false,
+    "full_name": "asaakyan/covidfact",
+    "html_url": "https://github.com/asaakyan/covidfact",
+    "language": "Python",
+    "pushed_at": "2025-02-11T21:09:12Z",
+    "stargazers_count": 40,
+    "topics": [],
+    "updated_at": "2026-03-28T08:04:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch/fairseq",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

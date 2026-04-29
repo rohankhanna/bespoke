@@ -1,0 +1,136 @@
+{
+  "components": [
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-user-config@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Homebrew/actions/git-try-push@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Homebrew/actions/setup-homebrew@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rose-pine/homebrew-tap",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rose-pine/homebrew-tap",
+      "target": "Homebrew/actions/git-user-config@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rose-pine/homebrew-tap",
+      "target": "Homebrew/actions/git-try-push@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rose-pine/homebrew-tap",
+      "target": "brew pr-pull",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rose-pine/homebrew-tap",
+      "target": "Homebrew/actions/setup-homebrew@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rose-pine/homebrew-tap",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rose-pine/homebrew-tap",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "rose-pine/homebrew-tap",
+      "target": "brew test-bot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:39:20.764776+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 484
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1113
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1233
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Homebrew tap repo for Ros\u00e9 Pine",
+    "fork": false,
+    "full_name": "rose-pine/homebrew-tap",
+    "html_url": "https://github.com/rose-pine/homebrew-tap",
+    "language": "Shell",
+    "pushed_at": "2025-11-19T19:53:51Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-11-19T19:53:54Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "brew pr-pull",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "brew pr-pull"
+    },
+    {
+      "context_snippet": "brew test-bot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "brew test-bot"
+    }
+  ]
+}

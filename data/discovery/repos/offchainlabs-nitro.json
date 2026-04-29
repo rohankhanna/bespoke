@@ -1,0 +1,329 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bold-legacy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bold-legacy.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bold-legacy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_changelog.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_codecov.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_codecov.yml"
+    },
+    {
+      "component": "codecov/basic-test-results@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_codecov.yml"
+    },
+    {
+      "component": "codecov/test-results-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_codecov.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_detect-changes.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_detect-changes.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fast.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_go-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_go-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_go-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_go-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bold-legacy.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bold-legacy.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_bold-legacy.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_bold-legacy.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "bold-legacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_changelog.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_changelog.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "dsaltares/fetch-gh-release-asset@1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_changelog.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_codecov.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_codecov.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_codecov.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "codecov/basic-test-results@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_codecov.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "codecov/test-results-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_codecov.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "codecov",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_detect-changes.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_detect-changes.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "tj-actions/changed-files@v47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_detect-changes.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "detect-file-changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_fast.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_fast.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "fast-ci-jobs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_go-tests.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_go-tests.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_go-tests.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_go-tests.yml",
+      "source_repo": "OffchainLabs/nitro",
+      "target": "nitro-go-tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:48:33.868179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3448
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4100
+    },
+    {
+      "path": "Dockerfile",
+      "size": 19403
+    },
+    {
+      "path": "go.mod",
+      "size": 10005
+    },
+    {
+      "path": ".github/workflows/_bold-legacy.yml",
+      "size": 970
+    },
+    {
+      "path": ".github/workflows/_changelog.yml",
+      "size": 737
+    },
+    {
+      "path": ".github/workflows/_codecov.yml",
+      "size": 1566
+    },
+    {
+      "path": ".github/workflows/_detect-changes.yml",
+      "size": 1610
+    },
+    {
+      "path": ".github/workflows/_fast.yml",
+      "size": 507
+    },
+    {
+      "path": ".github/workflows/_go-tests.yml",
+      "size": 11444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Nitro goes vroom and fixes everything",
+    "fork": false,
+    "full_name": "OffchainLabs/nitro",
+    "html_url": "https://github.com/OffchainLabs/nitro",
+    "language": "Go",
+    "pushed_at": "2026-04-29T08:59:17Z",
+    "stargazers_count": 905,
+    "topics": [],
+    "updated_at": "2026-04-23T12:45:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "bold-legacy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_bold-legacy.yml",
+      "term": "bold-legacy"
+    },
+    {
+      "context_snippet": "changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_changelog.yml",
+      "term": "changelog"
+    },
+    {
+      "context_snippet": "codecov",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_codecov.yml",
+      "term": "codecov"
+    },
+    {
+      "context_snippet": "detect-file-changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_detect-changes.yml",
+      "term": "detect-file-changes"
+    },
+    {
+      "context_snippet": "fast-ci-jobs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_fast.yml",
+      "term": "fast-ci-jobs"
+    },
+    {
+      "context_snippet": "nitro-go-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_go-tests.yml",
+      "term": "nitro-go-tests"
+    }
+  ]
+}

@@ -7,9 +7,65 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
-  "candidate_related_terms": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-darwin/nix-darwin",
+      "status": "candidate-context",
+      "text": "Manage your macOS using Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-darwin/nix-darwin",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://github.com/user-attachments/assets/0e1a77ac-6739-4153-bd24-abd3a5e143f5\" width=\"200px\" alt=\"logo\" />](https://github.com/nix-darwin/nix-darwin)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-darwin/nix-darwin",
+      "status": "candidate",
+      "text": "[<img src=\"https://github.com/user-attachments/assets/0e1a77ac-6739-4153-bd24-abd3a5e143f5\" width=\"200px\" alt=\"logo\" />](https://github.com/nix-darwin/nix-darwin)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "disk utility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "terminal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "applescript"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "systemd"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "system 6"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "launchd",
   "concept_id": "launchd",
@@ -20,12 +76,20 @@
       "observed_at": "2026-04-18T10:43:38.551697+00:00",
       "source_file": null,
       "source_repo": "tombelieber/claude-backup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nix-darwin/nix-darwin"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T10:43:38.551697+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

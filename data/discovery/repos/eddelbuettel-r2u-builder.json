@@ -1,0 +1,447 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "eddelbuettel/r2u-builder/.github/workflows/workflow_build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "eddelbuettel/r2u-builder/.github/workflows/workflow_build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "eddelbuettel/r2u-builder/.github/workflows/workflow_build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "eddelbuettel/r2u-builder/.github/workflows/workflow_build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "eddelbuettel/r2u-builder/.github/workflows/workflow_build.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.4.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4.1.8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.4.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/single.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/single.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_build.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_build.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.4.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_build.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_build.yaml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2.4.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "eddelbuettel/r2u-builder/.github/workflows/workflow_build.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "actions/upload-artifact@v4.4.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "actions/download-artifact@v4.1.8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/oneoff.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "softprops/action-gh-release@v2.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oneoff.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "oneoff",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/single.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/single.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/single.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "single",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_build.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_build.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_build.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "softprops/action-gh-release@v2.4.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow_build.yaml",
+      "source_repo": "eddelbuettel/r2u-builder",
+      "target": "softprops/action-gh-release@v2.2.2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:59:01.519889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 759
+    },
+    {
+      "path": ".github/workflows/build.yaml",
+      "size": 3777
+    },
+    {
+      "path": ".github/workflows/docker.yaml",
+      "size": 2733
+    },
+    {
+      "path": ".github/workflows/oneoff.yaml",
+      "size": 5482
+    },
+    {
+      "path": ".github/workflows/single.yaml",
+      "size": 1445
+    },
+    {
+      "path": ".github/workflows/workflow_build.yaml",
+      "size": 4340
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "eddelbuettel/r2u-builder",
+    "html_url": "https://github.com/eddelbuettel/r2u-builder",
+    "language": "C",
+    "pushed_at": "2026-04-29T13:59:40Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-17T15:03:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yaml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "docker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker.yaml",
+      "term": "docker"
+    },
+    {
+      "context_snippet": "oneoff",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/oneoff.yaml",
+      "term": "oneoff"
+    },
+    {
+      "context_snippet": "single",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/single.yaml",
+      "term": "single"
+    }
+  ]
+}

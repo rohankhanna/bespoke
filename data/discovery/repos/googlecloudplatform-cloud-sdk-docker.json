@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GoogleCloudPlatform/cloud-sdk-docker",
+      "target": "alpinelinux/docker-alpine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/cloud-sdk-docker",
+      "target": "gcloud",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GoogleCloudPlatform/cloud-sdk-docker",
+      "target": "google-cloud-sdk",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:59:53.363867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4750
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2238
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Google Cloud CLI Docker Image - Docker Image containing the gcloud CLI and its bundled components.",
+    "fork": false,
+    "full_name": "GoogleCloudPlatform/cloud-sdk-docker",
+    "html_url": "https://github.com/GoogleCloudPlatform/cloud-sdk-docker",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-29T15:13:05Z",
+    "stargazers_count": 787,
+    "topics": [
+      "gcloud",
+      "google-cloud-sdk"
+    ],
+    "updated_at": "2026-04-29T15:17:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpinelinux/docker-alpine",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The Google Cloud CLI Docker image lets you pull a specific version of gcloud CLI as a Docker image from [Artifact Registry](https://cloud.google.com/artifact-registry) and quickly execute Google Cloud CLI commands in an isolated, correctly configured container.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gcloud"
+    },
+    {
+      "context_snippet": "The Google Cloud CLI Docker image lets you pull a specific version of gcloud CLI as a Docker image from [Artifact Registry](https://cloud.google.com/artifact-registry) and quickly execute Google Cloud CLI commands in an isolated, correctly configured container.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-cloud-sdk"
+    }
+  ]
+}

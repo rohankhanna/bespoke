@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly Wheel builder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipython/ipython",
+      "status": "candidate-context",
+      "text": "Official repository for IPython itself. Other repos in the IPython organization contain things like the website, documentation builds, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipython/ipython",
+      "status": "candidate-context",
+      "text": "Nightly Wheel builder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipython/ipython",
+      "status": "candidate",
+      "text": "Nightly Wheel builder"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22401,
+      "status": "candidate",
+      "text": "ante"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22401,
+      "status": "candidate",
+      "text": "bee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22401,
+      "status": "candidate",
+      "text": "bet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22333,
+      "status": "candidate",
+      "text": "home"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22333,
+      "status": "candidate",
+      "text": "mars"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly Wheel builder",
+  "concept_id": "nightly-wheel-builder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/nightly-wheel-build.yml",
+      "source_repo": "ipython/ipython"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Wheel builder",
+      "sense_id": "nightly-wheel-builder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

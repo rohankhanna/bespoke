@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/CPM-Bee",
+      "target": "openbmb/viscpm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/CPM-Bee",
+      "target": "openbmb/bmtrain",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/CPM-Bee",
+      "target": "openbmb/bmcook",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenBMB/CPM-Bee",
+      "target": "openbmb/general-model-license",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:53:31.134905+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26051
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u767e\u4ebf\u53c2\u6570\u7684\u4e2d\u82f1\u6587\u53cc\u8bed\u57fa\u5ea7\u5927\u6a21\u578b",
+    "fork": false,
+    "full_name": "OpenBMB/CPM-Bee",
+    "html_url": "https://github.com/OpenBMB/CPM-Bee",
+    "language": "Python",
+    "pushed_at": "2023-07-28T04:00:33Z",
+    "stargazers_count": 2410,
+    "topics": [],
+    "updated_at": "2026-04-29T06:02:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/bmcook",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/bmtrain",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/general-model-license",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openbmb/viscpm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

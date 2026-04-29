@@ -110,14 +110,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/mvp",
-      "target": "dwyl/phoenix-liveview-chat-example",
+      "target": "dwyl/phoenix-liveview-todo-list-tutorial",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "dwyl/mvp",
-      "target": "dwyl/phoenix-chat-example",
+      "target": "dwyl/phoenix-liveview-stopwatch",
       "target_type": "repository"
     },
     {
@@ -338,7 +338,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T12:59:24.521840+00:00",
+  "fetched_at": "2026-04-29T20:58:11.474158+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -404,12 +404,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dwyl/phoenix-chat-example",
+      "full_name": "dwyl/phoenix-liveview-stopwatch",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "dwyl/phoenix-liveview-chat-example",
+      "full_name": "dwyl/phoenix-liveview-todo-list-tutorial",
       "source_file": "README.md"
     }
   ],

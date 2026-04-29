@@ -1,7 +1,7 @@
 {
   "component": "actions-rs/audit-check@v1",
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nightly-cargo-audit.yml",
       "source_repo": "FuelLabs/sway"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "cobalt-org/cobalt.rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "clog-tool/clog-lib"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "fcsonline/tmux-thumbs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-cli/human-panic"
     }
   ]
 }

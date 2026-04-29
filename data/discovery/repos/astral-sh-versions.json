@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-r2.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync-r2.yml",
+      "source_repo": "astral-sh/versions",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-r2.yml",
+      "source_repo": "astral-sh/versions",
+      "target": "Sync NDJSON to R2",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:58:01.595378+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3048
+    },
+    {
+      "path": ".github/workflows/sync-r2.yml",
+      "size": 1097
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "astral-sh/versions",
+    "html_url": "https://github.com/astral-sh/versions",
+    "language": "Python",
+    "pushed_at": "2026-04-28T10:47:52Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-04-28T10:47:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Sync NDJSON to R2",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync-r2.yml",
+      "term": "Sync NDJSON to R2"
+    }
+  ]
+}

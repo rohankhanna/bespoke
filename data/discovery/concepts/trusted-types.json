@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "trusted-types"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/trusted-types",
+      "status": "candidate-context",
+      "text": "A browser API to prevent DOM-Based Cross Site Scripting in modern web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/trusted-types",
+      "status": "candidate-context",
+      "text": "![npm bundle size](https://img.shields.io/bundlephobia/minzip/trusted-types.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/trusted-types",
+      "status": "candidate",
+      "text": "![npm bundle size](https://img.shields.io/bundlephobia/minzip/trusted-types.svg)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "trusted-types",
+  "concept_id": "trusted-types",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "trusted-types",
+      "sense_id": "trusted-types#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "root-signing GCS repository tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/root-signing",
+      "status": "candidate-context",
+      "text": "TUF repository for Sigstore trust root"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/root-signing",
+      "status": "candidate-context",
+      "text": "root-signing GCS repository tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/root-signing",
+      "status": "candidate",
+      "text": "root-signing GCS repository tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22404,
+      "status": "candidate",
+      "text": "kill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22404,
+      "status": "candidate",
+      "text": "light"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22360,
+      "status": "candidate",
+      "text": "ace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22360,
+      "status": "candidate",
+      "text": "clearinghouse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22360,
+      "status": "candidate",
+      "text": "club"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "root-signing GCS repository tests",
+  "concept_id": "root-signing-gcs-repository-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test-gcs.yml",
+      "source_repo": "sigstore/root-signing"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "root-signing GCS repository tests",
+      "sense_id": "root-signing-gcs-repository-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

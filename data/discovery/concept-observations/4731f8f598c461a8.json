@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Github mirror of official Kismet repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Ubuntu Default Build Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Ubuntu Default Build Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40413,
+      "status": "candidate",
+      "text": "kubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18234,
+      "status": "candidate",
+      "text": "fail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18204,
+      "status": "candidate",
+      "text": "neglect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18204,
+      "status": "candidate",
+      "text": "neglected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18204,
+      "status": "candidate",
+      "text": "normal"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ubuntu Default Build Test",
+      "sense_id": "ubuntu-default-build-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ubuntu-default-build-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ubuntu-default-build-test",
+  "observation_id": "4731f8f598c461a8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Ubuntu Default Build Test",
+  "source_context_snippet": "Ubuntu Default Build Test",
+  "source_file": ".github/workflows/ubuntu-default-build.yaml",
+  "source_repo": "kismetwireless/kismet",
+  "source_repo_description": "Github mirror of official Kismet repository"
+}

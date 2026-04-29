@@ -1,0 +1,17 @@
+{
+  "component": "actions/upload-artifact@v2-preview",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create_distributables.yml",
+      "source_repo": "askonomm/shh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create_distributables_test.yml",
+      "source_repo": "askonomm/shh"
+    }
+  ]
+}

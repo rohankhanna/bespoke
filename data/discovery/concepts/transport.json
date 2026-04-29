@@ -67,6 +67,18 @@
       "source_repo": "anacrolix/go-libutp",
       "status": "candidate-context",
       "text": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library",
+      "status": "candidate-context",
+      "text": "A real-time media transport (DPDK, AF_XDP) stack for both raw and compressed video based on COTS hardware."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library",
+      "status": "candidate-context",
+      "text": "> [!TIP]"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "anacrolix/go-libutp",
       "status": "candidate",
       "text": "[![GoDoc](https://godoc.org/github.com/anacrolix/go-libutp?status.svg)](http://godoc.org/github.com/anacrolix/go-libutp)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library",
+      "status": "candidate",
+      "text": "> [!TIP]"
     }
   ],
   "candidate_related_terms": [
@@ -208,11 +226,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "anacrolix/go-libutp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

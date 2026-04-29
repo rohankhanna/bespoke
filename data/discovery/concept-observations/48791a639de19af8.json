@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Deoplete source for TabNine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A [Deoplete][] source for [TabNine][]."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A [Deoplete][] source for [TabNine][]."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deoplete-source",
+      "sense_id": "deoplete-source#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deoplete-source",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deoplete-source",
+  "observation_id": "48791a639de19af8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "deoplete-source",
+  "source_context_snippet": "A [Deoplete][] source for [TabNine][].",
+  "source_file": null,
+  "source_repo": "tbodt/deoplete-tabnine",
+  "source_repo_description": "Deoplete source for TabNine"
+}

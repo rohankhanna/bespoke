@@ -55,6 +55,30 @@
       "source_repo": "go-rod/rod",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate-context",
+      "text": "The fast, flexible, and elegant library for parsing and manipulating HTML and XML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate-context",
+      "text": "cheerio \u2014 The fast, flexible & elegant library for parsing and manipulating HTML and XML."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codelucas/newspaper",
+      "status": "candidate-context",
+      "text": "newspaper3k is a news, full-text, and article metadata extraction in Python 3. Advanced docs:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelucas/newspaper",
+      "status": "candidate-context",
+      "text": "Newspaper3k: Article scraping & curation"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "go-rod/rod",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate",
+      "text": "cheerio \u2014 The fast, flexible & elegant library for parsing and manipulating HTML and XML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelucas/newspaper",
+      "status": "candidate",
+      "text": "Newspaper3k: Article scraping & curation"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +184,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "go-rod/rod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cheeriojs/cheerio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "codelucas/newspaper"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

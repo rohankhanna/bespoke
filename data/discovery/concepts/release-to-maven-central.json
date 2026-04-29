@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Release to Maven Central"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate-context",
+      "text": "Java SDK for building Kubernetes Operators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate-context",
+      "text": "Release to Maven Central"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/java-operator-sdk",
+      "status": "candidate",
+      "text": "Release to Maven Central"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23141,
+      "status": "candidate",
+      "text": "helena"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23141,
+      "status": "candidate",
+      "text": "yan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23116,
+      "status": "candidate",
+      "text": "post"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22566,
+      "status": "candidate",
+      "text": "erotica"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22566,
+      "status": "candidate",
+      "text": "numb"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release to Maven Central",
+  "concept_id": "release-to-maven-central",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "operator-framework/java-operator-sdk"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release to Maven Central",
+      "sense_id": "release-to-maven-central#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

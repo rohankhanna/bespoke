@@ -1,0 +1,397 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centralized-sampling-tests.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centralized-sampling-tests.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centralized-sampling-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "gradle/gradle-build-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "aws-actions/amazon-ecr-login@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml"
+    },
+    {
+      "component": "actions/labeler@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "aws-otel/aws-otel.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centralized-sampling-tests.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centralized-sampling-tests.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/centralized-sampling-tests.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/centralized-sampling-tests.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "Centralized Sampling Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "gradle/gradle-build-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "aws-actions/configure-aws-credentials@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "aws-actions/amazon-ecr-login@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "Integration Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "actions/labeler@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "Pull Request Labeler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "aws-xray",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "observability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "opensource",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "opentelemetry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "opentelemetry-api",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "opentelemetry-collector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "opentelemetry-exporter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-observability/aws-otel-community",
+      "target": "prometheus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:52:38.301248+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2665
+    },
+    {
+      "path": ".github/workflows/centralized-sampling-tests.yml",
+      "size": 1844
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1930
+    },
+    {
+      "path": ".github/workflows/integration-test.yml",
+      "size": 3931
+    },
+    {
+      "path": ".github/workflows/labeler.yml",
+      "size": 210
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Welcome to the AWS Distro for OpenTelemetry project. If you're using monitoring and observability tools for AWS products and services, this is a great place to ask questions, request features and network with other community members. ",
+    "fork": false,
+    "full_name": "aws-observability/aws-otel-community",
+    "html_url": "https://github.com/aws-observability/aws-otel-community",
+    "language": "Java",
+    "pushed_at": "2026-02-12T19:03:31Z",
+    "stargazers_count": 113,
+    "topics": [
+      "aws-xray",
+      "observability",
+      "opensource",
+      "opentelemetry",
+      "opentelemetry-api",
+      "opentelemetry-collector",
+      "opentelemetry-exporter",
+      "prometheus"
+    ],
+    "updated_at": "2026-04-24T13:36:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aws-otel/aws-otel.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Centralized Sampling Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/centralized-sampling-tests.yml",
+      "term": "Centralized Sampling Integration Tests"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "\"Integration Test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-test.yml",
+      "term": "Integration Test"
+    },
+    {
+      "context_snippet": "\"Pull Request Labeler\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "term": "Pull Request Labeler"
+    },
+    {
+      "context_snippet": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aws-xray"
+    },
+    {
+      "context_snippet": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "observability"
+    },
+    {
+      "context_snippet": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opensource"
+    },
+    {
+      "context_snippet": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry"
+    },
+    {
+      "context_snippet": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry-api"
+    },
+    {
+      "context_snippet": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry-collector"
+    },
+    {
+      "context_snippet": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opentelemetry-exporter"
+    },
+    {
+      "context_snippet": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prometheus"
+    }
+  ]
+}

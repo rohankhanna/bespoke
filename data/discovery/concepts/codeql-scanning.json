@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "codeql-scanning"
+    "codeql-scanning",
+    "CodeQL Scanning"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "Layr-Labs/eigenda-proxy",
       "status": "candidate-context",
       "text": "\"codeql-scanning\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amzn/pecos",
+      "status": "candidate-context",
+      "text": "PECOS - Prediction for Enormous and Correlated Spaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/pecos",
+      "status": "candidate-context",
+      "text": "\"CodeQL Scanning\""
     }
   ],
   "candidate_glosses": [
@@ -45,9 +58,51 @@
       "source_repo": "Layr-Labs/eigenda-proxy",
       "status": "candidate",
       "text": "\"codeql-scanning\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/pecos",
+      "status": "candidate",
+      "text": "\"CodeQL Scanning\""
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26364,
+      "status": "candidate",
+      "text": "perusal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "cat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "iconoscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 6424,
+      "status": "candidate",
+      "text": "interlaced scanning"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "codeql-scanning",
   "concept_id": "codeql-scanning",
@@ -64,11 +119,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/codeql-scanning.yml",
       "source_repo": "Layr-Labs/eigenda-proxy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "amzn/pecos"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

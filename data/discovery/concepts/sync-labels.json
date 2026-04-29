@@ -56,6 +56,30 @@
       "source_repo": "archiverjs/node-archiver",
       "status": "candidate-context",
       "text": "Sync labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/conda",
+      "status": "candidate-context",
+      "text": "A system-level, binary package and environment manager running on all major operating systems and platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda",
+      "status": "candidate-context",
+      "text": "Sync Labels"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adonisjs/core",
+      "status": "candidate-context",
+      "text": "AdonisJS is a TypeScript-first web framework for building web apps and API servers. It comes with support for testing, modern tooling, an ecosystem of official packages, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adonisjs/core",
+      "status": "candidate-context",
+      "text": "Sync labels"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +104,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "archiverjs/node-archiver",
+      "status": "candidate",
+      "text": "Sync labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda",
+      "status": "candidate",
+      "text": "Sync Labels"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adonisjs/core",
       "status": "candidate",
       "text": "Sync labels"
     }
@@ -149,11 +185,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/labels.yaml",
       "source_repo": "archiverjs/node-archiver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "conda/conda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "adonisjs/core"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

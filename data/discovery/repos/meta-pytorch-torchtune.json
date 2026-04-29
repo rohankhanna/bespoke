@@ -158,14 +158,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "meta-pytorch/torchtune",
-      "target": "meta-pytorch/gpt-fast",
+      "target": "meta-llama/llama-recipes",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "meta-pytorch/torchtune",
-      "target": "meta-llama/llama-recipes",
+      "target": "timdettmers/bitsandbytes",
       "target_type": "repository"
     },
     {
@@ -414,7 +414,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:15:09.734928+00:00",
+  "fetched_at": "2026-04-29T20:42:18.792784+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -466,20 +466,15 @@
     "full_name": "meta-pytorch/torchtune",
     "html_url": "https://github.com/meta-pytorch/torchtune",
     "language": "Python",
-    "pushed_at": "2026-04-23T19:15:28Z",
-    "stargazers_count": 5739,
+    "pushed_at": "2026-04-29T12:04:21Z",
+    "stargazers_count": 5745,
     "topics": [],
-    "updated_at": "2026-04-23T19:15:35Z"
+    "updated_at": "2026-04-29T16:23:31Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "meta-llama/llama-recipes",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "meta-pytorch/gpt-fast",
       "source_file": "README.md"
     },
     {
@@ -490,6 +485,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "pytorch/torchtune",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdettmers/bitsandbytes",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,112 @@
+{
+  "aliases": [
+    "unist"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syntax-tree/hast",
+      "status": "candidate-context",
+      "text": "Hypertext Abstract Syntax Tree format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/hast",
+      "status": "candidate-context",
+      "text": "hypertext abstract syntax tree"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syntax-tree/mdast",
+      "status": "candidate-context",
+      "text": "Markdown Abstract Syntax Tree format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/mdast",
+      "status": "candidate-context",
+      "text": "markdown abstract syntax tree"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unifiedjs/unified",
+      "status": "candidate-context",
+      "text": "Parse, inspect, transform, and serialize content with syntax trees"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unifiedjs/unified",
+      "status": "candidate-context",
+      "text": "unified \u2014 parse, inspect, transform, and serialize content through syntax trees"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/hast",
+      "status": "candidate",
+      "text": "hypertext abstract syntax tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/mdast",
+      "status": "candidate",
+      "text": "markdown abstract syntax tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unifiedjs/unified",
+      "status": "candidate",
+      "text": "unified \u2014 parse, inspect, transform, and serialize content through syntax trees"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "unist",
+  "concept_id": "unist",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "syntax-tree/hast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "syntax-tree/mdast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "unifiedjs/unified"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unist",
+      "sense_id": "unist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

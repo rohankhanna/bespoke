@@ -86,28 +86,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "georust/geo",
-      "target": "georust/proj",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "georust/geo",
-      "target": "georust/geojson",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "georust/geo",
-      "target": "georust/geocoding",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "georust/geo",
-      "target": "georust/gpx",
+      "target": "georust/wkt",
       "target_type": "repository"
     },
     {
@@ -160,7 +139,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:49:46.485425+00:00",
+  "fetched_at": "2026-04-29T21:59:38.387287+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -184,8 +163,8 @@
     "full_name": "georust/geo",
     "html_url": "https://github.com/georust/geo",
     "language": "Rust",
-    "pushed_at": "2026-04-20T21:03:12Z",
-    "stargazers_count": 1860,
+    "pushed_at": "2026-04-29T10:17:38Z",
+    "stargazers_count": 1863,
     "topics": [
       "geography",
       "geometry",
@@ -193,27 +172,12 @@
       "gis",
       "rust"
     ],
-    "updated_at": "2026-04-23T22:17:52Z"
+    "updated_at": "2026-04-28T17:27:00Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "georust/geocoding",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "georust/geojson",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "georust/gpx",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "georust/proj",
+      "full_name": "georust/wkt",
       "source_file": "README.md"
     }
   ],

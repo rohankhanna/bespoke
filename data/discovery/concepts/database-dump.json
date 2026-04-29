@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Database Dump"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "status": "candidate-context",
+      "text": "Dashboard for InferenceX\u2122, Open Source Continuous Inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "status": "candidate-context",
+      "text": "Database Dump"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "status": "candidate",
+      "text": "Database Dump"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35593,
+      "status": "candidate",
+      "text": "database"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35592,
+      "status": "candidate",
+      "text": "database catalog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35591,
+      "status": "candidate",
+      "text": "database application"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35590,
+      "status": "candidate",
+      "text": "database schema"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35589,
+      "status": "candidate",
+      "text": "database server"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Database Dump",
+  "concept_id": "database-dump",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/db-backup.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Database Dump",
+      "sense_id": "database-dump#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

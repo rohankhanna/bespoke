@@ -1,0 +1,243 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thu-ml/SageAttention",
+      "target": "jt-zhang/sparse_sageattention_api",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thu-ml/SageAttention",
+      "target": "thu-ml/spargeattn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "thu-ml/SageAttention",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "thu-ml/SageAttention",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "thu-ml/SageAttention",
+      "target": "Publish to PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SageAttention",
+      "target": "attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SageAttention",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SageAttention",
+      "target": "efficient-attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SageAttention",
+      "target": "inference-acceleration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SageAttention",
+      "target": "llm-infra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SageAttention",
+      "target": "mlsys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SageAttention",
+      "target": "quantization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SageAttention",
+      "target": "triton",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SageAttention",
+      "target": "video-generate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thu-ml/SageAttention",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:42.761620+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11306
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 140
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 977
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR2025, ICML2025, NeurIPS2025 Spotlight] Quantized Attention achieves speedup of 2-5x compared to FlashAttention, without losing end-to-end metrics across language, image, and video models.",
+    "fork": false,
+    "full_name": "thu-ml/SageAttention",
+    "html_url": "https://github.com/thu-ml/SageAttention",
+    "language": "Cuda",
+    "pushed_at": "2026-01-17T17:43:28Z",
+    "stargazers_count": 3333,
+    "topics": [
+      "attention",
+      "cuda",
+      "efficient-attention",
+      "inference-acceleration",
+      "llm",
+      "llm-infra",
+      "mlsys",
+      "quantization",
+      "triton",
+      "video-generate",
+      "video-generation",
+      "vit"
+    ],
+    "updated_at": "2026-04-29T12:54:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jt-zhang/sparse_sageattention_api",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thu-ml/spargeattn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to PyPI"
+    },
+    {
+      "context_snippet": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention"
+    },
+    {
+      "context_snippet": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient-attention"
+    },
+    {
+      "context_snippet": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-acceleration"
+    },
+    {
+      "context_snippet": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-infra"
+    },
+    {
+      "context_snippet": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlsys"
+    },
+    {
+      "context_snippet": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quantization"
+    },
+    {
+      "context_snippet": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "triton"
+    },
+    {
+      "context_snippet": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generate"
+    },
+    {
+      "context_snippet": "<!-- We are continuously updating more features. You could **Star** and **Watch** our repository to stay updated.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

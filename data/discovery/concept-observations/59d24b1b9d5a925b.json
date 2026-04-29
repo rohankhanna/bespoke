@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PyTorch Implementation of FastSpeech 2 :  Fast and High-Quality End-to-End Text to Speech"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "UnOfficial PyTorch implementation of [**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**](https://arxiv.org/abs/2006.04558). This repo uses the FastSpeech implementation of [Espnet](https://github.com/espnet/espnet) as a base. In this implementation I tried to rep\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "UnOfficial PyTorch implementation of [**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**](https://arxiv.org/abs/2006.04558). This repo uses the FastSpeech implementation of [Espnet](https://github.com/espnet/espnet) as a base. In this implementation I tried to rep\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tts-engines",
+      "sense_id": "tts-engines#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tts-engines",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tts-engines",
+  "observation_id": "59d24b1b9d5a925b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "tts-engines",
+  "source_context_snippet": "UnOfficial PyTorch implementation of [**FastSpeech 2: Fast and High-Quality End-to-End Text to Speech**](https://arxiv.org/abs/2006.04558). This repo uses the FastSpeech implementation of [Espnet](https://github.com/espnet/espnet) as a base. In this implementation I tried to rep\u2026",
+  "source_file": null,
+  "source_repo": "rishikksh20/FastSpeech2",
+  "source_repo_description": "PyTorch Implementation of FastSpeech 2 :  Fast and High-Quality End-to-End Text to Speech"
+}

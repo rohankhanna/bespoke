@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The MacPorts ports tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains the source definitions for the open source software packages offered through MacPorts."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains the source definitions for the open source software packages offered through MacPorts."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39010361,
+      "status": "candidate",
+      "text": "porthole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39008538,
+      "status": "candidate",
+      "text": "larboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39002686,
+      "status": "candidate",
+      "text": "embrasure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38925393,
+      "status": "candidate",
+      "text": "left"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38908327,
+      "status": "candidate",
+      "text": "interface"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ports",
+      "sense_id": "ports#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ports",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ports",
+  "observation_id": "a9c0edf9a61ec882",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "ports",
+  "source_context_snippet": "This repository contains the source definitions for the open source software packages offered through MacPorts.",
+  "source_file": null,
+  "source_repo": "macports/macports-ports",
+  "source_repo_description": "The MacPorts ports tree"
+}

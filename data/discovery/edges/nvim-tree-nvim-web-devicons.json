@@ -1,20 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-tree/nvim-web-devicons",
-      "target": "ryanoasis/vim-devicons",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "nvim-tree/nvim-web-devicons",
-      "target": "devicons/devicon",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "nvim-tree/nvim-web-devicons",
@@ -141,6 +127,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-22T18:52:26.467154+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "nvim-tree/nvim-web-devicons"
 }

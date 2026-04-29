@@ -163,6 +163,30 @@
       "source_repo": "CNugteren/CLBlast",
       "status": "candidate-context",
       "text": "CLBlast: The tuned OpenCL BLAS library"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/compute-samples",
+      "status": "candidate-context",
+      "text": " Intel\u00ae GPU Compute Samples"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/compute-samples",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/intel/compute-samples.svg?branch=master)](https://travis-ci.org/intel/compute-samples)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/rpp",
+      "status": "candidate-context",
+      "text": "AMD ROCm Performance Primitives (RPP) library is a comprehensive high-performance computer vision library for AMD processors with HIP/OpenCL/CPU back-ends."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rpp",
+      "status": "candidate-context",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +267,18 @@
       "source_repo": "CNugteren/CLBlast",
       "status": "candidate",
       "text": "CLBlast: The tuned OpenCL BLAS library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/compute-samples",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/intel/compute-samples.svg?branch=master)](https://travis-ci.org/intel/compute-samples)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rpp",
+      "status": "candidate",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
     }
   ],
   "candidate_related_terms": [
@@ -388,11 +424,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "beehive-lab/TornadoVM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "intel/compute-samples"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/rpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "beehive-lab/docker-tornadovm"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

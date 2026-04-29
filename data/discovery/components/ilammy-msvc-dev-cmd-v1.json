@@ -1,7 +1,7 @@
 {
   "component": "ilammy/msvc-dev-cmd@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -392,6 +392,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/post_weekly_release.yaml",
       "source_repo": "ARM-software/astc-encoder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-and-test.yml",
+      "source_repo": "onnxsim/onnxsim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "martinus/unordered_dense"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-gcp.yml",
+      "source_repo": "shader-slang/slang-rhi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "shader-slang/slang-rhi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "shader-slang/slang-rhi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run_tests.yml",
+      "source_repo": "ronf/asyncssh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sail-sg/envpool"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sail-sg/envpool"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "BYVoid/OpenCC"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "ROCm/rbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compiler-build.yml",
+      "source_repo": "kendryte/nncase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compiler-python-release.yml",
+      "source_repo": "kendryte/nncase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/runtime-build.yml",
+      "source_repo": "kendryte/nncase"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "KhronosGroup/Vulkan-Headers"
     }
   ]
 }

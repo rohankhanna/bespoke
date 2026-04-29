@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:46:33.906124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5843
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "connorgmeehan/nest.nvim",
+    "html_url": "https://github.com/connorgmeehan/nest.nvim",
+    "language": "Lua",
+    "pushed_at": "2022-04-16T04:57:26Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2022-07-30T05:04:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

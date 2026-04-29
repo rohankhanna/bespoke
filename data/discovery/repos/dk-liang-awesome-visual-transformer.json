@@ -1,0 +1,163 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "anirudh257/strm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "atten4vis/conditionaldetr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "allenxiangx/snowflakenet.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "abc403/smca-replication",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "detr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "transformer-awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "transformer-cv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "transformer-with-cv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "visual-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:41.061990+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 73483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collect some papers about transformer with vision. Awesome Transformer with Computer Vision (CV)",
+    "fork": false,
+    "full_name": "dk-liang/Awesome-Visual-Transformer",
+    "html_url": "https://github.com/dk-liang/Awesome-Visual-Transformer",
+    "language": null,
+    "pushed_at": "2025-01-07T01:59:49Z",
+    "stargazers_count": 3582,
+    "topics": [
+      "detr",
+      "transformer",
+      "transformer-awesome",
+      "transformer-cv",
+      "transformer-with-cv",
+      "visual-transformer"
+    ],
+    "updated_at": "2026-04-28T21:54:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abc403/smca-replication",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allenxiangx/snowflakenet.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anirudh257/strm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "atten4vis/conditionaldetr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Collect some Transformer with Computer-Vision (CV) papers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detr"
+    },
+    {
+      "context_snippet": "Collect some Transformer with Computer-Vision (CV) papers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "Collect some Transformer with Computer-Vision (CV) papers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-awesome"
+    },
+    {
+      "context_snippet": "Collect some Transformer with Computer-Vision (CV) papers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-cv"
+    },
+    {
+      "context_snippet": "Collect some Transformer with Computer-Vision (CV) papers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer-with-cv"
+    },
+    {
+      "context_snippet": "Collect some Transformer with Computer-Vision (CV) papers.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-transformer"
+    }
+  ]
+}

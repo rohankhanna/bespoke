@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Collect data for ChatGPT assistant"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate-context",
+      "text": "Whisper.net. Speech to text made simple using Whisper Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate-context",
+      "text": "Collect data for ChatGPT assistant"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate",
+      "text": "Collect data for ChatGPT assistant"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26171,
+      "status": "candidate",
+      "text": "buffer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26171,
+      "status": "candidate",
+      "text": "buffing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26171,
+      "status": "candidate",
+      "text": "survey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26153,
+      "status": "candidate",
+      "text": "again"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26061,
+      "status": "candidate",
+      "text": "spade"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Collect data for ChatGPT assistant",
+  "concept_id": "collect-data-for-chatgpt-assistant",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/collect-gpt-data.yml",
+      "source_repo": "sandrohanea/whisper.net"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Collect data for ChatGPT assistant",
+      "sense_id": "collect-data-for-chatgpt-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

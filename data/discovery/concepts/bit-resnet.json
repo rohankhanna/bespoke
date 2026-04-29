@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "bit-resnet"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate-context",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from https://arxiv.org/abs/2106.05237."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate-context",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from the paper [Knowledge distillation:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/BiT-jax2tf",
+      "status": "candidate-context",
+      "text": "This repository hosts the code to port NumPy model weights of BiT-ResNets to TensorFlow SavedModel format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/BiT-jax2tf",
+      "status": "candidate-context",
+      "text": "This repository hosts the code to port NumPy model weights of BiT-ResNets [1] to TensorFlow SavedModel format. These models"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from the paper [Knowledge distillation:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/BiT-jax2tf",
+      "status": "candidate",
+      "text": "This repository hosts the code to port NumPy model weights of BiT-ResNets [1] to TensorFlow SavedModel format. These models"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "bit-resnet",
+  "concept_id": "bit-resnet",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/FunMatch-Distillation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/BiT-jax2tf"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "bit-resnet",
+      "sense_id": "bit-resnet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

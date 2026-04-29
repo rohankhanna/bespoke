@@ -212,6 +212,42 @@
       "source_repo": "Azure/login",
       "status": "candidate-context",
       "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/powershell",
+      "status": "candidate-context",
+      "text": "GH Action to run Az PowerShell scripts for developers and administrators to develop, deploy, and manage Microsoft Azure applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/powershell",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-rollouts",
+      "status": "candidate-context",
+      "text": "Progressive Delivery for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-rollouts",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate-context",
+      "text": "An open source trusted cloud native registry project that stores, signs, and scans content."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate-context",
+      "text": "\"Code scanning - action\""
     }
   ],
   "candidate_glosses": [
@@ -320,6 +356,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Azure/login",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/powershell",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-rollouts",
+      "status": "candidate",
+      "text": "\"Code scanning - action\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor",
       "status": "candidate",
       "text": "\"Code scanning - action\""
     }
@@ -521,11 +575,41 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/codeql-analysis.yml",
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "Azure/powershell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "argoproj/argo-rollouts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "goharbor/harbor"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

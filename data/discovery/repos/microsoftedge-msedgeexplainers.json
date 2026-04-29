@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "target": "microsoftedge/devtools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "target": "tc39/proposal-import-assertions",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "target": "immersive-web/proposals",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "target": "privacycg/storage-access",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "target": "explainer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "target": "microsoft-edge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "target": "standards",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "target": "webplatform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:00:39.645942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 44508
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Home for explainer documents originated by the Microsoft Edge team",
+    "fork": false,
+    "full_name": "MicrosoftEdge/MSEdgeExplainers",
+    "html_url": "https://github.com/MicrosoftEdge/MSEdgeExplainers",
+    "language": "HTML",
+    "pushed_at": "2026-04-29T18:17:22Z",
+    "stargazers_count": 1436,
+    "topics": [
+      "explainer",
+      "microsoft-edge",
+      "standards",
+      "webplatform"
+    ],
+    "updated_at": "2026-04-29T19:38:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "immersive-web/proposals",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoftedge/devtools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "privacycg/storage-access",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tc39/proposal-import-assertions",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Welcome! This repo is home to \"explainers\" and related documents originating",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "explainer"
+    },
+    {
+      "context_snippet": "Welcome! This repo is home to \"explainers\" and related documents originating",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-edge"
+    },
+    {
+      "context_snippet": "Welcome! This repo is home to \"explainers\" and related documents originating",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standards"
+    },
+    {
+      "context_snippet": "Welcome! This repo is home to \"explainers\" and related documents originating",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webplatform"
+    }
+  ]
+}

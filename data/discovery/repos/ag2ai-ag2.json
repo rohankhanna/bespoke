@@ -1,0 +1,941 @@
+{
+  "components": [
+    {
+      "component": "actions-cool/check-user-permission@c21884f3dda18dafc2f8b402fe807ccc9ec1aa5e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml"
+    },
+    {
+      "component": "extractions/setup-just@dd310ad5a97d8e7b41793f8ef055398d51ad4de6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "dorny/paths-filter@d1c1ffe0248fe513906c8e24db8ea791d46f8590",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "extractions/setup-just@dd310ad5a97d8e7b41793f8ef055398d51ad4de6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "extractions/setup-just@dd310ad5a97d8e7b41793f8ef055398d51ad4de6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "extractions/setup-just@dd310ad5a97d8e7b41793f8ef055398d51ad4de6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mkdocs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mkdocs.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mkdocs.yml"
+    },
+    {
+      "component": "quarto-dev/quarto-actions/setup@8a96df13519ee81fd526f2dfca5962811136661b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mkdocs.yml"
+    },
+    {
+      "component": "extractions/setup-just@dd310ad5a97d8e7b41793f8ef055398d51ad4de6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mkdocs.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@1eddb334cfa79fdb21ecbe2180ca1a016e8e7d47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@1eddb334cfa79fdb21ecbe2180ca1a016e8e7d47",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-package.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-package.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-package.yml"
+    },
+    {
+      "component": "actions-cool/check-user-permission@c21884f3dda18dafc2f8b402fe807ccc9ec1aa5e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "actions-cool/check-user-permission@c21884f3dda18dafc2f8b402fe807ccc9ec1aa5e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml"
+    },
+    {
+      "component": "actions-cool/check-user-permission@c21884f3dda18dafc2f8b402fe807ccc9ec1aa5e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "actions-cool/check-user-permission@c21884f3dda18dafc2f8b402fe807ccc9ec1aa5e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "actions-cool/check-user-permission@c21884f3dda18dafc2f8b402fe807ccc9ec1aa5e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    },
+    {
+      "component": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ag2ai/ag2",
+      "target": "ag2ai/build-with-ag2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ag2ai/ag2",
+      "target": "microsoft/autogen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ag2ai/ag2",
+      "target": "microsoft/autogen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions-cool/check-user-permission@c21884f3dda18dafc2f8b402fe807ccc9ec1aa5e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "extractions/setup-just@dd310ad5a97d8e7b41793f8ef055398d51ad4de6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beta-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "Core Beta tests with LLMs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "dorny/paths-filter@d1c1ffe0248fe513906c8e24db8ea791d46f8590",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "extractions/setup-just@dd310ad5a97d8e7b41793f8ef055398d51ad4de6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beta-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "Beta tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mkdocs.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mkdocs.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mkdocs.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mkdocs.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "quarto-dev/quarto-actions/setup@8a96df13519ee81fd526f2dfca5962811136661b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-mkdocs.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "extractions/setup-just@dd310ad5a97d8e7b41793f8ef055398d51ad4de6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mkdocs.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "Build MkDocs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "anthropics/claude-code-action@1eddb334cfa79fdb21ecbe2180ca1a016e8e7d47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "anthropics/claude-code-action@1eddb334cfa79fdb21ecbe2180ca1a016e8e7d47",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-package.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-package.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-package.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-package.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "cli-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions-cool/check-user-permission@c21884f3dda18dafc2f8b402fe807ccc9ec1aa5e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "ContribGraphRagTests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions-cool/check-user-permission@c21884f3dda18dafc2f8b402fe807ccc9ec1aa5e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "codecov/codecov-action@75cd11691c0faa626561e295848008c8a7dddffe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "re-actors/alls-green@05ac9388f0aebcb5727afa17fcccfecd6f8ec5fe",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contrib-llm-test.yml",
+      "source_repo": "ag2ai/ag2",
+      "target": "Contrib tests with LLMs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ag2ai/ag2",
+      "target": "agent-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ag2ai/ag2",
+      "target": "agentic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ag2ai/ag2",
+      "target": "agentic-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ag2ai/ag2",
+      "target": "ai-agents-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ag2ai/ag2",
+      "target": "aiagents",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ag2ai/ag2",
+      "target": "genai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ag2ai/ag2",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ag2ai/ag2",
+      "target": "multi-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ag2ai/ag2",
+      "target": "multi-agent-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ag2ai/ag2",
+      "target": "open-source",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:56:22.766935+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18474
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 18859
+    },
+    {
+      "path": ".github/workflows/beta-llm-test.yml",
+      "size": 3108
+    },
+    {
+      "path": ".github/workflows/beta-test.yml",
+      "size": 6033
+    },
+    {
+      "path": ".github/workflows/build-mkdocs.yml",
+      "size": 2565
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 3971
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 2710
+    },
+    {
+      "path": ".github/workflows/cli-package.yml",
+      "size": 1312
+    },
+    {
+      "path": ".github/workflows/contrib-graph-rag-tests.yml",
+      "size": 8769
+    },
+    {
+      "path": ".github/workflows/contrib-llm-test.yml",
+      "size": 9415
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x",
+    "fork": false,
+    "full_name": "ag2ai/ag2",
+    "html_url": "https://github.com/ag2ai/ag2",
+    "language": "Python",
+    "pushed_at": "2026-04-29T19:27:40Z",
+    "stargazers_count": 4466,
+    "topics": [
+      "a2a",
+      "ag2",
+      "agent-framework",
+      "agentic",
+      "agentic-ai",
+      "ai",
+      "ai-agents-framework",
+      "aiagents",
+      "genai",
+      "llm",
+      "llms",
+      "mcp",
+      "multi-agent",
+      "multi-agent-system",
+      "open-source",
+      "python"
+    ],
+    "updated_at": "2026-04-29T19:15:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ag2ai/build-with-ag2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/autogen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/autogen",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Core Beta tests with LLMs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beta-llm-test.yml",
+      "term": "Core Beta tests with LLMs"
+    },
+    {
+      "context_snippet": "Beta tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/beta-test.yml",
+      "term": "Beta tests"
+    },
+    {
+      "context_snippet": "Build MkDocs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-mkdocs.yml",
+      "term": "Build MkDocs"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "cli-package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-package.yml",
+      "term": "cli-package"
+    },
+    {
+      "context_snippet": "ContribGraphRagTests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml",
+      "term": "ContribGraphRagTests"
+    },
+    {
+      "context_snippet": "Contrib tests with LLMs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contrib-llm-test.yml",
+      "term": "Contrib tests with LLMs"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agent-framework"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "agentic-ai"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ai-agents-framework"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aiagents"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "genai"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent-system"
+    },
+    {
+      "context_snippet": "<a name=\"readme-top\"></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-source"
+    }
+  ]
+}

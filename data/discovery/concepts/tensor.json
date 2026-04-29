@@ -115,6 +115,30 @@
       "source_repo": "bshoshany/OGRe",
       "status": "candidate-context",
       "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MegEngine/MegEngine",
+      "status": "candidate-context",
+      "text": "MegEngine \u662f\u4e00\u4e2a\u5feb\u901f\u3001\u53ef\u62d3\u5c55\u3001\u6613\u4e8e\u4f7f\u7528\u4e14\u652f\u6301\u81ea\u52a8\u6c42\u5bfc\u7684\u6df1\u5ea6\u5b66\u4e60\u6846\u67b6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MegEngine/MegEngine",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OAID/AutoKernel",
+      "status": "candidate-context",
+      "text": "AutoKernel \u662f\u4e00\u4e2a\u7b80\u5355\u6613\u7528\uff0c\u4f4e\u95e8\u69db\u7684\u81ea\u52a8\u7b97\u5b50\u4f18\u5316\u5de5\u5177\uff0c\u63d0\u9ad8\u6df1\u5ea6\u5b66\u4e60\u7b97\u6cd5\u90e8\u7f72\u6548\u7387\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/AutoKernel",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "bshoshany/OGRe",
       "status": "candidate",
       "text": "[![Author: Barak Shoshany](https://img.shields.io/badge/author-Barak_Shoshany-009933)](https://baraksh.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MegEngine/MegEngine",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/AutoKernel",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +328,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "bshoshany/OGRe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MegEngine/MegEngine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OAID/AutoKernel"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

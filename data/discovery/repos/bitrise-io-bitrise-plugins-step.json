@@ -1,0 +1,63 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitrise-io/bitrise-plugins-step",
+      "target": "bitrise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitrise-io/bitrise-plugins-step",
+      "target": "production-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:55:15.185379+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 115
+    },
+    {
+      "path": "go.mod",
+      "size": 1473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bitrise Plugin to interact with steps, list them, retrieve information, or create your own!",
+    "fork": false,
+    "full_name": "bitrise-io/bitrise-plugins-step",
+    "html_url": "https://github.com/bitrise-io/bitrise-plugins-step",
+    "language": "Go",
+    "pushed_at": "2026-04-24T08:42:24Z",
+    "stargazers_count": 6,
+    "topics": [
+      "bitrise",
+      "ci",
+      "production-code"
+    ],
+    "updated_at": "2025-07-09T07:52:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Bitrise Plugin to interact with steps, list them, retrieve information, or create your own!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitrise"
+    },
+    {
+      "context_snippet": "Bitrise Plugin to interact with steps, list them, retrieve information, or create your own!",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "production-code"
+    }
+  ]
+}

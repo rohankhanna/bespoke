@@ -28,20 +28,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "alacritty/alacritty",
-      "target": "alacritty/vtebench",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "alacritty/alacritty",
-      "target": "quininer/x11-clipboard",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "alacritty/alacritty",
@@ -112,7 +98,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-22T01:13:27.004796+00:00",
+  "fetched_at": "2026-04-29T18:55:49.156718+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -144,8 +130,8 @@
     "full_name": "alacritty/alacritty",
     "html_url": "https://github.com/alacritty/alacritty",
     "language": "Rust",
-    "pushed_at": "2026-04-14T20:02:36Z",
-    "stargazers_count": 63597,
+    "pushed_at": "2026-04-28T01:21:51Z",
+    "stargazers_count": 63744,
     "topics": [
       "bsd",
       "gpu",
@@ -158,20 +144,9 @@
       "vte",
       "windows"
     ],
-    "updated_at": "2026-04-22T01:08:20Z"
+    "updated_at": "2026-04-29T18:20:25Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alacritty/vtebench",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "quininer/x11-clipboard",
-      "source_file": "Cargo.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Release",

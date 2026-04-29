@@ -398,7 +398,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T05:35:53.830621+00:00",
+  "fetched_at": "2026-04-29T19:51:56.170514+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -426,8 +426,8 @@
     "full_name": "standard/eslint-config-standard",
     "html_url": "https://github.com/standard/eslint-config-standard",
     "language": "TypeScript",
-    "pushed_at": "2026-04-08T19:09:38Z",
-    "stargazers_count": 2652,
+    "pushed_at": "2026-04-29T09:52:43Z",
+    "stargazers_count": 2655,
     "topics": [
       "development",
       "ecmascript",
@@ -440,7 +440,7 @@
       "static-code-analysis",
       "style-guide"
     ],
-    "updated_at": "2026-04-23T02:50:54Z"
+    "updated_at": "2026-04-29T15:12:56Z"
   },
   "repo_links": [],
   "terms": [

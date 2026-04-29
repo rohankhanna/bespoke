@@ -1,0 +1,153 @@
+{
+  "aliases": [
+    "auto"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate-context",
+      "text": "Small CLI toolbox for cross-browser WebExtension development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate-context",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\">](https://www.npmjs.com/package/@webextension-toolbox/webextension-toolbox)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OAID/AutoKernel",
+      "status": "candidate-context",
+      "text": "AutoKernel \u662f\u4e00\u4e2a\u7b80\u5355\u6613\u7528\uff0c\u4f4e\u95e8\u69db\u7684\u81ea\u52a8\u7b97\u5b50\u4f18\u5316\u5de5\u5177\uff0c\u63d0\u9ad8\u6df1\u5ea6\u5b66\u4e60\u7b97\u6cd5\u90e8\u7f72\u6548\u7387\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/AutoKernel",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\">](https://www.npmjs.com/package/@webextension-toolbox/webextension-toolbox)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/AutoKernel",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938230,
+      "status": "candidate",
+      "text": "automobile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39938086,
+      "status": "candidate",
+      "text": "motorcar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39937697,
+      "status": "candidate",
+      "text": "car"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39925614,
+      "status": "candidate",
+      "text": "machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29940445,
+      "status": "candidate",
+      "text": "headlight"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9037,
+      "status": "candidate",
+      "text": "automobile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7053,
+      "status": "candidate",
+      "text": "machine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6065,
+      "status": "candidate",
+      "text": "car"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "motorcar"
+    }
+  ],
+  "canonical_name": "auto",
+  "concept_id": "auto",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webextension-toolbox/webextension-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OAID/AutoKernel"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "auto",
+      "sense_id": "auto#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

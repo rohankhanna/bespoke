@@ -1,0 +1,130 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "DeterminateSystems/nix-installer-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "DeterminateSystems/magic-nix-cache-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jeffa5/typstfmt",
+      "target": "astrale-sharp/typst-fmt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jeffa5/typstfmt",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jeffa5/typstfmt",
+      "target": "DeterminateSystems/nix-installer-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "jeffa5/typstfmt",
+      "target": "DeterminateSystems/magic-nix-cache-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jeffa5/typstfmt",
+      "target": "formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jeffa5/typstfmt",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jeffa5/typstfmt",
+      "target": "typst",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:01:00.808373+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1794
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 680
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 380
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Moved to https://git.jeffas.net",
+    "fork": false,
+    "full_name": "jeffa5/typstfmt",
+    "html_url": "https://github.com/jeffa5/typstfmt",
+    "language": "Nix",
+    "pushed_at": "2025-01-13T23:14:33Z",
+    "stargazers_count": 35,
+    "topics": [
+      "formatter",
+      "rust",
+      "typst"
+    ],
+    "updated_at": "2025-12-11T18:37:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "astrale-sharp/typst-fmt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`typstfmt` is a formatter for [Typst](https://typst.app) code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formatter"
+    },
+    {
+      "context_snippet": "`typstfmt` is a formatter for [Typst](https://typst.app) code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "`typstfmt` is a formatter for [Typst](https://typst.app) code.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "typst"
+    }
+  ]
+}

@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "github-release"
+    "github-release",
+    "Github Release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "jandamm/zgenom-ext-release",
       "status": "candidate-context",
       "text": "You need to install [gh](https://cli.github.com) and use it with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate-context",
+      "text": "Small CLI toolbox for cross-browser WebExtension development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate-context",
+      "text": "Github Release"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +42,51 @@
       "source_repo": "jandamm/zgenom-ext-release",
       "status": "candidate",
       "text": "You need to install [gh](https://cli.github.com) and use it with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate",
+      "text": "Github Release"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "allocation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "announcement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assignment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "authorisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "authorization"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "github-release",
   "concept_id": "github-release",
@@ -40,11 +97,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "jandamm/zgenom-ext-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "webextension-toolbox/webextension-toolbox"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

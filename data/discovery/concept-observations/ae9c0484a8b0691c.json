@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Total Text Dataset. It consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "text-detection-recognition",
+      "sense_id": "text-detection-recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "text-detection-recognition",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "text-detection-recognition",
+  "observation_id": "ae9c0484a8b0691c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "text-detection-recognition",
+  "source_context_snippet": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)",
+  "source_file": null,
+  "source_repo": "cs-chan/Total-Text-Dataset",
+  "source_repo_description": "Total Text Dataset. It consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind."
+}

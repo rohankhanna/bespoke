@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "libs - Release Publish to pypi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "michaelfeil/infinity",
+      "status": "candidate-context",
+      "text": "Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michaelfeil/infinity",
+      "status": "candidate-context",
+      "text": "libs - Release Publish to pypi"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "michaelfeil/infinity",
+      "status": "candidate",
+      "text": "libs - Release Publish to pypi"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25901,
+      "status": "candidate",
+      "text": "trail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22496,
+      "status": "candidate",
+      "text": "spread"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22381,
+      "status": "candidate",
+      "text": "ads"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22381,
+      "status": "candidate",
+      "text": "air"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22381,
+      "status": "candidate",
+      "text": "airs"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "libs - Release Publish to pypi",
+  "concept_id": "libs---release-publish-to-pypi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pypi_release.yaml",
+      "source_repo": "michaelfeil/infinity"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "libs - Release Publish to pypi",
+      "sense_id": "libs---release-publish-to-pypi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

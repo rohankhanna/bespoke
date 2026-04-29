@@ -2,7 +2,9 @@
   "aliases": [
     "Create GitHub release",
     "Create GitHub Release",
-    "Create Github Release"
+    "Create Github Release",
+    "create-github-release",
+    "create github release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -105,6 +107,102 @@
       "source_repo": "a2aproject/a2a-java",
       "status": "candidate-context",
       "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-help",
+      "status": "candidate-context",
+      "text": "standard help for oclif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-help",
+      "status": "candidate-context",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-plugins",
+      "status": "candidate-context",
+      "text": "plugins plugin for oclif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-plugins",
+      "status": "candidate-context",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aadsm/jschardet",
+      "status": "candidate-context",
+      "text": "Character encoding auto-detection in JavaScript (port of python's chardet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aadsm/jschardet",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/android",
+      "status": "candidate-context",
+      "text": "Bitwarden mobile apps (Password Manager and Authenticator) for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/android",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/ios",
+      "status": "candidate-context",
+      "text": "Bitwarden mobile apps (Password Manager and Authenticator) for iOS."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/ios",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tower-rs/tower",
+      "status": "candidate-context",
+      "text": "async fn(Request) -> Result<Response, Error>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tower-rs/tower",
+      "status": "candidate-context",
+      "text": "create github release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/node-jwks-rsa",
+      "status": "candidate-context",
+      "text": "A library to retrieve RSA public keys from a JWKS (JSON Web Key Set) endpoint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jwks-rsa",
+      "status": "candidate-context",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/core",
+      "status": "candidate-context",
+      "text": "Node.js Open CLI Framework. Built by Salesforce."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/core",
+      "status": "candidate-context",
+      "text": "create-github-release"
     }
   ],
   "candidate_glosses": [
@@ -155,6 +253,54 @@
       "source_repo": "a2aproject/a2a-java",
       "status": "candidate",
       "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-help",
+      "status": "candidate",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-plugins",
+      "status": "candidate",
+      "text": "create-github-release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aadsm/jschardet",
+      "status": "candidate",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/android",
+      "status": "candidate",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/ios",
+      "status": "candidate",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tower-rs/tower",
+      "status": "candidate",
+      "text": "create github release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jwks-rsa",
+      "status": "candidate",
+      "text": "Create GitHub Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/core",
+      "status": "candidate",
+      "text": "create-github-release"
     }
   ],
   "candidate_related_terms": [
@@ -252,11 +398,65 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/create-github-release.yml",
       "source_repo": "a2aproject/a2a-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/create_github_release.yml",
+      "source_repo": "actions/runner-images"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/plugin-help"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/plugin-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "aadsm/jschardet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/ios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tower-rs/tower"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jwks-rsa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/core"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u57fa\u4e8e\u65f7\u89c6\u7814\u7a76\u9662\u9886\u5148\u7684\u6df1\u5ea6\u5b66\u4e60\u7b97\u6cd5\uff0c\u63d0\u4f9b\u6ee1\u8db3\u591a\u4e1a\u52a1\u573a\u666f\u7684\u9884\u8bad\u7ec3\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u672c\u4ed3\u5e93\u5305\u542b\u4e86[MegEngine\u6a21\u578b\u4e2d\u5fc3](https://megengine.org.cn/model-hub/)\u4e2d\u7684\u6a21\u578b\u914d\u7f6e\u6587\u4ef6\uff0c\u8fd9\u4e9b\u6a21\u578b\u90fd\u53ef\u4ee5\u7528`megengine.hub`\u76f4\u63a5\u5bfc\u5165\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u672c\u4ed3\u5e93\u5305\u542b\u4e86[MegEngine\u6a21\u578b\u4e2d\u5fc3](https://megengine.org.cn/model-hub/)\u4e2d\u7684\u6a21\u578b\u914d\u7f6e\u6587\u4ef6\uff0c\u8fd9\u4e9b\u6a21\u578b\u90fd\u53ef\u4ee5\u7528`megengine.hub`\u76f4\u63a5\u5bfc\u5165\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "machine-learning",
+      "sense_id": "machine-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "machine-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "machine-learning",
+  "observation_id": "07a22fa22047f65a",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "machine-learning",
+  "source_context_snippet": "\u672c\u4ed3\u5e93\u5305\u542b\u4e86[MegEngine\u6a21\u578b\u4e2d\u5fc3](https://megengine.org.cn/model-hub/)\u4e2d\u7684\u6a21\u578b\u914d\u7f6e\u6587\u4ef6\uff0c\u8fd9\u4e9b\u6a21\u578b\u90fd\u53ef\u4ee5\u7528`megengine.hub`\u76f4\u63a5\u5bfc\u5165\u3002",
+  "source_file": null,
+  "source_repo": "MegEngine/Hub",
+  "source_repo_description": "\u57fa\u4e8e\u65f7\u89c6\u7814\u7a76\u9662\u9886\u5148\u7684\u6df1\u5ea6\u5b66\u4e60\u7b97\u6cd5\uff0c\u63d0\u4f9b\u6ee1\u8db3\u591a\u4e1a\u52a1\u573a\u666f\u7684\u9884\u8bad\u7ec3\u6a21\u578b"
+}

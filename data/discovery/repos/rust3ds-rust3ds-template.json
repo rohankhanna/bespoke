@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:59:35.880210+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4228
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 229
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A project template for Rust projects to be built on the Nintendo 3DS Homebrew Launcher.",
+    "fork": false,
+    "full_name": "rust3ds/rust3ds-template",
+    "html_url": "https://github.com/rust3ds/rust3ds-template",
+    "language": "Makefile",
+    "pushed_at": "2022-10-10T12:34:28Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2024-07-16T21:28:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Blackbox prober exporter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Stale Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Stale Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37258,
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37257,
+      "status": "candidate",
+      "text": "certified check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37256,
+      "status": "candidate",
+      "text": "blank check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37255,
+      "status": "candidate",
+      "text": "staleness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37254,
+      "status": "candidate",
+      "text": "in check"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stale Check",
+      "sense_id": "stale-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stale-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stale-check",
+  "observation_id": "defbf44a467c6b73",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Stale Check",
+  "source_context_snippet": "Stale Check",
+  "source_file": ".github/workflows/stale.yml",
+  "source_repo": "prometheus/blackbox_exporter",
+  "source_repo_description": "Blackbox prober exporter"
+}

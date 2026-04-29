@@ -1,0 +1,138 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "monatis/german-tts",
+      "target": "thorstenmueller/deep-learning-german-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "monatis/german-tts",
+      "target": "repodiac/german_transliterate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "monatis/german-tts",
+      "target": "monatis/tensorflowtts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "monatis/german-tts",
+      "target": "german",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "monatis/german-tts",
+      "target": "multiband-melgan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "monatis/german-tts",
+      "target": "tacotron2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "monatis/german-tts",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "monatis/german-tts",
+      "target": "tflite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:46:01.252668+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3558
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support",
+    "fork": false,
+    "full_name": "monatis/german-tts",
+    "html_url": "https://github.com/monatis/german-tts",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-06-07T08:44:01Z",
+    "stargazers_count": 26,
+    "topics": [
+      "german",
+      "multiband-melgan",
+      "tacotron2",
+      "tensorflow",
+      "tflite",
+      "tts"
+    ],
+    "updated_at": "2026-03-19T14:24:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "monatis/tensorflowtts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "repodiac/german_transliterate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thorstenmueller/deep-learning-german-tts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "german"
+    },
+    {
+      "context_snippet": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiband-melgan"
+    },
+    {
+      "context_snippet": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tacotron2"
+    },
+    {
+      "context_snippet": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tflite"
+    }
+  ]
+}

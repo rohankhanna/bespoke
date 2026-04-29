@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -81,6 +81,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "2KAbhishek/tmux2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcsonline/tmux-thumbs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "2KAbhishek/dots2k"
     }
   ],
   "term": "tmux"

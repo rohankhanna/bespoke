@@ -1,0 +1,245 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-event-dispatcher.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-event-dispatcher.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-event-dispatcher.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-request-trigger.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-request-trigger.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-request-trigger.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-request-trigger.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-request-trigger.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-request-trigger.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-request-trigger.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alibaba/rtp-llm",
+      "target": "alibaba/havenask",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-event-dispatcher.yml",
+      "source_repo": "alibaba/rtp-llm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-event-dispatcher.yml",
+      "source_repo": "alibaba/rtp-llm",
+      "target": "CI Event Dispatcher",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-request-trigger.yml",
+      "source_repo": "alibaba/rtp-llm",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI-request-trigger.yml",
+      "source_repo": "alibaba/rtp-llm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-request-trigger.yml",
+      "source_repo": "alibaba/rtp-llm",
+      "target": "CI Request Trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-request-trigger.yml",
+      "source_repo": "alibaba/rtp-llm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-request-trigger.yml",
+      "source_repo": "alibaba/rtp-llm",
+      "target": "Merge Request Trigger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/rtp-llm",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/rtp-llm",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/rtp-llm",
+      "target": "llm-serving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/rtp-llm",
+      "target": "llmops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alibaba/rtp-llm",
+      "target": "model-serving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:50:15.225278+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4842
+    },
+    {
+      "path": ".github/workflows/CI-event-dispatcher.yml",
+      "size": 4657
+    },
+    {
+      "path": ".github/workflows/CI-request-trigger.yml",
+      "size": 9550
+    },
+    {
+      "path": ".github/workflows/merge-request-trigger.yml",
+      "size": 1739
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "RTP-LLM: Alibaba's high-performance LLM inference engine for diverse applications.",
+    "fork": false,
+    "full_name": "alibaba/rtp-llm",
+    "html_url": "https://github.com/alibaba/rtp-llm",
+    "language": "Cuda",
+    "pushed_at": "2026-04-29T17:03:13Z",
+    "stargazers_count": 1107,
+    "topics": [
+      "gpt",
+      "inference",
+      "llama",
+      "llm",
+      "llm-serving",
+      "llmops",
+      "model-serving"
+    ],
+    "updated_at": "2026-04-29T16:03:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/havenask",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Event Dispatcher",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-event-dispatcher.yml",
+      "term": "CI Event Dispatcher"
+    },
+    {
+      "context_snippet": "CI Request Trigger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/CI-request-trigger.yml",
+      "term": "CI Request Trigger"
+    },
+    {
+      "context_snippet": "Merge Request Trigger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-request-trigger.yml",
+      "term": "Merge Request Trigger"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"rtpllmtop\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"rtpllmtop\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"rtpllmtop\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-serving"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"rtpllmtop\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llmops"
+    },
+    {
+      "context_snippet": "<div align=\"center\" id=\"rtpllmtop\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-serving"
+    }
+  ]
+}

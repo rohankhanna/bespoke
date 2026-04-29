@@ -398,6 +398,90 @@
       "source_repo": "openai/openai-agents-python",
       "status": "candidate-context",
       "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielgatis/rembg",
+      "status": "candidate-context",
+      "text": "Rembg is a tool to remove images background"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgatis/rembg",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-agents-js",
+      "status": "candidate-context",
+      "text": "A lightweight, powerful framework for multi-agent workflows and voice agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-js",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate-context",
+      "text": "Automate browser based workflows with AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/Paddle2ONNX",
+      "status": "candidate-context",
+      "text": "ONNX Model Exporter for PaddlePaddle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle2ONNX",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "Close Inactive Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel-staging/text-generation-webui",
+      "status": "candidate-context",
+      "text": "A Gradio Web UI for running local LLM on Intel GPU (e.g., local PC with iGPU, discrete GPU such as Arc, Flex and Max) using IPEX-LLM."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel-staging/text-generation-webui",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpcaitech/Open-Sora",
+      "status": "candidate-context",
+      "text": "Open-Sora: Democratizing Efficient Video Production for All"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/Open-Sora",
+      "status": "candidate-context",
+      "text": "Close inactive issues"
     }
   ],
   "candidate_glosses": [
@@ -596,6 +680,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "openai/openai-agents-python",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgatis/rembg",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-js",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle2ONNX",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate",
+      "text": "Close Inactive Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel-staging/text-generation-webui",
+      "status": "candidate",
+      "text": "Close inactive issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/Open-Sora",
       "status": "candidate",
       "text": "Close inactive issues"
     }
@@ -875,11 +1001,65 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/autoclose",
       "source_repo": "aaif-goose/goose"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/close_inactive_issues.yml",
+      "source_repo": "danielgatis/rembg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "FoundationAgents/MetaGPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "openai/openai-agents-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/inactive-issues-and-prs.yml",
+      "source_repo": "Skyvern-AI/skyvern"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/close-issue.yml",
+      "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/clear_issues.yml.disabled",
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/close-inactive-issues.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel-staging/text-generation-webui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/close_issue.yaml",
+      "source_repo": "hpcaitech/Open-Sora"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

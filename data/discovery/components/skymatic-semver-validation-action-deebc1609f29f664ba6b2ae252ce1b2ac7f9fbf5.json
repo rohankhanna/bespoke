@@ -1,0 +1,12 @@
+{
+  "component": "skymatic/semver-validation-action@deebc1609f29f664ba6b2ae252ce1b2ac7f9fbf5",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/rover"
+    }
+  ]
+}

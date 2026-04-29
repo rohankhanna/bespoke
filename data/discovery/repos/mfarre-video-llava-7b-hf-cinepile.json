@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:45:03.014817+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4400
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Video-LlaVA fine-tune for CinePile evaluation",
+    "fork": false,
+    "full_name": "mfarre/Video-LLaVA-7B-hf-CinePile",
+    "html_url": "https://github.com/mfarre/Video-LLaVA-7B-hf-CinePile",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-08T08:37:33Z",
+    "stargazers_count": 51,
+    "topics": [],
+    "updated_at": "2025-03-22T15:07:11Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

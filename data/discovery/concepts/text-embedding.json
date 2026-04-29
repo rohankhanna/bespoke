@@ -19,6 +19,18 @@
       "source_repo": "embeddings-benchmark/mteb",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "staoxiao/RetroMAE",
+      "status": "candidate-context",
+      "text": "Codebase for RetroMAE and beyond."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "staoxiao/RetroMAE",
+      "status": "candidate-context",
+      "text": "Codebase for **[RetroMAE](https://arxiv.org/abs/2205.12035)** and beyond."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "embeddings-benchmark/mteb",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "staoxiao/RetroMAE",
+      "status": "candidate",
+      "text": "Codebase for **[RetroMAE](https://arxiv.org/abs/2205.12035)** and beyond."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "embeddings-benchmark/mteb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "staoxiao/RetroMAE"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

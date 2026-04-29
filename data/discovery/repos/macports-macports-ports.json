@@ -1,0 +1,244 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "MercuryTechnologies/delete-cancelled-runs@1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "macports/macports-ports",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "macports/macports-ports",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "macports/macports-ports",
+      "target": "lint & build changed ports",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "macports/macports-ports",
+      "target": "MercuryTechnologies/delete-cancelled-runs@1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "macports/macports-ports",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "macports/macports-ports",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "macports/macports-ports",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "macports/macports-ports",
+      "target": "Index & mirror changed ports",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "macports/macports-ports",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "macports/macports-ports",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "macports/macports-ports",
+      "target": "macosx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "macports/macports-ports",
+      "target": "macports",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "macports/macports-ports",
+      "target": "package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "macports/macports-ports",
+      "target": "ports",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:53:12.460605+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 863
+    },
+    {
+      "path": ".github/workflows/bootstrap.sh",
+      "size": 4926
+    },
+    {
+      "path": ".github/workflows/macports.conf",
+      "size": 818
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 8834
+    },
+    {
+      "path": ".github/workflows/mirror.yml",
+      "size": 11878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The MacPorts ports tree",
+    "fork": false,
+    "full_name": "macports/macports-ports",
+    "html_url": "https://github.com/macports/macports-ports",
+    "language": "Tcl",
+    "pushed_at": "2026-04-29T18:33:18Z",
+    "stargazers_count": 1766,
+    "topics": [
+      "command-line",
+      "macos",
+      "macosx",
+      "macports",
+      "package-manager",
+      "ports"
+    ],
+    "updated_at": "2026-04-29T18:33:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"lint & build changed ports\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "lint & build changed ports"
+    },
+    {
+      "context_snippet": "\"Index & mirror changed ports\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yml",
+      "term": "Index & mirror changed ports"
+    },
+    {
+      "context_snippet": "This repository contains the source definitions for the open source software packages offered through MacPorts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "This repository contains the source definitions for the open source software packages offered through MacPorts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "This repository contains the source definitions for the open source software packages offered through MacPorts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macosx"
+    },
+    {
+      "context_snippet": "This repository contains the source definitions for the open source software packages offered through MacPorts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macports"
+    },
+    {
+      "context_snippet": "This repository contains the source definitions for the open source software packages offered through MacPorts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    },
+    {
+      "context_snippet": "This repository contains the source definitions for the open source software packages offered through MacPorts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ports"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"SeaTunnel Logo\" height=\"200px\" align=\"right\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"SeaTunnel Logo\" height=\"200px\" align=\"right\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29877474,
+      "status": "candidate",
+      "text": "detached"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29872946,
+      "status": "candidate",
+      "text": "off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29872466,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29870790,
+      "status": "candidate",
+      "text": "disconnection"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29869763,
+      "status": "candidate",
+      "text": "deferred"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "offline",
+      "sense_id": "offline#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "offline",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "offline",
+  "observation_id": "76ee94965d02fdce",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "offline",
+  "source_context_snippet": "<img src=\"https://seatunnel.apache.org/image/logo.png\" alt=\"SeaTunnel Logo\" height=\"200px\" align=\"right\" />",
+  "source_file": null,
+  "source_repo": "apache/seatunnel",
+  "source_repo_description": "SeaTunnel is a multimodal, high-performance, distributed, massive data integration tool."
+}

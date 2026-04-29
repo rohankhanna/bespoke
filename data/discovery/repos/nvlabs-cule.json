@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:50:22.325025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8144
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CuLE: A CUDA port of the Atari Learning Environment (ALE)",
+    "fork": false,
+    "full_name": "NVlabs/cule",
+    "html_url": "https://github.com/NVlabs/cule",
+    "language": "C++",
+    "pushed_at": "2022-11-21T13:38:59Z",
+    "stargazers_count": 242,
+    "topics": [],
+    "updated_at": "2026-03-13T13:34:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

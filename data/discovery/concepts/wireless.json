@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "wireless"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kismetwireless/kismet",
+      "status": "candidate-context",
+      "text": "Github mirror of official Kismet repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kismetwireless/kismet",
+      "status": "candidate-context",
+      "text": "https://www.kismetwireless.net"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kismetwireless/kismet",
+      "status": "candidate",
+      "text": "https://www.kismetwireless.net"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39572116,
+      "status": "candidate",
+      "text": "radio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39569336,
+      "status": "candidate",
+      "text": "radiocommunication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39524833,
+      "status": "candidate",
+      "text": "tuner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29920411,
+      "status": "candidate",
+      "text": "radio receiver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29920411,
+      "status": "candidate",
+      "text": "radio set"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8056,
+      "status": "candidate",
+      "text": "radio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2035,
+      "status": "candidate",
+      "text": "tuner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "radiocommunication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "radio receiver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13,
+      "status": "candidate",
+      "text": "receiving set"
+    }
+  ],
+  "canonical_name": "wireless",
+  "concept_id": "wireless",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kismetwireless/kismet"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wireless",
+      "sense_id": "wireless#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

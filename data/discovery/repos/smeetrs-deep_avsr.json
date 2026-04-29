@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "smeetrs/deep_avsr",
+      "target": "afourast/deep_lip_reading",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smeetrs/deep_avsr",
+      "target": "audio-visual-speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smeetrs/deep_avsr",
+      "target": "automatic-speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smeetrs/deep_avsr",
+      "target": "lip-reading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smeetrs/deep_avsr",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smeetrs/deep_avsr",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "smeetrs/deep_avsr",
+      "target": "visual-speech-recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:45:26.341846+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7141
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch implementation of the Deep Audio-Visual Speech Recognition paper.",
+    "fork": false,
+    "full_name": "smeetrs/deep_avsr",
+    "html_url": "https://github.com/smeetrs/deep_avsr",
+    "language": "Python",
+    "pushed_at": "2024-02-15T09:43:56Z",
+    "stargazers_count": 243,
+    "topics": [
+      "audio-visual-speech-recognition",
+      "automatic-speech-recognition",
+      "lip-reading",
+      "speech-recognition",
+      "speech-to-text",
+      "visual-speech-recognition"
+    ],
+    "updated_at": "2026-03-03T06:00:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "afourast/deep_lip_reading",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-visual-speech-recognition"
+    },
+    {
+      "context_snippet": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automatic-speech-recognition"
+    },
+    {
+      "context_snippet": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lip-reading"
+    },
+    {
+      "context_snippet": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-speech-recognition"
+    }
+  ]
+}

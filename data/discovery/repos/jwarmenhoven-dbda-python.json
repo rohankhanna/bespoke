@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JWarmenhoven/DBDA-python",
+      "target": "bayesian-data-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JWarmenhoven/DBDA-python",
+      "target": "bayesian-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JWarmenhoven/DBDA-python",
+      "target": "hierarchical-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JWarmenhoven/DBDA-python",
+      "target": "kruschke",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JWarmenhoven/DBDA-python",
+      "target": "mcmc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JWarmenhoven/DBDA-python",
+      "target": "probabilistic-programming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JWarmenhoven/DBDA-python",
+      "target": "pymc3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:48:11.724431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5191
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Doing Bayesian Data Analysis, 2nd Edition (Kruschke, 2015): Python/PyMC3 code ",
+    "fork": false,
+    "full_name": "JWarmenhoven/DBDA-python",
+    "html_url": "https://github.com/JWarmenhoven/DBDA-python",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-08-13T09:18:07Z",
+    "stargazers_count": 687,
+    "topics": [
+      "bayesian-data-analysis",
+      "bayesian-inference",
+      "hierarchical-models",
+      "kruschke",
+      "mcmc",
+      "probabilistic-programming",
+      "pymc3"
+    ],
+    "updated_at": "2026-04-09T18:35:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesian-data-analysis"
+    },
+    {
+      "context_snippet": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bayesian-inference"
+    },
+    {
+      "context_snippet": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hierarchical-models"
+    },
+    {
+      "context_snippet": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kruschke"
+    },
+    {
+      "context_snippet": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mcmc"
+    },
+    {
+      "context_snippet": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "probabilistic-programming"
+    },
+    {
+      "context_snippet": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pymc3"
+    }
+  ]
+}

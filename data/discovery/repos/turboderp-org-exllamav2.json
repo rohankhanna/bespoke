@@ -96,14 +96,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "turboderp-org/exllamav2",
-      "target": "turboderp-org/exllamav3",
+      "target": "turboderp/exllamav2",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "turboderp-org/exllamav2",
-      "target": "theroyallab/tabbyapi",
+      "target": "turboderp/exui",
       "target_type": "repository"
     },
     {
@@ -111,13 +111,6 @@
       "source_file": "README.md",
       "source_repo": "turboderp-org/exllamav2",
       "target": "oobabooga/text-generation-webui",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "turboderp-org/exllamav2",
-      "target": "parisneo/lollms-webui",
       "target_type": "repository"
     },
     {
@@ -268,7 +261,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T18:23:17.368558+00:00",
+  "fetched_at": "2026-04-29T21:42:48.361580+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -305,9 +298,9 @@
     "html_url": "https://github.com/turboderp-org/exllamav2",
     "language": "Python",
     "pushed_at": "2026-03-04T13:12:20Z",
-    "stargazers_count": 4501,
+    "stargazers_count": 4511,
     "topics": [],
-    "updated_at": "2026-04-24T13:26:14Z"
+    "updated_at": "2026-04-29T20:34:03Z"
   },
   "repo_links": [
     {
@@ -317,17 +310,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "parisneo/lollms-webui",
+      "full_name": "turboderp/exllamav2",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "theroyallab/tabbyapi",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "turboderp-org/exllamav3",
+      "full_name": "turboderp/exui",
       "source_file": "README.md"
     }
   ],

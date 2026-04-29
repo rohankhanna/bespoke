@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "http-archive"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "status": "candidate-context",
+      "text": "HTTP Archive's annual \"State of the Web\" report made by the web community"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "status": "candidate-context",
+      "text": "[![Production Checks GitHub Action](https://github.com/HTTPArchive/almanac.httparchive.org/workflows/Production%20Checks/badge.svg)](https://github.com/HTTPArchive/almanac.httparchive.org/actions?query=workflow%3A%22Production+Checks%22) [![Test Website GitHub Action](https://gi\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "status": "candidate",
+      "text": "[![Production Checks GitHub Action](https://github.com/HTTPArchive/almanac.httparchive.org/workflows/Production%20Checks/badge.svg)](https://github.com/HTTPArchive/almanac.httparchive.org/actions?query=workflow%3A%22Production+Checks%22) [![Test Website GitHub Action](https://gi\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "http-archive",
+  "concept_id": "http-archive",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "HTTPArchive/almanac.httparchive.org"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "http-archive",
+      "sense_id": "http-archive#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

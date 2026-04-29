@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "lmcinnes/umap",
+      "target": "lmcinnes/pynndescent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "lmcinnes/umap",
+      "target": "scikit-learn-contrib/hdbscan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "lmcinnes/umap",
+      "target": "hhcho/densvis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "lmcinnes/umap",
+      "target": "torchdr/torchdr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmcinnes/umap",
+      "target": "dimensionality-reduction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmcinnes/umap",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmcinnes/umap",
+      "target": "topological-data-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmcinnes/umap",
+      "target": "umap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lmcinnes/umap",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:49:30.591997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 22255
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1739
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Uniform Manifold Approximation and Projection",
+    "fork": false,
+    "full_name": "lmcinnes/umap",
+    "html_url": "https://github.com/lmcinnes/umap",
+    "language": "Python",
+    "pushed_at": "2026-04-18T00:35:57Z",
+    "stargazers_count": 8162,
+    "topics": [
+      "dimensionality-reduction",
+      "machine-learning",
+      "topological-data-analysis",
+      "umap",
+      "visualization"
+    ],
+    "updated_at": "2026-04-28T20:59:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hhcho/densvis",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lmcinnes/pynndescent",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scikit-learn-contrib/hdbscan",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "torchdr/torchdr",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": ".. -*- mode: rst -*-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dimensionality-reduction"
+    },
+    {
+      "context_snippet": ".. -*- mode: rst -*-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": ".. -*- mode: rst -*-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "topological-data-analysis"
+    },
+    {
+      "context_snippet": ".. -*- mode: rst -*-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "umap"
+    },
+    {
+      "context_snippet": ".. -*- mode: rst -*-",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

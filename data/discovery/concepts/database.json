@@ -499,6 +499,114 @@
       "source_repo": "citusdata/citus",
       "status": "candidate-context",
       "text": "| **<br/>The Citus database is 100% open source.<br/><img width=1000/><br/>Learn what's new in the [Citus 13.0 release blog](https://www.citusdata.com/blog/2025/02/06/distribute-postgresql-17-with-citus-13/) and the [Citus Updates page](https://www.citusdata.com/updates/).<br/><\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate-context",
+      "text": "Free universal database tool and SQL client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate-context",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/dbeaver_news.svg?style=social&label=Follow%20%40dbeaver_news)](https://twitter.com/dbeaver_news)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdine/storm",
+      "status": "candidate-context",
+      "text": "Simple and powerful toolkit for BoltDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdine/storm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HypoPG/hypopg",
+      "status": "candidate-context",
+      "text": "Hypothetical Indexes for PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypoPG/hypopg",
+      "status": "candidate-context",
+      "text": "HypoPG"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mailru/go-clickhouse",
+      "status": "candidate-context",
+      "text": "Golang SQL database driver for Yandex ClickHouse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/go-clickhouse",
+      "status": "candidate-context",
+      "text": "Yet another Golang SQL database driver for [Yandex ClickHouse](https://clickhouse.yandex/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/many-level",
+      "status": "candidate-context",
+      "text": "Share an abstract-level database over the network or other kind of stream."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/many-level",
+      "status": "candidate-context",
+      "text": "**Share an [abstract-level](https://github.com/Level/abstract-level) database over the network or other kind of stream.** The successor to [`multileveldown`](https://github.com/Level/multileveldown). If you are upgrading, please see [UPGRADING.md](UPGRADING.md)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eosphoros-ai/DB-GPT-Hub",
+      "status": "candidate-context",
+      "text": "A repository that contains models, datasets, and fine-tuning techniques for DB-GPT, with the purpose of enhancing model performance  in Text-to-SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT-Hub",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ibis-project/ibis",
+      "status": "candidate-context",
+      "text": "the portable Python dataframe library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibis-project/ibis",
+      "status": "candidate-context",
+      "text": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbeaver/cloudbeaver",
+      "status": "candidate-context",
+      "text": "Cloud Database Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/cloudbeaver",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "exoscale/seql",
+      "status": "candidate-context",
+      "text": "Simplfied EDN Query Language for SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exoscale/seql",
+      "status": "candidate-context",
+      "text": "seql: Simplified EDN Query Language"
     }
   ],
   "candidate_glosses": [
@@ -747,6 +855,60 @@
       "source_repo": "citusdata/citus",
       "status": "candidate",
       "text": "| **<br/>The Citus database is 100% open source.<br/><img width=1000/><br/>Learn what's new in the [Citus 13.0 release blog](https://www.citusdata.com/blog/2025/02/06/distribute-postgresql-17-with-citus-13/) and the [Citus Updates page](https://www.citusdata.com/updates/).<br/><\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/dbeaver_news.svg?style=social&label=Follow%20%40dbeaver_news)](https://twitter.com/dbeaver_news)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdine/storm",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypoPG/hypopg",
+      "status": "candidate",
+      "text": "HypoPG"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mailru/go-clickhouse",
+      "status": "candidate",
+      "text": "Yet another Golang SQL database driver for [Yandex ClickHouse](https://clickhouse.yandex/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/many-level",
+      "status": "candidate",
+      "text": "**Share an [abstract-level](https://github.com/Level/abstract-level) database over the network or other kind of stream.** The successor to [`multileveldown`](https://github.com/Level/multileveldown). If you are upgrading, please see [UPGRADING.md](UPGRADING.md)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eosphoros-ai/DB-GPT-Hub",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ibis-project/ibis",
+      "status": "candidate",
+      "text": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/cloudbeaver",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/dbeaver/cloudbeaver/wiki/images/cloudbeaver-logo.png\" alt=\"CloudBeaver logo\" align=\"right\" width=\"250\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exoscale/seql",
+      "status": "candidate",
+      "text": "seql: Simplified EDN Query Language"
     }
   ],
   "candidate_related_terms": [
@@ -1102,11 +1264,83 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "citusdata/citus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dbeaver/dbeaver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "asdine/storm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "HypoPG/hypopg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mailru/go-clickhouse"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "WiseLibs/better-sqlite3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Level/many-level"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eosphoros-ai/DB-GPT-Hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dbeaver/cloudbeaver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "exoscale/seql"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

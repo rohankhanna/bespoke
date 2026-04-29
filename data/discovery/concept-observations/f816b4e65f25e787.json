@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mirror of https://git.ffmpeg.org/ffmpeg.git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020703,
+      "status": "candidate",
+      "text": "msrpc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020702,
+      "status": "candidate",
+      "text": "jrmp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020701,
+      "status": "candidate",
+      "text": "sntp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020700,
+      "status": "candidate",
+      "text": "icmp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020699,
+      "status": "candidate",
+      "text": "ctcp"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rtmp",
+      "sense_id": "rtmp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rtmp",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rtmp",
+  "observation_id": "f816b4e65f25e787",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "rtmp",
+  "source_context_snippet": "FFmpeg is a collection of libraries and tools to process multimedia content",
+  "source_file": null,
+  "source_repo": "FFmpeg/FFmpeg",
+  "source_repo_description": "Mirror of https://git.ffmpeg.org/ffmpeg.git"
+}

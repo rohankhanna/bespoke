@@ -9,9 +9,20 @@
       "source_kind": "repo-description",
       "status": "context-only",
       "text": "aider is AI pair programming in your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "pre-commit"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "pre-commit"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
   "candidate_related_terms": [],
   "candidate_senses": [
@@ -30,14 +41,16 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "pre-commit",
   "observation_id": "72db930b74022975",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "pre-commit",
-  "source_context_snippet": null,
+  "source_context_snippet": "pre-commit",
   "source_file": ".github/workflows/pre-commit.yml",
   "source_repo": "Aider-AI/aider",
   "source_repo_description": "aider is AI pair programming in your terminal"

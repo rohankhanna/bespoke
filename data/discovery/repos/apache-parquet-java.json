@@ -1,0 +1,209 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-hadoop3.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-hadoop3.yml"
+    },
+    {
+      "component": "actions/stale@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-prs.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vector-plugins.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vector-plugins.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/parquet-java",
+      "target": "julienledem/redelm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apache/parquet-java",
+      "target": "twitter/code-of-conduct",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-hadoop3.yml",
+      "source_repo": "apache/parquet-java",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-hadoop3.yml",
+      "source_repo": "apache/parquet-java",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-hadoop3.yml",
+      "source_repo": "apache/parquet-java",
+      "target": "CI Hadoop 3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale-prs.yml",
+      "source_repo": "apache/parquet-java",
+      "target": "actions/stale@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-prs.yml",
+      "source_repo": "apache/parquet-java",
+      "target": "Stale pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vector-plugins.yml",
+      "source_repo": "apache/parquet-java",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vector-plugins.yml",
+      "source_repo": "apache/parquet-java",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vector-plugins.yml",
+      "source_repo": "apache/parquet-java",
+      "target": "Vector-plugins",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/parquet-java",
+      "target": "apache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/parquet-java",
+      "target": "parquet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/parquet-java",
+      "target": "parquet-java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:45:55.151124+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10198
+    },
+    {
+      "path": ".github/workflows/ci-hadoop3.yml",
+      "size": 2218
+    },
+    {
+      "path": ".github/workflows/stale-prs.yml",
+      "size": 2181
+    },
+    {
+      "path": ".github/workflows/vector-plugins.yml",
+      "size": 2361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache Parquet Java",
+    "fork": false,
+    "full_name": "apache/parquet-java",
+    "html_url": "https://github.com/apache/parquet-java",
+    "language": "Java",
+    "pushed_at": "2026-04-29T13:49:25Z",
+    "stargazers_count": 3054,
+    "topics": [
+      "apache",
+      "parquet",
+      "parquet-java"
+    ],
+    "updated_at": "2026-04-29T13:51:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "julienledem/redelm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "twitter/code-of-conduct",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Hadoop 3",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-hadoop3.yml",
+      "term": "CI Hadoop 3"
+    },
+    {
+      "context_snippet": "Stale pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale-prs.yml",
+      "term": "Stale pull requests"
+    },
+    {
+      "context_snippet": "Vector-plugins",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vector-plugins.yml",
+      "term": "Vector-plugins"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parquet"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parquet-java"
+    }
+  ]
+}

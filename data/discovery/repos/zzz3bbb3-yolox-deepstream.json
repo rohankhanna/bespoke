@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:39:24.949655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "deploy yolox algorithm use deepstream",
+    "fork": false,
+    "full_name": "zzz3bbb3/YOLOX-deepstream",
+    "html_url": "https://github.com/zzz3bbb3/YOLOX-deepstream",
+    "language": "C++",
+    "pushed_at": "2021-12-20T09:42:05Z",
+    "stargazers_count": 91,
+    "topics": [],
+    "updated_at": "2026-03-20T11:44:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

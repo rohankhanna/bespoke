@@ -115,6 +115,30 @@
       "source_repo": "cake-build/cake",
       "status": "candidate-context",
       "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f Build multimodal AI applications with cloud-native stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "<a href=\"https://pypi.org/project/jina/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/jina?label=Release&style=flat-square\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/connectors-community",
+      "status": "candidate-context",
+      "text": "A community space to share fully working and production ready Apollo Connectors"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/connectors-community",
+      "status": "candidate-context",
+      "text": "This repository is for builders to share API connectors to help accelerate the community with rich starting points. The basic workflow functionality below can help a builder get a new project started in seconds with a fantastic developer experience."
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "cake-build/cake",
       "status": "candidate",
       "text": "Cake (C# Make) is a build automation system with a C# DSL to do things like compiling code, copy files/folders, running unit tests, compress files and build NuGet packages."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate",
+      "text": "<a href=\"https://pypi.org/project/jina/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/jina?label=Release&style=flat-square\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/connectors-community",
+      "status": "candidate",
+      "text": "This repository is for builders to share API connectors to help accelerate the community with rich starting points. The basic workflow functionality below can help a builder get a new project started in seconds with a fantastic developer experience."
     }
   ],
   "candidate_related_terms": [
@@ -268,11 +304,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "cake-build/cake"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/connectors-community"
     }
   ],
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

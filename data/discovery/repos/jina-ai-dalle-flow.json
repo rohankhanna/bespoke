@@ -1,0 +1,214 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jina-ai/dalle-flow",
+      "target": "jack000/glid-3-xl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jina-ai/dalle-flow",
+      "target": "hanxiao/dalle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jina-ai/dalle-flow",
+      "target": "jina-ai/docarray",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jina-ai/dalle-flow",
+      "target": "jina-ai/glid-3-xl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jina-ai/dalle-flow",
+      "target": "dalle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jina-ai/dalle-flow",
+      "target": "dalle-mega",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jina-ai/dalle-flow",
+      "target": "dalle-mini",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jina-ai/dalle-flow",
+      "target": "generative-art",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jina-ai/dalle-flow",
+      "target": "glid3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jina-ai/dalle-flow",
+      "target": "human-in-the-loop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jina-ai/dalle-flow",
+      "target": "jina",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jina-ai/dalle-flow",
+      "target": "neural-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jina-ai/dalle-flow",
+      "target": "swinir",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:50:46.617923+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 36169
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3643
+    },
+    {
+      "path": "requirements.txt",
+      "size": 361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\ud83c\udf0a A Human-in-the-Loop workflow for creating HD images from text",
+    "fork": false,
+    "full_name": "jina-ai/dalle-flow",
+    "html_url": "https://github.com/jina-ai/dalle-flow",
+    "language": "Python",
+    "pushed_at": "2023-05-16T09:54:02Z",
+    "stargazers_count": 2833,
+    "topics": [
+      "dalle",
+      "dalle-mega",
+      "dalle-mini",
+      "generative-art",
+      "glid3",
+      "human-in-the-loop",
+      "jina",
+      "neural-search",
+      "openai",
+      "swinir"
+    ],
+    "updated_at": "2026-04-22T00:11:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hanxiao/dalle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jack000/glid-3-xl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jina-ai/docarray",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jina-ai/glid-3-xl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dalle"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dalle-mega"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dalle-mini"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-art"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glid3"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-in-the-loop"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jina"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-search"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swinir"
+    }
+  ]
+}

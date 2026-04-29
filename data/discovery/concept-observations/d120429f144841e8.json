@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Recursively omit specified keys from an object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Recursively omit the specified key or keys from an object."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Recursively omit the specified key or keys from an object."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40036295,
+      "status": "candidate",
+      "text": "leave out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032634,
+      "status": "candidate",
+      "text": "miss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031753,
+      "status": "candidate",
+      "text": "exclude"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40030680,
+      "status": "candidate",
+      "text": "leave off"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029131,
+      "status": "candidate",
+      "text": "neglect"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "omit",
+      "sense_id": "omit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31046,
+      "status": "candidate",
+      "text": "neglect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26034,
+      "status": "candidate",
+      "text": "overlook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22054,
+      "status": "candidate",
+      "text": "miss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21075,
+      "status": "candidate",
+      "text": "drop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11038,
+      "status": "candidate",
+      "text": "exclude"
+    }
+  ],
+  "concept_id": "omit",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "omit",
+  "observation_id": "d120429f144841e8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "omit",
+  "source_context_snippet": "> Recursively omit the specified key or keys from an object.",
+  "source_file": null,
+  "source_repo": "jonschlinkert/omit-deep",
+  "source_repo_description": "Recursively omit specified keys from an object."
+}

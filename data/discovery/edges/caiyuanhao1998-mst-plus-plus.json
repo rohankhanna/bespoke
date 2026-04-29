@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caiyuanhao1998/MST-plus-plus",
+      "target": "caiyuanhao1998/mst",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST-plus-plus",
+      "target": "hyperspectral-image-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST-plus-plus",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST-plus-plus",
+      "target": "ntire",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST-plus-plus",
+      "target": "spectral-reconstruction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/MST-plus-plus",
+      "target": "spectral-superresolution",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "caiyuanhao1998/MST-plus-plus"
+}

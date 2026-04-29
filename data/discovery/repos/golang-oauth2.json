@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "golang/oauth2",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "golang/oauth2",
+      "target": "oauth2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "golang/oauth2",
+      "target": "oauth2-client",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:54:50.772519+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1484
+    },
+    {
+      "path": "go.mod",
+      "size": 91
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Go OAuth2",
+    "fork": false,
+    "full_name": "golang/oauth2",
+    "html_url": "https://github.com/golang/oauth2",
+    "language": "Go",
+    "pushed_at": "2026-03-08T12:01:22Z",
+    "stargazers_count": 5845,
+    "topics": [
+      "go",
+      "golang",
+      "oauth2",
+      "oauth2-client"
+    ],
+    "updated_at": "2026-04-28T13:21:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/golang.org/x/oauth2.svg)](https://pkg.go.dev/golang.org/x/oauth2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/golang.org/x/oauth2.svg)](https://pkg.go.dev/golang.org/x/oauth2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oauth2"
+    },
+    {
+      "context_snippet": "[![Go Reference](https://pkg.go.dev/badge/golang.org/x/oauth2.svg)](https://pkg.go.dev/golang.org/x/oauth2)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oauth2-client"
+    }
+  ]
+}

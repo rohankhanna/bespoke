@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:58:36.423018+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extensible Data Notation",
+    "fork": false,
+    "full_name": "edn-format/edn",
+    "html_url": "https://github.com/edn-format/edn",
+    "language": null,
+    "pushed_at": "2022-01-15T06:14:47Z",
+    "stargazers_count": 2753,
+    "topics": [],
+    "updated_at": "2026-04-22T23:59:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

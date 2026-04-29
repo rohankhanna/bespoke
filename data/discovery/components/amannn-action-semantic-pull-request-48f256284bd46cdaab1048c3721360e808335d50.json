@@ -1,7 +1,7 @@
 {
   "component": "amannn/action-semantic-pull-request@48f256284bd46cdaab1048c3721360e808335d50",
   "first_seen_at": "2026-04-18T09:11:35.827547+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -117,6 +117,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/conventional-commits.yml",
       "source_repo": "a2aproject/a2a-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-title-check.yml",
+      "source_repo": "argoproj/argo-rollouts"
     }
   ]
 }

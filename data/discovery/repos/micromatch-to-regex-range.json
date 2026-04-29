@@ -49,13 +49,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "micromatch/to-regex-range",
-      "target": "jonschlinkert/repeat-string",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "micromatch/to-regex-range",
@@ -217,7 +210,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:39:01.241386+00:00",
+  "fetched_at": "2026-04-29T19:49:36.138129+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -276,11 +269,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "jonschlinkert/repeat-element",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jonschlinkert/repeat-string",
       "source_file": "README.md"
     }
   ],

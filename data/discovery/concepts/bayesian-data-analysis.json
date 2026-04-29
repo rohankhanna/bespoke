@@ -19,6 +19,18 @@
       "source_repo": "stan-dev/rstan",
       "status": "candidate-context",
       "text": "<!-- badges: start -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JWarmenhoven/DBDA-python",
+      "status": "candidate-context",
+      "text": "Doing Bayesian Data Analysis, 2nd Edition (Kruschke, 2015): Python/PyMC3 code "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JWarmenhoven/DBDA-python",
+      "status": "candidate-context",
+      "text": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "stan-dev/rstan",
       "status": "candidate",
       "text": "<!-- badges: start -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JWarmenhoven/DBDA-python",
+      "status": "candidate",
+      "text": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "stan-dev/rstan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "JWarmenhoven/DBDA-python"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

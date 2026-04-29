@@ -163,6 +163,42 @@
       "source_repo": "getndazn/dazn-lambda-powertools",
       "status": "candidate-context",
       "text": "[![CircleCI](https://circleci.com/gh/getndazn/dazn-lambda-powertools.svg?style=svg)](https://circleci.com/gh/getndazn/dazn-lambda-powertools)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "middyjs/middy",
+      "status": "candidate-context",
+      "text": "\ud83d\udef5 The stylish Node.js middleware engine for AWS Lambda \ud83d\udef5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "middyjs/middy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amplify-education/serverless-domain-manager",
+      "status": "candidate-context",
+      "text": "Serverless plugin for managing custom domains with API Gateways."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amplify-education/serverless-domain-manager",
+      "status": "candidate-context",
+      "text": "[![serverless](https://assets.serverless-extras.com/website/general/icon-serverless-framework.svg)](https://www.serverless.com/plugins/serverless-domain-manager)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/aws-ses-lambda",
+      "status": "candidate-context",
+      "text": "\ud83d\udcec A Lambda function for sending email and tracking deliverability via AWS Simple Email Service (SES)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/aws-ses-lambda",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +279,24 @@
       "source_repo": "getndazn/dazn-lambda-powertools",
       "status": "candidate",
       "text": "[![CircleCI](https://circleci.com/gh/getndazn/dazn-lambda-powertools.svg?style=svg)](https://circleci.com/gh/getndazn/dazn-lambda-powertools)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "middyjs/middy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amplify-education/serverless-domain-manager",
+      "status": "candidate",
+      "text": "[![serverless](https://assets.serverless-extras.com/website/general/icon-serverless-framework.svg)](https://www.serverless.com/plugins/serverless-domain-manager)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/aws-ses-lambda",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -382,11 +436,59 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "getndazn/dazn-lambda-powertools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws/aws-sam-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "middyjs/middy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "amplify-education/serverless-domain-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/aws-ses-lambda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-typescript"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

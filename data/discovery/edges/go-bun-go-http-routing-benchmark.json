@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-bun/go-http-routing-benchmark",
+      "target": "ant0ine/go-json-rest",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-bun/go-http-routing-benchmark",
+      "target": "dimfeld/httptreemux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-bun/go-http-routing-benchmark",
+      "target": "go-martini/martini",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "go-bun/go-http-routing-benchmark",
+      "target": "bmizerany/pat",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "go-bun/go-http-routing-benchmark"
+}

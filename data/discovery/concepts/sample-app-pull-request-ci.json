@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sample App Pull Request CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate-context",
+      "text": "Sample application built using Atlan Application SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate-context",
+      "text": "Sample App Pull Request CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate",
+      "text": "Sample App Pull Request CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30926,
+      "status": "candidate",
+      "text": "display"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30926,
+      "status": "candidate",
+      "text": "say"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30864,
+      "status": "candidate",
+      "text": "move"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30862,
+      "status": "candidate",
+      "text": "exaction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30861,
+      "status": "candidate",
+      "text": "come"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sample App Pull Request CI",
+  "concept_id": "sample-app-pull-request-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sample App Pull Request CI",
+      "sense_id": "sample-app-pull-request-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

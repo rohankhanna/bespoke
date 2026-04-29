@@ -1,0 +1,22 @@
+{
+  "component": "anthropics/claude-code-action@6e2bd52842c65e914eba5c8badd17560bd26b5de",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals"
+    }
+  ]
+}

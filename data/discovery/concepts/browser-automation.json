@@ -19,6 +19,18 @@
       "source_repo": "AIPexStudio/AIPex",
       "status": "candidate-context",
       "text": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate-context",
+      "text": "Automate browser based workflows with AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate-context",
+      "text": "<!-- DOCTOC SKIP -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "AIPexStudio/AIPex",
       "status": "candidate",
       "text": "<p align=\"center\"><a href=\"https://claudechrome.com\"><img alt=\"AIPex Browser Automation\" src=\"https://github.com/user-attachments/assets/039768c0-1765-4a98-b020-57955e4a224a\" width=\"100%\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate",
+      "text": "<!-- DOCTOC SKIP -->"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "AIPexStudio/AIPex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Skyvern-AI/skyvern"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

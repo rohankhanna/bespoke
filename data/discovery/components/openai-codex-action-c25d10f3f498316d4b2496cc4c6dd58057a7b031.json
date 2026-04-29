@@ -1,7 +1,7 @@
 {
   "component": "openai/codex-action@c25d10f3f498316d4b2496cc4c6dd58057a7b031",
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release-pr.yml",
       "source_repo": "openai/openai-agents-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/changeset.yml",
+      "source_repo": "openai/openai-agents-js"
     }
   ]
 }

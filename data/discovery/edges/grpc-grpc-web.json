@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grpc/grpc-web",
+      "target": "a2not/vite-grpc-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "grpc/grpc-web",
+      "target": "improbable-eng/grpc-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-plugin-linux.yml",
+      "source_repo": "grpc/grpc-web",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-plugin-linux.yml",
+      "source_repo": "grpc/grpc-web",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-plugin-linux.yml",
+      "source_repo": "grpc/grpc-web",
+      "target": "Make Linux Plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-plugin-mac-os.yml",
+      "source_repo": "grpc/grpc-web",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-plugin-mac-os.yml",
+      "source_repo": "grpc/grpc-web",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-plugin-mac-os.yml",
+      "source_repo": "grpc/grpc-web",
+      "target": "Make macOS Plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-plugin-windows.yml",
+      "source_repo": "grpc/grpc-web",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-plugin-windows.yml",
+      "source_repo": "grpc/grpc-web",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-plugin-windows.yml",
+      "source_repo": "grpc/grpc-web",
+      "target": "Make Windows Plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-source-archive.yml",
+      "source_repo": "grpc/grpc-web",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-source-archive.yml",
+      "source_repo": "grpc/grpc-web",
+      "target": "Publish Stable Source Archive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "grpc/grpc-web",
+      "target": "grpc",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "grpc/grpc-web"
+}

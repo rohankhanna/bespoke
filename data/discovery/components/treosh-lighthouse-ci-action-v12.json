@@ -1,0 +1,12 @@
+{
+  "component": "treosh/lighthouse-ci-action@v12",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lighthouse.yml",
+      "source_repo": "flathub-infra/website"
+    }
+  ]
+}

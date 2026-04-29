@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "globby",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimist",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "paper",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rollup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bigtimebuddy/svg-reorient",
+      "target": "globby",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bigtimebuddy/svg-reorient",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "bigtimebuddy/svg-reorient",
+      "target": "paper",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "bigtimebuddy/svg-reorient",
+      "target": "rollup",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:54:43.956104+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 824
+    },
+    {
+      "path": "package.json",
+      "size": 1252
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Make fill-rule evenodd compatible with nonzero",
+    "fork": false,
+    "full_name": "bigtimebuddy/svg-reorient",
+    "html_url": "https://github.com/bigtimebuddy/svg-reorient",
+    "language": "JavaScript",
+    "pushed_at": "2022-07-22T09:51:16Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2025-08-13T21:28:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

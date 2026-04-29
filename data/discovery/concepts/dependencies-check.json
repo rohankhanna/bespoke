@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Dependencies Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pydantic/pydantic",
+      "status": "candidate-context",
+      "text": "Data validation using Python type hints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/pydantic",
+      "status": "candidate-context",
+      "text": "Dependencies Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/pydantic",
+      "status": "candidate",
+      "text": "Dependencies Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16960,
+      "status": "candidate",
+      "text": "pound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16960,
+      "status": "candidate",
+      "text": "pounded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15036,
+      "status": "candidate",
+      "text": "assessment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15036,
+      "status": "candidate",
+      "text": "bet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15036,
+      "status": "candidate",
+      "text": "bill"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Dependencies Check",
+  "concept_id": "dependencies-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dependencies-check.yml",
+      "source_repo": "pydantic/pydantic"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Dependencies Check",
+      "sense_id": "dependencies-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

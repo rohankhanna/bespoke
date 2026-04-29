@@ -1,0 +1,148 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codestyle.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codestyle.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tinkoff-ai/CORL",
+      "target": "tinkoff-ai/katakomba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "tinkoff-ai/CORL",
+      "target": "openai/mujoco-py",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codestyle.yml",
+      "source_repo": "tinkoff-ai/CORL",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codestyle.yml",
+      "source_repo": "tinkoff-ai/CORL",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codestyle.yml",
+      "source_repo": "tinkoff-ai/CORL",
+      "target": "codestyle check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinkoff-ai/CORL",
+      "target": "d4rl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinkoff-ai/CORL",
+      "target": "offline-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tinkoff-ai/CORL",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:50:12.857550+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24290
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1093
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 199
+    },
+    {
+      "path": ".github/workflows/codestyle.yml",
+      "size": 555
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "High-quality single-file implementations of SOTA Offline and Offline-to-Online RL algorithms: AWAC, BC, CQL, DT, EDAC, IQL, SAC-N, TD3+BC, LB-SAC, SPOT, Cal-QL, ReBRAC",
+    "fork": false,
+    "full_name": "tinkoff-ai/CORL",
+    "html_url": "https://github.com/tinkoff-ai/CORL",
+    "language": "Python",
+    "pushed_at": "2023-08-03T07:13:55Z",
+    "stargazers_count": 1352,
+    "topics": [
+      "d4rl",
+      "gym",
+      "offline-reinforcement-learning",
+      "reinforcement-learning"
+    ],
+    "updated_at": "2026-04-29T15:32:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tinkoff-ai/katakomba",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/mujoco-py",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "codestyle check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codestyle.yml",
+      "term": "codestyle check"
+    },
+    {
+      "context_snippet": "[![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/vladkurenkov/status/1669361090550177793)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "d4rl"
+    },
+    {
+      "context_snippet": "[![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/vladkurenkov/status/1669361090550177793)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "offline-reinforcement-learning"
+    },
+    {
+      "context_snippet": "[![Twitter](https://badgen.net/badge/icon/twitter?icon=twitter&label)](https://twitter.com/vladkurenkov/status/1669361090550177793)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    }
+  ]
+}

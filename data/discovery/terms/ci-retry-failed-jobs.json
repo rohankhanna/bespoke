@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci-retry.yml",
+      "source_repo": "Homebrew/homebrew-cask"
+    }
+  ],
+  "term": "CI Retry Failed Jobs"
+}

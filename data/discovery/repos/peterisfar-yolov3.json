@@ -1,0 +1,142 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Peterisfar/YOLOV3",
+      "target": "stinky-tofu/stronger-yolo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Peterisfar/YOLOV3",
+      "target": "ultralytics/yolov3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Peterisfar/YOLOV3",
+      "target": "qqwweee/keras-yolo3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Peterisfar/YOLOV3",
+      "target": "mobilenetv2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Peterisfar/YOLOV3",
+      "target": "model-compression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Peterisfar/YOLOV3",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Peterisfar/YOLOV3",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Peterisfar/YOLOV3",
+      "target": "yolov3",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:44:58.360655+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4487
+    },
+    {
+      "path": "requirements.txt",
+      "size": 124
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "yolov3 by pytorch",
+    "fork": false,
+    "full_name": "Peterisfar/YOLOV3",
+    "html_url": "https://github.com/Peterisfar/YOLOV3",
+    "language": "Python",
+    "pushed_at": "2022-06-21T23:27:25Z",
+    "stargazers_count": 198,
+    "topics": [
+      "mobilenetv2",
+      "model-compression",
+      "object-detection",
+      "pytorch",
+      "voc",
+      "yolov3"
+    ],
+    "updated_at": "2026-02-24T14:38:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qqwweee/keras-yolo3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stinky-tofu/stronger-yolo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ultralytics/yolov3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenetv2"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-compression"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "---",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov3"
+    }
+  ]
+}

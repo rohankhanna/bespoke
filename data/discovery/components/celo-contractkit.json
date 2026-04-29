@@ -1,0 +1,17 @@
+{
+  "component": "@celo/contractkit",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/emisianto"
+    },
+    {
+      "discovered_via": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "celo-org/SocialConnect-ReactNative-Demo"
+    }
+  ]
+}

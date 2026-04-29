@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Yuanshi9815/OminiControl",
+      "target": "yuanshi9815/subjects200k",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Yuanshi9815/OminiControl",
+      "target": "macoron/comfyui-diffusers-ominicontrol",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Yuanshi9815/OminiControl",
+      "target": "hm-runninghub/comfyui_rh_ominicontrol",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "Yuanshi9815/OminiControl"
+}

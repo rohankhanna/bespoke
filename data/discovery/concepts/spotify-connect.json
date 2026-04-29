@@ -43,6 +43,18 @@
       "source_repo": "dtcooper/raspotify",
       "status": "candidate-context",
       "text": "[<img src=\"https://raw.githubusercontent.com/dtcooper/raspotify/master/raspotify.svg?sanitize=true\">](https://github.com/dtcooper/raspotify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devgianlu/go-librespot",
+      "status": "candidate-context",
+      "text": "Yet another open source Spotify client, written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/go-librespot",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/devgianlu/go-librespot.svg)](https://github.com/devgianlu/go-librespot/releases/latest)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "dtcooper/raspotify",
       "status": "candidate",
       "text": "[<img src=\"https://raw.githubusercontent.com/dtcooper/raspotify/master/raspotify.svg?sanitize=true\">](https://github.com/dtcooper/raspotify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/go-librespot",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/devgianlu/go-librespot.svg)](https://github.com/devgianlu/go-librespot/releases/latest)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "dtcooper/raspotify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "devgianlu/go-librespot"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

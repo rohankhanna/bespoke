@@ -26,19 +26,17 @@
       "source_file": ".github/workflows/pull_request.yml"
     },
     {
+      "component": "swiftlang/github-workflows/.github/workflows/swift_package_test.yml@0.0.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
       "component": "swiftlang/github-workflows/.github/workflows/github_actions_dependencies.yml@0.0.11",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull_request_dependency_check.yaml"
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "swiftlang/swift-package-manager",
-      "target": "swiftlang/sourcekit-lsp",
-      "target_type": "repository"
-    },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
@@ -82,7 +80,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T19:53:45.444016+00:00",
+  "fetched_at": "2026-04-29T18:56:28.876597+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -94,7 +92,7 @@
     },
     {
       "path": ".github/workflows/pull_request.yml",
-      "size": 6555
+      "size": 7228
     },
     {
       "path": ".github/workflows/pull_request_dependency_check.yaml",
@@ -110,20 +108,15 @@
     "full_name": "swiftlang/swift-package-manager",
     "html_url": "https://github.com/swiftlang/swift-package-manager",
     "language": "Swift",
-    "pushed_at": "2026-04-23T16:28:22Z",
+    "pushed_at": "2026-04-29T17:39:11Z",
     "stargazers_count": 10133,
     "topics": [],
-    "updated_at": "2026-04-23T16:28:28Z"
+    "updated_at": "2026-04-29T14:54:05Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "apple/swift-llbuild",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "swiftlang/sourcekit-lsp",
       "source_file": "README.md"
     }
   ],

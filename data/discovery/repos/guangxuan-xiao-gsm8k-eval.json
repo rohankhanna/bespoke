@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Guangxuan-Xiao/GSM8K-eval",
+      "target": "alibaba/federatedscope",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Guangxuan-Xiao/GSM8K-eval",
+      "target": "kojima-takeshi188/zero_shot_cot",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:46:20.210895+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 539
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "Guangxuan-Xiao/GSM8K-eval",
+    "html_url": "https://github.com/Guangxuan-Xiao/GSM8K-eval",
+    "language": "Python",
+    "pushed_at": "2023-09-23T19:49:50Z",
+    "stargazers_count": 60,
+    "topics": [],
+    "updated_at": "2026-03-17T02:57:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/federatedscope",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kojima-takeshi188/zero_shot_cot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

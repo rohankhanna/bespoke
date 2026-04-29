@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TungChintao/SkiLa",
+      "target": "gumpest/sparsevlms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TungChintao/SkiLa",
+      "target": "multimodal-reasoning-lab/bagel-zebra-cot",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:49:18.370706+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3454
+    },
+    {
+      "path": "requirements.txt",
+      "size": 7989
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official codes of \"Sketch-in-Latents: Eliciting Unified Reasoning in MLLMs\"",
+    "fork": false,
+    "full_name": "TungChintao/SkiLa",
+    "html_url": "https://github.com/TungChintao/SkiLa",
+    "language": "Python",
+    "pushed_at": "2026-02-15T08:35:30Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-24T17:50:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gumpest/sparsevlms",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "multimodal-reasoning-lab/bagel-zebra-cot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

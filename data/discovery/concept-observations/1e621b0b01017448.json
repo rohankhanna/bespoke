@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A cargo subcommand to fetch the source code of a Rust crate"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "cargo-clone can be used to fetch the source code of a Rust crate from a registry."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "cargo-clone can be used to fetch the source code of a Rust crate from a registry."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust-crate",
+      "sense_id": "rust-crate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rust-crate",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rust-crate",
+  "observation_id": "1e621b0b01017448",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "rust-crate",
+  "source_context_snippet": "cargo-clone can be used to fetch the source code of a Rust crate from a registry.",
+  "source_file": null,
+  "source_repo": "JanLikar/cargo-clone",
+  "source_repo_description": "A cargo subcommand to fetch the source code of a Rust crate"
+}

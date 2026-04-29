@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@v6",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1597,6 +1597,141 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/golang.yml",
       "source_repo": "bluesky-social/goat"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "aws/aws-sam-cli"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/autobahn.yml",
+      "source_repo": "gobwas/ws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "gobwas/ws"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml",
+      "source_repo": "spiffe/go-spiffe"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cover.yml",
+      "source_repo": "ClickHouse/ch-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e.yml",
+      "source_repo": "ClickHouse/ch-go"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/choco-release.yml",
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/macos-installer.yml",
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-check-win.yml",
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-check.yml",
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/make-rpm.yml",
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-tests.yml",
+      "source_repo": "operator-framework/operator-lifecycle-manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yaml",
+      "source_repo": "operator-framework/operator-lifecycle-manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/sanity.yaml",
+      "source_repo": "operator-framework/operator-lifecycle-manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/unit.yml",
+      "source_repo": "operator-framework/operator-lifecycle-manager"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ebitengine/purego"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ipfs/distributions"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yaml",
+      "source_repo": "opencost/opencost"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "opencost/opencost"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "rs/zerolog"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "danielgtaylor/mexpr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "minio/directpv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/functests.yml",
+      "source_repo": "minio/directpv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linters.yml",
+      "source_repo": "minio/directpv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vulncheck.yml",
+      "source_repo": "minio/directpv"
     }
   ]
 }

@@ -91,6 +91,66 @@
       "source_repo": "ScoopInstaller/Awesome",
       "status": "candidate-context",
       "text": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chawyehsu/dorado",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1f Yet Another bucket for lovely Scoop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chawyehsu/dorado",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "status": "candidate-context",
+      "text": "Scoop bucket for emulators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/ci.yml/badge.svg)](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/ci.yml) [![Excavator](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/excavator.yml/badge.svg)](http\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Java",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 A bucket for Scoop, for Oracle Java, OpenJDK, Eclipse Temurin, IBM Semeru, Zulu, ojdkbuild, Amazon Corretto, BellSoft Liberica, SapMachine and Microsoft JDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Java",
+      "status": "candidate-context",
+      "text": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Bucket of almost all of the 280+ apps from Nirsoft.net. Migrated from MCOfficer/scoop-nirsoft with permission."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "status": "candidate-context",
+      "text": "[![update](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml/badge.svg)](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate-context",
+      "text": "Install Clojure on Windows with Scoop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +195,36 @@
       "source_repo": "ScoopInstaller/Awesome",
       "status": "candidate",
       "text": "[![Awesome](https://awesome.re/badge-flat.svg)](https://awesome.re)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chawyehsu/dorado",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/ci.yml/badge.svg)](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/ci.yml) [![Excavator](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/excavator.yml/badge.svg)](http\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Java",
+      "status": "candidate",
+      "text": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "status": "candidate",
+      "text": "[![update](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml/badge.svg)](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -262,11 +352,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ScoopInstaller/Scoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chawyehsu/dorado"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hermanjustnu/scoop-emulators"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Nirsoft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "littleli/scoop-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Awesome"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

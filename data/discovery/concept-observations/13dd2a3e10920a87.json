@@ -84,7 +84,7 @@
   "normalized_form": "snyk-scan",
   "observation_id": "13dd2a3e10920a87",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Snyk Scan",
   "source_context_snippet": "Snyk Scan",
   "source_file": ".github/workflows/sca-scan.yml",

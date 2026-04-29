@@ -88,6 +88,78 @@
       "source_repo": "octokit/openapi-webhooks",
       "status": "candidate-context",
       "text": "Update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Bucket of almost all of the 280+ apps from Nirsoft.net. Migrated from MCOfficer/scoop-nirsoft with permission."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "status": "candidate-context",
+      "text": "update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "base-repos/base",
+      "status": "candidate-context",
+      "text": "Base is the foundation for creating modular, unit testable and highly pluggable, server-side node.js applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "base-repos/base",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/app-permissions",
+      "status": "candidate-context",
+      "text": "machine-readable, always up-to-date GitHub App permissions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app-permissions",
+      "status": "candidate-context",
+      "text": "Update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate-context",
+      "text": "GitHub\u2019s GraphQL Schema with validation. Automatically updated."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate-context",
+      "text": "Update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/openapi",
+      "status": "candidate-context",
+      "text": "GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi",
+      "status": "candidate-context",
+      "text": "Update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dockur/windows",
+      "status": "candidate-context",
+      "text": "Windows inside a Docker container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dockur/windows",
+      "status": "candidate-context",
+      "text": "Update"
     }
   ],
   "candidate_glosses": [
@@ -130,6 +202,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "octokit/openapi-webhooks",
+      "status": "candidate",
+      "text": "Update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "status": "candidate",
+      "text": "update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "base-repos/base",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app-permissions",
+      "status": "candidate",
+      "text": "Update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/graphql-schema",
+      "status": "candidate",
+      "text": "Update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi",
+      "status": "candidate",
+      "text": "Update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dockur/windows",
       "status": "candidate",
       "text": "Update"
     }
@@ -217,11 +325,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/update.yml",
       "source_repo": "octokit/openapi-webhooks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "ScoopInstaller/Nirsoft"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "octokit/app-permissions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "octokit/graphql-schema"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "octokit/openapi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/hub.yml",
+      "source_repo": "dockur/windows"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

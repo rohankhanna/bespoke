@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Build GH Pages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fonttools/fontspector",
+      "status": "candidate-context",
+      "text": "Skrifa/Read-Fonts-based font QA tool (successor to fontbakery)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontspector",
+      "status": "candidate-context",
+      "text": "Build GH Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googlefonts/shaperglot",
+      "status": "candidate-context",
+      "text": "Test font files for language support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/shaperglot",
+      "status": "candidate-context",
+      "text": "Build GH Pages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fonttools/fontspector",
+      "status": "candidate",
+      "text": "Build GH Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/shaperglot",
+      "status": "candidate",
+      "text": "Build GH Pages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10329,
+      "status": "candidate",
+      "text": "abscissa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10329,
+      "status": "candidate",
+      "text": "acth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10329,
+      "status": "candidate",
+      "text": "androgen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10329,
+      "status": "candidate",
+      "text": "high"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10329,
+      "status": "candidate",
+      "text": "protein"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build GH Pages",
+  "concept_id": "build-gh-pages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "fonttools/fontspector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "googlefonts/shaperglot"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build GH Pages",
+      "sense_id": "build-gh-pages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

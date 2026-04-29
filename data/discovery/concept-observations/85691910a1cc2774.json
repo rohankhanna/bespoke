@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A High-performance cross-platform Video Processing Python framework powerpacked with unique trailblazing features :fire:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Needs More Info Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Needs More Info Workflow"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35434,
+      "status": "candidate",
+      "text": "details"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35047,
+      "status": "candidate",
+      "text": "alcohol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34507,
+      "status": "candidate",
+      "text": "batch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33648,
+      "status": "candidate",
+      "text": "must"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33648,
+      "status": "candidate",
+      "text": "shall"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Needs More Info Workflow",
+      "sense_id": "needs-more-info-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "needs-more-info-workflow",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "needs-more-info-workflow",
+  "observation_id": "85691910a1cc2774",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Needs More Info Workflow",
+  "source_context_snippet": "Needs More Info Workflow",
+  "source_file": ".github/workflows/need_info.yml",
+  "source_repo": "abhiTronix/vidgear",
+  "source_repo_description": "A High-performance cross-platform Video Processing Python framework powerpacked with unique trailblazing features :fire:"
+}

@@ -1,0 +1,138 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "hapostgres/pg_auto_failover",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "hapostgres/pg_auto_failover",
+      "target": "Run Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hapostgres/pg_auto_failover",
+      "target": "auto-failover",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hapostgres/pg_auto_failover",
+      "target": "high-availability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hapostgres/pg_auto_failover",
+      "target": "postgres",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hapostgres/pg_auto_failover",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hapostgres/pg_auto_failover",
+      "target": "postgresql-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:43:43.846032+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6446
+    },
+    {
+      "path": "Dockerfile",
+      "size": 5501
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 56
+    },
+    {
+      "path": ".github/workflows/run-tests.yml",
+      "size": 1780
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Postgres extension and service for automated failover and high-availability",
+    "fork": false,
+    "full_name": "hapostgres/pg_auto_failover",
+    "html_url": "https://github.com/hapostgres/pg_auto_failover",
+    "language": "C",
+    "pushed_at": "2025-11-17T13:01:54Z",
+    "stargazers_count": 1341,
+    "topics": [
+      "auto-failover",
+      "high-availability",
+      "postgres",
+      "postgresql",
+      "postgresql-extension"
+    ],
+    "updated_at": "2026-04-24T07:29:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Run Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "term": "Run Tests"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auto-failover"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-availability"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgres"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "[![Documentation Status](https://readthedocs.org/projects/pg-auto-failover/badge/?version=main)](https://pg-auto-failover.readthedocs.io/en/main/?badge=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql-extension"
+    }
+  ]
+}

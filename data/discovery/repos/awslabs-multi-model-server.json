@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/multi-model-server",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/multi-model-server",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/multi-model-server",
+      "target": "mxnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/multi-model-server",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/multi-model-server",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "awslabs/multi-model-server",
+      "target": "server",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:12.447406+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Multi Model Server is a tool for serving neural net models for inference",
+    "fork": false,
+    "full_name": "awslabs/multi-model-server",
+    "html_url": "https://github.com/awslabs/multi-model-server",
+    "language": "Java",
+    "pushed_at": "2024-05-20T19:29:13Z",
+    "stargazers_count": 1026,
+    "topics": [
+      "ai",
+      "deep-learning",
+      "inference",
+      "mxnet",
+      "neural-network",
+      "onnx",
+      "server"
+    ],
+    "updated_at": "2026-03-26T18:57:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Multi Model Server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Multi Model Server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "Multi Model Server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mxnet"
+    },
+    {
+      "context_snippet": "Multi Model Server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "Multi Model Server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "Multi Model Server",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server"
+    }
+  ]
+}

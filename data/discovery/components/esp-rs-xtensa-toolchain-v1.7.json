@@ -1,0 +1,17 @@
+{
+  "component": "esp-rs/xtensa-toolchain@v1.7",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_cargo.yml",
+      "source_repo": "esp-rs/esp-idf-template"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_cmake.yml",
+      "source_repo": "esp-rs/esp-idf-template"
+    }
+  ]
+}

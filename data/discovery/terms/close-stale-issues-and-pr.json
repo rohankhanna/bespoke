@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/bot.yml",
       "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/bot.yml",
+      "source_repo": "chawyehsu/nvm-windows"
     }
   ],
   "term": "Close stale issues and PR"

@@ -157,6 +157,18 @@
       "source_repo": "tree-sitter/tree-sitter-julia",
       "status": "candidate-context",
       "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-julia/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-vscode/julia-vscode",
+      "status": "candidate-context",
+      "text": "Julia extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/julia-vscode",
+      "status": "candidate-context",
+      "text": "[![Build and Test](https://github.com/julia-vscode/julia-vscode/actions/workflows/main.yml/badge.svg)](https://github.com/julia-vscode/julia-vscode/actions/workflows/main.yml)"
     }
   ],
   "candidate_glosses": [
@@ -237,6 +249,12 @@
       "source_repo": "tree-sitter/tree-sitter-julia",
       "status": "candidate",
       "text": "[![CI][ci]](https://github.com/tree-sitter/tree-sitter-julia/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/julia-vscode",
+      "status": "candidate",
+      "text": "[![Build and Test](https://github.com/julia-vscode/julia-vscode/actions/workflows/main.yml/badge.svg)](https://github.com/julia-vscode/julia-vscode/actions/workflows/main.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +382,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "tree-sitter/tree-sitter-julia"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "julia-vscode/julia-vscode"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

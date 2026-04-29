@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "pr-bot"
+    "pr-bot",
+    "PR Bot"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "devcontainers/ci",
       "status": "candidate-context",
       "text": "pr-bot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "status": "candidate-context",
+      "text": "Cross-Platform Level Editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "status": "candidate-context",
+      "text": "PR Bot"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "devcontainers/ci",
       "status": "candidate",
       "text": "pr-bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "status": "candidate",
+      "text": "PR Bot"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10459,
+      "status": "candidate",
+      "text": "ben"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10459,
+      "status": "candidate",
+      "text": "bit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10459,
+      "status": "candidate",
+      "text": "key"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10459,
+      "status": "candidate",
+      "text": "keying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10459,
+      "status": "candidate",
+      "text": "keys"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "pr-bot",
   "concept_id": "pr-bot",
@@ -40,11 +95,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/pr-bot.yml",
       "source_repo": "devcontainers/ci"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr-autosquash.yml",
+      "source_repo": "TrenchBroom/TrenchBroom"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

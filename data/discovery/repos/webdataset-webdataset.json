@@ -20,20 +20,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "webdataset/webdataset",
-      "target": "webdataset/webdataset.jl",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "webdataset/webdataset",
-      "target": "webdataset/tarp",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/claude.yml",
       "source_repo": "webdataset/webdataset",
@@ -90,7 +76,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:58:45.265519+00:00",
+  "fetched_at": "2026-04-29T21:48:52.837274+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -115,7 +101,7 @@
     "html_url": "https://github.com/webdataset/webdataset",
     "language": "Python",
     "pushed_at": "2026-02-09T14:48:08Z",
-    "stargazers_count": 3063,
+    "stargazers_count": 3070,
     "topics": [
       "data-augmentation",
       "deep-learning",
@@ -123,22 +109,12 @@
       "webdataset",
       "webdataset-format"
     ],
-    "updated_at": "2026-04-23T04:24:38Z"
+    "updated_at": "2026-04-29T05:12:25Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "tmbdev/webdataset",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "webdataset/tarp",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "webdataset/webdataset.jl",
       "source_file": "README.md"
     }
   ],

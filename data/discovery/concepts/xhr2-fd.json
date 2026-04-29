@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "xhr2-fd"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "form-data/form-data",
+      "status": "candidate-context",
+      "text": "A module to create readable `\"multipart/form-data\"` streams.  Can be used to submit forms and file uploads to other web applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "form-data/form-data",
+      "status": "candidate-context",
+      "text": "A library to create readable ```\"multipart/form-data\"``` streams. Can be used to submit forms and file uploads to other web applications."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "form-data/form-data",
+      "status": "candidate",
+      "text": "A library to create readable ```\"multipart/form-data\"``` streams. Can be used to submit forms and file uploads to other web applications."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "xhr2-fd",
+  "concept_id": "xhr2-fd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "form-data/form-data"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "xhr2-fd",
+      "sense_id": "xhr2-fd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

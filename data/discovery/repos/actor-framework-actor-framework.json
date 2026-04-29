@@ -1,0 +1,302 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-builds.yml"
+    },
+    {
+      "component": "egor-tensin/vs-shell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-builds.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-builds.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-builds.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-checks.yml"
+    },
+    {
+      "component": "crate-ci/typos@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-checks.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builds.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builds.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-builds.yml",
+      "source_repo": "actor-framework/actor-framework",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-builds.yml",
+      "source_repo": "actor-framework/actor-framework",
+      "target": "egor-tensin/vs-shell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-builds.yml",
+      "source_repo": "actor-framework/actor-framework",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-builds.yml",
+      "source_repo": "actor-framework/actor-framework",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/debug-builds.yml",
+      "source_repo": "actor-framework/actor-framework",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debug-builds.yml",
+      "source_repo": "actor-framework/actor-framework",
+      "target": "debug-builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-checks.yml",
+      "source_repo": "actor-framework/actor-framework",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-checks.yml",
+      "source_repo": "actor-framework/actor-framework",
+      "target": "crate-ci/typos@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/quality-checks.yml",
+      "source_repo": "actor-framework/actor-framework",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality-checks.yml",
+      "source_repo": "actor-framework/actor-framework",
+      "target": "quality-checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-builds.yml",
+      "source_repo": "actor-framework/actor-framework",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-builds.yml",
+      "source_repo": "actor-framework/actor-framework",
+      "target": "release-builds",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actor-framework/actor-framework",
+      "target": "actor-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actor-framework/actor-framework",
+      "target": "actors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actor-framework/actor-framework",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "actor-framework/actor-framework",
+      "target": "pattern-matching",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:55:01.713219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6696
+    },
+    {
+      "path": ".github/workflows/debug-builds.yml",
+      "size": 1784
+    },
+    {
+      "path": ".github/workflows/quality-checks.yml",
+      "size": 3556
+    },
+    {
+      "path": ".github/workflows/release-builds.yml",
+      "size": 2619
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An Open Source Implementation of the Actor Model in C++",
+    "fork": false,
+    "full_name": "actor-framework/actor-framework",
+    "html_url": "https://github.com/actor-framework/actor-framework",
+    "language": "C++",
+    "pushed_at": "2026-04-29T20:19:20Z",
+    "stargazers_count": 3413,
+    "topics": [
+      "actor-model",
+      "actors",
+      "async",
+      "caf",
+      "pattern-matching"
+    ],
+    "updated_at": "2026-04-27T01:19:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "debug-builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/debug-builds.yml",
+      "term": "debug-builds"
+    },
+    {
+      "context_snippet": "quality-checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/quality-checks.yml",
+      "term": "quality-checks"
+    },
+    {
+      "context_snippet": "release-builds",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-builds.yml",
+      "term": "release-builds"
+    },
+    {
+      "context_snippet": "[![Gitter][gitter-badge]](https://gitter.im/actor-framework/chat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actor-model"
+    },
+    {
+      "context_snippet": "[![Gitter][gitter-badge]](https://gitter.im/actor-framework/chat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actors"
+    },
+    {
+      "context_snippet": "[![Gitter][gitter-badge]](https://gitter.im/actor-framework/chat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "[![Gitter][gitter-badge]](https://gitter.im/actor-framework/chat)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pattern-matching"
+    }
+  ]
+}

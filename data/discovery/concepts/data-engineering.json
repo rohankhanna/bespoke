@@ -43,6 +43,18 @@
       "source_repo": "apache/superset",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unit-mesh/unit-gen",
+      "status": "candidate-context",
+      "text": "UnitGen \u662f\u4e00\u4e2a\u7528\u4e8e\u751f\u6210\u5fae\u8c03\u4ee3\u7801\u7684\u6570\u636e\u6846\u67b6 \u2014\u2014 \u76f4\u63a5\u4ece\u4f60\u7684\u4ee3\u7801\u5e93\u4e2d\u751f\u6210\u5fae\u8c03\u6570\u636e\uff1a\u4ee3\u7801\u8865\u5168\u3001\u6d4b\u8bd5\u751f\u6210\u3001\u6587\u6863\u751f\u6210\u7b49\u3002UnitGen is a code fine-tuning data framework that generates data from your existing codebase."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unit-mesh/unit-gen",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "apache/superset",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unit-mesh/unit-gen",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "apache/superset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "unit-mesh/unit-gen"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

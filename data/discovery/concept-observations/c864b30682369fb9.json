@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u57fa\u4e8e\u65f7\u89c6\u7814\u7a76\u9662\u9886\u5148\u7684\u6df1\u5ea6\u5b66\u4e60\u7b97\u6cd5\uff0c\u63d0\u4f9b\u6ee1\u8db3\u591a\u4e1a\u52a1\u573a\u666f\u7684\u9884\u8bad\u7ec3\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u672c\u4ed3\u5e93\u5305\u542b\u4e86[MegEngine\u6a21\u578b\u4e2d\u5fc3](https://megengine.org.cn/model-hub/)\u4e2d\u7684\u6a21\u578b\u914d\u7f6e\u6587\u4ef6\uff0c\u8fd9\u4e9b\u6a21\u578b\u90fd\u53ef\u4ee5\u7528`megengine.hub`\u76f4\u63a5\u5bfc\u5165\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u672c\u4ed3\u5e93\u5305\u542b\u4e86[MegEngine\u6a21\u578b\u4e2d\u5fc3](https://megengine.org.cn/model-hub/)\u4e2d\u7684\u6a21\u578b\u914d\u7f6e\u6587\u4ef6\uff0c\u8fd9\u4e9b\u6a21\u578b\u90fd\u53ef\u4ee5\u7528`megengine.hub`\u76f4\u63a5\u5bfc\u5165\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975374,
+      "status": "candidate",
+      "text": "fashion model"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39972682,
+      "status": "candidate",
+      "text": "mannequin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968860,
+      "status": "candidate",
+      "text": "manikin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39962968,
+      "status": "candidate",
+      "text": "mannikin"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951402,
+      "status": "candidate",
+      "text": "posture"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "model",
+      "sense_id": "model#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 36039,
+      "status": "candidate",
+      "text": "framework"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29035,
+      "status": "candidate",
+      "text": "exemplar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 27039,
+      "status": "candidate",
+      "text": "pose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23045,
+      "status": "candidate",
+      "text": "posture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 23034,
+      "status": "candidate",
+      "text": "exemplary"
+    }
+  ],
+  "concept_id": "model",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "model",
+  "observation_id": "c864b30682369fb9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "model",
+  "source_context_snippet": "\u672c\u4ed3\u5e93\u5305\u542b\u4e86[MegEngine\u6a21\u578b\u4e2d\u5fc3](https://megengine.org.cn/model-hub/)\u4e2d\u7684\u6a21\u578b\u914d\u7f6e\u6587\u4ef6\uff0c\u8fd9\u4e9b\u6a21\u578b\u90fd\u53ef\u4ee5\u7528`megengine.hub`\u76f4\u63a5\u5bfc\u5165\u3002",
+  "source_file": null,
+  "source_repo": "MegEngine/Hub",
+  "source_repo_description": "\u57fa\u4e8e\u65f7\u89c6\u7814\u7a76\u9662\u9886\u5148\u7684\u6df1\u5ea6\u5b66\u4e60\u7b97\u6cd5\uff0c\u63d0\u4f9b\u6ee1\u8db3\u591a\u4e1a\u52a1\u573a\u666f\u7684\u9884\u8bad\u7ec3\u6a21\u578b"
+}

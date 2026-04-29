@@ -2,13 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "Alibaba-NLP/DeepResearch",
-      "target": "bytedance/sandboxfusion",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "Alibaba-NLP/DeepResearch",
@@ -58,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:35:17.507070+00:00",
+  "fetched_at": "2026-04-29T20:54:32.230458+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -79,7 +72,7 @@
     "html_url": "https://github.com/Alibaba-NLP/DeepResearch",
     "language": "Python",
     "pushed_at": "2026-02-27T13:12:11Z",
-    "stargazers_count": 18725,
+    "stargazers_count": 18771,
     "topics": [
       "agent",
       "alibaba",
@@ -91,15 +84,9 @@
       "tongyi",
       "web-agent"
     ],
-    "updated_at": "2026-04-23T05:47:58Z"
+    "updated_at": "2026-04-29T15:02:02Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "bytedance/sandboxfusion",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "<div align=\"center\">",

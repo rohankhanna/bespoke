@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "tinymist::build::vscode::main"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Myriad-Dreamin/tinymist",
+      "status": "candidate-context",
+      "text": "Tinymist [\u02c8ta\u026ani m\u026ast] is an integrated language service for Typst [ta\u026apst]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/tinymist",
+      "status": "candidate-context",
+      "text": "tinymist::build::vscode::main"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Myriad-Dreamin/tinymist",
+      "status": "candidate",
+      "text": "tinymist::build::vscode::main"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998667,
+      "status": "candidate",
+      "text": "come first"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9998328,
+      "status": "candidate",
+      "text": "number one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997785,
+      "status": "candidate",
+      "text": "best bet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9997341,
+      "status": "candidate",
+      "text": "all told"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9996798,
+      "status": "candidate",
+      "text": "grand total"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "tinymist::build::vscode::main",
+  "concept_id": "tinymist-build-vscode-main",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build-vscode-main.yml",
+      "source_repo": "Myriad-Dreamin/tinymist"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "tinymist::build::vscode::main",
+      "sense_id": "tinymist-build-vscode-main#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

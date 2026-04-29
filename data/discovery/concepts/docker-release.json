@@ -62,6 +62,12 @@
       "source_repo": "CVEProject/cve-services",
       "status": "candidate-context",
       "text": "\"Docker release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aider-AI/aider",
+      "status": "candidate-context",
+      "text": "Docker Release"
     }
   ],
   "candidate_glosses": [
@@ -88,6 +94,12 @@
       "source_repo": "CVEProject/cve-services",
       "status": "candidate",
       "text": "\"Docker release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aider-AI/aider",
+      "status": "candidate",
+      "text": "Docker Release"
     }
   ],
   "candidate_related_terms": [
@@ -167,11 +179,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "CVEProject/cve-services"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docker-release.yml",
+      "source_repo": "Aider-AI/aider"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

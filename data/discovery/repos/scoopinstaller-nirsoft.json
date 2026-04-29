@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "target": "ad-m/github-push-action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "target": "update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "target": "nirsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "target": "scoop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "target": "scoop-apps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "target": "scoop-bucket",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:54:04.111701+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 759
+    },
+    {
+      "path": "requirements.txt",
+      "size": 46
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 2853
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udce6 Bucket of almost all of the 280+ apps from Nirsoft.net. Migrated from MCOfficer/scoop-nirsoft with permission.",
+    "fork": false,
+    "full_name": "ScoopInstaller/Nirsoft",
+    "html_url": "https://github.com/ScoopInstaller/Nirsoft",
+    "language": "Python",
+    "pushed_at": "2026-04-28T07:18:02Z",
+    "stargazers_count": 159,
+    "topics": [
+      "nirsoft",
+      "scoop",
+      "scoop-apps",
+      "scoop-bucket"
+    ],
+    "updated_at": "2026-04-28T07:18:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "update"
+    },
+    {
+      "context_snippet": "[![update](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml/badge.svg)](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nirsoft"
+    },
+    {
+      "context_snippet": "[![update](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml/badge.svg)](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop"
+    },
+    {
+      "context_snippet": "[![update](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml/badge.svg)](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop-apps"
+    },
+    {
+      "context_snippet": "[![update](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml/badge.svg)](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop-bucket"
+    }
+  ]
+}

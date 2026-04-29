@@ -1,0 +1,37 @@
+{
+  "component": "gradle/actions/setup-gradle@dbbdc275be76ac10734476cc723d82dfe7ec6eda",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/platform-api-tests.yml",
+      "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-preview.yml",
+      "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot-and-kdoc.yml",
+      "source_repo": "apollographql/apollo-kotlin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "apollographql/apollo-kotlin"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ultrafast de novo assembly for long noisy reads (though having no consensus step)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "```sh"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "```sh"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "denovo-assembly",
+      "sense_id": "denovo-assembly#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "denovo-assembly",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "denovo-assembly",
+  "observation_id": "c7d79e3beb12c951",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "denovo-assembly",
+  "source_context_snippet": "```sh",
+  "source_file": null,
+  "source_repo": "lh3/miniasm",
+  "source_repo_description": "Ultrafast de novo assembly for long noisy reads (though having no consensus step)"
+}

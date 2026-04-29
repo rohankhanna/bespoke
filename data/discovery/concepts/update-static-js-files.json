@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update Static JS Files"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fossasia/visdom",
+      "status": "candidate-context",
+      "text": "A flexible tool for creating, organizing, and sharing visualizations of live, rich data. Supports Torch and Numpy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fossasia/visdom",
+      "status": "candidate-context",
+      "text": "Update Static JS Files"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fossasia/visdom",
+      "status": "candidate",
+      "text": "Update Static JS Files"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26158,
+      "status": "candidate",
+      "text": "updating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16918,
+      "status": "candidate",
+      "text": "track"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16809,
+      "status": "candidate",
+      "text": "anchor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16809,
+      "status": "candidate",
+      "text": "anchoring"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16809,
+      "status": "candidate",
+      "text": "bank rate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update Static JS Files",
+  "concept_id": "update-static-js-files",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update-js-build-files.yml",
+      "source_repo": "fossasia/visdom"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update Static JS Files",
+      "sense_id": "update-static-js-files#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,7 @@
 {
   "component": "stefanzweifel/git-auto-commit-action@v5",
   "first_seen_at": "2026-04-18T03:54:46.759203+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -57,6 +57,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/helm_test.yml",
       "source_repo": "celo-org/charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/manual-run-force.yml",
+      "source_repo": "fontsource/font-files"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "HKUDS/RAG-Anything"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update_pr.yml",
+      "source_repo": "googlefonts/glyphsets"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "notofonts/notobuilder"
     }
   ]
 }

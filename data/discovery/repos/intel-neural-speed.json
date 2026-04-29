@@ -1,0 +1,576 @@
+{
+  "components": [
+    {
+      "component": "intel-innersource/frameworks.ai.infrastructure.code-scan-tools/.github/workflows/Scanner_Bdba.yml@one-ci-cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Scaner_BDBA.yml"
+    },
+    {
+      "component": "intel-innersource/frameworks.ai.infrastructure.code-scan-tools/.github/workflows/Scanner_Trivy.yml@one-ci-cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Scaner_Trivil.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp-graph-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp-graph-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp-graph-test.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp-graph-test.yml"
+    },
+    {
+      "component": "dawidd6/action-download-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp-graph-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp-graph-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_scan.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_scan.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trellix.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trellix.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-bestla.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-bestla.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-llmruntime.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-llmruntime.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "intel/neural-speed",
+      "target": "ggerganov/llama.cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Scaner_BDBA.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "intel-innersource/frameworks.ai.infrastructure.code-scan-tools/.github/workflows/Scanner_Bdba.yml@one-ci-cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Scaner_BDBA.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "Scanner BDBA",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Scaner_Trivil.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "intel-innersource/frameworks.ai.infrastructure.code-scan-tools/.github/workflows/Scanner_Trivy.yml@one-ci-cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Scaner_Trivil.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "Trivy Scan for Containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp-graph-test.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp-graph-test.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp-graph-test.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp-graph-test.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "dawidd6/action-download-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp-graph-test.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "CPP Graph Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_scan.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format_scan.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_scan.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "Format Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trellix.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trellix.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trellix.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "Trellix Command Line Scanner",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-bestla.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-bestla.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test-bestla.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "Bestla Unit Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-llmruntime.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-test-llmruntime.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-test.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-test.yml",
+      "source_repo": "intel/neural-speed",
+      "target": "Windows Binary Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "gaudi2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "int1",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "int2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "int3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "int4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "int5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "int6",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "int7",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "int8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "llamacpp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "llm-fine-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "low-bit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "mxformat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/neural-speed",
+      "target": "sparsity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:50:30.875791+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7646
+    },
+    {
+      "path": "requirements.txt",
+      "size": 241
+    },
+    {
+      "path": ".github/workflows/Scaner_BDBA.yml",
+      "size": 469
+    },
+    {
+      "path": ".github/workflows/Scaner_Trivil.yml",
+      "size": 344
+    },
+    {
+      "path": ".github/workflows/cpp-graph-test.yml",
+      "size": 5769
+    },
+    {
+      "path": ".github/workflows/format_scan.yml",
+      "size": 2803
+    },
+    {
+      "path": ".github/workflows/trellix.yml",
+      "size": 672
+    },
+    {
+      "path": ".github/workflows/unit-test-bestla.yml",
+      "size": 2977
+    },
+    {
+      "path": ".github/workflows/unit-test-llmruntime.yml",
+      "size": 3300
+    },
+    {
+      "path": ".github/workflows/windows-test.yml",
+      "size": 1306
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "An innovative library for efficient LLM inference via low-bit quantization",
+    "fork": false,
+    "full_name": "intel/neural-speed",
+    "html_url": "https://github.com/intel/neural-speed",
+    "language": "C++",
+    "pushed_at": "2024-08-30T22:53:13Z",
+    "stargazers_count": 352,
+    "topics": [
+      "cpu",
+      "fp4",
+      "fp8",
+      "gaudi2",
+      "gpu",
+      "int1",
+      "int2",
+      "int3",
+      "int4",
+      "int5",
+      "int6",
+      "int7",
+      "int8",
+      "llamacpp",
+      "llm-fine-tuning",
+      "llm-inference",
+      "low-bit",
+      "mxformat",
+      "nf4",
+      "sparsity"
+    ],
+    "updated_at": "2026-04-13T05:21:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ggerganov/llama.cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Scanner BDBA",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Scaner_BDBA.yml",
+      "term": "Scanner BDBA"
+    },
+    {
+      "context_snippet": "Trivy Scan for Containers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Scaner_Trivil.yml",
+      "term": "Trivy Scan for Containers"
+    },
+    {
+      "context_snippet": "CPP Graph Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp-graph-test.yml",
+      "term": "CPP Graph Test"
+    },
+    {
+      "context_snippet": "Format Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format_scan.yml",
+      "term": "Format Scan"
+    },
+    {
+      "context_snippet": "Trellix Command Line Scanner",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trellix.yml",
+      "term": "Trellix Command Line Scanner"
+    },
+    {
+      "context_snippet": "Bestla Unit Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-test-bestla.yml",
+      "term": "Bestla Unit Test"
+    },
+    {
+      "context_snippet": "Windows Binary Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-test.yml",
+      "term": "Windows Binary Test"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gaudi2"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int1"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int2"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int3"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int4"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int5"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int6"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int7"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "int8"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llamacpp"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-fine-tuning"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-bit"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mxformat"
+    },
+    {
+      "context_snippet": "This project will no longer be maintained by Intel.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sparsity"
+    }
+  ]
+}

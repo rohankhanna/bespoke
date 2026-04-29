@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvpro-samples/vk_mini_samples",
+      "target": "nvpro-samples/nvpro_core2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nvpro-samples/vk_mini_samples",
+      "target": "nvpro-samples/vk_raytracing_tutorial_khr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:40.545143+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13331
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of Vulkan samples",
+    "fork": false,
+    "full_name": "nvpro-samples/vk_mini_samples",
+    "html_url": "https://github.com/nvpro-samples/vk_mini_samples",
+    "language": "Python",
+    "pushed_at": "2026-04-09T14:00:12Z",
+    "stargazers_count": 339,
+    "topics": [],
+    "updated_at": "2026-04-26T03:06:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvpro-samples/nvpro_core2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvpro-samples/vk_raytracing_tutorial_khr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

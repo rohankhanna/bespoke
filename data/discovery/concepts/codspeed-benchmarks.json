@@ -2,7 +2,8 @@
   "aliases": [
     "CodSpeed Benchmarks",
     "codspeed-benchmarks",
-    "Codspeed Benchmarks"
+    "Codspeed Benchmarks",
+    "CodSpeed benchmarks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -81,6 +82,18 @@
       "source_repo": "FuelLabs/sway",
       "status": "candidate-context",
       "text": "Codspeed Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate-context",
+      "text": "CommonMark + GFM compatible Markdown parser and renderer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate-context",
+      "text": "CodSpeed benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -119,6 +132,12 @@
       "source_repo": "FuelLabs/sway",
       "status": "candidate",
       "text": "Codspeed Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate",
+      "text": "CodSpeed benchmarks"
     }
   ],
   "candidate_related_terms": [
@@ -198,11 +217,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/benchmark.yml",
       "source_repo": "FuelLabs/sway"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codspeed.yml",
+      "source_repo": "kivikakk/comrak"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

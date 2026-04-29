@@ -91,6 +91,30 @@
       "source_repo": "ray-project/ray-llm",
       "status": "candidate-context",
       "text": "This repository has been archived and is no longer maintained. We have created [`ray.serve.llm`](https://docs.ray.io/en/latest/serve/llm/overview.html) and [`ray.data.llm`](https://docs.ray.io/en/latest/data/working-with-llms.html) APIs to simplify deployment of LLMs on top of [\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpcaitech/SwiftInfer",
+      "status": "candidate-context",
+      "text": "Efficient AI Inference & Serving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/SwiftInfer",
+      "status": "candidate-context",
+      "text": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/rtp-llm",
+      "status": "candidate-context",
+      "text": "RTP-LLM: Alibaba's high-performance LLM inference engine for diverse applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/rtp-llm",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"rtpllmtop\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "ray-project/ray-llm",
       "status": "candidate",
       "text": "This repository has been archived and is no longer maintained. We have created [`ray.serve.llm`](https://docs.ray.io/en/latest/serve/llm/overview.html) and [`ray.data.llm`](https://docs.ray.io/en/latest/data/working-with-llms.html) APIs to simplify deployment of LLMs on top of [\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/SwiftInfer",
+      "status": "candidate",
+      "text": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/rtp-llm",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"rtpllmtop\">"
     }
   ],
   "candidate_related_terms": [],
@@ -190,11 +226,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "ray-project/ray-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hpcaitech/SwiftInfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alibaba/rtp-llm"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

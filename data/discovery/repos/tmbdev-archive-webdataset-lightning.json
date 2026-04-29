@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:45:04.238241+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1267
+    },
+    {
+      "path": "Dockerfile",
+      "size": 788
+    },
+    {
+      "path": "requirements.txt",
+      "size": 348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A small demonstration of using WebDataset with ImageNet and PyTorch Lightning",
+    "fork": false,
+    "full_name": "tmbdev-archive/webdataset-lightning",
+    "html_url": "https://github.com/tmbdev-archive/webdataset-lightning",
+    "language": "Python",
+    "pushed_at": "2023-12-19T09:46:55Z",
+    "stargazers_count": 76,
+    "topics": [],
+    "updated_at": "2026-01-09T06:40:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

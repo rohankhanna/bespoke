@@ -55,6 +55,18 @@
       "source_repo": "TaoRuijie/TalkNet-ASD",
       "status": "candidate-context",
       "text": "This repository contains the code for our ACM MM 2021 paper (oral), TalkNet, an active speaker detection model to detect 'whether the face in the screen is speaking or not?'. [[Paper](https://arxiv.org/pdf/2107.06592.pdf)] [[Video_English](https://youtu.be/C6bpAgI9zxE)] [[Video_\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FFmpeg/FFmpeg",
+      "status": "candidate-context",
+      "text": "Mirror of https://git.ffmpeg.org/ffmpeg.git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FFmpeg/FFmpeg",
+      "status": "candidate-context",
+      "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "TaoRuijie/TalkNet-ASD",
       "status": "candidate",
       "text": "This repository contains the code for our ACM MM 2021 paper (oral), TalkNet, an active speaker detection model to detect 'whether the face in the screen is speaking or not?'. [[Paper](https://arxiv.org/pdf/2107.06592.pdf)] [[Video_English](https://youtu.be/C6bpAgI9zxE)] [[Video_\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FFmpeg/FFmpeg",
+      "status": "candidate",
+      "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
     }
   ],
   "candidate_related_terms": [
@@ -156,11 +174,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "TaoRuijie/TalkNet-ASD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FFmpeg/FFmpeg"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

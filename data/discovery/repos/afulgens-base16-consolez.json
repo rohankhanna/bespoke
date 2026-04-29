@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFulgens/base16-consolez",
+      "target": "wuqs-net/base16-windows-terminal",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFulgens/base16-consolez",
+      "target": "cbucher/console",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AFulgens/base16-consolez",
+      "target": "obahareth/base16-builder-ruby",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:55:58.525572+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Base16 for ConsoleZ",
+    "fork": false,
+    "full_name": "AFulgens/base16-consolez",
+    "html_url": "https://github.com/AFulgens/base16-consolez",
+    "language": "Mustache",
+    "pushed_at": "2024-01-02T12:40:05Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-01-02T12:40:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cbucher/console",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "obahareth/base16-builder-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wuqs-net/base16-windows-terminal",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "Amalgamation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "status": "candidate-context",
+      "text": "A C++ library for interacting with JSON."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "status": "candidate-context",
+      "text": "Amalgamation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "status": "candidate",
+      "text": "Amalgamation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40025038,
+      "status": "candidate",
+      "text": "merger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40023656,
+      "status": "candidate",
+      "text": "uniting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025195,
+      "status": "candidate",
+      "text": "melding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025144,
+      "status": "candidate",
+      "text": "merging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025079,
+      "status": "candidate",
+      "text": "merged"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3061,
+      "status": "candidate",
+      "text": "merger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2021,
+      "status": "candidate",
+      "text": "uniting"
+    }
+  ],
+  "canonical_name": "Amalgamation",
+  "concept_id": "amalgamation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/amalgamate.yml",
+      "source_repo": "open-source-parsers/jsoncpp"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Amalgamation",
+      "sense_id": "amalgamation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

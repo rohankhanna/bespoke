@@ -1,0 +1,109 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexander-yakushev/compliment",
+      "target": "tpope/vim-fireplace",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexander-yakushev/compliment",
+      "target": "bhauman/rebel-readline",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alexander-yakushev/compliment",
+      "target": "expez/company-quickhelp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexander-yakushev/compliment",
+      "target": "autocomplete",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexander-yakushev/compliment",
+      "target": "cider",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "alexander-yakushev/compliment",
+      "target": "clojure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:40:36.356070+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5782
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clojure completion library that you deserve",
+    "fork": false,
+    "full_name": "alexander-yakushev/compliment",
+    "html_url": "https://github.com/alexander-yakushev/compliment",
+    "language": "Clojure",
+    "pushed_at": "2026-04-23T22:22:06Z",
+    "stargazers_count": 360,
+    "topics": [
+      "autocomplete",
+      "cider",
+      "clojure"
+    ],
+    "updated_at": "2026-04-23T22:05:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bhauman/rebel-readline",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "expez/company-quickhelp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tpope/vim-fireplace",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Compliment is a fast and smart completion library for Clojure. It can complete",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autocomplete"
+    },
+    {
+      "context_snippet": "Compliment is a fast and smart completion library for Clojure. It can complete",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cider"
+    },
+    {
+      "context_snippet": "Compliment is a fast and smart completion library for Clojure. It can complete",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    }
+  ]
+}

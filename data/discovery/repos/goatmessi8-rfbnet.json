@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GOATmessi8/RFBNet",
+      "target": "daijifeng001/r-fcn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GOATmessi8/RFBNet",
+      "target": "kaiminghe/deep-residual-networks",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GOATmessi8/RFBNet",
+      "target": "hakuyume/chainer-ssd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GOATmessi8/RFBNet",
+      "target": "rbgirshick/py-faster-rcnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GOATmessi8/RFBNet",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GOATmessi8/RFBNet",
+      "target": "mobilenet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GOATmessi8/RFBNet",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GOATmessi8/RFBNet",
+      "target": "rfbnet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:44:39.302838+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7639
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Receptive Field Block Net for Accurate and Fast Object Detection, ECCV 2018",
+    "fork": false,
+    "full_name": "GOATmessi8/RFBNet",
+    "html_url": "https://github.com/GOATmessi8/RFBNet",
+    "language": "Python",
+    "pushed_at": "2021-11-02T18:19:57Z",
+    "stargazers_count": 1421,
+    "topics": [
+      "detection",
+      "mobilenet",
+      "pytorch",
+      "rfbnet"
+    ],
+    "updated_at": "2026-04-21T14:28:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "daijifeng001/r-fcn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hakuyume/chainer-ssd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaiminghe/deep-residual-networks",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rbgirshick/py-faster-rcnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "By Songtao Liu, Di Huang, Yunhong Wang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "By Songtao Liu, Di Huang, Yunhong Wang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenet"
+    },
+    {
+      "context_snippet": "By Songtao Liu, Di Huang, Yunhong Wang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "By Songtao Liu, Di Huang, Yunhong Wang",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rfbnet"
+    }
+  ]
+}

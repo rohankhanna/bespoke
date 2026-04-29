@@ -1,0 +1,70 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haya14busa/is.vim",
+      "target": "osyo-manga/vim-anzu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haya14busa/is.vim",
+      "target": "haya14busa/vim-asterisk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haya14busa/is.vim",
+      "target": "vim-plugins",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:56:41.693860+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1745
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "incremental search improved - successor of incsearch.vim",
+    "fork": false,
+    "full_name": "haya14busa/is.vim",
+    "html_url": "https://github.com/haya14busa/is.vim",
+    "language": "Vim script",
+    "pushed_at": "2023-11-13T08:33:06Z",
+    "stargazers_count": 259,
+    "topics": [
+      "vim",
+      "vim-plugins"
+    ],
+    "updated_at": "2026-03-12T18:46:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haya14busa/vim-asterisk",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "osyo-manga/vim-anzu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/haya14busa/is.vim.svg?branch=master)](https://travis-ci.org/haya14busa/is.vim)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugins"
+    }
+  ]
+}

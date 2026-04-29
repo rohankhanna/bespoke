@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "SCA"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate-context",
+      "text": "A Middleware for Go Programming Language to check for JWTs on HTTP requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate-context",
+      "text": "SCA"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate",
+      "text": "SCA"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29919991,
+      "status": "candidate",
+      "text": "adc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29916863,
+      "status": "candidate",
+      "text": "csa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29914189,
+      "status": "candidate",
+      "text": "lsc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29911297,
+      "status": "candidate",
+      "text": "acs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29910884,
+      "status": "candidate",
+      "text": "acc"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "SCA",
+  "concept_id": "sca",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/sca_scan.yml",
+      "source_repo": "auth0/go-jwt-middleware"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SCA",
+      "sense_id": "sca#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

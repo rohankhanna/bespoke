@@ -1,0 +1,12 @@
+{
+  "component": "lewagon/wait-on-check-action@3603e826ee561ea102b58accb5ea55a1a7482343",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto-merge-sync.yml",
+      "source_repo": "Skyvern-AI/skyvern"
+    }
+  ]
+}

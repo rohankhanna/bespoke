@@ -115,6 +115,30 @@
       "source_repo": "blepping/comfyui_overly_complicated_sampling",
       "status": "candidate-context",
       "text": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blepping/ComfyUI-sonar",
+      "status": "candidate-context",
+      "text": "Somewhat janky implementation of Sonar Sampling (momentum based sampling) for ComfyUI along with an assortment of advanced noise tools (schedule noise types, composite and a lot more!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/ComfyUI-sonar",
+      "status": "candidate-context",
+      "text": "A janky implementation of Sonar sampling (momentum-based sampling) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) as well as an assortment of advanced noise tools."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +195,18 @@
       "source_repo": "blepping/comfyui_overly_complicated_sampling",
       "status": "candidate",
       "text": "Experimental and mathematically unsound (but fun!) sampling for [ComfyUI](https://github.com/comfyanonymous/ComfyUI)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/ComfyUI-sonar",
+      "status": "candidate",
+      "text": "A janky implementation of Sonar sampling (momentum-based sampling) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) as well as an assortment of advanced noise tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
     }
   ],
   "candidate_related_terms": [],
@@ -262,11 +298,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "blepping/comfyui_overly_complicated_sampling"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "blepping/ComfyUI-sonar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

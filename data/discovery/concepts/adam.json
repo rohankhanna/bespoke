@@ -1,0 +1,146 @@
+{
+  "aliases": [
+    "adam"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LiyuanLucasLiu/RAdam",
+      "status": "candidate-context",
+      "text": "On the Variance of the Adaptive Learning Rate and Beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiyuanLucasLiu/RAdam",
+      "status": "candidate-context",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CyberZHG/keras-radam",
+      "status": "candidate-context",
+      "text": "RAdam implemented in Keras & TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyberZHG/keras-radam",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/pypi/v/keras-rectified-adam.svg)](https://pypi.org/project/keras-rectified-adam/)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LiyuanLucasLiu/RAdam",
+      "status": "candidate",
+      "text": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyberZHG/keras-radam",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/pypi/v/keras-rectified-adam.svg)](https://pypi.org/project/keras-rectified-adam/)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39872479,
+      "status": "candidate",
+      "text": "ecstasy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39650007,
+      "status": "candidate",
+      "text": "mdma"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39649157,
+      "status": "candidate",
+      "text": "methylenedioxymethamphetamine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29814815,
+      "status": "candidate",
+      "text": "sima"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29341340,
+      "status": "candidate",
+      "text": "babs"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48053,
+      "status": "candidate",
+      "text": "ecstasy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3019,
+      "status": "candidate",
+      "text": "methylenedioxymethamphetamine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "mdma"
+    }
+  ],
+  "canonical_name": "adam",
+  "concept_id": "adam",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/RAdam"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "CyberZHG/keras-radam"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "adam",
+      "sense_id": "adam#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

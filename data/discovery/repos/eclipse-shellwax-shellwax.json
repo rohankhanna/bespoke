@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    },
+    {
+      "component": "appleboy/scp-action@ff85246acaad7bdce478db94a363cd2bf7c90345",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "eclipse-shellwax/shellwax",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "eclipse-shellwax/shellwax",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "eclipse-shellwax/shellwax",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "eclipse-shellwax/shellwax",
+      "target": "appleboy/scp-action@ff85246acaad7bdce478db94a363cd2bf7c90345",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "eclipse-shellwax/shellwax",
+      "target": "Build Tycho",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-shellwax/shellwax",
+      "target": "eclipse-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eclipse-shellwax/shellwax",
+      "target": "shell-script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:43:36.693479+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2339
+    },
+    {
+      "path": ".github/workflows/maven.yml",
+      "size": 1452
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Shell script editor plugin for Eclipse ",
+    "fork": false,
+    "full_name": "eclipse-shellwax/shellwax",
+    "html_url": "https://github.com/eclipse-shellwax/shellwax",
+    "language": "Java",
+    "pushed_at": "2026-04-27T08:11:57Z",
+    "stargazers_count": 22,
+    "topics": [
+      "eclipse-plugin",
+      "shell-script"
+    ],
+    "updated_at": "2026-04-27T08:12:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build Tycho",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yml",
+      "term": "Build Tycho"
+    },
+    {
+      "context_snippet": "<a href=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/redirect.html\"><img src=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/cloneToEclipseBadge.png\" alt=\"Clone to Eclipse IDE\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse-plugin"
+    },
+    {
+      "context_snippet": "<a href=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/redirect.html\"><img src=\"https://mickaelistria.github.io/redirctToEclipseIDECloneCommand/cloneToEclipseBadge.png\" alt=\"Clone to Eclipse IDE\"/></a>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "shell-script"
+    }
+  ]
+}

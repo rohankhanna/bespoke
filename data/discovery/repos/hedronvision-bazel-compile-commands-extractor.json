@@ -1,0 +1,253 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "clangd/vscode-clangd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "hedronvision/bazel-make-cc-https-easy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "bazel-build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "ccls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "clang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "clang-tidy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "clang-tooling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "clangd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "contributions-welcome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "objective-c",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "objective-c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "target": "tools",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:40:44.875471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18477
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Goal: Enable awesome tooling for Bazel users of the C language family.",
+    "fork": false,
+    "full_name": "hedronvision/bazel-compile-commands-extractor",
+    "html_url": "https://github.com/hedronvision/bazel-compile-commands-extractor",
+    "language": "Python",
+    "pushed_at": "2025-08-11T21:33:33Z",
+    "stargazers_count": 899,
+    "topics": [
+      "bazel",
+      "bazel-build",
+      "c",
+      "ccls",
+      "clang",
+      "clang-tidy",
+      "clang-tooling",
+      "clangd",
+      "contributions-welcome",
+      "cpp",
+      "cross-platform",
+      "cuda",
+      "hacktoberfest",
+      "objective-c",
+      "objective-c-plus-plus",
+      "tools"
+    ],
+    "updated_at": "2026-04-16T05:21:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clangd/vscode-clangd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hedronvision/bazel-make-cc-https-easy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel-build"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ccls"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang-tidy"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clang-tooling"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clangd"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contributions-welcome"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "objective-c-plus-plus"
+    },
+    {
+      "context_snippet": "**What is this project trying to do for me?**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tools"
+    }
+  ]
+}

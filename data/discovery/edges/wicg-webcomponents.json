@@ -6,29 +6,8 @@
       "source_repo": "WICG/webcomponents",
       "target": "w3c/webcomponents",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "WICG/webcomponents",
-      "target": "w3c/csswg-drafts",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "WICG/webcomponents",
-      "target": "whatwg/html",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "WICG/webcomponents",
-      "target": "microsoftedge/msedgeexplainers",
-      "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "WICG/webcomponents"
 }

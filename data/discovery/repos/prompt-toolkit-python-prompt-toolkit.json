@@ -18,13 +18,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.rst",
-      "source_repo": "prompt-toolkit/python-prompt-toolkit",
-      "target": "jquast/wcwidth",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "prompt-toolkit/python-prompt-toolkit",
@@ -53,7 +46,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:11:06.285329+00:00",
+  "fetched_at": "2026-04-29T19:59:44.289552+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -78,17 +71,11 @@
     "html_url": "https://github.com/prompt-toolkit/python-prompt-toolkit",
     "language": "Python",
     "pushed_at": "2026-03-17T12:10:47Z",
-    "stargazers_count": 10419,
+    "stargazers_count": 10428,
     "topics": [],
-    "updated_at": "2026-04-24T07:34:59Z"
+    "updated_at": "2026-04-29T16:28:10Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "jquast/wcwidth",
-      "source_file": "README.rst"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "test",

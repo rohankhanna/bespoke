@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "imagemin CLI designed for lint-staged usage with sensible defaults"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> imagemin CLI designed for lint-staged usage with sensible defaults"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> imagemin CLI designed for lint-staged usage with sensible defaults"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40015429,
+      "status": "candidate",
+      "text": "lessen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012768,
+      "status": "candidate",
+      "text": "decrease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025817,
+      "status": "candidate",
+      "text": "smallify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025816,
+      "status": "candidate",
+      "text": "minimize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20025815,
+      "status": "candidate",
+      "text": "minimalize"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "minify",
+      "sense_id": "minify#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8034,
+      "status": "candidate",
+      "text": "decrease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3032,
+      "status": "candidate",
+      "text": "lessen"
+    }
+  ],
+  "concept_id": "minify",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "minify",
+  "observation_id": "b30e48e449f1acc7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "minify",
+  "source_context_snippet": "> imagemin CLI designed for lint-staged usage with sensible defaults",
+  "source_file": null,
+  "source_repo": "tomchentw/imagemin-lint-staged",
+  "source_repo_description": "imagemin CLI designed for lint-staged usage with sensible defaults"
+}

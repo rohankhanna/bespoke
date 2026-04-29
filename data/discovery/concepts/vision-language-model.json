@@ -139,6 +139,30 @@
       "source_repo": "shikiw/OPERA",
       "status": "candidate-context",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2U1/Qwen-VL-Series-Finetune",
+      "status": "candidate-context",
+      "text": "An open-source implementaion for fine-tuning Qwen-VL series by Alibaba Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Qwen-VL-Series-Finetune",
+      "status": "candidate-context",
+      "text": "This repository contains a script for training [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BAAI-Agents/Cradle",
+      "status": "candidate-context",
+      "text": "The Cradle framework is a first attempt at General Computer Control (GCC). Cradle supports agents to ace any computer task by enabling strong reasoning abilities, self-improvment, and skill curation, in a standardized general environment with minimal requirements."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BAAI-Agents/Cradle",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +231,18 @@
       "source_repo": "shikiw/OPERA",
       "status": "candidate",
       "text": "[![License: MIT](https://img.shields.io/badge/License-MIT-g.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Qwen-VL-Series-Finetune",
+      "status": "candidate",
+      "text": "This repository contains a script for training [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BAAI-Agents/Cradle",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +316,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "shikiw/OPERA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Qwen-VL-Series-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "BAAI-Agents/Cradle"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

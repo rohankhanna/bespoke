@@ -67,6 +67,18 @@
       "source_repo": "estesp/mquery",
       "status": "candidate-context",
       "text": "A simple utility and serverless-based backend for querying Docker v2 & OCI v1 container images"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dabevlohn/rand16",
+      "status": "candidate-context",
+      "text": "Yet another WASM plugin for Hyper-MCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dabevlohn/rand16",
+      "status": "candidate-context",
+      "text": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "estesp/mquery",
       "status": "candidate",
       "text": "A simple utility and serverless-based backend for querying Docker v2 & OCI v1 container images"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dabevlohn/rand16",
+      "status": "candidate",
+      "text": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri."
     }
   ],
   "candidate_related_terms": [],
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "estesp/mquery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dabevlohn/rand16"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

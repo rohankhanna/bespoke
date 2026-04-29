@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ojdkbuild/ojdkbuild",
+      "target": "ojdkbuild/contrib_jdk8u-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ojdkbuild/ojdkbuild",
+      "target": "ojdkbuild/contrib_jdk11u-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ojdkbuild/ojdkbuild",
+      "target": "ojdkbuild/contrib_jdk8u-aarch32-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ojdkbuild/ojdkbuild",
+      "target": "ojdkbuild/contrib_jdk11u-arm32-ci",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "ojdkbuild/ojdkbuild"
+}

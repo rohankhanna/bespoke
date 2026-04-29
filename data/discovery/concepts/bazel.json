@@ -346,6 +346,114 @@
       "source_repo": "hedronvision/bazel-cc-filesystem-backport",
       "status": "candidate-context",
       "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "status": "candidate-context",
+      "text": "Bazel defs and rules for building Python projects with nanobind extensions."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "status": "candidate-context",
+      "text": "This repo contains Bazel build defs for Python bindings created with [nanobind](https://github.com/wjakob/nanobind)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jpsim/SourceKitten",
+      "status": "candidate-context",
+      "text": "An adorable little framework and command line tool for interacting with SourceKit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpsim/SourceKitten",
+      "status": "candidate-context",
+      "text": "Bazel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate-context",
+      "text": "Goal: Enable awesome tooling for Bazel users of the C language family."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate-context",
+      "text": "Goal: Make it easy to place HTTPS Requests from C++, leveraging Bazel, CPR, and CURL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_jvm_external",
+      "status": "candidate-context",
+      "text": "Bazel rules to resolve, fetch and export Maven artifacts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_jvm_external",
+      "status": "candidate-context",
+      "text": "Transitive Maven artifact resolution and publishing rules for Bazel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BYVoid/OpenCC",
+      "status": "candidate-context",
+      "text": "Library for conversion between Traditional and Simplified Chinese"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BYVoid/OpenCC",
+      "status": "candidate-context",
+      "text": "Bazel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VirtusLab/bazel-steward",
+      "status": "candidate-context",
+      "text": "A bot to keep Bazel dependencies up to date"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VirtusLab/bazel-steward",
+      "status": "candidate-context",
+      "text": "<!--suppress HtmlDeprecatedAttribute -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "status": "candidate-context",
+      "text": "Bazel rules for generating Xcode projects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grailbio/rules_r",
+      "status": "candidate-context",
+      "text": "R rules for Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grailbio/rules_r",
+      "status": "candidate-context",
+      "text": "- [Overview](#overview)"
     }
   ],
   "candidate_glosses": [
@@ -516,6 +624,60 @@
       "source_repo": "hedronvision/bazel-cc-filesystem-backport",
       "status": "candidate",
       "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "status": "candidate",
+      "text": "This repo contains Bazel build defs for Python bindings created with [nanobind](https://github.com/wjakob/nanobind)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jpsim/SourceKitten",
+      "status": "candidate",
+      "text": "Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-compile-commands-extractor",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_jvm_external",
+      "status": "candidate",
+      "text": "Transitive Maven artifact resolution and publishing rules for Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BYVoid/OpenCC",
+      "status": "candidate",
+      "text": "Bazel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VirtusLab/bazel-steward",
+      "status": "candidate",
+      "text": "<!--suppress HtmlDeprecatedAttribute -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grailbio/rules_r",
+      "status": "candidate",
+      "text": "- [Overview](#overview)"
     }
   ],
   "candidate_related_terms": [
@@ -751,11 +913,71 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "hedronvision/bazel-cc-filesystem-backport"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nicholasjng/nanobind-bazel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "jpsim/SourceKitten"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-compile-commands-extractor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_jvm_external"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/bazel.yml",
+      "source_repo": "BYVoid/OpenCC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "VirtusLab/bazel-steward"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "grailbio/rules_r"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

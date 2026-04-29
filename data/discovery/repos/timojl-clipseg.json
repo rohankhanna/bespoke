@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "timojl/clipseg",
+      "target": "cvlab-yonsei/joem",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "timojl/clipseg",
+      "target": "jia-research-lab/pfenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "timojl/clipseg",
+      "target": "chenyunwu/phrasecutdataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "timojl/clipseg",
+      "target": "juhongm999/hsnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:53:58.918748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4418
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains the code of the CVPR 2022 paper \"Image Segmentation Using Text and Image Prompts\".",
+    "fork": false,
+    "full_name": "timojl/clipseg",
+    "html_url": "https://github.com/timojl/clipseg",
+    "language": "Python",
+    "pushed_at": "2024-01-05T10:36:22Z",
+    "stargazers_count": 1331,
+    "topics": [],
+    "updated_at": "2026-04-21T09:51:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenyunwu/phrasecutdataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvlab-yonsei/joem",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jia-research-lab/pfenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "juhongm999/hsnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

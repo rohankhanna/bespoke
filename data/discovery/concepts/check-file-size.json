@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Check file size"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borisdayma/dalle-mini",
+      "status": "candidate-context",
+      "text": "DALL\u00b7E Mini - Generate images from a text prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borisdayma/dalle-mini",
+      "status": "candidate-context",
+      "text": "Check file size"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borisdayma/dalle-mini",
+      "status": "candidate",
+      "text": "Check file size"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34174,
+      "status": "candidate",
+      "text": "gap"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34174,
+      "status": "candidate",
+      "text": "gapped"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34174,
+      "status": "candidate",
+      "text": "gsp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26082,
+      "status": "candidate",
+      "text": "suss"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25974,
+      "status": "candidate",
+      "text": "sizes"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Check file size",
+  "concept_id": "check-file-size",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/check_size.yml",
+      "source_repo": "borisdayma/dalle-mini"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Check file size",
+      "sense_id": "check-file-size#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

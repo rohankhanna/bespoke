@@ -31,6 +31,18 @@
       "source_repo": "tailwindlabs/tailwindcss",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tachyons-css/tachyons",
+      "status": "candidate-context",
+      "text": "Functional css for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tachyons-css/tachyons",
+      "status": "candidate-context",
+      "text": "Functional CSS for humans."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "tailwindlabs/tailwindcss",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tachyons-css/tachyons",
+      "status": "candidate",
+      "text": "Functional CSS for humans."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "tailwindlabs/tailwindcss"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tachyons-css/tachyons"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

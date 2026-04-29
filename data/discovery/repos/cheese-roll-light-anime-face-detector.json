@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cheese-roll/light-anime-face-detector",
+      "target": "yonghaohe/a-light-and-fast-face-detector-for-edge-devices",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cheese-roll/light-anime-face-detector",
+      "target": "qhgz2013/anime-face-detector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheese-roll/light-anime-face-detector",
+      "target": "anime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheese-roll/light-anime-face-detector",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheese-roll/light-anime-face-detector",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheese-roll/light-anime-face-detector",
+      "target": "lffd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cheese-roll/light-anime-face-detector",
+      "target": "mxnet",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:27.180263+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4917
+    },
+    {
+      "path": "requirements.txt",
+      "size": 74
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fast and light-weighted anime face detection based on LFFD.",
+    "fork": false,
+    "full_name": "cheese-roll/light-anime-face-detector",
+    "html_url": "https://github.com/cheese-roll/light-anime-face-detector",
+    "language": "Python",
+    "pushed_at": "2023-06-22T10:18:26Z",
+    "stargazers_count": 72,
+    "topics": [
+      "anime",
+      "computer-vision",
+      "face-detection",
+      "lffd",
+      "mxnet"
+    ],
+    "updated_at": "2026-03-05T06:44:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qhgz2013/anime-face-detector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yonghaohe/a-light-and-fast-face-detector-for-edge-devices",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Demo GIF](/assets/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anime"
+    },
+    {
+      "context_snippet": "![Demo GIF](/assets/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "![Demo GIF](/assets/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "![Demo GIF](/assets/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lffd"
+    },
+    {
+      "context_snippet": "![Demo GIF](/assets/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mxnet"
+    }
+  ]
+}

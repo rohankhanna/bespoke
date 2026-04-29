@@ -31,6 +31,18 @@
       "source_repo": "yt-dlp/yt-dlp",
       "status": "candidate-context",
       "text": "<!-- MANPAGE: BEGIN EXCLUDED SECTION -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blackjack4494/yt-dlc",
+      "status": "candidate-context",
+      "text": "media downloader and library for various sites."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackjack4494/yt-dlc",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.com/blackjack4494/yt-dlc.svg?branch=master)](https://travis-ci.com/blackjack4494/yt-dlc)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "yt-dlp/yt-dlp",
       "status": "candidate",
       "text": "<!-- MANPAGE: BEGIN EXCLUDED SECTION -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackjack4494/yt-dlc",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.com/blackjack4494/yt-dlc.svg?branch=master)](https://travis-ci.com/blackjack4494/yt-dlc)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "yt-dlp/yt-dlp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "blackjack4494/yt-dlc"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

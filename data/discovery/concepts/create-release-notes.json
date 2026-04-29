@@ -31,6 +31,18 @@
       "source_repo": "dolthub/doltgresql",
       "status": "candidate-context",
       "text": "Create Release Notes"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MagicMirrorOrg/MagicMirror",
+      "status": "candidate-context",
+      "text": "MagicMirror\u00b2 is an open source modular smart mirror platform. With a growing list of installable modules, the MagicMirror\u00b2 allows you to convert your hallway or bathroom mirror into your personal assistant."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicMirrorOrg/MagicMirror",
+      "status": "candidate-context",
+      "text": "\"Create Release Notes\""
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "dolthub/doltgresql",
       "status": "candidate",
       "text": "Create Release Notes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MagicMirrorOrg/MagicMirror",
+      "status": "candidate",
+      "text": "\"Create Release Notes\""
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": ".github/workflows/cd-create-release-notes.yaml",
       "source_repo": "dolthub/doltgresql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release-notes.yaml",
+      "source_repo": "MagicMirrorOrg/MagicMirror"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

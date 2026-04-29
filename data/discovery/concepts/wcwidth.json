@@ -19,6 +19,30 @@
       "source_repo": "jquast/wcwidth",
       "status": "candidate-context",
       "text": "|pypi_downloads| |codecov| |license|"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alecrabbit/php-wcwidth",
+      "status": "candidate-context",
+      "text": "Calculate width of unicode strings rendered to a terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecrabbit/php-wcwidth",
+      "status": "candidate-context",
+      "text": "[![PHP Version](https://img.shields.io/packagist/php-v/alecrabbit/php-wcwidth/dev-master.svg)](https://php.net)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aperezdc/lua-wcwidth",
+      "status": "candidate-context",
+      "text": "Pure Lua implementation of the wcwidth() function"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aperezdc/lua-wcwidth",
+      "status": "candidate-context",
+      "text": "lua-wcwidth"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "jquast/wcwidth",
       "status": "candidate",
       "text": "|pypi_downloads| |codecov| |license|"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alecrabbit/php-wcwidth",
+      "status": "candidate",
+      "text": "[![PHP Version](https://img.shields.io/packagist/php-v/alecrabbit/php-wcwidth/dev-master.svg)](https://php.net)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aperezdc/lua-wcwidth",
+      "status": "candidate",
+      "text": "lua-wcwidth"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "jquast/wcwidth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alecrabbit/php-wcwidth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aperezdc/lua-wcwidth"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

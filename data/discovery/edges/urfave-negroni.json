@@ -4,14 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "urfave/negroni",
-      "target": "awakenetworks/csp",
+      "target": "casbin/casbin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "urfave/negroni",
-      "target": "auth0/go-jwt-middleware",
+      "target": "awakenetworks/csp",
       "target_type": "repository"
     },
     {
@@ -29,6 +29,6 @@
       "target_type": "repository"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "urfave/negroni"
 }

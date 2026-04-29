@@ -1,0 +1,158 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "thoughtbot/templates/.github/workflows/dynamic-readme.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-readme.yml"
+    },
+    {
+      "component": "thoughtbot/templates/.github/workflows/dynamic-security.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-security.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "thoughtbot/climate_control",
+      "target": "testdouble/standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "thoughtbot/climate_control",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "thoughtbot/climate_control",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-readme.yml",
+      "source_repo": "thoughtbot/climate_control",
+      "target": "thoughtbot/templates/.github/workflows/dynamic-readme.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-readme.yml",
+      "source_repo": "thoughtbot/climate_control",
+      "target": "update-templates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "source_repo": "thoughtbot/climate_control",
+      "target": "thoughtbot/templates/.github/workflows/dynamic-security.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "source_repo": "thoughtbot/climate_control",
+      "target": "update-security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/climate_control",
+      "target": "ruby",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thoughtbot/climate_control",
+      "target": "testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:47:37.329367+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4982
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 514
+    },
+    {
+      "path": ".github/workflows/dynamic-readme.yml",
+      "size": 325
+    },
+    {
+      "path": ".github/workflows/dynamic-security.yml",
+      "size": 355
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Modify your ENV",
+    "fork": false,
+    "full_name": "thoughtbot/climate_control",
+    "html_url": "https://github.com/thoughtbot/climate_control",
+    "language": "Ruby",
+    "pushed_at": "2026-04-08T15:23:28Z",
+    "stargazers_count": 583,
+    "topics": [
+      "ruby",
+      "testing"
+    ],
+    "updated_at": "2026-04-23T07:33:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "testdouble/standard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "update-templates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-readme.yml",
+      "term": "update-templates"
+    },
+    {
+      "context_snippet": "update-security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dynamic-security.yml",
+      "term": "update-security"
+    },
+    {
+      "context_snippet": "![GitHub Actions CI](https://github.com/thoughtbot/climate_control/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    },
+    {
+      "context_snippet": "![GitHub Actions CI](https://github.com/thoughtbot/climate_control/actions/workflows/ci.yml/badge.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing"
+    }
+  ]
+}

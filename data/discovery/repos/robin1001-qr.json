@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:45:43.341415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 159
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "repo for QR code",
+    "fork": false,
+    "full_name": "robin1001/qr",
+    "html_url": "https://github.com/robin1001/qr",
+    "language": null,
+    "pushed_at": "2025-09-24T03:44:20Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-09-24T03:44:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -7,8 +7,28 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/swift-chat",
+      "status": "candidate-context",
+      "text": "A lightning-fast, cross-platform AI Assistant App built with React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/swift-chat",
+      "status": "candidate-context",
+      "text": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/swift-chat",
+      "status": "candidate",
+      "text": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More"
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "amazon-bedrock",
@@ -26,12 +46,20 @@
       "observed_at": "2026-04-18T11:24:14.688152+00:00",
       "source_file": null,
       "source_repo": "sujithpvarghese/bedrock-full-reconciliation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

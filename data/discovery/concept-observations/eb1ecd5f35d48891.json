@@ -84,7 +84,7 @@
   "normalized_form": "publish-on-tag",
   "observation_id": "eb1ecd5f35d48891",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Publish on Tag",
   "source_context_snippet": "Publish on Tag",
   "source_file": ".github/workflows/tag-publish.yml",

@@ -19,12 +19,48 @@
       "source_repo": "alexeiva/jura",
       "status": "candidate-context",
       "text": "Build font and specimen"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googlefonts/googlefonts-project-template",
+      "status": "candidate-context",
+      "text": "(DEMO) Repository architecture example for a typeface design project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/googlefonts-project-template",
+      "status": "candidate-context",
+      "text": "Build font and specimen"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "m4rc1e/test-ufr-family",
+      "status": "candidate-context",
+      "text": "yeah!!!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m4rc1e/test-ufr-family",
+      "status": "candidate-context",
+      "text": "Build font and specimen"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "alexeiva/jura",
+      "status": "candidate",
+      "text": "Build font and specimen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/googlefonts-project-template",
+      "status": "candidate",
+      "text": "Build font and specimen"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "m4rc1e/test-ufr-family",
       "status": "candidate",
       "text": "Build font and specimen"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "alexeiva/jura"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "googlefonts/googlefonts-project-template"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "m4rc1e/test-ufr-family"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

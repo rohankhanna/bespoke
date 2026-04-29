@@ -9,20 +9,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PlayVoice/vits_chinese",
-      "target": "wenet-e2e/wetextprocessing",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "PlayVoice/vits_chinese",
-      "target": "wenet-e2e/wetts",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "PlayVoice/vits_chinese",
@@ -65,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:59:38.556538+00:00",
+  "fetched_at": "2026-04-29T21:49:28.392776+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -96,22 +82,12 @@
       "tts",
       "vits"
     ],
-    "updated_at": "2026-04-22T00:34:19Z"
+    "updated_at": "2026-04-27T17:12:47Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "maxmax2016/vits_chinese",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "wenet-e2e/wetextprocessing",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "wenet-e2e/wetts",
       "source_file": "README.md"
     }
   ],

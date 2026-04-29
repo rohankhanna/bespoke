@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/text-to-text-transfer-transformer",
+      "target": "google-research/t5x",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/text-to-text-transfer-transformer",
+      "target": "google/gin-config",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:42:00.591920+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for the paper \"Exploring the Limits of Transfer Learning with a Unified Text-to-Text Transformer\"",
+    "fork": false,
+    "full_name": "google-research/text-to-text-transfer-transformer",
+    "html_url": "https://github.com/google-research/text-to-text-transfer-transformer",
+    "language": "Python",
+    "pushed_at": "2026-01-14T15:00:59Z",
+    "stargazers_count": 6512,
+    "topics": [],
+    "updated_at": "2026-04-29T12:46:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/t5x",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/gin-config",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

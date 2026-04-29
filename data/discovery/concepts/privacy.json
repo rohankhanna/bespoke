@@ -103,6 +103,90 @@
       "source_repo": "simplex-chat/simplex-chat",
       "status": "candidate-context",
       "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate-context",
+      "text": "Do you think you are safe using private browsing or incognito mode?. :smile: :imp: This will prove that you're wrong.   Previously hosted at nothingprivate.ml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/gautamkrishnar/nothing-private.svg?branch=master)](https://travis-ci.org/gautamkrishnar/nothing-private) [![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg)](#contributors) [![ProductHunt](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "medama-io/medama",
+      "status": "candidate-context",
+      "text": "Self-hostable, privacy-focused website analytics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medama-io/medama",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "status-im/status-app",
+      "status": "candidate-context",
+      "text": "Status App client made in Nim & QML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/status-app",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/AdguardBrowserExtension",
+      "status": "candidate-context",
+      "text": "AdGuard browser extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardBrowserExtension",
+      "status": "candidate-context",
+      "text": "&nbsp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate-context",
+      "text": "Backend for HTTP Observatory on MDN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate-context",
+      "text": "[HTTP Observatory](https://developer.mozilla.org/en-US/observatory/) is a service that checks web sites for security-relevant headers. It is hosted by [MDN Web Docs](https://github.com/mdn)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f Firefox Focus (Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate-context",
+      "text": "_Browse like no one\u2019s watching. The new Firefox Focus automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "status": "candidate-context",
+      "text": "Adversarial Robustness Toolbox (ART) - Python Library for Machine Learning Security - Evasion, Poisoning, Extraction, Inference - Red and Blue Teams"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +237,48 @@
       "source_repo": "simplex-chat/simplex-chat",
       "status": "candidate",
       "text": "[![build](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml/badge.svg?branch=stable)](https://github.com/simplex-chat/simplex-chat/actions/workflows/build.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/gautamkrishnar/nothing-private.svg?branch=master)](https://travis-ci.org/gautamkrishnar/nothing-private) [![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg)](#contributors) [![ProductHunt](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medama-io/medama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "status-im/status-app",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardBrowserExtension",
+      "status": "candidate",
+      "text": "&nbsp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate",
+      "text": "[HTTP Observatory](https://developer.mozilla.org/en-US/observatory/) is a service that checks web sites for security-relevant headers. It is hosted by [MDN Web Docs](https://github.com/mdn)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate",
+      "text": "_Browse like no one\u2019s watching. The new Firefox Focus automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -273,11 +399,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "simplex-chat/simplex-chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/nothing-private"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "medama-io/medama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "status-im/status-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdguardBrowserExtension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mdn/mdn-http-observatory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/focus-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

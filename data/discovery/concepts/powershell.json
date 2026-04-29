@@ -163,6 +163,66 @@
       "source_repo": "psmux/psmux",
       "status": "candidate-context",
       "text": "```"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate-context",
+      "text": "Install Clojure on Windows with Scoop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psmux/omp-manager",
+      "status": "candidate-context",
+      "text": "Installation and manager for Oh My Posh! The one thing you need to browse themes, install fonts, and configure shells"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/omp-manager",
+      "status": "candidate-context",
+      "text": "A terminal UI (TUI) that sets up **[Oh My Posh](https://ohmyposh.dev)** from scratch - no prior knowledge needed."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psmux/pstop",
+      "status": "candidate-context",
+      "text": "htop for Windows . TUI system monitor with per-core CPU bars, memory/swap/network, tree view, process kill, 7 color schemes, mouse support. cargo install pstop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/pstop",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmderdev/cmder",
+      "status": "candidate-context",
+      "text": "Lovely console emulator package for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmderdev/cmder",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/cmderdev/cmder](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cmderdev/cmder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://ci.appveyor.com/api/projects/status/github/cmderd\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-powershell",
+      "status": "candidate-context",
+      "text": "Microsoft Azure PowerShell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-powershell",
+      "status": "candidate-context",
+      "text": "<meta name=\"google-site-verification\" content=\"tZgbB2s-hTI0IePQQRCjHqL_Vf0j_XJmehXAHJerrn4\" />"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +303,36 @@
       "source_repo": "psmux/psmux",
       "status": "candidate",
       "text": "```"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/omp-manager",
+      "status": "candidate",
+      "text": "A terminal UI (TUI) that sets up **[Oh My Posh](https://ohmyposh.dev)** from scratch - no prior knowledge needed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psmux/pstop",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmderdev/cmder",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/cmderdev/cmder](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cmderdev/cmder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://ci.appveyor.com/api/projects/status/github/cmderd\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-powershell",
+      "status": "candidate",
+      "text": "<meta name=\"google-site-verification\" content=\"tZgbB2s-hTI0IePQQRCjHqL_Vf0j_XJmehXAHJerrn4\" />"
     }
   ],
   "candidate_related_terms": [
@@ -368,11 +458,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "psmux/psmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "littleli/scoop-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Watfaq/PowerSession"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "psmux/omp-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "psmux/pstop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cmderdev/cmder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-powershell"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

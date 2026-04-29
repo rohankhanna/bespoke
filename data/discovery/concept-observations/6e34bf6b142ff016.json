@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Flagship repo for cf-regro-autotick-bot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "bot-make-migrators"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "bot-make-migrators"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "bot-make-migrators",
+      "sense_id": "bot-make-migrators#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bot-make-migrators",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bot-make-migrators",
+  "observation_id": "6e34bf6b142ff016",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "bot-make-migrators",
+  "source_context_snippet": "bot-make-migrators",
+  "source_file": ".github/workflows/bot-make-migrators.yml",
+  "source_repo": "regro/cf-scripts",
+  "source_repo_description": "Flagship repo for cf-regro-autotick-bot"
+}

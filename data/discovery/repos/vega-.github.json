@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vega/.github",
+      "target": "github/mvg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:38:45.603177+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1488
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Community health files for the @vega organization",
+    "fork": false,
+    "full_name": "vega/.github",
+    "html_url": "https://github.com/vega/.github",
+    "language": null,
+    "pushed_at": "2026-03-27T17:16:42Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-03-23T18:17:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "github/mvg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

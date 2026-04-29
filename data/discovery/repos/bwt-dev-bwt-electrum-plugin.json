@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwt-dev/bwt-electrum-plugin",
+      "target": "bitcoin-wallet-tracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwt-dev/bwt-electrum-plugin",
+      "target": "electrum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bwt-dev/bwt-electrum-plugin",
+      "target": "electrum-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:58:30.932748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8201
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Electrum plugin for Bitcoin Wallet Tracker, a lightweight personal indexer for bitcoin wallets. Allows connecting Electrum to a Bitcoin Core full node backend.",
+    "fork": false,
+    "full_name": "bwt-dev/bwt-electrum-plugin",
+    "html_url": "https://github.com/bwt-dev/bwt-electrum-plugin",
+    "language": "Python",
+    "pushed_at": "2021-11-10T12:25:22Z",
+    "stargazers_count": 20,
+    "topics": [
+      "bitcoin-wallet-tracker",
+      "bwt",
+      "electrum",
+      "electrum-plugin"
+    ],
+    "updated_at": "2025-07-08T11:50:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/bwt-dev/bwt-electrum-plugin.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt-electrum-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitcoin-wallet-tracker"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/bwt-dev/bwt-electrum-plugin.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt-electrum-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electrum"
+    },
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/bwt-dev/bwt-electrum-plugin.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt-electrum-plugin)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "electrum-plugin"
+    }
+  ]
+}

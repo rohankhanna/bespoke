@@ -31,6 +31,30 @@
       "source_repo": "aerokube/moon",
       "status": "candidate-context",
       "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/aerokube/moon.svg)](https://hub.docker.com/r/aerokube/moon)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crc-org/crc",
+      "status": "candidate-context",
+      "text": "CRC is a tool to help you run containers. It manages local VMs to run a OpenShift 4.x cluster, Microshift or Podman optimized for testing and development purposes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crc-org/crc",
+      "status": "candidate-context",
+      "text": "CRC - Runs Containers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate-context",
+      "text": "The collection includes a variety of Ansible content to help automate the management of applications in Kubernetes and OpenShift clusters, as well as the provisioning and maintenance of clusters themselves."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate-context",
+      "text": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "aerokube/moon",
       "status": "candidate",
       "text": "[![Docker Pulls](https://img.shields.io/docker/pulls/aerokube/moon.svg)](https://hub.docker.com/r/aerokube/moon)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crc-org/crc",
+      "status": "candidate",
+      "text": "CRC - Runs Containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate",
+      "text": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection."
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "aerokube/moon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ansible-collections/kubernetes.core"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

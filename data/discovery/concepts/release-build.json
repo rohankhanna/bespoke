@@ -32,6 +32,54 @@
       "source_repo": "lightningnetwork/lnd",
       "status": "candidate-context",
       "text": "Release build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spiffe/java-spiffe",
+      "status": "candidate-context",
+      "text": "Java library for SPIFFE support "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/java-spiffe",
+      "status": "candidate-context",
+      "text": "Release Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spiffe/spire",
+      "status": "candidate-context",
+      "text": "The SPIFFE Runtime Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/spire",
+      "status": "candidate-context",
+      "text": "Release Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "llvm/torch-mlir",
+      "status": "candidate-context",
+      "text": "The Torch-MLIR project aims to provide first class support from the PyTorch ecosystem to the MLIR ecosystem."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llvm/torch-mlir",
+      "status": "candidate-context",
+      "text": "Release Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "Release Build"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +94,30 @@
       "source_repo": "lightningnetwork/lnd",
       "status": "candidate",
       "text": "Release build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/java-spiffe",
+      "status": "candidate",
+      "text": "Release Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/spire",
+      "status": "candidate",
+      "text": "Release Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "llvm/torch-mlir",
+      "status": "candidate",
+      "text": "Release Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate",
+      "text": "Release Build"
     }
   ],
   "candidate_related_terms": [
@@ -107,11 +179,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "apache/datafusion-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release_build.yml",
+      "source_repo": "spiffe/java-spiffe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release_build.yaml",
+      "source_repo": "spiffe/spire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/buildRelease.yml",
+      "source_repo": "llvm/torch-mlir"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release-build.yaml",
+      "source_repo": "nunchaku-ai/nunchaku"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

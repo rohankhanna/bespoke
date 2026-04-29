@@ -1,0 +1,153 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_task_summaries.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_task_summaries.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/BIG-bench",
+      "target": "google/seqio",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/BIG-bench",
+      "target": "google-research/text-to-text-transfer-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/BIG-bench",
+      "target": "gem-benchmark/nl-augmenter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_task_summaries.yml",
+      "source_repo": "google/BIG-bench",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_task_summaries.yml",
+      "source_repo": "google/BIG-bench",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_task_summaries.yml",
+      "source_repo": "google/BIG-bench",
+      "target": "generate BIG-Bench task summaries",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/BIG-bench",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/BIG-bench",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/BIG-bench",
+      "target": "BIG-Bench tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:51:23.316724+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18733
+    },
+    {
+      "path": "requirements.txt",
+      "size": 331
+    },
+    {
+      "path": ".github/workflows/generate_task_summaries.yml",
+      "size": 2872
+    },
+    {
+      "path": ".github/workflows/run-tests.yml",
+      "size": 1067
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Beyond the Imitation Game collaborative benchmark for measuring and extrapolating the capabilities of language models",
+    "fork": false,
+    "full_name": "google/BIG-bench",
+    "html_url": "https://github.com/google/BIG-bench",
+    "language": "Python",
+    "pushed_at": "2024-07-19T11:57:37Z",
+    "stargazers_count": 3234,
+    "topics": [],
+    "updated_at": "2026-04-27T21:29:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gem-benchmark/nl-augmenter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/text-to-text-transfer-transformer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/seqio",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "generate BIG-Bench task summaries",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_task_summaries.yml",
+      "term": "generate BIG-Bench task summaries"
+    },
+    {
+      "context_snippet": "BIG-Bench tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "term": "BIG-Bench tests"
+    }
+  ]
+}

@@ -103,6 +103,18 @@
       "source_repo": "mypyc/librt",
       "status": "candidate-context",
       "text": "[![Stable Version](https://img.shields.io/pypi/v/librt?color=blue)](https://pypi.org/project/librt/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wevm/abitype",
+      "status": "candidate-context",
+      "text": "Strict TypeScript types for Ethereum ABIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wevm/abitype",
+      "status": "candidate-context",
+      "text": "<br/>"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "mypyc/librt",
       "status": "candidate",
       "text": "[![Stable Version](https://img.shields.io/pypi/v/librt?color=blue)](https://pypi.org/project/librt/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wevm/abitype",
+      "status": "candidate",
+      "text": "<br/>"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +262,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "mypyc/librt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "wevm/abitype"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,30 @@
       "source_repo": "ashvardanian/StringZilla",
       "status": "candidate-context",
       "text": "![StringZilla banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-v4.jpg?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringTape",
+      "status": "candidate-context",
+      "text": "Apache Arrow-compatible space-efficient \"tape\" class in pure Rust to be used with StringZilla for GPU, NUMA, and disk transfers of variable length strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringTape",
+      "status": "candidate-context",
+      "text": "![StringTape banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringTape.png?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringZilla-CLI",
+      "status": "candidate-context",
+      "text": "Collection of SIMD-accelerated CLI tools for binary & UTF-8-aware text processing with StringZilla combining ICU Functionality, RipGrep Speeds, & External Memory Scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla-CLI",
+      "status": "candidate-context",
+      "text": "![StringZilla CLI banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-CLI.png?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "ashvardanian/StringZilla",
       "status": "candidate",
       "text": "![StringZilla banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-v4.jpg?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringTape",
+      "status": "candidate",
+      "text": "![StringTape banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringTape.png?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringZilla-CLI",
+      "status": "candidate",
+      "text": "![StringZilla CLI banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-CLI.png?raw=true)"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/StringZilla"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringTape"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringZilla-CLI"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

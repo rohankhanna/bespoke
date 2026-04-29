@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Auto-update"
+    "Auto-update",
+    "auto update"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "langflow-ai/langflow",
       "status": "candidate-context",
       "text": "Auto-update"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sachinraja/simple-icons-py",
+      "status": "candidate-context",
+      "text": "python wrapper for simple-icons"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sachinraja/simple-icons-py",
+      "status": "candidate-context",
+      "text": "auto update"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +40,51 @@
       "source_repo": "langflow-ai/langflow",
       "status": "candidate",
       "text": "Auto-update"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sachinraja/simple-icons-py",
+      "status": "candidate",
+      "text": "auto update"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "aut"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "automobiles"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "automotive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "brakes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10684,
+      "status": "candidate",
+      "text": "car"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "Auto-update",
   "concept_id": "auto-update",
@@ -58,11 +113,23 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/auto-update.yml",
       "source_repo": "langflow-ai/langflow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "sachinraja/simple-icons-py"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "langflow-ai/langflow"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

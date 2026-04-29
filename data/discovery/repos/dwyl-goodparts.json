@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "minimist",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "nyc",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/goodparts",
+      "target": "dwyl/javascript-the-good-parts-notes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/goodparts",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/goodparts",
+      "target": "minimist",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/goodparts",
+      "target": "nyc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/goodparts",
+      "target": "tape",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:58:07.452973+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18159
+    },
+    {
+      "path": "package.json",
+      "size": 1086
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":see_no_evil: An ESLint Style that only allows JavaScript the Good Parts (and \"Better Parts\") in your code.",
+    "fork": false,
+    "full_name": "dwyl/goodparts",
+    "html_url": "https://github.com/dwyl/goodparts",
+    "language": "JavaScript",
+    "pushed_at": "2022-06-25T23:30:41Z",
+    "stargazers_count": 78,
+    "topics": [],
+    "updated_at": "2024-02-25T19:03:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/javascript-the-good-parts-notes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

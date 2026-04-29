@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-webui-animatediff",
+      "target": "s9roll7/animatediff-cli-prompt-travel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-webui-animatediff",
+      "target": "continue-revolution/sd-forge-animatediff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-webui-animatediff",
+      "target": "g-u-n/animatelcm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "continue-revolution/sd-webui-animatediff",
+      "target": "magic-research/magic-animate",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "continue-revolution/sd-webui-animatediff"
+}

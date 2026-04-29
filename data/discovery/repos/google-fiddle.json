@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yaml",
+      "source_repo": "google/fiddle",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/testing.yaml",
+      "source_repo": "google/fiddle",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:52:02.097402+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 603
+    },
+    {
+      "path": ".github/workflows/testing.yaml",
+      "size": 787
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google/fiddle",
+    "html_url": "https://github.com/google/fiddle",
+    "language": "Python",
+    "pushed_at": "2026-04-29T20:40:34Z",
+    "stargazers_count": 381,
+    "topics": [],
+    "updated_at": "2026-04-23T23:54:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

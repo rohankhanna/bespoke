@@ -73,6 +73,18 @@
       "source_repo": "ipfs/rainbow",
       "status": "candidate-context",
       "text": "Release Checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/go-ipfs-example-plugin",
+      "status": "candidate-context",
+      "text": "Demo plugin for Kubo IPFS daemon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-ipfs-example-plugin",
+      "status": "candidate-context",
+      "text": "Release Checker"
     }
   ],
   "candidate_glosses": [
@@ -109,6 +121,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "ipfs/rainbow",
+      "status": "candidate",
+      "text": "Release Checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/go-ipfs-example-plugin",
       "status": "candidate",
       "text": "Release Checker"
     }
@@ -190,11 +208,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/release-check.yml",
       "source_repo": "ipfs/rainbow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release-check.yml",
+      "source_repo": "ipfs/go-ipfs-example-plugin"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

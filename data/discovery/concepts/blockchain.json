@@ -550,6 +550,66 @@
       "source_repo": "stx-labs/connect",
       "status": "candidate-context",
       "text": "Head over to the [`@stacks/connect` README](https://github.com/stx-labs/connect/tree/main/packages/connect)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chawyehsu/dorado",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1f Yet Another bucket for lovely Scoop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chawyehsu/dorado",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate-context",
+      "text": "Solidity Compiler for Solana, Polkadot and Stellar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate-context",
+      "text": "<img src=\"https://raw.githubusercontent.com/hyperledger/solang/main/docs/hl_solang_horizontal-color.svg\" alt=\"Solang Logo\" width=\"75%\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies \ud83d\ude80 by @miguelmota"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/lotus",
+      "status": "candidate-context",
+      "text": "Reference implementation of the Filecoin protocol, written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/lotus",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/go-spacemesh",
+      "status": "candidate-context",
+      "text": "Go Implementation of the Spacemesh protocol full node. \ud83d\udcbe\u23f0\ud83d\udcaa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/go-spacemesh",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/spacemeshos/go-spacemesh/blob/master/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -822,6 +882,36 @@
       "source_repo": "stx-labs/connect",
       "status": "candidate",
       "text": "Head over to the [`@stacks/connect` README](https://github.com/stx-labs/connect/tree/main/packages/connect)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chawyehsu/dorado",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate",
+      "text": "<img src=\"https://raw.githubusercontent.com/hyperledger/solang/main/docs/hl_solang_horizontal-color.svg\" alt=\"Solang Logo\" width=\"75%\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/lotus",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/go-spacemesh",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/spacemeshos/go-spacemesh/blob/master/LICENSE)"
     }
   ],
   "candidate_related_terms": [
@@ -1243,11 +1333,77 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chawyehsu/dorado"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "argotorg/solidity"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hyperledger-solang/solang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ConsenSys-archive/ganache"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmone"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dethcrypto/TypeChain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lightning/bolts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/cointop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "filecoin-project/lotus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "spacemeshos/go-spacemesh"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

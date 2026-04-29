@@ -22,13 +22,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "multiformats/cid",
-      "target": "zen-eth/multiformats-zig",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/generated-pr.yml",
       "source_repo": "multiformats/cid",
@@ -78,6 +71,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "multiformats/cid"
 }

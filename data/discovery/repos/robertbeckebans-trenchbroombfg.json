@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "lukka/run-vcpkg@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml"
+    },
+    {
+      "component": "jidicula/clang-format-action@v4.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml"
+    },
+    {
+      "component": "TrenchBroom/clean-commit-action@v0.7.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-commit.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "robertbeckebans/doom-3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "trenchbroom/trenchbroom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "kduske/trenchbroom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "nigels-com/glew",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "jurplel/install-qt-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "lukka/run-vcpkg@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "actions/upload-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "jidicula/clang-format-action@v4.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "clang-format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clean-commit.yml",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "TrenchBroom/clean-commit-action@v0.7.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-commit.yml",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "Pull request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "doom3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "leveldesign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "mapping",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "target": "rbdoom3bfg",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:51.492435+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7992
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 7256
+    },
+    {
+      "path": ".github/workflows/clang-format-check.yml",
+      "size": 494
+    },
+    {
+      "path": ".github/workflows/clean-commit.yml",
+      "size": 356
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "TrenchBroom for DOOM 3 (BFG)",
+    "fork": true,
+    "full_name": "RobertBeckebans/TrenchBroomBFG",
+    "html_url": "https://github.com/RobertBeckebans/TrenchBroomBFG",
+    "language": "C++",
+    "pushed_at": "2025-08-25T13:14:43Z",
+    "stargazers_count": 57,
+    "topics": [
+      "doom3",
+      "leveldesign",
+      "mapping",
+      "rbdoom3bfg"
+    ],
+    "updated_at": "2026-04-25T23:57:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kduske/trenchbroom",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nigels-com/glew",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robertbeckebans/doom-3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trenchbroom/trenchbroom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "clang-format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format-check.yml",
+      "term": "clang-format Check"
+    },
+    {
+      "context_snippet": "Pull request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clean-commit.yml",
+      "term": "Pull request"
+    },
+    {
+      "context_snippet": "***The goal of TrenchBroomBFG is to make mapping for Doom 3 (BFG) as easy as it is for Quake.***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "doom3"
+    },
+    {
+      "context_snippet": "***The goal of TrenchBroomBFG is to make mapping for Doom 3 (BFG) as easy as it is for Quake.***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "leveldesign"
+    },
+    {
+      "context_snippet": "***The goal of TrenchBroomBFG is to make mapping for Doom 3 (BFG) as easy as it is for Quake.***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mapping"
+    },
+    {
+      "context_snippet": "***The goal of TrenchBroomBFG is to make mapping for Doom 3 (BFG) as easy as it is for Quake.***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rbdoom3bfg"
+    }
+  ]
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Publish Release",
-    "Publish release"
+    "Publish release",
+    "publish-release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -128,6 +129,54 @@
       "source_repo": "connectrpc/connect-query-es",
       "status": "candidate-context",
       "text": "Publish Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-ios-dev",
+      "status": "candidate-context",
+      "text": "Apollo iOS Development Repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios-dev",
+      "status": "candidate-context",
+      "text": "\"Publish Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "Boa is an embeddable Javascript engine written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate-context",
+      "text": "Web UI for Jaeger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate-context",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": ":rocket: \u00a0A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": "publish-release"
     }
   ],
   "candidate_glosses": [
@@ -190,6 +239,30 @@
       "source_repo": "connectrpc/connect-query-es",
       "status": "candidate",
       "text": "Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios-dev",
+      "status": "candidate",
+      "text": "\"Publish Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate",
+      "text": "Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate",
+      "text": "Publish release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate",
+      "text": "publish-release"
     }
   ],
   "candidate_related_terms": [
@@ -311,11 +384,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/publish_release.yml",
       "source_repo": "swiftlang/swift-format"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish_release.yml",
+      "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "apollographql/apollo-ios-dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "boa-dev/boa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jaegertracing/jaeger-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "apollographql/apollo-kotlin"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

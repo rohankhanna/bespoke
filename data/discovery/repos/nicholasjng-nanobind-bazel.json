@@ -1,0 +1,210 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/capture-compile-commands.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/capture-compile-commands.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/capture-compile-commands.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/capture-compile-commands.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/capture-compile-commands.yaml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/capture-compile-commands.yaml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/capture-compile-commands.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "target": "pybind/pybind11_bazel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/capture-compile-commands.yaml",
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/capture-compile-commands.yaml",
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/capture-compile-commands.yaml",
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/capture-compile-commands.yaml",
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "target": "actions/upload-artifact/merge@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml",
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-and-test.yaml",
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-and-test.yaml",
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "target": "Lint and test nanobind-bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "target": "nanobind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nicholasjng/nanobind-bazel",
+      "target": "python-bindings",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:43:25.572243+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4269
+    },
+    {
+      "path": ".github/workflows/capture-compile-commands.yaml",
+      "size": 3531
+    },
+    {
+      "path": ".github/workflows/lint-and-test.yaml",
+      "size": 2127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bazel defs and rules for building Python projects with nanobind extensions.",
+    "fork": false,
+    "full_name": "nicholasjng/nanobind-bazel",
+    "html_url": "https://github.com/nicholasjng/nanobind-bazel",
+    "language": "Starlark",
+    "pushed_at": "2026-03-12T09:10:23Z",
+    "stargazers_count": 12,
+    "topics": [
+      "bazel",
+      "cpp",
+      "nanobind",
+      "python-bindings"
+    ],
+    "updated_at": "2026-03-12T09:03:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pybind/pybind11_bazel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint and test nanobind-bazel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-and-test.yaml",
+      "term": "Lint and test nanobind-bazel"
+    },
+    {
+      "context_snippet": "This repo contains Bazel build defs for Python bindings created with [nanobind](https://github.com/wjakob/nanobind).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "This repo contains Bazel build defs for Python bindings created with [nanobind](https://github.com/wjakob/nanobind).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nanobind"
+    },
+    {
+      "context_snippet": "This repo contains Bazel build defs for Python bindings created with [nanobind](https://github.com/wjakob/nanobind).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-bindings"
+    }
+  ]
+}

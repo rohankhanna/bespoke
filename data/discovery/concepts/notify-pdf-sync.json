@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Notify PDF sync"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/pdf.js",
+      "status": "candidate-context",
+      "text": "PDF Reader in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/pdf.js",
+      "status": "candidate-context",
+      "text": "Notify PDF sync"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/pdf.js",
+      "status": "candidate",
+      "text": "Notify PDF sync"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10243,
+      "status": "candidate",
+      "text": "portable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10146,
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10088,
+      "status": "candidate",
+      "text": "canonize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10088,
+      "status": "candidate",
+      "text": "diptych"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10088,
+      "status": "candidate",
+      "text": "hypertext"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Notify PDF sync",
+  "concept_id": "notify-pdf-sync",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/notify-pdf-sync.yml",
+      "source_repo": "mozilla/pdf.js"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Notify PDF sync",
+      "sense_id": "notify-pdf-sync#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

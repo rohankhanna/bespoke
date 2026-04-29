@@ -1,0 +1,79 @@
+{
+  "aliases": [
+    "mpeg"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FFmpeg/FFmpeg",
+      "status": "candidate-context",
+      "text": "Mirror of https://git.ffmpeg.org/ffmpeg.git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FFmpeg/FFmpeg",
+      "status": "candidate-context",
+      "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FFmpeg/FFmpeg",
+      "status": "candidate",
+      "text": "FFmpeg is a collection of libraries and tools to process multimedia content"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014149,
+      "status": "candidate",
+      "text": "mpeg-2"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014147,
+      "status": "candidate",
+      "text": "jpeg"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "mpeg",
+  "concept_id": "mpeg",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FFmpeg/FFmpeg"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mpeg",
+      "sense_id": "mpeg#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -117,6 +117,18 @@
       "source_repo": "grok-ai/nn-template",
       "status": "candidate-context",
       "text": "Publish docs"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scala-interop/slinc",
+      "status": "candidate-context",
+      "text": "Scala <-> C interop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scala-interop/slinc",
+      "status": "candidate-context",
+      "text": "Publish Docs"
     }
   ],
   "candidate_glosses": [
@@ -173,6 +185,12 @@
       "source_repo": "grok-ai/nn-template",
       "status": "candidate",
       "text": "Publish docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scala-interop/slinc",
+      "status": "candidate",
+      "text": "Publish Docs"
     }
   ],
   "candidate_related_terms": [
@@ -288,11 +306,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "axolotl-ai-cloud/axolotl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-docs.yml",
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "axolotl-ai-cloud/axolotl"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

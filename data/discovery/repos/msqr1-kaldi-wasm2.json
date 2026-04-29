@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msqr1/kaldi-wasm2",
+      "target": "kaldi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "msqr1/kaldi-wasm2",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:45:22.830630+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7781
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "New compilation guide for Kaldi to WASM",
+    "fork": false,
+    "full_name": "msqr1/kaldi-wasm2",
+    "html_url": "https://github.com/msqr1/kaldi-wasm2",
+    "language": null,
+    "pushed_at": "2025-03-18T18:18:28Z",
+    "stargazers_count": 5,
+    "topics": [
+      "kaldi",
+      "webassembly"
+    ],
+    "updated_at": "2026-02-22T17:09:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "- There is [an older guide](https://gitlab.inria.fr/multispeech/kaldi.web/kaldi-wasm/-/wikis/build_details.md) for this that compiled Kaldi with [CLAPACK](https://www.netlib.org/clapack) (not properly tested) and [Netlib's Reference BLAS](https://www.netlib.org/blas), which exis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kaldi"
+    },
+    {
+      "context_snippet": "- There is [an older guide](https://gitlab.inria.fr/multispeech/kaldi.web/kaldi-wasm/-/wikis/build_details.md) for this that compiled Kaldi with [CLAPACK](https://www.netlib.org/clapack) (not properly tested) and [Netlib's Reference BLAS](https://www.netlib.org/blas), which exis\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

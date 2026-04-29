@@ -19,6 +19,18 @@
       "source_repo": "taylorwilsdon/google_workspace_mcp",
       "status": "candidate-context",
       "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/directory-connector",
+      "status": "candidate-context",
+      "text": "A tool for syncing a directory (AD, LDAP, Azure, G Suite, Okta) to an organization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/directory-connector",
+      "status": "candidate-context",
+      "text": "![Build](https://github.com/bitwarden/directory-connector/workflows/Build/badge.svg)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "taylorwilsdon/google_workspace_mcp",
       "status": "candidate",
       "text": "<!-- mcp-name: io.github.taylorwilsdon/workspace-mcp -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/directory-connector",
+      "status": "candidate",
+      "text": "![Build](https://github.com/bitwarden/directory-connector/workflows/Build/badge.svg)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "taylorwilsdon/google_workspace_mcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bitwarden/directory-connector"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,42 @@
       "source_repo": "wang-xinyu/tensorrtx",
       "status": "candidate-context",
       "text": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlexeyAB/darknet",
+      "status": "candidate-context",
+      "text": "YOLOv4 / Scaled-YOLOv4 / YOLO - Neural Networks for Object Detection (Windows and Linux version of Darknet )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexeyAB/darknet",
+      "status": "candidate-context",
+      "text": "* Read the FAQ: https://www.ccoderun.ca/programming/darknet_faq/"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "status": "candidate-context",
+      "text": "This is a pytorch repository of YOLOv4, attentive YOLOv4 and mobilenet YOLOv4 with PASCAL VOC and COCO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "status": "candidate-context",
+      "text": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "status": "candidate-context",
+      "text": "This repository provides you with an easy-to-use labeling tool for State-of-the-art Deep Learning training purposes. It supports Auto-Labeling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "wang-xinyu/tensorrtx",
       "status": "candidate",
       "text": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexeyAB/darknet",
+      "status": "candidate",
+      "text": "* Read the FAQ: https://www.ccoderun.ca/programming/darknet_faq/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "status": "candidate",
+      "text": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "wang-xinyu/tensorrtx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AlexeyAB/darknet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "argusswift/YOLOv4-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

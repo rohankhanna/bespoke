@@ -1366,6 +1366,252 @@
       "source_repo": "doom-neovim/doom-nvim",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "status": "candidate-context",
+      "text": "Brings physics-based smooth scrolling to the Vim world!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "status": "candidate-context",
+      "text": "Brings physics-based smooth scrolling to the Vim/Neovim world!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-glyph-palette",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 An universal palette for Nerd Fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-glyph-palette",
+      "status": "candidate-context",
+      "text": "![Support Vim 8.1 or above](https://img.shields.io/badge/support-Vim%208.1%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-nerdfont",
+      "status": "candidate-context",
+      "text": "\ud83d\udc53  Fundemental plugin to handle Nerd Fonts in Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-nerdfont",
+      "status": "candidate-context",
+      "text": "Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-nerdfont",
+      "status": "candidate-context",
+      "text": "![Support Vim 8.2.5136 or above](https://img.shields.io/badge/support-Vim%208.2.5136%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "liuchengxu/space-vim",
+      "status": "candidate-context",
+      "text": ":four_leaf_clover: Lean & mean spacemacs-ish Vim distribution"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/space-vim",
+      "status": "candidate-context",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhinz/vim-signify",
+      "status": "candidate-context",
+      "text": ":heavy_plus_sign: Show a diff using Vim its sign column."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-signify",
+      "status": "candidate-context",
+      "text": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate-context",
+      "text": "Utility functions for getting diagnostic status and progress messages from LSP servers, for use in the Neovim statusline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate-context",
+      "text": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamcco/coc-flutter",
+      "status": "candidate-context",
+      "text": "flutter support for (Neo)vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamcco/coc-flutter",
+      "status": "candidate-context",
+      "text": "Flutter support for (Neo)vim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin to improve the default vim.ui interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antoinemadec/FixCursorHold.nvim",
+      "status": "candidate-context",
+      "text": "Fix CursorHold Performance."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoinemadec/FixCursorHold.nvim",
+      "status": "candidate-context",
+      "text": "Fix CursorHold Performance"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/trouble.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udea6 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/trouble.nvim",
+      "status": "candidate-context",
+      "text": "A pretty list for showing diagnostics, references, telescope results, quickfix and location lists to help you solve all the trouble your code is causing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "noib3/nvim-oxi",
+      "status": "candidate-context",
+      "text": ":link: Rust bindings to all things Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noib3/nvim-oxi",
+      "status": "candidate-context",
+      "text": "[![Latest version]](https://crates.io/crates/nvim-oxi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lewis6991/async.nvim",
+      "status": "candidate-context",
+      "text": "Async library for Neovim plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/async.nvim",
+      "status": "candidate-context",
+      "text": "Structured concurrency library for Lua 5.1, built on coroutines."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "<img alt=\"FFF\" src=\"./assets/logo-orange.png\" width=\"300\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "status": "candidate-context",
+      "text": "A (N)Vim plugin for formatting Julia code using JuliaFormatter.jl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "status": "candidate-context",
+      "text": "Plugin for formatting Julia code in (n)vim using [`JuliaFormatter.jl`](https://github.com/domluna/JuliaFormatter.jl)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sonph/onehalf",
+      "status": "candidate-context",
+      "text": "Clean, vibrant and pleasing color schemes for Vim, Sublime Text, iTerm, gnome-terminal and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sonph/onehalf",
+      "status": "candidate-context",
+      "text": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "A neovim integration for television"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "Passionately Crafted CLI Setup \ud83d\udc27\u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/nvim2k",
+      "status": "candidate-context",
+      "text": "Your Personalized Dev Env \u2764\ufe0f\ud83d\udc68\u200d\ud83d\udcbb"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/nvim2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aileot/vim-foldpeek",
+      "status": "candidate-context",
+      "text": "Peek in fold"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aileot/vim-foldpeek",
+      "status": "candidate-context",
+      "text": "vim-foldpeek starts from a partial fork of"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lervag/vimtex",
+      "status": "candidate-context",
+      "text": "VimTeX: A modern Vim and neovim filetype plugin for LaTeX files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lervag/vimtex",
+      "status": "candidate-context",
+      "text": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)"
     }
   ],
   "candidate_glosses": [
@@ -2052,6 +2298,132 @@
       "source_repo": "doom-neovim/doom-nvim",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "status": "candidate",
+      "text": "Brings physics-based smooth scrolling to the Vim/Neovim world!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-glyph-palette",
+      "status": "candidate",
+      "text": "![Support Vim 8.1 or above](https://img.shields.io/badge/support-Vim%208.1%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-nerdfont",
+      "status": "candidate",
+      "text": "Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-nerdfont",
+      "status": "candidate",
+      "text": "![Support Vim 8.2.5136 or above](https://img.shields.io/badge/support-Vim%208.2.5136%20or%20above-yellowgreen.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "liuchengxu/space-vim",
+      "status": "candidate",
+      "text": "<p align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-signify",
+      "status": "candidate",
+      "text": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate",
+      "text": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamcco/coc-flutter",
+      "status": "candidate",
+      "text": "Flutter support for (Neo)vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antoinemadec/FixCursorHold.nvim",
+      "status": "candidate",
+      "text": "Fix CursorHold Performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/trouble.nvim",
+      "status": "candidate",
+      "text": "A pretty list for showing diagnostics, references, telescope results, quickfix and location lists to help you solve all the trouble your code is causing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noib3/nvim-oxi",
+      "status": "candidate",
+      "text": "[![Latest version]](https://crates.io/crates/nvim-oxi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/async.nvim",
+      "status": "candidate",
+      "text": "Structured concurrency library for Lua 5.1, built on coroutines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate",
+      "text": "<img alt=\"FFF\" src=\"./assets/logo-orange.png\" width=\"300\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kdheepak/JuliaFormatter.vim",
+      "status": "candidate",
+      "text": "Plugin for formatting Julia code in (n)vim using [`JuliaFormatter.jl`](https://github.com/domluna/JuliaFormatter.jl)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sonph/onehalf",
+      "status": "candidate",
+      "text": "[![version tag](https://img.shields.io/github/tag/sonph/onehalf.svg?style=flat-square)](https://github.com/sonph/onehalf/releases)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/nvim2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aileot/vim-foldpeek",
+      "status": "candidate",
+      "text": "vim-foldpeek starts from a partial fork of"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lervag/vimtex",
+      "status": "candidate",
+      "text": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)"
     }
   ],
   "candidate_related_terms": [],
@@ -2839,11 +3211,209 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "yuttie/comfortable-motion.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "liuchengxu/space-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mhinz/vim-signify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvim-lua/lsp-status.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "iamcco/coc-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/dressing.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adelarsq/vim-emoji-icon-theme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "andymass/vim-matchup"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "antoinemadec/FixCursorHold.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "folke/trouble.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvim-tree/nvim-web-devicons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "noib3/nvim-oxi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lewis6991/async.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/neovim.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kdheepak/JuliaFormatter.vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sonph/onehalf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "onsails/lspkind.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexpasmantier/tv.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/dots2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/nvim2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aileot/vim-foldpeek"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lervag/vimtex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -323,6 +323,78 @@
       "source_repo": "intel/ai-containers",
       "status": "candidate-context",
       "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate-context",
+      "text": "CLI tool to build, test, debug, and deploy Serverless applications using AWS SAM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate-context",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iterate-ch/cyberduck",
+      "status": "candidate-context",
+      "text": "Cyberduck is a libre FTP, SFTP, WebDAV, Amazon S3, Backblaze B2, Microsoft Azure & OneDrive and OpenStack Swift file transfer client for Mac and Windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/cyberduck",
+      "status": "candidate-context",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate-context",
+      "text": "The collection includes a variety of Ansible content to help automate the management of applications in Kubernetes and OpenShift clusters, as well as the provisioning and maintenance of clusters themselves."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate-context",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/tinyengine",
+      "status": "candidate-context",
+      "text": "[NeurIPS 2020] MCUNet: Tiny Deep Learning on IoT Devices; [NeurIPS 2021] MCUNetV2: Memory-Efficient Patch-based Inference for Tiny Deep Learning; [NeurIPS 2022] MCUNetV3: On-Device Training Under 256KB Memory"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/tinyengine",
+      "status": "candidate-context",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "serverless-operations/serverless-step-functions",
+      "status": "candidate-context",
+      "text": "AWS Step Functions plugin for Serverless Framework \u26a1\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless-operations/serverless-step-functions",
+      "status": "candidate-context",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/pdf.js",
+      "status": "candidate-context",
+      "text": "PDF Reader in JavaScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/pdf.js",
+      "status": "candidate-context",
+      "text": "Integration tests"
     }
   ],
   "candidate_glosses": [
@@ -481,6 +553,42 @@
       "source_repo": "intel/ai-containers",
       "status": "candidate",
       "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sam-cli",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iterate-ch/cyberduck",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/tinyengine",
+      "status": "candidate",
+      "text": "Integration tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "serverless-operations/serverless-step-functions",
+      "status": "candidate",
+      "text": "Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/pdf.js",
+      "status": "candidate",
+      "text": "Integration tests"
     }
   ],
   "candidate_related_terms": [
@@ -734,11 +842,59 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/integration-test.yaml",
       "source_repo": "intel/ai-containers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "aws/aws-sam-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "spotipy-dev/spotipy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iterate-ch/cyberduck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "ansible-collections/kubernetes.core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/code_quality.yaml",
+      "source_repo": "mit-han-lab/tinyengine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "triton-lang/triton"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/integration.yml",
+      "source_repo": "serverless-operations/serverless-step-functions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/integration_tests.yml",
+      "source_repo": "mozilla/pdf.js"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Generate Deploy Scaffolding"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate-context",
+      "text": "Sample application built using Atlan Application SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate-context",
+      "text": "Generate Deploy Scaffolding"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate",
+      "text": "Generate Deploy Scaffolding"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18689,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18498,
+      "status": "candidate",
+      "text": "bau"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18498,
+      "status": "candidate",
+      "text": "bay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18498,
+      "status": "candidate",
+      "text": "baying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18498,
+      "status": "candidate",
+      "text": "footing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Generate Deploy Scaffolding",
+  "concept_id": "generate-deploy-scaffolding",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/generate-deploy-scaffolding.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Generate Deploy Scaffolding",
+      "sense_id": "generate-deploy-scaffolding#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

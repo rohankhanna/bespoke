@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An ultimately comprehensive paper list of Vision Transformer/Attention, including papers, codes, and related websites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transformer-awesome",
+      "sense_id": "transformer-awesome#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "transformer-awesome",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "transformer-awesome",
+  "observation_id": "8d95b34559f5838f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "transformer-awesome",
+  "source_context_snippet": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>",
+  "source_file": null,
+  "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+  "source_repo_description": "An ultimately comprehensive paper list of Vision Transformer/Attention, including papers, codes, and related websites"
+}

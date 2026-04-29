@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@7cb3ba7bc31801346db00d4a6d7008aabab5e986",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "boa-dev/boa"
+    }
+  ]
+}

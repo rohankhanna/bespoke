@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:41:55.393107+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 691
+    },
+    {
+      "path": "requirements.txt",
+      "size": 41
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository contains integer operators on GPUs for PyTorch.",
+    "fork": false,
+    "full_name": "Guangxuan-Xiao/torch-int",
+    "html_url": "https://github.com/Guangxuan-Xiao/torch-int",
+    "language": "Python",
+    "pushed_at": "2023-09-29T20:33:39Z",
+    "stargazers_count": 236,
+    "topics": [],
+    "updated_at": "2026-03-27T03:11:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

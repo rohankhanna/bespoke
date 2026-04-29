@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/bleurt",
+      "target": "unbabel/comet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-research/bleurt",
+      "target": "tiiiger/bert_score",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:45:53.218369+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BLEURT is a metric for Natural Language Generation based on transfer learning.",
+    "fork": false,
+    "full_name": "google-research/bleurt",
+    "html_url": "https://github.com/google-research/bleurt",
+    "language": "Python",
+    "pushed_at": "2023-08-04T12:53:10Z",
+    "stargazers_count": 793,
+    "topics": [],
+    "updated_at": "2026-04-29T13:30:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tiiiger/bert_score",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "unbabel/comet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

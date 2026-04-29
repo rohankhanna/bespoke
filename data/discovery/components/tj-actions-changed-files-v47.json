@@ -1,7 +1,7 @@
 {
   "component": "tj-actions/changed-files@v47",
   "first_seen_at": "2026-04-18T03:26:22.590180+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -82,6 +82,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/links.yaml",
       "source_repo": "a2aproject/A2A"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_detect-changes.yml",
+      "source_repo": "OffchainLabs/nitro"
     }
   ]
 }

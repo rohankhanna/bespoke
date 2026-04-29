@@ -1,0 +1,563 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "action-pack/github-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "action-pack/bump@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "action-pack/gitlab-sync@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "action-pack/send-mail@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "ludeeus/action-shellcheck@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "hadolint/hadolint-action@v3.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "action-pack/valid-xml@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "GrantBirki/json-yaml-validate@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hub.yml"
+    },
+    {
+      "component": "peter-evans/dockerhub-description@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hub.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    },
+    {
+      "component": "reviewdog/action-misspell@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    },
+    {
+      "component": "reviewdog/action-hadolint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    },
+    {
+      "component": "reviewdog/action-yamllint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    },
+    {
+      "component": "reviewdog/action-actionlint@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    },
+    {
+      "component": "reviewdog/action-shfmt@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    },
+    {
+      "component": "reviewdog/action-shellcheck@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "dockur/windows",
+      "target": "gershnik/wsdd-native",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "dockur/windows",
+      "target": "qemus/virtiso-whql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dockur/windows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dockur/windows",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dockur/windows",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dockur/windows",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dockur/windows",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dockur/windows",
+      "target": "action-pack/github-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dockur/windows",
+      "target": "action-pack/bump@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dockur/windows",
+      "target": "action-pack/gitlab-sync@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dockur/windows",
+      "target": "action-pack/send-mail@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dockur/windows",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "dockur/windows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "dockur/windows",
+      "target": "ludeeus/action-shellcheck@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "dockur/windows",
+      "target": "hadolint/hadolint-action@v3.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "dockur/windows",
+      "target": "action-pack/valid-xml@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "dockur/windows",
+      "target": "GrantBirki/json-yaml-validate@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "source_repo": "dockur/windows",
+      "target": "Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hub.yml",
+      "source_repo": "dockur/windows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hub.yml",
+      "source_repo": "dockur/windows",
+      "target": "peter-evans/dockerhub-description@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hub.yml",
+      "source_repo": "dockur/windows",
+      "target": "Update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "dockur/windows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "dockur/windows",
+      "target": "Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "dockur/windows",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "dockur/windows",
+      "target": "reviewdog/action-misspell@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "dockur/windows",
+      "target": "reviewdog/action-hadolint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "dockur/windows",
+      "target": "reviewdog/action-yamllint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "dockur/windows",
+      "target": "reviewdog/action-actionlint@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "dockur/windows",
+      "target": "reviewdog/action-shfmt@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "dockur/windows",
+      "target": "reviewdog/action-shellcheck@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review.yml",
+      "source_repo": "dockur/windows",
+      "target": "Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "dockur/windows",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dockur/windows",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dockur/windows",
+      "target": "docker-container",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dockur/windows",
+      "target": "virtualization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dockur/windows",
+      "target": "windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dockur/windows",
+      "target": "windows-virtual-desktop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dockur/windows",
+      "target": "windows-virtual-machine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dockur/windows",
+      "target": "windows-virtual-machines",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dockur/windows",
+      "target": "windows-vm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:54:13.167516+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 1190
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 3155
+    },
+    {
+      "path": ".github/workflows/check.yml",
+      "size": 927
+    },
+    {
+      "path": ".github/workflows/hub.yml",
+      "size": 653
+    },
+    {
+      "path": ".github/workflows/links.yml",
+      "size": 2061
+    },
+    {
+      "path": ".github/workflows/review.yml",
+      "size": 1694
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Windows inside a Docker container.",
+    "fork": false,
+    "full_name": "dockur/windows",
+    "html_url": "https://github.com/dockur/windows",
+    "language": "Shell",
+    "pushed_at": "2026-04-01T21:07:16Z",
+    "stargazers_count": 51107,
+    "topics": [
+      "docker",
+      "docker-container",
+      "virtualization",
+      "windows",
+      "windows-virtual-desktop",
+      "windows-virtual-machine",
+      "windows-virtual-machines",
+      "windows-vm"
+    ],
+    "updated_at": "2026-04-29T20:35:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gershnik/wsdd-native",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qemus/virtiso-whql",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "\"Check\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check.yml",
+      "term": "Check"
+    },
+    {
+      "context_snippet": "Update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hub.yml",
+      "term": "Update"
+    },
+    {
+      "context_snippet": "Links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/links.yml",
+      "term": "Links"
+    },
+    {
+      "context_snippet": "\"Review\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/review.yml",
+      "term": "Review"
+    },
+    {
+      "context_snippet": "\"Test\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-container"
+    },
+    {
+      "context_snippet": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtualization"
+    },
+    {
+      "context_snippet": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    },
+    {
+      "context_snippet": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-virtual-desktop"
+    },
+    {
+      "context_snippet": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-virtual-machine"
+    },
+    {
+      "context_snippet": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-virtual-machines"
+    },
+    {
+      "context_snippet": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows-vm"
+    }
+  ]
+}

@@ -1,0 +1,195 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS.yaml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS.yaml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rat.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yaml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/conda.yaml",
+      "source_repo": "apache/singa",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda.yaml",
+      "source_repo": "apache/singa",
+      "target": "conda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS.yaml",
+      "source_repo": "apache/singa",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macOS.yaml",
+      "source_repo": "apache/singa",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macOS.yaml",
+      "source_repo": "apache/singa",
+      "target": "Native-MacOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rat.yaml",
+      "source_repo": "apache/singa",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rat.yaml",
+      "source_repo": "apache/singa",
+      "target": "License-Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yaml",
+      "source_repo": "apache/singa",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yaml",
+      "source_repo": "apache/singa",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yaml",
+      "source_repo": "apache/singa",
+      "target": "Native-Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/singa",
+      "target": "deep-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:52:58.710014+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2571
+    },
+    {
+      "path": ".github/workflows/conda.yaml",
+      "size": 3056
+    },
+    {
+      "path": ".github/workflows/macOS.yaml",
+      "size": 2660
+    },
+    {
+      "path": ".github/workflows/rat.yaml",
+      "size": 1663
+    },
+    {
+      "path": ".github/workflows/ubuntu.yaml",
+      "size": 2746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a distributed deep learning platform",
+    "fork": false,
+    "full_name": "apache/singa",
+    "html_url": "https://github.com/apache/singa",
+    "language": "C++",
+    "pushed_at": "2026-03-23T10:05:37Z",
+    "stargazers_count": 3604,
+    "topics": [
+      "deep-learning"
+    ],
+    "updated_at": "2026-04-29T08:19:58Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "conda",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/conda.yaml",
+      "term": "conda"
+    },
+    {
+      "context_snippet": "Native-MacOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macOS.yaml",
+      "term": "Native-MacOS"
+    },
+    {
+      "context_snippet": "License-Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rat.yaml",
+      "term": "License-Check"
+    },
+    {
+      "context_snippet": "Native-Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yaml",
+      "term": "Native-Ubuntu"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    }
+  ]
+}

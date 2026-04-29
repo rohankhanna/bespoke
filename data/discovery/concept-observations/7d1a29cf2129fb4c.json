@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The most accessible chessboard in the planet earth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build add-on"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build add-on"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988579,
+      "status": "candidate",
+      "text": "sand-blind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988567,
+      "status": "candidate",
+      "text": "purblind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988546,
+      "status": "candidate",
+      "text": "visually impaired"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988328,
+      "status": "candidate",
+      "text": "blindfolded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39988192,
+      "status": "candidate",
+      "text": "excecate"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blind",
+      "sense_id": "blind#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 64027,
+      "status": "candidate",
+      "text": "besotted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43036,
+      "status": "candidate",
+      "text": "subterfuge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34056,
+      "status": "candidate",
+      "text": "stiff"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 33049,
+      "status": "candidate",
+      "text": "dim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28057,
+      "status": "candidate",
+      "text": "wet"
+    }
+  ],
+  "concept_id": "blind",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blind",
+  "observation_id": "7d1a29cf2129fb4c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "blind",
+  "source_context_snippet": "Build add-on",
+  "source_file": null,
+  "source_repo": "blindpandas/chessmart",
+  "source_repo_description": "The most accessible chessboard in the planet earth"
+}

@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "adamstark/AudioFile",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "adamstark/AudioFile",
+      "target": "Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamstark/AudioFile",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamstark/AudioFile",
+      "target": "audio-files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamstark/AudioFile",
+      "target": "audio-formats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamstark/AudioFile",
+      "target": "file-format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamstark/AudioFile",
+      "target": "read",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adamstark/AudioFile",
+      "target": "write",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:49:44.811015+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11235
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 594
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple C++ library for reading and writing audio files.",
+    "fork": false,
+    "full_name": "adamstark/AudioFile",
+    "html_url": "https://github.com/adamstark/AudioFile",
+    "language": "C++",
+    "pushed_at": "2025-10-15T20:42:10Z",
+    "stargazers_count": 1132,
+    "topics": [
+      "aif",
+      "audio",
+      "audio-files",
+      "audio-formats",
+      "file-format",
+      "read",
+      "wav",
+      "write"
+    ],
+    "updated_at": "2026-04-27T13:22:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build and Test"
+    },
+    {
+      "context_snippet": "<!-- Version and License Badges -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "<!-- Version and License Badges -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-files"
+    },
+    {
+      "context_snippet": "<!-- Version and License Badges -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-formats"
+    },
+    {
+      "context_snippet": "<!-- Version and License Badges -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "file-format"
+    },
+    {
+      "context_snippet": "<!-- Version and License Badges -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "read"
+    },
+    {
+      "context_snippet": "<!-- Version and License Badges -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "write"
+    }
+  ]
+}

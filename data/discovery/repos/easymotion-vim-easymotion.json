@@ -98,7 +98,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T08:34:49.020575+00:00",
+  "fetched_at": "2026-04-29T19:54:09.964194+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -119,13 +119,13 @@
     "html_url": "https://github.com/easymotion/vim-easymotion",
     "language": "Vim script",
     "pushed_at": "2024-02-05T02:30:15Z",
-    "stargazers_count": 7735,
+    "stargazers_count": 7739,
     "topics": [
       "vim",
       "vim-easymotion",
       "vim-plugin"
     ],
-    "updated_at": "2026-04-22T11:57:56Z"
+    "updated_at": "2026-04-29T16:00:22Z"
   },
   "repo_links": [
     {

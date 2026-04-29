@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunset1995/torch_efficient_distloss",
+      "target": "distortion-loss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunset1995/torch_efficient_distloss",
+      "target": "efficient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunset1995/torch_efficient_distloss",
+      "target": "mip-nerf-360",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sunset1995/torch_efficient_distloss",
+      "target": "nerf",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:33.375607+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4670
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficient distortion loss with O(n) realization.",
+    "fork": false,
+    "full_name": "sunset1995/torch_efficient_distloss",
+    "html_url": "https://github.com/sunset1995/torch_efficient_distloss",
+    "language": "Python",
+    "pushed_at": "2022-07-12T13:09:00Z",
+    "stargazers_count": 132,
+    "topics": [
+      "distortion-loss",
+      "efficient",
+      "mip-nerf-360",
+      "nerf"
+    ],
+    "updated_at": "2025-11-28T08:57:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Distortion loss is proposed by [mip-nerf-360](https://jonbarron.info/mipnerf360/), which encourages volume rendering weights to be compact and sparse and can alleviate *floater* and *background collapse* artifact.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distortion-loss"
+    },
+    {
+      "context_snippet": "Distortion loss is proposed by [mip-nerf-360](https://jonbarron.info/mipnerf360/), which encourages volume rendering weights to be compact and sparse and can alleviate *floater* and *background collapse* artifact.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient"
+    },
+    {
+      "context_snippet": "Distortion loss is proposed by [mip-nerf-360](https://jonbarron.info/mipnerf360/), which encourages volume rendering weights to be compact and sparse and can alleviate *floater* and *background collapse* artifact.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mip-nerf-360"
+    },
+    {
+      "context_snippet": "Distortion loss is proposed by [mip-nerf-360](https://jonbarron.info/mipnerf360/), which encourages volume rendering weights to be compact and sparse and can alleviate *floater* and *background collapse* artifact.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nerf"
+    }
+  ]
+}

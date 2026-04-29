@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "boto/boto",
+      "target": "PRs are not reviewed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/open_issue_message.yml",
+      "source_repo": "boto/boto",
+      "target": "aws-actions/closed-issue-message@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/open_issue_message.yml",
+      "source_repo": "boto/boto",
+      "target": "Open Issue Message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/open_pr_message.yml",
+      "source_repo": "boto/boto",
+      "target": "aws-actions/closed-issue-message@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/open_pr_message.yml",
+      "source_repo": "boto/boto",
+      "target": "Open PR Message",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale_bot.yml",
+      "source_repo": "boto/boto",
+      "target": "aws-actions/stale-issue-cleanup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale_bot.yml",
+      "source_repo": "boto/boto",
+      "target": "Close stale issues and pull requests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "boto/boto"
+}

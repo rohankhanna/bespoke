@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:48:51.359538+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 12874
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Glulx VM interpreter written in Javascript",
+    "fork": false,
+    "full_name": "erkyrath/quixe",
+    "html_url": "https://github.com/erkyrath/quixe",
+    "language": "JavaScript",
+    "pushed_at": "2025-09-01T05:13:44Z",
+    "stargazers_count": 172,
+    "topics": [],
+    "updated_at": "2026-02-13T12:00:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

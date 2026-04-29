@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fu5ha/rayn",
+      "target": "termhn/ultraviolet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fu5ha/rayn",
+      "target": "termhn/sdfu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "fu5ha/rayn",
+      "target": "termhn/quasi-rd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:45:08.224884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3284
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 767
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A small path tracing renderer written in Rust.",
+    "fork": false,
+    "full_name": "fu5ha/rayn",
+    "html_url": "https://github.com/fu5ha/rayn",
+    "language": "Rust",
+    "pushed_at": "2022-10-10T16:27:40Z",
+    "stargazers_count": 554,
+    "topics": [],
+    "updated_at": "2026-02-27T13:37:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "termhn/sdfu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "termhn/ultraviolet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "termhn/quasi-rd",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": []
+}

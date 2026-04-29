@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "walbourn/directxmathtest",
+      "target": "directxmath",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:45:17.700559+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 720
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tests for DirectXMath",
+    "fork": false,
+    "full_name": "walbourn/directxmathtest",
+    "html_url": "https://github.com/walbourn/directxmathtest",
+    "language": "C++",
+    "pushed_at": "2026-04-27T17:16:07Z",
+    "stargazers_count": 16,
+    "topics": [
+      "directxmath"
+    ],
+    "updated_at": "2026-04-27T17:16:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Copyright (c) Microsoft Corporation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directxmath"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:43:44.681873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3012
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "haha-lisa/RDM-Region-Aware-Diffusion-Model",
+    "html_url": "https://github.com/haha-lisa/RDM-Region-Aware-Diffusion-Model",
+    "language": "Python",
+    "pushed_at": "2024-04-08T02:22:45Z",
+    "stargazers_count": 185,
+    "topics": [],
+    "updated_at": "2026-04-09T08:55:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

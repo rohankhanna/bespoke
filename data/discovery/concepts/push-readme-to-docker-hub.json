@@ -31,6 +31,30 @@
       "source_repo": "prometheus/prometheus",
       "status": "candidate-context",
       "text": "Push README to Docker Hub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/node_exporter",
+      "status": "candidate-context",
+      "text": "Exporter for machine metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/node_exporter",
+      "status": "candidate-context",
+      "text": "Push README to Docker Hub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/blackbox_exporter",
+      "status": "candidate-context",
+      "text": "Blackbox prober exporter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/blackbox_exporter",
+      "status": "candidate-context",
+      "text": "Push README to Docker Hub"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "prometheus/prometheus",
+      "status": "candidate",
+      "text": "Push README to Docker Hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/node_exporter",
+      "status": "candidate",
+      "text": "Push README to Docker Hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/blackbox_exporter",
       "status": "candidate",
       "text": "Push README to Docker Hub"
     }
@@ -100,11 +136,23 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/container_description.yml",
       "source_repo": "prometheus/prometheus"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/container_description.yml",
+      "source_repo": "prometheus/node_exporter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/container_description.yml",
+      "source_repo": "prometheus/blackbox_exporter"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

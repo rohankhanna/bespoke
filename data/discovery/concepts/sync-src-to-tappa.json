@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Sync src to tappa"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rspatial/terra",
+      "status": "candidate-context",
+      "text": "R package for spatial data handling https://rspatial.github.io/terra/reference/terra-package.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspatial/terra",
+      "status": "candidate-context",
+      "text": "Sync src to tappa"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspatial/terra",
+      "status": "candidate",
+      "text": "Sync src to tappa"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10254,
+      "status": "candidate",
+      "text": "handkerchief"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10254,
+      "status": "candidate",
+      "text": "homespun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9566,
+      "status": "candidate",
+      "text": "code review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9566,
+      "status": "candidate",
+      "text": "compilation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9566,
+      "status": "candidate",
+      "text": "hope"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sync src to tappa",
+  "concept_id": "sync-src-to-tappa",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/sync-src-to-tappa.yml",
+      "source_repo": "rspatial/terra"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sync src to tappa",
+      "sense_id": "sync-src-to-tappa#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

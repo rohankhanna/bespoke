@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Linux tests"
+    "Linux tests",
+    "linux tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -31,6 +32,18 @@
       "source_repo": "python-lsp/python-lsp-server",
       "status": "candidate-context",
       "text": "Linux tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "toddbluhm/env-cmd",
+      "status": "candidate-context",
+      "text": "Setting environment variables from a file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toddbluhm/env-cmd",
+      "status": "candidate-context",
+      "text": "linux tests"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +58,12 @@
       "source_repo": "python-lsp/python-lsp-server",
       "status": "candidate",
       "text": "Linux tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toddbluhm/env-cmd",
+      "status": "candidate",
+      "text": "linux tests"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +119,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/test-linux.yml",
       "source_repo": "python-lsp/python-lsp-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/linux-tests.yml",
+      "source_repo": "toddbluhm/env-cmd"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

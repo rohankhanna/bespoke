@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "declare-lab/tango",
+      "target": "declare-lab/jamify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "declare-lab/tango",
+      "target": "declare-lab/tangoflux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "declare-lab/tango",
+      "target": "cdjkim/audiocaps",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "declare-lab/tango",
+      "target": "haoheliu/audioldm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/tango",
+      "target": "audio-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/tango",
+      "target": "diffusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/tango",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/tango",
+      "target": "language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/tango",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "declare-lab/tango",
+      "target": "text-to-audio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:47:59.409894+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15556
+    },
+    {
+      "path": "requirements.txt",
+      "size": 500
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A family of diffusion models for text-to-audio generation.",
+    "fork": false,
+    "full_name": "declare-lab/tango",
+    "html_url": "https://github.com/declare-lab/tango",
+    "language": "Python",
+    "pushed_at": "2025-07-29T02:13:29Z",
+    "stargazers_count": 1235,
+    "topics": [
+      "audio-generation",
+      "diffusion",
+      "diffusion-models",
+      "language-models",
+      "large-language-models",
+      "text-to-audio"
+    ],
+    "updated_at": "2026-04-22T11:50:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cdjkim/audiocaps",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "declare-lab/jamify",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "declare-lab/tangoflux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haoheliu/audioldm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udd25If you enjoyed Tango, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-generation"
+    },
+    {
+      "context_snippet": "\ud83d\udd25If you enjoyed Tango, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion"
+    },
+    {
+      "context_snippet": "\ud83d\udd25If you enjoyed Tango, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "\ud83d\udd25If you enjoyed Tango, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-models"
+    },
+    {
+      "context_snippet": "\ud83d\udd25If you enjoyed Tango, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "\ud83d\udd25If you enjoyed Tango, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-audio"
+    }
+  ]
+}

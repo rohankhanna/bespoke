@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "SCEPTER is an open-source framework used for training, fine-tuning, and inference with generative models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "-r requirements/framework.txt -r requirements/scepter_studio.txt"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "-r requirements/framework.txt -r requirements/scepter_studio.txt"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aigc",
+      "sense_id": "aigc#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aigc",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aigc",
+  "observation_id": "f1ddea33a178d5f1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "aigc",
+  "source_context_snippet": "-r requirements/framework.txt -r requirements/scepter_studio.txt",
+  "source_file": null,
+  "source_repo": "modelscope/scepter",
+  "source_repo_description": "SCEPTER is an open-source framework used for training, fine-tuning, and inference with generative models."
+}

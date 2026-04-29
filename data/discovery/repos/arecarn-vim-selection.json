@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:41:21.460401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 247
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "arecarn/vim-selection",
+    "html_url": "https://github.com/arecarn/vim-selection",
+    "language": "Vim script",
+    "pushed_at": "2021-08-30T19:18:32Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2024-11-09T21:09:06Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

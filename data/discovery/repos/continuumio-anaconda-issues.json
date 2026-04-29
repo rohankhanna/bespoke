@@ -1,0 +1,46 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dot-org-filter.yml",
+      "source_repo": "ContinuumIO/anaconda-issues",
+      "target": "Anaconda.org Issues Notification to Slack",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T22:00:05.846007+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 513
+    },
+    {
+      "path": ".github/workflows/dot-org-filter.yml",
+      "size": 1909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Anaconda issue tracking",
+    "fork": false,
+    "full_name": "ContinuumIO/anaconda-issues",
+    "html_url": "https://github.com/ContinuumIO/anaconda-issues",
+    "language": null,
+    "pushed_at": "2024-02-09T07:43:20Z",
+    "stargazers_count": 660,
+    "topics": [],
+    "updated_at": "2026-04-19T04:01:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Anaconda.org Issues Notification to Slack",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dot-org-filter.yml",
+      "term": "Anaconda.org Issues Notification to Slack"
+    }
+  ]
+}

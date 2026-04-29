@@ -129,6 +129,30 @@
       "source_repo": "apollographql/apollo-mcp-server",
       "status": "candidate-context",
       "text": "Prepare Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "praw-dev/praw",
+      "status": "candidate-context",
+      "text": "PRAW, an acronym for \"Python Reddit API Wrapper\", is a python package that allows for simple access to Reddit's API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "praw-dev/praw",
+      "status": "candidate-context",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/rust-build",
+      "status": "candidate-context",
+      "text": "Installation tools and workflows for deploying/building Rust fork esp-rs/rust with Xtensa and RISC-V support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/rust-build",
+      "status": "candidate-context",
+      "text": "Prepare Release"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apollographql/apollo-mcp-server",
+      "status": "candidate",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "praw-dev/praw",
+      "status": "candidate",
+      "text": "Prepare Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/rust-build",
       "status": "candidate",
       "text": "Prepare Release"
     }
@@ -294,11 +330,29 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/prep-release.yml",
       "source_repo": "apollographql/apollo-mcp-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/prepare_release.yml",
+      "source_repo": "praw-dev/praw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/prepare-release.yml",
+      "source_repo": "auth0/node-jws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/prepare-release.yaml",
+      "source_repo": "esp-rs/rust-build"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

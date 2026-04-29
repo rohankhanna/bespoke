@@ -103,6 +103,54 @@
       "source_repo": "CesiumGS/3d-tiles",
       "status": "candidate-context",
       "text": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urschrei/rdp",
+      "status": "candidate-context",
+      "text": "A library providing FFI access to fast Ramer\u2013Douglas\u2013Peucker and Visvalingam-Whyatt line simplification algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/rdp",
+      "status": "candidate-context",
+      "text": "[![Test and Build](https://github.com/urschrei/rdp/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/rdp/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/rdp/badge.svg?branch=master)](https://coveralls.io/github/urschrei\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postgis/postgis",
+      "status": "candidate-context",
+      "text": "PostGIS spatial database extension to PostgreSQL [mirror]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postgis/postgis",
+      "status": "candidate-context",
+      "text": "This file is here to play nicely with modern code repository facilities."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rspatial/terra",
+      "status": "candidate-context",
+      "text": "R package for spatial data handling https://rspatial.github.io/terra/reference/terra-package.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspatial/terra",
+      "status": "candidate-context",
+      "text": "<p align=\"right\"; style=\"font-size:11px\">logo by Zane Dax</p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "geocompx/geocompr",
+      "status": "candidate-context",
+      "text": "Geocomputation with R: an open source book"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geocompx/geocompr",
+      "status": "candidate-context",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +201,30 @@
       "source_repo": "CesiumGS/3d-tiles",
       "status": "candidate",
       "text": "![](figures/3DTiles_light_color_small.png#gh-dark-mode-only)![](figures/3DTiles_dark_color_small.png#gh-light-mode-only)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/rdp",
+      "status": "candidate",
+      "text": "[![Test and Build](https://github.com/urschrei/rdp/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/rdp/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/rdp/badge.svg?branch=master)](https://coveralls.io/github/urschrei\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postgis/postgis",
+      "status": "candidate",
+      "text": "This file is here to play nicely with modern code repository facilities."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspatial/terra",
+      "status": "candidate",
+      "text": "<p align=\"right\"; style=\"font-size:11px\">logo by Zane Dax</p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geocompx/geocompr",
+      "status": "candidate",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +316,41 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "CesiumGS/3d-tiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "urschrei/rdp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "postgis/postgis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rspatial/terra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "georust/geo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

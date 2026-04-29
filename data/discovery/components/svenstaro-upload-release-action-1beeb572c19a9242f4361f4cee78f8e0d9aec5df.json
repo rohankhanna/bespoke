@@ -1,0 +1,12 @@
+{
+  "component": "svenstaro/upload-release-action@1beeb572c19a9242f4361f4cee78f8e0d9aec5df",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "jaegertracing/jaeger-ui"
+    }
+  ]
+}

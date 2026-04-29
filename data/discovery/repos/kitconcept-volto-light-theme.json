@@ -1,0 +1,551 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-coverage.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-coverage.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-release.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-release.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-release.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-release.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-lint.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-test.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-test.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cypress-no-only.yml"
+    },
+    {
+      "component": "readthedocs/actions/preview@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-rtd-pr-preview.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-coverage.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-coverage.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-coverage.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-coverage.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "Backend Test Coverage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-image-build.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "Backend Image Generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-release.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-release.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-release.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-release.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-release.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-release.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-image-release.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "Backend Image Generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-lint.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-lint.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-lint.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "Backend Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-test.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-test.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend-test.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-test.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "Backend Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "dorny/paths-filter@v3.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "Changelog check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "dorny/paths-filter@v3.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/config.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "VLT: Compute Config variables",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cypress-no-only.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cypress-no-only.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "Cypress check for .only in tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs-rtd-pr-preview.yml",
+      "source_repo": "kitconcept/volto-light-theme",
+      "target": "readthedocs/actions/preview@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:48:36.769490+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5256
+    },
+    {
+      "path": ".github/workflows/backend-coverage.yml",
+      "size": 1425
+    },
+    {
+      "path": ".github/workflows/backend-image-build.yml",
+      "size": 3842
+    },
+    {
+      "path": ".github/workflows/backend-image-release.yml",
+      "size": 2348
+    },
+    {
+      "path": ".github/workflows/backend-lint.yml",
+      "size": 2119
+    },
+    {
+      "path": ".github/workflows/backend-test.yml",
+      "size": 1274
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 4165
+    },
+    {
+      "path": ".github/workflows/config.yml",
+      "size": 5895
+    },
+    {
+      "path": ".github/workflows/cypress-no-only.yml",
+      "size": 716
+    },
+    {
+      "path": ".github/workflows/docs-rtd-pr-preview.yml",
+      "size": 495
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "kitconcept/volto-light-theme",
+    "html_url": "https://github.com/kitconcept/volto-light-theme",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-29T17:07:25Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2026-04-29T17:07:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Backend Test Coverage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-coverage.yml",
+      "term": "Backend Test Coverage"
+    },
+    {
+      "context_snippet": "Backend Image Generation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-image-build.yml",
+      "term": "Backend Image Generation"
+    },
+    {
+      "context_snippet": "Backend Image Generation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-image-release.yml",
+      "term": "Backend Image Generation"
+    },
+    {
+      "context_snippet": "Backend Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-lint.yml",
+      "term": "Backend Lint"
+    },
+    {
+      "context_snippet": "Backend Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend-test.yml",
+      "term": "Backend Tests"
+    },
+    {
+      "context_snippet": "Changelog check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Changelog check"
+    },
+    {
+      "context_snippet": "\"VLT: Compute Config variables\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/config.yml",
+      "term": "VLT: Compute Config variables"
+    },
+    {
+      "context_snippet": "\"Cypress check for .only in tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cypress-no-only.yml",
+      "term": "Cypress check for .only in tests"
+    }
+  ]
+}

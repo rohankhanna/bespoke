@@ -1,7 +1,7 @@
 {
   "component": "crate-ci/typos@master",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/spelling.yml",
       "source_repo": "finegrain-ai/refiners"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "cobalt-org/cobalt.rs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typos.yml",
+      "source_repo": "kivikakk/comrak"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/typos.yaml",
+      "source_repo": "matter-labs/zksync-airbender"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "astral-sh/rye"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/quality-checks.yml",
+      "source_repo": "actor-framework/actor-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "rust-cli/human-panic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/spelling.yml",
+      "source_repo": "cobalt-org/cobalt-org.github.io"
     }
   ]
 }

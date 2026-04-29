@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A lightning-fast, cross-platform AI Assistant App built with React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "claude-4-sonnet",
+      "sense_id": "claude-4-sonnet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "claude-4-sonnet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "claude-4-sonnet",
+  "observation_id": "0c9792229c52657f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "claude-4-sonnet",
+  "source_context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+  "source_file": null,
+  "source_repo": "aws-samples/swift-chat",
+  "source_repo_description": "A lightning-fast, cross-platform AI Assistant App built with React Native."
+}

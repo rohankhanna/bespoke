@@ -139,6 +139,66 @@
       "source_repo": "openvinotoolkit/nncf",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "status": "candidate-context",
+      "text": "Real-Time Semantic Segmentation in Mobile device"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "status": "candidate-context",
+      "text": "This project is an example project of semantic segmentation for mobile real-time app."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate-context",
+      "text": "Image annotation with Python. Supports polygon, rectangle, circle, line, point, and AI-assisted annotation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JIA-Lab-research/LargeKernel3D",
+      "status": "candidate-context",
+      "text": "LargeKernel3D: Scaling up Kernels in 3D Sparse CNNs (CVPR 2023)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/LargeKernel3D",
+      "status": "candidate-context",
+      "text": "This is the implementation of ***LargeKernel3D*** (CVPR 2023). Large kernels are important but expensive in 3D CNNs. We propose spatial-wise partition to conv enable 3D large kernels. High performance on 3D semantic segmentation & object detection."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sense-X/UniFormer",
+      "status": "candidate-context",
+      "text": "[ICLR2022] official implementation of UniFormer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sense-X/UniFormer",
+      "status": "candidate-context",
+      "text": "<a src=\"https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue\" href=\"https://huggingface.co/spaces/Andy1621/uniformer_light \">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate-context",
+      "text": "Sandbox for training deep learning networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +267,36 @@
       "source_repo": "openvinotoolkit/nncf",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "status": "candidate",
+      "text": "This project is an example project of semantic segmentation for mobile real-time app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JIA-Lab-research/LargeKernel3D",
+      "status": "candidate",
+      "text": "This is the implementation of ***LargeKernel3D*** (CVPR 2023). Large kernels are important but expensive in 3D CNNs. We propose spatial-wise partition to conv enable 3D large kernels. High performance on 3D semantic segmentation & object detection."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sense-X/UniFormer",
+      "status": "candidate",
+      "text": "<a src=\"https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue\" href=\"https://huggingface.co/spaces/Andy1621/uniformer_light \">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
     }
   ],
   "candidate_related_terms": [],
@@ -286,11 +376,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "openvinotoolkit/nncf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "akirasosa/mobile-semantic-segmentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "wkentaro/labelme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LargeKernel3D"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Sense-X/UniFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "osmr/imgclsmob"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

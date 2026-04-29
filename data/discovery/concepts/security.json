@@ -916,6 +916,90 @@
       "source_repo": "Kong/deck",
       "status": "candidate-context",
       "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate-context",
+      "text": "Do you think you are safe using private browsing or incognito mode?. :smile: :imp: This will prove that you're wrong.   Previously hosted at nothingprivate.ml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/gautamkrishnar/nothing-private.svg?branch=master)](https://travis-ci.org/gautamkrishnar/nothing-private) [![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg)](#contributors) [![ProductHunt](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate-context",
+      "text": "Use DOMPurify on server and client in the same way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "w3c/trusted-types",
+      "status": "candidate-context",
+      "text": "A browser API to prevent DOM-Based Cross Site Scripting in modern web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/trusted-types",
+      "status": "candidate-context",
+      "text": "![npm bundle size](https://img.shields.io/bundlephobia/minzip/trusted-types.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate-context",
+      "text": "HACL*, a formally verified cryptographic library written in F*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate-context",
+      "text": "This repository contains verified code for a library of modern"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "squidowl/halloy",
+      "status": "candidate-context",
+      "text": "IRC application written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidowl/halloy",
+      "status": "candidate-context",
+      "text": "Security"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate-context",
+      "text": "Backend for HTTP Observatory on MDN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate-context",
+      "text": "[HTTP Observatory](https://developer.mozilla.org/en-US/observatory/) is a service that checks web sites for security-relevant headers. It is hosted by [MDN Web Docs](https://github.com/mdn)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/sessions",
+      "status": "candidate-context",
+      "text": "Package gorilla/sessions provides cookie and filesystem sessions and infrastructure for custom session backends."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/sessions",
+      "status": "candidate-context",
+      "text": "Security"
     }
   ],
   "candidate_glosses": [
@@ -1360,6 +1444,48 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Kong/deck",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/gautamkrishnar/nothing-private.svg?branch=master)](https://travis-ci.org/gautamkrishnar/nothing-private) [![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg)](#contributors) [![ProductHunt](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "w3c/trusted-types",
+      "status": "candidate",
+      "text": "![npm bundle size](https://img.shields.io/bundlephobia/minzip/trusted-types.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate",
+      "text": "This repository contains verified code for a library of modern"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "squidowl/halloy",
+      "status": "candidate",
+      "text": "Security"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate",
+      "text": "[HTTP Observatory](https://developer.mozilla.org/en-US/observatory/) is a service that checks web sites for security-relevant headers. It is hosted by [MDN Web Docs](https://github.com/mdn)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/sessions",
       "status": "candidate",
       "text": "Security"
     }
@@ -1921,11 +2047,77 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/security.yaml",
       "source_repo": "Kong/deck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/nothing-private"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "w3c/trusted-types"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "squidowl/halloy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "crev-dev/cargo-crev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mdn/mdn-http-observatory"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/security.yml",
+      "source_repo": "gorilla/sessions"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/security.yaml",
+      "source_repo": "coder/code-server"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

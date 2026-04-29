@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "branches"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alekcz/pcp",
+      "status": "candidate-context",
+      "text": "PCP: Clojure Processor -- A Clojure replacement for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alekcz/pcp",
+      "status": "candidate-context",
+      "text": "branches"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alekcz/pcp",
+      "status": "candidate",
+      "text": "branches"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051240,
+      "status": "candidate",
+      "text": "offshoot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10051033,
+      "status": "candidate",
+      "text": "outgrowth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10019995,
+      "status": "candidate",
+      "text": "fork"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9982408,
+      "status": "candidate",
+      "text": "leg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9968761,
+      "status": "candidate",
+      "text": "arm"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "branches",
+  "concept_id": "branches",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/branches.yml",
+      "source_repo": "alekcz/pcp"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "branches",
+      "sense_id": "branches#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

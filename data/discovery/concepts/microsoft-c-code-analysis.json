@@ -19,12 +19,30 @@
       "source_repo": "microsoft/DirectXTK12",
       "status": "candidate-context",
       "text": "Microsoft C++ Code Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DirectXTK",
+      "status": "candidate-context",
+      "text": "The DirectX Tool Kit (aka DirectXTK) is a collection of helper classes for writing DirectX 11.x code in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTK",
+      "status": "candidate-context",
+      "text": "Microsoft C++ Code Analysis"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "microsoft/DirectXTK12",
+      "status": "candidate",
+      "text": "Microsoft C++ Code Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTK",
       "status": "candidate",
       "text": "Microsoft C++ Code Analysis"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/msvc.yml",
       "source_repo": "microsoft/DirectXTK12"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "microsoft/DirectXTK"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

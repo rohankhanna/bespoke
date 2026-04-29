@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:41:37.299497+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1857
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A codemod to make your implicit optional type hints PEP 484 compliant.",
+    "fork": false,
+    "full_name": "hauntsaninja/no_implicit_optional",
+    "html_url": "https://github.com/hauntsaninja/no_implicit_optional",
+    "language": "Python",
+    "pushed_at": "2023-11-25T23:21:36Z",
+    "stargazers_count": 107,
+    "topics": [],
+    "updated_at": "2026-03-19T05:40:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

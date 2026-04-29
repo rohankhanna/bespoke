@@ -38,6 +38,18 @@
       "source_repo": "astrale-sharp/typstfmt",
       "status": "candidate-context",
       "text": "Build Release Binaries"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate-context",
+      "text": "Solidity Compiler for Solana, Polkadot and Stellar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate-context",
+      "text": "Build Release Binaries"
     }
   ],
   "candidate_glosses": [
@@ -56,6 +68,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "astrale-sharp/typstfmt",
+      "status": "candidate",
+      "text": "Build Release Binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-solang/solang",
       "status": "candidate",
       "text": "Build Release Binaries"
     }
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release.yml",
       "source_repo": "astrale-sharp/typstfmt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "hyperledger-solang/solang"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

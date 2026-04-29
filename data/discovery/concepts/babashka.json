@@ -67,6 +67,90 @@
       "source_repo": "babashka/bbin",
       "status": "candidate-context",
       "text": "**Install any Babashka script or project with one command.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/sci",
+      "status": "candidate-context",
+      "text": "Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"100px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/http-server",
+      "status": "candidate-context",
+      "text": "Serve static assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/http-server",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/org.babashka/http-server.svg)](https://clojars.org/org.babashka/http-server)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate-context",
+      "text": "Install Clojure on Windows with Scoop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djblue/portal",
+      "status": "candidate-context",
+      "text": "A clojure tool to navigate through your data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djblue/portal",
+      "status": "candidate-context",
+      "text": "A clojure tool to navigate through your data."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/nbb",
+      "status": "candidate-context",
+      "text": "Scripting in Clojure on Node.js using SCI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/sci.configs",
+      "status": "candidate-context",
+      "text": "A collection of ready to be used SCI configs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci.configs",
+      "status": "candidate-context",
+      "text": "A collection of ready to be used SCI configs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borkdude/carve",
+      "status": "candidate-context",
+      "text": "Remove unused Clojure vars"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/carve",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/io.github.borkdude/carve.svg)](https://clojars.org/io.github.borkdude/carve)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +183,48 @@
       "source_repo": "babashka/bbin",
       "status": "candidate",
       "text": "**Install any Babashka script or project with one command.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"100px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/http-server",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/org.babashka/http-server.svg)](https://clojars.org/org.babashka/http-server)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djblue/portal",
+      "status": "candidate",
+      "text": "A clojure tool to navigate through your data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb",
+      "status": "candidate",
+      "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci.configs",
+      "status": "candidate",
+      "text": "A collection of ready to be used SCI configs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/carve",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/io.github.borkdude/carve.svg)](https://clojars.org/io.github.borkdude/carve)"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +268,65 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "babashka/bbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/http-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "littleli/scoop-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "djblue/portal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci.configs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "borkdude/carve"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A header only C++ library that provides type safety and user defined literals for physical units"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "-<img align=\"right\" src=\"SI-logo.jpg\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "-<img align=\"right\" src=\"SI-logo.jpg\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "si-unit-conversion",
+      "sense_id": "si-unit-conversion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "si-unit-conversion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "si-unit-conversion",
+  "observation_id": "16af89f0600da1dc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "si-unit-conversion",
+  "source_context_snippet": "-<img align=\"right\" src=\"SI-logo.jpg\">",
+  "source_file": null,
+  "source_repo": "bernedom/SI",
+  "source_repo_description": "A header only C++ library that provides type safety and user defined literals for physical units"
+}

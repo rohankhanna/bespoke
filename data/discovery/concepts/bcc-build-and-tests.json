@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "BCC Build and tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iovisor/bcc",
+      "status": "candidate-context",
+      "text": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iovisor/bcc",
+      "status": "candidate-context",
+      "text": "BCC Build and tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iovisor/bcc",
+      "status": "candidate",
+      "text": "BCC Build and tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14320,
+      "status": "candidate",
+      "text": "gmt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14293,
+      "status": "candidate",
+      "text": "body"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14267,
+      "status": "candidate",
+      "text": "abc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14267,
+      "status": "candidate",
+      "text": "alloyed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14267,
+      "status": "candidate",
+      "text": "consistency"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "BCC Build and tests",
+  "concept_id": "bcc-build-and-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/bcc-test.yml",
+      "source_repo": "iovisor/bcc"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "BCC Build and tests",
+      "sense_id": "bcc-build-and-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Format Check",
-    "format-check"
+    "format-check",
+    "format check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,30 @@
       "source_repo": "intel/intel-extension-for-pytorch",
       "status": "candidate-context",
       "text": "format-check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnonymouX47/termvisage",
+      "status": "candidate-context",
+      "text": "Browse and view images in the terminal (mostly a front-end to https://github.com/AnonymouX47/term-image)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/termvisage",
+      "status": "candidate-context",
+      "text": "format check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencost/opencost",
+      "status": "candidate-context",
+      "text": "Cost monitoring for Kubernetes workloads and cloud costs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost",
+      "status": "candidate-context",
+      "text": "Format Check"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +71,18 @@
       "source_repo": "intel/intel-extension-for-pytorch",
       "status": "candidate",
       "text": "format-check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/termvisage",
+      "status": "candidate",
+      "text": "format check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost",
+      "status": "candidate",
+      "text": "Format Check"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +138,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/format-check.yml",
       "source_repo": "intel/intel-extension-for-pytorch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/format_check.yml",
+      "source_repo": "AnonymouX47/termvisage"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/format-check.yaml",
+      "source_repo": "opencost/opencost"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

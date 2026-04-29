@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Deploy GH pages"
+    "Deploy GH pages",
+    "Deploy gh-pages"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "crytic/building-secure-contracts",
       "status": "candidate-context",
       "text": "Deploy GH pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tc39/proposal-iterator-includes",
+      "status": "candidate-context",
+      "text": "Array.prototype.includes but for iterators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-iterator-includes",
+      "status": "candidate-context",
+      "text": "Deploy gh-pages"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "crytic/building-secure-contracts",
       "status": "candidate",
       "text": "Deploy GH pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tc39/proposal-iterator-includes",
+      "status": "candidate",
+      "text": "Deploy gh-pages"
     }
   ],
   "candidate_related_terms": [
@@ -64,6 +83,41 @@
       "score": 10508,
       "status": "candidate",
       "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "deployed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "deploying"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "implementation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "implemented"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "use"
     }
   ],
   "candidate_synonyms": [],
@@ -76,11 +130,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/deploy.yml",
       "source_repo": "crytic/building-secure-contracts"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "tc39/proposal-iterator-includes"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:46:39.501828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Source codes for paper \"BlockFFN: Towards End-Side Acceleration-Friendly Mixture-of-Experts with Chunk-Level Activation Sparsity\".",
+    "fork": false,
+    "full_name": "thunlp/BlockFFN",
+    "html_url": "https://github.com/thunlp/BlockFFN",
+    "language": "Python",
+    "pushed_at": "2026-01-10T01:34:51Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-03-24T03:07:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

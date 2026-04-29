@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-19T17:42:30.117329+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release-publish.yml",
       "source_repo": "dask/dask"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Release Publisher.yml",
+      "source_repo": "project-mirai/chat-command"
     }
   ],
   "term": "Release Publisher"

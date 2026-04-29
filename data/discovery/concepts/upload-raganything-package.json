@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upload RAGAnything Package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUDS/RAG-Anything",
+      "status": "candidate-context",
+      "text": "\"RAG-Anything: All-in-One RAG Framework\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/RAG-Anything",
+      "status": "candidate-context",
+      "text": "Upload RAGAnything Package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/RAG-Anything",
+      "status": "candidate",
+      "text": "Upload RAGAnything Package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13160,
+      "status": "candidate",
+      "text": "download"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13119,
+      "status": "candidate",
+      "text": "scan"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12676,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12676,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12294,
+      "status": "candidate",
+      "text": "application"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upload RAGAnything Package",
+  "concept_id": "upload-raganything-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pypi-publish.yml",
+      "source_repo": "HKUDS/RAG-Anything"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload RAGAnything Package",
+      "sense_id": "upload-raganything-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

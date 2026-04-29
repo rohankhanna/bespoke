@@ -1,0 +1,86 @@
+{
+  "aliases": [
+    "macOS (DMG)"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "garglk/garglk",
+      "status": "candidate-context",
+      "text": "A cross-platform IO layer for an interactive fiction player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garglk/garglk",
+      "status": "candidate-context",
+      "text": "macOS (DMG)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garglk/garglk",
+      "status": "candidate",
+      "text": "macOS (DMG)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "android"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "linux"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": null,
+      "status": "candidate",
+      "text": "windows"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "macOS (DMG)",
+  "concept_id": "macos-dmg",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/macos-dmg.yml",
+      "source_repo": "garglk/garglk"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "macOS (DMG)",
+      "sense_id": "macos-dmg#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

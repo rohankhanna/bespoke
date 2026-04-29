@@ -1,0 +1,27 @@
+{
+  "component": "lukka/run-vcpkg@7d259227a1fb6471a0253dd5ab7419835228f7d7",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/arm64bvt.yml",
+      "source_repo": "microsoft/DirectXTex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auxbvt.yml",
+      "source_repo": "microsoft/DirectXTex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bvt.yml",
+      "source_repo": "microsoft/DirectXTex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clangcl.yml",
+      "source_repo": "microsoft/DirectXTex"
+    }
+  ]
+}

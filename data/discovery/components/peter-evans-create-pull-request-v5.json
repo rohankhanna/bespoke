@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v5",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update-html.yml",
       "source_repo": "plotly/dash"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-deps.yml",
+      "source_repo": "fontsource/font-files"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/kernel.yml",
+      "source_repo": "extism/extism"
     }
   ]
 }

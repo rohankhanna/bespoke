@@ -43,6 +43,18 @@
       "source_repo": "SWE-bench/SWE-smith",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MrGemy95/Tensorflow-Project-Template",
+      "status": "candidate-context",
+      "text": "A best practice for tensorflow project template architecture. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrGemy95/Tensorflow-Project-Template",
+      "status": "candidate-context",
+      "text": "A simple and well designed structure is essential for any Deep Learning project, so after a lot of practice and contributing in tensorflow projects here's a tensorflow project template that combines **simplcity**, **best practice for folder structure** and **good OOP design**."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "SWE-bench/SWE-smith",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrGemy95/Tensorflow-Project-Template",
+      "status": "candidate",
+      "text": "A simple and well designed structure is essential for any Deep Learning project, so after a lot of practice and contributing in tensorflow projects here's a tensorflow project template that combines **simplcity**, **best practice for folder structure** and **good OOP design**."
     }
   ],
   "candidate_related_terms": [],
@@ -94,11 +112,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "SWE-bench/SWE-bench"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "SWE-bench/SWE-bench"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

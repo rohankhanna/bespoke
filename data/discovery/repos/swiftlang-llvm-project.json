@@ -1,32 +1,32 @@
 {
   "components": [
     {
-      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel-checks.yml"
     },
     {
-      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel-checks.yml"
     },
     {
-      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-ci-container-tooling.yml"
     },
     {
-      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-ci-container-tooling.yml"
     },
     {
-      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-ci-container-windows.yml"
     },
     {
-      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-ci-container-windows.yml"
     },
@@ -36,42 +36,42 @@
       "source_file": ".github/workflows/build-ci-container-windows.yml"
     },
     {
-      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-ci-container.yml"
     },
     {
-      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-ci-container.yml"
     },
     {
-      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-libc-container.yml"
     },
     {
-      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-libc-container.yml"
     },
     {
-      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-metrics-container.yml"
     },
     {
-      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-metrics-container.yml"
     },
     {
-      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-ci.yml"
     },
     {
-      "component": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-ci.yml"
     }
@@ -88,7 +88,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bazel-checks.yml",
       "source_repo": "swiftlang/llvm-project",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -102,7 +102,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-ci-container-tooling.yml",
       "source_repo": "swiftlang/llvm-project",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -116,14 +116,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-ci-container-windows.yml",
       "source_repo": "swiftlang/llvm-project",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-ci-container-windows.yml",
       "source_repo": "swiftlang/llvm-project",
-      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
       "target_type": "component"
     },
     {
@@ -144,7 +144,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-ci-container.yml",
       "source_repo": "swiftlang/llvm-project",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -158,7 +158,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-libc-container.yml",
       "source_repo": "swiftlang/llvm-project",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -172,7 +172,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build-metrics-container.yml",
       "source_repo": "swiftlang/llvm-project",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
@@ -186,14 +186,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-ci.yml",
       "source_repo": "swiftlang/llvm-project",
-      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/check-ci.yml",
       "source_repo": "swiftlang/llvm-project",
-      "target": "actions/setup-python@83679a892e2d95755f2dac6acb0bfd1e9ac5d548",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
       "target_type": "component"
     },
     {
@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T13:03:33.883008+00:00",
+  "fetched_at": "2026-04-29T21:00:00.065312+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -256,10 +256,10 @@
     "full_name": "swiftlang/llvm-project",
     "html_url": "https://github.com/swiftlang/llvm-project",
     "language": "LLVM",
-    "pushed_at": "2026-04-24T12:54:37Z",
+    "pushed_at": "2026-04-29T20:59:33Z",
     "stargazers_count": 1225,
     "topics": [],
-    "updated_at": "2026-04-24T11:10:22Z"
+    "updated_at": "2026-04-29T13:58:06Z"
   },
   "repo_links": [
     {

@@ -1,0 +1,201 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "araffin/rl-baselines-zoo",
+      "target": "bulletphysics/bullet3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "araffin/rl-baselines-zoo",
+      "target": "openai/roboschool",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "araffin/rl-baselines-zoo",
+      "target": "maximecb/gym-minigrid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "araffin/rl-baselines-zoo",
+      "target": "hyperparameter-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "araffin/rl-baselines-zoo",
+      "target": "hyperparameter-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "araffin/rl-baselines-zoo",
+      "target": "hyperparameter-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "araffin/rl-baselines-zoo",
+      "target": "hyperparameters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "araffin/rl-baselines-zoo",
+      "target": "openai-gym",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "araffin/rl-baselines-zoo",
+      "target": "optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "araffin/rl-baselines-zoo",
+      "target": "pybullet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "araffin/rl-baselines-zoo",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "araffin/rl-baselines-zoo",
+      "target": "stable-baselines",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:50:31.933242+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12493
+    },
+    {
+      "path": "requirements.txt",
+      "size": 136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A collection of 100+ pre-trained RL agents using Stable Baselines, training and hyperparameter optimization included.",
+    "fork": false,
+    "full_name": "araffin/rl-baselines-zoo",
+    "html_url": "https://github.com/araffin/rl-baselines-zoo",
+    "language": "Python",
+    "pushed_at": "2022-10-17T13:48:30Z",
+    "stargazers_count": 1204,
+    "topics": [
+      "gym",
+      "hyperparameter-optimization",
+      "hyperparameter-search",
+      "hyperparameter-tuning",
+      "hyperparameters",
+      "openai",
+      "openai-gym",
+      "optimization",
+      "pybullet",
+      "reinforcement-learning",
+      "rl",
+      "stable-baselines",
+      "zoo"
+    ],
+    "updated_at": "2026-04-19T11:44:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bulletphysics/bullet3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maximecb/gym-minigrid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openai/roboschool",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-optimization"
+    },
+    {
+      "context_snippet": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-search"
+    },
+    {
+      "context_snippet": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-tuning"
+    },
+    {
+      "context_snippet": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameters"
+    },
+    {
+      "context_snippet": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openai-gym"
+    },
+    {
+      "context_snippet": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    },
+    {
+      "context_snippet": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pybullet"
+    },
+    {
+      "context_snippet": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "**WARNING: This repository is no longer maintained, please use the [RL-Baselines3 Zoo](https://github.com/DLR-RM/rl-baselines3-zoo) for an up-to-date version, powered by [Stable-Baselines3](https://github.com/DLR-RM/stable-baselines3)**",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-baselines"
+    }
+  ]
+}

@@ -31,6 +31,18 @@
       "source_repo": "cookiecutter/cookiecutter-django",
       "status": "candidate-context",
       "text": "Update Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "argoproj/argo-rollouts",
+      "status": "candidate-context",
+      "text": "Progressive Delivery for Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-rollouts",
+      "status": "candidate-context",
+      "text": "Update Changelog"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "cookiecutter/cookiecutter-django",
+      "status": "candidate",
+      "text": "Update Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "argoproj/argo-rollouts",
       "status": "candidate",
       "text": "Update Changelog"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/update-changelog.yml",
       "source_repo": "cookiecutter/cookiecutter-django"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "argoproj/argo-rollouts"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "rust-bindings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "noib3/nvim-oxi",
+      "status": "candidate-context",
+      "text": ":link: Rust bindings to all things Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noib3/nvim-oxi",
+      "status": "candidate-context",
+      "text": "[![Latest version]](https://crates.io/crates/nvim-oxi)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "noib3/nvim-oxi",
+      "status": "candidate",
+      "text": "[![Latest version]](https://crates.io/crates/nvim-oxi)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "rust-bindings",
+  "concept_id": "rust-bindings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "noib3/nvim-oxi"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust-bindings",
+      "sense_id": "rust-bindings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

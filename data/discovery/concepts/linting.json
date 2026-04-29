@@ -359,6 +359,72 @@
       "source_repo": "standard/standard-engine",
       "status": "candidate-context",
       "text": "'linting'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlcommons/algorithmic-efficiency",
+      "status": "candidate-context",
+      "text": "MLCommons Algorithmic Efficiency is a benchmark and competition measuring neural network training speedups due to algorithmic improvements in both training algorithms and models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlcommons/algorithmic-efficiency",
+      "status": "candidate-context",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/packaging",
+      "status": "candidate-context",
+      "text": "Core utilities for Python packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/packaging",
+      "status": "candidate-context",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "status": "candidate-context",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/aegir",
+      "status": "candidate-context",
+      "text": "AEgir - Automated JavaScript project building"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/aegir",
+      "status": "candidate-context",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rocker-org/rocker-versioned2",
+      "status": "candidate-context",
+      "text": "Run current & prior versions of R using docker. rocker/r-ver, rocker/rstudio, rocker/shiny, rocker/tidyverse, and so on."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocker-org/rocker-versioned2",
+      "status": "candidate-context",
+      "text": "linting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sublimelsp/LSP-ruff",
+      "status": "candidate-context",
+      "text": "LSP helper for ruff - an extremely fast Python linter, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimelsp/LSP-ruff",
+      "status": "candidate-context",
+      "text": "This is a helper package that automatically installs and updates [ruff](https://github.com/astral-sh/ruff) for you. Ruff is an extremely fast Python linter and code transformation tool, written in Rust."
     }
   ],
   "candidate_glosses": [
@@ -535,6 +601,42 @@
       "source_repo": "standard/standard-engine",
       "status": "candidate",
       "text": "'linting'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlcommons/algorithmic-efficiency",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/packaging",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "status": "candidate",
+      "text": "Linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/aegir",
+      "status": "candidate",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocker-org/rocker-versioned2",
+      "status": "candidate",
+      "text": "linting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sublimelsp/LSP-ruff",
+      "status": "candidate",
+      "text": "This is a helper package that automatically installs and updates [ruff](https://github.com/astral-sh/ruff) for you. Ruff is an extremely fast Python linter and code transformation tool, written in Rust."
     }
   ],
   "candidate_related_terms": [
@@ -817,11 +919,65 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "standard/standard-engine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "mlcommons/algorithmic-efficiency"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "pypa/packaging"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/_lint.yml",
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "pyg-team/pytorch_geometric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "Charlie-XIAO/ml3m"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/aegir"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/linting.yml",
+      "source_repo": "rocker-org/rocker-versioned2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sublimelsp/LSP-ruff"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

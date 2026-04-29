@@ -1,0 +1,17 @@
+{
+  "component": "py-cov-action/python-coverage-comment-action@7188638f871f721a365d644f505d1ff3df20d683",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pydantic/pydantic"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "pydantic/pydantic"
+    }
+  ]
+}

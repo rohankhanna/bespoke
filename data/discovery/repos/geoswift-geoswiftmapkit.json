@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GEOSwift/GEOSwiftMapKit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GEOSwift/GEOSwiftMapKit",
+      "target": "GEOSwiftMapKit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:58:58.728338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2932
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 3053
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Add-on to GEOSwift that provides MapKit-related features",
+    "fork": false,
+    "full_name": "GEOSwift/GEOSwiftMapKit",
+    "html_url": "https://github.com/GEOSwift/GEOSwiftMapKit",
+    "language": "Swift",
+    "pushed_at": "2024-10-16T13:54:46Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-01-18T01:15:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GEOSwiftMapKit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "GEOSwiftMapKit"
+    }
+  ]
+}

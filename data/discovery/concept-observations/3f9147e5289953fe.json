@@ -48,7 +48,7 @@
   "normalized_form": "lpeg",
   "observation_id": "3f9147e5289953fe",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-23T04:27:42.433064+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "lpeg",
   "source_context_snippet": "![build](https://img.shields.io/github/actions/workflow/status/LuaLS/lua-language-server/.github%2Fworkflows%2Fbuild.yml)",
   "source_file": null,

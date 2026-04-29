@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -36,6 +36,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "probonopd/go-appimage"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Alexsussa/AIDM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/appimage.yml",
+      "source_repo": "garglk/garglk"
     }
   ],
   "term": "AppImage"

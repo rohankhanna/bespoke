@@ -79,6 +79,30 @@
       "source_repo": "eladrich/pixel2style2pixel",
       "status": "candidate-context",
       "text": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "status": "candidate-context",
+      "text": "A large-scale face dataset for face parsing, recognition, generation and editing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "status": "candidate-context",
+      "text": "[[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lausbert/Exermote",
+      "status": "candidate-context",
+      "text": "Using Machine Learning to predict the type of exercise from movement data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lausbert/Exermote",
+      "status": "candidate-context",
+      "text": "---"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "eladrich/pixel2style2pixel",
       "status": "candidate",
       "text": "<a href=\"https://arxiv.org/abs/2008.00951\"><img src=\"https://img.shields.io/badge/arXiv-2008.00951-b31b1b.svg\" height=22.5></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "status": "candidate",
+      "text": "[[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lausbert/Exermote",
+      "status": "candidate",
+      "text": "---"
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +214,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "eladrich/pixel2style2pixel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "switchablenorms/CelebAMask-HQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Lausbert/Exermote"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,30 @@
       "source_repo": "InternLM/xtuner",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2U1/Qwen-VL-Series-Finetune",
+      "status": "candidate-context",
+      "text": "An open-source implementaion for fine-tuning Qwen-VL series by Alibaba Cloud."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Qwen-VL-Series-Finetune",
+      "status": "candidate-context",
+      "text": "This repository contains a script for training [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate-context",
+      "text": "Run generative AI models in sophgo BM1684X/BM1688"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +67,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "InternLM/xtuner",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2U1/Qwen-VL-Series-Finetune",
+      "status": "candidate",
+      "text": "This repository contains a script for training [Qwen2-VL](https://huggingface.co/Qwen/Qwen2-VL-7B-Instruct), [Qwen2.5-VL](https://huggingface.co/Qwen/Qwen2.5-VL-7B-Instruct)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophgo/LLM-TPU",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2U1/Qwen-VL-Series-Finetune"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sophgo/LLM-TPU"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

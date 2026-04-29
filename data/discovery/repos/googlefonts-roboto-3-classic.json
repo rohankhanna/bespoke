@@ -25,13 +25,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "requirements.txt",
-      "source_repo": "googlefonts/roboto-3-classic",
-      "target": "fonttools/fontbakery",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/build.yaml",
       "source_repo": "googlefonts/roboto-3-classic",
@@ -60,7 +53,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:57:54.144033+00:00",
+  "fetched_at": "2026-04-29T21:48:10.848601+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -84,21 +77,16 @@
     "full_name": "googlefonts/roboto-3-classic",
     "html_url": "https://github.com/googlefonts/roboto-3-classic",
     "language": "Python",
-    "pushed_at": "2026-04-21T22:59:08Z",
+    "pushed_at": "2026-04-26T01:15:25Z",
     "stargazers_count": 236,
     "topics": [],
-    "updated_at": "2026-04-23T22:43:27Z"
+    "updated_at": "2026-04-27T13:49:35Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "typenetwork/roboto",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "fonttools/fontbakery",
-      "source_file": "requirements.txt"
     }
   ],
   "terms": [

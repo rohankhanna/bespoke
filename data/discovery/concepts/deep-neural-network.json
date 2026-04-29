@@ -19,6 +19,18 @@
       "source_repo": "mahmoudnafifi/WB_color_augmenter",
       "status": "candidate-context",
       "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/BigDL",
+      "status": "candidate-context",
+      "text": "BigDL: Distributed TensorFlow, Keras and PyTorch on Apache Spark/Flink & Ray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/BigDL",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "mahmoudnafifi/WB_color_augmenter",
       "status": "candidate",
       "text": "*[Mahmoud Afifi](https://sites.google.com/view/mafifi)*<sup>1</sup> and *[Michael S. Brown](http://www.cse.yorku.ca/~mbrown/)*<sup>1,2</sup>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/BigDL",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "mahmoudnafifi/WB_color_augmenter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "intel/BigDL"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

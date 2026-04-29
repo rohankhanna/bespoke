@@ -46,6 +46,18 @@
       "source_repo": "imcuttle/remark-heading-id",
       "status": "candidate-context",
       "text": "[![Build status](https://img.shields.io/travis/imcuttle/remark-heading-id/master.svg?style=flat-square)](https://travis-ci.org/imcuttle/remark-heading-id)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tats-u/markdown-cjk-friendly",
+      "status": "candidate-context",
+      "text": "Make CommonMark more friendly for Japanese/Chinese/Korean (CommonMark next specification draft)\u2014plugins & patched packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tats-u/markdown-cjk-friendly",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tats-u/markdown-cjk-friendly) [![CodSpeed Badge](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/tats-u/markdown-cjk-friendly?utm_source=badge)"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +78,12 @@
       "source_repo": "imcuttle/remark-heading-id",
       "status": "candidate",
       "text": "[![Build status](https://img.shields.io/travis/imcuttle/remark-heading-id/master.svg?style=flat-square)](https://travis-ci.org/imcuttle/remark-heading-id)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tats-u/markdown-cjk-friendly",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tats-u/markdown-cjk-friendly) [![CodSpeed Badge](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/tats-u/markdown-cjk-friendly?utm_source=badge)"
     }
   ],
   "candidate_related_terms": [
@@ -169,11 +187,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "imcuttle/remark-heading-id"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tats-u/markdown-cjk-friendly"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:51:32.650317+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "investigating sequence length extrapolation in transformer language models across different positional embeddings",
+    "fork": false,
+    "full_name": "bob80333/investigating_extrapolation",
+    "html_url": "https://github.com/bob80333/investigating_extrapolation",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-03-12T16:35:55Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-12-02T09:06:41Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "superbrothers/close-pull-request@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-close.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/apollo-ios-codegen",
+      "target": "apple/swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "apollographql/apollo-ios-codegen",
+      "target": "apollographql/apollo-kotlin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-close.yml",
+      "source_repo": "apollographql/apollo-ios-codegen",
+      "target": "superbrothers/close-pull-request@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-close.yml",
+      "source_repo": "apollographql/apollo-ios-codegen",
+      "target": "Close Pull Request",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:56:59.860541+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5146
+    },
+    {
+      "path": ".github/workflows/pr-close.yml",
+      "size": 413
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apollo iOS Code Generation",
+    "fork": false,
+    "full_name": "apollographql/apollo-ios-codegen",
+    "html_url": "https://github.com/apollographql/apollo-ios-codegen",
+    "language": "Swift",
+    "pushed_at": "2026-04-23T17:40:02Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2026-04-23T17:39:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apollographql/apollo-kotlin",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Close Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-close.yml",
+      "term": "Close Pull Request"
+    }
+  ]
+}

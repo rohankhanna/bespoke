@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "newsfile"
+    "newsfile",
+    "Newsfile"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "twisted/towncrier",
       "status": "candidate-context",
       "text": "Hear ye, hear ye, says the ``towncrier``"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matrix-org/matrix-appservice-slack",
+      "status": "candidate-context",
+      "text": "A Matrix <--> Slack bridge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matrix-org/matrix-appservice-slack",
+      "status": "candidate-context",
+      "text": "Newsfile"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "twisted/towncrier",
       "status": "candidate",
       "text": "Hear ye, hear ye, says the ``towncrier``"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matrix-org/matrix-appservice-slack",
+      "status": "candidate",
+      "text": "Newsfile"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +61,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "twisted/towncrier"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/newsfile.yml",
+      "source_repo": "matrix-org/matrix-appservice-slack"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

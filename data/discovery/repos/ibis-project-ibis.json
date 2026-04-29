@@ -1,0 +1,905 @@
+{
+  "components": [
+    {
+      "component": "pozil/auto-assign-issue@v2.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-remove-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml"
+    },
+    {
+      "component": "extractions/setup-just@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml"
+    },
+    {
+      "component": "aws-actions/configure-aws-credentials@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-remove-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml"
+    },
+    {
+      "component": "extractions/setup-just@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml"
+    },
+    {
+      "component": "extractions/setup-just@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml"
+    },
+    {
+      "component": "google-github-actions/auth@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-data.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-data.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-rotate-key-issue.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-rotate-key-issue.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-rotate-key-issue.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v2.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml"
+    },
+    {
+      "component": "actions-ecosystem/action-remove-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml"
+    },
+    {
+      "component": "extractions/setup-just@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ibis-project/ibis",
+      "target": "ibis-project/governance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ibis-project/ibis",
+      "target": "apache/beam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ibis-project/ibis",
+      "target": "rstudio/pins-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/assign.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "pozil/auto-assign-issue@v2.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "Assign Issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/create-github-app-token@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions-ecosystem/action-remove-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "astral-sh/setup-uv@v7.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "extractions/setup-just@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "aws-actions/configure-aws-credentials@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "Athena",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/create-github-app-token@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions-ecosystem/action-remove-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "astral-sh/setup-uv@v7.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "extractions/setup-just@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "google-github-actions/auth@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigquery.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "BigQuery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "astral-sh/setup-uv@v7.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "extractions/setup-just@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "Check Generated Files",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-data.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "google-github-actions/auth@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-data.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "google-github-actions/setup-gcloud@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-data.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "GCS Insert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-rotate-key-issue.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/create-github-app-token@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-rotate-key-issue.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-rotate-key-issue.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "peter-evans/create-issue-from-file@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-rotate-key-issue.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "Rotate bot keys",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/create-github-app-token@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions-ecosystem/action-remove-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "astral-sh/setup-uv@v7.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "extractions/setup-just@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/databricks.yml",
+      "source_repo": "ibis-project/ibis",
+      "target": "Databricks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "bigquery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "clickhouse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "database",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "datafusion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "duckdb",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "impala",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "mssql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "mysql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "pandas",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "polars",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "pyarrow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "pyspark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "snowflake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "sqlite",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ibis-project/ibis",
+      "target": "trino",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:53:26.881583+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9476
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 21695
+    },
+    {
+      "path": ".github/workflows/assign.yml",
+      "size": 320
+    },
+    {
+      "path": ".github/workflows/athena.yml",
+      "size": 3280
+    },
+    {
+      "path": ".github/workflows/bigquery.yml",
+      "size": 3499
+    },
+    {
+      "path": ".github/workflows/check-generated-files.yml",
+      "size": 2077
+    },
+    {
+      "path": ".github/workflows/ci-data.yml",
+      "size": 1999
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4956
+    },
+    {
+      "path": ".github/workflows/create-rotate-key-issue.yml",
+      "size": 952
+    },
+    {
+      "path": ".github/workflows/databricks.yml",
+      "size": 3611
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "the portable Python dataframe library",
+    "fork": false,
+    "full_name": "ibis-project/ibis",
+    "html_url": "https://github.com/ibis-project/ibis",
+    "language": "Python",
+    "pushed_at": "2026-04-27T13:06:05Z",
+    "stargazers_count": 6521,
+    "topics": [
+      "bigquery",
+      "clickhouse",
+      "database",
+      "datafusion",
+      "duckdb",
+      "impala",
+      "mssql",
+      "mysql",
+      "pandas",
+      "polars",
+      "postgresql",
+      "pyarrow",
+      "pyspark",
+      "python",
+      "snowflake",
+      "sql",
+      "sqlite",
+      "trino"
+    ],
+    "updated_at": "2026-04-29T20:31:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibis-project/governance",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/beam",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rstudio/pins-python",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Assign Issue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/assign.yml",
+      "term": "Assign Issue"
+    },
+    {
+      "context_snippet": "Athena",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/athena.yml",
+      "term": "Athena"
+    },
+    {
+      "context_snippet": "BigQuery",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bigquery.yml",
+      "term": "BigQuery"
+    },
+    {
+      "context_snippet": "Check Generated Files",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "term": "Check Generated Files"
+    },
+    {
+      "context_snippet": "GCS Insert",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-data.yml",
+      "term": "GCS Insert"
+    },
+    {
+      "context_snippet": "CodeQL",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Rotate bot keys",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-rotate-key-issue.yml",
+      "term": "Rotate bot keys"
+    },
+    {
+      "context_snippet": "Databricks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/databricks.yml",
+      "term": "Databricks"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bigquery"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clickhouse"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datafusion"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "duckdb"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "impala"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mssql"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mysql"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pandas"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "polars"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyarrow"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pyspark"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snowflake"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sqlite"
+    },
+    {
+      "context_snippet": "[![Documentation status](https://img.shields.io/badge/docs-docs.ibis--project.org-blue.svg)](http://ibis-project.org)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "trino"
+    }
+  ]
+}

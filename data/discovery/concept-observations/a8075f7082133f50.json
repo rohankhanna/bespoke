@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The next generation of tooling for Spring Boot, including support for Cloud Foundry manifest files, Concourse CI pipeline definitions, BOSH deployment manifests, and more... - Available for Visual Studio Code, Cursor, Eclipse, and Theia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Aggregate Distro Update Sites"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Aggregate Distro Update Sites"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16934,
+      "status": "candidate",
+      "text": "first"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16823,
+      "status": "candidate",
+      "text": "aggregation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16823,
+      "status": "candidate",
+      "text": "entire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16823,
+      "status": "candidate",
+      "text": "every"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16823,
+      "status": "candidate",
+      "text": "scores"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Aggregate Distro Update Sites",
+      "sense_id": "aggregate-distro-update-sites#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aggregate-distro-update-sites",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aggregate-distro-update-sites",
+  "observation_id": "a8075f7082133f50",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Aggregate Distro Update Sites",
+  "source_context_snippet": "Aggregate Distro Update Sites",
+  "source_file": ".github/workflows/aggregate-distro-update-sites.yml",
+  "source_repo": "spring-projects/spring-tools",
+  "source_repo_description": "The next generation of tooling for Spring Boot, including support for Cloud Foundry manifest files, Concourse CI pipeline definitions, BOSH deployment manifests, and more... - Available for Visual Studio Code, Cursor, Eclipse, and Theia"
+}

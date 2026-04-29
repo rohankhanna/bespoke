@@ -18,7 +18,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "andymass/vim-matchup",
-      "target": "andrewradev/splitjoin.vim",
+      "target": "jiangmiao/auto-pairs",
       "target_type": "repository"
     },
     {
@@ -162,6 +162,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "andymass/vim-matchup"
 }

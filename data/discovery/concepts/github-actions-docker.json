@@ -91,6 +91,18 @@
       "source_repo": "docker/metadata-action",
       "status": "candidate-context",
       "text": "[![GitHub release](https://img.shields.io/github/release/docker/metadata-action.svg?style=flat-square)](https://github.com/docker/metadata-action/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate-context",
+      "text": "Runs the psf/black formatter to check/format your python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/rickstaa/action-black/workflows/Test/badge.svg)](https://github.com/rickstaa/action-black/actions?query=workflow%3ATest)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "docker/metadata-action",
       "status": "candidate",
       "text": "[![GitHub release](https://img.shields.io/github/release/docker/metadata-action.svg?style=flat-square)](https://github.com/docker/metadata-action/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/rickstaa/action-black/workflows/Test/badge.svg)](https://github.com/rickstaa/action-black/actions?query=workflow%3ATest)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "docker/metadata-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rickstaa/action-black"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

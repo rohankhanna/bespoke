@@ -41,15 +41,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T12:39:56.459212+00:00",
+  "fetched_at": "2026-04-29T20:51:51.126005+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 133341
+      "size": 154927
     },
     {
       "path": "pyproject.toml",
-      "size": 1124
+      "size": 1125
     },
     {
       "path": ".github/workflows/logo.gif",
@@ -69,10 +69,10 @@
     "full_name": "modelscope/DiffSynth-Studio",
     "html_url": "https://github.com/modelscope/DiffSynth-Studio",
     "language": "Python",
-    "pushed_at": "2026-04-24T09:01:26Z",
-    "stargazers_count": 12301,
+    "pushed_at": "2026-04-29T08:28:33Z",
+    "stargazers_count": 12331,
     "topics": [],
-    "updated_at": "2026-04-24T10:32:31Z"
+    "updated_at": "2026-04-29T12:24:59Z"
   },
   "repo_links": [
     {

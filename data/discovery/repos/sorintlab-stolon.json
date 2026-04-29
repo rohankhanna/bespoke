@@ -1,0 +1,216 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon",
+      "target": "cloud-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon",
+      "target": "consul",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon",
+      "target": "data-consistency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon",
+      "target": "declarative-config",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon",
+      "target": "disaster-recovery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon",
+      "target": "etcd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon",
+      "target": "high-availability",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon",
+      "target": "standby-cluster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon",
+      "target": "synchronous-replication",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:57:27.765419+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5052
+    },
+    {
+      "path": "go.mod",
+      "size": 1024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PostgreSQL cloud native High Availability and more.",
+    "fork": false,
+    "full_name": "sorintlab/stolon",
+    "html_url": "https://github.com/sorintlab/stolon",
+    "language": "Go",
+    "pushed_at": "2024-07-08T16:32:33Z",
+    "stargazers_count": 4816,
+    "topics": [
+      "cloud-native",
+      "consul",
+      "data-consistency",
+      "declarative-config",
+      "disaster-recovery",
+      "docker",
+      "etcd",
+      "golang",
+      "high-availability",
+      "kubernetes",
+      "postgresql",
+      "standby-cluster",
+      "synchronous-replication"
+    ],
+    "updated_at": "2026-04-26T15:26:31Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloud-native"
+    },
+    {
+      "context_snippet": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consul"
+    },
+    {
+      "context_snippet": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-consistency"
+    },
+    {
+      "context_snippet": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "declarative-config"
+    },
+    {
+      "context_snippet": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "disaster-recovery"
+    },
+    {
+      "context_snippet": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "etcd"
+    },
+    {
+      "context_snippet": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-availability"
+    },
+    {
+      "context_snippet": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standby-cluster"
+    },
+    {
+      "context_snippet": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "synchronous-replication"
+    }
+  ]
+}

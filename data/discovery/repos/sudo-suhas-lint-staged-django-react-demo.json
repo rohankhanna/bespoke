@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sudo-suhas/lint-staged-django-react-demo",
+      "target": "example-project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sudo-suhas/lint-staged-django-react-demo",
+      "target": "lint-staged",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sudo-suhas/lint-staged-django-react-demo",
+      "target": "pre-commit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:57:39.817371+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Example repo to demonstrate use of `lint-staged` to lint files outside of project directory.",
+    "fork": false,
+    "full_name": "sudo-suhas/lint-staged-django-react-demo",
+    "html_url": "https://github.com/sudo-suhas/lint-staged-django-react-demo",
+    "language": null,
+    "pushed_at": "2022-02-11T12:44:35Z",
+    "stargazers_count": 2,
+    "topics": [
+      "example-project",
+      "lint-staged",
+      "pre-commit"
+    ],
+    "updated_at": "2021-10-27T12:32:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Example repo to demonstrate use of `lint-staged` to lint files outside of project directory.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "example-project"
+    },
+    {
+      "context_snippet": "Example repo to demonstrate use of `lint-staged` to lint files outside of project directory.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint-staged"
+    },
+    {
+      "context_snippet": "Example repo to demonstrate use of `lint-staged` to lint files outside of project directory.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-commit"
+    }
+  ]
+}

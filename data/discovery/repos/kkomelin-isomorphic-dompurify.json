@@ -1,0 +1,377 @@
+{
+  "components": [
+    {
+      "component": "dompurify",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@biomejs/biome",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/trusted-types",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lefthook",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tsup",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "vitest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "pnpm/action-setup@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "kkomelin/isomorphic-dompurify-playgrounds",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "dompurify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "@biomejs/biome",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "@types/jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "@types/trusted-types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "lefthook",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "tsup",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "vitest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "pnpm/action-setup@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "Lint, Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "dompurify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "html-escape",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "isomorphic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "isomorphic-dompurify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "sanitize",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "sanitize-html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "sanitizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "universal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "wrapper",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "target": "xss-filter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:41:07.913961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6092
+    },
+    {
+      "path": "package.json",
+      "size": 2006
+    },
+    {
+      "path": ".github/workflows/build_test.yml",
+      "size": 615
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Use DOMPurify on server and client in the same way",
+    "fork": false,
+    "full_name": "kkomelin/isomorphic-dompurify",
+    "html_url": "https://github.com/kkomelin/isomorphic-dompurify",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-29T14:05:25Z",
+    "stargazers_count": 574,
+    "topics": [
+      "dompurify",
+      "html-escape",
+      "isomorphic",
+      "isomorphic-dompurify",
+      "sanitize",
+      "sanitize-html",
+      "sanitizer",
+      "security",
+      "ssr",
+      "universal",
+      "wrapper",
+      "xss",
+      "xss-filter"
+    ],
+    "updated_at": "2026-04-29T14:06:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kkomelin/isomorphic-dompurify-playgrounds",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint, Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yml",
+      "term": "Lint, Build and Test"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dompurify"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html-escape"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isomorphic"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isomorphic-dompurify"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanitize"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanitize-html"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sanitizer"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "universal"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wrapper"
+    },
+    {
+      "context_snippet": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xss-filter"
+    }
+  ]
+}

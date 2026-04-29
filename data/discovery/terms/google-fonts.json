@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -16,6 +16,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/google-fonts.yml",
       "source_repo": "XcodesOrg/homebrew-cask"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "googlefonts/gftools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "Homebrew/homebrew-cask"
     }
   ],
   "term": "google-fonts"

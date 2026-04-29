@@ -1,7 +1,7 @@
 {
   "component": "geekyeggo/delete-artifact@v5",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -22,6 +22,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/nightly_build.yml",
       "source_repo": "status-im/nimbus-eth1"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aws-main.yml",
+      "source_repo": "localstack/localstack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aws-tests-s3-image.yml",
+      "source_repo": "localstack/localstack"
     }
   ]
 }

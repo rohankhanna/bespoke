@@ -1,0 +1,224 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "athos/trenchman",
+      "target": "technomancy/grenchman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "athos/trenchman",
+      "target": "hanslub42/rlwrap",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "athos/trenchman",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "athos/trenchman",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "athos/trenchman",
+      "target": "goreleaser/goreleaser-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "athos/trenchman",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "athos/trenchman",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "athos/trenchman",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "athos/trenchman",
+      "target": "test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athos/trenchman",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athos/trenchman",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athos/trenchman",
+      "target": "nrepl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athos/trenchman",
+      "target": "prepl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "athos/trenchman",
+      "target": "repl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:58:58.498486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9157
+    },
+    {
+      "path": "go.mod",
+      "size": 736
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 627
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 455
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A standalone nREPL/prepl client written in Go and heavily inspired by Grenchman",
+    "fork": false,
+    "full_name": "athos/trenchman",
+    "html_url": "https://github.com/athos/trenchman",
+    "language": "Go",
+    "pushed_at": "2023-01-29T15:08:49Z",
+    "stargazers_count": 67,
+    "topics": [
+      "clojure",
+      "golang",
+      "nrepl",
+      "prepl",
+      "repl"
+    ],
+    "updated_at": "2026-04-16T01:00:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hanslub42/rlwrap",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "technomancy/grenchman",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    },
+    {
+      "context_snippet": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nrepl"
+    },
+    {
+      "context_snippet": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prepl"
+    },
+    {
+      "context_snippet": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    }
+  ]
+}

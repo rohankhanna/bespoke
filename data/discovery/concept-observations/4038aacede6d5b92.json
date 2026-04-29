@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Share an abstract-level database over the network or other kind of stream."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "**Share an [abstract-level](https://github.com/Level/abstract-level) database over the network or other kind of stream.** The successor to [`multileveldown`](https://github.com/Level/multileveldown). If you are upgrading, please see [UPGRADING.md](UPGRADING.md)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "**Share an [abstract-level](https://github.com/Level/abstract-level) database over the network or other kind of stream.** The successor to [`multileveldown`](https://github.com/Level/multileveldown). If you are upgrading, please see [UPGRADING.md](UPGRADING.md)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "abstract-level",
+      "sense_id": "abstract-level#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "abstract-level",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "abstract-level",
+  "observation_id": "4038aacede6d5b92",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "abstract-level",
+  "source_context_snippet": "**Share an [abstract-level](https://github.com/Level/abstract-level) database over the network or other kind of stream.** The successor to [`multileveldown`](https://github.com/Level/multileveldown). If you are upgrading, please see [UPGRADING.md](UPGRADING.md).",
+  "source_file": null,
+  "source_repo": "Level/many-level",
+  "source_repo_description": "Share an abstract-level database over the network or other kind of stream."
+}

@@ -44,6 +44,18 @@
       "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades",
       "status": "candidate-context",
       "text": "Changeset"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openai/openai-agents-js",
+      "status": "candidate-context",
+      "text": "A lightweight, powerful framework for multi-agent workflows and voice agents"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-js",
+      "status": "candidate-context",
+      "text": "Changeset"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades",
+      "status": "candidate",
+      "text": "Changeset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openai/openai-agents-js",
       "status": "candidate",
       "text": "Changeset"
     }
@@ -125,11 +143,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/changeset.yml",
       "source_repo": "OpenZeppelin/openzeppelin-foundry-upgrades"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changeset.yml",
+      "source_repo": "openai/openai-agents-js"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

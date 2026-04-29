@@ -2,7 +2,8 @@
   "aliases": [
     "GitHub Pages",
     "github-pages",
-    "github pages"
+    "github pages",
+    "Github Pages"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -371,6 +372,78 @@
       "source_repo": "terser/html-minifier-terser",
       "status": "candidate-context",
       "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numpy/numpy.org",
+      "status": "candidate-context",
+      "text": "The NumPy home page"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numpy/numpy.org",
+      "status": "candidate-context",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jimporter/mike",
+      "status": "candidate-context",
+      "text": "Manage multiple versions of your MkDocs-powered documentation via Git"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jimporter/mike",
+      "status": "candidate-context",
+      "text": "[![PyPi version][pypi-image]][pypi-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helix-editor/helix",
+      "status": "candidate-context",
+      "text": "A post-modern modal text editor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-editor/helix",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdaclass/lambdaworks",
+      "status": "candidate-context",
+      "text": "lambdaworks offers implementations for both SNARKs and STARKs provers, along with the flexibility to leverage their individual components for constructing customized SNARKs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/lambdaworks",
+      "status": "candidate-context",
+      "text": "Github Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust3ds/ctru-rs",
+      "status": "candidate-context",
+      "text": "Rust wrapper for libctru"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust3ds/ctru-rs",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpcaitech/Open-Sora",
+      "status": "candidate-context",
+      "text": "Open-Sora: Democratizing Efficient Video Production for All"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/Open-Sora",
+      "status": "candidate-context",
+      "text": "GitHub Pages"
     }
   ],
   "candidate_glosses": [
@@ -551,6 +624,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "terser/html-minifier-terser",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numpy/numpy.org",
+      "status": "candidate",
+      "text": "github pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jimporter/mike",
+      "status": "candidate",
+      "text": "[![PyPi version][pypi-image]][pypi-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helix-editor/helix",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdaclass/lambdaworks",
+      "status": "candidate",
+      "text": "Github Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust3ds/ctru-rs",
+      "status": "candidate",
+      "text": "GitHub Pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/Open-Sora",
       "status": "candidate",
       "text": "GitHub Pages"
     }
@@ -830,11 +939,59 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "terser/html-minifier-terser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "numpy/numpy.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jimporter/mike"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "helix-editor/helix"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "lambdaclass/lambdaworks"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-trace"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "rust3ds/ctru-rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/github_page.yaml",
+      "source_repo": "hpcaitech/Open-Sora"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

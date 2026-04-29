@@ -235,6 +235,66 @@
       "source_repo": "WebAssembly/WASI",
       "status": "candidate-context",
       "text": "<img width=\"100px\" src=\"assets/WASI.png\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "msqr1/kaldi-wasm2",
+      "status": "candidate-context",
+      "text": "New compilation guide for Kaldi to WASM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msqr1/kaldi-wasm2",
+      "status": "candidate-context",
+      "text": "- There is [an older guide](https://gitlab.inria.fr/multispeech/kaldi.web/kaldi-wasm/-/wikis/build_details.md) for this that compiled Kaldi with [CLAPACK](https://www.netlib.org/clapack) (not properly tested) and [Netlib's Reference BLAS](https://www.netlib.org/blas), which exis\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate-context",
+      "text": "Nginx + WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "Boa is an embeddable Javascript engine written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dabevlohn/rand16",
+      "status": "candidate-context",
+      "text": "Yet another WASM plugin for Hyper-MCP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dabevlohn/rand16",
+      "status": "candidate-context",
+      "text": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -351,6 +411,36 @@
       "source_repo": "WebAssembly/WASI",
       "status": "candidate",
       "text": "<img width=\"100px\" src=\"assets/WASI.png\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "msqr1/kaldi-wasm2",
+      "status": "candidate",
+      "text": "- There is [an older guide](https://gitlab.inria.fr/multispeech/kaldi.web/kaldi-wasm/-/wikis/build_details.md) for this that compiled Kaldi with [CLAPACK](https://www.netlib.org/clapack) (not properly tested) and [Netlib's Reference BLAS](https://www.netlib.org/blas), which exis\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "boa-dev/boa",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dabevlohn/rand16",
+      "status": "candidate",
+      "text": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -478,11 +568,41 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "WebAssembly/WASI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "msqr1/kaldi-wasm2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Kong/ngx_wasm_module"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "boa-dev/boa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dabevlohn/rand16"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "extism/extism"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

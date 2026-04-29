@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "KichangKim/DeepDanbooru",
+      "target": "kichangkim/danboorudownloader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KichangKim/DeepDanbooru",
+      "target": "danbooru",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KichangKim/DeepDanbooru",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "KichangKim/DeepDanbooru",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:47:45.709780+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3801
+    },
+    {
+      "path": "requirements.txt",
+      "size": 125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "AI based multi-label girl image classification system, implemented by using TensorFlow.",
+    "fork": false,
+    "full_name": "KichangKim/DeepDanbooru",
+    "html_url": "https://github.com/KichangKim/DeepDanbooru",
+    "language": "Python",
+    "pushed_at": "2024-08-27T14:36:49Z",
+    "stargazers_count": 2909,
+    "topics": [
+      "danbooru",
+      "machine-learning",
+      "tensorflow"
+    ],
+    "updated_at": "2026-04-28T10:47:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kichangkim/danboorudownloader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![Python](https://img.shields.io/badge/python-3.11-green)](https://www.python.org/doc/versions/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "danbooru"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/badge/python-3.11-green)](https://www.python.org/doc/versions/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "[![Python](https://img.shields.io/badge/python-3.11-green)](https://www.python.org/doc/versions/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

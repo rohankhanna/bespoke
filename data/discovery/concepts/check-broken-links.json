@@ -44,6 +44,42 @@
       "source_repo": "open-policy-agent/opa",
       "status": "candidate-context",
       "text": "\"Check Broken Links\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iovisor/bcc",
+      "status": "candidate-context",
+      "text": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iovisor/bcc",
+      "status": "candidate-context",
+      "text": "Check Broken Links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/yolov3",
+      "status": "candidate-context",
+      "text": "YOLOv3 in PyTorch > ONNX > CoreML > TFLite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov3",
+      "status": "candidate-context",
+      "text": "Check Broken links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate-context",
+      "text": "YOLOv5 \ud83d\ude80 in PyTorch > ONNX > CoreML > TFLite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate-context",
+      "text": "Check Broken links"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +100,24 @@
       "source_repo": "open-policy-agent/opa",
       "status": "candidate",
       "text": "\"Check Broken Links\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iovisor/bcc",
+      "status": "candidate",
+      "text": "Check Broken Links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov3",
+      "status": "candidate",
+      "text": "Check Broken links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate",
+      "text": "Check Broken links"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +179,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/link-checker.yaml",
       "source_repo": "open-policy-agent/opa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/check_links.yml",
+      "source_repo": "iovisor/bcc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "ultralytics/yolov3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/links.yml",
+      "source_repo": "ultralytics/yolov5"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

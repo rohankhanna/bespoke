@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release Checks"
+    "Release Checks",
+    "release-checks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "puma/puma",
       "status": "candidate-context",
       "text": "Release Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "operator-framework/operator-lifecycle-manager",
+      "status": "candidate-context",
+      "text": "A management framework for extending Kubernetes with Operators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-lifecycle-manager",
+      "status": "candidate-context",
+      "text": "release-checks"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "puma/puma",
       "status": "candidate",
       "text": "Release Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "operator-framework/operator-lifecycle-manager",
+      "status": "candidate",
+      "text": "release-checks"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/release-checks.yml",
       "source_repo": "puma/puma"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/quickstart.yml",
+      "source_repo": "operator-framework/operator-lifecycle-manager"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "inline-snapshot boosts efficiency when writing tests by generating code with the expected values and simplifies snapshot tests with pytest."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!-- -8<- [start:Header] -->"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!-- -8<- [start:Header] -->"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "snapshot-tests",
+      "sense_id": "snapshot-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "snapshot-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "snapshot-tests",
+  "observation_id": "148b444501d9de3b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "snapshot-tests",
+  "source_context_snippet": "<!-- -8<- [start:Header] -->",
+  "source_file": null,
+  "source_repo": "15r10nk/inline-snapshot",
+  "source_repo_description": "inline-snapshot boosts efficiency when writing tests by generating code with the expected values and simplifies snapshot tests with pytest."
+}

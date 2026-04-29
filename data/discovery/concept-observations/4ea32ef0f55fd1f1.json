@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The command-line tool that gives easy access to all of the capabilities of B2 Cloud Storage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![CI](https://github.com/Backblaze/B2_Command_Line_Tool/actions/workflows/ci.yml/badge.svg)](https://github.com/Backblaze/B2_Command_Line_Tool/actions/workflows/ci.yml)&nbsp;[![License](https://img.shields.io/pypi/l/b2.svg?label=License)](https://pypi.python.org/pypi/b2)&nbsp;[\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/Backblaze/B2_Command_Line_Tool/actions/workflows/ci.yml/badge.svg)](https://github.com/Backblaze/B2_Command_Line_Tool/actions/workflows/ci.yml)&nbsp;[![License](https://img.shields.io/pypi/l/b2.svg?label=License)](https://pypi.python.org/pypi/b2)&nbsp;[\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39997377,
+      "status": "candidate",
+      "text": "product"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001859,
+      "status": "candidate",
+      "text": "generation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001708,
+      "status": "candidate",
+      "text": "elaboration"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001640,
+      "status": "candidate",
+      "text": "produce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30001499,
+      "status": "candidate",
+      "text": "input"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "production",
+      "sense_id": "production#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15058,
+      "status": "candidate",
+      "text": "product"
+    }
+  ],
+  "concept_id": "production",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "production",
+  "observation_id": "4ea32ef0f55fd1f1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "production",
+  "source_context_snippet": "[![CI](https://github.com/Backblaze/B2_Command_Line_Tool/actions/workflows/ci.yml/badge.svg)](https://github.com/Backblaze/B2_Command_Line_Tool/actions/workflows/ci.yml)&nbsp;[![License](https://img.shields.io/pypi/l/b2.svg?label=License)](https://pypi.python.org/pypi/b2)&nbsp;[\u2026",
+  "source_file": null,
+  "source_repo": "Backblaze/B2_Command_Line_Tool",
+  "source_repo_description": "The command-line tool that gives easy access to all of the capabilities of B2 Cloud Storage"
+}

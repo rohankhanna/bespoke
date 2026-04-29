@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ozancivaner/hashdir",
+      "target": "directories",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ozancivaner/hashdir",
+      "target": "hash",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ozancivaner/hashdir",
+      "target": "imohash",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:55:30.639501+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A command line tool to calculate hashes of directory trees using various hash algorithms.",
+    "fork": false,
+    "full_name": "ozancivaner/hashdir",
+    "html_url": "https://github.com/ozancivaner/hashdir",
+    "language": "Python",
+    "pushed_at": "2024-07-11T17:48:17Z",
+    "stargazers_count": 6,
+    "topics": [
+      "cli",
+      "directories",
+      "hash",
+      "imohash"
+    ],
+    "updated_at": "2025-02-21T04:28:41Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A command line tool to calculate hash of directory trees using various hash algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "directories"
+    },
+    {
+      "context_snippet": "A command line tool to calculate hash of directory trees using various hash algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hash"
+    },
+    {
+      "context_snippet": "A command line tool to calculate hash of directory trees using various hash algorithms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imohash"
+    }
+  ]
+}

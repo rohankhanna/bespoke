@@ -68,6 +68,42 @@
       "source_repo": "espnet/espnet",
       "status": "candidate-context",
       "text": "Automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-help",
+      "status": "candidate-context",
+      "text": "standard help for oclif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-help",
+      "status": "candidate-context",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/plugin-plugins",
+      "status": "candidate-context",
+      "text": "plugins plugin for oclif"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-plugins",
+      "status": "candidate-context",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/core",
+      "status": "candidate-context",
+      "text": "Node.js Open CLI Framework. Built by Salesforce."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/core",
+      "status": "candidate-context",
+      "text": "automerge"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +136,24 @@
       "source_repo": "espnet/espnet",
       "status": "candidate",
       "text": "Automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-help",
+      "status": "candidate",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/plugin-plugins",
+      "status": "candidate",
+      "text": "automerge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/core",
+      "status": "candidate",
+      "text": "automerge"
     }
   ],
   "candidate_related_terms": [],
@@ -137,11 +191,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/automerge.yml",
       "source_repo": "espnet/espnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/plugin-help"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/plugin-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/automerge.yml",
+      "source_repo": "oclif/core"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

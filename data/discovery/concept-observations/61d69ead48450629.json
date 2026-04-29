@@ -48,7 +48,7 @@
   "normalized_form": "docker-multigpu-tests-biweekly",
   "observation_id": "61d69ead48450629",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "docker-multigpu-tests-biweekly",
   "source_context_snippet": "docker-multigpu-tests-biweekly",
   "source_file": ".github/workflows/multi-gpu-e2e.yml",

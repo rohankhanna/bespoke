@@ -67,6 +67,42 @@
       "source_repo": "CommunityToolkit/Windows",
       "status": "candidate-context",
       "text": "**/CommunityToolkit.*"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "base-repos/base",
+      "status": "candidate-context",
+      "text": "Base is the foundation for creating modular, unit testable and highly pluggable, server-side node.js applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "base-repos/base",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asdine/storm",
+      "status": "candidate-context",
+      "text": "Simple and powerful toolkit for BoltDB"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdine/storm",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate-context",
+      "text": "A cross-platform GUI library for Rust, inspired by Elm"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "CommunityToolkit/Windows",
       "status": "candidate",
       "text": "**/CommunityToolkit.*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "base-repos/base",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asdine/storm",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/asdine/storm.svg)](https://travis-ci.org/asdine/storm)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iced-rs/iced",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +226,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "CommunityToolkit/Windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "asdine/storm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "iced-rs/iced"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

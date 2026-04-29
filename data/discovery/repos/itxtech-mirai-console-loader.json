@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iTXTech/mirai-console-loader",
+      "target": "itxtech/mcl-installer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iTXTech/mirai-console-loader",
+      "target": "project-mirai/mirai-repo-mirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iTXTech/mirai-console-loader",
+      "target": "mirai",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:54.649052+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2873
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u6a21\u5757\u5316\u3001\u8f7b\u91cf\u7ea7\u4e14\u652f\u6301\u5b8c\u5168\u81ea\u5b9a\u4e49\u7684 mirai \u52a0\u8f7d\u5668\u3002",
+    "fork": false,
+    "full_name": "iTXTech/mirai-console-loader",
+    "html_url": "https://github.com/iTXTech/mirai-console-loader",
+    "language": "Java",
+    "pushed_at": "2023-12-24T05:39:40Z",
+    "stargazers_count": 745,
+    "topics": [
+      "mirai"
+    ],
+    "updated_at": "2026-04-11T14:27:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "itxtech/mcl-installer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-mirai/mirai-repo-mirror",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![GitHub release](https://img.shields.io/github/v/release/itxtech/mirai-console-loader?label=stable)](https://github.com/iTXTech/mirai-console-loader/releases)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mirai"
+    }
+  ]
+}

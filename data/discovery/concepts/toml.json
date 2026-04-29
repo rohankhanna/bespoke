@@ -55,6 +55,18 @@
       "source_repo": "mikefarah/yq",
       "status": "candidate-context",
       "text": "![Build](https://github.com/mikefarah/yq/workflows/Build/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/mikefarah/yq.svg) ![Github Releases (by Release)](https://img.shields.io/github/downloads/mikefarah/yq/total.svg) ![Go Report](https://goreportcard.com/badge/g\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "un-ts/toml-tools",
+      "status": "candidate-context",
+      "text": "A set of tools for working with the Toml configuration file format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/toml-tools",
+      "status": "candidate-context",
+      "text": "[![Release](https://github.com/un-ts/toml-tools/actions/workflows/release.yml/badge.svg)](https://github.com/un-ts/toml-tools/actions/workflows/release.yml)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "mikefarah/yq",
       "status": "candidate",
       "text": "![Build](https://github.com/mikefarah/yq/workflows/Build/badge.svg) ![Docker Pulls](https://img.shields.io/docker/pulls/mikefarah/yq.svg) ![Github Releases (by Release)](https://img.shields.io/github/downloads/mikefarah/yq/total.svg) ![Go Report](https://goreportcard.com/badge/g\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "un-ts/toml-tools",
+      "status": "candidate",
+      "text": "[![Release](https://github.com/un-ts/toml-tools/actions/workflows/release.yml/badge.svg)](https://github.com/un-ts/toml-tools/actions/workflows/release.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "mikefarah/yq"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "un-ts/toml-tools"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

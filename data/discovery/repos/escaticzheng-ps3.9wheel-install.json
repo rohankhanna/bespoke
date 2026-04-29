@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:49:36.835277+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 682
+    },
+    {
+      "path": "requirements.txt",
+      "size": 40
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Install PaddleSpeech in python3.9 on windows without anything about visual studio.",
+    "fork": false,
+    "full_name": "EscaticZheng/ps3.9wheel-install",
+    "html_url": "https://github.com/EscaticZheng/ps3.9wheel-install",
+    "language": null,
+    "pushed_at": "2023-02-13T06:15:55Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2025-07-26T09:23:18Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FudanVI/benchmarking-chinese-text-recognition",
+      "target": "hciilab/scut-hccdoc_dataset_release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FudanVI/benchmarking-chinese-text-recognition",
+      "target": "sanster/text_renderer",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "FudanVI/benchmarking-chinese-text-recognition"
+}

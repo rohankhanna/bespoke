@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AVC2-UESTC/CRAFT-SR",
+      "target": "luissen/esrt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AVC2-UESTC/CRAFT-SR",
+      "target": "xpixelgroup/basicsr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AVC2-UESTC/CRAFT-SR",
+      "target": "zhengchen1999/cat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AVC2-UESTC/CRAFT-SR",
+      "target": "swz30/restormer",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "AVC2-UESTC/CRAFT-SR"
+}

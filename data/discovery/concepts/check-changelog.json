@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Check Changelog",
-    "Check changelog"
+    "Check changelog",
+    "check-changelog"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -86,6 +87,18 @@
       "source_repo": "heroku/heroku-buildpack-ruby",
       "status": "candidate-context",
       "text": "Check Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashen-sensored/gradio",
+      "status": "candidate-context",
+      "text": "Create UIs for your machine learning model in Python in 3 minutes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashen-sensored/gradio",
+      "status": "candidate-context",
+      "text": "check-changelog"
     }
   ],
   "candidate_glosses": [
@@ -130,6 +143,12 @@
       "source_repo": "heroku/heroku-buildpack-ruby",
       "status": "candidate",
       "text": "Check Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashen-sensored/gradio",
+      "status": "candidate",
+      "text": "check-changelog"
     }
   ],
   "candidate_related_terms": [
@@ -215,11 +234,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/check_changelog.yml",
       "source_repo": "heroku/heroku-buildpack-ruby"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/check-changelog.yml",
+      "source_repo": "ashen-sensored/gradio"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

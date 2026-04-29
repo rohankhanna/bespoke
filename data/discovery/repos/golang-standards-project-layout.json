@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "golang-standards/project-layout",
+      "target": "dominikh/go-tools",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "golang-standards/project-layout",
+      "target": "danceyoung/paper-code",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "golang-standards/project-layout",
+      "target": "marmotedu/iam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "golang-standards/project-layout",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "golang-standards/project-layout",
+      "target": "project-structure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "golang-standards/project-layout",
+      "target": "project-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "golang-standards/project-layout",
+      "target": "standards",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:49:25.102452+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16070
+    },
+    {
+      "path": "go.mod",
+      "size": 64
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Standard Go Project Layout",
+    "fork": false,
+    "full_name": "golang-standards/project-layout",
+    "html_url": "https://github.com/golang-standards/project-layout",
+    "language": "Makefile",
+    "pushed_at": "2026-04-28T17:18:05Z",
+    "stargazers_count": 55874,
+    "topics": [
+      "go",
+      "golang",
+      "project-structure",
+      "project-template",
+      "standards"
+    ],
+    "updated_at": "2026-04-29T18:44:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danceyoung/paper-code",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dominikh/go-tools",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marmotedu/iam",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Translations:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "Translations:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project-structure"
+    },
+    {
+      "context_snippet": "Translations:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "project-template"
+    },
+    {
+      "context_snippet": "Translations:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standards"
+    }
+  ]
+}

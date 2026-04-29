@@ -115,6 +115,18 @@
       "source_repo": "zsh-users/zsh-syntax-highlighting",
       "status": "candidate-context",
       "text": "zsh-syntax-highlighting [![Build Status][build-status-image]][build-status]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rehypejs/rehype-highlight",
+      "status": "candidate-context",
+      "text": "plugin to highlight code blocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehypejs/rehype-highlight",
+      "status": "candidate-context",
+      "text": "rehype-highlight \u2014 rehype plugin to highlight code blocks with lowlight (highlight.js)"
     }
   ],
   "candidate_glosses": [
@@ -171,6 +183,12 @@
       "source_repo": "zsh-users/zsh-syntax-highlighting",
       "status": "candidate",
       "text": "zsh-syntax-highlighting [![Build Status][build-status-image]][build-status]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehypejs/rehype-highlight",
+      "status": "candidate",
+      "text": "rehype-highlight \u2014 rehype plugin to highlight code blocks with lowlight (highlight.js)"
     }
   ],
   "candidate_related_terms": [],
@@ -244,11 +262,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "highlightjs/highlight.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rehypejs/rehype-highlight"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

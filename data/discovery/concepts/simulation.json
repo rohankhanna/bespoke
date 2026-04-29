@@ -79,6 +79,30 @@
       "source_repo": "acts-project/acts",
       "status": "candidate-context",
       "text": "or *A Common Tracking Software* if you do not like recursive acronyms"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bulletphysics/bullet3",
+      "status": "candidate-context",
+      "text": "Bullet Physics SDK: real-time collision detection and multi-physics simulation for VR, games, visual effects, robotics, machine learning etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bulletphysics/bullet3",
+      "status": "candidate-context",
+      "text": "[![Travis Build Status](https://api.travis-ci.org/bulletphysics/bullet3.png?branch=master)](https://travis-ci.org/bulletphysics/bullet3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "status": "candidate-context",
+      "text": "High-performance ROS2 solution for Unity3D"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "status": "candidate-context",
+      "text": "Ros2 For Unity"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "acts-project/acts",
       "status": "candidate",
       "text": "or *A Common Tracking Software* if you do not like recursive acronyms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bulletphysics/bullet3",
+      "status": "candidate",
+      "text": "[![Travis Build Status](https://api.travis-ci.org/bulletphysics/bullet3.png?branch=master)](https://travis-ci.org/bulletphysics/bullet3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "status": "candidate",
+      "text": "Ros2 For Unity"
     }
   ],
   "candidate_related_terms": [
@@ -250,11 +286,29 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "acts-project/acts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "echo-yiyiyi/cube"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bulletphysics/bullet3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "RobotecAI/ros2-for-unity"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

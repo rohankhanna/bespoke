@@ -67,6 +67,18 @@
       "source_repo": "stevearc/stickybuf.nvim",
       "status": "candidate-context",
       "text": "Remove Question Label on Issue Comment"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin to improve the default vim.ui interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate-context",
+      "text": "Remove Question Label on Issue Comment"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "stevearc/stickybuf.nvim",
+      "status": "candidate",
+      "text": "Remove Question Label on Issue Comment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/dressing.nvim",
       "status": "candidate",
       "text": "Remove Question Label on Issue Comment"
     }
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/automation_remove_question_label_on_comment.yml",
       "source_repo": "stevearc/stickybuf.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/automation_remove_question_label_on_comment.yml",
+      "source_repo": "stevearc/dressing.nvim"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "graphite"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "statsd/statsd",
+      "status": "candidate-context",
+      "text": "Daemon for easy but powerful stats aggregation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statsd/statsd",
+      "status": "candidate-context",
+      "text": "A network daemon that runs on the [Node.js][node] platform and"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statsd/statsd",
+      "status": "candidate",
+      "text": "A network daemon that runs on the [Node.js][node] platform and"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026256,
+      "status": "candidate",
+      "text": "black lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39913495,
+      "status": "candidate",
+      "text": "plumbago"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022460,
+      "status": "candidate",
+      "text": "pyrolytic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016721,
+      "status": "candidate",
+      "text": "mine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999049,
+      "status": "candidate",
+      "text": "epoxy"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "black lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35,
+      "status": "candidate",
+      "text": "plumbago"
+    }
+  ],
+  "canonical_name": "graphite",
+  "concept_id": "graphite",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graphite",
+      "sense_id": "graphite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

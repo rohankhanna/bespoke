@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Centralized Sampling Integration Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-observability/aws-otel-community",
+      "status": "candidate-context",
+      "text": "Welcome to the AWS Distro for OpenTelemetry project. If you're using monitoring and observability tools for AWS products and services, this is a great place to ask questions, request features and network with other community members. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-community",
+      "status": "candidate-context",
+      "text": "Centralized Sampling Integration Tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-community",
+      "status": "candidate",
+      "text": "Centralized Sampling Integration Tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27990,
+      "status": "candidate",
+      "text": "center"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27990,
+      "status": "candidate",
+      "text": "centralization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27682,
+      "status": "candidate",
+      "text": "item"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27597,
+      "status": "candidate",
+      "text": "lab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27597,
+      "status": "candidate",
+      "text": "tester"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Centralized Sampling Integration Tests",
+  "concept_id": "centralized-sampling-integration-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/centralized-sampling-tests.yml",
+      "source_repo": "aws-observability/aws-otel-community"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Centralized Sampling Integration Tests",
+      "sense_id": "centralized-sampling-integration-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

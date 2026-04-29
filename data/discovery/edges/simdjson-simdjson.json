@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "apache/doris",
+      "target": "dgraph-io/dgraph",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "adamritter/fastgron",
+      "target": "crazyxman/simdjson_php",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "anilmaurya/fast_jsonparser",
+      "target": "eddelbuettel/rcppsimdjson",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "simdjson/simdjson",
-      "target": "asmod4n/mruby-fast-json",
+      "target": "chompert/simdjson_erlang",
       "target_type": "repository"
     },
     {
@@ -365,6 +365,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "simdjson/simdjson"
 }

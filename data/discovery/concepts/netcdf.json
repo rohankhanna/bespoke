@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "netcdf"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DOI-USGS/ncdfgeom",
+      "status": "candidate-context",
+      "text": "NetCDF-CF Geometry and Timeseries Tools for R: https://code.usgs.gov/water/ncdfgeom"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOI-USGS/ncdfgeom",
+      "status": "candidate-context",
+      "text": "NetCDF-CF Geometry and Timeseries Tools for R"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOI-USGS/ncdfgeom",
+      "status": "candidate",
+      "text": "NetCDF-CF Geometry and Timeseries Tools for R"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "apache hadoop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "bioinformatics"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "data grid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "spatial data infrastructure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "numpy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "netcdf",
+  "concept_id": "netcdf",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "DOI-USGS/ncdfgeom"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "netcdf",
+      "sense_id": "netcdf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

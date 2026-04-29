@@ -1,0 +1,61 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "mozilla/tls-observatory",
+      "target": "mozilla-services/ev-checker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "mozilla/tls-observatory",
+      "target": "awslabs/certlint",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:02:23.758429+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26358
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2229
+    },
+    {
+      "path": "go.mod",
+      "size": 1113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "An observatory for TLS configurations, X509 certificates, and more.",
+    "fork": false,
+    "full_name": "mozilla/tls-observatory",
+    "html_url": "https://github.com/mozilla/tls-observatory",
+    "language": "Go",
+    "pushed_at": "2025-09-23T14:33:32Z",
+    "stargazers_count": 545,
+    "topics": [],
+    "updated_at": "2026-04-08T16:39:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "awslabs/certlint",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla-services/ev-checker",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

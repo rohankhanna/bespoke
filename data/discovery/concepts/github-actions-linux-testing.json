@@ -19,12 +19,30 @@
       "source_repo": "grpc/grpc-java",
       "status": "candidate-context",
       "text": "GitHub Actions Linux Testing"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/protobuf-gradle-plugin",
+      "status": "candidate-context",
+      "text": "Protobuf Plugin for Gradle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/protobuf-gradle-plugin",
+      "status": "candidate-context",
+      "text": "GitHub Actions Linux Testing"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "grpc/grpc-java",
+      "status": "candidate",
+      "text": "GitHub Actions Linux Testing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/protobuf-gradle-plugin",
       "status": "candidate",
       "text": "GitHub Actions Linux Testing"
     }
@@ -76,11 +94,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/testing.yml",
       "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/testing.yml",
+      "source_repo": "google/protobuf-gradle-plugin"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

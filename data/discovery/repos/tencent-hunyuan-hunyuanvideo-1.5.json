@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "target": "deepbeepmeep/wan2gp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "target": "tencent-hunyuan/flex-block-attn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "target": "cooper1637/sageattention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "target": "image-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "target": "text-to-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Tencent-Hunyuan/HunyuanVideo-1.5",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:40.379937+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 57319
+    },
+    {
+      "path": "requirements.txt",
+      "size": 399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HunyuanVideo-1.5: A leading lightweight video generation model",
+    "fork": false,
+    "full_name": "Tencent-Hunyuan/HunyuanVideo-1.5",
+    "html_url": "https://github.com/Tencent-Hunyuan/HunyuanVideo-1.5",
+    "language": "Python",
+    "pushed_at": "2026-04-10T06:14:59Z",
+    "stargazers_count": 4398,
+    "topics": [
+      "image-to-video",
+      "text-to-video",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-28T20:40:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cooper1637/sageattention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepbeepmeep/wan2gp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent-hunyuan/flex-block-attn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[\u4e2d\u6587\u6587\u6863](./README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-video"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u6587\u6863](./README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-video"
+    },
+    {
+      "context_snippet": "[\u4e2d\u6587\u6587\u6863](./README_CN.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

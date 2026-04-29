@@ -67,6 +67,66 @@
       "source_repo": "Bridgewater/holochrome",
       "status": "candidate-context",
       "text": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate-context",
+      "text": "A browser extension for the Motrix Download Manager and its forks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate-context",
+      "text": "This WebExtension allows you to automatically download all the files via [Motrix Download Manager](https://motrix.app/) instead of your browser's native download manager."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate-context",
+      "text": "This browser extension enables you to filter the GitHub news feeds based on different event types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate-context",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate-context",
+      "text": "A free, open source, and privacy-focused browser extension to block \u201cnot safe for work\u201d content built using TypeScript and TensorFlow.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate-context",
+      "text": "A free, open source, and privacy-focused browser extension to block \"not safe for work\" content."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "domeccleston/sharegpt",
+      "status": "candidate-context",
+      "text": "Easily share permanent links to ChatGPT conversations with your friends"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domeccleston/sharegpt",
+      "status": "candidate-context",
+      "text": "<a href=\"https://sharegpt.com\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate-context",
+      "text": "Small CLI toolbox for cross-browser WebExtension development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate-context",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\">](https://www.npmjs.com/package/@webextension-toolbox/webextension-toolbox)"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +159,36 @@
       "source_repo": "Bridgewater/holochrome",
       "status": "candidate",
       "text": "<p align=\"center\"><a href=\"https://chrome.google.com/webstore/detail/holochrome/fgnplojdffjfbcmoldcfdoikldnogjpa\"><img src=\"holochrome-440x280.png\"/></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/motrix-webextension",
+      "status": "candidate",
+      "text": "This WebExtension allows you to automatically download all the files via [Motrix Download Manager](https://motrix.app/) instead of your browser's native download manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate",
+      "text": "A free, open source, and privacy-focused browser extension to block \"not safe for work\" content."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "domeccleston/sharegpt",
+      "status": "candidate",
+      "text": "<a href=\"https://sharegpt.com\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\">](https://www.npmjs.com/package/@webextension-toolbox/webextension-toolbox)"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +250,53 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/motrix-webextension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mlc-ai/web-llm-assistant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "domeccleston/sharegpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webextension-toolbox/webextension-toolbox"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

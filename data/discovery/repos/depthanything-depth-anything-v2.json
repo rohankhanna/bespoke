@@ -1,0 +1,97 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DepthAnything/Depth-Anything-V2",
+      "target": "fabio-sim/depth-anything-onnx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DepthAnything/Depth-Anything-V2",
+      "target": "kijai/comfyui-depthanythingv2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DepthAnything/Depth-Anything-V2",
+      "target": "feigechuanshu/ncnn-android-depth_anything",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DepthAnything/Depth-Anything-V2",
+      "target": "facebookresearch/dinov2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DepthAnything/Depth-Anything-V2",
+      "target": "monocular-depth-estimation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:27.293767+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9899
+    },
+    {
+      "path": "requirements.txt",
+      "size": 69
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2024] Depth Anything V2. A More Capable Foundation Model for Monocular Depth Estimation",
+    "fork": false,
+    "full_name": "DepthAnything/Depth-Anything-V2",
+    "html_url": "https://github.com/DepthAnything/Depth-Anything-V2",
+    "language": "Python",
+    "pushed_at": "2026-03-24T10:59:06Z",
+    "stargazers_count": 8025,
+    "topics": [
+      "monocular-depth-estimation"
+    ],
+    "updated_at": "2026-04-29T20:19:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fabio-sim/depth-anything-onnx",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/dinov2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feigechuanshu/ncnn-android-depth_anything",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kijai/comfyui-depthanythingv2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monocular-depth-estimation"
+    }
+  ]
+}

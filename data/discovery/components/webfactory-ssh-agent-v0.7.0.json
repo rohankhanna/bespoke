@@ -1,0 +1,27 @@
+{
+  "component": "webfactory/ssh-agent@v0.7.0",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-release-pr.yml",
+      "source_repo": "apollographql/apollo-ios-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-subtree-push.yml",
+      "source_repo": "apollographql/apollo-ios-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "apollographql/apollo-ios-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-swift-js-bundle.yml",
+      "source_repo": "apollographql/apollo-ios-dev"
+    }
+  ]
+}

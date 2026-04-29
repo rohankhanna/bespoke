@@ -163,6 +163,18 @@
       "source_repo": "octodns/octodns",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/octodns/octodns/main/docs/assets/octodns-logo.png?\" alt=\"octoDNS Logo\" height=251 width=404>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate-context",
+      "text": "Automate browser based workflows with AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate-context",
+      "text": "<!-- DOCTOC SKIP -->"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "octodns/octodns",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/octodns/octodns/main/docs/assets/octodns-logo.png?\" alt=\"octoDNS Logo\" height=251 width=404>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate",
+      "text": "<!-- DOCTOC SKIP -->"
     }
   ],
   "candidate_related_terms": [
@@ -370,11 +388,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "octodns/octodns"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pharmbio/sciluigi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Skyvern-AI/skyvern"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

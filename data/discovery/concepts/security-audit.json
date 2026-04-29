@@ -371,6 +371,78 @@
       "source_repo": "EspressoSystems/commit",
       "status": "candidate-context",
       "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate-context",
+      "text": "Static site generator written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clog-tool/clog-lib",
+      "status": "candidate-context",
+      "text": "A library for generating conventional changelogs from git metadata, written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clog-tool/clog-lib",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GitoxideLabs/cargo-smart-release",
+      "status": "candidate-context",
+      "text": "Release complex cargo-workspaces automatically with changelog generation, used by `gitoxide`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/cargo-smart-release",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asomers/mockall",
+      "status": "candidate-context",
+      "text": "A powerful mock object library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asomers/mockall",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "status": "candidate-context",
+      "text": "A lightning fast version of tmux-fingers written in Rust, copy/pasting tmux like vimium/vimperator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "status": "candidate-context",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate-context",
+      "text": "Panic messages for humans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate-context",
+      "text": "Security audit"
     }
   ],
   "candidate_glosses": [
@@ -551,6 +623,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "EspressoSystems/commit",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clog-tool/clog-lib",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GitoxideLabs/cargo-smart-release",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asomers/mockall",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fcsonline/tmux-thumbs",
+      "status": "candidate",
+      "text": "Security audit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/human-panic",
       "status": "candidate",
       "text": "Security audit"
     }
@@ -842,11 +950,65 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/audit.yml",
       "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "cobalt-org/cobalt.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "clog-tool/clog-lib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/security_audit.yml",
+      "source_repo": "clog-tool/clog-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "GitoxideLabs/cargo-smart-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "asomers/mockall"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "fcsonline/tmux-thumbs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FeeiCN/Cobra"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/audit.yml",
+      "source_repo": "rust-cli/human-panic"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

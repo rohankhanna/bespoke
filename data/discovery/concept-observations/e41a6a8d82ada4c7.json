@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Beta tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Beta tests"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 72973,
+      "status": "candidate",
+      "text": "alpha testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 72972,
+      "status": "candidate",
+      "text": "alpha test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 72971,
+      "status": "candidate",
+      "text": "beta software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 72970,
+      "status": "candidate",
+      "text": "testers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 72969,
+      "status": "candidate",
+      "text": "betas"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Beta tests",
+      "sense_id": "beta-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "beta-tests",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "beta-tests",
+  "observation_id": "e41a6a8d82ada4c7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Beta tests",
+  "source_context_snippet": "Beta tests",
+  "source_file": ".github/workflows/beta-test.yml",
+  "source_repo": "ag2ai/ag2",
+  "source_repo_description": "AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x"
+}

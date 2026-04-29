@@ -86,13 +86,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ipld/js-ipld-ethereum",
-      "target": "ipld/js-ipld-format-to-blockcodec",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipld/js-ipld-ethereum",
       "target": "ipld/js-ipld-eth-star",
       "target_type": "repository"
     },
@@ -216,7 +209,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T13:00:58.351995+00:00",
+  "fetched_at": "2026-04-29T20:58:45.005178+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -247,11 +240,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "ipld/js-ipld-eth-star",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "ipld/js-ipld-format-to-blockcodec",
       "source_file": "README.md"
     }
   ],

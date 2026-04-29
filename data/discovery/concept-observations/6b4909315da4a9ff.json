@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "NLP tokenizers written in Go language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "`tokenizer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "`tokenizer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "deep-learning",
+      "sense_id": "deep-learning#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "deep-learning",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "deep-learning",
+  "observation_id": "6b4909315da4a9ff",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "deep-learning",
+  "source_context_snippet": "`tokenizer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go.",
+  "source_file": null,
+  "source_repo": "sugarme/tokenizer",
+  "source_repo_description": "NLP tokenizers written in Go language"
+}

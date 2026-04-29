@@ -9,11 +9,58 @@
       "source_kind": "repo-description",
       "status": "context-only",
       "text": "aider is AI pair programming in your terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30014205,
+      "status": "candidate",
+      "text": "poem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29992413,
+      "status": "candidate",
+      "text": "ode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014462,
+      "status": "candidate",
+      "text": "lyric"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014460,
+      "status": "candidate",
+      "text": "verse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20014459,
+      "status": "candidate",
+      "text": "poemette"
+    }
+  ],
   "candidate_senses": [
     {
       "candidate_buckets": [
@@ -30,14 +77,16 @@
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "sonnet",
   "observation_id": "de6ed93533eb824f",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "sonnet",
-  "source_context_snippet": null,
+  "source_context_snippet": "<p align=\"center\">",
   "source_file": null,
   "source_repo": "Aider-AI/aider",
   "source_repo_description": "aider is AI pair programming in your terminal"

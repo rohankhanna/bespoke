@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomaarsen/attention_sinks",
+      "target": "llms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomaarsen/attention_sinks",
+      "target": "transformers",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:50:00.513973+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19736
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2013
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Extend existing LLMs way beyond the original training length with constant memory usage, without retraining",
+    "fork": false,
+    "full_name": "tomaarsen/attention_sinks",
+    "html_url": "https://github.com/tomaarsen/attention_sinks",
+    "language": "Python",
+    "pushed_at": "2024-04-10T22:54:31Z",
+    "stargazers_count": 736,
+    "topics": [
+      "llm",
+      "llms",
+      "nlp",
+      "python",
+      "transformers"
+    ],
+    "updated_at": "2026-04-06T13:42:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "**TL;DR**: `attention_sinks` adapts pre-trained LLMs to use a modified form of sliding window attention that remains able to produce fluent text indefinitely.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llms"
+    },
+    {
+      "context_snippet": "**TL;DR**: `attention_sinks` adapts pre-trained LLMs to use a modified form of sliding window attention that remains able to produce fluent text indefinitely.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    }
+  ]
+}

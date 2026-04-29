@@ -1,0 +1,80 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitrise-io/stepman",
+      "target": "bitrise-io/envman",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitrise-io/stepman",
+      "target": "bitrise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitrise-io/stepman",
+      "target": "production-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:52:23.278934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 968
+    },
+    {
+      "path": "Dockerfile",
+      "size": 837
+    },
+    {
+      "path": "go.mod",
+      "size": 912
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Step collection manager",
+    "fork": false,
+    "full_name": "bitrise-io/stepman",
+    "html_url": "https://github.com/bitrise-io/stepman",
+    "language": "Go",
+    "pushed_at": "2026-04-29T16:56:33Z",
+    "stargazers_count": 28,
+    "topics": [
+      "bitrise",
+      "ci",
+      "production-code"
+    ],
+    "updated_at": "2026-04-20T11:16:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitrise-io/envman",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "You can manage decentralized StepLib Step (script) Collections with `stepman`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitrise"
+    },
+    {
+      "context_snippet": "You can manage decentralized StepLib Step (script) Collections with `stepman`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "production-code"
+    }
+  ]
+}

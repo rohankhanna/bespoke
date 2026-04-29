@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpsim/swiftlint-bazel-example",
+      "target": "buildbuddy-io/rules_xcodeproj",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:56:32.111809+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4802
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Example SwiftLint integration with custom native rules using Bazel",
+    "fork": false,
+    "full_name": "jpsim/swiftlint-bazel-example",
+    "html_url": "https://github.com/jpsim/swiftlint-bazel-example",
+    "language": "Starlark",
+    "pushed_at": "2023-11-22T10:51:08Z",
+    "stargazers_count": 18,
+    "topics": [],
+    "updated_at": "2025-08-15T22:05:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "buildbuddy-io/rules_xcodeproj",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

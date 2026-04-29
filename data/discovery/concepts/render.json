@@ -70,6 +70,30 @@
       "source_repo": "ethereum/execution-specs",
       "status": "candidate-context",
       "text": "render"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromark/micromark",
+      "status": "candidate-context",
+      "text": "small, safe, and great commonmark (optionally gfm, mdx) compliant markdown parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromark/micromark",
+      "status": "candidate-context",
+      "text": "micromark-mono"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "geocompx/geocompr",
+      "status": "candidate-context",
+      "text": "Geocomputation with R: an open source book"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geocompx/geocompr",
+      "status": "candidate-context",
+      "text": "Render"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +126,18 @@
       "source_repo": "ethereum/execution-specs",
       "status": "candidate",
       "text": "render"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromark/micromark",
+      "status": "candidate",
+      "text": "micromark-mono"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geocompx/geocompr",
+      "status": "candidate",
+      "text": "Render"
     }
   ],
   "candidate_related_terms": [
@@ -217,11 +253,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/gh-pages.yaml",
       "source_repo": "ethereum/execution-specs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromark/micromark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "geocompx/geocompr"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

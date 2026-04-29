@@ -1,0 +1,58 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "WebAssembly/wasi-parallel",
+      "target": "webassembly/flexible-vectors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "WebAssembly/wasi-parallel",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:52:37.980624+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6473
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 232
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " wasi-parallel is a proposal to add a parallel for construct to WASI. ",
+    "fork": false,
+    "full_name": "WebAssembly/wasi-parallel",
+    "html_url": "https://github.com/WebAssembly/wasi-parallel",
+    "language": "Shell",
+    "pushed_at": "2025-12-02T17:24:38Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-02-04T21:45:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "webassembly/flexible-vectors",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

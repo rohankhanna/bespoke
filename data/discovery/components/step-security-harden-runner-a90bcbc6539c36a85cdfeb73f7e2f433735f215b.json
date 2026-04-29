@@ -1,7 +1,7 @@
 {
   "component": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -77,6 +77,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/release_published.yml",
       "source_repo": "caddyserver/caddy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "base/base"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-main-cache.yml",
+      "source_repo": "base/base"
     }
   ]
 }

@@ -1,0 +1,312 @@
+{
+  "components": [
+    {
+      "component": "imagemin-gifsicle",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "imagemin-jpegtran",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "imagemin-optipng",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "imagemin-svgo",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "util.promisify",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/core",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@babel/preset-env",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "babel-jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "husky",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lint-staged",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard-version",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "pnpm/action-setup@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    },
+    {
+      "component": "actions/setup-node@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "okonet/lint-staged",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "imagemin-gifsicle",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "imagemin-jpegtran",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "imagemin-optipng",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "imagemin-svgo",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "util.promisify",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "@babel/core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "@babel/preset-env",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "babel-jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "husky",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "lint-staged",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "standard-version",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "pnpm/action-setup@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "actions/setup-node@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "PR Workflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "imagemin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "lint-staged",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "target": "minify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:57:48.590718+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1118
+    },
+    {
+      "path": "package.json",
+      "size": 1730
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 588
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "imagemin CLI designed for lint-staged usage with sensible defaults",
+    "fork": false,
+    "full_name": "tomchentw/imagemin-lint-staged",
+    "html_url": "https://github.com/tomchentw/imagemin-lint-staged",
+    "language": "JavaScript",
+    "pushed_at": "2024-01-22T11:52:19Z",
+    "stargazers_count": 85,
+    "topics": [
+      "cli",
+      "imagemin",
+      "lint-staged",
+      "minify"
+    ],
+    "updated_at": "2026-04-21T02:41:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "okonet/lint-staged",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PR Workflow",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "PR Workflow"
+    },
+    {
+      "context_snippet": "> imagemin CLI designed for lint-staged usage with sensible defaults",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imagemin"
+    },
+    {
+      "context_snippet": "> imagemin CLI designed for lint-staged usage with sensible defaults",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint-staged"
+    },
+    {
+      "context_snippet": "> imagemin CLI designed for lint-staged usage with sensible defaults",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "minify"
+    }
+  ]
+}

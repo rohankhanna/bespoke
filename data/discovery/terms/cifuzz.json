@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -241,6 +241,16 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/ci-fuzz.yml",
       "source_repo": "randy408/libspng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "python-pillow/Pillow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "apache/poi"
     }
   ],
   "term": "CIFuzz"

@@ -43,6 +43,18 @@
       "source_repo": "go-rod/rod",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsdom/jsdom-devtools-formatter",
+      "status": "candidate-context",
+      "text": "Make jsdom elements look like real DOM elements in Chrome Devtools console"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsdom/jsdom-devtools-formatter",
+      "status": "candidate-context",
+      "text": "In a nutshell: Instead of trying to understand what [jsdom](https://github.com/jsdom/jsdom)'s elements represents by inspecting their _implementation_ objects like so:"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "go-rod/rod",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsdom/jsdom-devtools-formatter",
+      "status": "candidate",
+      "text": "In a nutshell: Instead of trying to understand what [jsdom](https://github.com/jsdom/jsdom)'s elements represents by inspecting their _implementation_ objects like so:"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "go-rod/rod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jsdom/jsdom-devtools-formatter"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

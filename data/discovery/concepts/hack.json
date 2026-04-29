@@ -31,6 +31,18 @@
       "source_repo": "moul/gotty-client",
       "status": "candidate-context",
       "text": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate-context",
+      "text": "This browser extension enables you to filter the GitHub news feeds based on different event types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate-context",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "moul/gotty-client",
       "status": "candidate",
       "text": ":wrench: Terminal client for [GoTTY](https://github.com/yudai/gotty)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +154,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "moul/gotty-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Long running tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "quickwit-oss/tantivy",
+      "status": "candidate-context",
+      "text": "Tantivy is a full-text search engine library inspired by Apache Lucene and written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/tantivy",
+      "status": "candidate-context",
+      "text": "Long running tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "quickwit-oss/tantivy",
+      "status": "candidate",
+      "text": "Long running tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 38194,
+      "status": "candidate",
+      "text": "fixture"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34868,
+      "status": "candidate",
+      "text": "run"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34794,
+      "status": "candidate",
+      "text": "saga"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29449,
+      "status": "candidate",
+      "text": "experimentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28353,
+      "status": "candidate",
+      "text": "feud"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Long running tests",
+  "concept_id": "long-running-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/long_running.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Long running tests",
+      "sense_id": "long-running-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

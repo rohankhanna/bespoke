@@ -91,6 +91,30 @@
       "source_repo": "raysan5/raylib-games",
       "status": "candidate-context",
       "text": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-observability/aws-otel-community",
+      "status": "candidate-context",
+      "text": "Welcome to the AWS Distro for OpenTelemetry project. If you're using monitoring and observability tools for AWS products and services, this is a great place to ask questions, request features and network with other community members. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-community",
+      "status": "candidate-context",
+      "text": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+      "status": "candidate-context",
+      "text": "Libre Hardware Monitor is free software that can monitor the temperature sensors, fan speeds, voltages, load and clock speeds of your computer."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+      "status": "candidate-context",
+      "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +159,18 @@
       "source_repo": "raysan5/raylib-games",
       "status": "candidate",
       "text": "This is my collection of games made with raylib. Most of the games in this repo have been done in Global Game Jams."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-community",
+      "status": "candidate",
+      "text": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor",
+      "status": "candidate",
+      "text": "[![GitHub license](https://img.shields.io/github/license/LibreHardwareMonitor/LibreHardwareMonitor)](https://github.com/LibreHardwareMonitor/LibreHardwareMonitor/blob/master/LICENSE) [![Nuget](https://img.shields.io/nuget/v/LibreHardwareMonitorLib)](https://www.nuget.org/package\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -310,11 +346,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "pyOpenSci/software-submission"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws-observability/aws-otel-community"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/allcontributors.org"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "all-contributors/app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pyOpenSci/software-submission"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

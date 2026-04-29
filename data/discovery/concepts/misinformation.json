@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "misinformation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sarrouti/HealthVer",
+      "status": "candidate-context",
+      "text": "This repository contains source code and the HealthVer dataset presented in the paper [Evidence-based Fact-Checking of Health-related Claims]() by Mourad Sarrouti, Asma Ben Abacha, Yassine Mrabet and Dina Demner-Fushman."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sarrouti/HealthVer",
+      "status": "candidate",
+      "text": "This repository contains source code and the HealthVer dataset presented in the paper [Evidence-based Fact-Checking of Health-related Claims]() by Mourad Sarrouti, Asma Ben Abacha, Yassine Mrabet and Dina Demner-Fushman."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30025892,
+      "status": "candidate",
+      "text": "incorrect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30023634,
+      "status": "candidate",
+      "text": "false"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022658,
+      "status": "candidate",
+      "text": "mislead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010484,
+      "status": "candidate",
+      "text": "misrepresentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006528,
+      "status": "candidate",
+      "text": "deception"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "misinformation",
+  "concept_id": "misinformation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sarrouti/HealthVer"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "misinformation",
+      "sense_id": "misinformation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

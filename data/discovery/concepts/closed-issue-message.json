@@ -104,6 +104,18 @@
       "source_repo": "aws/aws-sdk-go",
       "status": "candidate-context",
       "text": "Closed Issue Message"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-java-v2",
+      "status": "candidate-context",
+      "text": "The official AWS SDK for Java - Version 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-java-v2",
+      "status": "candidate-context",
+      "text": "Closed Issue Message"
     }
   ],
   "candidate_glosses": [
@@ -152,6 +164,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws/aws-sdk-go",
+      "status": "candidate",
+      "text": "Closed Issue Message"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-java-v2",
       "status": "candidate",
       "text": "Closed Issue Message"
     }
@@ -257,11 +275,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/closed-issue-message.yml",
       "source_repo": "aws/aws-sdk-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws/aws-sam-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/close_issue_message.yml",
+      "source_repo": "aws/serverless-application-model"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/closed-issue-message.yml",
+      "source_repo": "aws/aws-sdk-java-v2"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

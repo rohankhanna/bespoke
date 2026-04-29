@@ -1,0 +1,32 @@
+{
+  "component": "actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-kingarthur"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-perceval"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-perceval-mozilla"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-perceval-opnfv"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-perceval-puppet"
+    }
+  ]
+}

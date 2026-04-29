@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "joker"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate-context",
+      "text": "Install Clojure on Windows with Scoop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate-context",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39996715,
+      "status": "candidate",
+      "text": "jokester"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39625448,
+      "status": "candidate",
+      "text": "turkey"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29996743,
+      "status": "candidate",
+      "text": "jester"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29996581,
+      "status": "candidate",
+      "text": "joke"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29996536,
+      "status": "candidate",
+      "text": "funny"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3020,
+      "status": "candidate",
+      "text": "jokester"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "turkey"
+    }
+  ],
+  "canonical_name": "joker",
+  "concept_id": "joker",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "littleli/scoop-clojure"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "joker",
+      "sense_id": "joker#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

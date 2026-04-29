@@ -55,6 +55,18 @@
       "source_repo": "nuxt/nuxt",
       "status": "candidate-context",
       "text": "<a href=\"https://nuxt.com\"><img width=\"830\" height=\"213\" src=\"./.github/assets/banner.svg\" alt=\"Nuxt banner\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate-context",
+      "text": "Use DOMPurify on server and client in the same way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "nuxt/nuxt",
       "status": "candidate",
       "text": "<a href=\"https://nuxt.com\"><img width=\"830\" height=\"213\" src=\"./.github/assets/banner.svg\" alt=\"Nuxt banner\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)"
     }
   ],
   "candidate_related_terms": [
@@ -190,11 +208,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

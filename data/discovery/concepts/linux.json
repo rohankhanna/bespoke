@@ -1276,6 +1276,162 @@
       "source_repo": "donnemartin/saws",
       "status": "candidate-context",
       "text": "![](http://i.imgur.com/vzC5zmA.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spack/spack",
+      "status": "candidate-context",
+      "text": "A flexible package manager that supports multiple versions, configurations, platforms, and compilers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack",
+      "status": "candidate-context",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate-context",
+      "text": "Count your code, quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate-context",
+      "text": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate-context",
+      "text": "\u261d\ufe0fsend desktop notifications from your Rust app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate-context",
+      "text": "A spotify daemon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate-context",
+      "text": "[![Matrix][matrix-badge]](https://matrix.to/#/#spotifyd:matrix.org)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FiloSottile/mkcert",
+      "status": "candidate-context",
+      "text": "A simple zero-config tool to make locally trusted development certificates with any names you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FiloSottile/mkcert",
+      "status": "candidate-context",
+      "text": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "Passionately Crafted CLI Setup \ud83d\udc27\u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/sway2k",
+      "status": "candidate-context",
+      "text": "Swaying Windows in Wayland \ud83c\udf8f\ud83d\udee3 "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/sway2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bluebear94/Terminal-WCWidth",
+      "status": "candidate-context",
+      "text": "Returns character width on a terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluebear94/Terminal-WCWidth",
+      "status": "candidate-context",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chef/bento",
+      "status": "candidate-context",
+      "text": "Packer templates for building minimal Vagrant baseboxes for multiple platforms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/bento",
+      "status": "candidate-context",
+      "text": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies \ud83d\ude80 by @miguelmota"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agalwood/Motrix",
+      "status": "candidate-context",
+      "text": "A full-featured download manager."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agalwood/Motrix",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate-context",
+      "text": "Spack's community package recipes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate-context",
+      "text": "<h2>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Swordfish90/cool-retro-term",
+      "status": "candidate-context",
+      "text": "A good looking terminal emulator which mimics the old cathode display..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Swordfish90/cool-retro-term",
+      "status": "candidate-context",
+      "text": "|> Default Amber|C:\\ IBM DOS|$ Default Green|"
     }
   ],
   "candidate_glosses": [
@@ -1914,6 +2070,84 @@
       "source_repo": "donnemartin/saws",
       "status": "candidate",
       "text": "![](http://i.imgur.com/vzC5zmA.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack",
+      "status": "candidate",
+      "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate",
+      "text": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate",
+      "text": "[![Matrix][matrix-badge]](https://matrix.to/#/#spotifyd:matrix.org)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FiloSottile/mkcert",
+      "status": "candidate",
+      "text": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/sway2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bluebear94/Terminal-WCWidth",
+      "status": "candidate",
+      "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/bento",
+      "status": "candidate",
+      "text": "Bento is a project that encapsulates [Packer](https://www.packer.io/) templates for building [Vagrant](https://www.vagrantup.com/) base boxes. A subset of templates are built and published to the [bento org](https://app.vagrantup.com/bento) on Vagrant Cloud. These published boxe\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agalwood/Motrix",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spack/spack-packages",
+      "status": "candidate",
+      "text": "<h2>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Swordfish90/cool-retro-term",
+      "status": "candidate",
+      "text": "|> Default Amber|C:\\ IBM DOS|$ Default Green|"
     }
   ],
   "candidate_related_terms": [
@@ -2755,11 +2989,131 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "spack/spack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alacritty/alacritty"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hoodie/notify-rust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Spotifyd/spotifyd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FiloSottile/mkcert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/dots2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/sway2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/linux.yml",
+      "source_repo": "bluebear94/Terminal-WCWidth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zlib-ng/minizip-ng"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webinstall/webi-installers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chef/bento"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/cointop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "agalwood/Motrix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "spack/spack-packages"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Swordfish90/cool-retro-term"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

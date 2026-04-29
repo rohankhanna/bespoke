@@ -1,0 +1,124 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "Comfy-Org/publish-node-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "fannovel16/comfyui_controlnet_aux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "cubiq/comfyui_ipadapter_plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "fizzledorf/comfyui_fizznodes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "exponentialml/animatediff-motiondirector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:14.381913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11177
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 444
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 640
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Improved AnimateDiff for ComfyUI and Advanced Sampling Support",
+    "fork": false,
+    "full_name": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+    "html_url": "https://github.com/Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+    "language": "Python",
+    "pushed_at": "2026-03-30T01:39:21Z",
+    "stargazers_count": 3440,
+    "topics": [],
+    "updated_at": "2026-04-24T13:16:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cubiq/comfyui_ipadapter_plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "exponentialml/animatediff-motiondirector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fannovel16/comfyui_controlnet_aux",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fizzledorf/comfyui_fizznodes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish to Comfy registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to Comfy registry"
+    }
+  ]
+}

@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rubik/radon",
+      "target": "code-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rubik/radon",
+      "target": "quality-assurance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rubik/radon",
+      "target": "static-analysis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:48:55.034315+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 6795
+    },
+    {
+      "path": "Dockerfile",
+      "size": 521
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 796
+    },
+    {
+      "path": "requirements.txt",
+      "size": 91
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Various code metrics for Python code",
+    "fork": false,
+    "full_name": "rubik/radon",
+    "html_url": "https://github.com/rubik/radon",
+    "language": "Python",
+    "pushed_at": "2024-10-20T09:52:54Z",
+    "stargazers_count": 1975,
+    "topics": [
+      "cli",
+      "code-analysis",
+      "python",
+      "quality-assurance",
+      "static-analysis"
+    ],
+    "updated_at": "2026-04-28T23:04:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Radon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-analysis"
+    },
+    {
+      "context_snippet": "Radon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "quality-assurance"
+    },
+    {
+      "context_snippet": "Radon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    }
+  ]
+}

@@ -1,0 +1,314 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/server",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-any.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/ios/.github/actions/log-inputs@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-any.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-any.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "maxim-lobanov/setup-xcode@60606e260d2fc5762a71e64e74b2174e8ea3c8bd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-any.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "ruby/setup-ruby@c984c1a20bb35a1cbda04477c816cea024418be9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-any.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/gh-actions/azure-login@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-any.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-any.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/gh-actions/azure-logout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-any.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build-any.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_build-any.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "Build App",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_version.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/ios/.github/actions/log-inputs@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_version.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_version.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_version.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "Calculate Version Name and Number",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bwa.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/ios/.github/workflows/_version.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bwa.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/ios/.github/workflows/_build-any.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bwpm.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/ios/.github/workflows/_version.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-bwpm.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/ios/.github/workflows/_build-any.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-update-public-suffix-list.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/gh-actions/azure-login@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/gh-actions/azure-logout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "crowdin/github-action@ce33ce793a5cbc401d9cd748716e03fc90c001f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/gh-actions/azure-login@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/gh-actions/azure-logout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "crowdin/github-action@ce33ce793a5cbc401d9cd748716e03fc90c001f1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/ios/.github/actions/log-inputs@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/gh-actions/azure-login@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/gh-actions/azure-logout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "Create GitHub Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-github-release-bwa.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden/gh-actions/.github/workflows/_publish-mobile-github-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-github-release-bwa.yml",
+      "source_repo": "bitwarden/ios",
+      "target": "Publish Authenticator GitHub Release as newest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwarden/ios",
+      "target": "apple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwarden/ios",
+      "target": "bitwarden",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwarden/ios",
+      "target": "ipad",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwarden/ios",
+      "target": "iphone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwarden/ios",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "bitwarden/ios"
+}

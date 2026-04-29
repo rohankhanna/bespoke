@@ -121,12 +121,12 @@
       "source_file": ".github/workflows/default-branch-push.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/default-branch-push.yml"
     },
     {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/default-branch-push.yml"
     },
@@ -141,12 +141,12 @@
       "source_file": ".github/workflows/npm.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/npm.yml"
     },
     {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/npm.yml"
     },
@@ -156,27 +156,12 @@
       "source_file": ".github/workflows/pull-requests.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml"
     },
     {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pull-requests.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pull-requests.yml"
-    },
-    {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pull-requests.yml"
-    },
-    {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml"
     },
@@ -186,27 +171,12 @@
       "source_file": ".github/workflows/pull-requests.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml"
     },
     {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pull-requests.yml"
-    },
-    {
-      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pull-requests.yml"
-    },
-    {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/pull-requests.yml"
-    },
-    {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml"
     },
@@ -216,12 +186,12 @@
       "source_file": ".github/workflows/pull-requests.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml"
     },
     {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml"
     },
@@ -231,12 +201,42 @@
       "source_file": ".github/workflows/pull-requests.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml"
     },
     {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-requests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-requests.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-requests.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-requests.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-requests.yml"
+    },
+    {
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-requests.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml"
     },
@@ -251,7 +251,7 @@
       "source_file": ".github/workflows/pull-requests.yml"
     },
     {
-      "component": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
+      "component": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml"
     },
@@ -261,12 +261,12 @@
       "source_file": ".github/workflows/pull-requests.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml"
     },
     {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml"
     },
@@ -281,12 +281,12 @@
       "source_file": ".github/workflows/pull-requests.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml"
     },
     {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml"
     },
@@ -296,12 +296,12 @@
       "source_file": ".github/workflows/security.yml"
     },
     {
-      "component": "github/codeql-action/init@38697555549f1db7851b81482ff19f1fa5c4fedc",
+      "component": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security.yml"
     },
     {
-      "component": "github/codeql-action/analyze@38697555549f1db7851b81482ff19f1fa5c4fedc",
+      "component": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security.yml"
     },
@@ -316,19 +316,12 @@
       "source_file": ".github/workflows/tag.yml"
     },
     {
-      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "component": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tag.yml"
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lint-staged/lint-staged",
-      "target": "lint-staged/lint-staged.sh",
-      "target_type": "repository"
-    },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
@@ -340,14 +333,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lint-staged/lint-staged",
-      "target": "kentcdodds/cross-env",
+      "target": "tinylibs/tinyexec",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lint-staged/lint-staged",
-      "target": "sudo-suhas/lint-staged-django-react-demo",
+      "target": "tomchentw/imagemin-lint-staged",
       "target_type": "repository"
     },
     {
@@ -522,14 +515,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/default-branch-push.yml",
       "source_repo": "lint-staged/lint-staged",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/default-branch-push.yml",
       "source_repo": "lint-staged/lint-staged",
-      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -557,14 +550,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/npm.yml",
       "source_repo": "lint-staged/lint-staged",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/npm.yml",
       "source_repo": "lint-staged/lint-staged",
-      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -585,14 +578,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml",
       "source_repo": "lint-staged/lint-staged",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml",
       "source_repo": "lint-staged/lint-staged",
-      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -606,7 +599,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/pull-requests.yml",
       "source_repo": "lint-staged/lint-staged",
-      "target": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
+      "target": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
       "target_type": "component"
     },
     {
@@ -634,14 +627,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security.yml",
       "source_repo": "lint-staged/lint-staged",
-      "target": "github/codeql-action/init@38697555549f1db7851b81482ff19f1fa5c4fedc",
+      "target": "github/codeql-action/init@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/security.yml",
       "source_repo": "lint-staged/lint-staged",
-      "target": "github/codeql-action/analyze@38697555549f1db7851b81482ff19f1fa5c4fedc",
+      "target": "github/codeql-action/analyze@95e58e9a2cdfd71adc6e0353d5c52f41a045d225",
       "target_type": "component"
     },
     {
@@ -662,7 +655,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/tag.yml",
       "source_repo": "lint-staged/lint-staged",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -715,7 +708,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:07:43.656254+00:00",
+  "fetched_at": "2026-04-29T21:57:44.821981+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -739,7 +732,7 @@
     },
     {
       "path": ".github/workflows/security.yml",
-      "size": 1036
+      "size": 1065
     },
     {
       "path": ".github/workflows/tag.yml",
@@ -755,8 +748,8 @@
     "full_name": "lint-staged/lint-staged",
     "html_url": "https://github.com/lint-staged/lint-staged",
     "language": "JavaScript",
-    "pushed_at": "2026-04-14T05:04:21Z",
-    "stargazers_count": 14577,
+    "pushed_at": "2026-04-29T17:32:23Z",
+    "stargazers_count": 14588,
     "topics": [
       "developer-experience",
       "eslint",
@@ -766,19 +759,9 @@
       "stylelint",
       "workflow"
     ],
-    "updated_at": "2026-04-24T05:36:25Z"
+    "updated_at": "2026-04-29T07:04:45Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kentcdodds/cross-env",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lint-staged/lint-staged.sh",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "okonet/lint-staged",
@@ -786,7 +769,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "sudo-suhas/lint-staged-django-react-demo",
+      "full_name": "tinylibs/tinyexec",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tomchentw/imagemin-lint-staged",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\u3086\u304d\u9171\u662f\u4f7f\u7528 ZeroBot \u6784\u5efa\u7684\u56fd\u9645\u8c61\u68cb\u804a\u5929\u673a\u5668\u4eba\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967997,
+      "status": "candidate",
+      "text": "chat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967996,
+      "status": "candidate",
+      "text": "chatbox"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967995,
+      "status": "candidate",
+      "text": "infobot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967994,
+      "status": "candidate",
+      "text": "cyberchat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19967993,
+      "status": "candidate",
+      "text": "chat room"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chatbot",
+      "sense_id": "chatbot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "chatbot",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chatbot",
+  "observation_id": "ceab5e850704d54d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "chatbot",
+  "source_context_snippet": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026",
+  "source_file": null,
+  "source_repo": "aimerneige/yukichan-bot",
+  "source_repo_description": "\u3086\u304d\u9171\u662f\u4f7f\u7528 ZeroBot \u6784\u5efa\u7684\u56fd\u9645\u8c61\u68cb\u804a\u5929\u673a\u5668\u4eba\u3002"
+}

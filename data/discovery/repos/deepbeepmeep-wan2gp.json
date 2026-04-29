@@ -1,0 +1,159 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "target": "deepbeepmeep/hunyuanvideogp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "target": "deepbeepmeep/hunyuan3d-2gp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "target": "deepbeepmeep/fluxfillgp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "target": "deepbeepmeep/cosmos1gp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "target": "flux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "target": "generative-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "target": "hunyuan-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "target": "ltx-video",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deepbeepmeep/Wan2GP",
+      "target": "video",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:48.639364+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27229
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3039
+    },
+    {
+      "path": "requirements.txt",
+      "size": 2405
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A fast AI Video Generator for the GPU Poor. Supports Wan 2.1/2.2, Qwen Image, Hunyuan Video, LTX  Video and Flux.",
+    "fork": true,
+    "full_name": "deepbeepmeep/Wan2GP",
+    "html_url": "https://github.com/deepbeepmeep/Wan2GP",
+    "language": "Python",
+    "pushed_at": "2026-04-29T21:18:12Z",
+    "stargazers_count": 5485,
+    "topics": [
+      "ai",
+      "flux",
+      "generative-ai",
+      "hunyuan-video",
+      "ltx-video",
+      "video",
+      "wan"
+    ],
+    "updated_at": "2026-04-29T21:18:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepbeepmeep/cosmos1gp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepbeepmeep/fluxfillgp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepbeepmeep/hunyuan3d-2gp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepbeepmeep/hunyuanvideogp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "-----",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flux"
+    },
+    {
+      "context_snippet": "-----",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-ai"
+    },
+    {
+      "context_snippet": "-----",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hunyuan-video"
+    },
+    {
+      "context_snippet": "-----",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ltx-video"
+    },
+    {
+      "context_snippet": "-----",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video"
+    }
+  ]
+}

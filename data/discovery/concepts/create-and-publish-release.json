@@ -19,12 +19,42 @@
       "source_repo": "googlefonts/lang",
       "status": "candidate-context",
       "text": "Create and Publish Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googlefonts/gftools",
+      "status": "candidate-context",
+      "text": "Misc tools for working with the Google Fonts library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/gftools",
+      "status": "candidate-context",
+      "text": "Create and Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/glyphsets",
+      "status": "candidate-context",
+      "text": "Create and Publish Release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "googlefonts/lang",
+      "status": "candidate",
+      "text": "Create and Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/gftools",
+      "status": "candidate",
+      "text": "Create and Publish Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/glyphsets",
       "status": "candidate",
       "text": "Create and Publish Release"
     }
@@ -76,11 +106,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/publish-release.yml",
       "source_repo": "googlefonts/lang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "googlefonts/lang"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "googlefonts/gftools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "googlefonts/glyphsets"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

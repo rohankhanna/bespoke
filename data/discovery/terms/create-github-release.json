@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -41,6 +41,46 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/create-github-release.yml",
       "source_repo": "a2aproject/a2a-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/plugin-help"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/plugin-plugins"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "aadsm/jschardet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/ios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "tower-rs/tower"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "auth0/node-jwks-rsa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/create-github-release.yml",
+      "source_repo": "oclif/core"
     }
   ],
   "term": "Create GitHub release"

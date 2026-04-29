@@ -295,6 +295,138 @@
       "source_repo": "onnx/optimizer",
       "status": "candidate-context",
       "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlite-dev/lite.ai.toolkit",
+      "status": "candidate-context",
+      "text": "\ud83d\udee0A lite C++ AI toolkit: 100+ models with MNN, ORT and TRT, including Det, Seg, Stable-Diffusion, Face-Fusion, etc.\ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/lite.ai.toolkit",
+      "status": "candidate-context",
+      "text": "<div id=\"lite.ai.toolkit-Introduction\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate-context",
+      "text": "Tengine is a lite, high performance, modular inference engine for embedded device "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lutzroeder/netron",
+      "status": "candidate-context",
+      "text": "Visualizer for neural network, deep learning and machine learning models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lutzroeder/netron",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnxsim/onnxsim",
+      "status": "candidate-context",
+      "text": "Simplify your onnx model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnxsim/onnxsim",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/onnxsim.svg)](https://pypi.python.org/pypi/onnxsim/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleardusk/3DDFA_V2",
+      "status": "candidate-context",
+      "text": "The official PyTorch implementation of Towards Fast, Accurate and Stable 3D Dense Face Alignment, ECCV 2020."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA_V2",
+      "status": "candidate-context",
+      "text": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "onnx/turnkeyml",
+      "status": "candidate-context",
+      "text": "No-code CLI designed for accelerating ONNX workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/turnkeyml",
+      "status": "candidate-context",
+      "text": "[![Lemonade tests](https://github.com/onnx/turnkeyml/actions/workflows/test_lemonade.yml/badge.svg)](https://github.com/onnx/turnkeyml/tree/main/test \"Check out our tests\")"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "autodeployai/ai-serving",
+      "status": "candidate-context",
+      "text": "Serving AI/ML models in the open standard formats PMML and ONNX with both HTTP (REST API) and gRPC endpoints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodeployai/ai-serving",
+      "status": "candidate-context",
+      "text": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "langchain4j/langchain4j",
+      "status": "candidate-context",
+      "text": "LangChain4j is an idiomatic, open-source Java library for building LLM-powered applications on the JVM. It offers a unified API over popular LLM providers and vector stores, and makes implementing tool calling (including MCP support), agents and RAG easy. It integrates seamlessly with enterprise Java frameworks like Quarkus and Spring Boot."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain4j/langchain4j",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/langchain4j/langchain4j/main.yaml?branch=main&style=for-the-badge&label=CI%20BUILD&logo=github)](https://github.com/langchain4j/langchain4j/actions/workflows/main.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/Paddle2ONNX",
+      "status": "candidate-context",
+      "text": "ONNX Model Exporter for PaddlePaddle"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle2ONNX",
+      "status": "candidate-context",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate-context",
+      "text": "YOLOv5 \ud83d\ude80 in PyTorch > ONNX > CoreML > TFLite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/multi-model-server",
+      "status": "candidate-context",
+      "text": "Multi Model Server is a tool for serving neural net models for inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/multi-model-server",
+      "status": "candidate-context",
+      "text": "Multi Model Server"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +573,72 @@
       "source_repo": "onnx/optimizer",
       "status": "candidate",
       "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/lite.ai.toolkit",
+      "status": "candidate",
+      "text": "<div id=\"lite.ai.toolkit-Introduction\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lutzroeder/netron",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnxsim/onnxsim",
+      "status": "candidate",
+      "text": "[![PyPI version](https://img.shields.io/pypi/v/onnxsim.svg)](https://pypi.python.org/pypi/onnxsim/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA_V2",
+      "status": "candidate",
+      "text": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "onnx/turnkeyml",
+      "status": "candidate",
+      "text": "[![Lemonade tests](https://github.com/onnx/turnkeyml/actions/workflows/test_lemonade.yml/badge.svg)](https://github.com/onnx/turnkeyml/tree/main/test \"Check out our tests\")"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "autodeployai/ai-serving",
+      "status": "candidate",
+      "text": "Serving AI/ML models in the open standard formats [PMML](https://dmg.org/) and [ONNX](https://onnx.ai/) with both HTTP (REST API) and gRPC endpoints."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "langchain4j/langchain4j",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/langchain4j/langchain4j/main.yaml?branch=main&style=for-the-badge&label=CI%20BUILD&logo=github)](https://github.com/langchain4j/langchain4j/actions/workflows/main.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/Paddle2ONNX",
+      "status": "candidate",
+      "text": "\u7b80\u4f53\u4e2d\u6587 | [English](README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ultralytics/yolov5",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/multi-model-server",
+      "status": "candidate",
+      "text": "Multi Model Server"
     }
   ],
   "candidate_related_terms": [],
@@ -610,11 +808,83 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "onnx/optimizer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/lite.ai.toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OAID/Tengine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lutzroeder/netron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "onnxsim/onnxsim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "onnx/turnkeyml"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "autodeployai/ai-serving"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "langchain4j/langchain4j"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/Paddle2ONNX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ultralytics/yolov5"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "awslabs/multi-model-server"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/http-server",
+      "target": "babashka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "babashka/http-server",
+      "target": "clojure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:37:45.911328+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2557
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Serve static assets",
+    "fork": false,
+    "full_name": "babashka/http-server",
+    "html_url": "https://github.com/babashka/http-server",
+    "language": "Clojure",
+    "pushed_at": "2025-09-02T17:47:30Z",
+    "stargazers_count": 85,
+    "topics": [
+      "babashka",
+      "clojure"
+    ],
+    "updated_at": "2026-04-23T17:51:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/org.babashka/http-server.svg)](https://clojars.org/org.babashka/http-server)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babashka"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/org.babashka/http-server.svg)](https://clojars.org/org.babashka/http-server)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    }
+  ]
+}

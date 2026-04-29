@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HazyResearch/ThunderKittens",
+      "target": "hazyresearch/hipkittens",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HazyResearch/ThunderKittens",
+      "target": "hazyresearch/lolcats",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HazyResearch/ThunderKittens",
+      "target": "hazyresearch/based",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HazyResearch/ThunderKittens",
+      "target": "hazyresearch/thundermittens",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:37.738604+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Tile primitives for speedy kernels",
+    "fork": false,
+    "full_name": "HazyResearch/ThunderKittens",
+    "html_url": "https://github.com/HazyResearch/ThunderKittens",
+    "language": "Cuda",
+    "pushed_at": "2026-04-29T04:09:35Z",
+    "stargazers_count": 3330,
+    "topics": [],
+    "updated_at": "2026-04-29T19:29:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/based",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/hipkittens",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/lolcats",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hazyresearch/thundermittens",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

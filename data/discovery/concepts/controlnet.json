@@ -19,6 +19,30 @@
       "source_repo": "finegrain-ai/refiners",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/DWPose",
+      "status": "candidate-context",
+      "text": "\"Effective Whole-body Pose Estimation with Two-stages Distillation\" (ICCV 2023, CV4Metaverse Workshop)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DWPose",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "status": "candidate-context",
+      "text": "Transfer the ControlNet with any basemodel in diffusers\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "status": "candidate-context",
+      "text": "This repository provides the simplest tutorial code for developers using ControlNet with basemodel in the diffuser framework instead of WebUI. Our work builds highly on other excellent works. Although theses works have made some attemptes, there is no tutorial for supporting div\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "finegrain-ai/refiners",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DWPose",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "status": "candidate",
+      "text": "This repository provides the simplest tutorial code for developers using ControlNet with basemodel in the diffuser framework instead of WebUI. Our work builds highly on other excellent works. Although theses works have made some attemptes, there is no tutorial for supporting div\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -69,11 +105,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "finegrain-ai/refiners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DWPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "haofanwang/ControlNet-for-Diffusers"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cszn/FFDNet",
+      "target": "cszn/kair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/FFDNet",
+      "target": "convolutional-neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/FFDNet",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/FFDNet",
+      "target": "image-denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/FFDNet",
+      "target": "image-restoration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:42:04.815960+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7266
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "FFDNet: Toward a Fast and Flexible Solution for CNN based Image Denoising (TIP, 2018) ",
+    "fork": false,
+    "full_name": "cszn/FFDNet",
+    "html_url": "https://github.com/cszn/FFDNet",
+    "language": "MATLAB",
+    "pushed_at": "2021-10-09T22:05:04Z",
+    "stargazers_count": 554,
+    "topics": [
+      "cnn",
+      "convolutional-neural-network",
+      "deep-learning",
+      "image-denoising",
+      "image-restoration"
+    ],
+    "updated_at": "2026-04-29T06:47:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cszn/kair",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/FFDNet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-network"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/FFDNet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/FFDNet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-denoising"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/FFDNet)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    }
+  ]
+}

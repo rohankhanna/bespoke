@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue sentinel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-powershell",
+      "status": "candidate-context",
+      "text": "Microsoft Azure PowerShell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-powershell",
+      "status": "candidate-context",
+      "text": "Issue sentinel"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-powershell",
+      "status": "candidate",
+      "text": "Issue sentinel"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12996,
+      "status": "candidate",
+      "text": "guard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12996,
+      "status": "candidate",
+      "text": "posted"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12996,
+      "status": "candidate",
+      "text": "scouting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12755,
+      "status": "candidate",
+      "text": "lookout"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12755,
+      "status": "candidate",
+      "text": "picket"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue sentinel",
+  "concept_id": "issue-sentinel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue-sentinel.yml",
+      "source_repo": "Azure/azure-powershell"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue sentinel",
+      "sense_id": "issue-sentinel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

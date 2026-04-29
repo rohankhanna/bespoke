@@ -477,7 +477,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:04:49.525899+00:00",
+  "fetched_at": "2026-04-29T21:55:21.591304+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -485,7 +485,7 @@
     },
     {
       "path": "package.json",
-      "size": 3593
+      "size": 3594
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -509,14 +509,14 @@
     "full_name": "abaplint/transpiler",
     "html_url": "https://github.com/abaplint/transpiler",
     "language": "TypeScript",
-    "pushed_at": "2026-04-22T08:24:16Z",
+    "pushed_at": "2026-04-29T18:02:53Z",
     "stargazers_count": 99,
     "topics": [
       "abap",
       "abaplint",
       "transpiler"
     ],
-    "updated_at": "2026-04-22T08:24:19Z"
+    "updated_at": "2026-04-29T18:02:59Z"
   },
   "repo_links": [
     {

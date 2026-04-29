@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:52:15.114868+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13345
+    },
+    {
+      "path": "requirements.txt",
+      "size": 178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV 2023] Tune-A-Video: One-Shot Tuning of Image Diffusion Models for Text-to-Video Generation",
+    "fork": false,
+    "full_name": "showlab/Tune-A-Video",
+    "html_url": "https://github.com/showlab/Tune-A-Video",
+    "language": "Python",
+    "pushed_at": "2023-10-25T02:00:06Z",
+    "stargazers_count": 4368,
+    "topics": [],
+    "updated_at": "2026-04-25T15:24:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -19,6 +19,18 @@
       "source_repo": "open-mmlab/mmaction2",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Sense-X/UniFormer",
+      "status": "candidate-context",
+      "text": "[ICLR2022] official implementation of UniFormer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sense-X/UniFormer",
+      "status": "candidate-context",
+      "text": "<a src=\"https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue\" href=\"https://huggingface.co/spaces/Andy1621/uniformer_light \">"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "open-mmlab/mmaction2",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Sense-X/UniFormer",
+      "status": "candidate",
+      "text": "<a src=\"https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue\" href=\"https://huggingface.co/spaces/Andy1621/uniformer_light \">"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmaction2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Sense-X/UniFormer"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

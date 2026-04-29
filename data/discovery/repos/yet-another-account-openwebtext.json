@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yet-another-account/openwebtext",
+      "target": "jcpeterson/openwebtext",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yet-another-account/openwebtext",
+      "target": "codelucas/newspaper",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:46:42.469499+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 972
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An open clone of the GPT-2 WebText dataset by OpenAI. Still WIP.",
+    "fork": false,
+    "full_name": "yet-another-account/openwebtext",
+    "html_url": "https://github.com/yet-another-account/openwebtext",
+    "language": "Python",
+    "pushed_at": "2024-03-26T15:33:13Z",
+    "stargazers_count": 392,
+    "topics": [],
+    "updated_at": "2026-03-09T10:44:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "codelucas/newspaper",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcpeterson/openwebtext",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

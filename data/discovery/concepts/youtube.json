@@ -43,6 +43,30 @@
       "source_repo": "Dexters-Hub/Dexters-Hub",
       "status": "candidate-context",
       "text": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "status": "candidate-context",
+      "text": "This repository contains scripts to build Youtube Gesture Dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "status": "candidate-context",
+      "text": "This repository contains scripts to build *Youtube Gesture Dataset*."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhiTronix/vidgear",
+      "status": "candidate-context",
+      "text": "A High-performance cross-platform Video Processing Python framework powerpacked with unique trailblazing features :fire:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhiTronix/vidgear",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "Dexters-Hub/Dexters-Hub",
       "status": "candidate",
       "text": "<p align=\"center\"><a href=\"#\"><img width=\"75%\" height=\"auto\" src=\"https://media.giphy.com/media/84OBoA0Lf4eXtZFmOh/giphy.gif\"/></a></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "status": "candidate",
+      "text": "This repository contains scripts to build *Youtube Gesture Dataset*."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhiTronix/vidgear",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Dexters-Hub/Dexters-Hub"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "abhiTronix/vidgear"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

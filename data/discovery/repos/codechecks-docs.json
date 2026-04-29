@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "codechecks/docs",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codechecks/docs",
+      "target": "codechecks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codechecks/docs",
+      "target": "documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codechecks/docs",
+      "target": "pull-requests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:56:40.433131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1334
+    },
+    {
+      "path": "package.json",
+      "size": 446
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udcdaDocumentation for codechecks",
+    "fork": false,
+    "full_name": "codechecks/docs",
+    "html_url": "https://github.com/codechecks/docs",
+    "language": "JavaScript",
+    "pushed_at": "2021-11-28T07:24:48Z",
+    "stargazers_count": 23,
+    "topics": [
+      "codechecks",
+      "documentation",
+      "pull-requests"
+    ],
+    "updated_at": "2024-12-06T16:40:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Open source platform for code review automation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codechecks"
+    },
+    {
+      "context_snippet": "Open source platform for code review automation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "documentation"
+    },
+    {
+      "context_snippet": "Open source platform for code review automation.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pull-requests"
+    }
+  ]
+}

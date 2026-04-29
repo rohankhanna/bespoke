@@ -1,0 +1,93 @@
+{
+  "aliases": [
+    "Publish Build Containers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iovisor/bcc",
+      "status": "candidate-context",
+      "text": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iovisor/bcc",
+      "status": "candidate-context",
+      "text": "Publish Build Containers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iovisor/bcc",
+      "status": "candidate",
+      "text": "Publish Build Containers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18133,
+      "status": "candidate",
+      "text": "speak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18122,
+      "status": "candidate",
+      "text": "box"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18122,
+      "status": "candidate",
+      "text": "dish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18122,
+      "status": "candidate",
+      "text": "dished"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Build Containers",
+  "concept_id": "publish-build-containers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-build-containers.yml",
+      "source_repo": "iovisor/bcc"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Build Containers",
+      "sense_id": "publish-build-containers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

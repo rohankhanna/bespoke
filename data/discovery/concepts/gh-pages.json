@@ -43,6 +43,12 @@
       "source_repo": "markdown-it-rust/markdown-it",
       "status": "candidate-context",
       "text": "gh-pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awestlake87/pyo3-asyncio",
+      "status": "candidate-context",
+      "text": "gh-pages"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +67,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "markdown-it-rust/markdown-it",
+      "status": "candidate",
+      "text": "gh-pages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awestlake87/pyo3-asyncio",
       "status": "candidate",
       "text": "gh-pages"
     }
@@ -88,11 +100,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/pages.yml",
       "source_repo": "markdown-it-rust/markdown-it"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/guide.yml",
+      "source_repo": "awestlake87/pyo3-asyncio"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

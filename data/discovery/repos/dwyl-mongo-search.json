@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "mongodb",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "twitter",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/mongo-search",
+      "target": "ideaq/meteor-search",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/mongo-search",
+      "target": "mongodb/node-mongodb-native",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "dwyl/mongo-search",
+      "target": "ideaq/mongo-search",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/mongo-search",
+      "target": "mongodb",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "dwyl/mongo-search",
+      "target": "twitter",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:57:27.031885+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5359
+    },
+    {
+      "path": "package.json",
+      "size": 700
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udd0d Experiments with Full-Text-Search using Node.js and MongoDB",
+    "fork": false,
+    "full_name": "dwyl/mongo-search",
+    "html_url": "https://github.com/dwyl/mongo-search",
+    "language": "JavaScript",
+    "pushed_at": "2022-08-12T16:15:15Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2023-01-22T15:50:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ideaq/meteor-search",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mongodb/node-mongodb-native",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ideaq/mongo-search",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": []
+}

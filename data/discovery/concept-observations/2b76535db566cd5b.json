@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Agent Docs Sync Reminder"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Agent Docs Sync Reminder"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23189,
+      "status": "candidate",
+      "text": "translation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21930,
+      "status": "candidate",
+      "text": "head"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21930,
+      "status": "candidate",
+      "text": "heads"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21682,
+      "status": "candidate",
+      "text": "points"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21433,
+      "status": "candidate",
+      "text": "en garde"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Agent Docs Sync Reminder",
+      "sense_id": "agent-docs-sync-reminder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "agent-docs-sync-reminder",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "agent-docs-sync-reminder",
+  "observation_id": "2b76535db566cd5b",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Agent Docs Sync Reminder",
+  "source_context_snippet": "Agent Docs Sync Reminder",
+  "source_file": ".github/workflows/agent-docs-sync-reminder.yml",
+  "source_repo": "aws/aws-cdk",
+  "source_repo_description": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code"
+}

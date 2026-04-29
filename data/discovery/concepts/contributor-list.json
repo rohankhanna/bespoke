@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Contributor List"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logpai/logparser",
+      "status": "candidate-context",
+      "text": "A machine learning toolkit for log parsing [ICSE'19, DSN'16]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logpai/logparser",
+      "status": "candidate-context",
+      "text": "Contributor List"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logpai/logparser",
+      "status": "candidate",
+      "text": "Contributor List"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13311,
+      "status": "candidate",
+      "text": "pac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12342,
+      "status": "candidate",
+      "text": "anonymous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12342,
+      "status": "candidate",
+      "text": "ante"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12342,
+      "status": "candidate",
+      "text": "assessments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12342,
+      "status": "candidate",
+      "text": "caller"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Contributor List",
+  "concept_id": "contributor-list",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/contributor.yml",
+      "source_repo": "logpai/logparser"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Contributor List",
+      "sense_id": "contributor-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

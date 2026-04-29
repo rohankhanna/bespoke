@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Code formatting check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-embedded/critical-section",
+      "status": "candidate-context",
+      "text": "Pluggable critical section"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/critical-section",
+      "status": "candidate-context",
+      "text": "Code formatting check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-embedded/critical-section",
+      "status": "candidate",
+      "text": "Code formatting check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24406,
+      "status": "candidate",
+      "text": "format"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24129,
+      "status": "candidate",
+      "text": "blink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23251,
+      "status": "candidate",
+      "text": "protocol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23129,
+      "status": "candidate",
+      "text": "tab"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22656,
+      "status": "candidate",
+      "text": "monitoring"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Code formatting check",
+  "concept_id": "code-formatting-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "rust-embedded/critical-section"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code formatting check",
+      "sense_id": "code-formatting-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

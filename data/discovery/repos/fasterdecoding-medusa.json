@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterDecoding/Medusa",
+      "target": "openaccess-ai-collective/axolotl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterDecoding/Medusa",
+      "target": "ctlllll/axolotl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FasterDecoding/Medusa",
+      "target": "alibaba/rtp-llm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FasterDecoding/Medusa",
+      "target": "llm-inference",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:46:26.909227+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13996
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 796
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads",
+    "fork": false,
+    "full_name": "FasterDecoding/Medusa",
+    "html_url": "https://github.com/FasterDecoding/Medusa",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-06-25T12:23:04Z",
+    "stargazers_count": 2729,
+    "topics": [
+      "llm",
+      "llm-inference"
+    ],
+    "updated_at": "2026-04-29T08:45:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/rtp-llm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ctlllll/axolotl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openaccess-ai-collective/axolotl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"assets/logo.png\" alt=\"Medusa\" width=\"100\" align=\"left\"><div align=\"center\"><h1>&nbsp;Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads</h1></div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    }
+  ]
+}

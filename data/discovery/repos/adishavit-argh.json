@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adishavit/argh",
+      "target": "argument-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adishavit/argh",
+      "target": "cli-args",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adishavit/argh",
+      "target": "command-line",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adishavit/argh",
+      "target": "command-line-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adishavit/argh",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adishavit/argh",
+      "target": "getopt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adishavit/argh",
+      "target": "getopts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adishavit/argh",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adishavit/argh",
+      "target": "single-file",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:43:05.847088+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14758
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Argh! A minimalist argument handler.",
+    "fork": false,
+    "full_name": "adishavit/argh",
+    "html_url": "https://github.com/adishavit/argh",
+    "language": "C++",
+    "pushed_at": "2025-01-21T09:38:36Z",
+    "stargazers_count": 1429,
+    "topics": [
+      "argument-parser",
+      "cli",
+      "cli-args",
+      "command-line",
+      "command-line-parser",
+      "cpp11",
+      "getopt",
+      "getopts",
+      "header-only",
+      "single-file"
+    ],
+    "updated_at": "2026-04-29T10:37:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![logo](assets/argh_logo_small.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "argument-parser"
+    },
+    {
+      "context_snippet": "![logo](assets/argh_logo_small.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cli-args"
+    },
+    {
+      "context_snippet": "![logo](assets/argh_logo_small.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line"
+    },
+    {
+      "context_snippet": "![logo](assets/argh_logo_small.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-parser"
+    },
+    {
+      "context_snippet": "![logo](assets/argh_logo_small.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "![logo](assets/argh_logo_small.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "getopt"
+    },
+    {
+      "context_snippet": "![logo](assets/argh_logo_small.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "getopts"
+    },
+    {
+      "context_snippet": "![logo](assets/argh_logo_small.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "![logo](assets/argh_logo_small.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-file"
+    }
+  ]
+}

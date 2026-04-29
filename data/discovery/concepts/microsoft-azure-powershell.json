@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "microsoft-azure-powershell"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-powershell",
+      "status": "candidate-context",
+      "text": "Microsoft Azure PowerShell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-powershell",
+      "status": "candidate-context",
+      "text": "<meta name=\"google-site-verification\" content=\"tZgbB2s-hTI0IePQQRCjHqL_Vf0j_XJmehXAHJerrn4\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-powershell",
+      "status": "candidate",
+      "text": "<meta name=\"google-site-verification\" content=\"tZgbB2s-hTI0IePQQRCjHqL_Vf0j_XJmehXAHJerrn4\" />"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "microsoft-azure-powershell",
+  "concept_id": "microsoft-azure-powershell",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-powershell"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "microsoft-azure-powershell",
+      "sense_id": "microsoft-azure-powershell#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

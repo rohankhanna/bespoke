@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/DiverseBranchBlock",
+      "target": "dingxiaoh/replknet-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/DiverseBranchBlock",
+      "target": "dingxiaoh/repoptimizers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/DiverseBranchBlock",
+      "target": "dingxiaoh/repmlp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DingXiaoH/DiverseBranchBlock",
+      "target": "dingxiaoh/gsm-sgd",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:45:46.806939+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12132
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Diverse Branch Block: Building a Convolution as an Inception-like Unit",
+    "fork": false,
+    "full_name": "DingXiaoH/DiverseBranchBlock",
+    "html_url": "https://github.com/DingXiaoH/DiverseBranchBlock",
+    "language": "Python",
+    "pushed_at": "2023-02-10T08:31:11Z",
+    "stargazers_count": 353,
+    "topics": [],
+    "updated_at": "2026-03-03T01:13:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/gsm-sgd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/replknet-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/repmlp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/repoptimizers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

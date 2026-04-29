@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lllyasviel/IC-Light",
+      "target": "zhengpeng7/birefnet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:43:43.004673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9682
+    },
+    {
+      "path": "requirements.txt",
+      "size": 128
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "More relighting!",
+    "fork": false,
+    "full_name": "lllyasviel/IC-Light",
+    "html_url": "https://github.com/lllyasviel/IC-Light",
+    "language": "Python",
+    "pushed_at": "2025-02-20T15:52:35Z",
+    "stargazers_count": 8417,
+    "topics": [],
+    "updated_at": "2026-04-29T09:35:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhengpeng7/birefnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

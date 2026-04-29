@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "aichallenger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jin-s13/xtcocoapi",
+      "status": "candidate-context",
+      "text": "Extended COCO-API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jin-s13/xtcocoapi",
+      "status": "candidate-context",
+      "text": "[2023.10.19] Release xtcocotools v1.14.3. Support python3.7~3.11 on Linux, mac and windows systems."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jin-s13/xtcocoapi",
+      "status": "candidate",
+      "text": "[2023.10.19] Release xtcocotools v1.14.3. Support python3.7~3.11 on Linux, mac and windows systems."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "aichallenger",
+  "concept_id": "aichallenger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jin-s13/xtcocoapi"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "aichallenger",
+      "sense_id": "aichallenger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

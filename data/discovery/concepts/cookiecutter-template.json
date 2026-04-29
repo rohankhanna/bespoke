@@ -31,6 +31,30 @@
       "source_repo": "drivendataorg/cookiecutter-data-science",
       "status": "candidate-context",
       "text": "_A logical, reasonably standardized but flexible project structure for doing and sharing data science work._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "status": "candidate-context",
+      "text": "Template for a Qt/QML application with batteries included: GitHub C.I. for QML apps; ASan/UBSan; automated GUI testing with Xvfb; automatic code-format checks; and more. Compiles for Desktop and Mobile (Linux, Mac, Windows, Android, iOS)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "status": "candidate-context",
+      "text": "A template for building a Qt/QML application with **many batteries included**,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate-context",
+      "text": "Python best practices project cookiecutter \ud83c\udf6a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate-context",
+      "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "drivendataorg/cookiecutter-data-science",
       "status": "candidate",
       "text": "_A logical, reasonably standardized but flexible project structure for doing and sharing data science work._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "status": "candidate",
+      "text": "A template for building a Qt/QML application with **many batteries included**,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate",
+      "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "drivendataorg/cookiecutter-data-science"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

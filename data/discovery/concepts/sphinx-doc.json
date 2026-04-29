@@ -19,6 +19,18 @@
       "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
       "status": "candidate-context",
       "text": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mgaitan/sphinxcontrib-mermaid",
+      "status": "candidate-context",
+      "text": "Mermaid diagrams in yours sphinx powered docs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgaitan/sphinxcontrib-mermaid",
+      "status": "candidate-context",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "sphinx-contrib/sphinxcontrib-towncrier",
       "status": "candidate",
       "text": ".. image:: https://raw.githubusercontent.com/vshymanskyy/StandWithUkraine/main/banner-direct-team.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mgaitan/sphinxcontrib-mermaid",
+      "status": "candidate",
+      "text": "> [!NOTE]"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "sphinx-contrib/sphinxcontrib-towncrier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mgaitan/sphinxcontrib-mermaid"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

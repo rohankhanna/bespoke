@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",
+      "target": "agiresearch/a-mem",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",
+      "target": "aburns4/textualforesight",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",
+      "target": "aburns4/motif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",
+      "target": "ai-agents-2030/spa-bench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:54:28.814182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 47733
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[TMLR] LLM-Powered GUI Agents in Phone Automation: Surveying Progress and Prospects",
+    "fork": false,
+    "full_name": "PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",
+    "html_url": "https://github.com/PhoneLLM/Awesome-LLM-Powered-Phone-GUI-Agents",
+    "language": null,
+    "pushed_at": "2025-12-02T05:44:12Z",
+    "stargazers_count": 170,
+    "topics": [],
+    "updated_at": "2026-04-27T14:30:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aburns4/motif",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aburns4/textualforesight",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agiresearch/a-mem",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ai-agents-2030/spa-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

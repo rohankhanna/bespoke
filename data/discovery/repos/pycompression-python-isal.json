@@ -229,7 +229,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T12:43:42.068970+00:00",
+  "fetched_at": "2026-04-29T20:53:44.639013+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -254,7 +254,7 @@
     "html_url": "https://github.com/pycompression/python-isal",
     "language": "Python",
     "pushed_at": "2026-04-17T11:52:01Z",
-    "stargazers_count": 56,
+    "stargazers_count": 57,
     "topics": [
       "deflate",
       "gzip",
@@ -263,7 +263,7 @@
       "performance",
       "zlib"
     ],
-    "updated_at": "2026-04-08T16:48:51Z"
+    "updated_at": "2026-04-28T13:18:06Z"
   },
   "repo_links": [
     {

@@ -104,6 +104,42 @@
       "source_repo": "jgm/pandoc",
       "status": "candidate-context",
       "text": "CI tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-ios-dev",
+      "status": "candidate-context",
+      "text": "Apollo iOS Development Repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios-dev",
+      "status": "candidate-context",
+      "text": "\"CI Tests\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jgm/lcmark",
+      "status": "candidate-context",
+      "text": "Flexible CommonMark converter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgm/lcmark",
+      "status": "candidate-context",
+      "text": "CI tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lervag/vimtex",
+      "status": "candidate-context",
+      "text": "VimTeX: A modern Vim and neovim filetype plugin for LaTeX files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lervag/vimtex",
+      "status": "candidate-context",
+      "text": "CI tests"
     }
   ],
   "candidate_glosses": [
@@ -152,6 +188,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jgm/pandoc",
+      "status": "candidate",
+      "text": "CI tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios-dev",
+      "status": "candidate",
+      "text": "\"CI Tests\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jgm/lcmark",
+      "status": "candidate",
+      "text": "CI tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lervag/vimtex",
       "status": "candidate",
       "text": "CI tests"
     }
@@ -257,11 +311,41 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "commonmark/commonmark.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci-tests.yml",
+      "source_repo": "apollographql/apollo-ios-dev"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "commonmark/cmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "jgm/lcmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "lervag/vimtex"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "commonmark/commonmark.js"
     }
   ],
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

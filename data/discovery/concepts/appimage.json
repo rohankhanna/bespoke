@@ -82,6 +82,30 @@
       "source_repo": "probonopd/go-appimage",
       "status": "candidate-context",
       "text": "An implementation of [AppImage](https://appimage.org) tools written in Go by the inventor of the AppImage format."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alexsussa/AIDM",
+      "status": "candidate-context",
+      "text": "AppImage Desktop Maker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexsussa/AIDM",
+      "status": "candidate-context",
+      "text": "AppImage Desktop Maker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "garglk/garglk",
+      "status": "candidate-context",
+      "text": "A cross-platform IO layer for an interactive fiction player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garglk/garglk",
+      "status": "candidate-context",
+      "text": "AppImage"
     }
   ],
   "candidate_glosses": [
@@ -120,6 +144,18 @@
       "source_repo": "probonopd/go-appimage",
       "status": "candidate",
       "text": "An implementation of [AppImage](https://appimage.org) tools written in Go by the inventor of the AppImage format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexsussa/AIDM",
+      "status": "candidate",
+      "text": "AppImage Desktop Maker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garglk/garglk",
+      "status": "candidate",
+      "text": "AppImage"
     }
   ],
   "candidate_related_terms": [
@@ -205,11 +241,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "AppImage/AppImageKit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Alexsussa/AIDM"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/appimage.yml",
+      "source_repo": "garglk/garglk"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

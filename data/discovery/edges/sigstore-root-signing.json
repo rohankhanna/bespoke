@@ -1,0 +1,272 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigstore/root-signing",
+      "target": "theupdateframework/tuf-on-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sigstore/root-signing",
+      "target": "sigstore/root-signing-staging",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-signing-events.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "theupdateframework/tuf-on-ci/actions/create-signing-events@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-signing-events.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-signing-events.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "TUF-on-CI create Signing events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "sigstore/cosign-installer@ba7bc0a3fef59531c69a25acd34668d6d3fe6f22",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "actions/setup-go@4b73464bb391d4059bd26b0524d20df3927bd417",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "gradle/actions/setup-gradle@0723195856401067f7a2779048b490ace7a47d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/custom-test.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "ruby/setup-ruby@09a7688d3b55cf0e976497ff046b70949eeaccfd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-gcs.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-gcs.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy-to-gcs.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy-to-gcs.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "Deploy repository to GCS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "reviewdog/action-actionlint@0d952c597ef8459f634d7145b0b044a9699e5e43",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/online-sign.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "theupdateframework/tuf-on-ci/actions/online-sign@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/online-sign.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/online-sign.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "TUF-on-CI online signing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "theupdateframework/tuf-on-ci/actions/upload-repository@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "TUF-on-CI publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "sigstore/community/.github/workflows/reusable-scorecard.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "Scorecard supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/signing-event.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "theupdateframework/tuf-on-ci/actions/signing-event@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/signing-event.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "TUF-on-CI signing event",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gcs.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gcs.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "theupdateframework/tuf-on-ci/actions/test-repository@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gcs.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "theupdateframework/tuf-on-ci/actions/update-issue@daa76c3dbf011b70f9fb01dbb989a27bbd2bd20d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-gcs.yml",
+      "source_repo": "sigstore/root-signing",
+      "target": "root-signing GCS repository tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "sigstore/root-signing"
+}

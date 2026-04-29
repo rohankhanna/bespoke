@@ -84,7 +84,7 @@
   "normalized_form": "virus-scan",
   "observation_id": "fcd7a39052944920",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Virus Scan",
   "source_context_snippet": "Virus Scan",
   "source_file": ".github/workflows/scanner.yml",

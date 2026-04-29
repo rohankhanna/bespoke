@@ -295,6 +295,66 @@
       "source_repo": "aimerneige/MiraiChess",
       "status": "candidate-context",
       "text": "> **Warning**\\"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aimerneige/yukichan-bot",
+      "status": "candidate-context",
+      "text": "\u3086\u304d\u9171\u662f\u4f7f\u7528 ZeroBot \u6784\u5efa\u7684\u56fd\u9645\u8c61\u68cb\u804a\u5929\u673a\u5668\u4eba\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimerneige/yukichan-bot",
+      "status": "candidate-context",
+      "text": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mzdluo123/MiraiAndroid",
+      "status": "candidate-context",
+      "text": "QQ\u673a\u5668\u4eba /\uff08\u5b9e\u9a8c\u6027\uff09\u5728Android\u4e0a\u8fd0\u884cMirai-console\uff0c\u652f\u6301\u63d2\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mzdluo123/MiraiAndroid",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "status": "candidate-context",
+      "text": "\u26a1 Build your chatbot within minutes on your favorite device; offer SOTA compression techniques for LLMs; run LLMs efficiently on Intel Platforms\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate-context",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate-context",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donomii/go-rwkv.cpp",
+      "status": "candidate-context",
+      "text": "A go wrapper around the rwkv.cpp library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donomii/go-rwkv.cpp",
+      "status": "candidate-context",
+      "text": "gowrkv.go is a wrapper around [rwkv-cpp](https://github.com/saharNooby/rwkv.cpp), which is an adaption of ggml.cpp."
     }
   ],
   "candidate_glosses": [
@@ -441,6 +501,36 @@
       "source_repo": "aimerneige/MiraiChess",
       "status": "candidate",
       "text": "> **Warning**\\"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimerneige/yukichan-bot",
+      "status": "candidate",
+      "text": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mzdluo123/MiraiAndroid",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "young-geng/EasyLM",
+      "status": "candidate",
+      "text": "Large language models (LLMs) made easy, EasyLM is a one stop solution for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donomii/go-rwkv.cpp",
+      "status": "candidate",
+      "text": "gowrkv.go is a wrapper around [rwkv-cpp](https://github.com/saharNooby/rwkv.cpp), which is an adaption of ggml.cpp."
     }
   ],
   "candidate_related_terms": [
@@ -670,11 +760,53 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aimerneige/yukichan-bot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mzdluo123/MiraiAndroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "young-geng/EasyLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "donomii/go-rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

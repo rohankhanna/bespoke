@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/build-check.yaml",
       "source_repo": "open-telemetry/opentelemetry-proto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/check.yaml",
+      "source_repo": "dzeiocom/lucide-astro"
     }
   ],
   "term": "Build Check"

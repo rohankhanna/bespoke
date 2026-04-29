@@ -120,6 +120,12 @@
       "source_repo": "illusionfield/fourseven-scss",
       "status": "candidate-context",
       "text": "Test suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "status": "candidate-context",
+      "text": "Test Suite"
     }
   ],
   "candidate_glosses": [
@@ -176,6 +182,12 @@
       "source_repo": "illusionfield/fourseven-scss",
       "status": "candidate",
       "text": "Test suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "status": "candidate",
+      "text": "Test Suite"
     }
   ],
   "candidate_related_terms": [
@@ -273,11 +285,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/test_suite.yml",
       "source_repo": "illusionfield/fourseven-scss"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client-services"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

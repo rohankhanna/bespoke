@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Update ASF APIs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "localstack/localstack",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbb A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localstack/localstack",
+      "status": "candidate-context",
+      "text": "Update ASF APIs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localstack/localstack",
+      "status": "candidate",
+      "text": "Update ASF APIs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22862,
+      "status": "candidate",
+      "text": "blow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22862,
+      "status": "candidate",
+      "text": "wind"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22862,
+      "status": "candidate",
+      "text": "windmill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22419,
+      "status": "candidate",
+      "text": "drift"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22419,
+      "status": "candidate",
+      "text": "drifting"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Update ASF APIs",
+  "concept_id": "update-asf-apis",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/asf-updates.yml",
+      "source_repo": "localstack/localstack"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Update ASF APIs",
+      "sense_id": "update-asf-apis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

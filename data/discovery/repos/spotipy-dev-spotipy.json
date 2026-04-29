@@ -61,13 +61,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "spotipy-dev/spotipy",
-      "target": "spotipy-dev/spotipy-examples",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "spotipy-dev/spotipy",
       "target": "plamere/spotipy",
       "target_type": "repository"
     },
@@ -184,7 +177,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:10:52.068048+00:00",
+  "fetched_at": "2026-04-29T21:59:51.424299+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -220,20 +213,15 @@
     "full_name": "spotipy-dev/spotipy",
     "html_url": "https://github.com/spotipy-dev/spotipy",
     "language": "Python",
-    "pushed_at": "2026-03-11T21:07:45Z",
-    "stargazers_count": 5416,
+    "pushed_at": "2026-04-27T14:57:00Z",
+    "stargazers_count": 5424,
     "topics": [],
-    "updated_at": "2026-04-21T00:56:12Z"
+    "updated_at": "2026-04-29T21:11:43Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "plamere/spotipy",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "spotipy-dev/spotipy-examples",
       "source_file": "README.md"
     }
   ],

@@ -19,12 +19,30 @@
       "source_repo": "thu-ml/tianshou",
       "status": "candidate-context",
       "text": "Ubuntu GPU"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuyq18/tianshou",
+      "status": "candidate-context",
+      "text": "An elegant PyTorch deep reinforcement learning library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyq18/tianshou",
+      "status": "candidate-context",
+      "text": "Ubuntu GPU"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "thu-ml/tianshou",
+      "status": "candidate",
+      "text": "Ubuntu GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuyq18/tianshou",
       "status": "candidate",
       "text": "Ubuntu GPU"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/gputest.yml",
       "source_repo": "thu-ml/tianshou"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/gputest.yml",
+      "source_repo": "yuyq18/tianshou"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

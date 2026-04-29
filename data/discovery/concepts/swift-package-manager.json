@@ -79,6 +79,18 @@
       "source_repo": "SimplyDanny/SwiftLintPlugins",
       "status": "candidate-context",
       "text": "[![Supported Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimplyDanny%2FSwiftLintPlugins%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/SimplyDanny/SwiftLintPlugins)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "GEOSwift/geos",
+      "status": "candidate-context",
+      "text": "GEOS packaging for SPM & CocoaPods"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEOSwift/geos",
+      "status": "candidate-context",
+      "text": "This library is an SPM-compatible repackaging of the source code from [libgeos/geos](https://github.com/libgeos/geos) for use on Apple and Linux systems."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "SimplyDanny/SwiftLintPlugins",
       "status": "candidate",
       "text": "[![Supported Swift versions](https://img.shields.io/endpoint?url=https%3A%2F%2Fswiftpackageindex.com%2Fapi%2Fpackages%2FSimplyDanny%2FSwiftLintPlugins%2Fbadge%3Ftype%3Dswift-versions)](https://swiftpackageindex.com/SimplyDanny/SwiftLintPlugins)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "GEOSwift/geos",
+      "status": "candidate",
+      "text": "This library is an SPM-compatible repackaging of the source code from [libgeos/geos](https://github.com/libgeos/geos) for use on Apple and Linux systems."
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "SimplyDanny/SwiftLintPlugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "GEOSwift/geos"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

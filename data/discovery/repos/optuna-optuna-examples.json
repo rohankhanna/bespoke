@@ -1,0 +1,460 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aim.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aim.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catboost.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catboost.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dask.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dask.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "optuna/optuna-examples",
+      "target": "allegroai/trains",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "optuna/optuna-examples",
+      "target": "mozilla/deepspeech",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "optuna/optuna-examples",
+      "target": "pykeen/pykeen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "optuna/optuna-examples",
+      "target": "olachinkei/bionemo_wandb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aim.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aim.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aim.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "aim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/basic.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "basic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catboost.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/catboost.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/catboost.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "catboost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "dashboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dask.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dask.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dask.yml",
+      "source_repo": "optuna/optuna-examples",
+      "target": "dask",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optuna-examples",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optuna-examples",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optuna-examples",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optuna-examples",
+      "target": "hyperparameter-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optuna-examples",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optuna-examples",
+      "target": "parallel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:02.932228+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8522
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 336
+    },
+    {
+      "path": "requirements.txt",
+      "size": 55
+    },
+    {
+      "path": ".github/workflows/aim.yml",
+      "size": 964
+    },
+    {
+      "path": ".github/workflows/base.yml",
+      "size": 1050
+    },
+    {
+      "path": ".github/workflows/basic.yml",
+      "size": 1165
+    },
+    {
+      "path": ".github/workflows/catboost.yml",
+      "size": 1183
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 707
+    },
+    {
+      "path": ".github/workflows/dashboard.yml",
+      "size": 1234
+    },
+    {
+      "path": ".github/workflows/dask.yml",
+      "size": 988
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Examples for https://github.com/optuna/optuna",
+    "fork": false,
+    "full_name": "optuna/optuna-examples",
+    "html_url": "https://github.com/optuna/optuna-examples",
+    "language": "Python",
+    "pushed_at": "2026-04-20T04:29:50Z",
+    "stargazers_count": 849,
+    "topics": [
+      "distributed",
+      "examples",
+      "hacktoberfest",
+      "hyperparameter-optimization",
+      "machine-learning",
+      "parallel",
+      "python"
+    ],
+    "updated_at": "2026-04-21T06:23:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "allegroai/trains",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mozilla/deepspeech",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "olachinkei/bionemo_wandb",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pykeen/pykeen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "aim",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aim.yml",
+      "term": "aim"
+    },
+    {
+      "context_snippet": "base",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base.yml",
+      "term": "base"
+    },
+    {
+      "context_snippet": "basic",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/basic.yml",
+      "term": "basic"
+    },
+    {
+      "context_snippet": "catboost",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/catboost.yml",
+      "term": "catboost"
+    },
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Checks"
+    },
+    {
+      "context_snippet": "dashboard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dashboard.yml",
+      "term": "dashboard"
+    },
+    {
+      "context_snippet": "dask",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dask.yml",
+      "term": "dask"
+    },
+    {
+      "context_snippet": "Optuna Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed"
+    },
+    {
+      "context_snippet": "Optuna Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "examples"
+    },
+    {
+      "context_snippet": "Optuna Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Optuna Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hyperparameter-optimization"
+    },
+    {
+      "context_snippet": "Optuna Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "Optuna Examples",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parallel"
+    }
+  ]
+}

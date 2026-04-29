@@ -1,0 +1,12 @@
+{
+  "component": "reviewdog/action-shfmt@d8f080930b9be5847b4f97e9f4122b81a82aaeac",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-suggester"
+    }
+  ]
+}

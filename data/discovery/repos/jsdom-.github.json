@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:46:27.110623+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 125
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Miscellaneous GitHub configurations",
+    "fork": false,
+    "full_name": "jsdom/.github",
+    "html_url": "https://github.com/jsdom/.github",
+    "language": null,
+    "pushed_at": "2026-02-14T05:28:09Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-02-14T05:27:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

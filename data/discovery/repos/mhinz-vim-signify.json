@@ -1,0 +1,190 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhinz/vim-signify",
+      "target": "accurev",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhinz/vim-signify",
+      "target": "async",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhinz/vim-signify",
+      "target": "bazaar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhinz/vim-signify",
+      "target": "darcs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhinz/vim-signify",
+      "target": "fossil-scm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhinz/vim-signify",
+      "target": "mercurial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhinz/vim-signify",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhinz/vim-signify",
+      "target": "perforce",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhinz/vim-signify",
+      "target": "signs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhinz/vim-signify",
+      "target": "subversion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhinz/vim-signify",
+      "target": "vim-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:40:25.223391+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":heavy_plus_sign: Show a diff using Vim its sign column.",
+    "fork": false,
+    "full_name": "mhinz/vim-signify",
+    "html_url": "https://github.com/mhinz/vim-signify",
+    "language": "Vim Script",
+    "pushed_at": "2026-03-12T14:24:49Z",
+    "stargazers_count": 2729,
+    "topics": [
+      "accurev",
+      "async",
+      "bazaar",
+      "cvs",
+      "darcs",
+      "fossil-scm",
+      "git",
+      "mercurial",
+      "neovim",
+      "perforce",
+      "rcs",
+      "signs",
+      "subversion",
+      "tfs",
+      "vcs",
+      "vim",
+      "vim-plugin"
+    ],
+    "updated_at": "2026-04-26T06:04:40Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "accurev"
+    },
+    {
+      "context_snippet": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "async"
+    },
+    {
+      "context_snippet": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazaar"
+    },
+    {
+      "context_snippet": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "darcs"
+    },
+    {
+      "context_snippet": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fossil-scm"
+    },
+    {
+      "context_snippet": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mercurial"
+    },
+    {
+      "context_snippet": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perforce"
+    },
+    {
+      "context_snippet": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signs"
+    },
+    {
+      "context_snippet": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "subversion"
+    },
+    {
+      "context_snippet": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    }
+  ]
+}

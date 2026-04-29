@@ -19,6 +19,30 @@
       "source_repo": "xavierpuigf/virtualhome",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image",
+      "status": "candidate-context",
+      "text": "Bridge between RenderTexture (Unity) object and sensor_msgs/Image (ROS2)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image",
+      "status": "candidate-context",
+      "text": "Bridge between RenderTexture (Unity) object and sensor_msgs/Image (ROS2)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "status": "candidate-context",
+      "text": "High-performance ROS2 solution for Unity3D"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "status": "candidate-context",
+      "text": "Ros2 For Unity"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "xavierpuigf/virtualhome",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image",
+      "status": "candidate",
+      "text": "Bridge between RenderTexture (Unity) object and sensor_msgs/Image (ROS2)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobotecAI/ros2-for-unity",
+      "status": "candidate",
+      "text": "Ros2 For Unity"
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +148,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "xavierpuigf/virtualhome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "RobotecAI/ros2-for-unity"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

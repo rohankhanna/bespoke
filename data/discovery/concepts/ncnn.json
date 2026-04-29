@@ -79,6 +79,42 @@
       "source_repo": "Tencent/TNN",
       "status": "candidate-context",
       "text": "[\u4e2d\u6587\u7248\u672c](README_CH.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
+      "status": "candidate-context",
+      "text": " \ud83d\udc8e1MB lightweight face detection model  (1MB\u8f7b\u91cf\u7ea7\u4eba\u8138\u68c0\u6d4b\u6a21\u578b)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
+      "status": "candidate-context",
+      "text": "[English](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB ) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB/blob/master/README_CN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/ncnn-android-nanodet",
+      "status": "candidate-context",
+      "text": "ncnn android nanodet lightweight object detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/ncnn-android-nanodet",
+      "status": "candidate-context",
+      "text": "The NanoDet object detection"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlite-dev/lite.ai.toolkit",
+      "status": "candidate-context",
+      "text": "\ud83d\udee0A lite C++ AI toolkit: 100+ models with MNN, ORT and TRT, including Det, Seg, Stable-Diffusion, Face-Fusion, etc.\ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/lite.ai.toolkit",
+      "status": "candidate-context",
+      "text": "<div id=\"lite.ai.toolkit-Introduction\"></div>"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +153,24 @@
       "source_repo": "Tencent/TNN",
       "status": "candidate",
       "text": "[\u4e2d\u6587\u7248\u672c](README_CH.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
+      "status": "candidate",
+      "text": "[English](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB ) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB/blob/master/README_CN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/ncnn-android-nanodet",
+      "status": "candidate",
+      "text": "The NanoDet object detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/lite.ai.toolkit",
+      "status": "candidate",
+      "text": "<div id=\"lite.ai.toolkit-Introduction\"></div>"
     }
   ],
   "candidate_related_terms": [],
@@ -166,11 +220,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "DayBreak-u/chineseocr_lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nihui/ncnn-android-nanodet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/lite.ai.toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "DayBreak-u/chineseocr_lite"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

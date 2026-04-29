@@ -31,6 +31,18 @@
       "source_repo": "urschrei/polyline-ffi",
       "status": "candidate-context",
       "text": "[![Test and Build](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/polyline-ffi/badge.svg?branch=master)](https://c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scala-interop/slinc",
+      "status": "candidate-context",
+      "text": "Scala <-> C interop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scala-interop/slinc",
+      "status": "candidate-context",
+      "text": "![workflow status](https://github.com/markehammons/slinc/actions/workflows/ci.yml/badge.svg)![Maven Central](https://img.shields.io/maven-central/v/fr.hammons/slinc-core_3)[![codecov](https://codecov.io/gh/markehammons/slinc/branch/master/graph/badge.svg?token=MSTGFQYNXI)](https\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "urschrei/polyline-ffi",
       "status": "candidate",
       "text": "[![Test and Build](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/polyline-ffi/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/polyline-ffi/badge.svg?branch=master)](https://c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scala-interop/slinc",
+      "status": "candidate",
+      "text": "![workflow status](https://github.com/markehammons/slinc/actions/workflows/ci.yml/badge.svg)![Maven Central](https://img.shields.io/maven-central/v/fr.hammons/slinc-core_3)[![codecov](https://codecov.io/gh/markehammons/slinc/branch/master/graph/badge.svg?token=MSTGFQYNXI)](https\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -82,11 +100,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rust-nvml/nvml-wrapper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

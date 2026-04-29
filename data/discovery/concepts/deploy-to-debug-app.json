@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Deploy to debug app"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borisdayma/dalle-mini",
+      "status": "candidate-context",
+      "text": "DALL\u00b7E Mini - Generate images from a text prompt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borisdayma/dalle-mini",
+      "status": "candidate-context",
+      "text": "Deploy to debug app"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borisdayma/dalle-mini",
+      "status": "candidate",
+      "text": "Deploy to debug app"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18024,
+      "status": "candidate",
+      "text": "salve"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18024,
+      "status": "candidate",
+      "text": "salving"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17584,
+      "status": "candidate",
+      "text": "programming"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17584,
+      "status": "candidate",
+      "text": "subroutine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17523,
+      "status": "candidate",
+      "text": "bug"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Deploy to debug app",
+  "concept_id": "deploy-to-debug-app",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/sync_to_hub_debug.yml",
+      "source_repo": "borisdayma/dalle-mini"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Deploy to debug app",
+      "sense_id": "deploy-to-debug-app#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

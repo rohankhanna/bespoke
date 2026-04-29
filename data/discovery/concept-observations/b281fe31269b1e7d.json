@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An adorable little framework and command line tool for interacting with SourceKit."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "SwiftPM"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "SwiftPM"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "SwiftPM",
+      "sense_id": "swiftpm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "swiftpm",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "swiftpm",
+  "observation_id": "b281fe31269b1e7d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "SwiftPM",
+  "source_context_snippet": "SwiftPM",
+  "source_file": ".github/workflows/swiftpm.yml",
+  "source_repo": "jpsim/SourceKitten",
+  "source_repo_description": "An adorable little framework and command line tool for interacting with SourceKit."
+}

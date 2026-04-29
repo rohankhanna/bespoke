@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:54:28.355632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 431491
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 200
+    },
+    {
+      "path": "requirements.txt",
+      "size": 22
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": " Building a comprehensive and handy list of papers for GUI agents",
+    "fork": false,
+    "full_name": "OSU-NLP-Group/GUI-Agents-Paper-List",
+    "html_url": "https://github.com/OSU-NLP-Group/GUI-Agents-Paper-List",
+    "language": "Python",
+    "pushed_at": "2026-04-25T17:49:52Z",
+    "stargazers_count": 745,
+    "topics": [],
+    "updated_at": "2026-04-28T21:54:56Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

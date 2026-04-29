@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:38:09.221203+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1429
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "akira-l/warc_extractor_mnbvc",
+    "html_url": "https://github.com/akira-l/warc_extractor_mnbvc",
+    "language": "Python",
+    "pushed_at": "2024-07-27T06:54:12Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-07-27T08:28:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

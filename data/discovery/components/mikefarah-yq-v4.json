@@ -1,0 +1,17 @@
+{
+  "component": "mikefarah/yq@v4",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-replicated.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag-chart-versions.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud"
+    }
+  ]
+}

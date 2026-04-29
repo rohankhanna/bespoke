@@ -1,0 +1,123 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-go",
+      "target": "echo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-go",
+      "target": "go-redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-go",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-go",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-go",
+      "target": "starter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-go",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:11.755530+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3454
+    },
+    {
+      "path": "Dockerfile",
+      "size": 535
+    },
+    {
+      "path": "go.mod",
+      "size": 3811
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A starter project for working with Redis and Go",
+    "fork": false,
+    "full_name": "redis-developer/redis-starter-go",
+    "html_url": "https://github.com/redis-developer/redis-starter-go",
+    "language": "Go",
+    "pushed_at": "2026-03-12T21:51:16Z",
+    "stargazers_count": 8,
+    "topics": [
+      "echo",
+      "go",
+      "go-redis",
+      "golang",
+      "redis",
+      "starter",
+      "template"
+    ],
+    "updated_at": "2026-04-13T13:31:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for Go:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "echo"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for Go:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "go-redis"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for Go:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for Go:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for Go:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starter"
+    },
+    {
+      "context_snippet": "This is a [Redis](https://redis.io/) starter template for Go:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

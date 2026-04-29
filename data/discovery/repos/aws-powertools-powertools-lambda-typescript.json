@@ -228,13 +228,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aws-powertools/powertools-lambda-typescript",
-      "target": "getndazn/dazn-lambda-powertools",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "aws-powertools/powertools-lambda-typescript",
@@ -613,7 +606,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T02:00:44.158723+00:00",
+  "fetched_at": "2026-04-29T21:49:10.107273+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -665,8 +658,8 @@
     "full_name": "aws-powertools/powertools-lambda-typescript",
     "html_url": "https://github.com/aws-powertools/powertools-lambda-typescript",
     "language": "TypeScript",
-    "pushed_at": "2026-04-23T18:02:19Z",
-    "stargazers_count": 1774,
+    "pushed_at": "2026-04-29T11:56:54Z",
+    "stargazers_count": 1777,
     "topics": [
       "aws",
       "aws-lambda",
@@ -677,15 +670,9 @@
       "serverless",
       "typescript"
     ],
-    "updated_at": "2026-04-23T06:41:23Z"
+    "updated_at": "2026-04-29T11:56:56Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "getndazn/dazn-lambda-powertools",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Region Bootstrap",

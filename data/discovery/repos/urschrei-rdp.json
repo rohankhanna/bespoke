@@ -1,0 +1,187 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "urschrei/rdp",
+      "target": "georust/rust-geo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "urschrei/rdp",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "urschrei/rdp",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "urschrei/rdp",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "urschrei/rdp",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "urschrei/rdp",
+      "target": "Test and Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urschrei/rdp",
+      "target": "computational-geometry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urschrei/rdp",
+      "target": "geospatial",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urschrei/rdp",
+      "target": "rust-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "urschrei/rdp",
+      "target": "visvalingam",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:38:48.259496+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2969
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 820
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 5293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A library providing FFI access to fast Ramer\u2013Douglas\u2013Peucker and Visvalingam-Whyatt line simplification algorithms",
+    "fork": false,
+    "full_name": "urschrei/rdp",
+    "html_url": "https://github.com/urschrei/rdp",
+    "language": "Rust",
+    "pushed_at": "2026-04-27T09:11:15Z",
+    "stargazers_count": 26,
+    "topics": [
+      "computational-geometry",
+      "ffi",
+      "geo",
+      "geospatial",
+      "rdp",
+      "rust-library",
+      "visvalingam"
+    ],
+    "updated_at": "2026-04-27T09:11:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "georust/rust-geo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test and Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test and Build"
+    },
+    {
+      "context_snippet": "[![Test and Build](https://github.com/urschrei/rdp/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/rdp/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/rdp/badge.svg?branch=master)](https://coveralls.io/github/urschrei\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computational-geometry"
+    },
+    {
+      "context_snippet": "[![Test and Build](https://github.com/urschrei/rdp/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/rdp/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/rdp/badge.svg?branch=master)](https://coveralls.io/github/urschrei\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geospatial"
+    },
+    {
+      "context_snippet": "[![Test and Build](https://github.com/urschrei/rdp/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/rdp/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/rdp/badge.svg?branch=master)](https://coveralls.io/github/urschrei\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-library"
+    },
+    {
+      "context_snippet": "[![Test and Build](https://github.com/urschrei/rdp/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/rdp/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/rdp/badge.svg?branch=master)](https://coveralls.io/github/urschrei\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visvalingam"
+    }
+  ]
+}

@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Sense-X/UniFormer",
+      "target": "opengvlab/uniformerv2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Sense-X/UniFormer",
+      "target": "andy1621/nightcrawler",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sense-X/UniFormer",
+      "target": "image-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sense-X/UniFormer",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sense-X/UniFormer",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sense-X/UniFormer",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Sense-X/UniFormer",
+      "target": "video-classification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:52.006942+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17184
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR2022] official implementation of UniFormer",
+    "fork": false,
+    "full_name": "Sense-X/UniFormer",
+    "html_url": "https://github.com/Sense-X/UniFormer",
+    "language": "Python",
+    "pushed_at": "2024-03-29T17:02:16Z",
+    "stargazers_count": 899,
+    "topics": [
+      "image-classification",
+      "object-detection",
+      "pose-estimation",
+      "semantic-segmentation",
+      "video-classification"
+    ],
+    "updated_at": "2026-04-26T16:54:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "andy1621/nightcrawler",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/uniformerv2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<a src=\"https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue\" href=\"https://huggingface.co/spaces/Andy1621/uniformer_light \">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-classification"
+    },
+    {
+      "context_snippet": "<a src=\"https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue\" href=\"https://huggingface.co/spaces/Andy1621/uniformer_light \">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<a src=\"https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue\" href=\"https://huggingface.co/spaces/Andy1621/uniformer_light \">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "<a src=\"https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue\" href=\"https://huggingface.co/spaces/Andy1621/uniformer_light \">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "<a src=\"https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue\" href=\"https://huggingface.co/spaces/Andy1621/uniformer_light \">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-classification"
+    }
+  ]
+}

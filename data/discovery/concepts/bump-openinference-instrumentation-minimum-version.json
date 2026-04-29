@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump openinference-instrumentation minimum version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Arize-ai/openinference",
+      "status": "candidate-context",
+      "text": "OpenTelemetry Instrumentation for AI Observability"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arize-ai/openinference",
+      "status": "candidate-context",
+      "text": "Bump openinference-instrumentation minimum version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Arize-ai/openinference",
+      "status": "candidate",
+      "text": "Bump openinference-instrumentation minimum version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18034,
+      "status": "candidate",
+      "text": "mogul"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18024,
+      "status": "candidate",
+      "text": "node"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17958,
+      "status": "candidate",
+      "text": "bumping"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17958,
+      "status": "candidate",
+      "text": "bumps"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17958,
+      "status": "candidate",
+      "text": "dent"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump openinference-instrumentation minimum version",
+  "concept_id": "bump-openinference-instrumentation-minimum-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/bump-openinference-instrumentation-version.yml",
+      "source_repo": "Arize-ai/openinference"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump openinference-instrumentation minimum version",
+      "sense_id": "bump-openinference-instrumentation-minimum-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

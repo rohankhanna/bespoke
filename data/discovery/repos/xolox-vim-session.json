@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:38:49.718579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33791
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extended session management for Vim (:mksession on steroids)",
+    "fork": false,
+    "full_name": "xolox/vim-session",
+    "html_url": "https://github.com/xolox/vim-session",
+    "language": "VimL",
+    "pushed_at": "2022-07-29T03:23:05Z",
+    "stargazers_count": 961,
+    "topics": [],
+    "updated_at": "2026-04-26T10:39:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

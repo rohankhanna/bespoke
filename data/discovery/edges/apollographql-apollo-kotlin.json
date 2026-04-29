@@ -1,0 +1,230 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "gradle/actions/setup-gradle@dbbdc275be76ac10734476cc723d82dfe7ec6eda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pull-request.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "build-pull-request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-kotlin-nightlies.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-kotlin-nightlies.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "bump-kotlin-nightlies",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/defer-integration-tests.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/defer-integration-tests.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "defer-integration-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-close-user-survey.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "issue-close-user-survey",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-api-tests.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/platform-api-tests.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "gradle/actions/setup-gradle@dbbdc275be76ac10734476cc723d82dfe7ec6eda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/platform-api-tests.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "platform-api-tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-preview.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "gradle/actions/setup-gradle@dbbdc275be76ac10734476cc723d82dfe7ec6eda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-preview.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "publish-preview",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "gradle/actions/setup-gradle@dbbdc275be76ac10734476cc723d82dfe7ec6eda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-release.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "publish-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot-and-kdoc.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot-and-kdoc.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "gradle/actions/setup-gradle@dbbdc275be76ac10734476cc723d82dfe7ec6eda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot-and-kdoc.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "actions/upload-pages-artifact@56afc609e74202658d3ffba0e8f6dda462b719fa",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot-and-kdoc.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-snapshot-and-kdoc.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "publish-snapshot-and-kdoc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "gradle/actions/setup-gradle@dbbdc275be76ac10734476cc723d82dfe7ec6eda",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "google-github-actions/setup-gcloud@98ddc00a17442e89a24bbf282954a3b65ce6d200",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "run-benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "apollographql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "graphql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "graphql-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "kotlin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "kotlin-multiplatform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-kotlin",
+      "target": "multiplatform",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "apollographql/apollo-kotlin"
+}

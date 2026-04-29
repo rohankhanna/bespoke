@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udea7 Learn the craft of \"DevOps\" (Developer Operations) to Deploy your App and Monitor it so it stays \"Up\"! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048437,
+      "status": "candidate",
+      "text": "cerulean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40048386,
+      "status": "candidate",
+      "text": "lazuline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40047939,
+      "status": "candidate",
+      "text": "sky-blue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039148,
+      "status": "candidate",
+      "text": "sapphire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39959958,
+      "status": "candidate",
+      "text": "colored"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "azure",
+      "sense_id": "azure#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66041,
+      "status": "candidate",
+      "text": "chromatic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 29036,
+      "status": "candidate",
+      "text": "cerulean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15013,
+      "status": "candidate",
+      "text": "lazuline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7046,
+      "status": "candidate",
+      "text": "sapphire"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3012,
+      "status": "candidate",
+      "text": "bright blue"
+    }
+  ],
+  "concept_id": "azure",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "azure",
+  "observation_id": "dcfcf0d75b12bfa9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "azure",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "dwyl/learn-devops",
+  "source_repo_description": "\ud83d\udea7 Learn the craft of \"DevOps\" (Developer Operations) to Deploy your App and Monitor it so it stays \"Up\"! "
+}

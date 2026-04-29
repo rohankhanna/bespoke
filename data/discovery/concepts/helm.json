@@ -238,6 +238,30 @@
       "source_repo": "intel/ai-containers",
       "status": "candidate-context",
       "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8270/badge)](https://www.bestpractices.dev/projects/8270)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/helm-charts",
+      "status": "candidate-context",
+      "text": "Helm charts for sigstore project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/helm-charts",
+      "status": "candidate-context",
+      "text": "[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/sigstore)](https://artifacthub.io/packages/search?repo=sigstore)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate-context",
+      "text": "An open source trusted cloud native registry project that stores, signs, and scans content."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +378,18 @@
       "source_repo": "intel/ai-containers",
       "status": "candidate",
       "text": "[![OpenSSF Best Practices](https://www.bestpractices.dev/projects/8270/badge)](https://www.bestpractices.dev/projects/8270)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/helm-charts",
+      "status": "candidate",
+      "text": "[![Artifact Hub](https://img.shields.io/endpoint?url=https://artifacthub.io/badge/repository/sigstore)](https://artifacthub.io/packages/search?repo=sigstore)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "goharbor/harbor",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/goharbor/harbor/actions/workflows/CI.yml/badge.svg)](https://github.com/goharbor/harbor/actions/workflows/CI.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -523,11 +559,23 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "intel/ai-containers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sigstore/helm-charts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "goharbor/harbor"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

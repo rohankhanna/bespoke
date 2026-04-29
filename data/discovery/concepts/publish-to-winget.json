@@ -80,6 +80,18 @@
       "source_repo": "vim/vim-win32-installer",
       "status": "candidate-context",
       "text": "Publish to WinGet"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chawyehsu/nvm-windows",
+      "status": "candidate-context",
+      "text": "For what it's worth, a nvm-windows fork with NTFS junction patch which was rejected by upstream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chawyehsu/nvm-windows",
+      "status": "candidate-context",
+      "text": "Publish to Winget"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +130,12 @@
       "source_repo": "vim/vim-win32-installer",
       "status": "candidate",
       "text": "Publish to WinGet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chawyehsu/nvm-windows",
+      "status": "candidate",
+      "text": "Publish to Winget"
     }
   ],
   "candidate_related_terms": [
@@ -233,11 +251,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/winget.yml",
       "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "chawyehsu/nvm-windows"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

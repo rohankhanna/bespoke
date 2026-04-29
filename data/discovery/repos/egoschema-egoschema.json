@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:50:50.782244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6743
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "egoschema/EgoSchema",
+    "html_url": "https://github.com/egoschema/EgoSchema",
+    "language": "Python",
+    "pushed_at": "2024-12-30T13:53:24Z",
+    "stargazers_count": 112,
+    "topics": [],
+    "updated_at": "2026-04-16T13:08:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:46:21.835116+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 182
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Spec-Bench: A Comprehensive Benchmark and Unified Evaluation Platform for Speculative Decoding (ACL 2024 Findings)",
+    "fork": false,
+    "full_name": "hemingkx/Spec-Bench",
+    "html_url": "https://github.com/hemingkx/Spec-Bench",
+    "language": "Python",
+    "pushed_at": "2025-04-22T02:56:41Z",
+    "stargazers_count": 390,
+    "topics": [],
+    "updated_at": "2026-04-29T10:05:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

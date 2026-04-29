@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/protocol",
+      "target": "spacemeshos/go-spacemesh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/protocol",
+      "target": "spacemeshos/local-testnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/protocol",
+      "target": "spacemeshos/collector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spacemeshos/protocol",
+      "target": "spacemeshos/product",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacemeshos/protocol",
+      "target": "abft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacemeshos/protocol",
+      "target": "blockmesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacemeshos/protocol",
+      "target": "poet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacemeshos/protocol",
+      "target": "post",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacemeshos/protocol",
+      "target": "spacemesh",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:38:37.955971+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17679
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repo contains the Spacemesh protocol specifications and related documentation",
+    "fork": false,
+    "full_name": "spacemeshos/protocol",
+    "html_url": "https://github.com/spacemeshos/protocol",
+    "language": "CSS",
+    "pushed_at": "2022-09-07T08:48:40Z",
+    "stargazers_count": 37,
+    "topics": [
+      "abft",
+      "blockmesh",
+      "poet",
+      "post",
+      "spacemesh"
+    ],
+    "updated_at": "2024-10-25T10:45:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spacemeshos/collector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spacemeshos/go-spacemesh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spacemeshos/local-testnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spacemeshos/product",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This document and the documents it links to collectively present an overview of the Spacemesh protocol in its entirety, and its constituent components.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "abft"
+    },
+    {
+      "context_snippet": "This document and the documents it links to collectively present an overview of the Spacemesh protocol in its entirety, and its constituent components.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockmesh"
+    },
+    {
+      "context_snippet": "This document and the documents it links to collectively present an overview of the Spacemesh protocol in its entirety, and its constituent components.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "poet"
+    },
+    {
+      "context_snippet": "This document and the documents it links to collectively present an overview of the Spacemesh protocol in its entirety, and its constituent components.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "post"
+    },
+    {
+      "context_snippet": "This document and the documents it links to collectively present an overview of the Spacemesh protocol in its entirety, and its constituent components.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spacemesh"
+    }
+  ]
+}

@@ -334,6 +334,90 @@
       "source_repo": "ipfs/rainbow",
       "status": "candidate-context",
       "text": "Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automate versioning and package publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "julia-vscode/julia-vscode",
+      "status": "candidate-context",
+      "text": "Julia extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/julia-vscode",
+      "status": "candidate-context",
+      "text": "\"changelog\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OffchainLabs/nitro",
+      "status": "candidate-context",
+      "text": "Nitro goes vroom and fixes everything"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/nitro",
+      "status": "candidate-context",
+      "text": "changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate-context",
+      "text": "The collection includes a variety of Ansible content to help automate the management of applications in Kubernetes and OpenShift clusters, as well as the provisioning and maintenance of clusters themselves."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate-context",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyO3/pyo3",
+      "status": "candidate-context",
+      "text": "Rust bindings for the Python interpreter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/pyo3",
+      "status": "candidate-context",
+      "text": "changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/lotus",
+      "status": "candidate-context",
+      "text": "Reference implementation of the Filecoin protocol, written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/lotus",
+      "status": "candidate-context",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu/changelogithub",
+      "status": "candidate-context",
+      "text": "Generate changelog for GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/changelogithub",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/changelogithub?color=a1b858&label=)](https://www.npmjs.com/package/changelogithub)"
     }
   ],
   "candidate_glosses": [
@@ -498,6 +582,48 @@
       "source_repo": "ipfs/rainbow",
       "status": "candidate",
       "text": "Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate",
+      "text": "\ud83d\ude80 Generic CLI tool to automate versioning and package publishing-related tasks:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "julia-vscode/julia-vscode",
+      "status": "candidate",
+      "text": "\"changelog\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/nitro",
+      "status": "candidate",
+      "text": "changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "status": "candidate",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyO3/pyo3",
+      "status": "candidate",
+      "text": "changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/lotus",
+      "status": "candidate",
+      "text": "Changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/changelogithub",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/changelogithub?color=a1b858&label=)](https://www.npmjs.com/package/changelogithub)"
     }
   ],
   "candidate_related_terms": [
@@ -739,11 +865,71 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "ipfs/rainbow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "release-it/release-it"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "julia-vscode/julia-vscode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "LuaLS/lua-language-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "conventional-changelog/conventional-changelog"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/_changelog.yml",
+      "source_repo": "OffchainLabs/nitro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "ansible-collections/kubernetes.core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "PyO3/pyo3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "filecoin-project/lotus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "antfu/changelogithub"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -121,7 +121,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "web-platform-tests/wpt",
-      "target": "web-platform-tests/rfcs",
+      "target": "web-platform-tests/wpt.",
       "target_type": "repository"
     },
     {
@@ -447,7 +447,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:30:26.726822+00:00",
+  "fetched_at": "2026-04-29T21:46:31.697306+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -499,8 +499,8 @@
     "full_name": "web-platform-tests/wpt",
     "html_url": "https://github.com/web-platform-tests/wpt",
     "language": "HTML",
-    "pushed_at": "2026-04-23T07:14:59Z",
-    "stargazers_count": 5896,
+    "pushed_at": "2026-04-29T21:07:09Z",
+    "stargazers_count": 5909,
     "topics": [
       "blink",
       "browser",
@@ -522,12 +522,12 @@
       "webkit",
       "whatwg"
     ],
-    "updated_at": "2026-04-23T06:40:38Z"
+    "updated_at": "2026-04-29T20:13:16Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "web-platform-tests/rfcs",
+      "full_name": "web-platform-tests/wpt.",
       "source_file": "README.md"
     }
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:50:05.124930+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2200
+    },
+    {
+      "path": "requirements.txt",
+      "size": 15
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Prod Env",
+    "fork": false,
+    "full_name": "kojima-takeshi188/zero_shot_cot",
+    "html_url": "https://github.com/kojima-takeshi188/zero_shot_cot",
+    "language": "Python",
+    "pushed_at": "2023-10-09T20:03:44Z",
+    "stargazers_count": 442,
+    "topics": [],
+    "updated_at": "2026-04-07T10:54:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

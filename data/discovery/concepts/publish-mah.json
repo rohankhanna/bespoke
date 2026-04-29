@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Mah"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "project-mirai/mirai-api-http",
+      "status": "candidate-context",
+      "text": "Mirai HTTP API (console) plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-mirai/mirai-api-http",
+      "status": "candidate-context",
+      "text": "Publish Mah"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "project-mirai/mirai-api-http",
+      "status": "candidate",
+      "text": "Publish Mah"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11025,
+      "status": "candidate",
+      "text": "air hole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11025,
+      "status": "candidate",
+      "text": "apron"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11025,
+      "status": "candidate",
+      "text": "ballast"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11025,
+      "status": "candidate",
+      "text": "bench mark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11025,
+      "status": "candidate",
+      "text": "besom"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Mah",
+  "concept_id": "publish-mah",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "project-mirai/mirai-api-http"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Mah",
+      "sense_id": "publish-mah#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,71 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-go-client",
+      "target": "google/google-api-go-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-go-client",
+      "target": "googleapis/google-cloud-go",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "googleapis/google-api-go-client",
+      "target": "googleapis/google-cloud-go",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:43:08.125549+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3754
+    },
+    {
+      "path": "go.mod",
+      "size": 1476
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Auto-generated Google APIs for Go.",
+    "fork": false,
+    "full_name": "googleapis/google-api-go-client",
+    "html_url": "https://github.com/googleapis/google-api-go-client",
+    "language": "Go",
+    "pushed_at": "2026-04-29T07:44:59Z",
+    "stargazers_count": 4427,
+    "topics": [
+      "go"
+    ],
+    "updated_at": "2026-04-29T12:22:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/google-api-go-client",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-cloud-go",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-cloud-go",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THU-MIG/yolov10",
+      "target": "kaylorchen/rk3588-yolo-demo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THU-MIG/yolov10",
+      "target": "cvhub520/x-anylabeling",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THU-MIG/yolov10",
+      "target": "danielsarmiento04/yolov10cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THU-MIG/yolov10",
+      "target": "lyuwenyu/rt-detr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:45:49.054613+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15330
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6818
+    },
+    {
+      "path": "requirements.txt",
+      "size": 267
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "YOLOv10: Real-Time End-to-End Object Detection [NeurIPS 2024] ",
+    "fork": false,
+    "full_name": "THU-MIG/yolov10",
+    "html_url": "https://github.com/THU-MIG/yolov10",
+    "language": "Python",
+    "pushed_at": "2025-03-14T02:53:58Z",
+    "stargazers_count": 11290,
+    "topics": [],
+    "updated_at": "2026-04-29T05:13:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cvhub520/x-anylabeling",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielsarmiento04/yolov10cpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kaylorchen/rk3588-yolo-demo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lyuwenyu/rt-detr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

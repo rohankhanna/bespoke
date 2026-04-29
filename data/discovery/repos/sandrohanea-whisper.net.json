@@ -1,0 +1,833 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-native-build.yml"
+    },
+    {
+      "component": "nttld/setup-ndk@afb4c9964b521afb97c864b7d40b11e6911bd410",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-native-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-native-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-github-actions.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-github-actions.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-github-actions.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-gpt-data.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-gpt-data.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@60606e260d2fc5762a71e64e74b2174e8ea3c8bd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "reactivecircus/android-emulator-runner@b530d96654c385303d652368551fb075bc2f0b6b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "maxim-lobanov/setup-xcode@60606e260d2fc5762a71e64e74b2174e8ea3c8bd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml"
+    },
+    {
+      "component": "dorny/test-reporter@b082adf0eced0765477756c2a610396589b8c637",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml"
+    },
+    {
+      "component": "dorny/test-reporter@b082adf0eced0765477756c2a610396589b8c637",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "dorny/test-reporter@b082adf0eced0765477756c2a610396589b8c637",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "dorny/test-reporter@b082adf0eced0765477756c2a610396589b8c637",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/download-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "dorny/test-reporter@b082adf0eced0765477756c2a610396589b8c637",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download-models-for-tests.yml"
+    },
+    {
+      "component": "actions/setup-dotnet@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download-models-for-tests.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download-models-for-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios-native-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios-native-build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cuda-native-build.yml"
+    },
+    {
+      "component": "Jimver/cuda-toolkit@b6fc3a9f3f15256d9d94ffe1254f9c5a2565cde6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cuda-native-build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cuda-native-build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-native-build.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-native-build.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "nttld/setup-ndk@afb4c9964b521afb97c864b7d40b11e6911bd410",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/android-native-build.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-native-build.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "Android Native build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "CI (Native + dotnet)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-github-actions.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-github-actions.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-github-actions.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-github-actions.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "Dotnet Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-gpt-data.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/collect-gpt-data.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/collect-gpt-data.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "Collect data for ChatGPT assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "maxim-lobanov/setup-xcode@60606e260d2fc5762a71e64e74b2174e8ea3c8bd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-maui.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "reactivecircus/android-emulator-runner@b530d96654c385303d652368551fb075bc2f0b6b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-maui.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "Dotnet Maui Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "dorny/test-reporter@b082adf0eced0765477756c2a610396589b8c637",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet-noavx.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-noavx.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "Dotnet NoAvx Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/download-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "dorny/test-reporter@b082adf0eced0765477756c2a610396589b8c637",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "Dotnet Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download-models-for-tests.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download-models-for-tests.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/setup-dotnet@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/download-models-for-tests.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/download-models-for-tests.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "Download Models for tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios-native-build.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ios-native-build.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios-native-build.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "Apple iOS native build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cuda-native-build.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cuda-native-build.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "Jimver/cuda-toolkit@b6fc3a9f3f15256d9d94ffe1254f9c5a2565cde6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-cuda-native-build.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "actions/upload-artifact@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-cuda-native-build.yml",
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "Linux Cuda Native build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "dotnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "dotnetcore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "speech-to-text",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sandrohanea/whisper.net",
+      "target": "translation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:41:18.648033+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/android-native-build.yml",
+      "size": 797
+    },
+    {
+      "path": ".github/workflows/build-all.yml",
+      "size": 4415
+    },
+    {
+      "path": ".github/workflows/codeql-github-actions.yml",
+      "size": 555
+    },
+    {
+      "path": ".github/workflows/collect-gpt-data.yml",
+      "size": 3692
+    },
+    {
+      "path": ".github/workflows/dotnet-maui.yml",
+      "size": 5447
+    },
+    {
+      "path": ".github/workflows/dotnet-noavx.yml",
+      "size": 3370
+    },
+    {
+      "path": ".github/workflows/dotnet.yml",
+      "size": 5414
+    },
+    {
+      "path": ".github/workflows/download-models-for-tests.yml",
+      "size": 835
+    },
+    {
+      "path": ".github/workflows/ios-native-build.yml",
+      "size": 744
+    },
+    {
+      "path": ".github/workflows/linux-cuda-native-build.yml",
+      "size": 1925
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Whisper.net. Speech to text made simple using Whisper Models",
+    "fork": false,
+    "full_name": "sandrohanea/whisper.net",
+    "html_url": "https://github.com/sandrohanea/whisper.net",
+    "language": "C#",
+    "pushed_at": "2026-03-16T12:09:02Z",
+    "stargazers_count": 911,
+    "topics": [
+      "cross-platform",
+      "dotnet",
+      "dotnetcore",
+      "hacktoberfest",
+      "speech-recognition",
+      "speech-to-text",
+      "translation"
+    ],
+    "updated_at": "2026-04-29T19:10:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Android Native build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/android-native-build.yml",
+      "term": "Android Native build"
+    },
+    {
+      "context_snippet": "CI (Native + dotnet)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all.yml",
+      "term": "CI (Native + dotnet)"
+    },
+    {
+      "context_snippet": "Dotnet Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-github-actions.yml",
+      "term": "Dotnet Build and Test"
+    },
+    {
+      "context_snippet": "Collect data for ChatGPT assistant",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/collect-gpt-data.yml",
+      "term": "Collect data for ChatGPT assistant"
+    },
+    {
+      "context_snippet": "Dotnet Maui Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-maui.yml",
+      "term": "Dotnet Maui Build and Test"
+    },
+    {
+      "context_snippet": "Dotnet NoAvx Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet-noavx.yml",
+      "term": "Dotnet NoAvx Build and Test"
+    },
+    {
+      "context_snippet": "Dotnet Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dotnet.yml",
+      "term": "Dotnet Build and Test"
+    },
+    {
+      "context_snippet": "Download Models for tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/download-models-for-tests.yml",
+      "term": "Download Models for tests"
+    },
+    {
+      "context_snippet": "Apple iOS native build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ios-native-build.yml",
+      "term": "Apple iOS native build"
+    },
+    {
+      "context_snippet": "Linux Cuda Native build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-cuda-native-build.yml",
+      "term": "Linux Cuda Native build"
+    },
+    {
+      "context_snippet": "Android Native build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "Android Native build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnet"
+    },
+    {
+      "context_snippet": "Android Native build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dotnetcore"
+    },
+    {
+      "context_snippet": "Android Native build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Android Native build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "Android Native build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-text"
+    },
+    {
+      "context_snippet": "Android Native build",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "translation"
+    }
+  ]
+}

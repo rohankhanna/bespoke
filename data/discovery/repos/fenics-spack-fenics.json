@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spack-matrix.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spack-matrix.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spack-matrix.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spack-matrix.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spack-matrix.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spack-matrix.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spack-matrix.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spack-matrix.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spack-matrix.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spack-matrix.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "FEniCS/spack-fenics",
+      "target": "simonsapin/python-webencodings",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spack-matrix.yml",
+      "source_repo": "FEniCS/spack-fenics",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/spack-matrix.yml",
+      "source_repo": "FEniCS/spack-fenics",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:43:18.701859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3574
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 12054
+    },
+    {
+      "path": ".github/workflows/spack-matrix.yml",
+      "size": 11064
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Spack package repository overlay for FEniCS",
+    "fork": false,
+    "full_name": "FEniCS/spack-fenics",
+    "html_url": "https://github.com/FEniCS/spack-fenics",
+    "language": "Python",
+    "pushed_at": "2026-04-18T06:51:20Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-04-18T06:51:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "simonsapin/python-webencodings",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

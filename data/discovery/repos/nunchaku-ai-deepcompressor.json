@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nunchaku-ai/deepcompressor",
+      "target": "mit-han-lab/deepcompressor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nunchaku-ai/deepcompressor",
+      "target": "mit-han-lab/nunchaku",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nunchaku-ai/deepcompressor",
+      "target": "efficient-large-model/vila",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nunchaku-ai/deepcompressor",
+      "target": "mit-han-lab/distrifuser",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:50:07.671194+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18617
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1757
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Model Compression Toolbox for Large Language Models and Diffusion Models",
+    "fork": false,
+    "full_name": "nunchaku-ai/deepcompressor",
+    "html_url": "https://github.com/nunchaku-ai/deepcompressor",
+    "language": "Python",
+    "pushed_at": "2025-08-14T00:43:00Z",
+    "stargazers_count": 777,
+    "topics": [],
+    "updated_at": "2026-04-23T11:44:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "efficient-large-model/vila",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/deepcompressor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/distrifuser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mit-han-lab/nunchaku",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

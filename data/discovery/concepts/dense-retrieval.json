@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dense-retrieval"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/RocketQA",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 RocketQA, dense retrieval for information retrieval and question answering, including both Chinese and English state-of-the-art models. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/RocketQA",
+      "status": "candidate-context",
+      "text": "<p align=center> <img src=\"https://github.com/PaddlePaddle/RocketQA/blob/main/RocketQA_title.png\" /> </p>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/RocketQA",
+      "status": "candidate",
+      "text": "<p align=center> <img src=\"https://github.com/PaddlePaddle/RocketQA/blob/main/RocketQA_title.png\" /> </p>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dense-retrieval",
+  "concept_id": "dense-retrieval",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/RocketQA"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dense-retrieval",
+      "sense_id": "dense-retrieval#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -19,6 +19,18 @@
       "source_repo": "AnshulGora/portfolio_template_v1",
       "status": "candidate-context",
       "text": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "status": "candidate-context",
+      "text": "simple MainWindow class implementation with frameless window and custom dark style. It adds also support for titlebar and buttons (minimize, maximize, close)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "status": "candidate-context",
+      "text": "simple MainWindow class implementation with frameless window and custom dark style."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "AnshulGora/portfolio_template_v1",
       "status": "candidate",
       "text": "A sleek, dark-themed, high-performance portfolio template built with **React**. This template is designed for developers and designers who want a \"plug-and-play\" solution to showcase their work, skills, and testimonials."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "status": "candidate",
+      "text": "simple MainWindow class implementation with frameless window and custom dark style."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "AnshulGora/portfolio_template_v1"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

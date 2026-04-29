@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83e\udd17Transformers: State-of-the-art Natural Language Processing for Pytorch and TensorFlow 2.0."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Torch hub integration"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Torch hub integration"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17733,
+      "status": "candidate",
+      "text": "extinction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17733,
+      "status": "candidate",
+      "text": "focal point"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17733,
+      "status": "candidate",
+      "text": "focus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17733,
+      "status": "candidate",
+      "text": "penumbra"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17733,
+      "status": "candidate",
+      "text": "torii"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Torch hub integration",
+      "sense_id": "torch-hub-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "torch-hub-integration",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "torch-hub-integration",
+  "observation_id": "86cbc7f326de4bc0",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Torch hub integration",
+  "source_context_snippet": "Torch hub integration",
+  "source_file": ".github/workflows/github-torch-hub.yml",
+  "source_repo": "finetunej/transformers",
+  "source_repo_description": "\ud83e\udd17Transformers: State-of-the-art Natural Language Processing for Pytorch and TensorFlow 2.0."
+}

@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akanazawa/hmr",
+      "target": "cmu-perceptual-computing-lab/openpose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akanazawa/hmr",
+      "target": "mandymo/pytorch_hmr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akanazawa/hmr",
+      "target": "dene33/video_to_bvh",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akanazawa/hmr",
+      "target": "layumi/hmr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:42:17.243913+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3485
+    },
+    {
+      "path": "requirements.txt",
+      "size": 121
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Project page for End-to-end Recovery of Human Shape and Pose",
+    "fork": false,
+    "full_name": "akanazawa/hmr",
+    "html_url": "https://github.com/akanazawa/hmr",
+    "language": "Python",
+    "pushed_at": "2023-07-10T13:41:54Z",
+    "stargazers_count": 1655,
+    "topics": [],
+    "updated_at": "2026-04-23T10:12:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmu-perceptual-computing-lab/openpose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dene33/video_to_bvh",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layumi/hmr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mandymo/pytorch_hmr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

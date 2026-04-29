@@ -1,0 +1,277 @@
+{
+  "components": [
+    {
+      "component": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-issues-and-prs-to-fs-project-board.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pulse.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pulse.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pulse.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builtin-actor-tests.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builtin-actor-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/lotus",
+      "target": "filecoin-project/go-fil-markets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "filecoin-project/lotus",
+      "target": "filecoin-project/builtin-actors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-issues-and-prs-to-fs-project-board.yml",
+      "source_repo": "filecoin-project/lotus",
+      "target": "actions/add-to-project@244f685bbc3b7adfa8466e08b698b5577571133e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pulse.yml",
+      "source_repo": "filecoin-project/lotus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-pulse.yml",
+      "source_repo": "filecoin-project/lotus",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pulse.yml",
+      "source_repo": "filecoin-project/lotus",
+      "target": "BuildPulse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "filecoin-project/lotus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "filecoin-project/lotus",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builtin-actor-tests.yml",
+      "source_repo": "filecoin-project/lotus",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/builtin-actor-tests.yml",
+      "source_repo": "filecoin-project/lotus",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builtin-actor-tests.yml",
+      "source_repo": "filecoin-project/lotus",
+      "target": "Built-in Actors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "filecoin-project/lotus",
+      "target": "Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/lotus",
+      "target": "blockchain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/lotus",
+      "target": "filecoin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/lotus",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "filecoin-project/lotus",
+      "target": "ipfs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:55:54.472742+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6939
+    },
+    {
+      "path": "Dockerfile",
+      "size": 4707
+    },
+    {
+      "path": "go.mod",
+      "size": 17523
+    },
+    {
+      "path": ".github/workflows/AGENTS.md",
+      "size": 970
+    },
+    {
+      "path": ".github/workflows/CLAUDE.md",
+      "size": 970
+    },
+    {
+      "path": ".github/workflows/add-issues-and-prs-to-fs-project-board.yml",
+      "size": 1787
+    },
+    {
+      "path": ".github/workflows/build-pulse.yml",
+      "size": 3388
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 648
+    },
+    {
+      "path": ".github/workflows/builtin-actor-tests.yml",
+      "size": 398
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 1279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reference implementation of the Filecoin protocol, written in Go",
+    "fork": false,
+    "full_name": "filecoin-project/lotus",
+    "html_url": "https://github.com/filecoin-project/lotus",
+    "language": "Go",
+    "pushed_at": "2026-04-29T19:00:50Z",
+    "stargazers_count": 2992,
+    "topics": [
+      "blockchain",
+      "filecoin",
+      "golang",
+      "ipfs"
+    ],
+    "updated_at": "2026-04-29T13:28:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/builtin-actors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "filecoin-project/go-fil-markets",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "BuildPulse",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-pulse.yml",
+      "term": "BuildPulse"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Built-in Actors",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/builtin-actor-tests.yml",
+      "term": "Built-in Actors"
+    },
+    {
+      "context_snippet": "Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Changelog"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blockchain"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filecoin"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ipfs"
+    }
+  ]
+}

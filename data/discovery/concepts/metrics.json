@@ -274,6 +274,54 @@
       "source_repo": "alibaba/loongsuite-go-agent",
       "status": "candidate-context",
       "text": "![](docs/public/anim-logo.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/serve",
+      "status": "candidate-context",
+      "text": "Serve, optimize and scale PyTorch models in production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/serve",
+      "status": "candidate-context",
+      "text": "<font size=\"5\"> \u26a0\ufe0f Notice: Limited Maintenance </font>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "medama-io/medama",
+      "status": "candidate-context",
+      "text": "Self-hostable, privacy-focused website analytics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medama-io/medama",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "statsd/statsd",
+      "status": "candidate-context",
+      "text": "Daemon for easy but powerful stats aggregation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statsd/statsd",
+      "status": "candidate-context",
+      "text": "A network daemon that runs on the [Node.js][node] platform and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/node_exporter",
+      "status": "candidate-context",
+      "text": "Exporter for machine metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/node_exporter",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/prometheus/node_exporter/actions/workflows/ci.yml/badge.svg)](https://github.com/prometheus/node_exporter/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -408,6 +456,30 @@
       "source_repo": "alibaba/loongsuite-go-agent",
       "status": "candidate",
       "text": "![](docs/public/anim-logo.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/serve",
+      "status": "candidate",
+      "text": "<font size=\"5\"> \u26a0\ufe0f Notice: Limited Maintenance </font>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medama-io/medama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statsd/statsd",
+      "status": "candidate",
+      "text": "A network daemon that runs on the [Node.js][node] platform and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/node_exporter",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/prometheus/node_exporter/actions/workflows/ci.yml/badge.svg)](https://github.com/prometheus/node_exporter/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -613,11 +685,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pytorch/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "medama-io/medama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ocaml-tracing/ocaml-opentelemetry"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "prometheus/node_exporter"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

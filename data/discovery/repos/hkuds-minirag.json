@@ -1,0 +1,96 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUDS/MiniRAG",
+      "target": "hkuds/videorag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HKUDS/MiniRAG",
+      "target": "gusye1234/nano-graphrag",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUDS/MiniRAG",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HKUDS/MiniRAG",
+      "target": "retrieval-augmented-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:47:37.733994+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7951
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1210
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 607
+    },
+    {
+      "path": "requirements.txt",
+      "size": 350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ACL2026] \"MiniRAG: Making RAG Simpler with Small and Open-Sourced Language Models\"",
+    "fork": false,
+    "full_name": "HKUDS/MiniRAG",
+    "html_url": "https://github.com/HKUDS/MiniRAG",
+    "language": "Python",
+    "pushed_at": "2025-10-16T07:43:16Z",
+    "stargazers_count": 1868,
+    "topics": [
+      "large-language-models",
+      "rag",
+      "retrieval-augmented-generation"
+    ],
+    "updated_at": "2026-04-29T13:02:48Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gusye1234/nano-graphrag",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hkuds/videorag",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![MiniRAG](https://files.mdnice.com/user/87760/ff711e74-c382-4432-bec2-e6f2aa787df1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "![MiniRAG](https://files.mdnice.com/user/87760/ff711e74-c382-4432-bec2-e6f2aa787df1.jpg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "retrieval-augmented-generation"
+    }
+  ]
+}

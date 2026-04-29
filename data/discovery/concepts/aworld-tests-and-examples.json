@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "AWorld tests and examples"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "inclusionAI/AWorld",
+      "status": "candidate-context",
+      "text": "Search, understand, reproduce, and improve an idea with ease"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inclusionAI/AWorld",
+      "status": "candidate-context",
+      "text": "AWorld tests and examples"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "inclusionAI/AWorld",
+      "status": "candidate",
+      "text": "AWorld tests and examples"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11634,
+      "status": "candidate",
+      "text": "evidence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11551,
+      "status": "candidate",
+      "text": "experiences"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11551,
+      "status": "candidate",
+      "text": "those"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "analyses"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10592,
+      "status": "candidate",
+      "text": "analysis"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "AWorld tests and examples",
+  "concept_id": "aworld-tests-and-examples",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "inclusionAI/AWorld"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "AWorld tests and examples",
+      "sense_id": "aworld-tests-and-examples#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

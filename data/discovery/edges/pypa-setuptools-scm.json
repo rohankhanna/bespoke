@@ -53,7 +53,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/api-check.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -116,14 +116,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
+      "target": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
       "target_type": "component"
     },
     {
@@ -144,7 +144,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
       "target_type": "component"
     },
     {
@@ -193,7 +193,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/reusable-towncrier-release.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -232,6 +232,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "pypa/setuptools-scm"
 }

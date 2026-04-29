@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Bump CS Version in REPO"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "status": "candidate-context",
+      "text": "Additional Checkstyle checks, that could be added as extension to EclipseCS plugin and maven-checkstyle-plugin, Sonar checkstyle plugin, extension for CheckStyle IDEA plugin."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "status": "candidate-context",
+      "text": "\"Bump CS Version in REPO\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "status": "candidate",
+      "text": "\"Bump CS Version in REPO\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21666,
+      "status": "candidate",
+      "text": "bounce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21666,
+      "status": "candidate",
+      "text": "knock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21480,
+      "status": "candidate",
+      "text": "bag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21480,
+      "status": "candidate",
+      "text": "break"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21480,
+      "status": "candidate",
+      "text": "cadence"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Bump CS Version in REPO",
+  "concept_id": "bump-cs-version-in-repo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/bump-cs-version.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump CS Version in REPO",
+      "sense_id": "bump-cs-version-in-repo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

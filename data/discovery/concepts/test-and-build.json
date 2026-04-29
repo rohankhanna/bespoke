@@ -44,6 +44,18 @@
       "source_repo": "urschrei/polyline-ffi",
       "status": "candidate-context",
       "text": "Test and Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urschrei/rdp",
+      "status": "candidate-context",
+      "text": "A library providing FFI access to fast Ramer\u2013Douglas\u2013Peucker and Visvalingam-Whyatt line simplification algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/rdp",
+      "status": "candidate-context",
+      "text": "Test and Build"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +74,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "urschrei/polyline-ffi",
+      "status": "candidate",
+      "text": "Test and Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/rdp",
       "status": "candidate",
       "text": "Test and Build"
     }
@@ -160,11 +178,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "urschrei/polyline-ffi"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "urschrei/rdp"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

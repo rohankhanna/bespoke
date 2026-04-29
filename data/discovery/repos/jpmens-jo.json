@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpmens/jo",
+      "target": "dskkato/rjo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpmens/jo",
+      "target": "memoryhole/jjo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpmens/jo",
+      "target": "sayanarijit/jf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jpmens/jo",
+      "target": "itchyny/gojo",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:53:50.026949+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2900
+    },
+    {
+      "path": "Dockerfile",
+      "size": 250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "JSON output from a shell",
+    "fork": false,
+    "full_name": "jpmens/jo",
+    "html_url": "https://github.com/jpmens/jo",
+    "language": "C",
+    "pushed_at": "2025-06-20T09:47:47Z",
+    "stargazers_count": 4870,
+    "topics": [],
+    "updated_at": "2026-04-28T21:09:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dskkato/rjo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "itchyny/gojo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "memoryhole/jjo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sayanarijit/jf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

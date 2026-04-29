@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:39:42.263603+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5511
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "JupyterHub + Marimo = \u2764\ufe0f",
+    "fork": true,
+    "full_name": "b-data/jupyter-marimo-proxy",
+    "html_url": "https://github.com/b-data/jupyter-marimo-proxy",
+    "language": "Python",
+    "pushed_at": "2024-09-14T17:35:34Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-02-16T05:53:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

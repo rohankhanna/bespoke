@@ -153,6 +153,18 @@
       "source_repo": "docker/metadata-action",
       "status": "candidate-context",
       "text": "zizmor"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcampbell24/djot-implementations",
+      "status": "candidate-context",
+      "text": "Various Djot Implementations Benchmarked"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcampbell24/djot-implementations",
+      "status": "candidate-context",
+      "text": "zizmor"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +237,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "docker/metadata-action",
+      "status": "candidate",
+      "text": "zizmor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcampbell24/djot-implementations",
       "status": "candidate",
       "text": "zizmor"
     }
@@ -306,11 +324,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/zizmor.yml",
       "source_repo": "docker/metadata-action"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/zizmor.yml",
+      "source_repo": "dcampbell24/djot-implementations"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

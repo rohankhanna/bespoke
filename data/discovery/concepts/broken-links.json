@@ -1,7 +1,8 @@
 {
   "aliases": [
     "broken-links",
-    "Broken-Links"
+    "Broken-Links",
+    "Broken Links"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -34,6 +35,18 @@
       "source_repo": "badges/awesome-badges",
       "status": "candidate-context",
       "text": "Broken-Links"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/developer.konghq.com",
+      "status": "candidate-context",
+      "text": "\ud83e\udd8d Source code for developer.konghq.com website."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/developer.konghq.com",
+      "status": "candidate-context",
+      "text": "Broken Links"
     }
   ],
   "candidate_glosses": [
@@ -48,9 +61,51 @@
       "source_repo": "badges/awesome-badges",
       "status": "candidate",
       "text": "Broken-Links"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/developer.konghq.com",
+      "status": "candidate",
+      "text": "Broken Links"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36727,
+      "status": "candidate",
+      "text": "brokenness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36726,
+      "status": "candidate",
+      "text": "hyperlinks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36725,
+      "status": "candidate",
+      "text": "missing link"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36724,
+      "status": "candidate",
+      "text": "hyperlink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36723,
+      "status": "candidate",
+      "text": "broken down"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "broken-links",
   "concept_id": "broken-links",
@@ -67,11 +122,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/broken-links.yml",
       "source_repo": "badges/awesome-badges"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "Kong/developer.konghq.com"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

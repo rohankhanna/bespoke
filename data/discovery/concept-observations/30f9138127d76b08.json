@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Interactive Data Visualization in the browser, from  Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "BokehJS - Test Chromium"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "BokehJS - Test Chromium"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11454,
+      "status": "candidate",
+      "text": "elinvar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11403,
+      "status": "candidate",
+      "text": "uranium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11263,
+      "status": "candidate",
+      "text": "crib"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11212,
+      "status": "candidate",
+      "text": "steel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10498,
+      "status": "candidate",
+      "text": "alloy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "BokehJS - Test Chromium",
+      "sense_id": "bokehjs---test-chromium#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bokehjs---test-chromium",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bokehjs---test-chromium",
+  "observation_id": "30f9138127d76b08",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "BokehJS - Test Chromium",
+  "source_context_snippet": "BokehJS - Test Chromium",
+  "source_file": ".github/workflows/bokehjs-test-chromium.yml",
+  "source_repo": "bokeh/bokeh",
+  "source_repo_description": "Interactive Data Visualization in the browser, from  Python"
+}

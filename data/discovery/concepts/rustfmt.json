@@ -76,6 +76,30 @@
       "source_repo": "astrale-sharp/typstfmt",
       "status": "candidate-context",
       "text": "Rustfmt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sokra/triomphe",
+      "status": "candidate-context",
+      "text": "Fork of std::sync::Arc with lots of utilities useful for FFI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sokra/triomphe",
+      "status": "candidate-context",
+      "text": "Rustfmt"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate-context",
+      "text": "a Hassle-Free Python Experience"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/rye",
+      "status": "candidate-context",
+      "text": "Rustfmt"
     }
   ],
   "candidate_glosses": [
@@ -112,6 +136,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "astrale-sharp/typstfmt",
+      "status": "candidate",
+      "text": "Rustfmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sokra/triomphe",
+      "status": "candidate",
+      "text": "Rustfmt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "astral-sh/rye",
       "status": "candidate",
       "text": "Rustfmt"
     }
@@ -181,11 +217,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/rustfmt.yml",
       "source_repo": "geiger-rs/cargo-geiger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "sokra/triomphe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "astral-sh/rye"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rustfmt.yml",
+      "source_repo": "geiger-rs/cargo-geiger"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

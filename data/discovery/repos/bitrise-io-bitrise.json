@@ -1,0 +1,80 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitrise-io/bitrise",
+      "target": "bitrise-io/sample-apps-ios-with-bitrise-yml",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitrise-io/bitrise",
+      "target": "bitrise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitrise-io/bitrise",
+      "target": "production-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:52:21.849447+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3111
+    },
+    {
+      "path": "Dockerfile",
+      "size": 918
+    },
+    {
+      "path": "go.mod",
+      "size": 3697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Bitrise runner CLI - run your automations on your Mac or Linux machine -",
+    "fork": false,
+    "full_name": "bitrise-io/bitrise",
+    "html_url": "https://github.com/bitrise-io/bitrise",
+    "language": "Go",
+    "pushed_at": "2026-04-27T16:54:33Z",
+    "stargazers_count": 889,
+    "topics": [
+      "bitrise",
+      "cli",
+      "production-code"
+    ],
+    "updated_at": "2026-04-23T14:05:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitrise-io/sample-apps-ios-with-bitrise-yml",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bitrise CLI is the workflow runner that powers [Bitrise](https://bitrise.io/) builds. It's the component that runs inside build machines and execute steps defined in `bitrise.yml`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitrise"
+    },
+    {
+      "context_snippet": "Bitrise CLI is the workflow runner that powers [Bitrise](https://bitrise.io/) builds. It's the component that runs inside build machines and execute steps defined in `bitrise.yml`.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "production-code"
+    }
+  ]
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "flann-lib/flann",
+      "target": "mariusmuja/flann",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:47.288138+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1783
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast Library for Approximate Nearest Neighbors",
+    "fork": false,
+    "full_name": "flann-lib/flann",
+    "html_url": "https://github.com/flann-lib/flann",
+    "language": "C++",
+    "pushed_at": "2024-07-29T19:01:47Z",
+    "stargazers_count": 2370,
+    "topics": [],
+    "updated_at": "2026-04-21T09:19:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mariusmuja/flann",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

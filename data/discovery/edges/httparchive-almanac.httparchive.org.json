@@ -1,0 +1,251 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-release-notes.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "release-drafter/release-drafter@v7.1.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-release-notes.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "Add to Release Notes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-translations-lengths.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-translations-lengths.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "Check Translation Lengths",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-static-analysis.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-static-analysis.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-static-analysis.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-static-analysis.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-static-analysis.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "Static Code Analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compress-images.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compress-images.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "calibreapp/image-actions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compress-images.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compress-images.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "Compress Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "super-linter/super-linter/slim@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "dependabot/fetch-metadata@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "Lint Code Base",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintsql.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintsql.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lintsql.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "dependabot/fetch-metadata@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lintsql.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "Lint SQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/predeploy.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/predeploy.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/predeploy.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/predeploy.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/predeploy.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/predeploy.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "Predeploy script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/production-checks.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/production-checks.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "treosh/lighthouse-ci-action@12.6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/production-checks.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "Production Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/progress-tracker.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/progress-tracker.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "Progress Tracker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "bigquery",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "http-archive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "HTTPArchive/almanac.httparchive.org",
+      "target": "web-almanac",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "HTTPArchive/almanac.httparchive.org"
+}

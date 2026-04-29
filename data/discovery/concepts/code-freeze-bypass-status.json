@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Code Freeze Bypass Status"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "groq/groq-python",
+      "status": "candidate-context",
+      "text": "The official Python Library for the Groq API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "groq/groq-python",
+      "status": "candidate-context",
+      "text": "\"Code Freeze Bypass Status\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "groq/groq-python",
+      "status": "candidate",
+      "text": "\"Code Freeze Bypass Status\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29428,
+      "status": "candidate",
+      "text": "disregarded"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29428,
+      "status": "candidate",
+      "text": "disregarding"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29428,
+      "status": "candidate",
+      "text": "suspensation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29349,
+      "status": "candidate",
+      "text": "interlock"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29311,
+      "status": "candidate",
+      "text": "jump"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Code Freeze Bypass Status",
+  "concept_id": "code-freeze-bypass-status",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/code-freeze-bypass.yaml",
+      "source_repo": "groq/groq-python"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Code Freeze Bypass Status",
+      "sense_id": "code-freeze-bypass-status#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

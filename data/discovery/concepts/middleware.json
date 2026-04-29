@@ -139,6 +139,66 @@
       "source_repo": "expressjs/body-parser",
       "status": "candidate-context",
       "text": "[![NPM Version][npm-version-image]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sebelga/promised-hooks",
+      "status": "candidate-context",
+      "text": "Middleware utility for your Promises"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebelga/promised-hooks",
+      "status": "candidate-context",
+      "text": "[![NPM Version][npm-image]][npm-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "middyjs/middy",
+      "status": "candidate-context",
+      "text": "\ud83d\udef5 The stylish Node.js middleware engine for AWS Lambda \ud83d\udef5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "middyjs/middy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tower-rs/tower",
+      "status": "candidate-context",
+      "text": "async fn(Request) -> Result<Response, Error>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tower-rs/tower",
+      "status": "candidate-context",
+      "text": "Tower is a library of modular and reusable components for building robust"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate-context",
+      "text": "Plugin-driven, extensible HTTP client toolkit for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate-context",
+      "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "justinas/alice",
+      "status": "candidate-context",
+      "text": "Painless middleware chaining for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinas/alice",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](http://godoc.org/github.com/justinas/alice)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +267,36 @@
       "source_repo": "expressjs/body-parser",
       "status": "candidate",
       "text": "[![NPM Version][npm-version-image]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sebelga/promised-hooks",
+      "status": "candidate",
+      "text": "[![NPM Version][npm-image]][npm-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "middyjs/middy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tower-rs/tower",
+      "status": "candidate",
+      "text": "Tower is a library of modular and reusable components for building robust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate",
+      "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "justinas/alice",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/golang/gddo?status.svg)](http://godoc.org/github.com/justinas/alice)"
     }
   ],
   "candidate_related_terms": [
@@ -328,11 +418,59 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-actix-casbin-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-axum-casbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sebelga/promised-hooks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "middyjs/middy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tower-rs/tower"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "h2non/gentleman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "justinas/alice"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

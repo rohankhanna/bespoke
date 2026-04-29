@@ -127,6 +127,48 @@
       "source_repo": "capaj/vscode-standardjs-snippets",
       "status": "candidate-context",
       "text": "Optinionated set of JS snippets. Originally forked from https://github.com/gaboesquivel/atom-standardjs-snippets, but we've added couple more. Also these are not using special characters because vscode doesn't accept them in the snippets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate-context",
+      "text": "Customizable JavaScript and React/Redux snippets for VS Code, with first-class support for ES7+ syntax, React 17\u201319, React Router v6, Redux Toolkit, and TypeScript."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/deoppet.nvim",
+      "status": "candidate-context",
+      "text": "The dark powered snippet plugin for neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/deoppet.nvim",
+      "status": "candidate-context",
+      "text": "**Note**: Active developement on denippet.nvim has stopped. The only future"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Shougo/neosnippet-snippets",
+      "status": "candidate-context",
+      "text": "The standard snippets repository for neosnippet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/neosnippet-snippets",
+      "status": "candidate-context",
+      "text": "The standard snippets repository for neosnippet"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "standard/atom-standardjs-snippets",
+      "status": "candidate-context",
+      "text": ":zap: A collection of JavaScript snippets for Atom, Standard Style"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/atom-standardjs-snippets",
+      "status": "candidate-context",
+      "text": "A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/)."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +231,30 @@
       "source_repo": "capaj/vscode-standardjs-snippets",
       "status": "candidate",
       "text": "Optinionated set of JS snippets. Originally forked from https://github.com/gaboesquivel/atom-standardjs-snippets, but we've added couple more. Also these are not using special characters because vscode doesn't accept them in the snippets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "status": "candidate",
+      "text": "Customizable JavaScript and React/Redux snippets for VS Code, with first-class support for ES7+ syntax, React 17\u201319, React Router v6, Redux Toolkit, and TypeScript."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/deoppet.nvim",
+      "status": "candidate",
+      "text": "**Note**: Active developement on denippet.nvim has stopped. The only future"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Shougo/neosnippet-snippets",
+      "status": "candidate",
+      "text": "The standard snippets repository for neosnippet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "standard/atom-standardjs-snippets",
+      "status": "candidate",
+      "text": "A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/)."
     }
   ],
   "candidate_related_terms": [
@@ -292,11 +358,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "capaj/vscode-standardjs-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/deoppet.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Shougo/neosnippet-snippets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "standard/atom-standardjs-snippets"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

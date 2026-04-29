@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vlaaad/reveal",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vlaaad/reveal",
+      "target": "repl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vlaaad/reveal",
+      "target": "tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vlaaad/reveal",
+      "target": "visualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:58:48.729350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Read Eval Visualize Loop for Clojure",
+    "fork": false,
+    "full_name": "vlaaad/reveal",
+    "html_url": "https://github.com/vlaaad/reveal",
+    "language": "Clojure",
+    "pushed_at": "2026-03-03T21:31:11Z",
+    "stargazers_count": 629,
+    "topics": [
+      "clojure",
+      "repl",
+      "tool",
+      "visualization"
+    ],
+    "updated_at": "2026-03-25T12:14:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "![demo](https://vlaaad.github.io/assets/reveal/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "![demo](https://vlaaad.github.io/assets/reveal/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    },
+    {
+      "context_snippet": "![demo](https://vlaaad.github.io/assets/reveal/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    },
+    {
+      "context_snippet": "![demo](https://vlaaad.github.io/assets/reveal/demo.gif)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualization"
+    }
+  ]
+}

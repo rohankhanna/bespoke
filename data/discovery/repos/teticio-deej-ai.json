@@ -2,13 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "teticio/Deej-AI",
-      "target": "teticio/deej-ai.online-app",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "teticio/Deej-AI",
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T02:01:40.043797+00:00",
+  "fetched_at": "2026-04-29T20:43:36.930480+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -72,7 +65,7 @@
     "html_url": "https://github.com/teticio/Deej-AI",
     "language": "Jupyter Notebook",
     "pushed_at": "2025-09-18T13:24:35Z",
-    "stargazers_count": 463,
+    "stargazers_count": 464,
     "topics": [
       "deep-neural-networks",
       "genius",
@@ -82,15 +75,9 @@
       "playlists",
       "spotify"
     ],
-    "updated_at": "2026-04-21T14:30:58Z"
+    "updated_at": "2026-04-29T17:04:15Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "teticio/deej-ai.online-app",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "![](MBIT_logo.png)",

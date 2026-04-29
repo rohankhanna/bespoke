@@ -1,0 +1,649 @@
+{
+  "components": [
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "scacap/action-surefire-report@v1.10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "scacap/action-surefire-report@v1.10.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "microsoft/setup-msbuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-chocolatey@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-chocolatey@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-chocolatey@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "docker/metadata-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duck.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duck.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duck.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duck.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/transifex.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/transifex.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "iterate-ch/docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "iterate-ch/profiles",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "microsoft/setup-msbuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "scacap/action-surefire-report@v1.10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "scacap/action-surefire-report@v1.10.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "microsoft/setup-msbuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "crazy-max/ghaction-chocolatey@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "Publish Artifacts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duck.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "docker/metadata-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duck.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duck.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duck.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/duck.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duck.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "Create duck image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/transifex.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/transifex.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "peter-evans/create-pull-request@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/transifex.yml",
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "Transifex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "backblaze-b2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "cloudfront",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "cryptomator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "cyberduck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "dracoon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "dropbox",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "google-drive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "google-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "hubic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "irods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "onedrive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "onedrive-for-business",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "onedrive-storage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "openstack-swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "sftp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "sharepoint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "iterate-ch/cyberduck",
+      "target": "webdav",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:59:09.958279+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9843
+    },
+    {
+      "path": "Dockerfile",
+      "size": 133
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1686
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 862
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 1903
+    },
+    {
+      "path": ".github/workflows/duck.yml",
+      "size": 2526
+    },
+    {
+      "path": ".github/workflows/transifex.yml",
+      "size": 1076
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Cyberduck is a libre FTP, SFTP, WebDAV, Amazon S3, Backblaze B2, Microsoft Azure & OneDrive and OpenStack Swift file transfer client for Mac and Windows.",
+    "fork": false,
+    "full_name": "iterate-ch/cyberduck",
+    "html_url": "https://github.com/iterate-ch/cyberduck",
+    "language": "Java",
+    "pushed_at": "2026-04-29T11:23:16Z",
+    "stargazers_count": 4438,
+    "topics": [
+      "azure",
+      "backblaze-b2",
+      "cloudfront",
+      "cryptomator",
+      "cyberduck",
+      "dracoon",
+      "dropbox",
+      "ftp",
+      "google-drive",
+      "google-storage",
+      "hubic",
+      "irods",
+      "onedrive",
+      "onedrive-for-business",
+      "onedrive-storage",
+      "openstack-swift",
+      "s3",
+      "sftp",
+      "sharepoint",
+      "webdav"
+    ],
+    "updated_at": "2026-04-29T17:46:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iterate-ch/docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "iterate-ch/profiles",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Unit Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Unit Tests"
+    },
+    {
+      "context_snippet": "Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Integration Tests"
+    },
+    {
+      "context_snippet": "Publish Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Publish Artifacts"
+    },
+    {
+      "context_snippet": "Create duck image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/duck.yml",
+      "term": "Create duck image"
+    },
+    {
+      "context_snippet": "Transifex",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/transifex.yml",
+      "term": "Transifex"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "backblaze-b2"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloudfront"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptomator"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cyberduck"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dracoon"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dropbox"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-drive"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-storage"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hubic"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "irods"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onedrive"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onedrive-for-business"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onedrive-storage"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openstack-swift"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sftp"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sharepoint"
+    },
+    {
+      "context_snippet": "[![GitHub commit](https://img.shields.io/github/last-commit/iterate-ch/cyberduck)](https://github.com/iterate-ch/cyberduck/commits/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webdav"
+    }
+  ]
+}

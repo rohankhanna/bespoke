@@ -103,6 +103,30 @@
       "source_repo": "seasonjs/rwkv",
       "status": "candidate-context",
       "text": "pure go for rwkv and support cross-platform."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "status": "candidate-context",
+      "text": "A relatively basic implementation of RWKV in Rust written by someone with very little math and ML knowledge. Supports 32, 8 and 4 bit evaluation. It can also directly load PyTorch RWKV models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "status": "candidate-context",
+      "text": "An example of the RWKV approach to language models written in Rust by someone that"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donomii/go-rwkv.cpp",
+      "status": "candidate-context",
+      "text": "A go wrapper around the rwkv.cpp library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donomii/go-rwkv.cpp",
+      "status": "candidate-context",
+      "text": "gowrkv.go is a wrapper around [rwkv-cpp](https://github.com/saharNooby/rwkv.cpp), which is an adaption of ggml.cpp."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +177,18 @@
       "source_repo": "seasonjs/rwkv",
       "status": "candidate",
       "text": "pure go for rwkv and support cross-platform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "status": "candidate",
+      "text": "An example of the RWKV approach to language models written in Rust by someone that"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donomii/go-rwkv.cpp",
+      "status": "candidate",
+      "text": "gowrkv.go is a wrapper around [rwkv-cpp](https://github.com/saharNooby/rwkv.cpp), which is an adaption of ggml.cpp."
     }
   ],
   "candidate_related_terms": [],
@@ -238,11 +274,41 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "seasonjs/rwkv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Ai00-X/ai00_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "wenda-LLM/wenda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "RWKV/rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "KerfuffleV2/smolrsrwkv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "donomii/go-rwkv.cpp"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

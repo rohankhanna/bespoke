@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrispyConductor/tmux-copy-toolkit",
+      "target": "schasse/tmux-jump",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrispyConductor/tmux-copy-toolkit",
+      "target": "morantron/tmux-fingers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CrispyConductor/tmux-copy-toolkit",
+      "target": "tmux-plugins/tmux-open",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "CrispyConductor/tmux-copy-toolkit"
+}

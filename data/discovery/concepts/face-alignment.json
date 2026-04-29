@@ -19,6 +19,42 @@
       "source_repo": "deepinsight/insightface",
       "status": "candidate-context",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25\ud83d\udd25High-Performance Face Recognition Library on PaddlePaddle & PyTorch\ud83d\udd25\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate-context",
+      "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1adrianb/face-alignment",
+      "status": "candidate-context",
+      "text": ":fire: 2D and 3D Face alignment library build using pytorch "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1adrianb/face-alignment",
+      "status": "candidate-context",
+      "text": "Detect facial landmarks from Python using the world's most accurate face alignment network, capable of detecting points in both 2D and 3D coordinates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleardusk/3DDFA_V2",
+      "status": "candidate-context",
+      "text": "The official PyTorch implementation of Towards Fast, Accurate and Stable 3D Dense Face Alignment, ECCV 2020."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA_V2",
+      "status": "candidate-context",
+      "text": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "deepinsight/insightface",
       "status": "candidate",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate",
+      "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1adrianb/face-alignment",
+      "status": "candidate",
+      "text": "Detect facial landmarks from Python using the world's most accurate face alignment network, capable of detecting points in both 2D and 3D coordinates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA_V2",
+      "status": "candidate",
+      "text": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "deepinsight/insightface"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "1adrianb/face-alignment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

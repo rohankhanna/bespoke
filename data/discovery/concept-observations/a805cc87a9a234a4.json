@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "IntelliJ plugin - use Eclipse's code formatter directly from IntelliJ. https://plugins.jetbrains.com/plugin/6546"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "IntelliJ plugin - use Eclipse's code formatter directly from IntelliJ. https://plugins.jetbrains.com/plugin/6546"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "IntelliJ plugin - use Eclipse's code formatter directly from IntelliJ. https://plugins.jetbrains.com/plugin/6546"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "intellij-plugin",
+      "sense_id": "intellij-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "intellij-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "intellij-plugin",
+  "observation_id": "a805cc87a9a234a4",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "intellij-plugin",
+  "source_context_snippet": "IntelliJ plugin - use Eclipse's code formatter directly from IntelliJ. https://plugins.jetbrains.com/plugin/6546",
+  "source_file": null,
+  "source_repo": "krasa/EclipseCodeFormatter",
+  "source_repo_description": "IntelliJ plugin - use Eclipse's code formatter directly from IntelliJ. https://plugins.jetbrains.com/plugin/6546"
+}

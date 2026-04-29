@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Stale Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/blackbox_exporter",
+      "status": "candidate-context",
+      "text": "Blackbox prober exporter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/blackbox_exporter",
+      "status": "candidate-context",
+      "text": "Stale Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/blackbox_exporter",
+      "status": "candidate",
+      "text": "Stale Check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37258,
+      "status": "candidate",
+      "text": "checks"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37257,
+      "status": "candidate",
+      "text": "certified check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37256,
+      "status": "candidate",
+      "text": "blank check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37255,
+      "status": "candidate",
+      "text": "staleness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37254,
+      "status": "candidate",
+      "text": "in check"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Stale Check",
+  "concept_id": "stale-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "prometheus/blackbox_exporter"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Stale Check",
+      "sense_id": "stale-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

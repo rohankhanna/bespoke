@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:48:50.432826+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A fork of Bill Lash's Hugo port, originally hosted at https://bitbucket.org/0branch/hugo-unix. Further info and downloads: http://www.generalcoffee.com/hugo/gethugo.html.",
+    "fork": false,
+    "full_name": "hugoif/hugo-unix",
+    "html_url": "https://github.com/hugoif/hugo-unix",
+    "language": "C",
+    "pushed_at": "2024-07-04T21:43:13Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-08-08T13:10:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

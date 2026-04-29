@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robertgzr/homebrew-tap",
+      "target": "formulae",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robertgzr/homebrew-tap",
+      "target": "homebrew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robertgzr/homebrew-tap",
+      "target": "homebrew-tap",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "robertgzr/homebrew-tap",
+      "target": "iosevka",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:48:43.970132+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 976
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "useful formulae",
+    "fork": false,
+    "full_name": "robertgzr/homebrew-tap",
+    "html_url": "https://github.com/robertgzr/homebrew-tap",
+    "language": "Ruby",
+    "pushed_at": "2023-12-16T21:28:40Z",
+    "stargazers_count": 22,
+    "topics": [
+      "formulae",
+      "homebrew",
+      "homebrew-tap",
+      "iosevka"
+    ],
+    "updated_at": "2026-03-23T10:42:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "https://github.com/Homebrew/brew/blob/master/docs/Taps.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formulae"
+    },
+    {
+      "context_snippet": "https://github.com/Homebrew/brew/blob/master/docs/Taps.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebrew"
+    },
+    {
+      "context_snippet": "https://github.com/Homebrew/brew/blob/master/docs/Taps.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "homebrew-tap"
+    },
+    {
+      "context_snippet": "https://github.com/Homebrew/brew/blob/master/docs/Taps.md",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iosevka"
+    }
+  ]
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The next generation of tooling for Spring Boot, including support for Cloud Foundry manifest files, Concourse CI pipeline definitions, BOSH deployment manifests, and more... - Available for Visual Studio Code, Cursor, Eclipse, and Theia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Aggregate LS Extensions Update Sites"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Aggregate LS Extensions Update Sites"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27004,
+      "status": "candidate",
+      "text": "extension"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26924,
+      "status": "candidate",
+      "text": "dilatation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26924,
+      "status": "candidate",
+      "text": "over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26866,
+      "status": "candidate",
+      "text": "anywhere"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26808,
+      "status": "candidate",
+      "text": "everything"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Aggregate LS Extensions Update Sites",
+      "sense_id": "aggregate-ls-extensions-update-sites#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "aggregate-ls-extensions-update-sites",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "aggregate-ls-extensions-update-sites",
+  "observation_id": "2d9b3b4caeff4ab7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Aggregate LS Extensions Update Sites",
+  "source_context_snippet": "Aggregate LS Extensions Update Sites",
+  "source_file": ".github/workflows/aggregate-ls-extensions-update-site.yml",
+  "source_repo": "spring-projects/spring-tools",
+  "source_repo_description": "The next generation of tooling for Spring Boot, including support for Cloud Foundry manifest files, Concourse CI pipeline definitions, BOSH deployment manifests, and more... - Available for Visual Studio Code, Cursor, Eclipse, and Theia"
+}

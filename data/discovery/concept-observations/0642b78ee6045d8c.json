@@ -77,7 +77,7 @@
   "normalized_form": "pmd",
   "observation_id": "0642b78ee6045d8c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "PMD",
   "source_context_snippet": "PMD",
   "source_file": ".github/workflows/check-pmd.yml",

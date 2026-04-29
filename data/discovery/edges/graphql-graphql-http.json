@@ -4,28 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "graphql/graphql-http",
-      "target": "enisdenjo/graphql-ws",
+      "target": "tc39/proposal-observable",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "graphql/graphql-http",
-      "target": "enisdenjo/graphql-sse",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "graphql/graphql-http",
-      "target": "graphile/crystal",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "graphql/graphql-http",
-      "target": "graphprotocol/graph-client",
+      "target": "jaydenseric/graphql-upload",
       "target_type": "repository"
     },
     {
@@ -561,6 +547,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "graphql/graphql-http"
 }

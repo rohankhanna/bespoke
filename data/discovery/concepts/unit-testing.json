@@ -131,6 +131,18 @@
       "source_repo": "jimporter/mettle",
       "status": "candidate-context",
       "text": "[![Latest release][release-image]][release-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ThrowTheSwitch/Unity",
+      "status": "candidate-context",
+      "text": "Simple unit testing for C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThrowTheSwitch/Unity",
+      "status": "candidate-context",
+      "text": "__Copyright (c) 2007 - 2026 Unity Project by Mike Karlesky, Mark VanderVoord, and Greg Williams__"
     }
   ],
   "candidate_glosses": [
@@ -193,6 +205,12 @@
       "source_repo": "jimporter/mettle",
       "status": "candidate",
       "text": "[![Latest release][release-image]][release-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ThrowTheSwitch/Unity",
+      "status": "candidate",
+      "text": "__Copyright (c) 2007 - 2026 Unity Project by Mike Karlesky, Mark VanderVoord, and Greg Williams__"
     }
   ],
   "candidate_related_terms": [
@@ -355,11 +373,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "jimporter/mettle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/coverage_check.yml",
+      "source_repo": "run-llama/llama_index"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/_test.yml",
+      "source_repo": "langchain-ai/langchain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ThrowTheSwitch/Unity"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

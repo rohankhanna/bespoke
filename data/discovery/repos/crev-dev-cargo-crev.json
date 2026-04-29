@@ -51,16 +51,6 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "actions/checkout@v4",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
-      "component": "actions-rs/toolchain@v1",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yml"
-    },
-    {
       "component": "actions/create-release@v1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/release.yml"
@@ -82,13 +72,6 @@
     }
   ],
   "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "crev-dev/cargo-crev",
-      "target": "crev-dev/crev",
-      "target_type": "repository"
-    },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci-nix.yml",
@@ -216,7 +199,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T22:01:59.461364+00:00",
+  "fetched_at": "2026-04-29T20:58:48.409520+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -228,11 +211,11 @@
     },
     {
       "path": ".github/workflows/ci-nix.yml",
-      "size": 1830
+      "size": 1960
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 4800
+      "size": 4362
     },
     {
       "path": ".github/workflows/release.yml",
@@ -248,8 +231,8 @@
     "full_name": "crev-dev/cargo-crev",
     "html_url": "https://github.com/crev-dev/cargo-crev",
     "language": "Rust",
-    "pushed_at": "2026-04-16T03:46:20Z",
-    "stargazers_count": 2297,
+    "pushed_at": "2026-04-24T23:01:20Z",
+    "stargazers_count": 2298,
     "topics": [
       "code",
       "code-review",
@@ -260,15 +243,9 @@
       "security",
       "trust"
     ],
-    "updated_at": "2026-04-22T20:01:00Z"
+    "updated_at": "2026-04-29T14:10:18Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "crev-dev/crev",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "\"CI (nix)\"",

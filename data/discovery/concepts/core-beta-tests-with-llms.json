@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Core Beta tests with LLMs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ag2ai/ag2",
+      "status": "candidate-context",
+      "text": "AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ag2ai/ag2",
+      "status": "candidate-context",
+      "text": "Core Beta tests with LLMs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ag2ai/ag2",
+      "status": "candidate",
+      "text": "Core Beta tests with LLMs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25996,
+      "status": "candidate",
+      "text": "beta test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16855,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16740,
+      "status": "candidate",
+      "text": "testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16740,
+      "status": "candidate",
+      "text": "trial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16708,
+      "status": "candidate",
+      "text": "tested"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Core Beta tests with LLMs",
+  "concept_id": "core-beta-tests-with-llms",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/beta-llm-test.yml",
+      "source_repo": "ag2ai/ag2"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Core Beta tests with LLMs",
+      "sense_id": "core-beta-tests-with-llms#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

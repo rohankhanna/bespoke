@@ -1,0 +1,737 @@
+{
+  "components": [
+    {
+      "component": "audit-ci",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "is-ci",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "lefthook",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxfmt",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "oxlint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "rimraf",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-refresh.yml"
+    },
+    {
+      "component": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-refresh.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-refresh.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-chrome.yml"
+    },
+    {
+      "component": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-chrome.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-chrome.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@38ec876110f9fbf8b950c79f534430740c3ac009",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-chrome.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-pr.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@38ec876110f9fbf8b950c79f534430740c3ac009",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-pr.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@38ec876110f9fbf8b950c79f534430740c3ac009",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/db-backup.yml"
+    },
+    {
+      "component": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/db-backup.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/db-backup.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingest-results.yml"
+    },
+    {
+      "component": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingest-results.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingest-results.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingest-results.yml"
+    },
+    {
+      "component": "slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingest-results.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml"
+    },
+    {
+      "component": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml"
+    },
+    {
+      "component": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml"
+    },
+    {
+      "component": "browser-actions/setup-firefox@fcf821c621167805dd63a29662bd7cb5676c81a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml"
+    },
+    {
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml"
+    },
+    {
+      "component": "cypress-io/github-action@783cb3f07983868532cabaedaa1e6c00ff4786a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "semianalysisai/inferencemax-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "audit-ci",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "is-ci",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "lefthook",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "oxfmt",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "oxlint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "rimraf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-refresh.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-refresh.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache-refresh.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-refresh.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "Cache Refresh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-chrome.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-chrome.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-chrome.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-chrome.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "anthropics/claude-code-action@38ec876110f9fbf8b950c79f534430740c3ac009",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-chrome.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-pr.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-pr.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "anthropics/claude-code-action@38ec876110f9fbf8b950c79f534430740c3ac009",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-pr.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "anthropics/claude-code-action@38ec876110f9fbf8b950c79f534430740c3ac009",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/db-backup.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/db-backup.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/db-backup.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/db-backup.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "Database Dump",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingest-results.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingest-results.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingest-results.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ingest-results.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "slackapi/slack-github-action@af78098f536edbc4de71162a307590698245be95",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ingest-results.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "Ingest Benchmark Results",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "Lint & Format",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "pnpm/action-setup@078e9d416474b29c0c387560859308974f7e9c53",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "browser-actions/setup-firefox@fcf821c621167805dd63a29662bd7cb5676c81a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "cypress-io/github-action@783cb3f07983868532cabaedaa1e6c00ff4786a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-e2e.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "Tests (E2E)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "benchmarking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "nvidia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "reactjs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SemiAnalysisAI/InferenceX-app",
+      "target": "rocm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:52:06.752430+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6535
+    },
+    {
+      "path": "package.json",
+      "size": 2261
+    },
+    {
+      "path": ".github/workflows/cache-refresh.yml",
+      "size": 922
+    },
+    {
+      "path": ".github/workflows/claude-chrome.yml",
+      "size": 22776
+    },
+    {
+      "path": ".github/workflows/claude-pr.yml",
+      "size": 8100
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 21302
+    },
+    {
+      "path": ".github/workflows/db-backup.yml",
+      "size": 1422
+    },
+    {
+      "path": ".github/workflows/ingest-results.yml",
+      "size": 5873
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 816
+    },
+    {
+      "path": ".github/workflows/tests-e2e.yml",
+      "size": 3109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dashboard for InferenceX\u2122, Open Source Continuous Inference",
+    "fork": false,
+    "full_name": "SemiAnalysisAI/InferenceX-app",
+    "html_url": "https://github.com/SemiAnalysisAI/InferenceX-app",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-29T20:05:16Z",
+    "stargazers_count": 24,
+    "topics": [
+      "agi",
+      "amd",
+      "benchmarking",
+      "cuda",
+      "deepseek",
+      "llm",
+      "nvidia",
+      "reactjs",
+      "rocm"
+    ],
+    "updated_at": "2026-04-29T20:05:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "semianalysisai/inferencemax-app",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cache Refresh",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache-refresh.yml",
+      "term": "Cache Refresh"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-chrome.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "PR Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-pr.yml",
+      "term": "PR Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Database Dump",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/db-backup.yml",
+      "term": "Database Dump"
+    },
+    {
+      "context_snippet": "Ingest Benchmark Results",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ingest-results.yml",
+      "term": "Ingest Benchmark Results"
+    },
+    {
+      "context_snippet": "'Lint & Format'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint & Format"
+    },
+    {
+      "context_snippet": "'Tests (E2E)'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests-e2e.yml",
+      "term": "Tests (E2E)"
+    },
+    {
+      "context_snippet": "A [Next.js](https://nextjs.org) dashboard for visualizing ML inference benchmark data. DB-backed with Neon PostgreSQL, React Query for data fetching, D3.js for interactive charts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmarking"
+    },
+    {
+      "context_snippet": "A [Next.js](https://nextjs.org) dashboard for visualizing ML inference benchmark data. DB-backed with Neon PostgreSQL, React Query for data fetching, D3.js for interactive charts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "A [Next.js](https://nextjs.org) dashboard for visualizing ML inference benchmark data. DB-backed with Neon PostgreSQL, React Query for data fetching, D3.js for interactive charts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek"
+    },
+    {
+      "context_snippet": "A [Next.js](https://nextjs.org) dashboard for visualizing ML inference benchmark data. DB-backed with Neon PostgreSQL, React Query for data fetching, D3.js for interactive charts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvidia"
+    },
+    {
+      "context_snippet": "A [Next.js](https://nextjs.org) dashboard for visualizing ML inference benchmark data. DB-backed with Neon PostgreSQL, React Query for data fetching, D3.js for interactive charts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reactjs"
+    },
+    {
+      "context_snippet": "A [Next.js](https://nextjs.org) dashboard for visualizing ML inference benchmark data. DB-backed with Neon PostgreSQL, React Query for data fetching, D3.js for interactive charts.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rocm"
+    }
+  ]
+}

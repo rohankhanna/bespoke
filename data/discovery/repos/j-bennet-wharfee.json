@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "j-bennet/wharfee",
+      "target": "docker/docker-py",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:59:43.424813+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2624
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A CLI with autocompletion and syntax highlighting for Docker commands.",
+    "fork": false,
+    "full_name": "j-bennet/wharfee",
+    "html_url": "https://github.com/j-bennet/wharfee",
+    "language": "Python",
+    "pushed_at": "2026-02-22T02:58:29Z",
+    "stargazers_count": 660,
+    "topics": [],
+    "updated_at": "2026-04-07T13:56:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "docker/docker-py",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Marwes/pretty.rs",
+      "target": "kfl/wpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Marwes/pretty.rs",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Marwes/pretty.rs",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Marwes/pretty.rs",
+      "target": "pretty-printer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Marwes/pretty.rs",
+      "target": "rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:01:02.126996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1614
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1065
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 404
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Wadler-style pretty-printing combinators in Rust",
+    "fork": false,
+    "full_name": "Marwes/pretty.rs",
+    "html_url": "https://github.com/Marwes/pretty.rs",
+    "language": "Rust",
+    "pushed_at": "2025-09-26T10:23:32Z",
+    "stargazers_count": 177,
+    "topics": [
+      "pretty-printer",
+      "rust"
+    ],
+    "updated_at": "2026-02-20T16:43:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kfl/wpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/Marwes/pretty.rs/actions/workflows/build.yml/badge.svg)](https://github.com/Marwes/pretty.rs/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretty-printer"
+    },
+    {
+      "context_snippet": "[![build](https://github.com/Marwes/pretty.rs/actions/workflows/build.yml/badge.svg)](https://github.com/Marwes/pretty.rs/actions/workflows/build.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    }
+  ]
+}

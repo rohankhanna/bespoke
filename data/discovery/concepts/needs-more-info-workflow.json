@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Needs More Info Workflow"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "abhiTronix/vidgear",
+      "status": "candidate-context",
+      "text": "A High-performance cross-platform Video Processing Python framework powerpacked with unique trailblazing features :fire:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhiTronix/vidgear",
+      "status": "candidate-context",
+      "text": "Needs More Info Workflow"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "abhiTronix/vidgear",
+      "status": "candidate",
+      "text": "Needs More Info Workflow"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35434,
+      "status": "candidate",
+      "text": "details"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35047,
+      "status": "candidate",
+      "text": "alcohol"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34507,
+      "status": "candidate",
+      "text": "batch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33648,
+      "status": "candidate",
+      "text": "must"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33648,
+      "status": "candidate",
+      "text": "shall"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Needs More Info Workflow",
+  "concept_id": "needs-more-info-workflow",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/need_info.yml",
+      "source_repo": "abhiTronix/vidgear"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Needs More Info Workflow",
+      "sense_id": "needs-more-info-workflow#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

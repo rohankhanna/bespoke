@@ -69,6 +69,30 @@
       "source_repo": "PrimeIntellect-ai/router",
       "status": "candidate-context",
       "text": "Build and Push Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "status": "candidate-context",
+      "text": "llama.cpp fork with additional SOTA quants and improved performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "status": "candidate-context",
+      "text": "Build and Push Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbeaver/cloudbeaver",
+      "status": "candidate-context",
+      "text": "Cloud Database Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/cloudbeaver",
+      "status": "candidate-context",
+      "text": "Build and Push Docker Image"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +123,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "PrimeIntellect-ai/router",
+      "status": "candidate",
+      "text": "Build and Push Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ikawrakow/ik_llama.cpp",
+      "status": "candidate",
+      "text": "Build and Push Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/cloudbeaver",
       "status": "candidate",
       "text": "Build and Push Docker Image"
     }
@@ -180,11 +216,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/build-push-image.yml",
       "source_repo": "PrimeIntellect-ai/router"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build-container.yml",
+      "source_repo": "ikawrakow/ik_llama.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docker-build-and-push.yml",
+      "source_repo": "dbeaver/cloudbeaver"
     }
   ],
   "first_seen_at": "2026-04-18T12:06:06.216548+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

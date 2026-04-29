@@ -1,0 +1,583 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RollPyTorch.yml"
+    },
+    {
+      "component": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RollPyTorch.yml"
+    },
+    {
+      "component": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RollPyTorch.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RollPyTorch.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazelBuildAndTest.yml"
+    },
+    {
+      "component": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazelBuildAndTest.yml"
+    },
+    {
+      "component": "dawidd6/action-send-mail@afe978662944c6805dd197bac88b27acb0bda55a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazelBuildAndTest.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "dwenegar/upload-release-assets@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "eregon/publish-release@01df127f5e9a3c26935118e22e738d95b59d10ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "dwenegar/upload-release-assets@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "eregon/publish-release@01df127f5e9a3c26935118e22e738d95b59d10ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "dwenegar/upload-release-assets@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "eregon/publish-release@01df127f5e9a3c26935118e22e738d95b59d10ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "egor-tensin/vs-shell@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "dwenegar/upload-release-assets@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "eregon/publish-release@01df127f5e9a3c26935118e22e738d95b59d10ce",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "benc-uk/workflow-dispatch@e2e5e9a103e331dad343f381a29e654aea3cf8fc",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "actions/download-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@v1.5.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/restore@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@5ebbd400eff9e74630f759d94ddd7b6c26299639",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache/save@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml"
+    },
+    {
+      "component": "actions/cache/restore@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml"
+    },
+    {
+      "component": "hendrikmuhs/ccache-action@5ebbd400eff9e74630f759d94ddd7b6c26299639",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml"
+    },
+    {
+      "component": "actions/cache/save@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages-releases.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages-releases.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-rollpytorch.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llvm/torch-mlir",
+      "target": "llvm/torch-mlir-release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "llvm/torch-mlir",
+      "target": "alibaba/bladedisc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RollPyTorch.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RollPyTorch.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "peter-evans/create-or-update-comment@e8674b075228eee787fea43ef493e45ece1004c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RollPyTorch.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/RollPyTorch.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "peter-evans/create-pull-request@c0f553fe549906ede9cf27b5156039d195d2ece0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/RollPyTorch.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "Roll PyTorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazelBuildAndTest.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazelBuildAndTest.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/cache@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazelBuildAndTest.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "dawidd6/action-send-mail@afe978662944c6805dd197bac88b27acb0bda55a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazelBuildAndTest.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "Bazel Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "dwenegar/upload-release-assets@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "eregon/publish-release@01df127f5e9a3c26935118e22e738d95b59d10ce",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/upload-artifact@b7c566a772e6b6bfb58ed0dc250532a479d7789f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "egor-tensin/vs-shell@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "benc-uk/workflow-dispatch@e2e5e9a103e331dad343f381a29e654aea3cf8fc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/download-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/buildRelease.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "pypa/gh-action-pypi-publish@v1.5.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildRelease.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "Release Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/cache/restore@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "hendrikmuhs/ccache-action@5ebbd400eff9e74630f759d94ddd7b6c26299639",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/cache/save@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/cache/restore@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "ilammy/msvc-dev-cmd@0b201ec74fa43914dc39ae48a89fd1d8cb592756",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "hendrikmuhs/ccache-action@5ebbd400eff9e74630f759d94ddd7b6c26299639",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_windows.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/cache/save@cdf6c1fa76f9f475f3d7449005a359c84ca0f306",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages-releases.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages-releases.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "ad-m/github-push-action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages-releases.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "Publish releases page",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/merge-rollpytorch.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-rollpytorch.yml",
+      "source_repo": "llvm/torch-mlir",
+      "target": "RollPyTorch Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llvm/torch-mlir",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llvm/torch-mlir",
+      "target": "mlir",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "llvm/torch-mlir",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:42:08.474670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4752
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 147
+    },
+    {
+      "path": "requirements.txt",
+      "size": 79
+    },
+    {
+      "path": ".github/workflows/RollPyTorch.yml",
+      "size": 6444
+    },
+    {
+      "path": ".github/workflows/bazelBuildAndTest.yml",
+      "size": 4323
+    },
+    {
+      "path": ".github/workflows/buildRelease.yml",
+      "size": 11797
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2730
+    },
+    {
+      "path": ".github/workflows/ci_windows.yml",
+      "size": 2809
+    },
+    {
+      "path": ".github/workflows/gh-pages-releases.yml",
+      "size": 1485
+    },
+    {
+      "path": ".github/workflows/merge-rollpytorch.yml",
+      "size": 1014
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Torch-MLIR project aims to provide first class support from the PyTorch ecosystem to the MLIR ecosystem.",
+    "fork": false,
+    "full_name": "llvm/torch-mlir",
+    "html_url": "https://github.com/llvm/torch-mlir",
+    "language": "C++",
+    "pushed_at": "2026-04-29T11:52:02Z",
+    "stargazers_count": 1798,
+    "topics": [
+      "compiler",
+      "mlir",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-29T11:52:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alibaba/bladedisc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "llvm/torch-mlir-release",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Roll PyTorch",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/RollPyTorch.yml",
+      "term": "Roll PyTorch"
+    },
+    {
+      "context_snippet": "Bazel Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bazelBuildAndTest.yml",
+      "term": "Bazel Build and Test"
+    },
+    {
+      "context_snippet": "Release Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/buildRelease.yml",
+      "term": "Release Build"
+    },
+    {
+      "context_snippet": "Publish releases page",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages-releases.yml",
+      "term": "Publish releases page"
+    },
+    {
+      "context_snippet": "RollPyTorch Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/merge-rollpytorch.yml",
+      "term": "RollPyTorch Merge"
+    },
+    {
+      "context_snippet": "The Torch-MLIR project aims to provide first class compiler support from the [PyTorch](https://pytorch.org) ecosystem to the MLIR ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "The Torch-MLIR project aims to provide first class compiler support from the [PyTorch](https://pytorch.org) ecosystem to the MLIR ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mlir"
+    },
+    {
+      "context_snippet": "The Torch-MLIR project aims to provide first class compiler support from the [PyTorch](https://pytorch.org) ecosystem to the MLIR ecosystem.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

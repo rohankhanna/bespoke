@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:59:59.321297+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1343
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 586
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "s3bk/tuple",
+    "html_url": "https://github.com/s3bk/tuple",
+    "language": "Rust",
+    "pushed_at": "2023-12-11T15:16:04Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2024-11-13T11:13:23Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

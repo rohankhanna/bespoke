@@ -1,0 +1,292 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "subosito/flutter-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml",
+      "source_repo": "DavBfr/dart_pdf",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml",
+      "source_repo": "DavBfr/dart_pdf",
+      "target": "subosito/flutter-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dart.yaml",
+      "source_repo": "DavBfr/dart_pdf",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dart.yaml",
+      "source_repo": "DavBfr/dart_pdf",
+      "target": "Dart CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "DavBfr/dart_pdf",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "DavBfr/dart_pdf",
+      "target": "Close stale issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavBfr/dart_pdf",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavBfr/dart_pdf",
+      "target": "dart-pdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavBfr/dart_pdf",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavBfr/dart_pdf",
+      "target": "flutter-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavBfr/dart_pdf",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavBfr/dart_pdf",
+      "target": "pdf-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DavBfr/dart_pdf",
+      "target": "pdf-library",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:42:47.493644+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1077
+    },
+    {
+      "path": ".github/workflows/dart.yaml",
+      "size": 7210
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 579
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Pdf creation module for dart/flutter",
+    "fork": false,
+    "full_name": "DavBfr/dart_pdf",
+    "html_url": "https://github.com/DavBfr/dart_pdf",
+    "language": "Dart",
+    "pushed_at": "2026-03-20T15:03:47Z",
+    "stargazers_count": 1515,
+    "topics": [
+      "dart",
+      "dart-pdf",
+      "flutter",
+      "flutter-plugin",
+      "hacktoberfest",
+      "pdf",
+      "pdf-generation",
+      "pdf-library"
+    ],
+    "updated_at": "2026-04-29T00:34:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Dart CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dart.yaml",
+      "term": "Dart CI"
+    },
+    {
+      "context_snippet": "\"Close stale issues\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Close stale issues"
+    },
+    {
+      "context_snippet": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart-pdf"
+    },
+    {
+      "context_snippet": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter-plugin"
+    },
+    {
+      "context_snippet": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdf-generation"
+    },
+    {
+      "context_snippet": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pdf-library"
+    }
+  ]
+}

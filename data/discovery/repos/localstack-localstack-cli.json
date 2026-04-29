@@ -1,0 +1,144 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "nick-fields/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Justintime50/homebrew-releaser@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "localstack/localstack-cli",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "localstack/localstack-cli",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "localstack/localstack-cli",
+      "target": "nick-fields/retry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "localstack/localstack-cli",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "localstack/localstack-cli",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "localstack/localstack-cli",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "localstack/localstack-cli",
+      "target": "Justintime50/homebrew-releaser@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homebrew.yml",
+      "source_repo": "localstack/localstack-cli",
+      "target": "Release Homebrew Tap",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:58:55.634511+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1302
+    },
+    {
+      "path": "requirements.txt",
+      "size": 53
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 6376
+    },
+    {
+      "path": ".github/workflows/homebrew.yml",
+      "size": 2938
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The LocalStack CLI packaged using pyinstaller",
+    "fork": false,
+    "full_name": "localstack/localstack-cli",
+    "html_url": "https://github.com/localstack/localstack-cli",
+    "language": "Makefile",
+    "pushed_at": "2026-04-29T07:16:24Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2026-04-29T07:16:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Release Homebrew Tap",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/homebrew.yml",
+      "term": "Release Homebrew Tap"
+    }
+  ]
+}

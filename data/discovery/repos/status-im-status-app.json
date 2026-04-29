@@ -1,0 +1,169 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-appium-android.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-appium-android.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-appium-android.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-appium-android.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-appium-android.yml",
+      "source_repo": "status-im/status-app",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-appium-android.yml",
+      "source_repo": "status-im/status-app",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-appium-android.yml",
+      "source_repo": "status-im/status-app",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-appium-android.yml",
+      "source_repo": "status-im/status-app",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-appium-android.yml",
+      "source_repo": "status-im/status-app",
+      "target": "E2E Appium Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "status-im/status-app",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "status-im/status-app",
+      "target": "PR Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/status-app",
+      "target": "decentralized",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/status-app",
+      "target": "messenger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "status-im/status-app",
+      "target": "privacy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:48:01.398491+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5074
+    },
+    {
+      "path": ".github/workflows/e2e-appium-android.yml",
+      "size": 9844
+    },
+    {
+      "path": ".github/workflows/pr.yml",
+      "size": 4688
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Status App client made in Nim & QML",
+    "fork": false,
+    "full_name": "status-im/status-app",
+    "html_url": "https://github.com/status-im/status-app",
+    "language": "QML",
+    "pushed_at": "2026-04-29T17:58:11Z",
+    "stargazers_count": 357,
+    "topics": [
+      "decentralized",
+      "messenger",
+      "nim",
+      "privacy",
+      "qml"
+    ],
+    "updated_at": "2026-04-29T16:04:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "E2E Appium Android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-appium-android.yml",
+      "term": "E2E Appium Android"
+    },
+    {
+      "context_snippet": "PR Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr.yml",
+      "term": "PR Checks"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decentralized"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "messenger"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "privacy"
+    }
+  ]
+}

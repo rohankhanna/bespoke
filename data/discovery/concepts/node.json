@@ -694,6 +694,186 @@
       "source_repo": "apollographql/apollo-server",
       "status": "candidate-context",
       "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apostrophecms/apostrophe",
+      "status": "candidate-context",
+      "text": "A full-featured, open-source content management framework built with Node.js that empowers organizations by combining in-context editing and headless architecture in a full-stack JS environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apostrophecms/apostrophe",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dzeiocom/lucide-astro",
+      "status": "candidate-context",
+      "text": "Astro library to get the Lucide.dev icons to the Astro Framework https://lucide-astro.dzeio.com"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dzeiocom/lucide-astro",
+      "status": "candidate-context",
+      "text": "Project is deprecated, please use `@lucide/astro`"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locize/i18next-locize-backend",
+      "status": "candidate-context",
+      "text": "A simple i18next backend for locize.com which can be used in Node.js, in the browser and for Deno."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/i18next-locize-backend",
+      "status": "candidate-context",
+      "text": "node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locize/locize-cli",
+      "status": "candidate-context",
+      "text": "locize cli to import / export locales, add / edit / remove, sync segments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-cli",
+      "status": "candidate-context",
+      "text": "node"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/omit-deep",
+      "status": "candidate-context",
+      "text": "Recursively omit specified keys from an object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/omit-deep",
+      "status": "candidate-context",
+      "text": "> Recursively omit the specified key or keys from an object."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "base-repos/base",
+      "status": "candidate-context",
+      "text": "Base is the foundation for creating modular, unit testable and highly pluggable, server-side node.js applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "base-repos/base",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/nodejs-dist-indexer",
+      "status": "candidate-context",
+      "text": "An application to create nodejs.org distribution index files: index.json and index.tab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/nodejs-dist-indexer",
+      "status": "candidate-context",
+      "text": "**An application to create [nodejs.org](https://nodejs.org) distribution index files: index.json and index.tab**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "parallel-js/parallel.js",
+      "status": "candidate-context",
+      "text": "Easy multi-core processing utilities for Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parallel-js/parallel.js",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/parallel-js/parallel.js.svg?branch=master)](https://travis-ci.org/parallel-js/parallel.js)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avwo/whistle",
+      "status": "candidate-context",
+      "text": "HTTP, HTTP2, HTTPS, Websocket debugging proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avwo/whistle",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/awesome-nodejs",
+      "status": "candidate-context",
+      "text": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED UNTIL SEPTEMBER]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/awesome-nodejs",
+      "status": "candidate-context",
+      "text": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED UNTIL SEPTEMBER]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "middyjs/middy",
+      "status": "candidate-context",
+      "text": "\ud83d\udef5 The stylish Node.js middleware engine for AWS Lambda \ud83d\udef5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "middyjs/middy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaydenseric/graphql-upload",
+      "status": "candidate-context",
+      "text": "Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaydenseric/graphql-upload",
+      "status": "candidate-context",
+      "text": "graphql-upload \u2014 Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ljharb/qs",
+      "status": "candidate-context",
+      "text": "A querystring parser and serializer with nesting support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ljharb/qs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "oclif/core",
+      "status": "candidate-context",
+      "text": "Node.js Open CLI Framework. Built by Salesforce."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/core",
+      "status": "candidate-context",
+      "text": "<img src=\"https://user-images.githubusercontent.com/449385/38243295-e0a47d58-372e-11e8-9bc0-8c02a6f4d2ac.png\" width=\"260\" height=\"73\">"
     }
   ],
   "candidate_glosses": [
@@ -1038,6 +1218,96 @@
       "source_repo": "apollographql/apollo-server",
       "status": "candidate",
       "text": "> This `@apollo/server` package is new since Apollo Server 4. Previous major versions of Apollo Server used a set of package names starting with `apollo-server`, such as `apollo-server`, `apollo-server-express`, `apollo-server-core`, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apostrophecms/apostrophe",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dzeiocom/lucide-astro",
+      "status": "candidate",
+      "text": "Project is deprecated, please use `@lucide/astro`"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/i18next-locize-backend",
+      "status": "candidate",
+      "text": "node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-cli",
+      "status": "candidate",
+      "text": "node"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/omit-deep",
+      "status": "candidate",
+      "text": "> Recursively omit the specified key or keys from an object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "base-repos/base",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/nodejs-dist-indexer",
+      "status": "candidate",
+      "text": "**An application to create [nodejs.org](https://nodejs.org) distribution index files: index.json and index.tab**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "parallel-js/parallel.js",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/parallel-js/parallel.js.svg?branch=master)](https://travis-ci.org/parallel-js/parallel.js)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avwo/whistle",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/awesome-nodejs",
+      "status": "candidate",
+      "text": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED UNTIL SEPTEMBER]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "middyjs/middy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaydenseric/graphql-upload",
+      "status": "candidate",
+      "text": "graphql-upload \u2014 Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ljharb/qs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "oclif/core",
+      "status": "candidate",
+      "text": "<img src=\"https://user-images.githubusercontent.com/449385/38243295-e0a47d58-372e-11e8-9bc0-8c02a6f4d2ac.png\" width=\"260\" height=\"73\">"
     }
   ],
   "candidate_related_terms": [
@@ -1591,11 +1861,161 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apostrophecms/apostrophe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dzeiocom/lucide-astro"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "locize/i18next-locize-backend"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/node.yml",
+      "source_repo": "locize/locize-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/omit-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/micromatch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/nodejs-dist-indexer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jaredpalmer/backpack"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "parallel-js/parallel.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "avwo/whistle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/awesome-nodejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "middyjs/middy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nock/nock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "extism/extism"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jaydenseric/graphql-upload"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ljharb/qs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "oclif/core"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

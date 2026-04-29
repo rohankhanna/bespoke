@@ -163,6 +163,66 @@
       "source_repo": "dwyl/flutter-todo-list-tutorial",
       "status": "candidate-context",
       "text": "Quickly learn how to setup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "status": "candidate-context",
+      "text": "lsp-mode :heart: dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "status": "candidate-context",
+      "text": "lsp-dart"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iamcco/coc-flutter",
+      "status": "candidate-context",
+      "text": "flutter support for (Neo)vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamcco/coc-flutter",
+      "status": "candidate-context",
+      "text": "Flutter support for (Neo)vim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavBfr/dart_pdf",
+      "status": "candidate-context",
+      "text": "Pdf creation module for dart/flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavBfr/dart_pdf",
+      "status": "candidate-context",
+      "text": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-archived/dartboard",
+      "status": "candidate-context",
+      "text": "Dart Plugin for Eclipse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-archived/dartboard",
+      "status": "candidate-context",
+      "text": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rrousselGit/riverpod",
+      "status": "candidate-context",
+      "text": "A reactive caching and data-binding framework.   Riverpod makes working with asynchronous code a breeze."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/riverpod",
+      "status": "candidate-context",
+      "text": "<p>"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +303,36 @@
       "source_repo": "dwyl/flutter-todo-list-tutorial",
       "status": "candidate",
       "text": "Quickly learn how to setup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "status": "candidate",
+      "text": "lsp-dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iamcco/coc-flutter",
+      "status": "candidate",
+      "text": "Flutter support for (Neo)vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavBfr/dart_pdf",
+      "status": "candidate",
+      "text": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-archived/dartboard",
+      "status": "candidate",
+      "text": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/riverpod",
+      "status": "candidate",
+      "text": "<p>"
     }
   ],
   "candidate_related_terms": [
@@ -400,11 +490,41 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "dwyl/flutter-todo-list-tutorial"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "iamcco/coc-flutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "DavBfr/dart_pdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-archived/dartboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rrousselGit/riverpod"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

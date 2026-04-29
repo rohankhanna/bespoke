@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:43:25.985593+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 887
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository acts as the foundation repository for GitHub configuration files that are inherited (automatically) into all repositories in this organization.  Read the https://docs.github.com/en/github/building-a-strong-community/creating-a-default-community-health-file for more information!",
+    "fork": false,
+    "full_name": "apollographql/.github",
+    "html_url": "https://github.com/apollographql/.github",
+    "language": null,
+    "pushed_at": "2026-01-16T19:46:00Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-01-16T19:46:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

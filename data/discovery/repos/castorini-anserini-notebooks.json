@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:45:19.755521+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2895
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Anserini notebooks",
+    "fork": false,
+    "full_name": "castorini/anserini-notebooks",
+    "html_url": "https://github.com/castorini/anserini-notebooks",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-04-02T15:40:47Z",
+    "stargazers_count": 69,
+    "topics": [],
+    "updated_at": "2024-03-12T10:40:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

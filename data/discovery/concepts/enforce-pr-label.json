@@ -67,6 +67,18 @@
       "source_repo": "jupyter-server/jupyter_server",
       "status": "candidate-context",
       "text": "Enforce PR label"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jupyter/nbconvert",
+      "status": "candidate-context",
+      "text": "Jupyter Notebook Conversion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/nbconvert",
+      "status": "candidate-context",
+      "text": "Enforce PR label"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jupyter-server/jupyter_server",
+      "status": "candidate",
+      "text": "Enforce PR label"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jupyter/nbconvert",
       "status": "candidate",
       "text": "Enforce PR label"
     }
@@ -178,11 +196,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/enforce-label.yml",
       "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "source_repo": "jupyter/nbclassic"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/enforce-label.yml",
+      "source_repo": "jupyter/nbconvert"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

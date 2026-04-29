@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attractivechaos/klib",
+      "target": "algorithm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attractivechaos/klib",
+      "target": "avl-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attractivechaos/klib",
+      "target": "b-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attractivechaos/klib",
+      "target": "generic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attractivechaos/klib",
+      "target": "hashtable",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attractivechaos/klib",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "attractivechaos/klib",
+      "target": "sort",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:52.336918+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12137
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A standalone and lightweight C library",
+    "fork": false,
+    "full_name": "attractivechaos/klib",
+    "html_url": "https://github.com/attractivechaos/klib",
+    "language": "C",
+    "pushed_at": "2025-12-22T04:59:43Z",
+    "stargazers_count": 4655,
+    "topics": [
+      "algorithm",
+      "avl-tree",
+      "b-tree",
+      "c",
+      "generic",
+      "hashtable",
+      "library",
+      "sort"
+    ],
+    "updated_at": "2026-04-27T21:11:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Klib is a standalone and lightweight C library distributed under [MIT/X11",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithm"
+    },
+    {
+      "context_snippet": "Klib is a standalone and lightweight C library distributed under [MIT/X11",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "avl-tree"
+    },
+    {
+      "context_snippet": "Klib is a standalone and lightweight C library distributed under [MIT/X11",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "b-tree"
+    },
+    {
+      "context_snippet": "Klib is a standalone and lightweight C library distributed under [MIT/X11",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generic"
+    },
+    {
+      "context_snippet": "Klib is a standalone and lightweight C library distributed under [MIT/X11",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashtable"
+    },
+    {
+      "context_snippet": "Klib is a standalone and lightweight C library distributed under [MIT/X11",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "Klib is a standalone and lightweight C library distributed under [MIT/X11",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sort"
+    }
+  ]
+}

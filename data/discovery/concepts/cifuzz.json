@@ -566,6 +566,30 @@
       "source_repo": "randy408/libspng",
       "status": "candidate-context",
       "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-pillow/Pillow",
+      "status": "candidate-context",
+      "text": "Python Imaging Library (fork)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-pillow/Pillow",
+      "status": "candidate-context",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/poi",
+      "status": "candidate-context",
+      "text": "Mirror of Apache POI gitbox. The Java API for Microsoft Documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/poi",
+      "status": "candidate-context",
+      "text": "CIFuzz"
     }
   ],
   "candidate_glosses": [
@@ -854,6 +878,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "randy408/libspng",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-pillow/Pillow",
+      "status": "candidate",
+      "text": "CIFuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/poi",
       "status": "candidate",
       "text": "CIFuzz"
     }
@@ -1205,11 +1241,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/ci-fuzz.yml",
       "source_repo": "randy408/libspng"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "python-pillow/Pillow"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "harfbuzz/harfbuzz"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "commonmark/cmark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "apache/poi"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

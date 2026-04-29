@@ -1,0 +1,17 @@
+{
+  "component": "actions/upload-artifact@v4.6.0",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-gcc_x64.yml",
+      "source_repo": "hogsy/chronon"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-windows-gcc_x64.yml",
+      "source_repo": "hogsy/chronon"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "hacl"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate-context",
+      "text": "HACL*, a formally verified cryptographic library written in F*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate-context",
+      "text": "This repository contains verified code for a library of modern"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate",
+      "text": "This repository contains verified code for a library of modern"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "hacl",
+  "concept_id": "hacl",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hacl",
+      "sense_id": "hacl#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

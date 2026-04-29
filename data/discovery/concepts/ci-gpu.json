@@ -19,12 +19,30 @@
       "source_repo": "tracel-ai/burn",
       "status": "candidate-context",
       "text": "CI GPU"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pytorch/serve",
+      "status": "candidate-context",
+      "text": "Serve, optimize and scale PyTorch models in production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/serve",
+      "status": "candidate-context",
+      "text": "CI GPU"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "tracel-ai/burn",
+      "status": "candidate",
+      "text": "CI GPU"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pytorch/serve",
       "status": "candidate",
       "text": "CI GPU"
     }
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/test-gpu.yml",
       "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci_gpu.yml",
+      "source_repo": "pytorch/serve"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

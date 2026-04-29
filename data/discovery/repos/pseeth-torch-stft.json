@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:49:40.713625+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1851
+    },
+    {
+      "path": "requirements.txt",
+      "size": 19
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An STFT/iSTFT for PyTorch.",
+    "fork": false,
+    "full_name": "pseeth/torch-stft",
+    "html_url": "https://github.com/pseeth/torch-stft",
+    "language": "Python",
+    "pushed_at": "2023-10-31T06:59:35Z",
+    "stargazers_count": 371,
+    "topics": [],
+    "updated_at": "2026-04-22T04:48:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:43:51.890589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10660
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for the ECCV 2022 paper \"Unleashing Transformers\"",
+    "fork": false,
+    "full_name": "samb-t/unleashing-transformers",
+    "html_url": "https://github.com/samb-t/unleashing-transformers",
+    "language": "Python",
+    "pushed_at": "2023-04-17T08:57:14Z",
+    "stargazers_count": 185,
+    "topics": [],
+    "updated_at": "2025-08-26T05:19:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

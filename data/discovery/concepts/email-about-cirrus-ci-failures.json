@@ -19,12 +19,30 @@
       "source_repo": "theimpossibleastronaut/rmw",
       "status": "candidate-context",
       "text": "Email about Cirrus CI failures"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asomers/mockall",
+      "status": "candidate-context",
+      "text": "A powerful mock object library for Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asomers/mockall",
+      "status": "candidate-context",
+      "text": "Email about Cirrus CI failures"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "theimpossibleastronaut/rmw",
+      "status": "candidate",
+      "text": "Email about Cirrus CI failures"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asomers/mockall",
       "status": "candidate",
       "text": "Email about Cirrus CI failures"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/cirrus-email.yml",
       "source_repo": "theimpossibleastronaut/rmw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/email.yml",
+      "source_repo": "asomers/mockall"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

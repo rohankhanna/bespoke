@@ -1,7 +1,7 @@
 {
   "component": "tj-actions/changed-files@22103cc46bda19c2b464ffe86db46df6922fd323",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tools-releases.yml",
       "source_repo": "kubernetes-sigs/controller-tools"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "open-edge-platform/training_extensions"
     }
   ]
 }

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "drivers"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dorssel/usbipd-win",
+      "status": "candidate-context",
+      "text": "Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dorssel/usbipd-win",
+      "status": "candidate-context",
+      "text": "drivers"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dorssel/usbipd-win",
+      "status": "candidate",
+      "text": "drivers"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28221954,
+      "status": "candidate",
+      "text": "device driver"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18344955,
+      "status": "candidate",
+      "text": "number one wood"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18344954,
+      "status": "candidate",
+      "text": "teamsters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18083251,
+      "status": "candidate",
+      "text": "rider"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18058767,
+      "status": "candidate",
+      "text": "chauffeur"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "drivers",
+  "concept_id": "drivers",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update-drivers.yml",
+      "source_repo": "dorssel/usbipd-win"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "drivers",
+      "sense_id": "drivers#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

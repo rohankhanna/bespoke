@@ -1,0 +1,35 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:49:05.253585+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18336
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1880
+    },
+    {
+      "path": "requirements.txt",
+      "size": 363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ACE-Step: A Step Towards Music Generation Foundation Model",
+    "fork": false,
+    "full_name": "ace-step/ACE-Step",
+    "html_url": "https://github.com/ace-step/ACE-Step",
+    "language": "Python",
+    "pushed_at": "2026-02-15T04:57:54Z",
+    "stargazers_count": 4395,
+    "topics": [],
+    "updated_at": "2026-04-29T11:52:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

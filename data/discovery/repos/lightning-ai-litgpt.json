@@ -90,14 +90,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Lightning-AI/litgpt",
-      "target": "microsoft/samba",
+      "target": "stability-ai/stablelm",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Lightning-AI/litgpt",
-      "target": "lightning-ai/lit-llama",
+      "target": "microsoft/samba",
       "target_type": "repository"
     },
     {
@@ -241,7 +241,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:18:30.411459+00:00",
+  "fetched_at": "2026-04-29T20:46:11.354950+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -277,8 +277,8 @@
     "full_name": "Lightning-AI/litgpt",
     "html_url": "https://github.com/Lightning-AI/litgpt",
     "language": "Python",
-    "pushed_at": "2026-04-16T06:33:04Z",
-    "stargazers_count": 13325,
+    "pushed_at": "2026-04-25T05:36:05Z",
+    "stargazers_count": 13332,
     "topics": [
       "ai",
       "artificial-intelligence",
@@ -288,17 +288,12 @@
       "llm-inference",
       "llms"
     ],
-    "updated_at": "2026-04-24T08:42:17Z"
+    "updated_at": "2026-04-29T14:28:54Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "bsc-ltc/salamandra",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lightning-ai/lit-llama",
       "source_file": "README.md"
     },
     {
@@ -309,6 +304,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "microsoft/samba",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stability-ai/stablelm",
       "source_file": "README.md"
     }
   ],

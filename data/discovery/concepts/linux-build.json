@@ -43,6 +43,18 @@
       "source_repo": "shibing624/text2vec",
       "status": "candidate-context",
       "text": "Linux build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shibing624/similarities",
+      "status": "candidate-context",
+      "text": "Similarities: a toolkit for similarity calculation and semantic search. \u76f8\u4f3c\u5ea6\u8ba1\u7b97\u3001\u5339\u914d\u641c\u7d22\u5de5\u5177\u5305\uff0c\u652f\u6301\u4ebf\u7ea7\u6570\u636e\u6587\u641c\u6587\u3001\u6587\u641c\u56fe\u3001\u56fe\u641c\u56fe\uff0cpython3\u5f00\u53d1\uff0c\u5f00\u7bb1\u5373\u7528\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shibing624/similarities",
+      "status": "candidate-context",
+      "text": "Linux build"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "shibing624/text2vec",
+      "status": "candidate",
+      "text": "Linux build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shibing624/similarities",
       "status": "candidate",
       "text": "Linux build"
     }
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/ubuntu.yml",
       "source_repo": "shibing624/text2vec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "shibing624/similarities"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

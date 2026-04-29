@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "k8s-sig-infra"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes/k8s.io",
+      "status": "candidate-context",
+      "text": "Code and configuration to manage Kubernetes project infrastructure, including various *.k8s.io sites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/k8s.io",
+      "status": "candidate-context",
+      "text": "Kubernetes project infrastructure, managed by the kubernetes community via [sig-k8s-infra]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes/k8s.io",
+      "status": "candidate",
+      "text": "Kubernetes project infrastructure, managed by the kubernetes community via [sig-k8s-infra]"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "k8s-sig-infra",
+  "concept_id": "k8s-sig-infra",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes/k8s.io"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "k8s-sig-infra",
+      "sense_id": "k8s-sig-infra#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

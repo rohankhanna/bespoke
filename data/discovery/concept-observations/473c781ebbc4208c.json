@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "locize cli to import / export locales, add / edit / remove, sync segments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Tests](https://github.com/locize/locize-cli/workflows/node/badge.svg)](https://github.com/locize/locize-cli/actions?query=workflow%3Anode)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/locize/locize-cli/workflows/node/badge.svg)](https://github.com/locize/locize-cli/actions?query=workflow%3Anode)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953904,
+      "status": "candidate",
+      "text": "synchroneity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953821,
+      "status": "candidate",
+      "text": "synchronism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953800,
+      "status": "candidate",
+      "text": "synchrony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39953743,
+      "status": "candidate",
+      "text": "synchronicity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39899928,
+      "status": "candidate",
+      "text": "synchronisation"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "synchronization",
+      "sense_id": "synchronization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11031,
+      "status": "candidate",
+      "text": "synchronicity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5029,
+      "status": "candidate",
+      "text": "synchronism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5028,
+      "status": "candidate",
+      "text": "synchrony"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2017,
+      "status": "candidate",
+      "text": "synchronisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1018,
+      "status": "candidate",
+      "text": "synchronizing"
+    }
+  ],
+  "concept_id": "synchronization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "synchronization",
+  "observation_id": "473c781ebbc4208c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "synchronization",
+  "source_context_snippet": "[![Tests](https://github.com/locize/locize-cli/workflows/node/badge.svg)](https://github.com/locize/locize-cli/actions?query=workflow%3Anode)",
+  "source_file": null,
+  "source_repo": "locize/locize-cli",
+  "source_repo_description": "locize cli to import / export locales, add / edit / remove, sync segments"
+}

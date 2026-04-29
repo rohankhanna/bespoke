@@ -1,0 +1,52 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bytedance/ATI",
+      "target": "research",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:23.177179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10660
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1339
+    },
+    {
+      "path": "requirements.txt",
+      "size": 234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of ATI: Any Trajectory Instruction for Controllable Video Generation. https://arxiv.org/pdf/2505.22944",
+    "fork": false,
+    "full_name": "bytedance/ATI",
+    "html_url": "https://github.com/bytedance/ATI",
+    "language": "Python",
+    "pushed_at": "2025-08-07T18:16:37Z",
+    "stargazers_count": 349,
+    "topics": [
+      "research"
+    ],
+    "updated_at": "2026-04-17T18:56:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    }
+  ]
+}

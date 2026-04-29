@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "lazarus"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmbelo/python4delphi",
+      "status": "candidate-context",
+      "text": "Free components that wrap up Python into Delphi and Lazarus (FPC)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmbelo/python4delphi",
+      "status": "candidate-context",
+      "text": "<img src=\"https://github.com/pyscripter/python4delphi/wiki/Images/Python4Delphi.svg\" alt=\"drawing\" width=\"25%\" align=\"right\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmbelo/python4delphi",
+      "status": "candidate",
+      "text": "<img src=\"https://github.com/pyscripter/python4delphi/wiki/Images/Python4Delphi.svg\" alt=\"drawing\" width=\"25%\" align=\"right\"/>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29527789,
+      "status": "candidate",
+      "text": "lazar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28702467,
+      "status": "candidate",
+      "text": "barlow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19861245,
+      "status": "candidate",
+      "text": "lazare"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19861245,
+      "status": "candidate",
+      "text": "lazaro"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19861244,
+      "status": "candidate",
+      "text": "beggar"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "lazarus",
+  "concept_id": "lazarus",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lmbelo/python4delphi"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lazarus",
+      "sense_id": "lazarus#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,334 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-runtime-bindings.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-runtime-bindings.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-runtime-bindings.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-runtime-bindings.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-runtime-bindings.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-arm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skywalking-eyes.yml"
+    },
+    {
+      "component": "apache/skywalking-eyes/header@61275cc80d0798a405cb070f7d3a8aaf7cf2c2c1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skywalking-eyes.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-runtime-bindings.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-runtime-bindings.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-cpp-runtime-bindings.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cpp-runtime-bindings.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "Build and test C++ Runtime Bindings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux-arm.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-arm.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "Linux Build and Test on ARM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "Linux Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yaml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yaml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "MacOS Build and Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "CIBuildWheel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skywalking-eyes.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/skywalking-eyes.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "apache/skywalking-eyes/header@61275cc80d0798a405cb070f7d3a8aaf7cf2c2c1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skywalking-eyes.yml",
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "Check License Header",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "similarity-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "intel/ScalableVectorSearch",
+      "target": "vector-search",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:05.993958+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6763
+    },
+    {
+      "path": ".github/workflows/build-cpp-runtime-bindings.yml",
+      "size": 4135
+    },
+    {
+      "path": ".github/workflows/build-linux-arm.yml",
+      "size": 2130
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 3801
+    },
+    {
+      "path": ".github/workflows/build-macos.yaml",
+      "size": 2723
+    },
+    {
+      "path": ".github/workflows/cibuildwheel.yml",
+      "size": 2101
+    },
+    {
+      "path": ".github/workflows/pre-commit.yml",
+      "size": 847
+    },
+    {
+      "path": ".github/workflows/skywalking-eyes.yml",
+      "size": 1234
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "intel/ScalableVectorSearch",
+    "html_url": "https://github.com/intel/ScalableVectorSearch",
+    "language": "C++",
+    "pushed_at": "2026-04-29T16:51:22Z",
+    "stargazers_count": 222,
+    "topics": [
+      "rag",
+      "similarity-search",
+      "svs",
+      "vector-search"
+    ],
+    "updated_at": "2026-04-27T23:58:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build and test C++ Runtime Bindings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-cpp-runtime-bindings.yml",
+      "term": "Build and test C++ Runtime Bindings"
+    },
+    {
+      "context_snippet": "Linux Build and Test on ARM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux-arm.yml",
+      "term": "Linux Build and Test on ARM"
+    },
+    {
+      "context_snippet": "Linux Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "Linux Build and Test"
+    },
+    {
+      "context_snippet": "MacOS Build and Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yaml",
+      "term": "MacOS Build and Test"
+    },
+    {
+      "context_snippet": "CIBuildWheel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cibuildwheel.yml",
+      "term": "CIBuildWheel"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "Check License Header",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/skywalking-eyes.yml",
+      "term": "Check License Header"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "similarity-search"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vector-search"
+    }
+  ]
+}

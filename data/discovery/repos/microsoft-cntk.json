@@ -1,0 +1,171 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CNTK",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CNTK",
+      "target": "c-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CNTK",
+      "target": "cntk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CNTK",
+      "target": "cognitive-toolkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CNTK",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CNTK",
+      "target": "deep-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CNTK",
+      "target": "distributed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CNTK",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CNTK",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/CNTK",
+      "target": "neural-network",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:52:48.108708+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25519
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Microsoft Cognitive Toolkit (CNTK), an open source deep-learning toolkit",
+    "fork": false,
+    "full_name": "microsoft/CNTK",
+    "html_url": "https://github.com/microsoft/CNTK",
+    "language": "C++",
+    "pushed_at": "2023-03-11T07:31:35Z",
+    "stargazers_count": 17601,
+    "topics": [
+      "c-plus-plus",
+      "c-sharp",
+      "cntk",
+      "cognitive-toolkit",
+      "deep-learning",
+      "deep-neural-networks",
+      "distributed",
+      "java",
+      "machine-learning",
+      "neural-network",
+      "python"
+    ],
+    "updated_at": "2026-04-29T18:12:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "| **Chat** | **Windows build status** | **Linux build status** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "| **Chat** | **Windows build status** | **Linux build status** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-sharp"
+    },
+    {
+      "context_snippet": "| **Chat** | **Windows build status** | **Linux build status** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cntk"
+    },
+    {
+      "context_snippet": "| **Chat** | **Windows build status** | **Linux build status** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cognitive-toolkit"
+    },
+    {
+      "context_snippet": "| **Chat** | **Windows build status** | **Linux build status** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "| **Chat** | **Windows build status** | **Linux build status** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-neural-networks"
+    },
+    {
+      "context_snippet": "| **Chat** | **Windows build status** | **Linux build status** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distributed"
+    },
+    {
+      "context_snippet": "| **Chat** | **Windows build status** | **Linux build status** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "| **Chat** | **Windows build status** | **Linux build status** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "| **Chat** | **Windows build status** | **Linux build status** |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    }
+  ]
+}

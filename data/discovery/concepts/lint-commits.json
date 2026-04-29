@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Lint Commits"
+    "Lint Commits",
+    "Lint commits"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -103,6 +104,54 @@
       "source_repo": "auth0/node-jws",
       "status": "candidate-context",
       "text": "Lint Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate-context",
+      "text": "Static site generator written in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate-context",
+      "text": "Lint Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate-context",
+      "text": "Cargo subcommand `release`: everything about releasing a rust crate."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate-context",
+      "text": "Lint Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doomemacs/doomemacs",
+      "status": "candidate-context",
+      "text": "An Emacs framework for the stubborn martian hacker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doomemacs/doomemacs",
+      "status": "candidate-context",
+      "text": "Lint commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate-context",
+      "text": "Panic messages for humans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/human-panic",
+      "status": "candidate-context",
+      "text": "Lint Commits"
     }
   ],
   "candidate_glosses": [
@@ -151,6 +200,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "auth0/node-jws",
+      "status": "candidate",
+      "text": "Lint Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cobalt-org/cobalt.rs",
+      "status": "candidate",
+      "text": "Lint Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crate-ci/cargo-release",
+      "status": "candidate",
+      "text": "Lint Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doomemacs/doomemacs",
+      "status": "candidate",
+      "text": "Lint commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-cli/human-panic",
       "status": "candidate",
       "text": "Lint Commits"
     }
@@ -250,11 +323,41 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/commitlint.yml",
       "source_repo": "auth0/node-jws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/committed.yml",
+      "source_repo": "cobalt-org/cobalt.rs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/committed.yml",
+      "source_repo": "crate-ci/cargo-release"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint-commits.yml",
+      "source_repo": "doomemacs/doomemacs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/commitlint.yml",
+      "source_repo": "auth0/node-jws"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/committed.yml",
+      "source_repo": "rust-cli/human-panic"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

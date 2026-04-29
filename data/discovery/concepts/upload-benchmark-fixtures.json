@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Upload benchmark fixtures"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "openvm-org/openvm",
+      "status": "candidate-context",
+      "text": "A performant and modular zkVM framework built for customization and extensibility."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvm-org/openvm",
+      "status": "candidate-context",
+      "text": "\"Upload benchmark fixtures\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "openvm-org/openvm",
+      "status": "candidate",
+      "text": "\"Upload benchmark fixtures\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17997,
+      "status": "candidate",
+      "text": "kamikaze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17997,
+      "status": "candidate",
+      "text": "land office"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17997,
+      "status": "candidate",
+      "text": "placed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17997,
+      "status": "candidate",
+      "text": "placing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17997,
+      "status": "candidate",
+      "text": "translate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Upload benchmark fixtures",
+  "concept_id": "upload-benchmark-fixtures",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/benchmarks-upload-fixtures.yml",
+      "source_repo": "openvm-org/openvm"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Upload benchmark fixtures",
+      "sense_id": "upload-benchmark-fixtures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

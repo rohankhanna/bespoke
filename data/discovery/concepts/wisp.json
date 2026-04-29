@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "wisp"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emibcn/pywisp",
+      "status": "candidate-context",
+      "text": "Access AirControl2 (API), AirOS (SSH) & Mikrotik (SSH) from the same place"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/pywisp",
+      "status": "candidate-context",
+      "text": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/pywisp",
+      "status": "candidate",
+      "text": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29970776,
+      "status": "candidate",
+      "text": "tuft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29964309,
+      "status": "candidate",
+      "text": "trickle"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29961743,
+      "status": "candidate",
+      "text": "net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29959612,
+      "status": "candidate",
+      "text": "fillet"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29959579,
+      "status": "candidate",
+      "text": "mesh"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "wisp",
+  "concept_id": "wisp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "emibcn/pywisp"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "wisp",
+      "sense_id": "wisp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

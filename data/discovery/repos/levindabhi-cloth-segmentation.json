@@ -1,0 +1,167 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "levindabhi/cloth-segmentation",
+      "target": "xuebinqin/u-2-net",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "levindabhi/cloth-segmentation",
+      "target": "nvidia/pix2pixhd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "levindabhi/cloth-segmentation",
+      "target": "cloth-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "levindabhi/cloth-segmentation",
+      "target": "clothing-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "levindabhi/cloth-segmentation",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "levindabhi/cloth-segmentation",
+      "target": "fashion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "levindabhi/cloth-segmentation",
+      "target": "image-parsing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "levindabhi/cloth-segmentation",
+      "target": "image-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "levindabhi/cloth-segmentation",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "levindabhi/cloth-segmentation",
+      "target": "u2net",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:19.017215+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3674
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repo contains code and a pre-trained model for clothes segmentation.",
+    "fork": false,
+    "full_name": "levindabhi/cloth-segmentation",
+    "html_url": "https://github.com/levindabhi/cloth-segmentation",
+    "language": "Python",
+    "pushed_at": "2023-04-17T10:15:22Z",
+    "stargazers_count": 671,
+    "topics": [
+      "cloth-segmentation",
+      "clothing-parsing",
+      "deep-learning",
+      "fashion",
+      "image-parsing",
+      "image-segmentation",
+      "pytorch",
+      "u2net"
+    ],
+    "updated_at": "2026-04-22T08:44:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/pix2pixhd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuebinqin/u-2-net",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloth-segmentation"
+    },
+    {
+      "context_snippet": "![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clothing-parsing"
+    },
+    {
+      "context_snippet": "![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fashion"
+    },
+    {
+      "context_snippet": "![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-parsing"
+    },
+    {
+      "context_snippet": "![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-segmentation"
+    },
+    {
+      "context_snippet": "![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![Python 3.8](https://img.shields.io/badge/python-3.8-green.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "u2net"
+    }
+  ]
+}

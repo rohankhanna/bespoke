@@ -19,12 +19,30 @@
       "source_repo": "caddyserver/caddy",
       "status": "candidate-context",
       "text": "AI Moderator"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axios/axios",
+      "status": "candidate-context",
+      "text": "Promise based HTTP client for the browser and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axios/axios",
+      "status": "candidate-context",
+      "text": "AI Moderator"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "caddyserver/caddy",
+      "status": "candidate",
+      "text": "AI Moderator"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axios/axios",
       "status": "candidate",
       "text": "AI Moderator"
     }
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/ai.yml",
       "source_repo": "caddyserver/caddy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/moderator.yml",
+      "source_repo": "axios/axios"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

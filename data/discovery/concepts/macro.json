@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "macro"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PEZ/taplet",
+      "status": "candidate-context",
+      "text": "Clojure/ClojureScript utilities for tapping things. let> macro, and #t reader tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PEZ/taplet",
+      "status": "candidate-context",
+      "text": "Utilities for tapping Clojure forms."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PEZ/taplet",
+      "status": "candidate",
+      "text": "Utilities for tapping Clojure forms."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919065,
+      "status": "candidate",
+      "text": "large"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916393,
+      "status": "candidate",
+      "text": "big"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029152,
+      "status": "candidate",
+      "text": "macroscopic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962883,
+      "status": "candidate",
+      "text": "aggregate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29952955,
+      "status": "candidate",
+      "text": "micro"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25050,
+      "status": "candidate",
+      "text": "large"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24048,
+      "status": "candidate",
+      "text": "big"
+    }
+  ],
+  "canonical_name": "macro",
+  "concept_id": "macro",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PEZ/taplet"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "macro",
+      "sense_id": "macro#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

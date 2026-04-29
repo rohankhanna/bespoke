@@ -7,8 +7,28 @@
     "tool-component",
     "capability"
   ],
-  "candidate_definitions": [],
-  "candidate_glosses": [],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zarazhangrui/frontend-slides",
+      "status": "candidate-context",
+      "text": "Create beautiful slides on the web using Claude's frontend skills"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarazhangrui/frontend-slides",
+      "status": "candidate-context",
+      "text": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarazhangrui/frontend-slides",
+      "status": "candidate",
+      "text": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files."
+    }
+  ],
   "candidate_related_terms": [],
   "candidate_synonyms": [],
   "canonical_name": "claude-skill",
@@ -20,12 +40,20 @@
       "observed_at": "2026-04-18T11:57:36.597358+00:00",
       "source_file": null,
       "source_repo": "maxritter/pilot-shell-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zarazhangrui/frontend-slides"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T11:57:36.597358+00:00",
-  "lexical_providers": [],
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "possible_senses": [
     {

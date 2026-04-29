@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhart/alpine-node",
+      "target": "alpine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhart/alpine-node",
+      "target": "docker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mhart/alpine-node",
+      "target": "nodejs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:01:50.856502+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4444
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Minimal Node.js Docker Images built on Alpine Linux",
+    "fork": false,
+    "full_name": "mhart/alpine-node",
+    "html_url": "https://github.com/mhart/alpine-node",
+    "language": "Dockerfile",
+    "pushed_at": "2023-01-15T21:19:40Z",
+    "stargazers_count": 2445,
+    "topics": [
+      "alpine",
+      "docker",
+      "nodejs"
+    ],
+    "updated_at": "2026-04-22T10:31:00Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This project is now in archive mode. Please use the official Node.js Alpine images at:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alpine"
+    },
+    {
+      "context_snippet": "This project is now in archive mode. Please use the official Node.js Alpine images at:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    },
+    {
+      "context_snippet": "This project is now in archive mode. Please use the official Node.js Alpine images at:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    }
+  ]
+}

@@ -19,6 +19,42 @@
       "source_repo": "pymc-devs/pymc",
       "status": "candidate-context",
       "text": ".. image:: https://cdn.rawgit.com/pymc-devs/pymc/main/docs/logos/svg/PyMC_banner.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blackjax-devs/blackjax",
+      "status": "candidate-context",
+      "text": "BlackJAX is a Bayesian Inference library designed for ease of use, speed and modularity."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackjax-devs/blackjax",
+      "status": "candidate-context",
+      "text": "![Continuous integration](https://github.com/blackjax-devs/blackjax/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JWarmenhoven/DBDA-python",
+      "status": "candidate-context",
+      "text": "Doing Bayesian Data Analysis, 2nd Edition (Kruschke, 2015): Python/PyMC3 code "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JWarmenhoven/DBDA-python",
+      "status": "candidate-context",
+      "text": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pyro-ppl/numpyro",
+      "status": "candidate-context",
+      "text": "Probabilistic programming with NumPy powered by JAX for autograd and JIT compilation to GPU/TPU/CPU."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyro-ppl/numpyro",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://github.com/pyro-ppl/numpyro/workflows/CI/badge.svg)](https://github.com/pyro-ppl/numpyro/actions)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "pymc-devs/pymc",
       "status": "candidate",
       "text": ".. image:: https://cdn.rawgit.com/pymc-devs/pymc/main/docs/logos/svg/PyMC_banner.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackjax-devs/blackjax",
+      "status": "candidate",
+      "text": "![Continuous integration](https://github.com/blackjax-devs/blackjax/actions/workflows/test.yml/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JWarmenhoven/DBDA-python",
+      "status": "candidate",
+      "text": "This repository contains Python/<A href=\"https://docs.pymc.io/\">PyMC3</A> code for a selection of models and figures from the book <A target=\"_blank\" href='https://sites.google.com/site/doingbayesiandataanalysis/'>'Doing Bayesian Data Analysis: A Tutorial with R, JAGS, and Stan'\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pyro-ppl/numpyro",
+      "status": "candidate",
+      "text": "[![Build Status](https://github.com/pyro-ppl/numpyro/workflows/CI/badge.svg)](https://github.com/pyro-ppl/numpyro/actions)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +94,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "pymc-devs/pymc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "blackjax-devs/blackjax"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "JWarmenhoven/DBDA-python"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pyro-ppl/numpyro"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

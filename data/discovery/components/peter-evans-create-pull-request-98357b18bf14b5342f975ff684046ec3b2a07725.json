@@ -1,0 +1,12 @@
+{
+  "component": "peter-evans/create-pull-request@98357b18bf14b5342f975ff684046ec3b2a07725",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit-update.yaml",
+      "source_repo": "mozilla-ai/any-llm"
+    }
+  ]
+}

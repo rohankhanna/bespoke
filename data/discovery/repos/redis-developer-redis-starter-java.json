@@ -1,0 +1,132 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-java",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-java",
+      "target": "jedis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-java",
+      "target": "redis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-java",
+      "target": "spring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-java",
+      "target": "spring-boot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-java",
+      "target": "starter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-java",
+      "target": "template",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:13.367121+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2234
+    },
+    {
+      "path": "Dockerfile",
+      "size": 373
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A starter project for working with Redis and Java",
+    "fork": false,
+    "full_name": "redis-developer/redis-starter-java",
+    "html_url": "https://github.com/redis-developer/redis-starter-java",
+    "language": "Java",
+    "pushed_at": "2026-03-12T22:10:54Z",
+    "stargazers_count": 6,
+    "topics": [
+      "java",
+      "jedis",
+      "redis",
+      "spring",
+      "spring-boot",
+      "starter",
+      "template"
+    ],
+    "updated_at": "2026-04-29T07:07:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a Redis starter template for Java and Spring Boot 4.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "This is a Redis starter template for Java and Spring Boot 4.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jedis"
+    },
+    {
+      "context_snippet": "This is a Redis starter template for Java and Spring Boot 4.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "redis"
+    },
+    {
+      "context_snippet": "This is a Redis starter template for Java and Spring Boot 4.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring"
+    },
+    {
+      "context_snippet": "This is a Redis starter template for Java and Spring Boot 4.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-boot"
+    },
+    {
+      "context_snippet": "This is a Redis starter template for Java and Spring Boot 4.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "starter"
+    },
+    {
+      "context_snippet": "This is a Redis starter template for Java and Spring Boot 4.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "template"
+    }
+  ]
+}

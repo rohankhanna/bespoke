@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "researchmm/Stark",
+      "target": "visionml/pytracking",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "researchmm/Stark",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:12.242010+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6751
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICCV'21] Learning Spatio-Temporal Transformer for Visual Tracking",
+    "fork": false,
+    "full_name": "researchmm/Stark",
+    "html_url": "https://github.com/researchmm/Stark",
+    "language": "Python",
+    "pushed_at": "2024-04-13T07:02:29Z",
+    "stargazers_count": 708,
+    "topics": [
+      "transformer"
+    ],
+    "updated_at": "2026-04-21T09:15:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "visionml/pytracking",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

@@ -139,6 +139,78 @@
       "source_repo": "g-truc/glm",
       "status": "candidate-context",
       "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adishavit/argh",
+      "status": "candidate-context",
+      "text": "Argh! A minimalist argument handler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adishavit/argh",
+      "status": "candidate-context",
+      "text": "![logo](assets/argh_logo_small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bfgroup/Lyra",
+      "status": "candidate-context",
+      "text": "A simple to use, composable, command line parser for C++ 11 and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bfgroup/Lyra",
+      "status": "candidate-context",
+      "text": "\"Release: Archives\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eyalz800/serializer",
+      "status": "candidate-context",
+      "text": "A single header standard C++ serialization framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalz800/serializer",
+      "status": "candidate-context",
+      "text": "zpp serializer"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aantron/better-enums",
+      "status": "candidate-context",
+      "text": "C++ compile-time enum to string, iteration, in a single header file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aantron/better-enums",
+      "status": "candidate-context",
+      "text": "[wandbox]: http://melpon.org/wandbox/permlink/2QCi3cwQnplAToge"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bernedom/SI",
+      "status": "candidate-context",
+      "text": "A header only C++ library that provides type safety and user defined literals for physical units"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bernedom/SI",
+      "status": "candidate-context",
+      "text": "-<img align=\"right\" src=\"SI-logo.jpg\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "accabog/MedianFilter",
+      "status": "candidate-context",
+      "text": "Heap-free sliding window median filter for embedded C/C++ \u2014 O(n/2) insert, zero allocations, ideal for ADC noise removal on bare-metal and RTOS targets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "accabog/MedianFilter",
+      "status": "candidate-context",
+      "text": "[![CI](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml/badge.svg)](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml)"
     }
   ],
   "candidate_glosses": [
@@ -207,6 +279,42 @@
       "source_repo": "g-truc/glm",
       "status": "candidate",
       "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adishavit/argh",
+      "status": "candidate",
+      "text": "![logo](assets/argh_logo_small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bfgroup/Lyra",
+      "status": "candidate",
+      "text": "\"Release: Archives\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eyalz800/serializer",
+      "status": "candidate",
+      "text": "zpp serializer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aantron/better-enums",
+      "status": "candidate",
+      "text": "[wandbox]: http://melpon.org/wandbox/permlink/2QCi3cwQnplAToge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bernedom/SI",
+      "status": "candidate",
+      "text": "-<img align=\"right\" src=\"SI-logo.jpg\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "accabog/MedianFilter",
+      "status": "candidate",
+      "text": "[![CI](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml/badge.svg)](https://github.com/accabog/MedianFilter/actions/workflows/ci.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -322,11 +430,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "g-truc/glm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adishavit/argh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aantron/better-enums"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bernedom/SI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "accabog/MedianFilter"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

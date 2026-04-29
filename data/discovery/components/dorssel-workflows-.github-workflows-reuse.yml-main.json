@@ -1,0 +1,12 @@
+{
+  "component": "dorssel/workflows/.github/workflows/REUSE.yml@main",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "dorssel/usbipd-win"
+    }
+  ]
+}

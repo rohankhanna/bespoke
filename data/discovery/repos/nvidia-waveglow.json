@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:45:21.146291+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3080
+    },
+    {
+      "path": "requirements.txt",
+      "size": 140
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Flow-based Generative Network for Speech Synthesis",
+    "fork": false,
+    "full_name": "NVIDIA/waveglow",
+    "html_url": "https://github.com/NVIDIA/waveglow",
+    "language": "Python",
+    "pushed_at": "2023-10-19T15:19:59Z",
+    "stargazers_count": 2338,
+    "topics": [],
+    "updated_at": "2026-04-08T12:47:50Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

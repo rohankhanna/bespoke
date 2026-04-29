@@ -202,6 +202,78 @@
       "source_repo": "dotansimha/graphql-code-generator",
       "status": "candidate-context",
       "text": "website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate-context",
+      "text": "Do you think you are safe using private browsing or incognito mode?. :smile: :imp: This will prove that you're wrong.   Previously hosted at nothingprivate.ml"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/gautamkrishnar/nothing-private.svg?branch=master)](https://travis-ci.org/gautamkrishnar/nothing-private) [![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg)](#contributors) [![ProductHunt](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "the-guild-org/apollo-angular",
+      "status": "candidate-context",
+      "text": "A fully-featured, production ready caching GraphQL client for Angular and every GraphQL server \ud83c\udf81"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-guild-org/apollo-angular",
+      "status": "candidate-context",
+      "text": "website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ardatan/graphql-tools",
+      "status": "candidate-context",
+      "text": ":wrench: Utility library for GraphQL to build, stitch and mock GraphQL schemas in the SDL-first approach"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardatan/graphql-tools",
+      "status": "candidate-context",
+      "text": "website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "flathub-infra/website",
+      "status": "candidate-context",
+      "text": "Monorepo with website and API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flathub-infra/website",
+      "status": "candidate-context",
+      "text": "[![Backend CI](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml/badge.svg)](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate-context",
+      "text": "One configuration for all your GraphQL tools (supported by most tools, editors & IDEs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate-context",
+      "text": "website"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate-context",
+      "text": "\ud83d\udd75\ufe0f\u200d\u2640\ufe0f Validate schema, get schema change notifications, validate operations, find breaking changes, look for similar types, schema coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate-context",
+      "text": "website"
     }
   ],
   "candidate_glosses": [
@@ -298,6 +370,42 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dotansimha/graphql-code-generator",
+      "status": "candidate",
+      "text": "website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/nothing-private",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/gautamkrishnar/nothing-private.svg?branch=master)](https://travis-ci.org/gautamkrishnar/nothing-private) [![All Contributors](https://img.shields.io/badge/all_contributors-43-orange.svg)](#contributors) [![ProductHunt](https://img.shields.i\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "the-guild-org/apollo-angular",
+      "status": "candidate",
+      "text": "website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ardatan/graphql-tools",
+      "status": "candidate",
+      "text": "website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "flathub-infra/website",
+      "status": "candidate",
+      "text": "[![Backend CI](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml/badge.svg)](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate",
+      "text": "website"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-inspector",
       "status": "candidate",
       "text": "website"
     }
@@ -493,11 +601,65 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/website.yml",
       "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/nothing-private"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "jj-vcs/jj"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-eslint"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "the-guild-org/apollo-angular"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "ardatan/graphql-tools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "flathub-infra/website"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-config"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/website.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build & Push R devel images"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rocker-org/rocker-versioned2",
+      "status": "candidate-context",
+      "text": "Run current & prior versions of R using docker. rocker/r-ver, rocker/rstudio, rocker/shiny, rocker/tidyverse, and so on."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocker-org/rocker-versioned2",
+      "status": "candidate-context",
+      "text": "Build & Push R devel images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rocker-org/rocker-versioned2",
+      "status": "candidate",
+      "text": "Build & Push R devel images"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17722,
+      "status": "candidate",
+      "text": "progress"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17678,
+      "status": "candidate",
+      "text": "development"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17517,
+      "status": "candidate",
+      "text": "advancement"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17517,
+      "status": "candidate",
+      "text": "archive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17517,
+      "status": "candidate",
+      "text": "assignment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build & Push R devel images",
+  "concept_id": "build-push-r-devel-images",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/devel.yml",
+      "source_repo": "rocker-org/rocker-versioned2"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build & Push R devel images",
+      "sense_id": "build-push-r-devel-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

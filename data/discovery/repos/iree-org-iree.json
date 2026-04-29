@@ -66,7 +66,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "component": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -76,7 +76,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "component": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -91,7 +91,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "component": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -237,7 +237,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "iree-org/iree",
-      "target": "hendrikmuhs/ccache-action@33522472633dbd32578e909b315f5ee43ba878ce",
+      "target": "hendrikmuhs/ccache-action@d62db5f07c26379fc4b4e0916f098a92573c3b03",
       "target_type": "component"
     },
     {
@@ -409,7 +409,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T18:47:09.599444+00:00",
+  "fetched_at": "2026-04-29T20:41:57.289173+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -461,8 +461,8 @@
     "full_name": "iree-org/iree",
     "html_url": "https://github.com/iree-org/iree",
     "language": "C++",
-    "pushed_at": "2026-04-23T18:44:40Z",
-    "stargazers_count": 3731,
+    "pushed_at": "2026-04-29T20:31:19Z",
+    "stargazers_count": 3743,
     "topics": [
       "compiler",
       "cuda",
@@ -476,7 +476,7 @@
       "tensorflow",
       "vulkan"
     ],
-    "updated_at": "2026-04-23T18:31:03Z"
+    "updated_at": "2026-04-29T20:26:38Z"
   },
   "repo_links": [],
   "terms": [

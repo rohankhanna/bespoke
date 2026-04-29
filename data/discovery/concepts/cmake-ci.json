@@ -31,6 +31,18 @@
       "source_repo": "pantoniou/libfyaml",
       "status": "candidate-context",
       "text": "CMake CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/esp-idf-template",
+      "status": "candidate-context",
+      "text": "A \"Hello, world!\" template of a Rust binary crate for the ESP-IDF framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-template",
+      "status": "candidate-context",
+      "text": "CMake CI"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +55,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "pantoniou/libfyaml",
+      "status": "candidate",
+      "text": "CMake CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/esp-idf-template",
       "status": "candidate",
       "text": "CMake CI"
     }
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/cmake.yaml",
       "source_repo": "pantoniou/libfyaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci_cmake.yml",
+      "source_repo": "esp-rs/esp-idf-template"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

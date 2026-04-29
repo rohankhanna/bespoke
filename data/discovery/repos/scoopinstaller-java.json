@@ -1,0 +1,466 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "potatoqualitee/psmodulecache@ee5e9494714abf56f6efbfa51527b2aec5c761b8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "ScoopInstaller/GithubActions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "ojdkbuild/ojdkbuild",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "potatoqualitee/psmodulecache@ee5e9494714abf56f6efbfa51527b2aec5c761b8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "Excavator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "Commented Pull Request",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "ScoopInstaller/GithubActions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ScoopInstaller/Java",
+      "target": "Pull Requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "amazon-corretto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "bellsoft-liberica",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "eclipse-temurin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "ibm-semeru",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "jdk11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "jdk17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "jdk8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "microsoft-jdk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "ojdkbuild",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "oracle-java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "sapmachine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "scoop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "scoop-bucket",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "scoop-java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java",
+      "target": "zulu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:53:59.912350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1050
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1137
+    },
+    {
+      "path": ".github/workflows/excavator.yml",
+      "size": 473
+    },
+    {
+      "path": ".github/workflows/issue_comment.yml",
+      "size": 552
+    },
+    {
+      "path": ".github/workflows/issues.yml",
+      "size": 619
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 482
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\ud83d\udce6 A bucket for Scoop, for Oracle Java, OpenJDK, Eclipse Temurin, IBM Semeru, Zulu, ojdkbuild, Amazon Corretto, BellSoft Liberica, SapMachine and Microsoft JDK.",
+    "fork": false,
+    "full_name": "ScoopInstaller/Java",
+    "html_url": "https://github.com/ScoopInstaller/Java",
+    "language": "PowerShell",
+    "pushed_at": "2026-04-29T14:28:57Z",
+    "stargazers_count": 308,
+    "topics": [
+      "amazon-corretto",
+      "bellsoft-liberica",
+      "eclipse-temurin",
+      "ibm-semeru",
+      "java",
+      "jdk",
+      "jdk11",
+      "jdk17",
+      "jdk8",
+      "microsoft-jdk",
+      "ojdkbuild",
+      "oracle-java",
+      "sapmachine",
+      "scoop",
+      "scoop-bucket",
+      "scoop-java",
+      "zulu"
+    ],
+    "updated_at": "2026-04-29T14:31:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ojdkbuild/ojdkbuild",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Excavator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/excavator.yml",
+      "term": "Excavator"
+    },
+    {
+      "context_snippet": "Commented Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "term": "Commented Pull Request"
+    },
+    {
+      "context_snippet": "Issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issues.yml",
+      "term": "Issues"
+    },
+    {
+      "context_snippet": "Pull Requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Pull Requests"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon-corretto"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bellsoft-liberica"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse-temurin"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ibm-semeru"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jdk11"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jdk17"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jdk8"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-jdk"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ojdkbuild"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oracle-java"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sapmachine"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop-bucket"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scoop-java"
+    },
+    {
+      "context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zulu"
+    }
+  ]
+}

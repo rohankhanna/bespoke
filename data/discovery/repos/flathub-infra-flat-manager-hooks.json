@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flathub-infra/flat-manager-hooks",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "flathub-infra/flat-manager-hooks",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flathub-infra/flat-manager-hooks",
+      "target": "flat-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flathub-infra/flat-manager-hooks",
+      "target": "flathub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flathub-infra/flat-manager-hooks",
+      "target": "flatpak",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:54:25.678764+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1024
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 552
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 653
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Hooks for integrating Flathub's backend with flat-manager",
+    "fork": false,
+    "full_name": "flathub-infra/flat-manager-hooks",
+    "html_url": "https://github.com/flathub-infra/flat-manager-hooks",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T19:41:41Z",
+    "stargazers_count": 5,
+    "topics": [
+      "flat-manager",
+      "flathub",
+      "flatpak"
+    ],
+    "updated_at": "2026-04-29T19:41:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a collection of scripts intended to integrate Flathub's backend with its flat-manager instance. It uses the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flat-manager"
+    },
+    {
+      "context_snippet": "This is a collection of scripts intended to integrate Flathub's backend with its flat-manager instance. It uses the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flathub"
+    },
+    {
+      "context_snippet": "This is a collection of scripts intended to integrate Flathub's backend with its flat-manager instance. It uses the",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flatpak"
+    }
+  ]
+}

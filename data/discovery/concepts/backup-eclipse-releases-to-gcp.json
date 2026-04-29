@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Backup Eclipse Releases to GCP"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-projects/spring-tools",
+      "status": "candidate-context",
+      "text": "The next generation of tooling for Spring Boot, including support for Cloud Foundry manifest files, Concourse CI pipeline definitions, BOSH deployment manifests, and more... - Available for Visual Studio Code, Cursor, Eclipse, and Theia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-tools",
+      "status": "candidate-context",
+      "text": "Backup Eclipse Releases to GCP"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-tools",
+      "status": "candidate",
+      "text": "Backup Eclipse Releases to GCP"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21483,
+      "status": "candidate",
+      "text": "hypothecate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21230,
+      "status": "candidate",
+      "text": "clear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21230,
+      "status": "candidate",
+      "text": "enter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21230,
+      "status": "candidate",
+      "text": "header"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21230,
+      "status": "candidate",
+      "text": "mrs"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Backup Eclipse Releases to GCP",
+  "concept_id": "backup-eclipse-releases-to-gcp",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/backup-eclipse-releases-to-gcp.yml",
+      "source_repo": "spring-projects/spring-tools"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backup Eclipse Releases to GCP",
+      "sense_id": "backup-eclipse-releases-to-gcp#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

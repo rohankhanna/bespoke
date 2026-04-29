@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly Docker Image Build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/pie",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 The PHP Installer for Extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/pie",
+      "status": "candidate-context",
+      "text": "\"Nightly Docker Image Build\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/pie",
+      "status": "candidate",
+      "text": "\"Nightly Docker Image Build\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22413,
+      "status": "candidate",
+      "text": "workingman"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22268,
+      "status": "candidate",
+      "text": "elf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22268,
+      "status": "candidate",
+      "text": "mac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22268,
+      "status": "candidate",
+      "text": "miner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21580,
+      "status": "candidate",
+      "text": "dream"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly Docker Image Build",
+  "concept_id": "nightly-docker-image-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docker-nightly-image-push.yml",
+      "source_repo": "php/pie"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Docker Image Build",
+      "sense_id": "nightly-docker-image-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

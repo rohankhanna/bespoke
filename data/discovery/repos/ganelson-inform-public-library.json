@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:48:52.293420+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3439
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The server side for the Inform Public Library.",
+    "fork": false,
+    "full_name": "ganelson/inform-public-library",
+    "html_url": "https://github.com/ganelson/inform-public-library",
+    "language": null,
+    "pushed_at": "2024-01-18T21:35:45Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2026-03-11T00:17:17Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -14,16 +14,9 @@
       "source_repo": "StarsfieldAI/R1-V",
       "target": "qwenlm/qwen2.5-vl",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "StarsfieldAI/R1-V",
-      "target": "lizw14/super-clevr",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T12:34:54.859689+00:00",
+  "fetched_at": "2026-04-29T20:49:21.747431+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -40,19 +33,14 @@
     "html_url": "https://github.com/StarsfieldAI/R1-V",
     "language": "Python",
     "pushed_at": "2025-05-19T16:32:41Z",
-    "stargazers_count": 4055,
+    "stargazers_count": 4056,
     "topics": [],
-    "updated_at": "2026-04-22T16:39:57Z"
+    "updated_at": "2026-04-29T06:11:09Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "deep-agent/r1-v",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lizw14/super-clevr",
       "source_file": "README.md"
     },
     {

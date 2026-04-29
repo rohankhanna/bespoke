@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "byteps/examples",
+      "target": "dmlc/gluon-nlp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "byteps/examples",
+      "target": "znxlwm/ugatit-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:45:34.656579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1817
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BytePS examples (Vision, NLP, GAN, etc)",
+    "fork": false,
+    "full_name": "byteps/examples",
+    "html_url": "https://github.com/byteps/examples",
+    "language": "Python",
+    "pushed_at": "2022-11-24T11:19:36Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2024-06-18T12:03:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dmlc/gluon-nlp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "znxlwm/ugatit-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

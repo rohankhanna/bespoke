@@ -163,6 +163,42 @@
       "source_repo": "donderom/llm4s",
       "status": "candidate-context",
       "text": "[![Maven Central Version](https://img.shields.io/maven-central/v/com.donderom/llm4s_3?style=flat-square&logo=scala&color=dbf1ff)](https://central.sonatype.com/artifact/com.donderom/llm4s_3)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scalameta/nvim-metals",
+      "status": "candidate-context",
+      "text": "A Metals plugin for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalameta/nvim-metals",
+      "status": "candidate-context",
+      "text": "![nvim-metals logo](https://i.imgur.com/7gqEQOi.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scala-interop/slinc",
+      "status": "candidate-context",
+      "text": "Scala <-> C interop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scala-interop/slinc",
+      "status": "candidate-context",
+      "text": "![workflow status](https://github.com/markehammons/slinc/actions/workflows/ci.yml/badge.svg)![Maven Central](https://img.shields.io/maven-central/v/fr.hammons/slinc-core_3)[![codecov](https://codecov.io/gh/markehammons/slinc/branch/master/graph/badge.svg?token=MSTGFQYNXI)](https\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/BigDL",
+      "status": "candidate-context",
+      "text": "BigDL: Distributed TensorFlow, Keras and PyTorch on Apache Spark/Flink & Ray"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/BigDL",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +279,24 @@
       "source_repo": "donderom/llm4s",
       "status": "candidate",
       "text": "[![Maven Central Version](https://img.shields.io/maven-central/v/com.donderom/llm4s_3?style=flat-square&logo=scala&color=dbf1ff)](https://central.sonatype.com/artifact/com.donderom/llm4s_3)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scalameta/nvim-metals",
+      "status": "candidate",
+      "text": "![nvim-metals logo](https://i.imgur.com/7gqEQOi.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scala-interop/slinc",
+      "status": "candidate",
+      "text": "![workflow status](https://github.com/markehammons/slinc/actions/workflows/ci.yml/badge.svg)![Maven Central](https://img.shields.io/maven-central/v/fr.hammons/slinc-core_3)[![codecov](https://codecov.io/gh/markehammons/slinc/branch/master/graph/badge.svg?token=MSTGFQYNXI)](https\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/BigDL",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
     }
   ],
   "candidate_related_terms": [
@@ -364,11 +418,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "donderom/llm4s"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-scalajs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "scalameta/nvim-metals"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "scala-interop/slinc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "intel/BigDL"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,12 +1,42 @@
 {
   "component": "unifiedjs/beep-boop-beta@main",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/bb.yml",
       "source_repo": "remarkjs/remark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "micromark/micromark"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "rehypejs/rehype"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "rehypejs/rehype-highlight"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "syntax-tree/hast"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "syntax-tree/mdast"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "unifiedjs/unified"
     }
   ]
 }

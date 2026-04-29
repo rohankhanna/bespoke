@@ -1,0 +1,12 @@
+{
+  "component": "gittools/actions/gitversion/execute@v3.1.1",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_beta.yml",
+      "source_repo": "belav/csharpier"
+    }
+  ]
+}

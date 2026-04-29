@@ -483,6 +483,30 @@
       "source_repo": "rest-sh/restish",
       "status": "candidate-context",
       "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/operator",
+      "status": "candidate-context",
+      "text": "Simple Kubernetes Operator for MinIO clusters :computer:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/operator",
+      "status": "candidate-context",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "status": "candidate-context",
+      "text": "Collects many small inserts to ClickHouse and send in big inserts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "status": "candidate-context",
+      "text": "goreleaser"
     }
   ],
   "candidate_glosses": [
@@ -711,6 +735,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rest-sh/restish",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/operator",
+      "status": "candidate",
+      "text": "goreleaser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikepan/clickhouse-bulk",
       "status": "candidate",
       "text": "goreleaser"
     }
@@ -984,11 +1020,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release.yaml",
       "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "minio/operator"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "nikepan/clickhouse-bulk"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "rest-sh/restish"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

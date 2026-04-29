@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "namespace"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locize/locize-cli",
+      "status": "candidate-context",
+      "text": "locize cli to import / export locales, add / edit / remove, sync segments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-cli",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/locize/locize-cli/workflows/node/badge.svg)](https://github.com/locize/locize-cli/actions?query=workflow%3Anode)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-cli",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/locize/locize-cli/workflows/node/badge.svg)](https://github.com/locize/locize-cli/actions?query=workflow%3Anode)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962678,
+      "status": "candidate",
+      "text": "odbc"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29887918,
+      "status": "candidate",
+      "text": "emit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29772441,
+      "status": "candidate",
+      "text": "space"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19972040,
+      "status": "candidate",
+      "text": "namespaces"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19972039,
+      "status": "candidate",
+      "text": "scope"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "namespace",
+  "concept_id": "namespace",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "locize/locize-cli"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "namespace",
+      "sense_id": "namespace#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

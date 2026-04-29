@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/KILT",
+      "target": "u-alberta/wned",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/KILT",
+      "target": "facebookresearch/blink",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:45:20.868038+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10260
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Library for Knowledge Intensive Language Tasks",
+    "fork": false,
+    "full_name": "facebookresearch/KILT",
+    "html_url": "https://github.com/facebookresearch/KILT",
+    "language": "Python",
+    "pushed_at": "2022-03-31T11:01:39Z",
+    "stargazers_count": 971,
+    "topics": [],
+    "updated_at": "2026-04-27T08:19:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/blink",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "u-alberta/wned",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

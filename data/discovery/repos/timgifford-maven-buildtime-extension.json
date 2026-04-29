@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:43:43.857211+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Maven build time extension that displays the duration for each goal that is run during your build",
+    "fork": false,
+    "full_name": "timgifford/maven-buildtime-extension",
+    "html_url": "https://github.com/timgifford/maven-buildtime-extension",
+    "language": "Java",
+    "pushed_at": "2024-08-07T18:19:01Z",
+    "stargazers_count": 134,
+    "topics": [],
+    "updated_at": "2026-03-23T08:42:20Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

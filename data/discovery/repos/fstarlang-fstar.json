@@ -1,0 +1,954 @@
+{
+  "components": [
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "mtzguido/set-opam-env@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-opam.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-opam.yml"
+    },
+    {
+      "component": "mtzguido/set-opam-env@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-packages.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-packages.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-packages.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-packages.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-src.yml"
+    },
+    {
+      "component": "actions/cache/restore@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-src.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-src.yml"
+    },
+    {
+      "component": "actions/cache/save@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-src.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-src.yml"
+    },
+    {
+      "component": "cygwin/cygwin-install-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml"
+    },
+    {
+      "component": "mtzguido/set-opam-env@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/gci-upload@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/set-opam-env@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/gci-download@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/set-opam-env@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/gci-download@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/set-opam-env@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/gci-upload@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/set-opam-env@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/gci-download@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/set-opam-env@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/gci-download@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/set-opam-env@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/set-opam-env@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "mtzguido/set-opam-env@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FStarLang/FStar",
+      "target": "fstarlang/fstar-mode.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FStarLang/FStar",
+      "target": "fstarlang/karamel",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "FStarLang/FStar",
+      "target": "project-everest/vale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "mtzguido/set-opam-env@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "Benchmark Comparison",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "Build F* binaries (all archs)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "Build F* (Linux)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "Build F* (macos)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-opam.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-opam.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-opam.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "Build F* (opam)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-packages.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "mtzguido/set-opam-env@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-packages.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-packages.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-packages.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "Build F* packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-src.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-src.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/cache/restore@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-src.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-src.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/cache/save@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-src.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-src.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "Build F* (src)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "cygwin/cygwin-install-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "ocaml/setup-ocaml@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "Build F* (Windows)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "mtzguido/set-opam-env@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "mtzguido/gci-upload@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "mtzguido/gci-download@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-friends.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-friends.yml",
+      "source_repo": "FStarLang/FStar",
+      "target": "Check F* friends",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar",
+      "target": "c-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar",
+      "target": "dependent-types",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar",
+      "target": "dijkstra-monads",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar",
+      "target": "f-sharp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar",
+      "target": "fstar",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar",
+      "target": "interactive-theorem-proving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar",
+      "target": "program-proof",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar",
+      "target": "proof-assistant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar",
+      "target": "theorem-proving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar",
+      "target": "verification",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:53:01.143557+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3652
+    },
+    {
+      "path": ".github/workflows/bench.yml",
+      "size": 6603
+    },
+    {
+      "path": ".github/workflows/build-all.yml",
+      "size": 553
+    },
+    {
+      "path": ".github/workflows/build-linux.yml",
+      "size": 3248
+    },
+    {
+      "path": ".github/workflows/build-macos.yml",
+      "size": 2820
+    },
+    {
+      "path": ".github/workflows/build-opam.yml",
+      "size": 1072
+    },
+    {
+      "path": ".github/workflows/build-packages.yml",
+      "size": 1246
+    },
+    {
+      "path": ".github/workflows/build-src.yml",
+      "size": 2301
+    },
+    {
+      "path": ".github/workflows/build-windows.yml",
+      "size": 6357
+    },
+    {
+      "path": ".github/workflows/check-friends.yml",
+      "size": 9842
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Proof-oriented Programming Language",
+    "fork": false,
+    "full_name": "FStarLang/FStar",
+    "html_url": "https://github.com/FStarLang/FStar",
+    "language": "F*",
+    "pushed_at": "2026-04-29T20:33:52Z",
+    "stargazers_count": 3014,
+    "topics": [
+      "c-language",
+      "dependent-types",
+      "dijkstra-monads",
+      "f-sharp",
+      "fstar",
+      "interactive-theorem-proving",
+      "ocaml",
+      "program-proof",
+      "programming-language",
+      "proof-assistant",
+      "smt",
+      "theorem-proving",
+      "verification"
+    ],
+    "updated_at": "2026-04-29T20:33:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fstarlang/fstar-mode.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fstarlang/karamel",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-everest/vale",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Benchmark Comparison",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bench.yml",
+      "term": "Benchmark Comparison"
+    },
+    {
+      "context_snippet": "Build F* binaries (all archs)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-all.yml",
+      "term": "Build F* binaries (all archs)"
+    },
+    {
+      "context_snippet": "Build F* (Linux)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-linux.yml",
+      "term": "Build F* (Linux)"
+    },
+    {
+      "context_snippet": "Build F* (macos)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-macos.yml",
+      "term": "Build F* (macos)"
+    },
+    {
+      "context_snippet": "Build F* (opam)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-opam.yml",
+      "term": "Build F* (opam)"
+    },
+    {
+      "context_snippet": "Build F* packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-packages.yml",
+      "term": "Build F* packages"
+    },
+    {
+      "context_snippet": "Build F* (src)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-src.yml",
+      "term": "Build F* (src)"
+    },
+    {
+      "context_snippet": "Build F* (Windows)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-windows.yml",
+      "term": "Build F* (Windows)"
+    },
+    {
+      "context_snippet": "Check F* friends",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-friends.yml",
+      "term": "Check F* friends"
+    },
+    {
+      "context_snippet": "F*: A Proof-oriented Programming Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-language"
+    },
+    {
+      "context_snippet": "F*: A Proof-oriented Programming Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dependent-types"
+    },
+    {
+      "context_snippet": "F*: A Proof-oriented Programming Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dijkstra-monads"
+    },
+    {
+      "context_snippet": "F*: A Proof-oriented Programming Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "f-sharp"
+    },
+    {
+      "context_snippet": "F*: A Proof-oriented Programming Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fstar"
+    },
+    {
+      "context_snippet": "F*: A Proof-oriented Programming Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "interactive-theorem-proving"
+    },
+    {
+      "context_snippet": "F*: A Proof-oriented Programming Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "F*: A Proof-oriented Programming Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "program-proof"
+    },
+    {
+      "context_snippet": "F*: A Proof-oriented Programming Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    },
+    {
+      "context_snippet": "F*: A Proof-oriented Programming Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proof-assistant"
+    },
+    {
+      "context_snippet": "F*: A Proof-oriented Programming Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theorem-proving"
+    },
+    {
+      "context_snippet": "F*: A Proof-oriented Programming Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verification"
+    }
+  ]
+}

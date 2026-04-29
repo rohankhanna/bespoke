@@ -67,6 +67,18 @@
       "source_repo": "araffin/rl-tutorial-jnrr19",
       "status": "candidate-context",
       "text": "Stable-Baselines reinforcement learning tutorial for Journ\u00e9es Nationales de la Recherche en Robotique 2019."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Stable-Baselines-Team/rl-colab-notebooks",
+      "status": "candidate-context",
+      "text": "Colab notebooks part of the documentation of Stable Baselines reinforcement learning library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stable-Baselines-Team/rl-colab-notebooks",
+      "status": "candidate-context",
+      "text": "Colab notebooks part of the documentation of [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) reinforcement learning library"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "araffin/rl-tutorial-jnrr19",
       "status": "candidate",
       "text": "Stable-Baselines reinforcement learning tutorial for Journ\u00e9es Nationales de la Recherche en Robotique 2019."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Stable-Baselines-Team/rl-colab-notebooks",
+      "status": "candidate",
+      "text": "Colab notebooks part of the documentation of [Stable Baselines3](https://github.com/DLR-RM/stable-baselines3) reinforcement learning library"
     }
   ],
   "candidate_related_terms": [],
@@ -142,11 +160,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "araffin/rl-tutorial-jnrr19"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Stable-Baselines-Team/rl-colab-notebooks"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

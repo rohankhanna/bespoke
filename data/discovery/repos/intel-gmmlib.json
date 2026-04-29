@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:42:06.203710+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 4318
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "intel/gmmlib",
+    "html_url": "https://github.com/intel/gmmlib",
+    "language": "C++",
+    "pushed_at": "2026-03-25T05:04:19Z",
+    "stargazers_count": 191,
+    "topics": [],
+    "updated_at": "2026-04-24T21:04:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

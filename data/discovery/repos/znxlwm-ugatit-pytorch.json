@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "znxlwm/UGATIT-pytorch",
+      "target": "taki0112/ugatit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:49:24.795157+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official PyTorch implementation of U-GAT-IT: Unsupervised Generative Attentional Networks with Adaptive Layer-Instance Normalization for Image-to-Image Translation",
+    "fork": false,
+    "full_name": "znxlwm/UGATIT-pytorch",
+    "html_url": "https://github.com/znxlwm/UGATIT-pytorch",
+    "language": "Python",
+    "pushed_at": "2023-03-16T02:38:05Z",
+    "stargazers_count": 2546,
+    "topics": [],
+    "updated_at": "2026-04-23T08:56:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taki0112/ugatit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

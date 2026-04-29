@@ -4,13 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "abap2UI5-addons/sql-console",
-      "target": "marianfoo/ztoad",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "abap2UI5-addons/sql-console",
       "target": "abap2ui5-apps/sql-console",
       "target_type": "repository"
     },
@@ -211,6 +204,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "abap2UI5-addons/sql-console"
 }

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "kerberos-spnego"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wintoncode/vault-plugin-auth-kerberos",
+      "status": "candidate-context",
+      "text": "[DEPRECATED] Plugin for Hashicorp Vault enabling Kerberos authentication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wintoncode/vault-plugin-auth-kerberos",
+      "status": "candidate-context",
+      "text": "> :warning: **This repo is no longer maintained**: [It has been taken over by Hashicorp as an official plugin which you can find here](https://github.com/hashicorp/vault-plugin-auth-kerberos)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wintoncode/vault-plugin-auth-kerberos",
+      "status": "candidate",
+      "text": "> :warning: **This repo is no longer maintained**: [It has been taken over by Hashicorp as an official plugin which you can find here](https://github.com/hashicorp/vault-plugin-auth-kerberos)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "kerberos-spnego",
+  "concept_id": "kerberos-spnego",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "wintoncode/vault-plugin-auth-kerberos"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kerberos-spnego",
+      "sense_id": "kerberos-spnego#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

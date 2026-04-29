@@ -1,0 +1,94 @@
+{
+  "components": [
+    {
+      "component": "status-im/nimbus-common-workflow/.github/workflows/common.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nim-nat-traversal",
+      "target": "miniupnp/miniupnp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nim-nat-traversal",
+      "target": "miniupnp/libnatpmp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nim-nat-traversal",
+      "target": "arnetheduck/nim-result",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nim-nat-traversal",
+      "target": "status-im/nim-eth",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "status-im/nim-nat-traversal",
+      "target": "status-im/nimbus-common-workflow/.github/workflows/common.yml@main",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:48:00.414003+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2519
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 244
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Nim NAT traversal using wrappers for miniupnpc and libnatpmp",
+    "fork": false,
+    "full_name": "status-im/nim-nat-traversal",
+    "html_url": "https://github.com/status-im/nim-nat-traversal",
+    "language": "Nim",
+    "pushed_at": "2025-11-07T13:23:07Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2026-02-08T11:01:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arnetheduck/nim-result",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miniupnp/libnatpmp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "miniupnp/miniupnp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "status-im/nim-eth",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

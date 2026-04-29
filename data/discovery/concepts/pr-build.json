@@ -56,6 +56,48 @@
       "source_repo": "aws-observability/aws-otel-collector",
       "status": "candidate-context",
       "text": "PR Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-observability/aws-otel-test-framework",
+      "status": "candidate-context",
+      "text": "AWS Distro for OpenTelemetry Test Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-test-framework",
+      "status": "candidate-context",
+      "text": "PR Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spiffe/go-spiffe",
+      "status": "candidate-context",
+      "text": "Golang library for SPIFFE support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/go-spiffe",
+      "status": "candidate-context",
+      "text": "PR Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spiffe/spire",
+      "status": "candidate-context",
+      "text": "The SPIFFE Runtime Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/spire",
+      "status": "candidate-context",
+      "text": "PR Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-otel/aws-otel.github.io",
+      "status": "candidate-context",
+      "text": "PR Build"
     }
   ],
   "candidate_glosses": [
@@ -80,6 +122,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws-observability/aws-otel-collector",
+      "status": "candidate",
+      "text": "PR Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-test-framework",
+      "status": "candidate",
+      "text": "PR Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/go-spiffe",
+      "status": "candidate",
+      "text": "PR Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/spire",
+      "status": "candidate",
+      "text": "PR Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-otel/aws-otel.github.io",
       "status": "candidate",
       "text": "PR Build"
     }
@@ -149,11 +215,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/PR-build.yml",
       "source_repo": "aws-observability/aws-otel-collector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr-build.yml",
+      "source_repo": "aws-observability/aws-otel-test-framework"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr_build.yaml",
+      "source_repo": "spiffe/go-spiffe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr_build.yaml",
+      "source_repo": "spiffe/spire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr.yml",
+      "source_repo": "aws-otel/aws-otel.github.io"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -31,6 +31,18 @@
       "source_repo": "hpcaitech/ColossalAI",
       "status": "candidate-context",
       "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detectRecog/CCPD",
+      "status": "candidate-context",
+      "text": "[ECCV 2018] CCPD: a diverse and well-annotated dataset for license plate detection and recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detectRecog/CCPD",
+      "status": "candidate-context",
+      "text": "(If you are benefited from this dataset, please cite our paper.)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "hpcaitech/ColossalAI",
       "status": "candidate",
       "text": "<div id=\"top\" align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detectRecog/CCPD",
+      "status": "candidate",
+      "text": "(If you are benefited from this dataset, please cite our paper.)"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +147,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "hpcaitech/ColossalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "detectRecog/CCPD"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

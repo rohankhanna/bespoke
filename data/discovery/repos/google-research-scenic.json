@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/scenic",
+      "target": "attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/scenic",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/scenic",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/scenic",
+      "target": "research",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/scenic",
+      "target": "transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google-research/scenic",
+      "target": "vision-transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:12.669223+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12142
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Scenic: A Jax Library for Computer Vision Research and Beyond",
+    "fork": false,
+    "full_name": "google-research/scenic",
+    "html_url": "https://github.com/google-research/scenic",
+    "language": "Python",
+    "pushed_at": "2026-04-24T06:56:10Z",
+    "stargazers_count": 3797,
+    "topics": [
+      "attention",
+      "computer-vision",
+      "deep-learning",
+      "jax",
+      "research",
+      "transformers",
+      "vision-transformer"
+    ],
+    "updated_at": "2026-04-29T16:34:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<div style=\"text-align: left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "research"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformers"
+    },
+    {
+      "context_snippet": "<div style=\"text-align: left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    }
+  ]
+}

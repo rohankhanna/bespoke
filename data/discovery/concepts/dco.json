@@ -55,6 +55,42 @@
       "source_repo": "jaegertracing/jaeger-idl",
       "status": "candidate-context",
       "text": "DCO"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spiffe/go-spiffe",
+      "status": "candidate-context",
+      "text": "Golang library for SPIFFE support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/go-spiffe",
+      "status": "candidate-context",
+      "text": "DCO"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spiffe/spire",
+      "status": "candidate-context",
+      "text": "The SPIFFE Runtime Environment"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/spire",
+      "status": "candidate-context",
+      "text": "DCO"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate-context",
+      "text": "Web UI for Jaeger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-ui",
+      "status": "candidate-context",
+      "text": "DCO"
     }
   ],
   "candidate_glosses": [
@@ -79,6 +115,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jaegertracing/jaeger-idl",
+      "status": "candidate",
+      "text": "DCO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/go-spiffe",
+      "status": "candidate",
+      "text": "DCO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spiffe/spire",
+      "status": "candidate",
+      "text": "DCO"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaegertracing/jaeger-ui",
       "status": "candidate",
       "text": "DCO"
     }
@@ -154,11 +208,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/dco_merge_group.yml",
       "source_repo": "jaegertracing/jaeger-idl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dco.yaml",
+      "source_repo": "spiffe/go-spiffe"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dco.yaml",
+      "source_repo": "spiffe/spire"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dco_merge_group.yml",
+      "source_repo": "jaegertracing/jaeger-ui"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

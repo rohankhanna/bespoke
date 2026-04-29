@@ -1,0 +1,302 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shibing624/similarities",
+      "target": "liuhuanyong/sentencesimilarity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shibing624/similarities",
+      "target": "qwertyforce/image_search",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shibing624/similarities",
+      "target": "johannesbuchner/imagehash",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "shibing624/similarities",
+      "target": "ofa-sys/chinese-clip",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "shibing624/similarities",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "shibing624/similarities",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "shibing624/similarities",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "shibing624/similarities",
+      "target": "Linux build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/similarities",
+      "target": "bm25",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/similarities",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/similarities",
+      "target": "faiss",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/similarities",
+      "target": "image-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/similarities",
+      "target": "image-similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/similarities",
+      "target": "matching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/similarities",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/similarities",
+      "target": "search-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/similarities",
+      "target": "similarity",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/similarities",
+      "target": "similarity-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "shibing624/similarities",
+      "target": "text-matching",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:50:44.189337+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9557
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110
+    },
+    {
+      "path": ".github/workflows/ubuntu.yml",
+      "size": 1576
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Similarities: a toolkit for similarity calculation and semantic search. \u76f8\u4f3c\u5ea6\u8ba1\u7b97\u3001\u5339\u914d\u641c\u7d22\u5de5\u5177\u5305\uff0c\u652f\u6301\u4ebf\u7ea7\u6570\u636e\u6587\u641c\u6587\u3001\u6587\u641c\u56fe\u3001\u56fe\u641c\u56fe\uff0cpython3\u5f00\u53d1\uff0c\u5f00\u7bb1\u5373\u7528\u3002",
+    "fork": false,
+    "full_name": "shibing624/similarities",
+    "html_url": "https://github.com/shibing624/similarities",
+    "language": "Python",
+    "pushed_at": "2026-03-05T09:05:43Z",
+    "stargazers_count": 902,
+    "topics": [
+      "bm25",
+      "deep-learning",
+      "faiss",
+      "image-search",
+      "image-similarity",
+      "matching",
+      "nlp",
+      "pytorch",
+      "search-engine",
+      "similarity",
+      "similarity-search",
+      "text-matching"
+    ],
+    "updated_at": "2026-04-18T10:19:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "johannesbuchner/imagehash",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liuhuanyong/sentencesimilarity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ofa-sys/chinese-clip",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qwertyforce/image_search",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Linux build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "term": "Linux build"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bm25"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faiss"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-search"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-similarity"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matching"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "search-engine"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "similarity"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "similarity-search"
+    },
+    {
+      "context_snippet": "[**\ud83c\udde8\ud83c\uddf3\u4e2d\u6587**](https://github.com/shibing624/similarities/blob/main/README.md) | [**\ud83c\udf10English**](https://github.com/shibing624/similarities/blob/main/README_EN.md) | [**\ud83d\udcd6\u6587\u6863/Docs**](https://github.com/shibing624/similarities/wiki) | [**\ud83e\udd16\u6a21\u578b/Models**](https://huggingface.co/shibing624)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-matching"
+    }
+  ]
+}

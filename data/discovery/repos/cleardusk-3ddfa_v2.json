@@ -1,0 +1,199 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2",
+      "target": "3d-face",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2",
+      "target": "3d-face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2",
+      "target": "3d-landmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2",
+      "target": "3dmm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2",
+      "target": "alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2",
+      "target": "eccv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2",
+      "target": "eccv-2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2",
+      "target": "face-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2",
+      "target": "onnx",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2",
+      "target": "single-image-reconstruction",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:43:27.437260+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 161
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The official PyTorch implementation of Towards Fast, Accurate and Stable 3D Dense Face Alignment, ECCV 2020.",
+    "fork": false,
+    "full_name": "cleardusk/3DDFA_V2",
+    "html_url": "https://github.com/cleardusk/3DDFA_V2",
+    "language": "Python",
+    "pushed_at": "2024-02-02T06:54:17Z",
+    "stargazers_count": 3127,
+    "topics": [
+      "3d",
+      "3d-face",
+      "3d-face-alignment",
+      "3d-landmarks",
+      "3dmm",
+      "alignment",
+      "computer-vision",
+      "eccv",
+      "eccv-2020",
+      "face-alignment",
+      "onnx",
+      "pytorch",
+      "single-image-reconstruction"
+    ],
+    "updated_at": "2026-04-29T05:05:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-face"
+    },
+    {
+      "context_snippet": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-face-alignment"
+    },
+    {
+      "context_snippet": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-landmarks"
+    },
+    {
+      "context_snippet": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3dmm"
+    },
+    {
+      "context_snippet": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "alignment"
+    },
+    {
+      "context_snippet": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eccv"
+    },
+    {
+      "context_snippet": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eccv-2020"
+    },
+    {
+      "context_snippet": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-alignment"
+    },
+    {
+      "context_snippet": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onnx"
+    },
+    {
+      "context_snippet": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-image-reconstruction"
+    }
+  ]
+}

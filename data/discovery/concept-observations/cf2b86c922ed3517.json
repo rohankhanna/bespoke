@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A tool for syncing a directory (AD, LDAP, Azure, G Suite, Okta) to an organization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Build](https://github.com/bitwarden/directory-connector/workflows/Build/badge.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Build](https://github.com/bitwarden/directory-connector/workflows/Build/badge.svg)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19757323,
+      "status": "candidate",
+      "text": "octa"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19757322,
+      "status": "candidate",
+      "text": "octile"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19757321,
+      "status": "candidate",
+      "text": "octans"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19757320,
+      "status": "candidate",
+      "text": "octant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19757319,
+      "status": "candidate",
+      "text": "octave"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "okta",
+      "sense_id": "okta#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "okta",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "okta",
+  "observation_id": "cf2b86c922ed3517",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "okta",
+  "source_context_snippet": "![Build](https://github.com/bitwarden/directory-connector/workflows/Build/badge.svg)",
+  "source_file": null,
+  "source_repo": "bitwarden/directory-connector",
+  "source_repo_description": "A tool for syncing a directory (AD, LDAP, Azure, G Suite, Okta) to an organization."
+}

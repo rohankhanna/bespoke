@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Python extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Community Feedback Auto Comment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Community Feedback Auto Comment"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28049,
+      "status": "candidate",
+      "text": "simulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27995,
+      "status": "candidate",
+      "text": "order"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27857,
+      "status": "candidate",
+      "text": "circulate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27857,
+      "status": "candidate",
+      "text": "circulated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27857,
+      "status": "candidate",
+      "text": "rear"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Community Feedback Auto Comment",
+      "sense_id": "community-feedback-auto-comment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "community-feedback-auto-comment",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "community-feedback-auto-comment",
+  "observation_id": "9ce30e04c7c70020",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Community Feedback Auto Comment",
+  "source_context_snippet": "Community Feedback Auto Comment",
+  "source_file": ".github/workflows/community-feedback-auto-comment.yml",
+  "source_repo": "microsoft/vscode-python",
+  "source_repo_description": "Python extension for Visual Studio Code"
+}

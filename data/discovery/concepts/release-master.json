@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Release (master)"
+    "Release (master)",
+    "Release-Master"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "yt-dlp/yt-dlp",
       "status": "candidate-context",
       "text": "Release (master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ava-labs/avalanche-dapp-sdks",
+      "status": "candidate-context",
+      "text": "Working example of a dapp working with core extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ava-labs/avalanche-dapp-sdks",
+      "status": "candidate-context",
+      "text": "Release-Master"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "yt-dlp/yt-dlp",
       "status": "candidate",
       "text": "Release (master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ava-labs/avalanche-dapp-sdks",
+      "status": "candidate",
+      "text": "Release-Master"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/release-master.yml",
       "source_repo": "yt-dlp/yt-dlp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ava-labs/avalanche-dapp-sdks"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

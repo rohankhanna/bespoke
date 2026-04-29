@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:47:15.082034+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PyTorch implementation of Contrastive Learning methods",
+    "fork": false,
+    "full_name": "HobbitLong/PyContrast",
+    "html_url": "https://github.com/HobbitLong/PyContrast",
+    "language": "Python",
+    "pushed_at": "2023-10-04T01:06:20Z",
+    "stargazers_count": 1996,
+    "topics": [],
+    "updated_at": "2026-04-22T08:56:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

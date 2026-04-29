@@ -1,0 +1,193 @@
+{
+  "components": [
+    {
+      "component": "jdx/mise-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lervag/vimtex",
+      "target": "arzg/vim-colors-xcode",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lervag/vimtex",
+      "target": "aclements/latexrun",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lervag/vimtex",
+      "target": "cereda/arara",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lervag/vimtex",
+      "target": "jakewvincent/texmagic.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "lervag/vimtex",
+      "target": "jdx/mise-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "lervag/vimtex",
+      "target": "actions/checkout@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "lervag/vimtex",
+      "target": "CI tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lervag/vimtex",
+      "target": "filetype-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lervag/vimtex",
+      "target": "latex",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lervag/vimtex",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lervag/vimtex",
+      "target": "vim-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "lervag/vimtex",
+      "target": "vimtex",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:57:33.703424+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15707
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1311
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "VimTeX: A modern Vim and neovim filetype plugin for LaTeX files.",
+    "fork": false,
+    "full_name": "lervag/vimtex",
+    "html_url": "https://github.com/lervag/vimtex",
+    "language": "TeX",
+    "pushed_at": "2026-04-19T09:14:58Z",
+    "stargazers_count": 6247,
+    "topics": [
+      "filetype-plugin",
+      "latex",
+      "neovim",
+      "tex",
+      "vim",
+      "vim-plugin",
+      "vimtex"
+    ],
+    "updated_at": "2026-04-29T19:34:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aclements/latexrun",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arzg/vim-colors-xcode",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cereda/arara",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jakewvincent/texmagic.nvim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "CI tests"
+    },
+    {
+      "context_snippet": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "filetype-plugin"
+    },
+    {
+      "context_snippet": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "latex"
+    },
+    {
+      "context_snippet": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-plugin"
+    },
+    {
+      "context_snippet": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimtex"
+    }
+  ]
+}

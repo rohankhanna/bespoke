@@ -1,0 +1,237 @@
+{
+  "components": [
+    {
+      "component": "array-slice",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "array-unique",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "braces",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "benchmarked",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "chalk",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "matched",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "should",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "arr-flatten",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/expand-braces",
+      "target": "jonschlinkert/braces",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/expand-braces",
+      "target": "jonschlinkert/is-glob",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/expand-braces",
+      "target": "jonschlinkert/expand-braces",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "micromatch/expand-braces",
+      "target": "assemble/verb-cli",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-braces",
+      "target": "array-slice",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-braces",
+      "target": "array-unique",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-braces",
+      "target": "braces",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-braces",
+      "target": "benchmarked",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-braces",
+      "target": "chalk",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-braces",
+      "target": "matched",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-braces",
+      "target": "should",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "micromatch/expand-braces",
+      "target": "arr-flatten",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-braces",
+      "target": "brace-expansion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-braces",
+      "target": "braces",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-braces",
+      "target": "glob",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "micromatch/expand-braces",
+      "target": "jonschlinkert",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:50:11.374046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2089
+    },
+    {
+      "path": "package.json",
+      "size": 1293
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Wrapper for [braces] to enable brace expansion for arrays of patterns.",
+    "fork": false,
+    "full_name": "micromatch/expand-braces",
+    "html_url": "https://github.com/micromatch/expand-braces",
+    "language": "JavaScript",
+    "pushed_at": "2024-01-23T12:50:05Z",
+    "stargazers_count": 8,
+    "topics": [
+      "brace-expansion",
+      "braces",
+      "glob",
+      "javascript",
+      "jonschlinkert"
+    ],
+    "updated_at": "2024-02-23T14:08:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "assemble/verb-cli",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/braces",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/expand-braces",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/is-glob",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Wrapper for [braces] to enable brace expansion for arrays of patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "brace-expansion"
+    },
+    {
+      "context_snippet": "> Wrapper for [braces] to enable brace expansion for arrays of patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "braces"
+    },
+    {
+      "context_snippet": "> Wrapper for [braces] to enable brace expansion for arrays of patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glob"
+    },
+    {
+      "context_snippet": "> Wrapper for [braces] to enable brace expansion for arrays of patterns.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jonschlinkert"
+    }
+  ]
+}

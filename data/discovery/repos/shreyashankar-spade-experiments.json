@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:53:34.744181+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1077
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 513
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Experiments to assess SPADE on different LLM pipelines.",
+    "fork": false,
+    "full_name": "shreyashankar/spade-experiments",
+    "html_url": "https://github.com/shreyashankar/spade-experiments",
+    "language": "Python",
+    "pushed_at": "2024-04-07T03:24:50Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2025-05-31T00:32:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

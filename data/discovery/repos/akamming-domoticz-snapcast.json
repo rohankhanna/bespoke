@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:38:50.733116+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1270
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "python snapcast plugin for domoticz",
+    "fork": false,
+    "full_name": "akamming/domoticz-snapcast",
+    "html_url": "https://github.com/akamming/domoticz-snapcast",
+    "language": "Python",
+    "pushed_at": "2023-11-03T21:14:55Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-06-14T14:16:48Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

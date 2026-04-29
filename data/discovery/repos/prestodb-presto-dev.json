@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dep-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dep-image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dep-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dep-image.yml"
+    },
+    {
+      "component": "jlumbroso/free-disk-space@v1.3.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev-image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev-image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dep-image.yml",
+      "source_repo": "prestodb/presto-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dep-image.yml",
+      "source_repo": "prestodb/presto-dev",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dep-image.yml",
+      "source_repo": "prestodb/presto-dev",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-dep-image.yml",
+      "source_repo": "prestodb/presto-dev",
+      "target": "Publish Dependency Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev-image.yml",
+      "source_repo": "prestodb/presto-dev",
+      "target": "jlumbroso/free-disk-space@v1.3.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev-image.yml",
+      "source_repo": "prestodb/presto-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-dev-image.yml",
+      "source_repo": "prestodb/presto-dev",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-dev-image.yml",
+      "source_repo": "prestodb/presto-dev",
+      "target": "Publish Dev Image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:53:19.221822+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11470
+    },
+    {
+      "path": ".github/workflows/publish-dep-image.yml",
+      "size": 3059
+    },
+    {
+      "path": ".github/workflows/publish-dev-image.yml",
+      "size": 2715
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Presto/Prestissimo Dev Container",
+    "fork": false,
+    "full_name": "prestodb/presto-dev",
+    "html_url": "https://github.com/prestodb/presto-dev",
+    "language": "Shell",
+    "pushed_at": "2026-01-06T17:27:12Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-01-06T17:27:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Publish Dependency Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-dep-image.yml",
+      "term": "Publish Dependency Image"
+    },
+    {
+      "context_snippet": "Publish Dev Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-dev-image.yml",
+      "term": "Publish Dev Image"
+    }
+  ]
+}

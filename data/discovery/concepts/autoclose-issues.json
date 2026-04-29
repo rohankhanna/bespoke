@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Autoclose Issues"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kennethreitz/requests",
+      "status": "candidate-context",
+      "text": "A simple, yet elegant HTTP library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kennethreitz/requests",
+      "status": "candidate-context",
+      "text": "'Autoclose Issues'"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psf/requests",
+      "status": "candidate-context",
+      "text": "A simple, yet elegant, HTTP library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/requests",
+      "status": "candidate-context",
+      "text": "'Autoclose Issues'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kennethreitz/requests",
+      "status": "candidate",
+      "text": "'Autoclose Issues'"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/requests",
+      "status": "candidate",
+      "text": "'Autoclose Issues'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "access"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "affairs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "anything"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "areas"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "arguments"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Autoclose Issues",
+  "concept_id": "autoclose-issues",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/close-issues.yml",
+      "source_repo": "kennethreitz/requests"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/close-issues.yml",
+      "source_repo": "psf/requests"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Autoclose Issues",
+      "sense_id": "autoclose-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

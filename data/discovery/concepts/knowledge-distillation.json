@@ -55,6 +55,42 @@
       "source_repo": "open-mmlab/mmrazor",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/DWPose",
+      "status": "candidate-context",
+      "text": "\"Effective Whole-body Pose Estimation with Two-stages Distillation\" (ICCV 2023, CV4Metaverse Workshop)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DWPose",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate-context",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from https://arxiv.org/abs/2106.05237."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate-context",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from the paper [Knowledge distillation:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Cream",
+      "status": "candidate-context",
+      "text": "This is a collection of our NAS and Vision Transformer work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Cream",
+      "status": "candidate-context",
+      "text": "***This is a collection of our NAS and Vision Transformer work***"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "open-mmlab/mmrazor",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DWPose",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from the paper [Knowledge distillation:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Cream",
+      "status": "candidate",
+      "text": "***This is a collection of our NAS and Vision Transformer work***"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +166,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "open-mmlab/mmrazor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DWPose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/FunMatch-Distillation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Cream"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

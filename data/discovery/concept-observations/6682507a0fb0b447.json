@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Chinese text normalization for speech processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Search for \"Text Normalization\"(TN) on Google and Github, you can hardly find open-source projects that are \"read-to-use\" for text normalization tasks. Instead, you find a bunch of NLP toolkits or frameworks that *supports* TN functionality. There is quite some work between \"sup\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Search for \"Text Normalization\"(TN) on Google and Github, you can hardly find open-source projects that are \"read-to-use\" for text normalization tasks. Instead, you find a bunch of NLP toolkits or frameworks that *supports* TN functionality. There is quite some work between \"sup\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021944,
+      "status": "candidate",
+      "text": "sparrow hawk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021943,
+      "status": "candidate",
+      "text": "eurasian sparrowhawk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021942,
+      "status": "candidate",
+      "text": "sparhawk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021941,
+      "status": "candidate",
+      "text": "spar-hawk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10021940,
+      "status": "candidate",
+      "text": "japanese sparrowhawk"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sparrowhawk",
+      "sense_id": "sparrowhawk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sparrowhawk",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sparrowhawk",
+  "observation_id": "6682507a0fb0b447",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "sparrowhawk",
+  "source_context_snippet": "Search for \"Text Normalization\"(TN) on Google and Github, you can hardly find open-source projects that are \"read-to-use\" for text normalization tasks. Instead, you find a bunch of NLP toolkits or frameworks that *supports* TN functionality. There is quite some work between \"sup\u2026",
+  "source_file": null,
+  "source_repo": "speechio/chinese_text_normalization",
+  "source_repo_description": "Chinese text normalization for speech processing"
+}

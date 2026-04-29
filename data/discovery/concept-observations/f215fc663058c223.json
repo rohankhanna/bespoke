@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "QQ\u673a\u5668\u4eba /\uff08\u5b9e\u9a8c\u6027\uff09\u5728Android\u4e0a\u8fd0\u884cMirai-console\uff0c\u652f\u6301\u63d2\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!--"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!--"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lua-script",
+      "sense_id": "lua-script#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "lua-script",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "lua-script",
+  "observation_id": "f215fc663058c223",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "lua-script",
+  "source_context_snippet": "<!--",
+  "source_file": null,
+  "source_repo": "mzdluo123/MiraiAndroid",
+  "source_repo_description": "QQ\u673a\u5668\u4eba /\uff08\u5b9e\u9a8c\u6027\uff09\u5728Android\u4e0a\u8fd0\u884cMirai-console\uff0c\u652f\u6301\u63d2\u4ef6"
+}

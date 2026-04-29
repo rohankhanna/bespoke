@@ -261,6 +261,54 @@
       "source_repo": "crev-dev/pip-crev",
       "status": "candidate-context",
       "text": "Publish docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielgatis/rembg",
+      "status": "candidate-context",
+      "text": "Rembg is a tool to remove images background"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgatis/rembg",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devgianlu/go-librespot",
+      "status": "candidate-context",
+      "text": "Yet another open source Spotify client, written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/go-librespot",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/std-training",
+      "status": "candidate-context",
+      "text": "Embedded Rust on Espressif training material."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/std-training",
+      "status": "candidate-context",
+      "text": "Publish Docker Image"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate-context",
+      "text": "\ud83d\udd75\ufe0f\u200d\u2640\ufe0f Validate schema, get schema change notifications, validate operations, find breaking changes, look for similar types, schema coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate-context",
+      "text": "Publish Docker image"
     }
   ],
   "candidate_glosses": [
@@ -389,6 +437,30 @@
       "source_repo": "crev-dev/pip-crev",
       "status": "candidate",
       "text": "Publish docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgatis/rembg",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/go-librespot",
+      "status": "candidate",
+      "text": "Publish Docker image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/std-training",
+      "status": "candidate",
+      "text": "Publish Docker Image"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-inspector",
+      "status": "candidate",
+      "text": "Publish Docker image"
     }
   ],
   "candidate_related_terms": [
@@ -660,11 +732,59 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/docker.yml",
       "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ChatGPTNextWeb/NextChat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish_docker.yml",
+      "source_repo": "danielgatis/rembg"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "devgianlu/go-librespot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish_docker_image.yml",
+      "source_repo": "github-linguist/linguist"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "web-platform-tests/wpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docker_image.yml",
+      "source_repo": "esp-rs/std-training"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "graphql-hive/graphql-inspector"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

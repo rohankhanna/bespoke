@@ -58,6 +58,30 @@
       "source_repo": "webgpu-native/webgpu-headers",
       "status": "candidate-context",
       "text": "compile"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tarsius/llama",
+      "status": "candidate-context",
+      "text": "Compact syntax for short lambda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tarsius/llama",
+      "status": "candidate-context",
+      "text": "Compile"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromark/micromark",
+      "status": "candidate-context",
+      "text": "small, safe, and great commonmark (optionally gfm, mdx) compliant markdown parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromark/micromark",
+      "status": "candidate-context",
+      "text": "micromark-mono"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +108,18 @@
       "source_repo": "webgpu-native/webgpu-headers",
       "status": "candidate",
       "text": "compile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tarsius/llama",
+      "status": "candidate",
+      "text": "Compile"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromark/micromark",
+      "status": "candidate",
+      "text": "micromark-mono"
     }
   ],
   "candidate_related_terms": [
@@ -187,11 +223,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/compile.yml",
       "source_repo": "webgpu-native/webgpu-headers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "tarsius/llama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromark/micromark"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Addons for use with Sumneko's Lua Language Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![Addons count](https://img.shields.io/github/directory-file-count/LuaLS/LLS-Addons/addons?label=Addons&type=dir&color=097aba)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![Addons count](https://img.shields.io/github/directory-file-count/LuaLS/LLS-Addons/addons?label=Addons&type=dir&color=097aba)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sumneko-lua",
+      "sense_id": "sumneko-lua#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "sumneko-lua",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "sumneko-lua",
+  "observation_id": "a171b21eaf43a9c8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "sumneko-lua",
+  "source_context_snippet": "![Addons count](https://img.shields.io/github/directory-file-count/LuaLS/LLS-Addons/addons?label=Addons&type=dir&color=097aba)",
+  "source_file": null,
+  "source_repo": "LuaLS/LLS-Addons",
+  "source_repo_description": "Addons for use with Sumneko's Lua Language Server"
+}

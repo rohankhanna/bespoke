@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "kaldi-asr"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "speechio/chinese_text_normalization",
+      "status": "candidate-context",
+      "text": "Chinese text normalization for speech processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechio/chinese_text_normalization",
+      "status": "candidate-context",
+      "text": "Search for \"Text Normalization\"(TN) on Google and Github, you can hardly find open-source projects that are \"read-to-use\" for text normalization tasks. Instead, you find a bunch of NLP toolkits or frameworks that *supports* TN functionality. There is quite some work between \"sup\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechio/chinese_text_normalization",
+      "status": "candidate",
+      "text": "Search for \"Text Normalization\"(TN) on Google and Github, you can hardly find open-source projects that are \"read-to-use\" for text normalization tasks. Instead, you find a bunch of NLP toolkits or frameworks that *supports* TN functionality. There is quite some work between \"sup\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "kaldi-asr",
+  "concept_id": "kaldi-asr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "speechio/chinese_text_normalization"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "kaldi-asr",
+      "sense_id": "kaldi-asr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -270,6 +270,90 @@
       "source_repo": "stx-labs/connect",
       "status": "candidate-context",
       "text": "pull-request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "A JavaScript implementation of a web browser without its graphical user interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "Pull request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "status": "candidate-context",
+      "text": "TrenchBroom for DOOM 3 (BFG)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "status": "candidate-context",
+      "text": "Pull request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate-context",
+      "text": "\u261d\ufe0fsend desktop notifications from your Rust app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate-context",
+      "text": "Pull request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seancorfield/honeysql",
+      "status": "candidate-context",
+      "text": "Turn Clojure data structures into SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/honeysql",
+      "status": "candidate-context",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seancorfield/next-jdbc",
+      "status": "candidate-context",
+      "text": "A modern low-level Clojure wrapper for JDBC-based access to databases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/next-jdbc",
+      "status": "candidate-context",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wevm/abitype",
+      "status": "candidate-context",
+      "text": "Strict TypeScript types for Ethereum ABIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wevm/abitype",
+      "status": "candidate-context",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelTC/Outlier_Suppression_Plus",
+      "status": "candidate-context",
+      "text": "Official implementation of the EMNLP23 paper: Outlier Suppression+: Accurate quantization of large language models by equivalent and optimal shifting and scaling"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/Outlier_Suppression_Plus",
+      "status": "candidate-context",
+      "text": "Pull Request"
     }
   ],
   "candidate_glosses": [
@@ -398,6 +482,48 @@
       "source_repo": "stx-labs/connect",
       "status": "candidate",
       "text": "pull-request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate",
+      "text": "Pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG",
+      "status": "candidate",
+      "text": "Pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate",
+      "text": "Pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/honeysql",
+      "status": "candidate",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/next-jdbc",
+      "status": "candidate",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wevm/abitype",
+      "status": "candidate",
+      "text": "Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/Outlier_Suppression_Plus",
+      "status": "candidate",
+      "text": "Pull Request"
     }
   ],
   "candidate_related_terms": [
@@ -627,11 +753,83 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/pull-request.yml",
       "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "capricorn86/happy-dom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/clean-commit.yml",
+      "source_repo": "RobertBeckebans/TrenchBroomBFG"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "swiftlang/swift-package-manager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "hoodie/notify-rust"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "seancorfield/honeysql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "seancorfield/next-jdbc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "stx-labs/connect"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pull-request.yml",
+      "source_repo": "stx-labs/stacks.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mislav/hub"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ModelTC/Outlier_Suppression_Plus"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -26,7 +26,7 @@
       "source_file": ".github/workflows/diff_shades.yml"
     },
     {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml"
     },
@@ -46,7 +46,7 @@
       "source_file": ".github/workflows/diff_shades.yml"
     },
     {
-      "component": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "component": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml"
     },
@@ -229,7 +229,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/diff_shades.yml",
       "source_repo": "psf/black",
-      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target": "actions/cache@27d5ce7f107fe9357f9df03efb73ab90386fccae",
       "target_type": "component"
     },
     {
@@ -485,7 +485,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T06:48:35.614618+00:00",
+  "fetched_at": "2026-04-29T18:51:07.286335+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -537,8 +537,8 @@
     "full_name": "psf/black",
     "html_url": "https://github.com/psf/black",
     "language": "Python",
-    "pushed_at": "2026-04-22T09:21:45Z",
-    "stargazers_count": 41479,
+    "pushed_at": "2026-04-27T21:29:43Z",
+    "stargazers_count": 41489,
     "topics": [
       "autopep8",
       "code",
@@ -550,7 +550,7 @@
       "python",
       "yapf"
     ],
-    "updated_at": "2026-04-24T06:48:04Z"
+    "updated_at": "2026-04-29T18:26:04Z"
   },
   "repo_links": [],
   "terms": [

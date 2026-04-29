@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Nightly Health Check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-ios-dev",
+      "status": "candidate-context",
+      "text": "Apollo iOS Development Repo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios-dev",
+      "status": "candidate-context",
+      "text": "\"Nightly Health Check\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios-dev",
+      "status": "candidate",
+      "text": "\"Nightly Health Check\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26085,
+      "status": "candidate",
+      "text": "examine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25685,
+      "status": "candidate",
+      "text": "checkup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25685,
+      "status": "candidate",
+      "text": "medical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25685,
+      "status": "candidate",
+      "text": "medicare check"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25685,
+      "status": "candidate",
+      "text": "medicare payment"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Nightly Health Check",
+  "concept_id": "nightly-health-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/nightly-health-check.yml",
+      "source_repo": "apollographql/apollo-ios-dev"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Nightly Health Check",
+      "sense_id": "nightly-health-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

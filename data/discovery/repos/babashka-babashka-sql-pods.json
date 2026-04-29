@@ -33,14 +33,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/babashka-sql-pods",
-      "target": "seancorfield/next-jdbc",
+      "target": "xledger/pod_sql_server",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/babashka-sql-pods",
-      "target": "seancorfield/honeysql",
+      "target": "xledger/pod_tsql_scriptdom",
       "target_type": "repository"
     },
     {
@@ -121,7 +121,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:08:40.389996+00:00",
+  "fetched_at": "2026-04-29T21:58:25.142273+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -165,12 +165,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "seancorfield/honeysql",
+      "full_name": "xledger/pod_sql_server",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "seancorfield/next-jdbc",
+      "full_name": "xledger/pod_tsql_scriptdom",
       "source_file": "README.md"
     }
   ],

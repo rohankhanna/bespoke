@@ -223,6 +223,26 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/jekyll-build-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rollback-manager.yml"
     },
     {
@@ -378,6 +398,16 @@
     {
       "component": "actions/checkout@v4",
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-marketplace.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-marketplace.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/verification-pipeline.yml"
     },
     {
@@ -497,20 +527,6 @@
       "source_file": "README.md",
       "source_repo": "ruvnet/ruflo",
       "target": "ruvnet/claude-flow",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ruvnet/ruflo",
-      "target": "martinvonz/jj",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ruvnet/ruflo",
-      "target": "augmentcode/agent-browser",
       "target_type": "repository"
     },
     {
@@ -655,6 +671,41 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/configure-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/jekyll-build-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "Deploy Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/rollback-manager.yml",
       "source_repo": "ruvnet/ruflo",
       "target": "actions/checkout@v4",
@@ -750,6 +801,27 @@
       "source_repo": "ruvnet/ruflo",
       "target": "actions/upload-artifact@v4",
       "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-marketplace.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-marketplace.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-marketplace.yml",
+      "source_repo": "ruvnet/ruflo",
+      "target": "Validate Marketplace",
+      "target_type": "term"
     },
     {
       "edge_type": "workflow-uses",
@@ -920,15 +992,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:04:13.377884+00:00",
+  "fetched_at": "2026-04-29T21:54:51.532609+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 276779
+      "size": 7820
     },
     {
       "path": "package.json",
-      "size": 3613
+      "size": 3612
     },
     {
       "path": ".github/workflows/ci.yml",
@@ -937,6 +1009,10 @@
     {
       "path": ".github/workflows/integration-tests.yml",
       "size": 34131
+    },
+    {
+      "path": ".github/workflows/pages.yml",
+      "size": 496
     },
     {
       "path": ".github/workflows/rollback-manager.yml",
@@ -949,6 +1025,10 @@
     {
       "path": ".github/workflows/v3-ci.yml",
       "size": 3664
+    },
+    {
+      "path": ".github/workflows/validate-marketplace.yml",
+      "size": 2179
     },
     {
       "path": ".github/workflows/verification-pipeline.yml",
@@ -964,8 +1044,8 @@
     "full_name": "ruvnet/ruflo",
     "html_url": "https://github.com/ruvnet/ruflo",
     "language": "TypeScript",
-    "pushed_at": "2026-04-11T16:20:19Z",
-    "stargazers_count": 33027,
+    "pushed_at": "2026-04-29T21:46:06Z",
+    "stargazers_count": 34012,
     "topics": [
       "agentic-ai",
       "agentic-engineering",
@@ -988,19 +1068,9 @@
       "swarm",
       "swarm-intelligence"
     ],
-    "updated_at": "2026-04-24T08:02:44Z"
+    "updated_at": "2026-04-29T21:17:30Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "augmentcode/agent-browser",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "martinvonz/jj",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "ruvnet/claude-flow",
@@ -1020,6 +1090,12 @@
       "term": "\ud83d\udd17 Cross-Agent Integration Tests"
     },
     {
+      "context_snippet": "Deploy Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pages.yml",
+      "term": "Deploy Pages"
+    },
+    {
       "context_snippet": "\ud83d\udd04 Automated Rollback Manager",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/rollback-manager.yml",
@@ -1030,6 +1106,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/status-badges.yml",
       "term": "\ud83d\udcca Status Badges Update"
+    },
+    {
+      "context_snippet": "Validate Marketplace",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-marketplace.yml",
+      "term": "Validate Marketplace"
     },
     {
       "context_snippet": "\ud83d\udd0d Verification Pipeline",

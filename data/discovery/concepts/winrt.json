@@ -31,6 +31,18 @@
       "source_repo": "microsoft/CsWinRT",
       "status": "candidate-context",
       "text": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/WinUI-Gallery",
+      "status": "candidate-context",
+      "text": "This app demonstrates the controls available in WinUI and the Fluent Design System."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WinUI-Gallery",
+      "status": "candidate-context",
+      "text": "![WinUI Gallery hero image](./.github/assets/ReadmeHero-dark.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "microsoft/CsWinRT",
       "status": "candidate",
       "text": "[![Build Status](https://dev.azure.com/microsoft/Dart/_apis/build/status%2FCsWinRT%20GitHub%20CI?branchName=master)](https://dev.azure.com/microsoft/Dart/_build/latest?definitionId=112455&branchName=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/WinUI-Gallery",
+      "status": "candidate",
+      "text": "![WinUI Gallery hero image](./.github/assets/ReadmeHero-dark.png)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "microsoft/CsWinRT"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/WinUI-Gallery"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

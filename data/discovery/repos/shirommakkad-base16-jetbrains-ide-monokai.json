@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ShiromMakkad/base16-jetbrains-ide-monokai",
+      "target": "shirommakkad/base16-jetbrains-ide",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:56:34.578395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 348
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ShiromMakkad/base16-jetbrains-ide-monokai",
+    "html_url": "https://github.com/ShiromMakkad/base16-jetbrains-ide-monokai",
+    "language": null,
+    "pushed_at": "2022-07-14T03:47:44Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2022-07-14T03:47:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shirommakkad/base16-jetbrains-ide",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

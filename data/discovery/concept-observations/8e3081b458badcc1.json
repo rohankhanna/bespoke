@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple Kubernetes Operator for MinIO clusters :computer:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![build](https://img.shields.io/badge/build-passing-green.svg)](https://github.com/minio/operator/actions) [![license](https://img.shields.io/badge/license-AGPL%20V3-blue)](https://github.com/minio/operator/blob/master/LICENSE)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![build](https://img.shields.io/badge/build-passing-green.svg)](https://github.com/minio/operator/actions) [![license](https://img.shields.io/badge/license-AGPL%20V3-blue)](https://github.com/minio/operator/blob/master/LICENSE)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24999,
+      "status": "candidate",
+      "text": "openio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24998,
+      "status": "candidate",
+      "text": "ntfs-3g"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24997,
+      "status": "candidate",
+      "text": "lizardfs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24996,
+      "status": "candidate",
+      "text": "openmediavault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24995,
+      "status": "candidate",
+      "text": "affero general public license"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "minio",
+      "sense_id": "minio#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "minio",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "minio",
+  "observation_id": "8e3081b458badcc1",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "minio",
+  "source_context_snippet": "[![build](https://img.shields.io/badge/build-passing-green.svg)](https://github.com/minio/operator/actions) [![license](https://img.shields.io/badge/license-AGPL%20V3-blue)](https://github.com/minio/operator/blob/master/LICENSE)",
+  "source_file": null,
+  "source_repo": "minio/operator",
+  "source_repo_description": "Simple Kubernetes Operator for MinIO clusters :computer:"
+}

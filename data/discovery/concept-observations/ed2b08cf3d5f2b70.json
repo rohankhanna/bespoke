@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A Ruby Gem to detect under what license a project is distributed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM ruby:3.4.7@sha256:779ca68b84fe3804e27f5b7ea5ab001005c708b7236a798c15b860d71cba9d21 WORKDIR /usr/src/app RUN git init RUN apt-get update && apt-get install -y cmake COPY Gemfile licensee.gemspec ./ COPY lib/licensee/version.rb ./lib/licensee/version.rb RUN bundle install COP\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM ruby:3.4.7@sha256:779ca68b84fe3804e27f5b7ea5ab001005c708b7236a798c15b860d71cba9d21 WORKDIR /usr/src/app RUN git init RUN apt-get update && apt-get install -y cmake COPY Gemfile licensee.gemspec ./ COPY lib/licensee/version.rb ./lib/licensee/version.rb RUN bundle install COP\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985936,
+      "status": "candidate",
+      "text": "jural"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985404,
+      "status": "candidate",
+      "text": "juristic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985271,
+      "status": "candidate",
+      "text": "judicial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39985262,
+      "status": "candidate",
+      "text": "statutory"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983519,
+      "status": "candidate",
+      "text": "sub judice"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "legal",
+      "sense_id": "legal#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24068,
+      "status": "candidate",
+      "text": "sound"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21044,
+      "status": "candidate",
+      "text": "legitimate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13039,
+      "status": "candidate",
+      "text": "judicial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12055,
+      "status": "candidate",
+      "text": "valid"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12020,
+      "status": "candidate",
+      "text": "sanctioned"
+    }
+  ],
+  "concept_id": "legal",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "legal",
+  "observation_id": "ed2b08cf3d5f2b70",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "legal",
+  "source_context_snippet": "FROM ruby:3.4.7@sha256:779ca68b84fe3804e27f5b7ea5ab001005c708b7236a798c15b860d71cba9d21 WORKDIR /usr/src/app RUN git init RUN apt-get update && apt-get install -y cmake COPY Gemfile licensee.gemspec ./ COPY lib/licensee/version.rb ./lib/licensee/version.rb RUN bundle install COP\u2026",
+  "source_file": null,
+  "source_repo": "licensee/licensee",
+  "source_repo_description": "A Ruby Gem to detect under what license a project is distributed."
+}

@@ -70,6 +70,54 @@
       "source_repo": "mschwager/cohesion",
       "status": "candidate-context",
       "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wemake-services/flake8-eradicate",
+      "status": "candidate-context",
+      "text": "Flake8 plugin to find commented out or dead code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/flake8-eradicate",
+      "status": "candidate-context",
+      "text": "[![wemake.services](https://img.shields.io/badge/-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate-context",
+      "text": "Python best practices project cookiecutter \ud83c\udf6a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate-context",
+      "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asottile/yesqa",
+      "status": "candidate-context",
+      "text": "Automatically remove unnecessary `# noqa` comments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/yesqa",
+      "status": "candidate-context",
+      "text": "[![build status](https://github.com/asottile/yesqa/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/yesqa/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/flake8",
+      "status": "candidate-context",
+      "text": "flake8 is a python tool that glues together pycodestyle, pyflakes, mccabe, and third-party plugins to check the style and quality of some python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +150,30 @@
       "source_repo": "mschwager/cohesion",
       "status": "candidate",
       "text": "[![Python Versions](https://img.shields.io/pypi/pyversions/cohesion.svg)](https://img.shields.io/pypi/pyversions/cohesion.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wemake-services/flake8-eradicate",
+      "status": "candidate",
+      "text": "[![wemake.services](https://img.shields.io/badge/-wemake.services-green.svg?label=%20&logo=data%3Aimage%2Fpng%3Bbase64%2CiVBORw0KGgoAAAANSUhEUgAAABAAAAAQCAMAAAAoLQ9TAAAABGdBTUEAALGPC%2FxhBQAAAAFzUkdCAK7OHOkAAAAbUExURQAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAP%2F%2F%2F5TvxDIAAAAIdFJOUwAjRA\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate",
+      "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/yesqa",
+      "status": "candidate",
+      "text": "[![build status](https://github.com/asottile/yesqa/actions/workflows/main.yml/badge.svg)](https://github.com/asottile/yesqa/actions/workflows/main.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -139,11 +211,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "mschwager/cohesion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "wemake-services/flake8-eradicate"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "asottile/yesqa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

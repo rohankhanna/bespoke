@@ -1,0 +1,312 @@
+{
+  "components": [
+    {
+      "component": "@venly/web3-provider",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@web3-react/types",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@web3-react/store",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix_finish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix_finish.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix_start.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix_start.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_finish.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_finish.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_start.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_start.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "package.json",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "arkanenetwork/web3-react-venly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "@venly/web3-provider",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "@web3-react/types",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "@web3-react/store",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "\ud83c\udfd7\ufe0f Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix_finish.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix_finish.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hotfix_finish.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "\ud83e\ude79 Hotfix Finish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix_start.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hotfix_start.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hotfix_start.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "\ud83e\udd15 Hotfix Start",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_finish.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_finish.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_finish.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "\ud83d\udeec Release Finish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_start.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_start.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_start.yml",
+      "source_repo": "Venly/web3-react-venly",
+      "target": "\ud83d\udeeb Release Start",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:56:58.934295+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 779
+    },
+    {
+      "path": "package.json",
+      "size": 972
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2616
+    },
+    {
+      "path": ".github/workflows/hotfix_finish.yml",
+      "size": 648
+    },
+    {
+      "path": ".github/workflows/hotfix_start.yml",
+      "size": 645
+    },
+    {
+      "path": ".github/workflows/release_finish.yml",
+      "size": 652
+    },
+    {
+      "path": ".github/workflows/release_start.yml",
+      "size": 649
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Venly connector for web3-react",
+    "fork": false,
+    "full_name": "Venly/web3-react-venly",
+    "html_url": "https://github.com/Venly/web3-react-venly",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-10T08:50:07Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2026-04-10T08:50:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arkanenetwork/web3-react-venly",
+      "source_file": "package.json"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83c\udfd7\ufe0f Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "\ud83c\udfd7\ufe0f Build"
+    },
+    {
+      "context_snippet": "\ud83e\ude79 Hotfix Finish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hotfix_finish.yml",
+      "term": "\ud83e\ude79 Hotfix Finish"
+    },
+    {
+      "context_snippet": "\ud83e\udd15 Hotfix Start",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hotfix_start.yml",
+      "term": "\ud83e\udd15 Hotfix Start"
+    },
+    {
+      "context_snippet": "\ud83d\udeec Release Finish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_finish.yml",
+      "term": "\ud83d\udeec Release Finish"
+    },
+    {
+      "context_snippet": "\ud83d\udeeb Release Start",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_start.yml",
+      "term": "\ud83d\udeeb Release Start"
+    }
+  ]
+}

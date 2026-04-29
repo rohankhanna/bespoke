@@ -1,0 +1,100 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexWebLab/bootstrap-5-wordpress-navbar-walker",
+      "target": "bootstrap-5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexWebLab/bootstrap-5-wordpress-navbar-walker",
+      "target": "bootstrap5",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexWebLab/bootstrap-5-wordpress-navbar-walker",
+      "target": "navwalker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexWebLab/bootstrap-5-wordpress-navbar-walker",
+      "target": "wordpress",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AlexWebLab/bootstrap-5-wordpress-navbar-walker",
+      "target": "wordpress-theme",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:00:24.500606+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2560
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bootstrap 5 WordPress navbar walker menu.",
+    "fork": false,
+    "full_name": "AlexWebLab/bootstrap-5-wordpress-navbar-walker",
+    "html_url": "https://github.com/AlexWebLab/bootstrap-5-wordpress-navbar-walker",
+    "language": "PHP",
+    "pushed_at": "2023-12-08T20:30:36Z",
+    "stargazers_count": 264,
+    "topics": [
+      "bootstrap-5",
+      "bootstrap5",
+      "navwalker",
+      "wordpress",
+      "wordpress-theme"
+    ],
+    "updated_at": "2026-04-08T13:03:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[bootstrap-5-wordpress-navbar-walker](https://github.com/AlexWebLab/bootstrap-5-wordpress-navbar-walker)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap-5"
+    },
+    {
+      "context_snippet": "[bootstrap-5-wordpress-navbar-walker](https://github.com/AlexWebLab/bootstrap-5-wordpress-navbar-walker)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bootstrap5"
+    },
+    {
+      "context_snippet": "[bootstrap-5-wordpress-navbar-walker](https://github.com/AlexWebLab/bootstrap-5-wordpress-navbar-walker)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "navwalker"
+    },
+    {
+      "context_snippet": "[bootstrap-5-wordpress-navbar-walker](https://github.com/AlexWebLab/bootstrap-5-wordpress-navbar-walker)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wordpress"
+    },
+    {
+      "context_snippet": "[bootstrap-5-wordpress-navbar-walker](https://github.com/AlexWebLab/bootstrap-5-wordpress-navbar-walker)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wordpress-theme"
+    }
+  ]
+}

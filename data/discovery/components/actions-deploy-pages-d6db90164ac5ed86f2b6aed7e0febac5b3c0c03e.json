@@ -2,7 +2,7 @@
   "component": "actions/deploy-pages@d6db90164ac5ed86f2b6aed7e0febac5b3c0c03e",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -94,6 +94,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "intel/ai-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "Arize-ai/openinference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-website.yml",
+      "source_repo": "nix-darwin/nix-darwin"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "sigstore/root-signing"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "langchain4j/langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs-release.yml",
+      "source_repo": "uxlfoundation/oneDAL"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-snapshot-and-kdoc.yml",
+      "source_repo": "apollographql/apollo-kotlin"
     }
   ]
 }

@@ -19,12 +19,30 @@
       "source_repo": "dani-garcia/vaultwarden",
       "status": "candidate-context",
       "text": "Trivy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate-context",
+      "text": "Sample application built using Atlan Application SDK"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "status": "candidate-context",
+      "text": "Trivy"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate",
+      "text": "Trivy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "atlanhq/atlan-sample-apps",
       "status": "candidate",
       "text": "Trivy"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/trivy.yml",
       "source_repo": "dani-garcia/vaultwarden"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

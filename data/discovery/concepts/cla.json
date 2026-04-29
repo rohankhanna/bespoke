@@ -43,6 +43,30 @@
       "source_repo": "DataDog/trivy",
       "status": "candidate-context",
       "text": "CLA"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f Build multimodal AI applications with cloud-native stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "CLA"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/conda",
+      "status": "candidate-context",
+      "text": "A system-level, binary package and environment manager running on all major operating systems and platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda",
+      "status": "candidate-context",
+      "text": "CLA"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "DataDog/trivy",
+      "status": "candidate",
+      "text": "CLA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate",
+      "text": "CLA"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda",
       "status": "candidate",
       "text": "CLA"
     }
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/bypass-cla.yaml",
       "source_repo": "DataDog/trivy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "conda/conda"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

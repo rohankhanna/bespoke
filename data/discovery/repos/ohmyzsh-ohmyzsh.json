@@ -1,7 +1,7 @@
 {
   "components": [
     {
-      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml"
     },
@@ -21,7 +21,7 @@
       "source_file": ".github/workflows/dependencies.yml"
     },
     {
-      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/installer.yml"
     },
@@ -31,7 +31,7 @@
       "source_file": ".github/workflows/installer.yml"
     },
     {
-      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/installer.yml"
     },
@@ -41,7 +41,7 @@
       "source_file": ".github/workflows/installer.yml"
     },
     {
-      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml"
     },
@@ -51,7 +51,7 @@
       "source_file": ".github/workflows/main.yml"
     },
     {
-      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/project.yml"
     },
@@ -61,7 +61,7 @@
       "source_file": ".github/workflows/project.yml"
     },
     {
-      "component": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml"
     },
@@ -91,7 +91,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/dependencies.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "target_type": "component"
     },
     {
@@ -126,7 +126,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/installer.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "target_type": "component"
     },
     {
@@ -147,7 +147,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "target_type": "component"
     },
     {
@@ -161,7 +161,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/project.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "target_type": "component"
     },
     {
@@ -182,7 +182,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "ohmyzsh/ohmyzsh",
-      "target": "step-security/harden-runner@6c3c2f2c1c457b00c10c4848d6f5491db3b629df",
+      "target": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
       "target_type": "component"
     },
     {
@@ -312,7 +312,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:05:44.093391+00:00",
+  "fetched_at": "2026-04-29T21:55:58.732343+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -348,8 +348,8 @@
     "full_name": "ohmyzsh/ohmyzsh",
     "html_url": "https://github.com/ohmyzsh/ohmyzsh",
     "language": "Shell",
-    "pushed_at": "2026-04-20T09:01:03Z",
-    "stargazers_count": 186432,
+    "pushed_at": "2026-04-28T07:41:11Z",
+    "stargazers_count": 186598,
     "topics": [
       "cli",
       "cli-app",
@@ -367,7 +367,7 @@
       "zsh",
       "zsh-configuration"
     ],
-    "updated_at": "2026-04-24T07:35:21Z"
+    "updated_at": "2026-04-29T21:48:12Z"
   },
   "repo_links": [],
   "terms": [

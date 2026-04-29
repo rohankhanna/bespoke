@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:43:29.976252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6972
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Efficient 3D human pose estimation in video using 2D keypoint trajectories",
+    "fork": false,
+    "full_name": "facebookresearch/VideoPose3D",
+    "html_url": "https://github.com/facebookresearch/VideoPose3D",
+    "language": "Python",
+    "pushed_at": "2022-12-10T16:22:15Z",
+    "stargazers_count": 4016,
+    "topics": [],
+    "updated_at": "2026-04-29T09:01:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

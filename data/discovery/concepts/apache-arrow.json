@@ -55,6 +55,18 @@
       "source_repo": "apache/arrow-testing",
       "status": "candidate-context",
       "text": "Auxiliary testing files for Apache Arrow"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ashvardanian/StringTape",
+      "status": "candidate-context",
+      "text": "Apache Arrow-compatible space-efficient \"tape\" class in pure Rust to be used with StringZilla for GPU, NUMA, and disk transfers of variable length strings"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringTape",
+      "status": "candidate-context",
+      "text": "![StringTape banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringTape.png?raw=true)"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "apache/arrow-testing",
       "status": "candidate",
       "text": "Auxiliary testing files for Apache Arrow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ashvardanian/StringTape",
+      "status": "candidate",
+      "text": "![StringTape banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringTape.png?raw=true)"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "apache/arrow-testing"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/StringTape"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

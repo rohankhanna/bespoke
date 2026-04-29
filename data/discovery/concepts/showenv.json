@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "showenv"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dixyes/ghactionsplay",
+      "status": "candidate-context",
+      "text": "ceshiceshi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dixyes/ghactionsplay",
+      "status": "candidate-context",
+      "text": "showenv"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dixyes/ghactionsplay",
+      "status": "candidate",
+      "text": "showenv"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "showenv",
+  "concept_id": "showenv",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/showenv.yml",
+      "source_repo": "dixyes/ghactionsplay"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "showenv",
+      "sense_id": "showenv#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

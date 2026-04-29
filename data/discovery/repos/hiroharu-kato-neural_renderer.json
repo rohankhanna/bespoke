@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroharu-kato/neural_renderer",
+      "target": "hiroharu-kato/mesh_reconstruction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroharu-kato/neural_renderer",
+      "target": "hiroharu-kato/style_transfer_3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroharu-kato/neural_renderer",
+      "target": "hiroharu-kato/deep_dream_3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroharu-kato/neural_renderer",
+      "target": "akanazawa/cmr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:15.011994+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4141
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\"Neural 3D Mesh Renderer\" (CVPR 2018) by H. Kato, Y. Ushiku, and T. Harada.",
+    "fork": false,
+    "full_name": "hiroharu-kato/neural_renderer",
+    "html_url": "https://github.com/hiroharu-kato/neural_renderer",
+    "language": "Python",
+    "pushed_at": "2022-03-21T13:31:40Z",
+    "stargazers_count": 1167,
+    "topics": [],
+    "updated_at": "2026-04-27T03:27:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "akanazawa/cmr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiroharu-kato/deep_dream_3d",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiroharu-kato/mesh_reconstruction",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiroharu-kato/style_transfer_3d",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

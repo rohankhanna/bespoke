@@ -31,6 +31,18 @@
       "source_repo": "beehive-lab/GPULlama3.java",
       "status": "candidate-context",
       "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate-context",
+      "text": "Run generative AI models in sophgo BM1684X/BM1688"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "beehive-lab/GPULlama3.java",
       "status": "candidate",
       "text": "![Java Version](https://img.shields.io/badge/java-21-blue?style=&logo=openjdk)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "modelscope/ms-swift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sophgo/LLM-TPU"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

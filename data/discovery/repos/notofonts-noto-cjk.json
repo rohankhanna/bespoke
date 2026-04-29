@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "notofonts/noto-cjk",
+      "target": "googlefonts/noto-cjk",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:48:15.890829+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 949
+    },
+    {
+      "path": "requirements.txt",
+      "size": 107
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Noto CJK fonts",
+    "fork": false,
+    "full_name": "notofonts/noto-cjk",
+    "html_url": "https://github.com/notofonts/noto-cjk",
+    "language": "Python",
+    "pushed_at": "2025-12-16T05:18:51Z",
+    "stargazers_count": 3829,
+    "topics": [],
+    "updated_at": "2026-04-29T06:13:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlefonts/noto-cjk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

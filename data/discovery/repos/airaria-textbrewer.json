@@ -1,0 +1,136 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airaria/TextBrewer",
+      "target": "airaria/textpruner",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airaria/TextBrewer",
+      "target": "ymcui/chinese-minority-plm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airaria/TextBrewer",
+      "target": "ymcui/chinese-electra",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "airaria/TextBrewer",
+      "target": "drcknowledgeteam/drcd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airaria/TextBrewer",
+      "target": "bert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airaria/TextBrewer",
+      "target": "distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airaria/TextBrewer",
+      "target": "knowledge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "airaria/TextBrewer",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:51:47.533763+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26988
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch-based knowledge distillation toolkit for natural language processing",
+    "fork": false,
+    "full_name": "airaria/TextBrewer",
+    "html_url": "https://github.com/airaria/TextBrewer",
+    "language": "Python",
+    "pushed_at": "2023-05-08T15:59:25Z",
+    "stargazers_count": 1697,
+    "topics": [
+      "bert",
+      "distillation",
+      "knowledge",
+      "nlp",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-21T02:24:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "airaria/textpruner",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "drcknowledgeteam/drcd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/chinese-electra",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ymcui/chinese-minority-plm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert"
+    },
+    {
+      "context_snippet": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "distillation"
+    },
+    {
+      "context_snippet": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge"
+    },
+    {
+      "context_snippet": "[**English**](README.md) | [**\u4e2d\u6587\u8bf4\u660e**](README_ZH.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

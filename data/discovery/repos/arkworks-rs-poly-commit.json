@@ -80,13 +80,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "arkworks-rs/poly-commit",
-      "target": "arkworks-rs/std",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "arkworks-rs/poly-commit",
@@ -171,7 +164,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:58:50.297394+00:00",
+  "fetched_at": "2026-04-29T19:47:43.181656+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -199,8 +192,8 @@
     "full_name": "arkworks-rs/poly-commit",
     "html_url": "https://github.com/arkworks-rs/poly-commit",
     "language": "Rust",
-    "pushed_at": "2024-12-02T20:55:49Z",
-    "stargazers_count": 428,
+    "pushed_at": "2026-04-26T21:03:10Z",
+    "stargazers_count": 429,
     "topics": [
       "cryptography",
       "marlin",
@@ -209,18 +202,13 @@
       "rust",
       "sonic"
     ],
-    "updated_at": "2026-04-13T05:40:31Z"
+    "updated_at": "2026-04-27T05:16:12Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "scipr-lab/poly-commit",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "arkworks-rs/std",
-      "source_file": "Cargo.toml"
     }
   ],
   "terms": [

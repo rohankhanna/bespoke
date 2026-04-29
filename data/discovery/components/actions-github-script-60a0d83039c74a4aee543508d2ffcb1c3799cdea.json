@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@60a0d83039c74a4aee543508d2ffcb1c3799cdea",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -122,6 +122,26 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-and-scan.yaml",
       "source_repo": "atlanhq/application-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-aggregate-status.yml",
+      "source_repo": "hao-ai-lab/FastVideo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-slash-commands.yml",
+      "source_repo": "hao-ai-lab/FastVideo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-trigger-full-suite.yml",
+      "source_repo": "hao-ai-lab/FastVideo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/community-issue-labeler.yml",
+      "source_repo": "hao-ai-lab/FastVideo"
     }
   ]
 }

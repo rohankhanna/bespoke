@@ -91,6 +91,54 @@
       "source_repo": "donnemartin/saws",
       "status": "candidate-context",
       "text": "![](http://i.imgur.com/vzC5zmA.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "status": "candidate-context",
+      "text": "Deeply mix the properties of objects into the first object, while also mixing-in child objects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "status": "candidate-context",
+      "text": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/qute2k",
+      "status": "candidate-context",
+      "text": "Minimalistic Keyboard Driven Browser \ud83c\udf10\ud83c\udf80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/qute2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/dexe",
+      "status": "candidate-context",
+      "text": "The exe launcher \ud83d\udc1a\ud83d\ude80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dexe",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hoodie/toastify",
+      "status": "candidate-context",
+      "text": "\ud83c\udf5eA commandline tool that shows desktop notifications using notify-rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/toastify",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "donnemartin/saws",
       "status": "candidate",
       "text": "![](http://i.imgur.com/vzC5zmA.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "status": "candidate",
+      "text": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/qute2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dexe",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/toastify",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -256,11 +328,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "donnemartin/saws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/mixin-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/qute2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/dexe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vercel/ms"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hoodie/toastify"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,286 @@
+{
+  "components": [
+    {
+      "component": "standard-version",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-black-formatting.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-black-formatting.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-doc-options-update.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-doc-options-update.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-doc-options-update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jolibrain/joliGEN",
+      "target": "jolibrain/deepdetect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jolibrain/joliGEN",
+      "target": "ha0tang/attentiongan",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jolibrain/joliGEN",
+      "target": "fnzhan/monce",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jolibrain/joliGEN",
+      "target": "janspiry/palette-image-to-image-diffusion-models",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jolibrain/joliGEN",
+      "target": "standard-version",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-black-formatting.yml",
+      "source_repo": "jolibrain/joliGEN",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-black-formatting.yml",
+      "source_repo": "jolibrain/joliGEN",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions-black-formatting.yml",
+      "source_repo": "jolibrain/joliGEN",
+      "target": "black",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-doc-options-update.yml",
+      "source_repo": "jolibrain/joliGEN",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-actions-doc-options-update.yml",
+      "source_repo": "jolibrain/joliGEN",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions-doc-options-update.yml",
+      "source_repo": "jolibrain/joliGEN",
+      "target": "Doc auto generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/joliGEN",
+      "target": "augmented-reality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/joliGEN",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/joliGEN",
+      "target": "diffusion-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/joliGEN",
+      "target": "generative-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/joliGEN",
+      "target": "image-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/joliGEN",
+      "target": "image-to-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jolibrain/joliGEN",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:14.523486+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7869
+    },
+    {
+      "path": "package.json",
+      "size": 442
+    },
+    {
+      "path": "requirements.txt",
+      "size": 566
+    },
+    {
+      "path": ".github/workflows/github-actions-black-formatting.yml",
+      "size": 349
+    },
+    {
+      "path": ".github/workflows/github-actions-doc-options-update.yml",
+      "size": 1697
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Generative AI Image and Video Toolset with GANs and Diffusion for Real-World Applications",
+    "fork": false,
+    "full_name": "jolibrain/joliGEN",
+    "html_url": "https://github.com/jolibrain/joliGEN",
+    "language": "Python",
+    "pushed_at": "2026-04-29T10:01:54Z",
+    "stargazers_count": 281,
+    "topics": [
+      "augmented-reality",
+      "deep-learning",
+      "diffusion-models",
+      "gan",
+      "generative-model",
+      "image-generation",
+      "image-to-image",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-28T07:49:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fnzhan/monce",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ha0tang/attentiongan",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "janspiry/palette-image-to-image-diffusion-models",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jolibrain/deepdetect",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "black",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions-black-formatting.yml",
+      "term": "black"
+    },
+    {
+      "context_snippet": "Doc auto generation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-actions-doc-options-update.yml",
+      "term": "Doc auto generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "augmented-reality"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusion-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-model"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-generation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-to-image"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

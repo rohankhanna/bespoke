@@ -55,6 +55,42 @@
       "source_repo": "vegardit/vegardit-maven-parent",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/vegardit/vegardit-maven-parent/workflows/Build/badge.svg \"GitHub Actions\")](https://github.com/vegardit/vegardit-maven-parent/actions?query=workflow%3ABuild)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "status": "candidate-context",
+      "text": "Formatter Maven Plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bazel-contrib/rules_jvm_external",
+      "status": "candidate-context",
+      "text": "Bazel rules to resolve, fetch and export Maven artifacts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_jvm_external",
+      "status": "candidate-context",
+      "text": "Transitive Maven artifact resolution and publishing rules for Bazel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VirtusLab/bazel-steward",
+      "status": "candidate-context",
+      "text": "A bot to keep Bazel dependencies up to date"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VirtusLab/bazel-steward",
+      "status": "candidate-context",
+      "text": "<!--suppress HtmlDeprecatedAttribute -->"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "vegardit/vegardit-maven-parent",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/vegardit/vegardit-maven-parent/workflows/Build/badge.svg \"GitHub Actions\")](https://github.com/vegardit/vegardit-maven-parent/actions?query=workflow%3ABuild)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bazel-contrib/rules_jvm_external",
+      "status": "candidate",
+      "text": "Transitive Maven artifact resolution and publishing rules for Bazel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VirtusLab/bazel-steward",
+      "status": "candidate",
+      "text": "<!--suppress HtmlDeprecatedAttribute -->"
     }
   ],
   "candidate_related_terms": [
@@ -184,11 +238,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "vegardit/vegardit-maven-parent"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "revelc/formatter-maven-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_jvm_external"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "VirtusLab/bazel-steward"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

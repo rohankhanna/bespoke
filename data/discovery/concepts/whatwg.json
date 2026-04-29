@@ -79,6 +79,18 @@
       "source_repo": "whatwg/html",
       "status": "candidate-context",
       "text": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "A JavaScript implementation of a web browser without its graphical user interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "whatwg/html",
       "status": "candidate",
       "text": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -196,11 +214,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "whatwg/html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "capricorn86/happy-dom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

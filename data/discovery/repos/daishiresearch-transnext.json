@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaiShiResearch/TransNeXt",
+      "target": "dingxiaoh/replknet-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaiShiResearch/TransNeXt",
+      "target": "vita-group/slak",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "DaiShiResearch/TransNeXt",
+      "target": "whai362/pvt",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:45:06.588375+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17636
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[CVPR 2024] Code release for TransNeXt model",
+    "fork": false,
+    "full_name": "DaiShiResearch/TransNeXt",
+    "html_url": "https://github.com/DaiShiResearch/TransNeXt",
+    "language": "Python",
+    "pushed_at": "2024-06-13T15:09:09Z",
+    "stargazers_count": 573,
+    "topics": [],
+    "updated_at": "2026-04-16T13:28:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dingxiaoh/replknet-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vita-group/slak",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "whai362/pvt",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

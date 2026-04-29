@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Create Tag"
+    "Create Tag",
+    "Create tag"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,18 @@
       "source_repo": "Immediate-Mode-UI/Nuklear",
       "status": "candidate-context",
       "text": "Create Tag"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "C2SP/C2SP",
+      "status": "candidate-context",
+      "text": "Community Cryptography Specification Project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "C2SP/C2SP",
+      "status": "candidate-context",
+      "text": "Create tag"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +40,12 @@
       "source_repo": "Immediate-Mode-UI/Nuklear",
       "status": "candidate",
       "text": "Create Tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "C2SP/C2SP",
+      "status": "candidate",
+      "text": "Create tag"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +95,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/create-tag.yml",
       "source_repo": "Immediate-Mode-UI/Nuklear"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/create-tag.yml",
+      "source_repo": "C2SP/C2SP"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

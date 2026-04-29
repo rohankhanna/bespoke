@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Daemon for easy but powerful stats aggregation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A network daemon that runs on the [Node.js][node] platform and"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A network daemon that runs on the [Node.js][node] platform and"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40026256,
+      "status": "candidate",
+      "text": "black lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39913495,
+      "status": "candidate",
+      "text": "plumbago"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30022460,
+      "status": "candidate",
+      "text": "pyrolytic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30016721,
+      "status": "candidate",
+      "text": "mine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29999049,
+      "status": "candidate",
+      "text": "epoxy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "graphite",
+      "sense_id": "graphite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1020,
+      "status": "candidate",
+      "text": "black lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35,
+      "status": "candidate",
+      "text": "plumbago"
+    }
+  ],
+  "concept_id": "graphite",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "graphite",
+  "observation_id": "c8da99013d4e5ed2",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "graphite",
+  "source_context_snippet": "A network daemon that runs on the [Node.js][node] platform and",
+  "source_file": null,
+  "source_repo": "statsd/statsd",
+  "source_repo_description": "Daemon for easy but powerful stats aggregation"
+}

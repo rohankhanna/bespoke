@@ -1,0 +1,12 @@
+{
+  "component": "actions/stale@v10.0.0",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/housekeeping-stale-issues-prs.yaml",
+      "source_repo": "goharbor/harbor"
+    }
+  ]
+}

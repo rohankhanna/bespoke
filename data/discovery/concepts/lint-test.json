@@ -3,7 +3,8 @@
     "Lint test",
     "Lint Test",
     "Lint & Test",
-    "\ud83e\uddd1\u200d\ud83d\udd2c Lint & Test"
+    "\ud83e\uddd1\u200d\ud83d\udd2c Lint & Test",
+    "lint-test"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -106,6 +107,18 @@
       "source_repo": "fonttools/fontbakery",
       "status": "candidate-context",
       "text": "\ud83e\uddd1\u200d\ud83d\udd2c Lint & Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "A neovim integration for television"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "lint-test"
     }
   ],
   "candidate_glosses": [
@@ -156,6 +169,12 @@
       "source_repo": "fonttools/fontbakery",
       "status": "candidate",
       "text": "\ud83e\uddd1\u200d\ud83d\udd2c Lint & Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate",
+      "text": "lint-test"
     }
   ],
   "candidate_related_terms": [
@@ -295,11 +314,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/lint_test.yml",
       "source_repo": "fonttools/fontbakery"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "alexpasmantier/tv.nvim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "modelscope/ms-agent"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

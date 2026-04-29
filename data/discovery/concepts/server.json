@@ -163,6 +163,54 @@
       "source_repo": "jupyter-server/jupyter_server",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/jupyter-server/jupyter_server/actions/workflows/python-tests.yml/badge.svg?query=branch%3Amain++)](https://github.com/jupyter-server/jupyter_server/actions/workflows/python-tests.yml/badge.svg?query=branch%3Amain++)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kitura/Kitura",
+      "status": "candidate-context",
+      "text": "A Swift web framework and HTTP server."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kitura/Kitura",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "A High Performance HTTP Server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "awslabs/multi-model-server",
+      "status": "candidate-context",
+      "text": "Multi Model Server is a tool for serving neural net models for inference"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/multi-model-server",
+      "status": "candidate-context",
+      "text": "Multi Model Server"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "form-data/form-data",
+      "status": "candidate-context",
+      "text": "A module to create readable `\"multipart/form-data\"` streams.  Can be used to submit forms and file uploads to other web applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "form-data/form-data",
+      "status": "candidate-context",
+      "text": "A library to create readable ```\"multipart/form-data\"``` streams. Can be used to submit forms and file uploads to other web applications."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +291,30 @@
       "source_repo": "jupyter-server/jupyter_server",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/jupyter-server/jupyter_server/actions/workflows/python-tests.yml/badge.svg?query=branch%3Amain++)](https://github.com/jupyter-server/jupyter_server/actions/workflows/python-tests.yml/badge.svg?query=branch%3Amain++)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kitura/Kitura",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "awslabs/multi-model-server",
+      "status": "candidate",
+      "text": "Multi Model Server"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "form-data/form-data",
+      "status": "candidate",
+      "text": "A library to create readable ```\"multipart/form-data\"``` streams. Can be used to submit forms and file uploads to other web applications."
     }
   ],
   "candidate_related_terms": [
@@ -385,11 +457,47 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "expressjs/express"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Kitura/Kitura"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jupyter-server/jupyter_server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ohler55/agoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "awslabs/multi-model-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "form-data/form-data"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

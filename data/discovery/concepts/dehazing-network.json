@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dehazing-network"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmeryXiong/MixDehazeNet",
+      "status": "candidate-context",
+      "text": "Code for \"MixDehazeNet: Mix Structure block for image dehazing network\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmeryXiong/MixDehazeNet",
+      "status": "candidate-context",
+      "text": "[![paper](https://img.shields.io/badge/Paper-IEEE%20IJCNN-blue)](https://doi.org/10.1109/IJCNN60899.2024.10651326)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmeryXiong/MixDehazeNet",
+      "status": "candidate",
+      "text": "[![paper](https://img.shields.io/badge/Paper-IEEE%20IJCNN-blue)](https://doi.org/10.1109/IJCNN60899.2024.10651326)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dehazing-network",
+  "concept_id": "dehazing-network",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AmeryXiong/MixDehazeNet"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dehazing-network",
+      "sense_id": "dehazing-network#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

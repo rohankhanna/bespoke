@@ -1,0 +1,195 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "target": "996icu/996.icu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "target": "stinky-tofu/stronger-yolo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "target": "peterisfar/yolov3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "target": "qqwweee/keras-yolo3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "target": "attention",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "target": "cbam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "target": "mobilenetv2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "target": "mobilenetv3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "target": "senet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "argusswift/YOLOv4-pytorch",
+      "target": "yolov4",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:38:58.160236+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9659
+    },
+    {
+      "path": "requirements.txt",
+      "size": 105
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This is a pytorch repository of YOLOv4, attentive YOLOv4 and mobilenet YOLOv4 with PASCAL VOC and COCO",
+    "fork": false,
+    "full_name": "argusswift/YOLOv4-pytorch",
+    "html_url": "https://github.com/argusswift/YOLOv4-pytorch",
+    "language": "Python",
+    "pushed_at": "2024-05-03T19:45:19Z",
+    "stargazers_count": 1677,
+    "topics": [
+      "attention",
+      "cbam",
+      "mobilenetv2",
+      "mobilenetv3",
+      "object-detection",
+      "pytorch",
+      "senet",
+      "yolov4"
+    ],
+    "updated_at": "2026-04-18T18:08:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "996icu/996.icu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "peterisfar/yolov3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "qqwweee/keras-yolo3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stinky-tofu/stronger-yolo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "attention"
+    },
+    {
+      "context_snippet": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cbam"
+    },
+    {
+      "context_snippet": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenetv2"
+    },
+    {
+      "context_snippet": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenetv3"
+    },
+    {
+      "context_snippet": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "senet"
+    },
+    {
+      "context_snippet": "[![996.icu](https://img.shields.io/badge/link-996.icu-red.svg)](https://996.icu)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov4"
+    }
+  ]
+}

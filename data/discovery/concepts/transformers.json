@@ -463,6 +463,162 @@
       "source_repo": "mukel/llama3.java",
       "status": "candidate-context",
       "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/ipex-llm",
+      "status": "candidate-context",
+      "text": "Accelerate local LLM inference and finetuning (LLaMA, Mistral, ChatGLM, Qwen, DeepSeek, Mixtral, Gemma, Phi, MiniCPM, Qwen-VL, MiniCPM-V, etc.) on Intel XPU (e.g., local PC with iGPU and NPU, discrete GPU such as Arc, Flex and Max); seamlessly integrate with llama.cpp, Ollama, HuggingFace, LangChain, LlamaIndex, vLLM, DeepSpeed, Axolotl, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ipex-llm",
+      "status": "candidate-context",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lucidrains/x-transformers",
+      "status": "candidate-context",
+      "text": "A concise but complete full-attention transformer with a set of promising experimental features from various papers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/x-transformers",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/x-transformers.svg)](https://badge.fury.io/py/x-transformers)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/tokenizers",
+      "status": "candidate-context",
+      "text": "\ud83d\udca5 Fast State-of-the-Art Tokenizers optimized for Research and Production"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/tokenizers",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/magvit",
+      "status": "candidate-context",
+      "text": "Official JAX implementation of MAGVIT: Masked Generative Video Transformer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/magvit",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/video-generation-on-ucf-101)](https://paperswithcode.com/sota/video-generation-on-ucf-101?p=language-model-beats-diffusion-tokenizer-is)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate-context",
+      "text": "A Unified Library for Parameter-Efficient and Modular Transfer Learning "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate-context",
+      "text": "An ultimately comprehensive paper list of Vision Transformer/Attention, including papers, codes, and related websites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate-context",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/ChatGLM-Efficient-Tuning",
+      "status": "candidate-context",
+      "text": "Fine-tuning ChatGLM-6B with PEFT | \u57fa\u4e8e PEFT \u7684\u9ad8\u6548 ChatGLM \u5fae\u8c03"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/ChatGLM-Efficient-Tuning",
+      "status": "candidate-context",
+      "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/ChatGLM-Efficient-Tuning?style=social)](https://github.com/hiyouga/ChatGLM-Efficient-Tuning/stargazers)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kmeng01/rome",
+      "status": "candidate-context",
+      "text": "Locating and editing factual associations in GPT (NeurIPS 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kmeng01/rome",
+      "status": "candidate-context",
+      "text": "This repository provides an implementation of Rank-One Model Editing (ROME) on auto-regressive transformers (GPU-only)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tomaarsen/attention_sinks",
+      "status": "candidate-context",
+      "text": "Extend existing LLMs way beyond the original training length with constant memory usage, without retraining"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomaarsen/attention_sinks",
+      "status": "candidate-context",
+      "text": "**TL;DR**: `attention_sinks` adapts pre-trained LLMs to use a modified form of sliding window attention that remains able to produce fluent text indefinitely."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "Easy-to-use and powerful LLM and SLM library with awesome model zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vladmandic/sdnext",
+      "status": "candidate-context",
+      "text": "SD.Next: All-in-one WebUI for AI generative image and video creation, captioning and processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladmandic/sdnext",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/scenic",
+      "status": "candidate-context",
+      "text": "Scenic: A Jax Library for Computer Vision Research and Beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/scenic",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amzn/pecos",
+      "status": "candidate-context",
+      "text": "PECOS - Prediction for Enormous and Correlated Spaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/pecos",
+      "status": "candidate-context",
+      "text": "[![PyPi Latest Release](https://img.shields.io/pypi/v/libpecos)](https://img.shields.io/pypi/v/libpecos)"
     }
   ],
   "candidate_glosses": [
@@ -693,6 +849,84 @@
       "source_repo": "mukel/llama3.java",
       "status": "candidate",
       "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ipex-llm",
+      "status": "candidate",
+      "text": "Intel will not provide or guarantee development of or support for this project, including but not limited to, maintenance, bug fixes, new releases or updates."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lucidrains/x-transformers",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/x-transformers.svg)](https://badge.fury.io/py/x-transformers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/tokenizers",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/magvit",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/language-model-beats-diffusion-tokenizer-is/video-generation-on-ucf-101)](https://paperswithcode.com/sota/video-generation-on-ucf-101?p=language-model-beats-diffusion-tokenizer-is)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/ChatGLM-Efficient-Tuning",
+      "status": "candidate",
+      "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/ChatGLM-Efficient-Tuning?style=social)](https://github.com/hiyouga/ChatGLM-Efficient-Tuning/stargazers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kmeng01/rome",
+      "status": "candidate",
+      "text": "This repository provides an implementation of Rank-One Model Editing (ROME) on auto-regressive transformers (GPU-only)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomaarsen/attention_sinks",
+      "status": "candidate",
+      "text": "**TL;DR**: `attention_sinks` adapts pre-trained LLMs to use a modified form of sliding window attention that remains able to produce fluent text indefinitely."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate",
+      "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladmandic/sdnext",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/scenic",
+      "status": "candidate",
+      "text": "<div style=\"text-align: left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amzn/pecos",
+      "status": "candidate",
+      "text": "[![PyPi Latest Release](https://img.shields.io/pypi/v/libpecos)](https://img.shields.io/pypi/v/libpecos)"
     }
   ],
   "candidate_related_terms": [
@@ -1000,11 +1234,113 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "intel/ipex-llm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lucidrains/x-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/tokenizers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-research/magvit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "EleutherAI/gpt-neo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adapter-hub/adapters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/ChatGLM-Efficient-Tuning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "TinyLLaVA/TinyLLaVA_Factory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kmeng01/rome"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AutoGPTQ/AutoGPTQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tomaarsen/attention_sinks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vladmandic/sdnext"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-research/scenic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "amzn/pecos"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

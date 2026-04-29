@@ -1,34 +1,5 @@
 {
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
-      "target": "njucckevin/seeclick",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
-      "target": "shenzhi-wang/llama3-chinese-chat",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
-      "target": "unicomai/unichat-llama3-chinese",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
-      "target": "skyvern-ai/skyvern",
-      "target_type": "repository"
-    }
-  ],
-  "generated_at": "2026-04-24T12:33:41.350224+00:00",
+  "edges": [],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools"
 }

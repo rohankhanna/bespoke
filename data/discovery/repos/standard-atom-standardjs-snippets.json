@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standard/atom-standardjs-snippets",
+      "target": "feross/standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standard/atom-standardjs-snippets",
+      "target": "ricardofbarros/linter-js-standard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standard/atom-standardjs-snippets",
+      "target": "maxogden/standard-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "standard/atom-standardjs-snippets",
+      "target": "flet/semistandard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/atom-standardjs-snippets",
+      "target": "atom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/atom-standardjs-snippets",
+      "target": "atom-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/atom-standardjs-snippets",
+      "target": "javascript-snippets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/atom-standardjs-snippets",
+      "target": "snippets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "standard/atom-standardjs-snippets",
+      "target": "standardjs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:46:38.616833+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13358
+    },
+    {
+      "path": "package.json",
+      "size": 730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": ":zap: A collection of JavaScript snippets for Atom, Standard Style",
+    "fork": false,
+    "full_name": "standard/atom-standardjs-snippets",
+    "html_url": "https://github.com/standard/atom-standardjs-snippets",
+    "language": "CoffeeScript",
+    "pushed_at": "2023-09-16T07:25:34Z",
+    "stargazers_count": 48,
+    "topics": [
+      "atom",
+      "atom-package",
+      "javascript-snippets",
+      "snippets",
+      "standardjs"
+    ],
+    "updated_at": "2026-01-19T13:58:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feross/standard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "flet/semistandard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "maxogden/standard-format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ricardofbarros/linter-js-standard",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atom"
+    },
+    {
+      "context_snippet": "A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "atom-package"
+    },
+    {
+      "context_snippet": "A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "javascript-snippets"
+    },
+    {
+      "context_snippet": "A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snippets"
+    },
+    {
+      "context_snippet": "A collection of ES6 [standardjs code style](http://standardjs.com/) snippets for faster JavaScript development in [Atom Editor](https://atom.io/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standardjs"
+    }
+  ]
+}

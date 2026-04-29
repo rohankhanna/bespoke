@@ -297,6 +297,60 @@
       "source_repo": "ashvardanian/StringZilla",
       "status": "candidate-context",
       "text": "![StringZilla banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-v4.jpg?raw=true)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ganler/code-r1",
+      "status": "candidate-context",
+      "text": "Reproducing R1 for Code with Reliable Rewards"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ganler/code-r1",
+      "status": "candidate-context",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Visual-Agent/DeepEyes",
+      "status": "candidate-context",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "status": "candidate-context",
+      "text": "Total Text Dataset. It consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "status": "candidate-context",
+      "text": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "detectRecog/CCPD",
+      "status": "candidate-context",
+      "text": "[ECCV 2018] CCPD: a diverse and well-annotated dataset for license plate detection and recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detectRecog/CCPD",
+      "status": "candidate-context",
+      "text": "(If you are benefited from this dataset, please cite our paper.)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate-context",
+      "text": "The official repo for the extension of [NeurIPS'22] \"APT-36K: A Large-scale Benchmark for Animal Pose Estimation and Tracking\": https://github.com/pandorgan/APT-36K"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate-context",
+      "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
     }
   ],
   "candidate_glosses": [
@@ -443,6 +497,36 @@
       "source_repo": "ashvardanian/StringZilla",
       "status": "candidate",
       "text": "![StringZilla banner](https://github.com/ashvardanian/ashvardanian/blob/master/repositories/StringZilla-v4.jpg?raw=true)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ganler/code-r1",
+      "status": "candidate",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Visual-Agent/DeepEyes",
+      "status": "candidate",
+      "text": "dataset"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "status": "candidate",
+      "text": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "detectRecog/CCPD",
+      "status": "candidate",
+      "text": "(If you are benefited from this dataset, please cite our paper.)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate",
+      "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
     }
   ],
   "candidate_related_terms": [
@@ -630,11 +714,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/StringZilla"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "ganler/code-r1"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "Visual-Agent/DeepEyes"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cs-chan/Total-Text-Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "detectRecog/CCPD"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/APTv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "thorstenMueller/Thorsten-Voice"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

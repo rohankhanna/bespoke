@@ -43,6 +43,18 @@
       "source_repo": "danielrosehill/Context-Projects-Index",
       "status": "candidate-context",
       "text": "![Index](https://img.shields.io/badge/Type-Index-0ea5e9?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexedwards/scs",
+      "status": "candidate-context",
+      "text": "HTTP Session Management for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexedwards/scs",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/alexedwards/scs?status.png)](https://pkg.go.dev/github.com/alexedwards/scs/v2?tab=doc)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "danielrosehill/Context-Projects-Index",
       "status": "candidate",
       "text": "![Index](https://img.shields.io/badge/Type-Index-0ea5e9?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexedwards/scs",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/alexedwards/scs?status.png)](https://pkg.go.dev/github.com/alexedwards/scs/v2?tab=doc)"
     }
   ],
   "candidate_related_terms": [
@@ -152,11 +170,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Context-Projects-Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexedwards/scs"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

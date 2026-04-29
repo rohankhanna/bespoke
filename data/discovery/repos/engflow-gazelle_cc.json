@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_bzldep_index.yaml"
+    },
+    {
+      "component": "coursier/cache-action@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_bzldep_index.yaml"
+    },
+    {
+      "component": "coursier/setup-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_bzldep_index.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_bzldep_index.yaml"
+    },
+    {
+      "component": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-bcr.yaml"
+    },
+    {
+      "component": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.2.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EngFlow/gazelle_cc",
+      "target": "bazelbuild/platforms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "EngFlow/gazelle_cc",
+      "target": "bazel-contrib/rules_foreign_cc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "EngFlow/gazelle_cc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_bzldep_index.yaml",
+      "source_repo": "EngFlow/gazelle_cc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_bzldep_index.yaml",
+      "source_repo": "EngFlow/gazelle_cc",
+      "target": "coursier/cache-action@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_bzldep_index.yaml",
+      "source_repo": "EngFlow/gazelle_cc",
+      "target": "coursier/setup-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_bzldep_index.yaml",
+      "source_repo": "EngFlow/gazelle_cc",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_bzldep_index.yaml",
+      "source_repo": "EngFlow/gazelle_cc",
+      "target": "Generate header mapping index",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-bcr.yaml",
+      "source_repo": "EngFlow/gazelle_cc",
+      "target": "bazel-contrib/publish-to-bcr/.github/workflows/publish.yaml@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-bcr.yaml",
+      "source_repo": "EngFlow/gazelle_cc",
+      "target": "Publish to the Bazel Central Registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "EngFlow/gazelle_cc",
+      "target": "bazel-contrib/.github/.github/workflows/release_ruleset.yaml@v7.2.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "EngFlow/gazelle_cc",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:59:12.084045+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22003
+    },
+    {
+      "path": "go.mod",
+      "size": 668
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 3019
+    },
+    {
+      "path": ".github/workflows/generate_bzldep_index.yaml",
+      "size": 1653
+    },
+    {
+      "path": ".github/workflows/publish-to-bcr.yaml",
+      "size": 1187
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1252
+    },
+    {
+      "path": ".github/workflows/release_prep.sh",
+      "size": 1100
+    },
+    {
+      "path": ".github/workflows/test_e2e.sh",
+      "size": 1824
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Public repository for the Gazelle C++ extension",
+    "fork": false,
+    "full_name": "EngFlow/gazelle_cc",
+    "html_url": "https://github.com/EngFlow/gazelle_cc",
+    "language": "Go",
+    "pushed_at": "2026-04-29T18:45:27Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2026-04-29T18:45:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazel-contrib/rules_foreign_cc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/platforms",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Generate header mapping index",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_bzldep_index.yaml",
+      "term": "Generate header mapping index"
+    },
+    {
+      "context_snippet": "Publish to the Bazel Central Registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-bcr.yaml",
+      "term": "Publish to the Bazel Central Registry"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yaml",
+      "term": "Release"
+    }
+  ]
+}

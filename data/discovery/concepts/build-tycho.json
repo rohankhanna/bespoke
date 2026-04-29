@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Build Tycho"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "status": "candidate-context",
+      "text": "Eclipse Corrosion - Rust edition in Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "status": "candidate-context",
+      "text": "Build Tycho"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-shellwax/shellwax",
+      "status": "candidate-context",
+      "text": "Shell script editor plugin for Eclipse "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-shellwax/shellwax",
+      "status": "candidate-context",
+      "text": "Build Tycho"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-corrosion/corrosion",
+      "status": "candidate",
+      "text": "Build Tycho"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-shellwax/shellwax",
+      "status": "candidate",
+      "text": "Build Tycho"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17064,
+      "status": "candidate",
+      "text": "brahe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11304,
+      "status": "candidate",
+      "text": "benedictine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "astronomy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11004,
+      "status": "candidate",
+      "text": "tychonic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 5000,
+      "status": "candidate",
+      "text": "abbess"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build Tycho",
+  "concept_id": "build-tycho",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "eclipse-corrosion/corrosion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/maven.yml",
+      "source_repo": "eclipse-shellwax/shellwax"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Tycho",
+      "sense_id": "build-tycho#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

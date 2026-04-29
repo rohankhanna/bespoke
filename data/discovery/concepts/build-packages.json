@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build packages"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iree-org/iree-turbine",
+      "status": "candidate-context",
+      "text": "IREE's PyTorch Frontend, based on Torch Dynamo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree-turbine",
+      "status": "candidate-context",
+      "text": "Build packages"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iree-org/iree-turbine",
+      "status": "candidate",
+      "text": "Build packages"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11776,
+      "status": "candidate",
+      "text": "training"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10996,
+      "status": "candidate",
+      "text": "clusters"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10996,
+      "status": "candidate",
+      "text": "mail"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10996,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10996,
+      "status": "candidate",
+      "text": "package"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build packages",
+  "concept_id": "build-packages",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build_packages.yml",
+      "source_repo": "iree-org/iree-turbine"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build packages",
+      "sense_id": "build-packages#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

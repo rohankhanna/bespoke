@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clue-ai/ChatYuan",
+      "target": "google-research/text-to-text-transfer-transformer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:38:06.383022+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16136
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ChatYuan: Large Language Model for Dialogue in Chinese and English",
+    "fork": false,
+    "full_name": "clue-ai/ChatYuan",
+    "html_url": "https://github.com/clue-ai/ChatYuan",
+    "language": "Python",
+    "pushed_at": "2023-06-16T13:36:35Z",
+    "stargazers_count": 1874,
+    "topics": [],
+    "updated_at": "2026-04-21T07:31:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-research/text-to-text-transfer-transformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

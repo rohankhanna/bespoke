@@ -92,6 +92,18 @@
       "source_repo": "scverse/rapids-singlecell",
       "status": "candidate-context",
       "text": "Build and upload to PyPI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "joerick/pyinstrument_cext",
+      "status": "candidate-context",
+      "text": "Pyinstrument's C extensions - enables the development of a fast statistical profiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joerick/pyinstrument_cext",
+      "status": "candidate-context",
+      "text": "Build and upload to PyPI"
     }
   ],
   "candidate_glosses": [
@@ -134,6 +146,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "scverse/rapids-singlecell",
+      "status": "candidate",
+      "text": "Build and upload to PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "joerick/pyinstrument_cext",
       "status": "candidate",
       "text": "Build and upload to PyPI"
     }
@@ -221,11 +239,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "scverse/rapids-singlecell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build_and_test.yml",
+      "source_repo": "joerick/pyinstrument_cext"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "scverse/rapids-singlecell"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

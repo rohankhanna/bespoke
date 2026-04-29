@@ -1,7 +1,7 @@
 {
   "component": "ScoopInstaller/GithubActions@main",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -102,6 +102,106 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/pull_request.yml",
       "source_repo": "niheaven/scoop-sysinternals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "chawyehsu/dorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "chawyehsu/dorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "chawyehsu/dorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "chawyehsu/dorado"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "hermanjustnu/scoop-emulators"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "hermanjustnu/scoop-emulators"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "hermanjustnu/scoop-emulators"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "hermanjustnu/scoop-emulators"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "ScoopInstaller/Java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "ScoopInstaller/Java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "ScoopInstaller/Java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ScoopInstaller/Java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "ScoopInstaller/Nonportable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "ScoopInstaller/Nonportable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "ScoopInstaller/Nonportable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "ScoopInstaller/Nonportable"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/excavator.yml",
+      "source_repo": "littleli/scoop-clojure"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "littleli/scoop-clojure"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "littleli/scoop-clojure"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "littleli/scoop-clojure"
     }
   ]
 }

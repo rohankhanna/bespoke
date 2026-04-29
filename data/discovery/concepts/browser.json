@@ -274,6 +274,126 @@
       "source_repo": "criteo/mesos-term",
       "status": "candidate-context",
       "text": "**MesosTerm** is a web-based terminal for Mesos. It allows you to execute commands"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate-context",
+      "text": "This browser extension enables you to filter the GitHub news feeds based on different event types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate-context",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/bittorrent-lsd",
+      "status": "candidate-context",
+      "text": "Local Service Discovery (BEP14) implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-lsd",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-lsd/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/bittorrent-protocol",
+      "status": "candidate-context",
+      "text": "Simple, robust, BitTorrent peer wire protocol implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-protocol",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/webtorrent/bittorrent-protocol/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "A JavaScript implementation of a web browser without its graphical user interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/qute2k",
+      "status": "candidate-context",
+      "text": "Minimalistic Keyboard Driven Browser \ud83c\udf10\ud83c\udf80"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/qute2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate-context",
+      "text": "A web extension for Firefox and Chrome to insert login credentials from gopass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/gopasspw/gopassbridge/actions/workflows/nodejs.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate-context",
+      "text": "Automate browser based workflows with AI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate-context",
+      "text": "<!-- DOCTOC SKIP -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f Firefox Focus (Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate-context",
+      "text": "_Browse like no one\u2019s watching. The new Firefox Focus automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/ut_metadata",
+      "status": "candidate-context",
+      "text": "BitTorrent Extension for Peers to Send Metadata Files (BEP 9)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/ut_metadata",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/webtorrent/ut_metadata/actions/workflows/ci.yml/badge.svg?branch=master"
     }
   ],
   "candidate_glosses": [
@@ -408,6 +528,66 @@
       "source_repo": "criteo/mesos-term",
       "status": "candidate",
       "text": "**MesosTerm** is a web-based terminal for Mesos. It allows you to execute commands"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-lsd",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-lsd/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-protocol",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/webtorrent/bittorrent-protocol/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/qute2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/gopasspw/gopassbridge/actions/workflows/nodejs.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Skyvern-AI/skyvern",
+      "status": "candidate",
+      "text": "<!-- DOCTOC SKIP -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate",
+      "text": "_Browse like no one\u2019s watching. The new Firefox Focus automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/ut_metadata",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/webtorrent/ut_metadata/actions/workflows/ci.yml/badge.svg?branch=master"
     }
   ],
   "candidate_related_terms": [
@@ -615,11 +795,101 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Level/level-js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-lsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-protocol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "capricorn86/happy-dom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vercel/next.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "criteo/mesos-term"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/qute2k"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gopasspw/gopassbridge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Skyvern-AI/skyvern"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "WebAV-Tech/WebAV"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "extism/extism"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/focus-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/ut_metadata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

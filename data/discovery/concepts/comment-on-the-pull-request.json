@@ -67,6 +67,18 @@
       "source_repo": "dart-lang/test",
       "status": "candidate-context",
       "text": "Comment on the pull request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate-context",
+      "text": "The Dart language implementation of gRPC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate-context",
+      "text": "Comment on the pull request"
     }
   ],
   "candidate_glosses": [
@@ -91,6 +103,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "dart-lang/test",
+      "status": "candidate",
+      "text": "Comment on the pull request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-dart",
       "status": "candidate",
       "text": "Comment on the pull request"
     }
@@ -202,11 +220,23 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/post_summaries.yaml",
       "source_repo": "google/protobuf.dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/post_summaries.yaml",
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/post_summaries.yaml",
+      "source_repo": "google/protobuf.dart"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -118,6 +118,30 @@
       "source_repo": "mozilla/grcov",
       "status": "candidate-context",
       "text": "CICD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bootandy/dust",
+      "status": "candidate-context",
+      "text": "A more intuitive version of du in rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootandy/dust",
+      "status": "candidate-context",
+      "text": "CICD"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "earthly/earthly",
+      "status": "candidate-context",
+      "text": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax \u2013 like Dockerfile and Makefile had a baby."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "earthly/earthly",
+      "status": "candidate-context",
+      "text": "<h1>Earthly</h1>"
     }
   ],
   "candidate_glosses": [
@@ -174,6 +198,18 @@
       "source_repo": "mozilla/grcov",
       "status": "candidate",
       "text": "CICD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bootandy/dust",
+      "status": "candidate",
+      "text": "CICD"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "earthly/earthly",
+      "status": "candidate",
+      "text": "<h1>Earthly</h1>"
     }
   ],
   "candidate_related_terms": [],
@@ -235,11 +271,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/CICD.yml",
       "source_repo": "mozilla/grcov"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/CICD.yml",
+      "source_repo": "bootandy/dust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "earthly/earthly"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

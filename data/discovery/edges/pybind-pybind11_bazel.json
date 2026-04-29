@@ -1,0 +1,125 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "bazel-contrib/setup-bazel@0.19.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd64_linux_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "amd64 Linux Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "amd64 MacOS Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amd64_windows_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "amd64 Windows Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/arm64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/arm64_macos_bazel.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "arm64 MacOS Bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pybind/pybind11_bazel",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "pybind/pybind11_bazel"
+}

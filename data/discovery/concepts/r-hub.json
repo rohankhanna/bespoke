@@ -31,6 +31,54 @@
       "source_repo": "r-spatial/sf",
       "status": "candidate-context",
       "text": "R-hub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nx10/httpgd",
+      "status": "candidate-context",
+      "text": "Asynchronous HTTP/WebSocket graphics device for R with an interactive plot viewer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx10/httpgd",
+      "status": "candidate-context",
+      "text": "R-hub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "appelmar/gdalcubes",
+      "status": "candidate-context",
+      "text": "Creating and analyzing Earth observation data cubes in R"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appelmar/gdalcubes",
+      "status": "candidate-context",
+      "text": "R-hub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DOI-USGS/ncdfgeom",
+      "status": "candidate-context",
+      "text": "NetCDF-CF Geometry and Timeseries Tools for R: https://code.usgs.gov/water/ncdfgeom"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOI-USGS/ncdfgeom",
+      "status": "candidate-context",
+      "text": "R-hub"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rspatial/terra",
+      "status": "candidate-context",
+      "text": "R package for spatial data handling https://rspatial.github.io/terra/reference/terra-package.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspatial/terra",
+      "status": "candidate-context",
+      "text": "R-hub"
     }
   ],
   "candidate_glosses": [
@@ -43,6 +91,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "r-spatial/sf",
+      "status": "candidate",
+      "text": "R-hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx10/httpgd",
+      "status": "candidate",
+      "text": "R-hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "appelmar/gdalcubes",
+      "status": "candidate",
+      "text": "R-hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOI-USGS/ncdfgeom",
+      "status": "candidate",
+      "text": "R-hub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rspatial/terra",
       "status": "candidate",
       "text": "R-hub"
     }
@@ -64,11 +136,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/rhub.yaml",
       "source_repo": "r-spatial/sf"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "nx10/httpgd"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "appelmar/gdalcubes"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "DOI-USGS/ncdfgeom"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rhub.yaml",
+      "source_repo": "rspatial/terra"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

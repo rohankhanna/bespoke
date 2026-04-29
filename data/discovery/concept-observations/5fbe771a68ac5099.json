@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ECCV 2018] CCPD: a diverse and well-annotated dataset for license plate detection and recognition"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "(If you are benefited from this dataset, please cite our paper.)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "(If you are benefited from this dataset, please cite our paper.)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971427,
+      "status": "candidate",
+      "text": "realization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39971297,
+      "status": "candidate",
+      "text": "realisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968202,
+      "status": "candidate",
+      "text": "identification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39968012,
+      "status": "candidate",
+      "text": "acknowledgment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39967517,
+      "status": "candidate",
+      "text": "credit"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "recognition",
+      "sense_id": "recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22042,
+      "status": "candidate",
+      "text": "realization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17039,
+      "status": "candidate",
+      "text": "acknowledgment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7030,
+      "status": "candidate",
+      "text": "preferment"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7018,
+      "status": "candidate",
+      "text": "realisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4053,
+      "status": "candidate",
+      "text": "identification"
+    }
+  ],
+  "concept_id": "recognition",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "recognition",
+  "observation_id": "5fbe771a68ac5099",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "recognition",
+  "source_context_snippet": "(If you are benefited from this dataset, please cite our paper.)",
+  "source_file": null,
+  "source_repo": "detectRecog/CCPD",
+  "source_repo_description": "[ECCV 2018] CCPD: a diverse and well-annotated dataset for license plate detection and recognition"
+}

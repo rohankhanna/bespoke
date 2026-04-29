@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A local testnet of go-spacemesh full nodes running the Spacemesh protocol and a functional CLI wallet. \ud83d\udcbe\u23f0"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repo contains the source code of the `spacemesh-local-testnet` npm pacakge."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repo contains the source code of the `spacemesh-local-testnet` npm pacakge."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40027419,
+      "status": "candidate",
+      "text": "versifier"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027475,
+      "status": "candidate",
+      "text": "poetic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027414,
+      "status": "candidate",
+      "text": "metrist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027199,
+      "status": "candidate",
+      "text": "poem"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30027118,
+      "status": "candidate",
+      "text": "poetry"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "poet",
+      "sense_id": "poet#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2021,
+      "status": "candidate",
+      "text": "versifier"
+    }
+  ],
+  "concept_id": "poet",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "poet",
+  "observation_id": "2e07f0a12b4018a9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "poet",
+  "source_context_snippet": "This repo contains the source code of the `spacemesh-local-testnet` npm pacakge.",
+  "source_file": null,
+  "source_repo": "spacemeshos/local-testnet",
+  "source_repo_description": "A local testnet of go-spacemesh full nodes running the Spacemesh protocol and a functional CLI wallet. \ud83d\udcbe\u23f0"
+}

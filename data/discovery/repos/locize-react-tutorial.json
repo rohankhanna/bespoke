@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "locize/react-tutorial",
+      "target": "facebookincubator/create-react-app",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "locize/react-tutorial",
+      "target": "locize/locize-lastused",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "locize/react-tutorial",
+      "target": "locize/locize",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:59:55.253191+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "locize/react-tutorial",
+    "html_url": "https://github.com/locize/react-tutorial",
+    "language": "JavaScript",
+    "pushed_at": "2025-02-21T17:38:53Z",
+    "stargazers_count": 27,
+    "topics": [],
+    "updated_at": "2025-11-21T17:59:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookincubator/create-react-app",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "locize/locize",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "locize/locize-lastused",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

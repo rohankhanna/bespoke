@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:40:05.090386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 690
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "ruby-debug/debase",
+    "html_url": "https://github.com/ruby-debug/debase",
+    "language": "C",
+    "pushed_at": "2026-04-21T13:50:56Z",
+    "stargazers_count": 217,
+    "topics": [],
+    "updated_at": "2026-03-25T15:56:29Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

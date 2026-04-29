@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Strongly typed YAML library for Rust maintained by Bourumir Wyngs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "API compatibility"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "API compatibility"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10867,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10745,
+      "status": "candidate",
+      "text": "shim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10670,
+      "status": "candidate",
+      "text": "action replay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10670,
+      "status": "candidate",
+      "text": "awk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10670,
+      "status": "candidate",
+      "text": "base"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "API compatibility",
+      "sense_id": "api-compatibility#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "api-compatibility",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "api-compatibility",
+  "observation_id": "b62faeb23f0b045a",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "API compatibility",
+  "source_context_snippet": "API compatibility",
+  "source_file": ".github/workflows/api-compat.yml",
+  "source_repo": "bourumir-wyngs/serde-yaml-bw",
+  "source_repo_description": "Strongly typed YAML library for Rust maintained by Bourumir Wyngs"
+}

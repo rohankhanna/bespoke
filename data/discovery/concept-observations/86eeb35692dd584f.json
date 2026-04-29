@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "small, safe, and great commonmark (optionally gfm, mdx) compliant markdown parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "micromark-mono"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "micromark-mono"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19887009,
+      "status": "candidate",
+      "text": "tokenise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19887008,
+      "status": "candidate",
+      "text": "detokenize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19887007,
+      "status": "candidate",
+      "text": "disassociate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19887006,
+      "status": "candidate",
+      "text": "analyze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19887005,
+      "status": "candidate",
+      "text": "unpack"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tokenize",
+      "sense_id": "tokenize#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tokenize",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tokenize",
+  "observation_id": "86eeb35692dd584f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "tokenize",
+  "source_context_snippet": "micromark-mono",
+  "source_file": null,
+  "source_repo": "micromark/micromark",
+  "source_repo_description": "small, safe, and great commonmark (optionally gfm, mdx) compliant markdown parser"
+}

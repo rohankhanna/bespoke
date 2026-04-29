@@ -19,6 +19,18 @@
       "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
       "status": "candidate-context",
       "text": "![build](https://github.com/kubernetes-sigs/apiserver-builder-alpha/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kubernetes-sigs/apiserver-runtime",
+      "status": "candidate-context",
+      "text": "Libraries for implementing aggregated apiservers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/apiserver-runtime",
+      "status": "candidate-context",
+      "text": "**Note**: This project is Alpha with no commitments from its maintainers to provide any sort of support."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "kubernetes-sigs/apiserver-builder-alpha",
       "status": "candidate",
       "text": "![build](https://github.com/kubernetes-sigs/apiserver-builder-alpha/workflows/build/badge.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kubernetes-sigs/apiserver-runtime",
+      "status": "candidate",
+      "text": "**Note**: This project is Alpha with no commitments from its maintainers to provide any sort of support."
     }
   ],
   "candidate_related_terms": [],
@@ -46,11 +64,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "kubernetes-sigs/apiserver-builder-alpha"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kubernetes-sigs/apiserver-runtime"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

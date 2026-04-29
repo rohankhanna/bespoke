@@ -1,0 +1,12 @@
+{
+  "component": "contributor-assistant/github-action@5bfe123a0731f017d9c29550976bf724fe0870f5",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cla.yaml",
+      "source_repo": "Arize-ai/openinference"
+    }
+  ]
+}

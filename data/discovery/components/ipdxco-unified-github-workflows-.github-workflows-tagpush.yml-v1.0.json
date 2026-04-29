@@ -1,7 +1,7 @@
 {
   "component": "ipdxco/unified-github-workflows/.github/workflows/tagpush.yml@v1.0",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -17,6 +17,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/tagpush.yml",
       "source_repo": "multiformats/go-multiaddr"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tagpush.yml",
+      "source_repo": "ipfs/go-ipfs-example-plugin"
     }
   ]
 }

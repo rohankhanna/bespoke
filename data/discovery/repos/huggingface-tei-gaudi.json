@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml"
+    },
+    {
+      "component": "trufflesecurity/trufflehog@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/tei-gaudi",
+      "target": "huggingface/text-embeddings-inference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "huggingface/tei-gaudi",
+      "target": "huggingface/text-embeddings-inference",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "huggingface/tei-gaudi",
+      "target": "coreylowman/cudarc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "huggingface/tei-gaudi",
+      "target": "olivierdehaene/candle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tei-gaudi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tei-gaudi",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tei-gaudi",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tei-gaudi",
+      "target": "docker/metadata-action@v4.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tei-gaudi",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/tei-gaudi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/tei-gaudi",
+      "target": "trufflesecurity/trufflehog@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "source_repo": "huggingface/tei-gaudi",
+      "target": "Secret Leaks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:42:26.980876+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8934
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1816
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2413
+    },
+    {
+      "path": ".github/workflows/push_docker_image.yml",
+      "size": 1642
+    },
+    {
+      "path": ".github/workflows/trufflehog.yml",
+      "size": 256
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "habana-main",
+    "description": "A blazing fast inference solution for text embeddings models",
+    "fork": true,
+    "full_name": "huggingface/tei-gaudi",
+    "html_url": "https://github.com/huggingface/tei-gaudi",
+    "language": "Rust",
+    "pushed_at": "2025-05-26T08:48:49Z",
+    "stargazers_count": 9,
+    "topics": [],
+    "updated_at": "2025-08-13T01:38:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/text-embeddings-inference",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "coreylowman/cudarc",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/text-embeddings-inference",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "olivierdehaene/candle",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Secret Leaks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trufflehog.yml",
+      "term": "Secret Leaks"
+    }
+  ]
+}

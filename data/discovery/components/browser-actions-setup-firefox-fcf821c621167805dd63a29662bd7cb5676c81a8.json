@@ -1,12 +1,22 @@
 {
   "component": "browser-actions/setup-firefox@fcf821c621167805dd63a29662bd7cb5676c81a8",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci-jobs.yml",
       "source_repo": "emberjs/ember.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "plotly/plotly.js"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests-e2e.yml",
+      "source_repo": "SemiAnalysisAI/InferenceX-app"
     }
   ]
 }

@@ -655,6 +655,78 @@
       "source_repo": "mfussenegger/nvim-jdtls",
       "status": "candidate-context",
       "text": "Extensions for the built-in [Language Server Protocol][1] support in [Neovim][2] (>= 0.6.0) for [eclipse.jdt.ls][3]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate-context",
+      "text": "Utility functions for getting diagnostic status and progress messages from LSP servers, for use in the Neovim statusline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate-context",
+      "text": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate-context",
+      "text": "Neovim plugin to improve the default vim.ui interfaces"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate-context",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "folke/trouble.nvim",
+      "status": "candidate-context",
+      "text": "\ud83d\udea6 A pretty diagnostics, references, telescope results, quickfix and location list to help you solve all the trouble your code is causing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/trouble.nvim",
+      "status": "candidate-context",
+      "text": "A pretty list for showing diagnostics, references, telescope results, quickfix and location lists to help you solve all the trouble your code is causing."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lewis6991/async.nvim",
+      "status": "candidate-context",
+      "text": "Async library for Neovim plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/async.nvim",
+      "status": "candidate-context",
+      "text": "Structured concurrency library for Lua 5.1, built on coroutines."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "<img alt=\"FFF\" src=\"./assets/logo-orange.png\" width=\"300\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "A neovim integration for television"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
     }
   ],
   "candidate_glosses": [
@@ -981,6 +1053,42 @@
       "source_repo": "mfussenegger/nvim-jdtls",
       "status": "candidate",
       "text": "Extensions for the built-in [Language Server Protocol][1] support in [Neovim][2] (>= 0.6.0) for [eclipse.jdt.ls][3]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nvim-lua/lsp-status.nvim",
+      "status": "candidate",
+      "text": "This is a Neovim plugin/library for generating statusline components from the built-in LSP client."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "stevearc/dressing.nvim",
+      "status": "candidate",
+      "text": "> [!WARNING]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "folke/trouble.nvim",
+      "status": "candidate",
+      "text": "A pretty list for showing diagnostics, references, telescope results, quickfix and location lists to help you solve all the trouble your code is causing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lewis6991/async.nvim",
+      "status": "candidate",
+      "text": "Structured concurrency library for Lua 5.1, built on coroutines."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate",
+      "text": "<img alt=\"FFF\" src=\"./assets/logo-orange.png\" width=\"300\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpasmantier/tv.nvim",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"color: #abb2bf;font-family: 'Fira Code', monospace;\">"
     }
   ],
   "candidate_related_terms": [],
@@ -1360,11 +1468,71 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "mfussenegger/nvim-jdtls"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "andersevenrud/cmp-tmux"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvim-lua/lsp-status.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dense-analysis/ale"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "stevearc/dressing.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.icons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvim-mini/mini.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "folke/trouble.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lewis6991/async.nvim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexpasmantier/tv.nvim"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

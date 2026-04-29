@@ -1,0 +1,49 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "Bitergia/grimoirelab-perceval-finos",
+      "target": "chaoss/grimoirelab-toolkit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:55:48.070446+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1609
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1128
+    },
+    {
+      "path": "requirements.txt",
+      "size": 166
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Bundle of Perceval backends for FINOS ecosystem",
+    "fork": false,
+    "full_name": "Bitergia/grimoirelab-perceval-finos",
+    "html_url": "https://github.com/Bitergia/grimoirelab-perceval-finos",
+    "language": "Python",
+    "pushed_at": "2022-02-14T06:47:29Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-11-01T15:01:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-toolkit",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

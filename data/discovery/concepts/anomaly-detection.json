@@ -43,6 +43,18 @@
       "source_repo": "logpai/Drain3",
       "status": "candidate-context",
       "text": "Drain3 was moved to the `logpai` GitHub organization (which is also the home for the original Drain implementation). We always welcome more contributors and maintainers to join us and push the project forward. We welcome more contributions and variants of implementations if you \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "logpai/logparser",
+      "status": "candidate-context",
+      "text": "A machine learning toolkit for log parsing [ICSE'19, DSN'16]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logpai/logparser",
+      "status": "candidate-context",
+      "text": "<p align=\"center\"> <a href=\"https://github.com/logpai\"> <img src=\"https://cdn.jsdelivr.net/gh/logpai/logpai.github.io@master/img/logpai_logo.jpg\" width=\"480\"></a></p>"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "logpai/Drain3",
       "status": "candidate",
       "text": "Drain3 was moved to the `logpai` GitHub organization (which is also the home for the original Drain implementation). We always welcome more contributors and maintainers to join us and push the project forward. We welcome more contributions and variants of implementations if you \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "logpai/logparser",
+      "status": "candidate",
+      "text": "<p align=\"center\"> <a href=\"https://github.com/logpai\"> <img src=\"https://cdn.jsdelivr.net/gh/logpai/logpai.github.io@master/img/logpai_logo.jpg\" width=\"480\"></a></p>"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "logpai/Drain3"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "logpai/logparser"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

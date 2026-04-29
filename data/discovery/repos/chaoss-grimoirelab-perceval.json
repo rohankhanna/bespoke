@@ -1,0 +1,354 @@
+{
+  "components": [
+    {
+      "component": "bitergia/release-tools-check-changelog@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml"
+    },
+    {
+      "component": "chaoss/grimoirelab-github-actions/build@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "chaoss/grimoirelab-github-actions/release@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "chaoss/grimoirelab-github-actions/publish@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@643bc377ffa44ace6394b2b5d0d3950076de9f63",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "chaoss/grimoirelab-perceval-puppet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "chaoss/grimoirelab-perceval-opnfv",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "chaoss/grimoirelab-perceval-mozilla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "bitergia/grimoirelab-perceval-finos",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "bitergia/release-tools-check-changelog@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "Check changelog file included",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "chaoss/grimoirelab-github-actions/build@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "actions/download-artifact@c850b930e6ba138125429b7e5c93fc707a7f8427",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "chaoss/grimoirelab-github-actions/release@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "chaoss/grimoirelab-github-actions/publish@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "actions/checkout@b4ffde65f46336ab88eb53be808477a3936bae11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "actions/setup-python@82c7e631bb3cdc910f68e0081d67478d79c6982d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "coverallsapp/github-action@643bc377ffa44ace6394b2b5d0d3950076de9f63",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "data-fetching",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "data-mining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "data-sources",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "grimoirelab",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "perceval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chaoss/grimoirelab-perceval",
+      "target": "software-analytics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:53:26.973171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15447
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1825
+    },
+    {
+      "path": ".github/workflows/changelog.yml",
+      "size": 212
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1959
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1276
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Send Sir Perceval on a quest to retrieve and gather data from software repositories.",
+    "fork": false,
+    "full_name": "chaoss/grimoirelab-perceval",
+    "html_url": "https://github.com/chaoss/grimoirelab-perceval",
+    "language": "Python",
+    "pushed_at": "2026-04-22T14:37:52Z",
+    "stargazers_count": 317,
+    "topics": [
+      "data-fetching",
+      "data-mining",
+      "data-sources",
+      "grimoirelab",
+      "hacktoberfest",
+      "perceval",
+      "python",
+      "software-analytics"
+    ],
+    "updated_at": "2026-04-22T14:13:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitergia/grimoirelab-perceval-finos",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-perceval-mozilla",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-perceval-opnfv",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chaoss/grimoirelab-perceval-puppet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check changelog file included",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yml",
+      "term": "Check changelog file included"
+    },
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    },
+    {
+      "context_snippet": "tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "tests"
+    },
+    {
+      "context_snippet": "Send Sir Perceval on a quest to retrieve and gather data from software",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-fetching"
+    },
+    {
+      "context_snippet": "Send Sir Perceval on a quest to retrieve and gather data from software",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-mining"
+    },
+    {
+      "context_snippet": "Send Sir Perceval on a quest to retrieve and gather data from software",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-sources"
+    },
+    {
+      "context_snippet": "Send Sir Perceval on a quest to retrieve and gather data from software",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "grimoirelab"
+    },
+    {
+      "context_snippet": "Send Sir Perceval on a quest to retrieve and gather data from software",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "Send Sir Perceval on a quest to retrieve and gather data from software",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "perceval"
+    },
+    {
+      "context_snippet": "Send Sir Perceval on a quest to retrieve and gather data from software",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "software-analytics"
+    }
+  ]
+}

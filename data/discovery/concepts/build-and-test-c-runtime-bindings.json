@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Build and test C++ Runtime Bindings"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ScalableVectorSearch",
+      "status": "candidate-context",
+      "text": "Build and test C++ Runtime Bindings"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/ScalableVectorSearch",
+      "status": "candidate",
+      "text": "Build and test C++ Runtime Bindings"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23188,
+      "status": "candidate",
+      "text": "benchmark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21599,
+      "status": "candidate",
+      "text": "construct"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21599,
+      "status": "candidate",
+      "text": "craft"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21599,
+      "status": "candidate",
+      "text": "gain"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21599,
+      "status": "candidate",
+      "text": "levy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and test C++ Runtime Bindings",
+  "concept_id": "build-and-test-c-runtime-bindings",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build-cpp-runtime-bindings.yml",
+      "source_repo": "intel/ScalableVectorSearch"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and test C++ Runtime Bindings",
+      "sense_id": "build-and-test-c-runtime-bindings#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

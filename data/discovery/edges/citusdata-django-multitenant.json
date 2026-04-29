@@ -1,0 +1,62 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "pombredanne/django-simple-multitenant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-base-image.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-base-image.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-base-image.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "Django MT Docker Image For Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/django-multitenant-tests.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/django-multitenant-tests.yml",
+      "source_repo": "citusdata/django-multitenant",
+      "target": "Django Multitenant Tests",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "citusdata/django-multitenant"
+}

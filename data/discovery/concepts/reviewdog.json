@@ -116,6 +116,90 @@
       "source_repo": "lambdalisue/vim-gina",
       "status": "candidate-context",
       "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optuna",
+      "status": "candidate-context",
+      "text": "A hyperparameter optimization framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna",
+      "status": "candidate-context",
+      "text": "Reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-glyph-palette",
+      "status": "candidate-context",
+      "text": "\ud83c\udfa8 An universal palette for Nerd Fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-glyph-palette",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-nerdfont",
+      "status": "candidate-context",
+      "text": "\ud83d\udc53  Fundemental plugin to handle Nerd Fonts in Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-nerdfont",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate-context",
+      "text": "A comprehensive Vim utility functions for Vim plugins"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lambdalisue/vim-fern-git-status",
+      "status": "candidate-context",
+      "text": "\ud83c\udf3f  Add Git status badge integration on file:// scheme on fern.vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern-git-status",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reviewdog/action-suggester",
+      "status": "candidate-context",
+      "text": ":dog: Suggests any code changes based on diff through GitHub Multi-line code suggestions by using reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-suggester",
+      "status": "candidate-context",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optuna-integration",
+      "status": "candidate-context",
+      "text": "Extended functionalities for Optuna in combination with third-party libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-integration",
+      "status": "candidate-context",
+      "text": "Reviewdog"
     }
   ],
   "candidate_glosses": [
@@ -172,6 +256,48 @@
       "source_repo": "lambdalisue/vim-gina",
       "status": "candidate",
       "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna",
+      "status": "candidate",
+      "text": "Reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-glyph-palette",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-nerdfont",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vim-jp/vital.vim",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lambdalisue/vim-fern-git-status",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reviewdog/action-suggester",
+      "status": "candidate",
+      "text": "reviewdog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-integration",
+      "status": "candidate",
+      "text": "Reviewdog"
     }
   ],
   "candidate_related_terms": [],
@@ -269,11 +395,71 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/reviewdog.yml",
       "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "optuna/optuna"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-glyph-palette"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-nerdfont"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "vim-jp/vital.vim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-fern-git-status"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "lambdalisue/vim-gina"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "easymotion/vim-easymotion"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "preservim/tagbar"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "reviewdog/action-suggester"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/reviewdog.yml",
+      "source_repo": "optuna/optuna-integration"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

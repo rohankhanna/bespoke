@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICLR2022] official implementation of UniFormer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<a src=\"https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue\" href=\"https://huggingface.co/spaces/Andy1621/uniformer_light \">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<a src=\"https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue\" href=\"https://huggingface.co/spaces/Andy1621/uniformer_light \">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "image-classification",
+      "sense_id": "image-classification#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "image-classification",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "image-classification",
+  "observation_id": "15603147d354e6e8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "image-classification",
+  "source_context_snippet": "<a src=\"https://img.shields.io/badge/%F0%9F%A4%97-Open%20in%20Spaces-blue\" href=\"https://huggingface.co/spaces/Andy1621/uniformer_light \">",
+  "source_file": null,
+  "source_repo": "Sense-X/UniFormer",
+  "source_repo_description": "[ICLR2022] official implementation of UniFormer"
+}

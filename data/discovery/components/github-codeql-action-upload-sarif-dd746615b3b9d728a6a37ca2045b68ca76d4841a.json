@@ -1,0 +1,12 @@
+{
+  "component": "github/codeql-action/upload-sarif@dd746615b3b9d728a6a37ca2045b68ca76d4841a",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "praw-dev/praw"
+    }
+  ]
+}

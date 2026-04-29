@@ -19,6 +19,42 @@
       "source_repo": "jaredpalmer/razzle",
       "status": "candidate-context",
       "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate-context",
+      "text": "Use DOMPurify on server and client in the same way"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate-context",
+      "text": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lquixada/cross-fetch",
+      "status": "candidate-context",
+      "text": "Universal WHATWG Fetch API for Node, Browsers and React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lquixada/cross-fetch",
+      "status": "candidate-context",
+      "text": "cross-fetch<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "status": "candidate-context",
+      "text": "isomorphic-dompurify playgrounds for testing it with different frameworks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "status": "candidate-context",
+      "text": "[![Run Tests](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml/badge.svg)](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +63,24 @@
       "source_repo": "jaredpalmer/razzle",
       "status": "candidate",
       "text": "![repo-banner](https://user-images.githubusercontent.com/4060187/28923990-050a32d4-782e-11e7-9da7-574ce5a8b455.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify",
+      "status": "candidate",
+      "text": "[![npm version](https://img.shields.io/npm/v/isomorphic-dompurify.svg)](https://www.npmjs.com/package/isomorphic-dompurify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lquixada/cross-fetch",
+      "status": "candidate",
+      "text": "cross-fetch<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds",
+      "status": "candidate",
+      "text": "[![Run Tests](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml/badge.svg)](https://github.com/kkomelin/isomorphic-dompurify-playgrounds/actions/workflows/test.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +138,29 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "jaredpalmer/razzle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lquixada/cross-fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kkomelin/isomorphic-dompurify-playgrounds"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

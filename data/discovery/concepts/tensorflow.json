@@ -523,6 +523,234 @@
       "source_repo": "intel/intel-extension-for-tensorflow",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "status": "candidate-context",
+      "text": "Real-Time Semantic Segmentation in Mobile device"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "status": "candidate-context",
+      "text": "This project is an example project of semantic segmentation for mobile real-time app."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate-context",
+      "text": "Tengine is a lite, high performance, modular inference engine for embedded device "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lutzroeder/netron",
+      "status": "candidate-context",
+      "text": "Visualizer for neural network, deep learning and machine learning models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lutzroeder/netron",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate-context",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from https://arxiv.org/abs/2106.05237."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate-context",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from the paper [Knowledge distillation:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate-context",
+      "text": "A free, open source, and privacy-focused browser extension to block \u201cnot safe for work\u201d content built using TypeScript and TensorFlow.js."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate-context",
+      "text": "A free, open source, and privacy-focused browser extension to block \"not safe for work\" content."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IBM/FfDL",
+      "status": "candidate-context",
+      "text": "Fabric for Deep Learning (FfDL, pronounced fiddle) is a Deep Learning Platform offering TensorFlow, Caffe, PyTorch etc. as a Service on Kubernetes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/FfDL",
+      "status": "candidate-context",
+      "text": "> This repository will not be updated. The repository will be kept available in read-only mode."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "monatis/german-tts",
+      "status": "candidate-context",
+      "text": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monatis/german-tts",
+      "status": "candidate-context",
+      "text": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KichangKim/DeepDanbooru",
+      "status": "candidate-context",
+      "text": "AI based multi-label girl image classification system, implemented by using TensorFlow."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KichangKim/DeepDanbooru",
+      "status": "candidate-context",
+      "text": "[![Python](https://img.shields.io/badge/python-3.11-green)](https://www.python.org/doc/versions/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MrGemy95/Tensorflow-Project-Template",
+      "status": "candidate-context",
+      "text": "A best practice for tensorflow project template architecture. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrGemy95/Tensorflow-Project-Template",
+      "status": "candidate-context",
+      "text": "A simple and well designed structure is essential for any Deep Learning project, so after a lot of practice and contributing in tensorflow projects here's a tensorflow project template that combines **simplcity**, **best practice for folder structure** and **good OOP design**."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ymcui/Chinese-XLNet",
+      "status": "candidate-context",
+      "text": "Pre-Trained Chinese XLNet\uff08\u4e2d\u6587XLNet\u9884\u8bad\u7ec3\u6a21\u578b\uff09"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-XLNet",
+      "status": "candidate-context",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/bi-att-flow",
+      "status": "candidate-context",
+      "text": "Bi-directional Attention Flow (BiDAF) network is a multi-stage hierarchical process that represents context at different levels of granularity and uses a bi-directional attention flow mechanism to achieve a query-aware context representation without early summarization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/bi-att-flow",
+      "status": "candidate-context",
+      "text": "- This the original implementation of [Bi-directional Attention Flow for Machine Comprehension][paper]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "status": "candidate-context",
+      "text": "This repository provides you with an easy-to-use labeling tool for State-of-the-art Deep Learning training purposes. It supports Auto-Labeling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate-context",
+      "text": "Sandbox for training deep learning networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OAID/AutoKernel",
+      "status": "candidate-context",
+      "text": "AutoKernel \u662f\u4e00\u4e2a\u7b80\u5355\u6613\u7528\uff0c\u4f4e\u95e8\u69db\u7684\u81ea\u52a8\u7b97\u5b50\u4f18\u5316\u5de5\u5177\uff0c\u63d0\u9ad8\u6df1\u5ea6\u5b66\u4e60\u7b97\u6cd5\u90e8\u7f72\u6548\u7387\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/AutoKernel",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "status": "candidate-context",
+      "text": "VeriSilicon Tensor Interface Module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "status": "candidate-context",
+      "text": "[![bazel_x86_vsim_unit_test](https://github.com/VeriSilicon/TIM-VX/actions/workflows/bazel_x86_vsim_unit_test.yml/badge.svg)](https://github.com/VeriSilicon/TIM-VX/actions/workflows/bazel_x86_vsim_unit_test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eragonruan/text-detection-ctpn",
+      "status": "candidate-context",
+      "text": "text detection mainly based on ctpn model in tensorflow, id card detect, connectionist text proposal network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eragonruan/text-detection-ctpn",
+      "status": "candidate-context",
+      "text": "text detection mainly based on ctpn (connectionist text proposal network). It is implemented in tensorflow. I use id card detect as an example to demonstrate the results, but it should be noticing that this model can be used in almost every horizontal scene text detection task. \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lausbert/Exermote",
+      "status": "candidate-context",
+      "text": "Using Machine Learning to predict the type of exercise from movement data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lausbert/Exermote",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/BiT-jax2tf",
+      "status": "candidate-context",
+      "text": "This repository hosts the code to port NumPy model weights of BiT-ResNets to TensorFlow SavedModel format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/BiT-jax2tf",
+      "status": "candidate-context",
+      "text": "This repository hosts the code to port NumPy model weights of BiT-ResNets [1] to TensorFlow SavedModel format. These models"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CyberZHG/keras-radam",
+      "status": "candidate-context",
+      "text": "RAdam implemented in Keras & TensorFlow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyberZHG/keras-radam",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/pypi/v/keras-rectified-adam.svg)](https://pypi.org/project/keras-rectified-adam/)"
     }
   ],
   "candidate_glosses": [
@@ -783,6 +1011,120 @@
       "source_repo": "intel/intel-extension-for-tensorflow",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "status": "candidate",
+      "text": "This project is an example project of semantic segmentation for mobile real-time app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lutzroeder/netron",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/FunMatch-Distillation",
+      "status": "candidate",
+      "text": "TF2 implementation of knowledge distillation using the \"function matching\" hypothesis from the paper [Knowledge distillation:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nsfw-filter/nsfw-filter",
+      "status": "candidate",
+      "text": "A free, open source, and privacy-focused browser extension to block \"not safe for work\" content."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IBM/FfDL",
+      "status": "candidate",
+      "text": "> This repository will not be updated. The repository will be kept available in read-only mode."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "monatis/german-tts",
+      "status": "candidate",
+      "text": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KichangKim/DeepDanbooru",
+      "status": "candidate",
+      "text": "[![Python](https://img.shields.io/badge/python-3.11-green)](https://www.python.org/doc/versions/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MrGemy95/Tensorflow-Project-Template",
+      "status": "candidate",
+      "text": "A simple and well designed structure is essential for any Deep Learning project, so after a lot of practice and contributing in tensorflow projects here's a tensorflow project template that combines **simplcity**, **best practice for folder structure** and **good OOP design**."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ymcui/Chinese-XLNet",
+      "status": "candidate",
+      "text": "[**\u4e2d\u6587\u8bf4\u660e**](./README.md) | [**English**](./README_EN.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/bi-att-flow",
+      "status": "candidate",
+      "text": "- This the original implementation of [Bi-directional Attention Flow for Machine Comprehension][paper]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/AutoKernel",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "status": "candidate",
+      "text": "[![bazel_x86_vsim_unit_test](https://github.com/VeriSilicon/TIM-VX/actions/workflows/bazel_x86_vsim_unit_test.yml/badge.svg)](https://github.com/VeriSilicon/TIM-VX/actions/workflows/bazel_x86_vsim_unit_test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eragonruan/text-detection-ctpn",
+      "status": "candidate",
+      "text": "text detection mainly based on ctpn (connectionist text proposal network). It is implemented in tensorflow. I use id card detect as an example to demonstrate the results, but it should be noticing that this model can be used in almost every horizontal scene text detection task. \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lausbert/Exermote",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/BiT-jax2tf",
+      "status": "candidate",
+      "text": "This repository hosts the code to port NumPy model weights of BiT-ResNets [1] to TensorFlow SavedModel format. These models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CyberZHG/keras-radam",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/pypi/v/keras-rectified-adam.svg)](https://pypi.org/project/keras-rectified-adam/)"
     }
   ],
   "candidate_related_terms": [
@@ -1102,11 +1444,143 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "akirasosa/mobile-semantic-segmentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OAID/Tengine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lutzroeder/netron"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/FunMatch-Distillation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nsfw-filter/nsfw-filter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "IBM/FfDL"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "monatis/german-tts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "KichangKim/DeepDanbooru"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "iree-org/iree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MrGemy95/Tensorflow-Project-Template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ymcui/Chinese-XLNet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "allenai/bi-att-flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "intel/ai-reference-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "osmr/imgclsmob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OAID/AutoKernel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "VeriSilicon/TIM-VX"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eragonruan/text-detection-ctpn"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Lausbert/Exermote"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/BiT-jax2tf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "CyberZHG/keras-radam"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

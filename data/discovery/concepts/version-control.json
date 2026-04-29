@@ -79,6 +79,18 @@
       "source_repo": "adelarsq/neovcs.vim",
       "status": "candidate-context",
       "text": "VCS support for Neovim"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodists/nodist",
+      "status": "candidate-context",
+      "text": "Natural node.js and npm version manager for windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodists/nodist",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/marcelklehr/nodist](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/marcelklehr/nodist?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +129,12 @@
       "source_repo": "adelarsq/neovcs.vim",
       "status": "candidate",
       "text": "VCS support for Neovim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodists/nodist",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/marcelklehr/nodist](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/marcelklehr/nodist?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
     }
   ],
   "candidate_related_terms": [],
@@ -202,11 +220,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "GitoxideLabs/gitoxide"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pypa/setuptools-scm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nodists/nodist"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

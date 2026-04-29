@@ -2,13 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "FMInference/FlexLLMGen",
-      "target": "facebookresearch/metaseq",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "FMInference/FlexLLMGen",
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T06:55:14.275119+00:00",
+  "fetched_at": "2026-04-29T20:45:53.940767+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -72,7 +65,7 @@
     "html_url": "https://github.com/FMInference/FlexLLMGen",
     "language": "Python",
     "pushed_at": "2024-10-28T03:05:41Z",
-    "stargazers_count": 9373,
+    "stargazers_count": 9366,
     "topics": [
       "deep-learning",
       "gpt-3",
@@ -82,15 +75,9 @@
       "offloading",
       "opt"
     ],
-    "updated_at": "2026-04-23T20:56:57Z"
+    "updated_at": "2026-04-29T11:09:54Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "facebookresearch/metaseq",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "FlexLLMGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexLLMGen allows **high-throughput** generation by IO-efficient offloading, compression, and **large effective batch sizes**.",

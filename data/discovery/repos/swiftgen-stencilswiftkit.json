@@ -1,0 +1,326 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-cocoapods.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-cocoapods.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check-versions.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check-versions.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-publish.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-publish.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "kylef/commander",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "Danger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-cocoapods.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-cocoapods.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-cocoapods.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "Lint Cocoapods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check-versions.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-check-versions.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-check-versions.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "Check Versions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "SwiftLint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-publish.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tag-publish.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-publish.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "Publish on Tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-spm.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit",
+      "target": "Test SPM",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:55:03.260152+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4734
+    },
+    {
+      "path": ".github/workflows/danger.yml",
+      "size": 511
+    },
+    {
+      "path": ".github/workflows/lint-cocoapods.yml",
+      "size": 394
+    },
+    {
+      "path": ".github/workflows/release-check-versions.yml",
+      "size": 425
+    },
+    {
+      "path": ".github/workflows/swiftlint.yml",
+      "size": 480
+    },
+    {
+      "path": ".github/workflows/tag-publish.yml",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/test-spm.yml",
+      "size": 1597
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "stable",
+    "description": "A framework bringing additional nodes & filters to Stencil dedicated to Swift code generation",
+    "fork": false,
+    "full_name": "SwiftGen/StencilSwiftKit",
+    "html_url": "https://github.com/SwiftGen/StencilSwiftKit",
+    "language": "Swift",
+    "pushed_at": "2023-03-17T06:01:28Z",
+    "stargazers_count": 304,
+    "topics": [],
+    "updated_at": "2026-04-22T16:45:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kylef/commander",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Danger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/danger.yml",
+      "term": "Danger"
+    },
+    {
+      "context_snippet": "Lint Cocoapods",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-cocoapods.yml",
+      "term": "Lint Cocoapods"
+    },
+    {
+      "context_snippet": "Check Versions",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-check-versions.yml",
+      "term": "Check Versions"
+    },
+    {
+      "context_snippet": "SwiftLint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "term": "SwiftLint"
+    },
+    {
+      "context_snippet": "Publish on Tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tag-publish.yml",
+      "term": "Publish on Tag"
+    },
+    {
+      "context_snippet": "Test SPM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-spm.yml",
+      "term": "Test SPM"
+    }
+  ]
+}

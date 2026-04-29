@@ -1,0 +1,213 @@
+{
+  "components": [
+    {
+      "component": "easimon/maximize-build-space@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-nightly.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-nightly.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-nightly.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-nightly.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-nightly.yml"
+    },
+    {
+      "component": "easimon/maximize-build-space@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default-nightly.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default-nightly.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default-nightly.yml"
+    },
+    {
+      "component": "docker/login-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default-nightly.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default-nightly.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "oobabooga/text-generation-webui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "abdbarho/stable-diffusion-webui-docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-nightly.yml",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-nightly.yml",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-nightly.yml",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-nightly.yml",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpu-nightly.yml",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-nightly.yml",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "Build cpu-nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default-nightly.yml",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "easimon/maximize-build-space@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default-nightly.yml",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "docker/setup-qemu-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default-nightly.yml",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "docker/setup-buildx-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default-nightly.yml",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "docker/login-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/default-nightly.yml",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default-nightly.yml",
+      "source_repo": "Atinoda/text-generation-webui-docker",
+      "target": "Build default-nightly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:42:53.961861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11926
+    },
+    {
+      "path": "Dockerfile",
+      "size": 7479
+    },
+    {
+      "path": ".github/workflows/cpu-nightly.yml",
+      "size": 1238
+    },
+    {
+      "path": ".github/workflows/default-nightly.yml",
+      "size": 1294
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker variants of oobabooga's text-generation-webui, including pre-built images.",
+    "fork": false,
+    "full_name": "Atinoda/text-generation-webui-docker",
+    "html_url": "https://github.com/Atinoda/text-generation-webui-docker",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-19T18:39:20Z",
+    "stargazers_count": 450,
+    "topics": [],
+    "updated_at": "2026-04-26T16:09:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "abdbarho/stable-diffusion-webui-docker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oobabooga/text-generation-webui",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build cpu-nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpu-nightly.yml",
+      "term": "Build cpu-nightly"
+    },
+    {
+      "context_snippet": "Build default-nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/default-nightly.yml",
+      "term": "Build default-nightly"
+    }
+  ]
+}

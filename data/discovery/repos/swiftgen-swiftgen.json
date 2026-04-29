@@ -106,7 +106,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "SwiftGen/SwiftGen",
-      "target": "stencilproject/stencil",
+      "target": "swiftgen/eve",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SwiftGen/SwiftGen",
+      "target": "swiftgen/stencilswiftkit",
       "target_type": "repository"
     },
     {
@@ -114,20 +121,6 @@
       "source_file": "README.md",
       "source_repo": "SwiftGen/SwiftGen",
       "target": "frenchkit/mastering-code-generation-classroom",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SwiftGen/SwiftGen",
-      "target": "alisoftware/reusable",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "SwiftGen/SwiftGen",
-      "target": "krzysztofzablocki/sourcery",
       "target_type": "repository"
     },
     {
@@ -376,7 +369,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:34:46.254173+00:00",
+  "fetched_at": "2026-04-29T18:51:53.819400+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -435,14 +428,9 @@
       "uiimage",
       "uistoryboard"
     ],
-    "updated_at": "2026-04-20T06:49:44Z"
+    "updated_at": "2026-04-26T07:49:02Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "alisoftware/reusable",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "frenchkit/mastering-code-generation-classroom",
@@ -450,12 +438,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "krzysztofzablocki/sourcery",
+      "full_name": "swiftgen/eve",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "stencilproject/stencil",
+      "full_name": "swiftgen/stencilswiftkit",
       "source_file": "README.md"
     }
   ],

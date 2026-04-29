@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Sphinx build"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "status": "candidate-context",
+      "text": "Sphinx build"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "status": "candidate",
+      "text": "Sphinx build"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11445,
+      "status": "candidate",
+      "text": "clearwing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11445,
+      "status": "candidate",
+      "text": "giza"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11402,
+      "status": "candidate",
+      "text": "egypt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11402,
+      "status": "candidate",
+      "text": "lion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11402,
+      "status": "candidate",
+      "text": "monster"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Sphinx build",
+  "concept_id": "sphinx-build",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/sphinx.yaml",
+      "source_repo": "Charlie-XIAO/ml3m"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Sphinx build",
+      "sense_id": "sphinx-build#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,469 @@
+{
+  "components": [
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_client.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_client.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yaml"
+    },
+    {
+      "component": "pypa/gh-action-pypi-publish@release/v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml"
+    },
+    {
+      "component": "actions-ecosystem/action-get-latest-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_modal_com.yaml"
+    },
+    {
+      "component": "actions-ecosystem/action-get-latest-tag@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_modal_com.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_modal_com.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "michaelfeil/infinity",
+      "target": "basetenlabs/truss-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "michaelfeil/infinity",
+      "target": "dstackai/dstack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "michaelfeil/infinity",
+      "target": "bentoml/bentoinfinity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "michaelfeil/infinity",
+      "target": "dwarvesf/llm-hosting",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "docs-gh-pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_client.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate_client.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_client.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "Auto generate Client Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pypi_release.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "pypa/gh-action-pypi-publish@release/v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi_release.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "libs - Release Publish to pypi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions-ecosystem/action-get-latest-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "docker/build-push-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_modal_com.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_modal_com.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions-ecosystem/action-get-latest-tag@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_modal_com.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "michaelfeil/infinity",
+      "target": "codecov/codecov-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "michaelfeil/infinity",
+      "target": "bert-embeddings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "michaelfeil/infinity",
+      "target": "text-embeddings",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:42:58.489908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27875
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 1544
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 1819
+    },
+    {
+      "path": ".github/workflows/generate_client.yaml",
+      "size": 979
+    },
+    {
+      "path": ".github/workflows/linting.yaml",
+      "size": 3555
+    },
+    {
+      "path": ".github/workflows/pypi_release.yaml",
+      "size": 1529
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 1617
+    },
+    {
+      "path": ".github/workflows/release_docker_container.yaml",
+      "size": 3100
+    },
+    {
+      "path": ".github/workflows/release_modal_com.yaml",
+      "size": 1373
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 5437
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Infinity is a high-throughput, low-latency serving engine for text-embeddings, reranking models, clip, clap and colpali",
+    "fork": false,
+    "full_name": "michaelfeil/infinity",
+    "html_url": "https://github.com/michaelfeil/infinity",
+    "language": "Python",
+    "pushed_at": "2026-03-24T03:59:47Z",
+    "stargazers_count": 2780,
+    "topics": [
+      "bert-embeddings",
+      "llm",
+      "text-embeddings"
+    ],
+    "updated_at": "2026-04-28T17:17:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "basetenlabs/truss-examples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bentoml/bentoinfinity",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dstackai/dstack",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwarvesf/llm-hosting",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "docs-gh-pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "docs-gh-pages"
+    },
+    {
+      "context_snippet": "Auto generate Client Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate_client.yaml",
+      "term": "Auto generate Client Code"
+    },
+    {
+      "context_snippet": "lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yaml",
+      "term": "lint"
+    },
+    {
+      "context_snippet": "libs - Release Publish to pypi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pypi_release.yaml",
+      "term": "libs - Release Publish to pypi"
+    },
+    {
+      "context_snippet": "<!-- PROJECT SHIELDS -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bert-embeddings"
+    },
+    {
+      "context_snippet": "<!-- PROJECT SHIELDS -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-embeddings"
+    }
+  ]
+}

@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":star: Pretty-print `git` repository collaborators sorted by contributions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "git-fame"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "git-fame"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034283,
+      "status": "candidate",
+      "text": "inculpation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032725,
+      "status": "candidate",
+      "text": "damn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032390,
+      "status": "candidate",
+      "text": "find fault"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40028696,
+      "status": "candidate",
+      "text": "incrimination"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40022155,
+      "status": "candidate",
+      "text": "fault"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "blame",
+      "sense_id": "blame#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43077,
+      "status": "candidate",
+      "text": "charge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 32032,
+      "status": "candidate",
+      "text": "infernal"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 26037,
+      "status": "candidate",
+      "text": "everlasting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20043,
+      "status": "candidate",
+      "text": "damn"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17035,
+      "status": "candidate",
+      "text": "blessed"
+    }
+  ],
+  "concept_id": "blame",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "blame",
+  "observation_id": "8611324e906461b7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "blame",
+  "source_context_snippet": "git-fame",
+  "source_file": null,
+  "source_repo": "casperdcl/git-fame",
+  "source_repo_description": ":star: Pretty-print `git` repository collaborators sorted by contributions"
+}

@@ -48,7 +48,7 @@
   "normalized_form": "filesystem-events",
   "observation_id": "7a9895b54c4b8f1a",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "filesystem-events",
   "source_context_snippet": "[![\u00bb Crate](https://flat.badgen.net/crates/v/notify)][crate]",
   "source_file": null,

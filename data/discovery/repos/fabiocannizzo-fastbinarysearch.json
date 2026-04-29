@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:52:47.624917+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6511
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast and vectorizable algorithms for searching in a vector of sorted floating point numbers",
+    "fork": false,
+    "full_name": "fabiocannizzo/FastBinarySearch",
+    "html_url": "https://github.com/fabiocannizzo/FastBinarySearch",
+    "language": "C++",
+    "pushed_at": "2024-12-19T09:30:41Z",
+    "stargazers_count": 153,
+    "topics": [],
+    "updated_at": "2025-11-19T11:14:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

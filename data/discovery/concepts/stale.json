@@ -92,6 +92,54 @@
       "source_repo": "actions/create-github-app-token",
       "status": "candidate-context",
       "text": "Stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optuna",
+      "status": "candidate-context",
+      "text": "A hyperparameter optimization framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna",
+      "status": "candidate-context",
+      "text": "Stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcodeIO/long.js",
+      "status": "candidate-context",
+      "text": "A Long class for representing a 64-bit two's-complement integer value."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcodeIO/long.js",
+      "status": "candidate-context",
+      "text": "Stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda/conda",
+      "status": "candidate-context",
+      "text": "A system-level, binary package and environment manager running on all major operating systems and platforms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda",
+      "status": "candidate-context",
+      "text": "Stale"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optuna-integration",
+      "status": "candidate-context",
+      "text": "Extended functionalities for Optuna in combination with third-party libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-integration",
+      "status": "candidate-context",
+      "text": "stale"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +184,30 @@
       "source_repo": "actions/create-github-app-token",
       "status": "candidate",
       "text": "Stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna",
+      "status": "candidate",
+      "text": "Stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcodeIO/long.js",
+      "status": "candidate",
+      "text": "Stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda/conda",
+      "status": "candidate",
+      "text": "Stale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-integration",
+      "status": "candidate",
+      "text": "stale"
     }
   ],
   "candidate_related_terms": [
@@ -281,11 +353,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "eslint/js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "optuna/optuna"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "dcodeIO/long.js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "conda/conda"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "optuna/optuna-integration"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

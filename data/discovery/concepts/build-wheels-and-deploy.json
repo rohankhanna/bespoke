@@ -79,6 +79,18 @@
       "source_repo": "fanshiqing/grouped_gemm",
       "status": "candidate-context",
       "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kingbri1/flash-attention",
+      "status": "candidate-context",
+      "text": "Fast and memory-efficient exact attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kingbri1/flash-attention",
+      "status": "candidate-context",
+      "text": "Build wheels and deploy"
     }
   ],
   "candidate_glosses": [
@@ -115,6 +127,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "fanshiqing/grouped_gemm",
+      "status": "candidate",
+      "text": "Build wheels and deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kingbri1/flash-attention",
       "status": "candidate",
       "text": "Build wheels and deploy"
     }
@@ -220,11 +238,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "fanshiqing/grouped_gemm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Dao-AILab/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "kingbri1/flash-attention"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

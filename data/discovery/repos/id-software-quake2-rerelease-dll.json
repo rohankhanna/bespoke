@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "id-Software/quake2-rerelease-dll",
+      "target": "open-source-parsers/jsoncpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:55.754815+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 70369
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "id-Software/quake2-rerelease-dll",
+    "html_url": "https://github.com/id-Software/quake2-rerelease-dll",
+    "language": "C",
+    "pushed_at": "2023-10-03T18:43:10Z",
+    "stargazers_count": 2203,
+    "topics": [],
+    "updated_at": "2026-04-28T09:46:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "open-source-parsers/jsoncpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

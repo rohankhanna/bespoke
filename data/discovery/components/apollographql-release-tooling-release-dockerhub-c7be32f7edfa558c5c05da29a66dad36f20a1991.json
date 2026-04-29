@@ -1,0 +1,12 @@
+{
+  "component": "apollographql/release-tooling/release-dockerhub@c7be32f7edfa558c5c05da29a66dad36f20a1991",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "apollographql/rover"
+    }
+  ]
+}

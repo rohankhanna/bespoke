@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.rst",
-      "source_repo": "prompt-toolkit/python-prompt-toolkit",
-      "target": "jquast/wcwidth",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yaml",
       "source_repo": "prompt-toolkit/python-prompt-toolkit",
@@ -36,6 +29,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "prompt-toolkit/python-prompt-toolkit"
 }

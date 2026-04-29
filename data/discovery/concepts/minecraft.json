@@ -19,6 +19,18 @@
       "source_repo": "ComunidadAylas/PackSquash",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "status": "candidate-context",
+      "text": "(VillagerAgent ACL 2024) A Graph based Minecraft multi agents framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "status": "candidate-context",
+      "text": "<img src=\"img/VillagerBench.png\" width=\"100%\" />"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ComunidadAylas/PackSquash",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "status": "candidate",
+      "text": "<img src=\"img/VillagerBench.png\" width=\"100%\" />"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ComunidadAylas/PackSquash"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Welcome to the AWS Distro for OpenTelemetry project. If you're using monitoring and observability tools for AWS products and services, this is a great place to ask questions, request features and network with other community members. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "opentelemetry",
+      "sense_id": "opentelemetry#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "opentelemetry",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "opentelemetry",
+  "observation_id": "a9b8a6af481aac02",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "opentelemetry",
+  "source_context_snippet": "If you\u2019re an open source observability user or contributor, we invite you to get involved. You can contribute in the following ways:",
+  "source_file": null,
+  "source_repo": "aws-observability/aws-otel-community",
+  "source_repo_description": "Welcome to the AWS Distro for OpenTelemetry project. If you're using monitoring and observability tools for AWS products and services, this is a great place to ask questions, request features and network with other community members. "
+}

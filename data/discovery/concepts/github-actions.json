@@ -460,6 +460,42 @@
       "source_repo": "sagiegurari/cargo-make",
       "status": "candidate-context",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "status": "candidate-context",
+      "text": ":octocat: GitHub Action to render manim videos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "status": "candidate-context",
+      "text": "[![logo](test/header.png)](https://github.com/manim-kindergarten/manim_action_renderer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate-context",
+      "text": "Runs the psf/black formatter to check/format your python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/rickstaa/action-black/workflows/Test/badge.svg)](https://github.com/rickstaa/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antfu/changelogithub",
+      "status": "candidate-context",
+      "text": "Generate changelog for GitHub"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/changelogithub",
+      "status": "candidate-context",
+      "text": "[![NPM version](https://img.shields.io/npm/v/changelogithub?color=a1b858&label=)](https://www.npmjs.com/package/changelogithub)"
     }
   ],
   "candidate_glosses": [
@@ -690,6 +726,24 @@
       "source_repo": "sagiegurari/cargo-make",
       "status": "candidate",
       "text": "[![crates.io](https://img.shields.io/crates/v/cargo-make.svg)](https://crates.io/crates/cargo-make)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "status": "candidate",
+      "text": "[![logo](test/header.png)](https://github.com/manim-kindergarten/manim_action_renderer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/rickstaa/action-black/workflows/Test/badge.svg)](https://github.com/rickstaa/action-black/actions?query=workflow%3ATest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antfu/changelogithub",
+      "status": "candidate",
+      "text": "[![NPM version](https://img.shields.io/npm/v/changelogithub?color=a1b858&label=)](https://www.npmjs.com/package/changelogithub)"
     }
   ],
   "candidate_related_terms": [
@@ -979,11 +1033,41 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "sagiegurari/cargo-make"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks-action"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim_action_renderer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rickstaa/action-black"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "antfu/changelogithub"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "pictures"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Moldoteck/MagicEraser",
+      "status": "candidate-context",
+      "text": "MagicEraser bot for telegram"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Moldoteck/MagicEraser",
+      "status": "candidate-context",
+      "text": "MagicEraser - Telegram Bot for removing objects from pictures<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Moldoteck/MagicEraser",
+      "status": "candidate",
+      "text": "MagicEraser - Telegram Bot for removing objects from pictures<br>"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032926,
+      "status": "candidate",
+      "text": "impression"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032910,
+      "status": "candidate",
+      "text": "image"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031479,
+      "status": "candidate",
+      "text": "painting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40031203,
+      "status": "candidate",
+      "text": "depict"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40029453,
+      "status": "candidate",
+      "text": "motion picture"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "pictures",
+  "concept_id": "pictures",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Moldoteck/MagicEraser"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pictures",
+      "sense_id": "pictures#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:57:18.327015+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "redis-om/redis-om-dotnet",
+    "html_url": "https://github.com/redis-om/redis-om-dotnet",
+    "language": null,
+    "pushed_at": "2024-11-12T09:01:32Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2024-11-12T09:01:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

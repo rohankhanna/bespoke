@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:39:16.445756+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 8712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "smooth animation of the cursor and the page whenever they move, with easing",
+    "fork": false,
+    "full_name": "joeytwiddle/sexy_scroller.vim",
+    "html_url": "https://github.com/joeytwiddle/sexy_scroller.vim",
+    "language": "Vim Script",
+    "pushed_at": "2022-11-08T09:37:27Z",
+    "stargazers_count": 95,
+    "topics": [],
+    "updated_at": "2026-04-10T04:21:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "join public router. quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Static analysis"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Static analysis"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36042,
+      "status": "candidate",
+      "text": "systems analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36041,
+      "status": "candidate",
+      "text": "analyzation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36040,
+      "status": "candidate",
+      "text": "data analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36039,
+      "status": "candidate",
+      "text": "structured analysis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36038,
+      "status": "candidate",
+      "text": "analytical review"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Static analysis",
+      "sense_id": "static-analysis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "static-analysis",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "static-analysis",
+  "observation_id": "5bba576ff63743a7",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Static analysis",
+  "source_context_snippet": "Static analysis",
+  "source_file": ".github/workflows/static-analysis.yaml",
+  "source_repo": "azimjohn/jprq",
+  "source_repo_description": "join public router. quickly."
+}

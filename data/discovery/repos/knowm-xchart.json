@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven_on_pull_request.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven_on_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven_on_push.yml"
+    },
+    {
+      "component": "actions/setup-java@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven_on_push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven_on_pull_request.yml",
+      "source_repo": "knowm/XChart",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven_on_pull_request.yml",
+      "source_repo": "knowm/XChart",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven_on_push.yml",
+      "source_repo": "knowm/XChart",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven_on_push.yml",
+      "source_repo": "knowm/XChart",
+      "target": "actions/setup-java@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven_on_push.yml",
+      "source_repo": "knowm/XChart",
+      "target": "Java CI with Maven on Push",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:45:48.066835+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26298
+    },
+    {
+      "path": ".github/workflows/maven_on_pull_request.yml",
+      "size": 650
+    },
+    {
+      "path": ".github/workflows/maven_on_push.yml",
+      "size": 927
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "XChart is a light-weight Java library for plotting data.",
+    "fork": false,
+    "full_name": "knowm/XChart",
+    "html_url": "https://github.com/knowm/XChart",
+    "language": "Java",
+    "pushed_at": "2025-10-27T13:44:56Z",
+    "stargazers_count": 1580,
+    "topics": [],
+    "updated_at": "2026-04-29T18:11:23Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Java CI with Maven on Push",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven_on_push.yml",
+      "term": "Java CI with Maven on Push"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "libsamplerate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avaneev/r8brain-free-src",
+      "status": "candidate-context",
+      "text": "High-quality pro audio resampler / sample rate conversion header-only C++ library. Very fast, for both audio resampling and time-series interpolation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avaneev/r8brain-free-src",
+      "status": "candidate-context",
+      "text": "Open source (under the MIT license) high-quality professional audio sample"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avaneev/r8brain-free-src",
+      "status": "candidate",
+      "text": "Open source (under the MIT license) high-quality professional audio sample"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "libsamplerate",
+  "concept_id": "libsamplerate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "libsamplerate",
+      "sense_id": "libsamplerate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -6,7 +6,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -92,6 +94,42 @@
       "source_repo": "redis/redis",
       "status": "candidate-context",
       "text": "\"Codecov\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OffchainLabs/nitro",
+      "status": "candidate-context",
+      "text": "Nitro goes vroom and fixes everything"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/nitro",
+      "status": "candidate-context",
+      "text": "codecov"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-istanbul",
+      "status": "candidate-context",
+      "text": ":checkered_flag: Learn how to use the Istanbul JavaScript Code Coverage Tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-istanbul",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate-context",
+      "text": " Extension for Scikit-learn is a seamless way to speed up your Scikit-learn application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate-context",
+      "text": "codecov"
     }
   ],
   "candidate_glosses": [
@@ -136,6 +174,24 @@
       "source_repo": "redis/redis",
       "status": "candidate",
       "text": "\"Codecov\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OffchainLabs/nitro",
+      "status": "candidate",
+      "text": "codecov"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-istanbul",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "uxlfoundation/scikit-learn-intelex",
+      "status": "candidate",
+      "text": "codecov"
     }
   ],
   "candidate_related_terms": [],
@@ -185,11 +241,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/codecov.yml",
       "source_repo": "redis/redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/_codecov.yml",
+      "source_repo": "OffchainLabs/nitro"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-istanbul"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codecov.yml",
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

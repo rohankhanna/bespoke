@@ -1,0 +1,141 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "GEOSwift/geos",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/geos",
+      "target": "geos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/geos",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/geos",
+      "target": "swift-library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/geos",
+      "target": "swift-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/geos",
+      "target": "swift-package-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "GEOSwift/geos",
+      "target": "swift-pm",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:58:56.632401+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2997
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 2298
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GEOS packaging for SPM & CocoaPods",
+    "fork": false,
+    "full_name": "GEOSwift/geos",
+    "html_url": "https://github.com/GEOSwift/geos",
+    "language": "C++",
+    "pushed_at": "2025-10-28T19:16:13Z",
+    "stargazers_count": 17,
+    "topics": [
+      "geos",
+      "swift",
+      "swift-library",
+      "swift-package",
+      "swift-package-manager",
+      "swift-pm"
+    ],
+    "updated_at": "2025-10-29T01:34:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This library is an SPM-compatible repackaging of the source code from [libgeos/geos](https://github.com/libgeos/geos) for use on Apple and Linux systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "geos"
+    },
+    {
+      "context_snippet": "This library is an SPM-compatible repackaging of the source code from [libgeos/geos](https://github.com/libgeos/geos) for use on Apple and Linux systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "This library is an SPM-compatible repackaging of the source code from [libgeos/geos](https://github.com/libgeos/geos) for use on Apple and Linux systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-library"
+    },
+    {
+      "context_snippet": "This library is an SPM-compatible repackaging of the source code from [libgeos/geos](https://github.com/libgeos/geos) for use on Apple and Linux systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-package"
+    },
+    {
+      "context_snippet": "This library is an SPM-compatible repackaging of the source code from [libgeos/geos](https://github.com/libgeos/geos) for use on Apple and Linux systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-package-manager"
+    },
+    {
+      "context_snippet": "This library is an SPM-compatible repackaging of the source code from [libgeos/geos](https://github.com/libgeos/geos) for use on Apple and Linux systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-pm"
+    }
+  ]
+}

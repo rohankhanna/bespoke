@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:01:27.700232+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":dizzy: vertico.el - VERTical Interactive COmpletion",
+    "fork": false,
+    "full_name": "minad/vertico",
+    "html_url": "https://github.com/minad/vertico",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-19T18:38:52Z",
+    "stargazers_count": 1819,
+    "topics": [],
+    "updated_at": "2026-04-29T04:39:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

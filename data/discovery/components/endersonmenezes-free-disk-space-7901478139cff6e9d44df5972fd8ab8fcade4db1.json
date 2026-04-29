@@ -1,0 +1,37 @@
+{
+  "component": "endersonmenezes/free-disk-space@7901478139cff6e9d44df5972fd8ab8fcade4db1",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot-bot.yml",
+      "source_repo": "regro/cf-scripts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot-cache.yml",
+      "source_repo": "regro/cf-scripts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot-events.yml",
+      "source_repo": "regro/cf-scripts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot-feedstocks.yml",
+      "source_repo": "regro/cf-scripts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot-make-graph.yml",
+      "source_repo": "regro/cf-scripts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bot-make-migrators.yml",
+      "source_repo": "regro/cf-scripts"
+    }
+  ]
+}

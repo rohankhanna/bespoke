@@ -1,0 +1,134 @@
+{
+  "components": [
+    {
+      "component": "tree-sitter-javascript",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tree-sitter-jsdoc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tree-sitter-regex",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "coffeelint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "UziTech/action-setup-atom@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "atom/language-javascript",
+      "target": "textmate/javascript.tmbundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atom/language-javascript",
+      "target": "tree-sitter-javascript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atom/language-javascript",
+      "target": "tree-sitter-jsdoc",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "atom/language-javascript",
+      "target": "tree-sitter-regex",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "atom/language-javascript",
+      "target": "coffeelint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "atom/language-javascript",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "atom/language-javascript",
+      "target": "actions/cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "atom/language-javascript",
+      "target": "UziTech/action-setup-atom@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:46:36.844566+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 795
+    },
+    {
+      "path": "package.json",
+      "size": 683
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "JavaScript language package for Atom",
+    "fork": false,
+    "full_name": "atom/language-javascript",
+    "html_url": "https://github.com/atom/language-javascript",
+    "language": "CoffeeScript",
+    "pushed_at": "2022-09-28T10:52:02Z",
+    "stargazers_count": 197,
+    "topics": [],
+    "updated_at": "2026-04-03T12:02:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "textmate/javascript.tmbundle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -19,6 +19,18 @@
       "source_repo": "espnet/espnet",
       "status": "candidate-context",
       "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate-context",
+      "text": "Sandbox for training deep learning networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "espnet/espnet",
       "status": "candidate",
       "text": "<div align=\"left\"><img src=\"doc/image/espnet_logo1.png\" width=\"550\"/></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "espnet/espnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "osmr/imgclsmob"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

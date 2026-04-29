@@ -12,13 +12,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "babashka/pods",
-      "target": "edn-format/edn",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "babashka/pods",
       "target": "boot-clj/boot",
       "target_type": "repository"
     },
@@ -30,7 +23,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T08:08:32.950752+00:00",
+  "fetched_at": "2026-04-29T21:58:29.593481+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -47,9 +40,9 @@
     "html_url": "https://github.com/babashka/pods",
     "language": "Clojure",
     "pushed_at": "2025-08-02T13:03:10Z",
-    "stargazers_count": 138,
+    "stargazers_count": 139,
     "topics": [],
-    "updated_at": "2026-01-11T02:28:00Z"
+    "updated_at": "2026-04-26T11:49:03Z"
   },
   "repo_links": [
     {
@@ -65,11 +58,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "borkdude/sci",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "edn-format/edn",
       "source_file": "README.md"
     }
   ],

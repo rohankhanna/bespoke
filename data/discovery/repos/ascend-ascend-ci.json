@@ -121,6 +121,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "Ascend/Ascend-CI",
+      "target": "cosdt/quora",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ascend/Ascend-CI",
       "target": "ascend/onnxruntime",
       "target_type": "repository"
     },
@@ -237,7 +244,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T12:37:39.548864+00:00",
+  "fetched_at": "2026-04-29T20:50:41.458621+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -290,14 +297,19 @@
     "html_url": "https://github.com/Ascend/Ascend-CI",
     "language": "Dockerfile",
     "pushed_at": "2026-04-16T11:25:06Z",
-    "stargazers_count": 10,
+    "stargazers_count": 11,
     "topics": [],
-    "updated_at": "2026-04-03T09:04:45Z"
+    "updated_at": "2026-04-28T06:58:04Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
       "full_name": "ascend/onnxruntime",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cosdt/quora",
       "source_file": "README.md"
     }
   ],

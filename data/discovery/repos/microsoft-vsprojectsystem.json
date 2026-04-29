@@ -1,0 +1,61 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml"
+    },
+    {
+      "component": "gaurav-nelson/github-action-markdown-link-check@322b2315689b8cc8c65c14a07064ec862e62ee7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "microsoft/VSProjectSystem",
+      "target": "actions/checkout@96f53100ba2a5449eb71d2e6604bbcd94b9449b5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/markdown-link-check.yml",
+      "source_repo": "microsoft/VSProjectSystem",
+      "target": "gaurav-nelson/github-action-markdown-link-check@322b2315689b8cc8c65c14a07064ec862e62ee7c",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:00:31.289125+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5085
+    },
+    {
+      "path": ".github/workflows/markdown-link-check-config.json",
+      "size": 293
+    },
+    {
+      "path": ".github/workflows/markdown-link-check.yml",
+      "size": 580
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Documentation for extending Visual Studio with new types of projects.",
+    "fork": false,
+    "full_name": "microsoft/VSProjectSystem",
+    "html_url": "https://github.com/microsoft/VSProjectSystem",
+    "language": null,
+    "pushed_at": "2025-09-03T02:46:30Z",
+    "stargazers_count": 329,
+    "topics": [],
+    "updated_at": "2026-04-12T20:03:27Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

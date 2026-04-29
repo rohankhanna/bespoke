@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish IDF-Rust Tags"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/rust-build",
+      "status": "candidate-context",
+      "text": "Installation tools and workflows for deploying/building Rust fork esp-rs/rust with Xtensa and RISC-V support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/rust-build",
+      "status": "candidate-context",
+      "text": "Publish IDF-Rust Tags"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/rust-build",
+      "status": "candidate",
+      "text": "Publish IDF-Rust Tags"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11614,
+      "status": "candidate",
+      "text": "names"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10731,
+      "status": "candidate",
+      "text": "edition"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10731,
+      "status": "candidate",
+      "text": "libel"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10731,
+      "status": "candidate",
+      "text": "name"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10731,
+      "status": "candidate",
+      "text": "naming"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish IDF-Rust Tags",
+  "concept_id": "publish-idf-rust-tags",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml",
+      "source_repo": "esp-rs/rust-build"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish IDF-Rust Tags",
+      "sense_id": "publish-idf-rust-tags#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

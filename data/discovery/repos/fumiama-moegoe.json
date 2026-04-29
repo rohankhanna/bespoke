@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:46:07.804837+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1481
+    },
+    {
+      "path": "requirements.txt",
+      "size": 339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "azfun",
+    "description": "MoeGoe Azure Cloud Function API",
+    "fork": true,
+    "full_name": "fumiama/MoeGoe",
+    "html_url": "https://github.com/fumiama/MoeGoe",
+    "language": "Python",
+    "pushed_at": "2023-08-27T13:37:03Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-03-30T04:00:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

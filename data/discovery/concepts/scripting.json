@@ -91,6 +91,18 @@
       "source_repo": "alecazam/kram",
       "status": "candidate-context",
       "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/nbb",
+      "status": "candidate-context",
+      "text": "Scripting in Clojure on Node.js using SCI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +147,12 @@
       "source_repo": "alecazam/kram",
       "status": "candidate",
       "text": "The suite of kram tools below. I hope these improve your game, app, and art development."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb",
+      "status": "candidate",
+      "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +244,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

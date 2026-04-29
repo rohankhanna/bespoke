@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": " \ud83d\udc8e1MB lightweight face detection model  (1MB\u8f7b\u91cf\u7ea7\u4eba\u8138\u68c0\u6d4b\u6a21\u578b)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[English](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB ) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB/blob/master/README_CN.md)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[English](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB ) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB/blob/master/README_CN.md)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012495,
+      "status": "candidate",
+      "text": "illation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012464,
+      "status": "candidate",
+      "text": "infer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30012309,
+      "status": "candidate",
+      "text": "inductive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30011641,
+      "status": "candidate",
+      "text": "argumentation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010816,
+      "status": "candidate",
+      "text": "reasoning"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inference",
+      "sense_id": "inference#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12025,
+      "status": "candidate",
+      "text": "illation"
+    }
+  ],
+  "concept_id": "inference",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inference",
+  "observation_id": "cab69b4f3c4290a3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "inference",
+  "source_context_snippet": "[English](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB ) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB/blob/master/README_CN.md)",
+  "source_file": null,
+  "source_repo": "Linzaer/Ultra-Light-Fast-Generic-Face-Detector-1MB",
+  "source_repo_description": " \ud83d\udc8e1MB lightweight face detection model  (1MB\u8f7b\u91cf\u7ea7\u4eba\u8138\u68c0\u6d4b\u6a21\u578b)"
+}

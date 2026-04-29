@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClownsharkBatwing/RES4LYF",
+      "target": "rgthree/rgthree-comfy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ClownsharkBatwing/RES4LYF",
+      "target": "clownsharkbatwing/ultracascade",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:34.878175+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19405
+    },
+    {
+      "path": "requirements.txt",
+      "size": 54
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ClownsharkBatwing/RES4LYF",
+    "html_url": "https://github.com/ClownsharkBatwing/RES4LYF",
+    "language": "Python",
+    "pushed_at": "2026-01-18T03:03:38Z",
+    "stargazers_count": 1089,
+    "topics": [],
+    "updated_at": "2026-04-29T13:06:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clownsharkbatwing/ultracascade",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rgthree/rgthree-comfy",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

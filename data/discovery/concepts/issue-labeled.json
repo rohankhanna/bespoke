@@ -19,12 +19,30 @@
       "source_repo": "vitejs/vite",
       "status": "candidate-context",
       "text": "Issue Labeled"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wevm/abitype",
+      "status": "candidate-context",
+      "text": "Strict TypeScript types for Ethereum ABIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wevm/abitype",
+      "status": "candidate-context",
+      "text": "Issue Labeled"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "vitejs/vite",
+      "status": "candidate",
+      "text": "Issue Labeled"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wevm/abitype",
       "status": "candidate",
       "text": "Issue Labeled"
     }
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": ".github/workflows/issue-labeled.yml",
       "source_repo": "vitejs/vite"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue-labeled.yml",
+      "source_repo": "wevm/abitype"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

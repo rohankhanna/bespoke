@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eric-mitchell/direct-preference-optimization",
+      "target": "blacksamorez/tensor_parallel",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:54:00.966892+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11880
+    },
+    {
+      "path": "requirements.txt",
+      "size": 192
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reference implementation for DPO (Direct Preference Optimization)",
+    "fork": false,
+    "full_name": "eric-mitchell/direct-preference-optimization",
+    "html_url": "https://github.com/eric-mitchell/direct-preference-optimization",
+    "language": "Python",
+    "pushed_at": "2024-08-11T00:24:06Z",
+    "stargazers_count": 2886,
+    "topics": [],
+    "updated_at": "2026-04-28T12:33:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blacksamorez/tensor_parallel",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

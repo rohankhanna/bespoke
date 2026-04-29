@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocker-org/rocker-versioned",
+      "target": "rocker-org/rocker-versioned2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocker-org/rocker-versioned",
+      "target": "rocker-org/binder",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rocker-org/rocker-versioned",
+      "target": "rocker-org/shiny",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:59:14.696615+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9126
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Run current & prior versions of R using docker",
+    "fork": false,
+    "full_name": "rocker-org/rocker-versioned",
+    "html_url": "https://github.com/rocker-org/rocker-versioned",
+    "language": "Dockerfile",
+    "pushed_at": "2022-02-26T14:26:11Z",
+    "stargazers_count": 292,
+    "topics": [],
+    "updated_at": "2026-02-22T05:57:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocker-org/binder",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocker-org/rocker-versioned2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rocker-org/shiny",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "JamesIves/github-pages-deploy-action@v4.6.1",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_readme.yaml",
+      "source_repo": "vladmandic/sdnext"
+    }
+  ]
+}

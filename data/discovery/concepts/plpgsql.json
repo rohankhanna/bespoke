@@ -19,6 +19,30 @@
       "source_repo": "vibhorkum/pg_background",
       "status": "candidate-context",
       "text": "[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14--18-blue.svg)](https://www.postgresql.org/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pgpartman/pg_partman",
+      "status": "candidate-context",
+      "text": "Partition management extension for PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgpartman/pg_partman",
+      "status": "candidate-context",
+      "text": "[![PGXN version](https://badge.fury.io/pg/pg_partman.svg)](https://badge.fury.io/pg/pg_partman)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postgis/postgis",
+      "status": "candidate-context",
+      "text": "PostGIS spatial database extension to PostgreSQL [mirror]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postgis/postgis",
+      "status": "candidate-context",
+      "text": "This file is here to play nicely with modern code repository facilities."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "vibhorkum/pg_background",
       "status": "candidate",
       "text": "[![PostgreSQL](https://img.shields.io/badge/PostgreSQL-14--18-blue.svg)](https://www.postgresql.org/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pgpartman/pg_partman",
+      "status": "candidate",
+      "text": "[![PGXN version](https://badge.fury.io/pg/pg_partman.svg)](https://badge.fury.io/pg/pg_partman)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postgis/postgis",
+      "status": "candidate",
+      "text": "This file is here to play nicely with modern code repository facilities."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-21T18:51:25.552552+00:00",
       "source_file": null,
       "source_repo": "vibhorkum/pg_background"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pgpartman/pg_partman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "postgis/postgis"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T18:51:25.552552+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -44,6 +44,30 @@
       "source_repo": "redis/redis",
       "status": "candidate-context",
       "text": "Daily"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "coder/websocket",
+      "status": "candidate-context",
+      "text": "Minimal and idiomatic WebSocket library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/websocket",
+      "status": "candidate-context",
+      "text": "daily"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/training_extensions",
+      "status": "candidate-context",
+      "text": "Train, Evaluate, Optimize, Deploy Computer Vision Models via OpenVINO\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/training_extensions",
+      "status": "candidate-context",
+      "text": "Daily"
     }
   ],
   "candidate_glosses": [
@@ -62,6 +86,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "redis/redis",
+      "status": "candidate",
+      "text": "Daily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "coder/websocket",
+      "status": "candidate",
+      "text": "daily"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/training_extensions",
       "status": "candidate",
       "text": "Daily"
     }
@@ -161,11 +197,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/daily.yml",
       "source_repo": "redis/redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "coder/websocket"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/daily.yml",
+      "source_repo": "open-edge-platform/training_extensions"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

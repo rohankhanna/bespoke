@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAI-Lab/RivaGAN",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "DAI-Lab/RivaGAN",
+      "target": "video-watermark",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:51:34.618328+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5358
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Robust video watermarking with non-differentiable adversaries.",
+    "fork": false,
+    "full_name": "DAI-Lab/RivaGAN",
+    "html_url": "https://github.com/DAI-Lab/RivaGAN",
+    "language": "Python",
+    "pushed_at": "2021-10-12T22:57:31Z",
+    "stargazers_count": 316,
+    "topics": [
+      "deep-learning",
+      "video-watermark"
+    ],
+    "updated_at": "2026-04-01T06:01:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<p align=\"left\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-watermark"
+    }
+  ]
+}

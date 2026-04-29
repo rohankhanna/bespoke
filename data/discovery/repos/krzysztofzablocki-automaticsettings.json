@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:52:14.019335+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8803
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Data driven settings UI generation.",
+    "fork": false,
+    "full_name": "krzysztofzablocki/AutomaticSettings",
+    "html_url": "https://github.com/krzysztofzablocki/AutomaticSettings",
+    "language": "Swift",
+    "pushed_at": "2025-01-07T07:57:19Z",
+    "stargazers_count": 313,
+    "topics": [],
+    "updated_at": "2026-01-27T02:32:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

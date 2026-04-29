@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "moznion/sbt-spotless",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "moznion/sbt-spotless",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "moznion/sbt-spotless",
+      "target": "Scala CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moznion/sbt-spotless",
+      "target": "code-formatter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moznion/sbt-spotless",
+      "target": "sbt-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "moznion/sbt-spotless",
+      "target": "spotless",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:39:50.307651+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4617
+    },
+    {
+      "path": ".github/workflows/scala.yml",
+      "size": 317
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "An sbt plugin for Spotless code formatter/checker",
+    "fork": false,
+    "full_name": "moznion/sbt-spotless",
+    "html_url": "https://github.com/moznion/sbt-spotless",
+    "language": "Scala",
+    "pushed_at": "2026-04-27T09:04:12Z",
+    "stargazers_count": 6,
+    "topics": [
+      "code-formatter",
+      "sbt",
+      "sbt-plugin",
+      "spotless"
+    ],
+    "updated_at": "2025-09-25T00:50:33Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Scala CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scala.yml",
+      "term": "Scala CI"
+    },
+    {
+      "context_snippet": "An sbt plugin for [Spotless](https://github.com/diffplug/spotless) code formatter/checker.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-formatter"
+    },
+    {
+      "context_snippet": "An sbt plugin for [Spotless](https://github.com/diffplug/spotless) code formatter/checker.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sbt-plugin"
+    },
+    {
+      "context_snippet": "An sbt plugin for [Spotless](https://github.com/diffplug/spotless) code formatter/checker.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spotless"
+    }
+  ]
+}

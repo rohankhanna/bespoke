@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "clcarwin/sphereface_pytorch",
+      "target": "wy1iu/sphereface",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:45:09.832258+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1004
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch Implementation of SphereFace.",
+    "fork": false,
+    "full_name": "clcarwin/sphereface_pytorch",
+    "html_url": "https://github.com/clcarwin/sphereface_pytorch",
+    "language": "Python",
+    "pushed_at": "2022-02-01T20:56:10Z",
+    "stargazers_count": 716,
+    "topics": [],
+    "updated_at": "2026-04-04T12:32:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wy1iu/sphereface",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "lint-staged"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sudo-suhas/lint-staged-django-react-demo",
+      "status": "candidate-context",
+      "text": "Example repo to demonstrate use of `lint-staged` to lint files outside of project directory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sudo-suhas/lint-staged-django-react-demo",
+      "status": "candidate-context",
+      "text": "Example repo to demonstrate use of `lint-staged` to lint files outside of project directory."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "status": "candidate-context",
+      "text": "imagemin CLI designed for lint-staged usage with sensible defaults"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "status": "candidate-context",
+      "text": "> imagemin CLI designed for lint-staged usage with sensible defaults"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sudo-suhas/lint-staged-django-react-demo",
+      "status": "candidate",
+      "text": "Example repo to demonstrate use of `lint-staged` to lint files outside of project directory."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tomchentw/imagemin-lint-staged",
+      "status": "candidate",
+      "text": "> imagemin CLI designed for lint-staged usage with sensible defaults"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "lint-staged",
+  "concept_id": "lint-staged",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sudo-suhas/lint-staged-django-react-demo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tomchentw/imagemin-lint-staged"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "lint-staged",
+      "sense_id": "lint-staged#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

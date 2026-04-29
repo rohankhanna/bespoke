@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Edward-Sun/gpt-accelera",
+      "target": "pytorch-labs/gpt-fast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Edward-Sun/gpt-accelera",
+      "target": "edward-sun/easy-to-hard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Edward-Sun/gpt-accelera",
+      "target": "ibm/salmon",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "Edward-Sun/gpt-accelera"
+}

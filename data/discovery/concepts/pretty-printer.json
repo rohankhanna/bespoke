@@ -19,6 +19,18 @@
       "source_repo": "ennocramer/floskell",
       "status": "candidate-context",
       "text": "[![Hackage][hackage-image]][hackage-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Marwes/pretty.rs",
+      "status": "candidate-context",
+      "text": "Wadler-style pretty-printing combinators in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Marwes/pretty.rs",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/Marwes/pretty.rs/actions/workflows/build.yml/badge.svg)](https://github.com/Marwes/pretty.rs/actions/workflows/build.yml)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "ennocramer/floskell",
       "status": "candidate",
       "text": "[![Hackage][hackage-image]][hackage-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Marwes/pretty.rs",
+      "status": "candidate",
+      "text": "[![build](https://github.com/Marwes/pretty.rs/actions/workflows/build.yml/badge.svg)](https://github.com/Marwes/pretty.rs/actions/workflows/build.yml)"
     }
   ],
   "candidate_related_terms": [
@@ -82,11 +100,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "ennocramer/floskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Marwes/pretty.rs"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

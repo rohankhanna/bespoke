@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "marked",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-emoji",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "opml",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "daveutils",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "davefeedread",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scripting/reallysimple",
+      "target": "scripting/tinyfeedreader",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "scripting/reallysimple",
+      "target": "marked",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "scripting/reallysimple",
+      "target": "node-emoji",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "scripting/reallysimple",
+      "target": "opml",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "scripting/reallysimple",
+      "target": "daveutils",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "scripting/reallysimple",
+      "target": "davefeedread",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:43:25.474215+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1495
+    },
+    {
+      "path": "package.json",
+      "size": 618
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Node package that reads RSS, Atom and RDF feeds and calls back with a simple, consistent JavaScript object. ",
+    "fork": false,
+    "full_name": "scripting/reallysimple",
+    "html_url": "https://github.com/scripting/reallysimple",
+    "language": "JavaScript",
+    "pushed_at": "2025-12-24T14:51:58Z",
+    "stargazers_count": 105,
+    "topics": [],
+    "updated_at": "2026-02-27T18:41:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scripting/tinyfeedreader",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

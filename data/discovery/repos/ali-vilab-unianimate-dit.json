@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/UniAnimate-DiT",
+      "target": "ali-vilab/unianimate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/UniAnimate-DiT",
+      "target": "thu-ml/sageattention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/UniAnimate-DiT",
+      "target": "human-image-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/UniAnimate-DiT",
+      "target": "video-diffusion-transformers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/UniAnimate-DiT",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:18.534025+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20249
+    },
+    {
+      "path": "requirements.txt",
+      "size": 186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "UniAnimate-DiT: Human Image Animation with Large-Scale Video Diffusion Transformer",
+    "fork": false,
+    "full_name": "ali-vilab/UniAnimate-DiT",
+    "html_url": "https://github.com/ali-vilab/UniAnimate-DiT",
+    "language": "Python",
+    "pushed_at": "2025-04-27T08:11:49Z",
+    "stargazers_count": 847,
+    "topics": [
+      "human-image-animation",
+      "video-diffusion-transformers",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-25T08:30:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ali-vilab/unianimate",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thu-ml/sageattention",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "An expanded version of [UniAnimate](https://arxiv.org/abs/2406.01188) based on [Wan2.1](https://github.com/Wan-Video/Wan2.1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-image-animation"
+    },
+    {
+      "context_snippet": "An expanded version of [UniAnimate](https://arxiv.org/abs/2406.01188) based on [Wan2.1](https://github.com/Wan-Video/Wan2.1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-diffusion-transformers"
+    },
+    {
+      "context_snippet": "An expanded version of [UniAnimate](https://arxiv.org/abs/2406.01188) based on [Wan2.1](https://github.com/Wan-Video/Wan2.1)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

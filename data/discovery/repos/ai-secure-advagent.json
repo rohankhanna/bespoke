@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:54:31.592239+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3409
+    },
+    {
+      "path": "requirements.txt",
+      "size": 4052
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "AI-secure/AdvAgent",
+    "html_url": "https://github.com/AI-secure/AdvAgent",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-05-28T06:45:52Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2026-03-29T07:45:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

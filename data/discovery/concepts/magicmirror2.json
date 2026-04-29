@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "magicmirror2"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "status": "candidate-context",
+      "text": "A module for MagicMirror displaying the song currently streaming on your librespot java speaker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "status": "candidate-context",
+      "text": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "status": "candidate",
+      "text": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "magicmirror2",
+  "concept_id": "magicmirror2",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "l3d00m/MMM-LibrespotJava"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "magicmirror2",
+      "sense_id": "magicmirror2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

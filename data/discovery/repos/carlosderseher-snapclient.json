@@ -1,0 +1,277 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "espressif/esp-idf-ci-action@8cd22ae10042fadc37890e81e9988a9113e7b506",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "espressif/esp-idf-ci-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "espressif/esp-idf-ci-action@8cd22ae10042fadc37890e81e9988a9113e7b506",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "espressif/esp-idf-ci-action@v1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "badaix/snapcast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "bridadan/libsnapcast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "accabog/medianfilter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "achimpieters/esp32-udp-logger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "espressif/esp-idf-ci-action@8cd22ae10042fadc37890e81e9988a9113e7b506",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "espressif/esp-idf-ci-action@v1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "embedded-audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "esp32",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "esp32-audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "flac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "i2s-dac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "multiroom-audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "opus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "snapcast",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "snapcast-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CarlosDerSeher/snapclient",
+      "target": "wifi-audio",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:38:52.077481+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13732
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 2087
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "snapclient on ESP32 ",
+    "fork": false,
+    "full_name": "CarlosDerSeher/snapclient",
+    "html_url": "https://github.com/CarlosDerSeher/snapclient",
+    "language": "C",
+    "pushed_at": "2026-04-07T17:35:00Z",
+    "stargazers_count": 270,
+    "topics": [
+      "embedded-audio",
+      "esp32",
+      "esp32-audio",
+      "flac",
+      "i2s",
+      "i2s-dac",
+      "multiroom-audio",
+      "opus",
+      "pcm",
+      "snapcast",
+      "snapcast-client",
+      "wifi-audio"
+    ],
+    "updated_at": "2026-04-29T08:49:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "accabog/medianfilter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "achimpieters/esp32-udp-logger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "badaix/snapcast",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bridadan/libsnapcast",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- FLAC, OPUS and PCM decoding currently supported",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "embedded-audio"
+    },
+    {
+      "context_snippet": "- FLAC, OPUS and PCM decoding currently supported",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esp32"
+    },
+    {
+      "context_snippet": "- FLAC, OPUS and PCM decoding currently supported",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "esp32-audio"
+    },
+    {
+      "context_snippet": "- FLAC, OPUS and PCM decoding currently supported",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flac"
+    },
+    {
+      "context_snippet": "- FLAC, OPUS and PCM decoding currently supported",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "i2s-dac"
+    },
+    {
+      "context_snippet": "- FLAC, OPUS and PCM decoding currently supported",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multiroom-audio"
+    },
+    {
+      "context_snippet": "- FLAC, OPUS and PCM decoding currently supported",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opus"
+    },
+    {
+      "context_snippet": "- FLAC, OPUS and PCM decoding currently supported",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snapcast"
+    },
+    {
+      "context_snippet": "- FLAC, OPUS and PCM decoding currently supported",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snapcast-client"
+    },
+    {
+      "context_snippet": "- FLAC, OPUS and PCM decoding currently supported",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wifi-audio"
+    }
+  ]
+}

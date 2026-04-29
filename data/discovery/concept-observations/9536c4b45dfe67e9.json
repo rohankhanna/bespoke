@@ -70,7 +70,7 @@
   "normalized_form": "sync-upstream-with-mozilla-central",
   "observation_id": "9536c4b45dfe67e9",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T12:33:41.350224+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Sync upstream with mozilla-central",
   "source_context_snippet": "Sync upstream with mozilla-central",
   "source_file": ".github/workflows/sync-upstream.yml",

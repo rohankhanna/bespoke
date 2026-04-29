@@ -1,0 +1,223 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "baichuan-inc/baichuan2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "openlmlab/gaokao-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "hiyouga/llama-efficient-tuning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "jianzhnie/efficient-tuning-llms",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "ceval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "mmlu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:38:04.139869+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11132
+    },
+    {
+      "path": "requirements.txt",
+      "size": 104
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A large-scale 7B pretraining language model developed by BaiChuan-Inc.",
+    "fork": false,
+    "full_name": "baichuan-inc/Baichuan-7B",
+    "html_url": "https://github.com/baichuan-inc/Baichuan-7B",
+    "language": "Python",
+    "pushed_at": "2024-07-18T14:23:01Z",
+    "stargazers_count": 5664,
+    "topics": [
+      "artificial-intelligence",
+      "ceval",
+      "chatgpt",
+      "chinese",
+      "gpt-4",
+      "huggingface",
+      "large-language-models",
+      "llama",
+      "mmlu",
+      "natural-language-processing"
+    ],
+    "updated_at": "2026-04-28T05:51:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baichuan-inc/baichuan2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-efficient-tuning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jianzhnie/efficient-tuning-llms",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openlmlab/gaokao-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ceval"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmlu"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    }
+  ]
+}

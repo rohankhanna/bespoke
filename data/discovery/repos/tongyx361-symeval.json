@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "fastai/workflows/quarto-ghp@master]",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml"
+    },
+    {
+      "component": "fastai/workflows/nbdev-ci@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "tongyx361/symeval",
+      "target": "fastai/workflows/quarto-ghp@master]",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "source_repo": "tongyx361/symeval",
+      "target": "Deploy to GitHub Pages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "tongyx361/symeval",
+      "target": "fastai/workflows/nbdev-ci@master",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:49:55.893693+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13139
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1249
+    },
+    {
+      "path": ".github/workflows/deploy.yaml",
+      "size": 242
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 982
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Evaluation utilities based on SymPy.",
+    "fork": false,
+    "full_name": "tongyx361/symeval",
+    "html_url": "https://github.com/tongyx361/symeval",
+    "language": "Python",
+    "pushed_at": "2024-12-12T22:59:02Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2026-03-15T06:19:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Deploy to GitHub Pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yaml",
+      "term": "Deploy to GitHub Pages"
+    }
+  ]
+}

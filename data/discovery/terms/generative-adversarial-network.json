@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "repo-topic",
@@ -31,6 +31,16 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "eladrich/pixel2style2pixel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "switchablenorms/CelebAMask-HQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "Lausbert/Exermote"
     }
   ],
   "term": "generative-adversarial-network"

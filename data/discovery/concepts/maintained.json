@@ -19,6 +19,18 @@
       "source_repo": "jaydenseric/graphql-multipart-request-spec",
       "status": "candidate-context",
       "text": "A spec for GraphQL multipart form requests (file uploads)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jaydenseric/graphql-upload",
+      "status": "candidate-context",
+      "text": "Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaydenseric/graphql-upload",
+      "status": "candidate-context",
+      "text": "graphql-upload \u2014 Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jaydenseric/graphql-multipart-request-spec",
       "status": "candidate",
       "text": "A spec for GraphQL multipart form requests (file uploads)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jaydenseric/graphql-upload",
+      "status": "candidate",
+      "text": "graphql-upload \u2014 Middleware and a scalar Upload to add support for GraphQL multipart requests (file uploads via queries and mutations) to various Node.js GraphQL servers."
     }
   ],
   "candidate_related_terms": [
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-22T18:52:26.467154+00:00",
       "source_file": null,
       "source_repo": "jaydenseric/graphql-multipart-request-spec"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jaydenseric/graphql-upload"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T18:52:26.467154+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

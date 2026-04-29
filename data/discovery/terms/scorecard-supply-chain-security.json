@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -266,6 +266,41 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "opea-project/GenAIEval"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "licensee/licensee"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "IntelPython/smp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "lodash/lodash"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "sigstore/root-signing"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "google/trillian"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "praw-dev/praw"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "intel/ipex-llm-tutorial"
     }
   ],
   "term": "Scorecard supply-chain security"

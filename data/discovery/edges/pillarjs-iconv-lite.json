@@ -4,14 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "pillarjs/iconv-lite",
-      "target": "expressjs/body-parser",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pillarjs/iconv-lite",
-      "target": "bnoordhuis/node-iconv",
+      "target": "substack/node-browserify",
       "target_type": "repository"
     },
     {
@@ -19,13 +12,6 @@
       "source_file": "README.md",
       "source_repo": "pillarjs/iconv-lite",
       "target": "ashtuchkin/iconv-lite",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pillarjs/iconv-lite",
-      "target": "danielgindi/node-autodetect-decoder-stream",
       "target_type": "repository"
     },
     {
@@ -260,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "pillarjs/iconv-lite"
 }

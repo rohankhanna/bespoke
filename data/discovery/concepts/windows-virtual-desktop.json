@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "windows-virtual-desktop"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dockur/windows",
+      "status": "candidate-context",
+      "text": "Windows inside a Docker container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dockur/windows",
+      "status": "candidate-context",
+      "text": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dockur/windows",
+      "status": "candidate",
+      "text": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "windows-virtual-desktop",
+  "concept_id": "windows-virtual-desktop",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dockur/windows"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "windows-virtual-desktop",
+      "sense_id": "windows-virtual-desktop#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,261 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "caiyuanhao1998/draw_script",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "caiyuanhao1998/mst-plus-plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "cmhungsteve/awesome-transformer-attention",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "cuiziteng/illumination-adaptive-transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "basicsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "iccv2023",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "image-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "low-light-enhance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "low-light-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "low-light-enhancer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "low-light-image-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "low-light-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "nighttime-enhancement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "ntire",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "caiyuanhao1998/Retinexformer",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:47:24.191564+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27042
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\"Retinexformer: One-stage Retinex-based Transformer for Low-light Image Enhancement\" (ICCV 2023) & (NTIRE 2024 Runner-Up)",
+    "fork": false,
+    "full_name": "caiyuanhao1998/Retinexformer",
+    "html_url": "https://github.com/caiyuanhao1998/Retinexformer",
+    "language": "Python",
+    "pushed_at": "2025-10-10T21:56:20Z",
+    "stargazers_count": 1451,
+    "topics": [
+      "basicsr",
+      "detection",
+      "iccv2023",
+      "image-restoration",
+      "low-light-enhance",
+      "low-light-enhancement",
+      "low-light-enhancer",
+      "low-light-image-enhancement",
+      "low-light-vision",
+      "nighttime-enhancement",
+      "ntire",
+      "object-detection",
+      "transformer"
+    ],
+    "updated_at": "2026-04-29T17:28:18Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caiyuanhao1998/draw_script",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "caiyuanhao1998/mst-plus-plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmhungsteve/awesome-transformer-attention",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cuiziteng/illumination-adaptive-transformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "basicsr"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "iccv2023"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-restoration"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-light-enhance"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-light-enhancement"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-light-enhancer"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-light-image-enhancement"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "low-light-vision"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nighttime-enhancement"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ntire"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "&nbsp;",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

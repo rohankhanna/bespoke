@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "status-im/nimbus-common-workflow/.github/workflows/common.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "status-im/nimbus-common-workflow/.github/workflows/docs.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "status-im/nim-json-serialization",
+      "target": "status-im/nim-serialization",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "status-im/nim-json-serialization",
+      "target": "status-im/nimbus-common-workflow/.github/workflows/common.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "status-im/nim-json-serialization",
+      "target": "status-im/nimbus-common-workflow/.github/workflows/docs.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "status-im/nim-json-serialization",
+      "target": "Docgen",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:47:55.999374+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2940
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 374
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 529
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Flexible JSON serialization not relying on run-time type information",
+    "fork": false,
+    "full_name": "status-im/nim-json-serialization",
+    "html_url": "https://github.com/status-im/nim-json-serialization",
+    "language": "Nim",
+    "pushed_at": "2026-01-30T20:51:54Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2026-03-23T09:27:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "status-im/nim-serialization",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docgen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docgen"
+    }
+  ]
+}

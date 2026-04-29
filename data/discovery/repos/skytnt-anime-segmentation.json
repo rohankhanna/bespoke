@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyTNT/anime-segmentation",
+      "target": "xuebinqin/dis",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyTNT/anime-segmentation",
+      "target": "plemeri/inspyrenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyTNT/anime-segmentation",
+      "target": "jerryli27/aniseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyTNT/anime-segmentation",
+      "target": "shuhongchen/bizarre-pose-estimator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SkyTNT/anime-segmentation",
+      "target": "anime",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "SkyTNT/anime-segmentation",
+      "target": "segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:20.946921+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4433
+    },
+    {
+      "path": "requirements.txt",
+      "size": 110
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "high-accuracy segmentation for anime character",
+    "fork": false,
+    "full_name": "SkyTNT/anime-segmentation",
+    "html_url": "https://github.com/SkyTNT/anime-segmentation",
+    "language": "Python",
+    "pushed_at": "2025-05-21T02:00:35Z",
+    "stargazers_count": 807,
+    "topics": [
+      "anime",
+      "segmentation"
+    ],
+    "updated_at": "2026-04-23T03:26:32Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jerryli27/aniseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "plemeri/inspyrenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shuhongchen/bizarre-pose-estimator",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xuebinqin/dis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Segmentation for anime character",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anime"
+    },
+    {
+      "context_snippet": "Segmentation for anime character",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    }
+  ]
+}

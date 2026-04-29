@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "vim-fuzzbox/fuzzbox-lsp.vim",
+      "target": "yegappan/lsp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox-lsp.vim",
+      "target": "fuzzy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox-lsp.vim",
+      "target": "fuzzy-finder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox-lsp.vim",
+      "target": "fuzzy-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vim-fuzzbox/fuzzbox-lsp.vim",
+      "target": "vim9",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:40:19.663972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 679
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fuzzbox extension for yegappan/lsp",
+    "fork": false,
+    "full_name": "vim-fuzzbox/fuzzbox-lsp.vim",
+    "html_url": "https://github.com/vim-fuzzbox/fuzzbox-lsp.vim",
+    "language": "Vim Script",
+    "pushed_at": "2026-03-04T07:25:18Z",
+    "stargazers_count": 2,
+    "topics": [
+      "fuzzy",
+      "fuzzy-finder",
+      "fuzzy-search",
+      "lsp",
+      "vim",
+      "vim9"
+    ],
+    "updated_at": "2026-03-08T16:44:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yegappan/lsp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "An extension for [fuzzbox.vim](https://github.com/vim-fuzzbox/fuzzbox.vim) that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy"
+    },
+    {
+      "context_snippet": "An extension for [fuzzbox.vim](https://github.com/vim-fuzzbox/fuzzbox.vim) that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy-finder"
+    },
+    {
+      "context_snippet": "An extension for [fuzzbox.vim](https://github.com/vim-fuzzbox/fuzzbox.vim) that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy-search"
+    },
+    {
+      "context_snippet": "An extension for [fuzzbox.vim](https://github.com/vim-fuzzbox/fuzzbox.vim) that",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9"
+    }
+  ]
+}

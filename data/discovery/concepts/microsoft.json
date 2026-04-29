@@ -127,6 +127,66 @@
       "source_repo": "microsoft/DirectXTK12",
       "status": "candidate-context",
       "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXTK12/X_jpg.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-dev",
+      "status": "candidate-context",
+      "text": "A developer CLI for working with Azure resources to build and deploy AI applications. Commands map to key workflow stages: code, build, deploy, and monitor."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-dev",
+      "status": "candidate-context",
+      "text": "> **From code to cloud in minutes.** A developer-centric CLI to build, deploy, and operate Azure applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DirectXTex",
+      "status": "candidate-context",
+      "text": "DirectXTex texture processing library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTex",
+      "status": "candidate-context",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXTex/X_jpg.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/DirectXTK",
+      "status": "candidate-context",
+      "text": "The DirectX Tool Kit (aka DirectXTK) is a collection of helper classes for writing DirectX 11.x code in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTK",
+      "status": "candidate-context",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXTK/X_jpg.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate-context",
+      "text": "The Microsoft Build Engine (MSBuild) is the build platform for .NET and Visual Studio."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/75?branchName=main&label=Public)](https://dev.azure.com/dnceng-public/public/_build?definitionId=75) [![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/9434?label=Internal&bran\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/azure-powershell",
+      "status": "candidate-context",
+      "text": "Microsoft Azure PowerShell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-powershell",
+      "status": "candidate-context",
+      "text": "<meta name=\"google-site-verification\" content=\"tZgbB2s-hTI0IePQQRCjHqL_Vf0j_XJmehXAHJerrn4\" />"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +249,36 @@
       "source_repo": "microsoft/DirectXTK12",
       "status": "candidate",
       "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXTK12/X_jpg.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-dev",
+      "status": "candidate",
+      "text": "> **From code to cloud in minutes.** A developer-centric CLI to build, deploy, and operate Azure applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTex",
+      "status": "candidate",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXTex/X_jpg.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/DirectXTK",
+      "status": "candidate",
+      "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXTK/X_jpg.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dotnet/msbuild",
+      "status": "candidate",
+      "text": "[![Build Status](https://dev.azure.com/dnceng-public/public/_apis/build/status/75?branchName=main&label=Public)](https://dev.azure.com/dnceng-public/public/_build?definitionId=75) [![Build Status](https://devdiv.visualstudio.com/DevDiv/_apis/build/status/9434?label=Internal&bran\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/azure-powershell",
+      "status": "candidate",
+      "text": "<meta name=\"google-site-verification\" content=\"tZgbB2s-hTI0IePQQRCjHqL_Vf0j_XJmehXAHJerrn4\" />"
     }
   ],
   "candidate_related_terms": [
@@ -327,11 +417,47 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "microsoft/DirectXTK12"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-dev"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chakra-core/ChakraCore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXTex"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/DirectXTK"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dotnet/msbuild"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Azure/azure-powershell"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

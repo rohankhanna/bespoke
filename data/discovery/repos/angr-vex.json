@@ -1,0 +1,59 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "angr/vex",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "angr/vex",
+      "target": "Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:46:50.361845+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 133
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 838
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A patched version of VEX to work with PyVEX.",
+    "fork": false,
+    "full_name": "angr/vex",
+    "html_url": "https://github.com/angr/vex",
+    "language": "C",
+    "pushed_at": "2026-02-01T07:47:54Z",
+    "stargazers_count": 114,
+    "topics": [],
+    "updated_at": "2026-03-03T07:23:42Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    }
+  ]
+}

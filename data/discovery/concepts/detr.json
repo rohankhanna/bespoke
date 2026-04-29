@@ -55,6 +55,30 @@
       "source_repo": "wang-xinyu/tensorrtx",
       "status": "candidate-context",
       "text": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate-context",
+      "text": "An ultimately comprehensive paper list of Vision Transformer/Attention, including papers, codes, and related websites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate-context",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "status": "candidate-context",
+      "text": "Collect some papers about transformer with vision. Awesome Transformer with Computer Vision (CV)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "status": "candidate-context",
+      "text": "Collect some Transformer with Computer-Vision (CV) papers."
     }
   ],
   "candidate_glosses": [
@@ -81,6 +105,18 @@
       "source_repo": "wang-xinyu/tensorrtx",
       "status": "candidate",
       "text": "TensorRTx aims to implement popular deep learning networks with TensorRT network definition API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "status": "candidate",
+      "text": "Collect some Transformer with Computer-Vision (CV) papers."
     }
   ],
   "candidate_related_terms": [
@@ -127,11 +163,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "wang-xinyu/tensorrtx"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -23,13 +23,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "notofonts/noto-fonts",
-      "target": "notofonts/notofonts.github.io",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "notofonts/noto-fonts",
@@ -51,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:57:58.017117+00:00",
+  "fetched_at": "2026-04-29T21:48:07.757503+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -78,15 +71,9 @@
     "pushed_at": "2023-01-25T13:40:16Z",
     "stargazers_count": 2503,
     "topics": [],
-    "updated_at": "2026-04-23T23:15:27Z"
+    "updated_at": "2026-04-26T10:39:47Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "notofonts/notofonts.github.io",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Continuous Test + Deploy",

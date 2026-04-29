@@ -70,6 +70,18 @@
       "source_repo": "alpinelinux/aports",
       "status": "candidate-context",
       "text": "This repository contains the APKBUILD files for each and every"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lemire/fast_float",
+      "status": "candidate-context",
+      "text": "Fast and exact implementation of the C++ from_chars functions for float and double types: 4x faster than strtod"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemire/fast_float",
+      "status": "candidate-context",
+      "text": "Alpine Linux"
     }
   ],
   "candidate_glosses": [
@@ -102,6 +114,12 @@
       "source_repo": "alpinelinux/aports",
       "status": "candidate",
       "text": "This repository contains the APKBUILD files for each and every"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lemire/fast_float",
+      "status": "candidate",
+      "text": "Alpine Linux"
     }
   ],
   "candidate_related_terms": [
@@ -168,11 +186,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "alpinelinux/aports"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "lemire/fast_float"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "simdjson/simdjson"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

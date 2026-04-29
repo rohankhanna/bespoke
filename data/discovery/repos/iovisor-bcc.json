@@ -1,0 +1,228 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bcc-test.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bcc-test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bcc-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bcc-test.yml"
+    },
+    {
+      "component": "dorny/paths-filter@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bcc-test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bcc-test.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_links.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_links.yml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_links.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-build-containers.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "elgohr/Publish-Docker-Github-Action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bcc-test.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bcc-test.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "dorny/paths-filter@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bcc-test.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bcc-test.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "mxschmitt/action-tmate@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bcc-test.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "BCC Build and tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_links.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_links.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_links.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_links.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "Check Broken Links",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-build-containers.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-build-containers.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "Publish Build Containers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "elgohr/Publish-Docker-Github-Action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "iovisor/bcc",
+      "target": "Publish Build Artifacts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:41:27.247547+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23427
+    },
+    {
+      "path": ".github/workflows/bcc-test.yml",
+      "size": 8991
+    },
+    {
+      "path": ".github/workflows/check_links.yml",
+      "size": 1196
+    },
+    {
+      "path": ".github/workflows/publish-build-containers.yml",
+      "size": 1102
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 1654
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "BCC - Tools for BPF-based Linux IO analysis, networking, monitoring, and more",
+    "fork": false,
+    "full_name": "iovisor/bcc",
+    "html_url": "https://github.com/iovisor/bcc",
+    "language": "C",
+    "pushed_at": "2026-04-29T07:35:48Z",
+    "stargazers_count": 22388,
+    "topics": [],
+    "updated_at": "2026-04-29T19:07:43Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "BCC Build and tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bcc-test.yml",
+      "term": "BCC Build and tests"
+    },
+    {
+      "context_snippet": "Check Broken Links",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_links.yml",
+      "term": "Check Broken Links"
+    },
+    {
+      "context_snippet": "Publish Build Containers",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-build-containers.yml",
+      "term": "Publish Build Containers"
+    },
+    {
+      "context_snippet": "Publish Build Artifacts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish Build Artifacts"
+    }
+  ]
+}

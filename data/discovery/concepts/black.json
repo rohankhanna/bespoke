@@ -46,6 +46,54 @@
       "source_repo": "adamchainz/blacken-docs",
       "status": "candidate-context",
       "text": "============"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jolibrain/joliGEN",
+      "status": "candidate-context",
+      "text": "Generative AI Image and Video Toolset with GANs and Diffusion for Real-World Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/joliGEN",
+      "status": "candidate-context",
+      "text": "black"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmacmackin/markdown-include",
+      "status": "candidate-context",
+      "text": "Provides syntax for Python-Markdown which allows for the inclusion of the contents of other Markdown documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmacmackin/markdown-include",
+      "status": "candidate-context",
+      "text": "black"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate-context",
+      "text": "Python best practices project cookiecutter \ud83c\udf6a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate-context",
+      "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate-context",
+      "text": "Runs the psf/black formatter to check/format your python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate-context",
+      "text": "[![Test](https://github.com/rickstaa/action-black/workflows/Test/badge.svg)](https://github.com/rickstaa/action-black/actions?query=workflow%3ATest)"
     }
   ],
   "candidate_glosses": [
@@ -66,6 +114,30 @@
       "source_repo": "adamchainz/blacken-docs",
       "status": "candidate",
       "text": "============"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/joliGEN",
+      "status": "candidate",
+      "text": "black"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmacmackin/markdown-include",
+      "status": "candidate",
+      "text": "black"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate",
+      "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rickstaa/action-black",
+      "status": "candidate",
+      "text": "[![Test](https://github.com/rickstaa/action-black/workflows/Test/badge.svg)](https://github.com/rickstaa/action-black/actions?query=workflow%3ATest)"
     }
   ],
   "candidate_related_terms": [
@@ -193,11 +265,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/black.yml",
       "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adamchainz/blacken-docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/black.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/github-actions-black-formatting.yml",
+      "source_repo": "jolibrain/joliGEN"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/black.yaml",
+      "source_repo": "cmacmackin/markdown-include"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rickstaa/action-black"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

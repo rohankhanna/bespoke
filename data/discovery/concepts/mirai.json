@@ -91,6 +91,42 @@
       "source_repo": "mamoe/mirai-console",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Minxyzgo/MiraiGoChess",
+      "status": "candidate-context",
+      "text": "\u4e00\u4e2aMirai\u7684\u5f00\u6e90\u56f4\u68cb\u63d2\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Minxyzgo/MiraiGoChess",
+      "status": "candidate-context",
+      "text": "\u57fa\u4e8eMiraiConsole \u7684\u4e00\u4e2a\u5f00\u6e90\u56f4\u68cb\u63d2\u4ef6"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mzdluo123/MiraiAndroid",
+      "status": "candidate-context",
+      "text": "QQ\u673a\u5668\u4eba /\uff08\u5b9e\u9a8c\u6027\uff09\u5728Android\u4e0a\u8fd0\u884cMirai-console\uff0c\u652f\u6301\u63d2\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mzdluo123/MiraiAndroid",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "iTXTech/mirai-console-loader",
+      "status": "candidate-context",
+      "text": "\u6a21\u5757\u5316\u3001\u8f7b\u91cf\u7ea7\u4e14\u652f\u6301\u5b8c\u5168\u81ea\u5b9a\u4e49\u7684 mirai \u52a0\u8f7d\u5668\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iTXTech/mirai-console-loader",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/v/release/itxtech/mirai-console-loader?label=stable)](https://github.com/iTXTech/mirai-console-loader/releases)"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "mamoe/mirai-console",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Minxyzgo/MiraiGoChess",
+      "status": "candidate",
+      "text": "\u57fa\u4e8eMiraiConsole \u7684\u4e00\u4e2a\u5f00\u6e90\u56f4\u68cb\u63d2\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mzdluo123/MiraiAndroid",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "iTXTech/mirai-console-loader",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/v/release/itxtech/mirai-console-loader?label=stable)](https://github.com/iTXTech/mirai-console-loader/releases)"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +238,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "mamoe/mirai-console"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Minxyzgo/MiraiGoChess"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mzdluo123/MiraiAndroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "iTXTech/mirai-console-loader"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -45,13 +45,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "micromatch/is-glob",
-      "target": "assemble/assemble",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "micromatch/is-glob",
       "target": "node-base/base",
       "target_type": "repository"
     },
@@ -175,7 +168,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:12:09.583273+00:00",
+  "fetched_at": "2026-04-29T19:49:58.673224+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -218,11 +211,6 @@
     "updated_at": "2026-02-14T12:49:16Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "assemble/assemble",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "jonschlinkert/has-glob",

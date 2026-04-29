@@ -1,0 +1,99 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "nrepl/bencode",
+      "target": "nrepl/nrepl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/bencode",
+      "target": "bencode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/bencode",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/bencode",
+      "target": "netstrings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nrepl/bencode",
+      "target": "nrepl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:58:28.287273+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4122
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A netstring and bencode implementation for Clojure.",
+    "fork": false,
+    "full_name": "nrepl/bencode",
+    "html_url": "https://github.com/nrepl/bencode",
+    "language": "Clojure",
+    "pushed_at": "2024-06-12T15:20:11Z",
+    "stargazers_count": 55,
+    "topics": [
+      "bencode",
+      "clojure",
+      "netstrings",
+      "nrepl"
+    ],
+    "updated_at": "2026-01-27T01:31:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nrepl/nrepl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/nrepl/bencode/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/bencode/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bencode"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/nrepl/bencode/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/bencode/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/nrepl/bencode/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/bencode/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "netstrings"
+    },
+    {
+      "context_snippet": "[![CircleCI](https://circleci.com/gh/nrepl/bencode/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/bencode/tree/master)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nrepl"
+    }
+  ]
+}

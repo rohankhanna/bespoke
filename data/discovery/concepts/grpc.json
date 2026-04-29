@@ -379,6 +379,78 @@
       "source_repo": "grpc/grpc-java",
       "status": "candidate-context",
       "text": "gRPC-Java - An RPC library and framework"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "\u2601\ufe0f Build multimodal AI applications with cloud-native stack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate-context",
+      "text": "<a href=\"https://pypi.org/project/jina/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/jina?label=Release&style=flat-square\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/vizier",
+      "status": "candidate-context",
+      "text": "Python-based research interface for blackbox and hyperparameter optimization, based on the internal Google Vizier Service."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/vizier",
+      "status": "candidate-context",
+      "text": "<figure>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate-context",
+      "text": "The Dart language implementation of gRPC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate-context",
+      "text": "[![Dart](https://github.com/grpc/grpc-dart/actions/workflows/dart.yml/badge.svg)](https://github.com/grpc/grpc-dart/actions/workflows/dart.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gogo/protobuf",
+      "status": "candidate-context",
+      "text": "[Deprecated] Protocol Buffers for Go with Gadgets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogo/protobuf",
+      "status": "candidate-context",
+      "text": "module github.com/gogo/protobuf go 1.15 require ( github.com/kisielk/errcheck v1.5.0 // indirect github.com/kisielk/gotool v1.0.0 // indirect golang.org/x/tools v0.0.0-20210106214847-113979e3529a // indirect )"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc-ecosystem/grpc-gateway",
+      "status": "candidate-context",
+      "text": "gRPC to JSON proxy generator following the gRPC HTTP spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc-ecosystem/grpc-gateway",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-web",
+      "status": "candidate-context",
+      "text": "gRPC for Web Clients"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-web",
+      "status": "candidate-context",
+      "text": "A JavaScript implementation of [gRPC][] for browser clients. For more information,"
     }
   ],
   "candidate_glosses": [
@@ -567,6 +639,42 @@
       "source_repo": "grpc/grpc-java",
       "status": "candidate",
       "text": "gRPC-Java - An RPC library and framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jina-ai/serve",
+      "status": "candidate",
+      "text": "<a href=\"https://pypi.org/project/jina/\"><img alt=\"PyPI\" src=\"https://img.shields.io/pypi/v/jina?label=Release&style=flat-square\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/vizier",
+      "status": "candidate",
+      "text": "<figure>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate",
+      "text": "[![Dart](https://github.com/grpc/grpc-dart/actions/workflows/dart.yml/badge.svg)](https://github.com/grpc/grpc-dart/actions/workflows/dart.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogo/protobuf",
+      "status": "candidate",
+      "text": "module github.com/gogo/protobuf go 1.15 require ( github.com/kisielk/errcheck v1.5.0 // indirect github.com/kisielk/gotool v1.0.0 // indirect golang.org/x/tools v0.0.0-20210106214847-113979e3529a // indirect )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc-ecosystem/grpc-gateway",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-web",
+      "status": "candidate",
+      "text": "A JavaScript implementation of [gRPC][] for browser clients. For more information,"
     }
   ],
   "candidate_related_terms": [],
@@ -772,11 +880,65 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jina-ai/serve"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google/vizier"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tikv/grpc-rs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gogo/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "grpc-ecosystem/grpc-gateway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kurrent-io/KurrentDB-Client-Dotnet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-web"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

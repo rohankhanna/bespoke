@@ -55,6 +55,18 @@
       "source_repo": "ashvardanian/less_slow.cpp",
       "status": "candidate-context",
       "text": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "status": "candidate-context",
+      "text": "Transfer the ControlNet with any basemodel in diffusers\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "status": "candidate-context",
+      "text": "This repository provides the simplest tutorial code for developers using ControlNet with basemodel in the diffuser framework instead of WebUI. Our work builds highly on other excellent works. Although theses works have made some attemptes, there is no tutorial for supporting div\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "ashvardanian/less_slow.cpp",
       "status": "candidate",
       "text": "> The benchmarks in this repository don't aim to cover every topic entirely, but they help form a mindset and intuition for performance-oriented software design."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "status": "candidate",
+      "text": "This repository provides the simplest tutorial code for developers using ControlNet with basemodel in the diffuser framework instead of WebUI. Our work builds highly on other excellent works. Although theses works have made some attemptes, there is no tutorial for supporting div\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +166,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "ashvardanian/less_slow.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "haofanwang/ControlNet-for-Diffusers"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

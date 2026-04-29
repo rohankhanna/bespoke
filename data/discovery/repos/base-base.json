@@ -1,0 +1,684 @@
+{
+  "components": [
+    {
+      "component": "step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action-tests.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action-tests.yml"
+    },
+    {
+      "component": "step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/cache@2f8e54208210a422b2efd51efaa6bd6d7ca8920f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/upload-artifact@6f51ac03b9356f520e9adb1b1b7802705f340c2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/upload-artifact@6f51ac03b9356f520e9adb1b1b7802705f340c2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "actions/upload-artifact@6f51ac03b9356f520e9adb1b1b7802705f340c2b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml"
+    },
+    {
+      "component": "step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "rui314/setup-mold@725a8794d15fc7563f59595bd9556495c0564878",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@4305c38b25d97ef35a8ad1f985ccf2d2242004f2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml"
+    },
+    {
+      "component": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml"
+    },
+    {
+      "component": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-main-cache.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-main-cache.yml"
+    },
+    {
+      "component": "step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@1b8ee3b94104046d71fde52ec3557651ad8c0d71",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "base/base",
+      "target": "succinctlabs/sp1-cluster",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action-tests.yml",
+      "source_repo": "base/base",
+      "target": "step-security/harden-runner@95d9a5deda9de15063e7595e9719c11c38c90ae2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/action-tests.yml",
+      "source_repo": "base/base",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action-tests.yml",
+      "source_repo": "base/base",
+      "target": "Action Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "base/base",
+      "target": "step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "base/base",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "base/base",
+      "target": "actions/cache@2f8e54208210a422b2efd51efaa6bd6d7ca8920f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "base/base",
+      "target": "actions/upload-artifact@6f51ac03b9356f520e9adb1b1b7802705f340c2b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "base/base",
+      "target": "actions/setup-go@4dc6199c7b1a012772edbd06daecab0f50c9053c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "base/base",
+      "target": "actions/download-artifact@fa0a91b85d4f404e444e00e005971372dc801d16",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "base/base",
+      "target": "actions/setup-node@49933ea5288caeca8642d1e84afbd3f7d6820020",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "source_repo": "base/base",
+      "target": "Benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "base/base",
+      "target": "step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "base/base",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "base/base",
+      "target": "rui314/setup-mold@725a8794d15fc7563f59595bd9556495c0564878",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "base/base",
+      "target": "dtolnay/rust-toolchain@4305c38b25d97ef35a8ad1f985ccf2d2242004f2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "base/base",
+      "target": "actions/upload-artifact@ea165f8d65b6e75b540449e92b4886f43607fa02",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "base/base",
+      "target": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "base/base",
+      "target": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "base/base",
+      "target": "actions/download-artifact@d3f86a106a0bac45b974a628896c90dbdf5c8093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yml",
+      "source_repo": "base/base",
+      "target": "Build Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "base/base",
+      "target": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "base/base",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "base/base",
+      "target": "dorny/paths-filter@de90cc6fb38fc0963ad72b210f1f284cd68cea36",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "base/base",
+      "target": "mikepenz/action-junit-report@bccf2e31636835cf0874589931c4116687171386",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "base/base",
+      "target": "docker/setup-buildx-action@e468171a9de216ec08956ac3ada2f0791b6bd435",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "base/base",
+      "target": "docker/login-action@5e57cd118135c172c3672efd75eb46360885c0ef",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-core.yml",
+      "source_repo": "base/base",
+      "target": "CI Core",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-main-cache.yml",
+      "source_repo": "base/base",
+      "target": "step-security/harden-runner@a90bcbc6539c36a85cdfeb73f7e2f433735f215b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-main-cache.yml",
+      "source_repo": "base/base",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-main-cache.yml",
+      "source_repo": "base/base",
+      "target": "CI Main Cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-merge-queue.yml",
+      "source_repo": "base/base",
+      "target": "CI Merge Queue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "source_repo": "base/base",
+      "target": "CI PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "base/base",
+      "target": "step-security/harden-runner@002fdce3c6a235733a90a27c80493a3241e56863",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "base/base",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "base/base",
+      "target": "anthropics/claude-code-action@1b8ee3b94104046d71fde52ec3557651ad8c0d71",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "base/base",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T22:00:21.239252+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1362
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 24074
+    },
+    {
+      "path": ".github/workflows/action-tests.yml",
+      "size": 1197
+    },
+    {
+      "path": ".github/workflows/benchmark.yml",
+      "size": 5716
+    },
+    {
+      "path": ".github/workflows/build-release.yml",
+      "size": 10937
+    },
+    {
+      "path": ".github/workflows/ci-core.yml",
+      "size": 11027
+    },
+    {
+      "path": ".github/workflows/ci-main-cache.yml",
+      "size": 1011
+    },
+    {
+      "path": ".github/workflows/ci-merge-queue.yml",
+      "size": 567
+    },
+    {
+      "path": ".github/workflows/ci-pr.yml",
+      "size": 828
+    },
+    {
+      "path": ".github/workflows/claude-review.yml",
+      "size": 5909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "All components used to run Base",
+    "fork": false,
+    "full_name": "base/base",
+    "html_url": "https://github.com/base/base",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T21:58:43Z",
+    "stargazers_count": 401,
+    "topics": [],
+    "updated_at": "2026-04-29T21:13:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "succinctlabs/sp1-cluster",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Action Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/action-tests.yml",
+      "term": "Action Tests"
+    },
+    {
+      "context_snippet": "Benchmark",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark.yml",
+      "term": "Benchmark"
+    },
+    {
+      "context_snippet": "Build Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-release.yml",
+      "term": "Build Release"
+    },
+    {
+      "context_snippet": "CI Core",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-core.yml",
+      "term": "CI Core"
+    },
+    {
+      "context_snippet": "CI Main Cache",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-main-cache.yml",
+      "term": "CI Main Cache"
+    },
+    {
+      "context_snippet": "CI Merge Queue",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-merge-queue.yml",
+      "term": "CI Merge Queue"
+    },
+    {
+      "context_snippet": "CI PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-pr.yml",
+      "term": "CI PR"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yml",
+      "term": "Claude Code Review"
+    }
+  ]
+}

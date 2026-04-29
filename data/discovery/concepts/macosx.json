@@ -31,6 +31,18 @@
       "source_repo": "matryer/xbar",
       "status": "candidate-context",
       "text": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate-context",
+      "text": "The MacPorts ports tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate-context",
+      "text": "This repository contains the source definitions for the open source software packages offered through MacPorts."
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "matryer/xbar",
       "status": "candidate",
       "text": "[![](xbarapp.com/public/img/xbar-menu-preview.png)](https://xbarapp.com/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate",
+      "text": "This repository contains the source definitions for the open source software packages offered through MacPorts."
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "matryer/xbar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "macports/macports-ports"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

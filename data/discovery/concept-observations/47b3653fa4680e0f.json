@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Easy multi-core processing utilities for Node."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/parallel-js/parallel.js.svg?branch=master)](https://travis-ci.org/parallel-js/parallel.js)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/parallel-js/parallel.js.svg?branch=master)](https://travis-ci.org/parallel-js/parallel.js)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "paralleljs",
+      "sense_id": "paralleljs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "paralleljs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "paralleljs",
+  "observation_id": "47b3653fa4680e0f",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "paralleljs",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/parallel-js/parallel.js.svg?branch=master)](https://travis-ci.org/parallel-js/parallel.js)",
+  "source_file": null,
+  "source_repo": "parallel-js/parallel.js",
+  "source_repo_description": "Easy multi-core processing utilities for Node."
+}

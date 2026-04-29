@@ -1717,6 +1717,414 @@
       "source_repo": "archiverjs/node-archiver",
       "status": "candidate-context",
       "text": "A streaming interface for archive generation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/bittorrent-lsd",
+      "status": "candidate-context",
+      "text": "Local Service Discovery (BEP14) implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-lsd",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-lsd/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "status": "candidate-context",
+      "text": "Map a BitTorrent peer ID to a human-readable client name and version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-peerid/actions/workflows/ci.yml/badge.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/bittorrent-protocol",
+      "status": "candidate-context",
+      "text": "Simple, robust, BitTorrent peer wire protocol implementation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-protocol",
+      "status": "candidate-context",
+      "text": "[travis-image]: https://img.shields.io/travis/webtorrent/bittorrent-protocol/master.svg"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apostrophecms/apostrophe",
+      "status": "candidate-context",
+      "text": "A full-featured, open-source content management framework built with Node.js that empowers organizations by combining in-context editing and headless architecture in a full-stack JS environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apostrophecms/apostrophe",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "A JavaScript implementation of a web browser without its graphical user interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsdom/jsdom",
+      "status": "candidate-context",
+      "text": "A JavaScript implementation of various web standards, for use with Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsdom/jsdom",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Systemcluster/kitoken",
+      "status": "candidate-context",
+      "text": "Fast tokenizer for language models, compatible with SentencePiece, Tokenizers, Tiktoken and more. Supports BPE, Unigram and WordPiece tokenization in JavaScript, Python and Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/kitoken",
+      "status": "candidate-context",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/kitoken)](https://crates.io/crates/kitoken)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "axios/axios",
+      "status": "candidate-context",
+      "text": "Promise based HTTP client for the browser and node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axios/axios",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">\ud83d\udc8e Platinum sponsors <br /></h3>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/got",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 Human-friendly and powerful HTTP request library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/got",
+      "status": "candidate-context",
+      "text": "got \u2014 Human-friendly and powerful HTTP request library for Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "status": "candidate-context",
+      "text": "Deeply mix the properties of objects into the first object, while also mixing-in child objects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "status": "candidate-context",
+      "text": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/omit-deep",
+      "status": "candidate-context",
+      "text": "Recursively omit specified keys from an object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/omit-deep",
+      "status": "candidate-context",
+      "text": "> Recursively omit the specified key or keys from an object."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "assemble/assemble",
+      "status": "candidate-context",
+      "text": "Get the rocks out of your socks! Assemble makes you fast at web development! Used by thousands of projects for rapid prototyping, themes, scaffolds, boilerplates, e-books, UI components, API documentation, blogs, building websites/static site generator, an alternative to Jekyll for gh-pages and more! Gulp- and grunt-friendly.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assemble/assemble",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "base-repos/base",
+      "status": "candidate-context",
+      "text": "Base is the foundation for creating modular, unit testable and highly pluggable, server-side node.js applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "base-repos/base",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "discordjs/discord.js",
+      "status": "candidate-context",
+      "text": "A powerful JavaScript library for interacting with the Discord API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "discordjs/discord.js",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate-context",
+      "text": "typescript http client and server with zod validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Zodios</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodejs/nodejs-dist-indexer",
+      "status": "candidate-context",
+      "text": "An application to create nodejs.org distribution index files: index.json and index.tab"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/nodejs-dist-indexer",
+      "status": "candidate-context",
+      "text": "**An application to create [nodejs.org](https://nodejs.org) distribution index files: index.json and index.tab**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avwo/whistle",
+      "status": "candidate-context",
+      "text": "HTTP, HTTP2, HTTPS, Websocket debugging proxy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avwo/whistle",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpolonsky/agent-skills",
+      "status": "candidate-context",
+      "text": "Agent skills for AI coding agents - restaurant reservations, pharmacy stock, library tracking, and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skills",
+      "status": "candidate-context",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "status": "candidate-context",
+      "text": "Check prescription medication stock at Maccabi pharmacies before you go. Search all nearby branches in one query. Agent Skills format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "status": "candidate-context",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpolonsky/agent-skill-strikeradar",
+      "status": "candidate-context",
+      "text": "Monitor US-Iran strike probability in real time with signals from news, flights, oil, connectivity, and more. Agent Skills format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-strikeradar",
+      "status": "candidate-context",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "statsd/statsd",
+      "status": "candidate-context",
+      "text": "Daemon for easy but powerful stats aggregation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statsd/statsd",
+      "status": "candidate-context",
+      "text": "A network daemon that runs on the [Node.js][node] platform and"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/awesome-nodejs",
+      "status": "candidate-context",
+      "text": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED UNTIL SEPTEMBER]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/awesome-nodejs",
+      "status": "candidate-context",
+      "text": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED UNTIL SEPTEMBER]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Level/many-level",
+      "status": "candidate-context",
+      "text": "Share an abstract-level database over the network or other kind of stream."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/many-level",
+      "status": "candidate-context",
+      "text": "**Share an [abstract-level](https://github.com/Level/abstract-level) database over the network or other kind of stream.** The successor to [`multileveldown`](https://github.com/Level/multileveldown). If you are upgrading, please see [UPGRADING.md](UPGRADING.md)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "middyjs/middy",
+      "status": "candidate-context",
+      "text": "\ud83d\udef5 The stylish Node.js middleware engine for AWS Lambda \ud83d\udef5"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "middyjs/middy",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/aws-ses-lambda",
+      "status": "candidate-context",
+      "text": "\ud83d\udcec A Lambda function for sending email and tracking deliverability via AWS Simple Email Service (SES)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/aws-ses-lambda",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nodists/nodist",
+      "status": "candidate-context",
+      "text": "Natural node.js and npm version manager for windows."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodists/nodist",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/marcelklehr/nodist](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/marcelklehr/nodist?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhart/alpine-node",
+      "status": "candidate-context",
+      "text": "Minimal Node.js Docker Images built on Alpine Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhart/alpine-node",
+      "status": "candidate-context",
+      "text": "This project is now in archive mode. Please use the official Node.js Alpine images at:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-api-nodejs-client",
+      "status": "candidate-context",
+      "text": "Google's officially supported Node.js client library for accessing Google APIs. Support for authorization and authentication with OAuth 2.0, API Keys and JWT (Service Tokens) is included. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-nodejs-client",
+      "status": "candidate-context",
+      "text": "<img src=\"https://avatars0.githubusercontent.com/u/1342004?v=3&s=96\" alt=\"Google Inc. logo\" title=\"Google\" align=\"right\" height=\"96\" width=\"96\"/>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webtorrent/ut_metadata",
+      "status": "candidate-context",
+      "text": "BitTorrent Extension for Peers to Send Metadata Files (BEP 9)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/ut_metadata",
+      "status": "candidate-context",
+      "text": "[ci-image]: https://github.com/webtorrent/ut_metadata/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adonisjs/core",
+      "status": "candidate-context",
+      "text": "AdonisJS is a TypeScript-first web framework for building web apps and API servers. It comes with support for testing, modern tooling, an ecosystem of official packages, and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adonisjs/core",
+      "status": "candidate-context",
+      "text": "**Featured sponsors**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "form-data/form-data",
+      "status": "candidate-context",
+      "text": "A module to create readable `\"multipart/form-data\"` streams.  Can be used to submit forms and file uploads to other web applications. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "form-data/form-data",
+      "status": "candidate-context",
+      "text": "A library to create readable ```\"multipart/form-data\"``` streams. Can be used to submit forms and file uploads to other web applications."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ljharb/qs",
+      "status": "candidate-context",
+      "text": "A querystring parser and serializer with nesting support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ljharb/qs",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "toddbluhm/env-cmd",
+      "status": "candidate-context",
+      "text": "Setting environment variables from a file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toddbluhm/env-cmd",
+      "status": "candidate-context",
+      "text": "[![Linux Tests](https://github.com/toddbluhm/env-cmd/workflows/linux%20tests/badge.svg)](https://github.com/toddbluhm/env-cmd/actions?query=workflow%3A%22linux%20tests%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/nbb",
+      "status": "candidate-context",
+      "text": "Scripting in Clojure on Node.js using SCI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
     }
   ],
   "candidate_glosses": [
@@ -2571,6 +2979,210 @@
       "source_repo": "archiverjs/node-archiver",
       "status": "candidate",
       "text": "A streaming interface for archive generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-lsd",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-lsd/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-peerid",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/webtorrent/bittorrent-peerid/actions/workflows/ci.yml/badge.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/bittorrent-protocol",
+      "status": "candidate",
+      "text": "[travis-image]: https://img.shields.io/travis/webtorrent/bittorrent-protocol/master.svg"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apostrophecms/apostrophe",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsdom/jsdom",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/kitoken",
+      "status": "candidate",
+      "text": "[![Crates.io](https://img.shields.io/crates/v/kitoken)](https://crates.io/crates/kitoken)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "axios/axios",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">\ud83d\udc8e Platinum sponsors <br /></h3>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/got",
+      "status": "candidate",
+      "text": "got \u2014 Human-friendly and powerful HTTP request library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "status": "candidate",
+      "text": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/omit-deep",
+      "status": "candidate",
+      "text": "> Recursively omit the specified key or keys from an object."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assemble/assemble",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "base-repos/base",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "discordjs/discord.js",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Zodios</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodejs/nodejs-dist-indexer",
+      "status": "candidate",
+      "text": "**An application to create [nodejs.org](https://nodejs.org) distribution index files: index.json and index.tab**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avwo/whistle",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skills",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-strikeradar",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statsd/statsd",
+      "status": "candidate",
+      "text": "A network daemon that runs on the [Node.js][node] platform and"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/awesome-nodejs",
+      "status": "candidate",
+      "text": ":zap: Delightful Node.js packages and resources [BECAUSE OF TOO MUCH SPAM AND LOW-QUALITY SUBMISSIONS, SUBMISSIONS ARE PAUSED UNTIL SEPTEMBER]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Level/many-level",
+      "status": "candidate",
+      "text": "**Share an [abstract-level](https://github.com/Level/abstract-level) database over the network or other kind of stream.** The successor to [`multileveldown`](https://github.com/Level/multileveldown). If you are upgrading, please see [UPGRADING.md](UPGRADING.md)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "middyjs/middy",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/aws-ses-lambda",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nodists/nodist",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/marcelklehr/nodist](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/marcelklehr/nodist?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhart/alpine-node",
+      "status": "candidate",
+      "text": "This project is now in archive mode. Please use the official Node.js Alpine images at:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-nodejs-client",
+      "status": "candidate",
+      "text": "<img src=\"https://avatars0.githubusercontent.com/u/1342004?v=3&s=96\" alt=\"Google Inc. logo\" title=\"Google\" align=\"right\" height=\"96\" width=\"96\"/>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webtorrent/ut_metadata",
+      "status": "candidate",
+      "text": "[ci-image]: https://github.com/webtorrent/ut_metadata/actions/workflows/ci.yml/badge.svg?branch=master"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adonisjs/core",
+      "status": "candidate",
+      "text": "**Featured sponsors**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "form-data/form-data",
+      "status": "candidate",
+      "text": "A library to create readable ```\"multipart/form-data\"``` streams. Can be used to submit forms and file uploads to other web applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ljharb/qs",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toddbluhm/env-cmd",
+      "status": "candidate",
+      "text": "[![Linux Tests](https://github.com/toddbluhm/env-cmd/workflows/linux%20tests/badge.svg)](https://github.com/toddbluhm/env-cmd/actions?query=workflow%3A%22linux%20tests%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb",
+      "status": "candidate",
+      "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
     }
   ],
   "candidate_related_terms": [],
@@ -3670,11 +4282,287 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-lsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-peerid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/bittorrent-protocol"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apostrophecms/apostrophe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "capricorn86/happy-dom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jsdom/jsdom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Systemcluster/kitoken"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "axios/axios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/got"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/mixin-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/omit-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "assemble/assemble"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "base-repos/base"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "discordjs/discord.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ecyrbe/zodios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/to-regex-range"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/braces"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/expand-brackets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nodejs/nodejs-dist-indexer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "standard/standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "standard/eslint-config-standard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "standard/snazzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "avwo/whistle"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skills"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-strikeradar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ably-labs/multiplayer-games-scalable-networking-framework"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "statsd/statsd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/awesome-nodejs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nwjs/nw.js"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Level/many-level"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "middyjs/middy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/aws-ses-lambda"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "coreybutler/nvm-windows"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nvm-sh/nvm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nodists/nodist"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mhart/alpine-node"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-api-nodejs-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webtorrent/ut_metadata"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adonisjs/core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws-powertools/powertools-lambda-typescript"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "form-data/form-data"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ljharb/qs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "toddbluhm/env-cmd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

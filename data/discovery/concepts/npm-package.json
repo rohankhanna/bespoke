@@ -55,6 +55,18 @@
       "source_repo": "Level/supports",
       "status": "candidate-context",
       "text": "**Create a manifest describing the abilities of an [`abstract-level`](https://github.com/Level/abstract-level) database.** No longer compatible with [`levelup`](https://github.com/Level/levelup) or [`abstract-leveldown`](https://github.com/Level/abstract-leveldown) since version\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/got",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 Human-friendly and powerful HTTP request library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/got",
+      "status": "candidate-context",
+      "text": "got \u2014 Human-friendly and powerful HTTP request library for Node.js"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "Level/supports",
       "status": "candidate",
       "text": "**Create a manifest describing the abilities of an [`abstract-level`](https://github.com/Level/abstract-level) database.** No longer compatible with [`levelup`](https://github.com/Level/levelup) or [`abstract-leveldown`](https://github.com/Level/abstract-leveldown) since version\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/got",
+      "status": "candidate",
+      "text": "got \u2014 Human-friendly and powerful HTTP request library for Node.js"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Level/supports"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/got"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

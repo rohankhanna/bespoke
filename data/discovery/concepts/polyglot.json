@@ -19,6 +19,18 @@
       "source_repo": "jart/cosmopolitan",
       "status": "candidate-context",
       "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "niklasf/python-chess",
+      "status": "candidate-context",
+      "text": "A chess library for Python, with move generation and validation, PGN parsing and writing, Polyglot opening book reading, Gaviota tablebase probing, Syzygy tablebase probing, and UCI/XBoard engine communication"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niklasf/python-chess",
+      "status": "candidate-context",
+      "text": "python-chess: a chess library for Python"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "jart/cosmopolitan",
       "status": "candidate",
       "text": "![Cosmopolitan Honeybadger](usr/share/img/honeybadger.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "niklasf/python-chess",
+      "status": "candidate",
+      "text": "python-chess: a chess library for Python"
     }
   ],
   "candidate_related_terms": [
@@ -91,11 +109,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "jart/cosmopolitan"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "niklasf/python-chess"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

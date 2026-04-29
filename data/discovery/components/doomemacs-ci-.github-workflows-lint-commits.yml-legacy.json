@@ -1,0 +1,12 @@
+{
+  "component": "doomemacs/ci/.github/workflows/lint-commits.yml@legacy",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-commits.yml",
+      "source_repo": "doomemacs/doomemacs"
+    }
+  ]
+}

@@ -5,21 +5,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/GLM-4",
-      "target": "mariushobbhahn/swebench-verified-mini",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/GLM-4",
-      "target": "aorwall/moatless-tools",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/GLM-4",
-      "target": "openautocoder/agentless",
+      "target": "thudm/glm-4.1v-thinking",
       "target_type": "repository"
     },
     {
@@ -58,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T06:55:16.853249+00:00",
+  "fetched_at": "2026-04-29T20:51:02.427703+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -79,7 +65,7 @@
     "html_url": "https://github.com/zai-org/GLM-4",
     "language": "Python",
     "pushed_at": "2025-07-04T04:16:36Z",
-    "stargazers_count": 7079,
+    "stargazers_count": 7077,
     "topics": [
       "chatglm",
       "chatglm-6b",
@@ -87,7 +73,7 @@
       "glm-4",
       "glm4"
     ],
-    "updated_at": "2026-04-22T15:06:11Z"
+    "updated_at": "2026-04-29T08:28:40Z"
   },
   "repo_links": [
     {
@@ -97,17 +83,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "aorwall/moatless-tools",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "mariushobbhahn/swebench-verified-mini",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openautocoder/agentless",
+      "full_name": "thudm/glm-4.1v-thinking",
       "source_file": "README.md"
     }
   ],

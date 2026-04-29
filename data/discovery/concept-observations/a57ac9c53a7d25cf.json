@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This repository contains the code, data, and models of the paper titled \"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\" published in Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL\u201923), July 9-14, 2023."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains the code, data, and models of the paper titled [**\"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\"**](https://aclanthology.org/2023.acl-long.143/) published in Proceedings of the 61st Annual Meeting of the Associat\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains the code, data, and models of the paper titled [**\"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\"**](https://aclanthology.org/2023.acl-long.143/) published in Proceedings of the 61st Annual Meeting of the Associat\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "cross-lingual-summarization",
+      "sense_id": "cross-lingual-summarization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cross-lingual-summarization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cross-lingual-summarization",
+  "observation_id": "a57ac9c53a7d25cf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "cross-lingual-summarization",
+  "source_context_snippet": "This repository contains the code, data, and models of the paper titled [**\"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\"**](https://aclanthology.org/2023.acl-long.143/) published in Proceedings of the 61st Annual Meeting of the Associat\u2026",
+  "source_file": null,
+  "source_repo": "csebuetnlp/CrossSum",
+  "source_repo_description": "This repository contains the code, data, and models of the paper titled \"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\" published in Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL\u201923), July 9-14, 2023."
+}

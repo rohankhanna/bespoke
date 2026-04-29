@@ -247,6 +247,66 @@
       "source_repo": "akash-akya/vix",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/akash-akya/vix/actions/workflows/ci.yaml/badge.svg)](https://github.com/akash-akya/vix/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-pillow/Pillow",
+      "status": "candidate-context",
+      "text": "Python Imaging Library (fork)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-pillow/Pillow",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielgatis/rembg",
+      "status": "candidate-context",
+      "text": "Rembg is a tool to remove images background"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgatis/rembg",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVCUDA/CV-CUDA",
+      "status": "candidate-context",
+      "text": "CV-CUDA\u2122 is an open-source, GPU accelerated library for cloud-scale image processing and computer vision."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVCUDA/CV-CUDA",
+      "status": "candidate-context",
+      "text": "[//]: # \"SPDX-FileCopyrightText: Copyright (c) 2022-2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Po-Hsun-Su/pytorch-ssim",
+      "status": "candidate-context",
+      "text": "pytorch structural similarity (SSIM) loss"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Po-Hsun-Su/pytorch-ssim",
+      "status": "candidate-context",
+      "text": "The code doesn't work because it is on super old pytorch."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuebinqin/U-2-Net",
+      "status": "candidate-context",
+      "text": "The code for our newly accepted paper in Pattern Recognition 2020: \"U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection.\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuebinqin/U-2-Net",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -369,6 +429,36 @@
       "source_repo": "akash-akya/vix",
       "status": "candidate",
       "text": "[![CI](https://github.com/akash-akya/vix/actions/workflows/ci.yaml/badge.svg)](https://github.com/akash-akya/vix/actions/workflows/ci.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-pillow/Pillow",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgatis/rembg",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVCUDA/CV-CUDA",
+      "status": "candidate",
+      "text": "[//]: # \"SPDX-FileCopyrightText: Copyright (c) 2022-2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Po-Hsun-Su/pytorch-ssim",
+      "status": "candidate",
+      "text": "The code doesn't work because it is on super old pytorch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuebinqin/U-2-Net",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -508,11 +598,47 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "akash-akya/vix"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "python-pillow/Pillow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "danielgatis/rembg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "CVCUDA/CV-CUDA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Po-Hsun-Su/pytorch-ssim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

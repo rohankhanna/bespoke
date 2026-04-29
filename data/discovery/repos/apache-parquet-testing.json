@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/parquet-testing",
+      "target": "apache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/parquet-testing",
+      "target": "parquet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/parquet-testing",
+      "target": "parquet-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:45:56.461110+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1167
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Apache Parquet Testing",
+    "fork": false,
+    "full_name": "apache/parquet-testing",
+    "html_url": "https://github.com/apache/parquet-testing",
+    "language": "Python",
+    "pushed_at": "2026-03-04T06:49:07Z",
+    "stargazers_count": 84,
+    "topics": [
+      "apache",
+      "parquet",
+      "parquet-testing"
+    ],
+    "updated_at": "2026-04-25T16:06:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parquet"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "parquet-testing"
+    }
+  ]
+}

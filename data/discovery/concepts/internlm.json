@@ -43,6 +43,18 @@
       "source_repo": "yangjianxin1/Firefly",
       "status": "candidate-context",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "status": "candidate-context",
+      "text": "Firefly\u4e2d\u6587LLaMA-2\u5927\u6a21\u578b\uff0c\u652f\u6301\u589e\u91cf\u9884\u8bad\u7ec3Baichuan2\u3001Llama2\u3001Llama\u3001Falcon\u3001Qwen\u3001Baichuan\u3001InternLM\u3001Bloom\u7b49\u5927\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "status": "candidate-context",
+      "text": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "yangjianxin1/Firefly",
       "status": "candidate",
       "text": "<div align=\"left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "status": "candidate",
+      "text": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx"
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +106,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "yangjianxin1/Firefly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

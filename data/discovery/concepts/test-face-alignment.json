@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Face alignment"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "1adrianb/face-alignment",
+      "status": "candidate-context",
+      "text": ":fire: 2D and 3D Face alignment library build using pytorch "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1adrianb/face-alignment",
+      "status": "candidate-context",
+      "text": "Test Face alignment"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "1adrianb/face-alignment",
+      "status": "candidate",
+      "text": "Test Face alignment"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 36473,
+      "status": "candidate",
+      "text": "plumb"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26068,
+      "status": "candidate",
+      "text": "oral"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21105,
+      "status": "candidate",
+      "text": "sight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20789,
+      "status": "candidate",
+      "text": "true"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20073,
+      "status": "candidate",
+      "text": "track"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Face alignment",
+  "concept_id": "test-face-alignment",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "1adrianb/face-alignment"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Face alignment",
+      "sense_id": "test-face-alignment#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

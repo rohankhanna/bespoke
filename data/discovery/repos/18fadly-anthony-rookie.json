@@ -1,0 +1,48 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "18fadly-anthony/rookie",
+      "target": "package-manager",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:49:18.295736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 557
+    },
+    {
+      "path": "requirements.txt",
+      "size": 9
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Yet another Nix inspired package manager",
+    "fork": false,
+    "full_name": "18fadly-anthony/rookie",
+    "html_url": "https://github.com/18fadly-anthony/rookie",
+    "language": "Python",
+    "pushed_at": "2022-04-07T02:50:03Z",
+    "stargazers_count": 5,
+    "topics": [
+      "package-manager"
+    ],
+    "updated_at": "2025-11-24T07:31:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "- Yet another [Nix](https://nixos.org) inspired package manager",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "package-manager"
+    }
+  ]
+}

@@ -1,0 +1,615 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/choco-release.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/choco-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/choco-release.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-qe-template.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-qe-template.yml"
+    },
+    {
+      "component": "actions/download-artifact@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-qe-template.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-qe-template.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-qe-template.yml"
+    },
+    {
+      "component": "crc-org/crc/.github/workflows/linux-qe-template.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-qe-test.yml"
+    },
+    {
+      "component": "mxschmitt/action-tmate@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-installer.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-installer.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-installer.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-installer.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-check-win.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-check-win.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-check.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-check.yml"
+    },
+    {
+      "component": "palmsoftware/quick-cleanup@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-rpm.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-rpm.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-rpm.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-rpm.yml"
+    },
+    {
+      "component": "palmsoftware/quick-cleanup@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qe-image.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qe-image.yml"
+    },
+    {
+      "component": "redhat-actions/podman-login@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qe-image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crc-org/crc",
+      "target": "openshift/origin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crc-org/crc",
+      "target": "openshift/okd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "crc-org/crc",
+      "target": "crc-org/engineering-docs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/choco-release.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/choco-release.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/choco-release.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/choco-release.yml",
+      "source_repo": "crc-org/crc",
+      "target": "Publish CRC choco to community feed",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-qe-template.yml",
+      "source_repo": "crc-org/crc",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-qe-template.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/download-artifact@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-qe-template.yml",
+      "source_repo": "crc-org/crc",
+      "target": "mikepenz/action-junit-report@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-qe-template.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-qe-template.yml",
+      "source_repo": "crc-org/crc",
+      "target": "linux-qe-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linux-qe-test.yml",
+      "source_repo": "crc-org/crc",
+      "target": "crc-org/crc/.github/workflows/linux-qe-template.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-qe-test.yml",
+      "source_repo": "crc-org/crc",
+      "target": "tester-linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-installer.yml",
+      "source_repo": "crc-org/crc",
+      "target": "mxschmitt/action-tmate@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-installer.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-installer.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-installer.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-installer.yml",
+      "source_repo": "crc-org/crc",
+      "target": "Build macOS installer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-check-win.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-check-win.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-check-win.yml",
+      "source_repo": "crc-org/crc",
+      "target": "Run 'make check' on Windows",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-check.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-check.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-check.yml",
+      "source_repo": "crc-org/crc",
+      "target": "Run 'make check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-rpm.yml",
+      "source_repo": "crc-org/crc",
+      "target": "palmsoftware/quick-cleanup@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-rpm.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-rpm.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/make-rpm.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-rpm.yml",
+      "source_repo": "crc-org/crc",
+      "target": "Build RPM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qe-image.yml",
+      "source_repo": "crc-org/crc",
+      "target": "palmsoftware/quick-cleanup@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qe-image.yml",
+      "source_repo": "crc-org/crc",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qe-image.yml",
+      "source_repo": "crc-org/crc",
+      "target": "redhat-actions/podman-login@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/qe-image.yml",
+      "source_repo": "crc-org/crc",
+      "target": "Push qe images for new tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crc-org/crc",
+      "target": "cluster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crc-org/crc",
+      "target": "development-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crc-org/crc",
+      "target": "openshift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crc-org/crc",
+      "target": "openshift-cluster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crc-org/crc",
+      "target": "openshift-deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crc-org/crc",
+      "target": "podman",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crc-org/crc",
+      "target": "single-node-cluster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crc-org/crc",
+      "target": "testing-and-development",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "crc-org/crc",
+      "target": "virtualization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:01:13.718880+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2937
+    },
+    {
+      "path": "go.mod",
+      "size": 9637
+    },
+    {
+      "path": ".github/workflows/choco-release.yml",
+      "size": 1311
+    },
+    {
+      "path": ".github/workflows/linux-qe-template.yml",
+      "size": 8980
+    },
+    {
+      "path": ".github/workflows/linux-qe-test.yml",
+      "size": 696
+    },
+    {
+      "path": ".github/workflows/macos-installer.yml",
+      "size": 1651
+    },
+    {
+      "path": ".github/workflows/make-check-win.yml",
+      "size": 664
+    },
+    {
+      "path": ".github/workflows/make-check.yml",
+      "size": 652
+    },
+    {
+      "path": ".github/workflows/make-rpm.yml",
+      "size": 782
+    },
+    {
+      "path": ".github/workflows/qe-image.yml",
+      "size": 1570
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CRC is a tool to help you run containers. It manages local VMs to run a OpenShift 4.x cluster, Microshift or Podman optimized for testing and development purposes",
+    "fork": false,
+    "full_name": "crc-org/crc",
+    "html_url": "https://github.com/crc-org/crc",
+    "language": "Go",
+    "pushed_at": "2026-04-29T17:04:09Z",
+    "stargazers_count": 1384,
+    "topics": [
+      "cluster",
+      "development-tools",
+      "openshift",
+      "openshift-cluster",
+      "openshift-deployment",
+      "podman",
+      "single-node-cluster",
+      "testing-and-development",
+      "virtualization"
+    ],
+    "updated_at": "2026-04-28T07:28:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "crc-org/engineering-docs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openshift/okd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openshift/origin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Publish CRC choco to community feed",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/choco-release.yml",
+      "term": "Publish CRC choco to community feed"
+    },
+    {
+      "context_snippet": "linux-qe-template",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-qe-template.yml",
+      "term": "linux-qe-template"
+    },
+    {
+      "context_snippet": "tester-linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linux-qe-test.yml",
+      "term": "tester-linux"
+    },
+    {
+      "context_snippet": "Build macOS installer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-installer.yml",
+      "term": "Build macOS installer"
+    },
+    {
+      "context_snippet": "Run 'make check' on Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-check-win.yml",
+      "term": "Run 'make check' on Windows"
+    },
+    {
+      "context_snippet": "Run 'make check'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-check.yml",
+      "term": "Run 'make check"
+    },
+    {
+      "context_snippet": "Build RPM",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/make-rpm.yml",
+      "term": "Build RPM"
+    },
+    {
+      "context_snippet": "Push qe images for new tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/qe-image.yml",
+      "term": "Push qe images for new tag"
+    },
+    {
+      "context_snippet": "CRC - Runs Containers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cluster"
+    },
+    {
+      "context_snippet": "CRC - Runs Containers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "development-tools"
+    },
+    {
+      "context_snippet": "CRC - Runs Containers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openshift"
+    },
+    {
+      "context_snippet": "CRC - Runs Containers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openshift-cluster"
+    },
+    {
+      "context_snippet": "CRC - Runs Containers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openshift-deployment"
+    },
+    {
+      "context_snippet": "CRC - Runs Containers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "podman"
+    },
+    {
+      "context_snippet": "CRC - Runs Containers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-node-cluster"
+    },
+    {
+      "context_snippet": "CRC - Runs Containers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "testing-and-development"
+    },
+    {
+      "context_snippet": "CRC - Runs Containers",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtualization"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:59:08.515357+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Small library to extract media information from local files.",
+    "fork": false,
+    "full_name": "caprica/vlcj-info",
+    "html_url": "https://github.com/caprica/vlcj-info",
+    "language": "Java",
+    "pushed_at": "2022-04-05T19:22:51Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2023-11-14T22:56:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

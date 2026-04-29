@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mallman/CoreMLaMa",
+      "target": "sanster/lama-cleaner",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:43:56.182390+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2080
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1844
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "LaMa for Core ML",
+    "fork": false,
+    "full_name": "mallman/CoreMLaMa",
+    "html_url": "https://github.com/mallman/CoreMLaMa",
+    "language": "Python",
+    "pushed_at": "2024-11-19T18:03:27Z",
+    "stargazers_count": 129,
+    "topics": [],
+    "updated_at": "2026-04-01T05:52:41Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sanster/lama-cleaner",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

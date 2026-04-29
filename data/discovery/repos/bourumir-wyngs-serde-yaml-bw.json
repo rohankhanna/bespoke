@@ -1,0 +1,199 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compat.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compat.yml"
+    },
+    {
+      "component": "obi1kenobi/cargo-semver-checks-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compat.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/miri.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "target": "bourumir-wyngs/saphyr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compat.yml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compat.yml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "target": "dtolnay/rust-toolchain@631a55b12751854ce901bb631d5902ceb48146f7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/api-compat.yml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "target": "obi1kenobi/cargo-semver-checks-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-compat.yml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "target": "API compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "target": "Fuzz & Audit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/miri.yml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/miri.yml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "target": "Miri",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "bourumir-wyngs/serde-yaml-bw",
+      "target": "Rust",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:45:13.957575+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17089
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1491
+    },
+    {
+      "path": ".github/workflows/api-compat.yml",
+      "size": 614
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1920
+    },
+    {
+      "path": ".github/workflows/miri.yml",
+      "size": 2662
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 362
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Strongly typed YAML library for Rust maintained by Bourumir Wyngs",
+    "fork": true,
+    "full_name": "bourumir-wyngs/serde-yaml-bw",
+    "html_url": "https://github.com/bourumir-wyngs/serde-yaml-bw",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T08:09:04Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2026-04-29T08:09:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bourumir-wyngs/saphyr",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "API compatibility",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/api-compat.yml",
+      "term": "API compatibility"
+    },
+    {
+      "context_snippet": "Fuzz & Audit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "Fuzz & Audit"
+    },
+    {
+      "context_snippet": "Miri",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/miri.yml",
+      "term": "Miri"
+    },
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    }
+  ]
+}

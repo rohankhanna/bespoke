@@ -141,6 +141,42 @@
       "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
       "status": "candidate-context",
       "text": "<!-- Copyright 2013-2020 Mark Callow -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "python-pillow/Pillow",
+      "status": "candidate-context",
+      "text": "Python Imaging Library (fork)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-pillow/Pillow",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AmeryXiong/MixDehazeNet",
+      "status": "candidate-context",
+      "text": "Code for \"MixDehazeNet: Mix Structure block for image dehazing network\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmeryXiong/MixDehazeNet",
+      "status": "candidate-context",
+      "text": "[![paper](https://img.shields.io/badge/Paper-IEEE%20IJCNN-blue)](https://doi.org/10.1109/IJCNN60899.2024.10651326)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AnonymouX47/termvisage",
+      "status": "candidate-context",
+      "text": "Browse and view images in the terminal (mostly a front-end to https://github.com/AnonymouX47/term-image)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/termvisage",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -209,6 +245,24 @@
       "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork",
       "status": "candidate",
       "text": "<!-- Copyright 2013-2020 Mark Callow -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "python-pillow/Pillow",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AmeryXiong/MixDehazeNet",
+      "status": "candidate",
+      "text": "[![paper](https://img.shields.io/badge/Paper-IEEE%20IJCNN-blue)](https://doi.org/10.1109/IJCNN60899.2024.10651326)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AnonymouX47/termvisage",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -360,11 +414,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "BinomialLLC/KTX-Software-Binomial-Fork"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "python-pillow/Pillow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AmeryXiong/MixDehazeNet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/image.yaml",
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AnonymouX47/termvisage"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "dark"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "habamax/vim-habamax",
+      "status": "candidate-context",
+      "text": "Vim colorscheme"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "habamax/vim-habamax",
+      "status": "candidate-context",
+      "text": "********************************************************************************"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "habamax/vim-habamax",
+      "status": "candidate",
+      "text": "********************************************************************************"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39984038,
+      "status": "candidate",
+      "text": "subdued"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977983,
+      "status": "candidate",
+      "text": "darkened"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977256,
+      "status": "candidate",
+      "text": "darkening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977118,
+      "status": "candidate",
+      "text": "pitch-dark"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977109,
+      "status": "candidate",
+      "text": "pitch-black"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 91039,
+      "status": "candidate",
+      "text": "obscure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 75037,
+      "status": "candidate",
+      "text": "sullen"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 73034,
+      "status": "candidate",
+      "text": "dour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 69042,
+      "status": "candidate",
+      "text": "grim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 64030,
+      "status": "candidate",
+      "text": "subdued"
+    }
+  ],
+  "canonical_name": "dark",
+  "concept_id": "dark",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "habamax/vim-habamax"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dark",
+      "sense_id": "dark#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -55,6 +55,18 @@
       "source_repo": "danielrosehill/AI-Presentation-Builders-Index",
       "status": "candidate-context",
       "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HypoPG/hypopg",
+      "status": "candidate-context",
+      "text": "Hypothetical Indexes for PostgreSQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypoPG/hypopg",
+      "status": "candidate-context",
+      "text": "HypoPG"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "danielrosehill/AI-Presentation-Builders-Index",
       "status": "candidate",
       "text": "[![Master Index](https://img.shields.io/badge/Master%20Index-All%20Repositories-purple?style=for-the-badge&logo=github)](https://github.com/danielrosehill/Index)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HypoPG/hypopg",
+      "status": "candidate",
+      "text": "HypoPG"
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +220,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "danielrosehill/Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "danielrosehill/Index"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "HypoPG/hypopg"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xcmyz/FastSpeech",
+      "target": "jadore801120/attention-is-all-you-need-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xcmyz/FastSpeech",
+      "target": "xcmyz/transformer-tts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "xcmyz/FastSpeech",
+      "target": "nvidia/tacotron2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xcmyz/FastSpeech",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xcmyz/FastSpeech",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xcmyz/FastSpeech",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:45:39.232680+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2287
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Implementation of FastSpeech based on pytorch.",
+    "fork": false,
+    "full_name": "xcmyz/FastSpeech",
+    "html_url": "https://github.com/xcmyz/FastSpeech",
+    "language": "Python",
+    "pushed_at": "2023-07-06T22:00:13Z",
+    "stargazers_count": 880,
+    "topics": [
+      "deep-learning",
+      "pytorch",
+      "speech-synthesis"
+    ],
+    "updated_at": "2026-01-18T02:08:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jadore801120/attention-is-all-you-need-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/tacotron2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xcmyz/transformer-tts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "The Implementation of FastSpeech Based on Pytorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "The Implementation of FastSpeech Based on Pytorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "The Implementation of FastSpeech Based on Pytorch.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    }
+  ]
+}

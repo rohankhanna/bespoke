@@ -1,0 +1,211 @@
+{
+  "components": [
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "target": "jonschlinkert/defaults-deep",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "target": "jonschlinkert/mixin-object",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/mixin-deep",
+      "target": "assign",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/mixin-deep",
+      "target": "deep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/mixin-deep",
+      "target": "extend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/mixin-deep",
+      "target": "jonschlinkert",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/mixin-deep",
+      "target": "merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/mixin-deep",
+      "target": "mixin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/mixin-deep",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/mixin-deep",
+      "target": "recursive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/mixin-deep",
+      "target": "utility",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:39:57.335854+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4290
+    },
+    {
+      "path": "package.json",
+      "size": 1178
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Deeply mix the properties of objects into the first object, while also mixing-in child objects.",
+    "fork": false,
+    "full_name": "jonschlinkert/mixin-deep",
+    "html_url": "https://github.com/jonschlinkert/mixin-deep",
+    "language": "JavaScript",
+    "pushed_at": "2023-08-23T03:30:34Z",
+    "stargazers_count": 80,
+    "topics": [
+      "assign",
+      "deep",
+      "extend",
+      "javascript",
+      "jonschlinkert",
+      "merge",
+      "mixin",
+      "nodejs",
+      "recursive",
+      "utility"
+    ],
+    "updated_at": "2024-08-31T02:57:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/defaults-deep",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jonschlinkert/mixin-object",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "assign"
+    },
+    {
+      "context_snippet": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep"
+    },
+    {
+      "context_snippet": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "extend"
+    },
+    {
+      "context_snippet": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jonschlinkert"
+    },
+    {
+      "context_snippet": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "merge"
+    },
+    {
+      "context_snippet": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mixin"
+    },
+    {
+      "context_snippet": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recursive"
+    },
+    {
+      "context_snippet": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "utility"
+    }
+  ]
+}

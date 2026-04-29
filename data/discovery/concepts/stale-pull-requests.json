@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Stale Pull Requests"
+    "Stale Pull Requests",
+    "Stale pull requests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,36 @@
       "source_repo": "tracel-ai/burn",
       "status": "candidate-context",
       "text": "Stale Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-graphics-compiler",
+      "status": "candidate-context",
+      "text": "Stale Pull Requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/parquet-java",
+      "status": "candidate-context",
+      "text": "Apache Parquet Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/parquet-java",
+      "status": "candidate-context",
+      "text": "Stale pull requests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate-context",
+      "text": "Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, and elegance (in that order of priority)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate-context",
+      "text": "Stale pull requests"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +58,24 @@
       "source_repo": "tracel-ai/burn",
       "status": "candidate",
       "text": "Stale Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-graphics-compiler",
+      "status": "candidate",
+      "text": "Stale Pull Requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/parquet-java",
+      "status": "candidate",
+      "text": "Stale pull requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate",
+      "text": "Stale pull requests"
     }
   ],
   "candidate_related_terms": [
@@ -88,11 +137,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/stale-pr.yml",
       "source_repo": "tracel-ai/burn"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "intel/intel-graphics-compiler"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale-prs.yml",
+      "source_repo": "apache/parquet-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "nim-lang/Nim"
     }
   ],
   "first_seen_at": "2026-04-19T01:08:57.644140+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

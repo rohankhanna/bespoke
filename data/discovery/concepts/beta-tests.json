@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Beta tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ag2ai/ag2",
+      "status": "candidate-context",
+      "text": "AG2 (formerly AutoGen): The Open-Source AgentOS.Join us at: https://discord.gg/sNGSwQME3x"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ag2ai/ag2",
+      "status": "candidate-context",
+      "text": "Beta tests"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ag2ai/ag2",
+      "status": "candidate",
+      "text": "Beta tests"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 72973,
+      "status": "candidate",
+      "text": "alpha testing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 72972,
+      "status": "candidate",
+      "text": "alpha test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 72971,
+      "status": "candidate",
+      "text": "beta software"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 72970,
+      "status": "candidate",
+      "text": "testers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 72969,
+      "status": "candidate",
+      "text": "betas"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Beta tests",
+  "concept_id": "beta-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/beta-test.yml",
+      "source_repo": "ag2ai/ag2"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Beta tests",
+      "sense_id": "beta-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

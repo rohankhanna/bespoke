@@ -5,13 +5,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "vmware-archive/kubecfg",
-      "target": "kubecfg/kubecfg",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "vmware-archive/kubecfg",
       "target": "bitnami/kubecfg",
       "target_type": "repository"
     },
@@ -44,7 +37,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:13:07.198583+00:00",
+  "fetched_at": "2026-04-29T20:01:32.542815+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -78,11 +71,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "bitnami/kubecfg",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "kubecfg/kubecfg",
       "source_file": "README.md"
     }
   ],

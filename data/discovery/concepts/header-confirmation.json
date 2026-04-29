@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Header Confirmation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optunahub-registry",
+      "status": "candidate-context",
+      "text": "The registry of the OptunaHub packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub-registry",
+      "status": "candidate-context",
+      "text": "Header Confirmation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optunahub-registry",
+      "status": "candidate",
+      "text": "Header Confirmation"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10702,
+      "status": "candidate",
+      "text": "bill"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10702,
+      "status": "candidate",
+      "text": "binder"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10702,
+      "status": "candidate",
+      "text": "date"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10702,
+      "status": "candidate",
+      "text": "edit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10702,
+      "status": "candidate",
+      "text": "fall"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Header Confirmation",
+  "concept_id": "header-confirmation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/header-confirm.yaml",
+      "source_repo": "optuna/optunahub-registry"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Header Confirmation",
+      "sense_id": "header-confirmation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

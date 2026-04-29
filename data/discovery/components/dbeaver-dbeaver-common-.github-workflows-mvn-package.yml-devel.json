@@ -1,0 +1,17 @@
+{
+  "component": "dbeaver/dbeaver-common/.github/workflows/mvn-package.yml@devel",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push-pr-devel.yml",
+      "source_repo": "dbeaver/dbeaver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push-pr-devel.yml",
+      "source_repo": "dbeaver/cloudbeaver"
+    }
+  ]
+}

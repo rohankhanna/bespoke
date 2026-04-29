@@ -79,6 +79,30 @@
       "source_repo": "company-mode/company-mode",
       "status": "candidate-context",
       "text": "See the homepage for [installation and usage instructions](http://company-mode.github.io/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/cider",
+      "status": "candidate-context",
+      "text": "The Clojure Interactive Development Environment that Rocks for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/cider",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "doomemacs/doomemacs",
+      "status": "candidate-context",
+      "text": "An Emacs framework for the stubborn martian hacker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doomemacs/doomemacs",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +141,18 @@
       "source_repo": "company-mode/company-mode",
       "status": "candidate",
       "text": "See the homepage for [installation and usage instructions](http://company-mode.github.io/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/cider",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "doomemacs/doomemacs",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -160,11 +196,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "company-mode/company-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/cider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "doomemacs/doomemacs"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

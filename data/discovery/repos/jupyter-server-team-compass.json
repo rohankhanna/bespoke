@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jupyter-server/team-compass",
+      "target": "jupyterlab/team-compass",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:51:20.258186+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 685
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A repository for team discussion, syncing, and meeting notes.",
+    "fork": false,
+    "full_name": "jupyter-server/team-compass",
+    "html_url": "https://github.com/jupyter-server/team-compass",
+    "language": null,
+    "pushed_at": "2025-09-19T17:11:04Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2025-10-06T09:08:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jupyterlab/team-compass",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

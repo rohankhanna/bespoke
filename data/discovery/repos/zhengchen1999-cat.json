@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:51:28.442861+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20212
+    },
+    {
+      "path": "requirements.txt",
+      "size": 167
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS'22] Cross Aggregation Transformer for Image Restoration",
+    "fork": false,
+    "full_name": "zhengchen1999/CAT",
+    "html_url": "https://github.com/zhengchen1999/CAT",
+    "language": "Python",
+    "pushed_at": "2024-12-08T07:55:42Z",
+    "stargazers_count": 150,
+    "topics": [],
+    "updated_at": "2026-04-23T05:29:21Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

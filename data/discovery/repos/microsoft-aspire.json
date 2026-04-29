@@ -375,7 +375,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:09:39.681992+00:00",
+  "fetched_at": "2026-04-29T21:59:16.204004+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -391,11 +391,11 @@
     },
     {
       "path": ".github/workflows/auto-rerun-transient-ci-failures.js",
-      "size": 30510
+      "size": 47210
     },
     {
       "path": ".github/workflows/auto-rerun-transient-ci-failures.yml",
-      "size": 12609
+      "size": 18157
     },
     {
       "path": ".github/workflows/backmerge-release.yml",
@@ -407,7 +407,7 @@
     },
     {
       "path": ".github/workflows/build-cli-native-archives.yml",
-      "size": 6185
+      "size": 5553
     },
     {
       "path": ".github/workflows/build-packages.yml",
@@ -427,8 +427,8 @@
     "full_name": "microsoft/aspire",
     "html_url": "https://github.com/microsoft/aspire",
     "language": "C#",
-    "pushed_at": "2026-04-24T08:07:42Z",
-    "stargazers_count": 5851,
+    "pushed_at": "2026-04-29T21:36:55Z",
+    "stargazers_count": 5865,
     "topics": [
       "cloud",
       "dotnet",
@@ -436,7 +436,7 @@
       "python",
       "typescript"
     ],
-    "updated_at": "2026-04-24T04:58:15Z"
+    "updated_at": "2026-04-29T19:53:52Z"
   },
   "repo_links": [],
   "terms": [

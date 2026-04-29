@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "longlora"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yangjianxin1/LongQLoRA",
+      "status": "candidate-context",
+      "text": "LongQLoRA: Extent Context Length of LLMs Efficiently "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/LongQLoRA",
+      "status": "candidate-context",
+      "text": "accelerate==0.21.0 transformers==4.31.0 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx flash_attn==2.3.3 joblib==1.2.0 scikit_learn==0.24.2"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/LongQLoRA",
+      "status": "candidate",
+      "text": "accelerate==0.21.0 transformers==4.31.0 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx flash_attn==2.3.3 joblib==1.2.0 scikit_learn==0.24.2"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "longlora",
+  "concept_id": "longlora",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "yangjianxin1/LongQLoRA"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "longlora",
+      "sense_id": "longlora#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

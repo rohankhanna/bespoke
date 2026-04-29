@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "target": "cmu-perceptual-computing-lab/openpose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "target": "lowerquality/gentle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "target": "co-speech-gesture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "target": "youtube",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "youngwoo-yoon/youtube-gesture-dataset"
+}

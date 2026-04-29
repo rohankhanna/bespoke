@@ -1,7 +1,7 @@
 {
   "component": "step-security/harden-runner@8d3c67de8e2fe68ef647c8db1e6a09f647780f40",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -337,6 +337,196 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/wolfi-presubmit.yaml",
       "source_repo": "chainguard-dev/melange"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/installer.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/project.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "licensee/licensee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "licensee/licensee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "licensee/licensee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "licensee/licensee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecard.yml",
+      "source_repo": "licensee/licensee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vendor.yml",
+      "source_repo": "licensee/licensee"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-build.yml",
+      "source_repo": "jaegertracing/jaeger-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/automated-tests.yaml",
+      "source_repo": "Kong/developer.konghq.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-automated-tests-image.yaml",
+      "source_repo": "Kong/developer.konghq.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-links-scheduled.yml",
+      "source_repo": "Kong/developer.konghq.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-links.yml",
+      "source_repo": "Kong/developer.konghq.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/event-gateway-tests.yaml",
+      "source_repo": "Kong/developer.konghq.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gateway-tests.yaml",
+      "source_repo": "Kong/developer.konghq.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-gateway-plugins-changelogs.yml",
+      "source_repo": "Kong/developer.konghq.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-inso-cli-docs.yaml",
+      "source_repo": "Kong/developer.konghq.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/__build-workflow.yaml",
+      "source_repo": "Kong/kong-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/__conformance_tests.yaml",
+      "source_repo": "Kong/kong-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/__crdvalidation_tests.yaml",
+      "source_repo": "Kong/kong-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_chainsaw_tests.yaml",
+      "source_repo": "Kong/kong-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/__e2e_tests.yaml",
+      "source_repo": "Kong/kong-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/__envtest_tests.yaml",
+      "source_repo": "Kong/kong-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/__govulncheck.yaml",
+      "source_repo": "Kong/kong-operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "kokkos/kokkos-kernels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "kokkos/kokkos-kernels"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base_build.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/custom-pytest.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/github_pages_update.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gtest-bare-metal.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msys2_build.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
     }
   ]
 }

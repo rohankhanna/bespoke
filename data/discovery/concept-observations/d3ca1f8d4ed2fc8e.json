@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "toggles between the vterm buffer and whatever buffer you are editing."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![MELPA](https://melpa.org/packages/vterm-toggle-badge.svg)](https://melpa.org/#/vterm-toggle)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![MELPA](https://melpa.org/packages/vterm-toggle-badge.svg)](https://melpa.org/#/vterm-toggle)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "libvterm",
+      "sense_id": "libvterm#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "libvterm",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "libvterm",
+  "observation_id": "d3ca1f8d4ed2fc8e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "libvterm",
+  "source_context_snippet": "[![MELPA](https://melpa.org/packages/vterm-toggle-badge.svg)](https://melpa.org/#/vterm-toggle)",
+  "source_file": null,
+  "source_repo": "jixiuf/vterm-toggle",
+  "source_repo_description": "toggles between the vterm buffer and whatever buffer you are editing."
+}

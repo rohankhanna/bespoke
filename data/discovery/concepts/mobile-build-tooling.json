@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "mobile-build-tooling"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "scribd/Weaver",
+      "status": "candidate-context",
+      "text": "Dependency Injection framework for Swift (iOS/macOS/Linux)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scribd/Weaver",
+      "status": "candidate-context",
+      "text": "| :exclamation: Deprecation Notice |"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "scribd/Weaver",
+      "status": "candidate",
+      "text": "| :exclamation: Deprecation Notice |"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "mobile-build-tooling",
+  "concept_id": "mobile-build-tooling",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "scribd/Weaver"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "mobile-build-tooling",
+      "sense_id": "mobile-build-tooling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

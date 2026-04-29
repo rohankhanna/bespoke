@@ -43,6 +43,18 @@
       "source_repo": "locationtech/jts",
       "status": "candidate-context",
       "text": "JTS Topology Suite"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DOI-USGS/ncdfgeom",
+      "status": "candidate-context",
+      "text": "NetCDF-CF Geometry and Timeseries Tools for R: https://code.usgs.gov/water/ncdfgeom"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOI-USGS/ncdfgeom",
+      "status": "candidate-context",
+      "text": "NetCDF-CF Geometry and Timeseries Tools for R"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "locationtech/jts",
       "status": "candidate",
       "text": "JTS Topology Suite"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOI-USGS/ncdfgeom",
+      "status": "candidate",
+      "text": "NetCDF-CF Geometry and Timeseries Tools for R"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "locationtech/jts"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "DOI-USGS/ncdfgeom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "georust/geo"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "ceshiceshi"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "qpf"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "qpf"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9994070,
+      "status": "candidate",
+      "text": "boot camp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9988666,
+      "status": "candidate",
+      "text": "main street"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9986818,
+      "status": "candidate",
+      "text": "private eye"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9985879,
+      "status": "candidate",
+      "text": "old hand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9985359,
+      "status": "candidate",
+      "text": "book in"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "qpf",
+      "sense_id": "qpf#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "qpf",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "qpf",
+  "observation_id": "e10566bd16a0d31f",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "qpf",
+  "source_context_snippet": "qpf",
+  "source_file": ".github/workflows/qpf.yml",
+  "source_repo": "dixyes/ghactionsplay",
+  "source_repo_description": "ceshiceshi"
+}

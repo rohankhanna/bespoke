@@ -1,0 +1,12 @@
+{
+  "component": "KineticCafe/actions-dco@6e1652ef3027ce128e65e6edd215ae053350bd16",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-dco.yml",
+      "source_repo": "middyjs/middy"
+    }
+  ]
+}

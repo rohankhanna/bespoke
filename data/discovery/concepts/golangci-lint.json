@@ -532,6 +532,114 @@
       "source_repo": "gopasspw/gopass-summon-provider",
       "status": "candidate-context",
       "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google/trillian",
+      "status": "candidate-context",
+      "text": "A transparent, highly scalable and cryptographically verifiable data store."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trillian",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ameshkov/dnscrypt",
+      "status": "candidate-context",
+      "text": "DNSCrypt v2 protocol implementation + a command-line tool"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ameshkov/dnscrypt",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-bun/bun-starter-kit",
+      "status": "candidate-context",
+      "text": "Bun starter kit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-bun/bun-starter-kit",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-bun/bun-realworld-app",
+      "status": "candidate-context",
+      "text": "Go treemux + bun realworld application"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-bun/bun-realworld-app",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate-context",
+      "text": "A Middleware for Go Programming Language to check for JWTs on HTTP requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/node_exporter",
+      "status": "candidate-context",
+      "text": "Exporter for machine metrics"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/node_exporter",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "opencost/opencost",
+      "status": "candidate-context",
+      "text": "Cost monitoring for Kubernetes workloads and cloud costs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "prometheus/blackbox_exporter",
+      "status": "candidate-context",
+      "text": "Blackbox prober exporter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/blackbox_exporter",
+      "status": "candidate-context",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gomodule/redigo",
+      "status": "candidate-context",
+      "text": "Go client for Redis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gomodule/redigo",
+      "status": "candidate-context",
+      "text": "golangci-lint"
     }
   ],
   "candidate_glosses": [
@@ -784,6 +892,60 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "gopasspw/gopass-summon-provider",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google/trillian",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ameshkov/dnscrypt",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-bun/bun-starter-kit",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-bun/bun-realworld-app",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/node_exporter",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "opencost/opencost",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "prometheus/blackbox_exporter",
+      "status": "candidate",
+      "text": "golangci-lint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gomodule/redigo",
       "status": "candidate",
       "text": "golangci-lint"
     }
@@ -1117,11 +1279,83 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/golangci-lint.yml",
       "source_repo": "gopasspw/gopass-summon-provider"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "google/trillian"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "ameshkov/dnscrypt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "apache/casbin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "go-bun/bun-starter-kit"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "go-bun/bun-realworld-app"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "olric-data/olric"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint.yaml",
+      "source_repo": "auth0/go-jwt-middleware"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "prometheus/node_exporter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "opencost/opencost"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "prometheus/blackbox_exporter"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/golangci-lint.yml",
+      "source_repo": "gomodule/redigo"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

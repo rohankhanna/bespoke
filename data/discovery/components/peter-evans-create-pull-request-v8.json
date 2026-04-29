@@ -1,7 +1,7 @@
 {
   "component": "peter-evans/create-pull-request@v8",
   "first_seen_at": "2026-04-18T09:17:12.863479+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -267,6 +267,66 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/check-for-updates.yml",
       "source_repo": "gusztavvargadr/aws-vault-chocolatey"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/compress-images.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/predeploy.yml",
+      "source_repo": "HTTPArchive/almanac.httparchive.org"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/auto_update.yml",
+      "source_repo": "carstencodes/pdm-bump"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/asf-updates.yml",
+      "source_repo": "localstack/localstack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "vim-jp/vital.vim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bump_bbs_protos.yml",
+      "source_repo": "cloudfoundry/cloud_controller_ng"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "kivikakk/comrak"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/transifex.yml",
+      "source_repo": "iterate-ch/cyberduck"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/vendor.yml",
+      "source_repo": "cmderdev/cmder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dockerfiles.yml",
+      "source_repo": "rocker-org/rocker-versioned2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-drivers.yml",
+      "source_repo": "dorssel/usbipd-win"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/usbids.yml",
+      "source_repo": "dorssel/usbipd-win"
     }
   ]
 }

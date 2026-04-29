@@ -81,13 +81,6 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "OpenHands/ToM-SWE",
-      "target": "xuhuizhou/openhands",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "pyproject.toml",
       "source_repo": "OpenHands/ToM-SWE",
       "target": "all-hands-ai/tom-swe",
@@ -206,7 +199,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T12:34:11.572941+00:00",
+  "fetched_at": "2026-04-29T20:48:54.110931+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -251,11 +244,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "all-hands-ai/tom-swe",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "xuhuizhou/openhands",
       "source_file": "README.md"
     },
     {

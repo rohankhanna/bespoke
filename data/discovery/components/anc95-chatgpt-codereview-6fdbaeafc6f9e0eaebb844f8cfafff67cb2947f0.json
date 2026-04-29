@@ -1,0 +1,12 @@
+{
+  "component": "anc95/ChatGPT-CodeReview@6fdbaeafc6f9e0eaebb844f8cfafff67cb2947f0",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr_review_chatgpt.yaml",
+      "source_repo": "lambdaclass/lambdaworks"
+    }
+  ]
+}

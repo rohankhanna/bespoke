@@ -1,0 +1,162 @@
+{
+  "components": [
+    {
+      "component": "DeLaGuardo/setup-clj-kondo@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    },
+    {
+      "component": "mikepenz/action-junit-report@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "exoscale/seql",
+      "target": "seancorfield/next.jdbc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "exoscale/seql",
+      "target": "exoscale/coax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "exoscale/seql",
+      "target": "wilkerlucio/pathom",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "exoscale/seql",
+      "target": "edn-query-language/eql",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "exoscale/seql",
+      "target": "DeLaGuardo/setup-clj-kondo@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "exoscale/seql",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "exoscale/seql",
+      "target": "mikepenz/action-junit-report@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "exoscale/seql",
+      "target": "Clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exoscale/seql",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "exoscale/seql",
+      "target": "database",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:58:46.626543+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14031
+    },
+    {
+      "path": ".github/workflows/clojure.yml",
+      "size": 615
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simplfied EDN Query Language for SQL",
+    "fork": false,
+    "full_name": "exoscale/seql",
+    "html_url": "https://github.com/exoscale/seql",
+    "language": "Clojure",
+    "pushed_at": "2024-01-31T08:55:22Z",
+    "stargazers_count": 121,
+    "topics": [
+      "clojure",
+      "database",
+      "sql"
+    ],
+    "updated_at": "2026-03-22T11:01:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edn-query-language/eql",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "exoscale/coax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seancorfield/next.jdbc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wilkerlucio/pathom",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Clojure",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clojure.yml",
+      "term": "Clojure"
+    },
+    {
+      "context_snippet": "seql: Simplified EDN Query Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "seql: Simplified EDN Query Language",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "database"
+    }
+  ]
+}

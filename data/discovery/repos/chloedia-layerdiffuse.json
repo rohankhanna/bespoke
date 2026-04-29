@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chloedia/layerdiffuse",
+      "target": "layerdiffusion/sd-forge-layerdiffuse",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:43:41.924438+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2032
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 661
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Implementation of layer diffuse inference using refiners",
+    "fork": false,
+    "full_name": "chloedia/layerdiffuse",
+    "html_url": "https://github.com/chloedia/layerdiffuse",
+    "language": "Python",
+    "pushed_at": "2024-04-25T10:29:20Z",
+    "stargazers_count": 25,
+    "topics": [],
+    "updated_at": "2025-03-04T04:30:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "layerdiffusion/sd-forge-layerdiffuse",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

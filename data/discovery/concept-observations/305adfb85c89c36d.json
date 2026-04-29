@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Wrapper for [braces] to enable brace expansion for arrays of patterns."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "> Wrapper for [braces] to enable brace expansion for arrays of patterns."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "> Wrapper for [braces] to enable brace expansion for arrays of patterns."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "brace-expansion",
+      "sense_id": "brace-expansion#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "brace-expansion",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "brace-expansion",
+  "observation_id": "305adfb85c89c36d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "brace-expansion",
+  "source_context_snippet": "> Wrapper for [braces] to enable brace expansion for arrays of patterns.",
+  "source_file": null,
+  "source_repo": "micromatch/expand-braces",
+  "source_repo_description": "Wrapper for [braces] to enable brace expansion for arrays of patterns."
+}

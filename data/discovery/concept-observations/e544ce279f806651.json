@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Embedded Rust on Espressif training material."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Add new issues to project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Add new issues to project"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44176,
+      "status": "candidate",
+      "text": "retrofit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44026,
+      "status": "candidate",
+      "text": "expand"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43970,
+      "status": "candidate",
+      "text": "projects"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43956,
+      "status": "candidate",
+      "text": "projected"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 43956,
+      "status": "candidate",
+      "text": "projecting"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add new issues to project",
+      "sense_id": "add-new-issues-to-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "add-new-issues-to-project",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "add-new-issues-to-project",
+  "observation_id": "e544ce279f806651",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Add new issues to project",
+  "source_context_snippet": "Add new issues to project",
+  "source_file": ".github/workflows/issue_handler.yml",
+  "source_repo": "esp-rs/std-training",
+  "source_repo_description": "Embedded Rust on Espressif training material."
+}

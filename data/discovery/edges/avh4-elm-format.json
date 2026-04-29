@@ -1,0 +1,146 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "avh4/elm-format",
+      "target": "rundis/elm-light",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "avh4/elm-format",
+      "target": "elmcast/elm-vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "avh4/elm-format",
+      "target": "cmason/elm.tmbundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "avh4/elm-format",
+      "target": "gicentre/prettier-plugin-elm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build release (lamdera-community).yml",
+      "source_repo": "avh4/elm-format",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build release (lamdera-community).yml",
+      "source_repo": "avh4/elm-format",
+      "target": "Build release (lamdera-community)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Build release.yml",
+      "source_repo": "avh4/elm-format",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Build release.yml",
+      "source_repo": "avh4/elm-format",
+      "target": "Build release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "avh4/elm-format",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Check published packages (nixpkgs).yml",
+      "source_repo": "avh4/elm-format",
+      "target": "cachix/install-nix-action@v19",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Check published packages (nixpkgs).yml",
+      "source_repo": "avh4/elm-format",
+      "target": "Check nixkpgs packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Check published packages (npm).yml",
+      "source_repo": "avh4/elm-format",
+      "target": "Check npm packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Snapshot release.yml",
+      "source_repo": "avh4/elm-format",
+      "target": "shimataro/ssh-key-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Snapshot release.yml",
+      "source_repo": "avh4/elm-format",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Snapshot release.yml",
+      "source_repo": "avh4/elm-format",
+      "target": "GuillaumeFalourd/setup-rsync@2b503a403f7185e6872bbc56f903d7395ddd75a2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Snapshot release.yml",
+      "source_repo": "avh4/elm-format",
+      "target": "Snapshot release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/Touch cache.yml",
+      "source_repo": "avh4/elm-format",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/Touch cache.yml",
+      "source_repo": "avh4/elm-format",
+      "target": "Touch cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avh4/elm-format",
+      "target": "code-style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "avh4/elm-format",
+      "target": "formatter",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "avh4/elm-format"
+}

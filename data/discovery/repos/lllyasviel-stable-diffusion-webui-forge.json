@@ -1,0 +1,62 @@
+{
+  "components": [
+    {
+      "component": "eslint",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lllyasviel/stable-diffusion-webui-forge",
+      "target": "continue-revolution/sd-webui-animatediff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "lllyasviel/stable-diffusion-webui-forge",
+      "target": "eslint",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:47:18.495171+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12192
+    },
+    {
+      "path": "package.json",
+      "size": 185
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 909
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "lllyasviel/stable-diffusion-webui-forge",
+    "html_url": "https://github.com/lllyasviel/stable-diffusion-webui-forge",
+    "language": "Python",
+    "pushed_at": "2025-07-31T01:33:17Z",
+    "stargazers_count": 12492,
+    "topics": [],
+    "updated_at": "2026-04-29T16:59:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "continue-revolution/sd-webui-animatediff",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

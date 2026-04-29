@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Automate your GitHub workflows using Azure CLI scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Mark stale issues"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Mark stale issues"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35858,
+      "status": "candidate",
+      "text": "stall"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27795,
+      "status": "candidate",
+      "text": "stalls"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20597,
+      "status": "candidate",
+      "text": "flag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20597,
+      "status": "candidate",
+      "text": "flagged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19784,
+      "status": "candidate",
+      "text": "flat"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Mark stale issues",
+      "sense_id": "mark-stale-issues#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "mark-stale-issues",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "mark-stale-issues",
+  "observation_id": "18381a52336c5a54",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Mark stale issues",
+  "source_context_snippet": "Mark stale issues",
+  "source_file": ".github/workflows/stale.yml",
+  "source_repo": "Azure/cli",
+  "source_repo_description": "Automate your GitHub workflows using Azure CLI scripts"
+}

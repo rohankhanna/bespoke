@@ -1,0 +1,282 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_x86_64_cuda.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_x86_64_cuda.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_x86_64_ilu.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_x86_64_ilu.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_x86_64_mlu.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_x86_64_mlu.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_x86_64_npu.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_x86_64_npu.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_format.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jd-opensource/xllm",
+      "target": "apache/brpc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jd-opensource/xllm",
+      "target": "mlc-ai/tokenizers-cpp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jd-opensource/xllm",
+      "target": "huggingface/safetensors",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jd-opensource/xllm",
+      "target": "cameron314/concurrentqueue",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_x86_64_cuda.yaml",
+      "source_repo": "jd-opensource/xllm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_x86_64_ilu.yaml",
+      "source_repo": "jd-opensource/xllm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_x86_64_mlu.yaml",
+      "source_repo": "jd-opensource/xllm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_x86_64_npu.yaml",
+      "source_repo": "jd-opensource/xllm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_format.yml",
+      "source_repo": "jd-opensource/xllm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_format.yml",
+      "source_repo": "jd-opensource/xllm",
+      "target": "CheckFormat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jd-opensource/xllm",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jd-opensource/xllm",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jd-opensource/xllm",
+      "target": "inference-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jd-opensource/xllm",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jd-opensource/xllm",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jd-opensource/xllm",
+      "target": "qwen",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:49:49.624192+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9969
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1215
+    },
+    {
+      "path": ".github/workflows/build_x86_64_cuda.yaml",
+      "size": 3816
+    },
+    {
+      "path": ".github/workflows/build_x86_64_ilu.yaml",
+      "size": 3814
+    },
+    {
+      "path": ".github/workflows/build_x86_64_mlu.yaml",
+      "size": 3811
+    },
+    {
+      "path": ".github/workflows/build_x86_64_npu.yaml",
+      "size": 4632
+    },
+    {
+      "path": ".github/workflows/check_format.yml",
+      "size": 2951
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A high-performance inference engine for LLM, VLM, DiT and REC models, optimized for diverse AI accelerators.",
+    "fork": false,
+    "full_name": "jd-opensource/xllm",
+    "html_url": "https://github.com/jd-opensource/xllm",
+    "language": "C++",
+    "pushed_at": "2026-04-29T11:59:46Z",
+    "stargazers_count": 1256,
+    "topics": [
+      "deepseek",
+      "glm",
+      "inference",
+      "inference-engine",
+      "large-language-models",
+      "llm-inference",
+      "qwen"
+    ],
+    "updated_at": "2026-04-29T15:13:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apache/brpc",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cameron314/concurrentqueue",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "huggingface/safetensors",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mlc-ai/tokenizers-cpp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CheckFormat",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_format.yml",
+      "term": "CheckFormat"
+    },
+    {
+      "context_snippet": "<!-- Copyright 2022 JD Co.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek"
+    },
+    {
+      "context_snippet": "<!-- Copyright 2022 JD Co.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "<!-- Copyright 2022 JD Co.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference-engine"
+    },
+    {
+      "context_snippet": "<!-- Copyright 2022 JD Co.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<!-- Copyright 2022 JD Co.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": "<!-- Copyright 2022 JD Co.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    }
+  ]
+}

@@ -1,7 +1,7 @@
 {
   "component": "jurplel/install-qt-action@v4",
   "first_seen_at": "2026-04-18T09:21:02.237042+00:00",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -32,6 +32,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "contour-terminal/contour"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/windows-clang.yml",
+      "source_repo": "garglk/garglk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "sail-sg/envpool"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sail-sg/envpool"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "Swordfish90/cool-retro-term"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy-check.yml",
+      "source_repo": "TrenchBroom/TrenchBroom"
     }
   ]
 }

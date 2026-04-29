@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:38:39.488472+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 490
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "AseiSugiyama/lab_sample_pipelines",
+    "html_url": "https://github.com/AseiSugiyama/lab_sample_pipelines",
+    "language": "Python",
+    "pushed_at": "2022-05-01T03:18:53Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2023-05-30T05:34:53Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,126 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/playground",
+      "target": "zwhus/pictures",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "open-mmlab/playground",
+      "target": "yeungchenwa/ocr-sam",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/playground",
+      "target": "mmdetection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/playground",
+      "target": "mmocr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/playground",
+      "target": "mmpose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/playground",
+      "target": "mmrotate",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "open-mmlab/playground",
+      "target": "openmmlab",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:47:13.154727+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10587
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A central hub for gathering and showcasing amazing projects that extend OpenMMLab with SAM and other exciting features.",
+    "fork": false,
+    "full_name": "open-mmlab/playground",
+    "html_url": "https://github.com/open-mmlab/playground",
+    "language": "Python",
+    "pushed_at": "2024-03-29T10:17:22Z",
+    "stargazers_count": 1237,
+    "topics": [
+      "mmdetection",
+      "mmocr",
+      "mmpose",
+      "mmrotate",
+      "openmmlab",
+      "sam"
+    ],
+    "updated_at": "2026-04-28T16:35:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yeungchenwa/ocr-sam",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zwhus/pictures",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmdetection"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmocr"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmpose"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmrotate"
+    },
+    {
+      "context_snippet": "<div align=center>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openmmlab"
+    }
+  ]
+}

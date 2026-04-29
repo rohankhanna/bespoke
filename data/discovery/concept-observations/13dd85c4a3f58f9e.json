@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udd76 addons.mozilla.org Django app and API \ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Health Check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Health Check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73037,
+      "status": "candidate",
+      "text": "checkup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73037,
+      "status": "candidate",
+      "text": "medical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73037,
+      "status": "candidate",
+      "text": "medical checkup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73037,
+      "status": "candidate",
+      "text": "medical exam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73037,
+      "status": "candidate",
+      "text": "medical examination"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Health Check",
+      "sense_id": "health-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "health-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "health-check",
+  "observation_id": "13dd85c4a3f58f9e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Health Check",
+  "source_context_snippet": "Health Check",
+  "source_file": ".github/workflows/health_check.yml",
+  "source_repo": "mozilla/addons-server",
+  "source_repo_description": "\ud83d\udd76 addons.mozilla.org Django app and API \ud83c\udf89"
+}

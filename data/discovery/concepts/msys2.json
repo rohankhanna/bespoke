@@ -1,7 +1,8 @@
 {
   "aliases": [
     "msys2",
-    "Msys2"
+    "Msys2",
+    "MSYS2"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,18 @@
       "source_repo": "agl/jbig2enc",
       "status": "candidate-context",
       "text": "Msys2"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "postgis/postgis",
+      "status": "candidate-context",
+      "text": "PostGIS spatial database extension to PostgreSQL [mirror]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postgis/postgis",
+      "status": "candidate-context",
+      "text": "MSYS2"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +77,12 @@
       "source_repo": "agl/jbig2enc",
       "status": "candidate",
       "text": "Msys2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "postgis/postgis",
+      "status": "candidate",
+      "text": "MSYS2"
     }
   ],
   "candidate_related_terms": [],
@@ -89,11 +108,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": ".github/workflows/msys2.yaml",
       "source_repo": "agl/jbig2enc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/msys.yml",
+      "source_repo": "postgis/postgis"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

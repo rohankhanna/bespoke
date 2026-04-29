@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml"
+    },
+    {
+      "component": "actions/setup-java@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@10.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borkdude/carve",
+      "target": "borkdude/clj-kondo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borkdude/carve",
+      "target": "lread/rewrite-cljc-playground",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borkdude/carve",
+      "target": "oliyh/carve.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "borkdude/carve",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "borkdude/carve",
+      "target": "actions/setup-java@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "borkdude/carve",
+      "target": "DeLaGuardo/setup-clojure@10.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "borkdude/carve",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "borkdude/carve",
+      "target": "Test babashka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/carve",
+      "target": "babashka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/carve",
+      "target": "clj-kondo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/carve",
+      "target": "clojure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:59:00.229953+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8313
+    },
+    {
+      "path": ".github/workflows/bb.yml",
+      "size": 1399
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Remove unused Clojure vars",
+    "fork": false,
+    "full_name": "borkdude/carve",
+    "html_url": "https://github.com/borkdude/carve",
+    "language": "Clojure",
+    "pushed_at": "2025-03-17T19:39:46Z",
+    "stargazers_count": 297,
+    "topics": [
+      "babashka",
+      "clj-kondo",
+      "clojure"
+    ],
+    "updated_at": "2026-04-03T10:08:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "borkdude/clj-kondo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lread/rewrite-cljc-playground",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oliyh/carve.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test babashka",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bb.yml",
+      "term": "Test babashka"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/io.github.borkdude/carve.svg)](https://clojars.org/io.github.borkdude/carve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "babashka"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/io.github.borkdude/carve.svg)](https://clojars.org/io.github.borkdude/carve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clj-kondo"
+    },
+    {
+      "context_snippet": "[![Clojars Project](https://img.shields.io/clojars/v/io.github.borkdude/carve.svg)](https://clojars.org/io.github.borkdude/carve)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    }
+  ]
+}

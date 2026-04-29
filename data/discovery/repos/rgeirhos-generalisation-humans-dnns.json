@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rgeirhos/generalisation-humans-DNNs",
+      "target": "gestaltrevision/eidolon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rgeirhos/generalisation-humans-DNNs",
+      "target": "f-amerehi/eidolon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/generalisation-humans-DNNs",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/generalisation-humans-DNNs",
+      "target": "generalisation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/generalisation-humans-DNNs",
+      "target": "human-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/generalisation-humans-DNNs",
+      "target": "object-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rgeirhos/generalisation-humans-DNNs",
+      "target": "psychophysics",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:47:16.158412+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10292
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": " Data, code & materials from the paper \"Generalisation in humans and deep neural networks\" (NeurIPS 2018)",
+    "fork": false,
+    "full_name": "rgeirhos/generalisation-humans-DNNs",
+    "html_url": "https://github.com/rgeirhos/generalisation-humans-DNNs",
+    "language": "R",
+    "pushed_at": "2023-08-14T17:35:14Z",
+    "stargazers_count": 95,
+    "topics": [
+      "deep-learning",
+      "generalisation",
+      "human-vision",
+      "object-recognition",
+      "psychophysics"
+    ],
+    "updated_at": "2026-01-27T00:18:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "f-amerehi/eidolon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gestaltrevision/eidolon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Would you like to test how well your own model performs on challenging generalisation tests, and whether it might even match or outperform human observers? This has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Would you like to test how well your own model performs on challenging generalisation tests, and whether it might even match or outperform human observers? This has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generalisation"
+    },
+    {
+      "context_snippet": "Would you like to test how well your own model performs on challenging generalisation tests, and whether it might even match or outperform human observers? This has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-vision"
+    },
+    {
+      "context_snippet": "Would you like to test how well your own model performs on challenging generalisation tests, and whether it might even match or outperform human observers? This has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-recognition"
+    },
+    {
+      "context_snippet": "Would you like to test how well your own model performs on challenging generalisation tests, and whether it might even match or outperform human observers? This has never been easier! The comprehensive toolbox at [bethgelab:model-vs-human](https://github.com/bethgelab/model-vs-h\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "psychophysics"
+    }
+  ]
+}

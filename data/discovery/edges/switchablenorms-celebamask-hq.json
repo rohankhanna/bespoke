@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "taki0112/spade-tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "zllrunning/face-parsing.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "celeba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "face-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "face-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "switchablenorms/CelebAMask-HQ"
+}

@@ -112,6 +112,66 @@
       "source_repo": "mozilla/geckodriver",
       "status": "candidate-context",
       "text": "Proxy for using W3C [WebDriver] compatible clients to interact with"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate-context",
+      "text": "This browser extension enables you to filter the GitHub news feeds based on different event types."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate-context",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FiloSottile/mkcert",
+      "status": "candidate-context",
+      "text": "A simple zero-config tool to make locally trusted development certificates with any names you'd like."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FiloSottile/mkcert",
+      "status": "candidate-context",
+      "text": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AdguardTeam/AdguardBrowserExtension",
+      "status": "candidate-context",
+      "text": "AdGuard browser extension"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardBrowserExtension",
+      "status": "candidate-context",
+      "text": "&nbsp;"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate-context",
+      "text": "A web extension for Firefox and Chrome to insert login credentials from gopass"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate-context",
+      "text": "![Build Status](https://github.com/gopasspw/gopassbridge/actions/workflows/nodejs.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate-context",
+      "text": "Small CLI toolbox for cross-browser WebExtension development"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate-context",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\">](https://www.npmjs.com/package/@webextension-toolbox/webextension-toolbox)"
     }
   ],
   "candidate_glosses": [
@@ -168,6 +228,36 @@
       "source_repo": "mozilla/geckodriver",
       "status": "candidate",
       "text": "Proxy for using W3C [WebDriver] compatible clients to interact with"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gautamkrishnar/refined-github-feeds",
+      "status": "candidate",
+      "text": "Making the GitHub news feeds great again. This extension enables you to filter the GitHub news feeds based on different event types:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FiloSottile/mkcert",
+      "status": "candidate",
+      "text": "mkcert is a simple tool for making locally-trusted development certificates. It requires no configuration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AdguardTeam/AdguardBrowserExtension",
+      "status": "candidate",
+      "text": "&nbsp;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gopasspw/gopassbridge",
+      "status": "candidate",
+      "text": "![Build Status](https://github.com/gopasspw/gopassbridge/actions/workflows/nodejs.yml/badge.svg?branch=master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "webextension-toolbox/webextension-toolbox",
+      "status": "candidate",
+      "text": "[<img align=\"right\" src=\"./assets/icon.svg?sanitize=true\">](https://www.npmjs.com/package/@webextension-toolbox/webextension-toolbox)"
     }
   ],
   "candidate_related_terms": [
@@ -283,11 +373,53 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "browserless/browserless"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gautamkrishnar/refined-github-feeds"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FiloSottile/mkcert"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AdguardTeam/AdguardBrowserExtension"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gopasspw/gopassbridge"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "webextension-toolbox/webextension-toolbox"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

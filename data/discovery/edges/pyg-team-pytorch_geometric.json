@@ -4,28 +4,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "pyg-team/pytorch_geometric",
+      "target": "snap-stanford/ogb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pyg-team/pytorch_geometric",
       "target": "deepmind/graph_nets",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "pyproject.toml",
       "source_repo": "pyg-team/pytorch_geometric",
-      "target": "rusty1s/pytorch_scatter",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyg-team/pytorch_geometric",
-      "target": "rusty1s/pytorch_sparse",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pyg-team/pytorch_geometric",
-      "target": "rusty1s/pytorch_cluster",
+      "target": "pgmpy/pgmpy",
       "target_type": "repository"
     },
     {
@@ -211,6 +204,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "pyg-team/pytorch_geometric"
 }

@@ -1,0 +1,111 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/DWPose",
+      "target": "lllyasviel/controlnet-v1-1-nightly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "IDEA-Research/DWPose",
+      "target": "mikubill/sd-webui-controlnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DWPose",
+      "target": "controlnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DWPose",
+      "target": "knowledge-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DWPose",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DWPose",
+      "target": "stable-diffusion-webui",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:42:31.841134+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8572
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "onnx",
+    "description": "\"Effective Whole-body Pose Estimation with Two-stages Distillation\" (ICCV 2023, CV4Metaverse Workshop)",
+    "fork": false,
+    "full_name": "IDEA-Research/DWPose",
+    "html_url": "https://github.com/IDEA-Research/DWPose",
+    "language": "Python",
+    "pushed_at": "2023-12-12T02:54:23Z",
+    "stargazers_count": 2720,
+    "topics": [
+      "controlnet",
+      "knowledge-distillation",
+      "pose-estimation",
+      "stable-diffusion-webui"
+    ],
+    "updated_at": "2026-04-29T06:35:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lllyasviel/controlnet-v1-1-nightly",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikubill/sd-webui-controlnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controlnet"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-distillation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-webui"
+    }
+  ]
+}

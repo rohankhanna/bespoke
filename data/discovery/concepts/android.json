@@ -742,6 +742,114 @@
       "source_repo": "ysbing/YADB",
       "status": "candidate-context",
       "text": "Language: [English](https://github.com/ysbing/YADB/blob/master/README.md) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/ysbing/YADB/blob/master/README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "status": "candidate-context",
+      "text": "Real-Time Semantic Segmentation in Mobile device"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "status": "candidate-context",
+      "text": "This project is an example project of semantic segmentation for mobile real-time app."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nihui/ncnn-android-nanodet",
+      "status": "candidate-context",
+      "text": "ncnn android nanodet lightweight object detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/ncnn-android-nanodet",
+      "status": "candidate-context",
+      "text": "The NanoDet object detection"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devgianlu/librespot-android",
+      "status": "candidate-context",
+      "text": "A demo app that runs librespot-java on Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/librespot-android",
+      "status": "candidate-context",
+      "text": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locize/locize-cli",
+      "status": "candidate-context",
+      "text": "locize cli to import / export locales, add / edit / remove, sync segments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-cli",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/locize/locize-cli/workflows/node/badge.svg)](https://github.com/locize/locize-cli/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bitwarden/android",
+      "status": "candidate-context",
+      "text": "Bitwarden mobile apps (Password Manager and Authenticator) for Android."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/android",
+      "status": "candidate-context",
+      "text": "- [Compatibility](#compatibility)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-samples/swift-chat",
+      "status": "candidate-context",
+      "text": "A lightning-fast, cross-platform AI Assistant App built with React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/swift-chat",
+      "status": "candidate-context",
+      "text": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate-context",
+      "text": "\u26a0\ufe0f Firefox Focus (Android) moved to a new repository. It is now developed and maintained as part of: https://github.com/mozilla-mobile/firefox-android "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate-context",
+      "text": "_Browse like no one\u2019s watching. The new Firefox Focus automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads._"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artsy/eigen",
+      "status": "candidate-context",
+      "text": "The Art World in Your Pocket or Your Trendy Tech Company's Tote, Artsy's mobile app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eigen",
+      "status": "candidate-context",
+      "text": "<a href=\"http://iphone.artsy.net\"><img src =\"docs/screenshots/overview.png\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": ":rocket: \u00a0A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": "<header>"
     }
   ],
   "candidate_glosses": [
@@ -1122,6 +1230,60 @@
       "source_repo": "ysbing/YADB",
       "status": "candidate",
       "text": "Language: [English](https://github.com/ysbing/YADB/blob/master/README.md) | [\u4e2d\u6587\u7b80\u4f53](https://github.com/ysbing/YADB/blob/master/README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "status": "candidate",
+      "text": "This project is an example project of semantic segmentation for mobile real-time app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nihui/ncnn-android-nanodet",
+      "status": "candidate",
+      "text": "The NanoDet object detection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/librespot-android",
+      "status": "candidate",
+      "text": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locize/locize-cli",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/locize/locize-cli/workflows/node/badge.svg)](https://github.com/locize/locize-cli/actions?query=workflow%3Anode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bitwarden/android",
+      "status": "candidate",
+      "text": "- [Compatibility](#compatibility)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-samples/swift-chat",
+      "status": "candidate",
+      "text": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla-mobile/focus-android",
+      "status": "candidate",
+      "text": "_Browse like no one\u2019s watching. The new Firefox Focus automatically blocks a wide range of online trackers \u2014 from the moment you launch it to the second you leave it. Easily erase your history, passwords and cookies, so you won\u2019t get followed by things like unwanted ads._"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eigen",
+      "status": "candidate",
+      "text": "<a href=\"http://iphone.artsy.net\"><img src =\"docs/screenshots/overview.png\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate",
+      "text": "<header>"
     }
   ],
   "candidate_related_terms": [
@@ -1594,11 +1756,83 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/android-ci.yml",
       "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "akirasosa/mobile-semantic-segmentation"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nihui/ncnn-android-nanodet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "devgianlu/librespot-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "locize/locize-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Microsoft-Performance-Tools-Linux-Android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bitwarden/android"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/android-ci.yml",
+      "source_repo": "react-native-webview/react-native-webview"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mozilla-mobile/focus-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "artsy/eigen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apollographql/apollo-kotlin"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,58 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sarrouti/HealthVer",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sarrouti/HealthVer",
+      "target": "misinformation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:39:33.533029+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2572
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "sarrouti/HealthVer",
+    "html_url": "https://github.com/sarrouti/HealthVer",
+    "language": "Python",
+    "pushed_at": "2022-02-03T13:11:40Z",
+    "stargazers_count": 19,
+    "topics": [
+      "deep-learning",
+      "misinformation"
+    ],
+    "updated_at": "2025-12-06T23:25:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains source code and the HealthVer dataset presented in the paper [Evidence-based Fact-Checking of Health-related Claims]() by Mourad Sarrouti, Asma Ben Abacha, Yassine Mrabet and Dina Demner-Fushman.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository contains source code and the HealthVer dataset presented in the paper [Evidence-based Fact-Checking of Health-related Claims]() by Mourad Sarrouti, Asma Ben Abacha, Yassine Mrabet and Dina Demner-Fushman.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "misinformation"
+    }
+  ]
+}

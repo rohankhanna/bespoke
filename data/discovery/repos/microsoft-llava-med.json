@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:45:40.471426+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13511
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1850
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Large Language-and-Vision Assistant for Biomedicine, built towards multimodal GPT-4 level capabilities.",
+    "fork": false,
+    "full_name": "microsoft/LLaVA-Med",
+    "html_url": "https://github.com/microsoft/LLaVA-Med",
+    "language": "Python",
+    "pushed_at": "2025-06-04T15:56:12Z",
+    "stargazers_count": 2181,
+    "topics": [],
+    "updated_at": "2026-04-29T11:51:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

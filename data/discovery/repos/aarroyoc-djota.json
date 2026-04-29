@@ -1,0 +1,89 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aarroyoc/djota",
+      "target": "mthom/scryer-prolog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aarroyoc/djota",
+      "target": "trealla-prolog/trealla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aarroyoc/djota",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "aarroyoc/djota",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:46:24.859878+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1619
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Djot implementation in Prolog",
+    "fork": false,
+    "full_name": "aarroyoc/djota",
+    "html_url": "https://github.com/aarroyoc/djota",
+    "language": "Prolog",
+    "pushed_at": "2025-12-30T12:35:30Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2026-03-24T11:09:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mthom/scryer-prolog",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "trealla-prolog/trealla",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

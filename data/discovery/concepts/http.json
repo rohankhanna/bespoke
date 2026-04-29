@@ -619,6 +619,126 @@
       "source_repo": "ninenines/cowboy",
       "status": "candidate-context",
       "text": "Check Cowboy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexedwards/scs",
+      "status": "candidate-context",
+      "text": "HTTP Session Management for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexedwards/scs",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/alexedwards/scs?status.png)](https://pkg.go.dev/github.com/alexedwards/scs/v2?tab=doc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sindresorhus/got",
+      "status": "candidate-context",
+      "text": "\ud83c\udf10 Human-friendly and powerful HTTP request library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/got",
+      "status": "candidate-context",
+      "text": "got \u2014 Human-friendly and powerful HTTP request library for Node.js"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate-context",
+      "text": "Goal: Make it easy to place HTTPS Requests from C++, leveraging Bazel, CPR, and CURL."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate-context",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate-context",
+      "text": "typescript http client and server with zod validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Zodios</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "A High Performance HTTP Server for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lquixada/cross-fetch",
+      "status": "candidate-context",
+      "text": "Universal WHATWG Fetch API for Node, Browsers and React Native."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lquixada/cross-fetch",
+      "status": "candidate-context",
+      "text": "cross-fetch<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "psf/requests",
+      "status": "candidate-context",
+      "text": "A simple, yet elegant, HTTP library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/requests",
+      "status": "candidate-context",
+      "text": "[![Version](https://img.shields.io/pypi/v/requests.svg?maxAge=86400)](https://pypi.org/project/requests/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate-context",
+      "text": "Backend for HTTP Observatory on MDN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate-context",
+      "text": "[HTTP Observatory](https://developer.mozilla.org/en-US/observatory/) is a service that checks web sites for security-relevant headers. It is hosted by [MDN Web Docs](https://github.com/mdn)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "locustio/locust",
+      "status": "candidate-context",
+      "text": "Write scalable load tests in plain Python \ud83d\ude97\ud83d\udca8"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locustio/locust",
+      "status": "candidate-context",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/locust.svg)](https://pypi.org/project/locust/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate-context",
+      "text": "Plugin-driven, extensible HTTP client toolkit for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate-context",
+      "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
     }
   ],
   "candidate_glosses": [
@@ -927,6 +1047,66 @@
       "source_repo": "ninenines/cowboy",
       "status": "candidate",
       "text": "Check Cowboy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexedwards/scs",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/alexedwards/scs?status.png)](https://pkg.go.dev/github.com/alexedwards/scs/v2?tab=doc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sindresorhus/got",
+      "status": "candidate",
+      "text": "got \u2014 Human-friendly and powerful HTTP request library for Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hedronvision/bazel-make-cc-https-easy",
+      "status": "candidate",
+      "text": "**What is this project trying to do for me?**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Zodios</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ohler55/agoo",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/ohler55/agoo/CI.yml?logo=github&branch=develop)](https://github.com/ohler55/agoo/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lquixada/cross-fetch",
+      "status": "candidate",
+      "text": "cross-fetch<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "psf/requests",
+      "status": "candidate",
+      "text": "[![Version](https://img.shields.io/pypi/v/requests.svg?maxAge=86400)](https://pypi.org/project/requests/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate",
+      "text": "[HTTP Observatory](https://developer.mozilla.org/en-US/observatory/) is a service that checks web sites for security-relevant headers. It is hosted by [MDN Web Docs](https://github.com/mdn)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "locustio/locust",
+      "status": "candidate",
+      "text": "[![PyPI](https://img.shields.io/pypi/v/locust.svg)](https://pypi.org/project/locust/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate",
+      "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
     }
   ],
   "candidate_related_terms": [
@@ -1332,11 +1512,95 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexedwards/scs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sindresorhus/got"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hedronvision/bazel-make-cc-https-easy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ecyrbe/zodios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ohler55/agoo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lquixada/cross-fetch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nock/nock"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "psf/requests"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lnx-search/rewrk"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mdn/mdn-http-observatory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "locustio/locust"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "h2non/gentleman"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

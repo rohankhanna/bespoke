@@ -1,0 +1,76 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ajrcarey/pdfium-render",
+      "target": "paulocoutinhox/pdfium-lib",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "ajrcarey/pdfium-render",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yml",
+      "source_repo": "ajrcarey/pdfium-render",
+      "target": "Auto-build pdfium-render",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:42:45.824362+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 63261
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 4852
+    },
+    {
+      "path": ".github/workflows/build_test.yml",
+      "size": 16024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A high-level idiomatic Rust wrapper around Pdfium, the C++ PDF library used by the Google Chromium project.",
+    "fork": false,
+    "full_name": "ajrcarey/pdfium-render",
+    "html_url": "https://github.com/ajrcarey/pdfium-render",
+    "language": "Rust",
+    "pushed_at": "2026-04-19T18:39:39Z",
+    "stargazers_count": 644,
+    "topics": [],
+    "updated_at": "2026-04-28T14:56:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paulocoutinhox/pdfium-lib",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Auto-build pdfium-render",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_test.yml",
+      "term": "Auto-build pdfium-render"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "maccabi"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "status": "candidate-context",
+      "text": "Check prescription medication stock at Maccabi pharmacies before you go. Search all nearby branches in one query. Agent Skills format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "status": "candidate-context",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search",
+      "status": "candidate",
+      "text": "![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980469,
+      "status": "candidate",
+      "text": "maccabee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980468,
+      "status": "candidate",
+      "text": "machabee"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980467,
+      "status": "candidate",
+      "text": "macc."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980466,
+      "status": "candidate",
+      "text": "maccabees"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9980465,
+      "status": "candidate",
+      "text": "hasmonean"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "maccabi",
+  "concept_id": "maccabi",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexpolonsky/agent-skill-maccabi-pharm-search"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "maccabi",
+      "sense_id": "maccabi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,12 @@
+{
+  "component": "peaceiris/actions-mdbook@4b5ef36b314c2599664ca107bb8c02412548d79d",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "cryspen/hacl-packages"
+    }
+  ]
+}

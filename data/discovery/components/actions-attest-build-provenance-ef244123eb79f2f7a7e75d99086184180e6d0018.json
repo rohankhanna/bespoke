@@ -1,7 +1,7 @@
 {
   "component": "actions/attest-build-provenance@ef244123eb79f2f7a7e75d99086184180e6d0018",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -12,6 +12,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-kata-static-tarball-arm64.yaml",
       "source_repo": "kata-containers/kata-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "huggingface/tokenizers"
     }
   ]
 }

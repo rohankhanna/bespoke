@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build API Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure/tools.reader",
+      "status": "candidate-context",
+      "text": "Clojure reader in Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.reader",
+      "status": "candidate-context",
+      "text": "Build API Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure/tools.reader",
+      "status": "candidate",
+      "text": "Build API Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 23712,
+      "status": "candidate",
+      "text": "documentary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13894,
+      "status": "candidate",
+      "text": "cio"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13894,
+      "status": "candidate",
+      "text": "film"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12876,
+      "status": "candidate",
+      "text": "beeswax"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12876,
+      "status": "candidate",
+      "text": "develop"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build API Docs",
+  "concept_id": "build-api-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/doc-build.yml",
+      "source_repo": "clojure/tools.reader"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build API Docs",
+      "sense_id": "build-api-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

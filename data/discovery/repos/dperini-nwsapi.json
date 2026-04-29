@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    },
+    {
+      "component": "actions/setup-node@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dperini/nwsapi",
+      "target": "dperini/nwmatcher",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "dperini/nwsapi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "dperini/nwsapi",
+      "target": "actions/setup-node@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "source_repo": "dperini/nwsapi",
+      "target": "nwsapi",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:26.432737+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5440
+    },
+    {
+      "path": "package.json",
+      "size": 883
+    },
+    {
+      "path": ".github/workflows/node.js.yml",
+      "size": 482
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fast CSS Selectors API Engine",
+    "fork": false,
+    "full_name": "dperini/nwsapi",
+    "html_url": "https://github.com/dperini/nwsapi",
+    "language": "JavaScript",
+    "pushed_at": "2026-04-19T15:28:09Z",
+    "stargazers_count": 134,
+    "topics": [],
+    "updated_at": "2026-04-19T15:28:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dperini/nwmatcher",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "nwsapi",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/node.js.yml",
+      "term": "nwsapi"
+    }
+  ]
+}

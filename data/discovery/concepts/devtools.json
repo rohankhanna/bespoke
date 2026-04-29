@@ -199,6 +199,42 @@
       "source_repo": "go-rod/rod",
       "status": "candidate-context",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chawyehsu/dorado",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1f Yet Another bucket for lovely Scoop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chawyehsu/dorado",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djblue/portal",
+      "status": "candidate-context",
+      "text": "A clojure tool to navigate through your data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djblue/portal",
+      "status": "candidate-context",
+      "text": "A clojure tool to navigate through your data."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate-context",
+      "text": "One configuration for all your GraphQL tools (supported by most tools, editors & IDEs)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate-context",
+      "text": "![GraphQL Config](https://i.imgur.com/hw5tXw2.gif 'GraphQL Config')"
     }
   ],
   "candidate_glosses": [
@@ -285,6 +321,24 @@
       "source_repo": "go-rod/rod",
       "status": "candidate",
       "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/go-rod/rod.svg)](https://pkg.go.dev/github.com/go-rod/rod)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chawyehsu/dorado",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djblue/portal",
+      "status": "candidate",
+      "text": "A clojure tool to navigate through your data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "graphql-hive/graphql-config",
+      "status": "candidate",
+      "text": "![GraphQL Config](https://i.imgur.com/hw5tXw2.gif 'GraphQL Config')"
     }
   ],
   "candidate_related_terms": [],
@@ -388,11 +442,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "go-rod/rod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chawyehsu/dorado"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "djblue/portal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "graphql-hive/graphql-config"
     }
   ],
   "first_seen_at": "2026-04-18T13:29:00.435097+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

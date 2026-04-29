@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Claude Code PR Review"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/node-jwks-rsa",
+      "status": "candidate-context",
+      "text": "A library to retrieve RSA public keys from a JWKS (JSON Web Key Set) endpoint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jwks-rsa",
+      "status": "candidate-context",
+      "text": "Claude Code PR Review"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jwks-rsa",
+      "status": "candidate",
+      "text": "Claude Code PR Review"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19966,
+      "status": "candidate",
+      "text": "pasteurization"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19436,
+      "status": "candidate",
+      "text": "gene"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19392,
+      "status": "candidate",
+      "text": "accommodation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19392,
+      "status": "candidate",
+      "text": "adieu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19392,
+      "status": "candidate",
+      "text": "batch"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Claude Code PR Review",
+  "concept_id": "claude-code-pr-review",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "auth0/node-jwks-rsa"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Claude Code PR Review",
+      "sense_id": "claude-code-pr-review#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

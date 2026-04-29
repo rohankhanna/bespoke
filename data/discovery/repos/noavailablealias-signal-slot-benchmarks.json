@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:42:40.434244+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2473
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Comprehensive benchmarks for a majority of GitHub c++ signal slot implementations and others.",
+    "fork": false,
+    "full_name": "NoAvailableAlias/signal-slot-benchmarks",
+    "html_url": "https://github.com/NoAvailableAlias/signal-slot-benchmarks",
+    "language": "C++",
+    "pushed_at": "2022-10-14T01:59:22Z",
+    "stargazers_count": 141,
+    "topics": [],
+    "updated_at": "2026-03-19T09:21:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

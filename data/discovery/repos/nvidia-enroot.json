@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:48:37.716661+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2625
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A simple yet powerful tool to turn traditional container/OS images into unprivileged sandboxes.",
+    "fork": false,
+    "full_name": "NVIDIA/enroot",
+    "html_url": "https://github.com/NVIDIA/enroot",
+    "language": "Shell",
+    "pushed_at": "2026-04-29T05:54:26Z",
+    "stargazers_count": 931,
+    "topics": [],
+    "updated_at": "2026-04-29T16:50:57Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

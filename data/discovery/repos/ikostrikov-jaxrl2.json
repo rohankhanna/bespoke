@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ikostrikov/jaxrl2",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ikostrikov/jaxrl2",
+      "target": "scottemmons/rvs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "ikostrikov/jaxrl2",
+      "target": "deepmind/mujoco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "ikostrikov/jaxrl2",
+      "target": "deepmind/distrax",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:50:18.269889+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 979
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2998
+    },
+    {
+      "path": "requirements.txt",
+      "size": 312
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "ikostrikov/jaxrl2",
+    "html_url": "https://github.com/ikostrikov/jaxrl2",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-01-20T18:37:08Z",
+    "stargazers_count": 55,
+    "topics": [],
+    "updated_at": "2026-04-20T12:55:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/mujoco",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scottemmons/rvs",
+      "source_file": "Dockerfile"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/distrax",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": []
+}

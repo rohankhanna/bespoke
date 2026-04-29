@@ -68,6 +68,36 @@
       "source_repo": "preactjs/preact-devtools",
       "status": "candidate-context",
       "text": "Generate documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpcaitech/torchrec",
+      "status": "candidate-context",
+      "text": "Pytorch domain library for recommendation systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/torchrec",
+      "status": "candidate-context",
+      "text": "Generate documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate-context",
+      "text": "Pytorch domain library for recommendation systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate-context",
+      "text": "Generate documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "status": "candidate-context",
+      "text": "Generate Documentation"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +130,24 @@
       "source_repo": "preactjs/preact-devtools",
       "status": "candidate",
       "text": "Generate documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/torchrec",
+      "status": "candidate",
+      "text": "Generate documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "meta-pytorch/torchrec",
+      "status": "candidate",
+      "text": "Generate documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "status": "candidate",
+      "text": "Generate Documentation"
     }
   ],
   "candidate_related_terms": [
@@ -173,11 +221,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "preactjs/preact-devtools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "hpcaitech/torchrec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "meta-pytorch/torchrec"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "googleapis/google-api-php-client-services"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

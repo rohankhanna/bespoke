@@ -1,0 +1,688 @@
+{
+  "components": [
+    {
+      "component": "andymckay/labeler@1.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_label_issues.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-develop.yml"
+    },
+    {
+      "component": "imjasonh/setup-crane@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-develop.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml"
+    },
+    {
+      "component": "imjasonh/setup-crane@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml"
+    },
+    {
+      "component": "tspascoal/get-user-teams-membership@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-image.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-image.yml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "arduino/setup-protoc@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "extractions/setup-just@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "extractions/setup-just@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yaml"
+    },
+    {
+      "component": "extractions/setup-just@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml"
+    },
+    {
+      "component": "tspascoal/get-user-teams-membership@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml"
+    },
+    {
+      "component": "actions/checkout@v6.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml"
+    },
+    {
+      "component": "opencost/opencost-infra/.github/workflows/build-stack.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml"
+    },
+    {
+      "component": "opencost/opencost-infra/.github/workflows/build-stack.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml"
+    },
+    {
+      "component": "opencost/opencost-infra/.github/workflows/test-stack.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml"
+    },
+    {
+      "component": "opencost/opencost-infra/.github/workflows/test-stack.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml"
+    },
+    {
+      "component": "opencost/opencost-infra/.github/workflows/destroy-stack.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml"
+    },
+    {
+      "component": "opencost/opencost-infra/.github/workflows/destroy-stack.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml"
+    },
+    {
+      "component": "andymckay/labeler@1.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml"
+    },
+    {
+      "component": "mondeja/remove-labels-gh-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml"
+    },
+    {
+      "component": "andymckay/labeler@1.0.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml"
+    },
+    {
+      "component": "mondeja/remove-labels-gh-action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencost/opencost",
+      "target": "opencost/opencost-plugins",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "opencost/opencost",
+      "target": "opencost/opencost-helm-chart",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto_label_issues.yml",
+      "source_repo": "opencost/opencost",
+      "target": "andymckay/labeler@1.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_label_issues.yml",
+      "source_repo": "opencost/opencost",
+      "target": "auto-label-new-issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-develop.yml",
+      "source_repo": "opencost/opencost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-develop.yml",
+      "source_repo": "opencost/opencost",
+      "target": "imjasonh/setup-crane@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-publish-develop.yml",
+      "source_repo": "opencost/opencost",
+      "target": "Build and Publish Develop",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml",
+      "source_repo": "opencost/opencost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml",
+      "source_repo": "opencost/opencost",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-and-publish-release.yml",
+      "source_repo": "opencost/opencost",
+      "target": "imjasonh/setup-crane@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-publish-release.yml",
+      "source_repo": "opencost/opencost",
+      "target": "Build and Publish Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-image.yml",
+      "source_repo": "opencost/opencost",
+      "target": "tspascoal/get-user-teams-membership@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test-image.yml",
+      "source_repo": "opencost/opencost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-image.yml",
+      "source_repo": "opencost/opencost",
+      "target": "Build and Publish Test Image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "arduino/setup-protoc@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "extractions/setup-just@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "extractions/setup-just@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format-check.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "Format Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "golangci/golangci-lint-action@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "golangci-lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "tspascoal/get-user-teams-membership@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "actions/checkout@v6.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "opencost/opencost-infra/.github/workflows/build-stack.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "opencost/opencost-infra/.github/workflows/test-stack.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "opencost/opencost-infra/.github/workflows/destroy-stack.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "andymckay/labeler@1.0.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-testing.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "mondeja/remove-labels-gh-action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-testing.yaml",
+      "source_repo": "opencost/opencost",
+      "target": "Run OpenCost Integration Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost",
+      "target": "cncf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost",
+      "target": "cost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost",
+      "target": "cost-optimization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost",
+      "target": "finops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost",
+      "target": "monitoring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost",
+      "target": "opencost",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "opencost/opencost",
+      "target": "prometheus",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:56:49.401656+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10994
+    },
+    {
+      "path": "go.mod",
+      "size": 12130
+    },
+    {
+      "path": ".github/workflows/auto_label_issues.yml",
+      "size": 290
+    },
+    {
+      "path": ".github/workflows/build-and-publish-develop.yml",
+      "size": 1790
+    },
+    {
+      "path": ".github/workflows/build-and-publish-release.yml",
+      "size": 3419
+    },
+    {
+      "path": ".github/workflows/build-test-image.yml",
+      "size": 2751
+    },
+    {
+      "path": ".github/workflows/build-test.yaml",
+      "size": 2096
+    },
+    {
+      "path": ".github/workflows/format-check.yaml",
+      "size": 478
+    },
+    {
+      "path": ".github/workflows/golangci-lint.yaml",
+      "size": 372
+    },
+    {
+      "path": ".github/workflows/integration-testing.yaml",
+      "size": 15527
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Cost monitoring for Kubernetes workloads and cloud costs",
+    "fork": false,
+    "full_name": "opencost/opencost",
+    "html_url": "https://github.com/opencost/opencost",
+    "language": "Go",
+    "pushed_at": "2026-04-29T19:35:16Z",
+    "stargazers_count": 6517,
+    "topics": [
+      "aws",
+      "azure",
+      "cncf",
+      "cost",
+      "cost-optimization",
+      "finops",
+      "gcp",
+      "k8s",
+      "kubernetes",
+      "monitoring",
+      "opencost",
+      "prometheus"
+    ],
+    "updated_at": "2026-04-29T19:35:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencost/opencost-helm-chart",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opencost/opencost-plugins",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "auto-label-new-issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto_label_issues.yml",
+      "term": "auto-label-new-issues"
+    },
+    {
+      "context_snippet": "Build and Publish Develop",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-publish-develop.yml",
+      "term": "Build and Publish Develop"
+    },
+    {
+      "context_snippet": "Build and Publish Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-and-publish-release.yml",
+      "term": "Build and Publish Release"
+    },
+    {
+      "context_snippet": "Build and Publish Test Image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-test-image.yml",
+      "term": "Build and Publish Test Image"
+    },
+    {
+      "context_snippet": "Format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/format-check.yaml",
+      "term": "Format Check"
+    },
+    {
+      "context_snippet": "golangci-lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/golangci-lint.yaml",
+      "term": "golangci-lint"
+    },
+    {
+      "context_snippet": "Run OpenCost Integration Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-testing.yaml",
+      "term": "Run OpenCost Integration Tests"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cncf"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cost"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cost-optimization"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "finops"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monitoring"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opencost"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/License-Apache%202.0-blue.svg)](https://opensource.org/licenses/Apache-2.0)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prometheus"
+    }
+  ]
+}

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HuangYG123/CurricularFace",
+      "target": "tencent/tface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HuangYG123/CurricularFace",
+      "target": "zhaoj9014/face.evolve.pytorch.",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:47:11.310978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2280
+    },
+    {
+      "path": "requirements.txt",
+      "size": 90
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CurricularFace(CVPR2020)",
+    "fork": false,
+    "full_name": "HuangYG123/CurricularFace",
+    "html_url": "https://github.com/HuangYG123/CurricularFace",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:16:30Z",
+    "stargazers_count": 560,
+    "topics": [],
+    "updated_at": "2026-04-14T15:22:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tencent/tface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhaoj9014/face.evolve.pytorch.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

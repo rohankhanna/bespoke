@@ -121,6 +121,20 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiyouga/LlamaFactory",
+      "target": "hiyouga/llamafactory-community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiyouga/LlamaFactory",
       "target": "dvlab-research/longlora",
       "target_type": "repository"
     },
@@ -128,21 +142,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "hiyouga/LlamaFactory",
-      "target": "hiyouga/fastedit",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hiyouga/LlamaFactory",
       "target": "facebookresearch/llama",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "hiyouga/LlamaFactory",
-      "target": "fudandisc/disc-lawllm",
       "target_type": "repository"
     },
     {
@@ -412,7 +412,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T06:51:02.796133+00:00",
+  "fetched_at": "2026-04-29T20:49:06.556988+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -460,8 +460,8 @@
     "full_name": "hiyouga/LlamaFactory",
     "html_url": "https://github.com/hiyouga/LlamaFactory",
     "language": "Python",
-    "pushed_at": "2026-04-23T09:29:06Z",
-    "stargazers_count": 70542,
+    "pushed_at": "2026-04-29T15:21:13Z",
+    "stargazers_count": 70770,
     "topics": [
       "agent",
       "ai",
@@ -484,7 +484,7 @@
       "rlhf",
       "transformers"
     ],
-    "updated_at": "2026-04-24T06:37:37Z"
+    "updated_at": "2026-04-29T20:47:52Z"
   },
   "repo_links": [
     {
@@ -499,12 +499,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "fudandisc/disc-lawllm",
+      "full_name": "hiyouga/llama-factory",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hiyouga/fastedit",
+      "full_name": "hiyouga/llamafactory-community",
       "source_file": "README.md"
     }
   ],

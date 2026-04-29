@@ -140,6 +140,18 @@
       "source_repo": "CppCXY/EmmyLuaCodeStyle",
       "status": "candidate-context",
       "text": "PR Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate-context",
+      "text": "Free universal database tool and SQL client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate-context",
+      "text": "PR Check"
     }
   ],
   "candidate_glosses": [
@@ -206,6 +218,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "CppCXY/EmmyLuaCodeStyle",
+      "status": "candidate",
+      "text": "PR Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/dbeaver",
       "status": "candidate",
       "text": "PR Check"
     }
@@ -365,11 +383,23 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/pr-check.yml",
       "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/push-pr-devel.yml",
+      "source_repo": "dbeaver/dbeaver"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr-check.yml",
+      "source_repo": "QuantumNous/new-api"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,12 +1,17 @@
 {
   "component": "vedantmgoyal9/winget-releaser@4ffc7888bffd451b357355dc214d43bb9f23917e",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/CICD.yml",
       "source_repo": "sharkdp/fd"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/winget.yml",
+      "source_repo": "dorssel/usbipd-win"
     }
   ]
 }

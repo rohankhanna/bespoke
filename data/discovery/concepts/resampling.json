@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "resampling"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avaneev/r8brain-free-src",
+      "status": "candidate-context",
+      "text": "High-quality pro audio resampler / sample rate conversion header-only C++ library. Very fast, for both audio resampling and time-series interpolation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avaneev/r8brain-free-src",
+      "status": "candidate-context",
+      "text": "Open source (under the MIT license) high-quality professional audio sample"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avaneev/r8brain-free-src",
+      "status": "candidate",
+      "text": "Open source (under the MIT license) high-quality professional audio sample"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30006659,
+      "status": "candidate",
+      "text": "bilinear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962375,
+      "status": "candidate",
+      "text": "based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20009749,
+      "status": "candidate",
+      "text": "rehashing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20009748,
+      "status": "candidate",
+      "text": "reapproximation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20009747,
+      "status": "candidate",
+      "text": "rerandomization"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "resampling",
+  "concept_id": "resampling",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "avaneev/r8brain-free-src"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "resampling",
+      "sense_id": "resampling#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

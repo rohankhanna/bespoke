@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:43:32.582174+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 183
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Apache netbeans",
+    "fork": false,
+    "full_name": "apache/netbeans-antora-site",
+    "html_url": "https://github.com/apache/netbeans-antora-site",
+    "language": "HTML",
+    "pushed_at": "2026-03-02T19:36:00Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2026-04-25T16:06:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

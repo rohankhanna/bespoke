@@ -84,7 +84,7 @@
   "normalized_form": "updates-ci",
   "observation_id": "77e27d82d9f91b8d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T18:19:44.660705+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Updates CI",
   "source_context_snippet": "Updates CI",
   "source_file": ".github/workflows/updates.yml",

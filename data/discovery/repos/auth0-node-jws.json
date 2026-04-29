@@ -290,7 +290,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T13:00:07.548495+00:00",
+  "fetched_at": "2026-04-29T20:58:27.794324+00:00",
   "fetched_files": [
     {
       "path": "package.json",
@@ -326,7 +326,7 @@
     "full_name": "auth0/node-jws",
     "html_url": "https://github.com/auth0/node-jws",
     "language": "JavaScript",
-    "pushed_at": "2026-03-30T19:02:22Z",
+    "pushed_at": "2026-04-27T21:22:28Z",
     "stargazers_count": 721,
     "topics": [],
     "updated_at": "2026-04-18T10:09:56Z"

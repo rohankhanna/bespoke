@@ -16,13 +16,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "swiftlang/swift-llbuild",
-      "target": "salsa-rs/salsa",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "swiftlang/swift-llbuild",
@@ -58,7 +51,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:09:09.862205+00:00",
+  "fetched_at": "2026-04-29T21:59:09.015208+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -74,8 +67,8 @@
     "full_name": "swiftlang/swift-llbuild",
     "html_url": "https://github.com/swiftlang/swift-llbuild",
     "language": "C++",
-    "pushed_at": "2026-04-22T08:25:11Z",
-    "stargazers_count": 1264,
+    "pushed_at": "2026-04-29T17:25:47Z",
+    "stargazers_count": 1266,
     "topics": [
       "build-system",
       "build-tool",
@@ -83,7 +76,7 @@
       "llvm",
       "swift"
     ],
-    "updated_at": "2026-04-21T09:38:55Z"
+    "updated_at": "2026-04-25T21:46:38Z"
   },
   "repo_links": [
     {
@@ -94,11 +87,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "apple/swift-llbuild",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "salsa-rs/salsa",
       "source_file": "README.md"
     }
   ],

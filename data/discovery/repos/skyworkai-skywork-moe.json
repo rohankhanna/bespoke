@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyworkAI/Skywork-MoE",
+      "target": "skyworkai/skywork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "SkyworkAI/Skywork-MoE",
+      "target": "skyworkai/vllm",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:45:06.126248+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10053
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Skywork-MoE: A Deep Dive into Training Techniques for Mixture-of-Experts Language Models",
+    "fork": false,
+    "full_name": "SkyworkAI/Skywork-MoE",
+    "html_url": "https://github.com/SkyworkAI/Skywork-MoE",
+    "language": null,
+    "pushed_at": "2024-06-12T03:42:15Z",
+    "stargazers_count": 139,
+    "topics": [],
+    "updated_at": "2026-04-01T01:04:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skyworkai/skywork",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "skyworkai/vllm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

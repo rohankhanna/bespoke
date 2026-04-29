@@ -199,6 +199,66 @@
       "source_repo": "punica-ai/punica",
       "status": "candidate-context",
       "text": "[(paper)](https://arxiv.org/abs/2310.18547)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate-context",
+      "text": "A Unified Library for Parameter-Efficient and Modular Transfer Learning "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "status": "candidate-context",
+      "text": "Firefly\u4e2d\u6587LLaMA-2\u5927\u6a21\u578b\uff0c\u652f\u6301\u589e\u91cf\u9884\u8bad\u7ec3Baichuan2\u3001Llama2\u3001Llama\u3001Falcon\u3001Qwen\u3001Baichuan\u3001InternLM\u3001Bloom\u7b49\u5927\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "status": "candidate-context",
+      "text": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yangjianxin1/LongQLoRA",
+      "status": "candidate-context",
+      "text": "LongQLoRA: Extent Context Length of LLMs Efficiently "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/LongQLoRA",
+      "status": "candidate-context",
+      "text": "accelerate==0.21.0 transformers==4.31.0 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx flash_attn==2.3.3 joblib==1.2.0 scikit_learn==0.24.2"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hiyouga/ChatGLM-Efficient-Tuning",
+      "status": "candidate-context",
+      "text": "Fine-tuning ChatGLM-6B with PEFT | \u57fa\u4e8e PEFT \u7684\u9ad8\u6548 ChatGLM \u5fae\u8c03"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/ChatGLM-Efficient-Tuning",
+      "status": "candidate-context",
+      "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/ChatGLM-Efficient-Tuning?style=social)](https://github.com/hiyouga/ChatGLM-Efficient-Tuning/stargazers)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +357,36 @@
       "source_repo": "punica-ai/punica",
       "status": "candidate",
       "text": "[(paper)](https://arxiv.org/abs/2310.18547)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adapter-hub/adapters",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "status": "candidate",
+      "text": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yangjianxin1/LongQLoRA",
+      "status": "candidate",
+      "text": "accelerate==0.21.0 transformers==4.31.0 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx flash_attn==2.3.3 joblib==1.2.0 scikit_learn==0.24.2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hiyouga/ChatGLM-Efficient-Tuning",
+      "status": "candidate",
+      "text": "[![GitHub Repo stars](https://img.shields.io/github/stars/hiyouga/ChatGLM-Efficient-Tuning?style=social)](https://github.com/hiyouga/ChatGLM-Efficient-Tuning/stargazers)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
     }
   ],
   "candidate_related_terms": [
@@ -466,11 +556,59 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "punica-ai/punica"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "JIA-Lab-research/LongLoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adapter-hub/adapters"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "yangjianxin1/LongQLoRA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/ChatGLM-Efficient-Tuning"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hiyouga/LlamaFactory"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aphrodite-engine/aphrodite-engine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

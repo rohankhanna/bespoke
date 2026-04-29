@@ -498,6 +498,36 @@
       "source_repo": "a2aproject/a2a-python",
       "status": "candidate-context",
       "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idanarye/nu_plugin_skim",
+      "status": "candidate-context",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/vimcats",
+      "status": "candidate-context",
+      "text": "A CLI to generate vim/nvim help doc from LuaCATS. Forked from lemmy-help."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/vimcats",
+      "status": "candidate-context",
+      "text": "Release Please"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate-context",
+      "text": "Backend for HTTP Observatory on MDN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate-context",
+      "text": "release-please"
     }
   ],
   "candidate_glosses": [
@@ -750,6 +780,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "a2aproject/a2a-python",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "idanarye/nu_plugin_skim",
+      "status": "candidate",
+      "text": "release-please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/vimcats",
+      "status": "candidate",
+      "text": "Release Please"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-http-observatory",
       "status": "candidate",
       "text": "release-please"
     }
@@ -1183,11 +1231,41 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/release-please.yml",
       "source_repo": "a2aproject/a2a-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "JakeChampion/fetch"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "idanarye/nu_plugin_skim"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "mrcjkb/vimcats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "mdn/mdn-http-observatory"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "supercharge/mongodb-github-action@315db7fe45ac2880b7758f1933e6e5d59afd5e94",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/third-party.yml",
+      "source_repo": "pydantic/pydantic"
+    }
+  ]
+}

@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lllyasviel/ControlNet-v1-1-nightly",
+      "target": "mikubill/sd-webui-controlnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lllyasviel/ControlNet-v1-1-nightly",
+      "target": "baegwangbin/surface_normal_uncertainty",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:32.735569+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 31978
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nightly release of ControlNet 1.1",
+    "fork": false,
+    "full_name": "lllyasviel/ControlNet-v1-1-nightly",
+    "html_url": "https://github.com/lllyasviel/ControlNet-v1-1-nightly",
+    "language": "Python",
+    "pushed_at": "2024-08-08T09:01:10Z",
+    "stargazers_count": 5169,
+    "topics": [],
+    "updated_at": "2026-04-29T06:04:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baegwangbin/surface_normal_uncertainty",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mikubill/sd-webui-controlnet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

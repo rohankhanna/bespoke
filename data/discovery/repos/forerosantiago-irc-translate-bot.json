@@ -1,0 +1,57 @@
+{
+  "components": [
+    {
+      "component": "@iamtraction/google-translate",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "irc",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "forerosantiago/irc-translate-bot",
+      "target": "@iamtraction/google-translate",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "forerosantiago/irc-translate-bot",
+      "target": "irc",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:58:29.913901+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1083
+    },
+    {
+      "path": "package.json",
+      "size": 585
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "forerosantiago/irc-translate-bot",
+    "html_url": "https://github.com/forerosantiago/irc-translate-bot",
+    "language": "JavaScript",
+    "pushed_at": "2023-10-16T15:41:00Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2024-05-30T02:50:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

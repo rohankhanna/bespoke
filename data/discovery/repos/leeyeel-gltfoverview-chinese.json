@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "leeyeel/gltfOverview-Chinese",
+      "target": "randall2835/gltfoverviewjapanese",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:59:44.578112+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 438
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "gltfOverview \u4e2d\u6587\u7248",
+    "fork": false,
+    "full_name": "leeyeel/gltfOverview-Chinese",
+    "html_url": "https://github.com/leeyeel/gltfOverview-Chinese",
+    "language": null,
+    "pushed_at": "2026-04-14T07:50:14Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-14T07:50:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "randall2835/gltfoverviewjapanese",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -140,6 +140,36 @@
       "source_repo": "aws-observability/aws-otel-collector",
       "status": "candidate-context",
       "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 Automate versioning and package publishing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate-context",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-otel/aws-otel.github.io",
+      "status": "candidate-context",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-sdk-java-v2",
+      "status": "candidate-context",
+      "text": "The official AWS SDK for Java - Version 2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-java-v2",
+      "status": "candidate-context",
+      "text": "\"CodeQL Analysis\""
     }
   ],
   "candidate_glosses": [
@@ -208,6 +238,24 @@
       "source_repo": "aws-observability/aws-otel-collector",
       "status": "candidate",
       "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "release-it/release-it",
+      "status": "candidate",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-otel/aws-otel.github.io",
+      "status": "candidate",
+      "text": "CodeQL Analysis"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-sdk-java-v2",
+      "status": "candidate",
+      "text": "\"CodeQL Analysis\""
     }
   ],
   "candidate_related_terms": [
@@ -329,11 +377,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/codeql.yml",
       "source_repo": "jaegertracing/jaeger-client-go"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codeql.yaml",
+      "source_repo": "release-it/release-it"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "graphql/graphql-http"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "aws-otel/aws-otel.github.io"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "aws/aws-sdk-java-v2"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,7 +1,7 @@
 {
   "component": "docker/setup-buildx-action@v3",
   "first_seen_at": "2026-04-17T16:51:41.136432+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1147,6 +1147,176 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/devcontainer.yml",
       "source_repo": "citusdata/citus"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-docker.yaml",
+      "source_repo": "apache/seatunnel"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish_docker.yml",
+      "source_repo": "danielgatis/rembg"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_arm64.yml",
+      "source_repo": "eea/eea-website-backend"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_docker.yaml",
+      "source_repo": "dzeiocom/lucide-astro"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_template-build-image.yml",
+      "source_repo": "hao-ai-lab/FastVideo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cd.yml",
+      "source_repo": "Backblaze/B2_Command_Line_Tool"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "Backblaze/B2_Command_Line_Tool"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-build.yml",
+      "source_repo": "aws-observability/aws-otel-test-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/goreleaser.yml",
+      "source_repo": "minio/operator"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker.yml",
+      "source_repo": "geocompx/docker"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yml",
+      "source_repo": "pgsty/pigsty"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image.yml",
+      "source_repo": "simplex-chat/simplexmq"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yaml",
+      "source_repo": "open-webui/open-webui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gateway-docker.yml",
+      "source_repo": "mozilla-ai/any-llm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/_build_container.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-dep-image.yml",
+      "source_repo": "prestodb/presto-dev"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "dockur/windows"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build_ghcr.yaml",
+      "source_repo": "Bioconductor/bioc2u"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker.yaml",
+      "source_repo": "eddelbuettel/r2u-builder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "QuantumNous/new-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tei-gaudi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tgi-gaudi"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "locustio/locust"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "5sControl/5s-onvif"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/prod.yml",
+      "source_repo": "5sControl/5s-onvif"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/stage.yml",
+      "source_repo": "5sControl/5s-onvif"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_docker_container.yaml",
+      "source_repo": "michaelfeil/infinity"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "hungran/hyper-mcp-hackernews-tool"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-build-and-push.yml",
+      "source_repo": "dbeaver/cloudbeaver"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-build.yml",
+      "source_repo": "kitconcept/volto-light-theme"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/backend-image-release.yml",
+      "source_repo": "kitconcept/volto-light-theme"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-ghcr.yml",
+      "source_repo": "optuna/optuna-dashboard"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml",
+      "source_repo": "esp-rs/rust-build"
     }
   ]
 }

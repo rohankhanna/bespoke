@@ -19,12 +19,30 @@
       "source_repo": "marin-community/kitoken",
       "status": "candidate-context",
       "text": "Tests & Checks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Systemcluster/kitoken",
+      "status": "candidate-context",
+      "text": "Fast tokenizer for language models, compatible with SentencePiece, Tokenizers, Tiktoken and more. Supports BPE, Unigram and WordPiece tokenization in JavaScript, Python and Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/kitoken",
+      "status": "candidate-context",
+      "text": "Tests & Checks"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "marin-community/kitoken",
+      "status": "candidate",
+      "text": "Tests & Checks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/kitoken",
       "status": "candidate",
       "text": "Tests & Checks"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/tests.yml",
       "source_repo": "marin-community/kitoken"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Systemcluster/kitoken"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

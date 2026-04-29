@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image",
+      "target": "robotecai/ros2-for-unity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image",
+      "target": "bridge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image",
+      "target": "rendertexture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image",
+      "target": "ros2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image",
+      "target": "unity",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:38:53.321587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bridge between RenderTexture (Unity) object and sensor_msgs/Image (ROS2).",
+    "fork": false,
+    "full_name": "Ar-Ray-code/RenderTexture2ROS2Image",
+    "html_url": "https://github.com/Ar-Ray-code/RenderTexture2ROS2Image",
+    "language": "C#",
+    "pushed_at": "2022-02-01T02:55:10Z",
+    "stargazers_count": 9,
+    "topics": [
+      "bridge",
+      "computer-vision",
+      "rendertexture",
+      "ros2",
+      "unity"
+    ],
+    "updated_at": "2024-04-25T03:34:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "robotecai/ros2-for-unity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Bridge between RenderTexture (Unity) object and sensor_msgs/Image (ROS2).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bridge"
+    },
+    {
+      "context_snippet": "Bridge between RenderTexture (Unity) object and sensor_msgs/Image (ROS2).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "Bridge between RenderTexture (Unity) object and sensor_msgs/Image (ROS2).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rendertexture"
+    },
+    {
+      "context_snippet": "Bridge between RenderTexture (Unity) object and sensor_msgs/Image (ROS2).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ros2"
+    },
+    {
+      "context_snippet": "Bridge between RenderTexture (Unity) object and sensor_msgs/Image (ROS2).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unity"
+    }
+  ]
+}

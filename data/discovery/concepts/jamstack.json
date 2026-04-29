@@ -43,6 +43,18 @@
       "source_repo": "sdras/ecommerce-netlify",
       "status": "candidate-context",
       "text": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apostrophecms/apostrophe",
+      "status": "candidate-context",
+      "text": "A full-featured, open-source content management framework built with Node.js that empowers organizations by combining in-context editing and headless architecture in a full-stack JS environment."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apostrophecms/apostrophe",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "sdras/ecommerce-netlify",
       "status": "candidate",
       "text": "> A serverless function to process stripe payments with Nuxt, Netlify, and Lambda"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apostrophecms/apostrophe",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "sdras/ecommerce-netlify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apostrophecms/apostrophe"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

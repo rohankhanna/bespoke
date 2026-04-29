@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "keeeeenw/TinyLLaVA_Factory",
+      "target": "zhangxj199/tinyllava-video",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "keeeeenw/TinyLLaVA_Factory",
+      "target": "dlcv-buaa/tinyllavabench",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:46:14.384626+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19668
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1361
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Framework of Small-scale Large Multimodal Models",
+    "fork": true,
+    "full_name": "keeeeenw/TinyLLaVA_Factory",
+    "html_url": "https://github.com/keeeeenw/TinyLLaVA_Factory",
+    "language": "Python",
+    "pushed_at": "2025-08-27T02:49:55Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2026-04-28T16:29:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhangxj199/tinyllava-video",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dlcv-buaa/tinyllavabench",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": []
+}

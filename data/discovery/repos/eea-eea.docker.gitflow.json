@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "eea/eea.docker.gitflow",
+      "target": "stedolan/jq",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:44:31.555853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8181
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1775
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Used in jenkins to test github prerequisites",
+    "fork": false,
+    "full_name": "eea/eea.docker.gitflow",
+    "html_url": "https://github.com/eea/eea.docker.gitflow",
+    "language": "Shell",
+    "pushed_at": "2026-04-08T17:49:37Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2026-04-08T17:49:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stedolan/jq",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

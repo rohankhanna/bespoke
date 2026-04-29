@@ -119,7 +119,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T04:43:11.941696+00:00",
+  "fetched_at": "2026-04-29T21:55:45.918375+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -151,7 +151,7 @@
     "full_name": "rbenv/ruby-build",
     "html_url": "https://github.com/rbenv/ruby-build",
     "language": "Shell",
-    "pushed_at": "2026-04-22T01:15:52Z",
+    "pushed_at": "2026-04-29T15:26:30Z",
     "stargazers_count": 3967,
     "topics": [
       "hacktoberfest",
@@ -159,7 +159,7 @@
       "ruby",
       "version-manager"
     ],
-    "updated_at": "2026-04-22T16:42:25Z"
+    "updated_at": "2026-04-29T15:27:05Z"
   },
   "repo_links": [],
   "terms": [

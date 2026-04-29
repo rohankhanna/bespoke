@@ -4,28 +4,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Scoop",
-      "target": "scoopinstaller/install",
+      "target": "scoopinstaller/php",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ScoopInstaller/Scoop",
-      "target": "scoopinstaller/nirsoft",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ScoopInstaller/Scoop",
-      "target": "scoopinstaller/java",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ScoopInstaller/Scoop",
-      "target": "scoopinstaller/nonportable",
+      "target": "scoopinstaller/versions",
       "target_type": "repository"
     },
     {
@@ -78,6 +64,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "ScoopInstaller/Scoop"
 }

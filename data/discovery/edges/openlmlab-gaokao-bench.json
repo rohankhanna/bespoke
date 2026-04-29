@@ -1,0 +1,20 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenLMLab/GAOKAO-Bench",
+      "target": "openmoss/gaokao-mm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenLMLab/GAOKAO-Bench",
+      "target": "openlmlab/gaokao-bench-updates",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "OpenLMLab/GAOKAO-Bench"
+}

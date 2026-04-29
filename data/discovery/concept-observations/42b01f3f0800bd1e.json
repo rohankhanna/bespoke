@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Tinymist [\u02c8ta\u026ani m\u026ast] is an integrated language service for Typst [ta\u026apst]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "tinymist::build::vscode"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "tinymist::build::vscode"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "tinymist::build::vscode",
+      "sense_id": "tinymist-build-vscode#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "tinymist-build-vscode",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tinymist-build-vscode",
+  "observation_id": "42b01f3f0800bd1e",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "tinymist::build::vscode",
+  "source_context_snippet": "tinymist::build::vscode",
+  "source_file": ".github/workflows/build-vscode.yml",
+  "source_repo": "Myriad-Dreamin/tinymist",
+  "source_repo_description": "Tinymist [\u02c8ta\u026ani m\u026ast] is an integrated language service for Typst [ta\u026apst]."
+}

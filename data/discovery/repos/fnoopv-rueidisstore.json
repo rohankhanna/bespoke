@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fnoopv/rueidisstore",
+      "target": "redis/rueidis",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:53:58.998961+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 525
+    },
+    {
+      "path": "go.mod",
+      "size": 146
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a rueidis store for alexedwards/scs",
+    "fork": false,
+    "full_name": "fnoopv/rueidisstore",
+    "html_url": "https://github.com/fnoopv/rueidisstore",
+    "language": "Go",
+    "pushed_at": "2025-03-07T09:51:48Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2025-03-07T09:51:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redis/rueidis",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

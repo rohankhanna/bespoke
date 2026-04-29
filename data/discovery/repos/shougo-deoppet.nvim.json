@@ -1,0 +1,129 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Shougo/deoppet.nvim",
+      "target": "uga-rosa/denippet.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Shougo/deoppet.nvim",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "Shougo/deoppet.nvim",
+      "target": "Lint and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/deoppet.nvim",
+      "target": "ddc-source",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/deoppet.nvim",
+      "target": "ddc-vim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/deoppet.nvim",
+      "target": "nvim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Shougo/deoppet.nvim",
+      "target": "snippets",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:51:14.959438+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1996
+    },
+    {
+      "path": ".github/workflows/lint.yml",
+      "size": 329
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The dark powered snippet plugin for neovim",
+    "fork": false,
+    "full_name": "Shougo/deoppet.nvim",
+    "html_url": "https://github.com/Shougo/deoppet.nvim",
+    "language": "Python",
+    "pushed_at": "2024-07-20T07:50:35Z",
+    "stargazers_count": 253,
+    "topics": [
+      "ddc-source",
+      "ddc-vim",
+      "nvim",
+      "snippets"
+    ],
+    "updated_at": "2026-03-14T15:43:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "uga-rosa/denippet.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Lint and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint.yml",
+      "term": "Lint and test"
+    },
+    {
+      "context_snippet": "**Note**: Active developement on denippet.nvim has stopped. The only future",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddc-source"
+    },
+    {
+      "context_snippet": "**Note**: Active developement on denippet.nvim has stopped. The only future",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ddc-vim"
+    },
+    {
+      "context_snippet": "**Note**: Active developement on denippet.nvim has stopped. The only future",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim"
+    },
+    {
+      "context_snippet": "**Note**: Active developement on denippet.nvim has stopped. The only future",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "snippets"
+    }
+  ]
+}

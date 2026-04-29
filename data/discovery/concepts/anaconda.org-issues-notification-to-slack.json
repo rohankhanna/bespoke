@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Anaconda.org Issues Notification to Slack"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ContinuumIO/anaconda-issues",
+      "status": "candidate-context",
+      "text": "Anaconda issue tracking"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ContinuumIO/anaconda-issues",
+      "status": "candidate-context",
+      "text": "Anaconda.org Issues Notification to Slack"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ContinuumIO/anaconda-issues",
+      "status": "candidate",
+      "text": "Anaconda.org Issues Notification to Slack"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18011,
+      "status": "candidate",
+      "text": "clock golf"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18011,
+      "status": "candidate",
+      "text": "gloom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18011,
+      "status": "candidate",
+      "text": "left wing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18011,
+      "status": "candidate",
+      "text": "materialist"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18011,
+      "status": "candidate",
+      "text": "right wing"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Anaconda.org Issues Notification to Slack",
+  "concept_id": "anaconda.org-issues-notification-to-slack",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dot-org-filter.yml",
+      "source_repo": "ContinuumIO/anaconda-issues"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Anaconda.org Issues Notification to Slack",
+      "sense_id": "anaconda.org-issues-notification-to-slack#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

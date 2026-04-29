@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "hichesslib is a cross-platform Python GUI chess library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/hichesslib/) [![Build Status](https://app.travis-ci.com/H-a-y-k/hichesslib.svg?token=nP5fyR4hXGDypLNHLdGX&branch=master)](https://app.travis-ci.com/H-a-y-k/hichesslib) [![Coverage Stat\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/hichesslib/) [![Build Status](https://app.travis-ci.com/H-a-y-k/hichesslib.svg?token=nP5fyR4hXGDypLNHLdGX&branch=master)](https://app.travis-ci.com/H-a-y-k/hichesslib) [![Coverage Stat\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39886126,
+      "status": "candidate",
+      "text": "cheat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045913,
+      "status": "candidate",
+      "text": "bromus secalinus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045913,
+      "status": "candidate",
+      "text": "chess game"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045912,
+      "status": "candidate",
+      "text": "chessboard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30045518,
+      "status": "candidate",
+      "text": "check"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "chess",
+      "sense_id": "chess#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3040,
+      "status": "candidate",
+      "text": "cheat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "bromus secalinus"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 10,
+      "status": "candidate",
+      "text": "chess game"
+    }
+  ],
+  "concept_id": "chess",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "chess",
+  "observation_id": "4634910c00ab7f2e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "chess",
+  "source_context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/hichesslib/) [![Build Status](https://app.travis-ci.com/H-a-y-k/hichesslib.svg?token=nP5fyR4hXGDypLNHLdGX&branch=master)](https://app.travis-ci.com/H-a-y-k/hichesslib) [![Coverage Stat\u2026",
+  "source_file": null,
+  "source_repo": "H-a-y-k/hichesslib",
+  "source_repo_description": "hichesslib is a cross-platform Python GUI chess library."
+}

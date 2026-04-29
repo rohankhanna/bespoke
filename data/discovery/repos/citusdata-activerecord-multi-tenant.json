@@ -1,0 +1,180 @@
+{
+  "components": [
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "citusdata/activerecord-multi-tenant",
+      "target": "erwinm/acts_as_tenant",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml",
+      "source_repo": "citusdata/activerecord-multi-tenant",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml",
+      "source_repo": "citusdata/activerecord-multi-tenant",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml",
+      "source_repo": "citusdata/activerecord-multi-tenant",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml",
+      "source_repo": "citusdata/activerecord-multi-tenant",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml",
+      "source_repo": "citusdata/activerecord-multi-tenant",
+      "target": "Active Record Multi-Tenant Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citusdata/activerecord-multi-tenant",
+      "target": "activerecord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citusdata/activerecord-multi-tenant",
+      "target": "citus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citusdata/activerecord-multi-tenant",
+      "target": "multi-tenant",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "citusdata/activerecord-multi-tenant",
+      "target": "rails",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:43:39.436779+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4423
+    },
+    {
+      "path": ".github/workflows/active-record-multi-tenant-tests.yml",
+      "size": 2005
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rails/ActiveRecord support for distributed multi-tenant databases like Postgres+Citus",
+    "fork": false,
+    "full_name": "citusdata/activerecord-multi-tenant",
+    "html_url": "https://github.com/citusdata/activerecord-multi-tenant",
+    "language": "Ruby",
+    "pushed_at": "2024-11-11T09:56:11Z",
+    "stargazers_count": 759,
+    "topics": [
+      "activerecord",
+      "citus",
+      "multi-tenant",
+      "rails"
+    ],
+    "updated_at": "2026-04-16T11:03:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "erwinm/acts_as_tenant",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Active Record Multi-Tenant Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml",
+      "term": "Active Record Multi-Tenant Tests"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml/badge.svg)](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml) [![codecov](https://codecov.i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "activerecord"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml/badge.svg)](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml) [![codecov](https://codecov.i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "citus"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml/badge.svg)](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml) [![codecov](https://codecov.i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-tenant"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml/badge.svg)](https://github.com/citusdata/activerecord-multi-tenant/actions/workflows/active-record-multi-tenant-tests.yml) [![codecov](https://codecov.i\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rails"
+    }
+  ]
+}

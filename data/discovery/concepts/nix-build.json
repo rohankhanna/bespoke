@@ -1,7 +1,8 @@
 {
   "aliases": [
     "nix build",
-    "Nix Build"
+    "Nix Build",
+    "Nix build"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "HoangTheQuyen/think-better",
       "status": "candidate-context",
       "text": "Nix Build"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/vimcats",
+      "status": "candidate-context",
+      "text": "A CLI to generate vim/nvim help doc from LuaCATS. Forked from lemmy-help."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/vimcats",
+      "status": "candidate-context",
+      "text": "\"Nix build\""
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "HoangTheQuyen/think-better",
       "status": "candidate",
       "text": "Nix Build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/vimcats",
+      "status": "candidate",
+      "text": "\"Nix build\""
     }
   ],
   "candidate_related_terms": [
@@ -137,11 +156,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/nix-build.yml",
       "source_repo": "gastownhall/beads"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "mrcjkb/vimcats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "gastownhall/beads"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

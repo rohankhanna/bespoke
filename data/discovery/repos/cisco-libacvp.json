@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cisco/libacvp",
+      "target": "throwtheswitch/unity",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cisco/libacvp",
+      "target": "attractivechaos/klib",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:25.410234+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 27020
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The libacvp library is a client-side implementation of the draft ACVP protocol (github.com/usnistgov/ACVP).",
+    "fork": false,
+    "full_name": "cisco/libacvp",
+    "html_url": "https://github.com/cisco/libacvp",
+    "language": "C",
+    "pushed_at": "2026-03-16T14:44:04Z",
+    "stargazers_count": 77,
+    "topics": [],
+    "updated_at": "2026-04-15T07:45:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "attractivechaos/klib",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "throwtheswitch/unity",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

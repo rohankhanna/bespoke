@@ -1,0 +1,22 @@
+{
+  "component": "azure/setup-helm@v3",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/preview-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-helm-charts.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-replicated.yml",
+      "source_repo": "All-Hands-AI/OpenHands-Cloud"
+    }
+  ]
+}

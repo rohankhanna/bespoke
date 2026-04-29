@@ -1,0 +1,12 @@
+{
+  "component": "reviewdog/action-depup/with-pr@94a1aaf4e4923064019214b48a43276218af7ad5",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/depup.yml",
+      "source_repo": "reviewdog/action-suggester"
+    }
+  ]
+}

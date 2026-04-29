@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@v1",
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -97,6 +97,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update.yml",
       "source_repo": "octokit/openapi-webhooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "Venly/web3-react-venly"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hotfix_finish.yml",
+      "source_repo": "Venly/web3-react-venly"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hotfix_start.yml",
+      "source_repo": "Venly/web3-react-venly"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_finish.yml",
+      "source_repo": "Venly/web3-react-venly"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release_start.yml",
+      "source_repo": "Venly/web3-react-venly"
     }
   ]
 }

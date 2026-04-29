@@ -1,0 +1,115 @@
+{
+  "aliases": [
+    "acceleration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/distrifuser",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 Highlight] DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/distrifuser",
+      "status": "candidate-context",
+      "text": "**[Dec 1, 2024]** DistriFusion is integrated in NVIDIA's [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/blob/main/examples/sdxl/README.md) for distributed inference on high-resolution image generation."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/distrifuser",
+      "status": "candidate",
+      "text": "**[Dec 1, 2024]** DistriFusion is integrated in NVIDIA's [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/blob/main/examples/sdxl/README.md) for distributed inference on high-resolution image generation."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39923886,
+      "status": "candidate",
+      "text": "speedup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39914211,
+      "status": "candidate",
+      "text": "quickening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30047872,
+      "status": "candidate",
+      "text": "momentum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29998181,
+      "status": "candidate",
+      "text": "pickup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29993376,
+      "status": "candidate",
+      "text": "throttling"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6036,
+      "status": "candidate",
+      "text": "quickening"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3019,
+      "status": "candidate",
+      "text": "speedup"
+    }
+  ],
+  "canonical_name": "acceleration",
+  "concept_id": "acceleration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/distrifuser"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "acceleration",
+      "sense_id": "acceleration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-deepmind/xmanager",
+      "target": "deepmind/xmanager",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:52:01.404710+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11466
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A platform for managing machine learning experiments",
+    "fork": false,
+    "full_name": "google-deepmind/xmanager",
+    "html_url": "https://github.com/google-deepmind/xmanager",
+    "language": "Python",
+    "pushed_at": "2026-04-24T16:55:06Z",
+    "stargazers_count": 907,
+    "topics": [],
+    "updated_at": "2026-04-28T17:47:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/xmanager",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

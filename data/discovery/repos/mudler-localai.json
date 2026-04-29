@@ -91,6 +91,36 @@
       "source_file": ".github/workflows/backend_build_darwin.yml"
     },
     {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_build_darwin.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_build_darwin.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_build_darwin.yml"
+    },
+    {
+      "component": "actions/cache/restore@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_build_darwin.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_build_darwin.yml"
+    },
+    {
+      "component": "actions/cache/save@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_build_darwin.yml"
+    },
+    {
       "component": "actions/upload-artifact@v7",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/backend_build_darwin.yml"
@@ -184,6 +214,16 @@
       "component": "peter-evans/create-pull-request@v8",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/bump_deps.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_deps.yaml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump_deps.yaml"
     }
   ],
   "edges": [
@@ -210,9 +250,9 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
+      "source_file": "Dockerfile",
       "source_repo": "mudler/LocalAI",
-      "target": "rhasspy/piper",
+      "target": "mudler/vulkan-sdk-arm",
       "target_type": "repository"
     },
     {
@@ -325,6 +365,20 @@
       "source_file": ".github/workflows/backend_build_darwin.yml",
       "source_repo": "mudler/LocalAI",
       "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_build_darwin.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "actions/cache/restore@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_build_darwin.yml",
+      "source_repo": "mudler/LocalAI",
+      "target": "actions/cache/save@v4",
       "target_type": "component"
     },
     {
@@ -531,7 +585,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:53:59.978484+00:00",
+  "fetched_at": "2026-04-29T21:44:16.746698+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -539,7 +593,7 @@
     },
     {
       "path": "Dockerfile",
-      "size": 15164
+      "size": 15158
     },
     {
       "path": "go.mod",
@@ -547,15 +601,15 @@
     },
     {
       "path": ".github/workflows/backend.yml",
-      "size": 116773
+      "size": 125648
     },
     {
       "path": ".github/workflows/backend_build.yml",
-      "size": 9189
+      "size": 10057
     },
     {
       "path": ".github/workflows/backend_build_darwin.yml",
-      "size": 4217
+      "size": 10163
     },
     {
       "path": ".github/workflows/backend_pr.yml",
@@ -571,7 +625,7 @@
     },
     {
       "path": ".github/workflows/bump_deps.yaml",
-      "size": 3106
+      "size": 4576
     }
   ],
   "related_repositories": [],
@@ -583,8 +637,8 @@
     "full_name": "mudler/LocalAI",
     "html_url": "https://github.com/mudler/LocalAI",
     "language": "Go",
-    "pushed_at": "2026-04-24T07:35:25Z",
-    "stargazers_count": 45765,
+    "pushed_at": "2026-04-29T20:33:42Z",
+    "stargazers_count": 45927,
     "topics": [
       "agents",
       "ai",
@@ -605,7 +659,7 @@
       "text-generation",
       "tts"
     ],
-    "updated_at": "2026-04-24T07:50:41Z"
+    "updated_at": "2026-04-29T20:33:47Z"
   },
   "repo_links": [
     {
@@ -625,8 +679,8 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "rhasspy/piper",
-      "source_file": "README.md"
+      "full_name": "mudler/vulkan-sdk-arm",
+      "source_file": "Dockerfile"
     }
   ],
   "terms": [

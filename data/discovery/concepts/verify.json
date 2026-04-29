@@ -184,6 +184,54 @@
       "source_repo": "envoyproxy/examples",
       "status": "candidate-context",
       "text": "Verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/netbeans-antora-ui",
+      "status": "candidate-context",
+      "text": "Apache netbeans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/netbeans-antora-ui",
+      "status": "candidate-context",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wevm/abitype",
+      "status": "candidate-context",
+      "text": "Strict TypeScript types for Ethereum ABIs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wevm/abitype",
+      "status": "candidate-context",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "superedge/superedge",
+      "status": "candidate-context",
+      "text": "An edge-native container management system for edge computing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "superedge/superedge",
+      "status": "candidate-context",
+      "text": "verify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/sessions",
+      "status": "candidate-context",
+      "text": "Package gorilla/sessions provides cookie and filesystem sessions and infrastructure for custom session backends."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/sessions",
+      "status": "candidate-context",
+      "text": "Verify"
     }
   ],
   "candidate_glosses": [
@@ -274,6 +322,30 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "envoyproxy/examples",
+      "status": "candidate",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/netbeans-antora-ui",
+      "status": "candidate",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wevm/abitype",
+      "status": "candidate",
+      "text": "Verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "superedge/superedge",
+      "status": "candidate",
+      "text": "verify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/sessions",
       "status": "candidate",
       "text": "Verify"
     }
@@ -417,11 +489,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/verify.yml",
       "source_repo": "envoyproxy/examples"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "apache/netbeans-antora-ui"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "wevm/abitype"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/verify.yaml",
+      "source_repo": "superedge/superedge"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/verify.yml",
+      "source_repo": "gorilla/sessions"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

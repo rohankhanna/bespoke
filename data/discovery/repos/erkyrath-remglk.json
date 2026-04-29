@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:48:50.916758+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 1363
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A remote-procedure-call implementation of the Glk IF API",
+    "fork": false,
+    "full_name": "erkyrath/remglk",
+    "html_url": "https://github.com/erkyrath/remglk",
+    "language": "C",
+    "pushed_at": "2025-06-12T21:14:48Z",
+    "stargazers_count": 26,
+    "topics": [],
+    "updated_at": "2025-06-12T21:14:52Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

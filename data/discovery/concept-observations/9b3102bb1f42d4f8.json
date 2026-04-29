@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "PCP: Clojure Processor -- A Clojure replacement for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "master"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "master"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039926,
+      "status": "candidate",
+      "text": "professional"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039513,
+      "status": "candidate",
+      "text": "overlord"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039401,
+      "status": "candidate",
+      "text": "dominate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035733,
+      "status": "candidate",
+      "text": "headmaster"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40035440,
+      "status": "candidate",
+      "text": "schoolmaster"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "master",
+      "sense_id": "master#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48079,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31034,
+      "status": "candidate",
+      "text": "subdue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28032,
+      "status": "candidate",
+      "text": "surmount"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25046,
+      "status": "candidate",
+      "text": "original"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25037,
+      "status": "candidate",
+      "text": "maestro"
+    }
+  ],
+  "concept_id": "master",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "master",
+  "observation_id": "9b3102bb1f42d4f8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "master",
+  "source_context_snippet": "master",
+  "source_file": ".github/workflows/master.yml",
+  "source_repo": "alekcz/pcp",
+  "source_repo_description": "PCP: Clojure Processor -- A Clojure replacement for PHP"
+}

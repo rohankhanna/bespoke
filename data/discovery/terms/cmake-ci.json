@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -11,6 +11,11 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/cmake.yaml",
       "source_repo": "pantoniou/libfyaml"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/ci_cmake.yml",
+      "source_repo": "esp-rs/esp-idf-template"
     }
   ],
   "term": "CMake CI"

@@ -43,6 +43,18 @@
       "source_repo": "swiftlang/llvm-project",
       "status": "candidate-context",
       "text": "Build CI Container"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "espressif/llvm-project",
+      "status": "candidate-context",
+      "text": "Fork of LLVM with Xtensa specific patches. To be upstreamed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/llvm-project",
+      "status": "candidate-context",
+      "text": "Build CI Container"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "swiftlang/llvm-project",
+      "status": "candidate",
+      "text": "Build CI Container"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "espressif/llvm-project",
       "status": "candidate",
       "text": "Build CI Container"
     }
@@ -136,11 +154,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/build-ci-container.yml",
       "source_repo": "swiftlang/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "source_repo": "swiftlang/llvm-project"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/build-ci-container.yml",
+      "source_repo": "espressif/llvm-project"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

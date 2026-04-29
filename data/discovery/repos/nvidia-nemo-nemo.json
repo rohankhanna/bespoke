@@ -6,7 +6,17 @@
       "source_file": ".github/workflows/_build_container.yml"
     },
     {
-      "component": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_container.yml@v0.27.0",
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_container.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_container.yml"
+    },
+    {
+      "component": "docker/build-push-action@v5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_build_container.yml"
     },
@@ -56,7 +66,7 @@
       "source_file": ".github/workflows/cicd-main-speech.yml"
     },
     {
-      "component": "NVIDIA/NeMo/.github/actions/test-template@main",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cicd-main-speech.yml"
     },
@@ -66,7 +76,12 @@
       "source_file": ".github/workflows/cicd-main-speech.yml"
     },
     {
-      "component": "NVIDIA/NeMo/.github/actions/test-template@main",
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-speech.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cicd-main-speech.yml"
     },
@@ -76,17 +91,7 @@
       "source_file": ".github/workflows/cicd-main-speech.yml"
     },
     {
-      "component": "NVIDIA/NeMo/.github/actions/test-template@main",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cicd-main-speech.yml"
-    },
-    {
       "component": "actions/checkout@v6",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cicd-main-unit-tests.yml"
-    },
-    {
-      "component": "NVIDIA/NeMo/.github/actions/test-template@main",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cicd-main-unit-tests.yml"
     },
@@ -96,7 +101,7 @@
       "source_file": ".github/workflows/cicd-main-unit-tests.yml"
     },
     {
-      "component": "NVIDIA/NeMo/.github/actions/test-template@main",
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cicd-main-unit-tests.yml"
     },
@@ -106,7 +111,12 @@
       "source_file": ".github/workflows/cicd-main-unit-tests.yml"
     },
     {
-      "component": "NVIDIA/NeMo/.github/actions/test-template@main",
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cicd-main-unit-tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/cicd-main-unit-tests.yml"
     }
@@ -137,7 +147,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/_build_container.yml",
       "source_repo": "NVIDIA-NeMo/NeMo",
-      "target": "NVIDIA-NeMo/FW-CI-templates/.github/workflows/_build_container.yml@v0.27.0",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_build_container.yml",
+      "source_repo": "NVIDIA-NeMo/NeMo",
+      "target": "docker/build-push-action@v5",
       "target_type": "component"
     },
     {
@@ -232,13 +249,6 @@
       "target_type": "component"
     },
     {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cicd-main-speech.yml",
-      "source_repo": "NVIDIA-NeMo/NeMo",
-      "target": "NVIDIA/NeMo/.github/actions/test-template@main",
-      "target_type": "component"
-    },
-    {
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/cicd-main-speech.yml",
       "source_repo": "NVIDIA-NeMo/NeMo",
@@ -250,13 +260,6 @@
       "source_file": ".github/workflows/cicd-main-unit-tests.yml",
       "source_repo": "NVIDIA-NeMo/NeMo",
       "target": "actions/checkout@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/cicd-main-unit-tests.yml",
-      "source_repo": "NVIDIA-NeMo/NeMo",
-      "target": "NVIDIA/NeMo/.github/actions/test-template@main",
       "target_type": "component"
     },
     {
@@ -323,7 +326,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T12:40:05.908594+00:00",
+  "fetched_at": "2026-04-29T20:51:53.085797+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -335,7 +338,7 @@
     },
     {
       "path": ".github/workflows/_build_container.yml",
-      "size": 3436
+      "size": 5125
     },
     {
       "path": ".github/workflows/_bump_mcore_tag.yml",
@@ -359,11 +362,11 @@
     },
     {
       "path": ".github/workflows/cicd-main-speech.yml",
-      "size": 21388
+      "size": 22497
     },
     {
       "path": ".github/workflows/cicd-main-unit-tests.yml",
-      "size": 3299
+      "size": 4113
     }
   ],
   "related_repositories": [],
@@ -375,8 +378,8 @@
     "full_name": "NVIDIA-NeMo/NeMo",
     "html_url": "https://github.com/NVIDIA-NeMo/NeMo",
     "language": "Python",
-    "pushed_at": "2026-04-24T12:07:38Z",
-    "stargazers_count": 17122,
+    "pushed_at": "2026-04-29T20:16:14Z",
+    "stargazers_count": 17151,
     "topics": [
       "asr",
       "deeplearning",
@@ -389,7 +392,7 @@
       "speech-translation",
       "tts"
     ],
-    "updated_at": "2026-04-24T12:07:46Z"
+    "updated_at": "2026-04-29T15:09:41Z"
   },
   "repo_links": [
     {

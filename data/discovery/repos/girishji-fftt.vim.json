@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/fFtT.vim",
+      "target": "girishji/easyjump.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "girishji/fFtT.vim",
+      "target": "girishji/autosuggest.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/fFtT.vim",
+      "target": "vim9",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/fFtT.vim",
+      "target": "vim9-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "girishji/fFtT.vim",
+      "target": "vim9script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:40:14.198819+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "More accurate f, F, t, T navigation in Vim.",
+    "fork": false,
+    "full_name": "girishji/fFtT.vim",
+    "html_url": "https://github.com/girishji/fFtT.vim",
+    "language": "Vim Script",
+    "pushed_at": "2024-06-06T08:55:53Z",
+    "stargazers_count": 9,
+    "topics": [
+      "vim",
+      "vim9",
+      "vim9-plugin",
+      "vim9script"
+    ],
+    "updated_at": "2025-09-30T15:15:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/autosuggest.vim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "girishji/easyjump.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Characters that are reachable with a single jump are highlighted, while others are dimmed. This enhancement enhances the accuracy of navigation using `f`, `F`, `t`, and `T` commands. Moreover, you can prefix the command with a numerical `[count]` (e.g., `3f`), which will exclusi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9"
+    },
+    {
+      "context_snippet": "Characters that are reachable with a single jump are highlighted, while others are dimmed. This enhancement enhances the accuracy of navigation using `f`, `F`, `t`, and `T` commands. Moreover, you can prefix the command with a numerical `[count]` (e.g., `3f`), which will exclusi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9-plugin"
+    },
+    {
+      "context_snippet": "Characters that are reachable with a single jump are highlighted, while others are dimmed. This enhancement enhances the accuracy of navigation using `f`, `F`, `t`, and `T` commands. Moreover, you can prefix the command with a numerical `[count]` (e.g., `3f`), which will exclusi\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim9script"
+    }
+  ]
+}

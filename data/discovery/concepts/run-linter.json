@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Run linter"
+    "Run linter",
+    "Run Linter"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,12 +20,48 @@
       "source_repo": "tc39/proposal-temporal",
       "status": "candidate-context",
       "text": "Run linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate-context",
+      "text": "IDE-style autocomplete for your existing terminal & shell"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate-context",
+      "text": "Run Linter"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "js-temporal/temporal-polyfill",
+      "status": "candidate-context",
+      "text": "Polyfill for Temporal (under construction)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "js-temporal/temporal-polyfill",
+      "status": "candidate-context",
+      "text": "Run linter"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "tc39/proposal-temporal",
+      "status": "candidate",
+      "text": "Run linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "withfig/autocomplete",
+      "status": "candidate",
+      "text": "Run Linter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "js-temporal/temporal-polyfill",
       "status": "candidate",
       "text": "Run linter"
     }
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/lint.yml",
       "source_repo": "tc39/proposal-temporal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "withfig/autocomplete"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "js-temporal/temporal-polyfill"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

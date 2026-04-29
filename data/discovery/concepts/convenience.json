@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "convenience"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate-context",
+      "text": "\u261d\ufe0fsend desktop notifications from your Rust app."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hoodie/notify-rust",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39951291,
+      "status": "candidate",
+      "text": "widget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39940794,
+      "status": "candidate",
+      "text": "gizmo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39940492,
+      "status": "candidate",
+      "text": "gadget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39922781,
+      "status": "candidate",
+      "text": "contraption"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39915283,
+      "status": "candidate",
+      "text": "contrivance"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 20030,
+      "status": "candidate",
+      "text": "contrivance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9038,
+      "status": "candidate",
+      "text": "gadget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8041,
+      "status": "candidate",
+      "text": "appliance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6044,
+      "status": "candidate",
+      "text": "widget"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6032,
+      "status": "candidate",
+      "text": "gizmo"
+    }
+  ],
+  "canonical_name": "convenience",
+  "concept_id": "convenience",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hoodie/notify-rust"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "convenience",
+      "sense_id": "convenience#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

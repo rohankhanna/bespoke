@@ -1,12 +1,22 @@
 {
   "component": "jwlawson/actions-setup-cmake@v1.9",
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "ROCm/AMDMIGraphX"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tox.yml",
+      "source_repo": "ROCm/rbuild"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ROCm/rocm-cmake"
     }
   ]
 }

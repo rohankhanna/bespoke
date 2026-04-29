@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "repo-validation"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/actions",
+      "status": "candidate-context",
+      "text": "Author and use Azure Actions to automate your GitHub workflows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/actions",
+      "status": "candidate-context",
+      "text": "\"repo-validation\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/actions",
+      "status": "candidate",
+      "text": "\"repo-validation\""
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "repo-validation",
+  "concept_id": "repo-validation",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/validation-repo-test.yml",
+      "source_repo": "Azure/actions"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "repo-validation",
+      "sense_id": "repo-validation#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

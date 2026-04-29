@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/mujoco-py",
+      "target": "deepmind/mujoco",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openai/mujoco-py",
+      "target": "velocyto-team/velocyto.r",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:50:14.689104+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7110
+    },
+    {
+      "path": "Dockerfile",
+      "size": 2364
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 170
+    },
+    {
+      "path": "requirements.txt",
+      "size": 147
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "MuJoCo is a physics engine for detailed, efficient rigid body simulations with contacts. mujoco-py allows using MuJoCo from Python 3.",
+    "fork": false,
+    "full_name": "openai/mujoco-py",
+    "html_url": "https://github.com/openai/mujoco-py",
+    "language": "Cython",
+    "pushed_at": "2023-12-10T12:47:21Z",
+    "stargazers_count": 3136,
+    "topics": [],
+    "updated_at": "2026-04-28T15:52:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepmind/mujoco",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "velocyto-team/velocyto.r",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

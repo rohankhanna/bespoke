@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[Deprecated] Protocol Buffers for Go with Gadgets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "module github.com/gogo/protobuf go 1.15 require ( github.com/kisielk/errcheck v1.5.0 // indirect github.com/kisielk/gotool v1.0.0 // indirect golang.org/x/tools v0.0.0-20210106214847-113979e3529a // indirect )"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "module github.com/gogo/protobuf go 1.15 require ( github.com/kisielk/errcheck v1.5.0 // indirect github.com/kisielk/gotool v1.0.0 // indirect golang.org/x/tools v0.0.0-20210106214847-113979e3529a // indirect )"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "golang",
+      "sense_id": "golang#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "golang",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "golang",
+  "observation_id": "a3e4fea97dbe9544",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "golang",
+  "source_context_snippet": "module github.com/gogo/protobuf go 1.15 require ( github.com/kisielk/errcheck v1.5.0 // indirect github.com/kisielk/gotool v1.0.0 // indirect golang.org/x/tools v0.0.0-20210106214847-113979e3529a // indirect )",
+  "source_file": null,
+  "source_repo": "gogo/protobuf",
+  "source_repo_description": "[Deprecated] Protocol Buffers for Go with Gadgets"
+}

@@ -1,7 +1,7 @@
 {
   "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -107,6 +107,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/issue-import.yml",
       "source_repo": "ROCm/rocm-libraries"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/android"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/ios"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bitwarden/server"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-gateway-plugins-changelogs.yml",
+      "source_repo": "Kong/developer.konghq.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-inso-cli-docs.yaml",
+      "source_repo": "Kong/developer.konghq.com"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/triage.yml",
+      "source_repo": "spack/spack-packages"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-dependencies.yml",
+      "source_repo": "pypa/manylinux"
     }
   ]
 }

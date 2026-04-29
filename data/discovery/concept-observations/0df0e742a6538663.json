@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "MagicEraser bot for telegram"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "MagicEraser - Telegram Bot for removing objects from pictures<br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "MagicEraser - Telegram Bot for removing objects from pictures<br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015854,
+      "status": "candidate",
+      "text": "reinterpolation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015853,
+      "status": "candidate",
+      "text": "reverse painting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015852,
+      "status": "candidate",
+      "text": "interpolation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015851,
+      "status": "candidate",
+      "text": "backfilling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10015850,
+      "status": "candidate",
+      "text": "repaint"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "inpainting",
+      "sense_id": "inpainting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "inpainting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "inpainting",
+  "observation_id": "0df0e742a6538663",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "inpainting",
+  "source_context_snippet": "MagicEraser - Telegram Bot for removing objects from pictures<br>",
+  "source_file": null,
+  "source_repo": "Moldoteck/MagicEraser",
+  "source_repo_description": "MagicEraser bot for telegram"
+}

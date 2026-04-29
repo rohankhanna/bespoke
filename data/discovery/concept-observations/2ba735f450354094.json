@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Auto masking and inpainting for person, face, hand. Resizing image using detection model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "BMAB\ub294 Stable Diffusion WebUI\uc758 \ud655\uc7a5 \uae30\ub2a5\uc73c\ub85c, \uc0dd\uc131\ub41c \uc774\ubbf8\uc9c0\ub97c \uc124\uc815\uc5d0 \ub530\ub77c \ud6c4\ucc98\ub9ac\ud558\ub294 \uae30\ub2a5\uc744 \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "BMAB\ub294 Stable Diffusion WebUI\uc758 \ud655\uc7a5 \uae30\ub2a5\uc73c\ub85c, \uc0dd\uc131\ub41c \uc774\ubbf8\uc9c0\ub97c \uc124\uc815\uc5d0 \ub530\ub77c \ud6c4\ucc98\ub9ac\ud558\ub294 \uae30\ub2a5\uc744 \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "stable-diffusion-webui",
+      "sense_id": "stable-diffusion-webui#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "stable-diffusion-webui",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "stable-diffusion-webui",
+  "observation_id": "2ba735f450354094",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "stable-diffusion-webui",
+  "source_context_snippet": "BMAB\ub294 Stable Diffusion WebUI\uc758 \ud655\uc7a5 \uae30\ub2a5\uc73c\ub85c, \uc0dd\uc131\ub41c \uc774\ubbf8\uc9c0\ub97c \uc124\uc815\uc5d0 \ub530\ub77c \ud6c4\ucc98\ub9ac\ud558\ub294 \uae30\ub2a5\uc744 \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4.",
+  "source_file": null,
+  "source_repo": "portu-sim/sd-webui-bmab",
+  "source_repo_description": "Auto masking and inpainting for person, face, hand. Resizing image using detection model."
+}

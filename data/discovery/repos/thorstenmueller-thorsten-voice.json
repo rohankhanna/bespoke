@@ -2,27 +2,6 @@
   "components": [],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "thorstenMueller/Thorsten-Voice",
-      "target": "rhasspy/piper",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "thorstenMueller/Thorsten-Voice",
-      "target": "zdisket/tensorvox",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "thorstenMueller/Thorsten-Voice",
-      "target": "monatis/german-tts",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "repo-topic",
       "source_file": null,
       "source_repo": "thorstenMueller/Thorsten-Voice",
@@ -65,7 +44,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:59:49.910782+00:00",
+  "fetched_at": "2026-04-29T21:49:43.200650+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -82,7 +61,7 @@
     "html_url": "https://github.com/thorstenMueller/Thorsten-Voice",
     "language": "Python",
     "pushed_at": "2026-02-02T17:17:42Z",
-    "stargazers_count": 710,
+    "stargazers_count": 712,
     "topics": [
       "dataset",
       "deutsch",
@@ -92,25 +71,9 @@
       "thorsten-voice",
       "tts"
     ],
-    "updated_at": "2026-04-19T22:22:32Z"
+    "updated_at": "2026-04-27T06:38:10Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "monatis/german-tts",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "rhasspy/piper",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zdisket/tensorvox",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "![Thorsten-Voice logo](Logo_Thorsten-Voice.png)",

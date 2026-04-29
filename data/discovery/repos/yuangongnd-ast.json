@@ -1,0 +1,183 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YuanGongND/ast",
+      "target": "yuangongnd/ltu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YuanGongND/ast",
+      "target": "yuangongnd/ssast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "YuanGongND/ast",
+      "target": "yuangongnd/psla",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ast",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ast",
+      "target": "audio-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ast",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ast",
+      "target": "keyword-spotting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ast",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ast",
+      "target": "representation-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ast",
+      "target": "speech-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YuanGongND/ast",
+      "target": "speech-commands",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:51:30.096959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19877
+    },
+    {
+      "path": "requirements.txt",
+      "size": 195
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Code for the Interspeech 2021 paper \"AST: Audio Spectrogram Transformer\".",
+    "fork": false,
+    "full_name": "YuanGongND/ast",
+    "html_url": "https://github.com/YuanGongND/ast",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-05-21T21:12:01Z",
+    "stargazers_count": 1452,
+    "topics": [
+      "audio",
+      "audio-classification",
+      "deep-learning",
+      "keyword-spotting",
+      "pytorch",
+      "representation-learning",
+      "speech-classification",
+      "speech-commands"
+    ],
+    "updated_at": "2026-04-28T05:23:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuangongnd/ltu",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuangongnd/psla",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "yuangongnd/ssast",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio-classification"
+    },
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keyword-spotting"
+    },
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "representation-learning"
+    },
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-classification"
+    },
+    {
+      "context_snippet": "- [News](#News)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-commands"
+    }
+  ]
+}

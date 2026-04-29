@@ -67,6 +67,42 @@
       "source_repo": "python-semantic-release/python-semantic-release",
       "status": "candidate-context",
       "text": "Python Semantic Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "status": "candidate-context",
+      "text": "ClojureScript \"IntelliSense\" support for JS objects and their properties/methods. Via figwheel and Emacs CIDER."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/app-permissions",
+      "status": "candidate-context",
+      "text": "machine-readable, always up-to-date GitHub App permissions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app-permissions",
+      "status": "candidate-context",
+      "text": "> machine-readable, always up-to-date GitHub App permissions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/openapi",
+      "status": "candidate-context",
+      "text": "GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi",
+      "status": "candidate-context",
+      "text": "> GitHub's official OpenAPI spec with Octokit extensions"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +135,24 @@
       "source_repo": "python-semantic-release/python-semantic-release",
       "status": "candidate",
       "text": "Python Semantic Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/app-permissions",
+      "status": "candidate",
+      "text": "> machine-readable, always up-to-date GitHub App permissions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi",
+      "status": "candidate",
+      "text": "> GitHub's official OpenAPI spec with Octokit extensions"
     }
   ],
   "candidate_related_terms": [
@@ -172,11 +226,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "python-semantic-release/python-semantic-release"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-suitable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/app-permissions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/openapi"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

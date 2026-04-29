@@ -31,6 +31,42 @@
       "source_repo": "model-checking/kani",
       "status": "candidate-context",
       "text": "![](./kani-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate-context",
+      "text": "HACL*, a formally verified cryptographic library written in F*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate-context",
+      "text": "This repository contains verified code for a library of modern"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FStarLang/FStar",
+      "status": "candidate-context",
+      "text": "A Proof-oriented Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/FStar",
+      "status": "candidate-context",
+      "text": "F*: A Proof-oriented Programming Language"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FStarLang/karamel",
+      "status": "candidate-context",
+      "text": "KaRaMeL is a tool for extracting low-level F* programs to readable C code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/karamel",
+      "status": "candidate-context",
+      "text": "KaRaMeL"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "model-checking/kani",
       "status": "candidate",
       "text": "![](./kani-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hacl-star/hacl-star",
+      "status": "candidate",
+      "text": "This repository contains verified code for a library of modern"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/FStar",
+      "status": "candidate",
+      "text": "F*: A Proof-oriented Programming Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FStarLang/karamel",
+      "status": "candidate",
+      "text": "KaRaMeL"
     }
   ],
   "candidate_related_terms": [
@@ -122,11 +176,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "model-checking/kani"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FStarLang/FStar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FStarLang/karamel"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

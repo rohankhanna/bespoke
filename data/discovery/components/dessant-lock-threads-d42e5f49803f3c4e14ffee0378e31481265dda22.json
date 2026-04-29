@@ -1,0 +1,12 @@
+{
+  "component": "dessant/lock-threads@d42e5f49803f3c4e14ffee0378e31481265dda22",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lock-issues.yml",
+      "source_repo": "kennethreitz/requests"
+    }
+  ]
+}

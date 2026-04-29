@@ -1,0 +1,192 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "haskell-actions/setup@v2.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovatebot.yml"
+    },
+    {
+      "component": "renovatebot/github-action@v46.1.11",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovatebot.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "target": "dhall-lang/dhall-lang",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "target": "haskell-actions/setup@v2.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovatebot.yml",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/renovatebot.yml",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "target": "renovatebot/github-action@v46.1.11",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovatebot.yml",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "target": "renovatebot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dhall-lang/dhall-haskell",
+      "target": "configuration-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dhall-lang/dhall-haskell",
+      "target": "dhall",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dhall-lang/dhall-haskell",
+      "target": "haskell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:01:24.999317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12817
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 6762
+    },
+    {
+      "path": ".github/workflows/renovatebot.yml",
+      "size": 736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Maintainable configuration files",
+    "fork": false,
+    "full_name": "dhall-lang/dhall-haskell",
+    "html_url": "https://github.com/dhall-lang/dhall-haskell",
+    "language": "Dhall",
+    "pushed_at": "2026-04-27T16:17:00Z",
+    "stargazers_count": 960,
+    "topics": [
+      "configuration-language",
+      "dhall",
+      "haskell"
+    ],
+    "updated_at": "2026-04-27T16:17:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dhall-lang/dhall-lang",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "renovatebot",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/renovatebot.yml",
+      "term": "renovatebot"
+    },
+    {
+      "context_snippet": "You will probably want to read the language-agnostic `README` here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "configuration-language"
+    },
+    {
+      "context_snippet": "You will probably want to read the language-agnostic `README` here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dhall"
+    },
+    {
+      "context_snippet": "You will probably want to read the language-agnostic `README` here:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "haskell"
+    }
+  ]
+}

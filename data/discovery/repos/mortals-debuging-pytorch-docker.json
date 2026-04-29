@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:50:47.804481+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2552
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Get image by: docker pull mortals/codeenv:pytorch-base",
+    "fork": false,
+    "full_name": "mortals-debuging/pytorch-docker",
+    "html_url": "https://github.com/mortals-debuging/pytorch-docker",
+    "language": "Dockerfile",
+    "pushed_at": "2023-09-18T04:03:40Z",
+    "stargazers_count": 16,
+    "topics": [],
+    "updated_at": "2025-06-09T08:31:43Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

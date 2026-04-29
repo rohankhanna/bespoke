@@ -1,13 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aws-powertools/powertools-lambda-dotnet",
-      "target": "getndazn/dazn-lambda-powertools",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "aws-powertools/powertools-lambda-dotnet",
@@ -151,7 +144,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/e2e-tests.yml",
       "source_repo": "aws-powertools/powertools-lambda-dotnet",
-      "target": "actions/setup-node@53b83947a5a98c8d113130e565377fae1a50d02f",
+      "target": "actions/setup-node@48b55a011bda9f5d6aeb4c2d9c7362e8dae4041e",
       "target_type": "component"
     },
     {
@@ -239,6 +232,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "aws-powertools/powertools-lambda-dotnet"
 }

@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "mlcommons/cla-bot@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "cla-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_submission.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_submission.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sync_submission.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sync_submission.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "Sync Submission on Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_pr.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_pr.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate_pr.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate_pr.yml",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "target": "Validate PR Template",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "mlcommons/submissions_algorithms"
+}

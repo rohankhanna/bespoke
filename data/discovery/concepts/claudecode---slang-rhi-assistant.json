@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "ClaudeCode - Slang-RHI Assistant"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "shader-slang/slang-rhi",
+      "status": "candidate-context",
+      "text": "Slang Render Hardware Interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang-rhi",
+      "status": "candidate-context",
+      "text": "ClaudeCode - Slang-RHI Assistant"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "shader-slang/slang-rhi",
+      "status": "candidate",
+      "text": "ClaudeCode - Slang-RHI Assistant"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "acolyte"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "adjutant"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "aide"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "aides"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26424,
+      "status": "candidate",
+      "text": "assistance"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "ClaudeCode - Slang-RHI Assistant",
+  "concept_id": "claudecode---slang-rhi-assistant",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "shader-slang/slang-rhi"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "ClaudeCode - Slang-RHI Assistant",
+      "sense_id": "claudecode---slang-rhi-assistant#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

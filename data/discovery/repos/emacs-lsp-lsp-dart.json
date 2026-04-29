@@ -1,0 +1,348 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "peaceiris/actions-gh-pages@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jcs090218/setup-emacs@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "emacs-eask/setup-eask@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "ericdallo/hover.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "amake/flutter.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "peaceiris/actions-gh-pages@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "Docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "jcs090218/setup-emacs@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "emacs-eask/setup-eask@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "closing-labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "emacs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "emacs-lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "emacs-package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "flutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "lsp-client",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "lsp-dart",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "lsp-mode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "melpa",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "outline-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "server-lsp",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "tree-views",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart",
+      "target": "treemacs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:40:57.046255+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19966
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 681
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1097
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "lsp-mode :heart: dart",
+    "fork": false,
+    "full_name": "emacs-lsp/lsp-dart",
+    "html_url": "https://github.com/emacs-lsp/lsp-dart",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-02-14T23:54:28Z",
+    "stargazers_count": 213,
+    "topics": [
+      "analysis",
+      "closing-labels",
+      "dart",
+      "emacs",
+      "emacs-lsp",
+      "emacs-package",
+      "flutter",
+      "lsp",
+      "lsp-client",
+      "lsp-dart",
+      "lsp-mode",
+      "melpa",
+      "outline-tree",
+      "server-lsp",
+      "tree-views",
+      "treemacs"
+    ],
+    "updated_at": "2026-04-11T18:24:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amake/flutter.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericdallo/hover.el",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "analysis"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "closing-labels"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dart"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-lsp"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "emacs-package"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flutter"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsp-client"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsp-dart"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lsp-mode"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "melpa"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "outline-tree"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "server-lsp"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tree-views"
+    },
+    {
+      "context_snippet": "lsp-dart",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "treemacs"
+    }
+  ]
+}

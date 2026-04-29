@@ -1,0 +1,98 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fcambus/spleen",
+      "target": "jcs/msterm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fcambus/spleen",
+      "target": "niluje/fbink",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "fcambus/spleen",
+      "target": "olikraus/u8g2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcambus/spleen",
+      "target": "bitmap-font",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fcambus/spleen",
+      "target": "monospaced",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:48:22.617936+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Monospaced bitmap fonts",
+    "fork": false,
+    "full_name": "fcambus/spleen",
+    "html_url": "https://github.com/fcambus/spleen",
+    "language": "Assembly",
+    "pushed_at": "2026-04-10T20:27:45Z",
+    "stargazers_count": 1311,
+    "topics": [
+      "bdf",
+      "bitmap-font",
+      "monospaced",
+      "pcf",
+      "psf"
+    ],
+    "updated_at": "2026-04-27T17:32:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jcs/msterm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "niluje/fbink",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "olikraus/u8g2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitmap-font"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "monospaced"
+    }
+  ]
+}

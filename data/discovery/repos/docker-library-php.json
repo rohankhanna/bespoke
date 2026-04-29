@@ -1,0 +1,105 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "docker-library/bashbrew@HEAD",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-templating.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/php",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/php",
+      "target": "docker-library/bashbrew@HEAD",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "docker-library/php",
+      "target": "GitHub CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/verify-templating.yml",
+      "source_repo": "docker-library/php",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-templating.yml",
+      "source_repo": "docker-library/php",
+      "target": "Verify Templating",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:39.736794+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1620
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1482
+    },
+    {
+      "path": ".github/workflows/verify-templating.yml",
+      "size": 337
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Docker Official Image packaging for PHP",
+    "fork": false,
+    "full_name": "docker-library/php",
+    "html_url": "https://github.com/docker-library/php",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-24T07:38:16Z",
+    "stargazers_count": 4016,
+    "topics": [],
+    "updated_at": "2026-04-28T06:22:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "GitHub CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "GitHub CI"
+    },
+    {
+      "context_snippet": "Verify Templating",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/verify-templating.yml",
+      "term": "Verify Templating"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:56:38.915343+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 929
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Ruby implementation of a Base16 builder",
+    "fork": true,
+    "full_name": "obahareth/base16-builder-ruby",
+    "html_url": "https://github.com/obahareth/base16-builder-ruby",
+    "language": null,
+    "pushed_at": "2022-04-28T22:12:36Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2023-03-05T02:04:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

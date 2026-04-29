@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:57:30.999671+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Highlights trailing whitespace in red and provides :FixWhitespace to fix it.",
+    "fork": false,
+    "full_name": "bronson/vim-trailing-whitespace",
+    "html_url": "https://github.com/bronson/vim-trailing-whitespace",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-16T22:51:56Z",
+    "stargazers_count": 454,
+    "topics": [],
+    "updated_at": "2026-04-16T22:52:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

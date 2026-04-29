@@ -295,6 +295,42 @@
       "source_repo": "datreeio/datree",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emibcn/pywisp",
+      "status": "candidate-context",
+      "text": "Access AirControl2 (API), AirOS (SSH) & Mikrotik (SSH) from the same place"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/pywisp",
+      "status": "candidate-context",
+      "text": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chef/chef",
+      "status": "candidate-context",
+      "text": "Chef Infra, a powerful automation platform that transforms infrastructure into code automating how infrastructure is configured, deployed and managed across any environment, at any scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/chef",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://badge.buildkite.com/c82093430ceec7d27af05febb9dcafe3aa331fff9d74c0ab9d.svg?branch=main)](https://buildkite.com/chef-oss/chef-chef-main-verify)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-devops",
+      "status": "candidate-context",
+      "text": "\ud83d\udea7 Learn the craft of \"DevOps\" (Developer Operations) to Deploy your App and Monitor it so it stays \"Up\"! "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-devops",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +477,24 @@
       "source_repo": "datreeio/datree",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emibcn/pywisp",
+      "status": "candidate",
+      "text": "![Coverage](https://raw.githubusercontent.com/emibcn/pywisp/badges/master/test-coverage.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/chef",
+      "status": "candidate",
+      "text": "[![Build Status](https://badge.buildkite.com/c82093430ceec7d27af05febb9dcafe3aa331fff9d74c0ab9d.svg?branch=main)](https://buildkite.com/chef-oss/chef-chef-main-verify)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-devops",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -627,11 +681,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "datreeio/datree"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "emibcn/pywisp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chef/chef"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-devops"
     }
   ],
   "first_seen_at": "2026-04-18T18:48:44.679047+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -355,6 +355,42 @@
       "source_repo": "gr2m/before-after-hook",
       "status": "candidate-context",
       "text": "> asynchronous hooks for internal functionality"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mhinz/vim-signify",
+      "status": "candidate-context",
+      "text": ":heavy_plus_sign: Show a diff using Vim its sign column."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-signify",
+      "status": "candidate-context",
+      "text": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smol-rs/async-channel",
+      "status": "candidate-context",
+      "text": "Async multi-producer multi-consumer channel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/async-channel",
+      "status": "candidate-context",
+      "text": "[![Build](https://github.com/smol-rs/async-channel/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "actor-framework/actor-framework",
+      "status": "candidate-context",
+      "text": "An Open Source Implementation of the Actor Model in C++"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actor-framework/actor-framework",
+      "status": "candidate-context",
+      "text": "[![Gitter][gitter-badge]](https://gitter.im/actor-framework/chat)"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +567,24 @@
       "source_repo": "gr2m/before-after-hook",
       "status": "candidate",
       "text": "> asynchronous hooks for internal functionality"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mhinz/vim-signify",
+      "status": "candidate",
+      "text": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smol-rs/async-channel",
+      "status": "candidate",
+      "text": "[![Build](https://github.com/smol-rs/async-channel/actions/workflows/ci.yml/badge.svg)]("
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "actor-framework/actor-framework",
+      "status": "candidate",
+      "text": "[![Gitter][gitter-badge]](https://gitter.im/actor-framework/chat)"
     }
   ],
   "candidate_related_terms": [
@@ -754,11 +808,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "gr2m/before-after-hook"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mhinz/vim-signify"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "smol-rs/async-channel"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "actor-framework/actor-framework"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

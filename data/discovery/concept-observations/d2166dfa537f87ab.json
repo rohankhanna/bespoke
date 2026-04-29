@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LSP helper for ruff - an extremely fast Python linter, written in Rust."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a helper package that automatically installs and updates [ruff](https://github.com/astral-sh/ruff) for you. Ruff is an extremely fast Python linter and code transformation tool, written in Rust."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a helper package that automatically installs and updates [ruff](https://github.com/astral-sh/ruff) for you. Ruff is an extremely fast Python linter and code transformation tool, written in Rust."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19895107,
+      "status": "candidate",
+      "text": "linter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19895106,
+      "status": "candidate",
+      "text": "inliner"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19895105,
+      "status": "candidate",
+      "text": "debugging"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19895104,
+      "status": "candidate",
+      "text": "code review"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19895103,
+      "status": "candidate",
+      "text": "dynamic language"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "linting",
+      "sense_id": "linting#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "linting",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "linting",
+  "observation_id": "d2166dfa537f87ab",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "linting",
+  "source_context_snippet": "This is a helper package that automatically installs and updates [ruff](https://github.com/astral-sh/ruff) for you. Ruff is an extremely fast Python linter and code transformation tool, written in Rust.",
+  "source_file": null,
+  "source_repo": "sublimelsp/LSP-ruff",
+  "source_repo_description": "LSP helper for ruff - an extremely fast Python linter, written in Rust."
+}

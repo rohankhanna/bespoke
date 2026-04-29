@@ -34,13 +34,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "multiformats/cid",
-      "target": "zen-eth/multiformats-zig",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/generated-pr.yml",
       "source_repo": "multiformats/cid",
@@ -90,7 +83,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T13:00:32.628941+00:00",
+  "fetched_at": "2026-04-29T20:58:35.813958+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -115,14 +108,14 @@
     "html_url": "https://github.com/multiformats/cid",
     "language": null,
     "pushed_at": "2025-04-28T15:57:33Z",
-    "stargazers_count": 484,
+    "stargazers_count": 485,
     "topics": [
       "cid",
       "ipfs",
       "ipld",
       "multiformats"
     ],
-    "updated_at": "2026-04-16T22:18:11Z"
+    "updated_at": "2026-04-28T03:03:50Z"
   },
   "repo_links": [
     {
@@ -138,11 +131,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "pinnaculum/py-multiformats-cid",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "zen-eth/multiformats-zig",
       "source_file": "README.md"
     }
   ],

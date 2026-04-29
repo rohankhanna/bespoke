@@ -1,7 +1,7 @@
 {
   "component": "actions/download-artifact@37930b1c2abaa49bbe596cd826c3c89aef350131",
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -197,6 +197,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/container-ci.yaml",
       "source_repo": "intel/ai-containers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "medama-io/medama"
     }
   ]
 }

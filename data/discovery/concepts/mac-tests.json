@@ -19,12 +19,30 @@
       "source_repo": "python-lsp/python-lsp-server",
       "status": "candidate-context",
       "text": "Mac tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optuna",
+      "status": "candidate-context",
+      "text": "A hyperparameter optimization framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna",
+      "status": "candidate-context",
+      "text": "Mac tests"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "python-lsp/python-lsp-server",
+      "status": "candidate",
+      "text": "Mac tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna",
       "status": "candidate",
       "text": "Mac tests"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/test-mac.yml",
       "source_repo": "python-lsp/python-lsp-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/mac-tests.yml",
+      "source_repo": "optuna/optuna"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

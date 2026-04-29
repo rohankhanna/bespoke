@@ -1,0 +1,255 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "baichaun2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "baichuan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "baichuan-13b",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "bloom",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "chatglm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "falcon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "firefly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "internlm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "llama-2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "llama2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "lora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "pretrain",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "qlora",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "qwen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "yangjianxin1/Firefly-LLaMA2-Chinese",
+      "target": "xverse",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:54.327772+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Firefly\u4e2d\u6587LLaMA-2\u5927\u6a21\u578b\uff0c\u652f\u6301\u589e\u91cf\u9884\u8bad\u7ec3Baichuan2\u3001Llama2\u3001Llama\u3001Falcon\u3001Qwen\u3001Baichuan\u3001InternLM\u3001Bloom\u7b49\u5927\u6a21\u578b",
+    "fork": false,
+    "full_name": "yangjianxin1/Firefly-LLaMA2-Chinese",
+    "html_url": "https://github.com/yangjianxin1/Firefly-LLaMA2-Chinese",
+    "language": "Python",
+    "pushed_at": "2023-10-21T07:30:41Z",
+    "stargazers_count": 416,
+    "topics": [
+      "baichaun2",
+      "baichuan",
+      "baichuan-13b",
+      "bloom",
+      "chatglm",
+      "falcon",
+      "firefly",
+      "internlm",
+      "llama",
+      "llama-2",
+      "llama2",
+      "llm",
+      "lora",
+      "pretrain",
+      "qlora",
+      "qwen",
+      "xverse"
+    ],
+    "updated_at": "2026-02-12T05:01:50Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baichaun2"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baichuan"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "baichuan-13b"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bloom"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatglm"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "falcon"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "firefly"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "internlm"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama-2"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lora"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrain"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qlora"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qwen"
+    },
+    {
+      "context_snippet": "accelerate==0.21.0 transformers==4.30.2 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xverse"
+    }
+  ]
+}

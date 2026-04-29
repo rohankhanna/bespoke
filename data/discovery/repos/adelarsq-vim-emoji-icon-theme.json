@@ -12,14 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "adelarsq/vim-emoji-icon-theme",
-      "target": "andymass/vim-matchup",
+      "target": "drzel/vim-line-no-indicator",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "adelarsq/vim-emoji-icon-theme",
-      "target": "arecarn/vim-crunch",
+      "target": "glepnir/dashboard-nvim",
       "target_type": "repository"
     },
     {
@@ -65,7 +65,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:12:58.527004+00:00",
+  "fetched_at": "2026-04-29T19:41:14.216422+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -106,12 +106,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "andymass/vim-matchup",
+      "full_name": "drzel/vim-line-no-indicator",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "arecarn/vim-crunch",
+      "full_name": "glepnir/dashboard-nvim",
       "source_file": "README.md"
     }
   ],

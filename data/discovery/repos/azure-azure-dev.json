@@ -1,0 +1,521 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "hashicorp/setup-terraform@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cspell-ext.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cspell-ext.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cspell-misc.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cspell-misc.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-feature-release.yml"
+    },
+    {
+      "component": "devcontainers/action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-feature-release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-feature-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-feature-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-feature-test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devops-ext-ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devops-ext-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-unit.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-unit.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-unit.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-unit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-unit.yml"
+    },
+    {
+      "component": "write",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/event.yml"
+    },
+    {
+      "component": "azure/azure-sdk-actions@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/event.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/azure-dev",
+      "target": "azure-samples/azd-template-artifacts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-ci.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cli-ci.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-ci.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "cli-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "hashicorp/setup-terraform@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "Copilot Setup Steps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cspell-ext.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cspell-ext.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cspell-ext.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "cspell-ext",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cspell-misc.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cspell-misc.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cspell-misc.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "misc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-feature-release.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-feature-release.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "devcontainers/action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devcontainer-feature-release.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "Release dev container feature image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devcontainer-feature-test.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devcontainer-feature-test.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "Test dev container feature",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devops-ext-ci.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/devops-ext-ci.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devops-ext-ci.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "azureDevOps-ext-ci",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-unit.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-unit.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-unit.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-unit.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/eval-unit.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/eval-unit.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "Eval: Unit Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/event.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "write",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/event.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "azure/azure-sdk-actions@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/event.yml",
+      "source_repo": "Azure/azure-dev",
+      "target": "Check Enforcer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-dev",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-dev",
+      "target": "deployments",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-dev",
+      "target": "microsoft",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:38:24.443327+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4915
+    },
+    {
+      "path": ".github/workflows/cli-ci.yml",
+      "size": 1167
+    },
+    {
+      "path": ".github/workflows/copilot-setup-steps.yml",
+      "size": 1738
+    },
+    {
+      "path": ".github/workflows/cspell-ext.yml",
+      "size": 1109
+    },
+    {
+      "path": ".github/workflows/cspell-misc.yml",
+      "size": 689
+    },
+    {
+      "path": ".github/workflows/devcontainer-feature-release.yml",
+      "size": 822
+    },
+    {
+      "path": ".github/workflows/devcontainer-feature-test.yml",
+      "size": 1618
+    },
+    {
+      "path": ".github/workflows/devops-ext-ci.yml",
+      "size": 855
+    },
+    {
+      "path": ".github/workflows/eval-unit.yml",
+      "size": 1456
+    },
+    {
+      "path": ".github/workflows/event.yml",
+      "size": 1024
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A developer CLI for working with Azure resources to build and deploy AI applications. Commands map to key workflow stages: code, build, deploy, and monitor.",
+    "fork": false,
+    "full_name": "Azure/azure-dev",
+    "html_url": "https://github.com/Azure/azure-dev",
+    "language": "Go",
+    "pushed_at": "2026-04-29T18:45:49Z",
+    "stargazers_count": 521,
+    "topics": [
+      "agents",
+      "ai",
+      "azure",
+      "cli",
+      "deployments",
+      "microsoft"
+    ],
+    "updated_at": "2026-04-29T17:55:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure-samples/azd-template-artifacts",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "cli-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cli-ci.yml",
+      "term": "cli-ci"
+    },
+    {
+      "context_snippet": "\"Copilot Setup Steps\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copilot-setup-steps.yml",
+      "term": "Copilot Setup Steps"
+    },
+    {
+      "context_snippet": "cspell-ext",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cspell-ext.yml",
+      "term": "cspell-ext"
+    },
+    {
+      "context_snippet": "misc",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cspell-misc.yml",
+      "term": "misc"
+    },
+    {
+      "context_snippet": "Release dev container feature image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devcontainer-feature-release.yml",
+      "term": "Release dev container feature image"
+    },
+    {
+      "context_snippet": "Test dev container feature",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devcontainer-feature-test.yml",
+      "term": "Test dev container feature"
+    },
+    {
+      "context_snippet": "azureDevOps-ext-ci",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/devops-ext-ci.yml",
+      "term": "azureDevOps-ext-ci"
+    },
+    {
+      "context_snippet": "\"Eval: Unit Tests\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/eval-unit.yml",
+      "term": "Eval: Unit Tests"
+    },
+    {
+      "context_snippet": "Check Enforcer",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/event.yml",
+      "term": "Check Enforcer"
+    },
+    {
+      "context_snippet": "> **From code to cloud in minutes.** A developer-centric CLI to build, deploy, and operate Azure applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "> **From code to cloud in minutes.** A developer-centric CLI to build, deploy, and operate Azure applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployments"
+    },
+    {
+      "context_snippet": "> **From code to cloud in minutes.** A developer-centric CLI to build, deploy, and operate Azure applications.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    }
+  ]
+}

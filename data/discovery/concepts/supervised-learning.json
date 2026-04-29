@@ -19,6 +19,18 @@
       "source_repo": "cgnorthcutt/confidentlearning-reproduce",
       "status": "candidate-context",
       "text": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25\ud83d\udd25High-Performance Face Recognition Library on PaddlePaddle & PyTorch\ud83d\udd25\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate-context",
+      "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cgnorthcutt/confidentlearning-reproduce",
       "status": "candidate",
       "text": "Experimental data for reproducibility of CIFAR-10 experimental results in the [confident learning paper](https://arxiv.org/abs/1911.00068)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate",
+      "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "cgnorthcutt/confidentlearning-reproduce"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

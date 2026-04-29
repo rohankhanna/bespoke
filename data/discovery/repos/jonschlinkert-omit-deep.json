@@ -1,0 +1,181 @@
+{
+  "components": [
+    {
+      "component": "is-plain-object",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "unset-value",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "gulp-format-md",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "mocha",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jonschlinkert/omit-deep",
+      "target": "verbose/verb",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/omit-deep",
+      "target": "is-plain-object",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/omit-deep",
+      "target": "unset-value",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/omit-deep",
+      "target": "gulp-format-md",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jonschlinkert/omit-deep",
+      "target": "mocha",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/omit-deep",
+      "target": "deep",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/omit-deep",
+      "target": "node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/omit-deep",
+      "target": "nodejs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/omit-deep",
+      "target": "object",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/omit-deep",
+      "target": "omit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jonschlinkert/omit-deep",
+      "target": "remove",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:39:59.676959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2513
+    },
+    {
+      "path": "package.json",
+      "size": 1151
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Recursively omit specified keys from an object.",
+    "fork": false,
+    "full_name": "jonschlinkert/omit-deep",
+    "html_url": "https://github.com/jonschlinkert/omit-deep",
+    "language": "JavaScript",
+    "pushed_at": "2022-06-08T16:09:26Z",
+    "stargazers_count": 79,
+    "topics": [
+      "deep",
+      "javascript",
+      "node",
+      "nodejs",
+      "object",
+      "omit",
+      "remove"
+    ],
+    "updated_at": "2024-12-20T22:24:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "verbose/verb",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "> Recursively omit the specified key or keys from an object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep"
+    },
+    {
+      "context_snippet": "> Recursively omit the specified key or keys from an object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "node"
+    },
+    {
+      "context_snippet": "> Recursively omit the specified key or keys from an object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nodejs"
+    },
+    {
+      "context_snippet": "> Recursively omit the specified key or keys from an object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object"
+    },
+    {
+      "context_snippet": "> Recursively omit the specified key or keys from an object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "omit"
+    },
+    {
+      "context_snippet": "> Recursively omit the specified key or keys from an object.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "remove"
+    }
+  ]
+}

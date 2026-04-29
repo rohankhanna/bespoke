@@ -1,0 +1,606 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@7315a94840631165970262a99c72cfb48a65d25d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@7315a94840631165970262a99c72cfb48a65d25d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@7315a94840631165970262a99c72cfb48a65d25d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@7315a94840631165970262a99c72cfb48a65d25d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "coverallsapp/github-action@3284643be2c47fb6432518ecec17f1255e8a06a6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "ilammy/msvc-dev-cmd@7315a94840631165970262a99c72cfb48a65d25d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "hecrj/setup-rust-action@f344d1a51e8ad6e1c6c51d9cf8d5a6edf4cfd230",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "peaceiris/actions-mdbook@4b5ef36b314c2599664ca107bb8c02412548d79d",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/configure-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js.yml"
+    },
+    {
+      "component": "actions/add-to-project@v0.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocaml.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocaml.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocaml.yml"
+    },
+    {
+      "component": "ocaml/setup-ocaml@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocaml.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark_pull_request.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "ilammy/msvc-dev-cmd@7315a94840631165970262a99c72cfb48a65d25d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_pull_request.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "ilammy/msvc-dev-cmd@7315a94840631165970262a99c72cfb48a65d25d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "coverallsapp/github-action@3284643be2c47fb6432518ecec17f1255e8a06a6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "Test Coveralls",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "ilammy/msvc-dev-cmd@7315a94840631165970262a99c72cfb48a65d25d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "hecrj/setup-rust-action@f344d1a51e8ad6e1c6c51d9cf8d5a6edf4cfd230",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "peaceiris/actions-mdbook@4b5ef36b314c2599664ca107bb8c02412548d79d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "ocaml/setup-ocaml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/upload-pages-artifact@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/configure-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/deploy-pages@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/js.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/new_issue.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/add-to-project@v0.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issue.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "Add issue to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocaml.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocaml.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ocaml.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "ocaml/setup-ocaml@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ocaml.yml",
+      "source_repo": "cryspen/hacl-packages",
+      "target": "ocaml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cryspen/hacl-packages",
+      "target": "aead",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cryspen/hacl-packages",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cryspen/hacl-packages",
+      "target": "decryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cryspen/hacl-packages",
+      "target": "digest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cryspen/hacl-packages",
+      "target": "encryption",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cryspen/hacl-packages",
+      "target": "formally-verified",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cryspen/hacl-packages",
+      "target": "hashing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cryspen/hacl-packages",
+      "target": "hkdf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cryspen/hacl-packages",
+      "target": "hmac",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cryspen/hacl-packages",
+      "target": "signatures",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:56.315042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7591
+    },
+    {
+      "path": ".github/workflows/benchmark_pull_request.yml",
+      "size": 1109
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 8842
+    },
+    {
+      "path": ".github/workflows/build_pull_request.yml",
+      "size": 6806
+    },
+    {
+      "path": ".github/workflows/coverage.yml",
+      "size": 1803
+    },
+    {
+      "path": ".github/workflows/examples.yml",
+      "size": 1326
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 4454
+    },
+    {
+      "path": ".github/workflows/js.yml",
+      "size": 509
+    },
+    {
+      "path": ".github/workflows/new_issue.yml",
+      "size": 345
+    },
+    {
+      "path": ".github/workflows/ocaml.yml",
+      "size": 2559
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Cryspen HACL Distribution",
+    "fork": false,
+    "full_name": "cryspen/hacl-packages",
+    "html_url": "https://github.com/cryspen/hacl-packages",
+    "language": "C",
+    "pushed_at": "2025-04-20T01:01:32Z",
+    "stargazers_count": 19,
+    "topics": [
+      "aead",
+      "cryptography",
+      "decryption",
+      "digest",
+      "encryption",
+      "formally-verified",
+      "hashing",
+      "hkdf",
+      "hmac",
+      "signatures"
+    ],
+    "updated_at": "2026-02-16T23:23:52Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": "Test Coveralls",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverage.yml",
+      "term": "Test Coveralls"
+    },
+    {
+      "context_snippet": "examples",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/examples.yml",
+      "term": "examples"
+    },
+    {
+      "context_snippet": "Add issue to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/new_issue.yml",
+      "term": "Add issue to project"
+    },
+    {
+      "context_snippet": "ocaml",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ocaml.yml",
+      "term": "ocaml"
+    },
+    {
+      "context_snippet": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aead"
+    },
+    {
+      "context_snippet": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "decryption"
+    },
+    {
+      "context_snippet": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "digest"
+    },
+    {
+      "context_snippet": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encryption"
+    },
+    {
+      "context_snippet": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formally-verified"
+    },
+    {
+      "context_snippet": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hashing"
+    },
+    {
+      "context_snippet": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hkdf"
+    },
+    {
+      "context_snippet": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hmac"
+    },
+    {
+      "context_snippet": "This repository contains ready-to-use crypto packages developed by [Cryspen] on top of [HACL*].",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "signatures"
+    }
+  ]
+}

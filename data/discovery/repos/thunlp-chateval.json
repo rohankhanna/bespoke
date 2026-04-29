@@ -7,16 +7,9 @@
       "source_repo": "thunlp/ChatEval",
       "target": "chanchimin/chateval",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "requirements.txt",
-      "source_repo": "thunlp/ChatEval",
-      "target": "openbmb/bmtools",
-      "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T09:04:30.924996+00:00",
+  "fetched_at": "2026-04-29T19:53:24.441597+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -46,11 +39,6 @@
       "edge_type": "explicit-github-link",
       "full_name": "chanchimin/chateval",
       "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "openbmb/bmtools",
-      "source_file": "requirements.txt"
     }
   ],
   "terms": []

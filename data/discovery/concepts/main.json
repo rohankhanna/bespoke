@@ -428,6 +428,234 @@
       "source_repo": "softprops/hubcaps",
       "status": "candidate-context",
       "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rhasspy/piper",
+      "status": "candidate-context",
+      "text": "A fast, local neural text to speech system"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhasspy/piper",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/twine",
+      "status": "candidate-context",
+      "text": "Utilities for interacting with PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/twine",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "status": "candidate-context",
+      "text": "Sync pre-commit hook dependencies based on other installed hooks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ManuelHentschel/VSCode-R-Debugger",
+      "status": "candidate-context",
+      "text": "R Debugger Extension for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManuelHentschel/VSCode-R-Debugger",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "randy3k/radian",
+      "status": "candidate-context",
+      "text": "A 21 century R console"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy3k/radian",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "REditorSupport/vscode-R-syntax",
+      "status": "candidate-context",
+      "text": "R Syntax Highlight for Visual Studio Code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R-syntax",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vercel-labs/mdxjs-rs-turbopack",
+      "status": "candidate-context",
+      "text": "Compile MDX to JavaScript in Rust - Includes updates for Turbopack"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel-labs/mdxjs-rs-turbopack",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromark/micromark",
+      "status": "candidate-context",
+      "text": "small, safe, and great commonmark (optionally gfm, mdx) compliant markdown parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromark/micromark",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rehypejs/rehype",
+      "status": "candidate-context",
+      "text": "HTML processor powered by plugins part of the @unifiedjs collective"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehypejs/rehype",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rehypejs/rehype-highlight",
+      "status": "candidate-context",
+      "text": "plugin to highlight code blocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehypejs/rehype-highlight",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syntax-tree/hast",
+      "status": "candidate-context",
+      "text": "Hypertext Abstract Syntax Tree format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/hast",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syntax-tree/mdast",
+      "status": "candidate-context",
+      "text": "Markdown Abstract Syntax Tree format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/mdast",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "unifiedjs/unified",
+      "status": "candidate-context",
+      "text": "Parse, inspect, transform, and serialize content with syntax trees"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unifiedjs/unified",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/OLMo-core",
+      "status": "candidate-context",
+      "text": "PyTorch building blocks for the OLMo ecosystem"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/OLMo-core",
+      "status": "candidate-context",
+      "text": "Main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hanabi1224/RuAnnoy",
+      "status": "candidate-context",
+      "text": "Rust port of annoy (https://github.com/spotify/annoy)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hanabi1224/RuAnnoy",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "typstyle-rs/pre-commit-typstyle",
+      "status": "candidate-context",
+      "text": "typstyle for pre-commit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typstyle-rs/pre-commit-typstyle",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "status": "candidate-context",
+      "text": "Maintainable configuration files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "asottile/yesqa",
+      "status": "candidate-context",
+      "text": "Automatically remove unnecessary `# noqa` comments"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/yesqa",
+      "status": "candidate-context",
+      "text": "main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/flake8",
+      "status": "candidate-context",
+      "text": "flake8 is a python tool that glues together pycodestyle, pyflakes, mccabe, and third-party plugins to check the style and quality of some python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8",
+      "status": "candidate-context",
+      "text": "main"
     }
   ],
   "candidate_glosses": [
@@ -640,6 +868,120 @@
       "source_repo": "softprops/hubcaps",
       "status": "candidate",
       "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rhasspy/piper",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/twine",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pre-commit/sync-pre-commit-deps",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ManuelHentschel/VSCode-R-Debugger",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy3k/radian",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "REditorSupport/vscode-R-syntax",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vercel-labs/mdxjs-rs-turbopack",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromark/micromark",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehypejs/rehype",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehypejs/rehype-highlight",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/hast",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/mdast",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "unifiedjs/unified",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/OLMo-core",
+      "status": "candidate",
+      "text": "Main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hanabi1224/RuAnnoy",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "typstyle-rs/pre-commit-typstyle",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "asottile/yesqa",
+      "status": "candidate",
+      "text": "main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8",
+      "status": "candidate",
+      "text": "main"
     }
   ],
   "candidate_related_terms": [
@@ -959,11 +1301,125 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "softprops/hubcaps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rhasspy/piper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pypa/twine"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "pre-commit/sync-pre-commit-deps"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ManuelHentschel/VSCode-R-Debugger"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "randy3k/radian"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "REditorSupport/vscode-R-syntax"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "vercel-labs/mdxjs-rs-turbopack"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "micromark/micromark"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rehypejs/rehype"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "rehypejs/rehype-highlight"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "syntax-tree/hast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "syntax-tree/mdast"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "unifiedjs/unified"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "allenai/OLMo-core"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "hanabi1224/RuAnnoy"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "typstyle-rs/pre-commit-typstyle"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "dhall-lang/dhall-haskell"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "asottile/yesqa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "PyCQA/flake8"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

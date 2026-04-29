@@ -143,7 +143,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "snapcast/snapcast",
-      "target": "akamming/domoticz-snapcast",
+      "target": "happyleavesaoc/python-snapcast",
       "target_type": "repository"
     },
     {
@@ -157,7 +157,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "snapcast/snapcast",
-      "target": "carlosderseher/snapclient",
+      "target": "mariolukas/hydraplay",
       "target_type": "repository"
     },
     {
@@ -252,7 +252,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:10:42.860546+00:00",
+  "fetched_at": "2026-04-29T21:59:44.150262+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -277,7 +277,7 @@
     "html_url": "https://github.com/snapcast/snapcast",
     "language": "C++",
     "pushed_at": "2026-03-10T14:27:11Z",
-    "stargazers_count": 7591,
+    "stargazers_count": 7602,
     "topics": [
       "audio",
       "audio-player",
@@ -288,14 +288,9 @@
       "sonos",
       "synchronous"
     ],
-    "updated_at": "2026-04-24T03:40:18Z"
+    "updated_at": "2026-04-29T13:58:07Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "akamming/domoticz-snapcast",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "atoomic/snapcast-volume-ui",
@@ -303,12 +298,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "carlosderseher/snapclient",
+      "full_name": "derglaus/snapcast-websockets-ui",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "derglaus/snapcast-websockets-ui",
+      "full_name": "happyleavesaoc/python-snapcast",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mariolukas/hydraplay",
       "source_file": "README.md"
     }
   ],

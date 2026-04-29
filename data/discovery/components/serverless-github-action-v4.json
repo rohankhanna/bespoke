@@ -1,0 +1,22 @@
+{
+  "component": "serverless/github-action@v4",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "serverless/aws-ai-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-deploy.yml",
+      "source_repo": "serverless/aws-ai-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-remove.yml",
+      "source_repo": "serverless/aws-ai-stack"
+    }
+  ]
+}

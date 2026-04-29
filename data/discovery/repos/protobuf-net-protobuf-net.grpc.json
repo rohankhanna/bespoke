@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:54:12.872481+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GRPC bindings for protobuf-net and grpc-dotnet",
+    "fork": false,
+    "full_name": "protobuf-net/protobuf-net.Grpc",
+    "html_url": "https://github.com/protobuf-net/protobuf-net.Grpc",
+    "language": "C#",
+    "pushed_at": "2025-07-01T07:46:12Z",
+    "stargazers_count": 932,
+    "topics": [],
+    "updated_at": "2026-04-07T10:58:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

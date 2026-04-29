@@ -1,0 +1,113 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meituan/YOLOv6",
+      "target": "ashwincc/yolov6-sagemaker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meituan/YOLOv6",
+      "target": "feigechuanshu/ncnn-android-yolov6",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meituan/YOLOv6",
+      "target": "zhiqwang/yolov5-rt-stack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meituan/YOLOv6",
+      "target": "object-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meituan/YOLOv6",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meituan/YOLOv6",
+      "target": "yolo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:45:47.911201+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18748
+    },
+    {
+      "path": "requirements.txt",
+      "size": 341
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "YOLOv6: a single-stage object detection framework dedicated to industrial applications.",
+    "fork": false,
+    "full_name": "meituan/YOLOv6",
+    "html_url": "https://github.com/meituan/YOLOv6",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-08-07T18:20:33Z",
+    "stargazers_count": 5884,
+    "topics": [
+      "object-detection",
+      "pytorch",
+      "yolo"
+    ],
+    "updated_at": "2026-04-29T20:50:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ashwincc/yolov6-sagemaker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "feigechuanshu/ncnn-android-yolov6",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zhiqwang/yolov5-rt-stack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "object-detection"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolo"
+    }
+  ]
+}

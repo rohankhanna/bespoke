@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yangjianxin1/unsloth",
+      "target": "timdettmers/bitsandbytes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yangjianxin1/unsloth",
+      "target": "hiyouga/llama-factory",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:59.378682+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25772
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 7590
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Finetune Llama 3, Mistral & Gemma LLMs 2-5x faster with 80% less memory",
+    "fork": true,
+    "full_name": "yangjianxin1/unsloth",
+    "html_url": "https://github.com/yangjianxin1/unsloth",
+    "language": "Python",
+    "pushed_at": "2024-05-10T17:23:20Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2025-08-28T05:58:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-factory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timdettmers/bitsandbytes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

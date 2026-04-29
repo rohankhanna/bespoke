@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/voxceleb_trainer",
+      "target": "metric-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/voxceleb_trainer",
+      "target": "speaker-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/voxceleb_trainer",
+      "target": "speaker-verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "clovaai/voxceleb_trainer",
+      "target": "voxceleb",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:45:23.817051+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7665
+    },
+    {
+      "path": "requirements.txt",
+      "size": 160
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "In defence of metric learning for speaker recognition",
+    "fork": false,
+    "full_name": "clovaai/voxceleb_trainer",
+    "html_url": "https://github.com/clovaai/voxceleb_trainer",
+    "language": "Python",
+    "pushed_at": "2026-04-22T05:16:43Z",
+    "stargazers_count": 1165,
+    "topics": [
+      "metric-learning",
+      "speaker-recognition",
+      "speaker-verification",
+      "voxceleb"
+    ],
+    "updated_at": "2026-04-23T09:46:25Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the framework for training speaker recognition models described in the paper '_In defence of metric learning for speaker recognition_' and '_Pushing the limits of raw waveform speaker recognition_'.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metric-learning"
+    },
+    {
+      "context_snippet": "This repository contains the framework for training speaker recognition models described in the paper '_In defence of metric learning for speaker recognition_' and '_Pushing the limits of raw waveform speaker recognition_'.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-recognition"
+    },
+    {
+      "context_snippet": "This repository contains the framework for training speaker recognition models described in the paper '_In defence of metric learning for speaker recognition_' and '_Pushing the limits of raw waveform speaker recognition_'.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speaker-verification"
+    },
+    {
+      "context_snippet": "This repository contains the framework for training speaker recognition models described in the paper '_In defence of metric learning for speaker recognition_' and '_Pushing the limits of raw waveform speaker recognition_'.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voxceleb"
+    }
+  ]
+}

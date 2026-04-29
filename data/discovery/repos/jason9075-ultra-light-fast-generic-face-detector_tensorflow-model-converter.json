@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:44:33.807430+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1440
+    },
+    {
+      "path": "requirements.txt",
+      "size": 168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a tool for convert Ultra-Light-Fast-Generic-Face-Detector from pytorch to tensorflow 2.0+",
+    "fork": false,
+    "full_name": "jason9075/Ultra-Light-Fast-Generic-Face-Detector_Tensorflow-Model-Converter",
+    "html_url": "https://github.com/jason9075/Ultra-Light-Fast-Generic-Face-Detector_Tensorflow-Model-Converter",
+    "language": "Python",
+    "pushed_at": "2022-06-13T13:00:49Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2024-10-09T12:53:35Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

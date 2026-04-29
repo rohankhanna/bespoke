@@ -19,6 +19,18 @@
       "source_repo": "lint-staged/lint-staged",
       "status": "candidate-context",
       "text": "[![npm version](https://badge.fury.io/js/lint-staged.svg)](https://badge.fury.io/js/lint-staged)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PyCQA/flake8",
+      "status": "candidate-context",
+      "text": "flake8 is a python tool that glues together pycodestyle, pyflakes, mccabe, and third-party plugins to check the style and quality of some python code."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8",
+      "status": "candidate-context",
+      "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "lint-staged/lint-staged",
       "status": "candidate",
       "text": "[![npm version](https://badge.fury.io/js/lint-staged.svg)](https://badge.fury.io/js/lint-staged)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PyCQA/flake8",
+      "status": "candidate",
+      "text": ".. image:: https://github.com/PyCQA/flake8/workflows/main/badge.svg"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lint-staged/lint-staged"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PyCQA/flake8"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -79,6 +79,78 @@
       "source_repo": "JingyunLiang/SwinIR",
       "status": "candidate-context",
       "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Guolei Sun](https://vision.ee.ethz.ch/people-details.MjYzMjMw.TGlzdC8zMjg5LC0xOTcxNDY1MTc4.html), [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://scholar.google.com/citat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/Cream",
+      "status": "candidate-context",
+      "text": "This is a collection of our NAS and Vision Transformer work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Cream",
+      "status": "candidate-context",
+      "text": "***This is a collection of our NAS and Vision Transformer work***"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate-context",
+      "text": "An ultimately comprehensive paper list of Vision Transformer/Attention, including papers, codes, and related websites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate-context",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OpenGVLab/InternVideo",
+      "status": "candidate-context",
+      "text": "[ECCV2024] Video Foundation Models & Data for Multimodal Understanding"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVideo",
+      "status": "candidate-context",
+      "text": "</div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate-context",
+      "text": "The official repo for the extension of [NeurIPS'22] \"APT-36K: A Large-scale Benchmark for Animal Pose Estimation and Tracking\": https://github.com/pandorgan/APT-36K"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate-context",
+      "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDKiro/DehazeFormer",
+      "status": "candidate-context",
+      "text": "Vision Transformers for Single Image Dehazing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDKiro/DehazeFormer",
+      "status": "candidate-context",
+      "text": "[![Demo](https://img.shields.io/badge/Demo-Hugging%20Face-gold)](https://huggingface.co/spaces/IDKiro/DehazeFormer_Demo)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/scenic",
+      "status": "candidate-context",
+      "text": "Scenic: A Jax Library for Computer Vision Research and Beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/scenic",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: left\">"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +189,42 @@
       "source_repo": "JingyunLiang/SwinIR",
       "status": "candidate",
       "text": "[Jingyun Liang](https://jingyunliang.github.io), [Jiezhang Cao](https://www.jiezhangcao.com/), [Guolei Sun](https://vision.ee.ethz.ch/people-details.MjYzMjMw.TGlzdC8zMjg5LC0xOTcxNDY1MTc4.html), [Kai Zhang](https://cszn.github.io/), [Luc Van Gool](https://scholar.google.com/citat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/Cream",
+      "status": "candidate",
+      "text": "***This is a collection of our NAS and Vision Transformer work***"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OpenGVLab/InternVideo",
+      "status": "candidate",
+      "text": "</div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate",
+      "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDKiro/DehazeFormer",
+      "status": "candidate",
+      "text": "[![Demo](https://img.shields.io/badge/Demo-Hugging%20Face-gold)](https://huggingface.co/spaces/IDKiro/DehazeFormer_Demo)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/scenic",
+      "status": "candidate",
+      "text": "<div style=\"text-align: left\">"
     }
   ],
   "candidate_related_terms": [],
@@ -178,11 +286,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "JingyunLiang/SwinIR"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/Cream"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/APTv2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "IDKiro/DehazeFormer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-research/scenic"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ubuntu package"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "garglk/garglk",
+      "status": "candidate-context",
+      "text": "A cross-platform IO layer for an interactive fiction player"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garglk/garglk",
+      "status": "candidate-context",
+      "text": "Ubuntu package"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "garglk/garglk",
+      "status": "candidate",
+      "text": "Ubuntu package"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14634,
+      "status": "candidate",
+      "text": "reconstructor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10818,
+      "status": "candidate",
+      "text": "individualism"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8584,
+      "status": "candidate",
+      "text": "kubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8584,
+      "status": "candidate",
+      "text": "xubuntu"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8584,
+      "status": "candidate",
+      "text": "zulu"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ubuntu package",
+  "concept_id": "ubuntu-package",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ubuntu-deb.yml",
+      "source_repo": "garglk/garglk"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ubuntu package",
+      "sense_id": "ubuntu-package#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

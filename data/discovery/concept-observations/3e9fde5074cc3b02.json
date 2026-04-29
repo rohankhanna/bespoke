@@ -1,0 +1,115 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "[ICML 2021, Long Talk] Delving into Deep Imbalanced Regression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains the implementation code for paper: <br>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains the implementation code for paper: <br>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39977643,
+      "status": "candidate",
+      "text": "unbalance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976740,
+      "status": "candidate",
+      "text": "asymmetry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39974638,
+      "status": "candidate",
+      "text": "instability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977375,
+      "status": "candidate",
+      "text": "discordance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29977284,
+      "status": "candidate",
+      "text": "disparity"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "imbalance",
+      "sense_id": "imbalance#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9042,
+      "status": "candidate",
+      "text": "instability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3042,
+      "status": "candidate",
+      "text": "asymmetry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 1024,
+      "status": "candidate",
+      "text": "unbalance"
+    }
+  ],
+  "concept_id": "imbalance",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "imbalance",
+  "observation_id": "3e9fde5074cc3b02",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "imbalance",
+  "source_context_snippet": "This repository contains the implementation code for paper: <br>",
+  "source_file": null,
+  "source_repo": "YyzHarry/imbalanced-regression",
+  "source_repo_description": "[ICML 2021, Long Talk] Delving into Deep Imbalanced Regression"
+}

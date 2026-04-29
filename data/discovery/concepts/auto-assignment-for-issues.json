@@ -31,6 +31,36 @@
       "source_repo": "tinted-theming/home",
       "status": "candidate-context",
       "text": "\"Auto assignment for issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/base16-jetbrains",
+      "status": "candidate-context",
+      "text": "Base16 themes for Jetbrains IDE's (IntelliJ, PyCharm, Webstorm, etc) - and the Material Theme plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-jetbrains",
+      "status": "candidate-context",
+      "text": "\"Auto assignment for issues\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate-context",
+      "text": "Base16 template for xfce4-terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate-context",
+      "text": "\"Auto assignment for issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-terminal",
+      "status": "candidate-context",
+      "text": "\"Auto assignment for issues\""
     }
   ],
   "candidate_glosses": [
@@ -43,6 +73,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "tinted-theming/home",
+      "status": "candidate",
+      "text": "\"Auto assignment for issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/base16-jetbrains",
+      "status": "candidate",
+      "text": "\"Auto assignment for issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal",
+      "status": "candidate",
+      "text": "\"Auto assignment for issues\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinted-theming/tinted-terminal",
       "status": "candidate",
       "text": "\"Auto assignment for issues\""
     }
@@ -106,11 +154,29 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/shared-auto-assign-issues.yml",
       "source_repo": "tinted-theming/home"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/base16-jetbrains"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/tinted-xfce4-terminal"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/auto-assign-issues.yml",
+      "source_repo": "tinted-theming/tinted-terminal"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

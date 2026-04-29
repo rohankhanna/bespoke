@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:49:33.670411+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 410
+    },
+    {
+      "path": "requirements.txt",
+      "size": 42
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A speech library to deal with a series of related front-end and back-end tasks  ",
+    "fork": false,
+    "full_name": "745165806/PaddleSpeechTask",
+    "html_url": "https://github.com/745165806/PaddleSpeechTask",
+    "language": "Python",
+    "pushed_at": "2021-11-05T02:33:50Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-08-07T12:26:36Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

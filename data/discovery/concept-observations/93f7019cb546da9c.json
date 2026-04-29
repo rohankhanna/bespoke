@@ -9,9 +9,20 @@
       "source_kind": "repo-description",
       "status": "context-only",
       "text": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Anti-Slop"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Anti-Slop"
+    }
+  ],
   "candidate_primary_bucket": "workflow-process",
   "candidate_related_terms": [],
   "candidate_senses": [
@@ -30,14 +41,16 @@
   "definition_status": "unresolved",
   "discovered_via": "workflow-name",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "anti-slop",
   "observation_id": "93f7019cb546da9c",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Anti-Slop",
-  "source_context_snippet": null,
+  "source_context_snippet": "Anti-Slop",
   "source_file": ".github/workflows/anti-slop.yml",
   "source_repo": "huggingface/transformers",
   "source_repo_description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "

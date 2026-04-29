@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -206,6 +206,31 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/pr-labeler.yml",
       "source_repo": "eosphoros-ai/DB-GPT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/add-label.yml",
+      "source_repo": "apache/seatunnel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "aws-observability/aws-otel-community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "boa-dev/boa"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/labeler.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/labeler.yaml",
+      "source_repo": "open-edge-platform/training_extensions"
     }
   ],
   "term": "Pull Request Labeler"

@@ -16,6 +16,16 @@
       "source_file": ".github/workflows/buildpack-deps.yml"
     },
     {
+      "component": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-style.yml"
+    },
+    {
+      "component": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-style.yml"
+    },
+    {
       "component": "actions/stale@3a9db7e6a41a89f618792c92c0e97cc736e1b13f",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/stale.yml"
@@ -48,6 +58,27 @@
       "source_file": ".github/workflows/buildpack-deps.yml",
       "source_repo": "argotorg/solidity",
       "target": "buildpack-deps",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "actions/checkout@08c6903cd8c0fde910a37f88322edcfb5dd907a8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "actions/github-script@ed597411d8f924073f98dfc5c65a23a2325f34cd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-style.yml",
+      "source_repo": "argotorg/solidity",
+      "target": "Code Style Check",
       "target_type": "term"
     },
     {
@@ -121,7 +152,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:17:01.641959+00:00",
+  "fetched_at": "2026-04-29T19:44:10.816961+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -132,12 +163,16 @@
       "size": 1994
     },
     {
+      "path": ".github/workflows/code-style.yml",
+      "size": 2735
+    },
+    {
       "path": ".github/workflows/stale.yml",
       "size": 1492
     },
     {
       "path": ".github/workflows/welcome-external-pr.yml",
-      "size": 1768
+      "size": 900
     }
   ],
   "related_repositories": [],
@@ -149,8 +184,8 @@
     "full_name": "argotorg/solidity",
     "html_url": "https://github.com/argotorg/solidity",
     "language": "C++",
-    "pushed_at": "2026-04-23T17:29:43Z",
-    "stargazers_count": 25617,
+    "pushed_at": "2026-04-29T14:02:02Z",
+    "stargazers_count": 25615,
     "topics": [
       "blockchain",
       "cpp",
@@ -161,7 +196,7 @@
       "smartcontracts",
       "solidity"
     ],
-    "updated_at": "2026-04-24T07:07:10Z"
+    "updated_at": "2026-04-29T14:03:04Z"
   },
   "repo_links": [],
   "terms": [
@@ -170,6 +205,12 @@
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/buildpack-deps.yml",
       "term": "buildpack-deps"
+    },
+    {
+      "context_snippet": "Code Style Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-style.yml",
+      "term": "Code Style Check"
     },
     {
       "context_snippet": "Check stale pull requests",

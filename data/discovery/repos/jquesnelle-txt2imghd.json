@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jquesnelle/txt2imghd",
+      "target": "xinntao/real-esrgan",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:47:44.884313+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A port of GOBIG for Stable Diffusion",
+    "fork": false,
+    "full_name": "jquesnelle/txt2imghd",
+    "html_url": "https://github.com/jquesnelle/txt2imghd",
+    "language": "Python",
+    "pushed_at": "2022-10-24T02:49:35Z",
+    "stargazers_count": 695,
+    "topics": [],
+    "updated_at": "2025-11-19T11:28:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xinntao/real-esrgan",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

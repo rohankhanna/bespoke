@@ -1,0 +1,12 @@
+{
+  "component": "brettcannon/pip-secure-install@92f400e3191171c1858cc0e0d9ac6320173fdb0c",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "microsoft/vscode-python"
+    }
+  ]
+}

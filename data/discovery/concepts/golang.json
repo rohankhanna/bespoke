@@ -2350,6 +2350,270 @@
       "source_repo": "bluesky-social/goat",
       "status": "candidate-context",
       "text": "golang"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fasmide/remotemoe",
+      "status": "candidate-context",
+      "text": "tunnels to localhost and other ssh plumbing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fasmide/remotemoe",
+      "status": "candidate-context",
+      "text": "module github.com/fasmide/remotemoe go 1.17 require ( github.com/fasmide/hostkeys v0.0.0-20211023164018-0a66d786b24e github.com/fatih/color v1.16.0 github.com/spf13/cobra v1.8.0 github.com/spf13/pflag v1.0.5 golang.org/x/crypto v0.19.0 golang.org/x/sync v0.6.0 golang.org/x/term \u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexedwards/scs",
+      "status": "candidate-context",
+      "text": "HTTP Session Management for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexedwards/scs",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/alexedwards/scs?status.png)](https://pkg.go.dev/github.com/alexedwards/scs/v2?tab=doc)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate-context",
+      "text": ":atom:  Atom client for Tabnine - Code Faster with the All-Language AI Assistant for Code Completion, autocomplete JavaScript, Python, TypeScript, PHP, Go, Java, node.js, Ruby, C/C++, HTML/CSS, C#, Rust, SQL, Bash, Kotlin, React, Swift, Scala, Sass, Perl, Objective C, Node JS, Matlab, Haskell, Dart, Angular. https://atom.io/packages/tabnine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate-context",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fasthttp/websocket",
+      "status": "candidate-context",
+      "text": "WebSocket implementation for fasthttp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fasthttp/websocket",
+      "status": "candidate-context",
+      "text": "[![Test status](https://github.com/fasthttp/websocket/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/fasthttp/websocket/actions?workflow=test)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gobwas/ws",
+      "status": "candidate-context",
+      "text": "A tiny WebSocket library for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobwas/ws",
+      "status": "candidate-context",
+      "text": "[![GoDoc][godoc-image]][godoc-url]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang-standards/project-layout",
+      "status": "candidate-context",
+      "text": "Standard Go Project Layout"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang-standards/project-layout",
+      "status": "candidate-context",
+      "text": "Translations:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "golang/oauth2",
+      "status": "candidate-context",
+      "text": "Go OAuth2"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/oauth2",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/golang.org/x/oauth2.svg)](https://pkg.go.dev/golang.org/x/oauth2)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "go-bun/bun-starter-kit",
+      "status": "candidate-context",
+      "text": "Bun starter kit"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-bun/bun-starter-kit",
+      "status": "candidate-context",
+      "text": "[![build workflow](https://github.com/go-bun/bun-starter-kit/actions/workflows/build.yml/badge.svg)](https://github.com/go-bun/bun-starter-kit/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ClickHouse/ch-go",
+      "status": "candidate-context",
+      "text": "Low-level Go Client for ClickHouse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ch-go",
+      "status": "candidate-context",
+      "text": "Low level TCP [ClickHouse](https://clickhouse.com/) client and protocol implementation in Go. Designed for very fast data block streaming with low network, cpu and memory overhead."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis-developer/redis-starter-go",
+      "status": "candidate-context",
+      "text": "A starter project for working with Redis and Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-go",
+      "status": "candidate-context",
+      "text": "This is a [Redis](https://redis.io/) starter template for Go:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gogo/protobuf",
+      "status": "candidate-context",
+      "text": "[Deprecated] Protocol Buffers for Go with Gadgets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogo/protobuf",
+      "status": "candidate-context",
+      "text": "module github.com/gogo/protobuf go 1.15 require ( github.com/kisielk/errcheck v1.5.0 // indirect github.com/kisielk/gotool v1.0.0 // indirect golang.org/x/tools v0.0.0-20210106214847-113979e3529a // indirect )"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "donomii/go-rwkv.cpp",
+      "status": "candidate-context",
+      "text": "A go wrapper around the rwkv.cpp library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donomii/go-rwkv.cpp",
+      "status": "candidate-context",
+      "text": "gowrkv.go is a wrapper around [rwkv-cpp](https://github.com/saharNooby/rwkv.cpp), which is an adaption of ggml.cpp."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ebitengine/purego",
+      "status": "candidate-context",
+      "text": "A library for calling C functions from Go without Cgo"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebitengine/purego",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/ebitengine/purego?GOOS=darwin.svg)](https://pkg.go.dev/github.com/ebitengine/purego?GOOS=darwin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies \ud83d\ude80 by @miguelmota"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/lotus",
+      "status": "candidate-context",
+      "text": "Reference implementation of the Filecoin protocol, written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/lotus",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sorintlab/stolon",
+      "status": "candidate-context",
+      "text": "PostgreSQL cloud native High Availability and more."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorintlab/stolon",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antlr/antlr4",
+      "status": "candidate-context",
+      "text": "ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antlr/antlr4",
+      "status": "candidate-context",
+      "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate-context",
+      "text": "Plugin-driven, extensible HTTP client toolkit for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate-context",
+      "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rs/zerolog",
+      "status": "candidate-context",
+      "text": "Zero Allocation JSON Logger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rs/zerolog",
+      "status": "candidate-context",
+      "text": "[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/rs/zerolog) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/zerolog/master/LICENSE) [![Build Status](https://git\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gorilla/sessions",
+      "status": "candidate-context",
+      "text": "Package gorilla/sessions provides cookie and filesystem sessions and infrastructure for custom session backends."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/sessions",
+      "status": "candidate-context",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "athos/trenchman",
+      "status": "candidate-context",
+      "text": "A standalone nREPL/prepl client written in Go and heavily inspired by Grenchman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athos/trenchman",
+      "status": "candidate-context",
+      "text": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spacemeshos/go-spacemesh",
+      "status": "candidate-context",
+      "text": "Go Implementation of the Spacemesh protocol full node. \ud83d\udcbe\u23f0\ud83d\udcaa"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/go-spacemesh",
+      "status": "candidate-context",
+      "text": "[![license](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/spacemeshos/go-spacemesh/blob/master/LICENSE)"
     }
   ],
   "candidate_glosses": [
@@ -3528,6 +3792,138 @@
       "source_repo": "bluesky-social/goat",
       "status": "candidate",
       "text": "golang"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fasmide/remotemoe",
+      "status": "candidate",
+      "text": "module github.com/fasmide/remotemoe go 1.17 require ( github.com/fasmide/hostkeys v0.0.0-20211023164018-0a66d786b24e github.com/fatih/color v1.16.0 github.com/spf13/cobra v1.8.0 github.com/spf13/pflag v1.0.5 golang.org/x/crypto v0.19.0 golang.org/x/sync v0.6.0 golang.org/x/term \u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexedwards/scs",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/alexedwards/scs?status.png)](https://pkg.go.dev/github.com/alexedwards/scs/v2?tab=doc)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codota/tabnine-atom",
+      "status": "candidate",
+      "text": "[twitter-shield]: https://img.shields.io/twitter/follow/Tabnine_?style=social"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fasthttp/websocket",
+      "status": "candidate",
+      "text": "[![Test status](https://github.com/fasthttp/websocket/actions/workflows/test.yml/badge.svg?branch=master)](https://github.com/fasthttp/websocket/actions?workflow=test)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobwas/ws",
+      "status": "candidate",
+      "text": "[![GoDoc][godoc-image]][godoc-url]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang-standards/project-layout",
+      "status": "candidate",
+      "text": "Translations:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "golang/oauth2",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/golang.org/x/oauth2.svg)](https://pkg.go.dev/golang.org/x/oauth2)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "go-bun/bun-starter-kit",
+      "status": "candidate",
+      "text": "[![build workflow](https://github.com/go-bun/bun-starter-kit/actions/workflows/build.yml/badge.svg)](https://github.com/go-bun/bun-starter-kit/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ClickHouse/ch-go",
+      "status": "candidate",
+      "text": "Low level TCP [ClickHouse](https://clickhouse.com/) client and protocol implementation in Go. Designed for very fast data block streaming with low network, cpu and memory overhead."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-developer/redis-starter-go",
+      "status": "candidate",
+      "text": "This is a [Redis](https://redis.io/) starter template for Go:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gogo/protobuf",
+      "status": "candidate",
+      "text": "module github.com/gogo/protobuf go 1.15 require ( github.com/kisielk/errcheck v1.5.0 // indirect github.com/kisielk/gotool v1.0.0 // indirect golang.org/x/tools v0.0.0-20210106214847-113979e3529a // indirect )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "donomii/go-rwkv.cpp",
+      "status": "candidate",
+      "text": "gowrkv.go is a wrapper around [rwkv-cpp](https://github.com/saharNooby/rwkv.cpp), which is an adaption of ggml.cpp."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ebitengine/purego",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/ebitengine/purego?GOOS=darwin.svg)](https://pkg.go.dev/github.com/ebitengine/purego?GOOS=darwin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/lotus",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sorintlab/stolon",
+      "status": "candidate",
+      "text": "[![Build Status](https://run.agola.io/api/v1alpha/badges/org%2Fstolon%2Fstolon?branch=master)](https://run.agola.io/org/stolon/projects/stolon.proj)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antlr/antlr4",
+      "status": "candidate",
+      "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "h2non/gentleman",
+      "status": "candidate",
+      "text": "Full-featured, plugin-driven, middleware-oriented toolkit to easily create rich, versatile and composable HTTP clients in [Go](http://golang.org)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rs/zerolog",
+      "status": "candidate",
+      "text": "[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/rs/zerolog) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/zerolog/master/LICENSE) [![Build Status](https://git\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gorilla/sessions",
+      "status": "candidate",
+      "text": "> [!IMPORTANT]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athos/trenchman",
+      "status": "candidate",
+      "text": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spacemeshos/go-spacemesh",
+      "status": "candidate",
+      "text": "[![license](https://img.shields.io/packagist/l/doctrine/orm.svg)](https://github.com/spacemeshos/go-spacemesh/blob/master/LICENSE)"
     }
   ],
   "candidate_related_terms": [],
@@ -4795,11 +5191,197 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fasmide/remotemoe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexedwards/scs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "codota/tabnine-atom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "apache/casbin-fasthttp-auth"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fasthttp/websocket"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gobwas/ws"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipsilon/evmc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "golang-standards/project-layout"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "golang/oauth2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "go-bun/bun-starter-kit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ClickHouse/ch-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis/go-redis"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis-developer/redis-starter-go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gogo/protobuf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "moby/moby"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bazel-contrib/rules_go"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "donomii/go-rwkv.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ebitengine/purego"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/cointop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "filecoin-project/lotus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sorintlab/stolon"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ollama/ollama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "antlr/antlr4"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "h2non/gentleman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rs/zerolog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gorilla/sessions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "athos/trenchman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "spacemeshos/go-spacemesh"
     }
   ],
   "first_seen_at": "2026-04-18T10:38:37.562216+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

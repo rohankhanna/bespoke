@@ -84,7 +84,7 @@
   "normalized_form": "gpt-3",
   "observation_id": "6019af853bb66a31",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "gpt-3",
   "source_context_snippet": "FlexLLMGen is a high-throughput generation engine for running large language models with limited GPU memory. FlexLLMGen allows **high-throughput** generation by IO-efficient offloading, compression, and **large effective batch sizes**.",
   "source_file": null,

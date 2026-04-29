@@ -1,0 +1,210 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "target": "audreyr/cookiecutter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "target": "timothycrosley/isort",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "target": "best-practices",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "target": "black",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "target": "cookiecutter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "target": "cookiecutter-template",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "target": "flake8",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "target": "isort",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "target": "mypy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "target": "pipenv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "target": "pytest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "target": "python-best-practices",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:58:45.595160+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1289
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Python best practices project cookiecutter \ud83c\udf6a",
+    "fork": false,
+    "full_name": "sourcery-ai/python-best-practices-cookiecutter",
+    "html_url": "https://github.com/sourcery-ai/python-best-practices-cookiecutter",
+    "language": "Python",
+    "pushed_at": "2023-12-15T18:00:06Z",
+    "stargazers_count": 706,
+    "topics": [
+      "best-practices",
+      "black",
+      "cookiecutter",
+      "cookiecutter-template",
+      "flake8",
+      "isort",
+      "mypy",
+      "pipenv",
+      "pre-commit",
+      "pytest",
+      "python",
+      "python-best-practices"
+    ],
+    "updated_at": "2026-03-13T11:35:23Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "audreyr/cookiecutter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "timothycrosley/isort",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "best-practices"
+    },
+    {
+      "context_snippet": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "black"
+    },
+    {
+      "context_snippet": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter"
+    },
+    {
+      "context_snippet": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cookiecutter-template"
+    },
+    {
+      "context_snippet": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flake8"
+    },
+    {
+      "context_snippet": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isort"
+    },
+    {
+      "context_snippet": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mypy"
+    },
+    {
+      "context_snippet": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pipenv"
+    },
+    {
+      "context_snippet": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytest"
+    },
+    {
+      "context_snippet": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "python-best-practices"
+    }
+  ]
+}

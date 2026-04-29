@@ -1,0 +1,74 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/toolchain@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions-rs/cargo@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sagiegurari/cargo-make-tasks",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sagiegurari/cargo-make-tasks",
+      "target": "actions-rs/toolchain@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sagiegurari/cargo-make-tasks",
+      "target": "actions-rs/cargo@v1",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:02:38.636484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2899
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 557
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Reusable makefiles for cargo-make",
+    "fork": false,
+    "full_name": "sagiegurari/cargo-make-tasks",
+    "html_url": "https://github.com/sagiegurari/cargo-make-tasks",
+    "language": null,
+    "pushed_at": "2021-09-21T16:50:13Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2024-03-31T12:36:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

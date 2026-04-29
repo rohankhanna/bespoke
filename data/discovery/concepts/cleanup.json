@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "Cleanup"
+    "Cleanup",
+    "cleanup"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "workflow-process",
-    "data-document-artifact"
+    "data-document-artifact",
+    "tool-component",
+    "capability"
   ],
   "candidate_definitions": [
     {
@@ -19,12 +22,48 @@
       "source_repo": "dani-garcia/vaultwarden",
       "status": "candidate-context",
       "text": "Cleanup"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Moldoteck/MagicEraser",
+      "status": "candidate-context",
+      "text": "MagicEraser bot for telegram"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Moldoteck/MagicEraser",
+      "status": "candidate-context",
+      "text": "MagicEraser - Telegram Bot for removing objects from pictures<br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbeaver/cloudbeaver",
+      "status": "candidate-context",
+      "text": "Cloud Database Manager"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/cloudbeaver",
+      "status": "candidate-context",
+      "text": "Cleanup"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "dani-garcia/vaultwarden",
+      "status": "candidate",
+      "text": "Cleanup"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Moldoteck/MagicEraser",
+      "status": "candidate",
+      "text": "MagicEraser - Telegram Bot for removing objects from pictures<br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/cloudbeaver",
       "status": "candidate",
       "text": "Cleanup"
     }
@@ -118,11 +157,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/releasecache-cleanup.yml",
       "source_repo": "dani-garcia/vaultwarden"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Moldoteck/MagicEraser"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/common-cleanup.yml",
+      "source_repo": "dbeaver/cloudbeaver"
     }
   ],
   "first_seen_at": "2026-04-18T12:46:59.510459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -11,17 +11,17 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@7a4939c09608b2a1986b484eca1d16fd0db8ebef",
+      "component": "taiki-e/install-action@cf525cb33f51aca27cd6fa02034117ab963ff9f1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@7a4939c09608b2a1986b484eca1d16fd0db8ebef",
+      "component": "taiki-e/install-action@cf525cb33f51aca27cd6fa02034117ab963ff9f1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@7a4939c09608b2a1986b484eca1d16fd0db8ebef",
+      "component": "taiki-e/install-action@cf525cb33f51aca27cd6fa02034117ab963ff9f1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -56,7 +56,7 @@
       "source_file": ".github/workflows/ci.yml"
     },
     {
-      "component": "taiki-e/install-action@7a4939c09608b2a1986b484eca1d16fd0db8ebef",
+      "component": "taiki-e/install-action@cf525cb33f51aca27cd6fa02034117ab963ff9f1",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml"
     },
@@ -76,28 +76,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "notify-rs/notify",
-      "target": "frewsxcv/alert-after",
+      "target": "paulmillr/chokidar",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "notify-rs/notify",
-      "target": "cobalt-org/cobalt.rs",
+      "target": "jwilm/alacritty",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "notify-rs/notify",
-      "target": "francesca64/hotwatch",
+      "target": "passcod/cargo-watch",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "notify-rs/notify",
-      "target": "hoodie/notify-rust",
+      "target": "mattgreen/watchexec",
       "target_type": "repository"
     },
     {
@@ -118,7 +118,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "notify-rs/notify",
-      "target": "taiki-e/install-action@7a4939c09608b2a1986b484eca1d16fd0db8ebef",
+      "target": "taiki-e/install-action@cf525cb33f51aca27cd6fa02034117ab963ff9f1",
       "target_type": "component"
     },
     {
@@ -178,7 +178,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:08:36.564874+00:00",
+  "fetched_at": "2026-04-29T21:58:38.837055+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -190,7 +190,7 @@
     },
     {
       "path": ".github/workflows/ci.yml",
-      "size": 6224
+      "size": 6228
     }
   ],
   "related_repositories": [],
@@ -202,8 +202,8 @@
     "full_name": "notify-rs/notify",
     "html_url": "https://github.com/notify-rs/notify",
     "language": "Rust",
-    "pushed_at": "2026-04-20T12:11:05Z",
-    "stargazers_count": 3339,
+    "pushed_at": "2026-04-29T12:05:35Z",
+    "stargazers_count": 3343,
     "topics": [
       "cross-platform",
       "filesystem",
@@ -211,27 +211,27 @@
       "rust",
       "watcher"
     ],
-    "updated_at": "2026-04-22T13:46:33Z"
+    "updated_at": "2026-04-29T12:05:44Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cobalt-org/cobalt.rs",
+      "full_name": "jwilm/alacritty",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "francesca64/hotwatch",
+      "full_name": "mattgreen/watchexec",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "frewsxcv/alert-after",
+      "full_name": "passcod/cargo-watch",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "hoodie/notify-rust",
+      "full_name": "paulmillr/chokidar",
       "source_file": "README.md"
     }
   ],

@@ -631,6 +631,54 @@
       "source_repo": "ohler55/oj",
       "status": "candidate-context",
       "text": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielgtaylor/shorthand",
+      "status": "candidate-context",
+      "text": "Structured data & CLI shorthand syntax for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/shorthand",
+      "status": "candidate-context",
+      "text": "[![Docs](https://godoc.org/github.com/danielgtaylor/shorthand?status.svg)](https://pkg.go.dev/github.com/danielgtaylor/shorthand?tab=doc) [![Go Report Card](https://goreportcard.com/badge/github.com/danielgtaylor/shorthand)](https://goreportcard.com/report/github.com/danielgtayl\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borkdude/jet",
+      "status": "candidate-context",
+      "text": "CLI to transform between JSON, EDN, YAML and Transit using Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/jet",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devinus/poison",
+      "status": "candidate-context",
+      "text": "An incredibly fast, pure Elixir JSON library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devinus/poison",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/devinus/poison/ci.yml)](https://github.com/devinus/poison/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rs/zerolog",
+      "status": "candidate-context",
+      "text": "Zero Allocation JSON Logger"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rs/zerolog",
+      "status": "candidate-context",
+      "text": "[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/rs/zerolog) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/zerolog/master/LICENSE) [![Build Status](https://git\u2026"
     }
   ],
   "candidate_glosses": [
@@ -945,6 +993,30 @@
       "source_repo": "ohler55/oj",
       "status": "candidate",
       "text": "[![CI](https://github.com/ohler55/oj/actions/workflows/CI.yml/badge.svg)](https://github.com/ohler55/oj/actions/workflows/CI.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/shorthand",
+      "status": "candidate",
+      "text": "[![Docs](https://godoc.org/github.com/danielgtaylor/shorthand?status.svg)](https://pkg.go.dev/github.com/danielgtaylor/shorthand?tab=doc) [![Go Report Card](https://goreportcard.com/badge/github.com/danielgtaylor/shorthand)](https://goreportcard.com/report/github.com/danielgtayl\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/jet",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devinus/poison",
+      "status": "candidate",
+      "text": "[![Build Status](https://img.shields.io/github/actions/workflow/status/devinus/poison/ci.yml)](https://github.com/devinus/poison/actions/workflows/ci.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rs/zerolog",
+      "status": "candidate",
+      "text": "[![godoc](http://img.shields.io/badge/godoc-reference-blue.svg?style=flat)](https://godoc.org/github.com/rs/zerolog) [![license](http://img.shields.io/badge/license-MIT-red.svg?style=flat)](https://raw.githubusercontent.com/rs/zerolog/master/LICENSE) [![Build Status](https://git\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -1299,11 +1371,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "simd-lite/simd-json"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "danielgtaylor/shorthand"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "borkdude/jet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "devinus/poison"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "simdjson/simdjson"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rest-sh/restish"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rs/zerolog"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

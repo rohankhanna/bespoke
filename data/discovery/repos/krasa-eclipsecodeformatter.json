@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "krasa/EclipseCodeFormatter",
+      "target": "intellij",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "krasa/EclipseCodeFormatter",
+      "target": "intellij-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "krasa/EclipseCodeFormatter",
+      "target": "java",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:39:49.010456+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "IntelliJ plugin - use Eclipse's code formatter directly from IntelliJ. https://plugins.jetbrains.com/plugin/6546",
+    "fork": false,
+    "full_name": "krasa/EclipseCodeFormatter",
+    "html_url": "https://github.com/krasa/EclipseCodeFormatter",
+    "language": "Java",
+    "pushed_at": "2024-09-24T11:51:05Z",
+    "stargazers_count": 514,
+    "topics": [
+      "intellij",
+      "intellij-plugin",
+      "java"
+    ],
+    "updated_at": "2026-04-27T19:49:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "IntelliJ plugin - use Eclipse's code formatter directly from IntelliJ. https://plugins.jetbrains.com/plugin/6546",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij"
+    },
+    {
+      "context_snippet": "IntelliJ plugin - use Eclipse's code formatter directly from IntelliJ. https://plugins.jetbrains.com/plugin/6546",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intellij-plugin"
+    },
+    {
+      "context_snippet": "IntelliJ plugin - use Eclipse's code formatter directly from IntelliJ. https://plugins.jetbrains.com/plugin/6546",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    }
+  ]
+}

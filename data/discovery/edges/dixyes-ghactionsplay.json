@@ -1,0 +1,160 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/attest.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "actions/attest-build-provenance@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/attest.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/attest.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "attest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache7zplay.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cache7zplay.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cache7zplay.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "cacheplay",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cachebug.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/glibc217node20.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/glibc217node20.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "glibc217node20",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mian.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mian.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mian.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mian.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "shivammathur/setup-php@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mian.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "dixyes/actionsecho@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mian.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "actions/setup-node@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mian.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "ceshi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msvcbug.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "for msvc bug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/onrun.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "dixyes/actionsecho@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/onrun.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "cehshi on run",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/qpf.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/qpf.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "qpf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/showenv.yml",
+      "source_repo": "dixyes/ghactionsplay",
+      "target": "showenv",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "dixyes/ghactionsplay"
+}

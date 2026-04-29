@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aantron/better-enums",
+      "target": "enum",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aantron/better-enums",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aantron/better-enums",
+      "target": "reflection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:55:00.100204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4022
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C++ compile-time enum to string, iteration, in a single header file",
+    "fork": false,
+    "full_name": "aantron/better-enums",
+    "html_url": "https://github.com/aantron/better-enums",
+    "language": "C++",
+    "pushed_at": "2024-02-10T16:50:13Z",
+    "stargazers_count": 1814,
+    "topics": [
+      "cpp",
+      "enum",
+      "header-only",
+      "reflection"
+    ],
+    "updated_at": "2026-04-11T04:53:38Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[wandbox]: http://melpon.org/wandbox/permlink/2QCi3cwQnplAToge",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "enum"
+    },
+    {
+      "context_snippet": "[wandbox]: http://melpon.org/wandbox/permlink/2QCi3cwQnplAToge",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "[wandbox]: http://melpon.org/wandbox/permlink/2QCi3cwQnplAToge",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reflection"
+    }
+  ]
+}

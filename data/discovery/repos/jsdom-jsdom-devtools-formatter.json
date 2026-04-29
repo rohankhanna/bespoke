@@ -1,0 +1,114 @@
+{
+  "components": [
+    {
+      "component": "jest",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jest-environment-jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "jsdom",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsdom/jsdom-devtools-formatter",
+      "target": "jest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsdom/jsdom-devtools-formatter",
+      "target": "jest-environment-jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "jsdom/jsdom-devtools-formatter",
+      "target": "jsdom",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jsdom/jsdom-devtools-formatter",
+      "target": "chrome-devtools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jsdom/jsdom-devtools-formatter",
+      "target": "debug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jsdom/jsdom-devtools-formatter",
+      "target": "jsdom",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:27.726091+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2638
+    },
+    {
+      "path": "package.json",
+      "size": 876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Make jsdom elements look like real DOM elements in Chrome Devtools console",
+    "fork": false,
+    "full_name": "jsdom/jsdom-devtools-formatter",
+    "html_url": "https://github.com/jsdom/jsdom-devtools-formatter",
+    "language": "JavaScript",
+    "pushed_at": "2023-07-20T03:51:34Z",
+    "stargazers_count": 58,
+    "topics": [
+      "chrome-devtools",
+      "debug",
+      "dom",
+      "jsdom"
+    ],
+    "updated_at": "2026-03-28T06:26:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "In a nutshell: Instead of trying to understand what [jsdom](https://github.com/jsdom/jsdom)'s elements represents by inspecting their _implementation_ objects like so:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-devtools"
+    },
+    {
+      "context_snippet": "In a nutshell: Instead of trying to understand what [jsdom](https://github.com/jsdom/jsdom)'s elements represents by inspecting their _implementation_ objects like so:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debug"
+    },
+    {
+      "context_snippet": "In a nutshell: Instead of trying to understand what [jsdom](https://github.com/jsdom/jsdom)'s elements represents by inspecting their _implementation_ objects like so:",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jsdom"
+    }
+  ]
+}

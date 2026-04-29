@@ -19,6 +19,18 @@
       "source_repo": "onnx/models",
       "status": "candidate-context",
       "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Cadene/pretrained-models.pytorch",
+      "status": "candidate-context",
+      "text": "Pretrained ConvNets for pytorch: NASNet, ResNeXt, ResNet, InceptionV4, InceptionResnetV2, Xception, DPN, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cadene/pretrained-models.pytorch",
+      "status": "candidate-context",
+      "text": "The goal of this repo is:"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "onnx/models",
       "status": "candidate",
       "text": "<!--- SPDX-License-Identifier: Apache-2.0 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Cadene/pretrained-models.pytorch",
+      "status": "candidate",
+      "text": "The goal of this repo is:"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "onnx/models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Cadene/pretrained-models.pytorch"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

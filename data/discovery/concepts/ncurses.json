@@ -31,6 +31,18 @@
       "source_repo": "jonas/tig",
       "status": "candidate-context",
       "text": "Linux"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "a-n-t-h-o-n-y/TermOx",
+      "status": "candidate-context",
+      "text": "C++20 Terminal User Interface (TUI) Library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-n-t-h-o-n-y/TermOx",
+      "status": "candidate-context",
+      "text": "**TermOx** is a C++20 library for creating rich, interactive terminal user interfaces"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "jonas/tig",
       "status": "candidate",
       "text": "Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "a-n-t-h-o-n-y/TermOx",
+      "status": "candidate",
+      "text": "**TermOx** is a C++20 library for creating rich, interactive terminal user interfaces"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T01:09:11.871080+00:00",
       "source_file": null,
       "source_repo": "jonas/tig"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "a-n-t-h-o-n-y/TermOx"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T01:09:11.871080+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "conky"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "Passionately Crafted CLI Setup \ud83d\udc27\u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19935774,
+      "status": "candidate",
+      "text": "snot-nose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19935773,
+      "status": "candidate",
+      "text": "snotnose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19910774,
+      "status": "candidate",
+      "text": "afro"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19910774,
+      "status": "candidate",
+      "text": "bean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19910774,
+      "status": "candidate",
+      "text": "bed"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "conky",
+  "concept_id": "conky",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/dots2k"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "conky",
+      "sense_id": "conky#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

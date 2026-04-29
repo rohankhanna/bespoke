@@ -571,6 +571,126 @@
       "source_repo": "imcuttle/remark-heading-id",
       "status": "candidate-context",
       "text": "[![Build status](https://img.shields.io/travis/imcuttle/remark-heading-id/master.svg?style=flat-square)](https://travis-ci.org/imcuttle/remark-heading-id)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "microsoft/tsdoc",
+      "status": "candidate-context",
+      "text": "A doc comment standard for TypeScript"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/tsdoc",
+      "status": "candidate-context",
+      "text": "<table><tr><td>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "assemble/assemble",
+      "status": "candidate-context",
+      "text": "Get the rocks out of your socks! Assemble makes you fast at web development! Used by thousands of projects for rapid prototyping, themes, scaffolds, boilerplates, e-books, UI components, API documentation, blogs, building websites/static site generator, an alternative to Jekyll for gh-pages and more! Gulp- and grunt-friendly.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assemble/assemble",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "executablebooks/mdit-py-plugins",
+      "status": "candidate-context",
+      "text": "Collection of core plugins for markdown-it-py"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/mdit-py-plugins",
+      "status": "candidate-context",
+      "text": "[![Github-CI][github-ci]][github-link]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate-context",
+      "text": "CommonMark + GFM compatible Markdown parser and renderer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate-context",
+      "text": "[![Build status](https://github.com/kivikakk/comrak/actions/workflows/rust.yml/badge.svg)](https://github.com/kivikakk/comrak/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pulldown-cmark/pulldown-cmark",
+      "status": "candidate-context",
+      "text": "An efficient, reliable parser for CommonMark, a standard dialect of Markdown"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulldown-cmark/pulldown-cmark",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/pulldown-cmark/pulldown-cmark/actions/workflows/rust.yml/badge.svg)](https://github.com/pulldown-cmark/pulldown-cmark/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tats-u/markdown-cjk-friendly",
+      "status": "candidate-context",
+      "text": "Make CommonMark more friendly for Japanese/Chinese/Korean (CommonMark next specification draft)\u2014plugins & patched packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tats-u/markdown-cjk-friendly",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tats-u/markdown-cjk-friendly) [![CodSpeed Badge](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/tats-u/markdown-cjk-friendly?utm_source=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "verbose/verb",
+      "status": "candidate-context",
+      "text": "HEADS UP! Verb is going though a major transition, we've completely refactored everything from the ground up. If you're interested, please see the dev branch."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbose/verb",
+      "status": "candidate-context",
+      "text": "> Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used on hundreds of projects of all sizes to generate everything from API docs to readmes."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromark/micromark",
+      "status": "candidate-context",
+      "text": "small, safe, and great commonmark (optionally gfm, mdx) compliant markdown parser"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromark/micromark",
+      "status": "candidate-context",
+      "text": "micromark-mono"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syntax-tree/mdast",
+      "status": "candidate-context",
+      "text": "Markdown Abstract Syntax Tree format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/mdast",
+      "status": "candidate-context",
+      "text": "markdown abstract syntax tree"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate-context",
+      "text": "Mkdocs Markdown includer plugin"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate-context",
+      "text": "<!-- mdpo-disable-next-line -->"
     }
   ],
   "candidate_glosses": [
@@ -855,6 +975,66 @@
       "source_repo": "imcuttle/remark-heading-id",
       "status": "candidate",
       "text": "[![Build status](https://img.shields.io/travis/imcuttle/remark-heading-id/master.svg?style=flat-square)](https://travis-ci.org/imcuttle/remark-heading-id)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "microsoft/tsdoc",
+      "status": "candidate",
+      "text": "<table><tr><td>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assemble/assemble",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "executablebooks/mdit-py-plugins",
+      "status": "candidate",
+      "text": "[![Github-CI][github-ci]][github-link]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate",
+      "text": "[![Build status](https://github.com/kivikakk/comrak/actions/workflows/rust.yml/badge.svg)](https://github.com/kivikakk/comrak/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pulldown-cmark/pulldown-cmark",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/pulldown-cmark/pulldown-cmark/actions/workflows/rust.yml/badge.svg)](https://github.com/pulldown-cmark/pulldown-cmark/actions/workflows/rust.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tats-u/markdown-cjk-friendly",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tats-u/markdown-cjk-friendly) [![CodSpeed Badge](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/tats-u/markdown-cjk-friendly?utm_source=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "verbose/verb",
+      "status": "candidate",
+      "text": "> Documentation generator for GitHub projects. Verb is extremely powerful, easy to use, and is used on hundreds of projects of all sizes to generate everything from API docs to readmes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromark/micromark",
+      "status": "candidate",
+      "text": "micromark-mono"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/mdast",
+      "status": "candidate",
+      "text": "markdown abstract syntax tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin",
+      "status": "candidate",
+      "text": "<!-- mdpo-disable-next-line -->"
     }
   ],
   "candidate_related_terms": [
@@ -1234,11 +1414,83 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "clayrisser/sphinx-markdown-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "microsoft/tsdoc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "assemble/assemble"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "executablebooks/mdit-py-plugins"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kivikakk/comrak"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pulldown-cmark/pulldown-cmark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tats-u/markdown-cjk-friendly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "verbose/verb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromark/micromark"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "syntax-tree/mdast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mondeja/mkdocs-include-markdown-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-jekyll-builder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clayrisser/sphinx-markdown-builder"
     }
   ],
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

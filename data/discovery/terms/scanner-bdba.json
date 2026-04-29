@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Scaner_BDBA.yaml",
+      "source_repo": "intel/intel-extension-for-transformers"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/Scaner_BDBA.yml",
+      "source_repo": "intel/neural-speed"
+    }
+  ],
+  "term": "Scanner BDBA"
+}

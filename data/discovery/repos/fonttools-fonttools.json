@@ -179,7 +179,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:47:51.746665+00:00",
+  "fetched_at": "2026-04-29T21:48:24.081491+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -212,13 +212,13 @@
     "html_url": "https://github.com/fonttools/fonttools",
     "language": "Python",
     "pushed_at": "2026-04-22T17:22:55Z",
-    "stargazers_count": 5083,
+    "stargazers_count": 5085,
     "topics": [
       "fonts",
       "opentype",
       "python"
     ],
-    "updated_at": "2026-04-23T13:18:20Z"
+    "updated_at": "2026-04-28T12:20:46Z"
   },
   "repo_links": [],
   "terms": [

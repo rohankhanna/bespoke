@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Codestyle-Check",
-    "codestyle check"
+    "codestyle check",
+    "Codestyle Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,30 @@
       "source_repo": "corl-team/CORL",
       "status": "candidate-context",
       "text": "codestyle check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tinkoff-ai/CORL",
+      "status": "candidate-context",
+      "text": "High-quality single-file implementations of SOTA Offline and Offline-to-Online RL algorithms: AWAC, BC, CQL, DT, EDAC, IQL, SAC-N, TD3+BC, LB-SAC, SPOT, Cal-QL, ReBRAC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinkoff-ai/CORL",
+      "status": "candidate-context",
+      "text": "codestyle check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "Easy-to-use and powerful LLM and SLM library with awesome model zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "Codestyle Check"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +71,18 @@
       "source_repo": "corl-team/CORL",
       "status": "candidate",
       "text": "codestyle check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tinkoff-ai/CORL",
+      "status": "candidate",
+      "text": "codestyle check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate",
+      "text": "Codestyle Check"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +138,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/codestyle.yml",
       "source_repo": "corl-team/CORL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/codestyle.yml",
+      "source_repo": "tinkoff-ai/CORL"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "PaddlePaddle/PaddleNLP"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

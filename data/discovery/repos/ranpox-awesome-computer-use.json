@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ranpox/awesome-computer-use",
+      "target": "anthropics/anthropic-quickstarts",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ranpox/awesome-computer-use",
+      "target": "ambersahdev/open-interface",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ranpox/awesome-computer-use",
+      "target": "accomplish-ai/openwork",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ranpox/awesome-computer-use",
+      "target": "bytebot-ai/bytebot",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:54:29.288993+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is a collection of resources for computer-use GUI agents, including videos, blogs, papers, and projects.",
+    "fork": false,
+    "full_name": "ranpox/awesome-computer-use",
+    "html_url": "https://github.com/ranpox/awesome-computer-use",
+    "language": null,
+    "pushed_at": "2026-04-15T09:56:59Z",
+    "stargazers_count": 549,
+    "topics": [],
+    "updated_at": "2026-04-29T19:46:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "accomplish-ai/openwork",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ambersahdev/open-interface",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "anthropics/anthropic-quickstarts",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bytebot-ai/bytebot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

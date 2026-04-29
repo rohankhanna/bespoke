@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:01:27.243939+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": ":desert_island: corfu.el - COmpletion in Region FUnction",
+    "fork": false,
+    "full_name": "minad/corfu",
+    "html_url": "https://github.com/minad/corfu",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-04-19T18:38:31Z",
+    "stargazers_count": 1467,
+    "topics": [],
+    "updated_at": "2026-04-29T12:14:45Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

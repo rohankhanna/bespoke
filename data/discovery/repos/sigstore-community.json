@@ -1,0 +1,363 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-main-sigstore-conformance.yml"
+    },
+    {
+      "component": "sigstore/github-sync@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-main-sigstore-conformance.yml"
+    },
+    {
+      "component": "sigstore/github-sync@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-main-sigstore-conformance.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-main-sigstore.yml"
+    },
+    {
+      "component": "sigstore/github-sync@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-main-sigstore.yml"
+    },
+    {
+      "component": "sigstore/github-sync@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-main-sigstore.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-pr-sigstore-conformance.yml"
+    },
+    {
+      "component": "sigstore/github-sync@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-pr-sigstore-conformance.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-pr-sigstore.yml"
+    },
+    {
+      "component": "sigstore/github-sync@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-pr-sigstore.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-dependency-review.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-scorecard.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-scorecard.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-scorecard.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@ba454b8ab46733eb6145342877cd148270bb77ab",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-scorecard.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-main-sigstore-conformance.yml",
+      "source_repo": "sigstore/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-main-sigstore-conformance.yml",
+      "source_repo": "sigstore/community",
+      "target": "sigstore/github-sync@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-sync-main-sigstore-conformance.yml",
+      "source_repo": "sigstore/community",
+      "target": "sync-changes-sigstore-conformance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-main-sigstore.yml",
+      "source_repo": "sigstore/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-main-sigstore.yml",
+      "source_repo": "sigstore/community",
+      "target": "sigstore/github-sync@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-sync-main-sigstore.yml",
+      "source_repo": "sigstore/community",
+      "target": "sync-changes-sigstore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-pr-sigstore-conformance.yml",
+      "source_repo": "sigstore/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-pr-sigstore-conformance.yml",
+      "source_repo": "sigstore/community",
+      "target": "sigstore/github-sync@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-sync-pr-sigstore-conformance.yml",
+      "source_repo": "sigstore/community",
+      "target": "preview-changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-pr-sigstore.yml",
+      "source_repo": "sigstore/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-sync-pr-sigstore.yml",
+      "source_repo": "sigstore/community",
+      "target": "sigstore/github-sync@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-sync-pr-sigstore.yml",
+      "source_repo": "sigstore/community",
+      "target": "preview-changes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-dependency-review.yml",
+      "source_repo": "sigstore/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-dependency-review.yml",
+      "source_repo": "sigstore/community",
+      "target": "actions/dependency-review-action@2031cfc080254a8a887f58cffee85186f0e49e48",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-dependency-review.yml",
+      "source_repo": "sigstore/community",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "source_repo": "sigstore/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "source_repo": "sigstore/community",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "source_repo": "sigstore/community",
+      "target": "google-github-actions/setup-gcloud@aa5489c8933f4cc7a4f7d45035b3b1440c9c10db",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "source_repo": "sigstore/community",
+      "target": "Cut Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-scorecard.yml",
+      "source_repo": "sigstore/community",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-scorecard.yml",
+      "source_repo": "sigstore/community",
+      "target": "ossf/scorecard-action@4eaacf0543bb3f2c246792bd56e8cdeffafb205a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-scorecard.yml",
+      "source_repo": "sigstore/community",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/reusable-scorecard.yml",
+      "source_repo": "sigstore/community",
+      "target": "github/codeql-action/upload-sarif@ba454b8ab46733eb6145342877cd148270bb77ab",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-scorecard.yml",
+      "source_repo": "sigstore/community",
+      "target": "Scorecards supply-chain security",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:48:50.762717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2873
+    },
+    {
+      "path": ".github/workflows/github-sync-main-sigstore-conformance.yml",
+      "size": 1541
+    },
+    {
+      "path": ".github/workflows/github-sync-main-sigstore.yml",
+      "size": 1445
+    },
+    {
+      "path": ".github/workflows/github-sync-pr-sigstore-conformance.yml",
+      "size": 1062
+    },
+    {
+      "path": ".github/workflows/github-sync-pr-sigstore.yml",
+      "size": 994
+    },
+    {
+      "path": ".github/workflows/reusable-dependency-review.yml",
+      "size": 1389
+    },
+    {
+      "path": ".github/workflows/reusable-release.yml",
+      "size": 2602
+    },
+    {
+      "path": ".github/workflows/reusable-scorecard.yml",
+      "size": 3068
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "General sigstore community repo",
+    "fork": false,
+    "full_name": "sigstore/community",
+    "html_url": "https://github.com/sigstore/community",
+    "language": null,
+    "pushed_at": "2026-04-23T19:44:49Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2026-04-22T14:57:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "sync-changes-sigstore-conformance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-sync-main-sigstore-conformance.yml",
+      "term": "sync-changes-sigstore-conformance"
+    },
+    {
+      "context_snippet": "sync-changes-sigstore",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-sync-main-sigstore.yml",
+      "term": "sync-changes-sigstore"
+    },
+    {
+      "context_snippet": "preview-changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-sync-pr-sigstore-conformance.yml",
+      "term": "preview-changes"
+    },
+    {
+      "context_snippet": "preview-changes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-sync-pr-sigstore.yml",
+      "term": "preview-changes"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Cut Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-release.yml",
+      "term": "Cut Release"
+    },
+    {
+      "context_snippet": "Scorecards supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/reusable-scorecard.yml",
+      "term": "Scorecards supply-chain security"
+    }
+  ]
+}

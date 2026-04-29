@@ -1,0 +1,17 @@
+{
+  "component": "actions/github-script@626af12fe9a53dc2972b48385e7fe7dec79145c9",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copy-documentation-issue.yml",
+      "source_repo": "github/rest-api-description"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/copy-feature-issue.yml",
+      "source_repo": "github/rest-api-description"
+    }
+  ]
+}

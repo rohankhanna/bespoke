@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "HACL*, a formally verified cryptographic library written in F*"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains verified code for a library of modern"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains verified code for a library of modern"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39716653,
+      "status": "candidate",
+      "text": "mount everest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39716589,
+      "status": "candidate",
+      "text": "mt. everest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29314784,
+      "status": "candidate",
+      "text": "peak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29312666,
+      "status": "candidate",
+      "text": "feng"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29254683,
+      "status": "candidate",
+      "text": "response"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "everest",
+      "sense_id": "everest#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": null,
+      "status": "candidate",
+      "text": "mount everest"
+    }
+  ],
+  "concept_id": "everest",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "everest",
+  "observation_id": "0c4f8d3b82f98209",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "everest",
+  "source_context_snippet": "This repository contains verified code for a library of modern",
+  "source_file": null,
+  "source_repo": "hacl-star/hacl-star",
+  "source_repo_description": "HACL*, a formally verified cryptographic library written in F*"
+}

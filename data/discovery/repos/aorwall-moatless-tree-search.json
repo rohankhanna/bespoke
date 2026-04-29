@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aorwall/moatless-tree-search",
+      "target": "a-antoniades/swe-search",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aorwall/moatless-tree-search",
+      "target": "aorwall/moatless-testbeds",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:52:19.942867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9891
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1726
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "aorwall/moatless-tree-search",
+    "html_url": "https://github.com/aorwall/moatless-tree-search",
+    "language": "Python",
+    "pushed_at": "2025-06-06T13:16:21Z",
+    "stargazers_count": 134,
+    "topics": [],
+    "updated_at": "2026-04-19T08:26:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "a-antoniades/swe-search",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aorwall/moatless-testbeds",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,125 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "taki0112/spade-tensorflow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "zllrunning/face-parsing.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "celeba",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "face-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "face-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "face-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "switchablenorms/CelebAMask-HQ",
+      "target": "generative-adversarial-network",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:43:22.762959+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3463
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A large-scale face dataset for face parsing, recognition, generation and editing.",
+    "fork": false,
+    "full_name": "switchablenorms/CelebAMask-HQ",
+    "html_url": "https://github.com/switchablenorms/CelebAMask-HQ",
+    "language": "Python",
+    "pushed_at": "2024-06-20T04:33:41Z",
+    "stargazers_count": 2297,
+    "topics": [
+      "celeba",
+      "face-generation",
+      "face-recognition",
+      "face-segmentation",
+      "generative-adversarial-network"
+    ],
+    "updated_at": "2026-04-22T13:01:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "taki0112/spade-tensorflow",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "zllrunning/face-parsing.pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "celeba"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-generation"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-recognition"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-segmentation"
+    },
+    {
+      "context_snippet": "[[Paper]](https://arxiv.org/abs/1907.11922) [[Demo]](https://www.youtube.com/watch?v=T1o38DFalWs)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-adversarial-network"
+    }
+  ]
+}

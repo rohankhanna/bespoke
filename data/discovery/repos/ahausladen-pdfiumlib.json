@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:42:44.965108+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1438
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "PDF VCL Control using PDFium",
+    "fork": false,
+    "full_name": "ahausladen/PdfiumLib",
+    "html_url": "https://github.com/ahausladen/PdfiumLib",
+    "language": "Pascal",
+    "pushed_at": "2026-01-21T18:37:39Z",
+    "stargazers_count": 207,
+    "topics": [],
+    "updated_at": "2026-04-14T19:15:33Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

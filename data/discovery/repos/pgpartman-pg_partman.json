@@ -1,0 +1,173 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "pgpartman/pg_partman",
+      "target": "omniti-labs/pg_jobmon",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "pgpartman/pg_partman",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pgpartman/pg_partman",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "pgpartman/pg_partman",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgpartman/pg_partman",
+      "target": "background-worker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgpartman/pg_partman",
+      "target": "partitioning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgpartman/pg_partman",
+      "target": "pg-partition-manager",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgpartman/pg_partman",
+      "target": "plpgsql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgpartman/pg_partman",
+      "target": "postgresql",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "pgpartman/pg_partman",
+      "target": "postgresql-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:55:13.977790+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10101
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 713
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 469
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "development",
+    "description": "Partition management extension for PostgreSQL",
+    "fork": false,
+    "full_name": "pgpartman/pg_partman",
+    "html_url": "https://github.com/pgpartman/pg_partman",
+    "language": "PLpgSQL",
+    "pushed_at": "2026-03-09T15:14:51Z",
+    "stargazers_count": 2684,
+    "topics": [
+      "background-worker",
+      "partitioning",
+      "pg-partition-manager",
+      "plpgsql",
+      "postgresql",
+      "postgresql-extension"
+    ],
+    "updated_at": "2026-04-29T11:58:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "omniti-labs/pg_jobmon",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "[![PGXN version](https://badge.fury.io/pg/pg_partman.svg)](https://badge.fury.io/pg/pg_partman)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "background-worker"
+    },
+    {
+      "context_snippet": "[![PGXN version](https://badge.fury.io/pg/pg_partman.svg)](https://badge.fury.io/pg/pg_partman)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "partitioning"
+    },
+    {
+      "context_snippet": "[![PGXN version](https://badge.fury.io/pg/pg_partman.svg)](https://badge.fury.io/pg/pg_partman)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pg-partition-manager"
+    },
+    {
+      "context_snippet": "[![PGXN version](https://badge.fury.io/pg/pg_partman.svg)](https://badge.fury.io/pg/pg_partman)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plpgsql"
+    },
+    {
+      "context_snippet": "[![PGXN version](https://badge.fury.io/pg/pg_partman.svg)](https://badge.fury.io/pg/pg_partman)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql"
+    },
+    {
+      "context_snippet": "[![PGXN version](https://badge.fury.io/pg/pg_partman.svg)](https://badge.fury.io/pg/pg_partman)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "postgresql-extension"
+    }
+  ]
+}

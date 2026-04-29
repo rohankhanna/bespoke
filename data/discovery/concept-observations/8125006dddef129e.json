@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Documentation/website for the Jaeger Distributed Tracing project."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Netlify Status][netlify-img]][netlify]"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Netlify Status][netlify-img]][netlify]"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29600089,
+      "status": "candidate",
+      "text": "skua"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29557323,
+      "status": "candidate",
+      "text": "pomarine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29255776,
+      "status": "candidate",
+      "text": "j\u00e4ger"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27834702,
+      "status": "candidate",
+      "text": "labbe"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19600170,
+      "status": "candidate",
+      "text": "jager"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jaeger",
+      "sense_id": "jaeger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jaeger",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jaeger",
+  "observation_id": "8125006dddef129e",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "jaeger",
+  "source_context_snippet": "[![Netlify Status][netlify-img]][netlify]",
+  "source_file": null,
+  "source_repo": "jaegertracing/documentation",
+  "source_repo_description": "Documentation/website for the Jaeger Distributed Tracing project."
+}

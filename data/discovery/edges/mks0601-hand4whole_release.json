@@ -1,0 +1,27 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/Hand4Whole_RELEASE",
+      "target": "mks0601/i2l-meshnet_release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/Hand4Whole_RELEASE",
+      "target": "mmatl/pyopengl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/Hand4Whole_RELEASE",
+      "target": "vchoutas/expose",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "mks0601/Hand4Whole_RELEASE"
+}

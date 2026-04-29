@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:42:50.147978+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1582
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official repository for AdaMuon",
+    "fork": false,
+    "full_name": "Chongjie-Si/AdaMuon",
+    "html_url": "https://github.com/Chongjie-Si/AdaMuon",
+    "language": "Python",
+    "pushed_at": "2025-08-27T07:43:57Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2026-03-31T21:21:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

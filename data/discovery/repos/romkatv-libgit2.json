@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/libgit2",
+      "target": "carlosmn/geef",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/libgit2",
+      "target": "ethomson/jagged",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/libgit2",
+      "target": "fxfactorial/ocaml-libgit2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "romkatv/libgit2",
+      "target": "apmasell/vapis",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:55:37.450219+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15900
+    },
+    {
+      "path": "package.json",
+      "size": 281
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A cross-platform, linkable library implementation of Git that you can use in your application.",
+    "fork": true,
+    "full_name": "romkatv/libgit2",
+    "html_url": "https://github.com/romkatv/libgit2",
+    "language": "C",
+    "pushed_at": "2024-06-06T09:13:53Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2026-01-30T22:47:22Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apmasell/vapis",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "carlosmn/geef",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ethomson/jagged",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fxfactorial/ocaml-libgit2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

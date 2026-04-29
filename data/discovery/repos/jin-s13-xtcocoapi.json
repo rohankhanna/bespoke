@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    },
+    {
+      "component": "actions/setup-python@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jin-s13/xtcocoapi",
+      "target": "jeff-sjtu/crowdpose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jin-s13/xtcocoapi",
+      "target": "aichallenger/ai_challenger_2017",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "jin-s13/xtcocoapi",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "jin-s13/xtcocoapi",
+      "target": "actions/setup-python@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "source_repo": "jin-s13/xtcocoapi",
+      "target": "deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jin-s13/xtcocoapi",
+      "target": "aichallenger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jin-s13/xtcocoapi",
+      "target": "coco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jin-s13/xtcocoapi",
+      "target": "coco-wholebody",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jin-s13/xtcocoapi",
+      "target": "cocoapi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jin-s13/xtcocoapi",
+      "target": "crowdpose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jin-s13/xtcocoapi",
+      "target": "mmpose",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:30.662579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2186
+    },
+    {
+      "path": "requirements.txt",
+      "size": 130
+    },
+    {
+      "path": ".github/workflows/publish-to-pypi.yml",
+      "size": 3511
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Extended COCO-API",
+    "fork": false,
+    "full_name": "jin-s13/xtcocoapi",
+    "html_url": "https://github.com/jin-s13/xtcocoapi",
+    "language": "Python",
+    "pushed_at": "2026-01-07T03:33:13Z",
+    "stargazers_count": 73,
+    "topics": [
+      "aichallenger",
+      "coco",
+      "coco-wholebody",
+      "cocoapi",
+      "crowdpose",
+      "mmpose"
+    ],
+    "updated_at": "2026-02-28T09:54:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aichallenger/ai_challenger_2017",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jeff-sjtu/crowdpose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-to-pypi.yml",
+      "term": "deploy"
+    },
+    {
+      "context_snippet": "[2023.10.19] Release xtcocotools v1.14.3. Support python3.7~3.11 on Linux, mac and windows systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aichallenger"
+    },
+    {
+      "context_snippet": "[2023.10.19] Release xtcocotools v1.14.3. Support python3.7~3.11 on Linux, mac and windows systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coco"
+    },
+    {
+      "context_snippet": "[2023.10.19] Release xtcocotools v1.14.3. Support python3.7~3.11 on Linux, mac and windows systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coco-wholebody"
+    },
+    {
+      "context_snippet": "[2023.10.19] Release xtcocotools v1.14.3. Support python3.7~3.11 on Linux, mac and windows systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cocoapi"
+    },
+    {
+      "context_snippet": "[2023.10.19] Release xtcocotools v1.14.3. Support python3.7~3.11 on Linux, mac and windows systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crowdpose"
+    },
+    {
+      "context_snippet": "[2023.10.19] Release xtcocotools v1.14.3. Support python3.7~3.11 on Linux, mac and windows systems.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmpose"
+    }
+  ]
+}

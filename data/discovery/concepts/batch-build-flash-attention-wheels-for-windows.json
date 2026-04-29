@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Batch Build flash-attention Wheels for Windows"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kingbri1/flash-attention",
+      "status": "candidate-context",
+      "text": "Fast and memory-efficient exact attention"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kingbri1/flash-attention",
+      "status": "candidate-context",
+      "text": "Batch Build flash-attention Wheels for Windows"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kingbri1/flash-attention",
+      "status": "candidate",
+      "text": "Batch Build flash-attention Wheels for Windows"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27890,
+      "status": "candidate",
+      "text": "depth"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27890,
+      "status": "candidate",
+      "text": "jag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27890,
+      "status": "candidate",
+      "text": "lead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27890,
+      "status": "candidate",
+      "text": "round"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27867,
+      "status": "candidate",
+      "text": "patrol"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Batch Build flash-attention Wheels for Windows",
+  "concept_id": "batch-build-flash-attention-wheels-for-windows",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/batch-build-wheels.yml",
+      "source_repo": "kingbri1/flash-attention"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Batch Build flash-attention Wheels for Windows",
+      "sense_id": "batch-build-flash-attention-wheels-for-windows#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

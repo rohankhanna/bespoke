@@ -547,6 +547,270 @@
       "source_repo": "ROCm/MIVisionX",
       "status": "candidate-context",
       "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "AlexeyAB/darknet",
+      "status": "candidate-context",
+      "text": "YOLOv4 / Scaled-YOLOv4 / YOLO - Neural Networks for Object Detection (Windows and Linux version of Darknet )"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexeyAB/darknet",
+      "status": "candidate-context",
+      "text": "* Read the FAQ: https://www.ccoderun.ca/programming/darknet_faq/"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image",
+      "status": "candidate-context",
+      "text": "Bridge between RenderTexture (Unity) object and sensor_msgs/Image (ROS2)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image",
+      "status": "candidate-context",
+      "text": "Bridge between RenderTexture (Unity) object and sensor_msgs/Image (ROS2)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate-context",
+      "text": "Image annotation with Python. Supports polygon, rectangle, circle, line, point, and AI-assisted annotation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25\ud83d\udd25High-Performance Face Recognition Library on PaddlePaddle & PyTorch\ud83d\udd25\ud83d\udd25"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate-context",
+      "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "status": "candidate-context",
+      "text": "[ICML 2021, Long Talk] Delving into Deep Imbalanced Regression"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "status": "candidate-context",
+      "text": "This repository contains the implementation code for paper: <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CVCUDA/CV-CUDA",
+      "status": "candidate-context",
+      "text": "CV-CUDA\u2122 is an open-source, GPU accelerated library for cloud-scale image processing and computer vision."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVCUDA/CV-CUDA",
+      "status": "candidate-context",
+      "text": "[//]: # \"SPDX-FileCopyrightText: Copyright (c) 2022-2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hysts/anime-face-detector",
+      "status": "candidate-context",
+      "text": "Anime Face Detector using mmdet and mmpose"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hysts/anime-face-detector",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/anime-face-detector.svg)](https://pypi.org/project/anime-face-detector/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-edge-platform/training_extensions",
+      "status": "candidate-context",
+      "text": "Train, Evaluate, Optimize, Deploy Computer Vision Models via OpenVINO\u2122"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/training_extensions",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 MD042 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cleardusk/3DDFA_V2",
+      "status": "candidate-context",
+      "text": "The official PyTorch implementation of Towards Fast, Accurate and Stable 3D Dense Face Alignment, ECCV 2020."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA_V2",
+      "status": "candidate-context",
+      "text": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "albarji/mixture-of-diffusers",
+      "status": "candidate-context",
+      "text": "Mixture of Diffusers for scene composition and high resolution image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albarji/mixture-of-diffusers",
+      "status": "candidate-context",
+      "text": "![2022-10-12 15_35_27 305133_A charming house in the countryside, by jakub rozalski, sunset lighting, elegant, highly detailed, s_640x640_schelms_seed7178915308_gc8_steps50](https://user-images.githubusercontent.com/9654655/195362341-bc7766c2-f5c6-40f2-b457-59277aa11027.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "IDEA-Research/DINO",
+      "status": "candidate-context",
+      "text": "[ICLR 2023] Official implementation of the paper \"DINO: DETR with Improved DeNoising Anchor Boxes for End-to-End Object Detection\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DINO",
+      "status": "candidate-context",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dino-detr-with-improved-denoising-anchor-1/object-detection-on-coco-minival)](https://paperswithcode.com/sota/object-detection-on-coco-minival?p=dino-detr-with-improved-denoising-anchor-1)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate-context",
+      "text": "An ultimately comprehensive paper list of Vision Transformer/Attention, including papers, codes, and related websites"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate-context",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlfoundations/open_flamingo",
+      "status": "candidate-context",
+      "text": "An open-source framework for training large multimodal models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlfoundations/open_flamingo",
+      "status": "candidate-context",
+      "text": "[![PyPI version](https://badge.fury.io/py/open_flamingo.svg)](https://badge.fury.io/py/open_flamingo)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ROCm/rpp",
+      "status": "candidate-context",
+      "text": "AMD ROCm Performance Primitives (RPP) library is a comprehensive high-performance computer vision library for AMD processors with HIP/OpenCL/CPU back-ends."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rpp",
+      "status": "candidate-context",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amdegroot/ssd.pytorch",
+      "status": "candidate-context",
+      "text": "A PyTorch Implementation of Single Shot MultiBox Detector"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amdegroot/ssd.pytorch",
+      "status": "candidate-context",
+      "text": "A [PyTorch](http://pytorch.org/) implementation of [Single Shot MultiBox Detector](http://arxiv.org/abs/1512.02325) from the 2016 paper by Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang, and Alexander C. Berg. The official and original Caffe\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "status": "candidate-context",
+      "text": "This repository provides you with an easy-to-use labeling tool for State-of-the-art Deep Learning training purposes. It supports Auto-Labeling."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "status": "candidate-context",
+      "text": "---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuebinqin/DIS",
+      "status": "candidate-context",
+      "text": "This is the repo for our new project Highly Accurate Dichotomous Image Segmentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuebinqin/DIS",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuebinqin/U-2-Net",
+      "status": "candidate-context",
+      "text": "The code for our newly accepted paper in Pattern Recognition 2020: \"U^2-Net: Going Deeper with Nested U-Structure for Salient Object Detection.\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuebinqin/U-2-Net",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose",
+      "status": "candidate-context",
+      "text": "OpenPose: Real-time multi-person keypoint detection library for body, face, hands, and foot estimation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sayakpaul/BiT-jax2tf",
+      "status": "candidate-context",
+      "text": "This repository hosts the code to port NumPy model weights of BiT-ResNets to TensorFlow SavedModel format."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/BiT-jax2tf",
+      "status": "candidate-context",
+      "text": "This repository hosts the code to port NumPy model weights of BiT-ResNets [1] to TensorFlow SavedModel format. These models"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "google-research/scenic",
+      "status": "candidate-context",
+      "text": "Scenic: A Jax Library for Computer Vision Research and Beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/scenic",
+      "status": "candidate-context",
+      "text": "<div style=\"text-align: left\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheese-roll/light-anime-face-detector",
+      "status": "candidate-context",
+      "text": "A fast and light-weighted anime face detection based on LFFD."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheese-roll/light-anime-face-detector",
+      "status": "candidate-context",
+      "text": "![Demo GIF](/assets/demo.gif)"
     }
   ],
   "candidate_glosses": [
@@ -819,6 +1083,138 @@
       "source_repo": "ROCm/MIVisionX",
       "status": "candidate",
       "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "AlexeyAB/darknet",
+      "status": "candidate",
+      "text": "* Read the FAQ: https://www.ccoderun.ca/programming/darknet_faq/"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image",
+      "status": "candidate",
+      "text": "Bridge between RenderTexture (Unity) object and sensor_msgs/Image (ROS2)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wkentaro/labelme",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ZhaoJ9014/face.evoLVe",
+      "status": "candidate",
+      "text": "* Evolve to be more comprehensive, effective and efficient for face related analytics \\& applications! ([WeChat News](https://mp.weixin.qq.com/s/V8VoyMqVvjblH358ozcWEg))"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "status": "candidate",
+      "text": "This repository contains the implementation code for paper: <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CVCUDA/CV-CUDA",
+      "status": "candidate",
+      "text": "[//]: # \"SPDX-FileCopyrightText: Copyright (c) 2022-2025 NVIDIA CORPORATION & AFFILIATES. All rights reserved.\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hysts/anime-face-detector",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/anime-face-detector.svg)](https://pypi.org/project/anime-face-detector/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-edge-platform/training_extensions",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable MD013 MD033 MD041 MD042 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cleardusk/3DDFA_V2",
+      "status": "candidate",
+      "text": "torch torchvision matplotlib numpy opencv-python # cv2 imageio imageio-ffmpeg pyyaml # yaml tqdm argparse cython scikit-image # skimage scipy onnxruntime gradio"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albarji/mixture-of-diffusers",
+      "status": "candidate",
+      "text": "![2022-10-12 15_35_27 305133_A charming house in the countryside, by jakub rozalski, sunset lighting, elegant, highly detailed, s_640x640_schelms_seed7178915308_gc8_steps50](https://user-images.githubusercontent.com/9654655/195362341-bc7766c2-f5c6-40f2-b457-59277aa11027.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "IDEA-Research/DINO",
+      "status": "candidate",
+      "text": "[![PWC](https://img.shields.io/endpoint.svg?url=https://paperswithcode.com/badge/dino-detr-with-improved-denoising-anchor-1/object-detection-on-coco-minival)](https://paperswithcode.com/sota/object-detection-on-coco-minival?p=dino-detr-with-improved-denoising-anchor-1)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention",
+      "status": "candidate",
+      "text": "This repo contains a comprehensive paper list of **Vision Transformer & Attention**, including papers, codes, and related websites. <br>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlfoundations/open_flamingo",
+      "status": "candidate",
+      "text": "[![PyPI version](https://badge.fury.io/py/open_flamingo.svg)](https://badge.fury.io/py/open_flamingo)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ROCm/rpp",
+      "status": "candidate",
+      "text": "[![MIT licensed](https://img.shields.io/badge/license-MIT-blue.svg)](https://opensource.org/licenses/MIT)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amdegroot/ssd.pytorch",
+      "status": "candidate",
+      "text": "A [PyTorch](http://pytorch.org/) implementation of [Single Shot MultiBox Detector](http://arxiv.org/abs/1512.02325) from the 2016 paper by Wei Liu, Dragomir Anguelov, Dumitru Erhan, Christian Szegedy, Scott Reed, Cheng-Yang, and Alexander C. Berg. The official and original Caffe\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite",
+      "status": "candidate",
+      "text": "---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuebinqin/DIS",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuebinqin/U-2-Net",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sayakpaul/BiT-jax2tf",
+      "status": "candidate",
+      "text": "This repository hosts the code to port NumPy model weights of BiT-ResNets [1] to TensorFlow SavedModel format. These models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "google-research/scenic",
+      "status": "candidate",
+      "text": "<div style=\"text-align: left\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheese-roll/light-anime-face-detector",
+      "status": "candidate",
+      "text": "![Demo GIF](/assets/demo.gif)"
     }
   ],
   "candidate_related_terms": [],
@@ -1138,11 +1534,161 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "AlexeyAB/darknet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Ar-Ray-code/RenderTexture2ROS2Image"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "wkentaro/labelme"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-ai-edge/mediapipe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ZhaoJ9014/face.evoLVe"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "CVCUDA/CV-CUDA"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hysts/anime-face-detector"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-edge-platform/training_extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cleardusk/3DDFA_V2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "albarji/mixture-of-diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "IDEA-Research/DINO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cmhungsteve/Awesome-Transformer-Attention"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mlfoundations/open_flamingo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ROCm/rpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jacobmarks/clustering-plugin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "amdegroot/ssd.pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "BMW-InnovationLab/BMW-Labeltool-Lite"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/DIS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xuebinqin/U-2-Net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "CMU-Perceptual-Computing-Lab/openpose"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sayakpaul/BiT-jax2tf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-research/scenic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cheese-roll/light-anime-face-detector"
     }
   ],
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

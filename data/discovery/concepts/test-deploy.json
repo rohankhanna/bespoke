@@ -19,12 +19,30 @@
       "source_repo": "googlefonts/fontmake",
       "status": "candidate-context",
       "text": "Test + Deploy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googlefonts/ufo2ft",
+      "status": "candidate-context",
+      "text": "A bridge from UFOs to FontTools objects (and therefore, OTFs and TTFs)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/ufo2ft",
+      "status": "candidate-context",
+      "text": "Test + Deploy"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "googlefonts/fontmake",
+      "status": "candidate",
+      "text": "Test + Deploy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/ufo2ft",
       "status": "candidate",
       "text": "Test + Deploy"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "googlefonts/fontmake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "googlefonts/ufo2ft"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

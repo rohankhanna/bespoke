@@ -1,0 +1,382 @@
+{
+  "components": [
+    {
+      "component": "octokit/request-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-apple-darwin.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-apple-darwin.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-apple-darwin.yaml"
+    },
+    {
+      "component": "octokit/request-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-unknown-linux-gnu.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-unknown-linux-gnu.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-unknown-linux-gnu.yaml"
+    },
+    {
+      "component": "octokit/request-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rust-src.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rust-src.yaml"
+    },
+    {
+      "component": "seanmiddleditch/gha-setup-ninja@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rust-src.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rust-src.yaml"
+    },
+    {
+      "component": "octokit/request-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-pc-windows-msvc.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-pc-windows-msvc.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-pc-windows-msvc.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-pc-windows-msvc.yaml"
+    },
+    {
+      "component": "octokit/request-action@v2.x",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-unknown-linux-gnu.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-unknown-linux-gnu.yaml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-unknown-linux-gnu.yaml"
+    },
+    {
+      "component": "actions/add-to-project@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_handler.yml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-apple-darwin.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "octokit/request-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-apple-darwin.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-apple-darwin.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-unknown-linux-gnu.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "octokit/request-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-unknown-linux-gnu.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-aarch64-unknown-linux-gnu.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rust-src.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "octokit/request-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rust-src.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rust-src.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "seanmiddleditch/gha-setup-ninja@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-rust-src.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-pc-windows-msvc.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "octokit/request-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-pc-windows-msvc.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-pc-windows-msvc.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-unknown-linux-gnu.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "octokit/request-action@v2.x",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-unknown-linux-gnu.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-x86_64-unknown-linux-gnu.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "actions/add-to-project@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "Add new issues to project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/prepare-release.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yaml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "Prepare Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml",
+      "source_repo": "esp-rs/rust-build",
+      "target": "Publish IDF-Rust Tags",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:54:14.506355+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 433
+    },
+    {
+      "path": ".github/workflows/build-aarch64-apple-darwin.yaml",
+      "size": 2681
+    },
+    {
+      "path": ".github/workflows/build-aarch64-unknown-linux-gnu.yaml",
+      "size": 3100
+    },
+    {
+      "path": ".github/workflows/build-rust-src.yaml",
+      "size": 2577
+    },
+    {
+      "path": ".github/workflows/build-x86_64-pc-windows-msvc.yaml",
+      "size": 3218
+    },
+    {
+      "path": ".github/workflows/build-x86_64-unknown-linux-gnu.yaml",
+      "size": 3065
+    },
+    {
+      "path": ".github/workflows/issue_handler.yml",
+      "size": 333
+    },
+    {
+      "path": ".github/workflows/prepare-release.yaml",
+      "size": 1057
+    },
+    {
+      "path": ".github/workflows/publish-idf-rust-tags.yml",
+      "size": 2073
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Installation tools and workflows for deploying/building Rust fork esp-rs/rust with Xtensa and RISC-V support",
+    "fork": false,
+    "full_name": "esp-rs/rust-build",
+    "html_url": "https://github.com/esp-rs/rust-build",
+    "language": "Dockerfile",
+    "pushed_at": "2026-04-29T11:39:09Z",
+    "stargazers_count": 303,
+    "topics": [],
+    "updated_at": "2026-04-29T11:39:13Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Add new issues to project",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue_handler.yml",
+      "term": "Add new issues to project"
+    },
+    {
+      "context_snippet": "Prepare Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/prepare-release.yaml",
+      "term": "Prepare Release"
+    },
+    {
+      "context_snippet": "Publish IDF-Rust Tags",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-idf-rust-tags.yml",
+      "term": "Publish IDF-Rust Tags"
+    }
+  ]
+}

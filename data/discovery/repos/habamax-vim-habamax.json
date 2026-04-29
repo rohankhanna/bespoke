@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "habamax/vim-habamax",
+      "target": "vim/colorschemes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "habamax/vim-habamax",
+      "target": "colorscheme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "habamax/vim-habamax",
+      "target": "dark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "habamax/vim-habamax",
+      "target": "light",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:40:20.899632+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim colorscheme",
+    "fork": false,
+    "full_name": "habamax/vim-habamax",
+    "html_url": "https://github.com/habamax/vim-habamax",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-27T01:50:59Z",
+    "stargazers_count": 68,
+    "topics": [
+      "colorscheme",
+      "dark",
+      "light",
+      "vim"
+    ],
+    "updated_at": "2026-04-27T01:51:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vim/colorschemes",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "********************************************************************************",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "colorscheme"
+    },
+    {
+      "context_snippet": "********************************************************************************",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dark"
+    },
+    {
+      "context_snippet": "********************************************************************************",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "light"
+    }
+  ]
+}

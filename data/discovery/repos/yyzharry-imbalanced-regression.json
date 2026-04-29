@@ -1,0 +1,198 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "target": "healthcare",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "target": "icml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "target": "icml-2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "target": "imbalance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "target": "imbalanced-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "target": "imbalanced-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "target": "imbalanced-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "target": "imbalanced-regression",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "target": "long-tail",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "YyzHarry/imbalanced-regression",
+      "target": "regression",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:42:24.674441+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8562
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICML 2021, Long Talk] Delving into Deep Imbalanced Regression",
+    "fork": false,
+    "full_name": "YyzHarry/imbalanced-regression",
+    "html_url": "https://github.com/YyzHarry/imbalanced-regression",
+    "language": "Python",
+    "pushed_at": "2022-03-22T15:06:27Z",
+    "stargazers_count": 916,
+    "topics": [
+      "computer-vision",
+      "healthcare",
+      "icml",
+      "icml-2021",
+      "imbalance",
+      "imbalanced-classification",
+      "imbalanced-data",
+      "imbalanced-learning",
+      "imbalanced-regression",
+      "long-tail",
+      "natural-language-processing",
+      "regression"
+    ],
+    "updated_at": "2026-04-28T11:23:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repository contains the implementation code for paper: <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository contains the implementation code for paper: <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "healthcare"
+    },
+    {
+      "context_snippet": "This repository contains the implementation code for paper: <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icml"
+    },
+    {
+      "context_snippet": "This repository contains the implementation code for paper: <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icml-2021"
+    },
+    {
+      "context_snippet": "This repository contains the implementation code for paper: <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imbalance"
+    },
+    {
+      "context_snippet": "This repository contains the implementation code for paper: <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imbalanced-classification"
+    },
+    {
+      "context_snippet": "This repository contains the implementation code for paper: <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imbalanced-data"
+    },
+    {
+      "context_snippet": "This repository contains the implementation code for paper: <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imbalanced-learning"
+    },
+    {
+      "context_snippet": "This repository contains the implementation code for paper: <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "imbalanced-regression"
+    },
+    {
+      "context_snippet": "This repository contains the implementation code for paper: <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "long-tail"
+    },
+    {
+      "context_snippet": "This repository contains the implementation code for paper: <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "This repository contains the implementation code for paper: <br>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "regression"
+    }
+  ]
+}

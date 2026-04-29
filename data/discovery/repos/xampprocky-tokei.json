@@ -1,0 +1,537 @@
+{
+  "components": [
+    {
+      "component": "XAMPPRocky/get-github-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_ci.yml"
+    },
+    {
+      "component": "XAMPPRocky/get-github-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml"
+    },
+    {
+      "component": "XAMPPRocky/create-release@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml"
+    },
+    {
+      "component": "XAMPPRocky/create-release@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml"
+    },
+    {
+      "component": "XAMPPRocky/create-release@v1.0.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml"
+    },
+    {
+      "component": "actions/upload-release-asset@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml"
+    },
+    {
+      "component": "earthly/actions-setup@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_image.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_image.yaml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_image.yaml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_image.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yaml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yaml"
+    },
+    {
+      "component": "MarcoIeni/release-plz-action@v0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "earthly/earthly",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "laixintao/tokei-pie",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_ci.yml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "XAMPPRocky/get-github-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_ci.yml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_ci.yml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_ci.yml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mean_bean_ci.yml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "Mean Bean CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "XAMPPRocky/get-github-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "XAMPPRocky/create-release@v1.0.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "actions/upload-release-asset@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mean_bean_deploy.yml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mean_bean_deploy.yml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "Mean Bean Deploy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_image.yaml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "earthly/actions-setup@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_image.yaml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_image.yaml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish_image.yaml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_image.yaml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "Publish Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yaml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yaml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-plz.yaml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "MarcoIeni/release-plz-action@v0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yaml",
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "Release-plz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "badge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "cloc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "command-line-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "sloc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "statistics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "tokei",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei",
+      "target": "windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:53:15.896431+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13643
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 2119
+    },
+    {
+      "path": ".github/workflows/mean_bean_ci.yml",
+      "size": 5638
+    },
+    {
+      "path": ".github/workflows/mean_bean_deploy.yml",
+      "size": 6574
+    },
+    {
+      "path": ".github/workflows/publish_image.yaml",
+      "size": 1172
+    },
+    {
+      "path": ".github/workflows/release-plz.yaml",
+      "size": 596
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Count your code, quickly.",
+    "fork": false,
+    "full_name": "XAMPPRocky/tokei",
+    "html_url": "https://github.com/XAMPPRocky/tokei",
+    "language": "Rust",
+    "pushed_at": "2026-01-25T10:11:13Z",
+    "stargazers_count": 14332,
+    "topics": [
+      "badge",
+      "cli",
+      "cloc",
+      "code",
+      "command-line-tool",
+      "linux",
+      "macos",
+      "rust",
+      "sloc",
+      "statistics",
+      "tokei",
+      "windows"
+    ],
+    "updated_at": "2026-04-29T18:27:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "earthly/earthly",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "laixintao/tokei-pie",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Mean Bean CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mean_bean_ci.yml",
+      "term": "Mean Bean CI"
+    },
+    {
+      "context_snippet": "Mean Bean Deploy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mean_bean_deploy.yml",
+      "term": "Mean Bean Deploy"
+    },
+    {
+      "context_snippet": "Publish Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish_image.yaml",
+      "term": "Publish Docker Images"
+    },
+    {
+      "context_snippet": "Release-plz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-plz.yaml",
+      "term": "Release-plz"
+    },
+    {
+      "context_snippet": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "badge"
+    },
+    {
+      "context_snippet": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cloc"
+    },
+    {
+      "context_snippet": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code"
+    },
+    {
+      "context_snippet": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "command-line-tool"
+    },
+    {
+      "context_snippet": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linux"
+    },
+    {
+      "context_snippet": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sloc"
+    },
+    {
+      "context_snippet": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statistics"
+    },
+    {
+      "context_snippet": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokei"
+    },
+    {
+      "context_snippet": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "windows"
+    }
+  ]
+}

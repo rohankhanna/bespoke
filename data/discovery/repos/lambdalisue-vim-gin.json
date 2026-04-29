@@ -50,13 +50,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "lambdalisue/vim-gin",
-      "target": "lambdalisue/vim-gina",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "lambdalisue/vim-gin",
@@ -127,7 +120,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:39:58.910244+00:00",
+  "fetched_at": "2026-04-29T19:50:35.402835+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -159,11 +152,6 @@
     "updated_at": "2026-02-17T04:33:37Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lambdalisue/vim-gina",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lambdalisue/vim-gita",

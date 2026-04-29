@@ -158,6 +158,18 @@
       "source_repo": "argilla-io/distilabel",
       "status": "candidate-context",
       "text": "Publish documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pydantic/pydantic",
+      "status": "candidate-context",
+      "text": "Data validation using Python type hints"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/pydantic",
+      "status": "candidate-context",
+      "text": "Publish Documentation"
     }
   ],
   "candidate_glosses": [
@@ -238,6 +250,12 @@
       "source_repo": "argilla-io/distilabel",
       "status": "candidate",
       "text": "Publish documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pydantic/pydantic",
+      "status": "candidate",
+      "text": "Publish Documentation"
     }
   ],
   "candidate_related_terms": [
@@ -407,11 +425,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/docs.yml",
       "source_repo": "argilla-io/distilabel"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "electron/rebuild"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "electron/packager"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs-update.yml",
+      "source_repo": "pydantic/pydantic"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

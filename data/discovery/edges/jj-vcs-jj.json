@@ -53,21 +53,21 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "jj-vcs/jj",
-      "target": "taiki-e/install-action@055f5df8c3f65ea01cd41e9dc855becd88953486",
+      "target": "taiki-e/install-action@481c34c1cf3a84c68b5e46f4eccfc82af798415a",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "jj-vcs/jj",
-      "target": "rui314/setup-mold@725a8794d15fc7563f59595bd9556495c0564878",
+      "target": "rui314/setup-mold@9c9c13bf4c3f1adef0cc596abc155580bcb04444",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "jj-vcs/jj",
-      "target": "cachix/install-nix-action@616559265b40713947b9c190a8ff4b507b5df49b",
+      "target": "cachix/install-nix-action@ab739621df7a23f52766f9ccc97f38da6b7af14f",
       "target_type": "component"
     },
     {
@@ -197,6 +197,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "jj-vcs/jj"
 }

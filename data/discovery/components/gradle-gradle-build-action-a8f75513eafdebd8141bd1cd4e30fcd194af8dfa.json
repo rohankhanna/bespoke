@@ -1,0 +1,12 @@
+{
+  "component": "gradle/gradle-build-action@a8f75513eafdebd8141bd1cd4e30fcd194af8dfa",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/java-CI.yaml",
+      "source_repo": "Arize-ai/openinference"
+    }
+  ]
+}

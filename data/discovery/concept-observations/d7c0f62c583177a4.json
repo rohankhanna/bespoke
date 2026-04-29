@@ -84,7 +84,7 @@
   "normalized_form": "hugging-face-issue-labeler",
   "observation_id": "d7c0f62c583177a4",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Hugging Face Issue Labeler",
   "source_context_snippet": "\"Hugging Face Issue Labeler\"",
   "source_file": ".github/workflows/issue_auto_labeller.yml",

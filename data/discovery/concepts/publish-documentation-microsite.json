@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Publish Documentation microsite"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "php/pie",
+      "status": "candidate-context",
+      "text": "\ud83e\udd67 The PHP Installer for Extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/pie",
+      "status": "candidate-context",
+      "text": "\"Publish Documentation microsite\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "php/pie",
+      "status": "candidate",
+      "text": "\"Publish Documentation microsite\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18462,
+      "status": "candidate",
+      "text": "habitat"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10336,
+      "status": "candidate",
+      "text": "bias"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9595,
+      "status": "candidate",
+      "text": "aak"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9595,
+      "status": "candidate",
+      "text": "advertise"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9595,
+      "status": "candidate",
+      "text": "ask"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Publish Documentation microsite",
+  "concept_id": "publish-documentation-microsite",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "php/pie"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish Documentation microsite",
+      "sense_id": "publish-documentation-microsite#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

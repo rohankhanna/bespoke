@@ -1,0 +1,22 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "medama-io/medama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "seancorfield/honeysql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "seancorfield/next-jdbc"
+    }
+  ],
+  "term": "Release Version"
+}

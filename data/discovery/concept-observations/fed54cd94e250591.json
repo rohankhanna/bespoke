@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Eclipse Corrosion - Rust edition in Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "rust-language-server",
+      "sense_id": "rust-language-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "rust-language-server",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "rust-language-server",
+  "observation_id": "fed54cd94e250591",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "rust-language-server",
+  "source_context_snippet": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>",
+  "source_file": null,
+  "source_repo": "eclipse-corrosion/corrosion",
+  "source_repo_description": "Eclipse Corrosion - Rust edition in Eclipse IDE"
+}

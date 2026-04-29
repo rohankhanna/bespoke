@@ -19,6 +19,18 @@
       "source_repo": "plone/volto",
       "status": "candidate-context",
       "text": "<img align=\"right\" width=\"300\" alt=\"Volto logo png\" src=\"https://raw.githubusercontent.com/plone/volto/HEAD/logos/VoltoLogoEra2.png#gh-light-mode-only\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "status": "candidate-context",
+      "text": "Adds a new map block based on Leaflet and React Leaflet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "status": "candidate-context",
+      "text": "![screenshot](https://user-images.githubusercontent.com/9050997/131230905-9c5fe07c-834b-4e88-a031-387ee8d59b6e.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "plone/volto",
       "status": "candidate",
       "text": "<img align=\"right\" width=\"300\" alt=\"Volto logo png\" src=\"https://raw.githubusercontent.com/plone/volto/HEAD/logos/VoltoLogoEra2.png#gh-light-mode-only\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "status": "candidate",
+      "text": "![screenshot](https://user-images.githubusercontent.com/9050997/131230905-9c5fe07c-834b-4e88-a031-387ee8d59b6e.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "plone/volto"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adeweb-be/volto-leaflet-block"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

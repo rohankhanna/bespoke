@@ -103,6 +103,18 @@
       "source_repo": "travis-ci/packer-templates",
       "status": "candidate-context",
       "text": "Collection of Packer templates used for various infrastructure layers."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googleapis/google-cloud-java",
+      "status": "candidate-context",
+      "text": "Google Cloud Client Library for Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-java",
+      "status": "candidate-context",
+      "text": "> Java idiomatic client for [Google Cloud Platform][cloud-platform] services."
     }
   ],
   "candidate_glosses": [
@@ -153,6 +165,12 @@
       "source_repo": "travis-ci/packer-templates",
       "status": "candidate",
       "text": "Collection of Packer templates used for various infrastructure layers."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googleapis/google-cloud-java",
+      "status": "candidate",
+      "text": "> Java idiomatic client for [Google Cloud Platform][cloud-platform] services."
     }
   ],
   "candidate_related_terms": [],
@@ -208,11 +226,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "travis-ci/packer-templates"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "googleapis/google-cloud-java"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

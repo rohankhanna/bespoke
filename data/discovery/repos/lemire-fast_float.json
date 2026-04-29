@@ -1,0 +1,324 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amalgamate-ubuntu20.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu18.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v1.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu18.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu20-cxx20.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu20.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vs15-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vs16-arm-ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/fast_float",
+      "target": "eddelbuettel/rcppfastfloat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/fast_float",
+      "target": "lemire/fast_double_parser",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/fast_float",
+      "target": "microsoft/lightgbm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lemire/fast_float",
+      "target": "google/jsonnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "Alpine Linux",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amalgamate-ubuntu20.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "MSYS2-CLANG-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "MSYS2-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu18.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu18.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "jwlawson/actions-setup-cmake@v1.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu20-cxx20.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu20.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vs15-ci.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vs15-ci.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "VS15-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/vs16-arm-ci.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vs16-arm-ci.yml",
+      "source_repo": "lemire/fast_float",
+      "target": "VS16-ARM-CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:42:35.814008+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10071
+    },
+    {
+      "path": ".github/workflows/alpine.yml",
+      "size": 802
+    },
+    {
+      "path": ".github/workflows/amalgamate-ubuntu20.yml",
+      "size": 839
+    },
+    {
+      "path": ".github/workflows/msys2-clang.yml",
+      "size": 1172
+    },
+    {
+      "path": ".github/workflows/msys2.yml",
+      "size": 1365
+    },
+    {
+      "path": ".github/workflows/ubuntu18.yml",
+      "size": 1361
+    },
+    {
+      "path": ".github/workflows/ubuntu20-cxx20.yml",
+      "size": 479
+    },
+    {
+      "path": ".github/workflows/ubuntu20.yml",
+      "size": 1179
+    },
+    {
+      "path": ".github/workflows/vs15-ci.yml",
+      "size": 829
+    },
+    {
+      "path": ".github/workflows/vs16-arm-ci.yml",
+      "size": 468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast and exact implementation of the C++ from_chars functions for float and double types: 4x faster than strtod",
+    "fork": true,
+    "full_name": "lemire/fast_float",
+    "html_url": "https://github.com/lemire/fast_float",
+    "language": "C++",
+    "pushed_at": "2025-12-24T20:44:57Z",
+    "stargazers_count": 12,
+    "topics": [],
+    "updated_at": "2024-11-15T23:37:52Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eddelbuettel/rcppfastfloat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jsonnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lemire/fast_double_parser",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/lightgbm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Alpine Linux",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/alpine.yml",
+      "term": "Alpine Linux"
+    },
+    {
+      "context_snippet": "MSYS2-CLANG-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2-clang.yml",
+      "term": "MSYS2-CLANG-CI"
+    },
+    {
+      "context_snippet": "MSYS2-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/msys2.yml",
+      "term": "MSYS2-CI"
+    },
+    {
+      "context_snippet": "VS15-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vs15-ci.yml",
+      "term": "VS15-CI"
+    },
+    {
+      "context_snippet": "VS16-ARM-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/vs16-arm-ci.yml",
+      "term": "VS16-ARM-CI"
+    }
+  ]
+}

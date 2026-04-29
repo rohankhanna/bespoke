@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:59:44.117783+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1285
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Unity Project that demonstrates use of Draco mesh decoding",
+    "fork": false,
+    "full_name": "atteneder/DracoUnityDemo",
+    "html_url": "https://github.com/atteneder/DracoUnityDemo",
+    "language": "C#",
+    "pushed_at": "2024-03-14T11:22:06Z",
+    "stargazers_count": 30,
+    "topics": [],
+    "updated_at": "2025-06-19T09:10:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

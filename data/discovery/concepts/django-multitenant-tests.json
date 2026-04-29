@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Django Multitenant Tests"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "citusdata/django-multitenant",
+      "status": "candidate-context",
+      "text": "Python/Django support for distributed multi-tenant databases like Postgres+Citus"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/django-multitenant",
+      "status": "candidate-context",
+      "text": "\"Django Multitenant Tests\""
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "citusdata/django-multitenant",
+      "status": "candidate",
+      "text": "\"Django Multitenant Tests\""
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10054,
+      "status": "candidate",
+      "text": "designed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10054,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9624,
+      "status": "candidate",
+      "text": "grappelli"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9624,
+      "status": "candidate",
+      "text": "guitar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9624,
+      "status": "candidate",
+      "text": "reinhardt"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Django Multitenant Tests",
+  "concept_id": "django-multitenant-tests",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/django-multitenant-tests.yml",
+      "source_repo": "citusdata/django-multitenant"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Django Multitenant Tests",
+      "sense_id": "django-multitenant-tests#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

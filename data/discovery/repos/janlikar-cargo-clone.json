@@ -1,0 +1,106 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "JanLikar/cargo-clone",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "JanLikar/cargo-clone",
+      "target": "Rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JanLikar/cargo-clone",
+      "target": "cargo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JanLikar/cargo-clone",
+      "target": "cargo-subcommand",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "JanLikar/cargo-clone",
+      "target": "rust-crate",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:44:54.986525+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1940
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 153
+    },
+    {
+      "path": ".github/workflows/rust.yml",
+      "size": 480
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A cargo subcommand to fetch the source code of a Rust crate",
+    "fork": false,
+    "full_name": "JanLikar/cargo-clone",
+    "html_url": "https://github.com/JanLikar/cargo-clone",
+    "language": "Rust",
+    "pushed_at": "2026-04-27T07:08:33Z",
+    "stargazers_count": 109,
+    "topics": [
+      "cargo",
+      "cargo-subcommand",
+      "rust-crate"
+    ],
+    "updated_at": "2026-04-01T08:41:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Rust",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/rust.yml",
+      "term": "Rust"
+    },
+    {
+      "context_snippet": "cargo-clone can be used to fetch the source code of a Rust crate from a registry.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo"
+    },
+    {
+      "context_snippet": "cargo-clone can be used to fetch the source code of a Rust crate from a registry.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cargo-subcommand"
+    },
+    {
+      "context_snippet": "cargo-clone can be used to fetch the source code of a Rust crate from a registry.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust-crate"
+    }
+  ]
+}

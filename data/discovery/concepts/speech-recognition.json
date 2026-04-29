@@ -145,6 +145,84 @@
       "source_repo": "kaldi-asr/kaldi",
       "status": "candidate-context",
       "text": "[![Build Status](https://travis-ci.com/kaldi-asr/kaldi.svg?branch=master)](https://travis-ci.com/kaldi-asr/kaldi)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "smeetrs/deep_avsr",
+      "status": "candidate-context",
+      "text": "A PyTorch implementation of the Deep Audio-Visual Speech Recognition paper."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smeetrs/deep_avsr",
+      "status": "candidate-context",
+      "text": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "speechio/chinese_text_normalization",
+      "status": "candidate-context",
+      "text": "Chinese text normalization for speech processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechio/chinese_text_normalization",
+      "status": "candidate-context",
+      "text": "Search for \"Text Normalization\"(TN) on Google and Github, you can hardly find open-source projects that are \"read-to-use\" for text normalization tasks. Instead, you find a bunch of NLP toolkits or frameworks that *supports* TN functionality. There is quite some work between \"sup\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "status": "candidate-context",
+      "text": "Easy-to-use Speech Toolkit including Self-Supervised Learning model, SOTA/Streaming ASR with punctuation, Streaming TTS with text frontend, Speaker Verification System, End-to-End Speech Translation and Keyword Spotting. Won NAACL2022 Best Demo Award."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "status": "candidate-context",
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate-context",
+      "text": "Whisper.net. Speech to text made simple using Whisper Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate-context",
+      "text": "Android Native build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nobody132/masr",
+      "status": "candidate-context",
+      "text": "\u4e2d\u6587\u8bed\u97f3\u8bc6\u522b; Mandarin Automatic Speech Recognition;"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nobody132/masr",
+      "status": "candidate-context",
+      "text": "**MASR**\u662f\u4e00\u4e2a\u57fa\u4e8e**\u7aef\u5230\u7aef\u7684\u6df1\u5ea6\u795e\u7ecf\u7f51\u7edc**\u7684**\u4e2d\u6587\u666e\u901a\u8bdd\u8bed\u97f3\u8bc6\u522b**\u9879\u76ee\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chenkui164/FastASR",
+      "status": "candidate-context",
+      "text": "\u8fd9\u662f\u4e00\u4e2a\u7528C++\u5b9e\u73b0ASR\u63a8\u7406\u7684\u9879\u76ee\uff0c\u5b83\u4f9d\u8d56\u5f88\u5c11\uff0c\u5b89\u88c5\u4e5f\u5f88\u7b80\u5355\uff0c\u63a8\u7406\u901f\u5ea6\u5f88\u5feb\uff0c\u5728\u6811\u8393\u6d3e4B\u7b49ARM\u5e73\u53f0\u4e5f\u53ef\u4ee5\u6d41\u7545\u7684\u8fd0\u884c\u3002 \u652f\u6301\u7684\u6a21\u578b\u662f\u7531Google\u7684Transformer\u6a21\u578b\u4e2d\u4f18\u5316\u800c\u6765\uff0c\u6570\u636e\u96c6\u662f\u5f00\u6e90wenetspeech(10000+\u5c0f\u65f6)\u6216\u963f\u91cc\u79c1\u6709\u6570\u636e\u96c6(60000+\u5c0f\u65f6)\uff0c \u6240\u4ee5\u8bc6\u522b\u6548\u679c\u4e5f\u5f88\u597d\uff0c\u53ef\u4ee5\u5ab2\u7f8e\u8bb8\u591a\u5546\u7528\u7684ASR\u8f6f\u4ef6\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenkui164/FastASR",
+      "status": "candidate-context",
+      "text": "\u8fd9\u662f\u4e00\u4e2a\u7528C++\u5b9e\u73b0ASR\u63a8\u7406\u7684\u9879\u76ee\uff0c\u5b83\u4f9d\u8d56\u5f88\u5c11\uff0c\u5b89\u88c5\u4e5f\u5f88\u7b80\u5355\uff0c\u63a8\u7406\u901f\u5ea6\u5f88\u5feb\uff0c\u5728\u6811\u8393\u6d3e4B\u7b49ARM\u5e73\u53f0\u4e5f\u53ef\u4ee5\u6d41\u7545\u7684\u8fd0\u884c\u3002"
     }
   ],
   "candidate_glosses": [
@@ -213,6 +291,48 @@
       "source_repo": "kaldi-asr/kaldi",
       "status": "candidate",
       "text": "[![Build Status](https://travis-ci.com/kaldi-asr/kaldi.svg?branch=master)](https://travis-ci.com/kaldi-asr/kaldi)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "smeetrs/deep_avsr",
+      "status": "candidate",
+      "text": "The repository contains a PyTorch reproduction of the TM-CTC model from the [Deep Audio-Visual Speech Recognition](https://arxiv.org/abs/1809.02108) paper. We train three models - Audio-Only (AO), Video-Only (VO) and Audio-Visual (AV), on the [LRS2 dataset](http://www.robots.ox.\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechio/chinese_text_normalization",
+      "status": "candidate",
+      "text": "Search for \"Text Normalization\"(TN) on Google and Github, you can hardly find open-source projects that are \"read-to-use\" for text normalization tasks. Instead, you find a bunch of NLP toolkits or frameworks that *supports* TN functionality. There is quite some work between \"sup\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "status": "candidate",
+      "text": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sandrohanea/whisper.net",
+      "status": "candidate",
+      "text": "Android Native build"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nobody132/masr",
+      "status": "candidate",
+      "text": "**MASR**\u662f\u4e00\u4e2a\u57fa\u4e8e**\u7aef\u5230\u7aef\u7684\u6df1\u5ea6\u795e\u7ecf\u7f51\u7edc**\u7684**\u4e2d\u6587\u666e\u901a\u8bdd\u8bed\u97f3\u8bc6\u522b**\u9879\u76ee\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chenkui164/FastASR",
+      "status": "candidate",
+      "text": "\u8fd9\u662f\u4e00\u4e2a\u7528C++\u5b9e\u73b0ASR\u63a8\u7406\u7684\u9879\u76ee\uff0c\u5b83\u4f9d\u8d56\u5f88\u5c11\uff0c\u5b89\u88c5\u4e5f\u5f88\u7b80\u5355\uff0c\u63a8\u7406\u901f\u5ea6\u5f88\u5feb\uff0c\u5728\u6811\u8393\u6d3e4B\u7b49ARM\u5e73\u53f0\u4e5f\u53ef\u4ee5\u6d41\u7545\u7684\u8fd0\u884c\u3002"
     }
   ],
   "candidate_related_terms": [],
@@ -334,11 +454,59 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "smeetrs/deep_avsr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "speechio/chinese_text_normalization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ggml-org/whisper.cpp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sandrohanea/whisper.net"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nobody132/masr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chenkui164/FastASR"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

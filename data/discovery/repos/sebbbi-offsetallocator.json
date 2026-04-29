@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:53:30.251825+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5017
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Fast O(1) offset allocator with minimal fragmentation",
+    "fork": false,
+    "full_name": "sebbbi/OffsetAllocator",
+    "html_url": "https://github.com/sebbbi/OffsetAllocator",
+    "language": "C++",
+    "pushed_at": "2024-04-30T15:06:34Z",
+    "stargazers_count": 1033,
+    "topics": [],
+    "updated_at": "2026-04-27T18:10:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

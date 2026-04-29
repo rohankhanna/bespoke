@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "linq"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "redis/redis-om-dotnet",
+      "status": "candidate-context",
+      "text": "Object mapping, and more, for Redis and .NET"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-dotnet",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis/redis-om-dotnet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19674448,
+      "status": "candidate",
+      "text": "ado.net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19674447,
+      "status": "candidate",
+      "text": "datatable"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19674446,
+      "status": "candidate",
+      "text": "asp.net"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19674445,
+      "status": "candidate",
+      "text": "xquery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19674444,
+      "status": "candidate",
+      "text": "winforms"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "linq",
+  "concept_id": "linq",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "redis/redis-om-dotnet"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "linq",
+      "sense_id": "linq#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

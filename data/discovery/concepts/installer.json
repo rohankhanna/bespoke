@@ -163,6 +163,18 @@
       "source_repo": "electron-userland/electron-wix-msi",
       "status": "candidate-context",
       "text": "![electron-wix-msi](.github/logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ash258/Scoop-Core",
+      "status": "candidate-context",
+      "text": "Shovel. Alternative, more advanced, and user-friendly implementation of windows command-line installer scoop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ash258/Scoop-Core",
+      "status": "candidate-context",
+      "text": "Command-line installer for Windows"
     }
   ],
   "candidate_glosses": [
@@ -243,6 +255,12 @@
       "source_repo": "electron-userland/electron-wix-msi",
       "status": "candidate",
       "text": "![electron-wix-msi](.github/logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ash258/Scoop-Core",
+      "status": "candidate",
+      "text": "Command-line installer for Windows"
     }
   ],
   "candidate_related_terms": [
@@ -382,11 +400,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "get-gah/gah"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "electron-userland/electron-wix-msi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Ash258/Scoop-Core"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Scoop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Awesome"
     }
   ],
   "first_seen_at": "2026-04-18T11:32:22.637859+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

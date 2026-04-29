@@ -1,0 +1,250 @@
+{
+  "components": [
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gradle.yml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gradle.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "apache/poi",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/build_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "apache/poi",
+      "target": "google/oss-fuzz/infra/cifuzz/actions/run_fuzzers@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "apache/poi",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "apache/poi",
+      "target": "github/codeql-action/upload-sarif@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "source_repo": "apache/poi",
+      "target": "CIFuzz",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gradle.yml",
+      "source_repo": "apache/poi",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-gradle.yml",
+      "source_repo": "apache/poi",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-gradle.yml",
+      "source_repo": "apache/poi",
+      "target": "Java CI with Gradle",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/poi",
+      "target": "content",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/poi",
+      "target": "excel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/poi",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/poi",
+      "target": "library",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/poi",
+      "target": "ooxml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/poi",
+      "target": "powerpoint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/poi",
+      "target": "visio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "apache/poi",
+      "target": "word",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:45:32.679014+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4621
+    },
+    {
+      "path": ".github/workflows/cifuzz.yml",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/test-gradle.yml",
+      "size": 745
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "trunk",
+    "description": "Mirror of Apache POI gitbox. The Java API for Microsoft Documents.",
+    "fork": false,
+    "full_name": "apache/poi",
+    "html_url": "https://github.com/apache/poi",
+    "language": "Java",
+    "pushed_at": "2026-04-23T18:04:02Z",
+    "stargazers_count": 2223,
+    "topics": [
+      "content",
+      "excel",
+      "java",
+      "library",
+      "ooxml",
+      "poi",
+      "powerpoint",
+      "visio",
+      "word"
+    ],
+    "updated_at": "2026-04-29T09:06:32Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "CIFuzz",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cifuzz.yml",
+      "term": "CIFuzz"
+    },
+    {
+      "context_snippet": "Java CI with Gradle",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-gradle.yml",
+      "term": "Java CI with Gradle"
+    },
+    {
+      "context_snippet": "A Java library for reading and writing Microsoft Office binary and OOXML file formats.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "content"
+    },
+    {
+      "context_snippet": "A Java library for reading and writing Microsoft Office binary and OOXML file formats.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "excel"
+    },
+    {
+      "context_snippet": "A Java library for reading and writing Microsoft Office binary and OOXML file formats.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "A Java library for reading and writing Microsoft Office binary and OOXML file formats.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "library"
+    },
+    {
+      "context_snippet": "A Java library for reading and writing Microsoft Office binary and OOXML file formats.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ooxml"
+    },
+    {
+      "context_snippet": "A Java library for reading and writing Microsoft Office binary and OOXML file formats.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powerpoint"
+    },
+    {
+      "context_snippet": "A Java library for reading and writing Microsoft Office binary and OOXML file formats.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visio"
+    },
+    {
+      "context_snippet": "A Java library for reading and writing Microsoft Office binary and OOXML file formats.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "word"
+    }
+  ]
+}

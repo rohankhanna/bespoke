@@ -283,6 +283,126 @@
       "source_repo": "whatwg/html",
       "status": "candidate-context",
       "text": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "A JavaScript implementation of a web browser without its graphical user interface"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jsdom/jsdom",
+      "status": "candidate-context",
+      "text": "A JavaScript implementation of various web standards, for use with Node.js"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsdom/jsdom",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "assemble/assemble",
+      "status": "candidate-context",
+      "text": "Get the rocks out of your socks! Assemble makes you fast at web development! Used by thousands of projects for rapid prototyping, themes, scaffolds, boilerplates, e-books, UI components, API documentation, blogs, building websites/static site generator, an alternative to Jekyll for gh-pages and more! Gulp- and grunt-friendly.  "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assemble/assemble",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zarazhangrui/frontend-slides",
+      "status": "candidate-context",
+      "text": "Create beautiful slides on the web using Claude's frontend skills"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarazhangrui/frontend-slides",
+      "status": "candidate-context",
+      "text": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rehypejs/rehype",
+      "status": "candidate-context",
+      "text": "HTML processor powered by plugins part of the @unifiedjs collective"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehypejs/rehype",
+      "status": "candidate-context",
+      "text": "rehype"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rehypejs/rehype-highlight",
+      "status": "candidate-context",
+      "text": "plugin to highlight code blocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehypejs/rehype-highlight",
+      "status": "candidate-context",
+      "text": "rehype-highlight \u2014 rehype plugin to highlight code blocks with lowlight (highlight.js)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syntax-tree/hast",
+      "status": "candidate-context",
+      "text": "Hypertext Abstract Syntax Tree format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/hast",
+      "status": "candidate-context",
+      "text": "hypertext abstract syntax tree"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "twbs/bootstrap",
+      "status": "candidate-context",
+      "text": "The most popular HTML, CSS, and JavaScript framework for developing responsive, mobile first projects on the web."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twbs/bootstrap",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tachyons-css/tachyons",
+      "status": "candidate-context",
+      "text": "Functional css for humans"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tachyons-css/tachyons",
+      "status": "candidate-context",
+      "text": "Functional CSS for humans."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate-context",
+      "text": "The fast, flexible, and elegant library for parsing and manipulating HTML and XML."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate-context",
+      "text": "cheerio \u2014 The fast, flexible & elegant library for parsing and manipulating HTML and XML."
     }
   ],
   "candidate_glosses": [
@@ -423,6 +543,66 @@
       "source_repo": "whatwg/html",
       "status": "candidate",
       "text": "This repository hosts the [HTML Standard](https://html.spec.whatwg.org/)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "capricorn86/happy-dom",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jsdom/jsdom",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "assemble/assemble",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zarazhangrui/frontend-slides",
+      "status": "candidate",
+      "text": "A Claude Code skill for creating stunning, animation-rich HTML presentations \u2014 from scratch or by converting PowerPoint files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehypejs/rehype",
+      "status": "candidate",
+      "text": "rehype"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rehypejs/rehype-highlight",
+      "status": "candidate",
+      "text": "rehype-highlight \u2014 rehype plugin to highlight code blocks with lowlight (highlight.js)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/hast",
+      "status": "candidate",
+      "text": "hypertext abstract syntax tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "twbs/bootstrap",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tachyons-css/tachyons",
+      "status": "candidate",
+      "text": "Functional CSS for humans."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cheeriojs/cheerio",
+      "status": "candidate",
+      "text": "cheerio \u2014 The fast, flexible & elegant library for parsing and manipulating HTML and XML."
     }
   ],
   "candidate_related_terms": [
@@ -624,11 +804,77 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "whatwg/html"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "capricorn86/happy-dom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jsdom/jsdom"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "assemble/assemble"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zarazhangrui/frontend-slides"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rehypejs/rehype"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rehypejs/rehype-highlight"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "syntax-tree/hast"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "twbs/bootstrap"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tachyons-css/tachyons"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cheeriojs/cheerio"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "web-platform-tests/wpt"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "This is a collection of our NAS and Vision Transformer work."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "***This is a collection of our NAS and Vision Transformer work***"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "***This is a collection of our NAS and Vision Transformer work***"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "vit-compression",
+      "sense_id": "vit-compression#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "vit-compression",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vit-compression",
+  "observation_id": "21b8baa5bc5febbf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "vit-compression",
+  "source_context_snippet": "***This is a collection of our NAS and Vision Transformer work***",
+  "source_file": null,
+  "source_repo": "microsoft/Cream",
+  "source_repo_description": "This is a collection of our NAS and Vision Transformer work."
+}

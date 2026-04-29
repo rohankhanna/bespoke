@@ -178,6 +178,66 @@
       "source_repo": "swagger-autogen/swagger-autogen",
       "status": "candidate-context",
       "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielgtaylor/openapi-cli-generator",
+      "status": "candidate-context",
+      "text": "Generate a CLI from an OpenAPI 3 specification"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/openapi-cli-generator",
+      "status": "candidate-context",
+      "text": "[![GoDoc](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator?status.svg)](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate-context",
+      "text": "typescript http client and server with zod validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Zodios</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc-ecosystem/grpc-gateway",
+      "status": "candidate-context",
+      "text": "gRPC to JSON proxy generator following the gRPC HTTP spec"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc-ecosystem/grpc-gateway",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "octokit/openapi",
+      "status": "candidate-context",
+      "text": "GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi",
+      "status": "candidate-context",
+      "text": "> GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-webui/open-webui",
+      "status": "candidate-context",
+      "text": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/open-webui",
+      "status": "candidate-context",
+      "text": "![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)"
     }
   ],
   "candidate_glosses": [
@@ -264,6 +324,36 @@
       "source_repo": "swagger-autogen/swagger-autogen",
       "status": "candidate",
       "text": "This module performs automatic construction of Swagger documentation. It can identify the endpoints and automatically capture methods such as get, post, put, and so on. It also identifies paths, routes, middlewares, response status codes, parameters in the path, header, query an\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/openapi-cli-generator",
+      "status": "candidate",
+      "text": "[![GoDoc](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator?status.svg)](https://godoc.org/github.com/danielgtaylor/openapi-cli-generator)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Zodios</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc-ecosystem/grpc-gateway",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "octokit/openapi",
+      "status": "candidate",
+      "text": "> GitHub's official OpenAPI spec with Octokit extensions"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/open-webui",
+      "status": "candidate",
+      "text": "![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)"
     }
   ],
   "candidate_related_terms": [],
@@ -355,11 +445,47 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "swagger-autogen/swagger-autogen"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "danielgtaylor/openapi-cli-generator"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ecyrbe/zodios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "grpc-ecosystem/grpc-gateway"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "octokit/openapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-webui/open-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HandH1998/QQQ",
+      "target": "modeltc/outlier_suppression_plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HandH1998/QQQ",
+      "target": "spcl/quarot",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:46:21.282415+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7044
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "QQQ is an innovative and hardware-optimized W4A8 quantization solution for LLMs.",
+    "fork": false,
+    "full_name": "HandH1998/QQQ",
+    "html_url": "https://github.com/HandH1998/QQQ",
+    "language": "Python",
+    "pushed_at": "2025-08-21T03:54:33Z",
+    "stargazers_count": 155,
+    "topics": [],
+    "updated_at": "2026-04-23T13:21:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "modeltc/outlier_suppression_plus",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spcl/quarot",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -43,6 +43,18 @@
       "source_repo": "nodenv/homebrew-nodenv",
       "status": "candidate-context",
       "text": "brew pr-pull"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rose-pine/homebrew-tap",
+      "status": "candidate-context",
+      "text": "Homebrew tap repo for Ros\u00e9 Pine"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rose-pine/homebrew-tap",
+      "status": "candidate-context",
+      "text": "brew pr-pull"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nodenv/homebrew-nodenv",
+      "status": "candidate",
+      "text": "brew pr-pull"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rose-pine/homebrew-tap",
       "status": "candidate",
       "text": "brew pr-pull"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/publish.yml",
       "source_repo": "nodenv/homebrew-nodenv"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "rose-pine/homebrew-tap"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

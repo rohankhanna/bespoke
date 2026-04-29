@@ -1,0 +1,60 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antoinemadec/FixCursorHold.nvim",
+      "target": "neovim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "antoinemadec/FixCursorHold.nvim",
+      "target": "performance",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:41:31.255748+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1097
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Fix CursorHold Performance.",
+    "fork": false,
+    "full_name": "antoinemadec/FixCursorHold.nvim",
+    "html_url": "https://github.com/antoinemadec/FixCursorHold.nvim",
+    "language": "Vim Script",
+    "pushed_at": "2023-02-13T11:23:07Z",
+    "stargazers_count": 295,
+    "topics": [
+      "fix",
+      "neovim",
+      "performance",
+      "vim"
+    ],
+    "updated_at": "2026-04-04T22:49:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Fix CursorHold Performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neovim"
+    },
+    {
+      "context_snippet": "Fix CursorHold Performance",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    }
+  ]
+}

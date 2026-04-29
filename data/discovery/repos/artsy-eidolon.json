@@ -1,0 +1,122 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artsy/eidolon",
+      "target": "artsy/mobile",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artsy/eidolon",
+      "target": "artsy/eigen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artsy/eidolon",
+      "target": "artsy/emission",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "artsy/eidolon",
+      "target": "artsy/emergence",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artsy/eidolon",
+      "target": "artsy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artsy/eidolon",
+      "target": "auction-kiosk",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "artsy/eidolon",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:51:58.485856+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3984
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The Artsy Auction Kiosk App.",
+    "fork": false,
+    "full_name": "artsy/eidolon",
+    "html_url": "https://github.com/artsy/eidolon",
+    "language": "Swift",
+    "pushed_at": "2023-01-04T17:53:43Z",
+    "stargazers_count": 2704,
+    "topics": [
+      "artsy",
+      "auction-kiosk",
+      "frp",
+      "swift"
+    ],
+    "updated_at": "2026-04-19T14:05:35Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artsy/eigen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artsy/emergence",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artsy/emission",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "artsy/mobile",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Eidolon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artsy"
+    },
+    {
+      "context_snippet": "Eidolon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "auction-kiosk"
+    },
+    {
+      "context_snippet": "Eidolon",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

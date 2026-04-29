@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "cla-bot"
+    "cla-bot",
+    "CLA-Bot"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,12 +20,60 @@
       "source_repo": "mlcommons/training",
       "status": "candidate-context",
       "text": "\"cla-bot\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mlcommons/algorithmic-efficiency",
+      "status": "candidate-context",
+      "text": "MLCommons Algorithmic Efficiency is a benchmark and competition measuring neural network training speedups due to algorithmic improvements in both training algorithms and models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlcommons/algorithmic-efficiency",
+      "status": "candidate-context",
+      "text": "\"cla-bot\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wixtoolset/wix3",
+      "status": "candidate-context",
+      "text": "WiX Toolset v3.x"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wixtoolset/wix3",
+      "status": "candidate-context",
+      "text": "\"CLA-Bot\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlcommons/submissions_algorithms",
+      "status": "candidate-context",
+      "text": "\"cla-bot\""
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "mlcommons/training",
+      "status": "candidate",
+      "text": "\"cla-bot\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlcommons/algorithmic-efficiency",
+      "status": "candidate",
+      "text": "\"cla-bot\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wixtoolset/wix3",
+      "status": "candidate",
+      "text": "\"CLA-Bot\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mlcommons/submissions_algorithms",
       "status": "candidate",
       "text": "\"cla-bot\""
     }
@@ -40,11 +89,29 @@
       "observed_at": "2026-04-22T04:49:29.633207+00:00",
       "source_file": ".github/workflows/cla.yml",
       "source_repo": "mlcommons/training"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "mlcommons/algorithmic-efficiency"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "wixtoolset/wix3"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cla.yml",
+      "source_repo": "mlcommons/submissions_algorithms"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T04:49:29.633207+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

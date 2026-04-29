@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A starter project for working with Redis and Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a Redis starter template for Java and Spring Boot 4."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a Redis starter template for Java and Spring Boot 4."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19840509,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19789788,
+      "status": "candidate",
+      "text": "dishes"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 18455226,
+      "status": "candidate",
+      "text": "hondo"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9926906,
+      "status": "candidate",
+      "text": "cdia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9926906,
+      "status": "candidate",
+      "text": "cesi"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "jedis",
+      "sense_id": "jedis#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "jedis",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "jedis",
+  "observation_id": "1c37e3aa94f34324",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "jedis",
+  "source_context_snippet": "This is a Redis starter template for Java and Spring Boot 4.",
+  "source_file": null,
+  "source_repo": "redis-developer/redis-starter-java",
+  "source_repo_description": "A starter project for working with Redis and Java"
+}

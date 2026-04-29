@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "msvc"
+    "msvc",
+    "MSVC"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -31,6 +34,18 @@
       "source_repo": "microsoft/DirectXMath",
       "status": "candidate-context",
       "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXMath/X_jpg.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BYVoid/OpenCC",
+      "status": "candidate-context",
+      "text": "Library for conversion between Traditional and Simplified Chinese"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BYVoid/OpenCC",
+      "status": "candidate-context",
+      "text": "MSVC"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +60,12 @@
       "source_repo": "microsoft/DirectXMath",
       "status": "candidate",
       "text": "![DirectX Logo](https://raw.githubusercontent.com/wiki/Microsoft/DirectXMath/X_jpg.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BYVoid/OpenCC",
+      "status": "candidate",
+      "text": "MSVC"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +85,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "microsoft/DirectXMath"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/msvc.yml",
+      "source_repo": "BYVoid/OpenCC"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

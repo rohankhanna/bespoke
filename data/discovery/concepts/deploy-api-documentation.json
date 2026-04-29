@@ -19,12 +19,30 @@
       "source_repo": "open-telemetry/opentelemetry-js",
       "status": "candidate-context",
       "text": "Deploy API Documentation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tower-rs/tower",
+      "status": "candidate-context",
+      "text": "async fn(Request) -> Result<Response, Error>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tower-rs/tower",
+      "status": "candidate-context",
+      "text": "Deploy API Documentation"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "open-telemetry/opentelemetry-js",
+      "status": "candidate",
+      "text": "Deploy API Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tower-rs/tower",
       "status": "candidate",
       "text": "Deploy API Documentation"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/docs.yaml",
       "source_repo": "open-telemetry/opentelemetry-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "tower-rs/tower"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

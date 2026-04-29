@@ -5,7 +5,9 @@
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -67,6 +69,42 @@
       "source_repo": "OrleansContrib/OrleansDashboard",
       "status": "candidate-context",
       "text": ".NET Core"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "medama-io/medama",
+      "status": "candidate-context",
+      "text": "Self-hostable, privacy-focused website analytics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medama-io/medama",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optuna-dashboard",
+      "status": "candidate-context",
+      "text": "Real-time Web Dashboard for Optuna."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-dashboard",
+      "status": "candidate-context",
+      "text": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "optuna/optuna-examples",
+      "status": "candidate-context",
+      "text": "Examples for https://github.com/optuna/optuna"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-examples",
+      "status": "candidate-context",
+      "text": "dashboard"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +137,24 @@
       "source_repo": "OrleansContrib/OrleansDashboard",
       "status": "candidate",
       "text": ".NET Core"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medama-io/medama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-dashboard",
+      "status": "candidate",
+      "text": "![Software License](https://img.shields.io/badge/license-MIT-brightgreen.svg?style=flat-square)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "optuna/optuna-examples",
+      "status": "candidate",
+      "text": "dashboard"
     }
   ],
   "candidate_related_terms": [
@@ -180,11 +236,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "OrleansContrib/OrleansDashboard"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "medama-io/medama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "optuna/optuna-dashboard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dashboard.yml",
+      "source_repo": "optuna/optuna-examples"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

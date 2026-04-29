@@ -1,0 +1,22 @@
+{
+  "component": "actions-cool/check-user-permission@c21884f3dda18dafc2f8b402fe807ccc9ec1aa5e",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml",
+      "source_repo": "ag2ai/ag2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml",
+      "source_repo": "ag2ai/ag2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml",
+      "source_repo": "ag2ai/ag2"
+    }
+  ]
+}

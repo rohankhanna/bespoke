@@ -1,11 +1,15 @@
 {
   "aliases": [
-    "health-check"
+    "health-check",
+    "Health check",
+    "Health Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +23,24 @@
       "source_repo": "nodenv/nodenv-installer",
       "status": "candidate-context",
       "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv-installer/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv-installer/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/addons-server",
+      "status": "candidate-context",
+      "text": "\ud83d\udd76 addons.mozilla.org Django app and API \ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/addons-server",
+      "status": "candidate-context",
+      "text": "Health check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/addons-server",
+      "status": "candidate-context",
+      "text": "Health Check"
     }
   ],
   "candidate_glosses": [
@@ -27,9 +49,57 @@
       "source_repo": "nodenv/nodenv-installer",
       "status": "candidate",
       "text": "[![Tests](https://img.shields.io/github/actions/workflow/status/nodenv/nodenv-installer/test.yml?label=tests&logo=github)](https://github.com/nodenv/nodenv-installer/actions/workflows/test.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/addons-server",
+      "status": "candidate",
+      "text": "Health check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/addons-server",
+      "status": "candidate",
+      "text": "Health Check"
     }
   ],
-  "candidate_related_terms": [],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73037,
+      "status": "candidate",
+      "text": "checkup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73037,
+      "status": "candidate",
+      "text": "medical"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73037,
+      "status": "candidate",
+      "text": "medical checkup"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73037,
+      "status": "candidate",
+      "text": "medical exam"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 73037,
+      "status": "candidate",
+      "text": "medical examination"
+    }
+  ],
   "candidate_synonyms": [],
   "canonical_name": "health-check",
   "concept_id": "health-check",
@@ -40,11 +110,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "nodenv/nodenv-installer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/_health_check.yml",
+      "source_repo": "mozilla/addons-server"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/health_check.yml",
+      "source_repo": "mozilla/addons-server"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

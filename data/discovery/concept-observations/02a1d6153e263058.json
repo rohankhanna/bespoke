@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Dart Plugin for Eclipse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eclipse-plugin",
+      "sense_id": "eclipse-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "eclipse-plugin",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eclipse-plugin",
+  "observation_id": "02a1d6153e263058",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "eclipse-plugin",
+  "source_context_snippet": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026",
+  "source_file": null,
+  "source_repo": "eclipse-archived/dartboard",
+  "source_repo_description": "Dart Plugin for Eclipse"
+}

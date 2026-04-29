@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "emulators"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "status": "candidate-context",
+      "text": "Scoop bucket for emulators"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "status": "candidate-context",
+      "text": "[![Tests](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/ci.yml/badge.svg)](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/ci.yml) [![Excavator](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/excavator.yml/badge.svg)](http\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hermanjustnu/scoop-emulators",
+      "status": "candidate",
+      "text": "[![Tests](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/ci.yml/badge.svg)](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/ci.yml) [![Excavator](https://github.com/hermanjustnu/scoop-emulators/actions/workflows/excavator.yml/badge.svg)](http\u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31425,
+      "status": "candidate",
+      "text": "emulations"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31424,
+      "status": "candidate",
+      "text": "emulation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31422,
+      "status": "candidate",
+      "text": "emulated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31421,
+      "status": "candidate",
+      "text": "emulating"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31420,
+      "status": "candidate",
+      "text": "emulates"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "emulators",
+  "concept_id": "emulators",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hermanjustnu/scoop-emulators"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "emulators",
+      "sense_id": "emulators#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

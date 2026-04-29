@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "HuCaoFighting/Swin-Unet",
+      "target": "beckschen/transunet",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:43.807700+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3431
+    },
+    {
+      "path": "requirements.txt",
+      "size": 108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCVW 2022] The codes for the work \"Swin-Unet: Unet-like Pure Transformer for Medical Image Segmentation\"",
+    "fork": false,
+    "full_name": "HuCaoFighting/Swin-Unet",
+    "html_url": "https://github.com/HuCaoFighting/Swin-Unet",
+    "language": "Python",
+    "pushed_at": "2025-05-09T08:44:36Z",
+    "stargazers_count": 2380,
+    "topics": [],
+    "updated_at": "2026-04-29T03:20:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "beckschen/transunet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

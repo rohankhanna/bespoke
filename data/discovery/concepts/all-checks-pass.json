@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "All checks pass"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chef/chef",
+      "status": "candidate-context",
+      "text": "Chef Infra, a powerful automation platform that transforms infrastructure into code automating how infrastructure is configured, deployed and managed across any environment, at any scale"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/chef",
+      "status": "candidate-context",
+      "text": "All checks pass"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chef/chef",
+      "status": "candidate",
+      "text": "All checks pass"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26563,
+      "status": "candidate",
+      "text": "decease"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26563,
+      "status": "candidate",
+      "text": "die"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26563,
+      "status": "candidate",
+      "text": "exit"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26563,
+      "status": "candidate",
+      "text": "perish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26517,
+      "status": "candidate",
+      "text": "expire"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "All checks pass",
+  "concept_id": "all-checks-pass",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/allchecks.yml",
+      "source_repo": "chef/chef"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "All checks pass",
+      "sense_id": "all-checks-pass#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:54:11.340194+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1588
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1534
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Text progress bar library for Python",
+    "fork": false,
+    "full_name": "NiltonVolpato/python-progressbar",
+    "html_url": "https://github.com/NiltonVolpato/python-progressbar",
+    "language": "Python",
+    "pushed_at": "2026-03-10T14:31:25Z",
+    "stargazers_count": 424,
+    "topics": [],
+    "updated_at": "2026-04-08T16:40:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

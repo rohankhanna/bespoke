@@ -1,0 +1,99 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-import-gpg@v6.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "goreleaser/goreleaser-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bozerkins/terraform-provider-dkron",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bozerkins/terraform-provider-dkron",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bozerkins/terraform-provider-dkron",
+      "target": "crazy-max/ghaction-import-gpg@v6.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bozerkins/terraform-provider-dkron",
+      "target": "goreleaser/goreleaser-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "bozerkins/terraform-provider-dkron",
+      "target": "release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:50:03.793480+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2386
+    },
+    {
+      "path": "go.mod",
+      "size": 1901
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1450
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Terrform Provider for Managing Dkron Jobs",
+    "fork": false,
+    "full_name": "bozerkins/terraform-provider-dkron",
+    "html_url": "https://github.com/bozerkins/terraform-provider-dkron",
+    "language": "Go",
+    "pushed_at": "2024-05-09T04:16:03Z",
+    "stargazers_count": 13,
+    "topics": [],
+    "updated_at": "2025-05-11T19:16:11Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "release"
+    }
+  ]
+}

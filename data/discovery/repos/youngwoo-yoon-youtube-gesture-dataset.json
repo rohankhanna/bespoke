@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "target": "cmu-perceptual-computing-lab/openpose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "target": "lowerquality/gentle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "target": "co-speech-gesture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "target": "pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "target": "youtube",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:43:31.390106+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6343
+    },
+    {
+      "path": "requirements.txt",
+      "size": 113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository contains scripts to build Youtube Gesture Dataset.",
+    "fork": false,
+    "full_name": "youngwoo-yoon/youtube-gesture-dataset",
+    "html_url": "https://github.com/youngwoo-yoon/youtube-gesture-dataset",
+    "language": "Python",
+    "pushed_at": "2023-11-09T22:23:05Z",
+    "stargazers_count": 132,
+    "topics": [
+      "co-speech-gesture",
+      "deep-learning",
+      "pose-estimation",
+      "youtube"
+    ],
+    "updated_at": "2026-03-29T19:09:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cmu-perceptual-computing-lab/openpose",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lowerquality/gentle",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository contains scripts to build *Youtube Gesture Dataset*.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "co-speech-gesture"
+    },
+    {
+      "context_snippet": "This repository contains scripts to build *Youtube Gesture Dataset*.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This repository contains scripts to build *Youtube Gesture Dataset*.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pose-estimation"
+    },
+    {
+      "context_snippet": "This repository contains scripts to build *Youtube Gesture Dataset*.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "youtube"
+    }
+  ]
+}

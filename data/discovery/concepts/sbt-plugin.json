@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "sbt-plugin"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moznion/sbt-spotless",
+      "status": "candidate-context",
+      "text": "An sbt plugin for Spotless code formatter/checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moznion/sbt-spotless",
+      "status": "candidate-context",
+      "text": "An sbt plugin for [Spotless](https://github.com/diffplug/spotless) code formatter/checker."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moznion/sbt-spotless",
+      "status": "candidate",
+      "text": "An sbt plugin for [Spotless](https://github.com/diffplug/spotless) code formatter/checker."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sbt-plugin",
+  "concept_id": "sbt-plugin",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "moznion/sbt-spotless"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sbt-plugin",
+      "sense_id": "sbt-plugin#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

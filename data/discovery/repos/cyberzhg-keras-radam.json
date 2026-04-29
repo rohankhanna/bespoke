@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CyberZHG/keras-radam",
+      "target": "adam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CyberZHG/keras-radam",
+      "target": "keras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CyberZHG/keras-radam",
+      "target": "optimizers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CyberZHG/keras-radam",
+      "target": "radam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CyberZHG/keras-radam",
+      "target": "rectified-adam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CyberZHG/keras-radam",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:49:37.484952+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1200
+    },
+    {
+      "path": "requirements.txt",
+      "size": 12
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "RAdam implemented in Keras & TensorFlow",
+    "fork": false,
+    "full_name": "CyberZHG/keras-radam",
+    "html_url": "https://github.com/CyberZHG/keras-radam",
+    "language": "Python",
+    "pushed_at": "2022-01-22T10:40:58Z",
+    "stargazers_count": 324,
+    "topics": [
+      "adam",
+      "keras",
+      "optimizers",
+      "radam",
+      "rectified-adam",
+      "tensorflow"
+    ],
+    "updated_at": "2026-02-13T11:58:28Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Version](https://img.shields.io/pypi/v/keras-rectified-adam.svg)](https://pypi.org/project/keras-rectified-adam/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "adam"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/pypi/v/keras-rectified-adam.svg)](https://pypi.org/project/keras-rectified-adam/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/pypi/v/keras-rectified-adam.svg)](https://pypi.org/project/keras-rectified-adam/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimizers"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/pypi/v/keras-rectified-adam.svg)](https://pypi.org/project/keras-rectified-adam/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "radam"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/pypi/v/keras-rectified-adam.svg)](https://pypi.org/project/keras-rectified-adam/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rectified-adam"
+    },
+    {
+      "context_snippet": "[![Version](https://img.shields.io/pypi/v/keras-rectified-adam.svg)](https://pypi.org/project/keras-rectified-adam/)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

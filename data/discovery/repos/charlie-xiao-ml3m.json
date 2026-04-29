@@ -1,0 +1,226 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml"
+    },
+    {
+      "component": "codecov/codecov-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yaml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codecov.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "codecov/codecov-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "Coverage report",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "Linting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sphinx.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "Sphinx build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yaml",
+      "source_repo": "Charlie-XIAO/ml3m",
+      "target": "Unit test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:49:03.991287+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 481
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1184
+    },
+    {
+      "path": "requirements.txt",
+      "size": 36
+    },
+    {
+      "path": ".github/workflows/codecov.yaml",
+      "size": 884
+    },
+    {
+      "path": ".github/workflows/linting.yaml",
+      "size": 895
+    },
+    {
+      "path": ".github/workflows/sphinx.yaml",
+      "size": 1101
+    },
+    {
+      "path": ".github/workflows/unittest.yaml",
+      "size": 746
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "Charlie-XIAO/ml3m",
+    "html_url": "https://github.com/Charlie-XIAO/ml3m",
+    "language": "Python",
+    "pushed_at": "2023-09-19T08:13:28Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2026-03-12T18:39:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Coverage report",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codecov.yaml",
+      "term": "Coverage report"
+    },
+    {
+      "context_snippet": "Linting",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linting.yaml",
+      "term": "Linting"
+    },
+    {
+      "context_snippet": "Sphinx build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sphinx.yaml",
+      "term": "Sphinx build"
+    },
+    {
+      "context_snippet": "Unit test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unittest.yaml",
+      "term": "Unit test"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "dimensionality-reduction"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lmcinnes/umap",
+      "status": "candidate-context",
+      "text": "Uniform Manifold Approximation and Projection"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmcinnes/umap",
+      "status": "candidate-context",
+      "text": ".. -*- mode: rst -*-"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lmcinnes/umap",
+      "status": "candidate",
+      "text": ".. -*- mode: rst -*-"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dimensionality-reduction",
+  "concept_id": "dimensionality-reduction",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lmcinnes/umap"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dimensionality-reduction",
+      "sense_id": "dimensionality-reduction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

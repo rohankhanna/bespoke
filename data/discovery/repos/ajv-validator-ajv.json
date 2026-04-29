@@ -626,7 +626,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:11:37.475008+00:00",
+  "fetched_at": "2026-04-29T20:00:04.507369+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -638,11 +638,11 @@
     },
     {
       "path": ".github/workflows/build.yml",
-      "size": 985
+      "size": 927
     },
     {
       "path": ".github/workflows/publish.yml",
-      "size": 997
+      "size": 1003
     }
   ],
   "related_repositories": [],
@@ -654,14 +654,14 @@
     "full_name": "ajv-validator/ajv",
     "html_url": "https://github.com/ajv-validator/ajv",
     "language": "TypeScript",
-    "pushed_at": "2026-04-24T07:57:18Z",
-    "stargazers_count": 14686,
+    "pushed_at": "2026-04-24T13:46:23Z",
+    "stargazers_count": 14691,
     "topics": [
       "ajv",
       "json-schema",
       "validator"
     ],
-    "updated_at": "2026-04-24T07:38:01Z"
+    "updated_at": "2026-04-28T19:53:20Z"
   },
   "repo_links": [
     {

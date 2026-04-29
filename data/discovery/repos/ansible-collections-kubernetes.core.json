@@ -1,0 +1,503 @@
+{
+  "components": [
+    {
+      "component": "ansible-network/github_actions/.github/workflows/changelog.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yaml"
+    },
+    {
+      "component": "ansible-network/github_actions/.github/workflows/galaxy_importer.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/galaxy-import.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "ansible-network/github_actions/.github/actions/ansible_test_splitter@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "ansible-network/github_actions/.github/actions/build_install_collection@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "ansible-network/github_actions/.github/actions/checkout_dependency@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "ansible-network/github_actions/.github/actions/checkout_dependency@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "ansible-network/github_actions/.github/actions/checkout_dependency@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "ansible-network/github_actions/.github/actions/build_install_collection@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "ansible-network/github_actions/.github/actions/build_install_collection@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "ansible-network/github_actions/.github/actions/build_install_collection@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "helm/kind-action@v1.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "ansible-network/github_actions/.github/actions/ansible_test_integration@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-new-issues.yaml"
+    },
+    {
+      "component": "actions-ecosystem/action-add-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-new-prs.yaml"
+    },
+    {
+      "component": "actions-ecosystem/action-remove-labels@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-new-prs.yaml"
+    },
+    {
+      "component": "ansible-network/github_actions/.github/workflows/tox-linters.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yaml"
+    },
+    {
+      "component": "ansible/ansible-lint@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yaml"
+    },
+    {
+      "component": "ansible-network/github_actions/.github/workflows/sanity.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity-tests.yaml"
+    },
+    {
+      "component": "ansible-network/github_actions/.github/workflows/unit_source.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "ansible/community",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "ansible-network/github_actions/.github/workflows/changelog.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "Changelog",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/galaxy-import.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "ansible-network/github_actions/.github/workflows/galaxy_importer.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/galaxy-import.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "galaxy-import",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "ansible-network/github_actions/.github/actions/ansible_test_splitter@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "ansible-network/github_actions/.github/actions/build_install_collection@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "ansible-network/github_actions/.github/actions/checkout_dependency@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "helm/kind-action@v1.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "ansible-network/github_actions/.github/actions/ansible_test_integration@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "Integration tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-new-issues.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "actions-ecosystem/action-add-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-new-issues.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "label new issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-new-prs.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "actions-ecosystem/action-add-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/label-new-prs.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "actions-ecosystem/action-remove-labels@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-new-prs.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "label new prs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "ansible-network/github_actions/.github/workflows/tox-linters.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linters.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "ansible/ansible-lint@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linters.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "Linters",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/sanity-tests.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "ansible-network/github_actions/.github/workflows/sanity.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanity-tests.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "Sanity tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "ansible-network/github_actions/.github/workflows/unit_source.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "Unit tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "ansible",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "ansible-collection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "kubernetes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ansible-collections/kubernetes.core",
+      "target": "openshift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:01:40.725774+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15109
+    },
+    {
+      "path": "requirements.txt",
+      "size": 47
+    },
+    {
+      "path": ".github/workflows/changelog.yaml",
+      "size": 370
+    },
+    {
+      "path": ".github/workflows/galaxy-import.yaml",
+      "size": 267
+    },
+    {
+      "path": ".github/workflows/integration-tests.yaml",
+      "size": 6034
+    },
+    {
+      "path": ".github/workflows/label-new-issues.yaml",
+      "size": 299
+    },
+    {
+      "path": ".github/workflows/label-new-prs.yaml",
+      "size": 721
+    },
+    {
+      "path": ".github/workflows/linters.yaml",
+      "size": 501
+    },
+    {
+      "path": ".github/workflows/sanity-tests.yaml",
+      "size": 270
+    },
+    {
+      "path": ".github/workflows/unit-tests.yaml",
+      "size": 274
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The collection includes a variety of Ansible content to help automate the management of applications in Kubernetes and OpenShift clusters, as well as the provisioning and maintenance of clusters themselves.",
+    "fork": false,
+    "full_name": "ansible-collections/kubernetes.core",
+    "html_url": "https://github.com/ansible-collections/kubernetes.core",
+    "language": "Python",
+    "pushed_at": "2026-04-24T18:46:37Z",
+    "stargazers_count": 254,
+    "topics": [
+      "ansible",
+      "ansible-collection",
+      "automation",
+      "hacktoberfest",
+      "k8s",
+      "kubernetes",
+      "openshift"
+    ],
+    "updated_at": "2026-04-24T18:46:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ansible/community",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Changelog",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog.yaml",
+      "term": "Changelog"
+    },
+    {
+      "context_snippet": "galaxy-import",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/galaxy-import.yaml",
+      "term": "galaxy-import"
+    },
+    {
+      "context_snippet": "Integration tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/integration-tests.yaml",
+      "term": "Integration tests"
+    },
+    {
+      "context_snippet": "label new issues",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-new-issues.yaml",
+      "term": "label new issues"
+    },
+    {
+      "context_snippet": "label new prs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/label-new-prs.yaml",
+      "term": "label new prs"
+    },
+    {
+      "context_snippet": "Linters",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linters.yaml",
+      "term": "Linters"
+    },
+    {
+      "context_snippet": "Sanity tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/sanity-tests.yaml",
+      "term": "Sanity tests"
+    },
+    {
+      "context_snippet": "Unit tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/unit-tests.yaml",
+      "term": "Unit tests"
+    },
+    {
+      "context_snippet": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansible"
+    },
+    {
+      "context_snippet": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ansible-collection"
+    },
+    {
+      "context_snippet": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    },
+    {
+      "context_snippet": "This repository hosts the `kubernetes.core` (formerly known as `community.kubernetes`) Ansible Collection.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "openshift"
+    }
+  ]
+}

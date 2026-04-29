@@ -1,0 +1,188 @@
+{
+  "components": [
+    {
+      "component": "@monsonjeremy/react-leaflet",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@monsonjeremy/react-leaflet-core",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "leaflet",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "release-it",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "prettier",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@plone/volto",
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "target": "leaflet/leaflet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "target": "paullecam/react-leaflet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "target": "@monsonjeremy/react-leaflet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "target": "@monsonjeremy/react-leaflet-core",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "target": "leaflet",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "target": "release-it",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "target": "prettier",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:peerDependencies",
+      "source_file": "package.json",
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "target": "@plone/volto",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "target": "plone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "target": "volto",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "target": "volto-addon",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "adeweb-be/volto-leaflet-block",
+      "target": "volto-block",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:44:19.845456+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2012
+    },
+    {
+      "path": "package.json",
+      "size": 780
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Adds a new map block based on Leaflet and React Leaflet",
+    "fork": false,
+    "full_name": "adeweb-be/volto-leaflet-block",
+    "html_url": "https://github.com/adeweb-be/volto-leaflet-block",
+    "language": "JavaScript",
+    "pushed_at": "2023-04-02T16:40:34Z",
+    "stargazers_count": 3,
+    "topics": [
+      "plone",
+      "volto",
+      "volto-addon",
+      "volto-block"
+    ],
+    "updated_at": "2023-05-17T20:36:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "leaflet/leaflet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "paullecam/react-leaflet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![screenshot](https://user-images.githubusercontent.com/9050997/131230905-9c5fe07c-834b-4e88-a031-387ee8d59b6e.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plone"
+    },
+    {
+      "context_snippet": "![screenshot](https://user-images.githubusercontent.com/9050997/131230905-9c5fe07c-834b-4e88-a031-387ee8d59b6e.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "volto"
+    },
+    {
+      "context_snippet": "![screenshot](https://user-images.githubusercontent.com/9050997/131230905-9c5fe07c-834b-4e88-a031-387ee8d59b6e.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "volto-addon"
+    },
+    {
+      "context_snippet": "![screenshot](https://user-images.githubusercontent.com/9050997/131230905-9c5fe07c-834b-4e88-a031-387ee8d59b6e.png)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "volto-block"
+    }
+  ]
+}

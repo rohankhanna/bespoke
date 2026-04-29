@@ -1,0 +1,90 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "target": "verisilicon/tflite-vx-delegate",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "target": "verisilicon/tvm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_x86_vsim_unit_test.yml",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bazel_x86_vsim_unit_test.yml",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "target": "abhinavsingh/setup-bazel@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_x86_vsim.yml",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_x86_vsim.yml",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake_x86_vsim.yml",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/self-hosted.yml",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/self-hosted.yml",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "target": "self-hosted build and check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VeriSilicon/TIM-VX",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VeriSilicon/TIM-VX",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "VeriSilicon/TIM-VX",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "VeriSilicon/TIM-VX"
+}

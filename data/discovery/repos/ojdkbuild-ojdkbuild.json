@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ojdkbuild/ojdkbuild",
+      "target": "ojdkbuild/contrib_jdk8u-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ojdkbuild/ojdkbuild",
+      "target": "ojdkbuild/contrib_jdk11u-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ojdkbuild/ojdkbuild",
+      "target": "ojdkbuild/contrib_jdk8u-aarch32-ci",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ojdkbuild/ojdkbuild",
+      "target": "ojdkbuild/contrib_jdk11u-arm32-ci",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:56:10.983204+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 96876
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Community builds using source code from OpenJDK project",
+    "fork": false,
+    "full_name": "ojdkbuild/ojdkbuild",
+    "html_url": "https://github.com/ojdkbuild/ojdkbuild",
+    "language": "CMake",
+    "pushed_at": "2022-06-08T15:55:12Z",
+    "stargazers_count": 2553,
+    "topics": [],
+    "updated_at": "2026-04-27T06:20:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ojdkbuild/contrib_jdk11u-arm32-ci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ojdkbuild/contrib_jdk11u-ci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ojdkbuild/contrib_jdk8u-aarch32-ci",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ojdkbuild/contrib_jdk8u-ci",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

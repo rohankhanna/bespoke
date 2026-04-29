@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Mirror of Apache POI gitbox. The Java API for Microsoft Documents."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A Java library for reading and writing Microsoft Office binary and OOXML file formats."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A Java library for reading and writing Microsoft Office binary and OOXML file formats."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995723,
+      "status": "candidate",
+      "text": "satisfied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39995161,
+      "status": "candidate",
+      "text": "happy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39992299,
+      "status": "candidate",
+      "text": "complacent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991883,
+      "status": "candidate",
+      "text": "self-satisfied"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39991791,
+      "status": "candidate",
+      "text": "smug"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "content",
+      "sense_id": "content#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45069,
+      "status": "candidate",
+      "text": "subject"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28062,
+      "status": "candidate",
+      "text": "substance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 21042,
+      "status": "candidate",
+      "text": "happy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18076,
+      "status": "candidate",
+      "text": "capacity"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 12055,
+      "status": "candidate",
+      "text": "message"
+    }
+  ],
+  "concept_id": "content",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "content",
+  "observation_id": "07b15558078eb0fc",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "content",
+  "source_context_snippet": "A Java library for reading and writing Microsoft Office binary and OOXML file formats.",
+  "source_file": null,
+  "source_repo": "apache/poi",
+  "source_repo_description": "Mirror of Apache POI gitbox. The Java API for Microsoft Documents."
+}

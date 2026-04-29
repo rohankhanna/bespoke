@@ -1,0 +1,387 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hacl-packages-create-branch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hacl-packages-create-branch.yml"
+    },
+    {
+      "component": "thollander/actions-comment-pull-request@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hacl-packages-create-branch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hacl-packages-delete-branch.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hintsanddist.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hintsanddist.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "project-everest/hacl-star",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "project-everest/vale",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dist.yml",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "Dist CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hacl-packages-create-branch.yml",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hacl-packages-create-branch.yml",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "thollander/actions-comment-pull-request@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hacl-packages-create-branch.yml",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "Create branch on hacl-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hacl-packages-delete-branch.yml",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hacl-packages-delete-branch.yml",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "Delete branch on hacl-packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hintsanddist.yml",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/hintsanddist.yml",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "peter-evans/create-pull-request@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hintsanddist.yml",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "regenerate hints and dist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "source_repo": "hacl-star/hacl-star",
+      "target": "Nix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star",
+      "target": "cryptography",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star",
+      "target": "everest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star",
+      "target": "formal-methods",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star",
+      "target": "formal-verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star",
+      "target": "hacl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star",
+      "target": "inria",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star",
+      "target": "security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star",
+      "target": "verification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hacl-star/hacl-star",
+      "target": "verified-primitives",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:53:08.575673+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5973
+    },
+    {
+      "path": ".github/workflows/dist.yml",
+      "size": 1254
+    },
+    {
+      "path": ".github/workflows/hacl-packages-create-branch.yml",
+      "size": 3346
+    },
+    {
+      "path": ".github/workflows/hacl-packages-delete-branch.yml",
+      "size": 455
+    },
+    {
+      "path": ".github/workflows/hintsanddist.yml",
+      "size": 1354
+    },
+    {
+      "path": ".github/workflows/nix.yml",
+      "size": 1011
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "HACL*, a formally verified cryptographic library written in F*",
+    "fork": false,
+    "full_name": "hacl-star/hacl-star",
+    "html_url": "https://github.com/hacl-star/hacl-star",
+    "language": "F*",
+    "pushed_at": "2026-04-19T03:00:23Z",
+    "stargazers_count": 1825,
+    "topics": [
+      "cryptography",
+      "everest",
+      "formal-methods",
+      "formal-verification",
+      "hacl",
+      "high-performance",
+      "inria",
+      "security",
+      "verification",
+      "verified-primitives"
+    ],
+    "updated_at": "2026-04-28T08:45:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-everest/hacl-star",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "project-everest/vale",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Dist CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dist.yml",
+      "term": "Dist CI"
+    },
+    {
+      "context_snippet": "Create branch on hacl-packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hacl-packages-create-branch.yml",
+      "term": "Create branch on hacl-packages"
+    },
+    {
+      "context_snippet": "Delete branch on hacl-packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hacl-packages-delete-branch.yml",
+      "term": "Delete branch on hacl-packages"
+    },
+    {
+      "context_snippet": "regenerate hints and dist",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/hintsanddist.yml",
+      "term": "regenerate hints and dist"
+    },
+    {
+      "context_snippet": "Nix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix.yml",
+      "term": "Nix"
+    },
+    {
+      "context_snippet": "This repository contains verified code for a library of modern",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cryptography"
+    },
+    {
+      "context_snippet": "This repository contains verified code for a library of modern",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "everest"
+    },
+    {
+      "context_snippet": "This repository contains verified code for a library of modern",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formal-methods"
+    },
+    {
+      "context_snippet": "This repository contains verified code for a library of modern",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "formal-verification"
+    },
+    {
+      "context_snippet": "This repository contains verified code for a library of modern",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacl"
+    },
+    {
+      "context_snippet": "This repository contains verified code for a library of modern",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "This repository contains verified code for a library of modern",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inria"
+    },
+    {
+      "context_snippet": "This repository contains verified code for a library of modern",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "security"
+    },
+    {
+      "context_snippet": "This repository contains verified code for a library of modern",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verification"
+    },
+    {
+      "context_snippet": "This repository contains verified code for a library of modern",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "verified-primitives"
+    }
+  ]
+}

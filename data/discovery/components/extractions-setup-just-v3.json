@@ -1,7 +1,7 @@
 {
   "component": "extractions/setup-just@v3",
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -27,6 +27,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/push.yml",
       "source_repo": "probe-lab/tiros"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/athena.yml",
+      "source_repo": "ibis-project/ibis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bigquery.yml",
+      "source_repo": "ibis-project/ibis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-generated-files.yml",
+      "source_repo": "ibis-project/ibis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/databricks.yml",
+      "source_repo": "ibis-project/ibis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-test.yaml",
+      "source_repo": "opencost/opencost"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/format-check.yaml",
+      "source_repo": "opencost/opencost"
     }
   ]
 }

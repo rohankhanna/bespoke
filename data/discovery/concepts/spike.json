@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "spike"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/elixir-invoke-lambda-example",
+      "status": "candidate-context",
+      "text": "\ud83d\udca7|> \u03bb |> \ud83d\udc8c A step-by-step example/tutorial showing how to invoke AWS Lambda functions from Elixir/Phoenix Apps. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/elixir-invoke-lambda-example",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/elixir-invoke-lambda-example",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002514,
+      "status": "candidate",
+      "text": "impale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39993008,
+      "status": "candidate",
+      "text": "lace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975711,
+      "status": "candidate",
+      "text": "fortify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39920961,
+      "status": "candidate",
+      "text": "empale"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39907154,
+      "status": "candidate",
+      "text": "transfix"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28037,
+      "status": "candidate",
+      "text": "fortify"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13050,
+      "status": "candidate",
+      "text": "lace"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7075,
+      "status": "candidate",
+      "text": "ear"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7032,
+      "status": "candidate",
+      "text": "capitulum"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5036,
+      "status": "candidate",
+      "text": "transfix"
+    }
+  ],
+  "canonical_name": "spike",
+  "concept_id": "spike",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/elixir-invoke-lambda-example"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spike",
+      "sense_id": "spike#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

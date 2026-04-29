@@ -92,7 +92,7 @@
   "normalized_form": "java",
   "observation_id": "100de262862cfc3a",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-24T00:33:56.049672+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "java",
   "source_context_snippet": "![aws provider](https://img.shields.io/badge/provider-AWS-orange?logo=amazon-aws&color=ff9900) [![Quality Gate Status](https://sonarcloud.io/api/project_badges/measure?project=aws-powertools_powertools-lambda-java&metric=alert_status)](https://sonarcloud.io/summary/new_code?id=a\u2026",
   "source_file": null,

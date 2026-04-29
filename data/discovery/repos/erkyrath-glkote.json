@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:48:45.347559+00:00",
+  "fetched_files": [
+    {
+      "path": "README.txt",
+      "size": 2111
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Javascript display library for IF interfaces",
+    "fork": false,
+    "full_name": "erkyrath/glkote",
+    "html_url": "https://github.com/erkyrath/glkote",
+    "language": "JavaScript",
+    "pushed_at": "2025-06-25T02:58:09Z",
+    "stargazers_count": 29,
+    "topics": [],
+    "updated_at": "2025-09-28T12:55:59Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

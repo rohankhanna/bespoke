@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:50:16.408359+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2833
+    },
+    {
+      "path": "go.mod",
+      "size": 1711
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Gin adapter for SCS HTTP Session Management.",
+    "fork": false,
+    "full_name": "39george/scs_gin_adapter",
+    "html_url": "https://github.com/39george/scs_gin_adapter",
+    "language": "Go",
+    "pushed_at": "2025-11-07T04:32:37Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-10-17T18:31:30Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

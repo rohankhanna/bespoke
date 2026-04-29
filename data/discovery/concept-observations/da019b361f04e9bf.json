@@ -84,7 +84,7 @@
   "normalized_form": "toolchain",
   "observation_id": "da019b361f04e9bf",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "toolchain",
   "source_context_snippet": "[![Build Status][actions-default-branch]][actions-default-branch-status]",
   "source_file": null,

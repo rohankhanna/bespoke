@@ -1,0 +1,12 @@
+{
+  "component": "github/gh-aw-actions/setup@2fe53acc038ba01c3bbdc767d4b25df31ca5bdfc",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/close-stale-prs.agent.lock.yml",
+      "source_repo": "dotnet/msbuild"
+    }
+  ]
+}

@@ -1,0 +1,301 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-specs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-specs.yml"
+    },
+    {
+      "component": "actions/configure-pages@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-specs.yml"
+    },
+    {
+      "component": "actions/upload-pages-artifact@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-specs.yml"
+    },
+    {
+      "component": "actions/deploy-pages@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-specs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-2026.yml"
+    },
+    {
+      "component": "w3c/spec-prod@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-2026.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-2027.yml"
+    },
+    {
+      "component": "w3c/spec-prod@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-2027.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-color-4.yml"
+    },
+    {
+      "component": "w3c/spec-prod@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-color-4.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-color-5.yml"
+    },
+    {
+      "component": "w3c/spec-prod@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-color-5.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-color-hdr-1.yml"
+    },
+    {
+      "component": "w3c/spec-prod@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-color-hdr-1.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-fonts-4.yml"
+    },
+    {
+      "component": "w3c/spec-prod@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-fonts-4.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-fonts-5.yml"
+    },
+    {
+      "component": "w3c/spec-prod@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-fonts-5.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-specs.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-specs.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-specs.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "actions/configure-pages@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-specs.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "actions/upload-pages-artifact@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-specs.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "actions/deploy-pages@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-specs.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "Spec Deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-2026.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-2026.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-2027.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-2027.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-color-4.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-color-4.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-color-5.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-color-5.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-color-hdr-1.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-color-hdr-1.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-fonts-4.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-fonts-4.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-fonts-5.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/css-fonts-5.yml",
+      "source_repo": "w3c/csswg-drafts",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:00:42.076974+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/build-specs.yml",
+      "size": 2544
+    },
+    {
+      "path": ".github/workflows/css-2026.yml",
+      "size": 1098
+    },
+    {
+      "path": ".github/workflows/css-2027.yml",
+      "size": 1098
+    },
+    {
+      "path": ".github/workflows/css-color-4.yml",
+      "size": 1169
+    },
+    {
+      "path": ".github/workflows/css-color-5.yml",
+      "size": 1168
+    },
+    {
+      "path": ".github/workflows/css-color-hdr-1.yml",
+      "size": 1200
+    },
+    {
+      "path": ".github/workflows/css-fonts-4.yml",
+      "size": 1168
+    },
+    {
+      "path": ".github/workflows/css-fonts-5.yml",
+      "size": 1168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CSS Working Group Editor Drafts",
+    "fork": false,
+    "full_name": "w3c/csswg-drafts",
+    "html_url": "https://github.com/w3c/csswg-drafts",
+    "language": "Bikeshed",
+    "pushed_at": "2026-04-29T17:30:10Z",
+    "stargazers_count": 4827,
+    "topics": [
+      "css"
+    ],
+    "updated_at": "2026-04-29T17:30:18Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Spec Deployment",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-specs.yml",
+      "term": "Spec Deployment"
+    }
+  ]
+}

@@ -1,0 +1,143 @@
+{
+  "components": [
+    {
+      "component": "shadow-cljs",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v2.3.4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "ayltai/setup-graalvm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "DeLaGuardo/setup-clojure@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "PEZ/taplet",
+      "target": "shadow-cljs",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "PEZ/taplet",
+      "target": "actions/checkout@v2.3.4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "PEZ/taplet",
+      "target": "ayltai/setup-graalvm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "PEZ/taplet",
+      "target": "DeLaGuardo/setup-clojure@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PEZ/taplet",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PEZ/taplet",
+      "target": "clojurescript",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PEZ/taplet",
+      "target": "macro",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PEZ/taplet",
+      "target": "repl",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:46:32.081286+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1985
+    },
+    {
+      "path": "package.json",
+      "size": 571
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 571
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Clojure/ClojureScript utilities for tapping things. let> macro, and #t reader tag",
+    "fork": false,
+    "full_name": "PEZ/taplet",
+    "html_url": "https://github.com/PEZ/taplet",
+    "language": "Clojure",
+    "pushed_at": "2023-10-06T21:03:38Z",
+    "stargazers_count": 33,
+    "topics": [
+      "clojure",
+      "clojurescript",
+      "macro",
+      "repl"
+    ],
+    "updated_at": "2025-05-02T10:56:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Utilities for tapping Clojure forms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "Utilities for tapping Clojure forms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojurescript"
+    },
+    {
+      "context_snippet": "Utilities for tapping Clojure forms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macro"
+    },
+    {
+      "context_snippet": "Utilities for tapping Clojure forms.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    }
+  ]
+}

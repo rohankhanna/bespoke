@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udc53  Fundemental plugin to handle Nerd Fonts in Vim"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Vim"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Vim"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010698,
+      "status": "candidate",
+      "text": "vigor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010350,
+      "status": "candidate",
+      "text": "vitality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010052,
+      "status": "candidate",
+      "text": "vigour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40002892,
+      "status": "candidate",
+      "text": "energy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30010556,
+      "status": "candidate",
+      "text": "pep"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Vim",
+      "sense_id": "vim#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 67036,
+      "status": "candidate",
+      "text": "vitality"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40043,
+      "status": "candidate",
+      "text": "vigor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 35024,
+      "status": "candidate",
+      "text": "vigour"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25074,
+      "status": "candidate",
+      "text": "energy"
+    }
+  ],
+  "concept_id": "vim",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "vim",
+  "observation_id": "0c42da3f076ae05c",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Vim",
+  "source_context_snippet": "Vim",
+  "source_file": ".github/workflows/vim.yml",
+  "source_repo": "lambdalisue/vim-nerdfont",
+  "source_repo_description": "\ud83d\udc53  Fundemental plugin to handle Nerd Fonts in Vim"
+}

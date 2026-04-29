@@ -36,7 +36,7 @@
       "source_file": ".github/workflows/api-check.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/api-check.yml"
     },
@@ -71,17 +71,12 @@
       "source_file": ".github/workflows/python-tests.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml"
     },
     {
-      "component": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/python-tests.yml"
-    },
-    {
-      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "component": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml"
     },
@@ -92,11 +87,6 @@
     },
     {
       "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/python-tests.yml"
-    },
-    {
-      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml"
     },
@@ -116,7 +106,7 @@
       "source_file": ".github/workflows/python-tests.yml"
     },
     {
-      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "component": "pypa/gh-action-pypi-publish@cef221092ed1bacb1cc03d23a2d87d1d172e277b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml"
     },
@@ -126,7 +116,17 @@
       "source_file": ".github/workflows/python-tests.yml"
     },
     {
-      "component": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-tests.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml"
     },
@@ -176,7 +176,7 @@
       "source_file": ".github/workflows/reusable-towncrier-release.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/reusable-towncrier-release.yml"
     },
@@ -191,7 +191,7 @@
       "source_file": ".github/workflows/reusable-towncrier-release.yml"
     },
     {
-      "component": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "component": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/reusable-towncrier-release.yml"
     },
@@ -255,7 +255,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/api-check.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -318,14 +318,14 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "msys2/setup-msys2@cafece8e6baf9247cf9b1bf95097b0b983cc558d",
+      "target": "msys2/setup-msys2@e9898307ac31d1a803454791be09ab9973336e1c",
       "target_type": "component"
     },
     {
@@ -346,7 +346,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/python-tests.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "softprops/action-gh-release@153bb8e04406b158c6c84fc1615b65b24149a1fe",
+      "target": "softprops/action-gh-release@b4309332981a82ec1c5618f44dd2e27cc8bfbfda",
       "target_type": "component"
     },
     {
@@ -395,7 +395,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/reusable-towncrier-release.yml",
       "source_repo": "pypa/setuptools-scm",
-      "target": "astral-sh/setup-uv@cec208311dfd045dd5311c1add060b2062131d57",
+      "target": "astral-sh/setup-uv@08807647e7069bb48b6ef5acd8ec9567f424441b",
       "target_type": "component"
     },
     {
@@ -434,7 +434,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T06:39:19.579997+00:00",
+  "fetched_at": "2026-04-29T20:43:33.731223+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -442,7 +442,7 @@
     },
     {
       "path": "pyproject.toml",
-      "size": 2722
+      "size": 2723
     },
     {
       "path": ".github/workflows/README.md",
@@ -482,7 +482,7 @@
     "full_name": "pypa/setuptools-scm",
     "html_url": "https://github.com/pypa/setuptools-scm",
     "language": "Python",
-    "pushed_at": "2026-04-17T18:27:36Z",
+    "pushed_at": "2026-04-25T16:28:16Z",
     "stargazers_count": 946,
     "topics": [
       "metadata",
@@ -490,7 +490,7 @@
       "python",
       "version-control"
     ],
-    "updated_at": "2026-04-17T06:34:28Z"
+    "updated_at": "2026-04-26T12:06:24Z"
   },
   "repo_links": [],
   "terms": [

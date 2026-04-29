@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:57:48.114336+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3537
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Content Security Policy HTTP middleware",
+    "fork": false,
+    "full_name": "awakesecurity/csp",
+    "html_url": "https://github.com/awakesecurity/csp",
+    "language": "Go",
+    "pushed_at": "2025-05-02T16:55:23Z",
+    "stargazers_count": 11,
+    "topics": [],
+    "updated_at": "2025-05-02T16:55:40Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

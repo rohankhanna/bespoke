@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "transit"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borkdude/jet",
+      "status": "candidate-context",
+      "text": "CLI to transform between JSON, EDN, YAML and Transit using Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/jet",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/jet",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976874,
+      "status": "candidate",
+      "text": "pass through"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39975962,
+      "status": "candidate",
+      "text": "pass over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39932584,
+      "status": "candidate",
+      "text": "transportation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39881381,
+      "status": "candidate",
+      "text": "theodolite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39835493,
+      "status": "candidate",
+      "text": "passage"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5045,
+      "status": "candidate",
+      "text": "transportation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5022,
+      "status": "candidate",
+      "text": "pass over"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3031,
+      "status": "candidate",
+      "text": "pass through"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2044,
+      "status": "candidate",
+      "text": "theodolite"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 2009,
+      "status": "candidate",
+      "text": "pass across"
+    }
+  ],
+  "canonical_name": "transit",
+  "concept_id": "transit",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "borkdude/jet"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "transit",
+      "sense_id": "transit#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

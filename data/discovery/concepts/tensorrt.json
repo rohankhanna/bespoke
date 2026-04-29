@@ -127,6 +127,54 @@
       "source_repo": "Ar-Ray-code/YOLOX-ROS",
       "status": "candidate-context",
       "text": "![](https://img.shields.io/github/stars/Ar-Ray-code/YOLOX-ROS)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlite-dev/lite.ai.toolkit",
+      "status": "candidate-context",
+      "text": "\ud83d\udee0A lite C++ AI toolkit: 100+ models with MNN, ORT and TRT, including Det, Seg, Stable-Diffusion, Face-Fusion, etc.\ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/lite.ai.toolkit",
+      "status": "candidate-context",
+      "text": "<div id=\"lite.ai.toolkit-Introduction\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate-context",
+      "text": "Tengine is a lite, high performance, modular inference engine for embedded device "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "status": "candidate-context",
+      "text": "tensorrt for yolo series (YOLOv11,YOLOv10,YOLOv9,YOLOv8,YOLOv7,YOLOv6,YOLOX,YOLOv5), nms plugin support "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "status": "candidate-context",
+      "text": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deepcam-cn/yolov5-face",
+      "status": "candidate-context",
+      "text": "YOLO5Face: Why Reinventing a Face Detector (https://arxiv.org/abs/2105.12931)       ECCV Workshops 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepcam-cn/yolov5-face",
+      "status": "candidate-context",
+      "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face)"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +237,30 @@
       "source_repo": "Ar-Ray-code/YOLOX-ROS",
       "status": "candidate",
       "text": "![](https://img.shields.io/github/stars/Ar-Ray-code/YOLOX-ROS)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/lite.ai.toolkit",
+      "status": "candidate",
+      "text": "<div id=\"lite.ai.toolkit-Introduction\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "OAID/Tengine",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series",
+      "status": "candidate",
+      "text": "[YOLOv11, YOLOV12](https://docs.ultralytics.com/)\u3001[YOLOv10](https://github.com/THU-MIG/yolov10)\u3001[YOLOv9](https://github.com/WongKinYiu/yolov9)\u3001[YOLOv8](https://v8docs.ultralytics.com/)\u3001[YOLOv7](https://github.com/WongKinYiu/yolov7)\u3001[YOLOv6](https://github.com/meituan/YOLOv6)\u3001 [Y\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deepcam-cn/yolov5-face",
+      "status": "candidate",
+      "text": "**2024.04** [ncnn-android-yolov8-face](https://github.com/derronqi/ncnn-android-yolov8-face)"
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +328,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Ar-Ray-code/YOLOX-ROS"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/lite.ai.toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "OAID/Tengine"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Linaom1214/TensorRT-For-YOLO-Series"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "deepcam-cn/yolov5-face"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

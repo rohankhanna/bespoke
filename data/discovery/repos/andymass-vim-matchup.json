@@ -60,7 +60,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "andymass/vim-matchup",
-      "target": "andrewradev/splitjoin.vim",
+      "target": "jiangmiao/auto-pairs",
       "target_type": "repository"
     },
     {
@@ -204,7 +204,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:13:01.115404+00:00",
+  "fetched_at": "2026-04-29T19:41:18.059908+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -233,7 +233,7 @@
     "html_url": "https://github.com/andymass/vim-matchup",
     "language": "Vim Script",
     "pushed_at": "2026-04-10T13:13:26Z",
-    "stargazers_count": 1899,
+    "stargazers_count": 1902,
     "topics": [
       "highlighting-matches",
       "matching-pairs",
@@ -245,14 +245,9 @@
       "vim-plugin",
       "vimscript-5624"
     ],
-    "updated_at": "2026-04-23T08:31:57Z"
+    "updated_at": "2026-04-28T13:14:33Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "andrewradev/splitjoin.vim",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "andymass/matchup.vim",
@@ -266,6 +261,11 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "gregsexton/matchtag",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jiangmiao/auto-pairs",
       "source_file": "README.md"
     }
   ],

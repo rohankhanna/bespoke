@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sync-r2.yml",
+      "source_repo": "astral-sh/versions"
+    }
+  ],
+  "term": "Sync NDJSON to R2"
+}

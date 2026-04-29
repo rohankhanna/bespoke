@@ -1,0 +1,213 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "azure/setup-helm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "helm/kind-action@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml"
+    },
+    {
+      "component": "release-drafter/release-drafter@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "azure/setup-helm@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "helm/chart-testing-action@v2.2.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "helm/kind-action@v1.2.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "helm/chart-releaser-action@v1.5.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "azure/setup-helm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "helm/chart-testing-action@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "helm/kind-action@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "Lint and Test Charts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "release-drafter/release-drafter@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "Release Drafter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "azure/setup-helm@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "helm/chart-testing-action@v2.2.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "helm/kind-action@v1.2.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "helm/chart-releaser-action@v1.5.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "target": "Helm Chart Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:20.852829+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2063
+    },
+    {
+      "path": ".github/workflows/lint-test.yml",
+      "size": 1199
+    },
+    {
+      "path": ".github/workflows/release-drafter.yml",
+      "size": 562
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1511
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "redis-stack/helm-redis-stack",
+    "html_url": "https://github.com/redis-stack/helm-redis-stack",
+    "language": "Smarty",
+    "pushed_at": "2025-11-03T14:01:14Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2026-03-23T03:14:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Lint and Test Charts",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lint-test.yml",
+      "term": "Lint and Test Charts"
+    },
+    {
+      "context_snippet": "Release Drafter",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-drafter.yml",
+      "term": "Release Drafter"
+    },
+    {
+      "context_snippet": "Helm Chart Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Helm Chart Release"
+    }
+  ]
+}

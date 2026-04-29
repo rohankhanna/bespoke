@@ -50,7 +50,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:02:00.129429+00:00",
+  "fetched_at": "2026-04-29T19:50:53.756595+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -75,13 +75,13 @@
     "html_url": "https://github.com/dirs-dev/dirs-rs",
     "language": "Rust",
     "pushed_at": "2025-01-12T19:35:17Z",
-    "stargazers_count": 735,
+    "stargazers_count": 737,
     "topics": [
       "knownfolders",
       "xdg-basedir",
       "xdg-user-dirs"
     ],
-    "updated_at": "2026-04-18T08:26:50Z"
+    "updated_at": "2026-04-26T20:10:38Z"
   },
   "repo_links": [
     {

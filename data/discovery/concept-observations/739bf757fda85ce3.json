@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "An Emacs framework for the stubborn martian hacker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020980,
+      "status": "candidate",
+      "text": "malefic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020979,
+      "status": "candidate",
+      "text": "maleficent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020977,
+      "status": "candidate",
+      "text": "malign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020958,
+      "status": "candidate",
+      "text": "malevolent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40020955,
+      "status": "candidate",
+      "text": "evil-minded"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "evil",
+      "sense_id": "evil#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 79035,
+      "status": "candidate",
+      "text": "malevolent"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 66034,
+      "status": "candidate",
+      "text": "grievous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 60037,
+      "status": "candidate",
+      "text": "malign"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 50035,
+      "status": "candidate",
+      "text": "atrocious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 46046,
+      "status": "candidate",
+      "text": "wicked"
+    }
+  ],
+  "concept_id": "evil",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "evil",
+  "observation_id": "739bf757fda85ce3",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "evil",
+  "source_context_snippet": "<div align=\"center\">",
+  "source_file": null,
+  "source_repo": "doomemacs/doomemacs",
+  "source_repo_description": "An Emacs framework for the stubborn martian hacker"
+}

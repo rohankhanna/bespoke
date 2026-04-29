@@ -1,0 +1,91 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "input-output-hk/cicero",
+      "target": "input-output-hk/tullia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "go.mod",
+      "source_repo": "input-output-hk/cicero",
+      "target": "hashicorp/nomad",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "input-output-hk/cicero",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "input-output-hk/cicero",
+      "target": "nomad",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:56:48.542056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 851
+    },
+    {
+      "path": "go.mod",
+      "size": 12119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "event-driven automation for Nomad",
+    "fork": false,
+    "full_name": "input-output-hk/cicero",
+    "html_url": "https://github.com/input-output-hk/cicero",
+    "language": "Go",
+    "pushed_at": "2023-05-15T17:38:17Z",
+    "stargazers_count": 41,
+    "topics": [
+      "automation",
+      "cd",
+      "ci",
+      "cue",
+      "nix",
+      "nomad"
+    ],
+    "updated_at": "2024-12-06T15:15:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "input-output-hk/tullia",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hashicorp/nomad",
+      "source_file": "go.mod"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cicero is an action execution engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "Cicero is an action execution engine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nomad"
+    }
+  ]
+}

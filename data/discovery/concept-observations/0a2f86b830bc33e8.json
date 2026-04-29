@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Extended functionalities for Optuna in combination with third-party libraries."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Publish distributions to PyPI or TestPyPI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Publish distributions to PyPI or TestPyPI"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10941,
+      "status": "candidate",
+      "text": "bring out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10941,
+      "status": "candidate",
+      "text": "print"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10941,
+      "status": "candidate",
+      "text": "publication"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10941,
+      "status": "candidate",
+      "text": "published"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10941,
+      "status": "candidate",
+      "text": "publishing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Publish distributions to PyPI or TestPyPI",
+      "sense_id": "publish-distributions-to-pypi-or-testpypi#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "publish-distributions-to-pypi-or-testpypi",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "publish-distributions-to-pypi-or-testpypi",
+  "observation_id": "0a2f86b830bc33e8",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Publish distributions to PyPI or TestPyPI",
+  "source_context_snippet": "Publish distributions to PyPI or TestPyPI",
+  "source_file": ".github/workflows/pypi-publish.yml",
+  "source_repo": "optuna/optuna-integration",
+  "source_repo_description": "Extended functionalities for Optuna in combination with third-party libraries."
+}

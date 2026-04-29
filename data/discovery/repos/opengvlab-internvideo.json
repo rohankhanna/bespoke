@@ -1,0 +1,310 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "action-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "contrastive-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "instruction-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "masked-autoencoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "multimodal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "open-set-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "self-supervised",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "spatio-temporal-action-localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "temporal-action-localization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "video-clip",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "video-data",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "video-dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "video-question-answering",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "video-retrieval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "video-understanding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "vision-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "zero-shot-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "OpenGVLab/InternVideo",
+      "target": "zero-shot-retrieval",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:50:51.241867+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3982
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ECCV2024] Video Foundation Models & Data for Multimodal Understanding",
+    "fork": false,
+    "full_name": "OpenGVLab/InternVideo",
+    "html_url": "https://github.com/OpenGVLab/InternVideo",
+    "language": "Python",
+    "pushed_at": "2026-03-25T07:13:47Z",
+    "stargazers_count": 2254,
+    "topics": [
+      "action-recognition",
+      "benchmark",
+      "contrastive-learning",
+      "foundation-models",
+      "instruction-tuning",
+      "masked-autoencoder",
+      "multimodal",
+      "open-set-recognition",
+      "self-supervised",
+      "spatio-temporal-action-localization",
+      "temporal-action-localization",
+      "video-clip",
+      "video-data",
+      "video-dataset",
+      "video-question-answering",
+      "video-retrieval",
+      "video-understanding",
+      "vision-transformer",
+      "zero-shot-classification",
+      "zero-shot-retrieval"
+    ],
+    "updated_at": "2026-04-29T03:42:30Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "action-recognition"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "contrastive-learning"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-models"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruction-tuning"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "masked-autoencoder"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "open-set-recognition"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spatio-temporal-action-localization"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "temporal-action-localization"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-clip"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-data"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-dataset"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-question-answering"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-retrieval"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-understanding"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot-classification"
+    },
+    {
+      "context_snippet": "</div>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot-retrieval"
+    }
+  ]
+}

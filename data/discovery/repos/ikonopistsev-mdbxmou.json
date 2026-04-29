@@ -1,0 +1,150 @@
+{
+  "components": [
+    {
+      "component": "cmake-js",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "node-addon-api",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@types/node",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "msgpackr",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "typescript",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ikonopistsev/mdbxmou",
+      "target": "cmake-js",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ikonopistsev/mdbxmou",
+      "target": "node-addon-api",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ikonopistsev/mdbxmou",
+      "target": "@types/node",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ikonopistsev/mdbxmou",
+      "target": "msgpackr",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "ikonopistsev/mdbxmou",
+      "target": "typescript",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ikonopistsev/mdbxmou",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ikonopistsev/mdbxmou",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ikonopistsev/mdbxmou",
+      "target": "Publish to NPM",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ikonopistsev/mdbxmou",
+      "target": "mdbx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:45:45.485997+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 33027
+    },
+    {
+      "path": "package.json",
+      "size": 2139
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 603
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Nodejs binding for libmdbx",
+    "fork": false,
+    "full_name": "ikonopistsev/mdbxmou",
+    "html_url": "https://github.com/ikonopistsev/mdbxmou",
+    "language": "C++",
+    "pushed_at": "2026-04-01T13:51:03Z",
+    "stargazers_count": 4,
+    "topics": [
+      "mdbx"
+    ],
+    "updated_at": "2026-04-25T13:49:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Publish to NPM\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish to NPM"
+    },
+    {
+      "context_snippet": "Node.js binding for [libmdbx](https://github.com/Mithril-mine/libmdbx) \u2014 a fast, lightweight, embedded key-value database.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mdbx"
+    }
+  ]
+}

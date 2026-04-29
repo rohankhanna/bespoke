@@ -1,0 +1,42 @@
+{
+  "component": "astral-sh/setup-uv@d0cc045d04ccac9d8b7881df0226f9e82c39688e",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/quality.yml",
+      "source_repo": "huggingface/sentence-transformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml",
+      "source_repo": "ag2ai/ag2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml",
+      "source_repo": "ag2ai/ag2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-mkdocs.yml",
+      "source_repo": "ag2ai/ag2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/cli-package.yml",
+      "source_repo": "ag2ai/ag2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contrib-graph-rag-tests.yml",
+      "source_repo": "ag2ai/ag2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/contrib-llm-test.yml",
+      "source_repo": "ag2ai/ag2"
+    }
+  ]
+}

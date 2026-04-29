@@ -1,0 +1,27 @@
+{
+  "component": "jbangdev/setup-jbang@2b1b465a7b75f4222b81426f23a01e013aa7b95c",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yaml",
+      "source_repo": "langchain4j/langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly_jdk17.yaml",
+      "source_repo": "langchain4j/langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly_jdk21.yaml",
+      "source_repo": "langchain4j/langchain4j"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/nightly_jdk25.yaml",
+      "source_repo": "langchain4j/langchain4j"
+    }
+  ]
+}

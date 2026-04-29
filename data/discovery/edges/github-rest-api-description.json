@@ -1,0 +1,132 @@
+{
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "github/rest-api-description",
+      "target": "eslint",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "github/rest-api-description",
+      "target": "eslint-plugin-json",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "actions/add-to-project@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "Add issues to API team project",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check-for-spammy-issues.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "actions/github-script@2b34a689ec86a68d8ab9478298f91d5401337b7d",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-for-spammy-issues.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "Check for Spammy Issues",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copy-documentation-issue.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "actions/github-script@626af12fe9a53dc2972b48385e7fe7dec79145c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copy-documentation-issue.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "Copy documentation issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/copy-feature-issue.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "actions/github-script@626af12fe9a53dc2972b48385e7fe7dec79145c9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/copy-feature-issue.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "Copy feature issue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter-failure-notifier.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "Notify on linter failure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "mattpage/redocly-cli-lint-action@v0.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/linter.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "Lint OpenAPI Descriptions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-notifier.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "gr2m/release-notifier-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-notifier.yml",
+      "source_repo": "github/rest-api-description",
+      "target": "Release Notifier",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "github/rest-api-description"
+}

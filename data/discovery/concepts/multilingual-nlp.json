@@ -19,6 +19,30 @@
       "source_repo": "embeddings-benchmark/mteb",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "csebuetnlp/CrossSum",
+      "status": "candidate-context",
+      "text": "This repository contains the code, data, and models of the paper titled \"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\" published in Proceedings of the 61st Annual Meeting of the Association for Computational Linguistics (ACL\u201923), July 9-14, 2023."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csebuetnlp/CrossSum",
+      "status": "candidate-context",
+      "text": "This repository contains the code, data, and models of the paper titled [**\"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\"**](https://aclanthology.org/2023.acl-long.143/) published in Proceedings of the 61st Annual Meeting of the Associat\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bigscience-workshop/xmtf",
+      "status": "candidate-context",
+      "text": "Crosslingual Generalization through Multitask Finetuning"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigscience-workshop/xmtf",
+      "status": "candidate-context",
+      "text": "![](xmtf_banner.png)"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "embeddings-benchmark/mteb",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "csebuetnlp/CrossSum",
+      "status": "candidate",
+      "text": "This repository contains the code, data, and models of the paper titled [**\"CrossSum: Beyond English-Centric Cross-Lingual Summarization for 1,500+ Language Pairs\"**](https://aclanthology.org/2023.acl-long.143/) published in Proceedings of the 61st Annual Meeting of the Associat\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bigscience-workshop/xmtf",
+      "status": "candidate",
+      "text": "![](xmtf_banner.png)"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +76,23 @@
       "observed_at": "2026-04-18T18:30:26.389736+00:00",
       "source_file": null,
       "source_repo": "embeddings-benchmark/mteb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "csebuetnlp/CrossSum"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bigscience-workshop/xmtf"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-18T18:30:26.389736+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

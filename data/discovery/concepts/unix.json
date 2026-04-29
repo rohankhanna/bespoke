@@ -91,6 +91,42 @@
       "source_repo": "jlevy/the-art-of-command-line",
       "status": "candidate-context",
       "text": "\ud83c\udf0d"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kentcdodds/cross-env",
+      "status": "candidate-context",
+      "text": "\ud83d\udd00 Cross platform setting of environment scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kentcdodds/cross-env",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jhawthorn/fzy",
+      "status": "candidate-context",
+      "text": ":mag: A simple, fast fuzzy finder for the terminal"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhawthorn/fzy",
+      "status": "candidate-context",
+      "text": "![fzy](http://i.hawth.ca/u/fzy-github.svg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "Passionately Crafted CLI Setup \ud83d\udc27\u2764\ufe0f"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate-context",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +171,24 @@
       "source_repo": "jlevy/the-art-of-command-line",
       "status": "candidate",
       "text": "\ud83c\udf0d"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kentcdodds/cross-env",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jhawthorn/fzy",
+      "status": "candidate",
+      "text": "![fzy](http://i.hawth.ca/u/fzy-github.svg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "2KAbhishek/dots2k",
+      "status": "candidate",
+      "text": "<div align = \"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -235,11 +289,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "jlevy/the-art-of-command-line"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kentcdodds/cross-env"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jhawthorn/fzy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "2KAbhishek/dots2k"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

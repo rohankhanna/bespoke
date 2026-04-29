@@ -58,6 +58,30 @@
       "source_repo": "tensorchord/envd",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tilt-dev/tilt",
+      "status": "candidate-context",
+      "text": "Define your dev environment as code. For microservice apps on Kubernetes."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tilt-dev/tilt",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/logo-wordmark.png\" width=\"250\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tilt-dev/tilt-extensions",
+      "status": "candidate-context",
+      "text": "Extensions for Tilt"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tilt-dev/tilt-extensions",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://circleci.com/gh/tilt-dev/tilt-extensions/tree/master.svg?style=shield)](https://circleci.com/gh/tilt-dev/tilt-extensions)"
     }
   ],
   "candidate_glosses": [
@@ -84,6 +108,18 @@
       "source_repo": "tensorchord/envd",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tilt-dev/tilt",
+      "status": "candidate",
+      "text": "<img src=\"assets/logo-wordmark.png\" width=\"250\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tilt-dev/tilt-extensions",
+      "status": "candidate",
+      "text": "[![Build Status](https://circleci.com/gh/tilt-dev/tilt-extensions/tree/master.svg?style=shield)](https://circleci.com/gh/tilt-dev/tilt-extensions)"
     }
   ],
   "candidate_related_terms": [
@@ -151,11 +187,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "tensorchord/envd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tilt-dev/tilt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tilt-dev/tilt-extensions"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "coder/code-server"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

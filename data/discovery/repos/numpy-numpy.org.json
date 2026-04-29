@@ -1,0 +1,118 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-translations-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-translations-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "numpy/numpy.org",
+      "target": "scientific-python/scientific-python-hugo-theme",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-translations-pr.yml",
+      "source_repo": "numpy/numpy.org",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-translations-pr.yml",
+      "source_repo": "numpy/numpy.org",
+      "target": "Create Translations PR",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "numpy/numpy.org",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "numpy/numpy.org",
+      "target": "JamesIves/github-pages-deploy-action@releases/v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "numpy/numpy.org",
+      "target": "github pages",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:42:18.207678+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3370
+    },
+    {
+      "path": ".github/workflows/create-translations-pr.yml",
+      "size": 2636
+    },
+    {
+      "path": ".github/workflows/gh-pages.yml",
+      "size": 2255
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The NumPy home page",
+    "fork": false,
+    "full_name": "numpy/numpy.org",
+    "html_url": "https://github.com/numpy/numpy.org",
+    "language": "Shell",
+    "pushed_at": "2026-04-13T17:59:40Z",
+    "stargazers_count": 123,
+    "topics": [],
+    "updated_at": "2026-04-13T17:59:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scientific-python/scientific-python-hugo-theme",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Create Translations PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-translations-pr.yml",
+      "term": "Create Translations PR"
+    },
+    {
+      "context_snippet": "github pages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "term": "github pages"
+    }
+  ]
+}

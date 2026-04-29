@@ -1,0 +1,69 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guoyww/AnimateDiff",
+      "target": "continue-revolution/sd-webui-animatediff",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guoyww/AnimateDiff",
+      "target": "kosinkadink/comfyui-animatediff-evolved",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "guoyww/AnimateDiff",
+      "target": "showlab/tune-a-video",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:48:32.725495+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 19359
+    },
+    {
+      "path": "requirements.txt",
+      "size": 198
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official implementation of AnimateDiff.",
+    "fork": false,
+    "full_name": "guoyww/AnimateDiff",
+    "html_url": "https://github.com/guoyww/AnimateDiff",
+    "language": "Python",
+    "pushed_at": "2024-07-31T01:14:15Z",
+    "stargazers_count": 12106,
+    "topics": [],
+    "updated_at": "2026-04-29T16:41:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "continue-revolution/sd-webui-animatediff",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kosinkadink/comfyui-animatediff-evolved",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "showlab/tune-a-video",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "polyline-decoder"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "georust/polyline",
+      "status": "candidate-context",
+      "text": "Fast Google Encoded Polyline encoding & decoding in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/polyline",
+      "status": "candidate-context",
+      "text": "[![polyline](https://avatars1.githubusercontent.com/u/10320338?v=4&s=50)](https://github.com/georust)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "georust/polyline",
+      "status": "candidate",
+      "text": "[![polyline](https://avatars1.githubusercontent.com/u/10320338?v=4&s=50)](https://github.com/georust)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "polyline-decoder",
+  "concept_id": "polyline-decoder",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "georust/polyline"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "polyline-decoder",
+      "sense_id": "polyline-decoder#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,253 @@
+{
+  "components": [
+    {
+      "component": "mristin/opinionated-commit-message@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_pr_title.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    },
+    {
+      "component": "bazelbuild/setup-bazelisk@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "bazelbuild/tulsi",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "tuist/xcodeproj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/check_pr_title.yml",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "mristin/opinionated-commit-message@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_pr_title.yml",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "Check commit message style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "bazelbuild/setup-bazelisk@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "bazel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "bazel-rules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "macos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "swift",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "tvos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "visionos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "watchos",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "xcode",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "MobileNativeFoundation/rules_xcodeproj",
+      "target": "xcodeproj",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:56:51.776382+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5716
+    },
+    {
+      "path": ".github/workflows/check_pr_title.yml",
+      "size": 539
+    },
+    {
+      "path": ".github/workflows/create-release.yml",
+      "size": 7879
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bazel rules for generating Xcode projects.",
+    "fork": false,
+    "full_name": "MobileNativeFoundation/rules_xcodeproj",
+    "html_url": "https://github.com/MobileNativeFoundation/rules_xcodeproj",
+    "language": "Swift",
+    "pushed_at": "2026-04-29T19:57:54Z",
+    "stargazers_count": 616,
+    "topics": [
+      "bazel",
+      "bazel-rules",
+      "ios",
+      "macos",
+      "swift",
+      "tvos",
+      "visionos",
+      "watchos",
+      "xcode",
+      "xcodeproj"
+    ],
+    "updated_at": "2026-04-29T21:41:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bazelbuild/tulsi",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tuist/xcodeproj",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "'Check commit message style'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check_pr_title.yml",
+      "term": "Check commit message style"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bazel-rules"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macos"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tvos"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visionos"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "watchos"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcode"
+    },
+    {
+      "context_snippet": "<p align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xcodeproj"
+    }
+  ]
+}

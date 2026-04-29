@@ -67,6 +67,18 @@
       "source_repo": "WebAssembly/wasi-proposal-template",
       "status": "candidate-context",
       "text": "This template can be used to start a new proposal, which can then be proposed in the WASI Subgroup meetings."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate-context",
+      "text": "Nginx + WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "WebAssembly/wasi-proposal-template",
       "status": "candidate",
       "text": "This template can be used to start a new proposal, which can then be proposed in the WASI Subgroup meetings."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -165,11 +183,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "WebAssembly/wasi-proposal-template"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Kong/ngx_wasm_module"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

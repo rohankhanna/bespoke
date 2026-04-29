@@ -1,0 +1,90 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nigels-com/glew",
+      "target": "glew",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nigels-com/glew",
+      "target": "glewinfo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nigels-com/glew",
+      "target": "opengl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nigels-com/glew",
+      "target": "visualinfo",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:53:34.723696+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9727
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The OpenGL Extension Wrangler Library",
+    "fork": false,
+    "full_name": "nigels-com/glew",
+    "html_url": "https://github.com/nigels-com/glew",
+    "language": "C",
+    "pushed_at": "2026-04-03T13:11:24Z",
+    "stargazers_count": 2864,
+    "topics": [
+      "c",
+      "egl",
+      "glew",
+      "glewinfo",
+      "glx",
+      "opengl",
+      "visualinfo",
+      "wgl"
+    ],
+    "updated_at": "2026-04-28T08:23:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform. OpenGL core and extension functionality is expo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glew"
+    },
+    {
+      "context_snippet": "The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform. OpenGL core and extension functionality is expo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "glewinfo"
+    },
+    {
+      "context_snippet": "The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform. OpenGL core and extension functionality is expo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "opengl"
+    },
+    {
+      "context_snippet": "The OpenGL Extension Wrangler Library (GLEW) is a cross-platform open-source C/C++ extension loading library. GLEW provides efficient run-time mechanisms for determining which OpenGL extensions are supported on the target platform. OpenGL core and extension functionality is expo\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visualinfo"
+    }
+  ]
+}

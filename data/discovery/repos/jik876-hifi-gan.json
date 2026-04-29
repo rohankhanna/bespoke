@@ -1,0 +1,133 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jik876/hifi-gan",
+      "target": "nvidia/tacotron2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jik876/hifi-gan",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jik876/hifi-gan",
+      "target": "hifi-gan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jik876/hifi-gan",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jik876/hifi-gan",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jik876/hifi-gan",
+      "target": "text-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jik876/hifi-gan",
+      "target": "vocoder",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:45:55.356016+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4893
+    },
+    {
+      "path": "requirements.txt",
+      "size": 113
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "HiFi-GAN: Generative Adversarial Networks for Efficient and High Fidelity Speech Synthesis",
+    "fork": false,
+    "full_name": "jik876/hifi-gan",
+    "html_url": "https://github.com/jik876/hifi-gan",
+    "language": "Python",
+    "pushed_at": "2024-07-27T20:56:30Z",
+    "stargazers_count": 2343,
+    "topics": [
+      "deep-learning",
+      "gan",
+      "hifi-gan",
+      "pytorch",
+      "speech-synthesis",
+      "text-to-speech",
+      "tts",
+      "vocoder"
+    ],
+    "updated_at": "2026-04-28T12:37:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/tacotron2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "In our [paper](https://arxiv.org/abs/2010.05646),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "In our [paper](https://arxiv.org/abs/2010.05646),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hifi-gan"
+    },
+    {
+      "context_snippet": "In our [paper](https://arxiv.org/abs/2010.05646),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "In our [paper](https://arxiv.org/abs/2010.05646),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "In our [paper](https://arxiv.org/abs/2010.05646),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-to-speech"
+    },
+    {
+      "context_snippet": "In our [paper](https://arxiv.org/abs/2010.05646),",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocoder"
+    }
+  ]
+}

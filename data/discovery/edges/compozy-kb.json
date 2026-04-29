@@ -13,57 +13,8 @@
       "source_repo": "compozy/kb",
       "target": "tobilu/qmd",
       "target_type": "repository"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yaml",
-      "source_repo": "compozy/kb",
-      "target": "amannn/action-semantic-pull-request@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/ci.yaml",
-      "source_repo": "compozy/kb",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "compozy/kb",
-      "target": "actions/checkout@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "compozy/kb",
-      "target": "goreleaser/goreleaser-action@v6",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "compozy/kb",
-      "target": "actions/upload-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "compozy/kb",
-      "target": "actions/download-artifact@v4",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-name",
-      "source_file": ".github/workflows/release.yml",
-      "source_repo": "compozy/kb",
-      "target": "Release",
-      "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "compozy/kb"
 }

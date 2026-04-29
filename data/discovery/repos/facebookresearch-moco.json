@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:47:10.630627+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "PyTorch implementation of MoCo: https://arxiv.org/abs/1911.05722",
+    "fork": false,
+    "full_name": "facebookresearch/moco",
+    "html_url": "https://github.com/facebookresearch/moco",
+    "language": null,
+    "pushed_at": "2026-02-03T19:40:18Z",
+    "stargazers_count": 5130,
+    "topics": [],
+    "updated_at": "2026-04-29T10:47:38Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

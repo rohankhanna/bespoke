@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "auction-kiosk"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artsy/eidolon",
+      "status": "candidate-context",
+      "text": "The Artsy Auction Kiosk App."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eidolon",
+      "status": "candidate-context",
+      "text": "Eidolon"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eidolon",
+      "status": "candidate",
+      "text": "Eidolon"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "auction-kiosk",
+  "concept_id": "auction-kiosk",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "artsy/eidolon"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "auction-kiosk",
+      "sense_id": "auction-kiosk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

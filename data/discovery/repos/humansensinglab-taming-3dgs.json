@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:44:27.995010+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4574
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "humansensinglab/taming-3dgs",
+    "html_url": "https://github.com/humansensinglab/taming-3dgs",
+    "language": "Python",
+    "pushed_at": "2025-06-16T18:32:26Z",
+    "stargazers_count": 349,
+    "topics": [],
+    "updated_at": "2026-04-21T01:57:24Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

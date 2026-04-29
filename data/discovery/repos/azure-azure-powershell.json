@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "github-community-projects/issue-metrics@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml"
+    },
+    {
+      "component": "peter-evans/create-issue-from-file@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml"
+    },
+    {
+      "component": "Azure/issue-sentinel@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-sentinel.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeled.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/azure-powershell",
+      "target": "powershell/powershell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "Azure/azure-powershell",
+      "target": "github-community-projects/issue-metrics@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "Azure/azure-powershell",
+      "target": "peter-evans/create-issue-from-file@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "Azure/azure-powershell",
+      "target": "Monthly issue metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-sentinel.yml",
+      "source_repo": "Azure/azure-powershell",
+      "target": "Azure/issue-sentinel@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-sentinel.yml",
+      "source_repo": "Azure/azure-powershell",
+      "target": "Issue sentinel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-labeled.yml",
+      "source_repo": "Azure/azure-powershell",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeled.yml",
+      "source_repo": "Azure/azure-powershell",
+      "target": "pr-labeled",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-powershell",
+      "target": "azure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-powershell",
+      "target": "microsoft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-powershell",
+      "target": "microsoft-azure-powershell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Azure/azure-powershell",
+      "target": "powershell",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:58:09.810946+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10306
+    },
+    {
+      "path": ".github/workflows/issue-metrics.yml",
+      "size": 1258
+    },
+    {
+      "path": ".github/workflows/issue-sentinel.yml",
+      "size": 501
+    },
+    {
+      "path": ".github/workflows/pr-labeled.yml",
+      "size": 592
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Microsoft Azure PowerShell",
+    "fork": false,
+    "full_name": "Azure/azure-powershell",
+    "html_url": "https://github.com/Azure/azure-powershell",
+    "language": "C#",
+    "pushed_at": "2026-04-29T14:32:34Z",
+    "stargazers_count": 4709,
+    "topics": [
+      "arm",
+      "azure",
+      "microsoft",
+      "microsoft-azure-powershell",
+      "powershell"
+    ],
+    "updated_at": "2026-04-29T07:25:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "powershell/powershell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Monthly issue metrics",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "term": "Monthly issue metrics"
+    },
+    {
+      "context_snippet": "Issue sentinel",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/issue-sentinel.yml",
+      "term": "Issue sentinel"
+    },
+    {
+      "context_snippet": "pr-labeled",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr-labeled.yml",
+      "term": "pr-labeled"
+    },
+    {
+      "context_snippet": "<meta name=\"google-site-verification\" content=\"tZgbB2s-hTI0IePQQRCjHqL_Vf0j_XJmehXAHJerrn4\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "azure"
+    },
+    {
+      "context_snippet": "<meta name=\"google-site-verification\" content=\"tZgbB2s-hTI0IePQQRCjHqL_Vf0j_XJmehXAHJerrn4\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft"
+    },
+    {
+      "context_snippet": "<meta name=\"google-site-verification\" content=\"tZgbB2s-hTI0IePQQRCjHqL_Vf0j_XJmehXAHJerrn4\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "microsoft-azure-powershell"
+    },
+    {
+      "context_snippet": "<meta name=\"google-site-verification\" content=\"tZgbB2s-hTI0IePQQRCjHqL_Vf0j_XJmehXAHJerrn4\" />",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powershell"
+    }
+  ]
+}

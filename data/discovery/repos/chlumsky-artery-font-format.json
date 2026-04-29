@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:59:52.651182+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 603
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Artery Atlas Font format library",
+    "fork": false,
+    "full_name": "Chlumsky/artery-font-format",
+    "html_url": "https://github.com/Chlumsky/artery-font-format",
+    "language": "C++",
+    "pushed_at": "2024-06-30T15:33:24Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2026-04-13T18:42:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

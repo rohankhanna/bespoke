@@ -1,0 +1,161 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/disco",
+      "target": "ankane/ahoy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/disco",
+      "target": "ankane/trove",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/disco",
+      "target": "ankane/faiss",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ankane/disco",
+      "target": "benfred/implicit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/disco",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/disco",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/disco",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/disco",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/disco",
+      "target": "recommendation-engine",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ankane/disco",
+      "target": "recommender-system",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:43:35.524624+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7763
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 804
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Recommendations for Ruby and Rails using collaborative filtering",
+    "fork": false,
+    "full_name": "ankane/disco",
+    "html_url": "https://github.com/ankane/disco",
+    "language": "Ruby",
+    "pushed_at": "2026-04-17T22:04:52Z",
+    "stargazers_count": 602,
+    "topics": [
+      "recommendation-engine",
+      "recommender-system"
+    ],
+    "updated_at": "2026-04-17T22:04:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/ahoy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/faiss",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ankane/trove",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benfred/implicit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "build"
+    },
+    {
+      "context_snippet": ":fire: Recommendations for Ruby and Rails using collaborative filtering",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recommendation-engine"
+    },
+    {
+      "context_snippet": ":fire: Recommendations for Ruby and Rails using collaborative filtering",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recommender-system"
+    }
+  ]
+}

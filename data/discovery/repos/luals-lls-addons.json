@@ -1,0 +1,152 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "dsaltares/fetch-gh-release-asset@1.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    },
+    {
+      "component": "stefanzweifel/git-auto-commit-action@v4.16.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuaLS/LLS-Addons",
+      "target": "sumneko/vscode-lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LuaLS/LLS-Addons",
+      "target": "luals/lls-addons-action",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "LuaLS/LLS-Addons",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "LuaLS/LLS-Addons",
+      "target": "dsaltares/fetch-gh-release-asset@1.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "LuaLS/LLS-Addons",
+      "target": "stefanzweifel/git-auto-commit-action@v4.16.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "LuaLS/LLS-Addons",
+      "target": "Check Added Submodules",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuaLS/LLS-Addons",
+      "target": "lua-cats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuaLS/LLS-Addons",
+      "target": "lua-language-server",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LuaLS/LLS-Addons",
+      "target": "sumneko-lua",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:54:42.520975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2948
+    },
+    {
+      "path": ".github/workflows/pull_request.yml",
+      "size": 2577
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Addons for use with Sumneko's Lua Language Server",
+    "fork": false,
+    "full_name": "LuaLS/LLS-Addons",
+    "html_url": "https://github.com/LuaLS/LLS-Addons",
+    "language": null,
+    "pushed_at": "2026-04-26T02:24:01Z",
+    "stargazers_count": 113,
+    "topics": [
+      "lua",
+      "lua-cats",
+      "lua-language-server",
+      "sumneko-lua"
+    ],
+    "updated_at": "2026-04-26T02:24:06Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "luals/lls-addons-action",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sumneko/vscode-lua",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Check Added Submodules",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull_request.yml",
+      "term": "Check Added Submodules"
+    },
+    {
+      "context_snippet": "![Addons count](https://img.shields.io/github/directory-file-count/LuaLS/LLS-Addons/addons?label=Addons&type=dir&color=097aba)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lua-cats"
+    },
+    {
+      "context_snippet": "![Addons count](https://img.shields.io/github/directory-file-count/LuaLS/LLS-Addons/addons?label=Addons&type=dir&color=097aba)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lua-language-server"
+    },
+    {
+      "context_snippet": "![Addons count](https://img.shields.io/github/directory-file-count/LuaLS/LLS-Addons/addons?label=Addons&type=dir&color=097aba)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sumneko-lua"
+    }
+  ]
+}

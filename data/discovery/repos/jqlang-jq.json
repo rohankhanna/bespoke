@@ -420,7 +420,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:11:30.448715+00:00",
+  "fetched_at": "2026-04-29T21:48:41.452012+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -468,12 +468,12 @@
     "full_name": "jqlang/jq",
     "html_url": "https://github.com/jqlang/jq",
     "language": "C",
-    "pushed_at": "2026-04-22T06:36:35Z",
-    "stargazers_count": 34555,
+    "pushed_at": "2026-04-26T14:00:59Z",
+    "stargazers_count": 34589,
     "topics": [
       "jq"
     ],
-    "updated_at": "2026-04-24T06:47:41Z"
+    "updated_at": "2026-04-29T18:54:32Z"
   },
   "repo_links": [],
   "terms": [

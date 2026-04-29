@@ -1,12 +1,17 @@
 {
   "component": "vmactions/freebsd-vm@7ca82f79fe3078fecded6d3a2bff094995447bbd",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "notify-rs/notify"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml",
+      "source_repo": "prometheus/node_exporter"
     }
   ]
 }

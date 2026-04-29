@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ssitu/ComfyUI_restart_sampling",
+      "target": "comfyanonymous/comfyui",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ssitu/ComfyUI_restart_sampling",
+      "target": "newbeeer/diffusion_restart_sampling",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:04.449599+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7108
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "ComfyUI nodes for restart sampling based on the paper \"Restart Sampling for Improving Generative Processes\"",
+    "fork": false,
+    "full_name": "ssitu/ComfyUI_restart_sampling",
+    "html_url": "https://github.com/ssitu/ComfyUI_restart_sampling",
+    "language": "Python",
+    "pushed_at": "2025-12-06T03:42:31Z",
+    "stargazers_count": 89,
+    "topics": [],
+    "updated_at": "2026-04-26T06:55:49Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "comfyanonymous/comfyui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "newbeeer/diffusion_restart_sampling",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

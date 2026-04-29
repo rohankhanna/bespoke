@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "zsh-users/zaw",
+      "target": "willghatch/zsh-cdr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "zsh-users/zaw",
+      "target": "junkblocker/calibre-zaw-source",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "zsh-users/zaw",
+      "target": "termoshtt/zaw-systemd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "zsh-users/zaw",
+      "target": "hobarrera/todoman",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:01:52.366714+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 7151
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "zsh anything.el-like widget.",
+    "fork": false,
+    "full_name": "zsh-users/zaw",
+    "html_url": "https://github.com/zsh-users/zaw",
+    "language": "Shell",
+    "pushed_at": "2023-08-05T22:37:22Z",
+    "stargazers_count": 584,
+    "topics": [],
+    "updated_at": "2026-04-29T02:34:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hobarrera/todoman",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "junkblocker/calibre-zaw-source",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "termoshtt/zaw-systemd",
+      "source_file": "README.rst"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "willghatch/zsh-cdr",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": []
+}

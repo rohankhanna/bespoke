@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/mobilenet-yolov4-pytorch",
+      "target": "bubbliiiing/yolo3-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/mobilenet-yolov4-pytorch",
+      "target": "bubbliiiing/yolov4-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/mobilenet-yolov4-pytorch",
+      "target": "bubbliiiing/yolov5-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/mobilenet-yolov4-pytorch",
+      "target": "bubbliiiing/mobilenet-yolov4-lite-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "bubbliiiing/mobilenet-yolov4-pytorch"
+}

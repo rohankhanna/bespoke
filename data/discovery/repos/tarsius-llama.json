@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "emacscollective/workflows/.github/workflows/compile.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile.yml"
+    },
+    {
+      "component": "emacscollective/workflows/.github/workflows/test.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "tarsius/llama",
+      "target": "emacscollective/workflows/.github/workflows/compile.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yml",
+      "source_repo": "tarsius/llama",
+      "target": "Compile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tarsius/llama",
+      "target": "emacscollective/workflows/.github/workflows/test.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "tarsius/llama",
+      "target": "Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:44:48.239317+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/compile.yml",
+      "size": 145
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 133
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Compact syntax for short lambda",
+    "fork": false,
+    "full_name": "tarsius/llama",
+    "html_url": "https://github.com/tarsius/llama",
+    "language": "Emacs Lisp",
+    "pushed_at": "2026-03-01T12:57:37Z",
+    "stargazers_count": 53,
+    "topics": [],
+    "updated_at": "2026-03-12T09:12:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Compile",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compile.yml",
+      "term": "Compile"
+    },
+    {
+      "context_snippet": "Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    }
+  ]
+}

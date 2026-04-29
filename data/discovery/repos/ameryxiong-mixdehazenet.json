@@ -1,0 +1,75 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AmeryXiong/MixDehazeNet",
+      "target": "idkiro/dehazeformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmeryXiong/MixDehazeNet",
+      "target": "dehazing-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "AmeryXiong/MixDehazeNet",
+      "target": "image",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:47:19.361561+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4950
+    },
+    {
+      "path": "requirements.txt",
+      "size": 78
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for \"MixDehazeNet: Mix Structure block for image dehazing network\"",
+    "fork": false,
+    "full_name": "AmeryXiong/MixDehazeNet",
+    "html_url": "https://github.com/AmeryXiong/MixDehazeNet",
+    "language": "Python",
+    "pushed_at": "2024-09-18T01:24:39Z",
+    "stargazers_count": 99,
+    "topics": [
+      "dehazing-network",
+      "image"
+    ],
+    "updated_at": "2026-03-23T07:31:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "idkiro/dehazeformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/Paper-IEEE%20IJCNN-blue)](https://doi.org/10.1109/IJCNN60899.2024.10651326)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dehazing-network"
+    },
+    {
+      "context_snippet": "[![paper](https://img.shields.io/badge/Paper-IEEE%20IJCNN-blue)](https://doi.org/10.1109/IJCNN60899.2024.10651326)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image"
+    }
+  ]
+}

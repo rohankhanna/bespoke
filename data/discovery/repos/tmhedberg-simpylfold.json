@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:57:35.134967+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3284
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "No-BS Python code folding for Vim",
+    "fork": false,
+    "full_name": "tmhedberg/SimpylFold",
+    "html_url": "https://github.com/tmhedberg/SimpylFold",
+    "language": "Vim script",
+    "pushed_at": "2022-05-02T17:18:15Z",
+    "stargazers_count": 653,
+    "topics": [],
+    "updated_at": "2026-04-28T17:08:42Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

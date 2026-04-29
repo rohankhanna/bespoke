@@ -1,0 +1,151 @@
+{
+  "components": [
+    {
+      "component": "christophebedard/dco-check@7b0205d25ead0f898e0b706b58227dd5fa7e3f55",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml"
+    },
+    {
+      "component": "actions/setup-go@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml"
+    },
+    {
+      "component": "msys2/setup-msys2@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yaml",
+      "source_repo": "spiffe/go-spiffe",
+      "target": "christophebedard/dco-check@7b0205d25ead0f898e0b706b58227dd5fa7e3f55",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yaml",
+      "source_repo": "spiffe/go-spiffe",
+      "target": "DCO",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml",
+      "source_repo": "spiffe/go-spiffe",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml",
+      "source_repo": "spiffe/go-spiffe",
+      "target": "actions/setup-go@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr_build.yaml",
+      "source_repo": "spiffe/go-spiffe",
+      "target": "msys2/setup-msys2@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_build.yaml",
+      "source_repo": "spiffe/go-spiffe",
+      "target": "PR Build",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:56:35.523717+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2684
+    },
+    {
+      "path": "go.mod",
+      "size": 770
+    },
+    {
+      "path": ".github/workflows/dco.yaml",
+      "size": 439
+    },
+    {
+      "path": ".github/workflows/pr_build.yaml",
+      "size": 2332
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Golang library for SPIFFE support",
+    "fork": false,
+    "full_name": "spiffe/go-spiffe",
+    "html_url": "https://github.com/spiffe/go-spiffe",
+    "language": "Go",
+    "pushed_at": "2026-04-20T07:21:39Z",
+    "stargazers_count": 193,
+    "topics": [],
+    "updated_at": "2026-04-18T17:50:44Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "DCO",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yaml",
+      "term": "DCO"
+    },
+    {
+      "context_snippet": "PR Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pr_build.yaml",
+      "term": "PR Build"
+    }
+  ]
+}

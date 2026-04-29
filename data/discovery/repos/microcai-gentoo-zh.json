@@ -1,0 +1,214 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emerge-on-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emerge-on-pr.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-deps-relation-r1.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-deps-relation-r1.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-deps-relation-r1.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvchecker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvchecker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvchecker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvchecker.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgcheck.yml"
+    },
+    {
+      "component": "pkgcore/pkgcheck-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgcheck.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/emerge-on-pr.yml",
+      "source_repo": "microcai/gentoo-zh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emerge-on-pr.yml",
+      "source_repo": "microcai/gentoo-zh",
+      "target": "emerge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-deps-relation-r1.yml",
+      "source_repo": "microcai/gentoo-zh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-deps-relation-r1.yml",
+      "source_repo": "microcai/gentoo-zh",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-deps-relation-r1.yml",
+      "source_repo": "microcai/gentoo-zh",
+      "target": "dependencies table",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nvchecker.yml",
+      "source_repo": "microcai/gentoo-zh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvchecker.yml",
+      "source_repo": "microcai/gentoo-zh",
+      "target": "nvchecker",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgcheck.yml",
+      "source_repo": "microcai/gentoo-zh",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pkgcheck.yml",
+      "source_repo": "microcai/gentoo-zh",
+      "target": "pkgcore/pkgcheck-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkgcheck.yml",
+      "source_repo": "microcai/gentoo-zh",
+      "target": "pkgcheck",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microcai/gentoo-zh",
+      "target": "ebuild",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:51:37.823958+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2018
+    },
+    {
+      "path": ".github/workflows/emerge-on-pr.yml",
+      "size": 5524
+    },
+    {
+      "path": ".github/workflows/generate-deps-relation-r1.yml",
+      "size": 830
+    },
+    {
+      "path": ".github/workflows/nvchecker.yml",
+      "size": 4179
+    },
+    {
+      "path": ".github/workflows/overlay.toml",
+      "size": 38532
+    },
+    {
+      "path": ".github/workflows/pkgcheck.yml",
+      "size": 413
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Overlay for Gentoo Users.",
+    "fork": false,
+    "full_name": "microcai/gentoo-zh",
+    "html_url": "https://github.com/microcai/gentoo-zh",
+    "language": "Shell",
+    "pushed_at": "2026-04-29T16:52:42Z",
+    "stargazers_count": 408,
+    "topics": [
+      "ebuild"
+    ],
+    "updated_at": "2026-04-29T16:52:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "emerge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/emerge-on-pr.yml",
+      "term": "emerge"
+    },
+    {
+      "context_snippet": "dependencies table",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-deps-relation-r1.yml",
+      "term": "dependencies table"
+    },
+    {
+      "context_snippet": "nvchecker",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nvchecker.yml",
+      "term": "nvchecker"
+    },
+    {
+      "context_snippet": "pkgcheck",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pkgcheck.yml",
+      "term": "pkgcheck"
+    },
+    {
+      "context_snippet": "```",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ebuild"
+    }
+  ]
+}

@@ -12,14 +12,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "calsign/gazelle_rust",
+      "target": "grailbio/rules_r",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "bazel-contrib/bazel-gazelle",
-      "target": "cgrindel/swift_gazelle_plugin",
+      "target": "engflow/gazelle_cc",
       "target_type": "repository"
     },
     {
@@ -30,7 +30,7 @@
       "target_type": "repository"
     }
   ],
-  "fetched_at": "2026-04-24T08:09:13.736520+00:00",
+  "fetched_at": "2026-04-29T21:59:10.503321+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -50,10 +50,10 @@
     "full_name": "bazel-contrib/bazel-gazelle",
     "html_url": "https://github.com/bazel-contrib/bazel-gazelle",
     "language": "Go",
-    "pushed_at": "2026-04-22T22:03:01Z",
+    "pushed_at": "2026-04-27T17:08:00Z",
     "stargazers_count": 1391,
     "topics": [],
-    "updated_at": "2026-04-22T22:03:06Z"
+    "updated_at": "2026-04-27T23:55:11Z"
   },
   "repo_links": [
     {
@@ -68,12 +68,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "calsign/gazelle_rust",
+      "full_name": "engflow/gazelle_cc",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "cgrindel/swift_gazelle_plugin",
+      "full_name": "grailbio/rules_r",
       "source_file": "README.md"
     }
   ],

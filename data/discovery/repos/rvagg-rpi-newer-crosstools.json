@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rvagg/rpi-newer-crosstools",
+      "target": "raspberrypi/tools",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:50:26.674948+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2169
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Newer cross-compiler toolchains than are available @ https://github.com/raspberrypi/tools",
+    "fork": false,
+    "full_name": "rvagg/rpi-newer-crosstools",
+    "html_url": "https://github.com/rvagg/rpi-newer-crosstools",
+    "language": "C++",
+    "pushed_at": "2024-09-04T12:58:01Z",
+    "stargazers_count": 33,
+    "topics": [],
+    "updated_at": "2025-04-12T19:38:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raspberrypi/tools",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

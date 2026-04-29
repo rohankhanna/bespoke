@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "domeccleston/sharegpt",
+      "target": "chrome-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:48:00.819658+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1923
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Easily share permanent links to ChatGPT conversations with your friends",
+    "fork": false,
+    "full_name": "domeccleston/sharegpt",
+    "html_url": "https://github.com/domeccleston/sharegpt",
+    "language": "TypeScript",
+    "pushed_at": "2024-09-25T19:21:08Z",
+    "stargazers_count": 1757,
+    "topics": [
+      "ai",
+      "chrome-extension"
+    ],
+    "updated_at": "2026-04-23T11:51:37Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<a href=\"https://sharegpt.com\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chrome-extension"
+    }
+  ]
+}

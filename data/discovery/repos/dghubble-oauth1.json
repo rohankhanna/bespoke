@@ -1,0 +1,88 @@
+{
+  "components": [
+    {
+      "component": "dghubble/.github/.github/workflows/golang-library.yaml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dghubble/oauth1",
+      "target": "dghubble/go-digits",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dghubble/oauth1",
+      "target": "benfb/go-tumblr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dghubble/oauth1",
+      "target": "dghubble/.github/.github/workflows/golang-library.yaml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "source_repo": "dghubble/oauth1",
+      "target": "test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:54:50.059058+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4861
+    },
+    {
+      "path": "go.mod",
+      "size": 235
+    },
+    {
+      "path": ".github/workflows/test.yaml",
+      "size": 175
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Go OAuth1",
+    "fork": false,
+    "full_name": "dghubble/oauth1",
+    "html_url": "https://github.com/dghubble/oauth1",
+    "language": "Go",
+    "pushed_at": "2025-08-27T15:01:22Z",
+    "stargazers_count": 197,
+    "topics": [],
+    "updated_at": "2026-03-10T13:38:04Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "benfb/go-tumblr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dghubble/go-digits",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yaml",
+      "term": "test"
+    }
+  ]
+}

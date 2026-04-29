@@ -1,0 +1,12 @@
+{
+  "component": "obi1kenobi/cargo-semver-checks-action@v2.6",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/semver-checks.yml",
+      "source_repo": "hoodie/notify-rust"
+    }
+  ]
+}

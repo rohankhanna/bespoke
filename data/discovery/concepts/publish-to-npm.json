@@ -111,6 +111,30 @@
       "source_repo": "a2aproject/a2a-js",
       "status": "candidate-context",
       "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ikonopistsev/mdbxmou",
+      "status": "candidate-context",
+      "text": "Nodejs binding for libmdbx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ikonopistsev/mdbxmou",
+      "status": "candidate-context",
+      "text": "\"Publish to NPM\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aadsm/jschardet",
+      "status": "candidate-context",
+      "text": "Character encoding auto-detection in JavaScript (port of python's chardet)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aadsm/jschardet",
+      "status": "candidate-context",
+      "text": "Publish to npm"
     }
   ],
   "candidate_glosses": [
@@ -167,6 +191,18 @@
       "source_repo": "a2aproject/a2a-js",
       "status": "candidate",
       "text": "Publish to NPM"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ikonopistsev/mdbxmou",
+      "status": "candidate",
+      "text": "\"Publish to NPM\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aadsm/jschardet",
+      "status": "candidate",
+      "text": "Publish to npm"
     }
   ],
   "candidate_related_terms": [
@@ -276,11 +312,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/npm-publish.yml",
       "source_repo": "a2aproject/a2a-js"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "ikonopistsev/mdbxmou"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "aadsm/jschardet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "a2aproject/a2a-js"
     }
   ],
   "first_seen_at": "2026-04-18T11:56:18.570627+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

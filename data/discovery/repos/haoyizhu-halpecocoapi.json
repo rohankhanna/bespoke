@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:42:27.963062+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 595
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "HaoyiZhu/HalpeCOCOAPI",
+    "html_url": "https://github.com/HaoyiZhu/HalpeCOCOAPI",
+    "language": "Python",
+    "pushed_at": "2025-07-06T11:58:46Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2025-07-06T11:53:47Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

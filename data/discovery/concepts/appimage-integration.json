@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "appimage-integration"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Alexsussa/AIDM",
+      "status": "candidate-context",
+      "text": "AppImage Desktop Maker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexsussa/AIDM",
+      "status": "candidate-context",
+      "text": "AppImage Desktop Maker"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Alexsussa/AIDM",
+      "status": "candidate",
+      "text": "AppImage Desktop Maker"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "appimage-integration",
+  "concept_id": "appimage-integration",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Alexsussa/AIDM"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "appimage-integration",
+      "sense_id": "appimage-integration#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

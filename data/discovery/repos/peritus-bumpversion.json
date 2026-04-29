@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:45:20.413683+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 18204
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Version-bump your software with a single command",
+    "fork": false,
+    "full_name": "peritus/bumpversion",
+    "html_url": "https://github.com/peritus/bumpversion",
+    "language": "Python",
+    "pushed_at": "2023-07-14T05:03:32Z",
+    "stargazers_count": 1517,
+    "topics": [],
+    "updated_at": "2026-04-10T18:07:14Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

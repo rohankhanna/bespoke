@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": ":heavy_plus_sign: Show a diff using Vim its sign column."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9955940,
+      "status": "candidate",
+      "text": "mercurial"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9955939,
+      "status": "candidate",
+      "text": "dvcs"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9955938,
+      "status": "candidate",
+      "text": "datomic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9955937,
+      "status": "candidate",
+      "text": "revision control system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9955936,
+      "status": "candidate",
+      "text": "breezy"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "darcs",
+      "sense_id": "darcs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "darcs",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "darcs",
+  "observation_id": "10b736436adac8cf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "darcs",
+  "source_context_snippet": "![vim-signify](https://raw.githubusercontent.com/mhinz/vim-signify/master/pictures/signify-logo.png)",
+  "source_file": null,
+  "source_repo": "mhinz/vim-signify",
+  "source_repo_description": ":heavy_plus_sign: Show a diff using Vim its sign column."
+}

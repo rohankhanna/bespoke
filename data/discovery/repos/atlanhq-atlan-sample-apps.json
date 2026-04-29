@@ -1,0 +1,437 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/setup-example@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yaml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-deploy-scaffolding.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-registry.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "orgoro/coverage@v3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml"
+    },
+    {
+      "component": "atlanhq/application-sdk/.github/workflows/stale.yml@develop",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml"
+    },
+    {
+      "component": "atlanhq/application-sdk/.github/actions/trivy@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-deploy-scaffolding.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/setup-example@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "github/codeql-action/init@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "github/codeql-action/analyze@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "CodeQL Advanced",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/checkout@v4.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "astral-sh/setup-uv@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "E2E Application Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-deploy-scaffolding.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-deploy-scaffolding.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "Generate Deploy Scaffolding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-registry.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-registry.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "Generate Registry",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "astral-sh/setup-uv@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "orgoro/coverage@v3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "Sample App Pull Request CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "atlanhq/application-sdk/.github/workflows/stale.yml@develop",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "Mark stale issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "atlanhq/application-sdk/.github/actions/trivy@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivy.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "Trivy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validate-deploy-scaffolding.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-deploy-scaffolding.yaml",
+      "source_repo": "atlanhq/atlan-sample-apps",
+      "target": "Validate Deploy Scaffolding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:43:46.879670+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8042
+    },
+    {
+      "path": "Dockerfile",
+      "size": 582
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 4936
+    },
+    {
+      "path": ".github/workflows/e2e-test.yaml",
+      "size": 10289
+    },
+    {
+      "path": ".github/workflows/generate-deploy-scaffolding.yaml",
+      "size": 1383
+    },
+    {
+      "path": ".github/workflows/generate-registry.yaml",
+      "size": 1293
+    },
+    {
+      "path": ".github/workflows/pull-request.yaml",
+      "size": 4812
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 512
+    },
+    {
+      "path": ".github/workflows/trivy.yaml",
+      "size": 970
+    },
+    {
+      "path": ".github/workflows/validate-deploy-scaffolding.yaml",
+      "size": 1138
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Sample application built using Atlan Application SDK",
+    "fork": false,
+    "full_name": "atlanhq/atlan-sample-apps",
+    "html_url": "https://github.com/atlanhq/atlan-sample-apps",
+    "language": "Python",
+    "pushed_at": "2026-04-28T16:42:18Z",
+    "stargazers_count": 5,
+    "topics": [],
+    "updated_at": "2026-03-26T13:48:29Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL Advanced\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL Advanced"
+    },
+    {
+      "context_snippet": "E2E Application Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/e2e-test.yaml",
+      "term": "E2E Application Test"
+    },
+    {
+      "context_snippet": "Generate Deploy Scaffolding",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-deploy-scaffolding.yaml",
+      "term": "Generate Deploy Scaffolding"
+    },
+    {
+      "context_snippet": "Generate Registry",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-registry.yaml",
+      "term": "Generate Registry"
+    },
+    {
+      "context_snippet": "Sample App Pull Request CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pull-request.yaml",
+      "term": "Sample App Pull Request CI"
+    },
+    {
+      "context_snippet": "Mark stale issues and PRs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Mark stale issues and PRs"
+    },
+    {
+      "context_snippet": "Trivy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/trivy.yaml",
+      "term": "Trivy"
+    },
+    {
+      "context_snippet": "Validate Deploy Scaffolding",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validate-deploy-scaffolding.yaml",
+      "term": "Validate Deploy Scaffolding"
+    }
+  ]
+}

@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@3.6.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml"
+    },
+    {
+      "component": "technote-space/toc-generator@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RReverser/wasm-bindgen-rayon",
+      "target": "rustwasm/wasm-bindgen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RReverser/wasm-bindgen-rayon",
+      "target": "surma/rollup-plugin-off-main-thread",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "RReverser/wasm-bindgen-rayon",
+      "target": "googlechromelabs/wasm-feature-detect",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "RReverser/wasm-bindgen-rayon",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "RReverser/wasm-bindgen-rayon",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "RReverser/wasm-bindgen-rayon",
+      "target": "JamesIves/github-pages-deploy-action@3.6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "source_repo": "RReverser/wasm-bindgen-rayon",
+      "target": "Demo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "RReverser/wasm-bindgen-rayon",
+      "target": "technote-space/toc-generator@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/toc.yml",
+      "source_repo": "RReverser/wasm-bindgen-rayon",
+      "target": "TOC Generator",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:42:09.193988+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9398
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1200
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 552
+    },
+    {
+      "path": ".github/workflows/deploy.yml",
+      "size": 790
+    },
+    {
+      "path": ".github/workflows/toc.yml",
+      "size": 415
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An adapter for enabling Rayon-based concurrency on the Web with WebAssembly.",
+    "fork": false,
+    "full_name": "RReverser/wasm-bindgen-rayon",
+    "html_url": "https://github.com/RReverser/wasm-bindgen-rayon",
+    "language": "JavaScript",
+    "pushed_at": "2025-11-21T15:04:23Z",
+    "stargazers_count": 294,
+    "topics": [],
+    "updated_at": "2026-04-28T03:57:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlechromelabs/wasm-feature-detect",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rustwasm/wasm-bindgen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "surma/rollup-plugin-off-main-thread",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Demo",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/deploy.yml",
+      "term": "Demo"
+    },
+    {
+      "context_snippet": "TOC Generator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/toc.yml",
+      "term": "TOC Generator"
+    }
+  ]
+}

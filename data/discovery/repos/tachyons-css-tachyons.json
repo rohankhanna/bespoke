@@ -1,0 +1,233 @@
+{
+  "components": [
+    {
+      "component": "copy-files",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "immutable-css-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "normalize.css",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tachyons-modules",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tachyons-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "watch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "tachyons-css/tachyons",
+      "target": "tachyons-css/tachyons-css.github.io",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tachyons-css/tachyons",
+      "target": "copy-files",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tachyons-css/tachyons",
+      "target": "immutable-css-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tachyons-css/tachyons",
+      "target": "normalize.css",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tachyons-css/tachyons",
+      "target": "tachyons-modules",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tachyons-css/tachyons",
+      "target": "tachyons-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tachyons-css/tachyons",
+      "target": "watch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tachyons-css/tachyons",
+      "target": "design",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tachyons-css/tachyons",
+      "target": "design-patterns",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tachyons-css/tachyons",
+      "target": "design-systems",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tachyons-css/tachyons",
+      "target": "design-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tachyons-css/tachyons",
+      "target": "frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tachyons-css/tachyons",
+      "target": "functional-css",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tachyons-css/tachyons",
+      "target": "html",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "tachyons-css/tachyons",
+      "target": "responsive",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:58:32.310736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4299
+    },
+    {
+      "path": "package.json",
+      "size": 1168
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Functional css for humans",
+    "fork": false,
+    "full_name": "tachyons-css/tachyons",
+    "html_url": "https://github.com/tachyons-css/tachyons",
+    "language": "CSS",
+    "pushed_at": "2026-01-08T18:51:50Z",
+    "stargazers_count": 11701,
+    "topics": [
+      "css",
+      "design",
+      "design-patterns",
+      "design-systems",
+      "design-tools",
+      "frontend",
+      "functional-css",
+      "html",
+      "responsive"
+    ],
+    "updated_at": "2026-04-29T14:57:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tachyons-css/tachyons-css.github.io",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Functional CSS for humans.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design"
+    },
+    {
+      "context_snippet": "Functional CSS for humans.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design-patterns"
+    },
+    {
+      "context_snippet": "Functional CSS for humans.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design-systems"
+    },
+    {
+      "context_snippet": "Functional CSS for humans.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "design-tools"
+    },
+    {
+      "context_snippet": "Functional CSS for humans.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "frontend"
+    },
+    {
+      "context_snippet": "Functional CSS for humans.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "functional-css"
+    },
+    {
+      "context_snippet": "Functional CSS for humans.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "html"
+    },
+    {
+      "context_snippet": "Functional CSS for humans.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "responsive"
+    }
+  ]
+}

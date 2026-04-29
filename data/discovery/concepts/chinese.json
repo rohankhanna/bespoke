@@ -151,6 +151,102 @@
       "source_repo": "afc163/fanyi",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "A large-scale 7B pretraining language model developed by BaiChuan-Inc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "status": "candidate-context",
+      "text": "pCLUE: 1000000+\u591a\u4efb\u52a1\u63d0\u793a\u5b66\u4e60\u6570\u636e\u96c6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "status": "candidate-context",
+      "text": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aplmikex/deduplication_mnbvc",
+      "status": "candidate-context",
+      "text": "\u6587\u672c\u53bb\u91cd"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aplmikex/deduplication_mnbvc",
+      "status": "candidate-context",
+      "text": "\u672c\u9879\u76ee\u7684\u4e3b\u8981\u76ee\u7684\u662f\uff1a"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "speechio/chinese_text_normalization",
+      "status": "candidate-context",
+      "text": "Chinese text normalization for speech processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechio/chinese_text_normalization",
+      "status": "candidate-context",
+      "text": "Search for \"Text Normalization\"(TN) on Google and Github, you can hardly find open-source projects that are \"read-to-use\" for text normalization tasks. Instead, you find a bunch of NLP toolkits or frameworks that *supports* TN functionality. There is quite some work between \"sup\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "tats-u/markdown-cjk-friendly",
+      "status": "candidate-context",
+      "text": "Make CommonMark more friendly for Japanese/Chinese/Korean (CommonMark next specification draft)\u2014plugins & patched packages"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tats-u/markdown-cjk-friendly",
+      "status": "candidate-context",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tats-u/markdown-cjk-friendly) [![CodSpeed Badge](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/tats-u/markdown-cjk-friendly?utm_source=badge)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "A 13B large language model developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "BYVoid/OpenCC",
+      "status": "candidate-context",
+      "text": "Library for conversion between Traditional and Simplified Chinese"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BYVoid/OpenCC",
+      "status": "candidate-context",
+      "text": "[![CMake](https://github.com/BYVoid/OpenCC/actions/workflows/cmake.yml/badge.svg)](https://github.com/BYVoid/OpenCC/actions/workflows/cmake.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "A series of large language models developed by Baichuan Intelligent Technology"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate-context",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
     }
   ],
   "candidate_glosses": [
@@ -225,6 +321,54 @@
       "source_repo": "afc163/fanyi",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-7B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "status": "candidate",
+      "text": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aplmikex/deduplication_mnbvc",
+      "status": "candidate",
+      "text": "\u672c\u9879\u76ee\u7684\u4e3b\u8981\u76ee\u7684\u662f\uff1a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "speechio/chinese_text_normalization",
+      "status": "candidate",
+      "text": "Search for \"Text Normalization\"(TN) on Google and Github, you can hardly find open-source projects that are \"read-to-use\" for text normalization tasks. Instead, you find a bunch of NLP toolkits or frameworks that *supports* TN functionality. There is quite some work between \"sup\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "tats-u/markdown-cjk-friendly",
+      "status": "candidate",
+      "text": "[![Ask DeepWiki](https://deepwiki.com/badge.svg)](https://deepwiki.com/tats-u/markdown-cjk-friendly) [![CodSpeed Badge](https://img.shields.io/endpoint?url=https://codspeed.io/badge.json)](https://codspeed.io/tats-u/markdown-cjk-friendly?utm_source=badge)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "BYVoid/OpenCC",
+      "status": "candidate",
+      "text": "[![CMake](https://github.com/BYVoid/OpenCC/actions/workflows/cmake.yml/badge.svg)](https://github.com/BYVoid/OpenCC/actions/workflows/cmake.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "status": "candidate",
+      "text": "<!-- markdownlint-disable first-line-h1 -->"
     }
   ],
   "candidate_related_terms": [
@@ -355,11 +499,59 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "afc163/fanyi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-7B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/pCLUE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aplmikex/deduplication_mnbvc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "speechio/chinese_text_normalization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "tats-u/markdown-cjk-friendly"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "BYVoid/OpenCC"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

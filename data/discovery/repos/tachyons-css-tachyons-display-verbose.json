@@ -1,0 +1,53 @@
+{
+  "components": [
+    {
+      "component": "tachyons-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "watch",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tachyons-css/tachyons-display-verbose",
+      "target": "tachyons-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "tachyons-css/tachyons-display-verbose",
+      "target": "watch",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:58:34.261916+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 1263
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "tachyons-css/tachyons-display-verbose",
+    "html_url": "https://github.com/tachyons-css/tachyons-display-verbose",
+    "language": "CSS",
+    "pushed_at": "2022-09-26T21:31:23Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2019-12-09T18:52:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

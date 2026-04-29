@@ -1,12 +1,17 @@
 {
   "component": "aquasecurity/trivy-action@ed142fd0673e97e23eac54620cfb913e5ce36c25",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/trivy.yml",
       "source_repo": "dani-garcia/vaultwarden"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-sast.yml",
+      "source_repo": "middyjs/middy"
     }
   ]
 }

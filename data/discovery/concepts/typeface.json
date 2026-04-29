@@ -67,6 +67,18 @@
       "source_repo": "be5invis/Iosevka",
       "status": "candidate-context",
       "text": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "status": "candidate-context",
+      "text": "Sarasa Gothic / \u66f4\u7eb1\u9ed1\u4f53 / \u66f4\u7d17\u9ed1\u9ad4 / \u66f4\u7d17\u30b4\u30b7\u30c3\u30af / \uc0ac\ub77c\uc0ac \uace0\ub515"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "status": "candidate-context",
+      "text": "This is SARASA GOTHIC, a CJK composite font based on Inter, Iosevka and Source Han Sans."
     }
   ],
   "candidate_glosses": [
@@ -99,6 +111,12 @@
       "source_repo": "be5invis/Iosevka",
       "status": "candidate",
       "text": "<p align=\"center\"> <img src=\"images/grand-title.light.svg#gh-light-mode-only\" title=\"Iosevka Grand Title\"><img src=\"images/grand-title.dark.svg#gh-dark-mode-only\" title=\"Iosevka Grand Title\"/> </p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "be5invis/Sarasa-Gothic",
+      "status": "candidate",
+      "text": "This is SARASA GOTHIC, a CJK composite font based on Inter, Iosevka and Source Han Sans."
     }
   ],
   "candidate_related_terms": [
@@ -194,11 +212,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "be5invis/Iosevka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "be5invis/Sarasa-Gothic"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

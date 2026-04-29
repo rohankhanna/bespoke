@@ -1,34 +1,6 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "C2SP/wycheproof",
-      "target": "pyca/cryptography",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "C2SP/wycheproof",
-      "target": "libressl/portable",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "C2SP/wycheproof",
-      "target": "lowrisc/opentitan",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "C2SP/wycheproof",
-      "target": "open-quantum-safe/liboqs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/vectorlint.yml",
       "source_repo": "C2SP/wycheproof",
@@ -71,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "C2SP/wycheproof"
 }

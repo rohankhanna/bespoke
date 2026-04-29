@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:53:02.512537+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 44
+    },
+    {
+      "path": "package.json",
+      "size": 605
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "electerm resource files",
+    "fork": false,
+    "full_name": "electerm/electerm-resource",
+    "html_url": "https://github.com/electerm/electerm-resource",
+    "language": "Shell",
+    "pushed_at": "2025-10-05T12:02:26Z",
+    "stargazers_count": 3,
+    "topics": [],
+    "updated_at": "2025-10-21T07:47:37Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

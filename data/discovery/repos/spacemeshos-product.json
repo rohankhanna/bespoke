@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacemeshos/product",
+      "target": "product",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacemeshos/product",
+      "target": "spacemesh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spacemeshos/product",
+      "target": "specs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:59:33.254451+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "This repo contains the Spacemesh product specifications and designs",
+    "fork": false,
+    "full_name": "spacemeshos/product",
+    "html_url": "https://github.com/spacemeshos/product",
+    "language": "CSS",
+    "pushed_at": "2023-12-12T22:16:38Z",
+    "stargazers_count": 19,
+    "topics": [
+      "product",
+      "spacemesh",
+      "specs"
+    ],
+    "updated_at": "2024-07-29T22:15:34Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This repo contains the Spacemesh product specifications and designs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "product"
+    },
+    {
+      "context_snippet": "This repo contains the Spacemesh product specifications and designs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spacemesh"
+    },
+    {
+      "context_snippet": "This repo contains the Spacemesh product specifications and designs",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specs"
+    }
+  ]
+}

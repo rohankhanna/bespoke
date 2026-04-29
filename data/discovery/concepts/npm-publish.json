@@ -1,7 +1,8 @@
 {
   "aliases": [
     "npm publish",
-    "npm-publish"
+    "npm-publish",
+    "Npm Publish"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -44,6 +45,42 @@
       "source_repo": "mockingbot/react-native-zip-archive",
       "status": "candidate-context",
       "text": "npm-publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lint-staged/lint-staged.sh",
+      "status": "candidate-context",
+      "text": "Run linters against Git staged files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lint-staged/lint-staged.sh",
+      "status": "candidate-context",
+      "text": "Npm Publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/hapi-error",
+      "status": "candidate-context",
+      "text": ":umbrella: Intercept errors in your Hapi Web App/API and send a *useful* message to the client OR redirect to the desired endpoint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/hapi-error",
+      "status": "candidate-context",
+      "text": "npm-publish"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate-context",
+      "text": "Backend for HTTP Observatory on MDN"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate-context",
+      "text": "npm publish"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +101,24 @@
       "source_repo": "mockingbot/react-native-zip-archive",
       "status": "candidate",
       "text": "npm-publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lint-staged/lint-staged.sh",
+      "status": "candidate",
+      "text": "Npm Publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/hapi-error",
+      "status": "candidate",
+      "text": "npm-publish"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mdn/mdn-http-observatory",
+      "status": "candidate",
+      "text": "npm publish"
     }
   ],
   "candidate_related_terms": [
@@ -125,11 +180,29 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/main.yml",
       "source_repo": "mockingbot/react-native-zip-archive"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/npm.yml",
+      "source_repo": "lint-staged/lint-staged.sh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "dwyl/hapi-error"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/npm-publish.yml",
+      "source_repo": "mdn/mdn-http-observatory"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

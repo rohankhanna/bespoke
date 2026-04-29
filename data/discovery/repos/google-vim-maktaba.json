@@ -1,0 +1,115 @@
+{
+  "components": [
+    {
+      "component": "Ilshidur/action-discord@0.3.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/vim-maktaba",
+      "target": "google/maktaba",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google/vim-maktaba",
+      "target": "google/glaive",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "google/vim-maktaba",
+      "target": "Ilshidur/action-discord@0.3.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord.yml",
+      "source_repo": "google/vim-maktaba",
+      "target": "notify-discord",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-maktaba",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "source_repo": "google/vim-maktaba",
+      "target": "run-tests",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:41:06.249173+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2480
+    },
+    {
+      "path": ".github/workflows/discord.yml",
+      "size": 388
+    },
+    {
+      "path": ".github/workflows/run-tests.yml",
+      "size": 1353
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Consistent Vimscript",
+    "fork": false,
+    "full_name": "google/vim-maktaba",
+    "html_url": "https://github.com/google/vim-maktaba",
+    "language": "Vim Script",
+    "pushed_at": "2023-03-21T11:14:43Z",
+    "stargazers_count": 587,
+    "topics": [
+      "vim"
+    ],
+    "updated_at": "2026-03-12T11:34:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/glaive",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/maktaba",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "notify-discord",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/discord.yml",
+      "term": "notify-discord"
+    },
+    {
+      "context_snippet": "run-tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/run-tests.yml",
+      "term": "run-tests"
+    }
+  ]
+}

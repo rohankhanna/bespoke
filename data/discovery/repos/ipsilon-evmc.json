@@ -5,6 +5,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ipsilon/evmc",
+      "target": "ethereum/evmjit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ipsilon/evmc",
       "target": "axic/daytona",
       "target_type": "repository"
     },
@@ -19,14 +26,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "ipsilon/evmc",
-      "target": "ethereum/aleth",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "ipsilon/evmc",
-      "target": "etclabscore/core-geth",
+      "target": "ethereum/evmc",
       "target_type": "repository"
     },
     {
@@ -86,7 +86,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:59:01.153768+00:00",
+  "fetched_at": "2026-04-29T19:47:50.944837+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -111,7 +111,7 @@
     "html_url": "https://github.com/ipsilon/evmc",
     "language": "C",
     "pushed_at": "2026-04-07T21:15:27Z",
-    "stargazers_count": 379,
+    "stargazers_count": 380,
     "topics": [
       "c",
       "cpp",
@@ -125,7 +125,7 @@
       "rust",
       "wasm"
     ],
-    "updated_at": "2026-04-23T23:42:46Z"
+    "updated_at": "2026-04-25T07:52:32Z"
   },
   "repo_links": [
     {
@@ -140,12 +140,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "etclabscore/core-geth",
+      "full_name": "ethereum/evmc",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "ethereum/aleth",
+      "full_name": "ethereum/evmjit",
       "source_file": "README.md"
     }
   ],

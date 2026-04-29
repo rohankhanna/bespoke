@@ -1,0 +1,121 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zisianw/FaceBoxes.PyTorch",
+      "target": "sfzhang15/faceboxes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zisianw/FaceBoxes.PyTorch",
+      "target": "sfzhang15/face-eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zisianw/FaceBoxes.PyTorch",
+      "target": "amdegroot/ssd.pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zisianw/FaceBoxes.PyTorch",
+      "target": "ruinmessi/rfbnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zisianw/FaceBoxes.PyTorch",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zisianw/FaceBoxes.PyTorch",
+      "target": "faceboxes",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zisianw/FaceBoxes.PyTorch",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:38:24.318374+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3410
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch Implementation of FaceBoxes",
+    "fork": false,
+    "full_name": "zisianw/FaceBoxes.PyTorch",
+    "html_url": "https://github.com/zisianw/FaceBoxes.PyTorch",
+    "language": "Python",
+    "pushed_at": "2024-12-11T02:53:22Z",
+    "stargazers_count": 854,
+    "topics": [
+      "face-detection",
+      "faceboxes",
+      "pytorch"
+    ],
+    "updated_at": "2026-04-20T09:04:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "amdegroot/ssd.pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ruinmessi/rfbnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sfzhang15/face-eval",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sfzhang15/faceboxes",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "faceboxes"
+    },
+    {
+      "context_snippet": "[![License](https://img.shields.io/badge/license-BSD-blue.svg)](LICENSE)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

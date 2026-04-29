@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T03:50:57.229967+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "inline-code",
@@ -51,6 +51,21 @@
       "discovered_via": "repo-topic",
       "source_file": null,
       "source_repo": "Kong/deck"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "source_file": null,
+      "source_repo": "locize/locize-cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "neovim/libvterm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/sync.yml",
+      "source_repo": "ipfs/github-mgmt"
     }
   ],
   "term": "sync"

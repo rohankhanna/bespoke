@@ -4,28 +4,28 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "notify-rs/notify",
-      "target": "frewsxcv/alert-after",
+      "target": "paulmillr/chokidar",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "notify-rs/notify",
-      "target": "cobalt-org/cobalt.rs",
+      "target": "jwilm/alacritty",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "notify-rs/notify",
-      "target": "francesca64/hotwatch",
+      "target": "passcod/cargo-watch",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "notify-rs/notify",
-      "target": "hoodie/notify-rust",
+      "target": "mattgreen/watchexec",
       "target_type": "repository"
     },
     {
@@ -46,7 +46,7 @@
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/ci.yml",
       "source_repo": "notify-rs/notify",
-      "target": "taiki-e/install-action@7a4939c09608b2a1986b484eca1d16fd0db8ebef",
+      "target": "taiki-e/install-action@cf525cb33f51aca27cd6fa02034117ab963ff9f1",
       "target_type": "component"
     },
     {
@@ -106,6 +106,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "notify-rs/notify"
 }

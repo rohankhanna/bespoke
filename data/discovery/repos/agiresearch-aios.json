@@ -1,0 +1,210 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@0.12.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ollama.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ollama.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ollama.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-qdrant.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-qdrant.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agiresearch/AIOS",
+      "target": "agiresearch/cerebrum",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agiresearch/AIOS",
+      "target": "agiresearch/litecua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agiresearch/AIOS",
+      "target": "agiresearch/a-mem",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "agiresearch/AIOS",
+      "target": "agiresearch/aios-lsfs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cancel-workflow.yml",
+      "source_repo": "agiresearch/AIOS",
+      "target": "styfle/cancel-workflow-action@0.12.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel-workflow.yml",
+      "source_repo": "agiresearch/AIOS",
+      "target": "Cancel PR Workflows on Merge",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ollama.yml",
+      "source_repo": "agiresearch/AIOS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ollama.yml",
+      "source_repo": "agiresearch/AIOS",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-ollama.yml",
+      "source_repo": "agiresearch/AIOS",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-ollama.yml",
+      "source_repo": "agiresearch/AIOS",
+      "target": "Test Ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-qdrant.yml",
+      "source_repo": "agiresearch/AIOS",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test-qdrant.yml",
+      "source_repo": "agiresearch/AIOS",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-qdrant.yml",
+      "source_repo": "agiresearch/AIOS",
+      "target": "Test Qdrant Integration",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:44:22.721317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 24668
+    },
+    {
+      "path": "Dockerfile",
+      "size": 323
+    },
+    {
+      "path": "requirements.txt",
+      "size": 784
+    },
+    {
+      "path": ".github/workflows/cancel-workflow.yml",
+      "size": 757
+    },
+    {
+      "path": ".github/workflows/test-ollama.yml",
+      "size": 2587
+    },
+    {
+      "path": ".github/workflows/test-qdrant.yml",
+      "size": 1334
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "AIOS: AI Agent Operating System",
+    "fork": false,
+    "full_name": "agiresearch/AIOS",
+    "html_url": "https://github.com/agiresearch/AIOS",
+    "language": "Python",
+    "pushed_at": "2026-04-23T20:25:05Z",
+    "stargazers_count": 5584,
+    "topics": [],
+    "updated_at": "2026-04-29T07:27:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agiresearch/a-mem",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agiresearch/aios-lsfs",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agiresearch/cerebrum",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agiresearch/litecua",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Cancel PR Workflows on Merge",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cancel-workflow.yml",
+      "term": "Cancel PR Workflows on Merge"
+    },
+    {
+      "context_snippet": "Test Ollama",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-ollama.yml",
+      "term": "Test Ollama"
+    },
+    {
+      "context_snippet": "Test Qdrant Integration",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test-qdrant.yml",
+      "term": "Test Qdrant Integration"
+    }
+  ]
+}

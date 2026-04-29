@@ -1,0 +1,380 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "detectrecog/ccpd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "fudanvi/benchmarking-chinese-text-recognition",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "cs-chan/total-text-dataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "ibm-aur-nlp/publaynet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "pre-commit/action@v3.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "crnn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "dbnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "key-information-extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "layout-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "layoutxlm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "mindspore",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "ocr-large-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "table-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "tablemaster",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "text-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "text-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr",
+      "target": "vary-toy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:40:23.359765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 22004
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 370
+    },
+    {
+      "path": "requirements.txt",
+      "size": 418
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1768
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 839
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 899
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A toolbox of ocr models and algorithms based on MindSpore",
+    "fork": false,
+    "full_name": "mindspore-lab/mindocr",
+    "html_url": "https://github.com/mindspore-lab/mindocr",
+    "language": "Python",
+    "pushed_at": "2025-07-24T10:02:36Z",
+    "stargazers_count": 298,
+    "topics": [
+      "crnn",
+      "dbnet",
+      "deep-learning",
+      "key-information-extraction",
+      "layout-analysis",
+      "layoutxlm",
+      "mindspore",
+      "ocr",
+      "ocr-large-model",
+      "table-recognition",
+      "tablemaster",
+      "text-detection",
+      "text-recognition",
+      "vary-toy"
+    ],
+    "updated_at": "2026-03-19T06:53:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cs-chan/total-text-dataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "detectrecog/ccpd",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fudanvi/benchmarking-chinese-text-recognition",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibm-aur-nlp/publaynet",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "<!--start-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crnn"
+    },
+    {
+      "context_snippet": "<!--start-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dbnet"
+    },
+    {
+      "context_snippet": "<!--start-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "<!--start-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "key-information-extraction"
+    },
+    {
+      "context_snippet": "<!--start-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "layout-analysis"
+    },
+    {
+      "context_snippet": "<!--start-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "layoutxlm"
+    },
+    {
+      "context_snippet": "<!--start-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mindspore"
+    },
+    {
+      "context_snippet": "<!--start-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ocr-large-model"
+    },
+    {
+      "context_snippet": "<!--start-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "table-recognition"
+    },
+    {
+      "context_snippet": "<!--start-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tablemaster"
+    },
+    {
+      "context_snippet": "<!--start-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-detection"
+    },
+    {
+      "context_snippet": "<!--start-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-recognition"
+    },
+    {
+      "context_snippet": "<!--start-->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vary-toy"
+    }
+  ]
+}

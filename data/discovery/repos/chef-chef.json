@@ -1,0 +1,525 @@
+{
+  "components": [
+    {
+      "component": "wechuli/allcheckspassed@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/allchecks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chronoguard.yml"
+    },
+    {
+      "component": "jaymzh/chronoguard@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chronoguard.yml"
+    },
+    {
+      "component": "chef/common-github-actions/.github/workflows/ci-main-pull-request.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-main-pull-request-stub.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml"
+    },
+    {
+      "component": "danger/danger-js@13.0.5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml"
+    },
+    {
+      "component": "tim-actions/get-pr-commits@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml"
+    },
+    {
+      "component": "tim-actions/dco@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/func_spec.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/func_spec.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/func_spec.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/func_spec.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/func_spec.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/func_spec.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/func_spec.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_tests.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_tests.yml"
+    },
+    {
+      "component": "chef/chef/.github/workflows/workflow-change-guard.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml"
+    },
+    {
+      "component": "actionshub/chef-install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml"
+    },
+    {
+      "component": "actionshub/chef-install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml"
+    },
+    {
+      "component": "actionshub/chef-install@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chef/chef",
+      "target": "chef/chef-oss-practices",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/allchecks.yml",
+      "source_repo": "chef/chef",
+      "target": "wechuli/allcheckspassed@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/allchecks.yml",
+      "source_repo": "chef/chef",
+      "target": "All checks pass",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chronoguard.yml",
+      "source_repo": "chef/chef",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chronoguard.yml",
+      "source_repo": "chef/chef",
+      "target": "jaymzh/chronoguard@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chronoguard.yml",
+      "source_repo": "chef/chef",
+      "target": "Chronoguard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-main-pull-request-stub.yml",
+      "source_repo": "chef/chef",
+      "target": "chef/common-github-actions/.github/workflows/ci-main-pull-request.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "chef/chef",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "chef/chef",
+      "target": "danger/danger-js@13.0.5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "chef/chef",
+      "target": "danger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "chef/chef",
+      "target": "tim-actions/get-pr-commits@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "chef/chef",
+      "target": "tim-actions/dco@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yml",
+      "source_repo": "chef/chef",
+      "target": "DCO Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/func_spec.yml",
+      "source_repo": "chef/chef",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/func_spec.yml",
+      "source_repo": "chef/chef",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_tests.yml",
+      "source_repo": "chef/chef",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/gem_tests.yml",
+      "source_repo": "chef/chef",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml",
+      "source_repo": "chef/chef",
+      "target": "chef/chef/.github/workflows/workflow-change-guard.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml",
+      "source_repo": "chef/chef",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml",
+      "source_repo": "chef/chef",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/kitchen.yml",
+      "source_repo": "chef/chef",
+      "target": "actionshub/chef-install@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kitchen.yml",
+      "source_repo": "chef/chef",
+      "target": "kitchen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/chef",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/chef",
+      "target": "cfgmgt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/chef",
+      "target": "chef",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/chef",
+      "target": "deployment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/chef",
+      "target": "devops",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/chef",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "chef/chef",
+      "target": "infrastructure",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:47:30.144638+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4184
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1912
+    },
+    {
+      "path": ".github/workflows/allchecks.yml",
+      "size": 513
+    },
+    {
+      "path": ".github/workflows/chronoguard.yml",
+      "size": 384
+    },
+    {
+      "path": ".github/workflows/ci-main-pull-request-stub.yml",
+      "size": 5947
+    },
+    {
+      "path": ".github/workflows/danger.yml",
+      "size": 714
+    },
+    {
+      "path": ".github/workflows/dco.yml",
+      "size": 483
+    },
+    {
+      "path": ".github/workflows/func_spec.yml",
+      "size": 6254
+    },
+    {
+      "path": ".github/workflows/gem_tests.yml",
+      "size": 3284
+    },
+    {
+      "path": ".github/workflows/kitchen.yml",
+      "size": 16627
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Chef Infra, a powerful automation platform that transforms infrastructure into code automating how infrastructure is configured, deployed and managed across any environment, at any scale",
+    "fork": false,
+    "full_name": "chef/chef",
+    "html_url": "https://github.com/chef/chef",
+    "language": "Ruby",
+    "pushed_at": "2026-04-29T19:44:00Z",
+    "stargazers_count": 8197,
+    "topics": [
+      "automation",
+      "cfgmgt",
+      "chef",
+      "deployment",
+      "devops",
+      "hacktoberfest",
+      "infrastructure"
+    ],
+    "updated_at": "2026-04-29T15:49:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chef/chef-oss-practices",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "All checks pass",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/allchecks.yml",
+      "term": "All checks pass"
+    },
+    {
+      "context_snippet": "Chronoguard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chronoguard.yml",
+      "term": "Chronoguard"
+    },
+    {
+      "context_snippet": "danger",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/danger.yml",
+      "term": "danger"
+    },
+    {
+      "context_snippet": "DCO Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dco.yml",
+      "term": "DCO Check"
+    },
+    {
+      "context_snippet": "kitchen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/kitchen.yml",
+      "term": "kitchen"
+    },
+    {
+      "context_snippet": "[![Build Status](https://badge.buildkite.com/c82093430ceec7d27af05febb9dcafe3aa331fff9d74c0ab9d.svg?branch=main)](https://buildkite.com/chef-oss/chef-chef-main-verify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "[![Build Status](https://badge.buildkite.com/c82093430ceec7d27af05febb9dcafe3aa331fff9d74c0ab9d.svg?branch=main)](https://buildkite.com/chef-oss/chef-chef-main-verify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cfgmgt"
+    },
+    {
+      "context_snippet": "[![Build Status](https://badge.buildkite.com/c82093430ceec7d27af05febb9dcafe3aa331fff9d74c0ab9d.svg?branch=main)](https://buildkite.com/chef-oss/chef-chef-main-verify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chef"
+    },
+    {
+      "context_snippet": "[![Build Status](https://badge.buildkite.com/c82093430ceec7d27af05febb9dcafe3aa331fff9d74c0ab9d.svg?branch=main)](https://buildkite.com/chef-oss/chef-chef-main-verify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deployment"
+    },
+    {
+      "context_snippet": "[![Build Status](https://badge.buildkite.com/c82093430ceec7d27af05febb9dcafe3aa331fff9d74c0ab9d.svg?branch=main)](https://buildkite.com/chef-oss/chef-chef-main-verify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "devops"
+    },
+    {
+      "context_snippet": "[![Build Status](https://badge.buildkite.com/c82093430ceec7d27af05febb9dcafe3aa331fff9d74c0ab9d.svg?branch=main)](https://buildkite.com/chef-oss/chef-chef-main-verify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Build Status](https://badge.buildkite.com/c82093430ceec7d27af05febb9dcafe3aa331fff9d74c0ab9d.svg?branch=main)](https://buildkite.com/chef-oss/chef-chef-main-verify)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "infrastructure"
+    }
+  ]
+}

@@ -1,0 +1,76 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/UniAnimate",
+      "target": "dance-generation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/UniAnimate",
+      "target": "human-image-animation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ali-vilab/UniAnimate",
+      "target": "video-generation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:41.445354+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17902
+    },
+    {
+      "path": "requirements.txt",
+      "size": 4052
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for SCIS-2025 Paper \"UniAnimate: Taming Unified Video Di\ufb00usion Models for Consistent Human Image Animation\".",
+    "fork": false,
+    "full_name": "ali-vilab/UniAnimate",
+    "html_url": "https://github.com/ali-vilab/UniAnimate",
+    "language": "Python",
+    "pushed_at": "2025-04-15T03:52:14Z",
+    "stargazers_count": 1190,
+    "topics": [
+      "dance-generation",
+      "human-image-animation",
+      "video-generation"
+    ],
+    "updated_at": "2026-04-29T09:05:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "<!-- main documents -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dance-generation"
+    },
+    {
+      "context_snippet": "<!-- main documents -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-image-animation"
+    },
+    {
+      "context_snippet": "<!-- main documents -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "video-generation"
+    }
+  ]
+}

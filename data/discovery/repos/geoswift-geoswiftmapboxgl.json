@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "GEOSwift/GEOSwiftMapboxGL",
+      "target": "geoswift/geoswiftmapboxmaps",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:58:58.042203+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4279
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "MapboxGL support for GEOSwift",
+    "fork": false,
+    "full_name": "GEOSwift/GEOSwiftMapboxGL",
+    "html_url": "https://github.com/GEOSwift/GEOSwiftMapboxGL",
+    "language": "Swift",
+    "pushed_at": "2024-10-07T14:36:30Z",
+    "stargazers_count": 22,
+    "topics": [],
+    "updated_at": "2025-06-30T20:31:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "geoswift/geoswiftmapboxmaps",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

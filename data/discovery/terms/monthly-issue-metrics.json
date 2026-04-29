@@ -1,11 +1,16 @@
 {
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/issue-metrics.yml",
       "source_repo": "a2aproject/A2A"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/issue-metrics.yml",
+      "source_repo": "Azure/azure-powershell"
     }
   ],
   "term": "Monthly issue metrics"

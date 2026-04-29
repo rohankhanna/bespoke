@@ -1,0 +1,55 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "fannovel16/comfyui_controlnet_aux",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "cubiq/comfyui_ipadapter_plus",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "fizzledorf/comfyui_fizznodes",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "exponentialml/animatediff-motiondirector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "Comfy-Org/publish-node-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved",
+      "target": "Publish to Comfy registry",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "Kosinkadink/ComfyUI-AnimateDiff-Evolved"
+}

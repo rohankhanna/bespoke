@@ -1,0 +1,72 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akbartus/MobileSAM-in-the-Browser",
+      "target": "vietanhdev/samexporter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akbartus/MobileSAM-in-the-Browser",
+      "target": "mobilesam",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akbartus/MobileSAM-in-the-Browser",
+      "target": "segmentation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:12.879545+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1495
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Demonstration of MobileSAM in the browser enabled through ONNX runtime web",
+    "fork": false,
+    "full_name": "akbartus/MobileSAM-in-the-Browser",
+    "html_url": "https://github.com/akbartus/MobileSAM-in-the-Browser",
+    "language": "JavaScript",
+    "pushed_at": "2025-06-16T16:52:27Z",
+    "stargazers_count": 130,
+    "topics": [
+      "mobilesam",
+      "sam",
+      "segmentation"
+    ],
+    "updated_at": "2026-04-14T03:24:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vietanhdev/samexporter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"img/screenshot.gif\" title=\"Video screen capture\" alt=\"Video screen capture\" height=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilesam"
+    },
+    {
+      "context_snippet": "<img src=\"img/screenshot.gif\" title=\"Video screen capture\" alt=\"Video screen capture\" height=\"400\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "segmentation"
+    }
+  ]
+}

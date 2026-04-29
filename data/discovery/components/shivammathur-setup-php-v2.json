@@ -1,7 +1,7 @@
 {
   "component": "shivammathur/setup-php@v2",
   "first_seen_at": "2026-04-18T09:22:19.136418+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,41 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/unit_tests.yaml",
       "source_repo": "distantmagic/resonance"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mian.yml",
+      "source_repo": "dixyes/ghactionsplay"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-assets.yml",
+      "source_repo": "php/pie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/continuous-integration.yml",
+      "source_repo": "php/pie"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "alecrabbit/php-wcwidth"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "scssphp/scssphp"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client-services"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hosted.yml",
+      "source_repo": "antlr/antlr4"
     }
   ]
 }

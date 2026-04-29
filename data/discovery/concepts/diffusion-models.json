@@ -223,6 +223,114 @@
       "source_repo": "finegrain-ai/refiners",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "status": "candidate-context",
+      "text": "[ECCV 2022] Compositional Generation using Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "status": "candidate-context",
+      "text": "[![][colab]][composable-demo] [![][huggingface]][huggingface-demo]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate-context",
+      "text": "A unified inference and post-training framework for accelerated video generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "albarji/mixture-of-diffusers",
+      "status": "candidate-context",
+      "text": "Mixture of Diffusers for scene composition and high resolution image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albarji/mixture-of-diffusers",
+      "status": "candidate-context",
+      "text": "![2022-10-12 15_35_27 305133_A charming house in the countryside, by jakub rozalski, sunset lighting, elegant, highly detailed, s_640x640_schelms_seed7178915308_gc8_steps50](https://user-images.githubusercontent.com/9654655/195362341-bc7766c2-f5c6-40f2-b457-59277aa11027.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jolibrain/joliGEN",
+      "status": "candidate-context",
+      "text": "Generative AI Image and Video Toolset with GANs and Diffusion for Real-World Applications"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/joliGEN",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "declare-lab/tango",
+      "status": "candidate-context",
+      "text": "A family of diffusion models for text-to-audio generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/tango",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25If you enjoyed Tango, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ModelTC/LightX2V",
+      "status": "candidate-context",
+      "text": "Light Image Video Generation Inference Framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/LightX2V",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" style=\"font-family: charter;\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mit-han-lab/distrifuser",
+      "status": "candidate-context",
+      "text": "[CVPR 2024 Highlight] DistriFusion: Distributed Parallel Inference for High-Resolution Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/distrifuser",
+      "status": "candidate-context",
+      "text": "**[Dec 1, 2024]** DistriFusion is integrated in NVIDIA's [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/blob/main/examples/sdxl/README.md) for distributed inference on high-resolution image generation."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "[ICLR2025 Spotlight] SVDQuant: Absorbing Outliers by Low-Rank Components for 4-Bit Diffusion Models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate-context",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightricks/LTX-Video",
+      "status": "candidate-context",
+      "text": "Official repository for LTX-Video"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightricks/LTX-Video",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -331,6 +439,60 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "finegrain-ai/refiners",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch",
+      "status": "candidate",
+      "text": "[![][colab]][composable-demo] [![][huggingface]][huggingface-demo]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albarji/mixture-of-diffusers",
+      "status": "candidate",
+      "text": "![2022-10-12 15_35_27 305133_A charming house in the countryside, by jakub rozalski, sunset lighting, elegant, highly detailed, s_640x640_schelms_seed7178915308_gc8_steps50](https://user-images.githubusercontent.com/9654655/195362341-bc7766c2-f5c6-40f2-b457-59277aa11027.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jolibrain/joliGEN",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/tango",
+      "status": "candidate",
+      "text": "\ud83d\udd25If you enjoyed Tango, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ModelTC/LightX2V",
+      "status": "candidate",
+      "text": "<div align=\"center\" style=\"font-family: charter;\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mit-han-lab/distrifuser",
+      "status": "candidate",
+      "text": "**[Dec 1, 2024]** DistriFusion is integrated in NVIDIA's [TensorRT-LLM](https://github.com/NVIDIA/TensorRT-LLM/blob/main/examples/sdxl/README.md) for distributed inference on high-resolution image generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nunchaku-ai/nunchaku",
+      "status": "candidate",
+      "text": "<div align=\"center\" id=\"nunchaku_logo\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightricks/LTX-Video",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -466,11 +628,71 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "finegrain-ai/refiners"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "energy-based-model/Compositional-Visual-Generation-with-Composable-Diffusion-Models-PyTorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hao-ai-lab/FastVideo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "albarji/mixture-of-diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jolibrain/joliGEN"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/tango"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ModelTC/LightX2V"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mit-han-lab/distrifuser"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nunchaku-ai/nunchaku"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Lightricks/LTX-Video"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

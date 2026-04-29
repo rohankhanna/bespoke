@@ -46,6 +46,30 @@
       "source_repo": "XcodesOrg/homebrew-cask",
       "status": "candidate-context",
       "text": "Google Fonts"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "googlefonts/gftools",
+      "status": "candidate-context",
+      "text": "Misc tools for working with the Google Fonts library"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/gftools",
+      "status": "candidate-context",
+      "text": "[![CI Build Status](https://github.com/googlefonts/gftools/workflows/Test/badge.svg?branch=main)](https://github.com/googlefonts/gftools/actions/workflows/ci.yml?query=workflow%3ATest+branch%3Amain)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/homebrew-cask",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-cask",
+      "status": "candidate-context",
+      "text": "Google Fonts"
     }
   ],
   "candidate_glosses": [
@@ -64,6 +88,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "XcodesOrg/homebrew-cask",
+      "status": "candidate",
+      "text": "Google Fonts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "googlefonts/gftools",
+      "status": "candidate",
+      "text": "[![CI Build Status](https://github.com/googlefonts/gftools/workflows/Test/badge.svg?branch=main)](https://github.com/googlefonts/gftools/actions/workflows/ci.yml?query=workflow%3ATest+branch%3Amain)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-cask",
       "status": "candidate",
       "text": "Google Fonts"
     }
@@ -127,11 +163,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/google-fonts.yml",
       "source_repo": "XcodesOrg/homebrew-cask"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "googlefonts/gftools"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/google-fonts.yml",
+      "source_repo": "Homebrew/homebrew-cask"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -84,7 +84,7 @@
   "normalized_form": "close-stale-issues-and-prs",
   "observation_id": "30781d5bd86646b7",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Close stale issues and PRs",
   "source_context_snippet": "'Close stale issues and PRs'",
   "source_file": ".github/workflows/stale.yml",

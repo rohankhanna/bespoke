@@ -473,7 +473,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-18T13:15:55.404434+00:00",
+  "fetched_at": "2026-04-29T20:52:27.335451+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -516,18 +516,17 @@
       "size": 718
     }
   ],
-  "metadata_refreshed_at": "2026-04-19T14:03:51.412349+00:00",
   "related_repositories": [],
   "repo": {
     "archived": false,
     "default_branch": "main",
     "description": "aider is AI pair programming in your terminal",
     "fork": false,
-    "full_name": "aider-ai/aider",
+    "full_name": "Aider-AI/aider",
     "html_url": "https://github.com/Aider-AI/aider",
     "language": "Python",
-    "pushed_at": "2026-04-09T05:09:59Z",
-    "stargazers_count": 43560,
+    "pushed_at": "2026-04-25T16:44:33Z",
+    "stargazers_count": 44129,
     "topics": [
       "anthropic",
       "chatgpt",
@@ -543,96 +542,114 @@
       "openai",
       "sonnet"
     ],
-    "updated_at": "2026-04-19T14:01:51Z"
+    "updated_at": "2026-04-29T20:51:16Z"
   },
   "repo_links": [],
   "terms": [
     {
+      "context_snippet": "Check PyPI Version",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/check_pypi_version.yml",
       "term": "Check PyPI Version"
     },
     {
+      "context_snippet": "Docker Build Test",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docker-build-test.yml",
       "term": "Docker Build Test"
     },
     {
+      "context_snippet": "Docker Release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/docker-release.yml",
       "term": "Docker Release"
     },
     {
+      "context_snippet": "Process GitHub Issues",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/issues.yml",
       "term": "Process GitHub Issues"
     },
     {
+      "context_snippet": "Deploy Jekyll site to Pages",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/pages.yml",
       "term": "Deploy Jekyll site to Pages"
     },
     {
+      "context_snippet": "pre-commit",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/pre-commit.yml",
       "term": "pre-commit"
     },
     {
+      "context_snippet": "PyPI Release",
       "edge_type": "workflow-name",
       "source_file": ".github/workflows/release.yml",
       "term": "PyPI Release"
     },
     {
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "anthropic"
     },
     {
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "chatgpt"
     },
     {
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "claude-3"
     },
     {
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "command-line"
     },
     {
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gemini"
     },
     {
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gpt-3"
     },
     {
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gpt-35-turbo"
     },
     {
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gpt-4"
     },
     {
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "gpt-4o"
     },
     {
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "llama"
     },
     {
+      "context_snippet": "<p align=\"center\">",
       "edge_type": "repo-topic",
       "source_file": null,
       "term": "sonnet"

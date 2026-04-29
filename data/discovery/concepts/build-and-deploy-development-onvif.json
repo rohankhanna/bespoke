@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Build and deploy development onvif"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "5sControl/5s-onvif",
+      "status": "candidate-context",
+      "text": "Onvif processor of video streams and images for 5sControl platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-onvif",
+      "status": "candidate-context",
+      "text": "Build and deploy development onvif"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "5sControl/5s-onvif",
+      "status": "candidate",
+      "text": "Build and deploy development onvif"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26085,
+      "status": "candidate",
+      "text": "ectomorphic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25749,
+      "status": "candidate",
+      "text": "use"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24724,
+      "status": "candidate",
+      "text": "put"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24547,
+      "status": "candidate",
+      "text": "set"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 24522,
+      "status": "candidate",
+      "text": "marshal"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Build and deploy development onvif",
+  "concept_id": "build-and-deploy-development-onvif",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dev.yml",
+      "source_repo": "5sControl/5s-onvif"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build and deploy development onvif",
+      "sense_id": "build-and-deploy-development-onvif#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

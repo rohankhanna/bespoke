@@ -19,6 +19,18 @@
       "source_repo": "datatrash/mos",
       "status": "candidate-context",
       "text": "<img src=\"https://raw.githubusercontent.com/datatrash/mos/master/docs/src/.vuepress/public/mos.png\" align=\"right\" alt=\"MOS logo\" width=\"200\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Swordfish90/cool-retro-term",
+      "status": "candidate-context",
+      "text": "A good looking terminal emulator which mimics the old cathode display..."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Swordfish90/cool-retro-term",
+      "status": "candidate-context",
+      "text": "|> Default Amber|C:\\ IBM DOS|$ Default Green|"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "datatrash/mos",
       "status": "candidate",
       "text": "<img src=\"https://raw.githubusercontent.com/datatrash/mos/master/docs/src/.vuepress/public/mos.png\" align=\"right\" alt=\"MOS logo\" width=\"200\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Swordfish90/cool-retro-term",
+      "status": "candidate",
+      "text": "|> Default Amber|C:\\ IBM DOS|$ Default Green|"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "datatrash/mos"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Swordfish90/cool-retro-term"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

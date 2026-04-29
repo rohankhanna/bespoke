@@ -1,0 +1,115 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "microsoft/Cream",
+      "target": "microsoft/nni",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Cream",
+      "target": "automl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Cream",
+      "target": "efficiency",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Cream",
+      "target": "knowledge-distillation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Cream",
+      "target": "vision-transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "microsoft/Cream",
+      "target": "vit-compression",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:44:16.598635+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13033
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is a collection of our NAS and Vision Transformer work.",
+    "fork": false,
+    "full_name": "microsoft/Cream",
+    "html_url": "https://github.com/microsoft/Cream",
+    "language": "Python",
+    "pushed_at": "2024-07-25T10:29:15Z",
+    "stargazers_count": 1834,
+    "topics": [
+      "automl",
+      "efficiency",
+      "knowledge-distillation",
+      "nas",
+      "rpe",
+      "vision-transformer",
+      "vit-compression"
+    ],
+    "updated_at": "2026-04-23T11:38:55Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/nni",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "***This is a collection of our NAS and Vision Transformer work***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automl"
+    },
+    {
+      "context_snippet": "***This is a collection of our NAS and Vision Transformer work***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficiency"
+    },
+    {
+      "context_snippet": "***This is a collection of our NAS and Vision Transformer work***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "knowledge-distillation"
+    },
+    {
+      "context_snippet": "***This is a collection of our NAS and Vision Transformer work***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vision-transformer"
+    },
+    {
+      "context_snippet": "***This is a collection of our NAS and Vision Transformer work***",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vit-compression"
+    }
+  ]
+}

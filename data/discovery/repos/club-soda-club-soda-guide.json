@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "club-soda/club-soda-guide",
+      "target": "elm/compiler",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:58:19.653445+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 20030
+    },
+    {
+      "path": "Dockerfile",
+      "size": 623
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mindful Drinking Movement - Club Soda MVP 2.0",
+    "fork": false,
+    "full_name": "club-soda/club-soda-guide",
+    "html_url": "https://github.com/club-soda/club-soda-guide",
+    "language": "Elixir",
+    "pushed_at": "2022-11-29T10:48:31Z",
+    "stargazers_count": 17,
+    "topics": [],
+    "updated_at": "2023-09-01T08:53:54Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "elm/compiler",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": []
+}

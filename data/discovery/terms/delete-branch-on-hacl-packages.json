@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/hacl-packages-delete-branch.yml",
+      "source_repo": "hacl-star/hacl-star"
+    }
+  ],
+  "term": "Delete branch on hacl-packages"
+}

@@ -1,0 +1,62 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "ThrowTheSwitch/Unity",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ThrowTheSwitch/Unity",
+      "target": "unit-testing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:54.300311+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8309
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 860
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Simple unit testing for C",
+    "fork": false,
+    "full_name": "ThrowTheSwitch/Unity",
+    "html_url": "https://github.com/ThrowTheSwitch/Unity",
+    "language": "C",
+    "pushed_at": "2026-03-27T16:52:34Z",
+    "stargazers_count": 5178,
+    "topics": [
+      "c",
+      "unit-testing"
+    ],
+    "updated_at": "2026-04-29T13:19:24Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "__Copyright (c) 2007 - 2026 Unity Project by Mike Karlesky, Mark VanderVoord, and Greg Williams__",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unit-testing"
+    }
+  ]
+}

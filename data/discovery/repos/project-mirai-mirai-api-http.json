@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "project-mirai/mirai-api-http",
+      "target": "mamoe/mirai-api-http",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact.yml",
+      "source_repo": "project-mirai/mirai-api-http",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact.yml",
+      "source_repo": "project-mirai/mirai-api-http",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/artifact.yml",
+      "source_repo": "project-mirai/mirai-api-http",
+      "target": "actions/upload-artifact@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifact.yml",
+      "source_repo": "project-mirai/mirai-api-http",
+      "target": "Artifact",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "project-mirai/mirai-api-http",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "project-mirai/mirai-api-http",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "project-mirai/mirai-api-http",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "project-mirai/mirai-api-http",
+      "target": "peter-evans/create-pull-request@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "project-mirai/mirai-api-http",
+      "target": "Publish Mah",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:56.381904+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4685
+    },
+    {
+      "path": ".github/workflows/artifact.yml",
+      "size": 568
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 3207
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Mirai HTTP API (console) plugin",
+    "fork": false,
+    "full_name": "project-mirai/mirai-api-http",
+    "html_url": "https://github.com/project-mirai/mirai-api-http",
+    "language": "Kotlin",
+    "pushed_at": "2024-04-24T05:31:09Z",
+    "stargazers_count": 1669,
+    "topics": [],
+    "updated_at": "2026-04-21T04:12:33Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mamoe/mirai-api-http",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Artifact",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/artifact.yml",
+      "term": "Artifact"
+    },
+    {
+      "context_snippet": "Publish Mah",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Publish Mah"
+    }
+  ]
+}

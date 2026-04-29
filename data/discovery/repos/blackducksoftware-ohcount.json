@@ -1,0 +1,212 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    },
+    {
+      "component": "vapier/coverity-scan-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "blackducksoftware/ohcount",
+      "target": "sstephenson/ruby-build",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "blackducksoftware/ohcount",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "blackducksoftware/ohcount",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "blackducksoftware/ohcount",
+      "target": "CI Pipeline",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "blackducksoftware/ohcount",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "blackducksoftware/ohcount",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "blackducksoftware/ohcount",
+      "target": "vapier/coverity-scan-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "blackducksoftware/ohcount",
+      "target": "Coverity Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blackducksoftware/ohcount",
+      "target": "line-counter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blackducksoftware/ohcount",
+      "target": "ohcount",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blackducksoftware/ohcount",
+      "target": "ohloh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blackducksoftware/ohcount",
+      "target": "tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blackducksoftware/ohcount",
+      "target": "ubuntu",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:53:20.011653+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4957
+    },
+    {
+      "path": "Dockerfile",
+      "size": 838
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 499
+    },
+    {
+      "path": ".github/workflows/coverity.yml",
+      "size": 985
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The Ohloh source code line counter",
+    "fork": true,
+    "full_name": "blackducksoftware/ohcount",
+    "html_url": "https://github.com/blackducksoftware/ohcount",
+    "language": "Ragel",
+    "pushed_at": "2025-09-18T10:41:49Z",
+    "stargazers_count": 266,
+    "topics": [
+      "line-counter",
+      "ohcount",
+      "ohloh",
+      "tool",
+      "ubuntu"
+    ],
+    "updated_at": "2025-12-20T23:48:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sstephenson/ruby-build",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "CI Pipeline",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yml",
+      "term": "CI Pipeline"
+    },
+    {
+      "context_snippet": "Coverity Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/coverity.yml",
+      "term": "Coverity Scan"
+    },
+    {
+      "context_snippet": "![Coverity Scan Build](https://github.com/blackducksoftware/ohcount/actions/workflows/coverity.yml/badge.svg?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "line-counter"
+    },
+    {
+      "context_snippet": "![Coverity Scan Build](https://github.com/blackducksoftware/ohcount/actions/workflows/coverity.yml/badge.svg?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ohcount"
+    },
+    {
+      "context_snippet": "![Coverity Scan Build](https://github.com/blackducksoftware/ohcount/actions/workflows/coverity.yml/badge.svg?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ohloh"
+    },
+    {
+      "context_snippet": "![Coverity Scan Build](https://github.com/blackducksoftware/ohcount/actions/workflows/coverity.yml/badge.svg?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tool"
+    },
+    {
+      "context_snippet": "![Coverity Scan Build](https://github.com/blackducksoftware/ohcount/actions/workflows/coverity.yml/badge.svg?branch=main)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ubuntu"
+    }
+  ]
+}

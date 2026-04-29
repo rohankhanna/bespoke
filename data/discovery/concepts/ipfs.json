@@ -367,6 +367,54 @@
       "source_repo": "ipld/explore.ipld.io",
       "status": "candidate-context",
       "text": "> Explore the Merkle Forest from the comfort of your browser."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "filecoin-project/lotus",
+      "status": "candidate-context",
+      "text": "Reference implementation of the Filecoin protocol, written in Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/lotus",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/ipfs-check",
+      "status": "candidate-context",
+      "text": "A tool for checking the accessibility of your data by IPFS peers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-check",
+      "status": "candidate-context",
+      "text": "> Check if you can find your content on IPFS"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/nopfs",
+      "status": "candidate-context",
+      "text": "Say NO with NOpfs! NOpfs provides content-blocking-layer capabilities for IPFS (Kubo)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/nopfs",
+      "status": "candidate-context",
+      "text": "NOPfs helps IPFS to say No!"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs/js-ipfsd-ctl",
+      "status": "candidate-context",
+      "text": "Control an IPFS daemon (go-ipfs or js-ipfs) using JavaScript!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfsd-ctl",
+      "status": "candidate-context",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
     }
   ],
   "candidate_glosses": [
@@ -549,6 +597,30 @@
       "source_repo": "ipld/explore.ipld.io",
       "status": "candidate",
       "text": "> Explore the Merkle Forest from the comfort of your browser."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "filecoin-project/lotus",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/ipfs-check",
+      "status": "candidate",
+      "text": "> Check if you can find your content on IPFS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/nopfs",
+      "status": "candidate",
+      "text": "NOPfs helps IPFS to say No!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs/js-ipfsd-ctl",
+      "status": "candidate",
+      "text": "[![ipfs.tech](https://img.shields.io/badge/project-IPFS-blue.svg?style=flat-square)](https://ipfs.tech)"
     }
   ],
   "candidate_related_terms": [
@@ -820,11 +892,65 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "multiformats/cid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "filecoin-project/lotus"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-check"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipfs-shipyard/nopfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/js-ipfsd-ctl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-companion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipfs/ipfs-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipfs-shipyard/is-ipfs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipld/explore.ipld.io"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "multiformats/cid"
     }
   ],
   "first_seen_at": "2026-04-19T02:42:33.990002+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -43,6 +43,30 @@
       "source_repo": "reasoning-machines/pal",
       "status": "candidate-context",
       "text": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "reasoning-machines/prompt-lib",
+      "status": "candidate-context",
+      "text": "A set of utilities for running few-shot prompting experiments on large-language models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/prompt-lib",
+      "status": "candidate-context",
+      "text": "- A library for hassle-free few-shot prompting."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate-context",
+      "text": "The official repo for the extension of [NeurIPS'22] \"APT-36K: A Large-scale Benchmark for Animal Pose Estimation and Tracking\": https://github.com/pandorgan/APT-36K"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate-context",
+      "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "reasoning-machines/pal",
       "status": "candidate",
       "text": "Repo for the paper [PaL: Program-Aided Language Models](https://arxiv.org/pdf/2211.10435.pdf)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "reasoning-machines/prompt-lib",
+      "status": "candidate",
+      "text": "- A library for hassle-free few-shot prompting."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ViTAE-Transformer/APTv2",
+      "status": "candidate",
+      "text": "This repo is the official implementation of [\"APTv2: Benchmarking Animal Pose Estimation and Tracking with a Large-scale Dataset and Beyond\"](https://arxiv.org/pdf/2312.15612)."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +124,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/pal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "reasoning-machines/prompt-lib"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ViTAE-Transformer/APTv2"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

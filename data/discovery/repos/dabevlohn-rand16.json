@@ -1,0 +1,151 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dabevlohn/rand16",
+      "target": "tuananh/hyper-mcp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dabevlohn/rand16",
+      "target": "ghcr-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dabevlohn/rand16",
+      "target": "ghcr-io",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dabevlohn/rand16",
+      "target": "oci-image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dabevlohn/rand16",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dabevlohn/rand16",
+      "target": "rust",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dabevlohn/rand16",
+      "target": "wasm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dabevlohn/rand16",
+      "target": "webassembly",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:43:26.694260+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 251
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 271
+    },
+    {
+      "path": "Dockerfile",
+      "size": 382
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Yet another WASM plugin for Hyper-MCP",
+    "fork": false,
+    "full_name": "dabevlohn/rand16",
+    "html_url": "https://github.com/dabevlohn/rand16",
+    "language": "Rust",
+    "pushed_at": "2025-06-01T14:32:49Z",
+    "stargazers_count": 1,
+    "topics": [
+      "ai",
+      "ghcr-image",
+      "ghcr-io",
+      "mcp",
+      "oci-image",
+      "plugin",
+      "rust",
+      "wasm",
+      "webassembly"
+    ],
+    "updated_at": "2025-06-01T14:42:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tuananh/hyper-mcp",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghcr-image"
+    },
+    {
+      "context_snippet": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ghcr-io"
+    },
+    {
+      "context_snippet": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "oci-image"
+    },
+    {
+      "context_snippet": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "rust"
+    },
+    {
+      "context_snippet": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wasm"
+    },
+    {
+      "context_snippet": "A [hyper-mcp](https://github.com/tuananh/hyper-mcp) plugin that generates random 16 bytes and encodes to base64uri.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webassembly"
+    }
+  ]
+}

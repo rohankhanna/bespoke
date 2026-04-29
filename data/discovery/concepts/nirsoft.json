@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "nirsoft"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Bucket of almost all of the 280+ apps from Nirsoft.net. Migrated from MCOfficer/scoop-nirsoft with permission."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "status": "candidate-context",
+      "text": "[![update](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml/badge.svg)](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "status": "candidate",
+      "text": "[![update](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml/badge.svg)](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "nirsoft",
+  "concept_id": "nirsoft",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Nirsoft"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "nirsoft",
+      "sense_id": "nirsoft#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:51:39.437920+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1485
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "GLIDE: a diffusion-based text-conditional image synthesis model",
+    "fork": false,
+    "full_name": "openai/glide-text2im",
+    "html_url": "https://github.com/openai/glide-text2im",
+    "language": "Python",
+    "pushed_at": "2024-03-08T08:44:28Z",
+    "stargazers_count": 3692,
+    "topics": [],
+    "updated_at": "2026-04-18T15:14:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

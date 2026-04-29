@@ -355,6 +355,78 @@
       "source_repo": "Sanster/IOPaint",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">IOPaint</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xlite-dev/lite.ai.toolkit",
+      "status": "candidate-context",
+      "text": "\ud83d\udee0A lite C++ AI toolkit: 100+ models with MNN, ORT and TRT, including Det, Seg, Stable-Diffusion, Face-Fusion, etc.\ud83c\udf89"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/lite.ai.toolkit",
+      "status": "candidate-context",
+      "text": "<div id=\"lite.ai.toolkit-Introduction\"></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "continue-revolution/sd-webui-segment-anything",
+      "status": "candidate-context",
+      "text": "Segment Anything for Stable Diffusion WebUI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "continue-revolution/sd-webui-segment-anything",
+      "status": "candidate-context",
+      "text": "This extension aim for connecting [AUTOMATIC1111 Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) and [Mikubill ControlNet Extension](https://github.com/Mikubill/sd-webui-controlnet) with [segment anything](https://github.com/facebookresearch/segm\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ototadana/sd-face-editor",
+      "status": "candidate-context",
+      "text": "Face Editor for Stable Diffusion"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ototadana/sd-face-editor",
+      "status": "candidate-context",
+      "text": "Face Editor for Stable Diffusion. This Extension is useful for the following purposes:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "portu-sim/sd-webui-bmab",
+      "status": "candidate-context",
+      "text": "Auto masking and inpainting for person, face, hand. Resizing image using detection model."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "portu-sim/sd-webui-bmab",
+      "status": "candidate-context",
+      "text": "BMAB\ub294 Stable Diffusion WebUI\uc758 \ud655\uc7a5 \uae30\ub2a5\uc73c\ub85c, \uc0dd\uc131\ub41c \uc774\ubbf8\uc9c0\ub97c \uc124\uc815\uc5d0 \ub530\ub77c \ud6c4\ucc98\ub9ac\ud558\ub294 \uae30\ub2a5\uc744 \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "albarji/mixture-of-diffusers",
+      "status": "candidate-context",
+      "text": "Mixture of Diffusers for scene composition and high resolution image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albarji/mixture-of-diffusers",
+      "status": "candidate-context",
+      "text": "![2022-10-12 15_35_27 305133_A charming house in the countryside, by jakub rozalski, sunset lighting, elegant, highly detailed, s_640x640_schelms_seed7178915308_gc8_steps50](https://user-images.githubusercontent.com/9654655/195362341-bc7766c2-f5c6-40f2-b457-59277aa11027.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vladmandic/sdnext",
+      "status": "candidate-context",
+      "text": "SD.Next: All-in-one WebUI for AI generative image and video creation, captioning and processing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladmandic/sdnext",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -531,6 +603,42 @@
       "source_repo": "Sanster/IOPaint",
       "status": "candidate",
       "text": "<h1 align=\"center\">IOPaint</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xlite-dev/lite.ai.toolkit",
+      "status": "candidate",
+      "text": "<div id=\"lite.ai.toolkit-Introduction\"></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "continue-revolution/sd-webui-segment-anything",
+      "status": "candidate",
+      "text": "This extension aim for connecting [AUTOMATIC1111 Stable Diffusion WebUI](https://github.com/AUTOMATIC1111/stable-diffusion-webui) and [Mikubill ControlNet Extension](https://github.com/Mikubill/sd-webui-controlnet) with [segment anything](https://github.com/facebookresearch/segm\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ototadana/sd-face-editor",
+      "status": "candidate",
+      "text": "Face Editor for Stable Diffusion. This Extension is useful for the following purposes:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "portu-sim/sd-webui-bmab",
+      "status": "candidate",
+      "text": "BMAB\ub294 Stable Diffusion WebUI\uc758 \ud655\uc7a5 \uae30\ub2a5\uc73c\ub85c, \uc0dd\uc131\ub41c \uc774\ubbf8\uc9c0\ub97c \uc124\uc815\uc5d0 \ub530\ub77c \ud6c4\ucc98\ub9ac\ud558\ub294 \uae30\ub2a5\uc744 \uac00\uc9c0\uace0 \uc788\uc2b5\ub2c8\ub2e4."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "albarji/mixture-of-diffusers",
+      "status": "candidate",
+      "text": "![2022-10-12 15_35_27 305133_A charming house in the countryside, by jakub rozalski, sunset lighting, elegant, highly detailed, s_640x640_schelms_seed7178915308_gc8_steps50](https://user-images.githubusercontent.com/9654655/195362341-bc7766c2-f5c6-40f2-b457-59277aa11027.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vladmandic/sdnext",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [],
@@ -814,11 +922,77 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mudler/LocalAI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xlite-dev/lite.ai.toolkit"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/ComfyUI"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "continue-revolution/sd-webui-segment-anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ototadana/sd-face-editor"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "portu-sim/sd-webui-bmab"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jmsltnv/civitai-data-manager"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vercel/modelfusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "albarji/mixture-of-diffusers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vladmandic/sdnext"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

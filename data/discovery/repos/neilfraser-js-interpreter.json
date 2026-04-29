@@ -1,0 +1,59 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeilFraser/JS-Interpreter",
+      "target": "js-interpreter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "NeilFraser/JS-Interpreter",
+      "target": "sandbox",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:52:38.472131+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 483
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A sandboxed JavaScript interpreter in JavaScript.",
+    "fork": false,
+    "full_name": "NeilFraser/JS-Interpreter",
+    "html_url": "https://github.com/NeilFraser/JS-Interpreter",
+    "language": "JavaScript",
+    "pushed_at": "2025-03-12T12:16:34Z",
+    "stargazers_count": 2174,
+    "topics": [
+      "javascript",
+      "js-interpreter",
+      "sandbox"
+    ],
+    "updated_at": "2026-04-28T08:56:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "JS-Interpreter",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "js-interpreter"
+    },
+    {
+      "context_snippet": "JS-Interpreter",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sandbox"
+    }
+  ]
+}

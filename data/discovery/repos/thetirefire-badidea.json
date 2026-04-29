@@ -1,0 +1,79 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    },
+    {
+      "component": "actions/setup-go@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "thetirefire/badidea",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "thetirefire/badidea",
+      "target": "actions/setup-go@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "thetirefire/badidea",
+      "target": "For each commit and PR",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:38:29.955733+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1162
+    },
+    {
+      "path": "Dockerfile",
+      "size": 261
+    },
+    {
+      "path": "go.mod",
+      "size": 937
+    },
+    {
+      "path": ".github/workflows/ci.yaml",
+      "size": 339
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "thetirefire/badidea",
+    "html_url": "https://github.com/thetirefire/badidea",
+    "language": "Go",
+    "pushed_at": "2023-02-06T23:58:51Z",
+    "stargazers_count": 81,
+    "topics": [],
+    "updated_at": "2026-01-22T19:43:27Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "For each commit and PR",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci.yaml",
+      "term": "For each commit and PR"
+    }
+  ]
+}

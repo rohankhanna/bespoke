@@ -1,0 +1,200 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dataset.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_digit_completion.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_digit_completion_fire.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_gsm8k.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_gsm8k_megatron.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_lora.yml"
+    },
+    {
+      "component": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_sft.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ganler/code-r1",
+      "target": "newfacade/leetcodedataset",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ganler/code-r1",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "ganler/code-r1",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "ganler/code-r1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dataset.yml",
+      "source_repo": "ganler/code-r1",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_digit_completion.yml",
+      "source_repo": "ganler/code-r1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_digit_completion_fire.yml",
+      "source_repo": "ganler/code-r1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_gsm8k.yml",
+      "source_repo": "ganler/code-r1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_gsm8k_megatron.yml",
+      "source_repo": "ganler/code-r1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_lora.yml",
+      "source_repo": "ganler/code-r1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/e2e_sft.yml",
+      "source_repo": "ganler/code-r1",
+      "target": "actions/checkout@11bd71901bbe5b1630ceea73d27597364c9af683",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:48:38.755102+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5364
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 2388
+    },
+    {
+      "path": "requirements.txt",
+      "size": 280
+    },
+    {
+      "path": ".github/workflows/dataset.yml",
+      "size": 1053
+    },
+    {
+      "path": ".github/workflows/e2e_digit_completion.yml",
+      "size": 1306
+    },
+    {
+      "path": ".github/workflows/e2e_digit_completion_fire.yml",
+      "size": 1268
+    },
+    {
+      "path": ".github/workflows/e2e_gsm8k.yml",
+      "size": 2940
+    },
+    {
+      "path": ".github/workflows/e2e_gsm8k_megatron.yml",
+      "size": 1840
+    },
+    {
+      "path": ".github/workflows/e2e_lora.yml",
+      "size": 1391
+    },
+    {
+      "path": ".github/workflows/e2e_sft.yml",
+      "size": 1973
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reproducing R1 for Code with Reliable Rewards",
+    "fork": false,
+    "full_name": "ganler/code-r1",
+    "html_url": "https://github.com/ganler/code-r1",
+    "language": "Python",
+    "pushed_at": "2025-05-05T15:32:36Z",
+    "stargazers_count": 310,
+    "topics": [],
+    "updated_at": "2026-04-27T07:58:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "newfacade/leetcodedataset",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "dataset",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dataset.yml",
+      "term": "dataset"
+    }
+  ]
+}

@@ -1,0 +1,87 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes/k8s.io",
+      "target": "external-secrets/kubernetes-external-secrets",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "kubernetes/k8s.io",
+      "target": "google/triage-party",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/k8s.io",
+      "target": "k8s-sig-infra",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kubernetes/k8s.io",
+      "target": "kubernetes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:01:29.649828+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3454
+    },
+    {
+      "path": "requirements.txt",
+      "size": 28
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code and configuration to manage Kubernetes project infrastructure, including various *.k8s.io sites",
+    "fork": false,
+    "full_name": "kubernetes/k8s.io",
+    "html_url": "https://github.com/kubernetes/k8s.io",
+    "language": "HCL",
+    "pushed_at": "2026-04-29T10:03:24Z",
+    "stargazers_count": 947,
+    "topics": [
+      "k8s-sig-infra",
+      "kubernetes"
+    ],
+    "updated_at": "2026-04-29T10:03:29Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "external-secrets/kubernetes-external-secrets",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/triage-party",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Kubernetes project infrastructure, managed by the kubernetes community via [sig-k8s-infra]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "k8s-sig-infra"
+    },
+    {
+      "context_snippet": "Kubernetes project infrastructure, managed by the kubernetes community via [sig-k8s-infra]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kubernetes"
+    }
+  ]
+}

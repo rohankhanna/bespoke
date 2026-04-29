@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mundimark/awesome-markdown-alternatives",
+      "target": "senselogic/pendown",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:46:35.196573+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1496
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A collection of awesome light-weight markup markdown alternatives ",
+    "fork": false,
+    "full_name": "mundimark/awesome-markdown-alternatives",
+    "html_url": "https://github.com/mundimark/awesome-markdown-alternatives",
+    "language": null,
+    "pushed_at": "2024-04-21T15:17:21Z",
+    "stargazers_count": 100,
+    "topics": [],
+    "updated_at": "2026-04-28T21:20:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "senselogic/pendown",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

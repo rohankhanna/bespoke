@@ -80,6 +80,30 @@
       "source_repo": "googleapis/google-auth-library-java",
       "status": "candidate-context",
       "text": "downstream"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bokeh/bokeh",
+      "status": "candidate-context",
+      "text": "Interactive Data Visualization in the browser, from  Python"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokeh/bokeh",
+      "status": "candidate-context",
+      "text": "Downstream"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "html5lib/html5lib-tests",
+      "status": "candidate-context",
+      "text": "Testsuite data for html5lib, including the de-facto standard HTML parsing tests."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "html5lib/html5lib-tests",
+      "status": "candidate-context",
+      "text": "downstream"
     }
   ],
   "candidate_glosses": [
@@ -116,6 +140,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "googleapis/google-auth-library-java",
+      "status": "candidate",
+      "text": "downstream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bokeh/bokeh",
+      "status": "candidate",
+      "text": "Downstream"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "html5lib/html5lib-tests",
       "status": "candidate",
       "text": "downstream"
     }
@@ -205,11 +241,23 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/downstream.yaml",
       "source_repo": "googleapis/google-auth-library-java"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "bokeh/bokeh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/downstream.yml",
+      "source_repo": "html5lib/html5lib-tests"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

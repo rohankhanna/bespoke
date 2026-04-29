@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/vs15-ci.yml",
+      "source_repo": "lemire/fast_float"
+    }
+  ],
+  "term": "VS15-CI"
+}

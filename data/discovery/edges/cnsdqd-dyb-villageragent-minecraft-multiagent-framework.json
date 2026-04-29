@@ -1,0 +1,104 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "cnsdqd-dyb/villageragent",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "debug",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "minecraft-data",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "minecrafthawkeye",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "mineflayer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "mineflayer-collectblock",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "mineflayer-pathfinder",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "mineflayer-pvp",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "prismarine-viewer",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "socks5-client",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "vec3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "human-agent-interaction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "minecraft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework"
+}

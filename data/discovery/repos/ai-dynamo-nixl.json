@@ -1,0 +1,215 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_efa_validation.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "NVIDIA/blossom-action@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_validation.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-dynamo/nixl",
+      "target": "nvidia/gdrcopy",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-dynamo/nixl",
+      "target": "openucx/ucx",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ai-dynamo/nixl",
+      "target": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aws_efa_validation.yml",
+      "source_repo": "ai-dynamo/nixl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws_efa_validation.yml",
+      "source_repo": "ai-dynamo/nixl",
+      "target": "AWS NIXL Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "ai-dynamo/nixl",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "ai-dynamo/nixl",
+      "target": "NVIDIA/blossom-action@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "ai-dynamo/nixl",
+      "target": "Blossom-CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_validation.yml",
+      "source_repo": "ai-dynamo/nixl",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_validation.yml",
+      "source_repo": "ai-dynamo/nixl",
+      "target": "NVIDIA NIXL Validation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "ai-dynamo/nixl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "ai-dynamo/nixl",
+      "target": "Clang Format Check",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:49:47.216205+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12831
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1164
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1259
+    },
+    {
+      "path": "requirements.txt",
+      "size": 758
+    },
+    {
+      "path": ".github/workflows/aws_efa_validation.yml",
+      "size": 2546
+    },
+    {
+      "path": ".github/workflows/blossom-ci.yml",
+      "size": 2623
+    },
+    {
+      "path": ".github/workflows/build_validation.yml",
+      "size": 1271
+    },
+    {
+      "path": ".github/workflows/clang-format.yml",
+      "size": 860
+    },
+    {
+      "path": ".github/workflows/common.ps1",
+      "size": 13733
+    },
+    {
+      "path": ".github/workflows/copyright-check.sh",
+      "size": 2095
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "NVIDIA Inference Xfer Library (NIXL)",
+    "fork": false,
+    "full_name": "ai-dynamo/nixl",
+    "html_url": "https://github.com/ai-dynamo/nixl",
+    "language": "C++",
+    "pushed_at": "2026-04-29T17:14:10Z",
+    "stargazers_count": 1010,
+    "topics": [],
+    "updated_at": "2026-04-29T15:19:47Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "etcd-cpp-apiv3/etcd-cpp-apiv3",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/gdrcopy",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openucx/ucx",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "AWS NIXL Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aws_efa_validation.yml",
+      "term": "AWS NIXL Validation"
+    },
+    {
+      "context_snippet": "Blossom-CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "term": "Blossom-CI"
+    },
+    {
+      "context_snippet": "NVIDIA NIXL Validation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_validation.yml",
+      "term": "NVIDIA NIXL Validation"
+    },
+    {
+      "context_snippet": "Clang Format Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "term": "Clang Format Check"
+    }
+  ]
+}

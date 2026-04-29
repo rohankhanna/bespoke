@@ -1,0 +1,806 @@
+{
+  "components": [
+    {
+      "component": "bitwarden/android/.github/actions/log-inputs@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_version.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_version.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_version.yml"
+    },
+    {
+      "component": "bitwarden/android/.github/workflows/_version.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/azure-login@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/azure-logout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml"
+    },
+    {
+      "component": "bitwarden/android/.github/workflows/_version.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-testharness.yml"
+    },
+    {
+      "component": "bitwarden/android/.github/actions/log-inputs@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-testharness.yml"
+    },
+    {
+      "component": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-testharness.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-testharness.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-testharness.yml"
+    },
+    {
+      "component": "bitwarden/android/.github/workflows/_version.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/azure-login@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/azure-logout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/azure-login@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/azure-logout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-sync-google-priviledged-browsers.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/azure-login@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/azure-logout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml"
+    },
+    {
+      "component": "crowdin/github-action@0749939f635900a2521aa6aac7a3766642b2dc71",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/azure-login@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml"
+    },
+    {
+      "component": "crowdin/github-action@0749939f635900a2521aa6aac7a3766642b2dc71",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/azure-logout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/azure-login@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/azure-logout@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml"
+    },
+    {
+      "component": "bitwarden/gh-actions/.github/workflows/_publish-mobile-github-release.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-github-release-bwa.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitwarden/android",
+      "target": "bumptech/glide",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitwarden/android",
+      "target": "firebase/firebase-android-sdk",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitwarden/android",
+      "target": "detekt/detekt",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitwarden/android",
+      "target": "cashapp/turbine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_version.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/android/.github/actions/log-inputs@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_version.yml",
+      "source_repo": "bitwarden/android",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/_version.yml",
+      "source_repo": "bitwarden/android",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_version.yml",
+      "source_repo": "bitwarden/android",
+      "target": "Calculate Version Name and Number",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/android/.github/workflows/_version.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml",
+      "source_repo": "bitwarden/android",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/azure-login@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/azure-logout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-authenticator.yml",
+      "source_repo": "bitwarden/android",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-authenticator.yml",
+      "source_repo": "bitwarden/android",
+      "target": "Build Authenticator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-testharness.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/android/.github/workflows/_version.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-testharness.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/android/.github/actions/log-inputs@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-testharness.yml",
+      "source_repo": "bitwarden/android",
+      "target": "actions/checkout@8e8c483db84b4bee98b60c0593521ed34d9990e8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-testharness.yml",
+      "source_repo": "bitwarden/android",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-testharness.yml",
+      "source_repo": "bitwarden/android",
+      "target": "Build Test Harness",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/android/.github/workflows/_version.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bitwarden/android",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/azure-login@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/azure-logout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bitwarden/android",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "bitwarden/android",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cron-sync-google-priviledged-browsers.yml",
+      "source_repo": "bitwarden/android",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/android",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/azure-login@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/azure-logout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/android",
+      "target": "actions/create-github-app-token@f8d387b68d61c58ab83c6c016672934102569859",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-pull.yml",
+      "source_repo": "bitwarden/android",
+      "target": "crowdin/github-action@0749939f635900a2521aa6aac7a3766642b2dc71",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml",
+      "source_repo": "bitwarden/android",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/azure-login@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml",
+      "source_repo": "bitwarden/android",
+      "target": "crowdin/github-action@0749939f635900a2521aa6aac7a3766642b2dc71",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/crowdin-push.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/azure-logout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/android",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/azure-login@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/get-keyvault-secrets@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/azure-logout@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-release.yml",
+      "source_repo": "bitwarden/android",
+      "target": "Create GitHub Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-github-release-bwa.yml",
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden/gh-actions/.github/workflows/_publish-mobile-github-release.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-github-release-bwa.yml",
+      "source_repo": "bitwarden/android",
+      "target": "Publish Authenticator GitHub Release as newest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwarden/android",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwarden/android",
+      "target": "bitwarden",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwarden/android",
+      "target": "compose",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwarden/android",
+      "target": "jetpack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitwarden/android",
+      "target": "kotlin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:59:16.010066+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10753
+    },
+    {
+      "path": ".github/workflows/_version.yml",
+      "size": 6271
+    },
+    {
+      "path": ".github/workflows/build-authenticator.yml",
+      "size": 9809
+    },
+    {
+      "path": ".github/workflows/build-testharness.yml",
+      "size": 2717
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 21192
+    },
+    {
+      "path": ".github/workflows/cron-sync-google-priviledged-browsers.yml",
+      "size": 3821
+    },
+    {
+      "path": ".github/workflows/crowdin-pull.yml",
+      "size": 2983
+    },
+    {
+      "path": ".github/workflows/crowdin-push.yml",
+      "size": 1490
+    },
+    {
+      "path": ".github/workflows/github-release.yml",
+      "size": 12220
+    },
+    {
+      "path": ".github/workflows/publish-github-release-bwa.yml",
+      "size": 773
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Bitwarden mobile apps (Password Manager and Authenticator) for Android.",
+    "fork": false,
+    "full_name": "bitwarden/android",
+    "html_url": "https://github.com/bitwarden/android",
+    "language": "Kotlin",
+    "pushed_at": "2026-04-29T19:18:29Z",
+    "stargazers_count": 8747,
+    "topics": [
+      "android",
+      "bitwarden",
+      "compose",
+      "jetpack",
+      "kotlin"
+    ],
+    "updated_at": "2026-04-29T18:09:44Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bumptech/glide",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cashapp/turbine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "detekt/detekt",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "firebase/firebase-android-sdk",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Calculate Version Name and Number",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/_version.yml",
+      "term": "Calculate Version Name and Number"
+    },
+    {
+      "context_snippet": "Build Authenticator",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-authenticator.yml",
+      "term": "Build Authenticator"
+    },
+    {
+      "context_snippet": "Build Test Harness",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-testharness.yml",
+      "term": "Build Test Harness"
+    },
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "Create GitHub Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/github-release.yml",
+      "term": "Create GitHub Release"
+    },
+    {
+      "context_snippet": "Publish Authenticator GitHub Release as newest",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-github-release-bwa.yml",
+      "term": "Publish Authenticator GitHub Release as newest"
+    },
+    {
+      "context_snippet": "- [Compatibility](#compatibility)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "- [Compatibility](#compatibility)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitwarden"
+    },
+    {
+      "context_snippet": "- [Compatibility](#compatibility)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compose"
+    },
+    {
+      "context_snippet": "- [Compatibility](#compatibility)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jetpack"
+    },
+    {
+      "context_snippet": "- [Compatibility](#compatibility)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kotlin"
+    }
+  ]
+}

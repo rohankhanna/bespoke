@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Github mirror of official Kismet repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Ubuntu All No WEXT Build Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Ubuntu All No WEXT Build Test"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44968,
+      "status": "candidate",
+      "text": "nothing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44066,
+      "status": "candidate",
+      "text": "dead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42993,
+      "status": "candidate",
+      "text": "none"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42955,
+      "status": "candidate",
+      "text": "nil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42746,
+      "status": "candidate",
+      "text": "incommensurable"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ubuntu All No WEXT Build Test",
+      "sense_id": "ubuntu-all-no-wext-build-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "ubuntu-all-no-wext-build-test",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "ubuntu-all-no-wext-build-test",
+  "observation_id": "88d736c7cfed1ebe",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Ubuntu All No WEXT Build Test",
+  "source_context_snippet": "Ubuntu All No WEXT Build Test",
+  "source_file": ".github/workflows/ubuntu-all-no-wext-build.yaml",
+  "source_repo": "kismetwireless/kismet",
+  "source_repo_description": "Github mirror of official Kismet repository"
+}

@@ -1,7 +1,7 @@
 {
   "component": "azure/login@v1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,11 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/azure-login-integration-tests.yml",
       "source_repo": "Azure/login"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/azure.yml",
+      "source_repo": "redis-stack/redis-stack-cloudimages"
     }
   ]
 }

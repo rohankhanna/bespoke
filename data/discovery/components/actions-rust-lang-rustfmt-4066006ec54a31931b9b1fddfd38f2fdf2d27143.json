@@ -1,0 +1,12 @@
+{
+  "component": "actions-rust-lang/rustfmt@4066006ec54a31931b9b1fddfd38f2fdf2d27143",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/clippy-fmt.yml",
+      "source_repo": "actix/examples"
+    }
+  ]
+}

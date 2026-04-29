@@ -19,6 +19,18 @@
       "source_repo": "alvinliu0/HA2G",
       "status": "candidate-context",
       "text": "[Xian Liu](https://alvinliu0.github.io/), [Qianyi Wu](https://qianyiwu.github.io/), [Hang Zhou](https://hangz-nju-cuhk.github.io/), [Yinghao Xu](https://justimyhxu.github.io/), [Rui Qian](https://shvdiwnkozbw.github.io/), [Xinyi Lin](https://alvinliu0.github.io/), [Xiaowei Zhou]\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "status": "candidate-context",
+      "text": "This repository contains scripts to build Youtube Gesture Dataset."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "status": "candidate-context",
+      "text": "This repository contains scripts to build *Youtube Gesture Dataset*."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "alvinliu0/HA2G",
       "status": "candidate",
       "text": "[Xian Liu](https://alvinliu0.github.io/), [Qianyi Wu](https://qianyiwu.github.io/), [Hang Zhou](https://hangz-nju-cuhk.github.io/), [Yinghao Xu](https://justimyhxu.github.io/), [Rui Qian](https://shvdiwnkozbw.github.io/), [Xinyi Lin](https://alvinliu0.github.io/), [Xiaowei Zhou]\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset",
+      "status": "candidate",
+      "text": "This repository contains scripts to build *Youtube Gesture Dataset*."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "alvinliu0/HA2G"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "youngwoo-yoon/youtube-gesture-dataset"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

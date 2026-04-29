@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "hypertext"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "syntax-tree/hast",
+      "status": "candidate-context",
+      "text": "Hypertext Abstract Syntax Tree format"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/hast",
+      "status": "candidate-context",
+      "text": "hypertext abstract syntax tree"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "syntax-tree/hast",
+      "status": "candidate",
+      "text": "hypertext abstract syntax tree"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30028145,
+      "status": "candidate",
+      "text": "hyperlink"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29928330,
+      "status": "candidate",
+      "text": "extensible"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29853361,
+      "status": "candidate",
+      "text": "content"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20028207,
+      "status": "candidate",
+      "text": "hypermedia"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20028206,
+      "status": "candidate",
+      "text": "hyperinformation"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "hypertext",
+  "concept_id": "hypertext",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "syntax-tree/hast"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "hypertext",
+      "sense_id": "hypertext#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

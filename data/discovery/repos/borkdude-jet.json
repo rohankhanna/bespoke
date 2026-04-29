@@ -1,0 +1,165 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borkdude/jet",
+      "target": "cognitect/transit-format",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borkdude/jet",
+      "target": "littleli/scoop-clojure",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borkdude/jet",
+      "target": "redplanetlabs/specter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "borkdude/jet",
+      "target": "ericdallo/jet.el",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/jet",
+      "target": "clojure",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/jet",
+      "target": "converter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/jet",
+      "target": "graalvm",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/jet",
+      "target": "json",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/jet",
+      "target": "transit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "borkdude/jet",
+      "target": "yaml",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:58:44.941771+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "CLI to transform between JSON, EDN, YAML and Transit using Clojure",
+    "fork": false,
+    "full_name": "borkdude/jet",
+    "html_url": "https://github.com/borkdude/jet",
+    "language": "Clojure",
+    "pushed_at": "2024-10-03T17:03:58Z",
+    "stargazers_count": 727,
+    "topics": [
+      "cli",
+      "clojure",
+      "converter",
+      "edn",
+      "graalvm",
+      "json",
+      "transit",
+      "yaml"
+    ],
+    "updated_at": "2026-04-24T21:32:34Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cognitect/transit-format",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ericdallo/jet.el",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "littleli/scoop-clojure",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "redplanetlabs/specter",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clojure"
+    },
+    {
+      "context_snippet": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "converter"
+    },
+    {
+      "context_snippet": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "graalvm"
+    },
+    {
+      "context_snippet": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "json"
+    },
+    {
+      "context_snippet": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transit"
+    },
+    {
+      "context_snippet": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yaml"
+    }
+  ]
+}

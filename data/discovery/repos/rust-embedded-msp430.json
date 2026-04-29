@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "rust-embedded/msp430",
+      "target": "rust-embedded/critical-section",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:50:52.756326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2935
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 719
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Low level access to MSP430 microcontrollers",
+    "fork": false,
+    "full_name": "rust-embedded/msp430",
+    "html_url": "https://github.com/rust-embedded/msp430",
+    "language": "Rust",
+    "pushed_at": "2022-12-05T03:25:22Z",
+    "stargazers_count": 43,
+    "topics": [],
+    "updated_at": "2026-02-24T16:41:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "rust-embedded/critical-section",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

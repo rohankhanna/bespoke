@@ -47,13 +47,6 @@
       "target_type": "repository"
     },
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.rst",
-      "source_repo": "PyCQA/eradicate",
-      "target": "databrickslabs/pylint-plugin",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/test.yml",
       "source_repo": "PyCQA/eradicate",
@@ -75,7 +68,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:15:51.211272+00:00",
+  "fetched_at": "2026-04-29T19:42:56.672724+00:00",
   "fetched_files": [
     {
       "path": "README.rst",
@@ -101,11 +94,6 @@
     "updated_at": "2026-03-07T15:55:24Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "databrickslabs/pylint-plugin",
-      "source_file": "README.rst"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "myint/eradicate",

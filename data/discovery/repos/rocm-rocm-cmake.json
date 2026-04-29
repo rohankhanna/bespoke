@@ -1,0 +1,117 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@0.6.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "jwlawson/actions-setup-cmake@v1.9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ssciwr/doxygen-install@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ROCm/rocm-cmake",
+      "target": "styfle/cancel-workflow-action@0.6.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ROCm/rocm-cmake",
+      "target": "actions/checkout@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ROCm/rocm-cmake",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ROCm/rocm-cmake",
+      "target": "jwlawson/actions-setup-cmake@v1.9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ROCm/rocm-cmake",
+      "target": "ssciwr/doxygen-install@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "ROCm/rocm-cmake",
+      "target": "rocm-cmake",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:52:36.247418+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 504
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2286
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "CMake modules used within the ROCm libraries",
+    "fork": false,
+    "full_name": "ROCm/rocm-cmake",
+    "html_url": "https://github.com/ROCm/rocm-cmake",
+    "language": "CMake",
+    "pushed_at": "2026-04-23T20:00:08Z",
+    "stargazers_count": 74,
+    "topics": [],
+    "updated_at": "2026-04-17T13:54:20Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "rocm-cmake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "rocm-cmake"
+    }
+  ]
+}

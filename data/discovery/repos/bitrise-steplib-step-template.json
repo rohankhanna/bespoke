@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bitrise-steplib/step-template",
+      "target": "bitrise-core/bitrise-plugins-step",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:52:24.605810+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4736
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Step template - DEPRECATED, please use the `step` plugin and its built in template instead (https://github.com/bitrise-core/bitrise-plugins-step/tree/master/create/templates)",
+    "fork": false,
+    "full_name": "bitrise-steplib/step-template",
+    "html_url": "https://github.com/bitrise-steplib/step-template",
+    "language": "Shell",
+    "pushed_at": "2023-12-01T17:22:18Z",
+    "stargazers_count": 10,
+    "topics": [],
+    "updated_at": "2022-08-09T15:46:19Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bitrise-core/bitrise-plugins-step",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

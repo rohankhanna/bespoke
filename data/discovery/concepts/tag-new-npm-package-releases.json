@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Tag new npm package releases"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "status": "candidate-context",
+      "text": "Preload Environment Variables with Dotenv into Serverless"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "status": "candidate-context",
+      "text": "Tag new npm package releases"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin",
+      "status": "candidate",
+      "text": "Tag new npm package releases"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 46788,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44869,
+      "status": "candidate",
+      "text": "come"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37559,
+      "status": "candidate",
+      "text": "news"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37559,
+      "status": "candidate",
+      "text": "press"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 37418,
+      "status": "candidate",
+      "text": "developments"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Tag new npm package releases",
+  "concept_id": "tag-new-npm-package-releases",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tag-new-npm-package-releases-change.yml",
+      "source_repo": "neverendingqs/serverless-dotenv-plugin"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Tag new npm package releases",
+      "sense_id": "tag-new-npm-package-releases#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

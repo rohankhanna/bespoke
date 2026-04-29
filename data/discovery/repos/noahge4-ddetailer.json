@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "noahge4/ddetailer",
+      "target": "jerryli27/aniseg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:00.366908+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3589
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": true,
+    "full_name": "noahge4/ddetailer",
+    "html_url": "https://github.com/noahge4/ddetailer",
+    "language": "Python",
+    "pushed_at": "2023-03-21T10:41:42Z",
+    "stargazers_count": 4,
+    "topics": [],
+    "updated_at": "2024-08-15T19:58:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jerryli27/aniseg",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

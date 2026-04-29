@@ -1,12 +1,17 @@
 {
   "component": "chromaui/action@f191a0224b10e1a38b2091cefb7b7a2337009116",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/ci.yaml",
       "source_repo": "coder/coder"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/chromatic.yml",
+      "source_repo": "Arize-ai/phoenix"
     }
   ]
 }

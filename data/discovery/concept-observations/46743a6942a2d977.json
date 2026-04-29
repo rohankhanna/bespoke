@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Eclipse Corrosion - Rust edition in Eclipse IDE"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "eclipse-ide",
+      "sense_id": "eclipse-ide#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "eclipse-ide",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "eclipse-ide",
+  "observation_id": "46743a6942a2d977",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "eclipse-ide",
+  "source_context_snippet": "<img alt=\"logo\" src=\"./images/corrosionLogo.svg\" width=\"200px\"/>",
+  "source_file": null,
+  "source_repo": "eclipse-corrosion/corrosion",
+  "source_repo_description": "Eclipse Corrosion - Rust edition in Eclipse IDE"
+}

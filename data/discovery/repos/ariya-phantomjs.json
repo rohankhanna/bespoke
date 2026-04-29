@@ -1,0 +1,196 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_clang.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_gcc.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_clang.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_gcc.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codestyle.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i686_windows_gcc.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_clang.yml",
+      "source_repo": "ariya/phantomjs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_linux_gcc.yml",
+      "source_repo": "ariya/phantomjs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_clang.yml",
+      "source_repo": "ariya/phantomjs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amd64_windows_gcc.yml",
+      "source_repo": "ariya/phantomjs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codestyle.yml",
+      "source_repo": "ariya/phantomjs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codestyle.yml",
+      "source_repo": "ariya/phantomjs",
+      "target": "Code style",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/i686_windows_gcc.yml",
+      "source_repo": "ariya/phantomjs",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/phantomjs",
+      "target": "automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/phantomjs",
+      "target": "headless",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/phantomjs",
+      "target": "headless-browser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ariya/phantomjs",
+      "target": "phantomjs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:45:27.337852+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2238
+    },
+    {
+      "path": ".github/workflows/amd64_linux_clang.yml",
+      "size": 567
+    },
+    {
+      "path": ".github/workflows/amd64_linux_gcc.yml",
+      "size": 537
+    },
+    {
+      "path": ".github/workflows/amd64_windows_clang.yml",
+      "size": 956
+    },
+    {
+      "path": ".github/workflows/amd64_windows_gcc.yml",
+      "size": 931
+    },
+    {
+      "path": ".github/workflows/codestyle.yml",
+      "size": 426
+    },
+    {
+      "path": ".github/workflows/i686_windows_gcc.yml",
+      "size": 948
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Scriptable Headless Browser",
+    "fork": false,
+    "full_name": "ariya/phantomjs",
+    "html_url": "https://github.com/ariya/phantomjs",
+    "language": "C++",
+    "pushed_at": "2022-11-26T19:43:12Z",
+    "stargazers_count": 29485,
+    "topics": [
+      "automation",
+      "headless",
+      "headless-browser",
+      "phantomjs"
+    ],
+    "updated_at": "2026-04-28T10:45:35Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Code style",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codestyle.yml",
+      "term": "Code style"
+    },
+    {
+      "context_snippet": "PhantomJS ([phantomjs.org](http://phantomjs.org)) is a headless WebKit scriptable with JavaScript. The latest [stable release](http://phantomjs.org/release-2.1.html) is version 2.1.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "automation"
+    },
+    {
+      "context_snippet": "PhantomJS ([phantomjs.org](http://phantomjs.org)) is a headless WebKit scriptable with JavaScript. The latest [stable release](http://phantomjs.org/release-2.1.html) is version 2.1.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "headless"
+    },
+    {
+      "context_snippet": "PhantomJS ([phantomjs.org](http://phantomjs.org)) is a headless WebKit scriptable with JavaScript. The latest [stable release](http://phantomjs.org/release-2.1.html) is version 2.1.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "headless-browser"
+    },
+    {
+      "context_snippet": "PhantomJS ([phantomjs.org](http://phantomjs.org)) is a headless WebKit scriptable with JavaScript. The latest [stable release](http://phantomjs.org/release-2.1.html) is version 2.1.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "phantomjs"
+    }
+  ]
+}

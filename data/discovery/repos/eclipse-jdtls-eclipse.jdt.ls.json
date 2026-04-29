@@ -67,7 +67,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "eclipse-jdtls/eclipse.jdt.ls",
-      "target": "mfussenegger/nvim-jdtls",
+      "target": "microsoft/monitors4codegen",
       "target_type": "repository"
     },
     {
@@ -176,7 +176,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:15:59.562542+00:00",
+  "fetched_at": "2026-04-29T19:43:05.318324+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -208,14 +208,14 @@
     "full_name": "eclipse-jdtls/eclipse.jdt.ls",
     "html_url": "https://github.com/eclipse-jdtls/eclipse.jdt.ls",
     "language": "Java",
-    "pushed_at": "2026-04-23T19:00:49Z",
-    "stargazers_count": 2309,
+    "pushed_at": "2026-04-29T08:41:24Z",
+    "stargazers_count": 2317,
     "topics": [
       "eclipse",
       "java",
       "language-server-protocol"
     ],
-    "updated_at": "2026-04-23T19:01:15Z"
+    "updated_at": "2026-04-29T16:43:06Z"
   },
   "repo_links": [
     {
@@ -235,7 +235,7 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "mfussenegger/nvim-jdtls",
+      "full_name": "microsoft/monitors4codegen",
       "source_file": "README.md"
     }
   ],

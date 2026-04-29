@@ -1,0 +1,238 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@5a2ce3f5b92ee19cbb1541a4984c76d921601d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@5a2ce3f5b92ee19cbb1541a4984c76d921601d7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "getsentry/action-enforce-license-compliance@4fae092d42cc91cdfa447eb5b0987cbecfdb07c6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-license-compliance.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secret-scan.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@faadad0cce49287aee09b3a48701e75088a2c6ad",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secret-scan.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warden.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warden.yml"
+    },
+    {
+      "component": "getsentry/warden@v0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warden.yml"
+    },
+    {
+      "component": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warden.yml"
+    },
+    {
+      "component": "google-github-actions/upload-cloud-storage@c0f6160ff80057923ff50e5e567695cea181ec23",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warden.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "getsentry/.github",
+      "target": "actions/checkout@692973e3d937129bcbf40652eb9f2f61becf3332",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "getsentry/.github",
+      "target": "actions/dependency-review-action@5a2ce3f5b92ee19cbb1541a4984c76d921601d7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "getsentry/.github",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/enforce-license-compliance.yml",
+      "source_repo": "getsentry/.github",
+      "target": "getsentry/action-enforce-license-compliance@4fae092d42cc91cdfa447eb5b0987cbecfdb07c6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-license-compliance.yml",
+      "source_repo": "getsentry/.github",
+      "target": "Enforce License Compliance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secret-scan.yml",
+      "source_repo": "getsentry/.github",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/secret-scan.yml",
+      "source_repo": "getsentry/.github",
+      "target": "sigstore/cosign-installer@faadad0cce49287aee09b3a48701e75088a2c6ad",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/secret-scan.yml",
+      "source_repo": "getsentry/.github",
+      "target": "Secret Scan",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warden.yml",
+      "source_repo": "getsentry/.github",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warden.yml",
+      "source_repo": "getsentry/.github",
+      "target": "actions/create-github-app-token@29824e69f54612133e76f7eaac726eef6c875baf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warden.yml",
+      "source_repo": "getsentry/.github",
+      "target": "getsentry/warden@v0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warden.yml",
+      "source_repo": "getsentry/.github",
+      "target": "google-github-actions/auth@7c6bc770dae815cd3e89ee6cdf493a5fab2cc093",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/warden.yml",
+      "source_repo": "getsentry/.github",
+      "target": "google-github-actions/upload-cloud-storage@c0f6160ff80057923ff50e5e567695cea181ec23",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/warden.yml",
+      "source_repo": "getsentry/.github",
+      "target": "Warden",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "getsentry/.github",
+      "target": "tag-production",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:59:05.238012+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 1080
+    },
+    {
+      "path": ".github/workflows/enforce-license-compliance.yml",
+      "size": 503
+    },
+    {
+      "path": ".github/workflows/secret-scan.yml",
+      "size": 4451
+    },
+    {
+      "path": ".github/workflows/warden.yml",
+      "size": 2165
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Global repo settings for sentry.io",
+    "fork": false,
+    "full_name": "getsentry/.github",
+    "html_url": "https://github.com/getsentry/.github",
+    "language": null,
+    "pushed_at": "2026-03-24T06:46:32Z",
+    "stargazers_count": 23,
+    "topics": [
+      "tag-production"
+    ],
+    "updated_at": "2026-04-09T02:59:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Enforce License Compliance",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/enforce-license-compliance.yml",
+      "term": "Enforce License Compliance"
+    },
+    {
+      "context_snippet": "Secret Scan",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/secret-scan.yml",
+      "term": "Secret Scan"
+    },
+    {
+      "context_snippet": "Warden",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/warden.yml",
+      "term": "Warden"
+    },
+    {
+      "context_snippet": "# .github",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tag-production"
+    }
+  ]
+}

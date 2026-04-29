@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "\ud83d\udce6 A bucket for Scoop, for Oracle Java, OpenJDK, Eclipse Temurin, IBM Semeru, Zulu, ojdkbuild, Amazon Corretto, BellSoft Liberica, SapMachine and Microsoft JDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scoop-bucket",
+      "sense_id": "scoop-bucket#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "scoop-bucket",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "scoop-bucket",
+  "observation_id": "eb4baffae9b8c0af",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "scoop-bucket",
+  "source_context_snippet": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026",
+  "source_file": null,
+  "source_repo": "ScoopInstaller/Java",
+  "source_repo_description": "\ud83d\udce6 A bucket for Scoop, for Oracle Java, OpenJDK, Eclipse Temurin, IBM Semeru, Zulu, ojdkbuild, Amazon Corretto, BellSoft Liberica, SapMachine and Microsoft JDK."
+}

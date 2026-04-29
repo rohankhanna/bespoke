@@ -43,6 +43,78 @@
       "source_repo": "babashka/bbin",
       "status": "candidate-context",
       "text": "**Install any Babashka script or project with one command.**"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/sci",
+      "status": "candidate-context",
+      "text": "Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"100px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "status": "candidate-context",
+      "text": "ClojureScript \"IntelliSense\" support for JS objects and their properties/methods. Via figwheel and Emacs CIDER."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djblue/portal",
+      "status": "candidate-context",
+      "text": "A clojure tool to navigate through your data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djblue/portal",
+      "status": "candidate-context",
+      "text": "A clojure tool to navigate through your data."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PEZ/taplet",
+      "status": "candidate-context",
+      "text": "Clojure/ClojureScript utilities for tapping things. let> macro, and #t reader tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PEZ/taplet",
+      "status": "candidate-context",
+      "text": "Utilities for tapping Clojure forms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/nbb",
+      "status": "candidate-context",
+      "text": "Scripting in Clojure on Node.js using SCI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/sci.configs",
+      "status": "candidate-context",
+      "text": "A collection of ready to be used SCI configs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci.configs",
+      "status": "candidate-context",
+      "text": "A collection of ready to be used SCI configs."
     }
   ],
   "candidate_glosses": [
@@ -63,6 +135,42 @@
       "source_repo": "babashka/bbin",
       "status": "candidate",
       "text": "**Install any Babashka script or project with one command.**"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"100px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djblue/portal",
+      "status": "candidate",
+      "text": "A clojure tool to navigate through your data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PEZ/taplet",
+      "status": "candidate",
+      "text": "Utilities for tapping Clojure forms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb",
+      "status": "candidate",
+      "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci.configs",
+      "status": "candidate",
+      "text": "A collection of ready to be used SCI configs."
     }
   ],
   "candidate_related_terms": [],
@@ -88,11 +196,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "babashka/bbin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-suitable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "djblue/portal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PEZ/taplet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci.configs"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

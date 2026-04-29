@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devgianlu/librespot-android",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devgianlu/librespot-android",
+      "target": "librespot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devgianlu/librespot-android",
+      "target": "librespot-java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devgianlu/librespot-android",
+      "target": "music",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devgianlu/librespot-android",
+      "target": "music-player",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "devgianlu/librespot-android",
+      "target": "spotify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:38:56.949304+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 471
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A demo app that runs librespot-java on Android",
+    "fork": false,
+    "full_name": "devgianlu/librespot-android",
+    "html_url": "https://github.com/devgianlu/librespot-android",
+    "language": "C",
+    "pushed_at": "2023-01-31T19:47:29Z",
+    "stargazers_count": 43,
+    "topics": [
+      "android",
+      "librespot",
+      "librespot-java",
+      "music",
+      "music-player",
+      "spotify"
+    ],
+    "updated_at": "2026-02-28T00:09:22Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librespot"
+    },
+    {
+      "context_snippet": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librespot-java"
+    },
+    {
+      "context_snippet": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music"
+    },
+    {
+      "context_snippet": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "music-player"
+    },
+    {
+      "context_snippet": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spotify"
+    }
+  ]
+}

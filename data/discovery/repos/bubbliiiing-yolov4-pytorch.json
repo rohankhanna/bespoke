@@ -1,0 +1,81 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov4-pytorch",
+      "target": "bubbliiiing/yolov5-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov4-pytorch",
+      "target": "bubbliiiing/yolov5-v6.1-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov4-pytorch",
+      "target": "bubbliiiing/yolov7-pytorch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "bubbliiiing/yolov4-pytorch",
+      "target": "bubbliiiing/yolov7-tiny-pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:45:02.273938+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7060
+    },
+    {
+      "path": "requirements.txt",
+      "size": 150
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u8fd9\u662f\u4e00\u4e2aYoloV4-pytorch\u7684\u6e90\u7801\uff0c\u53ef\u4ee5\u7528\u4e8e\u8bad\u7ec3\u81ea\u5df1\u7684\u6a21\u578b\u3002",
+    "fork": false,
+    "full_name": "bubbliiiing/yolov4-pytorch",
+    "html_url": "https://github.com/bubbliiiing/yolov4-pytorch",
+    "language": "Python",
+    "pushed_at": "2023-10-03T22:49:16Z",
+    "stargazers_count": 2157,
+    "topics": [],
+    "updated_at": "2026-04-14T03:09:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bubbliiiing/yolov5-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bubbliiiing/yolov5-v6.1-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bubbliiiing/yolov7-pytorch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bubbliiiing/yolov7-tiny-pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

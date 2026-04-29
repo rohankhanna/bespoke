@@ -1,0 +1,102 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sugarme/tokenizer",
+      "target": "sugarme/transformer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sugarme/tokenizer",
+      "target": "sugarme/gotch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sugarme/tokenizer",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sugarme/tokenizer",
+      "target": "golang-tokenizer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sugarme/tokenizer",
+      "target": "tokenizer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:51:17.534872+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2991
+    },
+    {
+      "path": "go.mod",
+      "size": 502
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NLP tokenizers written in Go language",
+    "fork": false,
+    "full_name": "sugarme/tokenizer",
+    "html_url": "https://github.com/sugarme/tokenizer",
+    "language": "Go",
+    "pushed_at": "2025-11-27T07:06:28Z",
+    "stargazers_count": 323,
+    "topics": [
+      "deep-learning",
+      "golang-tokenizer",
+      "nlp",
+      "tokenizer"
+    ],
+    "updated_at": "2026-04-22T04:30:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sugarme/gotch",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sugarme/transformer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`tokenizer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "`tokenizer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang-tokenizer"
+    },
+    {
+      "context_snippet": "`tokenizer` is pure Go package to facilitate applying Natural Language Processing (NLP) models train/test and inference in Go.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tokenizer"
+    }
+  ]
+}

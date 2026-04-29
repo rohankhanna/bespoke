@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lockdown.yml",
+      "source_repo": "flashrom/flashrom",
+      "target": "dessant/repo-lockdown@0b093279a77b44bbc38e85089b5463dd06b4aea4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lockdown.yml",
+      "source_repo": "flashrom/flashrom",
+      "target": "Close issues and PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashrom/flashrom",
+      "target": "firmware-tools",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashrom/flashrom",
+      "target": "firmware-update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashrom/flashrom",
+      "target": "firmware-updater",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flashrom/flashrom",
+      "target": "firmware-updates",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "flashrom/flashrom"
+}

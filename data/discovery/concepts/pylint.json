@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Pylint"
+    "Pylint",
+    "PyLint"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -79,6 +80,42 @@
       "source_repo": "kasztp/URL_Shortener",
       "status": "candidate-context",
       "text": "Pylint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xinntao/facexlib",
+      "status": "candidate-context",
+      "text": "FaceXlib aims at providing ready-to-use face-related functions based on current STOA open-source methods."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/facexlib",
+      "status": "candidate-context",
+      "text": "PyLint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XPixelGroup/BasicSR",
+      "status": "candidate-context",
+      "text": "Open Source Image and Video Restoration Toolbox for Super-resolution, Denoise, Deblurring, etc. Currently, it includes EDSR, RCAN, SRResNet, SRGAN, ESRGAN, EDVR, BasicVSR, SwinIR, ECBSR, etc. Also support StyleGAN2, DFDNet."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XPixelGroup/BasicSR",
+      "status": "candidate-context",
+      "text": "PyLint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xinntao/Real-ESRGAN",
+      "status": "candidate-context",
+      "text": "Real-ESRGAN aims at developing Practical Algorithms for General Image/Video Restoration."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/Real-ESRGAN",
+      "status": "candidate-context",
+      "text": "PyLint"
     }
   ],
   "candidate_glosses": [
@@ -117,6 +154,24 @@
       "source_repo": "kasztp/URL_Shortener",
       "status": "candidate",
       "text": "Pylint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/facexlib",
+      "status": "candidate",
+      "text": "PyLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XPixelGroup/BasicSR",
+      "status": "candidate",
+      "text": "PyLint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xinntao/Real-ESRGAN",
+      "status": "candidate",
+      "text": "PyLint"
     }
   ],
   "candidate_related_terms": [
@@ -226,11 +281,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/pylint.yml",
       "source_repo": "kasztp/URL_Shortener"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "crytic/evm_cfg_builder"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "xinntao/facexlib"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "XPixelGroup/BasicSR"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pylint.yml",
+      "source_repo": "xinntao/Real-ESRGAN"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,12 @@
+{
+  "component": "anthropics/claude-code-action@1b8ee3b94104046d71fde52ec3557651ad8c0d71",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yml",
+      "source_repo": "base/base"
+    }
+  ]
+}

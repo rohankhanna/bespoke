@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:46:27.036513+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2744
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A simple logging library implemented in C99",
+    "fork": false,
+    "full_name": "rxi/log.c",
+    "html_url": "https://github.com/rxi/log.c",
+    "language": "C",
+    "pushed_at": "2024-07-21T08:58:43Z",
+    "stargazers_count": 3458,
+    "topics": [],
+    "updated_at": "2026-04-28T13:19:05Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

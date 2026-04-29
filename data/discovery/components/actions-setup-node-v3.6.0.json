@@ -1,0 +1,22 @@
+{
+  "component": "actions/setup-node@v3.6.0",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint.yml",
+      "source_repo": "api7/wasm-nginx-module"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "api7/wasm-nginx-module"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hosted.yml",
+      "source_repo": "antlr/antlr4"
+    }
+  ]
+}

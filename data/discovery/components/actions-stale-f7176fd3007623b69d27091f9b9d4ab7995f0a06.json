@@ -1,12 +1,17 @@
 {
   "component": "actions/stale@f7176fd3007623b69d27091f9b9d4ab7995f0a06",
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/stale.yml",
       "source_repo": "google-gemini/deprecated-generative-ai-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/inactive-issues-and-prs.yml",
+      "source_repo": "Skyvern-AI/skyvern"
     }
   ]
 }

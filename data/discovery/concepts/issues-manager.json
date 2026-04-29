@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "\ud83d\udee0\ufe0f Issues Manager"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "SillyTavern/SillyTavern",
+      "status": "candidate-context",
+      "text": "LLM Frontend for Power Users."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SillyTavern/SillyTavern",
+      "status": "candidate-context",
+      "text": "\ud83d\udee0\ufe0f Issues Manager"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "SillyTavern/SillyTavern",
+      "status": "candidate",
+      "text": "\ud83d\udee0\ufe0f Issues Manager"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "management"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11666,
+      "status": "candidate",
+      "text": "trade"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11548,
+      "status": "candidate",
+      "text": "general"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11518,
+      "status": "candidate",
+      "text": "man"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11453,
+      "status": "candidate",
+      "text": "accessible"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "\ud83d\udee0\ufe0f Issues Manager",
+  "concept_id": "issues-manager",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issues-auto-manager.yml",
+      "source_repo": "SillyTavern/SillyTavern"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "\ud83d\udee0\ufe0f Issues Manager",
+      "sense_id": "issues-manager#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

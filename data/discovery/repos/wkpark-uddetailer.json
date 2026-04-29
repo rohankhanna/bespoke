@@ -1,0 +1,191 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wkpark/uddetailer",
+      "target": "google/mediapipe",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wkpark/uddetailer",
+      "target": "padmalcom/nsfwrecog",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wkpark/uddetailer",
+      "target": "dustydust/ddetailer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wkpark/uddetailer",
+      "target": "jerryli27/aniseg",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wkpark/uddetailer",
+      "target": "mediapipe",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wkpark/uddetailer",
+      "target": "mmdetection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wkpark/uddetailer",
+      "target": "mmyolo",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wkpark/uddetailer",
+      "target": "sd-webui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wkpark/uddetailer",
+      "target": "stable-diffusion-webui",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wkpark/uddetailer",
+      "target": "stable-diffusion-webui-plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wkpark/uddetailer",
+      "target": "ultralytics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "wkpark/uddetailer",
+      "target": "yolov8",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:25.409951+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7949
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "\u03bc DDetailer, DDetailer fork to support DDetailer as an extension",
+    "fork": true,
+    "full_name": "wkpark/uddetailer",
+    "html_url": "https://github.com/wkpark/uddetailer",
+    "language": "Python",
+    "pushed_at": "2025-01-31T03:45:16Z",
+    "stargazers_count": 84,
+    "topics": [
+      "mediapipe",
+      "mmdetection",
+      "mmyolo",
+      "sd-webui",
+      "stable-diffusion-webui",
+      "stable-diffusion-webui-plugin",
+      "ultralytics",
+      "yolov8"
+    ],
+    "updated_at": "2026-04-16T14:05:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dustydust/ddetailer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/mediapipe",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jerryli27/aniseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "padmalcom/nsfwrecog",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mediapipe"
+    },
+    {
+      "context_snippet": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmdetection"
+    },
+    {
+      "context_snippet": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmyolo"
+    },
+    {
+      "context_snippet": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sd-webui"
+    },
+    {
+      "context_snippet": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-webui"
+    },
+    {
+      "context_snippet": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stable-diffusion-webui-plugin"
+    },
+    {
+      "context_snippet": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ultralytics"
+    },
+    {
+      "context_snippet": "This is yet another detection detailer named \u03bc-Detection Detailer (shortly \u03bc-DDetailer) forked from [DDetailer](https://github.com/dustysys/ddetailer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "yolov8"
+    }
+  ]
+}

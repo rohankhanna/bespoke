@@ -1,0 +1,412 @@
+{
+  "components": [
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/defaultLabels.yml"
+    },
+    {
+      "component": "actions/stale@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/defaultLabels.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health-dashboard.yml"
+    },
+    {
+      "component": "GH-ACE/issue-dashboard@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health-dashboard.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health-dashboard.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-view.yml"
+    },
+    {
+      "component": "GH-ACE/issue-dashboard@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-view.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-view.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-ace-team.yml"
+    },
+    {
+      "component": "GH-ACE/issue-dashboard@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-ace-team.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-ace-team.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-view.yml"
+    },
+    {
+      "component": "GH-ACE/issue-dashboard@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-view.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-view.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/transitioned-issues.yml"
+    },
+    {
+      "component": "GH-ACE/issue-dashboard@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/transitioned-issues.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/transitioned-issues.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation-repo-test.yml"
+    },
+    {
+      "component": "GH-ACE/action-repo-validation@users/balaga-gayatri/release-patch",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation-repo-test.yml"
+    },
+    {
+      "component": "jsdaniell/create-json@1.1.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation-repo-test.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation-repo-test.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation-repo-test.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation-repo-test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/actions",
+      "target": "azure/actions-workflow-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/actions",
+      "target": "integrations/slack",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/actions",
+      "target": "integrations/microsoft-teams",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Azure/actions",
+      "target": "azure/actions-toolkit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/defaultLabels.yml",
+      "source_repo": "Azure/actions",
+      "target": "actions/stale@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/defaultLabels.yml",
+      "source_repo": "Azure/actions",
+      "target": "setting-default-labels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health-dashboard.yml",
+      "source_repo": "Azure/actions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health-dashboard.yml",
+      "source_repo": "Azure/actions",
+      "target": "GH-ACE/issue-dashboard@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/health-dashboard.yml",
+      "source_repo": "Azure/actions",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/health-dashboard.yml",
+      "source_repo": "Azure/actions",
+      "target": "health-dashboard",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-view.yml",
+      "source_repo": "Azure/actions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-view.yml",
+      "source_repo": "Azure/actions",
+      "target": "GH-ACE/issue-dashboard@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issue-view.yml",
+      "source_repo": "Azure/actions",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-ace-team.yml",
+      "source_repo": "Azure/actions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-ace-team.yml",
+      "source_repo": "Azure/actions",
+      "target": "GH-ACE/issue-dashboard@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/issues-ace-team.yml",
+      "source_repo": "Azure/actions",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-view.yml",
+      "source_repo": "Azure/actions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-view.yml",
+      "source_repo": "Azure/actions",
+      "target": "GH-ACE/issue-dashboard@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr-view.yml",
+      "source_repo": "Azure/actions",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/transitioned-issues.yml",
+      "source_repo": "Azure/actions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/transitioned-issues.yml",
+      "source_repo": "Azure/actions",
+      "target": "GH-ACE/issue-dashboard@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/transitioned-issues.yml",
+      "source_repo": "Azure/actions",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation-repo-test.yml",
+      "source_repo": "Azure/actions",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation-repo-test.yml",
+      "source_repo": "Azure/actions",
+      "target": "GH-ACE/action-repo-validation@users/balaga-gayatri/release-patch",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation-repo-test.yml",
+      "source_repo": "Azure/actions",
+      "target": "jsdaniell/create-json@1.1.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation-repo-test.yml",
+      "source_repo": "Azure/actions",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/validation-repo-test.yml",
+      "source_repo": "Azure/actions",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validation-repo-test.yml",
+      "source_repo": "Azure/actions",
+      "target": "repo-validation",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:58:16.603485+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5194
+    },
+    {
+      "path": ".github/workflows/CODEOWNERS",
+      "size": 42
+    },
+    {
+      "path": ".github/workflows/defaultLabels.yml",
+      "size": 1202
+    },
+    {
+      "path": ".github/workflows/health-dashboard.yml",
+      "size": 1130
+    },
+    {
+      "path": ".github/workflows/issue-view.yml",
+      "size": 1109
+    },
+    {
+      "path": ".github/workflows/issues-ace-team.yml",
+      "size": 1110
+    },
+    {
+      "path": ".github/workflows/pr-view.yml",
+      "size": 1049
+    },
+    {
+      "path": ".github/workflows/transitioned-issues.yml",
+      "size": 1118
+    },
+    {
+      "path": ".github/workflows/validation-repo-test.yml",
+      "size": 2900
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Author and use Azure Actions to automate your GitHub workflows",
+    "fork": false,
+    "full_name": "Azure/actions",
+    "html_url": "https://github.com/Azure/actions",
+    "language": "HTML",
+    "pushed_at": "2024-08-01T23:36:42Z",
+    "stargazers_count": 483,
+    "topics": [],
+    "updated_at": "2026-04-29T12:43:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/actions-toolkit",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "azure/actions-workflow-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "integrations/microsoft-teams",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "integrations/slack",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "setting-default-labels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/defaultLabels.yml",
+      "term": "setting-default-labels"
+    },
+    {
+      "context_snippet": "health-dashboard",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/health-dashboard.yml",
+      "term": "health-dashboard"
+    },
+    {
+      "context_snippet": "\"repo-validation\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/validation-repo-test.yml",
+      "term": "repo-validation"
+    }
+  ]
+}

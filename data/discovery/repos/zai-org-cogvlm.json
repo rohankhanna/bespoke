@@ -1,0 +1,153 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CogVLM",
+      "target": "thudm/cogvlm2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CogVLM",
+      "target": "thudm/cogvlm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CogVLM",
+      "target": "fuxiaoliu/lrv-instruction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "zai-org/CogVLM",
+      "target": "salt-nlp/llavar",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM",
+      "target": "cross-modality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM",
+      "target": "multi-modal",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM",
+      "target": "visual-language-models",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:45:10.438341+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28517
+    },
+    {
+      "path": "requirements.txt",
+      "size": 360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "a state-of-the-art-level open visual language model | \u591a\u6a21\u6001\u9884\u8bad\u7ec3\u6a21\u578b",
+    "fork": false,
+    "full_name": "zai-org/CogVLM",
+    "html_url": "https://github.com/zai-org/CogVLM",
+    "language": "Python",
+    "pushed_at": "2024-05-29T10:01:33Z",
+    "stargazers_count": 6738,
+    "topics": [
+      "cross-modality",
+      "language-model",
+      "multi-modal",
+      "pretrained-models",
+      "visual-language-models"
+    ],
+    "updated_at": "2026-04-27T20:10:05Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "fuxiaoliu/lrv-instruction",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "salt-nlp/llavar",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvlm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvlm2",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\ud83d\udcd7 [\u4e2d\u6587\u7248README](./README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-modality"
+    },
+    {
+      "context_snippet": "\ud83d\udcd7 [\u4e2d\u6587\u7248README](./README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "\ud83d\udcd7 [\u4e2d\u6587\u7248README](./README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-modal"
+    },
+    {
+      "context_snippet": "\ud83d\udcd7 [\u4e2d\u6587\u7248README](./README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "\ud83d\udcd7 [\u4e2d\u6587\u7248README](./README_zh.md)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-language-models"
+    }
+  ]
+}

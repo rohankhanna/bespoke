@@ -1,0 +1,45 @@
+{
+  "components": [
+    {
+      "component": "@babel/template",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "ben-rogerson/babel-plugin-twin",
+      "target": "@babel/template",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:57:47.701517+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1835
+    },
+    {
+      "path": "package.json",
+      "size": 604
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Activate twin.macro\u2019s tw prop without adding the twin import. A companion plugin for twin.",
+    "fork": false,
+    "full_name": "ben-rogerson/babel-plugin-twin",
+    "html_url": "https://github.com/ben-rogerson/babel-plugin-twin",
+    "language": "JavaScript",
+    "pushed_at": "2022-11-17T11:55:11Z",
+    "stargazers_count": 42,
+    "topics": [],
+    "updated_at": "2025-01-29T00:09:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

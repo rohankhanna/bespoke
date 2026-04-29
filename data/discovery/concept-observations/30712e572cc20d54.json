@@ -1,0 +1,101 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Understanding the Difficulty of Training Transformers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "----------------------------------"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "----------------------------------"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038630,
+      "status": "candidate",
+      "text": "low-level formatting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30038629,
+      "status": "candidate",
+      "text": "initiate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30037235,
+      "status": "candidate",
+      "text": "initializer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036402,
+      "status": "candidate",
+      "text": "initialisation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30036071,
+      "status": "candidate",
+      "text": "startup"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "initialization",
+      "sense_id": "initialization#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8,
+      "status": "candidate",
+      "text": "low-level formatting"
+    }
+  ],
+  "concept_id": "initialization",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "initialization",
+  "observation_id": "30712e572cc20d54",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "initialization",
+  "source_context_snippet": "----------------------------------",
+  "source_file": null,
+  "source_repo": "LiyuanLucasLiu/Transformer-Clinic",
+  "source_repo_description": "Understanding the Difficulty of Training Transformers"
+}

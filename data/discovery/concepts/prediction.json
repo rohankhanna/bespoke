@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "prediction"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "high-moctane/mocword",
+      "status": "candidate-context",
+      "text": "Predict next words (\uff40\uff65\u03c9\uff65\u00b4)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/mocword",
+      "status": "candidate-context",
+      "text": "[![Release](https://github.com/high-moctane/mocword/actions/workflows/release.yml/badge.svg)](https://github.com/high-moctane/mocword/actions/workflows/release.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "high-moctane/mocword",
+      "status": "candidate",
+      "text": "[![Release](https://github.com/high-moctane/mocword/actions/workflows/release.yml/badge.svg)](https://github.com/high-moctane/mocword/actions/workflows/release.yml)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039161,
+      "status": "candidate",
+      "text": "foretelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039125,
+      "status": "candidate",
+      "text": "forecasting"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40039093,
+      "status": "candidate",
+      "text": "foresight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40038545,
+      "status": "candidate",
+      "text": "anticipation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30039232,
+      "status": "candidate",
+      "text": "prognostic"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34048,
+      "status": "candidate",
+      "text": "anticipation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24037,
+      "status": "candidate",
+      "text": "foresight"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5019,
+      "status": "candidate",
+      "text": "foretelling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4027,
+      "status": "candidate",
+      "text": "forecasting"
+    }
+  ],
+  "canonical_name": "prediction",
+  "concept_id": "prediction",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "high-moctane/mocword"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "prediction",
+      "sense_id": "prediction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,34 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroharu-kato/neural_renderer",
+      "target": "hiroharu-kato/mesh_reconstruction",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroharu-kato/neural_renderer",
+      "target": "hiroharu-kato/style_transfer_3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroharu-kato/neural_renderer",
+      "target": "hiroharu-kato/deep_dream_3d",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "hiroharu-kato/neural_renderer",
+      "target": "akanazawa/cmr",
+      "target_type": "repository"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "hiroharu-kato/neural_renderer"
+}

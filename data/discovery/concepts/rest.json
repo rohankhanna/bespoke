@@ -175,6 +175,18 @@
       "source_repo": "ninenines/cowboy",
       "status": "candidate-context",
       "text": "Check Cowboy"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate-context",
+      "text": "typescript http client and server with zod validation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">Zodios</h1>"
     }
   ],
   "candidate_glosses": [
@@ -261,6 +273,12 @@
       "source_repo": "ninenines/cowboy",
       "status": "candidate",
       "text": "Check Cowboy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ecyrbe/zodios",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">Zodios</h1>"
     }
   ],
   "candidate_related_terms": [
@@ -424,11 +442,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "ninenines/cowboy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ecyrbe/zodios"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fastapi/fastapi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rest-sh/restish"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

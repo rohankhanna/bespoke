@@ -1,0 +1,17 @@
+{
+  "component": "acifani/setup-tinygo@b2ba42b249c7d3efdfe94166ec0f48b3191404f7",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job-unit-tests.yml",
+      "source_repo": "Kong/ngx_wasm_module"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/job-valgrind-tests.yml",
+      "source_repo": "Kong/ngx_wasm_module"
+    }
+  ]
+}

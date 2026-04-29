@@ -1,0 +1,129 @@
+{
+  "aliases": [
+    "certificate"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "amplify-education/serverless-domain-manager",
+      "status": "candidate-context",
+      "text": "Serverless plugin for managing custom domains with API Gateways."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amplify-education/serverless-domain-manager",
+      "status": "candidate-context",
+      "text": "[![serverless](https://assets.serverless-extras.com/website/general/icon-serverless-framework.svg)](https://www.serverless.com/plugins/serverless-domain-manager)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "amplify-education/serverless-domain-manager",
+      "status": "candidate",
+      "text": "[![serverless](https://assets.serverless-extras.com/website/general/icon-serverless-framework.svg)](https://www.serverless.com/plugins/serverless-domain-manager)"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034767,
+      "status": "candidate",
+      "text": "credential"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40034563,
+      "status": "candidate",
+      "text": "certification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032322,
+      "status": "candidate",
+      "text": "credentials"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39976624,
+      "status": "candidate",
+      "text": "security"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034804,
+      "status": "candidate",
+      "text": "accreditation"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 16077,
+      "status": "candidate",
+      "text": "security"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5030,
+      "status": "candidate",
+      "text": "credentials"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 4048,
+      "status": "candidate",
+      "text": "certification"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 3028,
+      "status": "candidate",
+      "text": "credential"
+    }
+  ],
+  "canonical_name": "certificate",
+  "concept_id": "certificate",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "amplify-education/serverless-domain-manager"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "certificate",
+      "sense_id": "certificate#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

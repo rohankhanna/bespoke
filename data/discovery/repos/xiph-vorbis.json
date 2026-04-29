@@ -1,0 +1,157 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiph/vorbis",
+      "target": "audio",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiph/vorbis",
+      "target": "codec",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiph/vorbis",
+      "target": "encoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiph/vorbis",
+      "target": "libvorbis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiph/vorbis",
+      "target": "libvorbisenc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiph/vorbis",
+      "target": "libvorbisfile",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiph/vorbis",
+      "target": "ogg-vorbis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiph/vorbis",
+      "target": "vorbis-specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xiph/vorbis",
+      "target": "xiph",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:45:20.230559+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4786
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Reference implementation of the Ogg Vorbis audio format.",
+    "fork": false,
+    "full_name": "xiph/vorbis",
+    "html_url": "https://github.com/xiph/vorbis",
+    "language": "C",
+    "pushed_at": "2026-04-11T20:17:12Z",
+    "stargazers_count": 555,
+    "topics": [
+      "audio",
+      "codec",
+      "encoder",
+      "libvorbis",
+      "libvorbisenc",
+      "libvorbisfile",
+      "ogg",
+      "ogg-vorbis",
+      "vorbis-specification",
+      "xiph"
+    ],
+    "updated_at": "2026-04-29T06:47:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![GitLab Build Status](https://gitlab.xiph.org/xiph/vorbis/badges/master/pipeline.svg)](https://gitlab.xiph.org/xiph/vorbis/-/pipelines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audio"
+    },
+    {
+      "context_snippet": "[![GitLab Build Status](https://gitlab.xiph.org/xiph/vorbis/badges/master/pipeline.svg)](https://gitlab.xiph.org/xiph/vorbis/-/pipelines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "codec"
+    },
+    {
+      "context_snippet": "[![GitLab Build Status](https://gitlab.xiph.org/xiph/vorbis/badges/master/pipeline.svg)](https://gitlab.xiph.org/xiph/vorbis/-/pipelines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "encoder"
+    },
+    {
+      "context_snippet": "[![GitLab Build Status](https://gitlab.xiph.org/xiph/vorbis/badges/master/pipeline.svg)](https://gitlab.xiph.org/xiph/vorbis/-/pipelines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libvorbis"
+    },
+    {
+      "context_snippet": "[![GitLab Build Status](https://gitlab.xiph.org/xiph/vorbis/badges/master/pipeline.svg)](https://gitlab.xiph.org/xiph/vorbis/-/pipelines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libvorbisenc"
+    },
+    {
+      "context_snippet": "[![GitLab Build Status](https://gitlab.xiph.org/xiph/vorbis/badges/master/pipeline.svg)](https://gitlab.xiph.org/xiph/vorbis/-/pipelines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "libvorbisfile"
+    },
+    {
+      "context_snippet": "[![GitLab Build Status](https://gitlab.xiph.org/xiph/vorbis/badges/master/pipeline.svg)](https://gitlab.xiph.org/xiph/vorbis/-/pipelines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ogg-vorbis"
+    },
+    {
+      "context_snippet": "[![GitLab Build Status](https://gitlab.xiph.org/xiph/vorbis/badges/master/pipeline.svg)](https://gitlab.xiph.org/xiph/vorbis/-/pipelines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vorbis-specification"
+    },
+    {
+      "context_snippet": "[![GitLab Build Status](https://gitlab.xiph.org/xiph/vorbis/badges/master/pipeline.svg)](https://gitlab.xiph.org/xiph/vorbis/-/pipelines)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "xiph"
+    }
+  ]
+}

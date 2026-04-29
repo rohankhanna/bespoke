@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "librespot-java"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devgianlu/librespot-android",
+      "status": "candidate-context",
+      "text": "A demo app that runs librespot-java on Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/librespot-android",
+      "status": "candidate-context",
+      "text": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "status": "candidate-context",
+      "text": "A module for MagicMirror displaying the song currently streaming on your librespot java speaker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "status": "candidate-context",
+      "text": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/librespot-android",
+      "status": "candidate",
+      "text": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "status": "candidate",
+      "text": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "librespot-java",
+  "concept_id": "librespot-java",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "devgianlu/librespot-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "l3d00m/MMM-LibrespotJava"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "librespot-java",
+      "sense_id": "librespot-java#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:51:39.863723+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1506
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Point cloud diffusion for 3D model synthesis",
+    "fork": false,
+    "full_name": "openai/point-e",
+    "html_url": "https://github.com/openai/point-e",
+    "language": "Python",
+    "pushed_at": "2024-07-04T19:05:34Z",
+    "stargazers_count": 6879,
+    "topics": [],
+    "updated_at": "2026-04-26T10:47:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

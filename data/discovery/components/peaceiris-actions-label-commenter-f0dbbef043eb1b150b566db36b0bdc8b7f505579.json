@@ -1,0 +1,12 @@
+{
+  "component": "peaceiris/actions-label-commenter@f0dbbef043eb1b150b566db36b0bdc8b7f505579",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues-auto-manager.yml",
+      "source_repo": "SillyTavern/SillyTavern"
+    }
+  ]
+}

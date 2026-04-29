@@ -4,7 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "pytorch/ao",
-      "target": "sayakpaul/diffusers-torchao",
+      "target": "pytorch/mslk",
       "target_type": "repository"
     },
     {
@@ -12,20 +12,6 @@
       "source_file": "README.md",
       "source_repo": "pytorch/ao",
       "target": "pytorch/torchtune",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pytorch/ao",
-      "target": "pytorch/torchtitan",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "pytorch/ao",
-      "target": "meta-pytorch/mslk",
       "target_type": "repository"
     },
     {
@@ -295,6 +281,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T18:30:35.670459+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "pytorch/ao"
 }

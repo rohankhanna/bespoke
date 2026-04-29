@@ -32,6 +32,30 @@
       "source_repo": "PrimeIntellect-ai/prime-rl",
       "status": "candidate-context",
       "text": "CPU Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Lightning-AI/lit-llama",
+      "status": "candidate-context",
+      "text": "Implementation of the LLaMA language model based on nanoGPT. Supports flash attention, Int8 and GPTQ 4bit quantization, LoRA and LLaMA-Adapter fine-tuning, pre-training. Apache 2.0-licensed."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/lit-llama",
+      "status": "candidate-context",
+      "text": "CPU tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MoonshotAI/checkpoint-engine",
+      "status": "candidate-context",
+      "text": "Checkpoint-engine is a simple middleware to update model weights in LLM inference engines"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonshotAI/checkpoint-engine",
+      "status": "candidate-context",
+      "text": "CPU Tests"
     }
   ],
   "candidate_glosses": [
@@ -44,6 +68,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "PrimeIntellect-ai/prime-rl",
+      "status": "candidate",
+      "text": "CPU Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Lightning-AI/lit-llama",
+      "status": "candidate",
+      "text": "CPU tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MoonshotAI/checkpoint-engine",
       "status": "candidate",
       "text": "CPU Tests"
     }
@@ -107,11 +143,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/cpu-tests.yml",
       "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/lit-llama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cpu-tests.yml",
+      "source_repo": "MoonshotAI/checkpoint-engine"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

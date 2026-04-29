@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CDK Analytics Metadata Updater"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-cdk",
+      "status": "candidate-context",
+      "text": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cdk",
+      "status": "candidate-context",
+      "text": "CDK Analytics Metadata Updater"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cdk",
+      "status": "candidate",
+      "text": "CDK Analytics Metadata Updater"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10220,
+      "status": "candidate",
+      "text": "complex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10220,
+      "status": "candidate",
+      "text": "protein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "acl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9199,
+      "status": "candidate",
+      "text": "annotation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9184,
+      "status": "candidate",
+      "text": "data"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CDK Analytics Metadata Updater",
+  "concept_id": "cdk-analytics-metadata-updater",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/analytics-metadata-updater.yml",
+      "source_repo": "aws/aws-cdk"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CDK Analytics Metadata Updater",
+      "sense_id": "cdk-analytics-metadata-updater#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

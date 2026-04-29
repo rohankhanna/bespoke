@@ -1,36 +1,7 @@
 {
   "components": [],
-  "edges": [
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
-      "target": "njucckevin/seeclick",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
-      "target": "shenzhi-wang/llama3-chinese-chat",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
-      "target": "unicomai/unichat-llama3-chinese",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "chenzixuan99/Awesome-LLM-based-Web-Agent-and-Tools",
-      "target": "skyvern-ai/skyvern",
-      "target_type": "repository"
-    }
-  ],
-  "fetched_at": "2026-04-24T12:45:05.611367+00:00",
+  "edges": [],
+  "fetched_at": "2026-04-29T20:54:22.136814+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -51,27 +22,6 @@
     "topics": [],
     "updated_at": "2026-03-24T07:32:23Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "njucckevin/seeclick",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "shenzhi-wang/llama3-chinese-chat",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "skyvern-ai/skyvern",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "unicomai/unichat-llama3-chinese",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": []
 }

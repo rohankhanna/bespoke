@@ -127,6 +127,42 @@
       "source_repo": "HKUDS/LightRAG",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUDS/MiniRAG",
+      "status": "candidate-context",
+      "text": "[ACL2026] \"MiniRAG: Making RAG Simpler with Small and Open-Sourced Language Models\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/MiniRAG",
+      "status": "candidate-context",
+      "text": "![MiniRAG](https://files.mdnice.com/user/87760/ff711e74-c382-4432-bec2-e6f2aa787df1.jpg)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUDS/RAG-Anything",
+      "status": "candidate-context",
+      "text": "\"RAG-Anything: All-in-One RAG Framework\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/RAG-Anything",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUDS/VideoRAG",
+      "status": "candidate-context",
+      "text": "[KDD'2026] \"VideoRAG: Chat with Your Videos\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/VideoRAG",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -187,6 +223,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "HKUDS/LightRAG",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/MiniRAG",
+      "status": "candidate",
+      "text": "![MiniRAG](https://files.mdnice.com/user/87760/ff711e74-c382-4432-bec2-e6f2aa787df1.jpg)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/RAG-Anything",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/VideoRAG",
       "status": "candidate",
       "text": "<div align=\"center\">"
     }
@@ -268,11 +322,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "chatchat-space/Langchain-Chatchat"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "HKUDS/MiniRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "HKUDS/RAG-Anything"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "HKUDS/VideoRAG"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chatchat-space/Langchain-Chatchat"
     }
   ],
   "first_seen_at": "2026-04-18T11:24:14.688152+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

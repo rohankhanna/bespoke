@@ -381,28 +381,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "graphql/graphql-http",
-      "target": "enisdenjo/graphql-ws",
+      "target": "tc39/proposal-observable",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "graphql/graphql-http",
-      "target": "enisdenjo/graphql-sse",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "graphql/graphql-http",
-      "target": "graphile/crystal",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "graphql/graphql-http",
-      "target": "graphprotocol/graph-client",
+      "target": "jaydenseric/graphql-upload",
       "target_type": "repository"
     },
     {
@@ -938,7 +924,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T19:42:20.191094+00:00",
+  "fetched_at": "2026-04-29T18:56:36.097283+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -979,7 +965,7 @@
     "html_url": "https://github.com/graphql/graphql-http",
     "language": "TypeScript",
     "pushed_at": "2025-10-08T10:52:22Z",
-    "stargazers_count": 364,
+    "stargazers_count": 365,
     "topics": [
       "apollo",
       "client",
@@ -993,27 +979,17 @@
       "the-guild",
       "transport"
     ],
-    "updated_at": "2026-04-03T18:24:20Z"
+    "updated_at": "2026-04-27T00:39:36Z"
   },
   "repo_links": [
     {
       "edge_type": "explicit-github-link",
-      "full_name": "enisdenjo/graphql-sse",
+      "full_name": "jaydenseric/graphql-upload",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "enisdenjo/graphql-ws",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "graphile/crystal",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "graphprotocol/graph-client",
+      "full_name": "tc39/proposal-observable",
       "source_file": "README.md"
     }
   ],

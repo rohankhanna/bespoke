@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-java@v1",
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -192,6 +192,46 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/maven.yml",
       "source_repo": "dgileadi/dg.jdt.ls.decompiler"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scala.yml",
+      "source_repo": "moznion/sbt-spotless"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android.yml",
+      "source_repo": "mzdluo123/MiraiAndroid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Gradle CI.yml",
+      "source_repo": "project-mirai/chat-command"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Release Publisher.yml",
+      "source_repo": "project-mirai/chat-command"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/artifact.yml",
+      "source_repo": "project-mirai/mirai-api-http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "project-mirai/mirai-api-http"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks-no-exception-workflow.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-contributor-pr.yml",
+      "source_repo": "mozilla-mobile/focus-android"
     }
   ]
 }

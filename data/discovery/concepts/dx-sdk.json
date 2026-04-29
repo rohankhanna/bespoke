@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "dx-sdk"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate-context",
+      "text": "A Middleware for Go Programming Language to check for JWTs on HTTP requests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate-context",
+      "text": "![Go JWT Middleware](https://cdn.auth0.com/website/sdks/banners/go-jwt-middleware.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "auth0/node-jwks-rsa",
+      "status": "candidate-context",
+      "text": "A library to retrieve RSA public keys from a JWKS (JSON Web Key Set) endpoint."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jwks-rsa",
+      "status": "candidate-context",
+      "text": "![A library to retrieve signing keys from a JWKS (JSON Web Key Set) endpoint.](https://cdn.auth0.com/website/sdks/banner/node-jwks-rsa-banner.png)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/go-jwt-middleware",
+      "status": "candidate",
+      "text": "![Go JWT Middleware](https://cdn.auth0.com/website/sdks/banners/go-jwt-middleware.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "auth0/node-jwks-rsa",
+      "status": "candidate",
+      "text": "![A library to retrieve signing keys from a JWKS (JSON Web Key Set) endpoint.](https://cdn.auth0.com/website/sdks/banner/node-jwks-rsa-banner.png)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "dx-sdk",
+  "concept_id": "dx-sdk",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "auth0/go-jwt-middleware"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "auth0/node-jwks-rsa"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dx-sdk",
+      "sense_id": "dx-sdk#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

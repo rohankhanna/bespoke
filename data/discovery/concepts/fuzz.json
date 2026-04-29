@@ -152,6 +152,30 @@
       "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
       "status": "candidate-context",
       "text": "Fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate-context",
+      "text": "CommonMark + GFM compatible Markdown parser and renderer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate-context",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rust-bitcoin/corepc",
+      "status": "candidate-context",
+      "text": "Rust library for interacting with Bitcoin Core over JSONRPC"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/corepc",
+      "status": "candidate-context",
+      "text": "Fuzz"
     }
   ],
   "candidate_glosses": [
@@ -224,6 +248,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc",
+      "status": "candidate",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kivikakk/comrak",
+      "status": "candidate",
+      "text": "Fuzz"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rust-bitcoin/corepc",
       "status": "candidate",
       "text": "Fuzz"
     }
@@ -401,11 +437,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/cron-daily-fuzz.yml",
       "source_repo": "rust-bitcoin/rust-bitcoind-json-rpc"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "psf/black"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "kivikakk/comrak"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cron-daily-fuzz.yml",
+      "source_repo": "rust-bitcoin/corepc"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

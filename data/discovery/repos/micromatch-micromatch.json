@@ -51,13 +51,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "micromatch/micromatch",
-      "target": "sindresorhus/multimatch",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "micromatch/micromatch",
       "target": "jonschlinkert/glob-object",
       "target_type": "repository"
     },
@@ -66,13 +59,6 @@
       "source_file": "README.md",
       "source_repo": "micromatch/micromatch",
       "target": "micromatch/extglob",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "micromatch/micromatch",
-      "target": "micromatch/nanomatch",
       "target_type": "repository"
     },
     {
@@ -279,7 +265,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T01:38:55.568168+00:00",
+  "fetched_at": "2026-04-29T19:49:30.562645+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -304,7 +290,7 @@
     "html_url": "https://github.com/micromatch/micromatch",
     "language": "JavaScript",
     "pushed_at": "2024-08-26T23:15:58Z",
-    "stargazers_count": 3027,
+    "stargazers_count": 3026,
     "topics": [
       "bash",
       "extended-glob",
@@ -327,7 +313,7 @@
       "wildcard",
       "wildmat"
     ],
-    "updated_at": "2026-04-21T09:38:23Z"
+    "updated_at": "2026-04-25T07:43:47Z"
   },
   "repo_links": [
     {
@@ -338,16 +324,6 @@
     {
       "edge_type": "explicit-github-link",
       "full_name": "micromatch/extglob",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "micromatch/nanomatch",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "sindresorhus/multimatch",
       "source_file": "README.md"
     }
   ],

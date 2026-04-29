@@ -58,20 +58,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gitleaks/gitleaks",
-      "target": "gitleaks/gitleaks-action",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "gitleaks/gitleaks",
-      "target": "leaktk/gitleaks",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/gitleaks.yml",
       "source_repo": "gitleaks/gitleaks",
@@ -261,7 +247,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T00:53:10.663269+00:00",
+  "fetched_at": "2026-04-29T19:44:17.818916+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -298,7 +284,7 @@
     "html_url": "https://github.com/gitleaks/gitleaks",
     "language": "Go",
     "pushed_at": "2026-03-25T13:57:45Z",
-    "stargazers_count": 26250,
+    "stargazers_count": 26372,
     "topics": [
       "ai-powered",
       "ci-cd",
@@ -321,20 +307,9 @@
       "security",
       "security-tools"
     ],
-    "updated_at": "2026-04-24T00:24:00Z"
+    "updated_at": "2026-04-29T19:37:06Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "gitleaks/gitleaks-action",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "leaktk/gitleaks",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "gitleaks",

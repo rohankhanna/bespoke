@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic",
+      "target": "microsoft/admin-torch",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic",
+      "target": "liyuanlucasliu/transforemr-clinic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic",
+      "target": "initialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "LiyuanLucasLiu/Transformer-Clinic",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:49:38.842503+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4520
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Understanding the Difficulty of Training Transformers",
+    "fork": false,
+    "full_name": "LiyuanLucasLiu/Transformer-Clinic",
+    "html_url": "https://github.com/LiyuanLucasLiu/Transformer-Clinic",
+    "language": "Python",
+    "pushed_at": "2022-05-31T18:27:35Z",
+    "stargazers_count": 332,
+    "topics": [
+      "initialization",
+      "nmt",
+      "transformer",
+      "wmt"
+    ],
+    "updated_at": "2025-11-07T12:25:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "liyuanlucasliu/transforemr-clinic",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "microsoft/admin-torch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "----------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "initialization"
+    },
+    {
+      "context_snippet": "----------------------------------",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

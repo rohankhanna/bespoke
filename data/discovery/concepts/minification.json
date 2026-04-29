@@ -43,6 +43,18 @@
       "source_repo": "ImageOptim/libimagequant",
       "status": "candidate-context",
       "text": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clean-css/clean-css",
+      "status": "candidate-context",
+      "text": "Fast and efficient CSS optimizer for node.js and the Web"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clean-css/clean-css",
+      "status": "candidate-context",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "ImageOptim/libimagequant",
       "status": "candidate",
       "text": "Imagequant library converts RGBA images to palette-based 8-bit indexed images, *including* alpha component. It's ideal for generating tiny PNG images and [nice-looking GIFs](https://gif.ski)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clean-css/clean-css",
+      "status": "candidate",
+      "text": "<h1 align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -130,11 +148,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "ImageOptim/libimagequant"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clean-css/clean-css"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

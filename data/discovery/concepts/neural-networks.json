@@ -127,6 +127,30 @@
       "source_repo": "patrick-kidger/optimistix",
       "status": "candidate-context",
       "text": "<h1 align='center'>Optimistix</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adamdad/DeRy",
+      "status": "candidate-context",
+      "text": "[NeurIPS2022] Deep Model Reassembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adamdad/DeRy",
+      "status": "candidate-context",
+      "text": "This repository contains the offical implementation for our paper"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "status": "candidate-context",
+      "text": "A relatively basic implementation of RWKV in Rust written by someone with very little math and ML knowledge. Supports 32, 8 and 4 bit evaluation. It can also directly load PyTorch RWKV models."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "status": "candidate-context",
+      "text": "An example of the RWKV approach to language models written in Rust by someone that"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "patrick-kidger/optimistix",
       "status": "candidate",
       "text": "<h1 align='center'>Optimistix</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adamdad/DeRy",
+      "status": "candidate",
+      "text": "This repository contains the offical implementation for our paper"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "KerfuffleV2/smolrsrwkv",
+      "status": "candidate",
+      "text": "An example of the RWKV approach to language models written in Rust by someone that"
     }
   ],
   "candidate_related_terms": [],
@@ -280,11 +316,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "NVIDIA-NeMo/NeMo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "google-deepmind/graph_nets"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Adamdad/DeRy"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "KerfuffleV2/smolrsrwkv"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "NVIDIA-NeMo/NeMo"
     }
   ],
   "first_seen_at": "2026-04-21T18:51:25.552552+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

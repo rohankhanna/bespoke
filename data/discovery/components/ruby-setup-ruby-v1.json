@@ -1,7 +1,7 @@
 {
   "component": "ruby/setup-ruby@v1",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -1067,6 +1067,221 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build.yml",
       "source_repo": "ankane/neighbor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "deivid-rodriguez/pry-byebug"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/jazzy.yml",
+      "source_repo": "jpsim/SourceKitten"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "blackducksoftware/ohcount"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverity.yml",
+      "source_repo": "blackducksoftware/ohcount"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jhawthorn/fzy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "carrierwaveuploader/carrierwave-i18n"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "carrierwaveuploader/carrierwave-mongoid"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/func_spec.yml",
+      "source_repo": "chef/chef"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gem_tests.yml",
+      "source_repo": "chef/chef"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "dpep/ice_age_rb"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "puppetlabs/puppet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/mend.yaml",
+      "source_repo": "puppetlabs/puppet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/rspec_tests.yaml",
+      "source_repo": "puppetlabs/puppet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "thoughtbot/climate_control"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rails/execjs"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ruby.yml",
+      "source_repo": "jordansissel/fpm"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "intridea/multi_json"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/CI.yml",
+      "source_repo": "ohler55/agoo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "rake-compiler/rake-compiler-dock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-images.yml",
+      "source_repo": "rake-compiler/rake-compiler-dock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/publish-images.yml.erb",
+      "source_repo": "rake-compiler/rake-compiler-dock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-images.yml",
+      "source_repo": "rake-compiler/rake-compiler-dock"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/dailly-generate-updates.yml",
+      "source_repo": "googleapis/elixir-google-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/generate-updates.yml",
+      "source_repo": "googleapis/elixir-google-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-freeze.yml",
+      "source_repo": "googleapis/elixir-google-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-unfreeze.yml",
+      "source_repo": "googleapis/elixir-google-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-api-list.yml",
+      "source_repo": "googleapis/elixir-google-api"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/disco"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/informers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/neighbor-redis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/active-record-multi-tenant-tests.yml",
+      "source_repo": "citusdata/activerecord-multi-tenant"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "nixme/pry-nav"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "Leaflet/Leaflet"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "ankane/tokenizers-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "ankane/tokenizers-ruby"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/danger.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-cocoapods.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-check-versions.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/swiftlint.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/tag-publish.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test-spm.yml",
+      "source_repo": "SwiftGen/StencilSwiftKit"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android-e2e-maestro.yml",
+      "source_repo": "artsy/eigen"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/android-expo-build.yml",
+      "source_repo": "artsy/eigen"
     }
   ]
 }

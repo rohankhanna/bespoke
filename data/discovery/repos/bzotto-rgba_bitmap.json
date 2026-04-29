@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:59:52.168755+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6750
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\"RGBA\" : Specification (and C routines) for the dumbest, most useful bitmap image file format!",
+    "fork": false,
+    "full_name": "bzotto/rgba_bitmap",
+    "html_url": "https://github.com/bzotto/rgba_bitmap",
+    "language": "C",
+    "pushed_at": "2024-06-03T16:08:12Z",
+    "stargazers_count": 28,
+    "topics": [],
+    "updated_at": "2026-01-26T07:03:32Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

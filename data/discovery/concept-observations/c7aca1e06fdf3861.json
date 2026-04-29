@@ -84,7 +84,7 @@
   "normalized_form": "discord-release-notification",
   "observation_id": "c7aca1e06fdf3861",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-24T06:47:13.899148+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Discord Release Notification",
   "source_context_snippet": "Discord Release Notification",
   "source_file": ".github/workflows/discord-release.yml",

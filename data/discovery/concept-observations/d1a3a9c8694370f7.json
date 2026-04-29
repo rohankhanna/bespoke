@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Locating and editing factual associations in GPT (NeurIPS 2022)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository provides an implementation of Rank-One Model Editing (ROME) on auto-regressive transformers (GPU-only)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository provides an implementation of Rank-One Model Editing (ROME) on auto-regressive transformers (GPU-only)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968406,
+      "status": "candidate",
+      "text": "comprehensibility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968302,
+      "status": "candidate",
+      "text": "understandability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968079,
+      "status": "candidate",
+      "text": "readability"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29967797,
+      "status": "candidate",
+      "text": "intelligibility"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29966857,
+      "status": "candidate",
+      "text": "understanding"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "interpretability",
+      "sense_id": "interpretability#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "interpretability",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "interpretability",
+  "observation_id": "d1a3a9c8694370f7",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "interpretability",
+  "source_context_snippet": "This repository provides an implementation of Rank-One Model Editing (ROME) on auto-regressive transformers (GPU-only).",
+  "source_file": null,
+  "source_repo": "kmeng01/rome",
+  "source_repo_description": "Locating and editing factual associations in GPT (NeurIPS 2022)"
+}

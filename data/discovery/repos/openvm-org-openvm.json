@@ -1,0 +1,588 @@
+{
+  "components": [
+    {
+      "component": "runs-on/action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-tests.cuda.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-tests.cuda.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-tests.cuda.yml"
+    },
+    {
+      "component": "taiki-e/install-action@nextest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-tests.cuda.yml"
+    },
+    {
+      "component": "runs-on/action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-call.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-call.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-call.yml"
+    },
+    {
+      "component": "runs-on/action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml"
+    },
+    {
+      "component": "cargo-bins/cargo-binstall@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml"
+    },
+    {
+      "component": "runs-on/action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml"
+    },
+    {
+      "component": "cargo-bins/cargo-binstall@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml"
+    },
+    {
+      "component": "CodSpeedHQ/action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml"
+    },
+    {
+      "component": "runs-on/action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-upload-fixtures.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-upload-fixtures.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-upload-fixtures.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-upload-fixtures.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "actions/github-script@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml"
+    },
+    {
+      "component": "runs-on/action@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "Swatinem/rust-cache@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "openvm-org/openvm",
+      "target": "openvm-org/stark-backend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "openvm-org/openvm",
+      "target": "openvm-org/stark-backend",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "openvm-org/openvm",
+      "target": "horizenlabs/poseidon2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "openvm-org/openvm",
+      "target": "axiom-crypto/halo2curves",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-tests.cuda.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "runs-on/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-tests.cuda.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-tests.cuda.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/base-tests.cuda.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "taiki-e/install-action@nextest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base-tests.cuda.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "Base Tests (CUDA)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-call.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "runs-on/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-call.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-call.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-call.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "Benchmark: running individual benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "runs-on/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "cargo-bins/cargo-binstall@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-execute.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "CodSpeedHQ/action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks-execute.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "Execution benchmarks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-upload-fixtures.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "runs-on/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-upload-fixtures.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-upload-fixtures.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks-upload-fixtures.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks-upload-fixtures.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "Upload benchmark fixtures",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "actions/github-script@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "OpenVM Benchmarks: Coordinate Runner & Reporting",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "runs-on/action@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "Swatinem/rust-cache@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "Build Workspace",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "openvm-org/openvm",
+      "target": "Claude Code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:47:16.356195+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4127
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 12092
+    },
+    {
+      "path": ".github/workflows/base-tests.cuda.yml",
+      "size": 2324
+    },
+    {
+      "path": ".github/workflows/benchmark-call.yml",
+      "size": 11986
+    },
+    {
+      "path": ".github/workflows/benchmarks-execute.yml",
+      "size": 4041
+    },
+    {
+      "path": ".github/workflows/benchmarks-upload-fixtures.yml",
+      "size": 1058
+    },
+    {
+      "path": ".github/workflows/benchmarks.yml",
+      "size": 15351
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 703
+    },
+    {
+      "path": ".github/workflows/claude-code-review.yml",
+      "size": 1482
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 2023
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A performant and modular zkVM framework built for customization and extensibility.",
+    "fork": false,
+    "full_name": "openvm-org/openvm",
+    "html_url": "https://github.com/openvm-org/openvm",
+    "language": "Rust",
+    "pushed_at": "2026-04-29T19:45:53Z",
+    "stargazers_count": 343,
+    "topics": [],
+    "updated_at": "2026-04-25T11:53:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvm-org/stark-backend",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "axiom-crypto/halo2curves",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "horizenlabs/poseidon2",
+      "source_file": "Cargo.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openvm-org/stark-backend",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Base Tests (CUDA)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/base-tests.cuda.yml",
+      "term": "Base Tests (CUDA)"
+    },
+    {
+      "context_snippet": "\"Benchmark: running individual benchmarks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-call.yml",
+      "term": "Benchmark: running individual benchmarks"
+    },
+    {
+      "context_snippet": "\"Execution benchmarks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks-execute.yml",
+      "term": "Execution benchmarks"
+    },
+    {
+      "context_snippet": "\"Upload benchmark fixtures\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks-upload-fixtures.yml",
+      "term": "Upload benchmark fixtures"
+    },
+    {
+      "context_snippet": "\"OpenVM Benchmarks: Coordinate Runner & Reporting\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmarks.yml",
+      "term": "OpenVM Benchmarks: Coordinate Runner & Reporting"
+    },
+    {
+      "context_snippet": "Build Workspace",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build Workspace"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-code-review.yml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    }
+  ]
+}

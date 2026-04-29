@@ -199,6 +199,42 @@
       "source_repo": "achembarpu/pockyt",
       "status": "candidate-context",
       "text": "======"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate-context",
+      "text": "Count your code, quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate-context",
+      "text": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "watchexec/cargo-watch",
+      "status": "candidate-context",
+      "text": "Watches over your Cargo project's source."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/cargo-watch",
+      "status": "candidate-context",
+      "text": "[![Crate release version](https://flat.badgen.net/crates/v/cargo-watch)](https://crates.io/crates/cargo-watch)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "toddbluhm/env-cmd",
+      "status": "candidate-context",
+      "text": "Setting environment variables from a file"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toddbluhm/env-cmd",
+      "status": "candidate-context",
+      "text": "[![Linux Tests](https://github.com/toddbluhm/env-cmd/workflows/linux%20tests/badge.svg)](https://github.com/toddbluhm/env-cmd/actions?query=workflow%3A%22linux%20tests%22)"
     }
   ],
   "candidate_glosses": [
@@ -297,6 +333,24 @@
       "source_repo": "achembarpu/pockyt",
       "status": "candidate",
       "text": "======"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "XAMPPRocky/tokei",
+      "status": "candidate",
+      "text": "[![Mean Bean CI](https://github.com/XAMPPRocky/tokei/workflows/Mean%20Bean%20CI/badge.svg)](https://github.com/XAMPPRocky/tokei/actions?query=workflow%3A%22Mean+Bean+CI%22)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "watchexec/cargo-watch",
+      "status": "candidate",
+      "text": "[![Crate release version](https://flat.badgen.net/crates/v/cargo-watch)](https://crates.io/crates/cargo-watch)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "toddbluhm/env-cmd",
+      "status": "candidate",
+      "text": "[![Linux Tests](https://github.com/toddbluhm/env-cmd/workflows/linux%20tests/badge.svg)](https://github.com/toddbluhm/env-cmd/actions?query=workflow%3A%22linux%20tests%22)"
     }
   ],
   "candidate_related_terms": [],
@@ -406,11 +460,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "achembarpu/pockyt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "XAMPPRocky/tokei"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "watchexec/cargo-watch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "toddbluhm/env-cmd"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

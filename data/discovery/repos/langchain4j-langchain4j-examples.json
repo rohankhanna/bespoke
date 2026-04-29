@@ -1,0 +1,84 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "langchain4j/langchain4j-examples",
+      "target": "langchain4j/langchain4j-community-examples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "langchain4j/langchain4j-examples",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "langchain4j/langchain4j-examples",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "source_repo": "langchain4j/langchain4j-examples",
+      "target": "On Pull Request",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:59:26.464552+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1035
+    },
+    {
+      "path": ".github/workflows/on_pull_request.yaml",
+      "size": 567
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "langchain4j/langchain4j-examples",
+    "html_url": "https://github.com/langchain4j/langchain4j-examples",
+    "language": "Java",
+    "pushed_at": "2026-04-09T14:28:46Z",
+    "stargazers_count": 1679,
+    "topics": [],
+    "updated_at": "2026-04-29T14:19:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "langchain4j/langchain4j-community-examples",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "On Pull Request",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/on_pull_request.yaml",
+      "term": "On Pull Request"
+    }
+  ]
+}

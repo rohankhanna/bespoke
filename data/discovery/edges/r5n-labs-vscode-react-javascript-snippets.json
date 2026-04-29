@@ -1,52 +1,10 @@
 {
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "package.json",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "dsznajder/vscode-es7-javascript-react-snippets",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "package-json:dependencies",
-      "source_file": "package.json",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "prettier",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "@babel/cli",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "@babel/eslint-parser",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "@babel/preset-typescript",
-      "target_type": "component"
-    },
-    {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "r5n-labs/vscode-react-javascript-snippets",
       "target": "@types/node",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "@types/prettier",
       "target_type": "component"
     },
     {
@@ -60,77 +18,28 @@
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "@typescript-eslint/eslint-plugin",
+      "target": "@vscode/vsce",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "@typescript-eslint/parser",
+      "target": "ovsx",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "eslint",
+      "target": "oxfmt",
       "target_type": "component"
     },
     {
       "edge_type": "package-json:devDependencies",
       "source_file": "package.json",
       "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "eslint-config-prettier",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "eslint-plugin-babel",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "eslint-plugin-eslint-comments",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "eslint-plugin-import",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "eslint-plugin-jest",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "eslint-plugin-prettier",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "eslint-plugin-simple-import-sort",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "package-json:devDependencies",
-      "source_file": "package.json",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "prettier",
+      "target": "oxlint",
       "target_type": "component"
     },
     {
@@ -141,31 +50,45 @@
       "target_type": "component"
     },
     {
-      "edge_type": "package-json:peerDependencies",
-      "source_file": "package.json",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
       "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "prettier",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "target": "oven-sh/setup-bun@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "target": "softprops/action-gh-release@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/typescript_and_lint.yml",
+      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
+      "target": "actions/checkout@v6",
       "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/typescript_and_lint.yml",
       "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "actions/checkout@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/typescript_and_lint.yml",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "actions/setup-node@v2",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/typescript_and_lint.yml",
-      "source_repo": "r5n-labs/vscode-react-javascript-snippets",
-      "target": "actions/cache@v2",
+      "target": "oven-sh/setup-bun@v2",
       "target_type": "component"
     },
     {
@@ -274,6 +197,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "r5n-labs/vscode-react-javascript-snippets"
 }

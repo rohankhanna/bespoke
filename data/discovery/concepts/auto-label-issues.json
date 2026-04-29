@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Auto Label Issues",
-    "Auto-label Issues"
+    "Auto-label Issues",
+    "Auto-Label Issues"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,18 @@
       "source_repo": "cline/cline",
       "status": "candidate-context",
       "text": "Auto-label Issues"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate-context",
+      "text": "A unified inference and post-training framework for accelerated video generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate-context",
+      "text": "Auto-Label Issues"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +59,12 @@
       "source_repo": "cline/cline",
       "status": "candidate",
       "text": "Auto-label Issues"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hao-ai-lab/FastVideo",
+      "status": "candidate",
+      "text": "Auto-Label Issues"
     }
   ],
   "candidate_related_terms": [
@@ -136,11 +155,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": ".github/workflows/label-jetbrains-issues.yml",
       "source_repo": "cline/cline"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/community-issue-labeler.yml",
+      "source_repo": "hao-ai-lab/FastVideo"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,343 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bisects.yml"
+    },
+    {
+      "component": "jiro4989/setup-nim-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bisects.yml"
+    },
+    {
+      "component": "juancarlospaco/nimrun-action@nim",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bisects.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_docs.yml"
+    },
+    {
+      "component": "crazy-max/ghaction-github-pages@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_packages.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_packages.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_publish.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_publish.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_publish.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bisects.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bisects.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "jiro4989/setup-nim-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bisects.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "juancarlospaco/nimrun-action@nim",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bisects.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "issue comments bisects",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_docs.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_docs.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "crazy-max/ghaction-github-pages@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_docs.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "Nim Docs CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_packages.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_packages.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_packages.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "Packages CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_publish.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_publish.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci_publish.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_publish.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "Tracking orc-booting compiler memory usage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "source_repo": "nim-lang/Nim",
+      "target": "Stale pull requests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nim-lang/Nim",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nim-lang/Nim",
+      "target": "efficient",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nim-lang/Nim",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nim-lang/Nim",
+      "target": "language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nim-lang/Nim",
+      "target": "macros",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nim-lang/Nim",
+      "target": "metaprogramming",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "nim-lang/Nim",
+      "target": "procedural",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:47:57.306419+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/bisects.yml",
+      "size": 1609
+    },
+    {
+      "path": ".github/workflows/ci_docs.yml",
+      "size": 3281
+    },
+    {
+      "path": ".github/workflows/ci_packages.yml",
+      "size": 2389
+    },
+    {
+      "path": ".github/workflows/ci_publish.yml",
+      "size": 2113
+    },
+    {
+      "path": ".github/workflows/stale.yml",
+      "size": 1010
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "devel",
+    "description": "Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, and elegance (in that order of priority).",
+    "fork": false,
+    "full_name": "nim-lang/Nim",
+    "html_url": "https://github.com/nim-lang/Nim",
+    "language": "Nim",
+    "pushed_at": "2026-04-29T12:47:54Z",
+    "stargazers_count": 17956,
+    "topics": [
+      "compiler",
+      "efficient",
+      "hacktoberfest",
+      "language",
+      "macros",
+      "metaprogramming",
+      "nim",
+      "procedural"
+    ],
+    "updated_at": "2026-04-29T18:11:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "issue comments bisects",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bisects.yml",
+      "term": "issue comments bisects"
+    },
+    {
+      "context_snippet": "Nim Docs CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_docs.yml",
+      "term": "Nim Docs CI"
+    },
+    {
+      "context_snippet": "Packages CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_packages.yml",
+      "term": "Packages CI"
+    },
+    {
+      "context_snippet": "Tracking orc-booting compiler memory usage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci_publish.yml",
+      "term": "Tracking orc-booting compiler memory usage"
+    },
+    {
+      "context_snippet": "Stale pull requests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yml",
+      "term": "Stale pull requests"
+    },
+    {
+      "context_snippet": "issue comments bisects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "issue comments bisects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "efficient"
+    },
+    {
+      "context_snippet": "issue comments bisects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "issue comments bisects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language"
+    },
+    {
+      "context_snippet": "issue comments bisects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "macros"
+    },
+    {
+      "context_snippet": "issue comments bisects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "metaprogramming"
+    },
+    {
+      "context_snippet": "issue comments bisects",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "procedural"
+    }
+  ]
+}

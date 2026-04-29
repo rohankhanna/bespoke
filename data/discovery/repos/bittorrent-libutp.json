@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:50:28.794910+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2468
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "uTorrent Transport Protocol library",
+    "fork": false,
+    "full_name": "bittorrent/libutp",
+    "html_url": "https://github.com/bittorrent/libutp",
+    "language": "C++",
+    "pushed_at": "2023-10-19T22:11:58Z",
+    "stargazers_count": 1154,
+    "topics": [],
+    "updated_at": "2026-04-20T12:12:58Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

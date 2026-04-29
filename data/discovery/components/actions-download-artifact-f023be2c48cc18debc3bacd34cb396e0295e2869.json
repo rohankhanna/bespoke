@@ -1,0 +1,12 @@
+{
+  "component": "actions/download-artifact@f023be2c48cc18debc3bacd34cb396e0295e2869",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint"
+    }
+  ]
+}

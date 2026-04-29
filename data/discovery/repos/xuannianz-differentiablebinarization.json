@@ -1,0 +1,92 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuannianz/DifferentiableBinarization",
+      "target": "differentiable-binarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuannianz/DifferentiableBinarization",
+      "target": "keras-db",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuannianz/DifferentiableBinarization",
+      "target": "text-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "xuannianz/DifferentiableBinarization",
+      "target": "tf-db",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:40:26.390517+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 949
+    },
+    {
+      "path": "requirements.txt",
+      "size": 209
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DB (Real-time Scene Text Detection with Differentiable Binarization) implementation in Keras and Tensorflow",
+    "fork": false,
+    "full_name": "xuannianz/DifferentiableBinarization",
+    "html_url": "https://github.com/xuannianz/DifferentiableBinarization",
+    "language": "Python",
+    "pushed_at": "2022-11-22T04:38:57Z",
+    "stargazers_count": 161,
+    "topics": [
+      "db",
+      "differentiable-binarization",
+      "keras-db",
+      "ocr",
+      "text-detection",
+      "tf-db"
+    ],
+    "updated_at": "2025-08-02T07:06:39Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is an implementation of [Real-time Scene Text Detection with Differentiable Binarization](https://arxiv.org/abs/1911.08947) in Keras and Tensorflow,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "differentiable-binarization"
+    },
+    {
+      "context_snippet": "This is an implementation of [Real-time Scene Text Detection with Differentiable Binarization](https://arxiv.org/abs/1911.08947) in Keras and Tensorflow,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras-db"
+    },
+    {
+      "context_snippet": "This is an implementation of [Real-time Scene Text Detection with Differentiable Binarization](https://arxiv.org/abs/1911.08947) in Keras and Tensorflow,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-detection"
+    },
+    {
+      "context_snippet": "This is an implementation of [Real-time Scene Text Detection with Differentiable Binarization](https://arxiv.org/abs/1911.08947) in Keras and Tensorflow,",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tf-db"
+    }
+  ]
+}

@@ -31,6 +31,42 @@
       "source_repo": "babashka/babashka-sql-pods",
       "status": "candidate-context",
       "text": "[Babashka](https://github.com/borkdude/babashka) pods for interacting with SQL"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate-context",
+      "text": "Free universal database tool and SQL client"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate-context",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/dbeaver_news.svg?style=social&label=Follow%20%40dbeaver_news)](https://twitter.com/dbeaver_news)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seancorfield/next-jdbc",
+      "status": "candidate-context",
+      "text": "A modern low-level Clojure wrapper for JDBC-based access to databases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/next-jdbc",
+      "status": "candidate-context",
+      "text": "The next generation of `clojure.java.jdbc`: a new low-level Clojure wrapper for JDBC-based access to databases."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate-context",
+      "text": "Apache Kafka, Apache Flink and Confluent Platform examples and demos"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate-context",
+      "text": "![image](images/confluent-logo-300-2.png)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +81,24 @@
       "source_repo": "babashka/babashka-sql-pods",
       "status": "candidate",
       "text": "[Babashka](https://github.com/borkdude/babashka) pods for interacting with SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dbeaver/dbeaver",
+      "status": "candidate",
+      "text": "[![Twitter URL](https://img.shields.io/twitter/url/https/twitter.com/dbeaver_news.svg?style=social&label=Follow%20%40dbeaver_news)](https://twitter.com/dbeaver_news)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/next-jdbc",
+      "status": "candidate",
+      "text": "The next generation of `clojure.java.jdbc`: a new low-level Clojure wrapper for JDBC-based access to databases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "confluentinc/examples",
+      "status": "candidate",
+      "text": "![image](images/confluent-logo-300-2.png)"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +154,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dbeaver/dbeaver"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "seancorfield/next-jdbc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "confluentinc/examples"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

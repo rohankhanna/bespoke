@@ -1,0 +1,178 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "blindpandas/chessmart",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "blindpandas/chessmart",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "blindpandas/chessmart",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "blindpandas/chessmart",
+      "target": "Build add-on",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blindpandas/chessmart",
+      "target": "a11y",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blindpandas/chessmart",
+      "target": "audiogames",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blindpandas/chessmart",
+      "target": "blind",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blindpandas/chessmart",
+      "target": "chess",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blindpandas/chessmart",
+      "target": "game",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blindpandas/chessmart",
+      "target": "ibca",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "blindpandas/chessmart",
+      "target": "nvdasr",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:49.515976+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 687
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The most accessible chessboard in the planet earth",
+    "fork": false,
+    "full_name": "blindpandas/chessmart",
+    "html_url": "https://github.com/blindpandas/chessmart",
+    "language": "Python",
+    "pushed_at": "2022-08-13T20:08:39Z",
+    "stargazers_count": 13,
+    "topics": [
+      "a11y",
+      "audiogames",
+      "blind",
+      "chess",
+      "game",
+      "ibca",
+      "nvdasr"
+    ],
+    "updated_at": "2026-04-19T19:35:48Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build add-on",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Build add-on"
+    },
+    {
+      "context_snippet": "Build add-on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "a11y"
+    },
+    {
+      "context_snippet": "Build add-on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "audiogames"
+    },
+    {
+      "context_snippet": "Build add-on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blind"
+    },
+    {
+      "context_snippet": "Build add-on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chess"
+    },
+    {
+      "context_snippet": "Build add-on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "game"
+    },
+    {
+      "context_snippet": "Build add-on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ibca"
+    },
+    {
+      "context_snippet": "Build add-on",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvdasr"
+    }
+  ]
+}

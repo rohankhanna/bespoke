@@ -1,0 +1,456 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aggregate-distro-update-sites.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aggregate-ls-extensions-update-site.yml"
+    },
+    {
+      "component": "spring-io/spring-release-actions/announce-on-gchat@2420148725bebe44bd59a575a9b1961ca4459b0b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/announce-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode-extension.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode-extension.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-draft.yml"
+    },
+    {
+      "component": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-draft.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloudflare-clear-cache-s3-dir.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-gh-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-gh-release.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-gh-release.yml"
+    },
+    {
+      "component": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-gh-release.yml"
+    },
+    {
+      "component": "actions/create-release@0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-gh-release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "spring-projects/spring-tools4",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "spring-projects/.github",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aggregate-distro-update-sites.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aggregate-distro-update-sites.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "Aggregate Distro Update Sites",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/aggregate-ls-extensions-update-site.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aggregate-ls-extensions-update-site.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "Aggregate LS Extensions Update Sites",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/announce-release.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "spring-io/spring-release-actions/announce-on-gchat@2420148725bebe44bd59a575a9b1961ca4459b0b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/announce-release.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "Announce Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backup-eclipse-releases-to-gcp.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "Backup Eclipse Releases to GCP",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode-extension.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-vscode-extension.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-vscode-extension.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "Build VSCode Extension",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-draft.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/changelog-draft.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "actions/setup-java@be666c2fcd27ec809703dec50e508c2fdc7f6654",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-draft.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "Changelog Draft",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-notarization.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "Check Notarization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cloudflare-clear-cache-s3-dir.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cloudflare-clear-cache-s3-dir.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "Cloudflare Purge Cache for Directory",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "actions/upload-artifact@043fb46d1a93c77aae656e7c1c64a875d1fc6a0a",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "actions/download-artifact@3e5f45b2cfb9172054b4087a40e8e0b5a5461e7c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "actions/create-release@0cb9c9b65d5d1901c1f53e5e66eaf4afd303e70e",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "source_repo": "spring-projects/spring-tools",
+      "target": "Create Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools",
+      "target": "eclipse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools",
+      "target": "spring",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools",
+      "target": "spring-boot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools",
+      "target": "sts4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools",
+      "target": "theia",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools",
+      "target": "visual-studio-code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "spring-projects/spring-tools",
+      "target": "vscode-extension",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:43:24.166384+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1989
+    },
+    {
+      "path": ".github/workflows/aggregate-distro-update-sites.yml",
+      "size": 4096
+    },
+    {
+      "path": ".github/workflows/aggregate-ls-extensions-update-site.yml",
+      "size": 2501
+    },
+    {
+      "path": ".github/workflows/announce-release.yml",
+      "size": 1687
+    },
+    {
+      "path": ".github/workflows/backup-eclipse-releases-to-gcp.yml",
+      "size": 2182
+    },
+    {
+      "path": ".github/workflows/build-vscode-extension.yml",
+      "size": 2207
+    },
+    {
+      "path": ".github/workflows/changelog-draft.yml",
+      "size": 1200
+    },
+    {
+      "path": ".github/workflows/check-notarization.yml",
+      "size": 450
+    },
+    {
+      "path": ".github/workflows/cloudflare-clear-cache-s3-dir.yml",
+      "size": 1573
+    },
+    {
+      "path": ".github/workflows/create-gh-release.yml",
+      "size": 2385
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The next generation of tooling for Spring Boot, including support for Cloud Foundry manifest files, Concourse CI pipeline definitions, BOSH deployment manifests, and more... - Available for Visual Studio Code, Cursor, Eclipse, and Theia",
+    "fork": false,
+    "full_name": "spring-projects/spring-tools",
+    "html_url": "https://github.com/spring-projects/spring-tools",
+    "language": "Java",
+    "pushed_at": "2026-04-29T14:30:03Z",
+    "stargazers_count": 962,
+    "topics": [
+      "eclipse",
+      "spring",
+      "spring-boot",
+      "sts4",
+      "theia",
+      "visual-studio-code",
+      "vscode-extension"
+    ],
+    "updated_at": "2026-04-29T14:36:51Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spring-projects/.github",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "spring-projects/spring-tools4",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Aggregate Distro Update Sites",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aggregate-distro-update-sites.yml",
+      "term": "Aggregate Distro Update Sites"
+    },
+    {
+      "context_snippet": "Aggregate LS Extensions Update Sites",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/aggregate-ls-extensions-update-site.yml",
+      "term": "Aggregate LS Extensions Update Sites"
+    },
+    {
+      "context_snippet": "Announce Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/announce-release.yml",
+      "term": "Announce Release"
+    },
+    {
+      "context_snippet": "Backup Eclipse Releases to GCP",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backup-eclipse-releases-to-gcp.yml",
+      "term": "Backup Eclipse Releases to GCP"
+    },
+    {
+      "context_snippet": "Build VSCode Extension",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-vscode-extension.yml",
+      "term": "Build VSCode Extension"
+    },
+    {
+      "context_snippet": "Changelog Draft",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/changelog-draft.yml",
+      "term": "Changelog Draft"
+    },
+    {
+      "context_snippet": "Check Notarization",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/check-notarization.yml",
+      "term": "Check Notarization"
+    },
+    {
+      "context_snippet": "Cloudflare Purge Cache for Directory",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cloudflare-clear-cache-s3-dir.yml",
+      "term": "Cloudflare Purge Cache for Directory"
+    },
+    {
+      "context_snippet": "Create Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-gh-release.yml",
+      "term": "Create Release"
+    },
+    {
+      "context_snippet": "The all-new Spring Tools for Visual Studio Code, Eclipse, and Theia. Learn more at https://spring.io/tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse"
+    },
+    {
+      "context_snippet": "The all-new Spring Tools for Visual Studio Code, Eclipse, and Theia. Learn more at https://spring.io/tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring"
+    },
+    {
+      "context_snippet": "The all-new Spring Tools for Visual Studio Code, Eclipse, and Theia. Learn more at https://spring.io/tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spring-boot"
+    },
+    {
+      "context_snippet": "The all-new Spring Tools for Visual Studio Code, Eclipse, and Theia. Learn more at https://spring.io/tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sts4"
+    },
+    {
+      "context_snippet": "The all-new Spring Tools for Visual Studio Code, Eclipse, and Theia. Learn more at https://spring.io/tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "theia"
+    },
+    {
+      "context_snippet": "The all-new Spring Tools for Visual Studio Code, Eclipse, and Theia. Learn more at https://spring.io/tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "visual-studio-code"
+    },
+    {
+      "context_snippet": "The all-new Spring Tools for Visual Studio Code, Eclipse, and Theia. Learn more at https://spring.io/tools.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vscode-extension"
+    }
+  ]
+}

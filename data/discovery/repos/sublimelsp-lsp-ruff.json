@@ -1,0 +1,50 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sublimelsp/LSP-ruff",
+      "target": "linting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:57:58.961944+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1410
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 460
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "LSP helper for ruff - an extremely fast Python linter, written in Rust.",
+    "fork": false,
+    "full_name": "sublimelsp/LSP-ruff",
+    "html_url": "https://github.com/sublimelsp/LSP-ruff",
+    "language": "Python",
+    "pushed_at": "2026-04-24T18:55:32Z",
+    "stargazers_count": 58,
+    "topics": [
+      "linting",
+      "lsp",
+      "python"
+    ],
+    "updated_at": "2026-04-17T06:30:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "This is a helper package that automatically installs and updates [ruff](https://github.com/astral-sh/ruff) for you. Ruff is an extremely fast Python linter and code transformation tool, written in Rust.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linting"
+    }
+  ]
+}

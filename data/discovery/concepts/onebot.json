@@ -31,6 +31,18 @@
       "source_repo": "botuniverse/onebot",
       "status": "candidate-context",
       "text": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aimerneige/yukichan-bot",
+      "status": "candidate-context",
+      "text": "\u3086\u304d\u9171\u662f\u4f7f\u7528 ZeroBot \u6784\u5efa\u7684\u56fd\u9645\u8c61\u68cb\u804a\u5929\u673a\u5668\u4eba\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimerneige/yukichan-bot",
+      "status": "candidate-context",
+      "text": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "botuniverse/onebot",
       "status": "candidate",
       "text": "**OneBot** \u662f\u4e00\u4e2a\u804a\u5929\u673a\u5668\u4eba\u5e94\u7528\u63a5\u53e3\u6807\u51c6\uff0c\u65e8\u5728\u7edf\u4e00\u4e0d\u540c\u804a\u5929\u5e73\u53f0\u4e0a\u7684\u673a\u5668\u4eba\u5e94\u7528\u5f00\u53d1\u63a5\u53e3\uff0c\u4f7f\u5f00\u53d1\u8005\u53ea\u9700\u7f16\u5199\u4e00\u6b21\u4e1a\u52a1\u903b\u8f91\u4ee3\u7801\u5373\u53ef\u5e94\u7528\u5230\u591a\u79cd\u673a\u5668\u4eba\u5e73\u53f0\u3002"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aimerneige/yukichan-bot",
+      "status": "candidate",
+      "text": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "botuniverse/onebot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aimerneige/yukichan-bot"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

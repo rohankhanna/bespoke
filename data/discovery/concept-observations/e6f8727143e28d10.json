@@ -48,7 +48,7 @@
   "normalized_form": "ppmd-dependabot",
   "observation_id": "e6f8727143e28d10",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T01:09:11.871080+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "PPMd Dependabot",
   "source_context_snippet": "PPMd Dependabot",
   "source_file": ".github/workflows/ppmd-dependabot.yml",

@@ -84,7 +84,7 @@
   "normalized_form": "create-sbom-for-the-release",
   "observation_id": "ed0286740d3349dc",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Create SBOM for the release",
   "source_context_snippet": "Create SBOM for the release",
   "source_file": ".github/workflows/create_sbom_report.yml",

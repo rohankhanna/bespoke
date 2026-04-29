@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Electrum plugin for Bitcoin Wallet Tracker, a lightweight personal indexer for bitcoin wallets. Allows connecting Electrum to a Bitcoin Core full node backend."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![Build Status](https://travis-ci.org/bwt-dev/bwt-electrum-plugin.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt-electrum-plugin)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/bwt-dev/bwt-electrum-plugin.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt-electrum-plugin)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19511059,
+      "status": "candidate",
+      "text": "electre"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19511058,
+      "status": "candidate",
+      "text": "grisamber"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19511057,
+      "status": "candidate",
+      "text": "emeril"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19511056,
+      "status": "candidate",
+      "text": "amber-greece"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19511055,
+      "status": "candidate",
+      "text": "ambergrece"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "electrum",
+      "sense_id": "electrum#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "electrum",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "electrum",
+  "observation_id": "bdebccb59c86d2a9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "electrum",
+  "source_context_snippet": "[![Build Status](https://travis-ci.org/bwt-dev/bwt-electrum-plugin.svg?branch=master)](https://travis-ci.org/bwt-dev/bwt-electrum-plugin)",
+  "source_file": null,
+  "source_repo": "bwt-dev/bwt-electrum-plugin",
+  "source_repo_description": "Electrum plugin for Bitcoin Wallet Tracker, a lightweight personal indexer for bitcoin wallets. Allows connecting Electrum to a Bitcoin Core full node backend."
+}

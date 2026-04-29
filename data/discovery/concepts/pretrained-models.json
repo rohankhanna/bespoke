@@ -169,6 +169,84 @@
       "source_repo": "asteroid-team/asteroid",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/CogVLM",
+      "status": "candidate-context",
+      "text": "a state-of-the-art-level open visual language model | \u591a\u6a21\u6001\u9884\u8bad\u7ec3\u6a21\u578b"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CogVLM",
+      "status": "candidate-context",
+      "text": "\ud83d\udcd7 [\u4e2d\u6587\u7248README](./README_zh.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "staoxiao/RetroMAE",
+      "status": "candidate-context",
+      "text": "Codebase for RetroMAE and beyond."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "staoxiao/RetroMAE",
+      "status": "candidate-context",
+      "text": "Codebase for **[RetroMAE](https://arxiv.org/abs/2205.12035)** and beyond."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers",
+      "status": "candidate-context",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "zai-org/CodeGeeX2",
+      "status": "candidate-context",
+      "text": "CodeGeeX2: A More Powerful Multilingual Code Generation Model"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CodeGeeX2",
+      "status": "candidate-context",
+      "text": "![](resources/codegeex_logo.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "THUDM/SwissArmyTransformer",
+      "status": "candidate-context",
+      "text": "SwissArmyTransformer is a flexible and powerful library to develop your own Transformer variants."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/SwissArmyTransformer",
+      "status": "candidate-context",
+      "text": "`sat`(`SwissArmyTransformer`) is a flexible and powerful library to develop your own Transformer variants."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate-context",
+      "text": "Sandbox for training deep learning networks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate-context",
+      "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "Easy-to-use and powerful LLM and SLM library with awesome model zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
     }
   ],
   "candidate_glosses": [
@@ -249,6 +327,48 @@
       "source_repo": "asteroid-team/asteroid",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CogVLM",
+      "status": "candidate",
+      "text": "\ud83d\udcd7 [\u4e2d\u6587\u7248README](./README_zh.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "staoxiao/RetroMAE",
+      "status": "candidate",
+      "text": "Codebase for **[RetroMAE](https://arxiv.org/abs/2205.12035)** and beyond."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/transformers",
+      "status": "candidate",
+      "text": "<!---"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "zai-org/CodeGeeX2",
+      "status": "candidate",
+      "text": "![](resources/codegeex_logo.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "THUDM/SwissArmyTransformer",
+      "status": "candidate",
+      "text": "`sat`(`SwissArmyTransformer`) is a flexible and powerful library to develop your own Transformer variants."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "osmr/imgclsmob",
+      "status": "candidate",
+      "text": "[![Build Status](https://travis-ci.org/osmr/imgclsmob.svg?branch=master)](https://travis-ci.org/osmr/imgclsmob)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate",
+      "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
     }
   ],
   "candidate_related_terms": [],
@@ -370,11 +490,65 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "asteroid-team/asteroid"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/pytorch-image-models"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CogVLM"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmpretrain"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "staoxiao/RetroMAE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "huggingface/transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "zai-org/CodeGeeX2"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "THUDM/SwissArmyTransformer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "osmr/imgclsmob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP"
     }
   ],
   "first_seen_at": "2026-04-18T13:15:13.756138+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

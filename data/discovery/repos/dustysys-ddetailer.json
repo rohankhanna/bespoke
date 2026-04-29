@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dustysys/ddetailer",
+      "target": "wkpark/uddetailer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dustysys/ddetailer",
+      "target": "hysts/anime-face-detector",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dustysys/ddetailer",
+      "target": "jerryli27/aniseg",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:48:55.851179+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3864
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "dustysys/ddetailer",
+    "html_url": "https://github.com/dustysys/ddetailer",
+    "language": "Python",
+    "pushed_at": "2023-12-10T14:02:08Z",
+    "stargazers_count": 338,
+    "topics": [],
+    "updated_at": "2026-04-11T09:07:58Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hysts/anime-face-detector",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jerryli27/aniseg",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wkpark/uddetailer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

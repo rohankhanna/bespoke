@@ -19,6 +19,18 @@
       "source_repo": "krzysztofzablocki/Sourcery",
       "status": "candidate-context",
       "text": "[![macOS 13](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml/badge.svg)](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate-context",
+      "text": "Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, and elegance (in that order of priority)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate-context",
+      "text": "issue comments bisects"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "krzysztofzablocki/Sourcery",
       "status": "candidate",
       "text": "[![macOS 13](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml/badge.svg)](https://github.com/krzysztofzablocki/Sourcery/actions/workflows/test_macOS.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate",
+      "text": "issue comments bisects"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "krzysztofzablocki/Sourcery"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nim-lang/Nim"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

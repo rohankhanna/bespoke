@@ -1,0 +1,203 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-freeze-bypass.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-doctor.yml"
+    },
+    {
+      "component": "actions/stale@v10",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "groq/groq-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "groq/groq-python",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-freeze-bypass.yaml",
+      "source_repo": "groq/groq-python",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-freeze-bypass.yaml",
+      "source_repo": "groq/groq-python",
+      "target": "Code Freeze Bypass Status",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "groq/groq-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "source_repo": "groq/groq-python",
+      "target": "Publish PyPI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-doctor.yml",
+      "source_repo": "groq/groq-python",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-doctor.yml",
+      "source_repo": "groq/groq-python",
+      "target": "Release Doctor",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "groq/groq-python",
+      "target": "actions/stale@v10",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "source_repo": "groq/groq-python",
+      "target": "Close stale PRs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "groq/groq-python",
+      "target": "managed-by-terraform",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:49:24.773421+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14884
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 6404
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 3159
+    },
+    {
+      "path": ".github/workflows/code-freeze-bypass.yaml",
+      "size": 1823
+    },
+    {
+      "path": ".github/workflows/publish-pypi.yml",
+      "size": 854
+    },
+    {
+      "path": ".github/workflows/release-doctor.yml",
+      "size": 606
+    },
+    {
+      "path": ".github/workflows/stale.yaml",
+      "size": 878
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The official Python Library for the Groq API",
+    "fork": false,
+    "full_name": "groq/groq-python",
+    "html_url": "https://github.com/groq/groq-python",
+    "language": "Python",
+    "pushed_at": "2026-04-28T03:50:07Z",
+    "stargazers_count": 600,
+    "topics": [
+      "managed-by-terraform"
+    ],
+    "updated_at": "2026-04-27T09:42:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Code Freeze Bypass Status\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-freeze-bypass.yaml",
+      "term": "Code Freeze Bypass Status"
+    },
+    {
+      "context_snippet": "Publish PyPI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish-pypi.yml",
+      "term": "Publish PyPI"
+    },
+    {
+      "context_snippet": "Release Doctor",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-doctor.yml",
+      "term": "Release Doctor"
+    },
+    {
+      "context_snippet": "\"Close stale PRs\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/stale.yaml",
+      "term": "Close stale PRs"
+    },
+    {
+      "context_snippet": "<!-- prettier-ignore -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "managed-by-terraform"
+    }
+  ]
+}

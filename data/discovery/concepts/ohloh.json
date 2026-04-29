@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "ohloh"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blackducksoftware/ohcount",
+      "status": "candidate-context",
+      "text": "The Ohloh source code line counter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackducksoftware/ohcount",
+      "status": "candidate-context",
+      "text": "![Coverity Scan Build](https://github.com/blackducksoftware/ohcount/actions/workflows/coverity.yml/badge.svg?branch=main)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blackducksoftware/ohcount",
+      "status": "candidate",
+      "text": "![Coverity Scan Build](https://github.com/blackducksoftware/ohcount/actions/workflows/coverity.yml/badge.svg?branch=main)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "ohloh",
+  "concept_id": "ohloh",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "blackducksoftware/ohcount"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "ohloh",
+      "sense_id": "ohloh#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

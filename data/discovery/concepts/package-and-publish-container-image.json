@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Package and publish container image"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "statsd/statsd",
+      "status": "candidate-context",
+      "text": "Daemon for easy but powerful stats aggregation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statsd/statsd",
+      "status": "candidate-context",
+      "text": "Package and publish container image"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "statsd/statsd",
+      "status": "candidate",
+      "text": "Package and publish container image"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44649,
+      "status": "candidate",
+      "text": "unpack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44270,
+      "status": "candidate",
+      "text": "pack"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28145,
+      "status": "candidate",
+      "text": "loose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28089,
+      "status": "candidate",
+      "text": "out"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 28082,
+      "status": "candidate",
+      "text": "parcel"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Package and publish container image",
+  "concept_id": "package-and-publish-container-image",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/package-and-publish-image.yml",
+      "source_repo": "statsd/statsd"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Package and publish container image",
+      "sense_id": "package-and-publish-container-image#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

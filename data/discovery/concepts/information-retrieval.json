@@ -187,6 +187,42 @@
       "source_repo": "castorini/pyserini",
       "status": "candidate-context",
       "text": "[![PyPI](https://img.shields.io/pypi/v/pyserini?color=brightgreen)](https://pypi.org/project/pyserini/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "castorini/anserini",
+      "status": "candidate-context",
+      "text": "Anserini is a Lucene toolkit for reproducible information retrieval research"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castorini/anserini",
+      "status": "candidate-context",
+      "text": "Anserini <img src=\"docs/anserini-logo.png\" width=\"300\" />"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "staoxiao/RetroMAE",
+      "status": "candidate-context",
+      "text": "Codebase for RetroMAE and beyond."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "staoxiao/RetroMAE",
+      "status": "candidate-context",
+      "text": "Codebase for **[RetroMAE](https://arxiv.org/abs/2205.12035)** and beyond."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/RocketQA",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 RocketQA, dense retrieval for information retrieval and question answering, including both Chinese and English state-of-the-art models. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/RocketQA",
+      "status": "candidate-context",
+      "text": "<p align=center> <img src=\"https://github.com/PaddlePaddle/RocketQA/blob/main/RocketQA_title.png\" /> </p>"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +315,24 @@
       "source_repo": "castorini/pyserini",
       "status": "candidate",
       "text": "[![PyPI](https://img.shields.io/pypi/v/pyserini?color=brightgreen)](https://pypi.org/project/pyserini/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "castorini/anserini",
+      "status": "candidate",
+      "text": "Anserini <img src=\"docs/anserini-logo.png\" width=\"300\" />"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "staoxiao/RetroMAE",
+      "status": "candidate",
+      "text": "Codebase for **[RetroMAE](https://arxiv.org/abs/2205.12035)** and beyond."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/RocketQA",
+      "status": "candidate",
+      "text": "<p align=center> <img src=\"https://github.com/PaddlePaddle/RocketQA/blob/main/RocketQA_title.png\" /> </p>"
     }
   ],
   "candidate_related_terms": [],
@@ -388,11 +442,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "castorini/pyserini"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ashvardanian/NumKong"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "castorini/anserini"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "staoxiao/RetroMAE"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/RocketQA"
     }
   ],
   "first_seen_at": "2026-04-18T18:30:26.389736+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

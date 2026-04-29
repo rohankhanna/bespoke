@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "CDK Analytics Metadata Updater"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "CDK Analytics Metadata Updater"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10220,
+      "status": "candidate",
+      "text": "complex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10220,
+      "status": "candidate",
+      "text": "protein"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9254,
+      "status": "candidate",
+      "text": "acl"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9199,
+      "status": "candidate",
+      "text": "annotation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9184,
+      "status": "candidate",
+      "text": "data"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CDK Analytics Metadata Updater",
+      "sense_id": "cdk-analytics-metadata-updater#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "cdk-analytics-metadata-updater",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "cdk-analytics-metadata-updater",
+  "observation_id": "f33db9bbf4981cd1",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "CDK Analytics Metadata Updater",
+  "source_context_snippet": "CDK Analytics Metadata Updater",
+  "source_file": ".github/workflows/analytics-metadata-updater.yml",
+  "source_repo": "aws/aws-cdk",
+  "source_repo_description": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code"
+}

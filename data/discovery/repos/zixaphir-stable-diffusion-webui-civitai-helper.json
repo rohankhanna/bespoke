@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:47:52.591972+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 18712
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Stable Diffusion Webui Extension for Civitai, to manage your model much more easily.",
+    "fork": true,
+    "full_name": "zixaphir/Stable-Diffusion-Webui-Civitai-Helper",
+    "html_url": "https://github.com/zixaphir/Stable-Diffusion-Webui-Civitai-Helper",
+    "language": "Python",
+    "pushed_at": "2026-01-13T00:01:32Z",
+    "stargazers_count": 252,
+    "topics": [],
+    "updated_at": "2026-04-16T00:40:28Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/TPO",
+      "target": "wjun0830/cgdetr",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:50:54.863587+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4115
+    },
+    {
+      "path": "requirements.txt",
+      "size": 189
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Task Preference Optimization: Improving Multimodal Large Language Models with Vision Task Alignment",
+    "fork": false,
+    "full_name": "OpenGVLab/TPO",
+    "html_url": "https://github.com/OpenGVLab/TPO",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2025-07-22T07:47:48Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-04-13T07:04:36Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "wjun0830/cgdetr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

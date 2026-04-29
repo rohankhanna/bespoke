@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "spmd"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ispc/ispc",
+      "status": "candidate-context",
+      "text": "Intel\u00ae Implicit SPMD Program Compiler"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ispc/ispc",
+      "status": "candidate-context",
+      "text": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ispc/ispc",
+      "status": "candidate",
+      "text": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "spmd",
+  "concept_id": "spmd",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ispc/ispc"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spmd",
+      "sense_id": "spmd#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

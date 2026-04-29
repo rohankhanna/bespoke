@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:02:36.933714+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 795
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "'cargo-make' makefile for grcov coverage",
+    "fork": false,
+    "full_name": "kazuk/cargo-make-coverage-grcov",
+    "html_url": "https://github.com/kazuk/cargo-make-coverage-grcov",
+    "language": null,
+    "pushed_at": "2022-04-20T00:13:47Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2022-03-03T23:38:19Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

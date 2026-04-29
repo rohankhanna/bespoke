@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "LongQLoRA: Extent Context Length of LLMs Efficiently "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "accelerate==0.21.0 transformers==4.31.0 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx flash_attn==2.3.3 joblib==1.2.0 scikit_learn==0.24.2"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "accelerate==0.21.0 transformers==4.31.0 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx flash_attn==2.3.3 joblib==1.2.0 scikit_learn==0.24.2"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "longlora",
+      "sense_id": "longlora#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "longlora",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "longlora",
+  "observation_id": "c3ad3ab196f91c29",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "longlora",
+  "source_context_snippet": "accelerate==0.21.0 transformers==4.31.0 peft==0.4.0 bitsandbytes==0.39.0 loguru numpy pandas tqdm deepspeed==0.9.5 tensorboard sentencepiece transformers_stream_generator tiktoken einops torch==1.13.0 openpyxl httpx flash_attn==2.3.3 joblib==1.2.0 scikit_learn==0.24.2",
+  "source_file": null,
+  "source_repo": "yangjianxin1/LongQLoRA",
+  "source_repo_description": "LongQLoRA: Extent Context Length of LLMs Efficiently "
+}

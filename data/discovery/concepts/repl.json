@@ -94,6 +94,90 @@
       "source_repo": "fzyzcjy/dart_interactive",
       "status": "candidate-context",
       "text": "[![Flutter Package](https://img.shields.io/pub/v/interactive.svg)](https://pub.dev/packages/interactive)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "status": "candidate-context",
+      "text": "Step-by-step debugging and stack navigation in Pry"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "status": "candidate-context",
+      "text": "[![Version][VersionBadge]][VersionURL]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "status": "candidate-context",
+      "text": "ClojureScript \"IntelliSense\" support for JS objects and their properties/methods. Via figwheel and Emacs CIDER."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "randy3k/radian",
+      "status": "candidate-context",
+      "text": "A 21 century R console"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy3k/radian",
+      "status": "candidate-context",
+      "text": "`radian` is no longer under active development. While I may address critical or obvious bugs, no new features will be added. If you are looking for an active alternative, I recommend checking out [arf](https://github.com/eitsupi/arf) by @eitsupi."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipython/ipython",
+      "status": "candidate-context",
+      "text": "Official repository for IPython itself. Other repos in the IPython organization contain things like the website, documentation builds, etc."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipython/ipython",
+      "status": "candidate-context",
+      "text": ".. image:: https://codecov.io/github/ipython/ipython/coverage.svg?branch=main"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PEZ/taplet",
+      "status": "candidate-context",
+      "text": "Clojure/ClojureScript utilities for tapping things. let> macro, and #t reader tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PEZ/taplet",
+      "status": "candidate-context",
+      "text": "Utilities for tapping Clojure forms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vlaaad/reveal",
+      "status": "candidate-context",
+      "text": "Read Eval Visualize Loop for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlaaad/reveal",
+      "status": "candidate-context",
+      "text": "![demo](https://vlaaad.github.io/assets/reveal/demo.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "athos/trenchman",
+      "status": "candidate-context",
+      "text": "A standalone nREPL/prepl client written in Go and heavily inspired by Grenchman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athos/trenchman",
+      "status": "candidate-context",
+      "text": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)"
     }
   ],
   "candidate_glosses": [
@@ -138,6 +222,48 @@
       "source_repo": "fzyzcjy/dart_interactive",
       "status": "candidate",
       "text": "[![Flutter Package](https://img.shields.io/pub/v/interactive.svg)](https://pub.dev/packages/interactive)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "status": "candidate",
+      "text": "[![Version][VersionBadge]][VersionURL]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "randy3k/radian",
+      "status": "candidate",
+      "text": "`radian` is no longer under active development. While I may address critical or obvious bugs, no new features will be added. If you are looking for an active alternative, I recommend checking out [arf](https://github.com/eitsupi/arf) by @eitsupi."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipython/ipython",
+      "status": "candidate",
+      "text": ".. image:: https://codecov.io/github/ipython/ipython/coverage.svg?branch=main"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PEZ/taplet",
+      "status": "candidate",
+      "text": "Utilities for tapping Clojure forms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlaaad/reveal",
+      "status": "candidate",
+      "text": "![demo](https://vlaaad.github.io/assets/reveal/demo.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athos/trenchman",
+      "status": "candidate",
+      "text": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)"
     }
   ],
   "candidate_related_terms": [
@@ -223,11 +349,53 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "fzyzcjy/dart_interactive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "deivid-rodriguez/pry-byebug"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-suitable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "randy3k/radian"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipython/ipython"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PEZ/taplet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vlaaad/reveal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "athos/trenchman"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,101 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meijieru/crnn.pytorch",
+      "target": "bgshih/crnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meijieru/crnn.pytorch",
+      "target": "seannaren/warp-ctc",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meijieru/crnn.pytorch",
+      "target": "neural-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meijieru/crnn.pytorch",
+      "target": "recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meijieru/crnn.pytorch",
+      "target": "scene-texts",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:40:34.483916+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1861
+    },
+    {
+      "path": "requirements.txt",
+      "size": 83
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Convolutional recurrent network in pytorch",
+    "fork": false,
+    "full_name": "meijieru/crnn.pytorch",
+    "html_url": "https://github.com/meijieru/crnn.pytorch",
+    "language": "Python",
+    "pushed_at": "2024-09-19T06:50:05Z",
+    "stargazers_count": 2492,
+    "topics": [
+      "neural-network",
+      "recognition",
+      "scene-texts"
+    ],
+    "updated_at": "2026-04-26T04:53:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "bgshih/crnn",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "seannaren/warp-ctc",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Convolutional Recurrent Neural Network",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "neural-network"
+    },
+    {
+      "context_snippet": "Convolutional Recurrent Neural Network",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recognition"
+    },
+    {
+      "context_snippet": "Convolutional Recurrent Neural Network",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scene-texts"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:52:00.962366+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1457
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple, Pythonic remote execution and deployment.",
+    "fork": false,
+    "full_name": "fabric/fabric",
+    "html_url": "https://github.com/fabric/fabric",
+    "language": "Python",
+    "pushed_at": "2026-04-10T13:53:02Z",
+    "stargazers_count": 15415,
+    "topics": [],
+    "updated_at": "2026-04-29T14:09:55Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

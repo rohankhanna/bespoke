@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yoxu515/aot-benchmark",
+      "target": "masterbin-iiau/alpharefine",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yoxu515/aot-benchmark",
+      "target": "clementpinard/pytorch-correlation-extension",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yoxu515/aot-benchmark",
+      "target": "xmlyqing00/afb-urr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "yoxu515/aot-benchmark",
+      "target": "davisvideochallenge/davis-2017",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:51:29.482736+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13427
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "An efficient modular implementation of Associating Objects with Transformers for Video Object Segmentation in PyTorch",
+    "fork": false,
+    "full_name": "yoxu515/aot-benchmark",
+    "html_url": "https://github.com/yoxu515/aot-benchmark",
+    "language": "Python",
+    "pushed_at": "2026-04-07T03:00:22Z",
+    "stargazers_count": 587,
+    "topics": [],
+    "updated_at": "2026-04-28T16:08:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "clementpinard/pytorch-correlation-extension",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "davisvideochallenge/davis-2017",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "masterbin-iiau/alpharefine",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xmlyqing00/afb-urr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -164,6 +164,30 @@
       "source_repo": "apache/incubator-seata-website",
       "status": "candidate-context",
       "text": "License checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "api7/wasm-nginx-module",
+      "status": "candidate-context",
+      "text": "Run Wasm in OpenResty/Nginx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "api7/wasm-nginx-module",
+      "status": "candidate-context",
+      "text": "License checker"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mosn/mosn",
+      "status": "candidate-context",
+      "text": "The Cloud-Native Network Proxy Platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosn/mosn",
+      "status": "candidate-context",
+      "text": "License checker"
     }
   ],
   "candidate_glosses": [
@@ -242,6 +266,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apache/incubator-seata-website",
+      "status": "candidate",
+      "text": "License checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "api7/wasm-nginx-module",
+      "status": "candidate",
+      "text": "License checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mosn/mosn",
       "status": "candidate",
       "text": "License checker"
     }
@@ -377,11 +413,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/license-checker.yaml",
       "source_repo": "apache/incubator-seata-website"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "api7/wasm-nginx-module"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/license-checker.yml",
+      "source_repo": "mosn/mosn"
     }
   ],
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

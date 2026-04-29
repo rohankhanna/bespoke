@@ -1,0 +1,311 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yaml"
+    },
+    {
+      "component": "mathieudutour/github-tag-action@v6.2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yaml"
+    },
+    {
+      "component": "actions/create-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yaml"
+    },
+    {
+      "component": "googleapis/discovery-artifact-manager/.github/workflows/list-services.yml@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml"
+    },
+    {
+      "component": "googleapis/code-suggester@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml"
+    },
+    {
+      "component": "googleapis/code-suggester@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml"
+    },
+    {
+      "component": "GoogleCloudPlatform/php-tools/.github/workflows/doctum.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "nick-invision/retry@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    },
+    {
+      "component": "shivammathur/setup-php@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "googleapis/google-api-php-client",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "mathieudutour/github-tag-action@v6.2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "actions/create-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "auto-release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "googleapis/discovery-artifact-manager/.github/workflows/list-services.yml@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "googleapis/code-suggester@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codegen.yml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "codegen",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "GoogleCloudPlatform/php-tools/.github/workflows/doctum.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "Generate Documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "shivammathur/setup-php@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "nick-invision/retry@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "googleapis/google-api-php-client-services",
+      "target": "Test Suite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:43:11.476757+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 743
+    },
+    {
+      "path": ".github/workflows/auto-release.yaml",
+      "size": 1282
+    },
+    {
+      "path": ".github/workflows/codegen.yml",
+      "size": 4605
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 806
+    },
+    {
+      "path": ".github/workflows/generate.sh",
+      "size": 1509
+    },
+    {
+      "path": ".github/workflows/tests.yml",
+      "size": 1983
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "googleapis/google-api-php-client-services",
+    "html_url": "https://github.com/googleapis/google-api-php-client-services",
+    "language": "PHP",
+    "pushed_at": "2026-04-29T01:42:48Z",
+    "stargazers_count": 1276,
+    "topics": [],
+    "updated_at": "2026-04-29T19:35:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googleapis/google-api-php-client",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "auto-release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-release.yaml",
+      "term": "auto-release"
+    },
+    {
+      "context_snippet": "codegen",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codegen.yml",
+      "term": "codegen"
+    },
+    {
+      "context_snippet": "Generate Documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Generate Documentation"
+    },
+    {
+      "context_snippet": "Test Suite",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/tests.yml",
+      "term": "Test Suite"
+    }
+  ]
+}

@@ -1,0 +1,649 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_ci.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_ci.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_ci.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_deploy.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_deploy.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_deploy.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_node_ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_node_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_node_deploy.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_node_deploy.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_node_deploy.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_node_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chromatic.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chromatic.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chromatic.yml"
+    },
+    {
+      "component": "chromaui/action@latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chromatic.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_ci.yml"
+    },
+    {
+      "component": "actions/cache@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_ci.yml"
+    },
+    {
+      "component": "actions/setup-node@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_deploy.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_deploy.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_deploy.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_deploy.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lighthouse.yml"
+    },
+    {
+      "component": "treosh/lighthouse-ci-action@v12",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lighthouse.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nginx_deploy.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nginx_deploy.yml"
+    },
+    {
+      "component": "docker/login-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nginx_deploy.yml"
+    },
+    {
+      "component": "docker/build-push-action@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nginx_deploy.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_ci.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_ci.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_ci.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_ci.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_ci.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend_ci.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "Backend CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "\ud83d\ude80 Deploy backend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_node_ci.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_node_ci.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend_node_ci.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "Backend node CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_node_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_node_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_node_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/backend_node_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend_node_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "\ud83d\ude80 Deploy backend-node",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chromatic.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chromatic.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chromatic.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/chromatic.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "chromaui/action@latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chromatic.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "Chromatic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_ci.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_ci.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/cache@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_ci.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/setup-node@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend_ci.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "Frontend CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/frontend_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "\ud83d\ude80 Deploy frontend",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lighthouse.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/lighthouse.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "treosh/lighthouse-ci-action@v12",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lighthouse.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "Lighthouse CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nginx_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nginx_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/setup-buildx-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nginx_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/login-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nginx_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "docker/build-push-action@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nginx_deploy.yml",
+      "source_repo": "flathub-infra/website",
+      "target": "Build and deploy nginx image",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flathub-infra/website",
+      "target": "flathub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flathub-infra/website",
+      "target": "flatpak",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flathub-infra/website",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flathub-infra/website",
+      "target": "react",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "flathub-infra/website",
+      "target": "website",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:54:15.523046+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3968
+    },
+    {
+      "path": ".github/workflows/backend_ci.yml",
+      "size": 2208
+    },
+    {
+      "path": ".github/workflows/backend_deploy.yml",
+      "size": 1640
+    },
+    {
+      "path": ".github/workflows/backend_node_ci.yml",
+      "size": 920
+    },
+    {
+      "path": ".github/workflows/backend_node_deploy.yml",
+      "size": 1721
+    },
+    {
+      "path": ".github/workflows/chromatic.yml",
+      "size": 1136
+    },
+    {
+      "path": ".github/workflows/frontend_ci.yml",
+      "size": 1157
+    },
+    {
+      "path": ".github/workflows/frontend_deploy.yml",
+      "size": 3187
+    },
+    {
+      "path": ".github/workflows/lighthouse.yml",
+      "size": 1232
+    },
+    {
+      "path": ".github/workflows/nginx_deploy.yml",
+      "size": 1637
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Monorepo with website and API",
+    "fork": false,
+    "full_name": "flathub-infra/website",
+    "html_url": "https://github.com/flathub-infra/website",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-29T06:34:49Z",
+    "stargazers_count": 341,
+    "topics": [
+      "flathub",
+      "flatpak",
+      "hacktoberfest",
+      "python",
+      "react",
+      "website"
+    ],
+    "updated_at": "2026-04-29T00:15:49Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Backend CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend_ci.yml",
+      "term": "Backend CI"
+    },
+    {
+      "context_snippet": "\ud83d\ude80 Deploy backend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend_deploy.yml",
+      "term": "\ud83d\ude80 Deploy backend"
+    },
+    {
+      "context_snippet": "Backend node CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend_node_ci.yml",
+      "term": "Backend node CI"
+    },
+    {
+      "context_snippet": "\ud83d\ude80 Deploy backend-node",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/backend_node_deploy.yml",
+      "term": "\ud83d\ude80 Deploy backend-node"
+    },
+    {
+      "context_snippet": "\"Chromatic\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/chromatic.yml",
+      "term": "Chromatic"
+    },
+    {
+      "context_snippet": "Frontend CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend_ci.yml",
+      "term": "Frontend CI"
+    },
+    {
+      "context_snippet": "\ud83d\ude80 Deploy frontend",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/frontend_deploy.yml",
+      "term": "\ud83d\ude80 Deploy frontend"
+    },
+    {
+      "context_snippet": "Lighthouse CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/lighthouse.yml",
+      "term": "Lighthouse CI"
+    },
+    {
+      "context_snippet": "Build and deploy nginx image",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nginx_deploy.yml",
+      "term": "Build and deploy nginx image"
+    },
+    {
+      "context_snippet": "[![Backend CI](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml/badge.svg)](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flathub"
+    },
+    {
+      "context_snippet": "[![Backend CI](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml/badge.svg)](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flatpak"
+    },
+    {
+      "context_snippet": "[![Backend CI](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml/badge.svg)](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "[![Backend CI](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml/badge.svg)](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react"
+    },
+    {
+      "context_snippet": "[![Backend CI](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml/badge.svg)](https://github.com/flathub-infra/website/actions/workflows/backend_ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "website"
+    }
+  ]
+}

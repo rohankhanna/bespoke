@@ -1,0 +1,70 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    },
+    {
+      "component": "actions/setup-python@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "facebookresearch/fvcore",
+      "target": "facebookresearch/classyvision",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "facebookresearch/fvcore",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/workflow.yml",
+      "source_repo": "facebookresearch/fvcore",
+      "target": "actions/setup-python@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:43.272762+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1915
+    },
+    {
+      "path": ".github/workflows/workflow.yml",
+      "size": 958
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of common code that's shared among different research projects in FAIR computer vision team.",
+    "fork": false,
+    "full_name": "facebookresearch/fvcore",
+    "html_url": "https://github.com/facebookresearch/fvcore",
+    "language": "Python",
+    "pushed_at": "2026-03-15T21:59:55Z",
+    "stargazers_count": 2237,
+    "topics": [],
+    "updated_at": "2026-04-28T09:11:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/classyvision",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

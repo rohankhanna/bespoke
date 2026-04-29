@@ -1,0 +1,146 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    },
+    {
+      "component": "actions/setup-go@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "aimerneige/yukichan-bot",
+      "target": "dn1z/pgn2gif",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aimerneige/yukichan-bot",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/go.yml",
+      "source_repo": "aimerneige/yukichan-bot",
+      "target": "actions/setup-go@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aimerneige/yukichan-bot",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aimerneige/yukichan-bot",
+      "target": "chess",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aimerneige/yukichan-bot",
+      "target": "onebot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aimerneige/yukichan-bot",
+      "target": "qqbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aimerneige/yukichan-bot",
+      "target": "zerobot",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:41:30.730941+00:00",
+  "fetched_files": [
+    {
+      "path": "Dockerfile",
+      "size": 494
+    },
+    {
+      "path": "go.mod",
+      "size": 1802
+    },
+    {
+      "path": ".github/workflows/go.yml",
+      "size": 374
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u3086\u304d\u9171\u662f\u4f7f\u7528 ZeroBot \u6784\u5efa\u7684\u56fd\u9645\u8c61\u68cb\u804a\u5929\u673a\u5668\u4eba\u3002",
+    "fork": false,
+    "full_name": "aimerneige/yukichan-bot",
+    "html_url": "https://github.com/aimerneige/yukichan-bot",
+    "language": "Go",
+    "pushed_at": "2025-01-29T17:41:09Z",
+    "stargazers_count": 14,
+    "topics": [
+      "chatbot",
+      "chess",
+      "onebot",
+      "qqbot",
+      "zerobot"
+    ],
+    "updated_at": "2025-02-09T23:58:00Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dn1z/pgn2gif",
+      "source_file": "Dockerfile"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chess"
+    },
+    {
+      "context_snippet": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "onebot"
+    },
+    {
+      "context_snippet": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "qqbot"
+    },
+    {
+      "context_snippet": "FROM golang:1.23 AS builder WORKDIR /app COPY . . RUN make build FROM ubuntu:24.04 WORKDIR /app COPY --from=builder /app/bin/yukichan-bot-linux-amd64-v1.0.0 /app/yukichanbot RUN apt-get update && apt-get install -y ca-certificates \\ git python-is-python3 python3-pip inkscape RUN\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zerobot"
+    }
+  ]
+}

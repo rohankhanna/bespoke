@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:47:30.449649+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1412
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "eosphoros-ai/community",
+    "html_url": "https://github.com/eosphoros-ai/community",
+    "language": null,
+    "pushed_at": "2024-07-11T02:21:05Z",
+    "stargazers_count": 14,
+    "topics": [],
+    "updated_at": "2025-01-09T14:50:15Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

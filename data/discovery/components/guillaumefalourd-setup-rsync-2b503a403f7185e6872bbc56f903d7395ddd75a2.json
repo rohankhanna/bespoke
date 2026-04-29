@@ -1,0 +1,12 @@
+{
+  "component": "GuillaumeFalourd/setup-rsync@2b503a403f7185e6872bbc56f903d7395ddd75a2",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/Snapshot release.yml",
+      "source_repo": "avh4/elm-format"
+    }
+  ]
+}

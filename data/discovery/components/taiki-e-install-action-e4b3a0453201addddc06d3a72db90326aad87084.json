@@ -1,0 +1,12 @@
+{
+  "component": "taiki-e/install-action@e4b3a0453201addddc06d3a72db90326aad87084",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/coverage.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    }
+  ]
+}

@@ -19,12 +19,30 @@
       "source_repo": "huggingface/optimum-quanto",
       "status": "candidate-context",
       "text": "Check Commits"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "status": "candidate-context",
+      "text": "Cross-Platform Level Editor"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrenchBroom/TrenchBroom",
+      "status": "candidate-context",
+      "text": "Check Commits"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "huggingface/optimum-quanto",
+      "status": "candidate",
+      "text": "Check Commits"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "TrenchBroom/TrenchBroom",
       "status": "candidate",
       "text": "Check Commits"
     }
@@ -82,11 +100,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/check-commits.yml",
       "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/check-commits.yml",
+      "source_repo": "huggingface/optimum-quanto"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/clean-commit.yml",
+      "source_repo": "TrenchBroom/TrenchBroom"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

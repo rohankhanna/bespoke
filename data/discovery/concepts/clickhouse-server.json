@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "clickhouse-server"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "status": "candidate-context",
+      "text": "Collects many small inserts to ClickHouse and send in big inserts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "status": "candidate-context",
+      "text": "[![build](https://github.com/nikepan/clickhouse-bulk/actions/workflows/test.yml/badge.svg)](https://github.com/nikepan/clickhouse-bulk/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nikepan/clickhouse-bulk",
+      "status": "candidate",
+      "text": "[![build](https://github.com/nikepan/clickhouse-bulk/actions/workflows/test.yml/badge.svg)](https://github.com/nikepan/clickhouse-bulk/actions/workflows/test.yml)"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "clickhouse-server",
+  "concept_id": "clickhouse-server",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nikepan/clickhouse-bulk"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "clickhouse-server",
+      "sense_id": "clickhouse-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,7 +1,7 @@
 {
   "component": "aws-actions/amazon-ecr-login@v2",
   "first_seen_at": "2026-04-18T13:50:38.061794+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/docker-image-ecr.yml",
       "source_repo": "FlowiseAI/Flowise"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "aws-observability/aws-otel-community"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/update-load-generator-image.yml",
+      "source_repo": "aws-observability/aws-otel-test-framework"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/aws-main.yml",
+      "source_repo": "localstack/localstack"
     }
   ]
 }

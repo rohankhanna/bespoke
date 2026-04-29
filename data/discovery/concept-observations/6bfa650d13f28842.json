@@ -1,0 +1,88 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Build Cloud Provisioner Images"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Build Cloud Provisioner Images"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16866,
+      "status": "candidate",
+      "text": "take"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16790,
+      "status": "candidate",
+      "text": "planetarium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16776,
+      "status": "candidate",
+      "text": "fog"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16776,
+      "status": "candidate",
+      "text": "fogged"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16745,
+      "status": "candidate",
+      "text": "drawing"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Build Cloud Provisioner Images",
+      "sense_id": "build-cloud-provisioner-images#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "build-cloud-provisioner-images",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "build-cloud-provisioner-images",
+  "observation_id": "6bfa650d13f28842",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Build Cloud Provisioner Images",
+  "source_context_snippet": "Build Cloud Provisioner Images",
+  "source_file": ".github/workflows/build_image.yml",
+  "source_repo": "redis-stack/redis-stack-cloudimages",
+  "source_repo_description": null
+}

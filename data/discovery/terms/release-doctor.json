@@ -1,6 +1,6 @@
 {
   "first_seen_at": "2026-04-18T12:07:11.500453+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-name",
@@ -31,6 +31,21 @@
       "discovered_via": "workflow-name",
       "source_file": ".github/workflows/release-doctor.yml",
       "source_repo": "ogx-ai/llama-stack-client-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-doctor.yml",
+      "source_repo": "ogx-ai/ogx-client-python"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-doctor.yml",
+      "source_repo": "ogx-ai/ogx-client-typescript"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/release-doctor.yml",
+      "source_repo": "groq/groq-python"
     }
   ],
   "term": "Release Doctor"

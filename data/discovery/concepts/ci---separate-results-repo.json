@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CI - separate results repo"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "benchmark-action/github-action-benchmark",
+      "status": "candidate-context",
+      "text": "GitHub Action for continuous benchmarking to keep performance"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benchmark-action/github-action-benchmark",
+      "status": "candidate-context",
+      "text": "CI - separate results repo"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "benchmark-action/github-action-benchmark",
+      "status": "candidate",
+      "text": "CI - separate results repo"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25698,
+      "status": "candidate",
+      "text": "control"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25698,
+      "status": "candidate",
+      "text": "controlled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25698,
+      "status": "candidate",
+      "text": "controlling"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21237,
+      "status": "candidate",
+      "text": "downtime"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 21237,
+      "status": "candidate",
+      "text": "holiday"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CI - separate results repo",
+  "concept_id": "ci---separate-results-repo",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci-results-repo.yml",
+      "source_repo": "benchmark-action/github-action-benchmark"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CI - separate results repo",
+      "sense_id": "ci---separate-results-repo#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

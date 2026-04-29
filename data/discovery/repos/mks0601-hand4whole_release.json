@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/Hand4Whole_RELEASE",
+      "target": "mks0601/i2l-meshnet_release",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/Hand4Whole_RELEASE",
+      "target": "mmatl/pyopengl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mks0601/Hand4Whole_RELEASE",
+      "target": "vchoutas/expose",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:42:34.751043+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10369
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch implementation of \"Accurate 3D Hand Pose Estimation for Whole-Body 3D Human Mesh Estimation\", CVPRW 2022 (Oral.)",
+    "fork": false,
+    "full_name": "mks0601/Hand4Whole_RELEASE",
+    "html_url": "https://github.com/mks0601/Hand4Whole_RELEASE",
+    "language": "Python",
+    "pushed_at": "2025-05-08T06:58:31Z",
+    "stargazers_count": 360,
+    "topics": [],
+    "updated_at": "2026-04-15T12:13:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mks0601/i2l-meshnet_release",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mmatl/pyopengl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vchoutas/expose",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

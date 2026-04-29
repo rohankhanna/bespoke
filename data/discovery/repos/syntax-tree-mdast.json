@@ -1,0 +1,155 @@
+{
+  "components": [
+    {
+      "component": "remark-cli",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "remark-preset-wooorm",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "unifiedjs/beep-boop-beta@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/setup-node@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "syntax-tree/mdast",
+      "target": "remark-cli",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "syntax-tree/mdast",
+      "target": "remark-preset-wooorm",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bb.yml",
+      "source_repo": "syntax-tree/mdast",
+      "target": "unifiedjs/beep-boop-beta@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "syntax-tree/mdast",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "syntax-tree/mdast",
+      "target": "actions/setup-node@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "syntax-tree/mdast",
+      "target": "main",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "syntax-tree/mdast",
+      "target": "markdown",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "syntax-tree/mdast",
+      "target": "syntax-tree",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "syntax-tree/mdast",
+      "target": "unist",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:00:16.885995+00:00",
+  "fetched_files": [
+    {
+      "path": "package.json",
+      "size": 689
+    },
+    {
+      "path": ".github/workflows/bb.yml",
+      "size": 336
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 253
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Markdown Abstract Syntax Tree format",
+    "fork": false,
+    "full_name": "syntax-tree/mdast",
+    "html_url": "https://github.com/syntax-tree/mdast",
+    "language": null,
+    "pushed_at": "2026-02-04T18:45:51Z",
+    "stargazers_count": 1419,
+    "topics": [
+      "ast",
+      "markdown",
+      "syntax-tree",
+      "unist"
+    ],
+    "updated_at": "2026-04-28T17:35:14Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "main",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "main"
+    },
+    {
+      "context_snippet": "markdown abstract syntax tree",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "markdown"
+    },
+    {
+      "context_snippet": "markdown abstract syntax tree",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "syntax-tree"
+    },
+    {
+      "context_snippet": "markdown abstract syntax tree",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unist"
+    }
+  ]
+}

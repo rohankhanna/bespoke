@@ -238,6 +238,102 @@
       "source_repo": "getsentry/sentry-dart",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate-context",
+      "text": "The Dart language implementation of gRPC."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate-context",
+      "text": "Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate-context",
+      "text": "[![Dart](https://github.com/grpc/grpc-dart/actions/workflows/dart.yml/badge.svg)](https://github.com/grpc/grpc-dart/actions/workflows/dart.yml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "status": "candidate-context",
+      "text": "lsp-mode :heart: dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "status": "candidate-context",
+      "text": "lsp-dart"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DavBfr/dart_pdf",
+      "status": "candidate-context",
+      "text": "Pdf creation module for dart/flutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavBfr/dart_pdf",
+      "status": "candidate-context",
+      "text": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eclipse-archived/dartboard",
+      "status": "candidate-context",
+      "text": "Dart Plugin for Eclipse"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-archived/dartboard",
+      "status": "candidate-context",
+      "text": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maks/dart_repl",
+      "status": "candidate-context",
+      "text": "Dart"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dwyl/learn-dart",
+      "status": "candidate-context",
+      "text": "\ud83c\udfafLearn the Dart programming language to build cross-platform (Mobile, Web & Desktop) Apps with Flutter!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-dart",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "rrousselGit/riverpod",
+      "status": "candidate-context",
+      "text": "A reactive caching and data-binding framework.   Riverpod makes working with asynchronous code a breeze."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/riverpod",
+      "status": "candidate-context",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "antlr/antlr4",
+      "status": "candidate-context",
+      "text": "ANTLR (ANother Tool for Language Recognition) is a powerful parser generator for reading, processing, executing, or translating structured text or binary files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antlr/antlr4",
+      "status": "candidate-context",
+      "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
     }
   ],
   "candidate_glosses": [
@@ -354,6 +450,60 @@
       "source_repo": "getsentry/sentry-dart",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate",
+      "text": "Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "grpc/grpc-dart",
+      "status": "candidate",
+      "text": "[![Dart](https://github.com/grpc/grpc-dart/actions/workflows/dart.yml/badge.svg)](https://github.com/grpc/grpc-dart/actions/workflows/dart.yml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "emacs-lsp/lsp-dart",
+      "status": "candidate",
+      "text": "lsp-dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DavBfr/dart_pdf",
+      "status": "candidate",
+      "text": "![Dart CI](https://github.com/DavBfr/dart_pdf/workflows/Dart%20CI/badge.svg) [![pub package](https://img.shields.io/pub/v/pdf.svg)](https://pub.dartlang.org/packages/pdf) [![pub package](https://img.shields.io/pub/v/printing.svg)](https://pub.dartlang.org/packages/printing) [![c\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eclipse-archived/dartboard",
+      "status": "candidate",
+      "text": "FROM eclipsecbi/ubuntu-gtk3-metacity:18.10-gtk3.24 USER 0 RUN apt-get -y update && \\ apt-get -y install gnupg curl apt-transport-https RUN sh -c 'curl https://dl-ssl.google.com/linux/linux_signing_key.pub | apt-key add -' RUN sh -c 'curl https://storage.googleapis.com/download.d\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "maks/dart_repl",
+      "status": "candidate",
+      "text": "Dart"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dwyl/learn-dart",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "rrousselGit/riverpod",
+      "status": "candidate",
+      "text": "<p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "antlr/antlr4",
+      "status": "candidate",
+      "text": "[![Java 11+](https://img.shields.io/badge/java-11+-4c7e9f.svg)](http://java.oracle.com)"
     }
   ],
   "candidate_related_terms": [
@@ -547,11 +697,65 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "getsentry/sentry-dart"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "grpc/grpc-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "emacs-lsp/lsp-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "DavBfr/dart_pdf"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eclipse-archived/dartboard"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dart.yml",
+      "source_repo": "maks/dart_repl"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dwyl/learn-dart"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "rrousselGit/riverpod"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "antlr/antlr4"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

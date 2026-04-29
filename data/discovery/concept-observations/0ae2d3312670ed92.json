@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "R package for spatial data handling https://rspatial.github.io/terra/reference/terra-package.html"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Reverse dependency check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Reverse dependency check"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26574,
+      "status": "candidate",
+      "text": "setback"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26161,
+      "status": "candidate",
+      "text": "reactionary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19572,
+      "status": "candidate",
+      "text": "length"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19504,
+      "status": "candidate",
+      "text": "down"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19478,
+      "status": "candidate",
+      "text": "bak"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Reverse dependency check",
+      "sense_id": "reverse-dependency-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "reverse-dependency-check",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "reverse-dependency-check",
+  "observation_id": "0ae2d3312670ed92",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Reverse dependency check",
+  "source_context_snippet": "Reverse dependency check",
+  "source_file": ".github/workflows/recheck.yaml",
+  "source_repo": "rspatial/terra",
+  "source_repo_description": "R package for spatial data handling https://rspatial.github.io/terra/reference/terra-package.html"
+}

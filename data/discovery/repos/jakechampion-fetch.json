@@ -359,7 +359,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:56:19.925347+00:00",
+  "fetched_at": "2026-04-29T21:46:40.793320+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -396,14 +396,14 @@
     "html_url": "https://github.com/JakeChampion/fetch",
     "language": "JavaScript",
     "pushed_at": "2024-07-15T00:26:39Z",
-    "stargazers_count": 25879,
+    "stargazers_count": 25877,
     "topics": [
       "fetch",
       "javascript",
       "polyfill",
       "promise"
     ],
-    "updated_at": "2026-04-23T23:01:35Z"
+    "updated_at": "2026-04-29T16:26:39Z"
   },
   "repo_links": [
     {

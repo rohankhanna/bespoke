@@ -31,6 +31,18 @@
       "source_repo": "martinmoene/catch-lest-other-comparison",
       "status": "candidate-context",
       "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Systemcluster/tokenizer-bench",
+      "status": "candidate-context",
+      "text": "Benchmark for tokenizers. Utility to compare the performance of different tokenizers with different datasets."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/tokenizer-bench",
+      "status": "candidate-context",
+      "text": "[project] name = \"tokenizer-bench\" description = \"Benchmark for tokenizers.\" version = \"0.0.0\" requires-python = \">=3.12,<3.13\" authors = [{ name = \"Christian Sdunek\", email = \"me@systemcluster.me\" }] urls = { repository = \"https://github.com/Systemcluster/tokenizer-bench\" } dep\u2026"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "martinmoene/catch-lest-other-comparison",
       "status": "candidate",
       "text": "<a id=\"top\"></a>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Systemcluster/tokenizer-bench",
+      "status": "candidate",
+      "text": "[project] name = \"tokenizer-bench\" description = \"Benchmark for tokenizers.\" version = \"0.0.0\" requires-python = \">=3.12,<3.13\" authors = [{ name = \"Christian Sdunek\", email = \"me@systemcluster.me\" }] urls = { repository = \"https://github.com/Systemcluster/tokenizer-bench\" } dep\u2026"
     }
   ],
   "candidate_related_terms": [
@@ -129,11 +147,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": null,
       "source_repo": "martinmoene/catch-lest-other-comparison"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Systemcluster/tokenizer-bench"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

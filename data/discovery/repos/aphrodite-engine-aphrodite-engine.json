@@ -31,13 +31,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aphrodite-engine/aphrodite-engine",
-      "target": "netease-fuxi/eetq",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "aphrodite-engine/aphrodite-engine",
       "target": "nvidia/tensorrt-model-optimizer",
       "target_type": "repository"
     },
@@ -52,7 +45,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "aphrodite-engine/aphrodite-engine",
-      "target": "henk717/koboldai",
+      "target": "panqiwei/autogptq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "aphrodite-engine/aphrodite-engine",
+      "target": "oobabooga/text-generation-webui",
       "target_type": "repository"
     },
     {
@@ -168,15 +168,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T18:43:27.154637+00:00",
+  "fetched_at": "2026-04-29T21:43:01.052246+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 6296
+      "size": 4475
     },
     {
       "path": "pyproject.toml",
-      "size": 8317
+      "size": 6337
     },
     {
       "path": ".github/workflows/deploy.yml",
@@ -196,8 +196,8 @@
     "full_name": "aphrodite-engine/aphrodite-engine",
     "html_url": "https://github.com/aphrodite-engine/aphrodite-engine",
     "language": "C++",
-    "pushed_at": "2026-04-23T18:29:29Z",
-    "stargazers_count": 1708,
+    "pushed_at": "2026-04-28T18:07:33Z",
+    "stargazers_count": 1714,
     "topics": [
       "api-rest",
       "cuda",
@@ -210,7 +210,7 @@
       "speculative-decoding",
       "tpu"
     ],
-    "updated_at": "2026-04-23T08:53:45Z"
+    "updated_at": "2026-04-28T22:19:53Z"
   },
   "repo_links": [
     {
@@ -220,17 +220,17 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "henk717/koboldai",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "netease-fuxi/eetq",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "full_name": "nvidia/tensorrt-model-optimizer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "oobabooga/text-generation-webui",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "panqiwei/autogptq",
       "source_file": "README.md"
     }
   ],

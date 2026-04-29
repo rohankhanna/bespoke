@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inspirai/TimeChamber",
+      "target": "djcunningham0/multielo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inspirai/TimeChamber",
+      "target": "instadeepai/fastpbrl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inspirai/TimeChamber",
+      "target": "nv-tlabs/ase",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "inspirai/TimeChamber",
+      "target": "nvidia-omniverse/isaacgymenvs",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inspirai/TimeChamber",
+      "target": "deep-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inspirai/TimeChamber",
+      "target": "isaac-gym",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inspirai/TimeChamber",
+      "target": "multi-agent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inspirai/TimeChamber",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "inspirai/TimeChamber",
+      "target": "self-play",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:50:20.360056+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8411
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A Massively Parallel Large Scale Self-Play Framework",
+    "fork": false,
+    "full_name": "inspirai/TimeChamber",
+    "html_url": "https://github.com/inspirai/TimeChamber",
+    "language": "Python",
+    "pushed_at": "2023-01-09T04:57:12Z",
+    "stargazers_count": 361,
+    "topics": [
+      "deep-reinforcement-learning",
+      "isaac-gym",
+      "multi-agent",
+      "reinforcement-learning",
+      "self-play"
+    ],
+    "updated_at": "2026-03-31T12:26:27Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "djcunningham0/multielo",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "instadeepai/fastpbrl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nv-tlabs/ase",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia-omniverse/isaacgymenvs",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "****",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-reinforcement-learning"
+    },
+    {
+      "context_snippet": "****",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "isaac-gym"
+    },
+    {
+      "context_snippet": "****",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-agent"
+    },
+    {
+      "context_snippet": "****",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "****",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-play"
+    }
+  ]
+}

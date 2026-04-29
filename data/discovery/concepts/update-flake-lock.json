@@ -37,6 +37,30 @@
       "source_repo": "EspressoSystems/espresso-example-l2",
       "status": "candidate-context",
       "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mrcjkb/vimcats",
+      "status": "candidate-context",
+      "text": "A CLI to generate vim/nvim help doc from LuaCATS. Forked from lemmy-help."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/vimcats",
+      "status": "candidate-context",
+      "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "EspressoSystems/tide-disco",
+      "status": "candidate-context",
+      "text": "Discoverability for Tide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/tide-disco",
+      "status": "candidate-context",
+      "text": "update-flake-lock"
     }
   ],
   "candidate_glosses": [
@@ -55,6 +79,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "EspressoSystems/espresso-example-l2",
+      "status": "candidate",
+      "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mrcjkb/vimcats",
+      "status": "candidate",
+      "text": "update-flake-lock"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "EspressoSystems/tide-disco",
       "status": "candidate",
       "text": "update-flake-lock"
     }
@@ -82,11 +118,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/update_nix.yml",
       "source_repo": "EspressoSystems/espresso-example-l2"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "mrcjkb/vimcats"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update_flake_lock.yml",
+      "source_repo": "EspressoSystems/tide-disco"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:50:35.712853+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 493
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Resources for gRPC community",
+    "fork": false,
+    "full_name": "grpc/grpc-community",
+    "html_url": "https://github.com/grpc/grpc-community",
+    "language": null,
+    "pushed_at": "2026-03-24T22:35:21Z",
+    "stargazers_count": 65,
+    "topics": [],
+    "updated_at": "2026-04-14T06:46:09Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,12 @@
+{
+  "component": "EndBug/label-sync@52074158190acb45f3077f9099fea818aa43f97a",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/labels.yml",
+      "source_repo": "conda/conda"
+    }
+  ]
+}

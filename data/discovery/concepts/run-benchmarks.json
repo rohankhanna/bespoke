@@ -2,7 +2,8 @@
   "aliases": [
     "Run benchmarks",
     "run benchmarks",
-    "Run Benchmarks"
+    "Run Benchmarks",
+    "run-benchmarks"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -45,6 +46,30 @@
       "source_repo": "Azure/bicep",
       "status": "candidate-context",
       "text": "Run Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dcampbell24/djot-implementations",
+      "status": "candidate-context",
+      "text": "Various Djot Implementations Benchmarked"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcampbell24/djot-implementations",
+      "status": "candidate-context",
+      "text": "Run Benchmarks"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": ":rocket: \u00a0A strongly-typed, caching GraphQL client for the JVM, Android, and Kotlin multiplatform."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate-context",
+      "text": "run-benchmarks"
     }
   ],
   "candidate_glosses": [
@@ -65,6 +90,18 @@
       "source_repo": "Azure/bicep",
       "status": "candidate",
       "text": "Run Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dcampbell24/djot-implementations",
+      "status": "candidate",
+      "text": "Run Benchmarks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-kotlin",
+      "status": "candidate",
+      "text": "run-benchmarks"
     }
   ],
   "candidate_related_terms": [
@@ -126,11 +163,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/run-benchmarks.yml",
       "source_repo": "Azure/bicep"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "dcampbell24/djot-implementations"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/run-benchmarks.yml",
+      "source_repo": "apollographql/apollo-kotlin"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

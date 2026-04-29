@@ -4,20 +4,6 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "bbatsov/clojure-style-guide",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clj-kondo/clj-kondo",
-      "target": "clj-kondo/configs",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "clj-kondo/clj-kondo",
       "target": "babashka/babashka.pods",
       "target_type": "repository"
     },
@@ -25,7 +11,14 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "clj-kondo/clj-kondo",
-      "target": "candid82/joker",
+      "target": "xsc/rewrite-clj",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "clj-kondo/clj-kondo",
+      "target": "graalvm/graalvm-ce-builds",
       "target_type": "repository"
     },
     {
@@ -197,6 +190,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-23T04:27:42.433064+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "clj-kondo/clj-kondo"
 }

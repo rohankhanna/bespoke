@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "cookiecutter"
+    "cookiecutter",
+    "Cookiecutter"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -79,6 +82,36 @@
       "source_repo": "cruft/cruft",
       "status": "candidate-context",
       "text": "[![cruft - Fight Back Against the Boilerplate Monster!](https://raw.github.com/cruft/cruft/master/art/logo_large.png)](https://cruft.github.io/cruft/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "status": "candidate-context",
+      "text": "Template for a Qt/QML application with batteries included: GitHub C.I. for QML apps; ASan/UBSan; automated GUI testing with Xvfb; automatic code-format checks; and more. Compiles for Desktop and Mobile (Linux, Mac, Windows, Android, iOS)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "status": "candidate-context",
+      "text": "Cookiecutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "status": "candidate-context",
+      "text": "A template for building a Qt/QML application with **many batteries included**,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate-context",
+      "text": "Python best practices project cookiecutter \ud83c\udf6a"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate-context",
+      "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
     }
   ],
   "candidate_glosses": [
@@ -117,6 +150,24 @@
       "source_repo": "cruft/cruft",
       "status": "candidate",
       "text": "[![cruft - Fight Back Against the Boilerplate Monster!](https://raw.github.com/cruft/cruft/master/art/logo_large.png)](https://cruft.github.io/cruft/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "status": "candidate",
+      "text": "Cookiecutter"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "219-design/qt-qml-project-template-with-ci",
+      "status": "candidate",
+      "text": "A template for building a Qt/QML application with **many batteries included**,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter",
+      "status": "candidate",
+      "text": "Best practices [cookiecutter](https://github.com/audreyr/cookiecutter) template as described in this [blogpost](https://sourcery.ai/blog/python-best-practices/)."
     }
   ],
   "candidate_related_terms": [
@@ -202,11 +253,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "cruft/cruft"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cookiecutter.yml",
+      "source_repo": "219-design/qt-qml-project-template-with-ci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "219-design/qt-qml-project-template-with-ci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sourcery-ai/python-best-practices-cookiecutter"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

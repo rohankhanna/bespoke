@@ -1,7 +1,7 @@
 {
   "component": "dorny/paths-filter@fbd0ab8f3e69293af611ebaee6363fc25e6d187d",
   "first_seen_at": "2026-04-18T10:25:53.609022+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -157,6 +157,76 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/clang-tidy.yml",
       "source_repo": "ROCm/rocm-libraries"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "spack/spack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/master.yml",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull requests.yml",
+      "source_repo": "LibreHardwareMonitor/LibreHardwareMonitor"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/check-docs.yml",
+      "source_repo": "sigstore/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sigstore/helm-charts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "bitwarden/directory-connector"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/base_build.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker_build.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gtest-bare-metal.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/msys2_build.yml",
+      "source_repo": "OpenVisualCloud/Media-Transport-Library"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "googleapis/google-cloud-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/google-auth-library-java-ci.yaml",
+      "source_repo": "googleapis/google-cloud-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/hermetic-build-scripts-ci.yaml",
+      "source_repo": "googleapis/google-cloud-java"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "spack/spack-packages"
     }
   ]
 }

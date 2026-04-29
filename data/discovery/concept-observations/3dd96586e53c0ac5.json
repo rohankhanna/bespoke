@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\"."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\"."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "autonomous-vehicles",
+      "sense_id": "autonomous-vehicles#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "autonomous-vehicles",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "autonomous-vehicles",
+  "observation_id": "3dd96586e53c0ac5",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "autonomous-vehicles",
+  "source_context_snippet": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\".",
+  "source_file": null,
+  "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+  "source_repo_description": "Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020)"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Cloudflare Purge Cache for Directory"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "spring-projects/spring-tools",
+      "status": "candidate-context",
+      "text": "The next generation of tooling for Spring Boot, including support for Cloud Foundry manifest files, Concourse CI pipeline definitions, BOSH deployment manifests, and more... - Available for Visual Studio Code, Cursor, Eclipse, and Theia"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-tools",
+      "status": "candidate-context",
+      "text": "Cloudflare Purge Cache for Directory"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "spring-projects/spring-tools",
+      "status": "candidate",
+      "text": "Cloudflare Purge Cache for Directory"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17738,
+      "status": "candidate",
+      "text": "erase"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17714,
+      "status": "candidate",
+      "text": "demagnetize"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17714,
+      "status": "candidate",
+      "text": "exhaust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17714,
+      "status": "candidate",
+      "text": "exhaustively"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 17714,
+      "status": "candidate",
+      "text": "lagoon"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Cloudflare Purge Cache for Directory",
+  "concept_id": "cloudflare-purge-cache-for-directory",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/cloudflare-clear-cache-s3-dir.yml",
+      "source_repo": "spring-projects/spring-tools"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Cloudflare Purge Cache for Directory",
+      "sense_id": "cloudflare-purge-cache-for-directory#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

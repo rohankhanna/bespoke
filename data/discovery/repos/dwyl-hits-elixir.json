@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dwyl/hits-elixir",
+      "target": "dwyl/hits",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:58:02.414350+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4622
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":chart_with_upwards_trend: An Elixir implementation of the \"Hits\" project (a super-basic \"Web Page View Counter\")",
+    "fork": false,
+    "full_name": "dwyl/hits-elixir",
+    "html_url": "https://github.com/dwyl/hits-elixir",
+    "language": "Elixir",
+    "pushed_at": "2022-01-23T17:18:10Z",
+    "stargazers_count": 31,
+    "topics": [],
+    "updated_at": "2024-02-06T18:37:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "dwyl/hits",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

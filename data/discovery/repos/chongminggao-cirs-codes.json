@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chongminggao/CIRS-codes",
+      "target": "eyounx/virtualtaobao",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "chongminggao/CIRS-codes",
+      "target": "shenweichen/deepctr-torch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:53:45.533457+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7375
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This is the official implementation for the paper: \"CIRS: Bursting Filter Bubbles by Counterfactual Interactive Recommender System\"",
+    "fork": false,
+    "full_name": "chongminggao/CIRS-codes",
+    "html_url": "https://github.com/chongminggao/CIRS-codes",
+    "language": "Python",
+    "pushed_at": "2024-01-02T13:18:48Z",
+    "stargazers_count": 79,
+    "topics": [],
+    "updated_at": "2026-01-07T06:56:26Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eyounx/virtualtaobao",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shenweichen/deepctr-torch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

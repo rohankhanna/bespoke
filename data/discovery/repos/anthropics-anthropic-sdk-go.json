@@ -1,0 +1,199 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/github-script@v8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml"
+    },
+    {
+      "component": "stainless-api/trigger-release-please@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "anthropics/anthropic-sdk-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "anthropics/anthropic-sdk-go",
+      "target": "actions/github-script@v8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "anthropics/anthropic-sdk-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "anthropics/anthropic-sdk-go",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "anthropics/anthropic-sdk-go",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "anthropics/anthropic-sdk-go",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "anthropics/anthropic-sdk-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "anthropics/anthropic-sdk-go",
+      "target": "stainless-api/trigger-release-please@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "anthropics/anthropic-sdk-go",
+      "target": "Create releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml",
+      "source_repo": "anthropics/anthropic-sdk-go",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/detect-breaking-changes.yml",
+      "source_repo": "anthropics/anthropic-sdk-go",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:46:51.733618+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1734
+    },
+    {
+      "path": "go.mod",
+      "size": 2959
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2361
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 1874
+    },
+    {
+      "path": ".github/workflows/create-releases.yml",
+      "size": 932
+    },
+    {
+      "path": ".github/workflows/detect-breaking-changes.yml",
+      "size": 1127
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Access to Anthropic's safety-first language model APIs via Go",
+    "fork": false,
+    "full_name": "anthropics/anthropic-sdk-go",
+    "html_url": "https://github.com/anthropics/anthropic-sdk-go",
+    "language": "Go",
+    "pushed_at": "2026-04-29T18:22:01Z",
+    "stargazers_count": 1011,
+    "topics": [],
+    "updated_at": "2026-04-29T02:57:45Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Create releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/create-releases.yml",
+      "term": "Create releases"
+    }
+  ]
+}

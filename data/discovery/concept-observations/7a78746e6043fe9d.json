@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A single header standard C++ serialization framework."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "zpp serializer"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "zpp serializer"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40012134,
+      "status": "candidate",
+      "text": "uncomplicated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011883,
+      "status": "candidate",
+      "text": "unpretentious"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011782,
+      "status": "candidate",
+      "text": "simplex"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40011350,
+      "status": "candidate",
+      "text": "simplistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40010742,
+      "status": "candidate",
+      "text": "bare"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "simple",
+      "sense_id": "simple#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 54037,
+      "status": "candidate",
+      "text": "modest"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 53036,
+      "status": "candidate",
+      "text": "naive"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 48025,
+      "status": "candidate",
+      "text": "naif"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45049,
+      "status": "candidate",
+      "text": "obtuse"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40051,
+      "status": "candidate",
+      "text": "common"
+    }
+  ],
+  "concept_id": "simple",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "simple",
+  "observation_id": "7a78746e6043fe9d",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "simple",
+  "source_context_snippet": "zpp serializer",
+  "source_file": null,
+  "source_repo": "eyalz800/serializer",
+  "source_repo_description": "A single header standard C++ serialization framework."
+}

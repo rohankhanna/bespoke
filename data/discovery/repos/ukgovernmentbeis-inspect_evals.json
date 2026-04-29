@@ -1,0 +1,806 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-repo-context.yaml"
+    },
+    {
+      "component": "anthropics/claude-code-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-repo-context.yaml"
+    },
+    {
+      "component": "peter-evans/repository-dispatch@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "astral-sh/ruff-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/cache@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "hynek/build-and-inspect-python-package@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml"
+    },
+    {
+      "component": "anthropics/claude-code-action@6e2bd52842c65e914eba5c8badd17560bd26b5de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml"
+    },
+    {
+      "component": "anthropics/claude-code-action@6e2bd52842c65e914eba5c8badd17560bd26b5de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml"
+    },
+    {
+      "component": "anthropics/claude-code-action@6e2bd52842c65e914eba5c8badd17560bd26b5de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "anthropics/claude-code-action@6e2bd52842c65e914eba5c8badd17560bd26b5de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "actions/create-github-app-token@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "anthropics/claude-code-action@6e2bd52842c65e914eba5c8badd17560bd26b5de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yaml"
+    },
+    {
+      "component": "anthropics/claude-code-action@6e2bd52842c65e914eba5c8badd17560bd26b5de",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yaml"
+    },
+    {
+      "component": "actions/github-script@v9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yaml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml"
+    },
+    {
+      "component": "tj-actions/changed-files@v46",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml"
+    },
+    {
+      "component": "actions/setup-python@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml"
+    },
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "quarto-dev/quarto-actions/setup@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@v8.1.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "quarto-dev/quarto-actions/render@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "quarto-dev/quarto-actions/publish@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "meridianlabs-ai/inspect_harbor",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "mattfisher/hangman-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "livebench/livebench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "pyproject.toml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "josejg/instruction_following_eval",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-repo-context.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-repo-context.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "anthropics/claude-code-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-repo-context.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "Build Repo Context",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "peter-evans/repository-dispatch@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "astral-sh/ruff-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "hynek/build-and-inspect-python-package@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "astral-sh/setup-uv@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "anthropics/claude-code-action@6e2bd52842c65e914eba5c8badd17560bd26b5de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-fix-tests.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "Claude Fix Tests",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/create-github-app-token@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "anthropics/claude-code-action@6e2bd52842c65e914eba5c8badd17560bd26b5de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-solver.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "Claude Issue and PR Solver",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/github-script@v9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "anthropics/claude-code-action@6e2bd52842c65e914eba5c8badd17560bd26b5de",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "Claude Code Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "tj-actions/changed-files@v46",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-image-rebuild.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-rebuild.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "Docker Images for Evals",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "quarto-dev/quarto-actions/setup@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "astral-sh/setup-uv@v8.1.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "quarto-dev/quarto-actions/render@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "quarto-dev/quarto-actions/publish@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals",
+      "target": "Docs Render and Optionally Publish",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:52:21.834663+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 72572
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 16882
+    },
+    {
+      "path": ".github/workflows/build-repo-context.yaml",
+      "size": 2142
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1507
+    },
+    {
+      "path": ".github/workflows/checks.yml",
+      "size": 6783
+    },
+    {
+      "path": ".github/workflows/claude-fix-tests.yaml",
+      "size": 19050
+    },
+    {
+      "path": ".github/workflows/claude-issue-solver.yaml",
+      "size": 23170
+    },
+    {
+      "path": ".github/workflows/claude-review.yaml",
+      "size": 31568
+    },
+    {
+      "path": ".github/workflows/docker-image-rebuild.yml",
+      "size": 9341
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 1078
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Collection of evals for Inspect AI",
+    "fork": false,
+    "full_name": "UKGovernmentBEIS/inspect_evals",
+    "html_url": "https://github.com/UKGovernmentBEIS/inspect_evals",
+    "language": "Python",
+    "pushed_at": "2026-04-29T18:31:44Z",
+    "stargazers_count": 471,
+    "topics": [],
+    "updated_at": "2026-04-29T17:25:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattfisher/hangman-bench",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meridianlabs-ai/inspect_harbor",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "josejg/instruction_following_eval",
+      "source_file": "pyproject.toml"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "livebench/livebench",
+      "source_file": "pyproject.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Build Repo Context",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-repo-context.yaml",
+      "term": "Build Repo Context"
+    },
+    {
+      "context_snippet": "Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Tests"
+    },
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yml",
+      "term": "Checks"
+    },
+    {
+      "context_snippet": "Claude Fix Tests",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-fix-tests.yaml",
+      "term": "Claude Fix Tests"
+    },
+    {
+      "context_snippet": "Claude Issue and PR Solver",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-solver.yaml",
+      "term": "Claude Issue and PR Solver"
+    },
+    {
+      "context_snippet": "Claude Code Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-review.yaml",
+      "term": "Claude Code Review"
+    },
+    {
+      "context_snippet": "Docker Images for Evals",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-image-rebuild.yml",
+      "term": "Docker Images for Evals"
+    },
+    {
+      "context_snippet": "Docs Render and Optionally Publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Docs Render and Optionally Publish"
+    }
+  ]
+}

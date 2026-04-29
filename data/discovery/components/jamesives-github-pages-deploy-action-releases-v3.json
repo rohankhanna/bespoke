@@ -1,7 +1,7 @@
 {
   "component": "JamesIves/github-pages-deploy-action@releases/v3",
   "first_seen_at": "2026-04-22T04:49:29.633207+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -42,6 +42,21 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update_gh_pages.yml",
       "source_repo": "web-platform-tests/results-analysis"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/doc-automation.yml",
+      "source_repo": "pytorch/serve"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "hpcaitech/torchrec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "meta-pytorch/torchrec"
     }
   ]
 }

@@ -1,0 +1,542 @@
+{
+  "components": [
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-nightly.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_dynamic_embedding_wheels.yml"
+    },
+    {
+      "component": "pypa/cibuildwheel@v2.20.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_dynamic_embedding_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_dynamic_embedding_wheels.yml"
+    },
+    {
+      "component": "actions/upload-artifact/merge@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_dynamic_embedding_wheels.yml"
+    },
+    {
+      "component": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_unittest_ci_cpu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "JamesIves/github-pages-deploy-action@releases/v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "seemethere/upload-artifact-s3@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml"
+    },
+    {
+      "component": "conda-incubator/setup-miniconda@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyre.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyre.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_build.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_build.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_build.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/benchmark-nightly.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-nightly.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "Benchmark Nightly",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "pytorch/test-infra/.github/workflows/generate_binary_build_matrix.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "pytorch/test-infra/.github/workflows/build_wheels_linux.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "Build Linux Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_dynamic_embedding_wheels.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_dynamic_embedding_wheels.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "pypa/cibuildwheel@v2.20.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_dynamic_embedding_wheels.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build_dynamic_embedding_wheels.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/upload-artifact/merge@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_dynamic_embedding_wheels.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "Build Dynamic Embedding Wheels",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cpp_unittest_ci_cpu.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "pytorch/test-infra/.github/workflows/linux_job_v2.yml@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_unittest_ci_cpu.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "CPU Unit Test C++ CI",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "JamesIves/github-pages-deploy-action@releases/v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "seemethere/upload-artifact-s3@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "Generate documentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "pre-commit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyre.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "conda-incubator/setup-miniconda@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pyre.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyre.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "Pyre Check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_build.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_build.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release_build.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_build.yml",
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "Push Binary Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "cuda",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "recommendation-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "recommender-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "meta-pytorch/torchrec",
+      "target": "sharding",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:47:55.109309+00:00",
+  "fetched_files": [
+    {
+      "path": "pyproject.toml",
+      "size": 44
+    },
+    {
+      "path": "requirements.txt",
+      "size": 218
+    },
+    {
+      "path": ".github/workflows/benchmark-nightly.yml",
+      "size": 3351
+    },
+    {
+      "path": ".github/workflows/build-wheels-linux.yml",
+      "size": 1835
+    },
+    {
+      "path": ".github/workflows/build_dynamic_embedding_wheels.yml",
+      "size": 1868
+    },
+    {
+      "path": ".github/workflows/cpp_unittest_ci_cpu.yml",
+      "size": 2220
+    },
+    {
+      "path": ".github/workflows/docs.yml",
+      "size": 4399
+    },
+    {
+      "path": ".github/workflows/pre-commit.yaml",
+      "size": 706
+    },
+    {
+      "path": ".github/workflows/pyre.yml",
+      "size": 916
+    },
+    {
+      "path": ".github/workflows/release_build.yml",
+      "size": 7841
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Pytorch domain library for recommendation systems",
+    "fork": false,
+    "full_name": "meta-pytorch/torchrec",
+    "html_url": "https://github.com/meta-pytorch/torchrec",
+    "language": "Python",
+    "pushed_at": "2026-04-29T20:30:58Z",
+    "stargazers_count": 2535,
+    "topics": [
+      "cuda",
+      "deep-learning",
+      "gpu",
+      "pytorch",
+      "recommendation-system",
+      "recommender-system",
+      "sharding"
+    ],
+    "updated_at": "2026-04-29T20:31:03Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Benchmark Nightly",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/benchmark-nightly.yml",
+      "term": "Benchmark Nightly"
+    },
+    {
+      "context_snippet": "Build Linux Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-wheels-linux.yml",
+      "term": "Build Linux Wheels"
+    },
+    {
+      "context_snippet": "Build Dynamic Embedding Wheels",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build_dynamic_embedding_wheels.yml",
+      "term": "Build Dynamic Embedding Wheels"
+    },
+    {
+      "context_snippet": "CPU Unit Test C++ CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cpp_unittest_ci_cpu.yml",
+      "term": "CPU Unit Test C++ CI"
+    },
+    {
+      "context_snippet": "Generate documentation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yml",
+      "term": "Generate documentation"
+    },
+    {
+      "context_snippet": "pre-commit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pre-commit.yaml",
+      "term": "pre-commit"
+    },
+    {
+      "context_snippet": "Pyre Check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/pyre.yml",
+      "term": "Pyre Check"
+    },
+    {
+      "context_snippet": "Push Binary Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release_build.yml",
+      "term": "Push Binary Release"
+    },
+    {
+      "context_snippet": "[tool.usort] first_party_detection = false",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cuda"
+    },
+    {
+      "context_snippet": "[tool.usort] first_party_detection = false",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "[tool.usort] first_party_detection = false",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "[tool.usort] first_party_detection = false",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recommendation-system"
+    },
+    {
+      "context_snippet": "[tool.usort] first_party_detection = false",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recommender-system"
+    },
+    {
+      "context_snippet": "[tool.usort] first_party_detection = false",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sharding"
+    }
+  ]
+}

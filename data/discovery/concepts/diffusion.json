@@ -127,6 +127,42 @@
       "source_repo": "blepping/comfyui_jankhidiffusion",
       "status": "candidate-context",
       "text": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blepping/ComfyUI-sonar",
+      "status": "candidate-context",
+      "text": "Somewhat janky implementation of Sonar Sampling (momentum based sampling) for ComfyUI along with an assortment of advanced noise tools (schedule noise types, composite and a lot more!)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/ComfyUI-sonar",
+      "status": "candidate-context",
+      "text": "A janky implementation of Sonar sampling (momentum-based sampling) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) as well as an assortment of advanced noise tools."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "declare-lab/tango",
+      "status": "candidate-context",
+      "text": "A family of diffusion models for text-to-audio generation."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/tango",
+      "status": "candidate-context",
+      "text": "\ud83d\udd25If you enjoyed Tango, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kandinskylab/kandinsky-5",
+      "status": "candidate-context",
+      "text": "Kandinsky 5.0: A family of diffusion models for Video & Image generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kandinskylab/kandinsky-5",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_glosses": [
@@ -189,6 +225,24 @@
       "source_repo": "blepping/comfyui_jankhidiffusion",
       "status": "candidate",
       "text": "Janky experimental implementation of [HiDiffusion](https://github.com/megvii-research/HiDiffusion) for"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blepping/ComfyUI-sonar",
+      "status": "candidate",
+      "text": "A janky implementation of Sonar sampling (momentum-based sampling) for [ComfyUI](https://github.com/comfyanonymous/ComfyUI) as well as an assortment of advanced noise tools."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "declare-lab/tango",
+      "status": "candidate",
+      "text": "\ud83d\udd25If you enjoyed Tango, please check out our latest innovation, Jam, a lyrics-to-song generator: https://github.com/declare-lab/jamify"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kandinskylab/kandinsky-5",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
     }
   ],
   "candidate_related_terms": [
@@ -324,11 +378,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "blepping/comfyui_jankhidiffusion"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "blepping/ComfyUI-sonar"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-mmlab/mmagic"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "declare-lab/tango"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "kandinskylab/kandinsky-5"
     }
   ],
   "first_seen_at": "2026-04-18T10:43:38.551697+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

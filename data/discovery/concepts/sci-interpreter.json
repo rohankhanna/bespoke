@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "sci-interpreter"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/sci.configs",
+      "status": "candidate-context",
+      "text": "A collection of ready to be used SCI configs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci.configs",
+      "status": "candidate-context",
+      "text": "A collection of ready to be used SCI configs."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci.configs",
+      "status": "candidate",
+      "text": "A collection of ready to be used SCI configs."
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "sci-interpreter",
+  "concept_id": "sci-interpreter",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci.configs"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "sci-interpreter",
+      "sense_id": "sci-interpreter#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

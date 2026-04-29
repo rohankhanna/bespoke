@@ -1,0 +1,12 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/github-actions-doc-options-update.yml",
+      "source_repo": "jolibrain/joliGEN"
+    }
+  ],
+  "term": "Doc auto generation"
+}

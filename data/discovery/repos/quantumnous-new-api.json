@@ -1,6 +1,41 @@
 {
   "components": [
     {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/metadata-action@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/build-push-action@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "sigstore/cosign-installer@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml"
+    },
+    {
       "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-image-alpha.yml"
@@ -49,51 +84,6 @@
       "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-image-alpha.yml"
-    },
-    {
-      "component": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml"
-    },
-    {
-      "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml"
-    },
-    {
-      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml"
-    },
-    {
-      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml"
-    },
-    {
-      "component": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml"
-    },
-    {
-      "component": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml"
-    },
-    {
-      "component": "sigstore/cosign-installer@398d4b0eeef1380460a10c8013a76f728fb906ac",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml"
-    },
-    {
-      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml"
-    },
-    {
-      "component": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml"
     },
     {
       "component": "actions/checkout@v4",
@@ -261,6 +251,55 @@
     },
     {
       "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "docker/metadata-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "docker/build-push-action@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "sigstore/cosign-installer@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "source_repo": "QuantumNous/new-api",
+      "target": "Publish Docker image (Multi-arch)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
       "source_file": ".github/workflows/docker-image-alpha.yml",
       "source_repo": "QuantumNous/new-api",
       "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
@@ -307,48 +346,6 @@
       "source_repo": "QuantumNous/new-api",
       "target": "Publish Docker image (alpha)",
       "target_type": "term"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml",
-      "source_repo": "QuantumNous/new-api",
-      "target": "actions/checkout@34e114876b0b11c390a56381ad16ebd13914f8d5",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml",
-      "source_repo": "QuantumNous/new-api",
-      "target": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml",
-      "source_repo": "QuantumNous/new-api",
-      "target": "docker/login-action@c94ce9fb468520275223c153574b00df6fe4bcc9",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml",
-      "source_repo": "QuantumNous/new-api",
-      "target": "docker/metadata-action@c299e40c65443455700f0fdfc63efafe5b349051",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml",
-      "source_repo": "QuantumNous/new-api",
-      "target": "docker/build-push-action@10e90e3645eae34f1e60eeb005ba3a3d33f178e8",
-      "target_type": "component"
-    },
-    {
-      "edge_type": "workflow-uses",
-      "source_file": ".github/workflows/docker-image-arm64.yml",
-      "source_repo": "QuantumNous/new-api",
-      "target": "sigstore/cosign-installer@398d4b0eeef1380460a10c8013a76f728fb906ac",
-      "target_type": "component"
     },
     {
       "edge_type": "workflow-uses",
@@ -554,27 +551,27 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T18:20:10.320402+00:00",
+  "fetched_at": "2026-04-29T21:02:07.609061+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 17466
+      "size": 17474
     },
     {
       "path": "Dockerfile",
-      "size": 1131
+      "size": 1516
     },
     {
       "path": "go.mod",
       "size": 6159
     },
     {
-      "path": ".github/workflows/docker-image-alpha.yml",
-      "size": 6428
+      "path": ".github/workflows/docker-build.yml",
+      "size": 4364
     },
     {
-      "path": ".github/workflows/docker-image-arm64.yml",
-      "size": 6379
+      "path": ".github/workflows/docker-image-alpha.yml",
+      "size": 6428
     },
     {
       "path": ".github/workflows/docker-image-nightly.yml",
@@ -590,7 +587,7 @@
     },
     {
       "path": ".github/workflows/release.yml",
-      "size": 4926
+      "size": 5607
     },
     {
       "path": ".github/workflows/sync-to-gitee.yml",
@@ -606,8 +603,8 @@
     "full_name": "QuantumNous/new-api",
     "html_url": "https://github.com/QuantumNous/new-api",
     "language": "Go",
-    "pushed_at": "2026-04-24T14:17:12Z",
-    "stargazers_count": 28743,
+    "pushed_at": "2026-04-29T12:10:48Z",
+    "stargazers_count": 29789,
     "topics": [
       "ai-gateway",
       "claude",
@@ -617,7 +614,7 @@
       "openai",
       "rerank"
     ],
-    "updated_at": "2026-04-24T18:11:48Z"
+    "updated_at": "2026-04-29T20:07:42Z"
   },
   "repo_links": [
     {
@@ -627,6 +624,12 @@
     }
   ],
   "terms": [
+    {
+      "context_snippet": "Publish Docker image (Multi-arch)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-build.yml",
+      "term": "Publish Docker image (Multi-arch)"
+    },
     {
       "context_snippet": "Publish Docker image (alpha)",
       "edge_type": "workflow-name",

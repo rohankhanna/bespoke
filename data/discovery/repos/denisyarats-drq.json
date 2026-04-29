@@ -1,0 +1,254 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "denisyarats/drq",
+      "target": "facebookresearch/drqv2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "denisyarats/drq",
+      "target": "ikostrikov/jax-rl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "denisyarats/drq",
+      "target": "kornia/kornia",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denisyarats/drq",
+      "target": "actor-critic",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denisyarats/drq",
+      "target": "control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denisyarats/drq",
+      "target": "data-augmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denisyarats/drq",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denisyarats/drq",
+      "target": "deep-reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denisyarats/drq",
+      "target": "dm-control",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denisyarats/drq",
+      "target": "model-free",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denisyarats/drq",
+      "target": "mujoco",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denisyarats/drq",
+      "target": "off-policy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denisyarats/drq",
+      "target": "pixel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denisyarats/drq",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denisyarats/drq",
+      "target": "reinforcement-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "denisyarats/drq",
+      "target": "soft-actor-crit",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:50:15.222687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3865
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "DrQ: Data regularized Q",
+    "fork": false,
+    "full_name": "denisyarats/drq",
+    "html_url": "https://github.com/denisyarats/drq",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2023-01-13T05:47:45Z",
+    "stargazers_count": 420,
+    "topics": [
+      "actor-critic",
+      "control",
+      "data-augmentation",
+      "deep-learning",
+      "deep-reinforcement-learning",
+      "dm-control",
+      "drq",
+      "gym",
+      "model-free",
+      "mujoco",
+      "off-policy",
+      "pixel",
+      "python",
+      "pytorch",
+      "reinforcement-learning",
+      "rl",
+      "sac",
+      "soft-actor-crit"
+    ],
+    "updated_at": "2026-03-23T23:04:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/drqv2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ikostrikov/jax-rl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "kornia/kornia",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a PyTorch implementation of **DrQ** from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actor-critic"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of **DrQ** from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "control"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of **DrQ** from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "data-augmentation"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of **DrQ** from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of **DrQ** from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-reinforcement-learning"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of **DrQ** from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dm-control"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of **DrQ** from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "model-free"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of **DrQ** from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mujoco"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of **DrQ** from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "off-policy"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of **DrQ** from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pixel"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of **DrQ** from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of **DrQ** from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reinforcement-learning"
+    },
+    {
+      "context_snippet": "This is a PyTorch implementation of **DrQ** from",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "soft-actor-crit"
+    }
+  ]
+}

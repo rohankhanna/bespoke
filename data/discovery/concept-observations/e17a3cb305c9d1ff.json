@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "CLU lets you write beautiful training loops in JAX."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This repository contains common functionality for writing ML training loops. The"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This repository contains common functionality for writing ML training loops. The"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968183,
+      "status": "candidate",
+      "text": "linseed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29967838,
+      "status": "candidate",
+      "text": "flaxseed"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29917253,
+      "status": "candidate",
+      "text": "hackled"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29890527,
+      "status": "candidate",
+      "text": "toad"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29847770,
+      "status": "candidate",
+      "text": "linen"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "flax",
+      "sense_id": "flax#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "flax",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "flax",
+  "observation_id": "e17a3cb305c9d1ff",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "flax",
+  "source_context_snippet": "This repository contains common functionality for writing ML training loops. The",
+  "source_file": null,
+  "source_repo": "google/CommonLoopUtils",
+  "source_repo_description": "CLU lets you write beautiful training loops in JAX."
+}

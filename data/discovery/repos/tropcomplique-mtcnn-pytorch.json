@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "TropComplique/mtcnn-pytorch",
+      "target": "pangyupo/mxnet_mtcnn_face_detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TropComplique/mtcnn-pytorch",
+      "target": "convolutional-neural-networks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TropComplique/mtcnn-pytorch",
+      "target": "face-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "TropComplique/mtcnn-pytorch",
+      "target": "pytorch",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:58.683479+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 735
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Joint Face Detection and Alignment using Multi-task Cascaded Convolutional Networks",
+    "fork": false,
+    "full_name": "TropComplique/mtcnn-pytorch",
+    "html_url": "https://github.com/TropComplique/mtcnn-pytorch",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-06-27T09:16:48Z",
+    "stargazers_count": 668,
+    "topics": [
+      "convolutional-neural-networks",
+      "face-detection",
+      "pytorch"
+    ],
+    "updated_at": "2026-03-28T06:45:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pangyupo/mxnet_mtcnn_face_detection",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`pytorch` implementation of **inference stage** of face detection algorithm described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "convolutional-neural-networks"
+    },
+    {
+      "context_snippet": "`pytorch` implementation of **inference stage** of face detection algorithm described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "face-detection"
+    },
+    {
+      "context_snippet": "`pytorch` implementation of **inference stage** of face detection algorithm described in",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    }
+  ]
+}

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:48:37.164016+00:00",
+  "fetched_files": [
+    {
+      "path": "requirements.txt",
+      "size": 3350
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "GAIR-NLP/ToRL",
+    "html_url": "https://github.com/GAIR-NLP/ToRL",
+    "language": "Python",
+    "pushed_at": "2025-05-24T12:14:33Z",
+    "stargazers_count": 345,
+    "topics": [],
+    "updated_at": "2026-04-28T09:12:10Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

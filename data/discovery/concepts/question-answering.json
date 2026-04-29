@@ -91,6 +91,54 @@
       "source_repo": "AceCHQ/MMIQ",
       "status": "candidate-context",
       "text": "[**\ud83c\udf10 Homepage**](https://acechq.github.io/MMIQ-benchmark/) | [**\ud83c\udfc6 Leaderboard**](https://acechq.github.io/MMIQ-benchmark/#leaderboard) | [**\ud83e\udd17 MM-IQ**](https://huggingface.co/datasets/huanqia/MM-IQ) | [**\ud83d\udcd6 MM-IQ Paper**](https://arxiv.org/pdf/2502.00698)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "allenai/bi-att-flow",
+      "status": "candidate-context",
+      "text": "Bi-directional Attention Flow (BiDAF) network is a multi-stage hierarchical process that represents context at different levels of granularity and uses a bi-directional attention flow mechanism to achieve a query-aware context representation without early summarization."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/bi-att-flow",
+      "status": "candidate-context",
+      "text": "- This the original implementation of [Bi-directional Attention Flow for Machine Comprehension][paper]."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ankane/informers",
+      "status": "candidate-context",
+      "text": "Fast transformer inference for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/informers",
+      "status": "candidate-context",
+      "text": ":fire: Fast [transformer](https://github.com/huggingface/transformers.js) inference for Ruby"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "Easy-to-use and powerful LLM and SLM library with awesome model zoo."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate-context",
+      "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PaddlePaddle/RocketQA",
+      "status": "candidate-context",
+      "text": "\ud83d\ude80 RocketQA, dense retrieval for information retrieval and question answering, including both Chinese and English state-of-the-art models. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/RocketQA",
+      "status": "candidate-context",
+      "text": "<p align=center> <img src=\"https://github.com/PaddlePaddle/RocketQA/blob/main/RocketQA_title.png\" /> </p>"
     }
   ],
   "candidate_glosses": [
@@ -135,6 +183,30 @@
       "source_repo": "AceCHQ/MMIQ",
       "status": "candidate",
       "text": "[**\ud83c\udf10 Homepage**](https://acechq.github.io/MMIQ-benchmark/) | [**\ud83c\udfc6 Leaderboard**](https://acechq.github.io/MMIQ-benchmark/#leaderboard) | [**\ud83e\udd17 MM-IQ**](https://huggingface.co/datasets/huanqia/MM-IQ) | [**\ud83d\udcd6 MM-IQ Paper**](https://arxiv.org/pdf/2502.00698)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "allenai/bi-att-flow",
+      "status": "candidate",
+      "text": "- This the original implementation of [Bi-directional Attention Flow for Machine Comprehension][paper]."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ankane/informers",
+      "status": "candidate",
+      "text": ":fire: Fast [transformer](https://github.com/huggingface/transformers.js) inference for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/PaddleNLP",
+      "status": "candidate",
+      "text": "**\u7b80\u4f53\u4e2d\u6587**\ud83c\udc04 | [English\ud83c\udf0e](./README_en.md)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PaddlePaddle/RocketQA",
+      "status": "candidate",
+      "text": "<p align=center> <img src=\"https://github.com/PaddlePaddle/RocketQA/blob/main/RocketQA_title.png\" /> </p>"
     }
   ],
   "candidate_related_terms": [],
@@ -184,11 +256,35 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "AceCHQ/MMIQ"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "allenai/bi-att-flow"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ankane/informers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleNLP"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/RocketQA"
     }
   ],
   "first_seen_at": "2026-04-23T01:09:11.871080+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

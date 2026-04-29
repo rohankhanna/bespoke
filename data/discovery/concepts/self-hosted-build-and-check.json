@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "self-hosted build and check"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "status": "candidate-context",
+      "text": "VeriSilicon Tensor Interface Module"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "status": "candidate-context",
+      "text": "self-hosted build and check"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "VeriSilicon/TIM-VX",
+      "status": "candidate",
+      "text": "self-hosted build and check"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14289,
+      "status": "candidate",
+      "text": "web-based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9350,
+      "status": "candidate",
+      "text": "add"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9350,
+      "status": "candidate",
+      "text": "bottom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9350,
+      "status": "candidate",
+      "text": "draw"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 9350,
+      "status": "candidate",
+      "text": "harness"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "self-hosted build and check",
+  "concept_id": "self-hosted-build-and-check",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/self-hosted.yml",
+      "source_repo": "VeriSilicon/TIM-VX"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "self-hosted build and check",
+      "sense_id": "self-hosted-build-and-check#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

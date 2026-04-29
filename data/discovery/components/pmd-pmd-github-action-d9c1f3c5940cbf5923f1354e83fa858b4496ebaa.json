@@ -1,7 +1,7 @@
 {
   "component": "pmd/pmd-github-action@d9c1f3c5940cbf5923f1354e83fa858b4496ebaa",
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

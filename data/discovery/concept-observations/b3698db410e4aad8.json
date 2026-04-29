@@ -1,0 +1,122 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "async fn(Request) -> Result<Response, Error>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Tower is a library of modular and reusable components for building robust"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Tower is a library of modular and reusable components for building robust"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39913819,
+      "status": "candidate",
+      "text": "pillar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39911458,
+      "status": "candidate",
+      "text": "column"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39903087,
+      "status": "candidate",
+      "text": "loom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39892969,
+      "status": "candidate",
+      "text": "hulk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29968894,
+      "status": "candidate",
+      "text": "watch"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tower",
+      "sense_id": "tower#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22048,
+      "status": "candidate",
+      "text": "loom"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 13059,
+      "status": "candidate",
+      "text": "pillar"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11037,
+      "status": "candidate",
+      "text": "hulk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7068,
+      "status": "candidate",
+      "text": "column"
+    }
+  ],
+  "concept_id": "tower",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "tower",
+  "observation_id": "b3698db410e4aad8",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "tower",
+  "source_context_snippet": "Tower is a library of modular and reusable components for building robust",
+  "source_file": null,
+  "source_repo": "tower-rs/tower",
+  "source_repo_description": "async fn(Request) -> Result<Response, Error>"
+}

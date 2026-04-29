@@ -1,0 +1,114 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "detectRecog/CCPD",
+      "target": "ccpd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "detectRecog/CCPD",
+      "target": "dataset",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "detectRecog/CCPD",
+      "target": "detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "detectRecog/CCPD",
+      "target": "large-scale",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "detectRecog/CCPD",
+      "target": "plate-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "detectRecog/CCPD",
+      "target": "recognition",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:00.536882+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8804
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "[ECCV 2018] CCPD: a diverse and well-annotated dataset for license plate detection and recognition",
+    "fork": false,
+    "full_name": "detectRecog/CCPD",
+    "html_url": "https://github.com/detectRecog/CCPD",
+    "language": "Python",
+    "pushed_at": "2024-02-15T22:34:00Z",
+    "stargazers_count": 2600,
+    "topics": [
+      "ccpd",
+      "dataset",
+      "detection",
+      "large-scale",
+      "plate-detection",
+      "recognition"
+    ],
+    "updated_at": "2026-04-29T06:57:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "(If you are benefited from this dataset, please cite our paper.)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ccpd"
+    },
+    {
+      "context_snippet": "(If you are benefited from this dataset, please cite our paper.)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dataset"
+    },
+    {
+      "context_snippet": "(If you are benefited from this dataset, please cite our paper.)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "detection"
+    },
+    {
+      "context_snippet": "(If you are benefited from this dataset, please cite our paper.)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-scale"
+    },
+    {
+      "context_snippet": "(If you are benefited from this dataset, please cite our paper.)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plate-detection"
+    },
+    {
+      "context_snippet": "(If you are benefited from this dataset, please cite our paper.)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "recognition"
+    }
+  ]
+}

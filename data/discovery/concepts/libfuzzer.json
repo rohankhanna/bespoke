@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "libfuzzer"
+    "libfuzzer",
+    "libFuzzer"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -19,6 +22,18 @@
       "source_repo": "rust-fuzz/libfuzzer",
       "status": "candidate-context",
       "text": "Barebones wrapper around LLVM's libFuzzer runtime library."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bodil/sized-chunks",
+      "status": "candidate-context",
+      "text": "Efficient sized chunk datatypes for immutable.rs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bodil/sized-chunks",
+      "status": "candidate-context",
+      "text": "libFuzzer"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +42,12 @@
       "source_repo": "rust-fuzz/libfuzzer",
       "status": "candidate",
       "text": "Barebones wrapper around LLVM's libFuzzer runtime library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bodil/sized-chunks",
+      "status": "candidate",
+      "text": "libFuzzer"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +61,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "rust-fuzz/libfuzzer"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/fuzz.yml",
+      "source_repo": "bodil/sized-chunks"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

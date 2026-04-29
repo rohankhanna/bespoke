@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "timeseries-data"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "DOI-USGS/ncdfgeom",
+      "status": "candidate-context",
+      "text": "NetCDF-CF Geometry and Timeseries Tools for R: https://code.usgs.gov/water/ncdfgeom"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOI-USGS/ncdfgeom",
+      "status": "candidate-context",
+      "text": "NetCDF-CF Geometry and Timeseries Tools for R"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "DOI-USGS/ncdfgeom",
+      "status": "candidate",
+      "text": "NetCDF-CF Geometry and Timeseries Tools for R"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "timeseries-data",
+  "concept_id": "timeseries-data",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "DOI-USGS/ncdfgeom"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "timeseries-data",
+      "sense_id": "timeseries-data#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

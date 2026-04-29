@@ -1,0 +1,335 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-deepspeech-v3.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-deepspeech-v3.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-deepspeech-v3.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-deepspeech-v3.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "CI PyTorchDeepSpeech v3",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-espresso.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-espresso.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-espresso.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-espresso.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "CI PyTorchEspresso",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-goturn.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-goturn.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-goturn.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-goturn.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "CI PyTorchGoturn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-huggingface.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-huggingface.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-huggingface.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-huggingface.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-huggingface.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "CI Huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-keras.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-keras.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-keras.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-keras.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-keras.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "CI Keras",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-legacy.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-legacy.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-legacy.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-legacy.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-legacy.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "CI Legacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pytorch-object-detectors.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pytorch-object-detectors.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/setup-python@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pytorch-object-detectors.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "actions/cache@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-pytorch-object-detectors.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "codecov/codecov-action@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-pytorch-object-detectors.yml",
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "CI PyTorchObjectDetectors",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "adversarial-attacks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "adversarial-examples",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "adversarial-machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "attack",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "blue-team",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "evasion",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "extraction",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "poisoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "privacy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "red-team",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "trusted-ai",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Trusted-AI/adversarial-robustness-toolbox",
+      "target": "trustworthy-ai",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "Trusted-AI/adversarial-robustness-toolbox"
+}

@@ -295,6 +295,42 @@
       "source_repo": "vladkens/badges",
       "status": "candidate-context",
       "text": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "medama-io/medama",
+      "status": "candidate-context",
+      "text": "Self-hostable, privacy-focused website analytics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medama-io/medama",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate-context",
+      "text": "\ud83d\udd73 bore is a simple CLI tool for making tunnels to localhost"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate-context",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/ekzhang/bore/ci.yml)](https://github.com/ekzhang/bore/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-webui/open-webui",
+      "status": "candidate-context",
+      "text": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/open-webui",
+      "status": "candidate-context",
+      "text": "![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)"
     }
   ],
   "candidate_glosses": [
@@ -441,6 +477,24 @@
       "source_repo": "vladkens/badges",
       "status": "candidate",
       "text": "[workspace] members = [\"app\", \"badgelib\"] resolver = \"3\" [profile.release] strip = true [profile.dev] debug = 0 strip = \"debuginfo\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medama-io/medama",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/ekzhang/bore/ci.yml)](https://github.com/ekzhang/bore/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/open-webui",
+      "status": "candidate",
+      "text": "![GitHub stars](https://img.shields.io/github/stars/open-webui/open-webui?style=social)"
     }
   ],
   "candidate_related_terms": [
@@ -650,11 +704,41 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "vladkens/badges"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "medama-io/medama"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ekzhang/bore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "aden-hive/hive"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "open-webui/open-webui"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ChristopherHX/runner.server"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

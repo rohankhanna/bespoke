@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Vim plugin for Gist"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "This is a vimscript for creating gists (http://gist.github.com)."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "This is a vimscript for creating gists (http://gist.github.com)."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40050036,
+      "status": "candidate",
+      "text": "nitty-gritty"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045785,
+      "status": "candidate",
+      "text": "substance"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045251,
+      "status": "candidate",
+      "text": "essence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045191,
+      "status": "candidate",
+      "text": "effect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40044871,
+      "status": "candidate",
+      "text": "sum"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "gist",
+      "sense_id": "gist#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 47054,
+      "status": "candidate",
+      "text": "essence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 41088,
+      "status": "candidate",
+      "text": "core"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 34045,
+      "status": "candidate",
+      "text": "pith"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 31064,
+      "status": "candidate",
+      "text": "effect"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 28062,
+      "status": "candidate",
+      "text": "substance"
+    }
+  ],
+  "concept_id": "gist",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "gist",
+  "observation_id": "d08baf9ecf12ef5b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "gist",
+  "source_context_snippet": "This is a vimscript for creating gists (http://gist.github.com).",
+  "source_file": null,
+  "source_repo": "mattn/vim-gist",
+  "source_repo_description": "Vim plugin for Gist"
+}

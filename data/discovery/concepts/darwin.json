@@ -31,6 +31,18 @@
       "source_repo": "hiszpanski/osx-arm-linux-toolchains",
       "status": "candidate-context",
       "text": "Building cross-compiler toolchains is a time-consuming process. This site provides pre-built cross-compiler toolchains for Apple Mac OS X (i.e. Darwin), targetting the Linux operating system on common architectures, currently `arm` and `aarch64`. In other words, compile code for\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nix-darwin/nix-darwin",
+      "status": "candidate-context",
+      "text": "Manage your macOS using Nix"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-darwin/nix-darwin",
+      "status": "candidate-context",
+      "text": "[<img src=\"https://github.com/user-attachments/assets/0e1a77ac-6739-4153-bd24-abd3a5e143f5\" width=\"200px\" alt=\"logo\" />](https://github.com/nix-darwin/nix-darwin)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "hiszpanski/osx-arm-linux-toolchains",
       "status": "candidate",
       "text": "Building cross-compiler toolchains is a time-consuming process. This site provides pre-built cross-compiler toolchains for Apple Mac OS X (i.e. Darwin), targetting the Linux operating system on common architectures, currently `arm` and `aarch64`. In other words, compile code for\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nix-darwin/nix-darwin",
+      "status": "candidate",
+      "text": "[<img src=\"https://github.com/user-attachments/assets/0e1a77ac-6739-4153-bd24-abd3a5e143f5\" width=\"200px\" alt=\"logo\" />](https://github.com/nix-darwin/nix-darwin)"
     }
   ],
   "candidate_related_terms": [
@@ -121,11 +139,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "hiszpanski/osx-arm-linux-toolchains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hiszpanski/osx-arm-linux-toolchains"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nix-darwin/nix-darwin"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

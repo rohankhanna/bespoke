@@ -1,7 +1,7 @@
 {
   "component": "actions-rs/toolchain@16499b5e05bf2e26879000db0c1d13f7e13fa3af",
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/update_dry_run.yml",
       "source_repo": "octokit/openapi-webhooks"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/long_running.yml",
+      "source_repo": "quickwit-oss/tantivy"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "quickwit-oss/tantivy"
     }
   ]
 }

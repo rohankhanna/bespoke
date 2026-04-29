@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Clojure/ClojureScript utilities for tapping things. let> macro, and #t reader tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Utilities for tapping Clojure forms."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Utilities for tapping Clojure forms."
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39919065,
+      "status": "candidate",
+      "text": "large"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39916393,
+      "status": "candidate",
+      "text": "big"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30029152,
+      "status": "candidate",
+      "text": "macroscopic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29962883,
+      "status": "candidate",
+      "text": "aggregate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29952955,
+      "status": "candidate",
+      "text": "micro"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "macro",
+      "sense_id": "macro#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 25050,
+      "status": "candidate",
+      "text": "large"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 24048,
+      "status": "candidate",
+      "text": "big"
+    }
+  ],
+  "concept_id": "macro",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "macro",
+  "observation_id": "00c42b6b3f7ecdea",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "macro",
+  "source_context_snippet": "Utilities for tapping Clojure forms.",
+  "source_file": null,
+  "source_repo": "PEZ/taplet",
+  "source_repo_description": "Clojure/ClojureScript utilities for tapping things. let> macro, and #t reader tag"
+}

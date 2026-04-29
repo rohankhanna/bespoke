@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "huggingface/flux-fast",
+      "target": "vipshop/cache-dit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:42:28.057125+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29964
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Making Flux go brrr on GPUs.",
+    "fork": false,
+    "full_name": "huggingface/flux-fast",
+    "html_url": "https://github.com/huggingface/flux-fast",
+    "language": "Python",
+    "pushed_at": "2026-01-05T03:22:38Z",
+    "stargazers_count": 166,
+    "topics": [],
+    "updated_at": "2026-03-24T14:29:10Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vipshop/cache-dit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

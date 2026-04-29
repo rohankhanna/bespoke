@@ -127,6 +127,30 @@
       "source_repo": "jonschlinkert/repeat-string",
       "status": "candidate-context",
       "text": "> Repeat the given string n times. Fastest implementation for repeating a string."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "status": "candidate-context",
+      "text": "Deeply mix the properties of objects into the first object, while also mixing-in child objects."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "status": "candidate-context",
+      "text": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "micromatch/expand-braces",
+      "status": "candidate-context",
+      "text": "Wrapper for [braces] to enable brace expansion for arrays of patterns."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/expand-braces",
+      "status": "candidate-context",
+      "text": "> Wrapper for [braces] to enable brace expansion for arrays of patterns."
     }
   ],
   "candidate_glosses": [
@@ -189,6 +213,18 @@
       "source_repo": "jonschlinkert/repeat-string",
       "status": "candidate",
       "text": "> Repeat the given string n times. Fastest implementation for repeating a string."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jonschlinkert/mixin-deep",
+      "status": "candidate",
+      "text": "> Deeply mix the properties of objects into the first object. Like merge-deep, but doesn't clone. No dependencies."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "micromatch/expand-braces",
+      "status": "candidate",
+      "text": "> Wrapper for [braces] to enable brace expansion for arrays of patterns."
     }
   ],
   "candidate_related_terms": [],
@@ -256,11 +292,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "jonschlinkert/repeat-string"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jonschlinkert/mixin-deep"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/is-glob"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "micromatch/expand-braces"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

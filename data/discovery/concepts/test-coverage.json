@@ -68,6 +68,18 @@
       "source_repo": "r-spatial/stars",
       "status": "candidate-context",
       "text": "test-coverage"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nx10/httpgd",
+      "status": "candidate-context",
+      "text": "Asynchronous HTTP/WebSocket graphics device for R with an interactive plot viewer"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx10/httpgd",
+      "status": "candidate-context",
+      "text": "test-coverage"
     }
   ],
   "candidate_glosses": [
@@ -98,6 +110,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "r-spatial/stars",
+      "status": "candidate",
+      "text": "test-coverage"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nx10/httpgd",
       "status": "candidate",
       "text": "test-coverage"
     }
@@ -173,11 +191,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/test-coverage.yaml",
       "source_repo": "r-spatial/stars"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test-coverage.yaml",
+      "source_repo": "nx10/httpgd"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

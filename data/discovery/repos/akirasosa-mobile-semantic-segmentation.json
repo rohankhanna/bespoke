@@ -1,0 +1,166 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "target": "vfa-tranhv/mobileailab-haircolor-ios",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "target": "coreml",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "target": "mobilenets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "target": "semantic-segmentation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "akirasosa/mobile-semantic-segmentation",
+      "target": "u-net",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:38:55.206344+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2563
+    },
+    {
+      "path": "Dockerfile",
+      "size": 385
+    },
+    {
+      "path": "requirements.txt",
+      "size": 1282
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Real-Time Semantic Segmentation in Mobile device",
+    "fork": false,
+    "full_name": "akirasosa/mobile-semantic-segmentation",
+    "html_url": "https://github.com/akirasosa/mobile-semantic-segmentation",
+    "language": "Python",
+    "pushed_at": "2022-12-08T07:37:05Z",
+    "stargazers_count": 722,
+    "topics": [
+      "android",
+      "coreml",
+      "deep-learning",
+      "ios",
+      "lfw",
+      "mobilenets",
+      "python",
+      "pytorch",
+      "semantic-segmentation",
+      "tensorflow",
+      "u-net"
+    ],
+    "updated_at": "2025-12-10T13:07:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vfa-tranhv/mobileailab-haircolor-ios",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This project is an example project of semantic segmentation for mobile real-time app.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "This project is an example project of semantic segmentation for mobile real-time app.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "coreml"
+    },
+    {
+      "context_snippet": "This project is an example project of semantic segmentation for mobile real-time app.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "This project is an example project of semantic segmentation for mobile real-time app.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobilenets"
+    },
+    {
+      "context_snippet": "This project is an example project of semantic segmentation for mobile real-time app.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This project is an example project of semantic segmentation for mobile real-time app.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "semantic-segmentation"
+    },
+    {
+      "context_snippet": "This project is an example project of semantic segmentation for mobile real-time app.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "This project is an example project of semantic segmentation for mobile real-time app.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "u-net"
+    }
+  ]
+}

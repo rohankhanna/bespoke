@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eragonruan/text-detection-ctpn",
+      "target": "tianzhi0549/ctpn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eragonruan/text-detection-ctpn",
+      "target": "ctpn",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eragonruan/text-detection-ctpn",
+      "target": "id-card",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eragonruan/text-detection-ctpn",
+      "target": "robust-reading",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eragonruan/text-detection-ctpn",
+      "target": "tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eragonruan/text-detection-ctpn",
+      "target": "text-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:46:05.020053+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4374
+    },
+    {
+      "path": "requirements.txt",
+      "size": 130
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "text detection mainly based on ctpn model in tensorflow, id card detect, connectionist text proposal network",
+    "fork": false,
+    "full_name": "eragonruan/text-detection-ctpn",
+    "html_url": "https://github.com/eragonruan/text-detection-ctpn",
+    "language": "Python",
+    "pushed_at": "2023-10-03T21:05:26Z",
+    "stargazers_count": 3435,
+    "topics": [
+      "ctpn",
+      "id-card",
+      "ocr",
+      "robust-reading",
+      "tensorflow",
+      "text-detection"
+    ],
+    "updated_at": "2026-04-23T04:52:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tianzhi0549/ctpn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "text detection mainly based on ctpn (connectionist text proposal network). It is implemented in tensorflow. I use id card detect as an example to demonstrate the results, but it should be noticing that this model can be used in almost every horizontal scene text detection task. \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ctpn"
+    },
+    {
+      "context_snippet": "text detection mainly based on ctpn (connectionist text proposal network). It is implemented in tensorflow. I use id card detect as an example to demonstrate the results, but it should be noticing that this model can be used in almost every horizontal scene text detection task. \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "id-card"
+    },
+    {
+      "context_snippet": "text detection mainly based on ctpn (connectionist text proposal network). It is implemented in tensorflow. I use id card detect as an example to demonstrate the results, but it should be noticing that this model can be used in almost every horizontal scene text detection task. \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "robust-reading"
+    },
+    {
+      "context_snippet": "text detection mainly based on ctpn (connectionist text proposal network). It is implemented in tensorflow. I use id card detect as an example to demonstrate the results, but it should be noticing that this model can be used in almost every horizontal scene text detection task. \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    },
+    {
+      "context_snippet": "text detection mainly based on ctpn (connectionist text proposal network). It is implemented in tensorflow. I use id card detect as an example to demonstrate the results, but it should be noticing that this model can be used in almost every horizontal scene text detection task. \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "text-detection"
+    }
+  ]
+}

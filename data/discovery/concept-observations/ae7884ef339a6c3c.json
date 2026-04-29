@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "newspaper3k is a news, full-text, and article metadata extraction in Python 3. Advanced docs:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Newspaper3k: Article scraping & curation"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Newspaper3k: Article scraping & curation"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40033963,
+      "status": "candidate",
+      "text": "newsworthiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40005227,
+      "status": "candidate",
+      "text": "word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39990107,
+      "status": "candidate",
+      "text": "intelligence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034032,
+      "status": "candidate",
+      "text": "news program"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30034032,
+      "status": "candidate",
+      "text": "news show"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "news",
+      "sense_id": "news#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11047,
+      "status": "candidate",
+      "text": "intelligence"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8067,
+      "status": "candidate",
+      "text": "word"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 8027,
+      "status": "candidate",
+      "text": "tidings"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 15,
+      "status": "candidate",
+      "text": "newsworthiness"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 11,
+      "status": "candidate",
+      "text": "news program"
+    }
+  ],
+  "concept_id": "news",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "news",
+  "observation_id": "ae7884ef339a6c3c",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "news",
+  "source_context_snippet": "Newspaper3k: Article scraping & curation",
+  "source_file": null,
+  "source_repo": "codelucas/newspaper",
+  "source_repo_description": "newspaper3k is a news, full-text, and article metadata extraction in Python 3. Advanced docs:"
+}

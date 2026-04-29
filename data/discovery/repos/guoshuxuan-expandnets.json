@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:45:47.209893+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2062
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Official implementation of ExpandNets (NeurIPS2020) ",
+    "fork": false,
+    "full_name": "GUOShuxuan/expandnets",
+    "html_url": "https://github.com/GUOShuxuan/expandnets",
+    "language": "Python",
+    "pushed_at": "2022-02-10T04:08:55Z",
+    "stargazers_count": 38,
+    "topics": [],
+    "updated_at": "2025-07-30T11:18:46Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

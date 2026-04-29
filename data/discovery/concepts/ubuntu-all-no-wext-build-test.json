@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Ubuntu All No WEXT Build Test"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "kismetwireless/kismet",
+      "status": "candidate-context",
+      "text": "Github mirror of official Kismet repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kismetwireless/kismet",
+      "status": "candidate-context",
+      "text": "Ubuntu All No WEXT Build Test"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kismetwireless/kismet",
+      "status": "candidate",
+      "text": "Ubuntu All No WEXT Build Test"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44968,
+      "status": "candidate",
+      "text": "nothing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 44066,
+      "status": "candidate",
+      "text": "dead"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42993,
+      "status": "candidate",
+      "text": "none"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42955,
+      "status": "candidate",
+      "text": "nil"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42746,
+      "status": "candidate",
+      "text": "incommensurable"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Ubuntu All No WEXT Build Test",
+  "concept_id": "ubuntu-all-no-wext-build-test",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ubuntu-all-no-wext-build.yaml",
+      "source_repo": "kismetwireless/kismet"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Ubuntu All No WEXT Build Test",
+      "sense_id": "ubuntu-all-no-wext-build-test#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

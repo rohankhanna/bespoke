@@ -13,6 +13,30 @@
       "source_repo": "psibi/dhall-mode",
       "status": "candidate-context",
       "text": "[![MELPA](https://melpa.org/packages/dhall-mode-badge.svg)](https://melpa.org/#/dhall-mode)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "status": "candidate-context",
+      "text": "Maintainable configuration files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "status": "candidate-context",
+      "text": "You will probably want to read the language-agnostic `README` here:"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dhall-lang/dhall-lang",
+      "status": "candidate-context",
+      "text": "Maintainable configuration files"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dhall-lang/dhall-lang",
+      "status": "candidate-context",
+      "text": "<img src=\"./img/dhall-logo.svg\" width=\"600\" alt=\"Dhall Logo\">"
     }
   ],
   "candidate_glosses": [
@@ -21,6 +45,18 @@
       "source_repo": "psibi/dhall-mode",
       "status": "candidate",
       "text": "[![MELPA](https://melpa.org/packages/dhall-mode-badge.svg)](https://melpa.org/#/dhall-mode)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dhall-lang/dhall-haskell",
+      "status": "candidate",
+      "text": "You will probably want to read the language-agnostic `README` here:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dhall-lang/dhall-lang",
+      "status": "candidate",
+      "text": "<img src=\"./img/dhall-logo.svg\" width=\"600\" alt=\"Dhall Logo\">"
     }
   ],
   "candidate_related_terms": [],
@@ -34,11 +70,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "psibi/dhall-mode"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dhall-lang/dhall-haskell"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dhall-lang/dhall-lang"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

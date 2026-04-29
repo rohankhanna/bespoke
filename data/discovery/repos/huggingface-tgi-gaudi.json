@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml"
+    },
+    {
+      "component": "docker/login-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml"
+    },
+    {
+      "component": "docker/metadata-action@v4.3.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml"
+    },
+    {
+      "component": "docker/build-push-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tgi-gaudi",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tgi-gaudi",
+      "target": "docker/setup-buildx-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tgi-gaudi",
+      "target": "docker/login-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tgi-gaudi",
+      "target": "docker/metadata-action@v4.3.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push_docker_image.yml",
+      "source_repo": "huggingface/tgi-gaudi",
+      "target": "docker/build-push-action@v4",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:42:31.316807+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 28842
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1154
+    },
+    {
+      "path": "Dockerfile",
+      "size": 3179
+    },
+    {
+      "path": ".github/workflows/push_docker_image.yml",
+      "size": 1638
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "habana-main",
+    "description": "Large Language Model Text Generation Inference on Habana Gaudi",
+    "fork": true,
+    "full_name": "huggingface/tgi-gaudi",
+    "html_url": "https://github.com/huggingface/tgi-gaudi",
+    "language": "Python",
+    "pushed_at": "2025-03-20T09:22:50Z",
+    "stargazers_count": 34,
+    "topics": [],
+    "updated_at": "2025-07-09T10:04:51Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

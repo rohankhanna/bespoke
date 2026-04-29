@@ -1,0 +1,104 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vchoutas/expose",
+      "target": "3d-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vchoutas/expose",
+      "target": "expressive-body-capture",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vchoutas/expose",
+      "target": "human-pose-estimation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vchoutas/expose",
+      "target": "smpl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "vchoutas/expose",
+      "target": "smplx",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:35.810558+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6975
+    },
+    {
+      "path": "requirements.txt",
+      "size": 243
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "ExPose - EXpressive POse and Shape rEgression",
+    "fork": false,
+    "full_name": "vchoutas/expose",
+    "html_url": "https://github.com/vchoutas/expose",
+    "language": "Python",
+    "pushed_at": "2022-09-12T12:41:40Z",
+    "stargazers_count": 664,
+    "topics": [
+      "3d-pose-estimation",
+      "expressive-body-capture",
+      "human-pose-estimation",
+      "smpl",
+      "smplx"
+    ],
+    "updated_at": "2026-04-03T01:29:12Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.09062)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "3d-pose-estimation"
+    },
+    {
+      "context_snippet": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.09062)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "expressive-body-capture"
+    },
+    {
+      "context_snippet": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.09062)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "human-pose-estimation"
+    },
+    {
+      "context_snippet": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.09062)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smpl"
+    },
+    {
+      "context_snippet": "[![report](https://img.shields.io/badge/arxiv-report-red)](https://arxiv.org/abs/2008.09062)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "smplx"
+    }
+  ]
+}

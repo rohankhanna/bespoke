@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:42:10.162346+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 123
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Moved to https://gitlab.cern.ch/acts/OpenDataDetector/",
+    "fork": false,
+    "full_name": "acts-project/OpenDataDetector",
+    "html_url": "https://github.com/acts-project/OpenDataDetector",
+    "language": "C++",
+    "pushed_at": "2021-08-30T13:31:33Z",
+    "stargazers_count": 0,
+    "topics": [],
+    "updated_at": "2021-09-21T14:02:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

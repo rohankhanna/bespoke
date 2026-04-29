@@ -19,6 +19,18 @@
       "source_repo": "open-telemetry/opentelemetry-kotlin",
       "status": "candidate-context",
       "text": "[![codecov](https://codecov.io/github/open-telemetry/opentelemetry-kotlin/branch/main/graph/badge.svg?token=GQJYEOUSAU)](https://codecov.io/github/open-telemetry/opentelemetry-kotlin)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mzdluo123/MiraiAndroid",
+      "status": "candidate-context",
+      "text": "QQ\u673a\u5668\u4eba /\uff08\u5b9e\u9a8c\u6027\uff09\u5728Android\u4e0a\u8fd0\u884cMirai-console\uff0c\u652f\u6301\u63d2\u4ef6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mzdluo123/MiraiAndroid",
+      "status": "candidate-context",
+      "text": "<!--"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "open-telemetry/opentelemetry-kotlin",
       "status": "candidate",
       "text": "[![codecov](https://codecov.io/github/open-telemetry/opentelemetry-kotlin/branch/main/graph/badge.svg?token=GQJYEOUSAU)](https://codecov.io/github/open-telemetry/opentelemetry-kotlin)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mzdluo123/MiraiAndroid",
+      "status": "candidate",
+      "text": "<!--"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": null,
       "source_repo": "open-telemetry/opentelemetry-kotlin"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mzdluo123/MiraiAndroid"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

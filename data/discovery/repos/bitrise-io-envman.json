@@ -1,0 +1,67 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitrise-io/envman",
+      "target": "bitrise",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "bitrise-io/envman",
+      "target": "production-code",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:55:14.140752+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5701
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1310
+    },
+    {
+      "path": "go.mod",
+      "size": 719
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Environment variable manager",
+    "fork": false,
+    "full_name": "bitrise-io/envman",
+    "html_url": "https://github.com/bitrise-io/envman",
+    "language": "Go",
+    "pushed_at": "2026-04-16T13:45:28Z",
+    "stargazers_count": 277,
+    "topics": [
+      "bitrise",
+      "ci",
+      "production-code"
+    ],
+    "updated_at": "2026-04-11T06:01:10Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Manage your Environment Variable collections. Switch between Environment Variable sets",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bitrise"
+    },
+    {
+      "context_snippet": "Manage your Environment Variable collections. Switch between Environment Variable sets",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "production-code"
+    }
+  ]
+}

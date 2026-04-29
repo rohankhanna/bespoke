@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "anirudh257/strm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "atten4vis/conditionaldetr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "allenxiangx/snowflakenet.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "abc403/smca-replication",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "detr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "transformer-awesome",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "transformer-cv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "transformer-with-cv",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dk-liang/Awesome-Visual-Transformer",
+      "target": "visual-transformer",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "dk-liang/Awesome-Visual-Transformer"
+}

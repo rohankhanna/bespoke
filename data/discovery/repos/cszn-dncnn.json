@@ -1,0 +1,165 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cszn/DnCNN",
+      "target": "cszn/dpir",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cszn/DnCNN",
+      "target": "cszn/kair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cszn/DnCNN",
+      "target": "cszn/ffdnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/DnCNN",
+      "target": "image-denoising",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/DnCNN",
+      "target": "jpeg-deblocking",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/DnCNN",
+      "target": "keras-tensorflow",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/DnCNN",
+      "target": "matconvnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/DnCNN",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/DnCNN",
+      "target": "residual-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/DnCNN",
+      "target": "super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:42:03.220975+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 14559
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Beyond a Gaussian Denoiser: Residual Learning of Deep CNN for Image Denoising (TIP, 2017)",
+    "fork": false,
+    "full_name": "cszn/DnCNN",
+    "html_url": "https://github.com/cszn/DnCNN",
+    "language": "MATLAB",
+    "pushed_at": "2021-10-09T22:04:36Z",
+    "stargazers_count": 1699,
+    "topics": [
+      "image-denoising",
+      "jpeg-deblocking",
+      "keras-tensorflow",
+      "matconvnet",
+      "pytorch",
+      "residual-learning",
+      "super-resolution"
+    ],
+    "updated_at": "2026-04-29T14:08:17Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cszn/dpir",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cszn/ffdnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cszn/kair",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DnCNN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "image-denoising"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DnCNN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "jpeg-deblocking"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DnCNN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "keras-tensorflow"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DnCNN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "matconvnet"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DnCNN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DnCNN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "residual-learning"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/DnCNN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    }
+  ]
+}

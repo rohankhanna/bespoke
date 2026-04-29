@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/tacotron2",
+      "target": "nvidia/nv-wavenet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/tacotron2",
+      "target": "pseeth/pytorch-stft",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "NVIDIA/tacotron2",
+      "target": "r9y9/tacotron_pytorch",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:45:59.729395+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3397
+    },
+    {
+      "path": "Dockerfile",
+      "size": 385
+    },
+    {
+      "path": "requirements.txt",
+      "size": 119
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Tacotron 2 - PyTorch implementation with faster-than-realtime inference",
+    "fork": false,
+    "full_name": "NVIDIA/tacotron2",
+    "html_url": "https://github.com/NVIDIA/tacotron2",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-06-12T18:49:15Z",
+    "stargazers_count": 5305,
+    "topics": [],
+    "updated_at": "2026-04-21T23:54:38Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvidia/nv-wavenet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pseeth/pytorch-stft",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "r9y9/tacotron_pytorch",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

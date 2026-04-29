@@ -1,0 +1,238 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "openlmlab/gaokao-bench",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "intel-analytics/bigdl",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "intel-analytics/bigdl-llm-tutorial",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "hiyouga/llama-efficient-tuning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "ceval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "llama2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "mmlu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan2",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:44:25.588579+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 29139
+    },
+    {
+      "path": "requirements.txt",
+      "size": 114
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A series of large language models developed by Baichuan Intelligent Technology",
+    "fork": false,
+    "full_name": "baichuan-inc/Baichuan2",
+    "html_url": "https://github.com/baichuan-inc/Baichuan2",
+    "language": "Python",
+    "pushed_at": "2024-11-08T08:31:29Z",
+    "stargazers_count": 4110,
+    "topics": [
+      "artificial-intelligence",
+      "benchmark",
+      "ceval",
+      "chatgpt",
+      "chinese",
+      "gpt",
+      "gpt-4",
+      "huggingface",
+      "large-language-models",
+      "llama2",
+      "mmlu",
+      "natural-language-processing"
+    ],
+    "updated_at": "2026-04-28T08:33:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-efficient-tuning",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel-analytics/bigdl",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "intel-analytics/bigdl-llm-tutorial",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "openlmlab/gaokao-bench",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ceval"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmlu"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    }
+  ]
+}

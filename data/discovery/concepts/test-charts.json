@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Test Charts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sigstore/helm-charts",
+      "status": "candidate-context",
+      "text": "Helm charts for sigstore project"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/helm-charts",
+      "status": "candidate-context",
+      "text": "Test Charts"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sigstore/helm-charts",
+      "status": "candidate",
+      "text": "Test Charts"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12537,
+      "status": "candidate",
+      "text": "records"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12344,
+      "status": "candidate",
+      "text": "one"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12283,
+      "status": "candidate",
+      "text": "notices"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11658,
+      "status": "candidate",
+      "text": "cards"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11658,
+      "status": "candidate",
+      "text": "chart"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Test Charts",
+  "concept_id": "test-charts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "sigstore/helm-charts"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Test Charts",
+      "sense_id": "test-charts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

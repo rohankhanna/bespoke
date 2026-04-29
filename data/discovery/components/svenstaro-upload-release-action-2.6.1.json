@@ -1,7 +1,7 @@
 {
   "component": "svenstaro/upload-release-action@2.6.1",
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -67,6 +67,16 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build_windows_only.yml",
       "source_repo": "turboderp-org/exllamav3"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels-latest-torch.yml",
+      "source_repo": "kingbri1/flash-attention"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-wheels.yml",
+      "source_repo": "kingbri1/flash-attention"
     }
   ]
 }

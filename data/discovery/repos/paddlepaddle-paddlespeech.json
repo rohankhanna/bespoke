@@ -1,0 +1,320 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "745165806/paddlespeechtask",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "chenkui164/fastasr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "escaticzheng/ps3.9wheel-install",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "chinobing/fastapi-paddlespeech-audio-to-text",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "code-switch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "conformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "punctuation-restoration",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "self-supervised-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "sound-classification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "speech-alignment",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "speech-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "speech-synthesis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "speech-translation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "streaming-asr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "streaming-tts",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "transformer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "vocoder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "voice-cloning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "voice-recognition",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "wav2vec2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "PaddlePaddle/PaddleSpeech",
+      "target": "whisper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:45:49.752142+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 48275
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "develop",
+    "description": "Easy-to-use Speech Toolkit including Self-Supervised Learning model, SOTA/Streaming ASR with punctuation, Streaming TTS with text frontend, Speaker Verification System, End-to-End Speech Translation and Keyword Spotting. Won NAACL2022 Best Demo Award.",
+    "fork": false,
+    "full_name": "PaddlePaddle/PaddleSpeech",
+    "html_url": "https://github.com/PaddlePaddle/PaddleSpeech",
+    "language": "Python",
+    "pushed_at": "2026-04-15T11:10:22Z",
+    "stargazers_count": 12591,
+    "topics": [
+      "asr",
+      "code-switch",
+      "conformer",
+      "kws",
+      "punctuation-restoration",
+      "self-supervised-learning",
+      "sound-classification",
+      "speech-alignment",
+      "speech-recognition",
+      "speech-synthesis",
+      "speech-translation",
+      "streaming-asr",
+      "streaming-tts",
+      "transformer",
+      "tts",
+      "vocoder",
+      "voice-cloning",
+      "voice-recognition",
+      "wav2vec2",
+      "whisper"
+    ],
+    "updated_at": "2026-04-29T15:38:56Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "745165806/paddlespeechtask",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chenkui164/fastasr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "chinobing/fastapi-paddlespeech-audio-to-text",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "escaticzheng/ps3.9wheel-install",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "code-switch"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "conformer"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "punctuation-restoration"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "self-supervised-learning"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "sound-classification"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-alignment"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-recognition"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-synthesis"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-translation"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming-asr"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "streaming-tts"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vocoder"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-cloning"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "voice-recognition"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "wav2vec2"
+    },
+    {
+      "context_snippet": "([\u7b80\u4f53\u4e2d\u6587](./README_cn.md)|English)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "whisper"
+    }
+  ]
+}

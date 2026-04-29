@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Merge Request Trigger"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alibaba/rtp-llm",
+      "status": "candidate-context",
+      "text": "RTP-LLM: Alibaba's high-performance LLM inference engine for diverse applications."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/rtp-llm",
+      "status": "candidate-context",
+      "text": "Merge Request Trigger"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alibaba/rtp-llm",
+      "status": "candidate",
+      "text": "Merge Request Trigger"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19324,
+      "status": "candidate",
+      "text": "melt"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19192,
+      "status": "candidate",
+      "text": "combine"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19192,
+      "status": "candidate",
+      "text": "consolidate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19192,
+      "status": "candidate",
+      "text": "incorporate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 19192,
+      "status": "candidate",
+      "text": "mix"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Merge Request Trigger",
+  "concept_id": "merge-request-trigger",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/merge-request-trigger.yml",
+      "source_repo": "alibaba/rtp-llm"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Merge Request Trigger",
+      "sense_id": "merge-request-trigger#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

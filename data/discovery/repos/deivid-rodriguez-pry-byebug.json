@@ -1,0 +1,166 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "target": "nixme/pry-debugger",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "target": "nixme/pry-nav",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "target": "pry/pry-stack_explorer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "target": "ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "target": "debugger",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "target": "pry-byebug",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "target": "repl",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "deivid-rodriguez/pry-byebug",
+      "target": "ruby",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:40:03.441301+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 6200
+    },
+    {
+      "path": ".github/workflows/ubuntu.yml",
+      "size": 630
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Step-by-step debugging and stack navigation in Pry",
+    "fork": false,
+    "full_name": "deivid-rodriguez/pry-byebug",
+    "html_url": "https://github.com/deivid-rodriguez/pry-byebug",
+    "language": "Ruby",
+    "pushed_at": "2026-04-08T10:53:10Z",
+    "stargazers_count": 2028,
+    "topics": [
+      "debugger",
+      "pry",
+      "pry-byebug",
+      "repl",
+      "ruby"
+    ],
+    "updated_at": "2026-04-21T00:19:43Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nixme/pry-debugger",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nixme/pry-nav",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pry/pry-stack_explorer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu.yml",
+      "term": "ubuntu"
+    },
+    {
+      "context_snippet": "[![Version][VersionBadge]][VersionURL]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "debugger"
+    },
+    {
+      "context_snippet": "[![Version][VersionBadge]][VersionURL]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pry-byebug"
+    },
+    {
+      "context_snippet": "[![Version][VersionBadge]][VersionURL]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "repl"
+    },
+    {
+      "context_snippet": "[![Version][VersionBadge]][VersionURL]",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ruby"
+    }
+  ]
+}

@@ -1,0 +1,81 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    },
+    {
+      "component": "ad-m/github-push-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "Sbozzolo/libvterm-mirror",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "Sbozzolo/libvterm-mirror",
+      "target": "ad-m/github-push-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yml",
+      "source_repo": "Sbozzolo/libvterm-mirror",
+      "target": "Mirror",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:51:08.917996+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 551
+    },
+    {
+      "path": ".github/workflows/mirror.yml",
+      "size": 1326
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Mirror of https://launchpad.net/libvterm",
+    "fork": false,
+    "full_name": "Sbozzolo/libvterm-mirror",
+    "html_url": "https://github.com/Sbozzolo/libvterm-mirror",
+    "language": "Shell",
+    "pushed_at": "2025-11-25T00:01:12Z",
+    "stargazers_count": 8,
+    "topics": [],
+    "updated_at": "2025-11-25T00:01:16Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Mirror",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mirror.yml",
+      "term": "Mirror"
+    }
+  ]
+}

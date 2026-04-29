@@ -84,7 +84,7 @@
   "normalized_form": "build-clang-tidy",
   "observation_id": "85d1ec7faa7de43d",
   "observation_kind": "workflow-name",
-  "observed_at": "2026-04-23T18:30:35.670459+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "Build clang-tidy",
   "source_context_snippet": "Build clang-tidy",
   "source_file": ".github/workflows/build_clang_tidy.yml",

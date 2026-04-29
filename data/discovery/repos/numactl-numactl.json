@@ -1,0 +1,165 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cut-release.yml"
+    },
+    {
+      "component": "marvinpinto/action-automatic-releases@919008cf3f741b179569b7a6fb4d8860689ab7f0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cut-release.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "numactl/numactl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "numactl/numactl",
+      "target": "github/codeql-action/init@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "numactl/numactl",
+      "target": "github/codeql-action/autobuild@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "numactl/numactl",
+      "target": "github/codeql-action/analyze@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "source_repo": "numactl/numactl",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cut-release.yml",
+      "source_repo": "numactl/numactl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cut-release.yml",
+      "source_repo": "numactl/numactl",
+      "target": "marvinpinto/action-automatic-releases@919008cf3f741b179569b7a6fb4d8860689ab7f0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cut-release.yml",
+      "source_repo": "numactl/numactl",
+      "target": "Create GitHub release from pushed tag",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "numactl/numactl",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "numactl/numactl",
+      "target": "Makefile CI",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:42:03.580507+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1819
+    },
+    {
+      "path": ".github/workflows/codeql.yml",
+      "size": 2753
+    },
+    {
+      "path": ".github/workflows/cut-release.yml",
+      "size": 772
+    },
+    {
+      "path": ".github/workflows/makefile.yml",
+      "size": 658
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "NUMA support for Linux",
+    "fork": false,
+    "full_name": "numactl/numactl",
+    "html_url": "https://github.com/numactl/numactl",
+    "language": "C",
+    "pushed_at": "2026-02-24T16:32:21Z",
+    "stargazers_count": 494,
+    "topics": [],
+    "updated_at": "2026-04-25T21:24:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "Create GitHub release from pushed tag",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cut-release.yml",
+      "term": "Create GitHub release from pushed tag"
+    },
+    {
+      "context_snippet": "Makefile CI",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/makefile.yml",
+      "term": "Makefile CI"
+    }
+  ]
+}

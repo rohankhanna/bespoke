@@ -1,0 +1,192 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "confluentinc/librdkafka",
+      "target": "ah-/rdkafka-dotnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "confluentinc/librdkafka",
+      "target": "blizzard/node-rdkafka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "confluentinc/librdkafka",
+      "target": "arnaud-lb/php-rdkafka",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "confluentinc/librdkafka",
+      "target": "appsignal/rdkafka-ruby",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka",
+      "target": "apache-kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka",
+      "target": "c-plus-plus",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka",
+      "target": "consumer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka",
+      "target": "high-performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka",
+      "target": "kafka",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka",
+      "target": "kafka-consumer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka",
+      "target": "kafka-producer",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "confluentinc/librdkafka",
+      "target": "librdkafka",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:49:16.295394+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8885
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The Apache Kafka C/C++ library",
+    "fork": false,
+    "full_name": "confluentinc/librdkafka",
+    "html_url": "https://github.com/confluentinc/librdkafka",
+    "language": "C",
+    "pushed_at": "2026-04-29T15:08:05Z",
+    "stargazers_count": 970,
+    "topics": [
+      "apache-kafka",
+      "c",
+      "c-plus-plus",
+      "consumer",
+      "high-performance",
+      "kafka",
+      "kafka-consumer",
+      "kafka-producer",
+      "librdkafka"
+    ],
+    "updated_at": "2026-04-28T06:04:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ah-/rdkafka-dotnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "appsignal/rdkafka-ruby",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "arnaud-lb/php-rdkafka",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "blizzard/node-rdkafka",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "librdkafka - the Apache Kafka\u00ae C/C++ client library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "apache-kafka"
+    },
+    {
+      "context_snippet": "librdkafka - the Apache Kafka\u00ae C/C++ client library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "c-plus-plus"
+    },
+    {
+      "context_snippet": "librdkafka - the Apache Kafka\u00ae C/C++ client library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "consumer"
+    },
+    {
+      "context_snippet": "librdkafka - the Apache Kafka\u00ae C/C++ client library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "high-performance"
+    },
+    {
+      "context_snippet": "librdkafka - the Apache Kafka\u00ae C/C++ client library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka"
+    },
+    {
+      "context_snippet": "librdkafka - the Apache Kafka\u00ae C/C++ client library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-consumer"
+    },
+    {
+      "context_snippet": "librdkafka - the Apache Kafka\u00ae C/C++ client library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "kafka-producer"
+    },
+    {
+      "context_snippet": "librdkafka - the Apache Kafka\u00ae C/C++ client library",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librdkafka"
+    }
+  ]
+}

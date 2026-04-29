@@ -1,7 +1,7 @@
 {
   "component": "actions/setup-go@3041bf56c941b39c61721a86cd11f3bb1338122a",
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",

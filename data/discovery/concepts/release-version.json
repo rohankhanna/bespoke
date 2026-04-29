@@ -1,0 +1,148 @@
+{
+  "aliases": [
+    "Release Version"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "medama-io/medama",
+      "status": "candidate-context",
+      "text": "Self-hostable, privacy-focused website analytics."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medama-io/medama",
+      "status": "candidate-context",
+      "text": "Release Version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seancorfield/honeysql",
+      "status": "candidate-context",
+      "text": "Turn Clojure data structures into SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/honeysql",
+      "status": "candidate-context",
+      "text": "Release Version"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seancorfield/next-jdbc",
+      "status": "candidate-context",
+      "text": "A modern low-level Clojure wrapper for JDBC-based access to databases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/next-jdbc",
+      "status": "candidate-context",
+      "text": "Release Version"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "medama-io/medama",
+      "status": "candidate",
+      "text": "Release Version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/honeysql",
+      "status": "candidate",
+      "text": "Release Version"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/next-jdbc",
+      "status": "candidate",
+      "text": "Release Version"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53852,
+      "status": "candidate",
+      "text": "release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53851,
+      "status": "candidate",
+      "text": "version"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53850,
+      "status": "candidate",
+      "text": "build"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53849,
+      "status": "candidate",
+      "text": "dot release"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 53848,
+      "status": "candidate",
+      "text": "general availability"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Release Version",
+  "concept_id": "release-version",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "medama-io/medama"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "seancorfield/honeysql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test-and-release.yml",
+      "source_repo": "seancorfield/next-jdbc"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release Version",
+      "sense_id": "release-version#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -475,6 +475,108 @@
       "source_repo": "afc163/fanyi",
       "status": "candidate-context",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adishavit/argh",
+      "status": "candidate-context",
+      "text": "Argh! A minimalist argument handler."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adishavit/argh",
+      "status": "candidate-context",
+      "text": "![logo](assets/argh_logo_small.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate-context",
+      "text": "A Minimal, Header only Modern c++ library for terminal goodies \ud83d\udc84\u2728"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate-context",
+      "text": "![rang-demo](https://cloud.githubusercontent.com/assets/7630575/13501282/0bd00074-e18c-11e5-9848-5bd1f20566d9.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "bfgroup/Lyra",
+      "status": "candidate-context",
+      "text": "A simple to use, composable, command line parser for C++ 11 and beyond"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bfgroup/Lyra",
+      "status": "candidate-context",
+      "text": "\"Release: Archives\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate-context",
+      "text": "The MacPorts ports tree"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate-context",
+      "text": "This repository contains the source definitions for the open source software packages offered through MacPorts."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "commitizen/cz-conventional-changelog",
+      "status": "candidate-context",
+      "text": "A commitizen adapter for the angular preset of https://github.com/conventional-changelog/conventional-changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "commitizen/cz-conventional-changelog",
+      "status": "candidate-context",
+      "text": "[![Greenkeeper badge](https://badges.greenkeeper.io/commitizen/cz-conventional-changelog.svg)](https://greenkeeper.io/)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cmderdev/cmder",
+      "status": "candidate-context",
+      "text": "Lovely console emulator package for Windows"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmderdev/cmder",
+      "status": "candidate-context",
+      "text": "[![Join the chat at https://gitter.im/cmderdev/cmder](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cmderdev/cmder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://ci.appveyor.com/api/projects/status/github/cmderd\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aider-AI/aider",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "A fast and lightweight interactive terminal based UI application for tracking cryptocurrencies \ud83d\ude80 by @miguelmota"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate-context",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Ash258/Scoop-Core",
+      "status": "candidate-context",
+      "text": "Shovel. Alternative, more advanced, and user-friendly implementation of windows command-line installer scoop."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ash258/Scoop-Core",
+      "status": "candidate-context",
+      "text": "Command-line installer for Windows"
     }
   ],
   "candidate_glosses": [
@@ -705,6 +807,60 @@
       "source_repo": "afc163/fanyi",
       "status": "candidate",
       "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adishavit/argh",
+      "status": "candidate",
+      "text": "![logo](assets/argh_logo_small.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "agauniyal/rang",
+      "status": "candidate",
+      "text": "![rang-demo](https://cloud.githubusercontent.com/assets/7630575/13501282/0bd00074-e18c-11e5-9848-5bd1f20566d9.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "bfgroup/Lyra",
+      "status": "candidate",
+      "text": "\"Release: Archives\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "macports/macports-ports",
+      "status": "candidate",
+      "text": "This repository contains the source definitions for the open source software packages offered through MacPorts."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "commitizen/cz-conventional-changelog",
+      "status": "candidate",
+      "text": "[![Greenkeeper badge](https://badges.greenkeeper.io/commitizen/cz-conventional-changelog.svg)](https://greenkeeper.io/)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cmderdev/cmder",
+      "status": "candidate",
+      "text": "[![Join the chat at https://gitter.im/cmderdev/cmder](https://badges.gitter.im/Join%20Chat.svg)](https://gitter.im/cmderdev/cmder?utm_source=badge&utm_medium=badge&utm_campaign=pr-badge&utm_content=badge) [![Build Status](https://ci.appveyor.com/api/projects/status/github/cmderd\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Aider-AI/aider",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cointop-sh/cointop",
+      "status": "candidate",
+      "text": "<h3 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Ash258/Scoop-Core",
+      "status": "candidate",
+      "text": "Command-line installer for Windows"
     }
   ],
   "candidate_related_terms": [
@@ -984,11 +1140,71 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "afc163/fanyi"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adishavit/argh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "agauniyal/rang"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "bfgroup/Lyra"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Comfy-Org/comfy-cli"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "macports/macports-ports"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "commitizen/cz-conventional-changelog"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cmderdev/cmder"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Aider-AI/aider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cointop-sh/cointop"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Ash258/Scoop-Core"
     }
   ],
   "first_seen_at": "2026-04-18T11:41:43.530265+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

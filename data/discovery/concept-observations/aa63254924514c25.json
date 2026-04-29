@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Build animated charts in Jupyter Notebook and similar environments with a simple Python syntax."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020982,
+      "status": "candidate",
+      "text": "diag"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020981,
+      "status": "candidate",
+      "text": "fig."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020980,
+      "status": "candidate",
+      "text": "illust"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020979,
+      "status": "candidate",
+      "text": "illus."
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10020978,
+      "status": "candidate",
+      "text": "visc."
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "dataviz",
+      "sense_id": "dataviz#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "dataviz",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "dataviz",
+  "observation_id": "aa63254924514c25",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "dataviz",
+  "source_context_snippet": "<p align=\"center\">",
+  "source_file": null,
+  "source_repo": "vizzuhq/ipyvizzu",
+  "source_repo_description": "Build animated charts in Jupyter Notebook and similar environments with a simple Python syntax."
+}

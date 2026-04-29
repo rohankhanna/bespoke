@@ -1,7 +1,9 @@
 {
   "aliases": [
     "License check",
-    "License Check"
+    "License Check",
+    "license check",
+    "License-Check"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -80,6 +82,30 @@
       "source_repo": "apache/doris-spark-connector",
       "status": "candidate-context",
       "text": "License Check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/mxnet",
+      "status": "candidate-context",
+      "text": "Lightweight, Portable, Flexible Distributed/Mobile Deep Learning with Dynamic, Mutation-aware Dataflow Dep Scheduler; for Python, R, Julia, Scala, Go, Javascript and more"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mxnet",
+      "status": "candidate-context",
+      "text": "license check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apache/singa",
+      "status": "candidate-context",
+      "text": "a distributed deep learning platform"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/singa",
+      "status": "candidate-context",
+      "text": "License-Check"
     }
   ],
   "candidate_glosses": [
@@ -118,6 +144,18 @@
       "source_repo": "apache/doris-spark-connector",
       "status": "candidate",
       "text": "License Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/mxnet",
+      "status": "candidate",
+      "text": "license check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apache/singa",
+      "status": "candidate",
+      "text": "License-Check"
     }
   ],
   "candidate_related_terms": [
@@ -227,11 +265,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/license-eyes.yml",
       "source_repo": "apache/doris-spark-connector"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/licensecheck.yml",
+      "source_repo": "eclipse-wildwebdeveloper/wildwebdeveloper"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/licensecheck.yml",
+      "source_repo": "eclipse-tm4e/tm4e"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/license_check.yml",
+      "source_repo": "apache/mxnet"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rat.yaml",
+      "source_repo": "apache/singa"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

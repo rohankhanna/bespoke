@@ -9,9 +9,20 @@
       "source_kind": "repo-description",
       "status": "context-only",
       "text": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<!---"
     }
   ],
-  "candidate_glosses": [],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<!---"
+    }
+  ],
   "candidate_primary_bucket": "tool-component",
   "candidate_related_terms": [],
   "candidate_senses": [
@@ -30,14 +41,16 @@
   "definition_status": "unresolved",
   "discovered_via": "repo-topic",
   "gloss_status": "unresolved",
-  "lexical_providers": [],
+  "lexical_providers": [
+    "datamuse"
+  ],
   "lexical_status": "unresolved",
   "normalized_form": "natural-language-processing",
   "observation_id": "1f69f57876b78e73",
   "observation_kind": "repo-topic",
-  "observed_at": "2026-04-18T13:15:13.756138+00:00",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
   "observed_text": "natural-language-processing",
-  "source_context_snippet": null,
+  "source_context_snippet": "<!---",
   "source_file": null,
   "source_repo": "huggingface/transformers",
   "source_repo_description": "\ud83e\udd17 Transformers: the model-definition framework for state-of-the-art machine learning models in text, vision, audio, and multimodal models, for both inference and training. "

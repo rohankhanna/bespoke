@@ -1,7 +1,8 @@
 {
   "aliases": [
     "Build & Tests",
-    "Build Tests"
+    "Build Tests",
+    "Build tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -32,6 +33,30 @@
       "source_repo": "CLIUtils/CLI11",
       "status": "candidate-context",
       "text": "Build Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate-context",
+      "text": "Nginx + WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate-context",
+      "text": "Build tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate-context",
+      "text": "Solidity Compiler for Solana, Polkadot and Stellar"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate-context",
+      "text": "Build tests"
     }
   ],
   "candidate_glosses": [
@@ -46,6 +71,18 @@
       "source_repo": "CLIUtils/CLI11",
       "status": "candidate",
       "text": "Build Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate",
+      "text": "Build tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hyperledger-solang/solang",
+      "status": "candidate",
+      "text": "Build tests"
     }
   ],
   "candidate_related_terms": [
@@ -101,11 +138,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/build-tests.yml",
       "source_repo": "CLIUtils/CLI11"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/job-build-tests.yml",
+      "source_repo": "Kong/ngx_wasm_module"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "hyperledger-solang/solang"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

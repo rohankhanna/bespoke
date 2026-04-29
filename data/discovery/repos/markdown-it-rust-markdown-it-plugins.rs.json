@@ -64,20 +64,6 @@
   "edges": [
     {
       "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "markdown-it-rust/markdown-it-plugins.rs",
-      "target": "executablebooks/mdit-py-plugins",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "markdown-it-rust/markdown-it-plugins.rs",
-      "target": "crate-ci/cargo-release",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
       "source_file": "Cargo.toml",
       "source_repo": "markdown-it-rust/markdown-it-plugins.rs",
       "target": "chrisjsewell/markdown-it-plugins.rs",
@@ -126,7 +112,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T08:57:47.609789+00:00",
+  "fetched_at": "2026-04-29T19:46:23.901971+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -158,16 +144,6 @@
     "updated_at": "2025-11-07T04:49:12Z"
   },
   "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "crate-ci/cargo-release",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "executablebooks/mdit-py-plugins",
-      "source_file": "README.md"
-    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "chrisjsewell/markdown-it-plugins.rs",

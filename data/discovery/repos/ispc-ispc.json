@@ -1,0 +1,420 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clamav-release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clamav-release.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clamav.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clamav.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-deduplication.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@8a1c4371755898f67cd97006ba7c97702d5fc4bf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-deduplication.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "anthropics/claude-code-action@8a1c4371755898f67cd97006ba7c97702d5fc4bf",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml"
+    },
+    {
+      "component": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codex-pr-review.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiler-warnings.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiler-warnings.yml"
+    },
+    {
+      "component": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiler-warnings.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "ispc/ispc",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bandit.yml",
+      "source_repo": "ispc/ispc",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clamav-release.yml",
+      "source_repo": "ispc/ispc",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clamav-release.yml",
+      "source_repo": "ispc/ispc",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clamav-release.yml",
+      "source_repo": "ispc/ispc",
+      "target": "Scan release archives with ClamAV",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clamav.yml",
+      "source_repo": "ispc/ispc",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clamav.yml",
+      "source_repo": "ispc/ispc",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clamav.yml",
+      "source_repo": "ispc/ispc",
+      "target": "Scan trunk archives with ClamAV",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "ispc/ispc",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "ispc/ispc",
+      "target": "actions/upload-artifact@bbbca2ddaa5d8feaa63e36b76fdaad77386f024f",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "source_repo": "ispc/ispc",
+      "target": "Lint code with clang-tidy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-deduplication.yml",
+      "source_repo": "ispc/ispc",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-deduplication.yml",
+      "source_repo": "ispc/ispc",
+      "target": "anthropics/claude-code-action@8a1c4371755898f67cd97006ba7c97702d5fc4bf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-deduplication.yml",
+      "source_repo": "ispc/ispc",
+      "target": "Issue Deduplication",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "ispc/ispc",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "ispc/ispc",
+      "target": "anthropics/claude-code-action@8a1c4371755898f67cd97006ba7c97702d5fc4bf",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "source_repo": "ispc/ispc",
+      "target": "Claude Code",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codex-pr-review.yml",
+      "source_repo": "ispc/ispc",
+      "target": "actions/github-script@3a2844b7e9c422d3c10d287c895573f7108da1b3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codex-pr-review.yml",
+      "source_repo": "ispc/ispc",
+      "target": "Codex PR Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/compiler-warnings.yml",
+      "source_repo": "ispc/ispc",
+      "target": "actions/checkout@1af3b93b6815bc44a9784bd300feb67ff0d1eeb3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compiler-warnings.yml",
+      "source_repo": "ispc/ispc",
+      "target": "Compiler Warnings",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ispc/ispc",
+      "target": "compiler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ispc/ispc",
+      "target": "intel",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ispc/ispc",
+      "target": "ispc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ispc/ispc",
+      "target": "programming-language",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ispc/ispc",
+      "target": "simd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ispc/ispc",
+      "target": "spmd",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:46.211857+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7723
+    },
+    {
+      "path": ".github/workflows/bandit.config",
+      "size": 9116
+    },
+    {
+      "path": ".github/workflows/bandit.yml",
+      "size": 1009
+    },
+    {
+      "path": ".github/workflows/clamav-release.yml",
+      "size": 2792
+    },
+    {
+      "path": ".github/workflows/clamav.yml",
+      "size": 1710
+    },
+    {
+      "path": ".github/workflows/clang-tidy.yml",
+      "size": 929
+    },
+    {
+      "path": ".github/workflows/claude-issue-deduplication.yml",
+      "size": 2831
+    },
+    {
+      "path": ".github/workflows/claude.yml",
+      "size": 4677
+    },
+    {
+      "path": ".github/workflows/codex-pr-review.yml",
+      "size": 1924
+    },
+    {
+      "path": ".github/workflows/compiler-warnings.yml",
+      "size": 2478
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Intel\u00ae Implicit SPMD Program Compiler",
+    "fork": false,
+    "full_name": "ispc/ispc",
+    "html_url": "https://github.com/ispc/ispc",
+    "language": "C++",
+    "pushed_at": "2026-04-29T15:52:31Z",
+    "stargazers_count": 2869,
+    "topics": [
+      "compiler",
+      "intel",
+      "ispc",
+      "programming-language",
+      "simd",
+      "spmd"
+    ],
+    "updated_at": "2026-04-29T12:38:51Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Scan release archives with ClamAV",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clamav-release.yml",
+      "term": "Scan release archives with ClamAV"
+    },
+    {
+      "context_snippet": "Scan trunk archives with ClamAV",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clamav.yml",
+      "term": "Scan trunk archives with ClamAV"
+    },
+    {
+      "context_snippet": "Lint code with clang-tidy",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-tidy.yml",
+      "term": "Lint code with clang-tidy"
+    },
+    {
+      "context_snippet": "Issue Deduplication",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude-issue-deduplication.yml",
+      "term": "Issue Deduplication"
+    },
+    {
+      "context_snippet": "Claude Code",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/claude.yml",
+      "term": "Claude Code"
+    },
+    {
+      "context_snippet": "Codex PR Review",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codex-pr-review.yml",
+      "term": "Codex PR Review"
+    },
+    {
+      "context_snippet": "Compiler Warnings",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/compiler-warnings.yml",
+      "term": "Compiler Warnings"
+    },
+    {
+      "context_snippet": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "compiler"
+    },
+    {
+      "context_snippet": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "intel"
+    },
+    {
+      "context_snippet": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ispc"
+    },
+    {
+      "context_snippet": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "programming-language"
+    },
+    {
+      "context_snippet": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simd"
+    },
+    {
+      "context_snippet": "[![main](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml/badge.svg)](https://github.com/ispc/ispc/actions/workflows/pre-release-artifacts.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spmd"
+    }
+  ]
+}

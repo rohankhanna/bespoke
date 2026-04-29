@@ -1,7 +1,7 @@
 {
   "component": "actions/github-script@v9",
   "first_seen_at": "2026-04-18T03:42:01.586113+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -307,6 +307,51 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/milestone.yml",
       "source_repo": "acts-project/acts"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/take.yml",
+      "source_repo": "apache/arrow-rs-object-store"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci_publish.yml",
+      "source_repo": "nim-lang/Nim"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-quota-manager.yml",
+      "source_repo": "jaegertracing/jaeger-ui"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/agent-docs-sync-reminder.yml",
+      "source_repo": "aws/aws-cdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-fix-tests.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-issue-solver.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/claude-review.yaml",
+      "source_repo": "UKGovernmentBEIS/inspect_evals"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pr-checklist.yml",
+      "source_repo": "uxlfoundation/scikit-learn-intelex"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/codegen.yml",
+      "source_repo": "googleapis/google-api-php-client-services"
     }
   ]
 }

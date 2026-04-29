@@ -1,0 +1,12 @@
+{
+  "component": "vmactions/solaris-vm@0a231b94365d1911cf62097ef342f6b30d95598f",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/bsd.yml",
+      "source_repo": "prometheus/node_exporter"
+    }
+  ]
+}

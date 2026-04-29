@@ -1,0 +1,397 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-lint.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-java@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "amannn/action-semantic-pull-request@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/title-lint.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "aws-samples/swift-chat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "aws-samples/swift-chat",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "source_repo": "aws-samples/swift-chat",
+      "target": "Build for Android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "aws-samples/swift-chat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ios.yml",
+      "source_repo": "aws-samples/swift-chat",
+      "target": "Build for iOS",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/code-lint.yml",
+      "source_repo": "aws-samples/swift-chat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-lint.yml",
+      "source_repo": "aws-samples/swift-chat",
+      "target": "Code Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aws-samples/swift-chat",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aws-samples/swift-chat",
+      "target": "actions/setup-java@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aws-samples/swift-chat",
+      "target": "softprops/action-gh-release@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "aws-samples/swift-chat",
+      "target": "Release Next Version",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/title-lint.yml",
+      "source_repo": "aws-samples/swift-chat",
+      "target": "amannn/action-semantic-pull-request@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/title-lint.yml",
+      "source_repo": "aws-samples/swift-chat",
+      "target": "Commit Title Lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat",
+      "target": "amazon-bedrock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat",
+      "target": "amazon-nova",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat",
+      "target": "android",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat",
+      "target": "chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat",
+      "target": "claude-4-sonnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat",
+      "target": "deepseek",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat",
+      "target": "mobile-app",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat",
+      "target": "ollama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat",
+      "target": "react-native",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat",
+      "target": "speech-to-speech",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat",
+      "target": "swift-chat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat",
+      "target": "swiftchat",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "aws-samples/swift-chat",
+      "target": "virtual-try-on",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:02:48.521703+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 17283
+    },
+    {
+      "path": ".github/workflows/build-android.yml",
+      "size": 498
+    },
+    {
+      "path": ".github/workflows/build-ios.yml",
+      "size": 389
+    },
+    {
+      "path": ".github/workflows/code-lint.yml",
+      "size": 461
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 1765
+    },
+    {
+      "path": ".github/workflows/title-lint.yml",
+      "size": 453
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A lightning-fast, cross-platform AI Assistant App built with React Native.",
+    "fork": false,
+    "full_name": "aws-samples/swift-chat",
+    "html_url": "https://github.com/aws-samples/swift-chat",
+    "language": "TypeScript",
+    "pushed_at": "2026-04-24T09:49:51Z",
+    "stargazers_count": 797,
+    "topics": [
+      "amazon-bedrock",
+      "amazon-nova",
+      "android",
+      "aws",
+      "chat",
+      "claude-4-sonnet",
+      "deepseek",
+      "ios",
+      "mac",
+      "mobile-app",
+      "ollama",
+      "react-native",
+      "speech-to-speech",
+      "swift-chat",
+      "swiftchat",
+      "virtual-try-on"
+    ],
+    "updated_at": "2026-04-29T07:36:56Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build for Android",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-android.yml",
+      "term": "Build for Android"
+    },
+    {
+      "context_snippet": "Build for iOS",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-ios.yml",
+      "term": "Build for iOS"
+    },
+    {
+      "context_snippet": "Code Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/code-lint.yml",
+      "term": "Code Lint"
+    },
+    {
+      "context_snippet": "Release Next Version",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release Next Version"
+    },
+    {
+      "context_snippet": "Commit Title Lint",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/title-lint.yml",
+      "term": "Commit Title Lint"
+    },
+    {
+      "context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon-bedrock"
+    },
+    {
+      "context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "amazon-nova"
+    },
+    {
+      "context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "android"
+    },
+    {
+      "context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chat"
+    },
+    {
+      "context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "claude-4-sonnet"
+    },
+    {
+      "context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deepseek"
+    },
+    {
+      "context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-app"
+    },
+    {
+      "context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ollama"
+    },
+    {
+      "context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "react-native"
+    },
+    {
+      "context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "speech-to-speech"
+    },
+    {
+      "context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift-chat"
+    },
+    {
+      "context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swiftchat"
+    },
+    {
+      "context_snippet": "> \ud83d\ude80 Your Personal AI Workspace \u2014 Chat, Create Apps, and More",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "virtual-try-on"
+    }
+  ]
+}

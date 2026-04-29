@@ -186,6 +186,11 @@
       "source_file": "package.json"
     },
     {
+      "component": "@lobechat/agent-signal",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
       "component": "@lobechat/agent-templates",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
@@ -217,6 +222,11 @@
     },
     {
       "component": "@lobechat/builtin-tool-agent-management",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lobechat/builtin-tool-agent-marketplace",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
@@ -357,6 +367,11 @@
     },
     {
       "component": "@lobechat/chat-adapter-feishu",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "@lobechat/chat-adapter-line",
       "edge_type": "package-json:dependencies",
       "source_file": "package.json"
     },
@@ -1906,6 +1921,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "lobehub/lobehub",
+      "target": "actions/workflows",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "lobehub/lobehub",
       "target": "lobehub/lobe-commit",
       "target_type": "repository"
     },
@@ -2172,6 +2194,13 @@
       "edge_type": "package-json:dependencies",
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/agent-signal",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
       "target": "@lobechat/agent-templates",
       "target_type": "component"
     },
@@ -2215,6 +2244,13 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "@lobechat/builtin-tool-agent-management",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/builtin-tool-agent-marketplace",
       "target_type": "component"
     },
     {
@@ -2411,6 +2447,13 @@
       "source_file": "package.json",
       "source_repo": "lobehub/lobehub",
       "target": "@lobechat/chat-adapter-feishu",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "lobehub/lobehub",
+      "target": "@lobechat/chat-adapter-line",
       "target_type": "component"
     },
     {
@@ -4661,7 +4704,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T07:07:09.740824+00:00",
+  "fetched_at": "2026-04-29T21:01:33.582242+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -4673,7 +4716,7 @@
     },
     {
       "path": "package.json",
-      "size": 22381
+      "size": 22539
     },
     {
       "path": ".github/workflows/auto-i18n.yml",
@@ -4713,8 +4756,8 @@
     "full_name": "lobehub/lobehub",
     "html_url": "https://github.com/lobehub/lobehub",
     "language": "TypeScript",
-    "pushed_at": "2026-04-24T06:13:58Z",
-    "stargazers_count": 75576,
+    "pushed_at": "2026-04-29T19:16:31Z",
+    "stargazers_count": 75850,
     "topics": [
       "agent",
       "agent-collaboration",
@@ -4729,9 +4772,14 @@
       "mcp",
       "openai"
     ],
-    "updated_at": "2026-04-24T06:49:33Z"
+    "updated_at": "2026-04-29T20:40:50Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "actions/workflows",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "lobehub/lobe-commit",

@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "scribd/Weaver",
+      "target": "apple/swift",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scribd/Weaver",
+      "target": "managed-by-terraform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scribd/Weaver",
+      "target": "mobile-build-tooling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "scribd/Weaver",
+      "target": "swift",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:52:16.143279+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 25748
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Dependency Injection framework for Swift (iOS/macOS/Linux)",
+    "fork": false,
+    "full_name": "scribd/Weaver",
+    "html_url": "https://github.com/scribd/Weaver",
+    "language": "Swift",
+    "pushed_at": "2026-02-17T16:44:51Z",
+    "stargazers_count": 770,
+    "topics": [
+      "ios",
+      "managed-by-terraform",
+      "mobile-build-tooling",
+      "swift"
+    ],
+    "updated_at": "2026-03-22T11:32:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "apple/swift",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "| :exclamation: Deprecation Notice |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "managed-by-terraform"
+    },
+    {
+      "context_snippet": "| :exclamation: Deprecation Notice |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mobile-build-tooling"
+    },
+    {
+      "context_snippet": "| :exclamation: Deprecation Notice |",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "swift"
+    }
+  ]
+}

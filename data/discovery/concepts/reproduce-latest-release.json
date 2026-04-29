@@ -19,12 +19,30 @@
       "source_repo": "simplex-chat/simplex-chat",
       "status": "candidate-context",
       "text": "Reproduce latest release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "simplex-chat/simplexmq",
+      "status": "candidate-context",
+      "text": "\u2699\ufe0f SimpleXMQ - A reference implementation of the SimpleX Messaging Protocol for simplex queues over public networks."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplex-chat/simplexmq",
+      "status": "candidate-context",
+      "text": "Reproduce latest release"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "simplex-chat/simplex-chat",
+      "status": "candidate",
+      "text": "Reproduce latest release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "simplex-chat/simplexmq",
       "status": "candidate",
       "text": "Reproduce latest release"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/reproduce-schedule.yml",
       "source_repo": "simplex-chat/simplex-chat"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/reproduce-schedule.yml",
+      "source_repo": "simplex-chat/simplexmq"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

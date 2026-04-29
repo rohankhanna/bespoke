@@ -1,0 +1,22 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:57:31.829292+00:00",
+  "fetched_files": [],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A better JSON for Vim: distinct highlighting of keywords vs values, JSON-specific (non-JS) warnings, quote concealing. Pathogen-friendly.",
+    "fork": true,
+    "full_name": "elzr/vim-json",
+    "html_url": "https://github.com/elzr/vim-json",
+    "language": "Vim script",
+    "pushed_at": "2024-05-19T21:51:36Z",
+    "stargazers_count": 1228,
+    "topics": [],
+    "updated_at": "2026-04-25T15:22:49Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

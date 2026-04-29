@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Run basic features tests on CPU"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Mikubill/sd-webui-controlnet",
+      "status": "candidate-context",
+      "text": "WebUI extension for ControlNet"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mikubill/sd-webui-controlnet",
+      "status": "candidate-context",
+      "text": "Run basic features tests on CPU"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Mikubill/sd-webui-controlnet",
+      "status": "candidate",
+      "text": "Run basic features tests on CPU"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 34682,
+      "status": "candidate",
+      "text": "test"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33605,
+      "status": "candidate",
+      "text": "infrastructure"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 32523,
+      "status": "candidate",
+      "text": "microprocessor"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31817,
+      "status": "candidate",
+      "text": "microcode"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31247,
+      "status": "candidate",
+      "text": "unit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Run basic features tests on CPU",
+  "concept_id": "run-basic-features-tests-on-cpu",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/tests.yml",
+      "source_repo": "Mikubill/sd-webui-controlnet"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Run basic features tests on CPU",
+      "sense_id": "run-basic-features-tests-on-cpu#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

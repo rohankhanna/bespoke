@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:43:21.012840+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1613
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "code for Mesh R-CNN, ICCV 2019",
+    "fork": false,
+    "full_name": "facebookresearch/meshrcnn",
+    "html_url": "https://github.com/facebookresearch/meshrcnn",
+    "language": "Python",
+    "pushed_at": "2026-01-12T11:00:49Z",
+    "stargazers_count": 1160,
+    "topics": [],
+    "updated_at": "2026-04-20T14:00:44Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

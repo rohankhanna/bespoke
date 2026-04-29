@@ -1,0 +1,127 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baaivision/Emu",
+      "target": "baaivision/emu3",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Emu",
+      "target": "foundation-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Emu",
+      "target": "generative-pretraining-in-multimodality",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Emu",
+      "target": "in-context-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Emu",
+      "target": "instruct-tuning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Emu",
+      "target": "multimodal-generalist",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baaivision/Emu",
+      "target": "multimodal-pretraining",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:45:07.573824+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2342
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Emu Series: Generative Multimodal Models from BAAI",
+    "fork": false,
+    "full_name": "baaivision/Emu",
+    "html_url": "https://github.com/baaivision/Emu",
+    "language": "Python",
+    "pushed_at": "2026-01-12T08:39:29Z",
+    "stargazers_count": 1774,
+    "topics": [
+      "foundation-models",
+      "generative-pretraining-in-multimodality",
+      "in-context-learning",
+      "instruct-tuning",
+      "multimodal-generalist",
+      "multimodal-pretraining"
+    ],
+    "updated_at": "2026-04-19T14:51:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baaivision/emu3",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "foundation-models"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "generative-pretraining-in-multimodality"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "in-context-learning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "instruct-tuning"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-generalist"
+    },
+    {
+      "context_snippet": "<div align=\"center\">",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multimodal-pretraining"
+    }
+  ]
+}

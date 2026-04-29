@@ -1,0 +1,89 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "THUDM/SwissArmyTransformer",
+      "target": "thudm/cogvideo",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/SwissArmyTransformer",
+      "target": "pretrained-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/SwissArmyTransformer",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "THUDM/SwissArmyTransformer",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:03:20.319505+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8956
+    },
+    {
+      "path": "requirements.txt",
+      "size": 100
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "SwissArmyTransformer is a flexible and powerful library to develop your own Transformer variants.",
+    "fork": false,
+    "full_name": "THUDM/SwissArmyTransformer",
+    "html_url": "https://github.com/THUDM/SwissArmyTransformer",
+    "language": "Python",
+    "pushed_at": "2024-12-26T13:23:58Z",
+    "stargazers_count": 1117,
+    "topics": [
+      "pretrained-models",
+      "pytorch",
+      "transformer"
+    ],
+    "updated_at": "2026-04-21T15:14:28Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "thudm/cogvideo",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "`sat`(`SwissArmyTransformer`) is a flexible and powerful library to develop your own Transformer variants.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pretrained-models"
+    },
+    {
+      "context_snippet": "`sat`(`SwissArmyTransformer`) is a flexible and powerful library to develop your own Transformer variants.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "`sat`(`SwissArmyTransformer`) is a flexible and powerful library to develop your own Transformer variants.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

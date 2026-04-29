@@ -19,6 +19,18 @@
       "source_repo": "adrg/xdg",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "danielgtaylor/mexpr",
+      "status": "candidate-context",
+      "text": "Micro expression parser library for Go"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/mexpr",
+      "status": "candidate-context",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/danielgtaylor/mexpr.svg)](https://pkg.go.dev/github.com/danielgtaylor/mexpr) [![Go Report Card](https://goreportcard.com/badge/github.com/danielgtaylor/mexpr)](https://goreportcard.com/report/github.com/danielgtaylor/mexpr) ![\u2026"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "adrg/xdg",
       "status": "candidate",
       "text": "<h1 align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "danielgtaylor/mexpr",
+      "status": "candidate",
+      "text": "[![Go Reference](https://pkg.go.dev/badge/github.com/danielgtaylor/mexpr.svg)](https://pkg.go.dev/github.com/danielgtaylor/mexpr) [![Go Report Card](https://goreportcard.com/badge/github.com/danielgtaylor/mexpr)](https://goreportcard.com/report/github.com/danielgtaylor/mexpr) ![\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-21T11:24:10.450489+00:00",
       "source_file": null,
       "source_repo": "adrg/xdg"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "danielgtaylor/mexpr"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-21T11:24:10.450489+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

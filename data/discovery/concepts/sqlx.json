@@ -19,12 +19,30 @@
       "source_repo": "launchbadge/sqlx",
       "status": "candidate-context",
       "text": "SQLx"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "wsxiaoys/sqlx",
+      "status": "candidate-context",
+      "text": "\ud83e\uddf0 The Rust SQL Toolkit. An async, pure Rust SQL crate featuring compile-time checked queries without a DSL. Supports PostgreSQL, MySQL, and SQLite."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wsxiaoys/sqlx",
+      "status": "candidate-context",
+      "text": "SQLx"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "launchbadge/sqlx",
+      "status": "candidate",
+      "text": "SQLx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "wsxiaoys/sqlx",
       "status": "candidate",
       "text": "SQLx"
     }
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/sqlx.yml",
       "source_repo": "launchbadge/sqlx"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/sqlx.yml",
+      "source_repo": "wsxiaoys/sqlx"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:51:00.200130+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 160
+    },
+    {
+      "path": "requirements.txt",
+      "size": 186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "MOSS 003 WebSearchTool: A simple but reliable implementation",
+    "fork": false,
+    "full_name": "OpenLMLab/MOSS_WebSearchTool",
+    "html_url": "https://github.com/OpenLMLab/MOSS_WebSearchTool",
+    "language": "Python",
+    "pushed_at": "2023-05-24T06:26:34Z",
+    "stargazers_count": 45,
+    "topics": [],
+    "updated_at": "2023-08-31T05:17:16Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

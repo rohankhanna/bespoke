@@ -19,6 +19,18 @@
       "source_repo": "servo/servo",
       "status": "candidate-context",
       "text": "Servo is a prototype web browser engine written in the"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "status": "candidate-context",
+      "text": "Home for explainer documents originated by the Microsoft Edge team"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "status": "candidate-context",
+      "text": "Welcome! This repo is home to \"explainers\" and related documents originating"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "servo/servo",
       "status": "candidate",
       "text": "Servo is a prototype web browser engine written in the"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers",
+      "status": "candidate",
+      "text": "Welcome! This repo is home to \"explainers\" and related documents originating"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T04:27:42.433064+00:00",
       "source_file": null,
       "source_repo": "servo/servo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "MicrosoftEdge/MSEdgeExplainers"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T04:27:42.433064+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "multiband-melgan",
+      "sense_id": "multiband-melgan#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "multiband-melgan",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "multiband-melgan",
+  "observation_id": "1c0c85a96006a035",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "multiband-melgan",
+  "source_context_snippet": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support",
+  "source_file": null,
+  "source_repo": "monatis/german-tts",
+  "source_repo_description": "German Tacotron 2 and Multi-band MelGAN in TensorFlow with TF Lite inference support"
+}

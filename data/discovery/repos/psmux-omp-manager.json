@@ -1,0 +1,262 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/download-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "psmux/omp-manager",
+      "target": "marlocarlo/scoop-omp-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "psmux/omp-manager",
+      "target": "marlocarlo/omp-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Cargo.toml",
+      "source_repo": "psmux/omp-manager",
+      "target": "marlocarlo/omp-manager",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "psmux/omp-manager",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "psmux/omp-manager",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "psmux/omp-manager",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "psmux/omp-manager",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "psmux/omp-manager",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "psmux/omp-manager",
+      "target": "actions/download-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "psmux/omp-manager",
+      "target": "softprops/action-gh-release@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "psmux/omp-manager",
+      "target": "Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "psmux/omp-manager",
+      "target": "ohmyposh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "psmux/omp-manager",
+      "target": "powershell",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "psmux/omp-manager",
+      "target": "powershell-script",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "psmux/omp-manager",
+      "target": "pwsh",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "psmux/omp-manager",
+      "target": "themes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:54:59.916687+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5774
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 784
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 399
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 30730
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Installation and manager for Oh My Posh! The one thing you need to browse themes, install fonts, and configure shells",
+    "fork": false,
+    "full_name": "psmux/omp-manager",
+    "html_url": "https://github.com/psmux/omp-manager",
+    "language": "Rust",
+    "pushed_at": "2026-04-10T18:46:26Z",
+    "stargazers_count": 37,
+    "topics": [
+      "ohmyposh",
+      "powershell",
+      "powershell-script",
+      "pwsh",
+      "themes"
+    ],
+    "updated_at": "2026-04-28T20:03:15Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marlocarlo/omp-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marlocarlo/scoop-omp-manager",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "marlocarlo/omp-manager",
+      "source_file": "Cargo.toml"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    },
+    {
+      "context_snippet": "A terminal UI (TUI) that sets up **[Oh My Posh](https://ohmyposh.dev)** from scratch - no prior knowledge needed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ohmyposh"
+    },
+    {
+      "context_snippet": "A terminal UI (TUI) that sets up **[Oh My Posh](https://ohmyposh.dev)** from scratch - no prior knowledge needed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powershell"
+    },
+    {
+      "context_snippet": "A terminal UI (TUI) that sets up **[Oh My Posh](https://ohmyposh.dev)** from scratch - no prior knowledge needed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "powershell-script"
+    },
+    {
+      "context_snippet": "A terminal UI (TUI) that sets up **[Oh My Posh](https://ohmyposh.dev)** from scratch - no prior knowledge needed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pwsh"
+    },
+    {
+      "context_snippet": "A terminal UI (TUI) that sets up **[Oh My Posh](https://ohmyposh.dev)** from scratch - no prior knowledge needed.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "themes"
+    }
+  ]
+}

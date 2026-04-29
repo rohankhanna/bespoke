@@ -55,6 +55,18 @@
       "source_repo": "g-truc/glm",
       "status": "candidate-context",
       "text": "ci"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matrix-org/matrix-appservice-slack",
+      "status": "candidate-context",
+      "text": "A Matrix <--> Slack bridge"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matrix-org/matrix-appservice-slack",
+      "status": "candidate-context",
+      "text": "The public Matrix.org Slack bridge has been decommissioned on January 14th, 2026. Please see the following"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "g-truc/glm",
       "status": "candidate",
       "text": "ci"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matrix-org/matrix-appservice-slack",
+      "status": "candidate",
+      "text": "The public Matrix.org Slack bridge has been decommissioned on January 14th, 2026. Please see the following"
     }
   ],
   "candidate_related_terms": [
@@ -163,11 +181,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "g-truc/glm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "matrix-org/matrix-appservice-slack"
     }
   ],
   "first_seen_at": "2026-04-19T04:47:57.443742+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

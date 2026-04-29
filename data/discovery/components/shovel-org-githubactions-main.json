@@ -1,0 +1,47 @@
+{
+  "component": "shovel-org/GithubActions@main",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "shovel-org/Windows-JetBrains-Bucket"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issue_comment.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/issues.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pull_request.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/schedule.yml",
+      "source_repo": "shovel-org/Windows-Sysinternals-Bucket"
+    }
+  ]
+}

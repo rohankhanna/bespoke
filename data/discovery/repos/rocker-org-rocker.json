@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "rocker-org/rocker",
+      "target": "docker",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T22:00:14.795338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9395
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "R configurations for Docker",
+    "fork": false,
+    "full_name": "rocker-org/rocker",
+    "html_url": "https://github.com/rocker-org/rocker",
+    "language": "Shell",
+    "pushed_at": "2026-04-24T21:53:09Z",
+    "stargazers_count": 1506,
+    "topics": [
+      "docker",
+      "r"
+    ],
+    "updated_at": "2026-04-24T21:53:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "[![Build Status](https://travis-ci.org/rocker-org/rocker.svg?branch=master)](https://travis-ci.org/rocker-org/rocker)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker"
+    }
+  ]
+}

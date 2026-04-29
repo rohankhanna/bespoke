@@ -1,0 +1,17 @@
+{
+  "component": "helm/chart-testing-action@v2.2.1",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "redis-stack/helm-redis-stack"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "redis-stack/helm-redis-stack"
+    }
+  ]
+}

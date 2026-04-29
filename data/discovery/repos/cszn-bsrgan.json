@@ -1,0 +1,135 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cszn/BSRGAN",
+      "target": "cszn/kair",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cszn/BSRGAN",
+      "target": "cszn/scunet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cszn/BSRGAN",
+      "target": "jixiaozhong/realsr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cszn/BSRGAN",
+      "target": "cszn/bsrnet",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/BSRGAN",
+      "target": "blind-image-super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/BSRGAN",
+      "target": "real-image-super-resolution",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/BSRGAN",
+      "target": "realsr",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cszn/BSRGAN",
+      "target": "super-resolution",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:05.424386+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10780
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Designing a Practical Degradation Model for Deep Blind Image Super-Resolution (ICCV, 2021) (PyTorch) - We released the training code!",
+    "fork": false,
+    "full_name": "cszn/BSRGAN",
+    "html_url": "https://github.com/cszn/BSRGAN",
+    "language": "Python",
+    "pushed_at": "2024-04-12T18:35:45Z",
+    "stargazers_count": 1369,
+    "topics": [
+      "blind-image-super-resolution",
+      "real-image-super-resolution",
+      "realsr",
+      "super-resolution"
+    ],
+    "updated_at": "2026-04-29T17:38:12Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cszn/bsrnet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cszn/kair",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cszn/scunet",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jixiaozhong/realsr",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/BSRGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "blind-image-super-resolution"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/BSRGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "real-image-super-resolution"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/BSRGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "realsr"
+    },
+    {
+      "context_snippet": "![visitors](https://visitor-badge.glitch.me/badge?page_id=cszn/BSRGAN)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "super-resolution"
+    }
+  ]
+}

@@ -31,6 +31,30 @@
       "source_repo": "ScoopInstaller/Extras",
       "status": "candidate-context",
       "text": "Extra manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For manifests that don't fit the [Main criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "chawyehsu/dorado",
+      "status": "candidate-context",
+      "text": "\ud83d\udc1f Yet Another bucket for lovely Scoop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chawyehsu/dorado",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 Bucket of almost all of the 280+ apps from Nirsoft.net. Migrated from MCOfficer/scoop-nirsoft with permission."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "status": "candidate-context",
+      "text": "[![update](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml/badge.svg)](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +69,18 @@
       "source_repo": "ScoopInstaller/Extras",
       "status": "candidate",
       "text": "Extra manifests for [Scoop](https://scoop.sh), the Windows command-line installer. For manifests that don't fit the [Main criteria](https://github.com/ScoopInstaller/Scoop/wiki/Criteria-for-including-apps-in-the-main-bucket)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "chawyehsu/dorado",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Nirsoft",
+      "status": "candidate",
+      "text": "[![update](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml/badge.svg)](https://github.com/ScoopInstaller/Nirsoft/actions/workflows/update.yml)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +100,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ScoopInstaller/Extras"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "chawyehsu/dorado"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Nirsoft"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

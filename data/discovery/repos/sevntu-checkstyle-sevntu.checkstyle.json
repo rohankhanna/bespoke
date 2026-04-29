@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-cs-version.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-license-year.yml"
+    },
+    {
+      "component": "actions/setup-java@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-no-exception-workflow.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-no-exception-workflow.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-cs-version.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-cs-version.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "Bump CS Version in REPO",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bump-license-year.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-license-year.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "Bump license year",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-no-exception-workflow.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "actions/setup-java@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks-no-exception-workflow.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks-no-exception-workflow.yml",
+      "source_repo": "sevntu-checkstyle/sevntu.checkstyle",
+      "target": "checks",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:43:42.702103+00:00",
+  "fetched_files": [
+    {
+      "path": ".github/workflows/bump-cs-version.yml",
+      "size": 1793
+    },
+    {
+      "path": ".github/workflows/bump-license-year.yml",
+      "size": 1006
+    },
+    {
+      "path": ".github/workflows/checks-no-exception-workflow.yml",
+      "size": 820
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Additional Checkstyle checks, that could be added as extension to EclipseCS plugin and maven-checkstyle-plugin, Sonar checkstyle plugin, extension for CheckStyle IDEA plugin.",
+    "fork": false,
+    "full_name": "sevntu-checkstyle/sevntu.checkstyle",
+    "html_url": "https://github.com/sevntu-checkstyle/sevntu.checkstyle",
+    "language": "Java",
+    "pushed_at": "2026-04-25T01:26:12Z",
+    "stargazers_count": 196,
+    "topics": [],
+    "updated_at": "2026-04-25T01:26:15Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"Bump CS Version in REPO\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-cs-version.yml",
+      "term": "Bump CS Version in REPO"
+    },
+    {
+      "context_snippet": "\"Bump license year\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bump-license-year.yml",
+      "term": "Bump license year"
+    },
+    {
+      "context_snippet": "\"checks\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks-no-exception-workflow.yml",
+      "term": "checks"
+    }
+  ]
+}

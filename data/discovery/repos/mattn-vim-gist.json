@@ -1,0 +1,82 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mattn/vim-gist",
+      "target": "mattn/vim-gist.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mattn/vim-gist",
+      "target": "gmarik/vundle",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mattn/vim-gist",
+      "target": "shougo/neobundle.vim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mattn/vim-gist",
+      "target": "gist",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:51:13.917314+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8231
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Vim plugin for Gist",
+    "fork": false,
+    "full_name": "mattn/vim-gist",
+    "html_url": "https://github.com/mattn/vim-gist",
+    "language": "Vim Script",
+    "pushed_at": "2026-04-10T23:20:24Z",
+    "stargazers_count": 1689,
+    "topics": [
+      "gist",
+      "vim"
+    ],
+    "updated_at": "2026-04-28T12:25:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "gmarik/vundle",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "mattn/vim-gist.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "shougo/neobundle.vim",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This is a vimscript for creating gists (http://gist.github.com).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gist"
+    }
+  ]
+}

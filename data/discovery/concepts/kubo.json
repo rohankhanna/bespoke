@@ -31,6 +31,18 @@
       "source_repo": "ipfs/js-kubo-rpc-client",
       "status": "candidate-context",
       "text": "<h3 align=\"center\">JavaScript client library for the Kubo RPC API</h3>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ipfs-shipyard/nopfs",
+      "status": "candidate-context",
+      "text": "Say NO with NOpfs! NOpfs provides content-blocking-layer capabilities for IPFS (Kubo)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/nopfs",
+      "status": "candidate-context",
+      "text": "NOPfs helps IPFS to say No!"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "ipfs/js-kubo-rpc-client",
       "status": "candidate",
       "text": "<h3 align=\"center\">JavaScript client library for the Kubo RPC API</h3>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ipfs-shipyard/nopfs",
+      "status": "candidate",
+      "text": "NOPfs helps IPFS to say No!"
     }
   ],
   "candidate_related_terms": [
@@ -100,11 +118,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "ipfs/js-kubo-rpc-client"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ipfs-shipyard/nopfs"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

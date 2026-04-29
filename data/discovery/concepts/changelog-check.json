@@ -68,6 +68,48 @@
       "source_repo": "snowflakedb/gosnowflake",
       "status": "candidate-context",
       "text": "Changelog Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codesyntax/volto-cookiebot",
+      "status": "candidate-context",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codesyntax/volto-countup-block",
+      "status": "candidate-context",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "plone/cookieplone",
+      "status": "candidate-context",
+      "text": "Create Plone projects, addons, documentation with ease!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/cookieplone",
+      "status": "candidate-context",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitconcept/volto-light-theme",
+      "status": "candidate-context",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "esp-rs/espflash",
+      "status": "candidate-context",
+      "text": "Serial flasher utility for Espressif SoCs and modules based on esptool.py"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/espflash",
+      "status": "candidate-context",
+      "text": "Changelog check"
     }
   ],
   "candidate_glosses": [
@@ -100,6 +142,36 @@
       "source_repo": "snowflakedb/gosnowflake",
       "status": "candidate",
       "text": "Changelog Check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codesyntax/volto-cookiebot",
+      "status": "candidate",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codesyntax/volto-countup-block",
+      "status": "candidate",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "plone/cookieplone",
+      "status": "candidate",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitconcept/volto-light-theme",
+      "status": "candidate",
+      "text": "Changelog check"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "esp-rs/espflash",
+      "status": "candidate",
+      "text": "Changelog check"
     }
   ],
   "candidate_related_terms": [
@@ -173,11 +245,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/changelog.yml",
       "source_repo": "snowflakedb/gosnowflake"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "codesyntax/volto-cookiebot"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "codesyntax/volto-countup-block"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "plone/cookieplone"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "kitconcept/volto-light-theme"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/changelog.yml",
+      "source_repo": "esp-rs/espflash"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

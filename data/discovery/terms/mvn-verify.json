@@ -1,0 +1,17 @@
+{
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "revelc/formatter-maven-plugin"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "revelc/formatter-m2e-configurator"
+    }
+  ],
+  "term": "mvn verify"
+}

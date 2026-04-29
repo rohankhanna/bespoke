@@ -91,6 +91,18 @@
       "source_repo": "NVIDIA/TensorRT",
       "status": "candidate-context",
       "text": "Blossom-CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ai-dynamo/nixl",
+      "status": "candidate-context",
+      "text": "NVIDIA Inference Xfer Library (NIXL)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/nixl",
+      "status": "candidate-context",
+      "text": "Blossom-CI"
     }
   ],
   "candidate_glosses": [
@@ -133,6 +145,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "NVIDIA/TensorRT",
+      "status": "candidate",
+      "text": "Blossom-CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ai-dynamo/nixl",
       "status": "candidate",
       "text": "Blossom-CI"
     }
@@ -184,11 +202,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/blossom-ci.yml",
       "source_repo": "NVIDIA/TensorRT"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/blossom-ci.yml",
+      "source_repo": "ai-dynamo/nixl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

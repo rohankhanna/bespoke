@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Run Integration Tests"
+    "Run Integration Tests",
+    "Run integration tests"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -43,6 +44,18 @@
       "source_repo": "XuhuiZhou/OpenHands",
       "status": "candidate-context",
       "text": "Run Integration Tests"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "huggingface/text-embeddings-inference",
+      "status": "candidate-context",
+      "text": "A blazing fast inference solution for text embeddings models"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/text-embeddings-inference",
+      "status": "candidate-context",
+      "text": "Run integration tests"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +76,12 @@
       "source_repo": "XuhuiZhou/OpenHands",
       "status": "candidate",
       "text": "Run Integration Tests"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "huggingface/text-embeddings-inference",
+      "status": "candidate",
+      "text": "Run integration tests"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +143,17 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/integration-runner.yml",
       "source_repo": "XuhuiZhou/OpenHands"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/integration-test.yaml",
+      "source_repo": "huggingface/text-embeddings-inference"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

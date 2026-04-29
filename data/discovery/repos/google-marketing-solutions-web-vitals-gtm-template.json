@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "google-marketing-solutions/web-vitals-gtm-template",
+      "target": "google-marketing-solutions/web-performance-lab",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:56:09.285884+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8716
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "google-marketing-solutions/web-vitals-gtm-template",
+    "html_url": "https://github.com/google-marketing-solutions/web-vitals-gtm-template",
+    "language": "Smarty",
+    "pushed_at": "2025-07-25T13:26:22Z",
+    "stargazers_count": 37,
+    "topics": [],
+    "updated_at": "2026-04-13T14:08:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google-marketing-solutions/web-performance-lab",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

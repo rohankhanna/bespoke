@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Serverless plugin for managing custom domains with API Gateways."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![serverless](https://assets.serverless-extras.com/website/general/icon-serverless-framework.svg)](https://www.serverless.com/plugins/serverless-domain-manager)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![serverless](https://assets.serverless-extras.com/website/general/icon-serverless-framework.svg)](https://www.serverless.com/plugins/serverless-domain-manager)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024681,
+      "status": "candidate",
+      "text": "cloud-first"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024680,
+      "status": "candidate",
+      "text": "cloudy"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024679,
+      "status": "candidate",
+      "text": "server-side"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024678,
+      "status": "candidate",
+      "text": "role-based"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10024677,
+      "status": "candidate",
+      "text": "hyperconverged"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "serverless",
+      "sense_id": "serverless#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "serverless",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "serverless",
+  "observation_id": "81558412e02e0cf9",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "serverless",
+  "source_context_snippet": "[![serverless](https://assets.serverless-extras.com/website/general/icon-serverless-framework.svg)](https://www.serverless.com/plugins/serverless-domain-manager)",
+  "source_file": null,
+  "source_repo": "amplify-education/serverless-domain-manager",
+  "source_repo_description": "Serverless plugin for managing custom domains with API Gateways."
+}

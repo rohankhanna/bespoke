@@ -1,0 +1,88 @@
+{
+  "aliases": [
+    "news-aggregator"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "codelucas/newspaper",
+      "status": "candidate-context",
+      "text": "newspaper3k is a news, full-text, and article metadata extraction in Python 3. Advanced docs:"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelucas/newspaper",
+      "status": "candidate-context",
+      "text": "Newspaper3k: Article scraping & curation"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "adbar/trafilatura",
+      "status": "candidate-context",
+      "text": "Python & Command-line tool to gather text and metadata on the Web: Crawling, scraping, extraction, output as CSV, JSON, HTML, MD, TXT, XML"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adbar/trafilatura",
+      "status": "candidate-context",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "codelucas/newspaper",
+      "status": "candidate",
+      "text": "Newspaper3k: Article scraping & curation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "adbar/trafilatura",
+      "status": "candidate",
+      "text": "<br/>"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "news-aggregator",
+  "concept_id": "news-aggregator",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "codelucas/newspaper"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "adbar/trafilatura"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "news-aggregator",
+      "sense_id": "news-aggregator#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

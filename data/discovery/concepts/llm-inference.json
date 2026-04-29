@@ -163,6 +163,102 @@
       "source_repo": "mukel/llama3.java",
       "status": "candidate-context",
       "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "FasterDecoding/Medusa",
+      "status": "candidate-context",
+      "text": "Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterDecoding/Medusa",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/logo.png\" alt=\"Medusa\" width=\"100\" align=\"left\"><div align=\"center\"><h1>&nbsp;Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads</h1></div>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "status": "candidate-context",
+      "text": "\u26a1 Build your chatbot within minutes on your favorite device; offer SOTA compression techniques for LLMs; run LLMs efficiently on Intel Platforms\u26a1"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "jd-opensource/xllm",
+      "status": "candidate-context",
+      "text": "A high-performance inference engine for LLM, VLM, DiT and REC models, optimized for diverse AI accelerators."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jd-opensource/xllm",
+      "status": "candidate-context",
+      "text": "<!-- Copyright 2022 JD Co."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate-context",
+      "text": "Run generative AI models in sophgo BM1684X/BM1688"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate-context",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mukel/gemma4.java",
+      "status": "candidate-context",
+      "text": "Fast Gemma 4 inference in pure Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/gemma4.java",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mukel/gptoss.java",
+      "status": "candidate-context",
+      "text": "Fast OpenAI's gpt-oss inference in pure Java"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/gptoss.java",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpcaitech/SwiftInfer",
+      "status": "candidate-context",
+      "text": "Efficient AI Inference & Serving"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/SwiftInfer",
+      "status": "candidate-context",
+      "text": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/neural-speed",
+      "status": "candidate-context",
+      "text": "An innovative library for efficient LLM inference via low-bit quantization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-speed",
+      "status": "candidate-context",
+      "text": "This project will no longer be maintained by Intel."
     }
   ],
   "candidate_glosses": [
@@ -243,6 +339,54 @@
       "source_repo": "mukel/llama3.java",
       "status": "candidate",
       "text": "Practical [Llama 3](https://github.com/meta-llama/llama3), [3.1](https://llama.meta.com/docs/model-cards-and-prompt-formats/llama3_1) and [3.2](https://ai.meta.com/blog/llama-3-2-connect-2024-vision-edge-mobile-devices/) inference implemented in a single Java file."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "FasterDecoding/Medusa",
+      "status": "candidate",
+      "text": "<img src=\"assets/logo.png\" alt=\"Medusa\" width=\"100\" align=\"left\"><div align=\"center\"><h1>&nbsp;Medusa: Simple Framework for Accelerating LLM Generation with Multiple Decoding Heads</h1></div>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/intel-extension-for-transformers",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "jd-opensource/xllm",
+      "status": "candidate",
+      "text": "<!-- Copyright 2022 JD Co."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "sophgo/LLM-TPU",
+      "status": "candidate",
+      "text": "<div align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/gemma4.java",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mukel/gptoss.java",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/SwiftInfer",
+      "status": "candidate",
+      "text": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-speed",
+      "status": "candidate",
+      "text": "This project will no longer be maintained by Intel."
     }
   ],
   "candidate_related_terms": [],
@@ -340,11 +484,71 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "mukel/llama3.java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "FasterDecoding/Medusa"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "intel/intel-extension-for-transformers"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "gitleaks/gitleaks"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Lightning-AI/litgpt"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "jd-opensource/xllm"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "sophgo/LLM-TPU"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mukel/gemma4.java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mukel/gptoss.java"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "hpcaitech/SwiftInfer"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "intel/neural-speed"
     }
   ],
   "first_seen_at": "2026-04-18T11:57:36.597358+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

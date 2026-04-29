@@ -1,0 +1,53 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Newbeeer/diffusion_restart_sampling",
+      "target": "nvlabs/edm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Newbeeer/diffusion_restart_sampling",
+      "target": "newbeeer/pfgmpp",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:33.737011+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8226
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Code for NeurIPS 2023 paper \"Restart Sampling for Improving Generative Processes\"",
+    "fork": false,
+    "full_name": "Newbeeer/diffusion_restart_sampling",
+    "html_url": "https://github.com/Newbeeer/diffusion_restart_sampling",
+    "language": "Python",
+    "pushed_at": "2023-12-06T19:25:51Z",
+    "stargazers_count": 152,
+    "topics": [],
+    "updated_at": "2026-02-27T08:07:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "newbeeer/pfgmpp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "nvlabs/edm",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

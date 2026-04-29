@@ -117,7 +117,7 @@
       "target_type": "component"
     }
   ],
-  "fetched_at": "2026-04-23T22:17:15.363724+00:00",
+  "fetched_at": "2026-04-29T20:45:35.800898+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -129,7 +129,7 @@
     },
     {
       "path": ".github/workflows/main.yaml",
-      "size": 3522
+      "size": 3559
     },
     {
       "path": ".github/workflows/pypipublish.yaml",
@@ -145,10 +145,10 @@
     "full_name": "fsspec/filesystem_spec",
     "html_url": "https://github.com/fsspec/filesystem_spec",
     "language": "Python",
-    "pushed_at": "2026-04-17T16:19:13Z",
-    "stargazers_count": 1305,
+    "pushed_at": "2026-04-29T20:42:22Z",
+    "stargazers_count": 1306,
     "topics": [],
-    "updated_at": "2026-04-22T08:02:33Z"
+    "updated_at": "2026-04-29T20:40:40Z"
   },
   "repo_links": [],
   "terms": []

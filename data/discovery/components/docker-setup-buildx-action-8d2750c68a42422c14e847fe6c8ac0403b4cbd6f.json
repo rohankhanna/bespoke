@@ -2,7 +2,7 @@
   "component": "docker/setup-buildx-action@8d2750c68a42422c14e847fe6c8ac0403b4cbd6f",
   "discovered_via": "manifest-or-workflow",
   "first_seen_at": "2026-04-17T12:50:06.073855+00:00",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "NousResearch/hermes-agent",
   "sources": [
     {
@@ -179,6 +179,31 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-apps-image.yaml",
       "source_repo": "atlanhq/application-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-edge.yml",
+      "source_repo": "medama-io/medama"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-latest.yml",
+      "source_repo": "medama-io/medama"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-docker-image.yml",
+      "source_repo": "Skyvern-AI/skyvern"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build.yaml",
+      "source_repo": "huggingface/text-embeddings-inference"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "SillyTavern/SillyTavern"
     }
   ]
 }

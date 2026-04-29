@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T19:59:08.028891+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 264
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "User interface FileFilter implementations for file types supported by vlcj",
+    "fork": false,
+    "full_name": "caprica/vlcj-file-filters",
+    "html_url": "https://github.com/caprica/vlcj-file-filters",
+    "language": "Java",
+    "pushed_at": "2022-09-25T13:57:34Z",
+    "stargazers_count": 1,
+    "topics": [],
+    "updated_at": "2022-09-25T13:42:25Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -19,6 +19,18 @@
       "source_repo": "psliwka/vim-smoothie",
       "status": "candidate-context",
       "text": "vim-smoothie: Smooth scrolling for Vim done right\ud83e\udd64"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "status": "candidate-context",
+      "text": "Brings physics-based smooth scrolling to the Vim world!"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "status": "candidate-context",
+      "text": "Brings physics-based smooth scrolling to the Vim/Neovim world!"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "psliwka/vim-smoothie",
       "status": "candidate",
       "text": "vim-smoothie: Smooth scrolling for Vim done right\ud83e\udd64"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "yuttie/comfortable-motion.vim",
+      "status": "candidate",
+      "text": "Brings physics-based smooth scrolling to the Vim/Neovim world!"
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "psliwka/vim-smoothie"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "yuttie/comfortable-motion.vim"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

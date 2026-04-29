@@ -67,6 +67,12 @@
       "source_repo": "coredns/helm",
       "status": "candidate-context",
       "text": "Lint and Test Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-stack/helm-redis-stack",
+      "status": "candidate-context",
+      "text": "Lint and Test Charts"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +103,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "coredns/helm",
+      "status": "candidate",
+      "text": "Lint and Test Charts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "redis-stack/helm-redis-stack",
       "status": "candidate",
       "text": "Lint and Test Charts"
     }
@@ -172,11 +184,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/lint-test.yaml",
       "source_repo": "coredns/helm"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/lint-test.yml",
+      "source_repo": "redis-stack/helm-redis-stack"
     }
   ],
   "first_seen_at": "2026-04-22T04:41:58.081535+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

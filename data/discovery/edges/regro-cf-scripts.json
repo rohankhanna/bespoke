@@ -1,0 +1,258 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "regro/cf-scripts",
+      "target": "conda-forge/conda-forge-pinning-feedstock",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "regro/cf-scripts",
+      "target": "conda-forge/conda-forge-enhancement-proposals",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "regro/cf-scripts",
+      "target": "pydantic/pydantic",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "Dockerfile",
+      "source_repo": "regro/cf-scripts",
+      "target": "conda-forge/conda-forge-feedstock-ops",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bot.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "endersonmenezes/free-disk-space@7901478139cff6e9d44df5972fd8ab8fcade4db1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bot.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bot.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-bot.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "benc-uk/workflow-dispatch@7a027648b88c2413826b6ddd6c76114894dc5ec4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-bot.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "bot-bot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-cache.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "endersonmenezes/free-disk-space@7901478139cff6e9d44df5972fd8ab8fcade4db1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-cache.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "actions/cache@668228422ae6a00e4ad889ee87cd7109ec5666a7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-cache.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-cache.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-cache.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "benc-uk/workflow-dispatch@7a027648b88c2413826b6ddd6c76114894dc5ec4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-cache.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "bot-cache",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-events.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "endersonmenezes/free-disk-space@7901478139cff6e9d44df5972fd8ab8fcade4db1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-events.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-events.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-events.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "bot-events",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-feedstocks.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "endersonmenezes/free-disk-space@7901478139cff6e9d44df5972fd8ab8fcade4db1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-feedstocks.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-feedstocks.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-feedstocks.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "bot-feedstocks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-keepalive.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "beckermr/turnstyle-python@8f1ceb87dabbbbebe42257b85c368f6110bb9170",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-keepalive.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "benc-uk/workflow-dispatch@7a027648b88c2413826b6ddd6c76114894dc5ec4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-keepalive.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "bot-keepalive",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-make-graph.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "endersonmenezes/free-disk-space@7901478139cff6e9d44df5972fd8ab8fcade4db1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-make-graph.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-make-graph.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-make-graph.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "benc-uk/workflow-dispatch@7a027648b88c2413826b6ddd6c76114894dc5ec4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-make-graph.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "bot-make-graph",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-make-migrators.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "endersonmenezes/free-disk-space@7901478139cff6e9d44df5972fd8ab8fcade4db1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-make-migrators.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-make-migrators.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "mamba-org/setup-micromamba@d7c9bd84e824b79d2af72a2d4196c7f4300d3476",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/bot-make-migrators.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "benc-uk/workflow-dispatch@7a027648b88c2413826b6ddd6c76114894dc5ec4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/bot-make-migrators.yml",
+      "source_repo": "regro/cf-scripts",
+      "target": "bot-make-migrators",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "regro/cf-scripts"
+}

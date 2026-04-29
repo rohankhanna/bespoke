@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T21:47:49.340464+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 1035
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Character encoding for the web.",
+    "fork": false,
+    "full_name": "gsnedders/python-webencodings",
+    "html_url": "https://github.com/gsnedders/python-webencodings",
+    "language": "Python",
+    "pushed_at": "2022-05-03T21:36:03Z",
+    "stargazers_count": 39,
+    "topics": [],
+    "updated_at": "2025-10-01T15:39:12Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

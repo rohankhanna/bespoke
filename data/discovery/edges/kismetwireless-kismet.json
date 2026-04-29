@@ -1,0 +1,76 @@
+{
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-all-build.yaml",
+      "source_repo": "kismetwireless/kismet",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-all-build.yaml",
+      "source_repo": "kismetwireless/kismet",
+      "target": "Ubuntu All Build Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-all-no-wext-build.yaml",
+      "source_repo": "kismetwireless/kismet",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-all-no-wext-build.yaml",
+      "source_repo": "kismetwireless/kismet",
+      "target": "Ubuntu All No WEXT Build Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-default-build.yaml",
+      "source_repo": "kismetwireless/kismet",
+      "target": "actions/checkout@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-default-build.yaml",
+      "source_repo": "kismetwireless/kismet",
+      "target": "Ubuntu Default Build Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kismetwireless/kismet",
+      "target": "kismet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kismetwireless/kismet",
+      "target": "wi-fi",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kismetwireless/kismet",
+      "target": "wids",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "kismetwireless/kismet",
+      "target": "wireless",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "kismetwireless/kismet"
+}

@@ -55,6 +55,42 @@
       "source_repo": "OpenVisualCloud/Dockerfiles",
       "status": "candidate-context",
       "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "api7/wasm-nginx-module",
+      "status": "candidate-context",
+      "text": "Run Wasm in OpenResty/Nginx"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "api7/wasm-nginx-module",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate-context",
+      "text": "Nginx + WebAssembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alekcz/pcp",
+      "status": "candidate-context",
+      "text": "PCP: Clojure Processor -- A Clojure replacement for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alekcz/pcp",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/logo/logo-alt.svg\" width=\"200px\">"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +117,24 @@
       "source_repo": "OpenVisualCloud/Dockerfiles",
       "status": "candidate",
       "text": "This project will no longer be maintained by Intel."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "api7/wasm-nginx-module",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Kong/ngx_wasm_module",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alekcz/pcp",
+      "status": "candidate",
+      "text": "<img src=\"assets/logo/logo-alt.svg\" width=\"200px\">"
     }
   ],
   "candidate_related_terms": [
@@ -148,11 +202,29 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": null,
       "source_repo": "OpenVisualCloud/Dockerfiles"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "api7/wasm-nginx-module"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Kong/ngx_wasm_module"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alekcz/pcp"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

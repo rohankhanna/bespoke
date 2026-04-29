@@ -1,0 +1,175 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "target": "manim-kindergarten/manim_texlive_docker",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "target": "actions/upload-artifact@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "target": "Test Github Action",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "target": "actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "target": "github-actions",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "target": "manim",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "manim-kindergarten/manim_action_renderer",
+      "target": "manim-kindergarten",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:46:23.394611+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4354
+    },
+    {
+      "path": "Dockerfile",
+      "size": 109
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 2593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":octocat: GitHub Action to render manim videos",
+    "fork": false,
+    "full_name": "manim-kindergarten/manim_action_renderer",
+    "html_url": "https://github.com/manim-kindergarten/manim_action_renderer",
+    "language": "Shell",
+    "pushed_at": "2022-01-15T17:39:06Z",
+    "stargazers_count": 17,
+    "topics": [
+      "actions",
+      "github-actions",
+      "manim",
+      "manim-kindergarten"
+    ],
+    "updated_at": "2026-02-06T07:17:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "manim-kindergarten/manim_texlive_docker",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test Github Action",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test Github Action"
+    },
+    {
+      "context_snippet": "[![logo](test/header.png)](https://github.com/manim-kindergarten/manim_action_renderer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "actions"
+    },
+    {
+      "context_snippet": "[![logo](test/header.png)](https://github.com/manim-kindergarten/manim_action_renderer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "github-actions"
+    },
+    {
+      "context_snippet": "[![logo](test/header.png)](https://github.com/manim-kindergarten/manim_action_renderer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manim"
+    },
+    {
+      "context_snippet": "[![logo](test/header.png)](https://github.com/manim-kindergarten/manim_action_renderer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "manim-kindergarten"
+    }
+  ]
+}

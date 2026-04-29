@@ -43,6 +43,18 @@
       "source_repo": "JuliaEditorSupport/julia-vim",
       "status": "candidate-context",
       "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"julia-vim logo\"/></p>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "lervag/vimtex",
+      "status": "candidate-context",
+      "text": "VimTeX: A modern Vim and neovim filetype plugin for LaTeX files."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lervag/vimtex",
+      "status": "candidate-context",
+      "text": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "JuliaEditorSupport/julia-vim",
       "status": "candidate",
       "text": "<p align=\"center\"><img src=\"logo.png\" alt=\"julia-vim logo\"/></p>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "lervag/vimtex",
+      "status": "candidate",
+      "text": "VimTeX is a modern [Vim](http://www.vim.org/) and [Neovim](https://neovim.io/)"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +157,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "JuliaEditorSupport/julia-vim"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "lervag/vimtex"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

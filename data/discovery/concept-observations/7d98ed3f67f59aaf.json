@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Fast transformer inference for Ruby"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": ":fire: Fast [transformer](https://github.com/huggingface/transformers.js) inference for Ruby"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": ":fire: Fast [transformer](https://github.com/huggingface/transformers.js) inference for Ruby"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "named-entity-recognition",
+      "sense_id": "named-entity-recognition#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "named-entity-recognition",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "named-entity-recognition",
+  "observation_id": "7d98ed3f67f59aaf",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "named-entity-recognition",
+  "source_context_snippet": ":fire: Fast [transformer](https://github.com/huggingface/transformers.js) inference for Ruby",
+  "source_file": null,
+  "source_repo": "ankane/informers",
+  "source_repo_description": "Fast transformer inference for Ruby"
+}

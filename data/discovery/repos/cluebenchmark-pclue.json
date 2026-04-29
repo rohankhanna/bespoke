@@ -1,0 +1,128 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "target": "clue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "target": "datasets",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "target": "multi-task-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "target": "prompt-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "target": "promptclue",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "CLUEbenchmark/pCLUE",
+      "target": "zero-shot-learning",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:38:06.916358+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 26049
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "pCLUE: 1000000+\u591a\u4efb\u52a1\u63d0\u793a\u5b66\u4e60\u6570\u636e\u96c6",
+    "fork": false,
+    "full_name": "CLUEbenchmark/pCLUE",
+    "html_url": "https://github.com/CLUEbenchmark/pCLUE",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2022-10-04T04:57:39Z",
+    "stargazers_count": 506,
+    "topics": [
+      "chinese",
+      "clue",
+      "datasets",
+      "multi-task-learning",
+      "prompt-learning",
+      "promptclue",
+      "zero-shot-learning"
+    ],
+    "updated_at": "2026-04-23T11:52:47Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "clue"
+    },
+    {
+      "context_snippet": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "datasets"
+    },
+    {
+      "context_snippet": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "multi-task-learning"
+    },
+    {
+      "context_snippet": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-learning"
+    },
+    {
+      "context_snippet": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "promptclue"
+    },
+    {
+      "context_snippet": "pCLUE: Large-scale Prompt-based Dataset for Multi-task and Zero-shot Learning in Chinese",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "zero-shot-learning"
+    }
+  ]
+}

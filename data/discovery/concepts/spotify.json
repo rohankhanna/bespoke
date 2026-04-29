@@ -103,6 +103,54 @@
       "source_repo": "teticio/deej-ai.online-app",
       "status": "candidate-context",
       "text": "This is the source code for my webpage which is hosted at https://deej-ai.online/. If you are interested in the deep learning models that are used in the backend, have a look at my other repo https://github.com/teticio/Deej-A.I./."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devgianlu/go-librespot",
+      "status": "candidate-context",
+      "text": "Yet another open source Spotify client, written in Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/go-librespot",
+      "status": "candidate-context",
+      "text": "[![GitHub release](https://img.shields.io/github/release/devgianlu/go-librespot.svg)](https://github.com/devgianlu/go-librespot/releases/latest)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "devgianlu/librespot-android",
+      "status": "candidate-context",
+      "text": "A demo app that runs librespot-java on Android"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/librespot-android",
+      "status": "candidate-context",
+      "text": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "status": "candidate-context",
+      "text": "A module for MagicMirror displaying the song currently streaming on your librespot java speaker."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "status": "candidate-context",
+      "text": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate-context",
+      "text": "A spotify daemon"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate-context",
+      "text": "[![Matrix][matrix-badge]](https://matrix.to/#/#spotifyd:matrix.org)"
     }
   ],
   "candidate_glosses": [
@@ -153,6 +201,30 @@
       "source_repo": "teticio/deej-ai.online-app",
       "status": "candidate",
       "text": "This is the source code for my webpage which is hosted at https://deej-ai.online/. If you are interested in the deep learning models that are used in the backend, have a look at my other repo https://github.com/teticio/Deej-A.I./."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/go-librespot",
+      "status": "candidate",
+      "text": "[![GitHub release](https://img.shields.io/github/release/devgianlu/go-librespot.svg)](https://github.com/devgianlu/go-librespot/releases/latest)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "devgianlu/librespot-android",
+      "status": "candidate",
+      "text": "This is a demo application to demonstrate that it is possible to run [librespot-java](https://github.com/librespot-org/librespot-java) on an Android device. The app provides basic functionalities to login and then to play a custom URI, pause/resume, skip next and previous, but a\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "status": "candidate",
+      "text": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Spotifyd/spotifyd",
+      "status": "candidate",
+      "text": "[![Matrix][matrix-badge]](https://matrix.to/#/#spotifyd:matrix.org)"
     }
   ],
   "candidate_related_terms": [
@@ -244,11 +316,41 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "teticio/deej-ai.online-app"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "devgianlu/go-librespot"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "devgianlu/librespot-android"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "l3d00m/MMM-LibrespotJava"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Spotifyd/spotifyd"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "teticio/Deej-AI"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

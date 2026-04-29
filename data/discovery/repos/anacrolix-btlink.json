@@ -1,0 +1,119 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/btlink",
+      "target": "bittorrent",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/btlink",
+      "target": "certificate-authority",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/btlink",
+      "target": "dnslink",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/btlink",
+      "target": "gateway",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/btlink",
+      "target": "overlay-network",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "anacrolix/btlink",
+      "target": "proxy",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:50:27.353471+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 10553
+    },
+    {
+      "path": "go.mod",
+      "size": 3987
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "a HTTP(s) addressing scheme for BitTorrent",
+    "fork": false,
+    "full_name": "anacrolix/btlink",
+    "html_url": "https://github.com/anacrolix/btlink",
+    "language": "Go",
+    "pushed_at": "2024-01-03T04:22:40Z",
+    "stargazers_count": 55,
+    "topics": [
+      "bittorrent",
+      "certificate-authority",
+      "dns",
+      "dnslink",
+      "gateway",
+      "overlay-network",
+      "proxy"
+    ],
+    "updated_at": "2026-04-03T02:07:59Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "btlink is a peer-to-peer web hosting implementation. It uses constructs provided by BitTorrent and the BitTorrent DHT to handle DNS and serve websites. It supports domain certificates, subdomains, origin isolation and CORS. btlink can be progressively integrated, starting from n\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bittorrent"
+    },
+    {
+      "context_snippet": "btlink is a peer-to-peer web hosting implementation. It uses constructs provided by BitTorrent and the BitTorrent DHT to handle DNS and serve websites. It supports domain certificates, subdomains, origin isolation and CORS. btlink can be progressively integrated, starting from n\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "certificate-authority"
+    },
+    {
+      "context_snippet": "btlink is a peer-to-peer web hosting implementation. It uses constructs provided by BitTorrent and the BitTorrent DHT to handle DNS and serve websites. It supports domain certificates, subdomains, origin isolation and CORS. btlink can be progressively integrated, starting from n\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dnslink"
+    },
+    {
+      "context_snippet": "btlink is a peer-to-peer web hosting implementation. It uses constructs provided by BitTorrent and the BitTorrent DHT to handle DNS and serve websites. It supports domain certificates, subdomains, origin isolation and CORS. btlink can be progressively integrated, starting from n\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gateway"
+    },
+    {
+      "context_snippet": "btlink is a peer-to-peer web hosting implementation. It uses constructs provided by BitTorrent and the BitTorrent DHT to handle DNS and serve websites. It supports domain certificates, subdomains, origin isolation and CORS. btlink can be progressively integrated, starting from n\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "overlay-network"
+    },
+    {
+      "context_snippet": "btlink is a peer-to-peer web hosting implementation. It uses constructs provided by BitTorrent and the BitTorrent DHT to handle DNS and serve websites. It supports domain certificates, subdomains, origin isolation and CORS. btlink can be progressively integrated, starting from n\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "proxy"
+    }
+  ]
+}

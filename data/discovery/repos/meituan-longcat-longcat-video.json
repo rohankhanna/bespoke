@@ -1,0 +1,57 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meituan-longcat/LongCat-Video",
+      "target": "meituan-longcat/longcat-flash-chat",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "meituan-longcat/LongCat-Video",
+      "target": "vipshop/cache-dit",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:39.777317+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15454
+    },
+    {
+      "path": "requirements.txt",
+      "size": 250
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": null,
+    "fork": false,
+    "full_name": "meituan-longcat/LongCat-Video",
+    "html_url": "https://github.com/meituan-longcat/LongCat-Video",
+    "language": "Python",
+    "pushed_at": "2026-04-24T09:25:07Z",
+    "stargazers_count": 2317,
+    "topics": [],
+    "updated_at": "2026-04-29T17:08:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "meituan-longcat/longcat-flash-chat",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "vipshop/cache-dit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

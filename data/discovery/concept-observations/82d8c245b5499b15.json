@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "winget"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "winget"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8606927,
+      "status": "candidate",
+      "text": "wing"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8606926,
+      "status": "candidate",
+      "text": "wingler"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8606925,
+      "status": "candidate",
+      "text": "winge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8606924,
+      "status": "candidate",
+      "text": "wingard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 8606923,
+      "status": "candidate",
+      "text": "wingfield"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "winget",
+      "sense_id": "winget#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "winget",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "winget",
+  "observation_id": "82d8c245b5499b15",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "winget",
+  "source_context_snippet": "winget",
+  "source_file": ".github/workflows/winget.yml",
+  "source_repo": "dorssel/usbipd-win",
+  "source_repo_description": "Windows software for sharing locally connected USB devices to other machines, including Hyper-V guests and WSL 2."
+}

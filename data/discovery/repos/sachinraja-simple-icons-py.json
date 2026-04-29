@@ -1,0 +1,222 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update.yml"
+    },
+    {
+      "component": "oleksiyrudenko/gha-git-credentials@v2-latest",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "snok/install-poetry@v1.4.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "oleksiyrudenko/gha-git-credentials@v2-latest",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "snok/install-poetry@v1.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update.yml",
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "auto update",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "snok/install-poetry@v1.4.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "simple-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "svg-icons",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sachinraja/simple-icons-py",
+      "target": "svgs",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:48:38.720036+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3110
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1343
+    },
+    {
+      "path": ".github/workflows/auto-update.yml",
+      "size": 1600
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1215
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "python wrapper for simple-icons",
+    "fork": false,
+    "full_name": "sachinraja/simple-icons-py",
+    "html_url": "https://github.com/sachinraja/simple-icons-py",
+    "language": "Python",
+    "pushed_at": "2025-05-13T19:20:43Z",
+    "stargazers_count": 23,
+    "topics": [
+      "icons",
+      "python",
+      "simple-icons",
+      "svg",
+      "svg-icons",
+      "svgs"
+    ],
+    "updated_at": "2025-09-20T02:49:08Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "auto update",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/auto-update.yml",
+      "term": "auto update"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "icons"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simple-icons"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svg-icons"
+    },
+    {
+      "context_snippet": "<h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "svgs"
+    }
+  ]
+}

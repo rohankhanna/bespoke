@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Simple unit testing for C"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "__Copyright (c) 2007 - 2026 Unity Project by Mike Karlesky, Mark VanderVoord, and Greg Williams__"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "__Copyright (c) 2007 - 2026 Unity Project by Mike Karlesky, Mark VanderVoord, and Greg Williams__"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "unit-testing",
+      "sense_id": "unit-testing#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "unit-testing",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "unit-testing",
+  "observation_id": "98766d9457b33e88",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "unit-testing",
+  "source_context_snippet": "__Copyright (c) 2007 - 2026 Unity Project by Mike Karlesky, Mark VanderVoord, and Greg Williams__",
+  "source_file": null,
+  "source_repo": "ThrowTheSwitch/Unity",
+  "source_repo_description": "Simple unit testing for C"
+}

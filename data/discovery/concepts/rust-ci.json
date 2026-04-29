@@ -99,6 +99,54 @@
       "source_repo": "rizsotto/Bear",
       "status": "candidate-context",
       "text": "rust CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mozilla/dump_syms",
+      "status": "candidate-context",
+      "text": "Rewrite of breakpad dump_syms tools in Rust"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/dump_syms",
+      "status": "candidate-context",
+      "text": "Rust CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "The fastest and the most accurate file search toolkit for AI agents, Neovim, Rust, C, and NodeJS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate-context",
+      "text": "Rust CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "matter-labs/zksync-airbender",
+      "status": "candidate-context",
+      "text": "RISC-V prover system for ZKsync OS"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync-airbender",
+      "status": "candidate-context",
+      "text": "\"Rust CI\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "The framework for building with WebAssembly (wasm). Easily & securely load wasm modules, move data, call functions, and build extensible apps."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate-context",
+      "text": "Rust CI"
     }
   ],
   "candidate_glosses": [
@@ -149,6 +197,30 @@
       "source_repo": "rizsotto/Bear",
       "status": "candidate",
       "text": "rust CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mozilla/dump_syms",
+      "status": "candidate",
+      "text": "Rust CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dmtrKovalenko/fff",
+      "status": "candidate",
+      "text": "Rust CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "matter-labs/zksync-airbender",
+      "status": "candidate",
+      "text": "\"Rust CI\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "extism/extism",
+      "status": "candidate",
+      "text": "Rust CI"
     }
   ],
   "candidate_related_terms": [
@@ -240,11 +312,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/build_rust.yml",
       "source_repo": "rizsotto/Bear"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "mozilla/dump_syms"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/rust.yml",
+      "source_repo": "dmtrKovalenko/fff"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "matter-labs/zksync-airbender"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "extism/extism"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:55:23.393109+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 421
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Automated downstream builds from  https://github.com/travis-ci/packer-templates :saxophone: :heart_eyes_cat:",
+    "fork": false,
+    "full_name": "travis-infrastructure/packer-build",
+    "html_url": "https://github.com/travis-infrastructure/packer-build",
+    "language": null,
+    "pushed_at": "2025-10-15T13:56:32Z",
+    "stargazers_count": 2,
+    "topics": [],
+    "updated_at": "2024-09-11T08:19:31Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

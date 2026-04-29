@@ -1,0 +1,167 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml"
+    },
+    {
+      "component": "actions/setup-java@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml"
+    },
+    {
+      "component": "actions/upload-artifact@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "target": "revelc/formatter-m2e-configurator",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "target": "actions/checkout@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "target": "actions/setup-java@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "target": "actions/upload-artifact@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yaml",
+      "source_repo": "revelc/formatter-maven-plugin",
+      "target": "mvn verify",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "revelc/formatter-maven-plugin",
+      "target": "eclipse",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "revelc/formatter-maven-plugin",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "revelc/formatter-maven-plugin",
+      "target": "java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "revelc/formatter-maven-plugin",
+      "target": "maven",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "revelc/formatter-maven-plugin",
+      "target": "maven-plugin",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:39:58.201882+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3685
+    },
+    {
+      "path": ".github/workflows/maven.yaml",
+      "size": 1225
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Formatter Maven Plugin",
+    "fork": false,
+    "full_name": "revelc/formatter-maven-plugin",
+    "html_url": "https://github.com/revelc/formatter-maven-plugin",
+    "language": "Java",
+    "pushed_at": "2026-04-27T15:50:38Z",
+    "stargazers_count": 301,
+    "topics": [
+      "eclipse",
+      "hacktoberfest",
+      "java",
+      "maven",
+      "maven-plugin"
+    ],
+    "updated_at": "2026-04-21T20:56:02Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "revelc/formatter-m2e-configurator",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "mvn verify",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/maven.yaml",
+      "term": "mvn verify"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "eclipse"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "java"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maven"
+    },
+    {
+      "context_snippet": "<!--",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "maven-plugin"
+    }
+  ]
+}

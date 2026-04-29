@@ -1,0 +1,101 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "thinca/action-setup-vim@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "thinca/vim-themis",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "thinca/vim-themis",
+      "target": "thinca/action-setup-vim@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "thinca/vim-themis",
+      "target": "Test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thinca/vim-themis",
+      "target": "test-framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "thinca/vim-themis",
+      "target": "vim-script",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:50:40.511324+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1512
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1403
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A testing framework for Vim script.",
+    "fork": false,
+    "full_name": "thinca/vim-themis",
+    "html_url": "https://github.com/thinca/vim-themis",
+    "language": "Vim Script",
+    "pushed_at": "2026-02-13T11:06:19Z",
+    "stargazers_count": 241,
+    "topics": [
+      "test-framework",
+      "vim",
+      "vim-script"
+    ],
+    "updated_at": "2026-04-18T04:43:46Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "'Test'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Test"
+    },
+    {
+      "context_snippet": "themis.vim is a testing framework for Vim script.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "test-framework"
+    },
+    {
+      "context_snippet": "themis.vim is a testing framework for Vim script.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vim-script"
+    }
+  ]
+}

@@ -38,6 +38,18 @@
       "source_repo": "aws-samples/aws-lambda-layer-awscli",
       "status": "candidate-context",
       "text": "auto-approve"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws/aws-cdk",
+      "status": "candidate-context",
+      "text": "The AWS Cloud Development Kit is a framework for defining cloud infrastructure in code"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cdk",
+      "status": "candidate-context",
+      "text": "auto-approve"
     }
   ],
   "candidate_glosses": [
@@ -56,6 +68,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "aws-samples/aws-lambda-layer-awscli",
+      "status": "candidate",
+      "text": "auto-approve"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws/aws-cdk",
       "status": "candidate",
       "text": "auto-approve"
     }
@@ -119,11 +137,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/auto-approve.yml",
       "source_repo": "aws-samples/aws-lambda-layer-awscli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/auto-approve.yml",
+      "source_repo": "aws/aws-cdk"
     }
   ],
   "first_seen_at": "2026-04-19T17:42:30.117329+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

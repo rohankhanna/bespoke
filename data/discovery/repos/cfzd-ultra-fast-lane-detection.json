@@ -1,0 +1,182 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "target": "cfzd/ultra-fast-lane-detection-v2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "target": "xingangpan/scnn",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "target": "tusimple/tusimple-benchmark",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "target": "jade999/caffe_lane_detection",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "target": "autonomous-driving",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "target": "autonomous-vehicles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "target": "lane-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "target": "lane-detector",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "target": "lane-finding",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "cfzd/Ultra-Fast-Lane-Detection",
+      "target": "road-detection",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:38:41.147931+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5201
+    },
+    {
+      "path": "requirements.txt",
+      "size": 60
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Ultra Fast Structure-aware Deep Lane Detection (ECCV 2020)",
+    "fork": false,
+    "full_name": "cfzd/Ultra-Fast-Lane-Detection",
+    "html_url": "https://github.com/cfzd/Ultra-Fast-Lane-Detection",
+    "language": "Python",
+    "pushed_at": "2022-12-14T06:50:09Z",
+    "stargazers_count": 2033,
+    "topics": [
+      "autonomous-driving",
+      "autonomous-vehicles",
+      "cnn",
+      "lane-detection",
+      "lane-detector",
+      "lane-finding",
+      "pytorch",
+      "road-detection"
+    ],
+    "updated_at": "2026-04-29T04:30:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cfzd/ultra-fast-lane-detection-v2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jade999/caffe_lane_detection",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tusimple/tusimple-benchmark",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xingangpan/scnn",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-driving"
+    },
+    {
+      "context_snippet": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "autonomous-vehicles"
+    },
+    {
+      "context_snippet": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lane-detection"
+    },
+    {
+      "context_snippet": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lane-detector"
+    },
+    {
+      "context_snippet": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lane-finding"
+    },
+    {
+      "context_snippet": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "PyTorch implementation of the paper \"[Ultra Fast Structure-aware Deep Lane Detection](https://arxiv.org/abs/2004.11757)\".",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "road-detection"
+    }
+  ]
+}

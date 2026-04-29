@@ -139,6 +139,36 @@
       "source_repo": "wentasah/EmacsVterm.jl",
       "status": "candidate-context",
       "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JunoLab/Atom.jl",
+      "status": "candidate-context",
+      "text": "Julia Client for Atom"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunoLab/Atom.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "JuliaCI/BaseBenchmarks.jl",
+      "status": "candidate-context",
+      "text": " A collection of Julia benchmarks available for CI tracking from the JuliaLang/julia repository"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/BaseBenchmarks.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLogging/ProgressLogging.jl",
+      "status": "candidate-context",
+      "text": "TagBot"
     }
   ],
   "candidate_glosses": [
@@ -211,6 +241,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "wentasah/EmacsVterm.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JunoLab/Atom.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaCI/BaseBenchmarks.jl",
+      "status": "candidate",
+      "text": "TagBot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "JuliaLogging/ProgressLogging.jl",
       "status": "candidate",
       "text": "TagBot"
     }
@@ -298,11 +346,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/TagBot.yml",
       "source_repo": "wentasah/EmacsVterm.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JunoLab/Atom.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaCI/BaseBenchmarks.jl"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/TagBot.yml",
+      "source_repo": "JuliaLogging/ProgressLogging.jl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

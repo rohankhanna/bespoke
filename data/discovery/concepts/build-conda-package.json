@@ -175,6 +175,42 @@
       "source_repo": "conda-forge/pgvector-feedstock",
       "status": "candidate-context",
       "text": "Build conda package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/fenics-dolfinx-feedstock",
+      "status": "candidate-context",
+      "text": "A conda-smithy repository for fenics-dolfinx."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/fenics-dolfinx-feedstock",
+      "status": "candidate-context",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/threadpoolctl-feedstock",
+      "status": "candidate-context",
+      "text": "A conda-smithy repository for threadpoolctl."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/threadpoolctl-feedstock",
+      "status": "candidate-context",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "conda-forge/blis-feedstock",
+      "status": "candidate-context",
+      "text": "A conda-smithy repository for blis."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/blis-feedstock",
+      "status": "candidate-context",
+      "text": "Build conda package"
     }
   ],
   "candidate_glosses": [
@@ -259,6 +295,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "conda-forge/pgvector-feedstock",
+      "status": "candidate",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/fenics-dolfinx-feedstock",
+      "status": "candidate",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/threadpoolctl-feedstock",
+      "status": "candidate",
+      "text": "Build conda package"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "conda-forge/blis-feedstock",
       "status": "candidate",
       "text": "Build conda package"
     }
@@ -388,11 +442,29 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/conda-build.yml",
       "source_repo": "conda-forge/pgvector-feedstock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/fenics-dolfinx-feedstock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/threadpoolctl-feedstock"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/conda-build.yml",
+      "source_repo": "conda-forge/blis-feedstock"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

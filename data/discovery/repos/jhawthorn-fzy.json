@@ -1,0 +1,185 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "uraimo/run-on-arch-action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jhawthorn/fzy",
+      "target": "garybernhardt/selecta",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "jhawthorn/fzy",
+      "target": "jhawthorn/fzy.js",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jhawthorn/fzy",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jhawthorn/fzy",
+      "target": "uraimo/run-on-arch-action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "jhawthorn/fzy",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhawthorn/fzy",
+      "target": "fuzzy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhawthorn/fzy",
+      "target": "fuzzy-finders",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhawthorn/fzy",
+      "target": "fuzzy-search",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhawthorn/fzy",
+      "target": "fuzzyfinder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "jhawthorn/fzy",
+      "target": "unix",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:40:33.634912+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 4100
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 1652
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": ":mag: A simple, fast fuzzy finder for the terminal",
+    "fork": false,
+    "full_name": "jhawthorn/fzy",
+    "html_url": "https://github.com/jhawthorn/fzy",
+    "language": "C",
+    "pushed_at": "2025-07-29T23:14:14Z",
+    "stargazers_count": 3233,
+    "topics": [
+      "c",
+      "cli",
+      "fuzzy",
+      "fuzzy-finders",
+      "fuzzy-search",
+      "fuzzyfinder",
+      "fzy",
+      "unix",
+      "vim"
+    ],
+    "updated_at": "2026-04-29T16:11:07Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "garybernhardt/selecta",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "jhawthorn/fzy.js",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "![fzy](http://i.hawth.ca/u/fzy-github.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy"
+    },
+    {
+      "context_snippet": "![fzy](http://i.hawth.ca/u/fzy-github.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy-finders"
+    },
+    {
+      "context_snippet": "![fzy](http://i.hawth.ca/u/fzy-github.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzy-search"
+    },
+    {
+      "context_snippet": "![fzy](http://i.hawth.ca/u/fzy-github.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "fuzzyfinder"
+    },
+    {
+      "context_snippet": "![fzy](http://i.hawth.ca/u/fzy-github.svg)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "unix"
+    }
+  ]
+}

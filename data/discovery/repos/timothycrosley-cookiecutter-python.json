@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:51:13.394753+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 316
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A cookie cutter template for modern Python projects using Python3.6+, poetry, mypy, py.test, and linters.",
+    "fork": false,
+    "full_name": "timothycrosley/cookiecutter-python",
+    "html_url": "https://github.com/timothycrosley/cookiecutter-python",
+    "language": "Shell",
+    "pushed_at": "2024-07-05T03:52:56Z",
+    "stargazers_count": 24,
+    "topics": [],
+    "updated_at": "2026-01-14T11:04:01Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

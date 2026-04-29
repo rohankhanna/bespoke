@@ -1,12 +1,17 @@
 {
   "component": "ossf/scorecard-action@dc50aa9510b46c811795eb24b2f1ba02a914e534",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/scorecard.yml",
       "source_repo": "yeoman/yo"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint"
     }
   ]
 }

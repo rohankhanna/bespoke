@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "daniilidis-group/neural_renderer",
+      "target": "hiroharu-kato/neural_renderer",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:42:13.490484+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3549
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A PyTorch port of the Neural 3D Mesh Renderer",
+    "fork": false,
+    "full_name": "daniilidis-group/neural_renderer",
+    "html_url": "https://github.com/daniilidis-group/neural_renderer",
+    "language": "Python",
+    "pushed_at": "2022-03-17T10:15:35Z",
+    "stargazers_count": 1164,
+    "topics": [],
+    "updated_at": "2026-04-03T07:11:37Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiroharu-kato/neural_renderer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

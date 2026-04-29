@@ -53,34 +53,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "C2SP/wycheproof",
-      "target": "pyca/cryptography",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "C2SP/wycheproof",
-      "target": "libressl/portable",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "C2SP/wycheproof",
-      "target": "lowrisc/opentitan",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "C2SP/wycheproof",
-      "target": "open-quantum-safe/liboqs",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/vectorlint.yml",
       "source_repo": "C2SP/wycheproof",
@@ -123,7 +95,7 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-23T07:35:01.092619+00:00",
+  "fetched_at": "2026-04-29T18:49:26.473698+00:00",
   "fetched_files": [
     {
       "path": "README.md",
@@ -147,36 +119,15 @@
     "full_name": "C2SP/wycheproof",
     "html_url": "https://github.com/C2SP/wycheproof",
     "language": "Go",
-    "pushed_at": "2026-04-21T20:46:52Z",
-    "stargazers_count": 3027,
+    "pushed_at": "2026-04-28T17:44:14Z",
+    "stargazers_count": 3029,
     "topics": [
       "crypto",
       "cryptography"
     ],
-    "updated_at": "2026-04-22T20:58:33Z"
+    "updated_at": "2026-04-28T21:19:58Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "libressl/portable",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "lowrisc/opentitan",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "open-quantum-safe/liboqs",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "pyca/cryptography",
-      "source_file": "README.md"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Vector Lint",

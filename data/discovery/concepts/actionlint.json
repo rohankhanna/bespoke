@@ -93,6 +93,18 @@
       "source_repo": "hashicorp/go-retryablehttp",
       "status": "candidate-context",
       "text": "actionlint"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Homebrew/homebrew-cask",
+      "status": "candidate-context",
+      "text": "\ud83c\udf7b A CLI workflow for the administration of macOS applications distributed as binaries"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-cask",
+      "status": "candidate-context",
+      "text": "Actionlint"
     }
   ],
   "candidate_glosses": [
@@ -137,6 +149,12 @@
       "source_repo": "hashicorp/go-retryablehttp",
       "status": "candidate",
       "text": "actionlint"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Homebrew/homebrew-cask",
+      "status": "candidate",
+      "text": "Actionlint"
     }
   ],
   "candidate_related_terms": [],
@@ -186,11 +204,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/actionlint.yml",
       "source_repo": "hashicorp/go-retryablehttp"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/actionlint.yml",
+      "source_repo": "Homebrew/homebrew-cask"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -19,6 +19,18 @@
       "source_repo": "Sanster/IOPaint",
       "status": "candidate-context",
       "text": "<h1 align=\"center\">IOPaint</h1>"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Moldoteck/MagicEraser",
+      "status": "candidate-context",
+      "text": "MagicEraser bot for telegram"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Moldoteck/MagicEraser",
+      "status": "candidate-context",
+      "text": "MagicEraser - Telegram Bot for removing objects from pictures<br>"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "Sanster/IOPaint",
       "status": "candidate",
       "text": "<h1 align=\"center\">IOPaint</h1>"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Moldoteck/MagicEraser",
+      "status": "candidate",
+      "text": "MagicEraser - Telegram Bot for removing objects from pictures<br>"
     }
   ],
   "candidate_related_terms": [
@@ -84,11 +102,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "Sanster/IOPaint"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Moldoteck/MagicEraser"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

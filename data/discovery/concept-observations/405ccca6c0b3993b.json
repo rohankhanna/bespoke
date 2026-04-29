@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "plugin to highlight code blocks"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "rehype-highlight \u2014 rehype plugin to highlight code blocks with lowlight (highlight.js)"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "rehype-highlight \u2014 rehype plugin to highlight code blocks with lowlight (highlight.js)"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "syntax-highlight",
+      "sense_id": "syntax-highlight#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "syntax-highlight",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "syntax-highlight",
+  "observation_id": "405ccca6c0b3993b",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "syntax-highlight",
+  "source_context_snippet": "rehype-highlight \u2014 rehype plugin to highlight code blocks with lowlight (highlight.js)",
+  "source_file": null,
+  "source_repo": "rehypejs/rehype-highlight",
+  "source_repo_description": "plugin to highlight code blocks"
+}

@@ -1,0 +1,108 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wuqs-net/base16-windows-terminal",
+      "target": "inspectormustache/base16-builder-python",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wuqs-net/base16-windows-terminal",
+      "target": "tinted-theming/base16-iterm2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "wuqs-net/base16-windows-terminal",
+      "target": "tinted-theming/base16-shell",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "wuqs-net/base16-windows-terminal",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "wuqs-net/base16-windows-terminal",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "source_repo": "wuqs-net/base16-windows-terminal",
+      "target": "Update Color Schemes",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:56:39.621261+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1281
+    },
+    {
+      "path": ".github/workflows/update.yml",
+      "size": 1196
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "Base16 for Windows Terminal",
+    "fork": false,
+    "full_name": "wuqs-net/base16-windows-terminal",
+    "html_url": "https://github.com/wuqs-net/base16-windows-terminal",
+    "language": "Mustache",
+    "pushed_at": "2023-08-07T15:39:31Z",
+    "stargazers_count": 36,
+    "topics": [],
+    "updated_at": "2026-04-15T04:32:21Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "inspectormustache/base16-builder-python",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tinted-theming/base16-iterm2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tinted-theming/base16-shell",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Update Color Schemes",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update.yml",
+      "term": "Update Color Schemes"
+    }
+  ]
+}

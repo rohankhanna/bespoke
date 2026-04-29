@@ -1,7 +1,7 @@
 {
   "component": "conda-incubator/setup-miniconda@v2",
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
@@ -87,6 +87,36 @@
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/windows.yml",
       "source_repo": "shibing624/text2vec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release-conda.yml",
+      "source_repo": "finetunej/transformers"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/pyre.yml",
+      "source_repo": "meta-pytorch/torchrec"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_lemonade.yml",
+      "source_repo": "onnx/turnkeyml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_lemonade_oga_cpu.yml",
+      "source_repo": "onnx/turnkeyml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_quark.yml",
+      "source_repo": "onnx/turnkeyml"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/test_server.yml",
+      "source_repo": "onnx/turnkeyml"
     }
   ]
 }

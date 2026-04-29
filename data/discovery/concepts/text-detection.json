@@ -55,6 +55,54 @@
       "source_repo": "clovaai/CRAFT-pytorch",
       "status": "candidate-context",
       "text": "Official Pytorch implementation of CRAFT text detector | [Paper](https://arxiv.org/abs/1904.01941) | [Pretrained Model](https://drive.google.com/open?id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ) | [Supplementary](https://youtu.be/HI8MzpY8KMI)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "mindspore-lab/mindocr",
+      "status": "candidate-context",
+      "text": "A toolbox of ocr models and algorithms based on MindSpore"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mindspore-lab/mindocr",
+      "status": "candidate-context",
+      "text": "<!--start-->"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "xuannianz/DifferentiableBinarization",
+      "status": "candidate-context",
+      "text": "DB (Real-time Scene Text Detection with Differentiable Binarization) implementation in Keras and Tensorflow"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuannianz/DifferentiableBinarization",
+      "status": "candidate-context",
+      "text": "This is an implementation of [Real-time Scene Text Detection with Differentiable Binarization](https://arxiv.org/abs/1911.08947) in Keras and Tensorflow,"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "status": "candidate-context",
+      "text": "Total Text Dataset. It consists of 1555 images with more than 3 different text orientations: Horizontal, Multi-Oriented, and Curved, one of a kind."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "status": "candidate-context",
+      "text": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "eragonruan/text-detection-ctpn",
+      "status": "candidate-context",
+      "text": "text detection mainly based on ctpn model in tensorflow, id card detect, connectionist text proposal network"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eragonruan/text-detection-ctpn",
+      "status": "candidate-context",
+      "text": "text detection mainly based on ctpn (connectionist text proposal network). It is implemented in tensorflow. I use id card detect as an example to demonstrate the results, but it should be noticing that this model can be used in almost every horizontal scene text detection task. \u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +129,30 @@
       "source_repo": "clovaai/CRAFT-pytorch",
       "status": "candidate",
       "text": "Official Pytorch implementation of CRAFT text detector | [Paper](https://arxiv.org/abs/1904.01941) | [Pretrained Model](https://drive.google.com/open?id=1Jk4eGD7crsqCCg9C9VjCLkMN3ze8kutZ) | [Supplementary](https://youtu.be/HI8MzpY8KMI)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "mindspore-lab/mindocr",
+      "status": "candidate",
+      "text": "<!--start-->"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "xuannianz/DifferentiableBinarization",
+      "status": "candidate",
+      "text": "This is an implementation of [Real-time Scene Text Detection with Differentiable Binarization](https://arxiv.org/abs/1911.08947) in Keras and Tensorflow,"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cs-chan/Total-Text-Dataset",
+      "status": "candidate",
+      "text": "Updated on April 06, 2022 (Detection leaderboard is updated with FCE, ABPNet, PCR, CentripetalText & HierText)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "eragonruan/text-detection-ctpn",
+      "status": "candidate",
+      "text": "text detection mainly based on ctpn (connectionist text proposal network). It is implemented in tensorflow. I use id card detect as an example to demonstrate the results, but it should be noticing that this model can be used in almost every horizontal scene text detection task. \u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +184,35 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "clovaai/CRAFT-pytorch"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "mindspore-lab/mindocr"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "xuannianz/DifferentiableBinarization"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cs-chan/Total-Text-Dataset"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "eragonruan/text-detection-ctpn"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

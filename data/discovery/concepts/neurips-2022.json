@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "neurips-2022"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Adamdad/DeRy",
+      "status": "candidate-context",
+      "text": "[NeurIPS2022] Deep Model Reassembly"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adamdad/DeRy",
+      "status": "candidate-context",
+      "text": "This repository contains the offical implementation for our paper"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Adamdad/DeRy",
+      "status": "candidate",
+      "text": "This repository contains the offical implementation for our paper"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "neurips-2022",
+  "concept_id": "neurips-2022",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Adamdad/DeRy"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "neurips-2022",
+      "sense_id": "neurips-2022#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "A machine learning toolkit for log parsing [ICSE'19, DSN'16]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Contributor List"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Contributor List"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 13311,
+      "status": "candidate",
+      "text": "pac"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12342,
+      "status": "candidate",
+      "text": "anonymous"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12342,
+      "status": "candidate",
+      "text": "ante"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12342,
+      "status": "candidate",
+      "text": "assessments"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 12342,
+      "status": "candidate",
+      "text": "caller"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Contributor List",
+      "sense_id": "contributor-list#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "contributor-list",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "contributor-list",
+  "observation_id": "32653b4b60cda947",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Contributor List",
+  "source_context_snippet": "Contributor List",
+  "source_file": ".github/workflows/contributor.yml",
+  "source_repo": "logpai/logparser",
+  "source_repo_description": "A machine learning toolkit for log parsing [ICSE'19, DSN'16]"
+}

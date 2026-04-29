@@ -1,0 +1,240 @@
+{
+  "components": [
+    {
+      "component": "@types/request",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "body-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "cookie-parser",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "express",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "moment-duration-format",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "querystring",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "request",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "request-promise-native",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "michmich/magicmirror",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "raywo/mmm-nowplayingonspotify",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "@types/request",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "body-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "cookie-parser",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "express",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "moment-duration-format",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "querystring",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "request",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "request-promise-native",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "librespot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "librespot-java",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "magicmirror",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "magicmirror2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "l3d00m/MMM-LibrespotJava",
+      "target": "spotify",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:38:58.649863+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2549
+    },
+    {
+      "path": "package.json",
+      "size": 1054
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "master",
+    "description": "A module for MagicMirror displaying the song currently streaming on your librespot java speaker.",
+    "fork": false,
+    "full_name": "l3d00m/MMM-LibrespotJava",
+    "html_url": "https://github.com/l3d00m/MMM-LibrespotJava",
+    "language": "JavaScript",
+    "pushed_at": "2023-10-01T10:39:39Z",
+    "stargazers_count": 4,
+    "topics": [
+      "hacktoberfest",
+      "librespot",
+      "librespot-java",
+      "magicmirror",
+      "magicmirror2",
+      "spotify"
+    ],
+    "updated_at": "2023-11-08T20:10:57Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "michmich/magicmirror",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "raywo/mmm-nowplayingonspotify",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librespot"
+    },
+    {
+      "context_snippet": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "librespot-java"
+    },
+    {
+      "context_snippet": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "magicmirror"
+    },
+    {
+      "context_snippet": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "magicmirror2"
+    },
+    {
+      "context_snippet": "I no longer own a Magic Mirror, so I'm not maintaining this anymore. Last time I used it in 2021, it worked fine.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "spotify"
+    }
+  ]
+}

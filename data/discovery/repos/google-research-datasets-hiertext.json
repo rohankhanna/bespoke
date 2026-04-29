@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:45:41.123048+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11848
+    },
+    {
+      "path": "requirements.txt",
+      "size": 109
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "The HierText dataset contains ~12k images from the Open Images dataset v6 with large amount of text entities. We provide word, line and paragraph level annotations.",
+    "fork": false,
+    "full_name": "google-research-datasets/hiertext",
+    "html_url": "https://github.com/google-research-datasets/hiertext",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2024-12-02T22:07:50Z",
+    "stargazers_count": 310,
+    "topics": [],
+    "updated_at": "2026-04-27T02:09:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

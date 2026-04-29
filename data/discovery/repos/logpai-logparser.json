@@ -1,0 +1,177 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "akhilmhdh/contributors-readme-action@master",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "logpai/logparser",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "logpai/logparser",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/contributor.yml",
+      "source_repo": "logpai/logparser",
+      "target": "akhilmhdh/contributors-readme-action@master",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributor.yml",
+      "source_repo": "logpai/logparser",
+      "target": "Contributor List",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logpai/logparser",
+      "target": "anomaly-detection",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logpai/logparser",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logpai/logparser",
+      "target": "log-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logpai/logparser",
+      "target": "log-mining",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logpai/logparser",
+      "target": "log-parser",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "logpai/logparser",
+      "target": "log-parsing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:51:59.044995+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 23922
+    },
+    {
+      "path": "requirements.txt",
+      "size": 71
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 780
+    },
+    {
+      "path": ".github/workflows/contributor.yml",
+      "size": 616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A machine learning toolkit for log parsing [ICSE'19, DSN'16]",
+    "fork": false,
+    "full_name": "logpai/logparser",
+    "html_url": "https://github.com/logpai/logparser",
+    "language": "Python",
+    "pushed_at": "2025-06-10T23:50:49Z",
+    "stargazers_count": 1967,
+    "topics": [
+      "anomaly-detection",
+      "benchmark",
+      "log",
+      "log-analysis",
+      "log-mining",
+      "log-parser",
+      "log-parsing"
+    ],
+    "updated_at": "2026-04-29T05:56:05Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Contributor List",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/contributor.yml",
+      "term": "Contributor List"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <a href=\"https://github.com/logpai\"> <img src=\"https://cdn.jsdelivr.net/gh/logpai/logpai.github.io@master/img/logpai_logo.jpg\" width=\"480\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "anomaly-detection"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <a href=\"https://github.com/logpai\"> <img src=\"https://cdn.jsdelivr.net/gh/logpai/logpai.github.io@master/img/logpai_logo.jpg\" width=\"480\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <a href=\"https://github.com/logpai\"> <img src=\"https://cdn.jsdelivr.net/gh/logpai/logpai.github.io@master/img/logpai_logo.jpg\" width=\"480\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "log-analysis"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <a href=\"https://github.com/logpai\"> <img src=\"https://cdn.jsdelivr.net/gh/logpai/logpai.github.io@master/img/logpai_logo.jpg\" width=\"480\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "log-mining"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <a href=\"https://github.com/logpai\"> <img src=\"https://cdn.jsdelivr.net/gh/logpai/logpai.github.io@master/img/logpai_logo.jpg\" width=\"480\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "log-parser"
+    },
+    {
+      "context_snippet": "<p align=\"center\"> <a href=\"https://github.com/logpai\"> <img src=\"https://cdn.jsdelivr.net/gh/logpai/logpai.github.io@master/img/logpai_logo.jpg\" width=\"480\"></a></p>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "log-parsing"
+    }
+  ]
+}

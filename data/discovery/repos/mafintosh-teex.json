@@ -1,0 +1,69 @@
+{
+  "components": [
+    {
+      "component": "streamx",
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "standard",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    },
+    {
+      "component": "tape",
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "package-json:dependencies",
+      "source_file": "package.json",
+      "source_repo": "mafintosh/teex",
+      "target": "streamx",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mafintosh/teex",
+      "target": "standard",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "package-json:devDependencies",
+      "source_file": "package.json",
+      "source_repo": "mafintosh/teex",
+      "target": "tape",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:50:15.193847+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 566
+    },
+    {
+      "path": "package.json",
+      "size": 608
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Turn a readable stream into multiple readable streamx streams",
+    "fork": false,
+    "full_name": "mafintosh/teex",
+    "html_url": "https://github.com/mafintosh/teex",
+    "language": "JavaScript",
+    "pushed_at": "2022-09-12T08:39:10Z",
+    "stargazers_count": 15,
+    "topics": [],
+    "updated_at": "2026-03-16T02:02:02Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

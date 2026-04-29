@@ -1,0 +1,381 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml"
+    },
+    {
+      "component": "DeterminateSystems/flakehub-push@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "cachix/cachix-action@v14",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "dtolnay/rust-toolchain@stable",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "actions/cache@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml"
+    },
+    {
+      "component": "googleapis/release-please-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml"
+    },
+    {
+      "component": "cachix/install-nix-action@v20",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml"
+    },
+    {
+      "component": "DeterminateSystems/update-flake-lock@v24",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml"
+    },
+    {
+      "component": "reitermarkus/automerge@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "cachix/git-hooks.nix",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "numtostr/lemmy-help",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "tjdevries/tree-sitter-lua",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "echasnovski/mini.nvim",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "cachix/install-nix-action@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/flakehub.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "DeterminateSystems/flakehub-push@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flakehub.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "Publish tags to FlakeHub",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "cachix/install-nix-action@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "cachix/cachix-action@v14",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "Nix build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "dtolnay/rust-toolchain@stable",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "actions/cache@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "Cargo publish",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "googleapis/release-please-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "Release Please",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "cachix/install-nix-action@v20",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "DeterminateSystems/update-flake-lock@v24",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "reitermarkus/automerge@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "source_repo": "mrcjkb/vimcats",
+      "target": "update-flake-lock",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/vimcats",
+      "target": "help",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/vimcats",
+      "target": "luacats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "mrcjkb/vimcats",
+      "target": "vimdoc",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:43:16.195224+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5499
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1199
+    },
+    {
+      "path": ".github/workflows/flakehub.yml",
+      "size": 726
+    },
+    {
+      "path": ".github/workflows/nix-build.yml",
+      "size": 904
+    },
+    {
+      "path": ".github/workflows/publish.yml",
+      "size": 916
+    },
+    {
+      "path": ".github/workflows/release-please.yml",
+      "size": 379
+    },
+    {
+      "path": ".github/workflows/update-flake-lock.yml",
+      "size": 1057
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A CLI to generate vim/nvim help doc from LuaCATS. Forked from lemmy-help.",
+    "fork": false,
+    "full_name": "mrcjkb/vimcats",
+    "html_url": "https://github.com/mrcjkb/vimcats",
+    "language": "Rust",
+    "pushed_at": "2026-04-26T00:18:25Z",
+    "stargazers_count": 27,
+    "topics": [
+      "doc",
+      "help",
+      "lua",
+      "luacats",
+      "vimdoc"
+    ],
+    "updated_at": "2026-04-29T16:10:20Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "cachix/git-hooks.nix",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "echasnovski/mini.nvim",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "numtostr/lemmy-help",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "tjdevries/tree-sitter-lua",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"Publish tags to FlakeHub\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/flakehub.yml",
+      "term": "Publish tags to FlakeHub"
+    },
+    {
+      "context_snippet": "\"Nix build\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/nix-build.yml",
+      "term": "Nix build"
+    },
+    {
+      "context_snippet": "Cargo publish",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/publish.yml",
+      "term": "Cargo publish"
+    },
+    {
+      "context_snippet": "Release Please",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-please.yml",
+      "term": "Release Please"
+    },
+    {
+      "context_snippet": "update-flake-lock",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-flake-lock.yml",
+      "term": "update-flake-lock"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">:cat2: vimCATS :book:</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "help"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">:cat2: vimCATS :book:</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "luacats"
+    },
+    {
+      "context_snippet": "<h1 align=\"center\">:cat2: vimCATS :book:</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "vimdoc"
+    }
+  ]
+}

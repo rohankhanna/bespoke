@@ -1,0 +1,17 @@
+{
+  "component": "eifinger/setup-rye@v2",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-format.yml",
+      "source_repo": "astral-sh/rye"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/python-lint.yml",
+      "source_repo": "astral-sh/rye"
+    }
+  ]
+}

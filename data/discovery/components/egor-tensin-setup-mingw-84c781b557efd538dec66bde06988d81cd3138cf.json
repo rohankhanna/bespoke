@@ -1,0 +1,12 @@
+{
+  "component": "egor-tensin/setup-mingw@84c781b557efd538dec66bde06988d81cd3138cf",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "teal-language/tl"
+    }
+  ]
+}

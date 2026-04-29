@@ -1,0 +1,170 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force-pypi.yaml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force-pypi.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    },
+    {
+      "component": "actions/github-script@v6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AstraZeneca/runnable",
+      "target": "joaomdmoura/crewai",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "AstraZeneca/runnable",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "source_repo": "AstraZeneca/runnable",
+      "target": "docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force-pypi.yaml",
+      "source_repo": "AstraZeneca/runnable",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/force-pypi.yaml",
+      "source_repo": "AstraZeneca/runnable",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/force-pypi.yaml",
+      "source_repo": "AstraZeneca/runnable",
+      "target": "Force PyPI Release",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/pr.yaml",
+      "source_repo": "AstraZeneca/runnable",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AstraZeneca/runnable",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yaml",
+      "source_repo": "AstraZeneca/runnable",
+      "target": "actions/github-script@v6",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:54:41.273693+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5447
+    },
+    {
+      "path": "Dockerfile",
+      "size": 822
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 5532
+    },
+    {
+      "path": ".github/workflows/docs.yaml",
+      "size": 379
+    },
+    {
+      "path": ".github/workflows/force-pypi.yaml",
+      "size": 3720
+    },
+    {
+      "path": ".github/workflows/pr.yaml",
+      "size": 1240
+    },
+    {
+      "path": ".github/workflows/release.yaml",
+      "size": 3088
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Runnable",
+    "fork": false,
+    "full_name": "AstraZeneca/runnable",
+    "html_url": "https://github.com/AstraZeneca/runnable",
+    "language": "Python",
+    "pushed_at": "2026-04-27T21:23:02Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2026-04-27T21:22:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "joaomdmoura/crewai",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docs.yaml",
+      "term": "docs"
+    },
+    {
+      "context_snippet": "Force PyPI Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/force-pypi.yaml",
+      "term": "Force PyPI Release"
+    }
+  ]
+}

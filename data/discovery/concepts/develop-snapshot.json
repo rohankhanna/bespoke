@@ -1,0 +1,124 @@
+{
+  "aliases": [
+    "Develop & Snapshot"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seancorfield/honeysql",
+      "status": "candidate-context",
+      "text": "Turn Clojure data structures into SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/honeysql",
+      "status": "candidate-context",
+      "text": "Develop & Snapshot"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "seancorfield/next-jdbc",
+      "status": "candidate-context",
+      "text": "A modern low-level Clojure wrapper for JDBC-based access to databases."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/next-jdbc",
+      "status": "candidate-context",
+      "text": "Develop & Snapshot"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/honeysql",
+      "status": "candidate",
+      "text": "Develop & Snapshot"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "seancorfield/next-jdbc",
+      "status": "candidate",
+      "text": "Develop & Snapshot"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11288,
+      "status": "candidate",
+      "text": "freeze"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11288,
+      "status": "candidate",
+      "text": "outline"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11288,
+      "status": "candidate",
+      "text": "overview"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11288,
+      "status": "candidate",
+      "text": "shot"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11288,
+      "status": "candidate",
+      "text": "smap"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Develop & Snapshot",
+  "concept_id": "develop-snapshot",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test-and-snapshot.yml",
+      "source_repo": "seancorfield/honeysql"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/test-and-snapshot.yml",
+      "source_repo": "seancorfield/next-jdbc"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Develop & Snapshot",
+      "sense_id": "develop-snapshot#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Create Translations PR"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numpy/numpy.org",
+      "status": "candidate-context",
+      "text": "The NumPy home page"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numpy/numpy.org",
+      "status": "candidate-context",
+      "text": "Create Translations PR"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numpy/numpy.org",
+      "status": "candidate",
+      "text": "Create Translations PR"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11468,
+      "status": "candidate",
+      "text": "septuagint"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11223,
+      "status": "candidate",
+      "text": "howard"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11223,
+      "status": "candidate",
+      "text": "introduction"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11223,
+      "status": "candidate",
+      "text": "prick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11159,
+      "status": "candidate",
+      "text": "inherit"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Create Translations PR",
+  "concept_id": "create-translations-pr",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/create-translations-pr.yml",
+      "source_repo": "numpy/numpy.org"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Create Translations PR",
+      "sense_id": "create-translations-pr#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Set Active Docs"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "praw-dev/praw",
+      "status": "candidate-context",
+      "text": "PRAW, an acronym for \"Python Reddit API Wrapper\", is a python package that allows for simple access to Reddit's API."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "praw-dev/praw",
+      "status": "candidate-context",
+      "text": "Set Active Docs"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "praw-dev/praw",
+      "status": "candidate",
+      "text": "Set Active Docs"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 27075,
+      "status": "candidate",
+      "text": "activated"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26275,
+      "status": "candidate",
+      "text": "activate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26275,
+      "status": "candidate",
+      "text": "motion"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22688,
+      "status": "candidate",
+      "text": "amherst"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22688,
+      "status": "candidate",
+      "text": "zouave"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Set Active Docs",
+  "concept_id": "set-active-docs",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/set_active_docs.yml",
+      "source_repo": "praw-dev/praw"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Set Active Docs",
+      "sense_id": "set-active-docs#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

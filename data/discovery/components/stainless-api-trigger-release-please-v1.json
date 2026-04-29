@@ -1,12 +1,17 @@
 {
   "component": "stainless-api/trigger-release-please@v1",
   "first_seen_at": "2026-04-20T03:16:48.146869+00:00",
-  "last_seen_at": "2026-04-20T03:16:48.146869+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/create-releases.yml",
       "source_repo": "anthropics/anthropic-sdk-python"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/create-releases.yml",
+      "source_repo": "anthropics/anthropic-sdk-go"
     }
   ]
 }

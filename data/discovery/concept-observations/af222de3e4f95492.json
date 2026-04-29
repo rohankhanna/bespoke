@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Common JavaScript utilities for your TypeScript projects"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Automatic Data Update"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Automatic Data Update"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26533,
+      "status": "candidate",
+      "text": "adp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26533,
+      "status": "candidate",
+      "text": "edp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26533,
+      "status": "candidate",
+      "text": "telemetry"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26519,
+      "status": "candidate",
+      "text": "idp"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26133,
+      "status": "candidate",
+      "text": "adps"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Automatic Data Update",
+      "sense_id": "automatic-data-update#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "automatic-data-update",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "automatic-data-update",
+  "observation_id": "af222de3e4f95492",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Automatic Data Update",
+  "source_context_snippet": "Automatic Data Update",
+  "source_file": ".github/workflows/auto-updater.yml",
+  "source_repo": "sapphiredev/utilities",
+  "source_repo_description": "Common JavaScript utilities for your TypeScript projects"
+}

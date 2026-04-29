@@ -1,0 +1,12 @@
+{
+  "component": "hecrj/setup-rust-action@f344d1a51e8ad6e1c6c51d9cf8d5a6edf4cfd230",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/gh-pages.yml",
+      "source_repo": "cryspen/hacl-packages"
+    }
+  ]
+}

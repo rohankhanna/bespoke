@@ -1,0 +1,98 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "racer-rust/racer",
+      "target": "isamert/gracer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "racer-rust/racer",
+      "target": "deikatsuo/bracer",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "racer-rust/racer",
+      "target": "defuz/rustautocomplete",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "racer-rust/racer",
+      "target": "damnwidget/anaconda_rust",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "racer-rust/racer",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:51:17.357738+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5439
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 1108
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 1286
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Rust Code Completion utility",
+    "fork": false,
+    "full_name": "racer-rust/racer",
+    "html_url": "https://github.com/racer-rust/racer",
+    "language": "Rust",
+    "pushed_at": "2023-11-19T23:31:16Z",
+    "stargazers_count": 3352,
+    "topics": [],
+    "updated_at": "2026-04-18T05:04:42Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damnwidget/anaconda_rust",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "defuz/rustautocomplete",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deikatsuo/bracer",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "isamert/gracer",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

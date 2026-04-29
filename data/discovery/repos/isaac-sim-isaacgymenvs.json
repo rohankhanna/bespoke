@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:50:21.797196+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15616
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": true,
+    "default_branch": "main",
+    "description": "Isaac Gym Reinforcement Learning Environments",
+    "fork": false,
+    "full_name": "isaac-sim/IsaacGymEnvs",
+    "html_url": "https://github.com/isaac-sim/IsaacGymEnvs",
+    "language": "Python",
+    "pushed_at": "2024-10-26T15:43:53Z",
+    "stargazers_count": 2920,
+    "topics": [],
+    "updated_at": "2026-04-29T07:15:03Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

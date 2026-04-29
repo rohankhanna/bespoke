@@ -1,0 +1,44 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "dmitmel/cmp-digraphs",
+      "target": "nvim-cmp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:44:02.604111+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 1379
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A nvim-cmp source for completing digraphs.",
+    "fork": false,
+    "full_name": "dmitmel/cmp-digraphs",
+    "html_url": "https://github.com/dmitmel/cmp-digraphs",
+    "language": "Lua",
+    "pushed_at": "2022-03-06T09:57:50Z",
+    "stargazers_count": 19,
+    "topics": [
+      "nvim-cmp"
+    ],
+    "updated_at": "2026-01-29T14:09:04Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "A [nvim-cmp](https://github.com/hrsh7th/nvim-cmp) source for completing [digraphs](https://vimhelp.org/digraph.txt.html) (both built-in and custom ones).",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "nvim-cmp"
+    }
+  ]
+}

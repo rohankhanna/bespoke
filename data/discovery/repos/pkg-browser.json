@@ -1,0 +1,75 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    },
+    {
+      "component": "actions/setup-go@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "pkg/browser",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "pkg/browser",
+      "target": "actions/setup-go@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "source_repo": "pkg/browser",
+      "target": "Push Event",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:59:22.356251+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 930
+    },
+    {
+      "path": "go.mod",
+      "size": 72
+    },
+    {
+      "path": ".github/workflows/push.yml",
+      "size": 368
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Package browser provides helpers to open files, readers, and urls in a browser window.",
+    "fork": false,
+    "full_name": "pkg/browser",
+    "html_url": "https://github.com/pkg/browser",
+    "language": "Go",
+    "pushed_at": "2024-01-02T09:21:38Z",
+    "stargazers_count": 612,
+    "topics": [],
+    "updated_at": "2026-04-20T10:27:17Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Push Event",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/push.yml",
+      "term": "Push Event"
+    }
+  ]
+}

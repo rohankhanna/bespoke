@@ -1,0 +1,129 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "UnitGen \u662f\u4e00\u4e2a\u7528\u4e8e\u751f\u6210\u5fae\u8c03\u4ee3\u7801\u7684\u6570\u636e\u6846\u67b6 \u2014\u2014 \u76f4\u63a5\u4ece\u4f60\u7684\u4ee3\u7801\u5e93\u4e2d\u751f\u6210\u5fae\u8c03\u6570\u636e\uff1a\u4ee3\u7801\u8865\u5168\u3001\u6d4b\u8bd5\u751f\u6210\u3001\u6587\u6863\u751f\u6210\u7b49\u3002UnitGen is a code fine-tuning data framework that generates data from your existing codebase."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Release"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Release"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045979,
+      "status": "candidate",
+      "text": "loose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045869,
+      "status": "candidate",
+      "text": "liberate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045867,
+      "status": "candidate",
+      "text": "liberation"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045747,
+      "status": "candidate",
+      "text": "unloose"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40045127,
+      "status": "candidate",
+      "text": "expel"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Release",
+      "sense_id": "release#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 45066,
+      "status": "candidate",
+      "text": "free"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 43034,
+      "status": "candidate",
+      "text": "relinquish"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 40071,
+      "status": "candidate",
+      "text": "issue"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 37073,
+      "status": "candidate",
+      "text": "discharge"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 22035,
+      "status": "candidate",
+      "text": "liberation"
+    }
+  ],
+  "concept_id": "release",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "release",
+  "observation_id": "90b6bb9cd076259d",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Release",
+  "source_context_snippet": "Release",
+  "source_file": ".github/workflows/release.yaml",
+  "source_repo": "unit-mesh/unit-gen",
+  "source_repo_description": "UnitGen \u662f\u4e00\u4e2a\u7528\u4e8e\u751f\u6210\u5fae\u8c03\u4ee3\u7801\u7684\u6570\u636e\u6846\u67b6 \u2014\u2014 \u76f4\u63a5\u4ece\u4f60\u7684\u4ee3\u7801\u5e93\u4e2d\u751f\u6210\u5fae\u8c03\u6570\u636e\uff1a\u4ee3\u7801\u8865\u5168\u3001\u6d4b\u8bd5\u751f\u6210\u3001\u6587\u6863\u751f\u6210\u7b49\u3002UnitGen is a code fine-tuning data framework that generates data from your existing codebase."
+}

@@ -1,0 +1,31 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T20:53:36.909426+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 572
+    },
+    {
+      "path": "Cargo.toml",
+      "size": 593
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": null,
+    "fork": false,
+    "full_name": "monoio-rs/local-sync",
+    "html_url": "https://github.com/monoio-rs/local-sync",
+    "language": "Rust",
+    "pushed_at": "2024-12-14T08:50:19Z",
+    "stargazers_count": 52,
+    "topics": [],
+    "updated_at": "2025-12-12T20:09:39Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

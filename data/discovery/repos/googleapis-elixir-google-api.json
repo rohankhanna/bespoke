@@ -1,0 +1,361 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dailly-generate-updates.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dailly-generate-updates.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dailly-generate-updates.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-updates.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-updates.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-updates.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-freeze.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-freeze.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-unfreeze.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-unfreeze.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-api-list.yml"
+    },
+    {
+      "component": "ruby/setup-ruby@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-api-list.yml"
+    },
+    {
+      "component": "erlef/setup-beam@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-api-list.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "lucybot-inc/api-spec-converter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "swagger-api/swagger-codegen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "googlecloudplatform/elixir-samples",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "scrogson/oauth2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dailly-generate-updates.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dailly-generate-updates.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dailly-generate-updates.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dailly-generate-updates.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "Daily-Generate-Updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-updates.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-updates.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/generate-updates.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-updates.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "Generate-Updates",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "Presubmit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-freeze.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-freeze.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-freeze.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "Freeze releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-unfreeze.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release-unfreeze.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-unfreeze.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "Unfreeze releases",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-api-list.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-api-list.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "ruby/setup-ruby@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-api-list.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "erlef/setup-beam@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-api-list.yml",
+      "source_repo": "googleapis/elixir-google-api",
+      "target": "UpdateApiList",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:58:17.629636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7493
+    },
+    {
+      "path": ".github/workflows/dailly-generate-updates.yml",
+      "size": 784
+    },
+    {
+      "path": ".github/workflows/generate-updates.yml",
+      "size": 965
+    },
+    {
+      "path": ".github/workflows/presubmit.yml",
+      "size": 1061
+    },
+    {
+      "path": ".github/workflows/release-freeze.yml",
+      "size": 581
+    },
+    {
+      "path": ".github/workflows/release-unfreeze.yml",
+      "size": 584
+    },
+    {
+      "path": ".github/workflows/update-api-list.yml",
+      "size": 867
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Elixir client libraries for accessing Google APIs.",
+    "fork": false,
+    "full_name": "googleapis/elixir-google-api",
+    "html_url": "https://github.com/googleapis/elixir-google-api",
+    "language": "Elixir",
+    "pushed_at": "2026-02-27T22:11:06Z",
+    "stargazers_count": 1074,
+    "topics": [],
+    "updated_at": "2026-04-28T19:46:30Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "googlecloudplatform/elixir-samples",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "lucybot-inc/api-spec-converter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "scrogson/oauth2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "swagger-api/swagger-codegen",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Daily-Generate-Updates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dailly-generate-updates.yml",
+      "term": "Daily-Generate-Updates"
+    },
+    {
+      "context_snippet": "Generate-Updates",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/generate-updates.yml",
+      "term": "Generate-Updates"
+    },
+    {
+      "context_snippet": "Presubmit",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/presubmit.yml",
+      "term": "Presubmit"
+    },
+    {
+      "context_snippet": "Freeze releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-freeze.yml",
+      "term": "Freeze releases"
+    },
+    {
+      "context_snippet": "Unfreeze releases",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release-unfreeze.yml",
+      "term": "Unfreeze releases"
+    },
+    {
+      "context_snippet": "UpdateApiList",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-api-list.yml",
+      "term": "UpdateApiList"
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "component": "lukka/get-cmake@f176ccd3f28bda569c43aae4894f06b2435a3375",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci-aarch64.yml",
+      "source_repo": "uxlfoundation/oneDAL"
+    }
+  ]
+}

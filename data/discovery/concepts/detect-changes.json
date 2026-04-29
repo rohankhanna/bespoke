@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Detect Changes"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "snowflakedb/universal-driver",
+      "status": "candidate-context",
+      "text": "Universal driver"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowflakedb/universal-driver",
+      "status": "candidate-context",
+      "text": "Detect Changes"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "snowflakedb/universal-driver",
+      "status": "candidate",
+      "text": "Detect Changes"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11778,
+      "status": "candidate",
+      "text": "electroscope"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11641,
+      "status": "candidate",
+      "text": "lie detector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11628,
+      "status": "candidate",
+      "text": "lateral line system"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11628,
+      "status": "candidate",
+      "text": "photoelectric cell"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 11628,
+      "status": "candidate",
+      "text": "squid"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Detect Changes",
+  "concept_id": "detect-changes",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/detect-changes.yml",
+      "source_repo": "snowflakedb/universal-driver"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Detect Changes",
+      "sense_id": "detect-changes#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

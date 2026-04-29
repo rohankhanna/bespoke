@@ -1,0 +1,392 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appimage.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appimage.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-dmg.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-dmg.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-qt.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-deb.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-deb.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-clang.yml"
+    },
+    {
+      "component": "jurplel/install-qt-action@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-clang.yml"
+    },
+    {
+      "component": "seanmiddleditch/gha-setup-vsdevenv@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-clang.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-clang.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appimage.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/appimage.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/appimage.yml",
+      "source_repo": "garglk/garglk",
+      "target": "AppImage",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "garglk/garglk",
+      "target": "Feature matrix",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fedora.yml",
+      "source_repo": "garglk/garglk",
+      "target": "Fedora packages",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-dmg.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-dmg.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-dmg.yml",
+      "source_repo": "garglk/garglk",
+      "target": "macOS (DMG)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/macos-qt.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-qt.yml",
+      "source_repo": "garglk/garglk",
+      "target": "macOS (Qt)",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "source_repo": "garglk/garglk",
+      "target": "Main build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mingw.yml",
+      "source_repo": "garglk/garglk",
+      "target": "MinGW",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-deb.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ubuntu-deb.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-deb.yml",
+      "source_repo": "garglk/garglk",
+      "target": "Ubuntu package",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-clang.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-clang.yml",
+      "source_repo": "garglk/garglk",
+      "target": "jurplel/install-qt-action@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-clang.yml",
+      "source_repo": "garglk/garglk",
+      "target": "seanmiddleditch/gha-setup-vsdevenv@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/windows-clang.yml",
+      "source_repo": "garglk/garglk",
+      "target": "actions/upload-artifact@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-clang.yml",
+      "source_repo": "garglk/garglk",
+      "target": "Clang on Windows",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:48:47.783249+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 7792
+    },
+    {
+      "path": ".github/workflows/appimage.yml",
+      "size": 1175
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1386
+    },
+    {
+      "path": ".github/workflows/fedora.yml",
+      "size": 1174
+    },
+    {
+      "path": ".github/workflows/macos-dmg.yml",
+      "size": 612
+    },
+    {
+      "path": ".github/workflows/macos-qt.yml",
+      "size": 569
+    },
+    {
+      "path": ".github/workflows/main.yml",
+      "size": 1170
+    },
+    {
+      "path": ".github/workflows/mingw.yml",
+      "size": 2623
+    },
+    {
+      "path": ".github/workflows/ubuntu-deb.yml",
+      "size": 1307
+    },
+    {
+      "path": ".github/workflows/windows-clang.yml",
+      "size": 3365
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A cross-platform IO layer for an interactive fiction player",
+    "fork": false,
+    "full_name": "garglk/garglk",
+    "html_url": "https://github.com/garglk/garglk",
+    "language": "C++",
+    "pushed_at": "2026-04-27T16:08:17Z",
+    "stargazers_count": 411,
+    "topics": [],
+    "updated_at": "2026-04-27T16:10:02Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "AppImage",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/appimage.yml",
+      "term": "AppImage"
+    },
+    {
+      "context_snippet": "Feature matrix",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Feature matrix"
+    },
+    {
+      "context_snippet": "Fedora packages",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/fedora.yml",
+      "term": "Fedora packages"
+    },
+    {
+      "context_snippet": "macOS (DMG)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-dmg.yml",
+      "term": "macOS (DMG)"
+    },
+    {
+      "context_snippet": "macOS (Qt)",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/macos-qt.yml",
+      "term": "macOS (Qt)"
+    },
+    {
+      "context_snippet": "Main build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/main.yml",
+      "term": "Main build"
+    },
+    {
+      "context_snippet": "MinGW",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/mingw.yml",
+      "term": "MinGW"
+    },
+    {
+      "context_snippet": "Ubuntu package",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ubuntu-deb.yml",
+      "term": "Ubuntu package"
+    },
+    {
+      "context_snippet": "Clang on Windows",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/windows-clang.yml",
+      "term": "Clang on Windows"
+    }
+  ]
+}

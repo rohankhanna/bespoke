@@ -1,0 +1,192 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "young-geng/EasyLM",
+      "target": "sea-snell/jaxseq",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "young-geng/EasyLM",
+      "target": "alpa-projects/alpa",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "young-geng/EasyLM",
+      "target": "stanford-crfm/levanter",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "young-geng/EasyLM",
+      "target": "young-geng/mlxu",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "young-geng/EasyLM",
+      "target": "chatbot",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "young-geng/EasyLM",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "young-geng/EasyLM",
+      "target": "flax",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "young-geng/EasyLM",
+      "target": "language-model",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "young-geng/EasyLM",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "young-geng/EasyLM",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "young-geng/EasyLM",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "young-geng/EasyLM",
+      "target": "transformer",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:46:14.881338+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3694
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Large language models (LLMs) made easy, EasyLM is a one stop solution for pre-training, finetuning, evaluating and serving LLMs in JAX/Flax.",
+    "fork": false,
+    "full_name": "young-geng/EasyLM",
+    "html_url": "https://github.com/young-geng/EasyLM",
+    "language": "Python",
+    "pushed_at": "2024-08-13T05:55:05Z",
+    "stargazers_count": 2520,
+    "topics": [
+      "chatbot",
+      "deep-learning",
+      "flax",
+      "jax",
+      "language-model",
+      "large-language-models",
+      "llama",
+      "natural-language-processing",
+      "transformer"
+    ],
+    "updated_at": "2026-04-25T16:16:50Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpa-projects/alpa",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "sea-snell/jaxseq",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "stanford-crfm/levanter",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "young-geng/mlxu",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Large language models (LLMs) made easy, EasyLM is a one stop solution for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatbot"
+    },
+    {
+      "context_snippet": "Large language models (LLMs) made easy, EasyLM is a one stop solution for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "Large language models (LLMs) made easy, EasyLM is a one stop solution for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flax"
+    },
+    {
+      "context_snippet": "Large language models (LLMs) made easy, EasyLM is a one stop solution for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "language-model"
+    },
+    {
+      "context_snippet": "Large language models (LLMs) made easy, EasyLM is a one stop solution for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "Large language models (LLMs) made easy, EasyLM is a one stop solution for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "Large language models (LLMs) made easy, EasyLM is a one stop solution for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    },
+    {
+      "context_snippet": "Large language models (LLMs) made easy, EasyLM is a one stop solution for",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "transformer"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "scoop-java"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ScoopInstaller/Java",
+      "status": "candidate-context",
+      "text": "\ud83d\udce6 A bucket for Scoop, for Oracle Java, OpenJDK, Eclipse Temurin, IBM Semeru, Zulu, ojdkbuild, Amazon Corretto, BellSoft Liberica, SapMachine and Microsoft JDK."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Java",
+      "status": "candidate-context",
+      "text": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ScoopInstaller/Java",
+      "status": "candidate",
+      "text": "A bucket for [Scoop](https://scoop.sh), for [Oracle Java](https://www.oracle.com/java/), [OpenJDK](https://openjdk.java.net), [Eclipse Temurin](https://adoptium.net), [IBM Semeru](https://developer.ibm.com/languages/java/semeru-runtimes), [Zulu](https://www.azul.com/products/zul\u2026"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "scoop-java",
+  "concept_id": "scoop-java",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ScoopInstaller/Java"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "scoop-java",
+      "sense_id": "scoop-java#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

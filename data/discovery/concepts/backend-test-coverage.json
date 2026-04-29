@@ -1,0 +1,94 @@
+{
+  "aliases": [
+    "Backend Test Coverage"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitconcept/volto-light-theme",
+      "status": "candidate-context",
+      "text": "Backend Test Coverage"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "kitconcept/volto-light-theme",
+      "status": "candidate",
+      "text": "Backend Test Coverage"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22923,
+      "status": "candidate",
+      "text": "length"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22878,
+      "status": "candidate",
+      "text": "cover"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22878,
+      "status": "candidate",
+      "text": "covers"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22878,
+      "status": "candidate",
+      "text": "reach"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 22878,
+      "status": "candidate",
+      "text": "reference"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Backend Test Coverage",
+  "concept_id": "backend-test-coverage",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/backend-coverage.yml",
+      "source_repo": "kitconcept/volto-light-theme"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Backend Test Coverage",
+      "sense_id": "backend-test-coverage#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

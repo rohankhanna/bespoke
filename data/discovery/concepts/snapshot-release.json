@@ -1,6 +1,7 @@
 {
   "aliases": [
-    "Snapshot Release"
+    "Snapshot Release",
+    "Snapshot release"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
@@ -19,6 +20,30 @@
       "source_repo": "graphql-hive/graphql-yoga",
       "status": "candidate-context",
       "text": "Snapshot Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "helidon-io/helidon",
+      "status": "candidate-context",
+      "text": "Java libraries for writing microservices"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helidon-io/helidon",
+      "status": "candidate-context",
+      "text": "\"Snapshot Release\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "avh4/elm-format",
+      "status": "candidate-context",
+      "text": "elm-format formats Elm source code according to a standard set of rules based on the official Elm Style Guide"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avh4/elm-format",
+      "status": "candidate-context",
+      "text": "Snapshot release"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +52,18 @@
       "source_repo": "graphql-hive/graphql-yoga",
       "status": "candidate",
       "text": "Snapshot Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "helidon-io/helidon",
+      "status": "candidate",
+      "text": "\"Snapshot Release\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "avh4/elm-format",
+      "status": "candidate",
+      "text": "Snapshot release"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +113,23 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/pr.yml",
       "source_repo": "graphql-hive/graphql-yoga"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/snapshot.yaml",
+      "source_repo": "helidon-io/helidon"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/Snapshot release.yml",
+      "source_repo": "avh4/elm-format"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

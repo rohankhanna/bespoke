@@ -1,0 +1,125 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "fasmide/remotemoe",
+      "target": "actions/checkout@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "fasmide/remotemoe",
+      "target": "github/codeql-action/init@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "fasmide/remotemoe",
+      "target": "github/codeql-action/autobuild@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "fasmide/remotemoe",
+      "target": "github/codeql-action/analyze@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "fasmide/remotemoe",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fasmide/remotemoe",
+      "target": "golang",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "fasmide/remotemoe",
+      "target": "tunnel",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:47:40.443241+00:00",
+  "fetched_files": [
+    {
+      "path": "go.mod",
+      "size": 582
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 1987
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "tunnels to localhost and other ssh plumbing",
+    "fork": false,
+    "full_name": "fasmide/remotemoe",
+    "html_url": "https://github.com/fasmide/remotemoe",
+    "language": "Go",
+    "pushed_at": "2024-06-03T14:00:47Z",
+    "stargazers_count": 301,
+    "topics": [
+      "golang",
+      "ssh",
+      "tunnel"
+    ],
+    "updated_at": "2026-04-23T11:50:57Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "module github.com/fasmide/remotemoe go 1.17 require ( github.com/fasmide/hostkeys v0.0.0-20211023164018-0a66d786b24e github.com/fatih/color v1.16.0 github.com/spf13/cobra v1.8.0 github.com/spf13/pflag v1.0.5 golang.org/x/crypto v0.19.0 golang.org/x/sync v0.6.0 golang.org/x/term \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "golang"
+    },
+    {
+      "context_snippet": "module github.com/fasmide/remotemoe go 1.17 require ( github.com/fasmide/hostkeys v0.0.0-20211023164018-0a66d786b24e github.com/fatih/color v1.16.0 github.com/spf13/cobra v1.8.0 github.com/spf13/pflag v1.0.5 golang.org/x/crypto v0.19.0 golang.org/x/sync v0.6.0 golang.org/x/term \u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tunnel"
+    }
+  ]
+}

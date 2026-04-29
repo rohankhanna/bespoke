@@ -19,6 +19,18 @@
       "source_repo": "cleanlab/cleanvision",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Po-Hsun-Su/pytorch-ssim",
+      "status": "candidate-context",
+      "text": "pytorch structural similarity (SSIM) loss"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Po-Hsun-Su/pytorch-ssim",
+      "status": "candidate-context",
+      "text": "The code doesn't work because it is on super old pytorch."
     }
   ],
   "candidate_glosses": [
@@ -27,6 +39,12 @@
       "source_repo": "cleanlab/cleanvision",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Po-Hsun-Su/pytorch-ssim",
+      "status": "candidate",
+      "text": "The code doesn't work because it is on super old pytorch."
     }
   ],
   "candidate_related_terms": [],
@@ -40,11 +58,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "cleanlab/cleanvision"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Po-Hsun-Su/pytorch-ssim"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,209 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eyalz800/serializer",
+      "target": "eyalz800/zpp_serializer_py.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "eyalz800/serializer",
+      "target": "eyalz800/type_info.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer",
+      "target": "cpp11",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer",
+      "target": "cpp14",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer",
+      "target": "cpp17",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer",
+      "target": "cross-platform",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer",
+      "target": "header-only",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer",
+      "target": "lightweight",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer",
+      "target": "serialization",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer",
+      "target": "simple",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer",
+      "target": "single-file",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer",
+      "target": "standalone",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "eyalz800/serializer",
+      "target": "standard",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:42:37.233859+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 11994
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A single header standard C++ serialization framework.",
+    "fork": false,
+    "full_name": "eyalz800/serializer",
+    "html_url": "https://github.com/eyalz800/serializer",
+    "language": "C++",
+    "pushed_at": "2021-12-17T02:29:19Z",
+    "stargazers_count": 200,
+    "topics": [
+      "cpp11",
+      "cpp14",
+      "cpp17",
+      "cross-platform",
+      "header-only",
+      "lightweight",
+      "serialization",
+      "simple",
+      "single-file",
+      "standalone",
+      "standard"
+    ],
+    "updated_at": "2026-03-10T01:47:59Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eyalz800/type_info.",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "eyalz800/zpp_serializer_py.",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "zpp serializer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp11"
+    },
+    {
+      "context_snippet": "zpp serializer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp14"
+    },
+    {
+      "context_snippet": "zpp serializer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cpp17"
+    },
+    {
+      "context_snippet": "zpp serializer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cross-platform"
+    },
+    {
+      "context_snippet": "zpp serializer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "header-only"
+    },
+    {
+      "context_snippet": "zpp serializer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lightweight"
+    },
+    {
+      "context_snippet": "zpp serializer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "serialization"
+    },
+    {
+      "context_snippet": "zpp serializer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "simple"
+    },
+    {
+      "context_snippet": "zpp serializer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "single-file"
+    },
+    {
+      "context_snippet": "zpp serializer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standalone"
+    },
+    {
+      "context_snippet": "zpp serializer",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "standard"
+    }
+  ]
+}

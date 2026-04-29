@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "MDK8888/GPTFast",
+      "target": "pytorch-labs/gpt-fast",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:42:27.549387+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12513
+    },
+    {
+      "path": "requirements.txt",
+      "size": 389
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "Accelerate your Hugging Face Transformers 7.6-9x. Native to Hugging Face and PyTorch.",
+    "fork": false,
+    "full_name": "MDK8888/GPTFast",
+    "html_url": "https://github.com/MDK8888/GPTFast",
+    "language": "Python",
+    "pushed_at": "2024-08-22T04:11:35Z",
+    "stargazers_count": 683,
+    "topics": [],
+    "updated_at": "2026-04-14T14:07:25Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch-labs/gpt-fast",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -34,6 +34,18 @@
       "source_repo": "AcademySoftwareFoundation/OpenColorIO",
       "status": "candidate-context",
       "text": "Wheel"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/twine",
+      "status": "candidate-context",
+      "text": "Utilities for interacting with PyPI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/twine",
+      "status": "candidate-context",
+      "text": ".. |twine-version| image:: https://img.shields.io/pypi/v/twine.svg"
     }
   ],
   "candidate_glosses": [
@@ -48,6 +60,12 @@
       "source_repo": "AcademySoftwareFoundation/OpenColorIO",
       "status": "candidate",
       "text": "Wheel"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/twine",
+      "status": "candidate",
+      "text": ".. |twine-version| image:: https://img.shields.io/pypi/v/twine.svg"
     }
   ],
   "candidate_related_terms": [
@@ -139,11 +157,17 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/wheel_workflow.yml",
       "source_repo": "AcademySoftwareFoundation/OpenColorIO"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "pypa/twine"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

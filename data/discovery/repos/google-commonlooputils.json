@@ -1,0 +1,140 @@
+{
+  "components": [
+    {
+      "component": "styfle/cancel-workflow-action@0.8.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "codecov/codecov-action@v1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml"
+    },
+    {
+      "component": "actions/checkout@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    },
+    {
+      "component": "actions/setup-python@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/CommonLoopUtils",
+      "target": "styfle/cancel-workflow-action@0.8.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/CommonLoopUtils",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/CommonLoopUtils",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/CommonLoopUtils",
+      "target": "codecov/codecov-action@v1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "source_repo": "google/CommonLoopUtils",
+      "target": "Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "google/CommonLoopUtils",
+      "target": "actions/checkout@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-publish.yml",
+      "source_repo": "google/CommonLoopUtils",
+      "target": "actions/setup-python@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "google/CommonLoopUtils",
+      "target": "flax",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:47:54.801934+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 761
+    },
+    {
+      "path": ".github/workflows/build.yml",
+      "size": 1049
+    },
+    {
+      "path": ".github/workflows/python-publish.yml",
+      "size": 846
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "CLU lets you write beautiful training loops in JAX.",
+    "fork": false,
+    "full_name": "google/CommonLoopUtils",
+    "html_url": "https://github.com/google/CommonLoopUtils",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-03-03T00:45:15Z",
+    "stargazers_count": 368,
+    "topics": [
+      "flax",
+      "jax",
+      "ml"
+    ],
+    "updated_at": "2026-03-29T16:48:53Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build.yml",
+      "term": "Build"
+    },
+    {
+      "context_snippet": "This repository contains common functionality for writing ML training loops. The",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "flax"
+    }
+  ]
+}

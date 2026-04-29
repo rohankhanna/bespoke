@@ -19,12 +19,30 @@
       "source_repo": "HKUDS/LightRAG",
       "status": "candidate-context",
       "text": "Linting and Formatting"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "HKUDS/RAG-Anything",
+      "status": "candidate-context",
+      "text": "\"RAG-Anything: All-in-One RAG Framework\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/RAG-Anything",
+      "status": "candidate-context",
+      "text": "Linting and Formatting"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "HKUDS/LightRAG",
+      "status": "candidate",
+      "text": "Linting and Formatting"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "HKUDS/RAG-Anything",
       "status": "candidate",
       "text": "Linting and Formatting"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/linting.yaml",
       "source_repo": "HKUDS/LightRAG"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/linting.yaml",
+      "source_repo": "HKUDS/RAG-Anything"
     }
   ],
   "first_seen_at": "2026-04-24T06:47:13.899148+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

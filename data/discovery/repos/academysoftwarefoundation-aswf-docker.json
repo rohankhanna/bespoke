@@ -1,0 +1,281 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@e06108dd0aef18192324c70427afc47652e63a82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sonar.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sonar.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@e06108dd0aef18192324c70427afc47652e63a82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sonar.yml"
+    },
+    {
+      "component": "SonarSource/sonarqube-scan-action@a31c9398be7ace6bbfaf30c0bd5d415f843d45e9",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sonar.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@e06108dd0aef18192324c70427afc47652e63a82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml"
+    },
+    {
+      "component": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    },
+    {
+      "component": "astral-sh/setup-uv@e06108dd0aef18192324c70427afc47652e63a82",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "academysoftwarefoundation/openexr",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "academysoftwarefoundation/openshadinglanguage",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "astral-sh/setup-uv@e06108dd0aef18192324c70427afc47652e63a82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "Test Build Docker Images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sonar.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sonar.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sonar.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "astral-sh/setup-uv@e06108dd0aef18192324c70427afc47652e63a82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python-sonar.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "SonarSource/sonarqube-scan-action@a31c9398be7ace6bbfaf30c0bd5d415f843d45e9",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/python.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "astral-sh/setup-uv@e06108dd0aef18192324c70427afc47652e63a82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "actions/checkout@de0fac2e4500dabe0009e67214ff5f5447ce83dd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "docker/setup-buildx-action@4d04d5d9486b7bd6fa91e7baf45bbb4f8b9deedd",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "actions/setup-python@a309ff8b426b58ec0e2a45f0f869d46889d02405",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "astral-sh/setup-uv@e06108dd0aef18192324c70427afc47652e63a82",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "source_repo": "AcademySoftwareFoundation/aswf-docker",
+      "target": "Release",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:42:32.815782+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 60579
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1962
+    },
+    {
+      "path": ".github/workflows/docker-builds.yml",
+      "size": 10355
+    },
+    {
+      "path": ".github/workflows/python-sonar.yml",
+      "size": 1341
+    },
+    {
+      "path": ".github/workflows/python.yml",
+      "size": 911
+    },
+    {
+      "path": ".github/workflows/release.yml",
+      "size": 2186
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Common container configuration",
+    "fork": false,
+    "full_name": "AcademySoftwareFoundation/aswf-docker",
+    "html_url": "https://github.com/AcademySoftwareFoundation/aswf-docker",
+    "language": "Python",
+    "pushed_at": "2026-04-06T00:37:04Z",
+    "stargazers_count": 181,
+    "topics": [],
+    "updated_at": "2026-04-06T00:37:09Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "academysoftwarefoundation/openexr",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "academysoftwarefoundation/openshadinglanguage",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Test Build Docker Images",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/docker-builds.yml",
+      "term": "Test Build Docker Images"
+    },
+    {
+      "context_snippet": "Release",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/release.yml",
+      "term": "Release"
+    }
+  ]
+}

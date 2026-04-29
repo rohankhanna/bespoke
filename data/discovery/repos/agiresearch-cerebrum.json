@@ -1,0 +1,96 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/setup-python@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    },
+    {
+      "component": "actions/upload-artifact@v4.4.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "agiresearch/Cerebrum",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "agiresearch/Cerebrum",
+      "target": "actions/setup-python@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "agiresearch/Cerebrum",
+      "target": "actions/upload-artifact@v4.4.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "source_repo": "agiresearch/Cerebrum",
+      "target": "Cerebrum-AIOS Integration Test",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:44:24.590442+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 15650
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1812
+    },
+    {
+      "path": "requirements.txt",
+      "size": 48
+    },
+    {
+      "path": ".github/workflows/test.yml",
+      "size": 6509
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Cerebrum: Agent SDK for AIOS",
+    "fork": false,
+    "full_name": "agiresearch/Cerebrum",
+    "html_url": "https://github.com/agiresearch/Cerebrum",
+    "language": "Python",
+    "pushed_at": "2026-04-23T20:22:00Z",
+    "stargazers_count": 134,
+    "topics": [],
+    "updated_at": "2026-04-23T20:22:07Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Cerebrum-AIOS Integration Test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/test.yml",
+      "term": "Cerebrum-AIOS Integration Test"
+    }
+  ]
+}

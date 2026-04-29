@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Add issues to API team project"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "github/rest-api-description",
+      "status": "candidate-context",
+      "text": "An OpenAPI description for GitHub's REST API"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/rest-api-description",
+      "status": "candidate-context",
+      "text": "Add issues to API team project"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "github/rest-api-description",
+      "status": "candidate",
+      "text": "Add issues to API team project"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 42831,
+      "status": "candidate",
+      "text": "animate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39006,
+      "status": "candidate",
+      "text": "clip"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 33002,
+      "status": "candidate",
+      "text": "crew"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30803,
+      "status": "candidate",
+      "text": "develop"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30718,
+      "status": "candidate",
+      "text": "positive"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Add issues to API team project",
+  "concept_id": "add-issues-to-api-team-project",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/add-to-project.yml",
+      "source_repo": "github/rest-api-description"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Add issues to API team project",
+      "sense_id": "add-issues-to-api-team-project#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

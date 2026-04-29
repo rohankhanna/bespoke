@@ -1,0 +1,199 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "target": "baichuan-inc/baichuan2",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "target": "hiyouga/llama-efficient-tuning",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "target": "ceval",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "target": "chatgpt",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "target": "chinese",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "target": "gpt-4",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "target": "huggingface",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "target": "mmlu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "baichuan-inc/Baichuan-13B",
+      "target": "natural-language-processing",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:47:33.216636+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16948
+    },
+    {
+      "path": "requirements.txt",
+      "size": 86
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A 13B large language model developed by Baichuan Intelligent Technology",
+    "fork": false,
+    "full_name": "baichuan-inc/Baichuan-13B",
+    "html_url": "https://github.com/baichuan-inc/Baichuan-13B",
+    "language": "Python",
+    "pushed_at": "2023-09-06T17:16:53Z",
+    "stargazers_count": 2932,
+    "topics": [
+      "artificial-intelligence",
+      "benchmark",
+      "ceval",
+      "chatgpt",
+      "chinese",
+      "gpt-4",
+      "huggingface",
+      "large-language-models",
+      "mmlu",
+      "natural-language-processing"
+    ],
+    "updated_at": "2026-04-25T13:04:31Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "baichuan-inc/baichuan2",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "hiyouga/llama-efficient-tuning",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ceval"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chatgpt"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "chinese"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "gpt-4"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "huggingface"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "mmlu"
+    },
+    {
+      "context_snippet": "<!-- markdownlint-disable first-line-h1 -->",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "natural-language-processing"
+    }
+  ]
+}

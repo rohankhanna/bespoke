@@ -1,0 +1,27 @@
+{
+  "components": [],
+  "edges": [],
+  "fetched_at": "2026-04-29T18:39:31.022269+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 5956
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "This repository holds the device support files for the iOS, and I will update it regularly.",
+    "fork": false,
+    "full_name": "iGhibli/iOS-DeviceSupport",
+    "html_url": "https://github.com/iGhibli/iOS-DeviceSupport",
+    "language": "Python",
+    "pushed_at": "2023-06-09T01:22:16Z",
+    "stargazers_count": 8227,
+    "topics": [],
+    "updated_at": "2026-04-29T13:07:54Z"
+  },
+  "repo_links": [],
+  "terms": []
+}

@@ -1,0 +1,65 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Edward-Sun/gpt-accelera",
+      "target": "pytorch-labs/gpt-fast",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Edward-Sun/gpt-accelera",
+      "target": "edward-sun/easy-to-hard",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Edward-Sun/gpt-accelera",
+      "target": "ibm/salmon",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:42:26.934589+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3360
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Simple and efficient pytorch-native transformer training and inference (batched)",
+    "fork": false,
+    "full_name": "Edward-Sun/gpt-accelera",
+    "html_url": "https://github.com/Edward-Sun/gpt-accelera",
+    "language": "Python",
+    "pushed_at": "2024-04-02T23:07:54Z",
+    "stargazers_count": 78,
+    "topics": [],
+    "updated_at": "2026-04-05T16:25:03Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "edward-sun/easy-to-hard",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ibm/salmon",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "pytorch-labs/gpt-fast",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

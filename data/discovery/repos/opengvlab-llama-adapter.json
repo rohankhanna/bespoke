@@ -1,0 +1,85 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/LLaMA-Adapter",
+      "target": "alpha-vllm/llama2-accessory",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/LLaMA-Adapter",
+      "target": "facebookresearch/llama",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/LLaMA-Adapter",
+      "target": "csuhan/onellm",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "OpenGVLab/LLaMA-Adapter",
+      "target": "opengvlab/omniquant",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:45:09.437024+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 21549
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 665
+    },
+    {
+      "path": "requirements.txt",
+      "size": 65
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[ICLR 2024] Fine-tuning LLaMA to follow Instructions within 1 Hour and 1.2M Parameters",
+    "fork": false,
+    "full_name": "OpenGVLab/LLaMA-Adapter",
+    "html_url": "https://github.com/OpenGVLab/LLaMA-Adapter",
+    "language": "Python",
+    "pushed_at": "2024-03-14T08:12:53Z",
+    "stargazers_count": 5928,
+    "topics": [],
+    "updated_at": "2026-04-27T14:02:08Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alpha-vllm/llama2-accessory",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "csuhan/onellm",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/llama",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "opengvlab/omniquant",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

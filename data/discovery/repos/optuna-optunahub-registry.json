@@ -1,0 +1,269 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "pre-commit/action@v3.0.1",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/header-confirm.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/header-confirm.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optunahub-web.yaml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optunahub-web.yaml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optunahub-web.yaml"
+    },
+    {
+      "component": "peaceiris/actions-hugo@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optunahub-web.yaml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "optuna/optunahub-registry",
+      "target": "optuna/optunahub",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "optuna/optunahub-registry",
+      "target": "optuna/optunahub-web",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "optuna/optunahub-registry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "optuna/optunahub-registry",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "optuna/optunahub-registry",
+      "target": "pre-commit/action@v3.0.1",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "source_repo": "optuna/optunahub-registry",
+      "target": "Checks",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/header-confirm.yaml",
+      "source_repo": "optuna/optunahub-registry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/header-confirm.yaml",
+      "source_repo": "optuna/optunahub-registry",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/header-confirm.yaml",
+      "source_repo": "optuna/optunahub-registry",
+      "target": "Header Confirmation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optunahub-web.yaml",
+      "source_repo": "optuna/optunahub-registry",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optunahub-web.yaml",
+      "source_repo": "optuna/optunahub-registry",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/optunahub-web.yaml",
+      "source_repo": "optuna/optunahub-registry",
+      "target": "peaceiris/actions-hugo@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/optunahub-web.yaml",
+      "source_repo": "optuna/optunahub-registry",
+      "target": "Test OptunaHub Web Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optunahub-registry",
+      "target": "algorithms",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optunahub-registry",
+      "target": "benchmark",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optunahub-registry",
+      "target": "machine-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "optuna/optunahub-registry",
+      "target": "optimization",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:52:08.651858+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3627
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1620
+    },
+    {
+      "path": ".github/workflows/checks.yaml",
+      "size": 333
+    },
+    {
+      "path": ".github/workflows/header-confirm.yaml",
+      "size": 433
+    },
+    {
+      "path": ".github/workflows/optunahub-web.yaml",
+      "size": 1054
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "The registry of the OptunaHub packages",
+    "fork": false,
+    "full_name": "optuna/optunahub-registry",
+    "html_url": "https://github.com/optuna/optunahub-registry",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2026-04-24T15:24:56Z",
+    "stargazers_count": 52,
+    "topics": [
+      "algorithms",
+      "benchmark",
+      "machine-learning",
+      "optimization",
+      "python"
+    ],
+    "updated_at": "2026-04-24T15:25:01Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "optuna/optunahub",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "optuna/optunahub-web",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Checks",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/checks.yaml",
+      "term": "Checks"
+    },
+    {
+      "context_snippet": "Header Confirmation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/header-confirm.yaml",
+      "term": "Header Confirmation"
+    },
+    {
+      "context_snippet": "Test OptunaHub Web Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/optunahub-web.yaml",
+      "term": "Test OptunaHub Web Build"
+    },
+    {
+      "context_snippet": "OptunaHub Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "algorithms"
+    },
+    {
+      "context_snippet": "OptunaHub Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "benchmark"
+    },
+    {
+      "context_snippet": "OptunaHub Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "machine-learning"
+    },
+    {
+      "context_snippet": "OptunaHub Registry",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "optimization"
+    }
+  ]
+}

@@ -1,0 +1,64 @@
+{
+  "aliases": [
+    "tunnel-server"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "azimjohn/jprq",
+      "status": "candidate-context",
+      "text": "join public router. quickly."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azimjohn/jprq",
+      "status": "candidate-context",
+      "text": "module github.com/azimjohn/jprq go 1.22 require ( github.com/djherbis/buffer v1.2.0 github.com/djherbis/nio/v3 v3.0.1 )"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "azimjohn/jprq",
+      "status": "candidate",
+      "text": "module github.com/azimjohn/jprq go 1.22 require ( github.com/djherbis/buffer v1.2.0 github.com/djherbis/nio/v3 v3.0.1 )"
+    }
+  ],
+  "candidate_related_terms": [],
+  "candidate_synonyms": [],
+  "canonical_name": "tunnel-server",
+  "concept_id": "tunnel-server",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "azimjohn/jprq"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tunnel-server",
+      "sense_id": "tunnel-server#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

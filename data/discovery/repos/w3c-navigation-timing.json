@@ -1,0 +1,157 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml"
+    },
+    {
+      "component": "w3c/spec-prod@v2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "w3c/navigation-timing",
+      "target": "w3c/web-performance",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "w3c/navigation-timing",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/auto-publish.yml",
+      "source_repo": "w3c/navigation-timing",
+      "target": "w3c/spec-prod@v2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "w3c/navigation-timing",
+      "target": "performance",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "w3c/navigation-timing",
+      "target": "performance-metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "w3c/navigation-timing",
+      "target": "resource-measurement",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "w3c/navigation-timing",
+      "target": "specification",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "w3c/navigation-timing",
+      "target": "web-application",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "w3c/navigation-timing",
+      "target": "webapp",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:56:10.893071+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 471
+    },
+    {
+      "path": ".github/workflows/auto-publish.yml",
+      "size": 554
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Navigation Timing",
+    "fork": false,
+    "full_name": "w3c/navigation-timing",
+    "html_url": "https://github.com/w3c/navigation-timing",
+    "language": "Bikeshed",
+    "pushed_at": "2026-03-16T07:30:57Z",
+    "stargazers_count": 121,
+    "topics": [
+      "performance",
+      "performance-metrics",
+      "resource-measurement",
+      "specification",
+      "web",
+      "web-application",
+      "webapp"
+    ],
+    "updated_at": "2026-03-26T23:40:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "w3c/web-performance",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Navigation Timing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance"
+    },
+    {
+      "context_snippet": "Navigation Timing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "performance-metrics"
+    },
+    {
+      "context_snippet": "Navigation Timing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "resource-measurement"
+    },
+    {
+      "context_snippet": "Navigation Timing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "specification"
+    },
+    {
+      "context_snippet": "Navigation Timing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "web-application"
+    },
+    {
+      "context_snippet": "Navigation Timing",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "webapp"
+    }
+  ]
+}

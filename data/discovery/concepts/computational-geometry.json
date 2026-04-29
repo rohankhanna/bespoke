@@ -55,6 +55,18 @@
       "source_repo": "urschrei/simplification",
       "status": "candidate-context",
       "text": "[![Build Status](https://github.com/urschrei/simplification/actions/workflows/wheels.yml/badge.svg)](https://github.com/urschrei/simplification/actions/workflows/wheels.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/simplification/badge.svg?branch=master)](h\u2026"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "urschrei/rdp",
+      "status": "candidate-context",
+      "text": "A library providing FFI access to fast Ramer\u2013Douglas\u2013Peucker and Visvalingam-Whyatt line simplification algorithms"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/rdp",
+      "status": "candidate-context",
+      "text": "[![Test and Build](https://github.com/urschrei/rdp/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/rdp/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/rdp/badge.svg?branch=master)](https://coveralls.io/github/urschrei\u2026"
     }
   ],
   "candidate_glosses": [
@@ -81,6 +93,12 @@
       "source_repo": "urschrei/simplification",
       "status": "candidate",
       "text": "[![Build Status](https://github.com/urschrei/simplification/actions/workflows/wheels.yml/badge.svg)](https://github.com/urschrei/simplification/actions/workflows/wheels.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/simplification/badge.svg?branch=master)](h\u2026"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "urschrei/rdp",
+      "status": "candidate",
+      "text": "[![Test and Build](https://github.com/urschrei/rdp/actions/workflows/test.yml/badge.svg)](https://github.com/urschrei/rdp/actions/workflows/test.yml) [![Coverage Status](https://coveralls.io/repos/github/urschrei/rdp/badge.svg?branch=master)](https://coveralls.io/github/urschrei\u2026"
     }
   ],
   "candidate_related_terms": [],
@@ -112,11 +130,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "urschrei/simplification"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "urschrei/rdp"
     }
   ],
   "first_seen_at": "2026-04-24T00:33:56.049672+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

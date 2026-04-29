@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/SwiftInfer",
+      "target": "artificial-intelligence",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/SwiftInfer",
+      "target": "deep-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/SwiftInfer",
+      "target": "inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/SwiftInfer",
+      "target": "llama",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/SwiftInfer",
+      "target": "llama2",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/SwiftInfer",
+      "target": "llm-inference",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "hpcaitech/SwiftInfer",
+      "target": "llm-serving",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:49:58.993571+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8239
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Efficient AI Inference & Serving",
+    "fork": false,
+    "full_name": "hpcaitech/SwiftInfer",
+    "html_url": "https://github.com/hpcaitech/SwiftInfer",
+    "language": "Python",
+    "pushed_at": "2024-01-08T09:18:42Z",
+    "stargazers_count": 479,
+    "topics": [
+      "artificial-intelligence",
+      "deep-learning",
+      "gpt",
+      "inference",
+      "llama",
+      "llama2",
+      "llm-inference",
+      "llm-serving"
+    ],
+    "updated_at": "2026-04-16T07:42:19Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "artificial-intelligence"
+    },
+    {
+      "context_snippet": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "deep-learning"
+    },
+    {
+      "context_snippet": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "inference"
+    },
+    {
+      "context_snippet": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama"
+    },
+    {
+      "context_snippet": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llama2"
+    },
+    {
+      "context_snippet": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-inference"
+    },
+    {
+      "context_snippet": "- [\ud83d\ude80 SwiftInfer](#-swiftinfer)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "llm-serving"
+    }
+  ]
+}

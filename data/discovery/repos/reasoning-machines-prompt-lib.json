@@ -1,0 +1,129 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "reasoning-machines/prompt-lib",
+      "target": "reasoning-machines/cocogen",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "requirements.txt",
+      "source_repo": "reasoning-machines/prompt-lib",
+      "target": "damnever/pigar.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/prompt-lib",
+      "target": "commonsense-reasoning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/prompt-lib",
+      "target": "few-shot-learning",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/prompt-lib",
+      "target": "large-language-models",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/prompt-lib",
+      "target": "prompt-toolkit",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "reasoning-machines/prompt-lib",
+      "target": "prompting",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:53:57.491768+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 8763
+    },
+    {
+      "path": "requirements.txt",
+      "size": 546
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "A set of utilities for running few-shot prompting experiments on large-language models",
+    "fork": false,
+    "full_name": "reasoning-machines/prompt-lib",
+    "html_url": "https://github.com/reasoning-machines/prompt-lib",
+    "language": "Python",
+    "pushed_at": "2023-10-25T04:57:57Z",
+    "stargazers_count": 124,
+    "topics": [
+      "commonsense-reasoning",
+      "few-shot-learning",
+      "large-language-models",
+      "prompt-toolkit",
+      "prompting"
+    ],
+    "updated_at": "2026-04-08T16:51:53Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "reasoning-machines/cocogen",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "damnever/pigar.",
+      "source_file": "requirements.txt"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "- A library for hassle-free few-shot prompting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "commonsense-reasoning"
+    },
+    {
+      "context_snippet": "- A library for hassle-free few-shot prompting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "few-shot-learning"
+    },
+    {
+      "context_snippet": "- A library for hassle-free few-shot prompting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "large-language-models"
+    },
+    {
+      "context_snippet": "- A library for hassle-free few-shot prompting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompt-toolkit"
+    },
+    {
+      "context_snippet": "- A library for hassle-free few-shot prompting.",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "prompting"
+    }
+  ]
+}

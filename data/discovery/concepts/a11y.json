@@ -43,6 +43,18 @@
       "source_repo": "grommet/grommet",
       "status": "candidate-context",
       "text": "[![PRs Welcome](https://img.shields.io/badge/pr's-welcome-7d4cdb.svg)][contributing]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "blindpandas/chessmart",
+      "status": "candidate-context",
+      "text": "The most accessible chessboard in the planet earth"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blindpandas/chessmart",
+      "status": "candidate-context",
+      "text": "Build add-on"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +75,12 @@
       "source_repo": "grommet/grommet",
       "status": "candidate",
       "text": "[![PRs Welcome](https://img.shields.io/badge/pr's-welcome-7d4cdb.svg)][contributing]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "blindpandas/chessmart",
+      "status": "candidate",
+      "text": "Build add-on"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "grommet/grommet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "blindpandas/chessmart"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

@@ -1,0 +1,45 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "alanshi/charset_mnbvc",
+      "target": "alanshi/mnbvc-charset-tool",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:38:10.078155+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9803
+    },
+    {
+      "path": "requirements.txt",
+      "size": 44
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "\u672c\u9879\u76ee\u65e8\u5728\u5bf9\u5927\u91cf\u6587\u672c\u6587\u4ef6\u8fdb\u884c\u5feb\u901f\u7f16\u7801\u68c0\u6d4b\u548c\u8f6c\u6362\u4ee5\u8f85\u52a9mnbvc\u8bed\u6599\u96c6\u9879\u76ee\u7684\u6570\u636e\u6e05\u6d17\u5de5\u4f5c",
+    "fork": false,
+    "full_name": "alanshi/charset_mnbvc",
+    "html_url": "https://github.com/alanshi/charset_mnbvc",
+    "language": "Python",
+    "pushed_at": "2025-10-17T09:29:05Z",
+    "stargazers_count": 70,
+    "topics": [],
+    "updated_at": "2026-02-10T07:22:46Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "alanshi/mnbvc-charset-tool",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

@@ -11,14 +11,21 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-bash-aliases",
+      "target": "danielrosehill/claude-ai-video-producer-plugin",
       "target_type": "repository"
     },
     {
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-change-my-view",
+      "target": "danielrosehill/claude-adb-ops-plugin",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
+      "target": "danielrosehill/claude-backup-planner-plugin",
       "target_type": "repository"
     },
     {
@@ -26,13 +33,6 @@
       "source_file": "README.md",
       "source_repo": "danielrosehill/Claude-Code-Projects-Index",
       "target": "danielrosehill/claude-agent-blueprints",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "danielrosehill/Claude-Code-Projects-Index",
-      "target": "danielrosehill/claude-code-bugs-and-frs",
       "target_type": "repository"
     },
     {
@@ -64,11 +64,11 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:04:05.957021+00:00",
+  "fetched_at": "2026-04-29T19:53:06.127449+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 55139
+      "size": 73090
     },
     {
       "path": "package.json",
@@ -84,16 +84,21 @@
     "full_name": "danielrosehill/Claude-Code-Projects-Index",
     "html_url": "https://github.com/danielrosehill/Claude-Code-Projects-Index",
     "language": "Astro",
-    "pushed_at": "2026-04-23T14:40:41Z",
-    "stargazers_count": 383,
+    "pushed_at": "2026-04-29T13:40:42Z",
+    "stargazers_count": 424,
     "topics": [
       "claude-code",
       "claude-code-cli",
       "index-repos"
     ],
-    "updated_at": "2026-04-24T08:08:54Z"
+    "updated_at": "2026-04-29T14:39:03Z"
   },
   "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "danielrosehill/claude-adb-ops-plugin",
+      "source_file": "README.md"
+    },
     {
       "edge_type": "explicit-github-link",
       "full_name": "danielrosehill/claude-agent-blueprints",
@@ -101,17 +106,12 @@
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-change-my-view",
+      "full_name": "danielrosehill/claude-ai-video-producer-plugin",
       "source_file": "README.md"
     },
     {
       "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-bash-aliases",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "danielrosehill/claude-code-bugs-and-frs",
+      "full_name": "danielrosehill/claude-backup-planner-plugin",
       "source_file": "README.md"
     }
   ],

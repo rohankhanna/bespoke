@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Trellix Command Line Scanner"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "intel/neural-speed",
+      "status": "candidate-context",
+      "text": "An innovative library for efficient LLM inference via low-bit quantization"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-speed",
+      "status": "candidate-context",
+      "text": "Trellix Command Line Scanner"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "intel/neural-speed",
+      "status": "candidate",
+      "text": "Trellix Command Line Scanner"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 35262,
+      "status": "candidate",
+      "text": "switch"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26262,
+      "status": "candidate",
+      "text": "aim"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26262,
+      "status": "candidate",
+      "text": "awk"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26262,
+      "status": "candidate",
+      "text": "cli"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 26262,
+      "status": "candidate",
+      "text": "echo"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Trellix Command Line Scanner",
+  "concept_id": "trellix-command-line-scanner",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/trellix.yml",
+      "source_repo": "intel/neural-speed"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Trellix Command Line Scanner",
+      "sense_id": "trellix-command-line-scanner#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

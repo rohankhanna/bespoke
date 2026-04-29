@@ -1,0 +1,12 @@
+{
+  "component": "crazy-max/ghaction-chocolatey@dff3862348493b11fba2fbc49147b6d2dfe09b66",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/ci.yaml",
+      "source_repo": "google/pprof"
+    }
+  ]
+}

@@ -133,20 +133,6 @@
   ],
   "edges": [
     {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "wasm-bindgen/wasm-pack",
-      "target": "drager/wasm-pack",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "Cargo.toml",
-      "source_repo": "wasm-bindgen/wasm-pack",
-      "target": "drager/wasm-pack",
-      "target_type": "repository"
-    },
-    {
       "edge_type": "workflow-uses",
       "source_file": ".github/workflows/approve.yml",
       "source_repo": "wasm-bindgen/wasm-pack",
@@ -329,15 +315,15 @@
       "target_type": "term"
     }
   ],
-  "fetched_at": "2026-04-24T09:05:26.794561+00:00",
+  "fetched_at": "2026-04-29T19:54:53.361440+00:00",
   "fetched_files": [
     {
       "path": "README.md",
-      "size": 2810
+      "size": 2882
     },
     {
       "path": "Cargo.toml",
-      "size": 1149
+      "size": 1161
     },
     {
       "path": ".github/workflows/approve.yml",
@@ -365,8 +351,8 @@
     "full_name": "wasm-bindgen/wasm-pack",
     "html_url": "https://github.com/wasm-bindgen/wasm-pack",
     "language": "Rust",
-    "pushed_at": "2026-04-15T18:56:34Z",
-    "stargazers_count": 7154,
+    "pushed_at": "2026-04-28T17:43:28Z",
+    "stargazers_count": 7156,
     "topics": [
       "cli",
       "npm",
@@ -376,20 +362,9 @@
       "rust-wasm",
       "wasm"
     ],
-    "updated_at": "2026-04-23T15:01:38Z"
+    "updated_at": "2026-04-29T06:33:53Z"
   },
-  "repo_links": [
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "drager/wasm-pack",
-      "source_file": "README.md"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "full_name": "drager/wasm-pack",
-      "source_file": "Cargo.toml"
-    }
-  ],
+  "repo_links": [],
   "terms": [
     {
       "context_snippet": "Automatic Approve",

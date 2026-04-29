@@ -93,6 +93,42 @@
       "source_repo": "Kong/deck",
       "status": "candidate-context",
       "text": "Integration Test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "aws-observability/aws-otel-community",
+      "status": "candidate-context",
+      "text": "Welcome to the AWS Distro for OpenTelemetry project. If you're using monitoring and observability tools for AWS products and services, this is a great place to ask questions, request features and network with other community members. "
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-community",
+      "status": "candidate-context",
+      "text": "\"Integration Test\""
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Azure/cli",
+      "status": "candidate-context",
+      "text": "Automate your GitHub workflows using Azure CLI scripts"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/cli",
+      "status": "candidate-context",
+      "text": "integration-test"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "open-webui/open-webui",
+      "status": "candidate-context",
+      "text": "User-friendly AI Interface (Supports Ollama, OpenAI API, ...)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/open-webui",
+      "status": "candidate-context",
+      "text": "Integration Test"
     }
   ],
   "candidate_glosses": [
@@ -141,6 +177,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "Kong/deck",
+      "status": "candidate",
+      "text": "Integration Test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "aws-observability/aws-otel-community",
+      "status": "candidate",
+      "text": "\"Integration Test\""
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Azure/cli",
+      "status": "candidate",
+      "text": "integration-test"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "open-webui/open-webui",
       "status": "candidate",
       "text": "Integration Test"
     }
@@ -240,11 +294,35 @@
       "observed_at": "2026-04-24T18:19:44.660705+00:00",
       "source_file": ".github/workflows/integration.yaml",
       "source_repo": "Kong/deck"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "aws-observability/aws-otel-community"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/integration-test.yml",
+      "source_repo": "Azure/cli"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/modules-integration-test.yaml",
+      "source_repo": "ko-build/ko"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/integration-test.disabled",
+      "source_repo": "open-webui/open-webui"
     }
   ],
   "first_seen_at": "2026-04-22T18:52:26.467154+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T18:19:44.660705+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

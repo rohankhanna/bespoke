@@ -1,0 +1,103 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "statsite/statsite",
+      "target": "etsy/statsd",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "statsite/statsite",
+      "target": "aggregated-metrics",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "statsite/statsite",
+      "target": "stats",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "statsite/statsite",
+      "target": "statsd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "statsite/statsite",
+      "target": "statsite",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:43.332504+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16267
+    },
+    {
+      "path": "Dockerfile",
+      "size": 1309
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "C implementation of statsd",
+    "fork": false,
+    "full_name": "statsite/statsite",
+    "html_url": "https://github.com/statsite/statsite",
+    "language": "C",
+    "pushed_at": "2021-06-11T12:37:55Z",
+    "stargazers_count": 1821,
+    "topics": [
+      "aggregated-metrics",
+      "stats",
+      "statsd",
+      "statsite"
+    ],
+    "updated_at": "2026-04-22T08:14:11Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "etsy/statsd",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Statsite [![Build Status](https://travis-ci.org/statsite/statsite.png)](https://travis-ci.org/statsite/statsite)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aggregated-metrics"
+    },
+    {
+      "context_snippet": "Statsite [![Build Status](https://travis-ci.org/statsite/statsite.png)](https://travis-ci.org/statsite/statsite)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "stats"
+    },
+    {
+      "context_snippet": "Statsite [![Build Status](https://travis-ci.org/statsite/statsite.png)](https://travis-ci.org/statsite/statsite)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statsd"
+    },
+    {
+      "context_snippet": "Statsite [![Build Status](https://travis-ci.org/statsite/statsite.png)](https://travis-ci.org/statsite/statsite)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "statsite"
+    }
+  ]
+}

@@ -1,0 +1,17 @@
+{
+  "component": "manusa/actions-setup-minikube@v2.16.1",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/e2e-test.yml",
+      "source_repo": "operator-framework/java-operator-sdk"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/integration-tests.yml",
+      "source_repo": "operator-framework/java-operator-sdk"
+    }
+  ]
+}

@@ -4,21 +4,7 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "zai-org/GLM-4",
-      "target": "mariushobbhahn/swebench-verified-mini",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/GLM-4",
-      "target": "aorwall/moatless-tools",
-      "target_type": "repository"
-    },
-    {
-      "edge_type": "explicit-github-link",
-      "source_file": "README.md",
-      "source_repo": "zai-org/GLM-4",
-      "target": "openautocoder/agentless",
+      "target": "thudm/glm-4.1v-thinking",
       "target_type": "repository"
     },
     {
@@ -57,6 +43,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T06:47:13.899148+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "zai-org/GLM-4"
 }

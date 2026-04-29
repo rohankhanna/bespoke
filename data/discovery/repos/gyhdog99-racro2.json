@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "gyhdog99/RACRO2",
+      "target": "volcengine/verl",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:48:39.536879+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12413
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Official PyTorch implementation of RACRO (https://www.arxiv.org/abs/2506.04559)",
+    "fork": false,
+    "full_name": "gyhdog99/RACRO2",
+    "html_url": "https://github.com/gyhdog99/RACRO2",
+    "language": "Python",
+    "pushed_at": "2025-07-01T02:19:12Z",
+    "stargazers_count": 19,
+    "topics": [],
+    "updated_at": "2025-09-30T08:19:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "volcengine/verl",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

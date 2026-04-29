@@ -1,0 +1,73 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/Wan-Move",
+      "target": "deepbeepmeep/wan2gp",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/Wan-Move",
+      "target": "xdit-project/xdit",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ali-vilab/Wan-Move",
+      "target": "facebookresearch/co-tracker",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T18:49:22.382326+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 12557
+    },
+    {
+      "path": "pyproject.toml",
+      "size": 1339
+    },
+    {
+      "path": "requirements.txt",
+      "size": 245
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "[NeurIPS 2025] Wan-Move: Motion-controllable Video Generation via Latent Trajectory Guidance",
+    "fork": false,
+    "full_name": "ali-vilab/Wan-Move",
+    "html_url": "https://github.com/ali-vilab/Wan-Move",
+    "language": "Python",
+    "pushed_at": "2026-01-05T11:32:22Z",
+    "stargazers_count": 618,
+    "topics": [],
+    "updated_at": "2026-04-27T20:17:13Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "deepbeepmeep/wan2gp",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "facebookresearch/co-tracker",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "xdit-project/xdit",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

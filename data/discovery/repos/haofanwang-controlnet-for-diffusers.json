@@ -1,0 +1,149 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "target": "haofanwang/t2i-adapter-for-diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "target": "haofanwang/lora-for-diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "target": "takuma104/diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "target": "haofanwang/train-controlnet-in-diffusers",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "target": "aigc",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "target": "controlnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "target": "diffusers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "target": "pytorch",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "haofanwang/ControlNet-for-Diffusers",
+      "target": "tutorials",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T20:43:45.171877+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 13682
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Transfer the ControlNet with any basemodel in diffusers\ud83d\udd25",
+    "fork": false,
+    "full_name": "haofanwang/ControlNet-for-Diffusers",
+    "html_url": "https://github.com/haofanwang/ControlNet-for-Diffusers",
+    "language": "Python",
+    "pushed_at": "2023-04-23T09:14:04Z",
+    "stargazers_count": 850,
+    "topics": [
+      "aigc",
+      "controlnet",
+      "diffusers",
+      "pytorch",
+      "tutorials"
+    ],
+    "updated_at": "2026-03-25T01:38:40Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haofanwang/lora-for-diffusers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haofanwang/t2i-adapter-for-diffusers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "haofanwang/train-controlnet-in-diffusers",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "takuma104/diffusers",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository provides the simplest tutorial code for developers using ControlNet with basemodel in the diffuser framework instead of WebUI. Our work builds highly on other excellent works. Although theses works have made some attemptes, there is no tutorial for supporting div\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "aigc"
+    },
+    {
+      "context_snippet": "This repository provides the simplest tutorial code for developers using ControlNet with basemodel in the diffuser framework instead of WebUI. Our work builds highly on other excellent works. Although theses works have made some attemptes, there is no tutorial for supporting div\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "controlnet"
+    },
+    {
+      "context_snippet": "This repository provides the simplest tutorial code for developers using ControlNet with basemodel in the diffuser framework instead of WebUI. Our work builds highly on other excellent works. Although theses works have made some attemptes, there is no tutorial for supporting div\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "diffusers"
+    },
+    {
+      "context_snippet": "This repository provides the simplest tutorial code for developers using ControlNet with basemodel in the diffuser framework instead of WebUI. Our work builds highly on other excellent works. Although theses works have made some attemptes, there is no tutorial for supporting div\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "pytorch"
+    },
+    {
+      "context_snippet": "This repository provides the simplest tutorial code for developers using ControlNet with basemodel in the diffuser framework instead of WebUI. Our work builds highly on other excellent works. Although theses works have made some attemptes, there is no tutorial for supporting div\u2026",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tutorials"
+    }
+  ]
+}

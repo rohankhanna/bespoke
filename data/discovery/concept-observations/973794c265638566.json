@@ -1,0 +1,108 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "FastAPI PaddleSpeech \u97f3\u9891\u5f55\u97f3\u8f6c\u6587\u5b57"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "\u6700\u8fd1\u5c3d\u8c03\u9879\u76ee\u8f83\u591a\uff0c \u800c\u4e14\u56e0\u4e3a\u75ab\u60c5\u539f\u56e0\u800c\u8f6c\u81f3\u817e\u8baf\u7535\u8bdd\u4f1a\u8bae\u8fdb\u884c\u8bbf\u8c08\uff0c\u4e3a\u4e86\u8282\u7701\u4f1a\u8bae\u8bb0\u5f55\u7684\u65f6\u95f4\uff0c\u6211\u5c06\u4f1a\u8bae\u5185\u5bb9\u8fdb\u884c\u4e86\u5f55\u97f3\uff08\u5408\u6cd5\u7684\u60c5\u51b5\u4e0b\uff09\u5e76\u8f6c\u6362\u4e3a\u6587\u5b57\u7684\u5f62\u5f0f\u65b9\u4fbf\u6574\u7406\u7b14\u8bb0\u3002 \u6211\u8bd5\u8fc7\u4e0d\u540c\u7684\u73b0\u6210\u4ea7\u54c1\uff0c\u8981\u4e48\u662f\u6536\u8d39\u8d3c\u8d35\uff0c\u8981\u4e48\u8f6c\u6362\u8d28\u91cf\u614e\u5fe7\uff0c\u4e8e\u662f\u4e4e\uff0c\u8fd8\u662f\u81ea\u5df1\u5f04\u4e00\u4e2a\u6bd4\u8f83\u76f4\u63a5\u3002"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "\u6700\u8fd1\u5c3d\u8c03\u9879\u76ee\u8f83\u591a\uff0c \u800c\u4e14\u56e0\u4e3a\u75ab\u60c5\u539f\u56e0\u800c\u8f6c\u81f3\u817e\u8baf\u7535\u8bdd\u4f1a\u8bae\u8fdb\u884c\u8bbf\u8c08\uff0c\u4e3a\u4e86\u8282\u7701\u4f1a\u8bae\u8bb0\u5f55\u7684\u65f6\u95f4\uff0c\u6211\u5c06\u4f1a\u8bae\u5185\u5bb9\u8fdb\u884c\u4e86\u5f55\u97f3\uff08\u5408\u6cd5\u7684\u60c5\u51b5\u4e0b\uff09\u5e76\u8f6c\u6362\u4e3a\u6587\u5b57\u7684\u5f62\u5f0f\u65b9\u4fbf\u6574\u7406\u7b14\u8bb0\u3002 \u6211\u8bd5\u8fc7\u4e0d\u540c\u7684\u73b0\u6210\u4ea7\u54c1\uff0c\u8981\u4e48\u662f\u6536\u8d39\u8d3c\u8d35\uff0c\u8981\u4e48\u8f6c\u6362\u8d28\u91cf\u614e\u5fe7\uff0c\u4e8e\u662f\u4e4e\uff0c\u8fd8\u662f\u81ea\u5df1\u5f04\u4e00\u4e2a\u6bd4\u8f83\u76f4\u63a5\u3002"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947376,
+      "status": "candidate",
+      "text": "apium graveolens dulce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947376,
+      "status": "candidate",
+      "text": "cultivated celery"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29947375,
+      "status": "candidate",
+      "text": "blanching"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047344,
+      "status": "candidate",
+      "text": "apium"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20047344,
+      "status": "candidate",
+      "text": "genus apium"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "celery",
+      "sense_id": "celery#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "apium graveolens dulce"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9,
+      "status": "candidate",
+      "text": "cultivated celery"
+    }
+  ],
+  "concept_id": "celery",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "celery",
+  "observation_id": "973794c265638566",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "celery",
+  "source_context_snippet": "\u6700\u8fd1\u5c3d\u8c03\u9879\u76ee\u8f83\u591a\uff0c \u800c\u4e14\u56e0\u4e3a\u75ab\u60c5\u539f\u56e0\u800c\u8f6c\u81f3\u817e\u8baf\u7535\u8bdd\u4f1a\u8bae\u8fdb\u884c\u8bbf\u8c08\uff0c\u4e3a\u4e86\u8282\u7701\u4f1a\u8bae\u8bb0\u5f55\u7684\u65f6\u95f4\uff0c\u6211\u5c06\u4f1a\u8bae\u5185\u5bb9\u8fdb\u884c\u4e86\u5f55\u97f3\uff08\u5408\u6cd5\u7684\u60c5\u51b5\u4e0b\uff09\u5e76\u8f6c\u6362\u4e3a\u6587\u5b57\u7684\u5f62\u5f0f\u65b9\u4fbf\u6574\u7406\u7b14\u8bb0\u3002 \u6211\u8bd5\u8fc7\u4e0d\u540c\u7684\u73b0\u6210\u4ea7\u54c1\uff0c\u8981\u4e48\u662f\u6536\u8d39\u8d3c\u8d35\uff0c\u8981\u4e48\u8f6c\u6362\u8d28\u91cf\u614e\u5fe7\uff0c\u4e8e\u662f\u4e4e\uff0c\u8fd8\u662f\u81ea\u5df1\u5f04\u4e00\u4e2a\u6bd4\u8f83\u76f4\u63a5\u3002",
+  "source_file": null,
+  "source_repo": "chinobing/FastAPI-PaddleSpeech-Audio-To-Text",
+  "source_repo_description": "FastAPI PaddleSpeech \u97f3\u9891\u5f55\u97f3\u8f6c\u6587\u5b57"
+}

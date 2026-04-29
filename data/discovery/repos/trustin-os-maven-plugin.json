@@ -1,0 +1,41 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "trustin/os-maven-plugin",
+      "target": "google/osdetector-gradle-plugin",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:43:44.318287+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9854
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A Maven plugin that sets various useful properties detected from ${os.name} and ${os.arch} properties.",
+    "fork": false,
+    "full_name": "trustin/os-maven-plugin",
+    "html_url": "https://github.com/trustin/os-maven-plugin",
+    "language": "Java",
+    "pushed_at": "2024-04-15T07:52:29Z",
+    "stargazers_count": 318,
+    "topics": [],
+    "updated_at": "2026-04-25T06:34:14Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/osdetector-gradle-plugin",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

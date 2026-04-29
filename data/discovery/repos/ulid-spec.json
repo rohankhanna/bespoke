@@ -1,0 +1,77 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ulid/spec",
+      "target": "agilord/ulid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ulid/spec",
+      "target": "aarondcohen/id128",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ulid/spec",
+      "target": "adelq/ulid",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ulid/spec",
+      "target": "ahawker/ulid",
+      "target_type": "repository"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:30.011765+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 9640
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "The canonical spec for ulid",
+    "fork": false,
+    "full_name": "ulid/spec",
+    "html_url": "https://github.com/ulid/spec",
+    "language": null,
+    "pushed_at": "2024-07-20T13:02:18Z",
+    "stargazers_count": 10722,
+    "topics": [],
+    "updated_at": "2026-04-29T13:59:45Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "aarondcohen/id128",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "adelq/ulid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "agilord/ulid",
+      "source_file": "README.md"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "ahawker/ulid",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": []
+}

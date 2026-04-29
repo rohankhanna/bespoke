@@ -1,0 +1,537 @@
+{
+  "components": [
+    {
+      "component": "earthly/actions-setup@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-earthly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-earthly.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml"
+    },
+    {
+      "component": "docker/setup-qemu-action@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-docs.yml"
+    },
+    {
+      "component": "earthly/actions-setup@main",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-docs.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scheduled-codeql-analysis.yml"
+    },
+    {
+      "component": "actions/setup-go@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scheduled-codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scheduled-codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scheduled-codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@v3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scheduled-codeql-analysis.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-earthly.yml",
+      "source_repo": "earthly/earthly",
+      "target": "earthly/actions-setup@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/build-earthly.yml",
+      "source_repo": "earthly/earthly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-earthly.yml",
+      "source_repo": "earthly/earthly",
+      "target": "Earthly Build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docker-satellites.yml",
+      "source_repo": "earthly/earthly",
+      "target": "Satellites Docker CI Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml",
+      "source_repo": "earthly/earthly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml",
+      "source_repo": "earthly/earthly",
+      "target": "docker/setup-qemu-action@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml",
+      "source_repo": "earthly/earthly",
+      "target": "Docker CI Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-earthly-next-docker-ubuntu.yml",
+      "source_repo": "earthly/earthly",
+      "target": "Earthly Next Docker CI Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-docs.yml",
+      "source_repo": "earthly/earthly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-lint-docs.yml",
+      "source_repo": "earthly/earthly",
+      "target": "earthly/actions-setup@main",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint-docs.yml",
+      "source_repo": "earthly/earthly",
+      "target": "lint-docs",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-podman-ubuntu.yml",
+      "source_repo": "earthly/earthly",
+      "target": "Podman CI Ubuntu",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scheduled-codeql-analysis.yml",
+      "source_repo": "earthly/earthly",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scheduled-codeql-analysis.yml",
+      "source_repo": "earthly/earthly",
+      "target": "actions/setup-go@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scheduled-codeql-analysis.yml",
+      "source_repo": "earthly/earthly",
+      "target": "github/codeql-action/init@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scheduled-codeql-analysis.yml",
+      "source_repo": "earthly/earthly",
+      "target": "github/codeql-action/autobuild@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci-scheduled-codeql-analysis.yml",
+      "source_repo": "earthly/earthly",
+      "target": "github/codeql-action/analyze@v3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-scheduled-codeql-analysis.yml",
+      "source_repo": "earthly/earthly",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "build",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "build-automation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "build-system",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "build-tool",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "ci-cd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "cicd",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "container-builder",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "docker-images",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "dockerfiles",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "framework",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "hacktoberfest",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "hacktoberfest2020",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "hacktoberfest2021",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "earthly/earthly",
+      "target": "reproducible-builds",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:55:39.145042+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 16602
+    },
+    {
+      "path": "go.mod",
+      "size": 6847
+    },
+    {
+      "path": ".github/workflows/README.md",
+      "size": 3990
+    },
+    {
+      "path": ".github/workflows/build-earthly.yml",
+      "size": 4434
+    },
+    {
+      "path": ".github/workflows/ci-docker-satellites.yml",
+      "size": 2681
+    },
+    {
+      "path": ".github/workflows/ci-docker-ubuntu.yml",
+      "size": 41419
+    },
+    {
+      "path": ".github/workflows/ci-earthly-next-docker-ubuntu.yml",
+      "size": 6059
+    },
+    {
+      "path": ".github/workflows/ci-lint-docs.yml",
+      "size": 934
+    },
+    {
+      "path": ".github/workflows/ci-podman-ubuntu.yml",
+      "size": 17810
+    },
+    {
+      "path": ".github/workflows/ci-scheduled-codeql-analysis.yml",
+      "size": 2934
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "Super simple build framework with fast, repeatable builds and an instantly familiar syntax \u2013 like Dockerfile and Makefile had a baby.",
+    "fork": false,
+    "full_name": "earthly/earthly",
+    "html_url": "https://github.com/earthly/earthly",
+    "language": "Go",
+    "pushed_at": "2025-10-23T20:10:46Z",
+    "stargazers_count": 12022,
+    "topics": [
+      "build",
+      "build-automation",
+      "build-system",
+      "build-tool",
+      "ci",
+      "ci-cd",
+      "cicd",
+      "container-builder",
+      "docker-images",
+      "dockerfiles",
+      "framework",
+      "hacktoberfest",
+      "hacktoberfest2020",
+      "hacktoberfest2021",
+      "reproducible-builds"
+    ],
+    "updated_at": "2026-04-29T08:53:09Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "Earthly Build",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/build-earthly.yml",
+      "term": "Earthly Build"
+    },
+    {
+      "context_snippet": "Satellites Docker CI Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docker-satellites.yml",
+      "term": "Satellites Docker CI Ubuntu"
+    },
+    {
+      "context_snippet": "Docker CI Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-docker-ubuntu.yml",
+      "term": "Docker CI Ubuntu"
+    },
+    {
+      "context_snippet": "Earthly Next Docker CI Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-earthly-next-docker-ubuntu.yml",
+      "term": "Earthly Next Docker CI Ubuntu"
+    },
+    {
+      "context_snippet": "lint-docs",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-lint-docs.yml",
+      "term": "lint-docs"
+    },
+    {
+      "context_snippet": "Podman CI Ubuntu",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-podman-ubuntu.yml",
+      "term": "Podman CI Ubuntu"
+    },
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/ci-scheduled-codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-automation"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-system"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "build-tool"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "ci-cd"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "cicd"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "container-builder"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "docker-images"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "dockerfiles"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "framework"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2020"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "hacktoberfest2021"
+    },
+    {
+      "context_snippet": "<h1>Earthly</h1>",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "reproducible-builds"
+    }
+  ]
+}

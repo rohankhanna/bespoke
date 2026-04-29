@@ -1,0 +1,313 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-compatibility.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amalgamate.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amalgamate.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "jidicula/clang-format-action@v4.13.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "threeal/cmake-action@v2.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml"
+    },
+    {
+      "component": "BSFishy/meson-build@v1.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml"
+    },
+    {
+      "component": "BSFishy/meson-build@v1.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml"
+    },
+    {
+      "component": "actions/setup-python@v5",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml"
+    },
+    {
+      "component": "BSFishy/meson-build@v1.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml"
+    },
+    {
+      "component": "BSFishy/meson-build@v1.0.3",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml"
+    },
+    {
+      "component": "threeal/gcovr-action@v1.0.0",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml"
+    },
+    {
+      "component": "actions/checkout@v4",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-project-version.yml"
+    },
+    {
+      "component": "peter-evans/create-pull-request@v7",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-project-version.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/abi-compatibility.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abi-compatibility.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "ABI Compatibility",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amalgamate.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/amalgamate.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amalgamate.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "Amalgamation",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "jidicula/clang-format-action@v4.13.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "clang-format check",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "threeal/cmake-action@v2.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "cmake",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "actions/setup-python@v5",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "BSFishy/meson-build@v1.0.3",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "threeal/gcovr-action@v1.0.0",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/meson.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "meson build and test",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-project-version.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "actions/checkout@v4",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/update-project-version.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "peter-evans/create-pull-request@v7",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-project-version.yml",
+      "source_repo": "open-source-parsers/jsoncpp",
+      "target": "update project version",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:53:37.320829+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 3843
+    },
+    {
+      "path": ".github/workflows/abi-compatibility.yml",
+      "size": 2772
+    },
+    {
+      "path": ".github/workflows/amalgamate.yml",
+      "size": 929
+    },
+    {
+      "path": ".github/workflows/clang-format.yml",
+      "size": 544
+    },
+    {
+      "path": ".github/workflows/cmake.yml",
+      "size": 536
+    },
+    {
+      "path": ".github/workflows/meson.yml",
+      "size": 1743
+    },
+    {
+      "path": ".github/workflows/update-project-version.yml",
+      "size": 4905
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A C++ library for interacting with JSON.",
+    "fork": false,
+    "full_name": "open-source-parsers/jsoncpp",
+    "html_url": "https://github.com/open-source-parsers/jsoncpp",
+    "language": "C++",
+    "pushed_at": "2026-04-23T23:35:03Z",
+    "stargazers_count": 8828,
+    "topics": [],
+    "updated_at": "2026-04-27T08:51:01Z"
+  },
+  "repo_links": [],
+  "terms": [
+    {
+      "context_snippet": "ABI Compatibility",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/abi-compatibility.yml",
+      "term": "ABI Compatibility"
+    },
+    {
+      "context_snippet": "Amalgamation",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/amalgamate.yml",
+      "term": "Amalgamation"
+    },
+    {
+      "context_snippet": "clang-format check",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/clang-format.yml",
+      "term": "clang-format check"
+    },
+    {
+      "context_snippet": "cmake",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/cmake.yml",
+      "term": "cmake"
+    },
+    {
+      "context_snippet": "meson build and test",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/meson.yml",
+      "term": "meson build and test"
+    },
+    {
+      "context_snippet": "\"update project version\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/update-project-version.yml",
+      "term": "update project version"
+    }
+  ]
+}

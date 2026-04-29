@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "issue comments bisects"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate-context",
+      "text": "Nim is a statically typed compiled systems programming language. It combines successful concepts from mature languages like Python, Ada and Modula. Its design focuses on efficiency, expressiveness, and elegance (in that order of priority)."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate-context",
+      "text": "issue comments bisects"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nim-lang/Nim",
+      "status": "candidate",
+      "text": "issue comments bisects"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15317,
+      "status": "candidate",
+      "text": "bisector"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15066,
+      "status": "candidate",
+      "text": "arno"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15066,
+      "status": "candidate",
+      "text": "axis"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15066,
+      "status": "candidate",
+      "text": "capital"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 14443,
+      "status": "candidate",
+      "text": "flux"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "issue comments bisects",
+  "concept_id": "issue-comments-bisects",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/bisects.yml",
+      "source_repo": "nim-lang/Nim"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "issue comments bisects",
+      "sense_id": "issue-comments-bisects#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "hichesslib is a cross-platform Python GUI chess library."
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/hichesslib/) [![Build Status](https://app.travis-ci.com/H-a-y-k/hichesslib.svg?token=nP5fyR4hXGDypLNHLdGX&branch=master)](https://app.travis-ci.com/H-a-y-k/hichesslib) [![Coverage Stat\u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/hichesslib/) [![Build Status](https://app.travis-ci.com/H-a-y-k/hichesslib.svg?token=nP5fyR4hXGDypLNHLdGX&branch=master)](https://app.travis-ci.com/H-a-y-k/hichesslib) [![Coverage Stat\u2026"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "pyside2",
+      "sense_id": "pyside2#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "pyside2",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "pyside2",
+  "observation_id": "2d89212f56183194",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "pyside2",
+  "source_context_snippet": "[![PyPI version fury.io](https://badge.fury.io/py/ansicolortags.svg)](https://pypi.org/project/hichesslib/) [![Build Status](https://app.travis-ci.com/H-a-y-k/hichesslib.svg?token=nP5fyR4hXGDypLNHLdGX&branch=master)](https://app.travis-ci.com/H-a-y-k/hichesslib) [![Coverage Stat\u2026",
+  "source_file": null,
+  "source_repo": "H-a-y-k/hichesslib",
+  "source_repo_description": "hichesslib is a cross-platform Python GUI chess library."
+}

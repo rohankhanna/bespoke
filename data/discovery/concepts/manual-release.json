@@ -67,6 +67,18 @@
       "source_repo": "jina-ai/clip-as-service",
       "status": "candidate-context",
       "text": "Manual Release"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "docarray/docarray",
+      "status": "candidate-context",
+      "text": "Represent, send, store and search multimodal data"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docarray/docarray",
+      "status": "candidate-context",
+      "text": "Manual Release"
     }
   ],
   "candidate_glosses": [
@@ -97,6 +109,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "jina-ai/clip-as-service",
+      "status": "candidate",
+      "text": "Manual Release"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "docarray/docarray",
       "status": "candidate",
       "text": "Manual Release"
     }
@@ -172,11 +190,17 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/force-release.yml",
       "source_repo": "jina-ai/clip-as-service"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/force-release.yml",
+      "source_repo": "docarray/docarray"
     }
   ],
   "first_seen_at": "2026-04-19T17:36:09.281008+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

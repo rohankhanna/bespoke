@@ -1,0 +1,427 @@
+{
+  "components": [
+    {
+      "component": "actions/checkout@dc323e67f16fb5f7663d20ff7941f27f5809e9b6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/upload-artifact@82c141cc518b40d92cc801eee768e7aafc9c2fa2",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@dc323e67f16fb5f7663d20ff7941f27f5809e9b6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "golangci/golangci-lint-action@5c56cd6c9dc07901af25baab6f2b0d9f3b7c3018",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@dc323e67f16fb5f7663d20ff7941f27f5809e9b6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@dc323e67f16fb5f7663d20ff7941f27f5809e9b6",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/download-artifact@f023be2c48cc18debc3bacd34cb396e0295e2869",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "softprops/action-gh-release@de2c0eb89ae2a093876385947365aca7b0e5f844",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml"
+    },
+    {
+      "component": "actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/init@959cbb7472c4d4ad70cdfe6f4976053fe48ab394",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/autobuild@959cbb7472c4d4ad70cdfe6f4976053fe48ab394",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "github/codeql-action/analyze@959cbb7472c4d4ad70cdfe6f4976053fe48ab394",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml"
+    },
+    {
+      "component": "actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/dependency-review-action@0efb1d1d84fc9633afcdaad14c485cbbc90ef46c",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml"
+    },
+    {
+      "component": "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "ossf/scorecard-action@dc50aa9510b46c811795eb24b2f1ba02a914e534",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    },
+    {
+      "component": "github/codeql-action/upload-sarif@807578363a7869ca324a79039e6db9c843e0e100",
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml"
+    }
+  ],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "google/protobuf",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "actions/checkout@dc323e67f16fb5f7663d20ff7941f27f5809e9b6",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "actions/setup-go@bfdd3570ce990073878bf10f6b2d79082de49492",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "actions/upload-artifact@82c141cc518b40d92cc801eee768e7aafc9c2fa2",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "golangci/golangci-lint-action@5c56cd6c9dc07901af25baab6f2b0d9f3b7c3018",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "actions/download-artifact@f023be2c48cc18debc3bacd34cb396e0295e2869",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/ci.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "softprops/action-gh-release@de2c0eb89ae2a093876385947365aca7b0e5f844",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "github/codeql-action/init@959cbb7472c4d4ad70cdfe6f4976053fe48ab394",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "github/codeql-action/autobuild@959cbb7472c4d4ad70cdfe6f4976053fe48ab394",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "github/codeql-action/analyze@959cbb7472c4d4ad70cdfe6f4976053fe48ab394",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "CodeQL",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "actions/checkout@755da8c3cf115ac066823e79a1e1788f8940201b",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "actions/dependency-review-action@0efb1d1d84fc9633afcdaad14c485cbbc90ef46c",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "Dependency Review",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "actions/checkout@93ea575cb5d8a053eaa0ac8fa3b40d7e05a33cc8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "ossf/scorecard-action@dc50aa9510b46c811795eb24b2f1ba02a914e534",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "actions/upload-artifact@3cea5372237819ed00197afe530f5a7ea3e805c8",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-uses",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "github/codeql-action/upload-sarif@807578363a7869ca324a79039e6db9c843e0e100",
+      "target_type": "component"
+    },
+    {
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "Scorecards supply-chain security",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "google-protocol-buffers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "lint",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "linter",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "plugin",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "protobuf",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "protocol-buffers",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "static-analysis",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "ckaznocha/protoc-gen-lint",
+      "target": "style-linter",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T19:57:49.749873+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2751
+    },
+    {
+      "path": "go.mod",
+      "size": 97
+    },
+    {
+      "path": ".github/workflows/ci.yml",
+      "size": 2171
+    },
+    {
+      "path": ".github/workflows/codeql-analysis.yml",
+      "size": 984
+    },
+    {
+      "path": ".github/workflows/dependency-review.yml",
+      "size": 979
+    },
+    {
+      "path": ".github/workflows/scorecards.yml",
+      "size": 2434
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "A plug-in for Google's Protocol Buffers (protobufs) compiler to lint .proto files for style violations.",
+    "fork": false,
+    "full_name": "ckaznocha/protoc-gen-lint",
+    "html_url": "https://github.com/ckaznocha/protoc-gen-lint",
+    "language": "Go",
+    "pushed_at": "2024-12-23T22:35:00Z",
+    "stargazers_count": 288,
+    "topics": [
+      "google-protocol-buffers",
+      "lint",
+      "linter",
+      "plugin",
+      "protobuf",
+      "protocol-buffers",
+      "static-analysis",
+      "style-linter"
+    ],
+    "updated_at": "2026-04-12T13:10:39Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/protobuf",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "\"CodeQL\"",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/codeql-analysis.yml",
+      "term": "CodeQL"
+    },
+    {
+      "context_snippet": "'Dependency Review'",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/dependency-review.yml",
+      "term": "Dependency Review"
+    },
+    {
+      "context_snippet": "Scorecards supply-chain security",
+      "edge_type": "workflow-name",
+      "source_file": ".github/workflows/scorecards.yml",
+      "term": "Scorecards supply-chain security"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "google-protocol-buffers"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "lint"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "linter"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "plugin"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protobuf"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "protocol-buffers"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "static-analysis"
+    },
+    {
+      "context_snippet": "[![Build Status](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml/badge.svg?branch=master)](https://github.com/ckaznocha/protoc-gen-lint/actions/workflows/ci.yml)",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "style-linter"
+    }
+  ]
+}

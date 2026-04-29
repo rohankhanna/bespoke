@@ -19,12 +19,30 @@
       "source_repo": "nodejs/undici",
       "status": "candidate-context",
       "text": "Autobahn"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "gobwas/ws",
+      "status": "candidate-context",
+      "text": "A tiny WebSocket library for Go."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobwas/ws",
+      "status": "candidate-context",
+      "text": "Autobahn"
     }
   ],
   "candidate_glosses": [
     {
       "source_kind": "source-snippet",
       "source_repo": "nodejs/undici",
+      "status": "candidate",
+      "text": "Autobahn"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "gobwas/ws",
       "status": "candidate",
       "text": "Autobahn"
     }
@@ -76,11 +94,17 @@
       "observed_at": "2026-04-22T01:04:16.609102+00:00",
       "source_file": ".github/workflows/autobahn.yml",
       "source_repo": "nodejs/undici"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/autobahn.yml",
+      "source_repo": "gobwas/ws"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-22T01:04:16.609102+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

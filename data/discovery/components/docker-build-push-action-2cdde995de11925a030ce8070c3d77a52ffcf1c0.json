@@ -1,12 +1,17 @@
 {
   "component": "docker/build-push-action@2cdde995de11925a030ce8070c3d77a52ffcf1c0",
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "sources": [
     {
       "discovered_via": "workflow-uses",
       "source_file": ".github/workflows/build-artifacts.yml",
       "source_repo": "hashicorp/consul"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/docker-publish.yml",
+      "source_repo": "SillyTavern/SillyTavern"
     }
   ]
 }

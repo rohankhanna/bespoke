@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "artsy"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "artsy/eidolon",
+      "status": "candidate-context",
+      "text": "The Artsy Auction Kiosk App."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eidolon",
+      "status": "candidate-context",
+      "text": "Eidolon"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "artsy/eidolon",
+      "status": "candidate",
+      "text": "Eidolon"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30000317,
+      "status": "candidate",
+      "text": "artistic"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29984548,
+      "status": "candidate",
+      "text": "arts"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29981873,
+      "status": "candidate",
+      "text": "performer"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 29976892,
+      "status": "candidate",
+      "text": "artiste"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 20000810,
+      "status": "candidate",
+      "text": "fartsy"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "artsy",
+  "concept_id": "artsy",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "artsy/eidolon"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "artsy",
+      "sense_id": "artsy#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

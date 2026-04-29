@@ -1,0 +1,118 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.rst",
+      "source_repo": "codelucas/newspaper",
+      "target": "grangier/python-goose",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codelucas/newspaper",
+      "target": "crawler",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codelucas/newspaper",
+      "target": "crawling",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codelucas/newspaper",
+      "target": "news",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codelucas/newspaper",
+      "target": "news-aggregator",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "codelucas/newspaper",
+      "target": "scraper",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:50:36.500957+00:00",
+  "fetched_files": [
+    {
+      "path": "README.rst",
+      "size": 13634
+    },
+    {
+      "path": "requirements.txt",
+      "size": 286
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "master",
+    "description": "newspaper3k is a news, full-text, and article metadata extraction in Python 3. Advanced docs:",
+    "fork": false,
+    "full_name": "codelucas/newspaper",
+    "html_url": "https://github.com/codelucas/newspaper",
+    "language": "Python",
+    "pushed_at": "2026-04-16T11:09:59Z",
+    "stargazers_count": 15036,
+    "topics": [
+      "crawler",
+      "crawling",
+      "news",
+      "news-aggregator",
+      "python",
+      "scraper"
+    ],
+    "updated_at": "2026-04-29T18:11:24Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "grangier/python-goose",
+      "source_file": "README.rst"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "Newspaper3k: Article scraping & curation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crawler"
+    },
+    {
+      "context_snippet": "Newspaper3k: Article scraping & curation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "crawling"
+    },
+    {
+      "context_snippet": "Newspaper3k: Article scraping & curation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "news"
+    },
+    {
+      "context_snippet": "Newspaper3k: Article scraping & curation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "news-aggregator"
+    },
+    {
+      "context_snippet": "Newspaper3k: Article scraping & curation",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "scraper"
+    }
+  ]
+}

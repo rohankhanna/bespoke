@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "Issue Scripts"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fossasia/visdom",
+      "status": "candidate-context",
+      "text": "A flexible tool for creating, organizing, and sharing visualizations of live, rich data. Supports Torch and Numpy"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fossasia/visdom",
+      "status": "candidate-context",
+      "text": "'Issue Scripts'"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fossasia/visdom",
+      "status": "candidate",
+      "text": "'Issue Scripts'"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 16614,
+      "status": "candidate",
+      "text": "screenplay"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15713,
+      "status": "candidate",
+      "text": "scriptwriter"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15472,
+      "status": "candidate",
+      "text": "erg"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15472,
+      "status": "candidate",
+      "text": "playbook"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 15472,
+      "status": "candidate",
+      "text": "shebang"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "Issue Scripts",
+  "concept_id": "issue-scripts",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/issue-scripts.yml",
+      "source_repo": "fossasia/visdom"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Issue Scripts",
+      "sense_id": "issue-scripts#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

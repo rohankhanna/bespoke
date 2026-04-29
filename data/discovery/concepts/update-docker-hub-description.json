@@ -43,6 +43,18 @@
       "source_repo": "nginx-proxy/docker-gen",
       "status": "candidate-context",
       "text": "Update Docker Hub Description"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "localstack/localstack",
+      "status": "candidate-context",
+      "text": "\ud83d\udcbb A fully functional local AWS cloud stack. Develop and test your cloud & Serverless apps offline"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localstack/localstack",
+      "status": "candidate-context",
+      "text": "Update Docker Hub Description"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +73,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "nginx-proxy/docker-gen",
+      "status": "candidate",
+      "text": "Update Docker Hub Description"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "localstack/localstack",
       "status": "candidate",
       "text": "Update Docker Hub Description"
     }
@@ -124,11 +142,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": ".github/workflows/dockerhub-description.yml",
       "source_repo": "nginx-proxy/docker-gen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dockerhub-description.yml",
+      "source_repo": "localstack/localstack"
     }
   ],
   "first_seen_at": "2026-04-23T18:30:35.670459+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

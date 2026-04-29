@@ -43,6 +43,30 @@
       "source_repo": "qemu/qemu",
       "status": "candidate-context",
       "text": "==========="
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "crc-org/crc",
+      "status": "candidate-context",
+      "text": "CRC is a tool to help you run containers. It manages local VMs to run a OpenShift 4.x cluster, Microshift or Podman optimized for testing and development purposes"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crc-org/crc",
+      "status": "candidate-context",
+      "text": "CRC - Runs Containers"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "dockur/windows",
+      "status": "candidate-context",
+      "text": "Windows inside a Docker container."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dockur/windows",
+      "status": "candidate-context",
+      "text": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026"
     }
   ],
   "candidate_glosses": [
@@ -63,6 +87,18 @@
       "source_repo": "qemu/qemu",
       "status": "candidate",
       "text": "==========="
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "crc-org/crc",
+      "status": "candidate",
+      "text": "CRC - Runs Containers"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "dockur/windows",
+      "status": "candidate",
+      "text": "# syntax=docker/dockerfile:1 ARG VERSION_ARG=\"latest\" FROM scratch AS build-amd64 COPY --from=qemux/qemu:7.29 / / ARG TARGETARCH ARG DEBCONF_NOWARNINGS=\"yes\" ARG DEBIAN_FRONTEND=\"noninteractive\" ARG DEBCONF_NONINTERACTIVE_SEEN=\"true\" RUN set -eu && \\ apt-get update && \\ apt-get \u2026"
     }
   ],
   "candidate_related_terms": [
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "qemu/qemu"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "crc-org/crc"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "dockur/windows"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

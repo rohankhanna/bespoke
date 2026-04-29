@@ -1,0 +1,93 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "Cloud Foundry Cloud Controller"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "Bump BBS Protos"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "Bump BBS Protos"
+    }
+  ],
+  "candidate_primary_bucket": "workflow-process",
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10447,
+      "status": "candidate",
+      "text": "bb gun"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10307,
+      "status": "candidate",
+      "text": "autos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10307,
+      "status": "candidate",
+      "text": "secondary"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10307,
+      "status": "candidate",
+      "text": "stereos"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 10204,
+      "status": "candidate",
+      "text": "ammo"
+    }
+  ],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "Bump BBS Protos",
+      "sense_id": "bump-bbs-protos#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "bump-bbs-protos",
+  "definition_status": "unresolved",
+  "discovered_via": "workflow-name",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "bump-bbs-protos",
+  "observation_id": "b4b2617af13c8e23",
+  "observation_kind": "workflow-name",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "Bump BBS Protos",
+  "source_context_snippet": "Bump BBS Protos",
+  "source_file": ".github/workflows/bump_bbs_protos.yml",
+  "source_repo": "cloudfoundry/cloud_controller_ng",
+  "source_repo_description": "Cloud Foundry Cloud Controller"
+}

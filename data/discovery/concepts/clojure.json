@@ -1,11 +1,14 @@
 {
   "aliases": [
-    "clojure"
+    "clojure",
+    "Clojure"
   ],
   "ambiguity_status": "unresolved",
   "buckets": [
     "tool-component",
-    "capability"
+    "capability",
+    "workflow-process",
+    "data-document-artifact"
   ],
   "candidate_definitions": [
     {
@@ -187,6 +190,240 @@
       "source_repo": "getsentry/sentry-clj",
       "status": "candidate-context",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/sci",
+      "status": "candidate-context",
+      "text": "Configurable Clojure/Script interpreter suitable for scripting and Clojure DSLs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"100px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borkdude/jet",
+      "status": "candidate-context",
+      "text": "CLI to transform between JSON, EDN, YAML and Transit using Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/jet",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/http-server",
+      "status": "candidate-context",
+      "text": "Serve static assets"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/http-server",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/org.babashka/http-server.svg)](https://clojars.org/org.babashka/http-server)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate-context",
+      "text": "Install Clojure on Windows with Scoop"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate-context",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alexander-yakushev/compliment",
+      "status": "candidate-context",
+      "text": "Clojure completion library that you deserve"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexander-yakushev/compliment",
+      "status": "candidate-context",
+      "text": "Compliment is a fast and smart completion library for Clojure. It can complete"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/cider",
+      "status": "candidate-context",
+      "text": "The Clojure Interactive Development Environment that Rocks for Emacs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/cider",
+      "status": "candidate-context",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "status": "candidate-context",
+      "text": "ClojureScript \"IntelliSense\" support for JS objects and their properties/methods. Via figwheel and Emacs CIDER."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "cloojure/tupelo",
+      "status": "candidate-context",
+      "text": "Tupelo:  Clojure With A Spoonful of Honey"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloojure/tupelo",
+      "status": "candidate-context",
+      "text": "Tupelo: Clojure With A Spoonful of Honey"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "djblue/portal",
+      "status": "candidate-context",
+      "text": "A clojure tool to navigate through your data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djblue/portal",
+      "status": "candidate-context",
+      "text": "A clojure tool to navigate through your data."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "PEZ/taplet",
+      "status": "candidate-context",
+      "text": "Clojure/ClojureScript utilities for tapping things. let> macro, and #t reader tag"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PEZ/taplet",
+      "status": "candidate-context",
+      "text": "Utilities for tapping Clojure forms."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "alekcz/pcp",
+      "status": "candidate-context",
+      "text": "PCP: Clojure Processor -- A Clojure replacement for PHP"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alekcz/pcp",
+      "status": "candidate-context",
+      "text": "<img src=\"assets/logo/logo-alt.svg\" width=\"200px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/nbb",
+      "status": "candidate-context",
+      "text": "Scripting in Clojure on Node.js using SCI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb",
+      "status": "candidate-context",
+      "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "babashka/sci.configs",
+      "status": "candidate-context",
+      "text": "A collection of ready to be used SCI configs"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci.configs",
+      "status": "candidate-context",
+      "text": "A collection of ready to be used SCI configs."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "nrepl/bencode",
+      "status": "candidate-context",
+      "text": "A netstring and bencode implementation for Clojure."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/bencode",
+      "status": "candidate-context",
+      "text": "[![CircleCI](https://circleci.com/gh/nrepl/bencode/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/bencode/tree/master)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "exoscale/seql",
+      "status": "candidate-context",
+      "text": "Simplfied EDN Query Language for SQL"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exoscale/seql",
+      "status": "candidate-context",
+      "text": "Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exoscale/seql",
+      "status": "candidate-context",
+      "text": "seql: Simplified EDN Query Language"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "vlaaad/reveal",
+      "status": "candidate-context",
+      "text": "Read Eval Visualize Loop for Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlaaad/reveal",
+      "status": "candidate-context",
+      "text": "![demo](https://vlaaad.github.io/assets/reveal/demo.gif)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "askonomm/shh",
+      "status": "candidate-context",
+      "text": "A CLI password manager designed for efficiency."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "askonomm/shh",
+      "status": "candidate-context",
+      "text": "A CLI password manager designed for efficiency."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "athos/trenchman",
+      "status": "candidate-context",
+      "text": "A standalone nREPL/prepl client written in Go and heavily inspired by Grenchman"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athos/trenchman",
+      "status": "candidate-context",
+      "text": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "borkdude/carve",
+      "status": "candidate-context",
+      "text": "Remove unused Clojure vars"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/carve",
+      "status": "candidate-context",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/io.github.borkdude/carve.svg)](https://clojars.org/io.github.borkdude/carve)"
     }
   ],
   "candidate_glosses": [
@@ -279,6 +516,126 @@
       "source_repo": "getsentry/sentry-clj",
       "status": "candidate",
       "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"100px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/jet",
+      "status": "candidate",
+      "text": "<img src=\"logo/logo-300dpi.png\" width=\"140px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/http-server",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/org.babashka/http-server.svg)](https://clojars.org/org.babashka/http-server)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "littleli/scoop-clojure",
+      "status": "candidate",
+      "text": "<!--"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alexander-yakushev/compliment",
+      "status": "candidate",
+      "text": "Compliment is a fast and smart completion library for Clojure. It can complete"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/cider",
+      "status": "candidate",
+      "text": "<p align=\"center\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "clojure-emacs/clj-suitable",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master.svg?style=svg)](https://circleci.com/gh/clojure-emacs/clj-suitable/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "cloojure/tupelo",
+      "status": "candidate",
+      "text": "Tupelo: Clojure With A Spoonful of Honey"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "djblue/portal",
+      "status": "candidate",
+      "text": "A clojure tool to navigate through your data."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "PEZ/taplet",
+      "status": "candidate",
+      "text": "Utilities for tapping Clojure forms."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "alekcz/pcp",
+      "status": "candidate",
+      "text": "<img src=\"assets/logo/logo-alt.svg\" width=\"200px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/nbb",
+      "status": "candidate",
+      "text": "<img src=\"logo/nbb-with-name-green.svg\" width=\"250px\">"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "babashka/sci.configs",
+      "status": "candidate",
+      "text": "A collection of ready to be used SCI configs."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "nrepl/bencode",
+      "status": "candidate",
+      "text": "[![CircleCI](https://circleci.com/gh/nrepl/bencode/tree/master.svg?style=svg)](https://circleci.com/gh/nrepl/bencode/tree/master)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exoscale/seql",
+      "status": "candidate",
+      "text": "Clojure"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "exoscale/seql",
+      "status": "candidate",
+      "text": "seql: Simplified EDN Query Language"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "vlaaad/reveal",
+      "status": "candidate",
+      "text": "![demo](https://vlaaad.github.io/assets/reveal/demo.gif)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "askonomm/shh",
+      "status": "candidate",
+      "text": "A CLI password manager designed for efficiency."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "athos/trenchman",
+      "status": "candidate",
+      "text": "[![release](https://github.com/athos/trenchman/actions/workflows/release.yaml/badge.svg)](https://github.com/athos/trenchman/actions/workflows/release.yaml)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "borkdude/carve",
+      "status": "candidate",
+      "text": "[![Clojars Project](https://img.shields.io/clojars/v/io.github.borkdude/carve.svg)](https://clojars.org/io.github.borkdude/carve)"
     }
   ],
   "candidate_related_terms": [
@@ -430,11 +787,155 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": null,
       "source_repo": "getsentry/sentry-clj"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka-sql-pods"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/clj-kondo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "borkdude/jet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/babashka"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/http-server"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "littleli/scoop-clojure"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clj-kondo/configs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alexander-yakushev/compliment"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/cider"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "clojure-emacs/clj-suitable"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "cloojure/tupelo"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "djblue/portal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "PEZ/taplet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "alekcz/pcp"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/nbb"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "babashka/sci.configs"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "nrepl/bencode"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/clojure.yml",
+      "source_repo": "exoscale/seql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "exoscale/seql"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "vlaaad/reveal"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "askonomm/shh"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "athos/trenchman"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "borkdude/carve"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

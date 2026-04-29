@@ -122,6 +122,18 @@
       "source_repo": "rust-lang/mdBook",
       "status": "candidate-context",
       "text": "Update dependencies"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "pypa/manylinux",
+      "status": "candidate-context",
+      "text": "Python wheels that work on any linux (almost)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/manylinux",
+      "status": "candidate-context",
+      "text": "Update dependencies"
     }
   ],
   "candidate_glosses": [
@@ -182,6 +194,12 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "rust-lang/mdBook",
+      "status": "candidate",
+      "text": "Update dependencies"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "pypa/manylinux",
       "status": "candidate",
       "text": "Update dependencies"
     }
@@ -329,11 +347,29 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": ".github/workflows/update-dependencies.yml",
       "source_repo": "rust-lang/mdBook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/dependencies.yml",
+      "source_repo": "ohmyzsh/ohmyzsh"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update-dependencies.yml",
+      "source_repo": "rust-lang/mdBook"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/update-dependencies.yml",
+      "source_repo": "pypa/manylinux"
     }
   ],
   "first_seen_at": "2026-04-21T11:24:10.450489+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

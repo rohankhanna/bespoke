@@ -19,6 +19,30 @@
       "source_repo": "GEOSwift/GEOSwift",
       "status": "candidate-context",
       "text": "![GEOSwift](/README-images/GEOSwift.png)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "Leaflet/Leaflet",
+      "status": "candidate-context",
+      "text": "\ud83c\udf43 JavaScript library for mobile-friendly interactive maps \ud83c\uddfa\ud83c\udde6"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Leaflet/Leaflet",
+      "status": "candidate-context",
+      "text": "Leaflet was created in September 2010, 15 years ago, by [Volodymyr Agafonkin](https://agafonkin.com), a Ukrainian citizen living in Kyiv."
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "geocompx/geocompr",
+      "status": "candidate-context",
+      "text": "Geocomputation with R: an open source book"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geocompx/geocompr",
+      "status": "candidate-context",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->"
     }
   ],
   "candidate_glosses": [
@@ -27,6 +51,18 @@
       "source_repo": "GEOSwift/GEOSwift",
       "status": "candidate",
       "text": "![GEOSwift](/README-images/GEOSwift.png)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "Leaflet/Leaflet",
+      "status": "candidate",
+      "text": "Leaflet was created in September 2010, 15 years ago, by [Volodymyr Agafonkin](https://agafonkin.com), a Ukrainian citizen living in Kyiv."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "geocompx/geocompr",
+      "status": "candidate",
+      "text": "<!-- README.md is generated from README.Rmd. Please edit that file - rmarkdown::render('README.Rmd', output_format = 'github_document', output_file = 'README.md') -->"
     }
   ],
   "candidate_related_terms": [
@@ -76,11 +112,23 @@
       "observed_at": "2026-04-24T12:33:41.350224+00:00",
       "source_file": null,
       "source_repo": "GEOSwift/GEOSwift"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "Leaflet/Leaflet"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "geocompx/geocompr"
     }
   ],
   "first_seen_at": "2026-04-24T12:33:41.350224+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T12:33:41.350224+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

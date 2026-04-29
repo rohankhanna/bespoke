@@ -1,0 +1,132 @@
+{
+  "aliases": [
+    "tunnel"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate-context",
+      "text": "\ud83d\udd73 bore is a simple CLI tool for making tunnels to localhost"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate-context",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/ekzhang/bore/ci.yml)](https://github.com/ekzhang/bore/actions)"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "fasmide/remotemoe",
+      "status": "candidate-context",
+      "text": "tunnels to localhost and other ssh plumbing"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fasmide/remotemoe",
+      "status": "candidate-context",
+      "text": "module github.com/fasmide/remotemoe go 1.17 require ( github.com/fasmide/hostkeys v0.0.0-20211023164018-0a66d786b24e github.com/fatih/color v1.16.0 github.com/spf13/cobra v1.8.0 github.com/spf13/pflag v1.0.5 golang.org/x/crypto v0.19.0 golang.org/x/sync v0.6.0 golang.org/x/term \u2026"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "ekzhang/bore",
+      "status": "candidate",
+      "text": "[![Build status](https://img.shields.io/github/actions/workflow/status/ekzhang/bore/ci.yml)](https://github.com/ekzhang/bore/actions)"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "fasmide/remotemoe",
+      "status": "candidate",
+      "text": "module github.com/fasmide/remotemoe go 1.17 require ( github.com/fasmide/hostkeys v0.0.0-20211023164018-0a66d786b24e github.com/fatih/color v1.16.0 github.com/spf13/cobra v1.8.0 github.com/spf13/pflag v1.0.5 golang.org/x/crypto v0.19.0 golang.org/x/sync v0.6.0 golang.org/x/term \u2026"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 40032903,
+      "status": "candidate",
+      "text": "burrow"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033994,
+      "status": "candidate",
+      "text": "underground"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30033902,
+      "status": "candidate",
+      "text": "hole"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30032871,
+      "status": "candidate",
+      "text": "dig"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 30020592,
+      "status": "candidate",
+      "text": "gate"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 9039,
+      "status": "candidate",
+      "text": "burrow"
+    }
+  ],
+  "canonical_name": "tunnel",
+  "concept_id": "tunnel",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "ekzhang/bore"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "fasmide/remotemoe"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "tunnel",
+      "sense_id": "tunnel#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

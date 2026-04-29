@@ -31,6 +31,18 @@
       "source_repo": "EndemolShineGroup/cz-github",
       "status": "candidate-context",
       "text": "![Banner][icon-banner]"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "commitizen/cz-conventional-changelog",
+      "status": "candidate-context",
+      "text": "A commitizen adapter for the angular preset of https://github.com/conventional-changelog/conventional-changelog"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "commitizen/cz-conventional-changelog",
+      "status": "candidate-context",
+      "text": "[![Greenkeeper badge](https://badges.greenkeeper.io/commitizen/cz-conventional-changelog.svg)](https://greenkeeper.io/)"
     }
   ],
   "candidate_glosses": [
@@ -45,6 +57,12 @@
       "source_repo": "EndemolShineGroup/cz-github",
       "status": "candidate",
       "text": "![Banner][icon-banner]"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "commitizen/cz-conventional-changelog",
+      "status": "candidate",
+      "text": "[![Greenkeeper badge](https://badges.greenkeeper.io/commitizen/cz-conventional-changelog.svg)](https://greenkeeper.io/)"
     }
   ],
   "candidate_related_terms": [],
@@ -64,11 +82,17 @@
       "observed_at": "2026-04-23T18:30:35.670459+00:00",
       "source_file": null,
       "source_repo": "EndemolShineGroup/cz-github"
+    },
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "commitizen/cz-conventional-changelog"
     }
   ],
   "first_seen_at": "2026-04-23T04:27:42.433064+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-23T18:30:35.670459+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

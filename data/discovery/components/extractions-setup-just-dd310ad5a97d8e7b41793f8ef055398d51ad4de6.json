@@ -1,0 +1,22 @@
+{
+  "component": "extractions/setup-just@dd310ad5a97d8e7b41793f8ef055398d51ad4de6",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beta-llm-test.yml",
+      "source_repo": "ag2ai/ag2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/beta-test.yml",
+      "source_repo": "ag2ai/ag2"
+    },
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/build-mkdocs.yml",
+      "source_repo": "ag2ai/ag2"
+    }
+  ]
+}

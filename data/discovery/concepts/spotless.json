@@ -1,0 +1,136 @@
+{
+  "aliases": [
+    "spotless"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "moznion/sbt-spotless",
+      "status": "candidate-context",
+      "text": "An sbt plugin for Spotless code formatter/checker"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moznion/sbt-spotless",
+      "status": "candidate-context",
+      "text": "An sbt plugin for [Spotless](https://github.com/diffplug/spotless) code formatter/checker."
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "moznion/sbt-spotless",
+      "status": "candidate",
+      "text": "An sbt plugin for [Spotless](https://github.com/diffplug/spotless) code formatter/checker."
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983479,
+      "status": "candidate",
+      "text": "clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983437,
+      "status": "candidate",
+      "text": "speckless"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39983371,
+      "status": "candidate",
+      "text": "immaculate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39934767,
+      "status": "candidate",
+      "text": "spick-and-span"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39906115,
+      "status": "candidate",
+      "text": "spic-and-span"
+    }
+  ],
+  "candidate_synonyms": [
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 18037,
+      "status": "candidate",
+      "text": "immaculate"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 17074,
+      "status": "candidate",
+      "text": "clean"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 7017,
+      "status": "candidate",
+      "text": "spick-and-span"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 6025,
+      "status": "candidate",
+      "text": "spick"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "synonym",
+      "score": 5014,
+      "status": "candidate",
+      "text": "speckless"
+    }
+  ],
+  "canonical_name": "spotless",
+  "concept_id": "spotless",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "repo-topic",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": null,
+      "source_repo": "moznion/sbt-spotless"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "spotless",
+      "sense_id": "spotless#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "tool-component"
+}

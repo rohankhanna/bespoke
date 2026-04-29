@@ -11,6 +11,13 @@
       "edge_type": "explicit-github-link",
       "source_file": "README.md",
       "source_repo": "AutoGPTQ/AutoGPTQ",
+      "target": "ist-daslab/marlin.",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "AutoGPTQ/AutoGPTQ",
       "target": "turboderp/exllamav2",
       "target_type": "repository"
     },
@@ -239,6 +246,6 @@
       "target_type": "term"
     }
   ],
-  "generated_at": "2026-04-24T18:19:44.660705+00:00",
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
   "source_repo": "AutoGPTQ/AutoGPTQ"
 }

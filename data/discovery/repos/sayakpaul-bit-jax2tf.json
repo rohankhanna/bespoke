@@ -1,0 +1,86 @@
+{
+  "components": [],
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "sayakpaul/BiT-jax2tf",
+      "target": "google/jax",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/BiT-jax2tf",
+      "target": "bit-resnet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/BiT-jax2tf",
+      "target": "computer-vision",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "sayakpaul/BiT-jax2tf",
+      "target": "tensorflow",
+      "target_type": "term"
+    }
+  ],
+  "fetched_at": "2026-04-29T21:47:45.782753+00:00",
+  "fetched_files": [
+    {
+      "path": "README.md",
+      "size": 2302
+    }
+  ],
+  "related_repositories": [],
+  "repo": {
+    "archived": false,
+    "default_branch": "main",
+    "description": "This repository hosts the code to port NumPy model weights of BiT-ResNets to TensorFlow SavedModel format.",
+    "fork": false,
+    "full_name": "sayakpaul/BiT-jax2tf",
+    "html_url": "https://github.com/sayakpaul/BiT-jax2tf",
+    "language": "Jupyter Notebook",
+    "pushed_at": "2021-12-21T04:26:49Z",
+    "stargazers_count": 14,
+    "topics": [
+      "bit-resnet",
+      "computer-vision",
+      "jax",
+      "tensorflow"
+    ],
+    "updated_at": "2024-06-24T16:08:16Z"
+  },
+  "repo_links": [
+    {
+      "edge_type": "explicit-github-link",
+      "full_name": "google/jax",
+      "source_file": "README.md"
+    }
+  ],
+  "terms": [
+    {
+      "context_snippet": "This repository hosts the code to port NumPy model weights of BiT-ResNets [1] to TensorFlow SavedModel format. These models",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "bit-resnet"
+    },
+    {
+      "context_snippet": "This repository hosts the code to port NumPy model weights of BiT-ResNets [1] to TensorFlow SavedModel format. These models",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "computer-vision"
+    },
+    {
+      "context_snippet": "This repository hosts the code to port NumPy model weights of BiT-ResNets [1] to TensorFlow SavedModel format. These models",
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "term": "tensorflow"
+    }
+  ]
+}

@@ -1,0 +1,100 @@
+{
+  "aliases": [
+    "CPU Unit Test CI"
+  ],
+  "ambiguity_status": "unresolved",
+  "buckets": [
+    "workflow-process",
+    "data-document-artifact"
+  ],
+  "candidate_definitions": [
+    {
+      "source_kind": "repo-description",
+      "source_repo": "hpcaitech/torchrec",
+      "status": "candidate-context",
+      "text": "Pytorch domain library for recommendation systems"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/torchrec",
+      "status": "candidate-context",
+      "text": "CPU Unit Test CI"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "hpcaitech/torchrec",
+      "status": "candidate",
+      "text": "CPU Unit Test CI"
+    }
+  ],
+  "candidate_related_terms": [
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39077,
+      "status": "candidate",
+      "text": "mips"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 39065,
+      "status": "candidate",
+      "text": "mios"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 31776,
+      "status": "candidate",
+      "text": "mhz"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25893,
+      "status": "candidate",
+      "text": "megaton"
+    },
+    {
+      "provider": "datamuse",
+      "relation": "meaning-like",
+      "score": 25823,
+      "status": "candidate",
+      "text": "cis-trans test"
+    }
+  ],
+  "candidate_synonyms": [],
+  "canonical_name": "CPU Unit Test CI",
+  "concept_id": "cpu-unit-test-ci",
+  "definition_status": "unresolved",
+  "evidence": [
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/unittest_ci_cpu.yml",
+      "source_repo": "hpcaitech/torchrec"
+    }
+  ],
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "gloss_status": "unresolved",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "possible_senses": [
+    {
+      "buckets": [
+        "workflow-process",
+        "data-document-artifact"
+      ],
+      "label": "CPU Unit Test CI",
+      "sense_id": "cpu-unit-test-ci#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "primary_bucket": "workflow-process"
+}

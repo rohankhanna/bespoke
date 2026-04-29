@@ -1,0 +1,12 @@
+{
+  "component": "actions/first-interaction@34f15e814fe48ac9312ccf29db4e74fa767cbab7",
+  "first_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
+  "sources": [
+    {
+      "discovered_via": "workflow-uses",
+      "source_file": ".github/workflows/community-welcome.yml",
+      "source_repo": "hao-ai-lab/FastVideo"
+    }
+  ]
+}

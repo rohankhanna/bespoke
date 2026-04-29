@@ -1,0 +1,57 @@
+{
+  "ambiguity_status": "unresolved",
+  "candidate_buckets": [
+    "tool-component",
+    "capability"
+  ],
+  "candidate_definition_hints": [
+    {
+      "source_kind": "repo-description",
+      "status": "context-only",
+      "text": "(VillagerAgent ACL 2024) A Graph based Minecraft multi agents framework"
+    },
+    {
+      "source_kind": "source-snippet",
+      "status": "context-only",
+      "text": "<img src=\"img/VillagerBench.png\" width=\"100%\" />"
+    }
+  ],
+  "candidate_glosses": [
+    {
+      "source_kind": "source-snippet",
+      "status": "candidate",
+      "text": "<img src=\"img/VillagerBench.png\" width=\"100%\" />"
+    }
+  ],
+  "candidate_primary_bucket": "tool-component",
+  "candidate_related_terms": [],
+  "candidate_senses": [
+    {
+      "candidate_buckets": [
+        "tool-component",
+        "capability"
+      ],
+      "label": "human-agent-interaction",
+      "sense_id": "human-agent-interaction#sense-1",
+      "status": "candidate"
+    }
+  ],
+  "candidate_synonyms": [],
+  "concept_id": "human-agent-interaction",
+  "definition_status": "unresolved",
+  "discovered_via": "repo-topic",
+  "gloss_status": "unresolved",
+  "lexical_providers": [
+    "datamuse"
+  ],
+  "lexical_status": "unresolved",
+  "normalized_form": "human-agent-interaction",
+  "observation_id": "af55805e03005240",
+  "observation_kind": "repo-topic",
+  "observed_at": "2026-04-29T18:37:00.726333+00:00",
+  "observed_text": "human-agent-interaction",
+  "source_context_snippet": "<img src=\"img/VillagerBench.png\" width=\"100%\" />",
+  "source_file": null,
+  "source_repo": "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
+  "source_repo_description": "(VillagerAgent ACL 2024) A Graph based Minecraft multi agents framework"
+}

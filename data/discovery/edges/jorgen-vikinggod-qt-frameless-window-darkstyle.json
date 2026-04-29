@@ -1,0 +1,48 @@
+{
+  "edges": [
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "target": "gmarull/qtmodern",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "explicit-github-link",
+      "source_file": "README.md",
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "target": "antonypro/qgoodwindow",
+      "target_type": "repository"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "target": "dark-theme",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "target": "fancy",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "target": "qstylesheet",
+      "target_type": "term"
+    },
+    {
+      "edge_type": "repo-topic",
+      "source_file": null,
+      "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle",
+      "target": "stylesheets",
+      "target_type": "term"
+    }
+  ],
+  "generated_at": "2026-04-29T18:37:00.726333+00:00",
+  "source_repo": "Jorgen-VikingGod/Qt-Frameless-Window-DarkStyle"
+}

@@ -43,6 +43,30 @@
       "source_repo": "chubin/wttr.in",
       "status": "candidate-context",
       "text": "Makefile CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "minio/docs",
+      "status": "candidate-context",
+      "text": "MinIO Object Storage Documentation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/docs",
+      "status": "candidate-context",
+      "text": "Makefile CI"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "numactl/numactl",
+      "status": "candidate-context",
+      "text": "NUMA support for Linux"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numactl/numactl",
+      "status": "candidate-context",
+      "text": "Makefile CI"
     }
   ],
   "candidate_glosses": [
@@ -61,6 +85,18 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "chubin/wttr.in",
+      "status": "candidate",
+      "text": "Makefile CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "minio/docs",
+      "status": "candidate",
+      "text": "Makefile CI"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "numactl/numactl",
       "status": "candidate",
       "text": "Makefile CI"
     }
@@ -124,11 +160,23 @@
       "observed_at": "2026-04-24T00:33:56.049672+00:00",
       "source_file": ".github/workflows/makefile.yml",
       "source_repo": "chubin/wttr.in"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "minio/docs"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/makefile.yml",
+      "source_repo": "numactl/numactl"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T00:33:56.049672+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],

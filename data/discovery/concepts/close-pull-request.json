@@ -86,6 +86,36 @@
       "source_repo": "apollographql/apollo-ios",
       "status": "candidate-context",
       "text": "Close Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "containers/common",
+      "status": "candidate-context",
+      "text": "Location for shared common files in github.com/containers repos."
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/common",
+      "status": "candidate-context",
+      "text": "Close Pull Request"
+    },
+    {
+      "source_kind": "repo-description",
+      "source_repo": "apollographql/apollo-ios-codegen",
+      "status": "candidate-context",
+      "text": "Apollo iOS Code Generation"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios-codegen",
+      "status": "candidate-context",
+      "text": "Close Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios-pagination",
+      "status": "candidate-context",
+      "text": "Close Pull Request"
     }
   ],
   "candidate_glosses": [
@@ -128,6 +158,24 @@
     {
       "source_kind": "source-snippet",
       "source_repo": "apollographql/apollo-ios",
+      "status": "candidate",
+      "text": "Close Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "containers/common",
+      "status": "candidate",
+      "text": "Close Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios-codegen",
+      "status": "candidate",
+      "text": "Close Pull Request"
+    },
+    {
+      "source_kind": "source-snippet",
+      "source_repo": "apollographql/apollo-ios-pagination",
       "status": "candidate",
       "text": "Close Pull Request"
     }
@@ -215,11 +263,29 @@
       "observed_at": "2026-04-24T06:47:13.899148+00:00",
       "source_file": ".github/workflows/pr-close.yml",
       "source_repo": "apollographql/apollo-ios"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/auto-close-prs.yml",
+      "source_repo": "containers/common"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr-close.yml",
+      "source_repo": "apollographql/apollo-ios-codegen"
+    },
+    {
+      "discovered_via": "workflow-name",
+      "observed_at": "2026-04-29T18:37:00.726333+00:00",
+      "source_file": ".github/workflows/pr-close.yml",
+      "source_repo": "apollographql/apollo-ios-pagination"
     }
   ],
   "first_seen_at": "2026-04-22T01:04:16.609102+00:00",
   "gloss_status": "unresolved",
-  "last_seen_at": "2026-04-24T06:47:13.899148+00:00",
+  "last_seen_at": "2026-04-29T18:37:00.726333+00:00",
   "lexical_providers": [
     "datamuse"
   ],
