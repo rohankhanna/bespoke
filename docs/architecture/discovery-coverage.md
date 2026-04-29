@@ -24,3 +24,14 @@ Current snapshot:
 
 This is a graph of the known landscape that the current discovery system has already surfaced.
 It is not a claim about total ecosystem coverage, because the total reachable or relevant landscape is still unknown and changing.
+
+## Operational check-in
+
+Check discovery CI health at least once per day during active work, but do not run autonomous local cron jobs for it.
+The check should look for:
+- runs that processed zero repositories
+- repeated API stops on the same repository
+- backoff sleep dominating runtime
+- queue time caused by the shared data-writer concurrency group
+
+A 403 response from GitHub is not automatically a rate limit. If `X-RateLimit-Remaining` is nonzero and there is no `Retry-After` or secondary-rate-limit signal, treat it as repository access failure and skip/quarantine that repository rather than sleeping through the run.
