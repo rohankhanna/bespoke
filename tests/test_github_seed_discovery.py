@@ -62,6 +62,48 @@ def test_rate_limit_kind_secondary_when_retry_after_present_without_zero_remaini
     assert module.classify_rate_limit_error(error) == "secondary"
 
 
+def test_forbidden_with_remaining_quota_and_reset_header_is_not_rate_limit():
+    module = load_module()
+    error = HTTPError(
+        url="https://api.github.com/repos/gautamkrishnar/keepalive-workflow",
+        code=403,
+        msg="Forbidden",
+        hdrs={"X-RateLimit-Remaining": "4991", "X-RateLimit-Reset": "1777426698", "X-RateLimit-Resource": "core"},
+        fp=None,
+    )
+
+    assert module.is_rate_limit_http_error(error) is False
+    assert module.classify_rate_limit_error(error) == "not_rate_limited"
+    assert module.is_transient_github_http_error(error) is False
+
+
+def test_api_get_json_does_not_backoff_for_forbidden_with_remaining_quota(monkeypatch):
+    module = load_module()
+    sleeps = []
+    error = HTTPError(
+        url="https://api.github.com/repos/gautamkrishnar/keepalive-workflow",
+        code=403,
+        msg="Forbidden",
+        hdrs={"X-RateLimit-Remaining": "4991", "X-RateLimit-Reset": "1777426698", "X-RateLimit-Resource": "core"},
+        fp=None,
+    )
+
+    def fake_urlopen(req, timeout=30):
+        raise error
+
+    monkeypatch.setattr(module.urllib.request, "urlopen", fake_urlopen)
+    monkeypatch.setattr(module.time, "sleep", lambda seconds: sleeps.append(seconds))
+
+    try:
+        module.api_get_json("https://api.github.com/repos/gautamkrishnar/keepalive-workflow")
+    except HTTPError as exc:
+        assert exc is error
+    else:
+        raise AssertionError("expected HTTPError")
+
+    assert sleeps == []
+
+
 def test_api_get_json_retries_rate_limit_and_resets_backoff(monkeypatch):
     module = load_module()
 

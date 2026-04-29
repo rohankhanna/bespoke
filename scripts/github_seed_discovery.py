@@ -85,8 +85,6 @@ def is_rate_limit_http_error(error):
         return True
     if summary.get("rate_limit_remaining") == "0":
         return True
-    if summary.get("rate_limit_reset"):
-        return True
     reason = (summary.get("reason") or "").lower()
     return "rate limit" in reason or "secondary rate limit" in reason
 
@@ -139,7 +137,7 @@ def next_rate_limit_backoff_seconds(error, now=None):
 
 
 def is_transient_github_http_error(error):
-    return error.code in {403, 429} or error.code >= 500
+    return error.code == 429 or error.code >= 500 or is_rate_limit_http_error(error)
 
 
 def summarize_github_http_error(error):
@@ -168,14 +166,14 @@ def summarize_github_http_error(error):
 def classify_rate_limit_error(error):
     summary = summarize_github_http_error(error)
     reason = (summary.get("reason") or "").lower()
+    if not is_rate_limit_http_error(error):
+        return "not_rate_limited"
     if summary.get("rate_limit_remaining") == "0":
         return "primary"
     if summary.get("retry_after"):
         return "secondary"
     if "secondary rate limit" in reason:
         return "secondary"
-    if summary.get("rate_limit_reset"):
-        return "primary"
     if error.code == 429:
         return "secondary"
     return "unknown"
