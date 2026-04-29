@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 16,
-    "observations": 16,
-    "repos": 4,
-    "terms": 16
+    "components": 24,
+    "concepts": 25,
+    "observations": 25,
+    "repos": 6,
+    "terms": 25
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
+    "apache/arrow-java",
     "bazel-contrib/rules_jvm",
+    "cedar-policy/cedar-java",
     "codelibs/fess-crawler",
     "google/guava-beta-checker",
     "m2e-code-quality/m2e-code-quality"

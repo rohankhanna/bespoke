@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 6,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 5,
-    "terms": 32
+    "concepts": 52,
+    "observations": 52,
+    "repos": 6,
+    "terms": 52
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
+    "akuity/awesome-argo",
     "antonbabenko/terraform-skill",
     "brightmart/nlp_chinese_corpus",
     "orogene/orogene",

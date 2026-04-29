@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1288,
-    "concepts": 256,
-    "observations": 257,
-    "repos": 23,
-    "terms": 253
+    "components": 1045,
+    "concepts": 217,
+    "observations": 218,
+    "repos": 19,
+    "terms": 217
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "ajaxorg/ace",
     "badges/shields",
     "be5invis/Iosevka",
     "commitizen/cz-cli",
@@ -25,11 +24,8 @@
     "eslint/eslint",
     "expressjs/express",
     "fastify/fastify",
-    "jquery/jquery",
     "lovell/sharp",
-    "nock/nock",
     "nwjs/nw.js",
-    "prettier/prettier",
     "protobufjs/protobuf.js",
     "remy/nodemon",
     "rollup/rollup",

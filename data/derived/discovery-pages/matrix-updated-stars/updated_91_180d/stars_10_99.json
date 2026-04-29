@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 554,
-    "concepts": 253,
-    "observations": 256,
+    "components": 548,
+    "concepts": 247,
+    "observations": 250,
     "repos": 111,
-    "terms": 258
+    "terms": 252
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -55,6 +55,7 @@
     "d3x0r/JSOX",
     "danielrosehill/claude-code-linux-desktop-slash-commands",
     "datafusion-contrib/hdfs-native-object-store",
+    "doraemonkeys/paddleocr",
     "dredozubov/prd-generator",
     "dzeiocom/simple-icons-astro",
     "eliemichel/dawn-prebuilt",
@@ -76,7 +77,6 @@
     "json-schema-org/.github",
     "jupyterlab/frontends-team-compass",
     "kigster/puma-daemon",
-    "Layr-Labs/eigensdk-go",
     "Level/community",
     "llvm/clangd-www",
     "lmgame-org/GRL",

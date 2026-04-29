@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 296,
-    "concepts": 226,
-    "observations": 226,
-    "repos": 67,
-    "terms": 220
+    "components": 265,
+    "concepts": 208,
+    "observations": 208,
+    "repos": 65,
+    "terms": 203
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "42-evey/evey-bridge-plugin",
@@ -42,7 +42,6 @@
     "brody2consult/react-native-init-func",
     "clearbluejar/ghidra-python",
     "cncf/k8s-conformance-archive",
-    "coderaiser/escover",
     "conda-forge/cupy-feedstock",
     "conda-forge/modin-feedstock",
     "CROSS-signature/CROSS-lib-oqs",
@@ -78,7 +77,6 @@
     "shakacode/package_json",
     "sigp/quick-protobuf",
     "SWE-bench/SWE-smith-envs",
-    "tombelieber/claude-backup",
     "WebAssembly/compact-import-section"
   ]
 }

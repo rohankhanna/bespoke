@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 195,
-    "concepts": 172,
-    "observations": 172,
-    "repos": 33,
-    "terms": 170
+    "components": 170,
+    "concepts": 151,
+    "observations": 151,
+    "repos": 27,
+    "terms": 149
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "actboy168/bee.lua",
     "acts-project/acts",
-    "ampl/mp",
     "aws/aws-ofi-nccl",
     "BabylonJS/BabylonNative",
     "bitcoin-core/gui",
@@ -29,19 +27,15 @@
     "google/dawn",
     "google/fuzztest",
     "google/riegeli",
-    "intel/intel-ipsec-mb",
     "ipsilon/evmone",
-    "lxqt/qtermwidget",
     "mitsuba-renderer/drjit",
     "nss-dev/nss",
     "openvinotoolkit/model_server",
     "openvinotoolkit/openvino.genai",
     "pantoniou/libfyaml",
-    "pyg-team/pyg-lib",
     "rapidsai/rmm",
     "raylib-extras/rlImGui",
     "ROCm/AMDMIGraphX",
-    "ROCm/composable_kernel",
     "ROCm/MIVisionX",
     "ROCm/mori",
     "samdauwe/webgpu-native-examples",

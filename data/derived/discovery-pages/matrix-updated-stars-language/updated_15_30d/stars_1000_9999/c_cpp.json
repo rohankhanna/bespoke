@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 158,
-    "concepts": 177,
-    "observations": 178,
-    "repos": 27,
-    "terms": 177
+    "components": 190,
+    "concepts": 200,
+    "observations": 202,
+    "repos": 32,
+    "terms": 200
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "ada-url/ada",
     "asg017/sqlite-vec",
@@ -26,20 +26,25 @@
     "google/draco",
     "google/honggfuzz",
     "KhronosGroup/MoltenVK",
+    "lh3/minimap2",
     "libbpf/libbpf",
+    "libjpeg-turbo/libjpeg-turbo",
     "mattn/go-sqlite3",
     "microsoft/DirectX-Graphics-Samples",
+    "microsoft/wil",
     "ml-explore/mlx-swift",
     "nalgeon/sqlean",
     "nihui/opencv-mobile",
     "NVIDIA/libnvidia-container",
     "oneapi-src/oneAPI-samples",
     "posva/catimg",
+    "risc0/risc0",
     "stevenlovegrove/Pangolin",
     "ultrajson/ultrajson",
     "uNetworking/uSockets",
     "vstakhov/libucl",
     "WebAssembly/wabt",
+    "wjakob/nanobind",
     "ycm-core/ycmd"
   ]
 }

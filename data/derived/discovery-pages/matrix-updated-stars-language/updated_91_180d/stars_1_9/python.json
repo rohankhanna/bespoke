@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 50,
-    "concepts": 16,
-    "observations": 16,
+    "concepts": 13,
+    "observations": 13,
     "repos": 13,
-    "terms": 26
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,15 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "abersheeran/pdm-version",
     "aiagenta2z/onekey_mcp_router",
     "AIxCyberChallenge/example-crs-architecture",
     "arustydev/pre-commit-hooks",
+    "biocypher/collectri",
     "ca-ruz/bumpit",
     "danielrosehill/Agentic-Context-Development-Interview-Demo",
-    "danielrosehill/AI-Agent-UN",
     "hashberg-io/typing-validation",
     "MarcCote/downward",
     "mjvolk3/torchcell",

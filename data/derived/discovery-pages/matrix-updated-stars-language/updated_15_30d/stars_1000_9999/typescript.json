@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 894,
-    "concepts": 175,
-    "observations": 176,
-    "repos": 25,
-    "terms": 182
+    "components": 951,
+    "concepts": 184,
+    "observations": 185,
+    "repos": 28,
+    "terms": 191
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "actions/typescript-action",
+    "actions/upload-artifact",
     "AIPexStudio/AIPex",
     "allweonedev/presentation-ai",
     "badgen/badgen.net",
@@ -29,10 +30,12 @@
     "google-gemini/starter-applets",
     "google-github-actions/run-gemini-cli",
     "googleapis/release-please",
+    "googleapis/release-please-action",
     "Helicone/helicone",
     "heyhuynhgiabuu/proxypal",
     "lobehub/lobe-icons",
     "microsoft/node-pty",
+    "microsoft/playwright-cli",
     "opactorai/claudable",
     "peter-evans/repository-dispatch",
     "react-native-webview/react-native-webview",

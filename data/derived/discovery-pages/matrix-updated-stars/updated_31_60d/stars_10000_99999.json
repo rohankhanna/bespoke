@@ -1,29 +1,28 @@
 {
   "counts": {
-    "components": 445,
-    "concepts": 328,
-    "observations": 331,
-    "repos": 54,
-    "terms": 332
+    "components": 443,
+    "concepts": 331,
+    "observations": 334,
+    "repos": 53,
+    "terms": 334
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "abhisheknaiidu/awesome-github-profile-readme",
-    "Alibaba-NLP/DeepResearch",
     "alibaba/Sentinel",
     "AndyMik90/Aperant",
     "aria2/aria2",
     "bellard/quickjs",
-    "burntsushi/ripgrep",
     "chriskiehl/Gooey",
     "CocoaPods/CocoaPods",
     "cool-RR/PySnooper",
     "dandavison/delta",
+    "deepinsight/insightface",
     "encode/httpx",
     "explosion/spaCy",
     "fatih/vim-go",

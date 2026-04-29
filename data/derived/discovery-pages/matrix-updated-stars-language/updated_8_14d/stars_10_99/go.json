@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 64,
-    "observations": 65,
-    "repos": 15,
-    "terms": 63
+    "components": 162,
+    "concepts": 120,
+    "observations": 121,
+    "repos": 18,
+    "terms": 119
   },
   "facet_version": 1,
   "filters": {
@@ -12,22 +12,25 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
+    "abhinav/tmux-fastcopy",
     "allenreder/cliproxyapi-quota-inspector",
     "appleboy/drone-lambda",
-    "benchsci/rules_nodejs_gazelle",
     "blinklabs-io/bluefin",
     "celo-org/op-geth",
     "cmdjulian/mopy",
     "coder/coder-logstream-kube",
-    "compozy/kb",
     "connectrpc/conformance",
     "connectrpc/grpchealth-go",
+    "davidkarlsen/flyway-operator",
+    "defilantech/LLMKube",
     "depado/smallblog",
     "gopasspw/git-credential-gopass",
     "gopasspw/gopass-hibp",
     "joshsymonds/cc-tools",
-    "magodo/aztft"
+    "magodo/aztft",
+    "sigstore/rekor-tiles",
+    "terraform-linters/tflint-ruleset-google"
   ]
 }

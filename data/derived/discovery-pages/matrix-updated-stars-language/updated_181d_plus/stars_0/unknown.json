@@ -3,7 +3,7 @@
     "components": 29,
     "concepts": 13,
     "observations": 13,
-    "repos": 26,
+    "repos": 27,
     "terms": 13
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "5scontrol/5s-dev-documentation",
     "aadil-runpod/rp-logo",
@@ -25,6 +25,7 @@
     "chriskiehl/gooeyimages",
     "ConfettiFX/The-Forge-Media",
     "danielrosehill/Career-Data-AI-Context-Repo",
+    "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Context-Chunker-Assistant",
     "devongovett/html5ever",
     "flashinfer-ai/web-data",

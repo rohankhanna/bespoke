@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 490,
-    "concepts": 678,
-    "observations": 680,
-    "repos": 240,
-    "terms": 677
+    "concepts": 687,
+    "observations": 689,
+    "repos": 242,
+    "terms": 686
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "1runeberg/confichat",
     "22-hours/cabrita",
@@ -240,6 +240,8 @@
     "teticio/Deej-AI",
     "tiagovla/scope.nvim",
     "tpope/vim-dotenv",
+    "travis-ci/packer-templates",
+    "travis-ci/travis-cookbooks",
     "tweekmonster/startuptime.vim",
     "vicgalle/stable-diffusion-aesthetic-gradients",
     "vim-php/tagbar-phpctags.vim",

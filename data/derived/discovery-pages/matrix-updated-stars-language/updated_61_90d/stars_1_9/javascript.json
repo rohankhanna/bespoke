@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 0,
-    "observations": 0,
+    "components": 36,
+    "concepts": 2,
+    "observations": 2,
     "repos": 2,
-    "terms": 0
+    "terms": 2
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "cpojer/js-codemod",
-    "qiuyu96/CoDeF"
+    "coderaiser/escover",
+    "cpojer/js-codemod"
   ]
 }

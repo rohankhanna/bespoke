@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3,
-    "concepts": 10,
-    "observations": 10,
-    "repos": 13,
-    "terms": 10
+    "components": 13,
+    "concepts": 16,
+    "observations": 16,
+    "repos": 18,
+    "terms": 16
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,24 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "aar0npb/curator-skill",
+    "agenmod/mirror-skill",
+    "agenmod/steamer-skill",
     "AI-Agent-Hub/mcp-marketplace",
+    "ai-dynamo/enhancements",
     "danielrosehill/Agent-Handover-Demo",
     "danielrosehill/AI-Decision-Eval-Projects",
     "danielrosehill/AI-Synthesised-Perspectives",
     "danielrosehill/Architectural-Plans-Index",
     "danielrosehill/Claude-AI-Attribution-Plugin",
     "dpc/crev-proofs",
+    "flinedev/marketplace",
     "gkr-bot/gkr-bot",
     "lab-cosmo/.github",
+    "nodejs/web-team",
     "ScoopInstaller/.github",
     "sp1-patches/bn"
   ]

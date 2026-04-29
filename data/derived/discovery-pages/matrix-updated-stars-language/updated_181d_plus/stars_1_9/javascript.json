@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 591,
+    "components": 600,
     "concepts": 77,
     "observations": 78,
-    "repos": 32,
+    "repos": 33,
     "terms": 77
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "14nrv/serverless-lambda-stripe",
     "abap2UI5/builder",
@@ -20,6 +20,7 @@
     "aralyekta/prompttester",
     "ari-os310/eslint-plugin-jsx-a11y",
     "atom-community/autocomplete-plus",
+    "behnamazimi/inquirer-checkbox-plus-plus",
     "ccdanpian/current-datetime",
     "chatie/tsconfig",
     "coderaiser/speca",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 33,
-    "concepts": 22,
-    "observations": 22,
-    "repos": 2,
-    "terms": 33
+    "components": 75,
+    "concepts": 32,
+    "observations": 32,
+    "repos": 4,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
+    "mlc-ai/web-llm",
     "ruvnet/ruflo",
+    "shareai-lab/learn-claude-code",
     "tobi/qmd"
   ]
 }

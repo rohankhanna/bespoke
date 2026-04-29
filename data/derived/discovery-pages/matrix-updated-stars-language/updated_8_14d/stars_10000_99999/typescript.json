@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1315,
-    "concepts": 216,
-    "observations": 218,
-    "repos": 33,
-    "terms": 237
+    "components": 4373,
+    "concepts": 365,
+    "observations": 368,
+    "repos": 44,
+    "terms": 384
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,31 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "apollographql/apollo-client",
+    "babel/babel",
     "badlogic/pi-mono",
     "browserless/browserless",
     "changesets/changesets",
+    "CherryHQ/cherry-studio",
     "coder/code-server",
+    "DefinitelyTyped/DefinitelyTyped",
     "diegomura/react-pdf",
+    "elastic/kibana",
     "everyinc/compound-engineering-plugin",
+    "expo/expo",
     "fission-ai/openspec",
     "garrytan/gstack",
+    "graphql/graphiql",
     "invoke-ai/InvokeAI",
     "iOfficeAI/AionUi",
     "jestjs/jest",
+    "juice-shop/juice-shop",
+    "KaTeX/KaTeX",
+    "labring/FastGPT",
     "lerna/lerna",
     "microsoft/playwright-mcp",
-    "mlc-ai/web-llm",
     "modelcontextprotocol/servers",
     "multica-ai/multica",
     "neoclide/coc.nvim",
@@ -39,13 +47,16 @@
     "recharts/recharts",
     "ryoppippi/ccusage",
     "SBoudrias/Inquirer.js",
-    "shareai-lab/learn-claude-code",
     "slopus/happy",
     "tanweai/pua",
     "toon-format/toon",
+    "typescript-eslint/typescript-eslint",
     "upstash/context7",
     "vadimdemedes/ink",
+    "vitejs/vite",
     "VSCodeVim/Vim",
-    "withastro/astro"
+    "withastro/astro",
+    "xtermjs/xterm.js",
+    "xyflow/xyflow"
   ]
 }

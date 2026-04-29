@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 49,
-    "concepts": 30,
-    "observations": 30,
-    "repos": 7,
-    "terms": 30
+    "components": 55,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 8,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "Cosium/git-code-format-maven-plugin",
+    "eclipse-lemminx/lemminx",
     "eclipse-lsp4j/lsp4j",
     "googleapis/google-auth-library-java",
     "googleapis/google-oauth-java-client",

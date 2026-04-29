@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 59,
-    "concepts": 41,
-    "observations": 41,
-    "repos": 20,
-    "terms": 41
+    "components": 61,
+    "concepts": 44,
+    "observations": 44,
+    "repos": 22,
+    "terms": 44
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "AndrewRadev/switch.vim",
     "arnetheduck/nph",
@@ -20,7 +20,8 @@
     "CSU-Radarmet/CSU_RadarTools",
     "CVEProject/cve-schema",
     "domluna/JuliaFormatter.jl",
-    "ema2159/centaur-tabs",
+    "Embarcadero/P4D-Data-Sciences",
+    "Embarcadero/python4delphi",
     "envoyproxy/data-plane-api",
     "filiph/linkcheck",
     "hollowstrawberry/kohya-colab",
@@ -28,6 +29,7 @@
     "JuliaEditorSupport/julia-emacs",
     "JuliaEditorSupport/julia-vim",
     "loqusion/typix",
+    "pug-php/pug",
     "rapidsai-community/notebooks-contrib",
     "renzmann/treesit-auto",
     "swansonk14/admet_ai",

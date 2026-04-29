@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 190,
-    "concepts": 150,
-    "observations": 151,
-    "repos": 26,
-    "terms": 148
+    "components": 196,
+    "concepts": 153,
+    "observations": 154,
+    "repos": 27,
+    "terms": 151
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "aome510/spotify-player",
     "arxanas/git-branchless",
@@ -24,6 +24,7 @@
     "crossterm-rs/crossterm",
     "enigo-rs/enigo",
     "GuillaumeGomez/sysinfo",
+    "hyperium/h2",
     "hyperium/http",
     "jonhoo/inferno",
     "linebender/resvg",

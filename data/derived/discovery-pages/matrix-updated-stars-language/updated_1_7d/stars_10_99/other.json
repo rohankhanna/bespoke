@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 264,
-    "concepts": 180,
-    "observations": 180,
-    "repos": 35,
-    "terms": 179
+    "components": 198,
+    "concepts": 160,
+    "observations": 160,
+    "repos": 29,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "3rd/config",
     "abap2UI5/samples",
@@ -22,7 +22,6 @@
     "ast-grep/ast-grep.github.io",
     "b-data/jupyterlab-python-docker-stack",
     "b-data/jupyterlab-r-docker-stack",
-    "bazel-contrib/rules_d",
     "be-hase/caffeine-coroutines",
     "chainguard-dev/rules_apko",
     "connectbot/termlib",
@@ -31,20 +30,15 @@
     "flavorjones/tailwindcss-ruby",
     "foo-dogsquared/hugo-mod-simple-icons",
     "hashicorp/web-unified-docs",
-    "kata-containers/www.katacontainers.io",
     "meta-pytorch/executorch-examples",
     "nodenv/homebrew-nodenv",
-    "NVIDIA/spark-rapids-tools",
     "ocaml-tracing/ocaml-opentelemetry",
-    "ocaml-tracing/ocaml-trace",
     "ocurrent/docker-base-images",
     "ocurrent/ocaml-dockerfile",
-    "onnx/steering-committee",
     "pq-code-package/mldsa-native",
     "saghen/blink.lib",
     "SAP/abap-file-formats",
     "SAP/abap-file-formats-tools",
-    "sbt/sbt-java-formatter",
     "searxng/searx-instances-uptime",
     "servo/servo.org",
     "squeak-smalltalk/squeak.org",

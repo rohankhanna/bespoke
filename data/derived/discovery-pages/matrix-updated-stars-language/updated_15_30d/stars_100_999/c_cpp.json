@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 90,
-    "concepts": 69,
-    "observations": 70,
-    "repos": 23,
-    "terms": 69
+    "components": 94,
+    "concepts": 83,
+    "observations": 86,
+    "repos": 25,
+    "terms": 83
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "afbjorklund/lima-gui",
     "amzn/amzn-drivers",
@@ -30,9 +30,11 @@
     "ml-explore/mlx-c",
     "mybigday/whisper.rn",
     "nfrechette/rtm",
-    "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
+    "NiklasRosenstein/pbzx",
     "pauldmccarthy/indexed_gzip",
     "RoaringBitmap/croaring-rs",
+    "SHI-Labs/NATTEN",
+    "Solo5/solo5",
     "tpoechtrager/apple-libtapi",
     "tpoechtrager/cctools-port",
     "webgpu-native/webgpu-headers",

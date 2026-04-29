@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 106,
-    "observations": 108,
-    "repos": 19,
-    "terms": 106
+    "components": 133,
+    "concepts": 113,
+    "observations": 113,
+    "repos": 22,
+    "terms": 113
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
+    "actboy168/bee.lua",
     "aibasel/downward",
+    "ampl/mp",
     "aseprite/laf",
     "coin-or/Cbc",
     "cusplibrary/cusplibrary",
@@ -22,16 +24,17 @@
     "google-deepmind/reverb",
     "google/jpegli",
     "hajimes/mmh3",
+    "intel/intel-ipsec-mb",
     "KhronosGroup/SPIRV-Headers",
     "lxqt/qterminal",
+    "lxqt/qtermwidget",
     "microsoft/vcpkg-tool",
     "mitsuba-renderer/drjit-core",
     "mybigday/llama.rn",
-    "NiklasRosenstein/pbzx",
     "onnx/optimizer",
     "powturbo/TurboBench",
-    "SHI-Labs/NATTEN",
-    "Solo5/solo5",
+    "pyg-team/pyg-lib",
+    "ROCm/composable_kernel",
     "Yubico/libfido2"
   ]
 }

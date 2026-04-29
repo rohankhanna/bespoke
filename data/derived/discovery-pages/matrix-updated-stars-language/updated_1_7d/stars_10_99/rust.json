@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 18,
-    "terms": 70
+    "components": 97,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 13,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "ai-dynamo/modelexpress",
     "alloy-rs/evm",
@@ -23,14 +23,9 @@
     "bitcoindevkit/rust-electrum-client",
     "boundless-xyz/kailua",
     "celo-org/celo-threshold-bls-rs",
-    "ClickHouse/clickhousectl",
     "eth-act/ere",
     "eth-act/zkboost",
-    "janrueth/boring-rustls-provider",
-    "nico-abram/blondie",
     "paradigmxyz/stateless",
-    "Sovereign-Labs/rollup-starter",
-    "tracel-ai/cubek",
-    "vaporif/parry-guard"
+    "Sovereign-Labs/rollup-starter"
   ]
 }

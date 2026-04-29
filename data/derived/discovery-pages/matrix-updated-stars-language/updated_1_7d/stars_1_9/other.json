@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 51,
-    "observations": 51,
-    "repos": 12,
-    "terms": 51
+    "components": 39,
+    "concepts": 50,
+    "observations": 50,
+    "repos": 8,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "actboy168/ltest",
     "b-data/jupyterlab-julia-docker-stack",
     "b-data/jupyterlab-mojo-docker-stack",
     "cake-contrib/Cake.Markdownlint",
@@ -22,9 +21,6 @@
     "conda-forge/pybind11-feedstock",
     "conda-forge/scikit-build-core-feedstock",
     "curiousdannii/emglken",
-    "CVEProject/cve-user-registry-client",
-    "enbop/fungi-app",
-    "goreleaser/.github",
-    "Mbed-TLS/mbedtls-test"
+    "enbop/fungi-app"
   ]
 }

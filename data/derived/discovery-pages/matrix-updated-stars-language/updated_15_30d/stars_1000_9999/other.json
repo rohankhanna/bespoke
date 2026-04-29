@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 317,
-    "concepts": 279,
-    "observations": 280,
-    "repos": 50,
-    "terms": 275
+    "components": 347,
+    "concepts": 288,
+    "observations": 289,
+    "repos": 51,
+    "terms": 284
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "airblade/vim-gitgutter",
     "akermu/emacs-libvterm",
@@ -32,7 +32,6 @@
     "elixir-ecto/postgrex",
     "elixir-plug/plug",
     "ggandor/leap.nvim",
-    "gjtorikian/html-proofer",
     "gpu-mode/Triton-Puzzles",
     "grain-lang/grain",
     "haleclipse/claudix",
@@ -40,15 +39,16 @@
     "ipld/ipld",
     "itchyny/lightline.vim",
     "jeremyevans/roda",
-    "jgm/djot",
     "jpsim/Yams",
     "L3MON4D3/LuaSnip",
+    "licensee/licensed",
     "luarocks/luarocks",
     "macvim-dev/macvim",
     "MagicDuck/grug-far.nvim",
     "manzaltu/claude-code-ide.el",
     "mattn/vim-lsp-settings",
     "mfussenegger/nvim-dap",
+    "microsoft/vscode-codicons",
     "ninenines/cowboy",
     "NVIDIA/nccl-tests",
     "nvim-lua/plenary.nvim",
@@ -63,6 +63,7 @@
     "stevearc/overseer.nvim",
     "swiftbar/SwiftBar",
     "tc39/proposal-temporal",
+    "yonaskolb/XcodeGen",
     "zarazhangrui/codebase-to-course"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 367,
-    "concepts": 49,
-    "observations": 50,
-    "repos": 4,
-    "terms": 49
+    "components": 340,
+    "concepts": 41,
+    "observations": 42,
+    "repos": 3,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,9 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "angular/angular",
-    "anomalyco/opencode",
     "langgenius/dify",
     "microsoft/vscode"
   ]

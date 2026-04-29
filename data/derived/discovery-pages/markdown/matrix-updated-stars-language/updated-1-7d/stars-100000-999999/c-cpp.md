@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 100,000 to 999,999 stars · C/C++
 
-Generated at: `2026-04-28T07:21:38.058645+00:00`
+Generated at: `2026-04-29T05:37:11.117770+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 6
-- terms: 59
-- components: 156
-- concepts: 59
-- observations: 59
+- repos: 4
+- terms: 48
+- components: 154
+- concepts: 48
+- observations: 48
 
 ## Static behavior
 
@@ -30,16 +30,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [electron/electron](https://github.com/electron/electron) | 121013 | 2026-04-23T20:11:37Z | C/C++ | Infrastructure/tooling | 14 | 57 | 14 | 14 |
 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 194843 | 2026-04-23T18:45:59Z | C/C++ | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [facebook/react-native](https://github.com/facebook/react-native) | 125707 | 2026-04-23T00:16:22Z | C/C++ | Infrastructure/tooling | 13 | 75 | 13 | 13 |
-| [microsoft/terminal](https://github.com/microsoft/terminal) | 102849 | 2026-04-22T00:47:50Z | C/C++ | CLI | 11 | 2 | 11 | 11 |
-| [torvalds/linux](https://github.com/torvalds/linux) | 230270 | 2026-04-22T00:44:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [torvalds/linux](https://github.com/torvalds/linux) | 230270 | 2026-04-22T00:44:30Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [tensorflow/tensorflow](https://github.com/tensorflow/tensorflow) | 194843 | 2026-04-23T18:45:59Z | C/C++ | Infrastructure/tooling | 12 | 5 | 12 | 12 |
 | [facebook/react-native](https://github.com/facebook/react-native) | 125707 | 2026-04-23T00:16:22Z | C/C++ | Infrastructure/tooling | 13 | 75 | 13 | 13 |
 | [electron/electron](https://github.com/electron/electron) | 121013 | 2026-04-23T20:11:37Z | C/C++ | Infrastructure/tooling | 14 | 57 | 14 | 14 |
 | [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 106136 | 2026-04-24T08:42:06Z | C/C++ | Infrastructure/tooling | 9 | 17 | 9 | 9 |
-| [microsoft/terminal](https://github.com/microsoft/terminal) | 102849 | 2026-04-22T00:47:50Z | C/C++ | CLI | 11 | 2 | 11 | 11 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 57,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 6,
-    "terms": 7
+    "components": 72,
+    "concepts": 9,
+    "observations": 9,
+    "repos": 7,
+    "terms": 11
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "2slides/mcp-2slides",
     "androidStern-personal/openclaw-mcp-adapter",
+    "br14n-sol/inquirer-file-selector",
     "lnbc1QWFyb24/lnmessage",
     "lobehub/.github",
     "nulone/claude-rules-doctor",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 103,
-    "observations": 103,
-    "repos": 11,
-    "terms": 103
+    "components": 75,
+    "concepts": 99,
+    "observations": 99,
+    "repos": 10,
+    "terms": 99
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "a2aproject/a2a-java",
     "aws-powertools/powertools-lambda-java",
     "beehive-lab/GPULlama3.java",
     "connectbot/sshlib",
-    "eclipse-lemminx/lemminx",
     "eclipse-wildwebdeveloper/wildwebdeveloper",
     "googleapis/google-api-java-client-services",
     "microsoft/semantic-kernel-java",

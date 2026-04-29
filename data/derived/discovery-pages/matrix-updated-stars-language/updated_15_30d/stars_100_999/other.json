@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 273,
-    "concepts": 240,
-    "observations": 241,
-    "repos": 46,
-    "terms": 244
+    "components": 297,
+    "concepts": 270,
+    "observations": 271,
+    "repos": 54,
+    "terms": 274
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "adelarsq/neoline.vim",
     "adinhodovic/terraform-cloudflare-maintenance",
@@ -23,6 +23,7 @@
     "babashka/babashka-sql-pods",
     "babashka/bbin",
     "babashka/neil",
+    "basf/MolPipeline",
     "bazel-contrib/rules_oci",
     "blemale/scaffeine",
     "cafeTechne/antigravity-link-extension",
@@ -32,6 +33,7 @@
     "cshum/vipsgen",
     "dcampos/nvim-snippy",
     "DefinedNet/mobile_nebula",
+    "devcontainers/devcontainers.github.io",
     "dgSPARSE/dgSPARSE-Lib",
     "dstein64/vim-startuptime",
     "dwyl/auth",
@@ -47,18 +49,24 @@
     "google/protobuf.dart",
     "JuliaPluto/PlutoUI.jl",
     "Layr-Labs/eigenlayer-contracts",
+    "lerocha/netflixdb",
     "microsoft/vscode-mono-debug",
     "microsoft/vssetup.powershell",
     "microsoft/winget-cli-restsource",
     "n8willis/opentype-shaping-documents",
+    "nvim-mini/mini.animate",
     "nvim-mini/mini.files",
+    "nvim-mini/mini.icons",
     "nvim-mini/mini.pick",
     "objectbox/objectbox-swift",
+    "openclaw/nix-openclaw",
     "paretosecurity/pareto-mac",
     "pyodide/micropip",
     "r-lib/styler",
     "rust-lang/compiler-team",
     "saka1/simdjson_ruby",
+    "sebastienros/esprima-dotnet",
+    "simonmclean/triptych.nvim",
     "swiftlang/swiftly"
   ]
 }

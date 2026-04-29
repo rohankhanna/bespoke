@@ -1,0 +1,20 @@
+{
+  "counts": {
+    "components": 2,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 2,
+    "terms": 11
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "c_cpp",
+    "star_bucket": "stars_100000_999999",
+    "updated_bucket": "updated_8_14d"
+  },
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "repo_ids": [
+    "microsoft/terminal",
+    "torvalds/linux"
+  ]
+}

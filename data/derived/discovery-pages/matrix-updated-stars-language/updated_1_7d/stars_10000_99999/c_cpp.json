@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 475,
-    "concepts": 657,
-    "observations": 660,
-    "repos": 56,
-    "terms": 652
+    "components": 382,
+    "concepts": 523,
+    "observations": 525,
+    "repos": 44,
+    "terms": 518
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,16 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "abseil/abseil-cpp",
-    "alibaba/MNN",
-    "apache/arrow",
     "apple/foundationdb",
     "arangodb/arangodb",
     "argotorg/solidity",
-    "aseprite/aseprite",
     "bitcoin/bitcoin",
     "bkaradzic/bgfx",
     "bpftrace/bpftrace",
     "chromium/chromium",
     "citusdata/citus",
-    "ClickHouse/ClickHouse",
     "curl/curl",
     "duckdb/duckdb",
     "emscripten-core/emscripten",
@@ -41,21 +36,16 @@
     "google/filament",
     "google/sentencepiece",
     "grpc/grpc",
-    "Immediate-Mode-UI/Nuklear",
     "jqlang/jq",
     "libvips/libvips",
     "microsoft/mimalloc",
     "microsoft/onnxruntime",
     "microsoft/react-native-windows",
     "microsoft/STL",
-    "microsoft/winget-cli",
     "microsoft/WSL",
-    "ml-explore/mlx",
     "mpv-player/mpv",
     "NixOS/nix",
     "ocornut/imgui",
-    "opencv/opencv",
-    "openssl/openssl",
     "openvinotoolkit/openvino",
     "PaddlePaddle/Paddle",
     "protocolbuffers/protobuf",
@@ -67,8 +57,6 @@
     "systemd/systemd",
     "taskflow/taskflow",
     "Tencent/ncnn",
-    "tesseract-ocr/tesseract",
-    "uNetworking/uWebSockets",
-    "wolfpld/tracy"
+    "uNetworking/uWebSockets"
   ]
 }

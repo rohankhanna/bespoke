@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 249,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 3,
-    "terms": 24
+    "components": 276,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 4,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100000_999999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
+    "anomalyco/opencode",
     "google-gemini/gemini-cli",
     "microsoft/typescript",
     "openclaw/openclaw"

@@ -1,22 +1,20 @@
 {
   "counts": {
-    "components": 434,
-    "concepts": 126,
-    "observations": 126,
-    "repos": 42,
-    "terms": 126
+    "components": 417,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 33,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "5sControl/5s-backend",
-    "actboy168/ltest",
     "AlmaLinux/osv-database",
-    "andriykohut/pdm-readiness",
     "angular/dev-infra-private-ng-dev-builds",
     "astropy/repo_stats",
     "b-data/jupyterlab-julia-docker-stack",
@@ -30,11 +28,8 @@
     "conda-forge/pybind11-feedstock",
     "conda-forge/python-zlib-ng-feedstock",
     "conda-forge/scikit-build-core-feedstock",
-    "conda-forge/ultralytics-feedstock",
     "curiousdannii/emglken",
     "curiousdannii/remglk-rs",
-    "CVEProject/cve-user-registry-client",
-    "danielrosehill/Claude-Code-Plugins",
     "danielrosehill/Subindices",
     "DavidKinder/inform",
     "eea/bise-frontend",
@@ -43,16 +38,12 @@
     "enbop/fungi-app",
     "eth-act/ere-guests",
     "foundry-rs/foundry-core",
-    "goreleaser/.github",
     "kubernetes-sigs/provider-ibmcloud-test-infra",
-    "Mbed-TLS/mbedtls-test",
     "ModelCloud/Defuser",
     "ModelCloud/LogBar",
     "newrelic/csec-node-agent",
     "nicolo-ribaudo/engine262",
     "probe-lab/tiros",
-    "pyrtlsdr/pyrtlsdrlib",
-    "status-im/nimbus-build-system",
     "walles/ftop",
     "web-platform-tests/results-analysis-cache"
   ]

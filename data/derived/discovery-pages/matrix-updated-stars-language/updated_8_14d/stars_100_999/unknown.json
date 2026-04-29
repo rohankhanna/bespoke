@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 25,
-    "concepts": 79,
-    "observations": 79,
-    "repos": 17,
-    "terms": 79
+    "components": 56,
+    "concepts": 92,
+    "observations": 93,
+    "repos": 24,
+    "terms": 92
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,31 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "ailev/fpf",
+    "apappascs/mcp-servers-hub",
     "cloudflare/skills",
+    "CVEProject/automation-working-group",
     "dotnet-foundation/projects",
     "dotnet/AspNetApiDocs",
     "emberjs/rfcs",
     "eslint/rfcs",
     "eudk/awesome-ai-tools",
     "gautamkrishnar/gautamkrishnar",
+    "ghimiresunil/Top-AI-Tools",
+    "googlefonts/RobotoMono",
+    "ipfs-examples/helia-examples",
+    "kubernetes-sigs/krew-index",
+    "mason-org/mason-registry",
     "MicrosoftDocs/terminal",
     "nimbalyst/nimbalyst",
     "oak-security/audit-reports",
+    "ocaml/opam-repository",
     "piebald-ai/awesome-gemini-cli",
     "pyOpenSci/software-submission",
-    "SamurAIGPT/awesome-openclaw",
-    "servo/project",
     "stripe/openapi",
+    "tinted-theming/home",
     "Uzaaft/awesome-libghostty"
   ]
 }

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 932,
-    "concepts": 744,
-    "observations": 752,
-    "repos": 143,
-    "terms": 738
+    "components": 930,
+    "concepts": 737,
+    "observations": 745,
+    "repos": 142,
+    "terms": 731
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "3Hren/msgpack-rust",
     "99designs/aws-vault",
@@ -154,7 +154,6 @@
     "WebAV-Tech/WebAV",
     "weichsel/ZIPFoundation",
     "WICG/webcomponents",
-    "yonaskolb/Mint",
-    "ZipArchive/ZipArchive"
+    "yonaskolb/Mint"
   ]
 }

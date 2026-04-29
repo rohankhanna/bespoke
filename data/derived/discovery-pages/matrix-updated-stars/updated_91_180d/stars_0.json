@@ -3,7 +3,7 @@
     "components": 85,
     "concepts": 18,
     "observations": 18,
-    "repos": 22,
+    "repos": 21,
     "terms": 18
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "appscodelabs/liche",
@@ -25,7 +25,6 @@
     "danielrosehill/ai-tools-plugin",
     "danielrosehill/Back-Up-Your-SaaS",
     "danielrosehill/BTRFS-Snapper-MCP",
-    "danielrosehill/Claude-Linux-Desktop-Manager",
     "danielrosehill/Claude-Rescue",
     "danielrosehill/Data-Projects-Index",
     "espressosystems/espresso-systems-common",

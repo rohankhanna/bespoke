@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 150,
-    "concepts": 118,
-    "observations": 118,
-    "repos": 32,
-    "terms": 127
+    "components": 210,
+    "concepts": 135,
+    "observations": 135,
+    "repos": 36,
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "AdaCore/gnatcoll-core",
     "adams85/acornima",
@@ -20,6 +20,7 @@
     "Ascend/Ascend-CI",
     "aspect-build/rules_esbuild",
     "Azure/bicep-extensibility",
+    "bazel-contrib/rules_d",
     "bazel-contrib/rules_distroless",
     "beyondcode/claude-hooks-sdk",
     "cbrgm/githubevents",
@@ -34,17 +35,20 @@
     "habamax/.vim",
     "harfbuzz/uharfbuzz",
     "IDAES/idaes-ext",
+    "kata-containers/www.katacontainers.io",
     "lxqt/lxqt-build-tools",
     "Mic92/nur-packages",
     "mrjones2014/codesettings.nvim",
     "musicman3/emarket",
+    "NVIDIA/spark-rapids-tools",
+    "ocaml-tracing/ocaml-trace",
+    "onnx/steering-committee",
     "sass-contrib/sass-embedded-host-ruby",
+    "sbt/sbt-java-formatter",
     "sentientwave/automata",
     "SimplyDanny/SwiftLintPlugins",
     "steipete/homebrew-tap",
     "thedoggybrad/easylist-mirror",
-    "w3c/webmediaapi",
-    "WebAssembly/custom-descriptors",
     "WebAssembly/custom-page-sizes"
   ]
 }

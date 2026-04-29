@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 529,
-    "concepts": 118,
-    "observations": 121,
-    "repos": 24,
-    "terms": 142
+    "components": 451,
+    "concepts": 108,
+    "observations": 111,
+    "repos": 21,
+    "terms": 126
   },
   "facet_version": 1,
   "filters": {
@@ -12,31 +12,28 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
+    "actions/create-github-app-token",
     "agent-sh/agentsys",
     "bcomnes/npm-run-all2",
-    "bmad-code-org/bmad-module-game-dev-studio",
     "chaijs/chai-http",
     "ClickHouse/agent-skills",
     "coderaiser/putout",
+    "conda-forge/conda-forge.github.io",
     "electron/node-abi",
     "eslint-community/eslint-plugin-n",
     "fastify/fastify-autoload",
     "graphql/graphql-over-http",
     "graphql/graphql-wg",
     "jupyter/nbclassic",
-    "karma-runner/karma-coverage",
     "lis186/ccxray",
     "lobehub/lobe-editor",
-    "mattgodbolt/jsbeeb",
     "nodejs/admin",
     "nodejs/TSC",
-    "octokit/request-action",
     "semantic-release/commit-analyzer",
     "semantic-release/github",
     "semantic-release/npm",
-    "sethgammon/citadel",
-    "stripe-samples/accept-a-payment"
+    "sethgammon/citadel"
   ]
 }

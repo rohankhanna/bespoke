@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 391,
-    "concepts": 138,
-    "observations": 138,
-    "repos": 20,
-    "terms": 139
+    "components": 812,
+    "concepts": 186,
+    "observations": 186,
+    "repos": 29,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,27 +12,36 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "apollographql/eslint-plugin-graphql",
     "archiverjs/node-archiver",
     "asciinema/asciinema-player",
     "Automattic/juice",
     "bcoe/c8",
+    "Blockstream/esplora",
     "callstack/react-native-builder-bob",
     "codemirror/dev",
+    "coderaiser/cloudcmd",
     "DavidAnson/markdownlint",
+    "fullstorydev/grpcui",
     "gautamkrishnar/blog-post-workflow",
     "google/closure-compiler",
+    "ipfs/ipfs-webui",
     "JuliaPluto/Pluto.jl",
+    "mapbox/node-pre-gyp",
     "micromatch/picomatch",
     "nodejs/Release",
+    "nodejs/undici",
     "npm/cli",
     "npm/node-semver",
     "piebald-ai/claude-code-system-prompts",
+    "pmmmwh/react-refresh-webpack-plugin",
     "rullerzhou-afk/clawd-on-desk",
     "tc39/agendas",
-    "webtorrent/bittorrent-dht",
-    "webtorrent/webtorrent-cli"
+    "tc39/test262",
+    "tchx84/Flatseal",
+    "thlorenz/doctoc",
+    "webtorrent/bittorrent-dht"
   ]
 }

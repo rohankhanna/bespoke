@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 513,
-    "concepts": 75,
-    "observations": 77,
-    "repos": 22,
-    "terms": 103
+    "components": 572,
+    "concepts": 81,
+    "observations": 82,
+    "repos": 24,
+    "terms": 109
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "agents-squads/squads-cli",
     "almogdepaz/wolfpack",
+    "Azure/bicep-deploy",
+    "celo-org/developer-tooling",
     "darkriszty/MarkdownTablePrettify-VSCodeExt",
     "dokploy/cli",
-    "electron-userland/electron-windows-msix",
+    "electron/windows-sign",
     "ethereum/eip-review-bot",
     "favware/cliff-jumper",
     "Godefroy/micdrop",
@@ -34,6 +35,7 @@
     "sgcarstrends/sgcarstrends",
     "Shougo/dpp-ext-installer",
     "slopus/slopus.github.io",
+    "wighawag/rocketh",
     "ylsssq926/relic.skill",
     "zuplo/docs"
   ]

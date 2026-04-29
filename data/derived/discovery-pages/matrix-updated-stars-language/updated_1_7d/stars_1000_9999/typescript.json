@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2759,
-    "concepts": 513,
-    "observations": 515,
-    "repos": 53,
-    "terms": 511
+    "components": 2398,
+    "concepts": 428,
+    "observations": 430,
+    "repos": 43,
+    "terms": 426
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "actions/cache",
     "actions/toolkit",
@@ -23,14 +23,11 @@
     "Azure/azure-sdk-for-js",
     "bluesky-social/atproto",
     "bufbuild/protobuf-es",
-    "ChainSafe/lodestar",
     "ChromeDevTools/devtools-frontend",
     "civitai/civitai",
     "clerk/javascript",
-    "cloudflare/agents",
     "coder/mux",
     "Comfy-Org/ComfyUI_frontend",
-    "Comfy-Org/desktop",
     "connectrpc/connect-es",
     "conventional-changelog/conventional-changelog",
     "denoland/std",
@@ -39,22 +36,17 @@
     "docker/setup-buildx-action",
     "electron/fiddle",
     "electron/forge",
-    "electron/rebuild",
     "EpicenterHQ/epicenter",
     "ethereumjs/ethereumjs-monorepo",
     "google/adk-js",
-    "gorhom/react-native-bottom-sheet",
     "graphql-hive/graphql-yoga",
     "iorate/ublacklist",
-    "ipfs/helia",
     "kulshekhar/ts-jest",
-    "langchain-ai/deepagentsjs",
     "microsoft/rnx-kit",
     "microsoft/vscode-cpptools",
     "microsoft/vscode-js-debug",
     "netlify/cli",
     "NomicFoundation/hardhat",
-    "open-telemetry/opentelemetry-js",
     "podman-desktop/podman-desktop",
     "r5n-labs/vscode-react-javascript-snippets",
     "react-native-community/cli",
@@ -62,10 +54,8 @@
     "safe-fndn/safe-smart-account",
     "tailwindlabs/prettier-plugin-tailwindcss",
     "tensorflow/tensorboard",
-    "typescript-language-server/typescript-language-server",
     "VoltAgent/voltagent",
     "vuejs/eslint-plugin-vue",
-    "wighawag/hardhat-deploy",
     "yarnpkg/berry"
   ]
 }

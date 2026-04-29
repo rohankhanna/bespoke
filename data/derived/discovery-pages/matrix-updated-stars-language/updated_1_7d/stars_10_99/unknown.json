@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 20,
+    "components": 18,
     "concepts": 15,
     "observations": 15,
-    "repos": 6,
+    "repos": 4,
     "terms": 15
   },
   "facet_version": 1,
@@ -12,11 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "canonical/ubuntu-security-notices",
-    "containerd/project",
-    "crewAIInc/skills",
     "docker/github-builder",
     "mypyc/mypyc-benchmark-results",
     "supabase/scoop-bucket"

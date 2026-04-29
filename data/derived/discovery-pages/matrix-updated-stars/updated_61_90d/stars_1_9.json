@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 29,
-    "terms": 104
+    "components": 126,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 28,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "0k/shyaml-rs",
     "adityasugandhi/skillsync-mcp",
@@ -19,13 +19,12 @@
     "alexpolonsky/agent-skill-jlm-coffee",
     "alexpolonsky/awesome-agent-skills-israel",
     "arya-s/phantty",
-    "biocypher/collectri",
     "birdofpreyru/js-utils",
+    "coderaiser/escover",
     "Coral-Protocol/coral-rs",
     "cpojer/js-codemod",
     "dart4e/dart4e-studio",
     "DavidKinder/Libraries",
-    "dbubel/intake",
     "ethereum-optimism/kurtosis-test",
     "feloy/tesh",
     "filip26/copper-multicodec",
@@ -37,9 +36,9 @@
     "objectbox/objectbox-swift-generator",
     "open-rpc/markdown-gen",
     "piebald-ai/.github",
-    "qiuyu96/CoDeF",
     "shesek/electrumd",
     "tianon/fake-git",
+    "tombelieber/claude-backup",
     "zen-eth/multiformats-zig",
     "zwowo1997/pack-repo-4ai"
   ]

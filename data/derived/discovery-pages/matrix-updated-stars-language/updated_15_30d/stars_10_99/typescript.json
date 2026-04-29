@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 343,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 10,
-    "terms": 46
+    "components": 385,
+    "concepts": 61,
+    "observations": 62,
+    "repos": 12,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,13 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "absolute-version/absolute-version-js",
+    "agents-squads/squads-cli",
     "blrchen/chatgpt-minimal",
     "buddingnewinsights/proxypal",
+    "electron-userland/electron-windows-msix",
     "ElementsProject/cln-application",
     "gnosischain/gbc-deposit-ui",
     "ipfs/ipld-explorer-components",

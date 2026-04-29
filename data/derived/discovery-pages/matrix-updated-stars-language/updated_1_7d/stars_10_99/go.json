@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 119,
-    "concepts": 95,
-    "observations": 95,
-    "repos": 14,
-    "terms": 95
+    "components": 60,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 9,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
@@ -12,21 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "abhinav/tmux-fastcopy",
     "aspect-build/aspect-gazelle",
     "aws-controllers-k8s/code-generator",
     "aws/aws-network-policy-agent",
     "containers/container-libs",
-    "davidkarlsen/flyway-operator",
-    "defilantech/LLMKube",
     "ipshipyard/p2p-forge",
     "kubernetes-sigs/provider-aws-test-infra",
     "kubernetes-sigs/verify-conformance",
     "muhlba91/external-dns-provider-adguard",
-    "openshift/ci-tools",
-    "sigstore/rekor-tiles",
-    "terraform-linters/tflint-ruleset-google"
+    "openshift/ci-tools"
   ]
 }

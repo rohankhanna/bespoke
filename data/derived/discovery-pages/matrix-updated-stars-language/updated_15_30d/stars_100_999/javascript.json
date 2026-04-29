@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 503,
-    "concepts": 133,
-    "observations": 135,
-    "repos": 30,
-    "terms": 143
+    "components": 627,
+    "concepts": 155,
+    "observations": 157,
+    "repos": 35,
+    "terms": 171
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
     "actions/hello-world-javascript-action",
@@ -21,6 +21,7 @@
     "Atheos/Atheos",
     "auth0/node-jws",
     "badgen/badgen",
+    "bmad-code-org/bmad-module-game-dev-studio",
     "chrisgoringe/cg-use-everywhere",
     "cjoudrey/graphql-schema-linter",
     "comme2e/comm",
@@ -34,12 +35,16 @@
     "fwcd/tree-sitter-kotlin",
     "ipld/explore.ipld.io",
     "istanbuljs/babel-plugin-istanbul",
+    "karma-runner/karma-coverage",
     "Level/abstract-level",
+    "mattgodbolt/jsbeeb",
     "muratcankoylan/ralph-wiggum-marketer",
+    "octokit/request-action",
     "OffchainLabs/arbitrum-tutorials",
     "semantic-release/changelog",
     "semantic-release/git",
     "sindresorhus/globals",
+    "stripe-samples/accept-a-payment",
     "terraform-linters/setup-tflint",
     "terser/html-minifier-terser",
     "thejoshwolfe/yauzl",

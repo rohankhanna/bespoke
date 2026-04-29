@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 100,
-    "concepts": 95,
-    "observations": 96,
-    "repos": 19,
-    "terms": 95
+    "components": 98,
+    "concepts": 81,
+    "observations": 81,
+    "repos": 18,
+    "terms": 81
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,19 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "alex/rust-asn1",
     "cryscan/web-rwkv",
     "ctz/graviola",
     "drahnr/cargo-spellcheck",
-    "esp-rs/esp-idf-svc",
     "FedericoPonzi/Horust",
-    "gimli-rs/addr2line",
+    "gdesmott/system-deps",
     "gjtorikian/commonmarker",
     "in-toto/attestation",
     "mitsuhiko/similar-asserts",
+    "nix-community/lorri",
     "nixops4/nixops4",
-    "Nugine/simd",
     "ramsayleung/rspotify",
     "rust-lang/libz-sys",
     "rust-lang/pkg-config-rs",

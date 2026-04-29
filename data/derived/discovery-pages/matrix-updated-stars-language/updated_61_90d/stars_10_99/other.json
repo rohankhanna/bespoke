@@ -3,7 +3,7 @@
     "components": 36,
     "concepts": 27,
     "observations": 27,
-    "repos": 12,
+    "repos": 14,
     "terms": 27
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "abap2UI5-addons/sql-console",
     "abapGit/ADT_Backend",
@@ -22,6 +22,8 @@
     "asg017/sqlite-hello",
     "DavidKinder/Windows-Glulxe",
     "dwyl/elixir-auth-github",
+    "Embarcadero/Lightweight-Python-Wrappers",
+    "Embarcadero/PythonPackages4Delphi",
     "FoundationDB/fdb-build-support",
     "MicrosoftDocs/vcpkg-docs",
     "ocaml-opam/opam-publish",

@@ -3,7 +3,7 @@
     "components": 3,
     "concepts": 10,
     "observations": 10,
-    "repos": 15,
+    "repos": 14,
     "terms": 10
   },
   "facet_version": 1,
@@ -12,10 +12,9 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "aaronrsun/spec-kit-issue",
-    "adiny/moodtrip-hotel-search",
     "danielrosehill/Agent-Journal",
     "danielrosehill/AI-Browser-Tools",
     "danielrosehill/AI-Memory-Planning-0426",

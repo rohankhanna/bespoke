@@ -1,17 +1,17 @@
 {
   "counts": {
     "components": 4435,
-    "concepts": 3410,
-    "observations": 3419,
-    "repos": 1107,
-    "terms": 3392
+    "concepts": 3419,
+    "observations": 3428,
+    "repos": 1110,
+    "terms": 3401
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "01-ai/Yi-1.5",
     "0russwest0/Awesome-Agent-RL",
@@ -907,6 +907,7 @@
     "programatik29/rust-web-benchmarks",
     "project-miracl/miracl",
     "project-mirai/awesome-mirai",
+    "proxy-wasm/spec",
     "pvdlg/conventional-changelog-metahub",
     "PyCQA/pep8-naming",
     "pyga/parsley",
@@ -1062,6 +1063,8 @@
     "Tobski/simple_vulkan_synchronization",
     "TooTallNate/node-http-proxy-agent",
     "tpope/vim-dotenv",
+    "travis-ci/packer-templates",
+    "travis-ci/travis-cookbooks",
     "travis-ci/worker",
     "triton-inference-server/pytriton",
     "TrueFiEng/Waffle",

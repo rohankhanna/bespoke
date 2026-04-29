@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 112,
-    "concepts": 140,
-    "observations": 140,
-    "repos": 42,
-    "terms": 139
+    "components": 115,
+    "concepts": 136,
+    "observations": 136,
+    "repos": 41,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "aesalazar/AsteroidsWasm",
     "alibaba-damo-academy/PixelRefer",
@@ -26,6 +26,7 @@
     "com-lihaoyi/cask",
     "cross-rs/cross-toolchains",
     "ecukes/ecukes",
+    "ema2159/centaur-tabs",
     "emacs-lsp/helm-lsp",
     "emacs-lsp/lsp-java",
     "emacs-lsp/lsp-treemacs",
@@ -49,9 +50,7 @@
     "stevearc/resession.nvim",
     "terraform-aws-modules/terraform-aws-apigateway-v2",
     "thinkdepthai/Deep_Research",
-    "travis-ci/packer-templates",
     "travis-ci/travis-build",
-    "travis-ci/travis-cookbooks",
     "VectorSpaceLab/MegaPairs",
     "vim-php/phpctags",
     "yaml/yaml-test-suite",

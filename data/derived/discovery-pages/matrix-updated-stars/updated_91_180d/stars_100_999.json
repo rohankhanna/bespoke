@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 869,
-    "concepts": 696,
-    "observations": 701,
-    "repos": 189,
-    "terms": 705
+    "components": 875,
+    "concepts": 706,
+    "observations": 711,
+    "repos": 190,
+    "terms": 715
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "23andMe/Yamale",
     "24mlight/a-share-mcp-is-just-i-need",
@@ -23,6 +23,7 @@
     "alibaba-damo-academy/PixelRefer",
     "Alibaba-NLP/ViDoRAG",
     "alirezarezvani/claude-code-skill-factory",
+    "alonw0/web-asset-generator",
     "Alpha-VLLM/Lumina-Image-2.0",
     "AMAP-ML/Tree-GRPO",
     "angular/vscode-ng-language-service",
@@ -46,6 +47,7 @@
     "ayoubben18/ab-method",
     "Azure/MS-AMP",
     "bagder/fcpp",
+    "bazelbuild/stardoc",
     "bdwgc/libatomic_ops",
     "behave/behave-django",
     "bhky/opennsfw2",
@@ -78,6 +80,7 @@
     "dtolnay/cargo-llvm-lines",
     "dustinblackman/cargo-run-bin",
     "ecukes/ecukes",
+    "ema2159/centaur-tabs",
     "emacs-lsp/helm-lsp",
     "emacs-lsp/lsp-java",
     "emacs-lsp/lsp-treemacs",
@@ -156,7 +159,6 @@
     "Parallel-Reasoning/APR",
     "pat-jj/s3",
     "pksunkara/cargo-workspaces",
-    "proxy-wasm/spec",
     "PyCQA/eradicate",
     "pyenv/pyenv-update",
     "rails/sprockets",
@@ -173,6 +175,7 @@
     "rust-lang/lang-team",
     "rusticstuff/simdutf8",
     "saagarjha/unxip",
+    "sail-sg/oat",
     "sayakpaul/diffusers-torchao",
     "scopecraft/command",
     "sgl-project/sgl-learning-materials",
@@ -186,9 +189,7 @@
     "thibautmelen/agentic-ai-systems",
     "thinkdepthai/Deep_Research",
     "TkTech/can_ada",
-    "travis-ci/packer-templates",
     "travis-ci/travis-build",
-    "travis-ci/travis-cookbooks",
     "tree-sitter/tree-sitter-julia",
     "TsinghuaDatabaseGroup/DB-GPT",
     "TTPlanetPig/Comfyui_TTP_Toolset",

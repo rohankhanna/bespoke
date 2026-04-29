@@ -1,6 +1,6 @@
 {
   "counts": {
-    "components": 20,
+    "components": 22,
     "concepts": 22,
     "observations": 22,
     "repos": 11,
@@ -12,14 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "charmbracelet/scoop-bucket",
+    "containerd/project",
+    "crewAIInc/skills",
     "Dexters-Hub/Dexters-Hub",
-    "flinedev/plankit",
     "google/oss-policies-info",
     "Homebrew/.github",
-    "kubernetes/steering",
     "ocaml/platform-blog",
     "pre-commit/mirrors-eslint",
     "simonw/simonwillisonblog-backup",

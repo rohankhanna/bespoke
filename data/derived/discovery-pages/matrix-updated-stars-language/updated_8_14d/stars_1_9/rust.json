@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 6,
-    "terms": 20
+    "components": 33,
+    "concepts": 8,
+    "observations": 8,
+    "repos": 5,
+    "terms": 10
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "agent-sh/agent-analyzer",
     "eikarna/hermes-rs",
     "EspressoSystems/espresso-example-l2",
     "kensave/agent-memory-rs",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 643,
-    "concepts": 97,
-    "observations": 98,
-    "repos": 18,
-    "terms": 97
+    "components": 542,
+    "concepts": 72,
+    "observations": 73,
+    "repos": 14,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "abaplint/transpiler",
     "apollographql/vscode-graphql",
-    "Azure/bicep-deploy",
     "bufbuild/protovalidate-es",
-    "celo-org/developer-tooling",
     "celo-org/social-connect",
-    "electron/windows-sign",
     "fannheyward/coc-xml",
     "grafana/profiles-drilldown",
     "gridatek/semantic-icons",
@@ -30,7 +27,6 @@
     "octokit/webhooks-methods.js",
     "ogx-ai/llama-stack-client-typescript",
     "TrigenSoftware/simple-release",
-    "vaultwarden/vw_web_builds",
-    "wighawag/rocketh"
+    "vaultwarden/vw_web_builds"
   ]
 }

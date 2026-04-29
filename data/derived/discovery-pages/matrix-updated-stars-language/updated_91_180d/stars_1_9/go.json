@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 29,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 4,
-    "terms": 13
+    "components": 31,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 5,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "codeGROOVE-dev/retry",
+    "dbubel/intake",
     "karpeleslab/tpl",
     "Layr-Labs/optimism",
     "redis/go-redis-entraid"

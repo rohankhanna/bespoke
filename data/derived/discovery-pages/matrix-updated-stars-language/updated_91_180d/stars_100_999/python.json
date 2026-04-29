@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 157,
-    "concepts": 206,
-    "observations": 209,
-    "repos": 51,
-    "terms": 204
+    "concepts": 219,
+    "observations": 222,
+    "repos": 53,
+    "terms": 217
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "23andMe/Yamale",
     "24mlight/a-share-mcp-is-just-i-need",
     "Alibaba-NLP/ViDoRAG",
     "alirezarezvani/claude-code-skill-factory",
+    "alonw0/web-asset-generator",
     "Alpha-VLLM/Lumina-Image-2.0",
     "AMAP-ML/Tree-GRPO",
     "apple/ToolSandbox",
@@ -57,6 +58,7 @@
     "PyCQA/eradicate",
     "redis-stack/redis-stack",
     "rust-lang/homu",
+    "sail-sg/oat",
     "sayakpaul/diffusers-torchao",
     "strands-agents/agent-builder",
     "theupdateframework/specification",

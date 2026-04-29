@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 570,
-    "concepts": 104,
-    "observations": 104,
-    "repos": 19,
-    "terms": 124
+    "components": 665,
+    "concepts": 117,
+    "observations": 117,
+    "repos": 22,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,18 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "a2aproject/a2a-inspector",
     "aquasecurity/trivy-vscode-extension",
     "aws-samples/dify-self-hosted-on-aws",
-    "aymenfurter/ralph",
+    "Charlie85270/Dorothy",
     "connectrpc/connect-query-es",
+    "cztomsik/ava",
     "eckardt/cchistory",
     "ethereum/staking-launchpad",
     "graphql-hive/graphql-eslint",
+    "haskell/vscode-haskell",
     "lobehub/lobe-charts",
     "lobehub/lobe-midjourney-webui",
     "lobehub/lobe-tts",
@@ -29,6 +31,7 @@
     "PanAeon/vscode-tmgrammar-test",
     "Piebald-AI/gemini-cli-desktop",
     "ruvnet/agentic-flow",
+    "shareai-lab/kode-agent-sdk",
     "sudocode-ai/sudocode",
     "sveltejs/prettier-plugin-svelte",
     "thesayyn/protoc-gen-ts",

@@ -3,7 +3,7 @@
     "components": 14,
     "concepts": 15,
     "observations": 15,
-    "repos": 7,
+    "repos": 9,
     "terms": 13
   },
   "facet_version": 1,
@@ -12,8 +12,10 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
+    "agenmod/distill-protocol-skill",
+    "agenmod/distill-shield-skill",
     "agenmod/okr-skill",
     "ashvardanian/ashvardanian",
     "axolotl-ai-cloud/ml-cross-entropy",

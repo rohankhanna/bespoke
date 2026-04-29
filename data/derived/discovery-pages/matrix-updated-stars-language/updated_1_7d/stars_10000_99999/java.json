@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 148,
-    "concepts": 180,
-    "observations": 180,
-    "repos": 12,
-    "terms": 178
+    "components": 94,
+    "concepts": 112,
+    "observations": 112,
+    "repos": 8,
+    "terms": 110
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "alibaba/nacos",
     "apache/doris",
-    "apache/dubbo",
     "apache/incubator-seata",
     "apple/pkl",
-    "bazelbuild/bazel",
     "ben-manes/caffeine",
     "grpc/grpc-java",
     "JetBrains/intellij-community",
-    "OpenAPITools/openapi-generator",
     "prestodb/presto",
     "SeleniumHQ/selenium"
   ]

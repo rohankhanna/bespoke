@@ -1,32 +1,26 @@
 {
   "counts": {
-    "components": 67,
-    "concepts": 55,
-    "observations": 55,
-    "repos": 20,
-    "terms": 55
+    "components": 36,
+    "concepts": 37,
+    "observations": 37,
+    "repos": 14,
+    "terms": 37
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "8144225309/superscalar-cln",
-    "aaronlamz/navpress",
     "conda-forge/cccl-feedstock",
     "conda-forge/conda-lock-feedstock",
     "conda-forge/python-isal-feedstock",
     "conda-forge/tianshou-feedstock",
-    "danielrosehill/adb-ops-plugin",
     "danielrosehill/AI-Presentation-Builders-Index",
-    "danielrosehill/Backup-Planner",
-    "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Israel",
     "DataDog/vault",
     "DeepWok/mase-docker",
-    "hauntsaninja/mypy",
     "hmellor/vllm",
     "kdubbo/xds-api",
     "nodenv/node-build-prerelease",

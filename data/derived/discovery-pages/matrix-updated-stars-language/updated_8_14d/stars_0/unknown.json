@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 32,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 34,
-    "terms": 27
+    "concepts": 19,
+    "observations": 19,
+    "repos": 37,
+    "terms": 28
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "alexcrichton/cc-rs",
@@ -31,14 +31,17 @@
     "damacol/jiunsong-supergemma4-26b-abliterated-multimodal-mlx-4bit",
     "damacol/meta-llama-llama-3-2-3b",
     "damacol/xai-org-grok-2",
+    "danielrosehill/adb-ops-plugin",
     "danielrosehill/Agent-Assisted-Purchase-Research-Index",
     "danielrosehill/AI-Geopol-Projects",
     "danielrosehill/Arch-And-Interiors-Index",
     "danielrosehill/audio-editing-plugin",
+    "danielrosehill/Backup-Planner",
     "danielrosehill/Claude-AI-Engineering-Plugin",
     "danielrosehill/Claude-Audio-Production-Plugin",
     "danielrosehill/Claude-Budgeting-Plugin",
     "danielrosehill/Claude-Career-Plugin",
+    "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
     "foundersieve687/skill-gateway",
     "livemania18/idiegti-sukonfiguruoti-yiimp-kasimo-baseinas-programine-iranga-ubuntu-linux",

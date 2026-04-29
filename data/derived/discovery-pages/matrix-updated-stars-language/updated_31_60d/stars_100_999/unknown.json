@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 6,
     "observations": 7,
-    "repos": 9,
+    "repos": 10,
     "terms": 6
   },
   "facet_version": 1,
@@ -12,13 +12,14 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "abubakarsiddik31/claude-skills-collection",
     "Calcium-Ion/new-api-horizon",
     "dotnet/source-build",
     "emberjs/core-notes",
     "eza-community/eza-themes",
+    "flathub/com.vscodium.codium",
     "hashicorp/vault-examples",
     "helm/community",
     "reactwg/react-native-releases",

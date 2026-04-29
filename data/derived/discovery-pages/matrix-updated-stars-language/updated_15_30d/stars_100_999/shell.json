@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 7,
-    "terms": 15
+    "components": 5,
+    "concepts": 11,
+    "observations": 11,
+    "repos": 6,
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "astro-han/claude-pace",
+    "EmbarkStudios/cargo-deny-action",
     "harbor-framework/terminal-bench-2",
-    "helm/chart-testing-action",
     "mattmc3/zephyr",
-    "SWE-bench/experiments",
     "trailofbits/claude-code-devcontainer",
     "undeadlist/claude-code-agents"
   ]

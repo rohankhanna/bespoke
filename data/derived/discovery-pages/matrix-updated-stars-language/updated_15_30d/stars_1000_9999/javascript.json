@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 348,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 18,
-    "terms": 71
+    "components": 376,
+    "concepts": 78,
+    "observations": 78,
+    "repos": 19,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "acss-io/atomizer",
     "actions/javascript-action",
@@ -29,6 +29,7 @@
     "pinojs/pino-pretty",
     "RichardLitt/standard-readme",
     "sindresorhus/hyper-snazzy",
+    "webtorrent/webtorrent-cli",
     "WiseLibs/better-sqlite3",
     "yeoman/yo",
     "ykdojo/claude-code-tips"

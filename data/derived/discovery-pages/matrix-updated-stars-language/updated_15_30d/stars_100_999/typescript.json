@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 482,
-    "concepts": 71,
-    "observations": 71,
-    "repos": 19,
-    "terms": 78
+    "components": 373,
+    "concepts": 61,
+    "observations": 61,
+    "repos": 16,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "actions/container-toolkit-action",
     "AmElmo/proofshot",
@@ -20,18 +20,15 @@
     "badlogic/pi-share-hf",
     "birdofpreyru/react-native-fs",
     "carlrannaberg/claudekit",
-    "Charlie85270/Dorothy",
-    "cztomsik/ava",
     "evmts/tevm-monorepo",
     "fastify/demo",
     "google/adk-web",
-    "haskell/vscode-haskell",
     "juliangruber/brace-expansion",
     "krassowski/jupyterlab-lsp",
+    "LuaLS/vscode-lua",
     "matepek/vscode-catch2-test-adapter",
     "nashaofu/screenshots",
     "NVIDIA/OpenShell-Community",
-    "shareai-lab/kode-agent-sdk",
     "vega/vega-embed"
   ]
 }

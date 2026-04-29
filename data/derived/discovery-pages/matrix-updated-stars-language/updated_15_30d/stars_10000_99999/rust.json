@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 47,
-    "concepts": 44,
-    "observations": 44,
-    "repos": 4,
-    "terms": 41
+    "components": 48,
+    "concepts": 52,
+    "observations": 52,
+    "repos": 5,
+    "terms": 49
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "ajeetdsouza/zoxide",
+    "alacritty/alacritty",
     "eza-community/eza",
     "hyperium/hyper",
     "lsd-rs/lsd"

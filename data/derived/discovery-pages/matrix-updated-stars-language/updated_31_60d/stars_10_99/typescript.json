@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 230,
-    "concepts": 39,
-    "observations": 39,
-    "repos": 10,
-    "terms": 39
+    "components": 215,
+    "concepts": 35,
+    "observations": 35,
+    "repos": 9,
+    "terms": 35
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "aiden0z/pptx-renderer",
     "automazeio/proof",
-    "br14n-sol/inquirer-file-selector",
     "HoneyLuka/uBlacklist",
     "ipfs/js-kubo-rpc-client",
     "klaudworks/ralph-meets-rex",

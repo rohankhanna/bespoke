@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 131,
-    "concepts": 209,
-    "observations": 209,
-    "repos": 58,
-    "terms": 208
+    "components": 133,
+    "concepts": 216,
+    "observations": 216,
+    "repos": 59,
+    "terms": 215
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "aappleby/smhasher",
     "aklomp/base64",
@@ -71,6 +71,7 @@
     "Squirrel/Squirrel.Windows",
     "Tencent/TNN",
     "tensorflow/community",
-    "weiliu89/caffe"
+    "weiliu89/caffe",
+    "ZipArchive/ZipArchive"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 704,
-    "concepts": 652,
-    "observations": 653,
-    "repos": 55,
-    "terms": 647
+    "components": 531,
+    "concepts": 535,
+    "observations": 536,
+    "repos": 43,
+    "terms": 530
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
@@ -21,13 +21,9 @@
     "argoproj/argo-cd",
     "caddyserver/caddy",
     "centrifugal/centrifugo",
-    "cli/cli",
-    "coder/coder",
     "containers/podman",
     "coredns/coredns",
-    "dexidp/dex",
     "distribution/distribution",
-    "docker/compose",
     "etcd-io/etcd",
     "ethereum/EIPs",
     "ethereum/go-ethereum",
@@ -35,22 +31,16 @@
     "gastownhall/gastown",
     "gin-gonic/gin",
     "git-lfs/git-lfs",
-    "go-delve/delve",
     "gofiber/fiber",
     "gohugoio/hugo",
-    "golangci/golangci-lint",
     "google/go-github",
     "grafana/loki",
     "grafana/pyroscope",
     "grpc/grpc-go",
     "hashicorp/consul",
-    "hashicorp/terraform",
     "hashicorp/vault",
-    "helm/helm",
     "ipfs/kubo",
     "jaegertracing/jaeger",
-    "jesseduffield/lazygit",
-    "kubernetes/kops",
     "kubernetes/minikube",
     "mikefarah/yq",
     "milvus-io/milvus",
@@ -59,7 +49,6 @@
     "nats-io/nats-server",
     "open-policy-agent/opa",
     "opencontainers/runc",
-    "opentofu/opentofu",
     "php/frankenphp",
     "prometheus/prometheus",
     "QuantumNous/new-api",
@@ -67,7 +56,6 @@
     "shirou/gopsutil",
     "slackhq/nebula",
     "syncthing/syncthing",
-    "thanos-io/thanos",
-    "trufflesecurity/trufflehog"
+    "thanos-io/thanos"
   ]
 }

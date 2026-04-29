@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 14,
-    "terms": 79
+    "components": 89,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 15,
+    "terms": 85
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
+    "a16z/helios",
     "anthropics/claudes-c-compiler",
     "apache/casbin-rs",
     "ash-rs/ash",

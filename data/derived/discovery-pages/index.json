@@ -1,6 +1,6 @@
 {
   "facet_version": 1,
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "language_counts": {
     "c_cpp": 751,
     "go": 788,
@@ -13,7 +13,7 @@
     "typescript": 656,
     "unknown": 650
   },
-  "matrix_updated_stars_language_nonempty": 414,
+  "matrix_updated_stars_language_nonempty": 415,
   "matrix_updated_stars_nonempty": 47,
   "repo_count": 8366,
   "star_counts": {
@@ -29,12 +29,12 @@
   },
   "updated_counts": {
     "updated_0_1d": 0,
-    "updated_15_30d": 825,
-    "updated_181d_plus": 3198,
-    "updated_1_7d": 1546,
-    "updated_31_60d": 620,
-    "updated_61_90d": 339,
-    "updated_8_14d": 1273,
+    "updated_15_30d": 894,
+    "updated_181d_plus": 3206,
+    "updated_1_7d": 1163,
+    "updated_31_60d": 624,
+    "updated_61_90d": 349,
+    "updated_8_14d": 1565,
     "updated_91_180d": 565
   }
 }

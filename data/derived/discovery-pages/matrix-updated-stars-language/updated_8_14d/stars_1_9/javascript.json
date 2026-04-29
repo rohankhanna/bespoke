@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 83,
-    "concepts": 80,
-    "observations": 80,
-    "repos": 15,
-    "terms": 88
+    "components": 58,
+    "concepts": 10,
+    "observations": 10,
+    "repos": 7,
+    "terms": 19
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,9 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "agent-sh/agent-core",
     "agent-sh/audit-project",
-    "agent-sh/can-i-help",
-    "agent-sh/drift-detect",
-    "agent-sh/enhance",
-    "agent-sh/onboard",
-    "agent-sh/perf",
-    "agent-sh/repo-intel",
-    "agent-sh/sync-docs",
     "anojndr/grok-to-openai",
     "apache/netbeans-antora",
     "ChadKillingsworth/closure-compiler-npm",

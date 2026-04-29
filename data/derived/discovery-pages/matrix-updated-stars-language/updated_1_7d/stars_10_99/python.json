@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 163,
-    "concepts": 105,
-    "observations": 107,
-    "repos": 23,
-    "terms": 104
+    "components": 117,
+    "concepts": 76,
+    "observations": 76,
+    "repos": 16,
+    "terms": 76
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "AMD-AGI/torchtitan-amd",
-    "angr/archinfo",
     "ansible/ansible-compat",
     "Ascend/TransferQueue",
-    "AstarVienna/ScopeSim",
     "atlanhq/application-sdk",
     "aws-controllers-k8s/test-infra",
     "bufbuild/protovalidate-python",
     "conda-forge/admin-requests",
     "conda-forge/conda-forge-repodata-patches-feedstock",
     "DeterminateSystems/determinate-nix-action",
-    "GaloisInc/BLST-Verification",
     "HabanaAI/vllm-fork",
     "harbor-framework/harbor-cookbook",
     "jxpress/lightning-hydra-template-vertex-ai",
@@ -33,9 +29,6 @@
     "metatensor/metatensor",
     "ModelCloud/Evalution",
     "OpenHands/benchmarks",
-    "pyodide/pytest-pyodide",
-    "ROCm/tritonBLAS",
-    "scipy/scipy-stubs",
-    "typeshed-internal/stub_uploader"
+    "ROCm/tritonBLAS"
   ]
 }

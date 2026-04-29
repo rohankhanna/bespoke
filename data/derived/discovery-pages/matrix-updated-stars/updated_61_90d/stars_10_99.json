@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 284,
-    "concepts": 196,
-    "observations": 196,
-    "repos": 70,
-    "terms": 204
+    "components": 299,
+    "concepts": 198,
+    "observations": 198,
+    "repos": 73,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "2slides/mcp-2slides",
     "AadSah/ConverSeg",
@@ -34,6 +34,7 @@
     "bigai-nlco/RuleReasoner",
     "Birch-san/box2d3-wasm",
     "bored-engineer/github-conditional-http-transport",
+    "br14n-sol/inquirer-file-selector",
     "camel-ai/seta",
     "cloudrepo-io/founder-os",
     "coderaiser/mock-import",
@@ -45,9 +46,11 @@
     "DavidKinder/Git",
     "DavidKinder/Windows-Glk",
     "DavidKinder/Windows-Glulxe",
-    "doraemonkeys/paddleocr",
     "dsxmachina/rfm",
     "dwyl/elixir-auth-github",
+    "Embarcadero/Lightweight-Python-Wrappers",
+    "Embarcadero/PythonEnvironments",
+    "Embarcadero/PythonPackages4Delphi",
     "ethereum/beacon-metrics",
     "ethereum/eipw",
     "flatpak/flatpak-xdg-utils",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 50,
-    "observations": 50,
-    "repos": 23,
-    "terms": 49
+    "components": 62,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 24,
+    "terms": 50
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,8 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "0xrsydn/nix-hermes-agent",
     "aspect-build/rules_cypress",
     "astropy/astropy-project",
     "awnist/cson-loader",
@@ -36,6 +35,8 @@
     "ocurrent/ocurrent-deployer",
     "opea-project/GenAIEval",
     "sbcgua/ajson",
-    "vorburger/blog"
+    "vorburger/blog",
+    "w3c/webmediaapi",
+    "WebAssembly/custom-descriptors"
   ]
 }

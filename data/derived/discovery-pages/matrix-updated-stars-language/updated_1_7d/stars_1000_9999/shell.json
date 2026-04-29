@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 62,
-    "concepts": 83,
-    "observations": 83,
-    "repos": 15,
-    "terms": 82
+    "components": 45,
+    "concepts": 64,
+    "observations": 64,
+    "repos": 11,
+    "terms": 63
   },
   "facet_version": 1,
   "filters": {
@@ -12,20 +12,16 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
-    "anthropics/claude-agent-sdk-typescript",
     "aquasecurity/trivy-action",
     "aurutils/aurutils",
     "bioconda/bioconda-recipes",
-    "conda-forge/miniforge",
     "devcontainers/images",
     "docker-library/docs",
     "docker-library/official-images",
-    "docker-library/postgres",
     "dtcooper/raspotify",
     "google/adk-docs",
-    "rbenv/ruby-build",
     "ROCm/ROCm",
     "void-linux/void-packages",
     "zsh-users/zsh-completions"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5629,
-    "concepts": 504,
-    "observations": 509,
-    "repos": 44,
-    "terms": 502
+    "components": 2529,
+    "concepts": 345,
+    "observations": 349,
+    "repos": 31,
+    "terms": 344
   },
   "facet_version": 1,
   "filters": {
@@ -12,33 +12,24 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "ajv-validator/ajv",
     "apache/superset",
     "apollographql/apollo-server",
-    "babel/babel",
     "bitwarden/clients",
     "bluesky-social/social-app",
-    "CherryHQ/cherry-studio",
     "ChromeDevTools/chrome-devtools-mcp",
     "cline/cline",
     "conventional-changelog/commitlint",
-    "DefinitelyTyped/DefinitelyTyped",
     "dotansimha/graphql-code-generator",
-    "elastic/kibana",
     "emberjs/ember.js",
-    "expo/expo",
     "FlowiseAI/Flowise",
     "google/brotli",
     "grafana/grafana",
     "graphile/crystal",
-    "graphql/graphiql",
     "graphql/graphql-js",
-    "juice-shop/juice-shop",
     "jupyterlab/jupyterlab",
-    "KaTeX/KaTeX",
-    "labring/FastGPT",
     "labring/sealos",
     "langchain-ai/langchainjs",
     "lobehub/lobehub",
@@ -52,11 +43,7 @@
     "renovatebot/renovate",
     "sass/sass",
     "tailwindlabs/tailwindcss",
-    "typescript-eslint/typescript-eslint",
     "vercel-labs/skills",
-    "vitejs/vite",
-    "vuejs/core",
-    "xtermjs/xterm.js",
-    "xyflow/xyflow"
+    "vuejs/core"
   ]
 }

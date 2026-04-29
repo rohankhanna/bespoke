@@ -1,21 +1,22 @@
 {
   "counts": {
-    "components": 668,
-    "concepts": 413,
-    "observations": 414,
-    "repos": 129,
-    "terms": 415
+    "components": 655,
+    "concepts": 411,
+    "observations": 412,
+    "repos": 126,
+    "terms": 413
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "0xC0000054/pdn-ddsfiletype-plus",
     "0xNyk/openclaw-to-hermes",
+    "0xrsydn/nix-hermes-agent",
     "ably-labs/realtime-multiplayer-space-invaders",
     "ably-labs/realtime-quiz-framework",
     "AbsaOSS/external-dns-infoblox-webhook",
@@ -50,7 +51,6 @@
     "bentoml/openllm-models",
     "blaine/fantastty",
     "bpftrace/user-tools",
-    "br14n-sol/inquirer-file-selector",
     "brody2consult/react-native-module-init",
     "BuddiesOfBudgie/budgie-desktop-view",
     "chaoss/grimoirelab-graal",
@@ -81,9 +81,6 @@
     "dwyl/email",
     "dwyl/mvp",
     "edge-classic/EDGE-classic",
-    "Embarcadero/Lightweight-Python-Wrappers",
-    "Embarcadero/PythonEnvironments",
-    "Embarcadero/PythonPackages4Delphi",
     "enola-dev/enola",
     "estesp/mquery",
     "explosion/weasel",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 146,
-    "concepts": 168,
-    "observations": 170,
-    "repos": 28,
-    "terms": 170
+    "components": 150,
+    "concepts": 177,
+    "observations": 179,
+    "repos": 30,
+    "terms": 178
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-28T07:21:38.058645+00:00",
+  "generated_at": "2026-04-29T05:37:11.117770+00:00",
   "repo_ids": [
     "apache/casbin-Casbin.NET",
     "athityakumar/colorls",
@@ -28,8 +28,10 @@
     "folke/lazydev.nvim",
     "folke/snacks.nvim",
     "folke/tokyonight.nvim",
+    "gjtorikian/html-proofer",
     "google/cel-spec",
     "hrsh7th/nvim-cmp",
+    "jgm/djot",
     "jpanther/congo",
     "lambdalisue/vim-fern",
     "lightning/bolts",
