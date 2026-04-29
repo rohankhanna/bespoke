@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 2398,
-    "concepts": 428,
-    "observations": 430,
-    "repos": 43,
-    "terms": 426
+    "components": 2305,
+    "concepts": 400,
+    "observations": 402,
+    "repos": 41,
+    "terms": 398
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "actions/cache",
     "actions/toolkit",
@@ -32,7 +32,6 @@
     "conventional-changelog/conventional-changelog",
     "denoland/std",
     "docker/build-push-action",
-    "docker/login-action",
     "docker/setup-buildx-action",
     "electron/fiddle",
     "electron/forge",
@@ -55,7 +54,6 @@
     "tailwindlabs/prettier-plugin-tailwindcss",
     "tensorflow/tensorboard",
     "VoltAgent/voltagent",
-    "vuejs/eslint-plugin-vue",
     "yarnpkg/berry"
   ]
 }

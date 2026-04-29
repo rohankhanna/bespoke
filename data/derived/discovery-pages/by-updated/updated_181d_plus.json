@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 14310,
-    "concepts": 9191,
-    "observations": 9211,
-    "repos": 3206,
-    "terms": 9135
+    "components": 14313,
+    "concepts": 9192,
+    "observations": 9212,
+    "repos": 3207,
+    "terms": 9136
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "01-ai/Yi",
     "01-ai/Yi-1.5",
@@ -2573,6 +2573,7 @@
     "peterbourgon/diskv",
     "PeterDaveHello/docker-doctoc",
     "petuum/adaptdl",
+    "pgvector/pgvector-ada",
     "pharmbio/sciluigi",
     "Piebald-AI/muda",
     "pimlie/geekworm-x-c1",

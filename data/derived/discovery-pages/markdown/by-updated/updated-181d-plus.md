@@ -1,6 +1,6 @@
 # Updated more than 180 days ago
 
-Generated at: `2026-04-29T05:37:11.117770+00:00`
+Generated at: `2026-04-29T07:17:54.224446+00:00`
 
 ## Active filters
 
@@ -8,11 +8,11 @@ Generated at: `2026-04-29T05:37:11.117770+00:00`
 
 ## Counts
 
-- repos: 3206
-- terms: 9135
-- components: 14310
-- concepts: 9191
-- observations: 9211
+- repos: 3207
+- terms: 9136
+- components: 14313
+- concepts: 9192
+- observations: 9212
 
 ## Static behavior
 
@@ -22,6 +22,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [pgvector/pgvector-ada](https://github.com/pgvector/pgvector-ada) | 0 | 2025-10-31T05:38:15Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [ZipArchive/ZipArchive](https://github.com/ZipArchive/ZipArchive) | 5590 | 2025-10-31T04:29:33Z | C/C++ | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [danielrosehill/AI-Agent-UN](https://github.com/danielrosehill/AI-Agent-UN) | 1 | 2025-10-30T17:29:07Z | Python | Model/data | 3 | 0 | 3 | 3 |
 | [Layr-Labs/eigensdk-go](https://github.com/Layr-Labs/eigensdk-go) | 75 | 2025-10-30T17:15:11Z | Go | Infrastructure/tooling | 8 | 6 | 8 | 8 |
@@ -6331,6 +6332,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [carlverret/fastfloattestbench](https://github.com/CarlVerret/FastFloatTestBench) | 1 | 2021-10-11T01:44:10Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [blockstream/rust-electrum-client](https://github.com/Blockstream/rust-electrum-client) | 1 | 2021-08-20T12:36:44Z | Unknown | CLI | 0 | 0 | 0 | 0 |
 | [unixorn/autoupdate-zgenom](https://github.com/unixorn/autoupdate-zgenom) | 1 | 2021-05-13T13:48:05Z | Shell | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [pgvector/pgvector-ada](https://github.com/pgvector/pgvector-ada) | 0 | 2025-10-31T05:38:15Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [danielrosehill/Claude-Linux-Desktop-Manager](https://github.com/danielrosehill/Claude-Linux-Desktop-Manager) | 0 | 2025-10-30T16:36:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [bgw/virtue](https://github.com/bgw/virtue) | 0 | 2025-10-29T23:57:55Z | Unknown | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [bnosac/images](https://github.com/bnosac/images) | 0 | 2025-10-29T13:30:01Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |

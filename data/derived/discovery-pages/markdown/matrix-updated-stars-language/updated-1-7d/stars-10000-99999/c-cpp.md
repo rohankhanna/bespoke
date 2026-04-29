@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · C/C++
 
-Generated at: `2026-04-29T05:37:11.117770+00:00`
+Generated at: `2026-04-29T07:17:54.224446+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 44
-- terms: 518
-- components: 382
-- concepts: 523
-- observations: 525
+- repos: 43
+- terms: 512
+- components: 368
+- concepts: 517
+- observations: 519
 
 ## Static behavior
 
@@ -69,7 +69,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ggml-org/ggml](https://github.com/ggml-org/ggml) | 14494 | 2026-04-22T12:49:00Z | C/C++ | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [Tencent/ncnn](https://github.com/Tencent/ncnn) | 23144 | 2026-04-22T11:42:01Z | C/C++ | Infrastructure/tooling | 26 | 8 | 26 | 27 |
 | [google/sentencepiece](https://github.com/google/sentencepiece) | 11780 | 2026-04-22T10:21:57Z | C/C++ | Infrastructure/tooling | 7 | 10 | 7 | 7 |
-| [jqlang/jq](https://github.com/jqlang/jq) | 34555 | 2026-04-22T06:36:35Z | C/C++ | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -85,7 +84,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [duckdb/duckdb](https://github.com/duckdb/duckdb) | 37650 | 2026-04-22T20:32:14Z | C/C++ | Infrastructure/tooling | 13 | 6 | 13 | 13 |
 | [mpv-player/mpv](https://github.com/mpv-player/mpv) | 34912 | 2026-04-22T23:38:48Z | C/C++ | CLI | 11 | 15 | 11 | 11 |
 | [google-ai-edge/mediapipe](https://github.com/google-ai-edge/mediapipe) | 34900 | 2026-04-23T16:40:07Z | C/C++ | Infrastructure/tooling | 18 | 20 | 18 | 18 |
-| [jqlang/jq](https://github.com/jqlang/jq) | 34555 | 2026-04-22T06:36:35Z | C/C++ | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [raysan5/raylib](https://github.com/raysan5/raylib) | 32353 | 2026-04-23T13:01:58Z | C/C++ | Infrastructure/tooling | 25 | 12 | 25 | 25 |
 | [microsoft/WSL](https://github.com/microsoft/WSL) | 31958 | 2026-04-22T19:02:57Z | C/C++ | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [facebook/rocksdb](https://github.com/facebook/rocksdb) | 31629 | 2026-04-23T03:41:46Z | C/C++ | Infrastructure/tooling | 6 | 11 | 6 | 6 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 504,
-    "concepts": 232,
-    "observations": 232,
-    "repos": 28,
-    "terms": 233
+    "components": 516,
+    "concepts": 243,
+    "observations": 243,
+    "repos": 29,
+    "terms": 243
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "asciinema/asciinema",
     "astral-sh/uv",
@@ -22,6 +22,7 @@
     "diem/diem",
     "diesel-rs/diesel",
     "facebook/relay",
+    "fish-shell/fish-shell",
     "foundry-rs/foundry",
     "huggingface/candle",
     "hyperium/tonic",

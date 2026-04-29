@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 454,
-    "concepts": 420,
-    "observations": 421,
-    "repos": 53,
-    "terms": 414
+    "components": 462,
+    "concepts": 427,
+    "observations": 428,
+    "repos": 54,
+    "terms": 421
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "AFLplusplus/AFLplusplus",
     "AOMediaCodec/libavif",
@@ -39,6 +39,7 @@
     "infiniflow/infinity",
     "inikep/lzbench",
     "intel/isa-l",
+    "jarro2783/cxxopts",
     "liballeg/allegro5",
     "libarchive/libarchive",
     "libgeos/geos",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 265,
-    "concepts": 296,
-    "observations": 297,
-    "repos": 53,
-    "terms": 295
+    "components": 267,
+    "concepts": 304,
+    "observations": 305,
+    "repos": 54,
+    "terms": 303
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "6551Team/opennews-mcp",
     "ajenti/ajenti",
@@ -25,7 +25,6 @@
     "cisco-ai-defense/skill-scanner",
     "containers/podman-compose",
     "datadog/guarddog",
-    "deepspeedai/DeepSpeedExamples",
     "django/daphne",
     "drivendataorg/cookiecutter-data-science",
     "EleutherAI/gpt-neox",
@@ -47,6 +46,7 @@
     "Kosinkadink/ComfyUI-VideoHelperSuite",
     "kurtmckee/feedparser",
     "Lightning-AI/LitServe",
+    "LLaVA-VL/LLaVA-NeXT",
     "microsoft/debugpy",
     "microsoft/MInference",
     "microsoft/pylance-release",
@@ -54,6 +54,7 @@
     "miguelgrinberg/python-socketio",
     "ml-explore/mlx-examples",
     "mll-lab-nu/RAGEN",
+    "modelscope/ms-agent",
     "neovim/pynvim",
     "nousresearch/atropos",
     "openvinotoolkit/open_model_zoo",

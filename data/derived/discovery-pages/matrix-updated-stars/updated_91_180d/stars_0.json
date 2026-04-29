@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 21,
-    "terms": 18
+    "components": 82,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 20,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "appscodelabs/liche",
@@ -30,7 +30,6 @@
     "espressosystems/espresso-systems-common",
     "faradayio/compose_yml",
     "illusionfield/fourseven-scss",
-    "pgvector/pgvector-ada",
     "smallscientist1/tilelang",
     "stainless-api/tsc-multi",
     "wintercg/fetch"

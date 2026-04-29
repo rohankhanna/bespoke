@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 6264,
-    "concepts": 3308,
-    "observations": 3323,
-    "repos": 286,
-    "terms": 3279
+    "components": 6200,
+    "concepts": 3260,
+    "observations": 3275,
+    "repos": 281,
+    "terms": 3232
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "89luca89/distrobox",
@@ -113,7 +113,6 @@
     "fastify/fastify",
     "fastlane/fastlane",
     "fffaraz/awesome-cpp",
-    "fish-shell/fish-shell",
     "FlagOpen/FlagEmbedding",
     "FlowiseAI/Flowise",
     "FreeRDP/FreeRDP",
@@ -169,7 +168,6 @@
     "JetBrains/kotlin",
     "jgm/pandoc",
     "jj-vcs/jj",
-    "jqlang/jq",
     "JuliaLang/julia",
     "jupyter/notebook",
     "jupyterlab/jupyterlab",
@@ -210,7 +208,6 @@
     "NVIDIA-NeMo/NeMo",
     "NVIDIA/Megatron-LM",
     "NVIDIA/TensorRT-LLM",
-    "nvim-telescope/telescope.nvim",
     "nwjs/nw.js",
     "OAI/OpenAPI-Specification",
     "ocornut/imgui",
@@ -238,7 +235,6 @@
     "pytorch/vision",
     "qemu/qemu",
     "QuantumNous/new-api",
-    "rails/rails",
     "rayon-rs/rayon",
     "raysan5/raylib",
     "react-navigation/react-navigation",
@@ -270,7 +266,6 @@
     "swiftlang/swift",
     "swiftlang/swift-evolution",
     "swiftlang/swift-package-manager",
-    "syncthing/syncthing",
     "systemd/systemd",
     "tailwindlabs/tailwindcss",
     "taskflow/taskflow",

@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 333,
-    "concepts": 137,
-    "observations": 138,
-    "repos": 108,
-    "terms": 137
+    "components": 336,
+    "concepts": 138,
+    "observations": 139,
+    "repos": 109,
+    "terms": 138
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "0ghny/asdf-tlsgcli",
     "5scontrol/5s-algorithms-controller",
@@ -103,6 +103,7 @@
     "nim65s/git-archive-all",
     "nlamirault/markdownfmt",
     "nugine/simd-benches",
+    "pgvector/pgvector-ada",
     "redcaps-dataset/pytorch-retinaface",
     "rudionrails/yell",
     "shesek/rust-jsonrpc",

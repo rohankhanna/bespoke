@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-04-29T05:37:11.117770+00:00`
+Generated at: `2026-04-29T07:17:54.224446+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 43
-- terms: 530
-- components: 531
-- concepts: 535
-- observations: 536
+- repos: 42
+- terms: 521
+- components: 506
+- concepts: 526
+- observations: 527
 
 ## Static behavior
 
@@ -68,7 +68,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 63714 | 2026-04-22T13:45:49Z | Go | Infrastructure/tooling | 12 | 19 | 12 | 13 |
 | [opencontainers/runc](https://github.com/opencontainers/runc) | 13189 | 2026-04-22T12:18:23Z | Go | CLI | 4 | 11 | 4 | 4 |
 | [thanos-io/thanos](https://github.com/thanos-io/thanos) | 14026 | 2026-04-22T10:50:02Z | Go | Infrastructure/tooling | 17 | 12 | 17 | 17 |
-| [syncthing/syncthing](https://github.com/syncthing/syncthing) | 82885 | 2026-04-22T06:38:05Z | Go | Infrastructure/tooling | 9 | 25 | 9 | 9 |
 
 ## Repos sorted by stars
 
@@ -76,7 +75,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [gin-gonic/gin](https://github.com/gin-gonic/gin) | 88359 | 2026-04-22T22:32:49Z | Go | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [gohugoio/hugo](https://github.com/gohugoio/hugo) | 87725 | 2026-04-22T20:41:51Z | Go | Infrastructure/tooling | 7 | 12 | 7 | 7 |
-| [syncthing/syncthing](https://github.com/syncthing/syncthing) | 82885 | 2026-04-22T06:38:05Z | Go | Infrastructure/tooling | 9 | 25 | 9 | 9 |
 | [caddyserver/caddy](https://github.com/caddyserver/caddy) | 71765 | 2026-04-23T00:25:18Z | Go | Infrastructure/tooling | 21 | 13 | 21 | 21 |
 | [moby/moby](https://github.com/moby/moby) | 71488 | 2026-04-23T22:38:10Z | Go | Infrastructure/tooling | 5 | 12 | 5 | 5 |
 | [prometheus/prometheus](https://github.com/prometheus/prometheus) | 63714 | 2026-04-22T13:45:49Z | Go | Infrastructure/tooling | 12 | 19 | 12 | 13 |

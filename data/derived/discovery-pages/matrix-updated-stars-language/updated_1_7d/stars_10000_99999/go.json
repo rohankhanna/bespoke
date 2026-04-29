@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 531,
-    "concepts": 535,
-    "observations": 536,
-    "repos": 43,
-    "terms": 530
+    "components": 506,
+    "concepts": 526,
+    "observations": 527,
+    "repos": 42,
+    "terms": 521
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "99designs/gqlgen",
@@ -55,7 +55,6 @@
     "redis/go-redis",
     "shirou/gopsutil",
     "slackhq/nebula",
-    "syncthing/syncthing",
     "thanos-io/thanos"
   ]
 }

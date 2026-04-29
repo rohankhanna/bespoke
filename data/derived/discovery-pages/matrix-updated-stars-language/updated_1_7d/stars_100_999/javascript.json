@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 504,
-    "concepts": 116,
-    "observations": 119,
-    "repos": 16,
-    "terms": 115
+    "components": 412,
+    "concepts": 98,
+    "observations": 101,
+    "repos": 13,
+    "terms": 98
   },
   "facet_version": 1,
   "filters": {
@@ -12,19 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "adamlui/ai-web-extensions",
     "apache/incubator-seata-website",
-    "browserslist/caniuse-lite",
     "CVEProject/cve-services",
-    "DavidAnson/markdownlint-cli2",
     "dequelabs/axe-core-npm",
     "evenchange4/graphql.macro",
     "i18next/i18next-fs-backend",
     "i18next/i18next-http-backend",
     "marwin1991/profile-technology-icons",
-    "neostandard/neostandard",
     "OffchainLabs/arbitrum-docs",
     "plone/volto",
     "poolifier/poolifier",

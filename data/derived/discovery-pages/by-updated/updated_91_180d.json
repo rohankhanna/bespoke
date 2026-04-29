@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 2949,
-    "concepts": 2037,
-    "observations": 2053,
+    "components": 2946,
+    "concepts": 2038,
+    "observations": 2054,
     "repos": 565,
-    "terms": 2056
+    "terms": 2057
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "01mf02/hifijson",
     "1ilkhamov/opencode-hermes-multiagent",
@@ -299,6 +299,7 @@
     "illusionfield/fourseven-scss",
     "inclusionAI/ASearcher",
     "infiniflow/resource",
+    "instrumenta/kubeval",
     "intel/isa-l_crypto",
     "IntelLabs/fastRAG",
     "ipfs-shipyard/gomobile-ipfs",
@@ -436,7 +437,6 @@
     "parruda/ruby_llm",
     "pat-jj/s3",
     "PeterGriffinJin/Search-R1",
-    "pgvector/pgvector-ada",
     "piotrostr/listen",
     "pksunkara/cargo-workspaces",
     "PlexPt/chatgpt-java",

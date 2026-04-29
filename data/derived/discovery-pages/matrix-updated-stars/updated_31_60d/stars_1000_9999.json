@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1514,
-    "concepts": 884,
-    "observations": 888,
-    "repos": 169,
-    "terms": 914
+    "components": 1515,
+    "concepts": 885,
+    "observations": 889,
+    "repos": 170,
+    "terms": 915
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "actions/download-artifact",
     "akheron/jansson",
@@ -57,6 +57,7 @@
     "David-OConnor/pyflow",
     "davidhalter/jedi",
     "ddworken/hishtory",
+    "deepspeedai/DeepSpeedExamples",
     "devcontainers/spec",
     "dghubble/sling",
     "dimitri/el-get",

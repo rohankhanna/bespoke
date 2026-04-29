@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 570,
-    "concepts": 457,
-    "observations": 461,
-    "repos": 73,
-    "terms": 461
+    "components": 572,
+    "concepts": 451,
+    "observations": 455,
+    "repos": 74,
+    "terms": 455
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "0xAX/asm",
     "actions/runner",
@@ -27,6 +27,7 @@
     "babashka/babashka",
     "BarutSRB/OmniWM",
     "briansmith/ring",
+    "BuddiesOfBudgie/budgie-desktop",
     "cimgui/cimgui",
     "circe/circe",
     "clj-kondo/clj-kondo",
@@ -51,7 +52,6 @@
     "ibhagwan/fzf-lua",
     "junegunn/seoul256.vim",
     "KhronosGroup/glTF",
-    "microsoft/ai-dev-gallery",
     "ml-explore/mlx-swift-examples",
     "modelscope/modelscope-classroom",
     "NixOS/hydra",
@@ -67,6 +67,7 @@
     "prabirshrestha/vim-lsp",
     "prometheus-community/helm-charts",
     "puma/puma",
+    "puremourning/vimspector",
     "pyannote/pyannote-audio",
     "python-mode/python-mode",
     "rack/rack",

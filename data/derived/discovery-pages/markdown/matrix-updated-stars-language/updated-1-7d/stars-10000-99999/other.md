@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-04-29T05:37:11.117770+00:00`
+Generated at: `2026-04-29T07:17:54.224446+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 43
-- terms: 417
-- components: 421
-- concepts: 419
-- observations: 422
+- repos: 41
+- terms: 395
+- components: 408
+- concepts: 397
+- observations: 400
 
 ## Static behavior
 
@@ -67,8 +67,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [deepset-ai/haystack](https://github.com/deepset-ai/haystack) | 24952 | 2026-04-22T15:41:54Z | Other | Infrastructure/tooling | 19 | 12 | 19 | 19 |
 | [jekyll/jekyll](https://github.com/jekyll/jekyll) | 51376 | 2026-04-22T14:50:12Z | Other | Infrastructure/tooling | 13 | 10 | 14 | 14 |
 | [OAI/OpenAPI-Specification](https://github.com/OAI/OpenAPI-Specification) | 30901 | 2026-04-22T07:43:52Z | Other | Infrastructure/tooling | 12 | 16 | 12 | 12 |
-| [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | 19337 | 2026-04-22T06:53:21Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
-| [rails/rails](https://github.com/rails/rails) | 58367 | 2026-04-22T06:12:58Z | Other | Infrastructure/tooling | 14 | 9 | 14 | 14 |
 
 ## Repos sorted by stars
 
@@ -76,7 +74,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [openai/openai-cookbook](https://github.com/openai/openai-cookbook) | 72898 | 2026-04-22T17:45:25Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [swiftlang/swift](https://github.com/swiftlang/swift) | 69946 | 2026-04-24T05:02:02Z | Other | Unknown | 0 | 0 | 0 | 0 |
-| [rails/rails](https://github.com/rails/rails) | 58367 | 2026-04-22T06:12:58Z | Other | Infrastructure/tooling | 14 | 9 | 14 | 14 |
 | [JetBrains/kotlin](https://github.com/JetBrains/kotlin) | 52614 | 2026-04-23T01:06:01Z | Other | Unknown | 9 | 0 | 9 | 9 |
 | [jekyll/jekyll](https://github.com/jekyll/jekyll) | 51376 | 2026-04-22T14:50:12Z | Other | Infrastructure/tooling | 13 | 10 | 14 | 14 |
 | [JuliaLang/julia](https://github.com/JuliaLang/julia) | 48617 | 2026-04-22T22:45:56Z | Other | Infrastructure/tooling | 15 | 7 | 15 | 15 |
@@ -94,7 +91,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GoogleContainerTools/distroless](https://github.com/GoogleContainerTools/distroless) | 22544 | 2026-04-22T20:52:13Z | Other | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [dotnet/roslyn](https://github.com/dotnet/roslyn) | 20381 | 2026-04-23T18:17:15Z | Other | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [google/fonts](https://github.com/google/fonts) | 19972 | 2026-04-23T10:30:33Z | Other | Infrastructure/tooling | 8 | 22 | 8 | 8 |
-| [nvim-telescope/telescope.nvim](https://github.com/nvim-telescope/telescope.nvim) | 19337 | 2026-04-22T06:53:21Z | Other | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [triton-lang/triton](https://github.com/triton-lang/triton) | 19040 | 2026-04-24T11:33:45Z | Other | Infrastructure/tooling | 8 | 9 | 8 | 8 |
 | [vim-airline/vim-airline](https://github.com/vim-airline/vim-airline) | 17947 | 2026-04-22T20:42:40Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [AssemblyScript/assemblyscript](https://github.com/AssemblyScript/assemblyscript) | 17890 | 2026-04-22T18:14:20Z | Other | Infrastructure/tooling | 7 | 16 | 7 | 7 |

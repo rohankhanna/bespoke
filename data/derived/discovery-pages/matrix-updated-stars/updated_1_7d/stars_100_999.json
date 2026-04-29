@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 3376,
-    "concepts": 1804,
-    "observations": 1813,
-    "repos": 276,
-    "terms": 1796
+    "components": 3235,
+    "concepts": 1746,
+    "observations": 1755,
+    "repos": 268,
+    "terms": 1739
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "a2aproject/a2a-go",
@@ -34,9 +34,7 @@
     "alibaba/ROCK",
     "alibaizhanov/mengram",
     "alpinelinux/aports",
-    "antonbabenko/awesome-terraform-compliance",
     "apache/datafusion-python",
-    "apache/dubbo-go-samples",
     "apache/incubator-seata-website",
     "apollographql/apollo-mcp-server",
     "argotorg/hevm",
@@ -69,7 +67,6 @@
     "Blockstream/electrs",
     "boazsegev/iodine",
     "boto/s3transfer",
-    "browserslist/caniuse-lite",
     "bufbuild/protovalidate-go",
     "Calinou/scoop-games",
     "cedar-policy/cedar-spec",
@@ -98,14 +95,12 @@
     "danielrosehill/Claude-Code-Projects-Index",
     "dart-lang/shelf",
     "dart-lang/tools",
-    "DavidAnson/markdownlint-cli2",
     "DavidKinder/Inform6",
     "deepset-ai/haystack-core-integrations",
     "dequelabs/axe-core-npm",
     "DeterminateSystems/nix-installer-action",
     "docker/bake-action",
     "docker/model-runner",
-    "docker/setup-qemu-action",
     "dotnet/csharpstandard",
     "dotnet/dotnet-api-docs",
     "dotnet/install-scripts",
@@ -184,7 +179,6 @@
     "lu-zero/cargo-c",
     "marin-community/marin",
     "marwin1991/profile-technology-icons",
-    "MasterJ93/ATProtoKit",
     "microsoft/CsWinRT",
     "microsoft/dcp",
     "microsoft/playwright-vscode",
@@ -195,7 +189,6 @@
     "milvus-io/milvus-sdk-java",
     "mitsuba-renderer/drjit",
     "moul/gotty-client",
-    "neostandard/neostandard",
     "NixOS/nix-installer",
     "NixOS/nixos-homepage",
     "nodejs/gyp-next",
@@ -286,7 +279,6 @@
     "Watfaq/PowerSession-rs",
     "web-platform-tests/wpt.fyi",
     "WebAssembly/meetings",
-    "WebAssembly/threads",
     "yetanotherco/aligned_layer",
     "zilliztech/vts"
   ]

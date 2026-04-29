@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Other
 
-Generated at: `2026-04-29T05:37:11.117770+00:00`
+Generated at: `2026-04-29T07:17:54.224446+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 23
-- terms: 22
-- components: 72
-- concepts: 22
-- observations: 22
+- repos: 24
+- terms: 23
+- components: 75
+- concepts: 23
+- observations: 23
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [pgvector/pgvector-ada](https://github.com/pgvector/pgvector-ada) | 0 | 2025-10-31T05:38:15Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [bnosac/images](https://github.com/bnosac/images) | 0 | 2025-10-29T13:30:01Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [XcodesOrg/homebrew-cask](https://github.com/XcodesOrg/homebrew-cask) | 0 | 2025-09-20T04:45:32Z | Other | CLI | 7 | 13 | 7 | 7 |
 | [dop-amin/ches2025-slothy-tutorial](https://github.com/dop-amin/ches2025-slothy-tutorial) | 0 | 2025-09-14T01:00:20Z | Other | Unknown | 0 | 0 | 0 | 0 |
@@ -54,6 +55,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [pgvector/pgvector-ada](https://github.com/pgvector/pgvector-ada) | 0 | 2025-10-31T05:38:15Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [bnosac/images](https://github.com/bnosac/images) | 0 | 2025-10-29T13:30:01Z | Other | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [XcodesOrg/homebrew-cask](https://github.com/XcodesOrg/homebrew-cask) | 0 | 2025-09-20T04:45:32Z | Other | CLI | 7 | 13 | 7 | 7 |
 | [dop-amin/ches2025-slothy-tutorial](https://github.com/dop-amin/ches2025-slothy-tutorial) | 0 | 2025-09-14T01:00:20Z | Other | Unknown | 0 | 0 | 0 | 0 |

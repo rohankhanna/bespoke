@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 84,
-    "observations": 86,
-    "repos": 16,
-    "terms": 81
+    "components": 90,
+    "concepts": 93,
+    "observations": 95,
+    "repos": 17,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "alrra/dotfiles",
     "anthropics/claude-agent-sdk-typescript",
@@ -22,6 +22,7 @@
     "clangd/clangd",
     "conda-forge/miniforge",
     "devcontainers/features",
+    "devcontainers/images",
     "diet103/claude-code-infrastructure-showcase",
     "docker-library/docker",
     "docker-library/golang",

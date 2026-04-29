@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 788,
-    "concepts": 682,
-    "observations": 682,
-    "repos": 86,
-    "terms": 677
+    "components": 777,
+    "concepts": 670,
+    "observations": 670,
+    "repos": 84,
+    "terms": 665
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "a2aproject/a2a-samples",
     "abapGit/abapGit",
@@ -28,7 +28,6 @@
     "beam-community/elixir-companies",
     "blockscout/blockscout",
     "boostorg/boost",
-    "BuddiesOfBudgie/budgie-desktop",
     "CesiumGS/3d-tiles",
     "chromebrew/chromebrew",
     "clojure-lsp/clojure-lsp",
@@ -79,7 +78,6 @@
     "psmux/psmux",
     "purcell/emacs.d",
     "purcell/exec-path-from-shell",
-    "puremourning/vimspector",
     "r-spatial/sf",
     "rapidsai/cugraph",
     "saghen/blink.cmp",

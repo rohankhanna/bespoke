@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 63,
-    "concepts": 88,
-    "observations": 88,
-    "repos": 14,
-    "terms": 88
+    "concepts": 90,
+    "observations": 90,
+    "repos": 15,
+    "terms": 90
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "99designs/aws-vault",
     "achannarasappa/ticker",
@@ -23,6 +23,7 @@
     "gin-gonic/contrib",
     "github/git-sizer",
     "h2non/imaginary",
+    "instrumenta/kubeval",
     "jhump/protoreflect",
     "jpillora/cloud-torrent",
     "muesli/termenv",

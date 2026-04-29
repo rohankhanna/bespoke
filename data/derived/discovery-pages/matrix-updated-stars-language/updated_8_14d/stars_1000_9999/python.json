@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 697,
-    "concepts": 754,
-    "observations": 755,
-    "repos": 100,
-    "terms": 773
+    "components": 694,
+    "concepts": 745,
+    "observations": 746,
+    "repos": 98,
+    "terms": 764
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "agricidaniel/claude-ads",
     "agricidaniel/claude-seo",
@@ -77,14 +77,12 @@
     "KhronosGroup/glTF-Blender-IO",
     "kohya-ss/sd-scripts",
     "langchain-ai/langchain-mcp-adapters",
-    "LLaVA-VL/LLaVA-NeXT",
     "ltdrdata/ComfyUI-Impact-Pack",
     "mbailey/voicemode",
     "microsoft/LMOps",
     "mkdocs/catalog",
     "mlcommons/training",
     "modelscope/modelscope",
-    "modelscope/ms-agent",
     "mxmlnkn/ratarmount",
     "nesquena/hermes-webui",
     "nix-community/NUR",

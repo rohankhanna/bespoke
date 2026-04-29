@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 7364,
-    "concepts": 4333,
-    "observations": 4354,
-    "repos": 894,
-    "terms": 4362
+    "components": 7387,
+    "concepts": 4364,
+    "observations": 4385,
+    "repos": 898,
+    "terms": 4393
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "0ghny/gitconfig",
     "0ghny/shellx",
@@ -320,7 +320,6 @@
     "ddh0/easy-llama",
     "debug-js/debug",
     "deepseek-ai/FlashMLA",
-    "deepspeedai/DeepSpeedExamples",
     "DefinedNet/mobile_nebula",
     "delgan/loguru",
     "devcontainers/devcontainers.github.io",
@@ -599,6 +598,7 @@
     "linebender/resvg",
     "lint-staged/lint-staged",
     "liuchengxu/vim-clap",
+    "LLaVA-VL/LLaVA-NeXT",
     "llm-in-sandbox/llm-in-sandbox",
     "lobehub/lobe-icons",
     "lsd-rs/lsd",
@@ -626,6 +626,7 @@
     "mem0ai/memory-benchmarks",
     "meta-pytorch/torchft",
     "mfussenegger/nvim-dap",
+    "microsoft/ai-dev-gallery",
     "microsoft/debugpy",
     "microsoft/DirectX-Graphics-Samples",
     "microsoft/language-server-protocol",
@@ -661,6 +662,7 @@
     "MME-Benchmarks/Video-MME-v2",
     "mockingbot/react-native-zip-archive",
     "modelscope/DiffSynth-Engine",
+    "modelscope/ms-agent",
     "mosaicml/diffusion",
     "mozilla/cbindgen",
     "Mrs4s/go-cqhttp",
@@ -733,6 +735,7 @@
     "OpenBMB/ChatDev",
     "openclaw/nix-openclaw",
     "opencontainers/distribution-spec",
+    "opencv/opencv_contrib",
     "openvinotoolkit/open_model_zoo",
     "operator-framework/community",
     "oscard0m/ts-transformer-remove-named-export",
@@ -740,6 +743,7 @@
     "paretosecurity/pareto-mac",
     "pauldmccarthy/indexed_gzip",
     "peter-evans/repository-dispatch",
+    "pgvector/pgvector",
     "phodal/auto-dev",
     "piebald-ai/piebald",
     "pillarjs/iconv-lite",

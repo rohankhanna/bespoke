@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 4396,
-    "concepts": 2615,
-    "observations": 2628,
-    "repos": 624,
-    "terms": 2668
+    "components": 4397,
+    "concepts": 2616,
+    "observations": 2629,
+    "repos": 625,
+    "terms": 2669
   },
   "facet_version": 1,
   "filters": {
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "0xBigBoss/vscode-bootty",
@@ -226,6 +226,7 @@
     "ddworken/hishtory",
     "DeanoC/tiny_imageformat",
     "deepinsight/insightface",
+    "deepspeedai/DeepSpeedExamples",
     "depado/bfchroma",
     "devcontainers/spec",
     "dfrg/swash",

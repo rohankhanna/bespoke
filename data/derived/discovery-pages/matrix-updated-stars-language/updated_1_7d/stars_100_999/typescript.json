@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 777,
-    "concepts": 179,
-    "observations": 179,
-    "repos": 24,
-    "terms": 179
+    "components": 750,
+    "concepts": 167,
+    "observations": 167,
+    "repos": 23,
+    "terms": 167
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-29T05:37:11.117770+00:00",
+  "generated_at": "2026-04-29T07:17:54.224446+00:00",
   "repo_ids": [
     "a2aproject/a2a-js",
     "abaplint/abaplint",
@@ -22,7 +22,6 @@
     "circlefin/stablecoin-evm",
     "DeterminateSystems/nix-installer-action",
     "docker/bake-action",
-    "docker/setup-qemu-action",
     "EclipseFdn/open-vsx.org",
     "electron/packager",
     "graphprotocol/graph-client",
