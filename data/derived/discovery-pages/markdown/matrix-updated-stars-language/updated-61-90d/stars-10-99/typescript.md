@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · TypeScript
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 16
-- components: 123
-- concepts: 14
-- observations: 14
+- repos: 10
+- terms: 17
+- components: 144
+- concepts: 15
+- observations: 15
 
 ## Static behavior
 
@@ -30,6 +30,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [br14n-sol/inquirer-file-selector](https://github.com/br14n-sol/inquirer-file-selector) | 17 | 2026-02-27T18:07:30Z | TypeScript | Web app | 4 | 15 | 4 | 4 |
 | [nulone/claude-rules-doctor](https://github.com/nulone/claude-rules-doctor) | 11 | 2026-02-25T02:41:48Z | TypeScript | CLI | 0 | 7 | 0 | 0 |
 | [2slides/mcp-2slides](https://github.com/2slides/mcp-2slides) | 28 | 2026-02-20T08:17:02Z | TypeScript | Service/API | 2 | 8 | 2 | 2 |
+| [hsimpson/vscode-glsllint](https://github.com/hsimpson/vscode-glsllint) | 92 | 2026-02-12T18:52:35Z | TypeScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [lobehub/.github](https://github.com/lobehub/.github) | 11 | 2026-02-08T00:31:53Z | TypeScript | Infrastructure/tooling | 2 | 11 | 0 | 0 |
 | [omril321/automated-notebooklm](https://github.com/omril321/automated-notebooklm) | 15 | 2026-02-07T09:45:17Z | TypeScript | Unknown | 0 | 17 | 0 | 0 |
 | [lnbc1QWFyb24/lnmessage](https://github.com/lnbc1QWFyb24/lnmessage) | 22 | 2026-02-05T03:27:50Z | TypeScript | Web app | 3 | 13 | 3 | 3 |
@@ -40,6 +41,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [hsimpson/vscode-glsllint](https://github.com/hsimpson/vscode-glsllint) | 92 | 2026-02-12T18:52:35Z | TypeScript | Infrastructure/tooling | 1 | 21 | 1 | 1 |
 | [androidStern-personal/openclaw-mcp-adapter](https://github.com/androidStern-personal/openclaw-mcp-adapter) | 37 | 2026-02-03T02:27:35Z | TypeScript | Service/API | 0 | 1 | 0 | 0 |
 | [2slides/mcp-2slides](https://github.com/2slides/mcp-2slides) | 28 | 2026-02-20T08:17:02Z | TypeScript | Service/API | 2 | 8 | 2 | 2 |
 | [lnbc1QWFyb24/lnmessage](https://github.com/lnbc1QWFyb24/lnmessage) | 22 | 2026-02-05T03:27:50Z | TypeScript | Web app | 3 | 13 | 3 | 3 |

@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 20
-- terms: 67
-- components: 300
-- concepts: 60
-- observations: 60
+- repos: 19
+- terms: 70
+- components: 305
+- concepts: 63
+- observations: 63
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [locize/i18next-locize-backend](https://github.com/locize/i18next-locize-backend) | 78 | 2026-04-23T06:13:08Z | JavaScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
 | [mypyc/mypy_mypyc-wheels](https://github.com/mypyc/mypy_mypyc-wheels) | 21 | 2026-04-22T23:38:28Z | JavaScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [i18next/i18next-chained-backend](https://github.com/i18next/i18next-chained-backend) | 76 | 2026-04-22T21:25:11Z | JavaScript | Unknown | 0 | 23 | 0 | 0 |
 | [i18next/i18next-multiload-backend-adapter](https://github.com/i18next/i18next-multiload-backend-adapter) | 19 | 2026-04-22T17:59:55Z | JavaScript | Unknown | 0 | 18 | 0 | 0 |
@@ -44,14 +45,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [peergos/web-ui](https://github.com/Peergos/web-ui) | 94 | 2026-04-18T20:22:02Z | JavaScript | Infrastructure/tooling | 7 | 13 | 0 | 0 |
 | [bmad-code-org/bmad-method-test-architecture-enterprise](https://github.com/bmad-code-org/bmad-method-test-architecture-enterprise) | 53 | 2026-04-17T13:44:46Z | JavaScript | Infrastructure/tooling | 3 | 38 | 3 | 3 |
 | [webtorrent/bittorrent-peerid](https://github.com/webtorrent/bittorrent-peerid) | 69 | 2026-04-16T15:15:29Z | JavaScript | CLI | 8 | 7 | 8 | 8 |
-| [TrigenSoftware/simple-release-action](https://github.com/TrigenSoftware/simple-release-action) | 23 | 2026-04-16T09:44:21Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
-| [evenchange4/graphql.macro-example](https://github.com/evenchange4/graphql.macro-example) | 23 | 2026-04-16T09:31:31Z | JavaScript | Unknown | 3 | 9 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [peergos/web-ui](https://github.com/Peergos/web-ui) | 94 | 2026-04-18T20:22:02Z | JavaScript | Infrastructure/tooling | 7 | 13 | 0 | 0 |
+| [locize/i18next-locize-backend](https://github.com/locize/i18next-locize-backend) | 78 | 2026-04-23T06:13:08Z | JavaScript | Infrastructure/tooling | 6 | 21 | 6 | 6 |
 | [i18next/i18next-chained-backend](https://github.com/i18next/i18next-chained-backend) | 76 | 2026-04-22T21:25:11Z | JavaScript | Unknown | 0 | 23 | 0 | 0 |
 | [locize/locize-cli](https://github.com/locize/locize-cli) | 70 | 2026-04-21T15:44:27Z | JavaScript | CLI | 8 | 35 | 8 | 8 |
 | [webtorrent/bittorrent-peerid](https://github.com/webtorrent/bittorrent-peerid) | 69 | 2026-04-16T15:15:29Z | JavaScript | CLI | 8 | 7 | 8 | 8 |
@@ -63,8 +63,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alexellis/arkade-get](https://github.com/alexellis/arkade-get) | 35 | 2026-04-20T22:35:05Z | JavaScript | CLI | 2 | 16 | 2 | 2 |
 | [bufbuild/protobuf-conformance](https://github.com/bufbuild/protobuf-conformance) | 30 | 2026-04-20T17:02:36Z | JavaScript | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [newrelic/newrelic-node-examples](https://github.com/newrelic/newrelic-node-examples) | 24 | 2026-04-21T20:03:02Z | JavaScript | Infrastructure/tooling | 3 | 8 | 3 | 3 |
-| [TrigenSoftware/simple-release-action](https://github.com/TrigenSoftware/simple-release-action) | 23 | 2026-04-16T09:44:21Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
-| [evenchange4/graphql.macro-example](https://github.com/evenchange4/graphql.macro-example) | 23 | 2026-04-16T09:31:31Z | JavaScript | Unknown | 3 | 9 | 3 | 3 |
 | [mypyc/mypy_mypyc-wheels](https://github.com/mypyc/mypy_mypyc-wheels) | 21 | 2026-04-22T23:38:28Z | JavaScript | Infrastructure/tooling | 1 | 7 | 1 | 1 |
 | [Taritsyn/DartSassHost](https://github.com/Taritsyn/DartSassHost) | 21 | 2026-04-20T16:29:40Z | JavaScript | Unknown | 4 | 0 | 4 | 4 |
 | [i18next/i18next-multiload-backend-adapter](https://github.com/i18next/i18next-multiload-backend-adapter) | 19 | 2026-04-22T17:59:55Z | JavaScript | Unknown | 0 | 18 | 0 | 0 |

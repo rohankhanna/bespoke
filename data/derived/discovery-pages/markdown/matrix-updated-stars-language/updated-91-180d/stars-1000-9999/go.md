@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
-- terms: 106
-- components: 81
-- concepts: 106
-- observations: 106
+- repos: 23
+- terms: 126
+- components: 85
+- concepts: 126
+- observations: 126
 
 ## Static behavior
 
@@ -43,6 +43,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ajvb/kala](https://github.com/ajvb/kala) | 2160 | 2025-12-05T02:38:00Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [jpillora/cloud-torrent](https://github.com/jpillora/cloud-torrent) | 6158 | 2025-11-28T13:10:45Z | Go | CLI | 5 | 8 | 5 | 5 |
 | [muesli/termenv](https://github.com/muesli/termenv) | 1982 | 2025-11-21T08:05:07Z | Go | CLI | 10 | 5 | 10 | 10 |
+| [tenable/terrascan](https://github.com/tenable/terrascan) | 5212 | 2025-11-20T19:37:10Z | Go | Infrastructure/tooling | 20 | 4 | 20 | 20 |
 | [alexedwards/scs](https://github.com/alexedwards/scs) | 2553 | 2025-11-20T02:36:46Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [favadi/protoc-go-inject-tag](https://github.com/favadi/protoc-go-inject-tag) | 1265 | 2025-11-14T09:09:54Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [h2non/imaginary](https://github.com/h2non/imaginary) | 6041 | 2025-11-08T19:49:48Z | Go | Infrastructure/tooling | 10 | 0 | 10 | 10 |
@@ -59,6 +60,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [achannarasappa/ticker](https://github.com/achannarasappa/ticker) | 6059 | 2025-12-28T22:39:38Z | Go | CLI | 22 | 11 | 22 | 22 |
 | [h2non/imaginary](https://github.com/h2non/imaginary) | 6041 | 2025-11-08T19:49:48Z | Go | Infrastructure/tooling | 10 | 0 | 10 | 10 |
 | [containernetworking/cni](https://github.com/containernetworking/cni) | 6034 | 2025-12-15T08:34:29Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
+| [tenable/terrascan](https://github.com/tenable/terrascan) | 5212 | 2025-11-20T19:37:10Z | Go | Infrastructure/tooling | 20 | 4 | 20 | 20 |
 | [github/git-sizer](https://github.com/github/git-sizer) | 4018 | 2026-01-16T14:50:04Z | Go | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [protocolbuffers/protobuf-go](https://github.com/protocolbuffers/protobuf-go) | 3317 | 2026-01-20T15:10:56Z | Go | Infrastructure/tooling | 4 | 3 | 4 | 4 |
 | [uber-go/mock](https://github.com/uber-go/mock) | 3313 | 2025-12-17T21:04:10Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |

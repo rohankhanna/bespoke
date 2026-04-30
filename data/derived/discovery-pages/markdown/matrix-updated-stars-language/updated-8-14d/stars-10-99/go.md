@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
-- terms: 159
-- components: 221
-- concepts: 160
-- observations: 160
+- repos: 29
+- terms: 162
+- components: 235
+- concepts: 164
+- observations: 164
 
 ## Static behavior
 
@@ -39,11 +39,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sigstore/rekor-tiles](https://github.com/sigstore/rekor-tiles) | 37 | 2026-04-21T20:40:15Z | Go | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [defilantech/LLMKube](https://github.com/defilantech/LLMKube) | 56 | 2026-04-21T20:34:12Z | Go | Infrastructure/tooling | 23 | 13 | 23 | 23 |
 | [terraform-linters/tflint-ruleset-google](https://github.com/terraform-linters/tflint-ruleset-google) | 96 | 2026-04-21T19:46:19Z | Go | Infrastructure/tooling | 10 | 5 | 10 | 10 |
-| [abhinav/goldmark-frontmatter](https://github.com/abhinav/goldmark-frontmatter) | 32 | 2026-04-21T19:45:54Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [abhinav/goldmark-frontmatter](https://github.com/abhinav/goldmark-frontmatter) | 32 | 2026-04-21T19:45:54Z | Go | Infrastructure/tooling | 2 | 5 | 3 | 3 |
+| [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-04-21T00:58:20Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [gopasspw/gopass-hibp](https://github.com/gopasspw/gopass-hibp) | 10 | 2026-04-20T23:29:50Z | Go | Infrastructure/tooling | 4 | 15 | 4 | 4 |
 | [connectrpc/conformance](https://github.com/connectrpc/conformance) | 82 | 2026-04-20T17:17:30Z | Go | Infrastructure/tooling | 8 | 6 | 8 | 8 |
 | [connectrpc/grpchealth-go](https://github.com/connectrpc/grpchealth-go) | 94 | 2026-04-20T17:06:52Z | Go | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [gopasspw/git-credential-gopass](https://github.com/gopasspw/git-credential-gopass) | 73 | 2026-04-20T17:00:44Z | Go | Infrastructure/tooling | 4 | 14 | 4 | 4 |
+| [transparency-dev/armored-witness](https://github.com/transparency-dev/armored-witness) | 31 | 2026-04-20T12:48:50Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [coder/coder-logstream-kube](https://github.com/coder/coder-logstream-kube) | 30 | 2026-04-20T11:13:59Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [magodo/aztft](https://github.com/magodo/aztft) | 31 | 2026-04-20T02:24:24Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [blinklabs-io/bluefin](https://github.com/blinklabs-io/bluefin) | 20 | 2026-04-19T14:17:29Z | Go | Infrastructure/tooling | 11 | 16 | 11 | 11 |
@@ -68,12 +70,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [muhlba91/external-dns-provider-adguard](https://github.com/muhlba91/external-dns-provider-adguard) | 73 | 2026-04-22T18:53:55Z | Go | Infrastructure/tooling | 8 | 21 | 8 | 8 |
 | [gopasspw/git-credential-gopass](https://github.com/gopasspw/git-credential-gopass) | 73 | 2026-04-20T17:00:44Z | Go | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [aws/aws-network-policy-agent](https://github.com/aws/aws-network-policy-agent) | 67 | 2026-04-22T21:07:37Z | Go | Infrastructure/tooling | 6 | 10 | 6 | 6 |
+| [cloudfoundry/bosh-google-cpi-release](https://github.com/cloudfoundry/bosh-google-cpi-release) | 63 | 2026-04-21T00:58:20Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [defilantech/LLMKube](https://github.com/defilantech/LLMKube) | 56 | 2026-04-21T20:34:12Z | Go | Infrastructure/tooling | 23 | 13 | 23 | 23 |
 | [joshsymonds/cc-tools](https://github.com/joshsymonds/cc-tools) | 50 | 2026-04-16T13:45:42Z | Go | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [depado/smallblog](https://github.com/depado/smallblog) | 42 | 2026-04-17T00:13:47Z | Go | Infrastructure/tooling | 4 | 3 | 5 | 5 |
 | [sigstore/rekor-tiles](https://github.com/sigstore/rekor-tiles) | 37 | 2026-04-21T20:40:15Z | Go | Infrastructure/tooling | 11 | 15 | 11 | 11 |
 | [ipshipyard/p2p-forge](https://github.com/ipshipyard/p2p-forge) | 34 | 2026-04-22T22:17:17Z | Go | Infrastructure/tooling | 10 | 11 | 10 | 10 |
-| [abhinav/goldmark-frontmatter](https://github.com/abhinav/goldmark-frontmatter) | 32 | 2026-04-21T19:45:54Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [abhinav/goldmark-frontmatter](https://github.com/abhinav/goldmark-frontmatter) | 32 | 2026-04-21T19:45:54Z | Go | Infrastructure/tooling | 2 | 5 | 3 | 3 |
+| [transparency-dev/armored-witness](https://github.com/transparency-dev/armored-witness) | 31 | 2026-04-20T12:48:50Z | Go | Infrastructure/tooling | 4 | 11 | 4 | 4 |
 | [magodo/aztft](https://github.com/magodo/aztft) | 31 | 2026-04-20T02:24:24Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [coder/coder-logstream-kube](https://github.com/coder/coder-logstream-kube) | 30 | 2026-04-20T11:13:59Z | Go | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [cloudfoundry/bbs](https://github.com/cloudfoundry/bbs) | 30 | 2026-04-16T18:46:01Z | Go | Service/API | 1 | 0 | 1 | 1 |

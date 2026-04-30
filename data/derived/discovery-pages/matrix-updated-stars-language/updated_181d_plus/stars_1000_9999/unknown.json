@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 8,
-    "concepts": 145,
-    "observations": 145,
-    "repos": 64,
-    "terms": 144
+    "components": 17,
+    "concepts": 176,
+    "observations": 176,
+    "repos": 72,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "0nn0/terminal-mac-cheatsheet",
     "0xAX/erlang-bookmarks",
@@ -21,6 +21,10 @@
     "AdrienTorris/awesome-blazor",
     "airbnb/css",
     "ali-vilab/composer",
+    "alrra/browser-logos",
+    "anthropics/hh-rlhf",
+    "apiaryio/api-blueprint",
+    "AUTOMATIC1111/stable-diffusion-webui-feature-showcase",
     "aws-cloudformation/cloudformation-coverage-roadmap",
     "aws-samples/aws-serverless-airline-booking",
     "bincode-org/bincode",
@@ -32,6 +36,7 @@
     "dk-liang/Awesome-Visual-Transformer",
     "dotnet/standard",
     "dwyl/Javascript-the-Good-Parts-notes",
+    "dwyl/start-here",
     "edn-format/edn",
     "ElricLiu/Awesome-One-Click-Deployment",
     "github/renaming",
@@ -61,6 +66,7 @@
     "openai/openai-quickstart-python",
     "openlm-research/open_llama",
     "opentracing/specification",
+    "phracker/MacOSX-SDKs",
     "ray-project/ray-llm",
     "react-native-community/discussions-and-proposals",
     "reactjs/rfcs",
@@ -68,11 +74,13 @@
     "shenweichen/AlgoNotes",
     "showlab/Awesome-GUI-Agent",
     "sindresorhus/guides",
+    "sporto/awesome-elm",
     "styfle/awesome-online-ide",
     "tc39/proposal-decorators",
     "tesseract-ocr/tessdata",
     "tesseract-ocr/tessdata_best",
     "testdouble/contributing-tests",
+    "thunlp/PromptPapers",
     "travis-ci/travis-ci",
     "vuejs/rfcs",
     "withfig/fig",

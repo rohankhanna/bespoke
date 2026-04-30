@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 51
-- terms: 312
-- components: 1491
-- concepts: 264
-- observations: 264
+- repos: 52
+- terms: 314
+- components: 1548
+- concepts: 268
+- observations: 268
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [DeterminateSystems/nix-installer-action](https://github.com/DeterminateSystems/nix-installer-action) | 231 | 2026-04-23T06:41:58Z | TypeScript | Infrastructure/tooling | 3 | 23 | 3 | 3 |
 | [microsoft/react-native-gallery](https://github.com/microsoft/react-native-gallery) | 254 | 2026-04-23T05:06:08Z | TypeScript | Unknown | 0 | 24 | 0 | 0 |
 | [OpenZeppelin/openzeppelin-upgrades](https://github.com/OpenZeppelin/openzeppelin-upgrades) | 655 | 2026-04-23T03:07:56Z | TypeScript | Infrastructure/tooling | 4 | 18 | 4 | 4 |
 | [Azure/login](https://github.com/Azure/login) | 519 | 2026-04-23T02:26:42Z | TypeScript | Infrastructure/tooling | 12 | 20 | 12 | 12 |
@@ -56,6 +57,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sass/embedded-host-node](https://github.com/sass/embedded-host-node) | 223 | 2026-04-20T20:48:36Z | TypeScript | Infrastructure/tooling | 1 | 37 | 1 | 1 |
 | [microsoft/TypeScript-DOM-lib-generator](https://github.com/microsoft/TypeScript-DOM-lib-generator) | 730 | 2026-04-20T16:03:23Z | TypeScript | Infrastructure/tooling | 5 | 35 | 5 | 5 |
 | [open-telemetry/opentelemetry-js-contrib](https://github.com/open-telemetry/opentelemetry-js-contrib) | 902 | 2026-04-20T15:38:44Z | TypeScript | Infrastructure/tooling | 8 | 63 | 8 | 8 |
+| [maltsev/htmlnano](https://github.com/maltsev/htmlnano) | 297 | 2026-04-20T12:46:38Z | TypeScript | Infrastructure/tooling | 1 | 34 | 1 | 1 |
 | [blrchen/chatgpt-lite](https://github.com/blrchen/chatgpt-lite) | 274 | 2026-04-19T15:43:06Z | TypeScript | Infrastructure/tooling | 15 | 44 | 15 | 15 |
 | [tony1223/better-agent-terminal](https://github.com/tony1223/better-agent-terminal) | 321 | 2026-04-19T09:50:58Z | TypeScript | CLI | 1 | 46 | 0 | 0 |
 | [grubersjoe/github-contributions-api](https://github.com/grubersjoe/github-contributions-api) | 159 | 2026-04-19T09:10:22Z | TypeScript | Infrastructure/tooling | 1 | 31 | 1 | 1 |
@@ -76,7 +78,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [neolabhq/context-engineering-kit](https://github.com/NeoLabHQ/context-engineering-kit) | 830 | 2026-04-16T22:42:59Z | TypeScript | CLI | 0 | 0 | 0 | 0 |
 | [atomicmemory/llm-wiki-compiler](https://github.com/atomicmemory/llm-wiki-compiler) | 603 | 2026-04-16T19:53:16Z | TypeScript | CLI | 7 | 22 | 8 | 8 |
 | [k-dense-ai/k-dense-byok](https://github.com/K-Dense-AI/k-dense-byok) | 571 | 2026-04-16T14:44:15Z | TypeScript | Infrastructure/tooling | 1 | 1 | 1 | 1 |
-| [lewislulu/llm-wiki-skill](https://github.com/lewislulu/llm-wiki-skill) | 339 | 2026-04-16T06:01:13Z | TypeScript | Docs/knowledge | 2 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -112,11 +113,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [sveltejs/eslint-plugin-svelte](https://github.com/sveltejs/eslint-plugin-svelte) | 401 | 2026-04-22T09:17:29Z | TypeScript | Infrastructure/tooling | 9 | 42 | 9 | 9 |
 | [decentralized-identity/did-jwt](https://github.com/decentralized-identity/did-jwt) | 371 | 2026-04-21T23:05:26Z | TypeScript | Infrastructure/tooling | 3 | 50 | 3 | 3 |
 | [napi-rs/package-template](https://github.com/napi-rs/package-template) | 366 | 2026-04-19T04:45:24Z | TypeScript | Infrastructure/tooling | 0 | 26 | 0 | 0 |
-| [lewislulu/llm-wiki-skill](https://github.com/lewislulu/llm-wiki-skill) | 339 | 2026-04-16T06:01:13Z | TypeScript | Docs/knowledge | 2 | 0 | 0 | 0 |
 | [EclipseFdn/open-vsx.org](https://github.com/EclipseFdn/open-vsx.org) | 325 | 2026-04-22T08:38:38Z | TypeScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [tony1223/better-agent-terminal](https://github.com/tony1223/better-agent-terminal) | 321 | 2026-04-19T09:50:58Z | TypeScript | CLI | 1 | 46 | 0 | 0 |
 | [Shougo/ddu.vim](https://github.com/Shougo/ddu.vim) | 320 | 2026-04-18T01:33:13Z | TypeScript | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [vibe-log/vibe-log-cli](https://github.com/vibe-log/vibe-log-cli) | 315 | 2026-04-19T05:43:07Z | TypeScript | CLI | 3 | 37 | 0 | 0 |
+| [maltsev/htmlnano](https://github.com/maltsev/htmlnano) | 297 | 2026-04-20T12:46:38Z | TypeScript | Infrastructure/tooling | 1 | 34 | 1 | 1 |
 | [lobehub/lobe-chat-plugins](https://github.com/lobehub/lobe-chat-plugins) | 283 | 2026-04-19T00:24:10Z | TypeScript | Infrastructure/tooling | 8 | 27 | 0 | 0 |
 | [OffchainLabs/arbitrum-sdk](https://github.com/OffchainLabs/arbitrum-sdk) | 276 | 2026-04-21T00:48:37Z | TypeScript | Infrastructure/tooling | 2 | 43 | 2 | 2 |
 | [blrchen/chatgpt-lite](https://github.com/blrchen/chatgpt-lite) | 274 | 2026-04-19T15:43:06Z | TypeScript | Infrastructure/tooling | 15 | 44 | 15 | 15 |
@@ -126,6 +127,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [octokit/webhooks](https://github.com/octokit/webhooks) | 258 | 2026-04-21T08:29:21Z | TypeScript | Infrastructure/tooling | 12 | 30 | 12 | 12 |
 | [microsoft/react-native-gallery](https://github.com/microsoft/react-native-gallery) | 254 | 2026-04-23T05:06:08Z | TypeScript | Unknown | 0 | 24 | 0 | 0 |
 | [aws/aws-iot-device-sdk-js-v2](https://github.com/aws/aws-iot-device-sdk-js-v2) | 238 | 2026-04-21T18:26:28Z | TypeScript | CLI | 6 | 27 | 6 | 6 |
+| [DeterminateSystems/nix-installer-action](https://github.com/DeterminateSystems/nix-installer-action) | 231 | 2026-04-23T06:41:58Z | TypeScript | Infrastructure/tooling | 3 | 23 | 3 | 3 |
 | [sass/embedded-host-node](https://github.com/sass/embedded-host-node) | 223 | 2026-04-20T20:48:36Z | TypeScript | Infrastructure/tooling | 1 | 37 | 1 | 1 |
 | [tombii/better-ccflare](https://github.com/tombii/better-ccflare) | 187 | 2026-04-18T20:42:27Z | TypeScript | Infrastructure/tooling | 10 | 14 | 0 | 0 |
 | [safe-global/safe-deployments](https://github.com/safe-global/safe-deployments) | 177 | 2026-04-21T12:57:36Z | TypeScript | Infrastructure/tooling | 6 | 19 | 6 | 6 |

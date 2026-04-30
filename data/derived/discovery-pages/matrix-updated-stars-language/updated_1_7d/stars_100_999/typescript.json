@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 705,
-    "concepts": 170,
-    "observations": 170,
-    "repos": 24,
-    "terms": 167
+    "components": 791,
+    "concepts": 200,
+    "observations": 200,
+    "repos": 29,
+    "terms": 197
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "astral-sh/ruff-action",
     "aws-samples/swift-chat",
-    "DeterminateSystems/nix-installer-action",
     "docker/bake-action",
     "electron/packager",
+    "flathub-infra/website",
     "fullcalendar/temporal-polyfill",
     "graphprotocol/graph-client",
     "ipfs/js-ipfsd-ctl",
@@ -28,7 +28,11 @@
     "microsoft/security-devops-action",
     "microsoft/vscode-java-debug",
     "mightyiam/eslint-config-love",
+    "milvus-io/milvus-sdk-node",
+    "mmkal/expect-type",
+    "nene/prettier-plugin-sql-cst",
     "oclif/core",
+    "octokit/action.js",
     "octokit/auth-token.js",
     "octokit/plugin-rest-endpoint-methods.js",
     "octokit/request.js",
@@ -37,6 +41,7 @@
     "safe-fndn/safe-singleton-factory",
     "sveltejs/svelte-eslint-parser",
     "TabbyML/pochi",
-    "tats-u/markdown-cjk-friendly"
+    "tats-u/markdown-cjk-friendly",
+    "tinylibs/tinyexec"
   ]
 }

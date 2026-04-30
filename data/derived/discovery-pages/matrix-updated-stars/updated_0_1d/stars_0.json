@@ -1,20 +1,18 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 11,
-    "observations": 11,
-    "repos": 3,
-    "terms": 11
+    "components": 0,
+    "concepts": 0,
+    "observations": 0,
+    "repos": 1,
+    "terms": 0
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-25T06:55:57.545791+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
-    "nodenv/node-build-prerelease",
-    "regro/cf-graph-countyfair",
-    "TransferQueue/community_doc"
+    "danielrosehill/Claude-Buttondown-Mgmt-Plugin"
   ]
 }

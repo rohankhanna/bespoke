@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 134,
-    "observations": 134,
-    "repos": 22,
-    "terms": 127
+    "components": 140,
+    "concepts": 146,
+    "observations": 146,
+    "repos": 23,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "aristocratos/btop",
     "cloudwu/skynet",
@@ -35,6 +35,7 @@
     "opencv/opencv_contrib",
     "pgvector/pgvector",
     "tmux/tmux",
-    "tsl0922/ttyd"
+    "tsl0922/ttyd",
+    "zeromq/libzmq"
   ]
 }

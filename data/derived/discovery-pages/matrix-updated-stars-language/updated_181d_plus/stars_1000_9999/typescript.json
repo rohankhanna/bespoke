@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 879,
-    "concepts": 177,
-    "observations": 177,
-    "repos": 35,
-    "terms": 181
+    "components": 950,
+    "concepts": 188,
+    "observations": 188,
+    "repos": 38,
+    "terms": 192
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "027xiguapi/pear-rec",
     "anse-app/anse",
@@ -32,6 +32,8 @@
     "ElricLiu/AutoGPT-Next-Web",
     "expo/expo-cli",
     "felixrieseberg/windows-build-tools",
+    "FormidableLabs/prism-react-renderer",
+    "FormidableLabs/react-live",
     "graphql/express-graphql",
     "graphql/graphql-relay-js",
     "gzuidhof/starboard-notebook",
@@ -45,6 +47,7 @@
     "rust-lang/vscode-rust",
     "serafimcloud/21st",
     "tremorlabs/tremor",
+    "tsdjs/tsd",
     "Uniswap/v3-core",
     "Uniswap/v3-periphery",
     "Uniswap/web3-react",

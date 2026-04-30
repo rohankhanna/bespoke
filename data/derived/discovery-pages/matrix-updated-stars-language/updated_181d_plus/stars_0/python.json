@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 57,
-    "observations": 57,
-    "repos": 39,
-    "terms": 57
+    "components": 101,
+    "concepts": 77,
+    "observations": 77,
+    "repos": 47,
+    "terms": 77
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "AbhiLegend/AIDrugDiscoveryOpenVINO",
     "akamming/domoticz-snapcast",
@@ -22,6 +22,7 @@
     "autodistill/autodistill-azure-vision",
     "b-data/jupyter-marimo-proxy",
     "bfshi/llava_next_s2_integration",
+    "brianckeegan/SpotifyUSTop50",
     "Charlie-XIAO/ml3m",
     "clearbluejar/ghidra-pyi-generator",
     "cnescatlab/pylint-sonarjson-catlab",
@@ -30,12 +31,17 @@
     "danielrosehill/AI-Assistant-Ideator",
     "danielrosehill/better-hashnode-backups",
     "danielrosehill/Context-Cruncher",
+    "danielrosehill/Docs-Grabber",
+    "eric-mitchell/higher",
+    "eric-mitchell/transformers",
     "f-amerehi/eidolon",
     "genome21/langflow",
     "hashberg-io/multiformats-config",
+    "ikostrikov/d4rl",
     "kasztp/url_shortener",
     "LDLINGLINGLING/sglang",
     "LDLINGLINGLING/vllm",
+    "LiyuanLucasLiu/fairseq",
     "luolin101/Visual-SWE-bench",
     "m4rc1e/test-ufr-family",
     "MattFisher/hangman-bench",
@@ -48,7 +54,9 @@
     "nim65s/git-archive-all",
     "nur-zaman/sd-webui-tunnels",
     "plone/cookiecutter-plone",
+    "py-cov-action/python-coverage-comment-action-v3-example",
     "redcaps-dataset/pytorch-retinaface",
+    "renll/flash-linear-attention",
     "spencer-tb/ethereum-spec-evm-resolver",
     "thanku-all/parse_answer",
     "XuhuiZhou/OpenHands",

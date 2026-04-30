@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 382,
-    "concepts": 372,
-    "observations": 376,
-    "repos": 77,
-    "terms": 375
+    "components": 386,
+    "concepts": 406,
+    "observations": 410,
+    "repos": 83,
+    "terms": 407
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "aaronwong1999/hermesclaw",
     "AcademySoftwareFoundation/aswf-docker",
     "agenmod/immortal-skill",
     "AgentR1/Claw-R1",
@@ -25,11 +26,13 @@
     "allenai/IFBench",
     "ARM-DOE/pyart",
     "asottile/reorder-python-imports",
+    "aws-samples/serverless-snippets",
     "aws/aws-sam-cli-app-templates",
     "biocypher/biocypher",
     "bmad-code-org/bmad-builder",
     "brainglobe/brainrender",
     "chaiNNer-org/spandrel",
+    "ClementPinard/FlowNetPytorch",
     "crytic/crytic-compile",
     "cubed-dev/cubed",
     "data-apis/array-api-compat",
@@ -70,6 +73,7 @@
     "mosecorg/mosec",
     "nuprl/MultiPL-E",
     "nvpro-samples/vk_mini_samples",
+    "PKU-YuanGroup/ChronoMagic-Bench",
     "pnkraemer/matfree",
     "pnnx/pnnx",
     "pypa/auditwheel",
@@ -86,9 +90,11 @@
     "TorchDR/TorchDR",
     "trailofbits/dropkit",
     "twisted/towncrier",
+    "unum-bio/USearchMolecules",
     "urschrei/simplification",
     "vega/vega-datasets",
     "yoxu515/aot-benchmark",
+    "zai-org/GLM-skills",
     "zai-org/z-ai-sdk-python",
     "zhiqwang/yolort"
   ]

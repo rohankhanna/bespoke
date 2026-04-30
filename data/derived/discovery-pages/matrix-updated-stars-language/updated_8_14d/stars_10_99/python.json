@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 238,
-    "concepts": 121,
-    "observations": 123,
+    "components": 245,
+    "concepts": 129,
+    "observations": 131,
     "repos": 39,
-    "terms": 136
+    "terms": 144
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "activeviam/jdk4py",
     "AFD-Illinois/pyharm",
@@ -33,13 +33,13 @@
     "GaloisInc/BLST-Verification",
     "harbor-framework/harbor-cookbook",
     "jxpress/lightning-hydra-template-vertex-ai",
-    "lblankl/Short-RL",
     "Looong01/pyg-rocm-build",
     "metatensor/metatensor",
     "MeteoSwiss/pyart",
     "MeteoSwiss/pyrad",
     "ModelCloud/Evalution",
     "mypyc/mypyc-benchmarks",
+    "OpenHands/benchmarks",
     "optuna/optuna-integration",
     "ParisNeo/safe_store",
     "pycompression/python-isal",

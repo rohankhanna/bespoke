@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 302,
-    "concepts": 225,
-    "observations": 225,
-    "repos": 44,
-    "terms": 224
+    "components": 371,
+    "concepts": 244,
+    "observations": 244,
+    "repos": 49,
+    "terms": 242
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "abap2UI5/samples",
+    "apache/ignite-website",
     "apache/superset-site",
     "apollographql/apollo-ios-codegen",
     "ast-grep/ast-grep.github.io",
@@ -23,6 +24,8 @@
     "b-data/jupyterlab-r-docker-stack",
     "be-hase/caffeine-coroutines",
     "chainguard-dev/rules_apko",
+    "cloudfoundry/bosh-azure-cpi-release",
+    "cloudfoundry/capi-release",
     "connectbot/termlib",
     "dotnet/arcade-services",
     "dwyl/phoenix-liveview-todo-list-tutorial",
@@ -33,8 +36,12 @@
     "habamax/vim-habamax",
     "hermanjustnu/scoop-emulators",
     "ipfs/distributions",
+    "jfmengels/node-elm-review",
     "jgm/djot.lua",
     "JuliaCI/Nanosoldier.jl",
+    "JuliaCI/NanosoldierReports",
+    "karafka/example-apps",
+    "localstack/localstack-cli",
     "nodenv/homebrew-nodenv",
     "ocaml-tracing/ocaml-opentelemetry",
     "ocaml-tracing/ocaml-trace",
@@ -47,11 +54,9 @@
     "pq-code-package/mldsa-native",
     "ROCm/rocm-docs-core",
     "saghen/blink.lib",
-    "SAP/abap-file-formats-tools",
     "scientific-python/scientific-python-hugo-theme",
     "ScoopInstaller/PHP",
     "searxng/searx-instances-uptime",
-    "servo/servo.org",
     "sferik/multi_json",
     "squeak-smalltalk/squeak.org",
     "status-im/nim-protobuf-serialization",

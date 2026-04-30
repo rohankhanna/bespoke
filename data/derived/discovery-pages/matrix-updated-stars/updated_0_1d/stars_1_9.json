@@ -1,38 +1,38 @@
 {
   "counts": {
-    "components": 211,
-    "concepts": 68,
-    "observations": 70,
+    "components": 246,
+    "concepts": 83,
+    "observations": 86,
     "repos": 21,
-    "terms": 68
+    "terms": 82
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "abhinav/goldmark-hashtag",
-    "black-desk/djotfmt",
     "cloudfoundry/wg-app-platform-runtime-ci",
     "dcampbell24/djot-implementations",
+    "dwyl/phoenix-papertrail-demo",
     "ecyrbe/zodios-plugins",
     "eddelbuettel/r2u-builder",
     "eea/eea-website-backend",
     "flathub-infra/flat-manager-hooks",
-    "fontsource/download-stat-aggregator",
+    "hecrj/llama-server",
     "jku/tuf-demo",
     "kkomelin/isomorphic-dompurify-playgrounds",
-    "lint-staged/lint-staged.sh",
-    "localstack/homebrew-tap",
+    "ldclabs/ic-cose",
     "meridianlabs-ai/inspect_harbor",
     "micronaut-projects/micronaut-langchain4j",
-    "mozilla-ai/otari",
+    "mozilla-ai/tinyagent",
     "octokit/auth-callback.js",
-    "oscard0m/ts-transformer-remove-named-export",
+    "reviewdog/action-alex",
     "rvagg/js-bitcoin-block",
     "sapphiredev/.github",
-    "snowflakedb/universal-driver"
+    "snowflakedb/universal-driver",
+    "travi/octokit-auth-netrc"
   ]
 }

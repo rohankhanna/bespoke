@@ -3,7 +3,7 @@
     "components": 37,
     "concepts": 82,
     "observations": 82,
-    "repos": 18,
+    "repos": 20,
     "terms": 82
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "accabog/MedianFilter",
     "ada-url/goada",
+    "AFD-Illinois/ebhlight",
     "aseprite/clip",
     "aseprite/observable",
     "cisco/libacvp",
@@ -27,6 +28,7 @@
     "gozaltech/espeak-ng-sapi",
     "icecc/icemon",
     "intel/intel-extension-for-openxla",
+    "intel/metrics-discovery",
     "lemire/simple_fastfloat_benchmark",
     "microsoft/react-native-winrt",
     "RekGRpth/pg_task",

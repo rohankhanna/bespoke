@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 23
-- terms: 105
-- components: 114
-- concepts: 104
-- observations: 106
+- repos: 24
+- terms: 110
+- components: 118
+- concepts: 109
+- observations: 111
 
 ## Static behavior
 
@@ -27,6 +27,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Manishearth/triomphe](https://github.com/Manishearth/triomphe) | 289 | 2026-01-22T21:05:24Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [guillaume-be/rust-tokenizers](https://github.com/guillaume-be/rust-tokenizers) | 340 | 2026-01-22T20:30:14Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [pksunkara/cargo-workspaces](https://github.com/pksunkara/cargo-workspaces) | 584 | 2026-01-17T03:59:45Z | Rust | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [op-rs/kona](https://github.com/op-rs/kona) | 289 | 2026-01-16T16:44:30Z | Rust | Infrastructure/tooling | 15 | 23 | 15 | 15 |
 | [typst/pdf-writer](https://github.com/typst/pdf-writer) | 696 | 2026-01-15T13:07:51Z | Rust | Infrastructure/tooling | 3 | 3 | 3 | 3 |
@@ -66,6 +67,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alexheretic/ab-glyph](https://github.com/alexheretic/ab-glyph) | 441 | 2025-11-30T17:01:02Z | Rust | Infrastructure/tooling | 5 | 1 | 5 | 6 |
 | [rust-bitcoin/rust-bitcoincore-rpc](https://github.com/rust-bitcoin/rust-bitcoincore-rpc) | 385 | 2025-11-25T22:05:13Z | Rust | CLI | 1 | 3 | 1 | 1 |
 | [atanunq/viuer](https://github.com/atanunq/viuer) | 347 | 2025-12-09T17:16:05Z | Rust | CLI | 4 | 4 | 4 | 4 |
+| [guillaume-be/rust-tokenizers](https://github.com/guillaume-be/rust-tokenizers) | 340 | 2026-01-22T20:30:14Z | Rust | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [faradayio/cage](https://github.com/faradayio/cage) | 315 | 2025-11-30T15:43:01Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [Manishearth/triomphe](https://github.com/Manishearth/triomphe) | 289 | 2026-01-22T21:05:24Z | Rust | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [op-rs/kona](https://github.com/op-rs/kona) | 289 | 2026-01-16T16:44:30Z | Rust | Infrastructure/tooling | 15 | 23 | 15 | 15 |

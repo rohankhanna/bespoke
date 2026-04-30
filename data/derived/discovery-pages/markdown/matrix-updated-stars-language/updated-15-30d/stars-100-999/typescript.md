@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 28
-- terms: 132
-- components: 623
-- concepts: 125
-- observations: 125
+- repos: 31
+- terms: 141
+- components: 677
+- concepts: 132
+- observations: 132
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [lewislulu/llm-wiki-skill](https://github.com/lewislulu/llm-wiki-skill) | 339 | 2026-04-16T06:01:13Z | TypeScript | Docs/knowledge | 2 | 0 | 0 | 0 |
 | [GoogleCloudPlatform/wombat-dressing-room](https://github.com/GoogleCloudPlatform/wombat-dressing-room) | 126 | 2026-04-15T23:13:13Z | TypeScript | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [lucasastorian/llmwiki](https://github.com/lucasastorian/llmwiki) | 540 | 2026-04-15T21:48:54Z | TypeScript | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [webextension-toolbox/webextension-toolbox](https://github.com/webextension-toolbox/webextension-toolbox) | 784 | 2026-04-15T18:55:44Z | TypeScript | CLI | 17 | 47 | 17 | 17 |
@@ -45,11 +46,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [juliangruber/brace-expansion](https://github.com/juliangruber/brace-expansion) | 207 | 2026-04-11T13:26:33Z | TypeScript | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [birdofpreyru/react-native-fs](https://github.com/birdofpreyru/react-native-fs) | 324 | 2026-04-11T11:30:19Z | TypeScript | Unknown | 5 | 18 | 5 | 5 |
 | [vega/vega-embed](https://github.com/vega/vega-embed) | 490 | 2026-04-10T21:56:51Z | TypeScript | Infrastructure/tooling | 7 | 47 | 7 | 7 |
+| [appium/appium-adb](https://github.com/appium/appium-adb) | 323 | 2026-04-10T09:53:49Z | TypeScript | Infrastructure/tooling | 4 | 41 | 4 | 4 |
 | [jgm/djot.js](https://github.com/jgm/djot.js) | 201 | 2026-04-10T09:44:35Z | TypeScript | Infrastructure/tooling | 1 | 14 | 1 | 1 |
 | [google/adk-web](https://github.com/google/adk-web) | 924 | 2026-04-10T01:09:53Z | TypeScript | Infrastructure/tooling | 1 | 39 | 1 | 1 |
 | [elm-tooling/elm-language-server](https://github.com/elm-tooling/elm-language-server) | 437 | 2026-04-08T07:20:24Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 | [aws-actions/aws-secretsmanager-get-secrets](https://github.com/aws-actions/aws-secretsmanager-get-secrets) | 187 | 2026-04-06T04:43:37Z | TypeScript | Infrastructure/tooling | 7 | 17 | 7 | 7 |
 | [nashaofu/screenshots](https://github.com/nashaofu/screenshots) | 464 | 2026-04-03T22:28:44Z | TypeScript | Infrastructure/tooling | 7 | 5 | 7 | 7 |
+| [fannheyward/coc-sql](https://github.com/fannheyward/coc-sql) | 126 | 2026-04-02T04:58:18Z | TypeScript | Infrastructure/tooling | 3 | 13 | 3 | 3 |
 | [krassowski/jupyterlab-lsp](https://github.com/krassowski/jupyterlab-lsp) | 134 | 2026-04-01T14:12:56Z | TypeScript | Infrastructure/tooling | 2 | 41 | 2 | 2 |
 | [y-lohse/inkjs](https://github.com/y-lohse/inkjs) | 628 | 2026-04-01T08:53:10Z | TypeScript | Infrastructure/tooling | 6 | 30 | 6 | 6 |
 | [carlrannaberg/claudekit](https://github.com/carlrannaberg/claudekit) | 661 | 2026-03-31T20:45:06Z | TypeScript | Infrastructure/tooling | 2 | 33 | 0 | 0 |
@@ -74,7 +77,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [evmts/tevm-monorepo](https://github.com/evmts/tevm-monorepo) | 443 | 2026-04-13T21:33:34Z | TypeScript | Infrastructure/tooling | 5 | 22 | 0 | 0 |
 | [elm-tooling/elm-language-server](https://github.com/elm-tooling/elm-language-server) | 437 | 2026-04-08T07:20:24Z | TypeScript | Infrastructure/tooling | 11 | 37 | 11 | 11 |
 | [Siubaak/sval](https://github.com/Siubaak/sval) | 436 | 2026-04-12T15:02:40Z | TypeScript | Infrastructure/tooling | 1 | 11 | 1 | 1 |
+| [lewislulu/llm-wiki-skill](https://github.com/lewislulu/llm-wiki-skill) | 339 | 2026-04-16T06:01:13Z | TypeScript | Docs/knowledge | 2 | 0 | 0 | 0 |
 | [birdofpreyru/react-native-fs](https://github.com/birdofpreyru/react-native-fs) | 324 | 2026-04-11T11:30:19Z | TypeScript | Unknown | 5 | 18 | 5 | 5 |
+| [appium/appium-adb](https://github.com/appium/appium-adb) | 323 | 2026-04-10T09:53:49Z | TypeScript | Infrastructure/tooling | 4 | 41 | 4 | 4 |
 | [matepek/vscode-catch2-test-adapter](https://github.com/matepek/vscode-catch2-test-adapter) | 248 | 2026-04-14T05:43:01Z | TypeScript | Infrastructure/tooling | 12 | 39 | 12 | 12 |
 | [elm-tooling/elm-language-client-vscode](https://github.com/elm-tooling/elm-language-client-vscode) | 237 | 2026-04-13T04:57:01Z | TypeScript | Infrastructure/tooling | 9 | 12 | 9 | 9 |
 | [fastify/demo](https://github.com/fastify/demo) | 219 | 2026-04-12T12:33:31Z | TypeScript | Infrastructure/tooling | 8 | 37 | 8 | 8 |
@@ -86,4 +91,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [badlogic/pi-share-hf](https://github.com/badlogic/pi-share-hf) | 145 | 2026-04-13T18:03:26Z | TypeScript | Model/data | 0 | 4 | 0 | 0 |
 | [krassowski/jupyterlab-lsp](https://github.com/krassowski/jupyterlab-lsp) | 134 | 2026-04-01T14:12:56Z | TypeScript | Infrastructure/tooling | 2 | 41 | 2 | 2 |
 | [GoogleCloudPlatform/wombat-dressing-room](https://github.com/GoogleCloudPlatform/wombat-dressing-room) | 126 | 2026-04-15T23:13:13Z | TypeScript | Infrastructure/tooling | 0 | 3 | 0 | 0 |
+| [fannheyward/coc-sql](https://github.com/fannheyward/coc-sql) | 126 | 2026-04-02T04:58:18Z | TypeScript | Infrastructure/tooling | 3 | 13 | 3 | 3 |
 | [NVIDIA/OpenShell-Community](https://github.com/NVIDIA/OpenShell-Community) | 112 | 2026-04-11T23:00:46Z | TypeScript | Infrastructure/tooling | 3 | 8 | 3 | 3 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 190,
-    "concepts": 397,
-    "observations": 397,
-    "repos": 84,
-    "terms": 399
+    "components": 196,
+    "concepts": 412,
+    "observations": 412,
+    "repos": 88,
+    "terms": 414
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "0xPolygon/polygon-edge",
     "Adminisme/ServerScan",
@@ -41,6 +41,7 @@
     "csznet/tgState",
     "darthsim/hivemind",
     "darthsim/overmind",
+    "DATA-DOG/go-sqlmock",
     "datreeio/datree",
     "dghubble/go-twitter",
     "dinedal/textql",
@@ -65,8 +66,10 @@
     "justinas/alice",
     "justinas/nosurf",
     "k8gege/LadonGo",
+    "lesismal/arpc",
     "MariaLetta/free-gophers-pack",
     "marmotedu/iam",
+    "Masterminds/glide",
     "Masterminds/sprig",
     "Masterminds/squirrel",
     "mholt/archiver",
@@ -79,6 +82,7 @@
     "Mrs4s/MiraiGo",
     "nfnt/resize",
     "notaryproject/notary",
+    "nsf/termbox-go",
     "objectbox/objectbox-go",
     "opentracing/opentracing-go",
     "peterbourgon/diskv",

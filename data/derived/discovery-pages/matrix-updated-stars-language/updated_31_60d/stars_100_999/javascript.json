@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 230,
-    "concepts": 64,
-    "observations": 65,
-    "repos": 18,
-    "terms": 64
+    "components": 262,
+    "concepts": 75,
+    "observations": 76,
+    "repos": 22,
+    "terms": 75
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "absolute-version/commit-and-tag-version",
+    "ankane/ahoy.js",
     "asdf-vm/actions",
     "AssemblyScript/wabt.js",
     "avwo/whistle-client",
@@ -23,13 +24,16 @@
     "executablebooks/sphinx-copybutton",
     "fgnass/domino",
     "GoogleChromeLabs/wasm-feature-detect",
+    "gruntjs/grunt-contrib-cssmin",
     "gruntjs/grunt-contrib-htmlmin",
+    "kriszyp/cbor-x",
     "mafintosh/streamx",
     "markdown-it/linkify-it",
     "npm/abbrev-js",
     "npm/rfcs",
     "protocolbuffers/protobuf-javascript",
     "RichardLitt/generator-standard-readme",
+    "rstudio/DT",
     "rtfeldman/node-test-runner",
     "thejoshwolfe/yazl"
   ]

@@ -1,16 +1,16 @@
 {
   "counts": {
-    "components": 1785,
-    "concepts": 470,
-    "observations": 472,
-    "repos": 52,
-    "terms": 505
+    "components": 1789,
+    "concepts": 478,
+    "observations": 480,
+    "repos": 53,
+    "terms": 513
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_100000_999999"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "996icu/996.ICU",
     "affaan-m/everything-claude-code",
@@ -32,6 +32,7 @@
     "facebook/react",
     "facebook/react-native",
     "flutter/flutter",
+    "Genymobile/scrcpy",
     "ggml-org/llama.cpp",
     "golang/go",
     "google-gemini/gemini-cli",

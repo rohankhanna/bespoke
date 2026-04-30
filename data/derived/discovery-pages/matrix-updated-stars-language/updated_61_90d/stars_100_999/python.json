@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 84,
-    "concepts": 131,
-    "observations": 131,
-    "repos": 35,
-    "terms": 133
+    "components": 88,
+    "concepts": 157,
+    "observations": 157,
+    "repos": 40,
+    "terms": 159
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "absadiki/pywhispercpp",
     "AcademySoftwareFoundation/OpenColorIO-Config-ACES",
@@ -25,11 +25,14 @@
     "Chris-hughes10/pytorch-accelerated",
     "cleinc/bts",
     "danielward27/flowjax",
+    "deepbeepmeep/mmgp",
     "dualverse-ai/station",
     "Gen-Verse/Open-AgentRL",
     "githubharald/CTCDecoder",
+    "google-deepmind/recurrentgemma",
     "google/adk-python-community",
     "googlefonts/glyphsets",
+    "Helsinki-NLP/Opus-MT",
     "ielab/llm-rankers",
     "inducer/cgen",
     "intel/ai-reference-models",
@@ -39,12 +42,14 @@
     "ModelTC/GenRL",
     "MoonshotAI/checkpoint-engine",
     "multimodal-reasoning-lab/Bagel-Zebra-CoT",
+    "nixprime/cpsm",
     "NVlabs/OmniVinci",
     "OpenBMB/infllmv2_cuda_impl",
     "pypa/get-pip",
     "ronaldoussoren/py2app",
     "superclaude-org/supergemini_framework",
     "thorstenMueller/Thorsten-Voice",
+    "v-iashin/video_features",
     "vietanhdev/samexporter",
     "Visual-Agent/DeepEyesV2",
     "wenet-e2e/WeTextProcessing",

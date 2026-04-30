@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 208,
-    "concepts": 283,
-    "observations": 283,
-    "repos": 61,
-    "terms": 283
+    "components": 238,
+    "concepts": 300,
+    "observations": 300,
+    "repos": 72,
+    "terms": 299
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "AILab-CVC/VideoCrafter",
     "alexmojaki/snoop",
     "AlibabaResearch/DAMO-ConvAI",
     "allenai/OLMo",
@@ -22,6 +23,8 @@
     "astral-sh/ruff-lsp",
     "baaivision/Emu",
     "baaivision/Emu3",
+    "buriy/python-readability",
+    "CatchTheTornado/text-extract-api",
     "cleanlab/cleanvision",
     "cloudpipe/cloudpickle",
     "ClownsharkBatwing/RES4LYF",
@@ -34,18 +37,23 @@
     "facebookresearch/ImageBind",
     "facebookresearch/meshrcnn",
     "facebookresearch/pytorchvideo",
+    "fixie-ai/ultravox",
     "google-gemini/deprecated-generative-ai-python",
     "google-research/text-to-text-transfer-transformer",
     "google/fuzzbench",
     "gusye1234/nano-graphrag",
     "harbor-framework/terminal-bench",
     "hkust-nlp/simpleRL-reason",
+    "huggingface/Math-Verify",
     "IBM/Project_CodeNet",
+    "Instagram/LibCST",
     "intel/ipex-llm",
     "IntelLabs/fastRAG",
     "KellerJordan/Muon",
     "lucidrains/tab-transformer-pytorch",
+    "MeetKai/functionary",
     "mjpost/sacrebleu",
+    "ModelTC/LightX2V-Qwen-Image-Lightning",
     "myhub/tr",
     "mymarilyn/clickhouse-driver",
     "NixOS/nixops",
@@ -58,9 +66,11 @@
     "open-mmlab/mmcv",
     "open-mmlab/mmengine",
     "PaddlePaddle/PaddleSlim",
+    "pallets-eco/blinker",
     "Paper2Poster/Paper2Poster",
     "paulocoutinhox/pdfium-lib",
     "PeterGriffinJin/Search-R1",
+    "PKU-YuanGroup/LLaVA-CoT",
     "protectai/llm-guard",
     "PyCQA/pycodestyle",
     "python-lsp/python-lsp-server",
@@ -74,6 +84,7 @@
     "Trusted-AI/adversarial-robustness-toolbox",
     "uber/petastorm",
     "Visual-Agent/DeepEyes",
+    "WenmuZhou/PytorchOCR",
     "yifan123/flow_grpo"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100,000 to 999,999 stars · C/C++
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 23
-- components: 76
-- concepts: 23
-- observations: 23
+- repos: 3
+- terms: 31
+- components: 80
+- concepts: 31
+- observations: 31
 
 ## Static behavior
 
@@ -26,12 +26,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [electron/electron](https://github.com/electron/electron) | 121077 | 2026-04-30T05:00:47Z | C/C++ | Infrastructure/tooling | 14 | 59 | 14 | 14 |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 107476 | 2026-04-29T22:42:54Z | C/C++ | Infrastructure/tooling | 9 | 17 | 9 | 9 |
+| [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | 139214 | 2026-04-30T10:07:44Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [electron/electron](https://github.com/electron/electron) | 121080 | 2026-04-30T08:10:25Z | C/C++ | Infrastructure/tooling | 14 | 59 | 14 | 14 |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 107518 | 2026-04-30T06:50:41Z | C/C++ | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [electron/electron](https://github.com/electron/electron) | 121077 | 2026-04-30T05:00:47Z | C/C++ | Infrastructure/tooling | 14 | 59 | 14 | 14 |
-| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 107476 | 2026-04-29T22:42:54Z | C/C++ | Infrastructure/tooling | 9 | 17 | 9 | 9 |
+| [Genymobile/scrcpy](https://github.com/Genymobile/scrcpy) | 139214 | 2026-04-30T10:07:44Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 8 |
+| [electron/electron](https://github.com/electron/electron) | 121080 | 2026-04-30T08:10:25Z | C/C++ | Infrastructure/tooling | 14 | 59 | 14 | 14 |
+| [ggml-org/llama.cpp](https://github.com/ggml-org/llama.cpp) | 107518 | 2026-04-30T06:50:41Z | C/C++ | Infrastructure/tooling | 9 | 17 | 9 | 9 |

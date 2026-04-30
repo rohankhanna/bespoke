@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 12
+- repos: 14
 - terms: 51
-- components: 72
+- components: 74
 - concepts: 52
 - observations: 52
 
@@ -37,6 +37,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [acw/simple_asn1](https://github.com/acw/simple_asn1) | 18 | 2026-02-12T17:07:16Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [antonengelhardt/wasm-oidc-plugin](https://github.com/antonengelhardt/wasm-oidc-plugin) | 36 | 2026-02-09T07:14:39Z | Rust | Infrastructure/tooling | 16 | 13 | 16 | 16 |
 | [ethereum/eipw](https://github.com/ethereum/eipw) | 33 | 2026-02-05T20:19:14Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [ClickHouse/ch2rs](https://github.com/ClickHouse/ch2rs) | 54 | 2026-02-05T15:53:08Z | Rust | CLI | 0 | 1 | 0 | 0 |
+| [loyd/fixnum](https://github.com/loyd/fixnum) | 12 | 2026-02-03T12:49:56Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [joseluisq/paket](https://github.com/joseluisq/paket) | 79 | 2026-02-02T07:10:11Z | Rust | Infrastructure/tooling | 12 | 9 | 13 | 13 |
 
 ## Repos sorted by stars
@@ -46,6 +48,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alloy-rs/op-alloy](https://github.com/alloy-rs/op-alloy) | 87 | 2026-02-18T14:17:23Z | Rust | Infrastructure/tooling | 6 | 13 | 6 | 6 |
 | [joseluisq/paket](https://github.com/joseluisq/paket) | 79 | 2026-02-02T07:10:11Z | Rust | Infrastructure/tooling | 12 | 9 | 13 | 13 |
 | [Cykooz/libheif-rs](https://github.com/Cykooz/libheif-rs) | 54 | 2026-02-25T18:56:32Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [ClickHouse/ch2rs](https://github.com/ClickHouse/ch2rs) | 54 | 2026-02-05T15:53:08Z | Rust | CLI | 0 | 1 | 0 | 0 |
 | [googlefonts/shaperglot](https://github.com/googlefonts/shaperglot) | 52 | 2026-02-18T21:03:36Z | Rust | Infrastructure/tooling | 2 | 13 | 2 | 2 |
 | [baerwang/openapi-rs](https://github.com/baerwang/openapi-rs) | 42 | 2026-02-25T03:36:31Z | Rust | Infrastructure/tooling | 8 | 4 | 8 | 8 |
 | [antonengelhardt/wasm-oidc-plugin](https://github.com/antonengelhardt/wasm-oidc-plugin) | 36 | 2026-02-09T07:14:39Z | Rust | Infrastructure/tooling | 16 | 13 | 16 | 16 |
@@ -55,3 +58,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [acw/simple_asn1](https://github.com/acw/simple_asn1) | 18 | 2026-02-12T17:07:16Z | Rust | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [nebelgrau77/airsniffer-esp32c6](https://github.com/nebelgrau77/airsniffer-esp32c6) | 17 | 2026-02-23T13:29:33Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [sigp/ethereum_hashing](https://github.com/sigp/ethereum_hashing) | 14 | 2026-02-19T01:02:00Z | Rust | Infrastructure/tooling | 2 | 5 | 2 | 2 |
+| [loyd/fixnum](https://github.com/loyd/fixnum) | 12 | 2026-02-03T12:49:56Z | Rust | Infrastructure/tooling | 0 | 1 | 0 | 0 |

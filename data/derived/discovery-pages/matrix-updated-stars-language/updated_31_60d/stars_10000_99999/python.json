@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 106,
-    "observations": 106,
-    "repos": 20,
-    "terms": 111
+    "components": 94,
+    "concepts": 109,
+    "observations": 109,
+    "repos": 23,
+    "terms": 114
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "3b1b/videos",
     "chriskiehl/Gooey",
@@ -24,6 +24,7 @@
     "karpathy/autoresearch",
     "localstack/localstack",
     "microsoft/playwright-python",
+    "openai/gpt-oss",
     "openai/gym",
     "openai/tiktoken",
     "PaddlePaddle/PaddleDetection",
@@ -32,6 +33,8 @@
     "prompt-toolkit/python-prompt-toolkit",
     "QwenLM/Qwen",
     "QwenLM/Qwen-Agent",
+    "QwenLM/Qwen3-TTS",
+    "resemble-ai/chatterbox",
     "superclaude-org/superclaude_framework",
     "Wan-Video/Wan2.1"
   ]

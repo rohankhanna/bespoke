@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 58,
-    "concepts": 45,
-    "observations": 45,
-    "repos": 16,
-    "terms": 44
+    "components": 65,
+    "concepts": 47,
+    "observations": 47,
+    "repos": 19,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "42-evey/evey-bridge-plugin",
     "al1-nasir/Research_council",
     "alexpolonsky/agent-skill-ontopo",
+    "BioContainers/singularity-build-bot",
     "Boulaouaney/timmx",
     "chaoss/grimoirelab-perceval-mozilla",
     "chaoss/grimoirelab-perceval-opnfv",
@@ -29,6 +30,8 @@
     "ldayton/Tongues",
     "llm-in-sandbox/llm-in-sandbox-rl",
     "openelections/openelections-data-sd",
-    "shadmau/autocouncil"
+    "shadmau/autocouncil",
+    "sparklabutah/timewarp",
+    "zkcrypto/rfcs"
   ]
 }

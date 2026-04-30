@@ -3,7 +3,7 @@
     "components": 6,
     "concepts": 11,
     "observations": 11,
-    "repos": 5,
+    "repos": 7,
     "terms": 11
   },
   "facet_version": 1,
@@ -12,11 +12,13 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "datawhalechina/so-large-lm",
     "graalvm/graalvm-ce-builds",
     "jorgebucaran/awsm.fish",
     "msgpack/msgpack-c",
+    "NVIDIA/Cosmos",
     "rose-pine/rose-pine-theme",
     "semver/semver"
   ]

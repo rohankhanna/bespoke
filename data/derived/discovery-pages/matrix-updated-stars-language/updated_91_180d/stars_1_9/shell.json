@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 40,
-    "concepts": 20,
-    "observations": 21,
-    "repos": 8,
-    "terms": 20
+    "components": 42,
+    "concepts": 23,
+    "observations": 24,
+    "repos": 9,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "actions-oss/gh-rc",
     "Bioconductor/bioc2u",
@@ -20,6 +20,7 @@
     "chronosphereio/calyptia-api",
     "danielrosehill/Claude-Bug-Catcher",
     "deiga/nodenv-default-npmrc",
+    "KSXGitHub/personal-pacman-packages",
     "Sbozzolo/libvterm-mirror",
     "Vaishnav-Sabari-Girish/rust_bangalore_december_2025"
   ]

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 9
-- terms: 38
-- components: 25
-- concepts: 39
-- observations: 40
+- repos: 10
+- terms: 46
+- components: 26
+- concepts: 47
+- observations: 48
 
 ## Static behavior
 
@@ -35,6 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [helm/kind-action](https://github.com/helm/kind-action) | 373 | 2026-02-17T14:51:50Z | Shell | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [get-gah/gah](https://github.com/get-gah/gah) | 289 | 2026-02-03T22:38:04Z | Shell | CLI | 8 | 6 | 9 | 9 |
 | [bluzername/claude-code-terminal-title](https://github.com/bluzername/claude-code-terminal-title) | 110 | 2026-01-31T13:03:48Z | Shell | CLI | 0 | 0 | 0 | 0 |
+| [apollographql/supergraph-demo-fed2](https://github.com/apollographql/supergraph-demo-fed2) | 171 | 2026-01-31T00:30:51Z | Shell | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -48,4 +49,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tensorflow/build](https://github.com/tensorflow/build) | 306 | 2026-02-21T00:00:29Z | Shell | Infrastructure/tooling | 2 | 9 | 2 | 2 |
 | [get-gah/gah](https://github.com/get-gah/gah) | 289 | 2026-02-03T22:38:04Z | Shell | CLI | 8 | 6 | 9 | 9 |
 | [agkozak/zcomet](https://github.com/agkozak/zcomet) | 233 | 2026-02-24T18:06:05Z | Shell | Unknown | 5 | 0 | 5 | 5 |
+| [apollographql/supergraph-demo-fed2](https://github.com/apollographql/supergraph-demo-fed2) | 171 | 2026-01-31T00:30:51Z | Shell | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [bluzername/claude-code-terminal-title](https://github.com/bluzername/claude-code-terminal-title) | 110 | 2026-01-31T13:03:48Z | Shell | CLI | 0 | 0 | 0 | 0 |

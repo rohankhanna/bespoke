@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 691,
-    "concepts": 186,
-    "observations": 188,
-    "repos": 42,
-    "terms": 220
+    "components": 743,
+    "concepts": 192,
+    "observations": 194,
+    "repos": 46,
+    "terms": 226
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "actions/hello-world-javascript-action",
     "adobe/spectrum-design-data",
@@ -35,10 +35,13 @@
     "fastify/fastify-cli",
     "fastify/fastify-plugin",
     "fwcd/tree-sitter-kotlin",
+    "gatsbyjs/gatsby-starter-hello-world",
+    "GoogleCloudPlatform/google-cloud-node-todos",
     "gopasspw/gopassbridge",
     "ipld/explore.ipld.io",
     "istanbuljs/babel-plugin-istanbul",
     "karma-runner/karma-coverage",
+    "kharchenkolab/pagoda2",
     "Level/abstract-level",
     "mattgodbolt/jsbeeb",
     "muratcankoylan/ralph-wiggum-marketer",
@@ -55,6 +58,7 @@
     "terser/html-minifier-terser",
     "thejoshwolfe/yauzl",
     "toon-format/spec",
-    "w3c/trusted-types"
+    "w3c/trusted-types",
+    "zone-eu/zone-mta"
   ]
 }

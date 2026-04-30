@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 184,
-    "concepts": 336,
-    "observations": 336,
-    "repos": 65,
-    "terms": 333
+    "components": 186,
+    "concepts": 356,
+    "observations": 356,
+    "repos": 69,
+    "terms": 353
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "adobe-fonts/source-han-sans",
     "albumentations-team/albumentations",
@@ -37,7 +37,9 @@
     "guoyww/AnimateDiff",
     "haotian-liu/llava",
     "httpie/cli",
+    "HumanSignal/labelImg",
     "IDEA-Research/GroundingDINO",
+    "instantX-research/InstantID",
     "jina-ai/clip-as-service",
     "jina-ai/serve",
     "junyanz/pytorch-CycleGAN-and-pix2pix",
@@ -46,6 +48,7 @@
     "kkroening/ffmpeg-python",
     "LAION-AI/Open-Assistant",
     "lllyasviel/ControlNet",
+    "lllyasviel/FramePack",
     "lllyasviel/stable-diffusion-webui-forge",
     "lm-sys/FastChat",
     "magic-research/magic-animate",
@@ -65,6 +68,7 @@
     "open-mmlab/mmdetection",
     "openai/baselines",
     "openai/gpt-2",
+    "OpenGVLab/InternVL",
     "OpenMOSS/MOSS",
     "pallets/jinja",
     "pytorch/examples",

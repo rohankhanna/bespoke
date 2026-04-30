@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · Rust
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,7 +13,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 19
-- terms: 102
+- terms: 99
 - components: 106
 - concepts: 102
 - observations: 102
@@ -42,7 +42,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dtolnay/prettyplease](https://github.com/dtolnay/prettyplease) | 761 | 2026-02-09T02:38:31Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [cuviper/autocfg](https://github.com/cuviper/autocfg) | 112 | 2026-02-05T23:34:11Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [tsonglew/dutis](https://github.com/tsonglew/dutis) | 209 | 2026-02-04T06:28:06Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
-| [sagiegurari/duckscript](https://github.com/sagiegurari/duckscript) | 581 | 2026-02-03T21:05:51Z | Rust | Infrastructure/tooling | 13 | 5 | 13 | 13 |
+| [sagiegurari/duckscript](https://github.com/sagiegurari/duckscript) | 581 | 2026-02-03T21:05:51Z | Rust | Infrastructure/tooling | 10 | 5 | 13 | 13 |
 | [kata-containers/cgroups-rs](https://github.com/kata-containers/cgroups-rs) | 144 | 2026-02-03T06:38:00Z | Rust | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [walles/riff](https://github.com/walles/riff) | 509 | 2026-01-31T13:28:57Z | Rust | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 
@@ -54,7 +54,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [typstyle-rs/typstyle](https://github.com/typstyle-rs/typstyle) | 806 | 2026-02-20T13:54:47Z | Rust | Infrastructure/tooling | 10 | 18 | 10 | 10 |
 | [dtolnay/prettyplease](https://github.com/dtolnay/prettyplease) | 761 | 2026-02-09T02:38:31Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
 | [Ai00-X/ai00_server](https://github.com/Ai00-X/ai00_server) | 610 | 2026-02-22T15:23:16Z | Rust | Infrastructure/tooling | 8 | 17 | 8 | 8 |
-| [sagiegurari/duckscript](https://github.com/sagiegurari/duckscript) | 581 | 2026-02-03T21:05:51Z | Rust | Infrastructure/tooling | 13 | 5 | 13 | 13 |
+| [sagiegurari/duckscript](https://github.com/sagiegurari/duckscript) | 581 | 2026-02-03T21:05:51Z | Rust | Infrastructure/tooling | 10 | 5 | 13 | 13 |
 | [walles/riff](https://github.com/walles/riff) | 509 | 2026-01-31T13:28:57Z | Rust | Infrastructure/tooling | 10 | 3 | 10 | 10 |
 | [cowboy8625/rusty-rain](https://github.com/cowboy8625/rusty-rain) | 445 | 2026-02-26T02:14:16Z | Rust | CLI | 11 | 6 | 11 | 11 |
 | [smol-rs/async-executor](https://github.com/smol-rs/async-executor) | 442 | 2026-02-18T19:59:44Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |

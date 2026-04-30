@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1605,
-    "concepts": 289,
-    "observations": 293,
-    "repos": 25,
-    "terms": 289
+    "components": 1397,
+    "concepts": 353,
+    "observations": 357,
+    "repos": 28,
+    "terms": 353
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "accomplish-ai/accomplish",
     "adonisjs/core",
@@ -21,20 +21,23 @@
     "bitwarden/clients",
     "bluesky-social/social-app",
     "bokeh/bokeh",
+    "bytedance/UI-TARS-desktop",
     "coder/code-server",
     "discordjs/discord.js",
     "dotansimha/graphql-code-generator",
+    "electron-userland/electron-builder",
     "emberjs/ember.js",
+    "fastapi/full-stack-fastapi-template",
     "FlowiseAI/Flowise",
     "GoogleChromeLabs/comlink",
-    "grafana/grafana",
     "invoke-ai/InvokeAI",
+    "Kong/insomnia",
+    "marmelab/react-admin",
     "microsoft/playwright",
     "nuxt/nuxt",
     "paulmillr/chokidar",
     "pnpm/pnpm",
     "postcss/postcss",
-    "puppeteer/puppeteer",
     "redis/node-redis",
     "tailwindlabs/tailwindcss",
     "vercel-labs/skills",

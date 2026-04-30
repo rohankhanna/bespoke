@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 113,
-    "concepts": 82,
-    "observations": 82,
-    "repos": 16,
-    "terms": 81
+    "components": 122,
+    "concepts": 85,
+    "observations": 85,
+    "repos": 17,
+    "terms": 84
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "ada-url/ada-python",
     "AFD-Illinois/iharm3d",
@@ -27,6 +27,7 @@
     "heal-research/pyoperon",
     "Level/classic-level",
     "mxmlnkn/indexed_bzip2",
+    "proxy-wasm/proxy-wasm-cpp-host",
     "r-lyeh/Spectral",
     "theimpossibleastronaut/rmw",
     "uael/sv"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 166,
-    "concepts": 184,
-    "observations": 184,
-    "repos": 31,
-    "terms": 182
+    "components": 191,
+    "concepts": 221,
+    "observations": 221,
+    "repos": 37,
+    "terms": 219
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "acts-project/acts",
+    "antgroup/vsag",
     "aws/aws-ofi-nccl",
     "BabylonJS/BabylonNative",
     "bfgroup/Lyra",
     "bitcoin-core/gui",
     "boazsegev/iodine",
     "ClickHouse/clickhouse-cpp",
-    "corporateshark/lightweightvk",
     "cygwin/cygwin",
     "daanx/isocline",
     "dmlc/treelite",
@@ -30,20 +30,26 @@
     "garglk/garglk",
     "go-skynet/go-llama.cpp",
     "google/dawn",
+    "intel/llm-scaler",
     "kleisauke/wasm-vips",
     "libbitcoin/libbitcoin-node",
     "libbitcoin/libbitcoin-server",
     "microsoft/WindowsAppSDK-Samples",
     "mitsuba-renderer/drjit",
+    "NVIDIA/pyxis",
     "openvinotoolkit/model_server",
     "openvinotoolkit/openvino.genai",
     "pantoniou/libfyaml",
-    "qbs/qbs",
+    "realh/roxterm",
     "rmagick/rmagick",
     "ROCm/MIVisionX",
     "ROCm/mori",
     "ROCm/rccl",
+    "rspatial/terra",
     "samdauwe/webgpu-native-examples",
-    "tile-ai/tilelang-ascend"
+    "sophgo/LLM-TPU",
+    "sophgo/tpu-mlir",
+    "tile-ai/tilelang-ascend",
+    "VectorDB-NTU/RaBitQ-Library"
   ]
 }

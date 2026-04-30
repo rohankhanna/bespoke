@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 94,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 10,
-    "terms": 20
+    "components": 108,
+    "concepts": 23,
+    "observations": 23,
+    "repos": 12,
+    "terms": 23
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "5scontrol/5s-algorithms-controller",
     "5sControl/5s-onvif",
+    "5sControl/inference-server-js",
     "5scontrol/machine-control-js",
     "abap2UI5/web-abap2ui5-samples",
+    "broccolijs/broccoli-output-wrapper",
     "cccs-jc/sql-formatter",
     "coderaiser/c8-reproduce",
     "curiousnoob/lerna-release-workflow",

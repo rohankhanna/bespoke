@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 492,
+    "components": 503,
     "concepts": 63,
     "observations": 63,
-    "repos": 31,
-    "terms": 62
+    "repos": 32,
+    "terms": 61
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "0h7z/vscode-julia-format",
     "5sControl/5s-frontend",
@@ -37,6 +37,7 @@
     "iansan5653/vscode-format-python-docstrings",
     "intlify/eslint-plugin-svelte",
     "litter-coder/midjourney-proxy-admin",
+    "LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension",
     "LuaLS/LLS-Addons-Action",
     "mcous/testdouble-vitest",
     "plrthink/RNZATestApp",

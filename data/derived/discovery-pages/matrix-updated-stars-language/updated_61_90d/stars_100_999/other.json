@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 96,
-    "concepts": 116,
-    "observations": 117,
-    "repos": 36,
-    "terms": 116
+    "components": 126,
+    "concepts": 129,
+    "observations": 130,
+    "repos": 41,
+    "terms": 129
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "ahyatt/emacs-websocket",
     "AndrewRadev/switch.vim",
@@ -24,6 +24,7 @@
     "babashka/scittle",
     "clojure-emacs/inf-clojure",
     "clojure/core.memoize",
+    "clojure/tools.analyzer",
     "cloojure/tupelo",
     "CSU-Radarmet/CSU_RadarTools",
     "CVEProject/cve-schema",
@@ -34,6 +35,7 @@
     "Embarcadero/python4delphi",
     "filiph/linkcheck",
     "grpc/grpc-dart",
+    "havarddj/typst-preview.el",
     "hollowstrawberry/kohya-colab",
     "JacksonBurns/chemeleon",
     "JuliaEditorSupport/julia-emacs",
@@ -43,12 +45,15 @@
     "rahul-goel/fused-ssim",
     "rapidsai-community/notebooks-contrib",
     "renzmann/treesit-auto",
+    "rescript-lang/rescript-vscode",
+    "ropensci/git2r",
     "scribd/Weaver",
     "swansonk14/admet_ai",
     "tensorflow/mlir-hlo",
     "thinca/vim-themis",
     "thu-ml/SpargeAttn",
     "tpapp/julia-repl",
+    "trptcolin/reply",
     "wjakob/nanobind_example"
   ]
 }

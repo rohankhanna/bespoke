@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 218,
-    "concepts": 54,
-    "observations": 54,
-    "repos": 9,
-    "terms": 54
+    "components": 199,
+    "concepts": 41,
+    "observations": 41,
+    "repos": 8,
+    "terms": 41
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,15 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "auth0/node-jwks-rsa",
-    "avoidwork/tiny-lru",
     "commitizen/cz-conventional-changelog",
     "conventional-changelog/releaser-tools",
-    "electerm/electerm-web",
+    "mozilla/addons-linter",
     "octokit/graphql-schema",
     "rvagg/github-webhook-handler",
-    "webtorrent/bittorrent-protocol",
-    "webtorrent/ut_metadata"
+    "vllm-project/recipes",
+    "webtorrent/bittorrent-protocol"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 20
-- terms: 98
-- components: 147
-- concepts: 99
-- observations: 100
+- repos: 22
+- terms: 111
+- components: 150
+- concepts: 112
+- observations: 113
 
 ## Static behavior
 
@@ -28,7 +28,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [mitsuhiko/insta](https://github.com/mitsuhiko/insta) | 2829 | 2026-03-30T20:53:47Z | Rust | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [enigo-rs/enigo](https://github.com/enigo-rs/enigo) | 1703 | 2026-03-30T10:34:01Z | Rust | Infrastructure/tooling | 10 | 2 | 10 | 10 |
+| [lldap/lldap](https://github.com/lldap/lldap) | 6196 | 2026-03-29T08:19:27Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [extism/extism](https://github.com/extism/extism) | 5583 | 2026-03-26T21:38:31Z | Rust | Infrastructure/tooling | 18 | 15 | 18 | 18 |
+| [LaurentMazare/tch-rs](https://github.com/LaurentMazare/tch-rs) | 5367 | 2026-03-26T13:24:41Z | Rust | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [cross-rs/cross](https://github.com/cross-rs/cross) | 8125 | 2026-03-25T16:00:29Z | Rust | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [google/tarpc](https://github.com/google/tarpc) | 3685 | 2026-03-25T06:11:05Z | Rust | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [dtolnay/quote](https://github.com/dtolnay/quote) | 1537 | 2026-03-25T06:01:55Z | Rust | Infrastructure/tooling | 2 | 9 | 2 | 2 |
@@ -53,8 +55,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [cross-rs/cross](https://github.com/cross-rs/cross) | 8125 | 2026-03-25T16:00:29Z | Rust | Infrastructure/tooling | 14 | 10 | 14 | 14 |
 | [dtolnay/anyhow](https://github.com/dtolnay/anyhow) | 6489 | 2026-03-24T02:44:34Z | Rust | Infrastructure/tooling | 0 | 9 | 0 | 0 |
+| [lldap/lldap](https://github.com/lldap/lldap) | 6196 | 2026-03-29T08:19:27Z | Rust | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [extism/extism](https://github.com/extism/extism) | 5583 | 2026-03-26T21:38:31Z | Rust | Infrastructure/tooling | 18 | 15 | 18 | 18 |
 | [dtolnay/thiserror](https://github.com/dtolnay/thiserror) | 5403 | 2026-03-24T02:34:35Z | Rust | Infrastructure/tooling | 0 | 10 | 0 | 0 |
+| [LaurentMazare/tch-rs](https://github.com/LaurentMazare/tch-rs) | 5367 | 2026-03-26T13:24:41Z | Rust | Infrastructure/tooling | 6 | 3 | 6 | 6 |
 | [smol-rs/smol](https://github.com/smol-rs/smol) | 4849 | 2026-03-23T14:46:03Z | Rust | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [dtolnay/proc-macro-workshop](https://github.com/dtolnay/proc-macro-workshop) | 4792 | 2026-03-16T04:27:05Z | Rust | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [gyscos/cursive](https://github.com/gyscos/cursive) | 4783 | 2026-03-25T02:11:00Z | Rust | CLI | 3 | 1 | 3 | 4 |

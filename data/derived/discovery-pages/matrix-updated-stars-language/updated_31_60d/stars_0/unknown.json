@@ -3,7 +3,7 @@
     "components": 18,
     "concepts": 14,
     "observations": 14,
-    "repos": 11,
+    "repos": 12,
     "terms": 14
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "adiny/moodtrip-hotel-search",
     "cwfitzgerald/libtest-mimic",
@@ -24,6 +24,7 @@
     "danielrosehill/Linux-Desktop-Tools-Index",
     "danielrosehill/Patches-Repos-Index",
     "DataDog/opa",
-    "kleisauke/glib"
+    "kleisauke/glib",
+    "psmux/scoop-tmuxpanel"
   ]
 }

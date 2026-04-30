@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 182,
-    "concepts": 119,
-    "observations": 119,
-    "repos": 34,
-    "terms": 124
+    "components": 196,
+    "concepts": 140,
+    "observations": 140,
+    "repos": 42,
+    "terms": 145
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "Accio-Lab/SwimBird",
     "AFLplusplus/afl-cov",
@@ -32,10 +32,16 @@
     "facebookresearch/mosaic",
     "googleapis/python-pubsublite",
     "hpcaitech/public_assets",
+    "hsliuustc0106/vllm-omni-skills",
     "iamsashank09/llm-wiki-kit",
+    "IcyFish332/T3RL",
     "intel/ai-containers",
     "intel/vc-intrinsics",
+    "jawah/wassima",
     "jupyter/governance",
+    "kserve/community",
+    "KyujinHan/Awesome-Training-Free-WAN2.1-Editing",
+    "lblankl/Short-RL",
     "libp2p/test-plans",
     "mborgerson/bintrace",
     "mem0ai/memory-benchmarks",
@@ -43,9 +49,11 @@
     "nix-community/nur-update",
     "NixOS/branding",
     "optuna/optunahub",
+    "riponazad/echotracker",
     "scasella/nanochat-mlx",
     "Significant-Gravitas/gravitasml",
     "sphinx-contrib/sphinxcontrib-towncrier",
+    "sublimelsp/LSP-marksman",
     "urschrei/pypolyline",
     "w1ndys/ex-cure-skill"
   ]

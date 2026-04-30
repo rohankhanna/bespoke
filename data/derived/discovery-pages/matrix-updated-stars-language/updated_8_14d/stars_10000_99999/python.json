@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1045,
-    "concepts": 884,
-    "observations": 886,
-    "repos": 86,
-    "terms": 913
+    "components": 1083,
+    "concepts": 971,
+    "observations": 973,
+    "repos": 91,
+    "terms": 1000
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "1panel-dev/maxkb",
     "3b1b/manim",
@@ -21,6 +21,8 @@
     "aio-libs/aiohttp",
     "akfamily/akshare",
     "anthropics/claude-plugins-official",
+    "apache/airflow",
+    "apache/tvm",
     "astral-sh/ty",
     "bentoml/OpenLLM",
     "BlinkDL/RWKV-LM",
@@ -30,6 +32,7 @@
     "caronc/apprise",
     "Chia-Network/chia-blockchain",
     "codelucas/newspaper",
+    "cookiecutter/cookiecutter-django",
     "cupy/cupy",
     "davila7/claude-code-templates",
     "django/django",
@@ -93,7 +96,9 @@
     "simonw/datasette",
     "squidfunk/mkdocs-material",
     "stanfordnlp/dspy",
+    "Textualize/textual",
     "titanwings/colleague-skill",
+    "ultralytics/ultralytics",
     "unslothai/unsloth",
     "vllm-project/vllm",
     "voxel51/fiftyone",

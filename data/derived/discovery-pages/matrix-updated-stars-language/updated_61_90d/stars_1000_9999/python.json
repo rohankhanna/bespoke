@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 89,
-    "concepts": 185,
-    "observations": 185,
-    "repos": 38,
-    "terms": 179
+    "components": 105,
+    "concepts": 212,
+    "observations": 213,
+    "repos": 42,
+    "terms": 206
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "ace-step/ACE-Step",
     "adrienverge/yamllint",
@@ -35,13 +35,17 @@
     "davidhalter/jedi-vim",
     "django/asgiref",
     "DLYuanGod/TinyGPT-V",
+    "google-deepmind/sonnet",
     "google/vizier",
     "graphql-python/graphene-django",
     "jaredks/rumps",
     "kijai/ComfyUI-WanVideoWrapper",
     "langfengQ/verl-agent",
+    "LTH14/mar",
     "meta-llama/llama-models",
     "mosaicml/streaming",
+    "nunchaku-ai/ComfyUI-nunchaku",
+    "opencv/opencv-python",
     "PaddlePaddle/PaddleSeg",
     "Python-Markdown/markdown",
     "qix-/better-exceptions",

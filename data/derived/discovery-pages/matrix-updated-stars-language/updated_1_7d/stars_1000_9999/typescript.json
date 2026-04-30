@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1053,
-    "concepts": 210,
-    "observations": 210,
-    "repos": 21,
-    "terms": 210
+    "components": 1602,
+    "concepts": 301,
+    "observations": 301,
+    "repos": 30,
+    "terms": 300
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "adobe/spectrum-web-components",
     "ardatan/graphql-tools",
+    "artsy/eigen",
     "Azure/azure-sdk-for-js",
     "bluesky-social/atproto",
     "bufbuild/protobuf-es",
@@ -26,14 +27,22 @@
     "denoland/std",
     "EpicenterHQ/epicenter",
     "graphql-hive/graphql-inspector",
-    "graphql-hive/graphql-yoga",
+    "IgnisDa/ryot",
     "jaegertracing/jaeger-ui",
     "microsoft/rnx-kit",
     "microsoft/vscode-cpptools",
     "microsoft/vscode-python",
+    "nodejs/corepack",
     "octokit/core.js",
-    "tailwindlabs/prettier-plugin-tailwindcss",
+    "openai/openai-agents-js",
+    "r5n-labs/vscode-react-javascript-snippets",
+    "retorquere/zotero-better-bibtex",
+    "sinclairzx81/typebox",
+    "standard/eslint-config-standard",
+    "stoplightio/spectral",
+    "tinylibs/tinybench",
+    "typescript-language-server/typescript-language-server",
     "Urigo/graphql-cli",
-    "yarnpkg/berry"
+    "web-infra-dev/rspress"
   ]
 }

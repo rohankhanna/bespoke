@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · Go
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 30
+- repos: 32
 - terms: 141
 - components: 186
 - concepts: 142
@@ -34,6 +34,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ethereum-optimism/op-geth](https://github.com/ethereum-optimism/op-geth) | 397 | 2026-04-15T13:38:51Z | Go | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [bernardo-bruning/ollama-copilot](https://github.com/bernardo-bruning/ollama-copilot) | 869 | 2026-04-15T01:53:44Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [jaegertracing/jaeger-idl](https://github.com/jaegertracing/jaeger-idl) | 101 | 2026-04-14T20:43:58Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [toml-lang/toml-test](https://github.com/toml-lang/toml-test) | 257 | 2026-04-14T15:58:08Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [andybalholm/brotli](https://github.com/andybalholm/brotli) | 723 | 2026-04-13T17:17:38Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [coder/code-marketplace](https://github.com/coder/code-marketplace) | 353 | 2026-04-13T11:49:56Z | Go | Infrastructure/tooling | 5 | 20 | 5 | 5 |
 | [charmbracelet/colorprofile](https://github.com/charmbracelet/colorprofile) | 116 | 2026-04-13T09:40:34Z | Go | CLI | 6 | 6 | 6 | 6 |
@@ -55,6 +56,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hashicorp/hello-vault-go](https://github.com/hashicorp/hello-vault-go) | 118 | 2026-04-02T02:45:41Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [google/triage-party](https://github.com/google/triage-party) | 532 | 2026-04-02T00:24:45Z | Go | Infrastructure/tooling | 5 | 4 | 5 | 5 |
 | [ethereum-optimism/superchain-registry](https://github.com/ethereum-optimism/superchain-registry) | 216 | 2026-04-01T15:09:00Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [go-gl/glow](https://github.com/go-gl/glow) | 266 | 2026-03-31T23:27:45Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [docker-library/bashbrew](https://github.com/docker-library/bashbrew) | 142 | 2026-03-31T18:50:19Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
@@ -80,6 +82,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ipfs/ipfs-docs](https://github.com/ipfs/ipfs-docs) | 336 | 2026-04-07T13:04:36Z | Go | Infrastructure/tooling | 11 | 45 | 11 | 11 |
 | [devgianlu/go-librespot](https://github.com/devgianlu/go-librespot) | 313 | 2026-04-15T15:53:32Z | Go | CLI | 6 | 13 | 6 | 6 |
 | [prometheus/exporter-toolkit](https://github.com/prometheus/exporter-toolkit) | 309 | 2026-04-09T08:11:31Z | Go | Infrastructure/tooling | 6 | 7 | 6 | 6 |
+| [go-gl/glow](https://github.com/go-gl/glow) | 266 | 2026-03-31T23:27:45Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [toml-lang/toml-test](https://github.com/toml-lang/toml-test) | 257 | 2026-04-14T15:58:08Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [imjasonh/kontain.me](https://github.com/imjasonh/kontain.me) | 239 | 2026-04-02T17:16:27Z | Go | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [ethereum-optimism/superchain-registry](https://github.com/ethereum-optimism/superchain-registry) | 216 | 2026-04-01T15:09:00Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [bluesky-social/goat](https://github.com/bluesky-social/goat) | 182 | 2026-04-08T18:54:21Z | Go | CLI | 1 | 2 | 1 | 1 |

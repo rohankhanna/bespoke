@@ -3,7 +3,7 @@
     "components": 90,
     "concepts": 40,
     "observations": 40,
-    "repos": 31,
+    "repos": 34,
     "terms": 40
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "abap2ui5/abap2ui5-build",
     "adre5577/contour-tinted",
@@ -32,9 +32,12 @@
     "dixyes/ghactionsplay",
     "dop-amin/ches2025-slothy-tutorial",
     "erick2418/vue-axios-vuex-jwt",
+    "exograd/erl-ksuid",
+    "fky2015/navigator.nvim-bug-report",
     "girishji/ngramview-complete.vim",
     "larshp/uccp",
-    "molotovcherry/tree-sitter-wasm",
+    "madhephaestus/MuJoCoTest",
+    "MolotovCherry/tree-sitter-wasm",
     "mzr1996/pytorch_sphinx_theme",
     "pgvector/pgvector-ada",
     "rudionrails/yell",

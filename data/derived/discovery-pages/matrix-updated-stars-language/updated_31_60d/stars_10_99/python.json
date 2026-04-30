@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 118,
-    "concepts": 77,
-    "observations": 77,
-    "repos": 27,
-    "terms": 76
+    "components": 130,
+    "concepts": 88,
+    "observations": 88,
+    "repos": 31,
+    "terms": 87
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "0xNyk/openclaw-to-hermes",
     "Alibaba-Quark/SSP",
@@ -26,11 +26,13 @@
     "ckan/ckanext-xloader",
     "ckan/datapusher",
     "cldf/segments",
+    "clearml/clearml-session",
     "cnsdqd-dyb/VillagerAgent-Minecraft-multiagent-framework",
     "corl-team/VL-DAC",
     "danielrosehill/Index",
     "databrickslabs/pylint-plugin",
     "explosion/weasel",
+    "gazebosim/gz-mujoco",
     "googlefonts/nam-files",
     "inducer/codepy",
     "iterate-ch/docs",
@@ -39,7 +41,9 @@
     "nousresearch/tinker-atropos",
     "python-pillow/pillow-perf",
     "redis/redis-py-entraid",
+    "richardodliu/OpenCodeEval",
     "rstudio/pins-python",
+    "ServiceNow/webarena-verified",
     "talieisin/britfix"
   ]
 }

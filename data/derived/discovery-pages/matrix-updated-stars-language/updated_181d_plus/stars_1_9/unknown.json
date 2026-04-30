@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 64,
-    "observations": 64,
-    "repos": 86,
-    "terms": 63
+    "components": 29,
+    "concepts": 65,
+    "observations": 65,
+    "repos": 92,
+    "terms": 64
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "0xnu/rewsury",
     "2KAbhishek/nightblue",
@@ -21,6 +21,7 @@
     "apache/netbeans-antora-wiki",
     "Arize-ai/phoenix-assets",
     "arnetheduck/nph-action",
+    "asomoza/image_gen_aux",
     "BhagawatAdhikari/bhagawatadhikari",
     "blockstream/rust-electrum-client",
     "build2-packaging/range-v3",
@@ -51,6 +52,7 @@
     "EscaticZheng/ps3.9wheel-install",
     "executablebooks/.github",
     "gnunicorn/cargo-unleash",
+    "HarderThenHarder/OpenRLHF",
     "hpcaitech/Open-Sora-Demo",
     "ibis-project/governance",
     "IDEA-Research/detrex-storage",
@@ -62,6 +64,7 @@
     "jcmorrow/seoul256-zed",
     "jiweimaster/lfs",
     "jupyter/notebook-team-compass",
+    "justinchuby/lintrunner-action",
     "KSXGitHub/pacman-repo",
     "layr-labs/avs-vibe-developer-guide",
     "LianjiaTech/athena-model-zoo",
@@ -82,12 +85,14 @@
     "ray-x/files",
     "s3bk/pdf_fonts",
     "sagiegurari/cargo-make-tasks",
+    "scottemmons/decision-transformer",
     "seebye/urwid-ueberzogen",
     "shirommakkad/base16-jetbrains-ide-monokai",
     "sokra/triomphe",
     "spring-projects/.github",
     "sudo-suhas/lint-staged-django-react-demo",
     "travis-infrastructure/packer-build",
+    "UBC-NLP/Cheetah",
     "UBC-NLP/Toucan",
     "vega/logos",
     "vorburger/Log4j_CVE-2021-44228",
@@ -99,6 +104,7 @@
     "wsxiaoys/sqlx",
     "yamy-cheng/GroundingDINO",
     "zailoxtt/ru-grok-jailbreak",
-    "zdenop/jbig2enc-samples"
+    "zdenop/jbig2enc-samples",
+    "zhenfeizhang/ark-spartan"
   ]
 }

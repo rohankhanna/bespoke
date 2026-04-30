@@ -3,7 +3,7 @@
     "components": 44,
     "concepts": 89,
     "observations": 89,
-    "repos": 17,
+    "repos": 18,
     "terms": 85
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "earthly/earthly",
     "FiloSottile/mkcert",
+    "gizak/termui",
     "go-kit/kit",
     "go-martini/martini",
     "golang/protobuf",

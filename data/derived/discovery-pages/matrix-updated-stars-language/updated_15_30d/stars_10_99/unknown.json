@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 9,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 20,
-    "terms": 26
+    "components": 13,
+    "concepts": 34,
+    "observations": 34,
+    "repos": 22,
+    "terms": 34
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "alchaincyf/ilya-sutskever-skill",
     "alchaincyf/taleb-skill",
@@ -28,11 +28,13 @@
     "ganelson/inform-evolution",
     "ipshipyard/dnslink-action",
     "ipshipyard/ipfs-deploy-action",
+    "jakoch/vulkan-sdk-arm",
     "kubernetes/steering",
     "onyx-dot-app/onyx_deep_research_bench",
     "openobserve/dashboards",
     "operator-framework/community",
     "SeleniumHQ/selenium_manager_artifacts",
-    "tc39/proposal-duplicate-named-capturing-groups"
+    "tc39/proposal-duplicate-named-capturing-groups",
+    "uxlfoundation/open-source-working-group"
   ]
 }

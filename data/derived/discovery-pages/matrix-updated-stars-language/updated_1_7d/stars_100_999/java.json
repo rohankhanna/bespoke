@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 97,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 11,
-    "terms": 94
+    "components": 133,
+    "concepts": 125,
+    "observations": 125,
+    "repos": 13,
+    "terms": 125
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "apache/commons-jexl",
-    "beehive-lab/GPULlama3.java",
+    "devoxx/DevoxxGenieIDEAPlugin",
     "eclipse-lsp4j/lsp4j",
     "eclipse-wildwebdeveloper/wildwebdeveloper",
     "microsoft/vscode-java-test",
@@ -23,7 +23,9 @@
     "quarkiverse/quarkus-langchain4j",
     "revelc/formatter-maven-plugin",
     "sevntu-checkstyle/sevntu.checkstyle",
+    "swagger-api/swagger-parser",
     "Waffle/waffle",
+    "wildfly/quickstart",
     "zilliztech/vts"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Other
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 18
-- terms: 106
-- components: 83
-- concepts: 109
-- observations: 111
+- repos: 20
+- terms: 120
+- components: 87
+- concepts: 123
+- observations: 125
 
 ## Static behavior
 
@@ -28,10 +28,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [tmuxinator/tmuxinator](https://github.com/tmuxinator/tmuxinator) | 13541 | 2026-04-16T01:50:48Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [google-gemini/gemini-fullstack-langgraph-quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart) | 18114 | 2026-04-16T01:42:21Z | Other | Infrastructure/tooling | 2 | 0 | 2 | 2 |
-| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13988 | 2026-04-15T13:04:59Z | Other | CLI | 10 | 1 | 10 | 10 |
+| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13989 | 2026-04-15T13:04:59Z | Other | CLI | 10 | 1 | 10 | 10 |
 | [cmderdev/cmder](https://github.com/cmderdev/cmder) | 26878 | 2026-04-14T23:54:02Z | Other | Infrastructure/tooling | 15 | 7 | 16 | 16 |
+| [nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace) | 20534 | 2026-04-14T18:03:21Z | Other | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [microsoft/OmniParser](https://github.com/microsoft/OmniParser) | 24677 | 2026-04-13T23:45:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [tonsky/FiraCode](https://github.com/tonsky/FiraCode) | 81475 | 2026-04-13T22:52:26Z | Other | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [heartcombo/devise](https://github.com/heartcombo/devise) | 24345 | 2026-04-10T14:43:55Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [guidance-ai/guidance](https://github.com/guidance-ai/guidance) | 21398 | 2026-04-10T12:34:10Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
 | [junegunn/fzf.vim](https://github.com/junegunn/fzf.vim) | 10179 | 2026-04-10T12:31:17Z | Other | Unknown | 1 | 0 | 1 | 1 |
 | [google/styleguide](https://github.com/google/styleguide) | 39230 | 2026-04-09T16:35:19Z | Other | Docs/knowledge | 3 | 0 | 3 | 3 |
@@ -57,10 +59,12 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cmderdev/cmder](https://github.com/cmderdev/cmder) | 26878 | 2026-04-14T23:54:02Z | Other | Infrastructure/tooling | 15 | 7 | 16 | 16 |
 | [LazyVim/LazyVim](https://github.com/LazyVim/LazyVim) | 26000 | 2026-04-02T08:24:54Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [microsoft/OmniParser](https://github.com/microsoft/OmniParser) | 24677 | 2026-04-13T23:45:39Z | Other | Unknown | 0 | 0 | 0 | 0 |
+| [heartcombo/devise](https://github.com/heartcombo/devise) | 24345 | 2026-04-10T14:43:55Z | Other | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [guidance-ai/guidance](https://github.com/guidance-ai/guidance) | 21398 | 2026-04-10T12:34:10Z | Other | Infrastructure/tooling | 6 | 5 | 6 | 6 |
+| [nikitabobko/AeroSpace](https://github.com/nikitabobko/AeroSpace) | 20534 | 2026-04-14T18:03:21Z | Other | Infrastructure/tooling | 9 | 1 | 9 | 9 |
 | [facebookresearch/sam2](https://github.com/facebookresearch/sam2) | 19047 | 2026-04-07T10:46:51Z | Other | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [google-gemini/gemini-fullstack-langgraph-quickstart](https://github.com/google-gemini/gemini-fullstack-langgraph-quickstart) | 18114 | 2026-04-16T01:42:21Z | Other | Infrastructure/tooling | 2 | 0 | 2 | 2 |
-| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13988 | 2026-04-15T13:04:59Z | Other | CLI | 10 | 1 | 10 | 10 |
+| [dense-analysis/ale](https://github.com/dense-analysis/ale) | 13989 | 2026-04-15T13:04:59Z | Other | CLI | 10 | 1 | 10 | 10 |
 | [nvim-treesitter/nvim-treesitter](https://github.com/nvim-treesitter/nvim-treesitter) | 13810 | 2026-04-03T13:11:41Z | Other | Infrastructure/tooling | 6 | 4 | 6 | 8 |
 | [tmuxinator/tmuxinator](https://github.com/tmuxinator/tmuxinator) | 13541 | 2026-04-16T01:50:48Z | Other | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [microsoft/language-server-protocol](https://github.com/microsoft/language-server-protocol) | 12780 | 2026-04-08T16:30:34Z | Other | Service/API | 0 | 0 | 0 | 0 |

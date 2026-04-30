@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 157,
-    "concepts": 124,
-    "observations": 126,
-    "repos": 31,
-    "terms": 127
+    "components": 213,
+    "concepts": 158,
+    "observations": 160,
+    "repos": 39,
+    "terms": 158
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,17 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "a1phyr/assets_manager",
     "alex/rust-asn1",
     "alloy-rs/core",
+    "alloy-rs/examples",
     "alloy-rs/svm-rs",
+    "cargo-lambda/cargo-lambda",
     "cryscan/web-rwkv",
     "ctz/graviola",
+    "dalance/ptags",
     "drahnr/cargo-spellcheck",
     "dtormoen/tsk-tsk",
     "esp-rs/rust",
@@ -27,7 +31,9 @@
     "gdesmott/system-deps",
     "gjtorikian/commonmarker",
     "in-toto/attestation",
+    "kakoune-lsp/kakoune-lsp",
     "Kampfkarren/full-moon",
+    "matrix-org/seshat",
     "mitsuhiko/similar-asserts",
     "nix-community/lorri",
     "nixops4/nixops4",
@@ -42,8 +48,10 @@
     "rustcrypto/signatures",
     "saghen/frizbee",
     "saphyr-rs/saphyr",
+    "smol-rs/async-task",
     "tauri-apps/muda",
     "tikv/jemallocator",
-    "yeslogic/allsorts"
+    "yeslogic/allsorts",
+    "zimbatm/mdsh"
   ]
 }

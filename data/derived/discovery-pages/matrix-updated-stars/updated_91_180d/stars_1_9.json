@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 262,
-    "concepts": 134,
-    "observations": 135,
-    "repos": 87,
-    "terms": 146
+    "components": 305,
+    "concepts": 158,
+    "observations": 159,
+    "repos": 96,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "39george/scs_gin_adapter",
     "3swordman/tree-sitter-toon",
@@ -41,6 +41,7 @@
     "CHERIoT-Platform/cheriot-pqc",
     "chronosphereio/calyptia-api",
     "codeGROOVE-dev/retry",
+    "Computer-use-agents/GUI-Docker-Env",
     "cooper1637/SageAttention",
     "danielrosehill/Agentic-Context-Development-Interview-Demo",
     "danielrosehill/AI-Model-Manager",
@@ -59,7 +60,11 @@
     "hesreallyhim/inkverse-fork",
     "infiniflow/resource",
     "karpeleslab/tpl",
+    "kojix2/ruby-edlib",
     "Kong/proxy-wasm-assemblyscript-sdk",
+    "KSXGitHub/aur-packages-builder",
+    "KSXGitHub/cargo-scripts-builder",
+    "KSXGitHub/personal-pacman-packages",
     "lanthale/LibHeifFX",
     "LaurenzV/sitro",
     "Layr-Labs/optimism",
@@ -70,6 +75,7 @@
     "MarcCote/downward",
     "mjvolk3/torchcell",
     "MollySophia/Albatross",
+    "Myriad-Dreamin/typst",
     "nvpro-samples/stb",
     "ocaml-opam/opam-rt",
     "parruda/ruby_llm",
@@ -93,12 +99,15 @@
     "trufflesecurity/test_keys",
     "tuananh/hyper-mcp",
     "typstyle-rs/pre-commit-typstyle",
+    "typstyle-rs/typstyle-action",
+    "typstyle-rs/typstyle-tampermonkey",
     "Vaishnav-Sabari-Girish/Hayasen-Examples",
     "Vaishnav-Sabari-Girish/Mousefood-Programs",
     "Vaishnav-Sabari-Girish/rust_bangalore_december_2025",
     "Vaishnav-Sabari-Girish/rust_bangalore_oct_2025",
     "vercel-labs/include_dir",
     "vim-fall/deno-fall-extra",
+    "vim-fall/deno-fall-std",
     "vllm-project/media-kit"
   ]
 }

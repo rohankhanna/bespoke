@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
-- terms: 16
-- components: 93
-- concepts: 16
-- observations: 16
+- repos: 8
+- terms: 19
+- components: 99
+- concepts: 19
+- observations: 19
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [codota/tabnine-nvim](https://github.com/codota/tabnine-nvim) | 415 | 2026-02-25T20:33:40Z | JavaScript | CLI | 3 | 6 | 3 | 3 |
 | [sindresorhus/multimatch](https://github.com/sindresorhus/multimatch) | 306 | 2026-02-20T10:27:53Z | JavaScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [prebuild/prebuild-install](https://github.com/prebuild/prebuild-install) | 115 | 2026-02-19T18:18:57Z | JavaScript | CLI | 5 | 22 | 5 | 5 |
 | [Mario4272/ag_bridge](https://github.com/Mario4272/ag_bridge) | 111 | 2026-02-17T18:38:00Z | JavaScript | Infrastructure/tooling | 0 | 9 | 0 | 0 |
@@ -39,6 +40,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [prebuild/prebuild](https://github.com/prebuild/prebuild) | 444 | 2026-02-07T12:12:56Z | JavaScript | CLI | 4 | 25 | 4 | 4 |
+| [codota/tabnine-nvim](https://github.com/codota/tabnine-nvim) | 415 | 2026-02-25T20:33:40Z | JavaScript | CLI | 3 | 6 | 3 | 3 |
 | [Calcium-Ion/neko-api-key-tool](https://github.com/Calcium-Ion/neko-api-key-tool) | 328 | 2026-02-11T08:12:40Z | JavaScript | Infrastructure/tooling | 0 | 16 | 0 | 0 |
 | [sindresorhus/multimatch](https://github.com/sindresorhus/multimatch) | 306 | 2026-02-20T10:27:53Z | JavaScript | Infrastructure/tooling | 0 | 8 | 0 | 0 |
 | [raywo/MMM-NowPlayingOnSpotify](https://github.com/raywo/MMM-NowPlayingOnSpotify) | 214 | 2026-02-13T15:49:04Z | JavaScript | Unknown | 0 | 8 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 5
+- repos: 4
 - terms: 9
 - components: 36
 - concepts: 9
@@ -30,7 +30,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Asmod4n/mruby-fast-json](https://github.com/Asmod4n/mruby-fast-json) | 2 | 2026-04-04T16:05:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mybigday/whisper.node](https://github.com/mybigday/whisper.node) | 8 | 2026-04-02T09:41:50Z | C/C++ | Infrastructure/tooling | 2 | 21 | 2 | 2 |
 | [ikonopistsev/mdbxmou](https://github.com/ikonopistsev/mdbxmou) | 4 | 2026-04-01T13:51:03Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
-| [objectbox/objectbox-sync-examples](https://github.com/objectbox/objectbox-sync-examples) | 1 | 2026-03-31T07:55:23Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -40,4 +39,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mybigday/whisper.node](https://github.com/mybigday/whisper.node) | 8 | 2026-04-02T09:41:50Z | C/C++ | Infrastructure/tooling | 2 | 21 | 2 | 2 |
 | [ikonopistsev/mdbxmou](https://github.com/ikonopistsev/mdbxmou) | 4 | 2026-04-01T13:51:03Z | C/C++ | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [Asmod4n/mruby-fast-json](https://github.com/Asmod4n/mruby-fast-json) | 2 | 2026-04-04T16:05:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [objectbox/objectbox-sync-examples](https://github.com/objectbox/objectbox-sync-examples) | 1 | 2026-03-31T07:55:23Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

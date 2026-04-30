@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 457,
-    "concepts": 447,
-    "observations": 448,
-    "repos": 75,
-    "terms": 443
+    "components": 478,
+    "concepts": 514,
+    "observations": 518,
+    "repos": 80,
+    "terms": 510
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "abo-abo/swiper",
     "adobe-type-tools/afdko",
@@ -22,6 +22,7 @@
     "AndrewRadev/splitjoin.vim",
     "andymass/vim-matchup",
     "ankane/ahoy",
+    "ankane/ahoy_email",
     "arviz-devs/arviz",
     "babashka/sci",
     "bbatsov/prelude",
@@ -30,7 +31,6 @@
     "chef/bento",
     "CocoaPods/Xcodeproj",
     "compose-spec/compose-spec",
-    "copilot-emacs/copilot.el",
     "crytic/building-secure-contracts",
     "crytic/echidna",
     "ctrlpvim/ctrlp.vim",
@@ -84,10 +84,15 @@
     "ruby/debug",
     "rust-lang/rust-mode",
     "sbdchd/neoformat",
+    "snakers4/silero-models",
+    "socketry/async",
     "stevearc/overseer.nvim",
     "swiftbar/SwiftBar",
+    "SwiftGen/SwiftGen",
     "tc39/proposal-temporal",
+    "troxler/awesome-css-frameworks",
     "yonaskolb/XcodeGen",
+    "yuhonas/free-exercise-db",
     "zjunlp/EasyEdit"
   ]
 }

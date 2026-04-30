@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 23
-- terms: 151
-- components: 111
-- concepts: 143
-- observations: 145
+- repos: 25
+- terms: 163
+- components: 120
+- concepts: 155
+- observations: 157
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [openshift/release](https://github.com/openshift/release) | 313 | 2026-04-23T07:08:54Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [termux/repology-metadata](https://github.com/termux/repology-metadata) | 128 | 2026-04-23T03:41:24Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [rust-cross/rust-musl-cross](https://github.com/rust-cross/rust-musl-cross) | 735 | 2026-04-23T02:25:32Z | Shell | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [tonistiigi/xx](https://github.com/tonistiigi/xx) | 554 | 2026-04-23T01:14:22Z | Shell | Infrastructure/tooling | 9 | 11 | 9 | 9 |
@@ -40,6 +41,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [denysdovhan/dotfiles](https://github.com/denysdovhan/dotfiles) | 469 | 2026-04-21T16:23:35Z | Shell | Unknown | 6 | 0 | 7 | 7 |
 | [docker-library/ruby](https://github.com/docker-library/ruby) | 619 | 2026-04-21T10:39:08Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [unixorn/zsh-quickstart-kit](https://github.com/unixorn/zsh-quickstart-kit) | 890 | 2026-04-20T17:04:01Z | Shell | Infrastructure/tooling | 14 | 4 | 14 | 14 |
+| [sclorg/mysql-container](https://github.com/sclorg/mysql-container) | 132 | 2026-04-20T12:32:22Z | Shell | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [docker-library/drupal](https://github.com/docker-library/drupal) | 290 | 2026-04-20T08:44:57Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [serpro69/claude-toolbox](https://github.com/serpro69/claude-toolbox) | 129 | 2026-04-19T16:16:01Z | Shell | Infrastructure/tooling | 19 | 5 | 18 | 18 |
 | [ericbuess/claude-code-docs](https://github.com/ericbuess/claude-code-docs) | 820 | 2026-04-19T12:07:03Z | Shell | Infrastructure/tooling | 2 | 3 | 0 | 0 |
@@ -65,6 +67,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [denysdovhan/dotfiles](https://github.com/denysdovhan/dotfiles) | 469 | 2026-04-21T16:23:35Z | Shell | Unknown | 6 | 0 | 7 | 7 |
 | [rz1989s/claude-code-statusline](https://github.com/rz1989s/claude-code-statusline) | 427 | 2026-04-17T17:11:17Z | Shell | CLI | 5 | 7 | 0 | 0 |
 | [dani-garcia/bw_web_builds](https://github.com/dani-garcia/bw_web_builds) | 366 | 2026-04-22T10:35:58Z | Shell | Infrastructure/tooling | 3 | 4 | 3 | 3 |
+| [openshift/release](https://github.com/openshift/release) | 313 | 2026-04-23T07:08:54Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [docker-library/drupal](https://github.com/docker-library/drupal) | 290 | 2026-04-20T08:44:57Z | Shell | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [nodenv/node-build](https://github.com/nodenv/node-build) | 290 | 2026-04-16T11:22:56Z | Shell | Infrastructure/tooling | 10 | 13 | 10 | 10 |
 | [gentoo/guru](https://github.com/gentoo/guru) | 276 | 2026-04-22T21:33:15Z | Shell | Infrastructure/tooling | 4 | 4 | 4 | 4 |
@@ -72,6 +75,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [lemire/docker_programming_station](https://github.com/lemire/docker_programming_station) | 159 | 2026-04-22T19:21:56Z | Shell | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [jvm-repo-rebuild/reproducible-central](https://github.com/jvm-repo-rebuild/reproducible-central) | 141 | 2026-04-22T21:19:51Z | Shell | Infrastructure/tooling | 4 | 9 | 4 | 4 |
 | [reviewdog/action-suggester](https://github.com/reviewdog/action-suggester) | 135 | 2026-04-21T20:05:30Z | Shell | Infrastructure/tooling | 4 | 11 | 4 | 4 |
+| [sclorg/mysql-container](https://github.com/sclorg/mysql-container) | 132 | 2026-04-20T12:32:22Z | Shell | Infrastructure/tooling | 12 | 9 | 12 | 12 |
 | [serpro69/claude-toolbox](https://github.com/serpro69/claude-toolbox) | 129 | 2026-04-19T16:16:01Z | Shell | Infrastructure/tooling | 19 | 5 | 18 | 18 |
 | [termux/repology-metadata](https://github.com/termux/repology-metadata) | 128 | 2026-04-23T03:41:24Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [getsolus/packages](https://github.com/getsolus/packages) | 126 | 2026-04-22T17:30:44Z | Shell | Infrastructure/tooling | 4 | 5 | 4 | 4 |

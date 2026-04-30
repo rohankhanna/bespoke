@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · C/C++
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
-- terms: 81
-- components: 113
-- concepts: 82
-- observations: 82
+- repos: 17
+- terms: 84
+- components: 122
+- concepts: 85
+- observations: 85
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [proxy-wasm/proxy-wasm-cpp-host](https://github.com/proxy-wasm/proxy-wasm-cpp-host) | 92 | 2026-04-15T14:37:53Z | C/C++ | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [barak/minidjvu](https://github.com/barak/minidjvu) | 13 | 2026-04-14T21:03:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [fcambus/bdf2sfd](https://github.com/fcambus/bdf2sfd) | 41 | 2026-04-10T13:35:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [AFD-Illinois/iharm3d](https://github.com/AFD-Illinois/iharm3d) | 17 | 2026-04-10T00:38:37Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -49,6 +50,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Level/classic-level](https://github.com/Level/classic-level) | 98 | 2026-04-01T04:04:51Z | C/C++ | Infrastructure/tooling | 7 | 30 | 7 | 7 |
 | [theimpossibleastronaut/rmw](https://github.com/theimpossibleastronaut/rmw) | 94 | 2026-04-08T10:17:01Z | C/C++ | CLI | 19 | 16 | 19 | 19 |
+| [proxy-wasm/proxy-wasm-cpp-host](https://github.com/proxy-wasm/proxy-wasm-cpp-host) | 92 | 2026-04-15T14:37:53Z | C/C++ | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [mxmlnkn/indexed_bzip2](https://github.com/mxmlnkn/indexed_bzip2) | 84 | 2026-04-07T08:02:59Z | C/C++ | CLI | 14 | 7 | 15 | 15 |
 | [flashlight/text](https://github.com/flashlight/text) | 79 | 2026-03-31T16:49:46Z | C/C++ | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [flatpak/xdg-dbus-proxy](https://github.com/flatpak/xdg-dbus-proxy) | 78 | 2026-04-07T16:53:34Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |

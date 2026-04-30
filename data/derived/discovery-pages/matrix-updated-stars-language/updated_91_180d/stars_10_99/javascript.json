@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 85,
-    "concepts": 13,
-    "observations": 14,
-    "repos": 10,
-    "terms": 13
+    "components": 107,
+    "concepts": 24,
+    "observations": 25,
+    "repos": 12,
+    "terms": 24
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "coderaiser/estrace",
     "d3x0r/JSOX",
     "dzeiocom/simple-icons-astro",
+    "ember-cli/broccoli-caching-writer",
     "haskell-actions/run-ormolu",
     "LuaLS/vscode-lua-doc",
     "markdown-it/markdown-it-abbr",
     "minikube-ci/examples",
+    "Redocly/redocly-cli-cookbook",
     "rose-pine/build",
     "tc39/proposal-native-promise-predicate",
     "ykdojo/cc-safe"

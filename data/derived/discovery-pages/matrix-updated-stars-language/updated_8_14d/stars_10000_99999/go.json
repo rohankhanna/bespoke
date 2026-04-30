@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 713,
-    "concepts": 635,
-    "observations": 639,
+    "components": 716,
+    "concepts": 636,
+    "observations": 640,
     "repos": 61,
-    "terms": 626
+    "terms": 627
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "0xJacky/nginx-ui",
     "1panel-dev/1panel",
@@ -46,7 +46,6 @@
     "goreleaser/goreleaser",
     "grafana/loki",
     "hashicorp/terraform",
-    "helm/helm",
     "jesseduffield/lazygit",
     "Jguer/yay",
     "junegunn/fzf",
@@ -64,6 +63,7 @@
     "nektos/act",
     "opencontainers/runc",
     "opentofu/opentofu",
+    "prometheus/node_exporter",
     "prometheus/prometheus",
     "router-for-me/cliproxyapi",
     "rs/zerolog",

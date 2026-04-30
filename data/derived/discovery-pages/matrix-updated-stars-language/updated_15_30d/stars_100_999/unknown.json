@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 19,
-    "concepts": 87,
-    "observations": 87,
-    "repos": 24,
-    "terms": 86
+    "components": 22,
+    "concepts": 96,
+    "observations": 96,
+    "repos": 27,
+    "terms": 95
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "adoptium/adoptium",
     "agamm/claude-code-owasp",
@@ -27,6 +27,7 @@
     "cncf/artwork",
     "dotnet-foundation/projects",
     "dotnet/AspNetApiDocs",
+    "github/codeql-cli-binaries",
     "grpc/proposal",
     "integrations/microsoft-teams",
     "lwpyh/Awesome-MLLM-Reasoning-Collection",
@@ -35,8 +36,10 @@
     "pyOpenSci/software-submission",
     "ranpox/awesome-computer-use",
     "SamurAIGPT/awesome-openclaw",
+    "sedyh/awesome-ebitengine",
     "servo/project",
     "tc39/how-we-work",
+    "Uzaaft/awesome-libghostty",
     "web-platform-tests/rfcs"
   ]
 }

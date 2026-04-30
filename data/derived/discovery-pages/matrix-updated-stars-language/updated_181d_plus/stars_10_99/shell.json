@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 64,
-    "concepts": 109,
-    "observations": 109,
-    "repos": 49,
-    "terms": 106
+    "components": 75,
+    "concepts": 122,
+    "observations": 122,
+    "repos": 54,
+    "terms": 117
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "2KAbhishek/ghpm",
     "2KAbhishek/mkrepo",
+    "2KAbhishek/tdo",
     "aaaaadrien/adrien-overlay",
     "aaronpowell/tmux-weather",
     "aarowill/base16-gnome-terminal",
@@ -46,8 +47,10 @@
     "google/gfbuild-SPIRV-Tools",
     "hashnuke/heroku-buildpack-elixir-otp-builds",
     "haya14busa/action-bumpr",
+    "haya14busa/action-update-semver",
     "icanhasjonas/run-claude-docker",
     "isaacs/npm",
+    "jcupitt/vips-benchmarks",
     "jeff-hykin/better-go-syntax",
     "karancode/asdf-aws-vault",
     "koenrh/dnscontrol-action",
@@ -62,6 +65,8 @@
     "tidwall/pkg.sh",
     "timothycrosley/cookiecutter-python",
     "tiran/cpython-wasm-test",
-    "unixorn/autoupdate-zgen"
+    "tuvovan/Zero_DCE_TF",
+    "unixorn/autoupdate-zgen",
+    "Zepmann/lldap-cli"
   ]
 }

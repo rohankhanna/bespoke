@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 199,
-    "concepts": 364,
-    "observations": 365,
-    "repos": 31,
-    "terms": 362
+    "components": 198,
+    "concepts": 361,
+    "observations": 363,
+    "repos": 29,
+    "terms": 359
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "AaronFeng753/Waifu2x-Extension-GUI",
     "apache/brpc",
-    "apple/foundationdb",
     "arangodb/arangodb",
     "baldurk/renderdoc",
     "bkaradzic/bgfx",
@@ -26,17 +25,15 @@
     "chromium/chromium",
     "citusdata/citus",
     "envoyproxy/envoy",
-    "facebookresearch/faiss",
-    "FreeRDP/FreeRDP",
-    "gnachman/iTerm2",
     "google/filament",
     "grpc/grpc",
+    "iovisor/bcc",
+    "isl-org/Open3D",
     "jqlang/jq",
+    "k2-fsa/sherpa-onnx",
     "libuv/libuv",
     "libvips/libvips",
-    "lightgbm-org/LightGBM",
     "microsoft/mimalloc",
-    "microsoft/onnxruntime",
     "microsoft/STL",
     "openvinotoolkit/openvino",
     "PaddlePaddle/Paddle",
@@ -44,6 +41,7 @@
     "raysan5/raylib",
     "redis/redis",
     "systemd/systemd",
-    "taskflow/taskflow"
+    "taskflow/taskflow",
+    "yhirose/cpp-httplib"
   ]
 }

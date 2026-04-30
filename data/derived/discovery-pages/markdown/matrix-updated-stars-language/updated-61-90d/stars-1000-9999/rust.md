@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Rust
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 19
-- terms: 99
-- components: 108
-- concepts: 100
-- observations: 100
+- repos: 20
+- terms: 104
+- components: 113
+- concepts: 105
+- observations: 105
 
 ## Static behavior
 
@@ -35,6 +35,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [tokio-rs/loom](https://github.com/tokio-rs/loom) | 2682 | 2026-02-20T20:40:49Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [fschutt/printpdf](https://github.com/fschutt/printpdf) | 1065 | 2026-02-20T17:49:30Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 9 |
 | [Byron/dua-cli](https://github.com/Byron/dua-cli) | 5815 | 2026-02-20T08:14:57Z | Rust | CLI | 8 | 10 | 8 | 8 |
+| [sharkdp/diskus](https://github.com/sharkdp/diskus) | 1208 | 2026-02-14T12:04:30Z | Rust | CLI | 5 | 5 | 5 | 5 |
 | [dtolnay/cargo-expand](https://github.com/dtolnay/cargo-expand) | 3071 | 2026-02-12T03:16:08Z | Rust | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [tikv/grpc-rs](https://github.com/tikv/grpc-rs) | 1852 | 2026-02-11T01:10:25Z | Rust | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [rust-fuzz/cargo-fuzz](https://github.com/rust-fuzz/cargo-fuzz) | 1790 | 2026-02-10T19:31:28Z | Rust | CLI | 5 | 7 | 5 | 5 |
@@ -68,4 +69,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [linebender/tiny-skia](https://github.com/linebender/tiny-skia) | 1548 | 2026-02-05T23:54:36Z | Rust | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [GREsau/schemars](https://github.com/GREsau/schemars) | 1333 | 2026-02-03T21:21:01Z | Rust | Infrastructure/tooling | 2 | 4 | 3 | 3 |
 | [brendanzab/codespan](https://github.com/brendanzab/codespan) | 1287 | 2026-02-28T10:33:10Z | Rust | CLI | 7 | 7 | 7 | 7 |
+| [sharkdp/diskus](https://github.com/sharkdp/diskus) | 1208 | 2026-02-14T12:04:30Z | Rust | CLI | 5 | 5 | 5 | 5 |
 | [fschutt/printpdf](https://github.com/fschutt/printpdf) | 1065 | 2026-02-20T17:49:30Z | Rust | Infrastructure/tooling | 9 | 7 | 9 | 9 |

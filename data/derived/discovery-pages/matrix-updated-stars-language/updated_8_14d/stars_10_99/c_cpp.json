@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 109,
-    "concepts": 84,
-    "observations": 84,
-    "repos": 21,
-    "terms": 86
+    "components": 125,
+    "concepts": 86,
+    "observations": 86,
+    "repos": 23,
+    "terms": 88
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "8144225309/SuperScalar",
     "ad-si/FlatCV",
@@ -32,6 +32,8 @@
     "mitsuba-renderer/nanothread",
     "mybigday/llama.node",
     "nx10/unigd",
+    "openucx/xpmem",
+    "openvinotoolkit/openvino_tokenizers",
     "walbourn/directxtextest",
     "walbourn/directxtktest",
     "yquake2/ref_vk"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 13,
-    "concepts": 5,
-    "observations": 5,
-    "repos": 2,
-    "terms": 5
+    "components": 34,
+    "concepts": 13,
+    "observations": 13,
+    "repos": 5,
+    "terms": 13
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,12 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "Kong/proxy-wasm-assemblyscript-sdk",
-    "vim-fall/deno-fall-extra"
+    "KSXGitHub/cargo-scripts-builder",
+    "typstyle-rs/typstyle-tampermonkey",
+    "vim-fall/deno-fall-extra",
+    "vim-fall/deno-fall-std"
   ]
 }

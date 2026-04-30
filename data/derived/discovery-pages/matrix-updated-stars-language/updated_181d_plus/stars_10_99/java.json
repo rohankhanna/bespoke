@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 42,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 23,
-    "terms": 37
+    "components": 65,
+    "concepts": 73,
+    "observations": 73,
+    "repos": 32,
+    "terms": 74
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "abilian/abilian-sbe",
     "angelozerr/ec4e",
     "avsej/gson.rb",
+    "bhavuklabs/research4j",
+    "Breezeware-OS/dynamo-multi-ai-agent-langgraph4j-starter",
     "caprica/vlcj-info",
+    "CommonWealthRobotics/mujoco-java",
+    "CraftJarvis/MC-Simulator",
     "cyberphone/jws-ct",
     "dgileadi/dg.jdt.ls.decompiler",
     "didalgolab/ai-intellij-plugin",
@@ -25,8 +29,11 @@
     "eclipse-archived/dartboard",
     "editorconfig/editorconfig-core-java",
     "extism/chicory-sdk",
+    "extism/java-sdk",
+    "f4b6a3/ksuid-creator",
     "gchq/koryphe",
     "glaforge/gemini-workshop-for-java-developers",
+    "iamolegga/react-native-launch-arguments",
     "jerrylususu/PaddleOCR-json-java-api",
     "JetBrains/spotbugs-intellij-plugin",
     "marbl/MHAP",
@@ -35,6 +42,8 @@
     "setl/rdf-urdna",
     "SpencerPark/jupyter-jvm-basekernel",
     "SpencerPark/MellowD",
+    "stephanj/Llama3JavaChatCompletionService",
+    "tesla/m2eclipse-tycho",
     "U-Alberta/wned",
     "Vinhixus/TornadoVM-Ray-Tracer"
   ]

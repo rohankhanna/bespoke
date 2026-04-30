@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 76,
-    "concepts": 78,
-    "observations": 78,
-    "repos": 23,
-    "terms": 78
+    "components": 105,
+    "concepts": 140,
+    "observations": 140,
+    "repos": 32,
+    "terms": 140
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "andreasdr/tdme2",
     "antonypro/QGoodWindow",
     "appelmar/gdalcubes",
     "Ar-Ray-code/YOLOX-ROS",
@@ -24,17 +25,25 @@
     "bdwgc/libatomic_ops",
     "birkett/srvany-ng",
     "bnosac/audio.whisper",
+    "CGCL-codes/YiTu",
     "conor42/fast-lzma2",
+    "eddelbuettel/rinside",
     "ejoy/lua",
     "erkyrath/glulxe",
     "Imagick/imagick",
+    "ingonyama-zk/icicle",
     "intel/isa-l_crypto",
+    "IST-DASLab/qutlass",
     "jimporter/mettle",
+    "KhronosGroup/OpenCL-SDK",
+    "mengyao/Complete-Striped-Smith-Waterman-Library",
     "mit-han-lab/Block-Sparse-Attention",
     "nagisa/rust_tracy_client",
     "neovim/libvterm",
     "nihui/ncnn-android-nanodet",
+    "nihui/ncnn-android-scrfd",
     "osvenskan/posix_ipc",
+    "ParRes/Kernels",
     "swigger/wechat-ocr",
     "TkTech/can_ada"
   ]

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 188,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 27,
-    "terms": 113
+    "components": 218,
+    "concepts": 120,
+    "observations": 120,
+    "repos": 32,
+    "terms": 134
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "0x676e67/wreq-util",
     "64bit/commandOK",
@@ -28,15 +28,20 @@
     "ClickHouse/clickhousectl",
     "cloudllm-ai/mentisdb",
     "crate-ci/imperative",
+    "eth-act/ere",
+    "eth-act/zkboost",
+    "filecoin-project/actors-utils",
     "fortanix/rustls-mbedtls-provider",
     "foundry-rs/foundry-fork-db",
     "hagan/claudia-statusline",
+    "hecrj/iced_palace",
     "janrueth/boring-rustls-provider",
     "major7apps/pensyve",
     "multiformats/rust-cid",
     "nico-abram/blondie",
     "phiat/claude-esp-rs",
     "Sovereign-Labs/rollup-starter",
+    "succinctlabs/network",
     "tombelieber/claude-view",
     "tracel-ai/burn-bench",
     "tracel-ai/burn-onnx",

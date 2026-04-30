@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1,000 to 9,999 stars · TypeScript
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
-- terms: 195
-- components: 749
-- concepts: 171
-- observations: 171
+- repos: 24
+- terms: 209
+- components: 848
+- concepts: 185
+- observations: 185
 
 ## Static behavior
 
@@ -28,6 +28,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [microsoft/tsdoc](https://github.com/microsoft/tsdoc) | 4949 | 2026-03-31T04:12:28Z | TypeScript | Infrastructure/tooling | 8 | 2 | 9 | 9 |
 | [react-native-webview/react-native-webview](https://github.com/react-native-webview/react-native-webview) | 7144 | 2026-03-30T19:03:14Z | TypeScript | Infrastructure/tooling | 7 | 43 | 7 | 7 |
+| [sql-formatter-org/sql-formatter](https://github.com/sql-formatter-org/sql-formatter) | 2843 | 2026-03-28T08:21:11Z | TypeScript | Infrastructure/tooling | 4 | 39 | 4 | 4 |
 | [enisdenjo/graphql-ws](https://github.com/enisdenjo/graphql-ws) | 1861 | 2026-03-26T19:44:41Z | TypeScript | CLI | 19 | 33 | 19 | 19 |
 | [REditorSupport/vscode-R](https://github.com/REditorSupport/vscode-R) | 1164 | 2026-03-26T01:09:07Z | TypeScript | Infrastructure/tooling | 8 | 49 | 8 | 8 |
 | [graphql-hive/graphql-config](https://github.com/graphql-hive/graphql-config) | 1201 | 2026-03-25T21:54:45Z | TypeScript | Infrastructure/tooling | 11 | 42 | 11 | 11 |
@@ -38,21 +39,23 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ben-rogerson/twin.macro](https://github.com/ben-rogerson/twin.macro) | 8036 | 2026-03-22T03:38:39Z | TypeScript | Infrastructure/tooling | 19 | 59 | 19 | 19 |
 | [ekalinin/sitemap.js](https://github.com/ekalinin/sitemap.js) | 1708 | 2026-03-21T10:27:43Z | TypeScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
 | [Ironclad/rivet](https://github.com/Ironclad/rivet) | 4541 | 2026-03-20T17:34:24Z | TypeScript | Infrastructure/tooling | 2 | 29 | 2 | 2 |
+| [gustavoguichard/string-ts](https://github.com/gustavoguichard/string-ts) | 1260 | 2026-03-20T11:32:21Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
 | [josStorer/RWKV-Runner](https://github.com/josStorer/RWKV-Runner) | 6324 | 2026-03-20T10:59:04Z | TypeScript | CLI | 8 | 15 | 8 | 8 |
 | [lobehub/lobe-chat-agents](https://github.com/lobehub/lobe-chat-agents) | 1038 | 2026-03-20T05:14:02Z | TypeScript | Infrastructure/tooling | 25 | 29 | 0 | 0 |
 | [infinitered/nsfwjs](https://github.com/infinitered/nsfwjs) | 8852 | 2026-03-18T13:51:07Z | TypeScript | CLI | 7 | 16 | 7 | 7 |
 | [actions/download-artifact](https://github.com/actions/download-artifact) | 1824 | 2026-03-18T12:43:40Z | TypeScript | Infrastructure/tooling | 5 | 28 | 5 | 5 |
 | [nanbingxyz/5ire](https://github.com/nanbingxyz/5ire) | 5172 | 2026-03-18T09:40:08Z | TypeScript | CLI | 6 | 122 | 6 | 6 |
+| [Myriad-Dreamin/typst.ts](https://github.com/Myriad-Dreamin/typst.ts) | 1086 | 2026-03-17T12:34:19Z | TypeScript | Infrastructure/tooling | 9 | 48 | 9 | 9 |
 | [coaidev/coai](https://github.com/coaidev/coai) | 9086 | 2026-03-12T10:00:31Z | TypeScript | Infrastructure/tooling | 14 | 17 | 14 | 14 |
 | [jnsahaj/tweakcn](https://github.com/jnsahaj/tweakcn) | 9741 | 2026-03-10T13:54:52Z | TypeScript | Infrastructure/tooling | 6 | 94 | 6 | 6 |
 | [standard-schema/standard-schema](https://github.com/standard-schema/standard-schema) | 3486 | 2026-03-08T20:52:13Z | TypeScript | Infrastructure/tooling | 7 | 9 | 7 | 7 |
-| [vercel/serve](https://github.com/vercel/serve) | 9845 | 2026-03-03T19:05:01Z | TypeScript | CLI | 5 | 29 | 5 | 5 |
+| [vercel/serve](https://github.com/vercel/serve) | 9848 | 2026-03-03T19:05:01Z | TypeScript | CLI | 5 | 29 | 5 | 5 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [vercel/serve](https://github.com/vercel/serve) | 9845 | 2026-03-03T19:05:01Z | TypeScript | CLI | 5 | 29 | 5 | 5 |
+| [vercel/serve](https://github.com/vercel/serve) | 9848 | 2026-03-03T19:05:01Z | TypeScript | CLI | 5 | 29 | 5 | 5 |
 | [jnsahaj/tweakcn](https://github.com/jnsahaj/tweakcn) | 9741 | 2026-03-10T13:54:52Z | TypeScript | Infrastructure/tooling | 6 | 94 | 6 | 6 |
 | [coaidev/coai](https://github.com/coaidev/coai) | 9086 | 2026-03-12T10:00:31Z | TypeScript | Infrastructure/tooling | 14 | 17 | 14 | 14 |
 | [infinitered/nsfwjs](https://github.com/infinitered/nsfwjs) | 8852 | 2026-03-18T13:51:07Z | TypeScript | CLI | 7 | 16 | 7 | 7 |
@@ -65,11 +68,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Ironclad/rivet](https://github.com/Ironclad/rivet) | 4541 | 2026-03-20T17:34:24Z | TypeScript | Infrastructure/tooling | 2 | 29 | 2 | 2 |
 | [standard-schema/standard-schema](https://github.com/standard-schema/standard-schema) | 3486 | 2026-03-08T20:52:13Z | TypeScript | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [microsoft/genaiscript](https://github.com/microsoft/genaiscript) | 2897 | 2026-03-24T08:26:40Z | TypeScript | Infrastructure/tooling | 17 | 10 | 17 | 17 |
+| [sql-formatter-org/sql-formatter](https://github.com/sql-formatter-org/sql-formatter) | 2843 | 2026-03-28T08:21:11Z | TypeScript | Infrastructure/tooling | 4 | 39 | 4 | 4 |
 | [stephenh/ts-proto](https://github.com/stephenh/ts-proto) | 2559 | 2026-03-23T18:42:27Z | TypeScript | Infrastructure/tooling | 10 | 49 | 10 | 10 |
 | [gpac/mp4box.js](https://github.com/gpac/mp4box.js) | 2416 | 2026-03-25T21:35:46Z | TypeScript | Infrastructure/tooling | 5 | 26 | 5 | 5 |
 | [enisdenjo/graphql-ws](https://github.com/enisdenjo/graphql-ws) | 1861 | 2026-03-26T19:44:41Z | TypeScript | CLI | 19 | 33 | 19 | 19 |
 | [actions/download-artifact](https://github.com/actions/download-artifact) | 1824 | 2026-03-18T12:43:40Z | TypeScript | Infrastructure/tooling | 5 | 28 | 5 | 5 |
 | [ekalinin/sitemap.js](https://github.com/ekalinin/sitemap.js) | 1708 | 2026-03-21T10:27:43Z | TypeScript | Infrastructure/tooling | 5 | 29 | 5 | 5 |
+| [gustavoguichard/string-ts](https://github.com/gustavoguichard/string-ts) | 1260 | 2026-03-20T11:32:21Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
 | [graphql-hive/graphql-config](https://github.com/graphql-hive/graphql-config) | 1201 | 2026-03-25T21:54:45Z | TypeScript | Infrastructure/tooling | 11 | 42 | 11 | 11 |
 | [REditorSupport/vscode-R](https://github.com/REditorSupport/vscode-R) | 1164 | 2026-03-26T01:09:07Z | TypeScript | Infrastructure/tooling | 8 | 49 | 8 | 8 |
+| [Myriad-Dreamin/typst.ts](https://github.com/Myriad-Dreamin/typst.ts) | 1086 | 2026-03-17T12:34:19Z | TypeScript | Infrastructure/tooling | 9 | 48 | 9 | 9 |
 | [lobehub/lobe-chat-agents](https://github.com/lobehub/lobe-chat-agents) | 1038 | 2026-03-20T05:14:02Z | TypeScript | Infrastructure/tooling | 25 | 29 | 0 | 0 |

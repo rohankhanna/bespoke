@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 171,
-    "concepts": 147,
-    "observations": 147,
-    "repos": 28,
-    "terms": 146
+    "components": 178,
+    "concepts": 149,
+    "observations": 149,
+    "repos": 29,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "aquasecurity/starboard",
     "aquasecurity/tfsec",
     "bazelbuild/buildtools",
+    "bytedance/gopkg",
     "caddyserver/xcaddy",
     "cenkalti/backoff",
     "charmbracelet/glamour",

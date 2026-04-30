@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 0 stars · C/C++
 
-Generated at: `2026-04-29T07:17:54.224446+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 4
-- components: 6
-- concepts: 4
-- observations: 4
+- terms: 3
+- components: 5
+- concepts: 3
+- observations: 3
 
 ## Static behavior
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [rltakashige/mlx-jaccl-fix-small-recv](https://github.com/rltakashige/mlx-jaccl-fix-small-recv) | 0 | 2026-04-22T12:30:12Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [buty4649/mruby-yyjson](https://github.com/buty4649/mruby-yyjson) | 0 | 2026-04-27T00:14:49Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [rltakashige/mlx-jaccl-fix-small-recv](https://github.com/rltakashige/mlx-jaccl-fix-small-recv) | 0 | 2026-04-22T12:30:12Z | C/C++ | Infrastructure/tooling | 4 | 6 | 4 | 4 |
+| [buty4649/mruby-yyjson](https://github.com/buty4649/mruby-yyjson) | 0 | 2026-04-27T00:14:49Z | C/C++ | Infrastructure/tooling | 3 | 5 | 3 | 3 |

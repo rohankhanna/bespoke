@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 297,
-    "concepts": 70,
-    "observations": 70,
-    "repos": 12,
-    "terms": 74
+    "components": 324,
+    "concepts": 74,
+    "observations": 74,
+    "repos": 13,
+    "terms": 78
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "0xtbug/zero-limit",
     "a2aproject/a2a-inspector",
@@ -21,6 +21,7 @@
     "aymenfurter/ralph",
     "castwide/vscode-solargraph",
     "eckardt/cchistory",
+    "googleapis/nodejs-logging-winston",
     "kamranahmedse/claude-run",
     "lambdalisue/vim-gin",
     "lobehub/lobe-cli-toolbox",

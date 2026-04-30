@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 256,
-    "observations": 256,
-    "repos": 84,
-    "terms": 251
+    "components": 425,
+    "concepts": 278,
+    "observations": 278,
+    "repos": 97,
+    "terms": 273
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "0x676e67/0x676e67",
     "42-evey/evey-bridge-plugin",
@@ -41,12 +41,14 @@
     "Bartheleway/inquirer-table-multiple",
     "bendrucker/terraform-configuration-aliases-action",
     "BinomialLLC/KTX-Software-Binomial-Fork",
+    "BioContainers/singularity-build-bot",
     "Boulaouaney/timmx",
     "brody2consult/react-native-init-func",
     "chaoss/grimoirelab-perceval-mozilla",
     "chaoss/grimoirelab-perceval-opnfv",
     "chaoss/grimoirelab-perceval-puppet",
     "clearbluejar/ghidra-python",
+    "cloudfoundry/bosh-aws-light-stemcell-builder",
     "cncf/k8s-conformance-archive",
     "conda-forge/cupy-feedstock",
     "conda-forge/modin-feedstock",
@@ -56,6 +58,10 @@
     "danielrosehill/claude-agent-workspace-generator",
     "danielrosehill/claude-code-sysadmin-workspaces-index",
     "danielrosehill/claude-slash-commands",
+    "dylibso/xtp-cpp-bindgen",
+    "dylibso/xtp-csharp-bindgen",
+    "dylibso/xtp-go-bindgen",
+    "dylibso/xtp-python-bindgen",
     "eddelbuettel/github-actions",
     "EspressoSystems/Push-CDN",
     "filip26/copper-multibase",
@@ -64,6 +70,7 @@
     "fishballapp/inquirer-cli",
     "flinedev/customstatusline",
     "flinedev/recall",
+    "hermit-os/hermit-gcc",
     "intel/iefs-kernel-updates",
     "ipfs/helia-delegated-routing-v1-http-api",
     "justinfx/olric-nats-plugin",
@@ -81,8 +88,12 @@
     "neuroverseos/neuroverseos-openclaw-governance",
     "nttstar/insightface-resources",
     "objectbox/objectbox-swift-spm",
+    "objectbox/objectbox-sync-examples",
     "openelections/openelections-data-sd",
+    "openobserve/vector",
+    "pacstall/pacup",
     "paolodamico/ruint-uniffi",
+    "PyThaiNLP/pythainlp-corpus",
     "realworld-apps/nitro-prisma-zod-realworld-example-app",
     "redis-developer/redis-starter-csharp",
     "redis-developer/redis-starter-go",
@@ -93,9 +104,11 @@
     "shadmau/autocouncil",
     "shakacode/package_json",
     "sigp/quick-protobuf",
+    "sparklabutah/timewarp",
     "SWE-bench/SWE-smith-envs",
     "vega/.github",
     "vim-fuzzbox/fuzzbox-lsp.vim",
-    "WebAssembly/compact-import-section"
+    "WebAssembly/compact-import-section",
+    "zkcrypto/rfcs"
   ]
 }

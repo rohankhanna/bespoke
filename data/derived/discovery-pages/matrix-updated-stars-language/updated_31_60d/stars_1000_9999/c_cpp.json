@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 150,
-    "observations": 151,
-    "repos": 32,
-    "terms": 147
+    "components": 155,
+    "concepts": 176,
+    "observations": 177,
+    "repos": 37,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "akheron/jansson",
     "apache/singa",
@@ -21,14 +21,18 @@
     "bblanchon/ArduinoJson",
     "bcrypt-ruby/bcrypt-ruby",
     "bugaevc/wl-clipboard",
+    "cameron314/readerwriterqueue",
     "Chlumsky/msdf-atlas-gen",
     "Chlumsky/msdfgen",
     "coin-or/Ipopt",
     "containers/bubblewrap",
     "eradman/entr",
+    "google/double-conversion",
+    "google/snappy",
     "gperftools/gperftools",
     "GPUOpen-LibrariesAndSDKs/VulkanMemoryAllocator",
     "icecc/icecream",
+    "ioquake/ioq3",
     "madler/zlib",
     "microsoft/snmalloc",
     "nalgeon/sqlean",
@@ -42,6 +46,7 @@
     "TechEmpower/FrameworkBenchmarks",
     "TheAssassin/AppImageLauncher",
     "ThrowTheSwitch/Unity",
+    "TuGraph-family/tugraph-db",
     "void-linux/xbps",
     "wang-xinyu/tensorrtx",
     "xlite-dev/lite.ai.toolkit",

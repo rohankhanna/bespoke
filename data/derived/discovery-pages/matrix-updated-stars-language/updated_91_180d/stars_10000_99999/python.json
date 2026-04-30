@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 87,
-    "concepts": 161,
-    "observations": 162,
-    "repos": 20,
-    "terms": 160
+    "components": 93,
+    "concepts": 166,
+    "observations": 167,
+    "repos": 22,
+    "terms": 165
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,13 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "ahujasid/blender-mcp",
     "andrewyng/aisuite",
     "beehiveinnovations/pal-mcp-server",
     "binary-husky/gpt_academic",
+    "bytedance/UI-TARS",
     "chatchat-space/Langchain-Chatchat",
     "cleanlab/cleanlab",
     "deepseek-ai/DeepSeek-Coder",
@@ -25,6 +26,7 @@
     "hiroi-sora/Umi-OCR",
     "horovod/horovod",
     "JaidedAI/EasyOCR",
+    "jsvine/pdfplumber",
     "karpathy/llm-council",
     "karpathy/nanoGPT",
     "Lightricks/LTX-Video",

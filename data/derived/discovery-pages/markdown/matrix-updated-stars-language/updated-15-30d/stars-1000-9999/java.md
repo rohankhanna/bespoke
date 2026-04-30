@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Java
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 4
-- terms: 27
-- components: 67
-- concepts: 27
-- observations: 28
+- repos: 6
+- terms: 43
+- components: 74
+- concepts: 43
+- observations: 44
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [beehive-lab/TornadoVM](https://github.com/beehive-lab/TornadoVM) | 1449 | 2026-04-16T10:18:03Z | Java | Infrastructure/tooling | 12 | 2 | 12 | 12 |
+| [google/tsunami-security-scanner](https://github.com/google/tsunami-security-scanner) | 8568 | 2026-04-16T07:39:38Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [RoaringBitmap/RoaringBitmap](https://github.com/RoaringBitmap/RoaringBitmap) | 3853 | 2026-04-15T02:15:42Z | Java | Infrastructure/tooling | 14 | 11 | 14 | 15 |
 | [react-native-share/react-native-share](https://github.com/react-native-share/react-native-share) | 3879 | 2026-04-14T01:15:58Z | Java | Infrastructure/tooling | 10 | 51 | 10 | 10 |
 | [java-native-access/jna](https://github.com/java-native-access/jna) | 8910 | 2026-04-13T23:32:34Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
@@ -36,6 +38,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [java-native-access/jna](https://github.com/java-native-access/jna) | 8910 | 2026-04-13T23:32:34Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
+| [google/tsunami-security-scanner](https://github.com/google/tsunami-security-scanner) | 8568 | 2026-04-16T07:39:38Z | Java | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [react-native-share/react-native-share](https://github.com/react-native-share/react-native-share) | 3879 | 2026-04-14T01:15:58Z | Java | Infrastructure/tooling | 10 | 51 | 10 | 10 |
 | [RoaringBitmap/RoaringBitmap](https://github.com/RoaringBitmap/RoaringBitmap) | 3853 | 2026-04-15T02:15:42Z | Java | Infrastructure/tooling | 14 | 11 | 14 | 15 |
 | [langchain4j/langchain4j-examples](https://github.com/langchain4j/langchain4j-examples) | 1679 | 2026-04-09T14:28:46Z | Java | Infrastructure/tooling | 1 | 2 | 1 | 1 |
+| [beehive-lab/TornadoVM](https://github.com/beehive-lab/TornadoVM) | 1449 | 2026-04-16T10:18:03Z | Java | Infrastructure/tooling | 12 | 2 | 12 | 12 |

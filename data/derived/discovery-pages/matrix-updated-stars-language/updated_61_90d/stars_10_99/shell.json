@@ -3,7 +3,7 @@
     "components": 11,
     "concepts": 12,
     "observations": 12,
-    "repos": 3,
+    "repos": 4,
     "terms": 12
   },
   "facet_version": 1,
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "Layr-Labs/eigenda-operator-setup",
     "nfnty/pkgbuilds",
-    "nodenv/nodenv-default-packages"
+    "nodenv/nodenv-default-packages",
+    "SonarSource/sonar-developer-toolset"
   ]
 }

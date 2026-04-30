@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 375,
-    "concepts": 204,
-    "observations": 205,
-    "repos": 35,
-    "terms": 203
+    "components": 428,
+    "concepts": 217,
+    "observations": 219,
+    "repos": 38,
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "Alibaba-NLP/DeepResearch",
     "anthropics/claude-quickstarts",
@@ -22,6 +22,8 @@
     "burntsushi/ripgrep",
     "caolan/async",
     "ComposioHQ/awesome-claude-skills",
+    "datawhalechina/llm-universe",
+    "egoist/tsup",
     "ekzhang/bore",
     "ffmpegwasm/ffmpeg.wasm",
     "FortAwesome/Font-Awesome",
@@ -45,6 +47,7 @@
     "snarktank/ralph",
     "tqdm/tqdm",
     "transitive-bullshit/agentic",
+    "unifyai/ivy",
     "vitejs/awesome-vite",
     "yoheinakajima/babyagi",
     "zsh-users/zsh-syntax-highlighting"

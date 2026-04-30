@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 160,
-    "concepts": 3,
-    "observations": 3,
-    "repos": 6,
-    "terms": 3
+    "components": 236,
+    "concepts": 51,
+    "observations": 51,
+    "repos": 12,
+    "terms": 51
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,19 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "boa-dev/data",
     "celo-org/blind-threshold-bls-wasm",
     "eea/bise-frontend",
     "eea/eea-website-frontend",
     "eea/fise-frontend",
+    "fontsource/download-stat-aggregator",
+    "j9t/compressorjs-next",
+    "j9t/image-guard",
+    "j9t/minifier-benchmarks",
+    "ksxnodemodules/static-type-assert",
+    "oscard0m/ts-transformer-remove-named-export",
     "thetutlage/static"
   ]
 }

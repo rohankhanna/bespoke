@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1244,
-    "concepts": 224,
-    "observations": 224,
-    "repos": 17,
-    "terms": 233
+    "components": 1324,
+    "concepts": 238,
+    "observations": 239,
+    "repos": 18,
+    "terms": 247
   },
   "facet_version": 1,
   "filters": {
@@ -12,24 +12,25 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "apollographql/apollo-server",
     "appium/appium",
     "aws/aws-cdk",
-    "bytedance/UI-TARS-desktop",
     "cheeriojs/cheerio",
     "colinhacks/zod",
-    "fastapi/full-stack-fastapi-template",
     "formatjs/formatjs",
+    "jhipster/generator-jhipster",
     "jquense/yup",
-    "Kong/insomnia",
     "langchain-ai/langchainjs",
     "lobehub/lobehub",
     "mongodb/node-mongodb-native",
+    "openobserve/openobserve",
+    "puppeteer/puppeteer",
     "ruvnet/ruflo",
     "scalar/scalar",
     "unocss/unocss",
-    "vitest-dev/vitest"
+    "vitest-dev/vitest",
+    "web-infra-dev/midscene"
   ]
 }

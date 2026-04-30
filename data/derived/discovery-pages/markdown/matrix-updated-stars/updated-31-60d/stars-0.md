@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 0 stars
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,7 +11,7 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 35
+- repos: 36
 - terms: 84
 - components: 95
 - concepts: 81
@@ -56,6 +56,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [firstbatchxyz/dkn-protocol](https://github.com/firstbatchxyz/dkn-protocol) | 0 | 2026-03-09T20:51:02Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [CharlieFRuan/harbor](https://github.com/CharlieFRuan/harbor) | 0 | 2026-03-04T21:12:56Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [psmux/scoop-tmuxpanel](https://github.com/psmux/scoop-tmuxpanel) | 0 | 2026-03-04T15:44:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [samsja/dion](https://github.com/samsja/dion) | 0 | 2026-03-04T06:14:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [8144225309/superscalar-mcp](https://github.com/8144225309/superscalar-mcp) | 0 | 2026-03-03T21:42:39Z | JavaScript | Service/API | 12 | 3 | 12 | 12 |
 | [EspressoSystems/commit](https://github.com/EspressoSystems/commit) | 0 | 2026-03-03T16:37:22Z | Rust | Infrastructure/tooling | 3 | 9 | 3 | 3 |
@@ -96,6 +97,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [firstbatchxyz/dkn-protocol](https://github.com/firstbatchxyz/dkn-protocol) | 0 | 2026-03-09T20:51:02Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [DataDog/opa](https://github.com/DataDog/opa) | 0 | 2026-03-08T14:11:06Z | Unknown | Infrastructure/tooling | 7 | 16 | 7 | 7 |
 | [CharlieFRuan/harbor](https://github.com/CharlieFRuan/harbor) | 0 | 2026-03-04T21:12:56Z | Python | Infrastructure/tooling | 4 | 4 | 4 | 4 |
+| [psmux/scoop-tmuxpanel](https://github.com/psmux/scoop-tmuxpanel) | 0 | 2026-03-04T15:44:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [samsja/dion](https://github.com/samsja/dion) | 0 | 2026-03-04T06:14:50Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [8144225309/superscalar-mcp](https://github.com/8144225309/superscalar-mcp) | 0 | 2026-03-03T21:42:39Z | JavaScript | Service/API | 12 | 3 | 12 | 12 |
 | [EspressoSystems/commit](https://github.com/EspressoSystems/commit) | 0 | 2026-03-03T16:37:22Z | Rust | Infrastructure/tooling | 3 | 9 | 3 | 3 |

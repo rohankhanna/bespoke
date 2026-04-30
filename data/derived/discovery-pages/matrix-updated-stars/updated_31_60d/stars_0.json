@@ -3,7 +3,7 @@
     "components": 95,
     "concepts": 81,
     "observations": 81,
-    "repos": 35,
+    "repos": 36,
     "terms": 84
   },
   "facet_version": 1,
@@ -11,7 +11,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "8144225309/superscalar-mcp",
     "adammes/voyanode",
@@ -43,6 +43,7 @@
     "neuroverseos/negotiator",
     "nibir1/vaultsim",
     "Patrick-ring-motive/sval-rhino-gs",
+    "psmux/scoop-tmuxpanel",
     "samsja/dion",
     "sujithpvarghese/bedrock-agent-core-operations-hub",
     "sujithpvarghese/bedrock-full-reconciliation",

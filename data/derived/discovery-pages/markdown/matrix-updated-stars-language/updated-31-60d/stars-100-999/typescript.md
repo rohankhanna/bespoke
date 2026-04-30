@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · TypeScript
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 24
-- terms: 144
-- components: 717
-- concepts: 128
-- observations: 129
+- repos: 25
+- terms: 147
+- components: 734
+- concepts: 131
+- observations: 132
 
 ## Static behavior
 
@@ -36,6 +36,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ruvnet/agentic-flow](https://github.com/ruvnet/agentic-flow) | 617 | 2026-03-26T08:37:31Z | TypeScript | Infrastructure/tooling | 13 | 84 | 13 | 13 |
 | [aquasecurity/trivy-vscode-extension](https://github.com/aquasecurity/trivy-vscode-extension) | 174 | 2026-03-25T23:31:23Z | TypeScript | Infrastructure/tooling | 4 | 49 | 4 | 4 |
 | [PanAeon/vscode-tmgrammar-test](https://github.com/PanAeon/vscode-tmgrammar-test) | 115 | 2026-03-25T23:11:39Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
+| [latex-lsp/texlab-vscode](https://github.com/latex-lsp/texlab-vscode) | 101 | 2026-03-25T22:49:37Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |
 | [vim-denops/denops.vim](https://github.com/vim-denops/denops.vim) | 784 | 2026-03-23T01:05:40Z | TypeScript | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [connectrpc/connect-query-es](https://github.com/connectrpc/connect-query-es) | 358 | 2026-03-21T18:02:19Z | TypeScript | Infrastructure/tooling | 13 | 25 | 13 | 13 |
 | [thesayyn/protoc-gen-ts](https://github.com/thesayyn/protoc-gen-ts) | 405 | 2026-03-19T00:09:38Z | TypeScript | CLI | 12 | 7 | 12 | 12 |
@@ -79,3 +80,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aquasecurity/trivy-vscode-extension](https://github.com/aquasecurity/trivy-vscode-extension) | 174 | 2026-03-25T23:31:23Z | TypeScript | Infrastructure/tooling | 4 | 49 | 4 | 4 |
 | [PanAeon/vscode-tmgrammar-test](https://github.com/PanAeon/vscode-tmgrammar-test) | 115 | 2026-03-25T23:11:39Z | TypeScript | Infrastructure/tooling | 1 | 23 | 1 | 1 |
 | [lobehub/lobe-charts](https://github.com/lobehub/lobe-charts) | 102 | 2026-03-02T12:30:12Z | TypeScript | Infrastructure/tooling | 10 | 48 | 10 | 10 |
+| [latex-lsp/texlab-vscode](https://github.com/latex-lsp/texlab-vscode) | 101 | 2026-03-25T22:49:37Z | TypeScript | Infrastructure/tooling | 3 | 17 | 3 | 3 |

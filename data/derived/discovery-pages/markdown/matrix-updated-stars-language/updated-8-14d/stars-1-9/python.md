@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1 to 9 stars · Python
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 27
-- terms: 65
-- components: 105
-- concepts: 45
-- observations: 45
+- repos: 28
+- terms: 72
+- components: 112
+- concepts: 52
+- observations: 52
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [5sControl/5s-backend](https://github.com/5sControl/5s-backend) | 2 | 2026-04-23T07:54:59Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [ModelCloud/Defuser](https://github.com/ModelCloud/Defuser) | 2 | 2026-04-22T16:37:44Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [ModelCloud/LogBar](https://github.com/ModelCloud/LogBar) | 8 | 2026-04-22T15:12:39Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [astropy/repo_stats](https://github.com/astropy/repo_stats) | 4 | 2026-04-22T08:14:18Z | Python | Infrastructure/tooling | 4 | 7 | 4 | 4 |
@@ -72,6 +73,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dreamiurg/peakbagger-cli](https://github.com/dreamiurg/peakbagger-cli) | 3 | 2026-04-20T19:35:08Z | Python | CLI | 10 | 14 | 10 | 10 |
 | [frank-syncmarket/skills](https://github.com/frank-syncmarket/skills) | 3 | 2026-04-19T11:51:14Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [adaumann/speckit-preset-fiction-book-writing](https://github.com/adaumann/speckit-preset-fiction-book-writing) | 3 | 2026-04-18T19:32:51Z | Python | Template/starter | 0 | 0 | 0 | 0 |
+| [5sControl/5s-backend](https://github.com/5sControl/5s-backend) | 2 | 2026-04-23T07:54:59Z | Python | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [ModelCloud/Defuser](https://github.com/ModelCloud/Defuser) | 2 | 2026-04-22T16:37:44Z | Python | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [cafitac/hermit-agent](https://github.com/cafitac/hermit-agent) | 2 | 2026-04-19T13:28:48Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [rrsaldanha/burp-mcp-agents](https://github.com/rrsaldanha/burp-mcp-agents) | 2 | 2026-04-19T11:53:12Z | Python | CLI | 0 | 0 | 0 | 0 |

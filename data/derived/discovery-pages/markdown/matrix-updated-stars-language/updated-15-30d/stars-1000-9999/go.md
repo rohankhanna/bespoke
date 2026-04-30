@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 57
-- terms: 391
-- components: 372
-- concepts: 395
-- observations: 395
+- repos: 60
+- terms: 416
+- components: 424
+- concepts: 420
+- observations: 420
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [prometheus/blackbox_exporter](https://github.com/prometheus/blackbox_exporter) | 5664 | 2026-04-16T10:26:48Z | Go | Infrastructure/tooling | 7 | 5 | 7 | 7 |
+| [axllent/mailpit](https://github.com/axllent/mailpit) | 9225 | 2026-04-16T05:56:20Z | Go | Infrastructure/tooling | 13 | 45 | 13 | 13 |
 | [nginx-proxy/docker-gen](https://github.com/nginx-proxy/docker-gen) | 4624 | 2026-04-15T22:02:54Z | Go | Infrastructure/tooling | 5 | 9 | 5 | 5 |
 | [GoogleContainerTools/container-structure-test](https://github.com/GoogleContainerTools/container-structure-test) | 2471 | 2026-04-15T19:06:22Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [BurntSushi/toml](https://github.com/BurntSushi/toml) | 4938 | 2026-04-15T16:29:29Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
@@ -81,6 +83,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [azure/aztfexport](https://github.com/Azure/aztfexport) | 1885 | 2026-04-02T01:25:07Z | Go | Infrastructure/tooling | 7 | 7 | 7 | 7 |
 | [hashicorp/hcl](https://github.com/hashicorp/hcl) | 5774 | 2026-04-02T00:16:13Z | Go | Infrastructure/tooling | 3 | 4 | 4 | 4 |
 | [davidbyttow/govips](https://github.com/davidbyttow/govips) | 1591 | 2026-04-01T16:53:01Z | Go | Infrastructure/tooling | 9 | 2 | 9 | 9 |
+| [smallnest/rpcx](https://github.com/smallnest/rpcx) | 8282 | 2026-04-01T15:34:28Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [itchyny/gojq](https://github.com/itchyny/gojq) | 3747 | 2026-04-01T13:00:02Z | Go | CLI | 3 | 10 | 4 | 4 |
 | [hashicorp/go-version](https://github.com/hashicorp/go-version) | 1760 | 2026-04-01T06:10:38Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
 
@@ -88,12 +91,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [axllent/mailpit](https://github.com/axllent/mailpit) | 9225 | 2026-04-16T05:56:20Z | Go | Infrastructure/tooling | 13 | 45 | 13 | 13 |
 | [google/pprof](https://github.com/google/pprof) | 9156 | 2026-04-02T05:17:21Z | Go | Infrastructure/tooling | 4 | 6 | 4 | 4 |
 | [hashicorp/raft](https://github.com/hashicorp/raft) | 9000 | 2026-04-13T04:54:31Z | Go | Infrastructure/tooling | 0 | 4 | 0 | 0 |
 | [appleboy/gorush](https://github.com/appleboy/gorush) | 8719 | 2026-04-15T01:54:38Z | Go | Infrastructure/tooling | 12 | 16 | 12 | 12 |
 | [mvdan/sh](https://github.com/mvdan/sh) | 8683 | 2026-04-08T14:23:57Z | Go | Infrastructure/tooling | 8 | 7 | 10 | 10 |
 | [schachmat/wego](https://github.com/schachmat/wego) | 8430 | 2026-04-12T10:47:57Z | Go | CLI | 9 | 3 | 9 | 9 |
 | [boyter/scc](https://github.com/boyter/scc) | 8322 | 2026-04-13T06:12:07Z | Go | CLI | 13 | 12 | 13 | 13 |
+| [smallnest/rpcx](https://github.com/smallnest/rpcx) | 8282 | 2026-04-01T15:34:28Z | Go | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [fatih/color](https://github.com/fatih/color) | 7946 | 2026-04-09T01:02:33Z | Go | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [expr-lang/expr](https://github.com/expr-lang/expr) | 7829 | 2026-04-12T14:40:16Z | Go | Infrastructure/tooling | 15 | 6 | 15 | 15 |
 | [gopasspw/gopass](https://github.com/gopasspw/gopass) | 6813 | 2026-04-12T07:59:34Z | Go | Infrastructure/tooling | 10 | 21 | 10 | 10 |
@@ -101,6 +106,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [golang/mobile](https://github.com/golang/mobile) | 6153 | 2026-04-10T09:52:12Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [fnproject/fn](https://github.com/fnproject/fn) | 5931 | 2026-04-07T13:56:48Z | Go | Infrastructure/tooling | 8 | 0 | 8 | 8 |
 | [hashicorp/hcl](https://github.com/hashicorp/hcl) | 5774 | 2026-04-02T00:16:13Z | Go | Infrastructure/tooling | 3 | 4 | 4 | 4 |
+| [prometheus/blackbox_exporter](https://github.com/prometheus/blackbox_exporter) | 5664 | 2026-04-16T10:26:48Z | Go | Infrastructure/tooling | 7 | 5 | 7 | 7 |
 | [klauspost/compress](https://github.com/klauspost/compress) | 5478 | 2026-04-07T10:03:42Z | Go | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [BurntSushi/toml](https://github.com/BurntSushi/toml) | 4938 | 2026-04-15T16:29:29Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [uptrace/bun](https://github.com/uptrace/bun) | 4769 | 2026-04-08T06:52:08Z | Go | Infrastructure/tooling | 12 | 7 | 12 | 12 |

@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 14,
-    "concepts": 20,
-    "observations": 20,
+    "concepts": 14,
+    "observations": 14,
     "repos": 3,
-    "terms": 20
+    "terms": 14
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "bufbuild/homebrew-buf",
-    "electerm/electerm-web-docker",
+    "quarkusio/quarkus-ecosystem-ci",
     "tinted-theming/tinted-terminal"
   ]
 }

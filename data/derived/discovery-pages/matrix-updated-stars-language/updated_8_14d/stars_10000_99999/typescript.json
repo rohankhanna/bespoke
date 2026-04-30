@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 5002,
-    "concepts": 447,
-    "observations": 450,
+    "components": 5350,
+    "concepts": 458,
+    "observations": 461,
     "repos": 54,
-    "terms": 466
+    "terms": 477
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "apollographql/apollo-client",
     "babel/babel",
@@ -30,6 +30,7 @@
     "expo/expo",
     "garrytan/gstack",
     "google/brotli",
+    "grafana/grafana",
     "graphile/crystal",
     "graphql/graphiql",
     "graphql/graphql-js",
@@ -58,7 +59,6 @@
     "sindresorhus/got",
     "slopus/happy",
     "tanweai/pua",
-    "toon-format/toon",
     "typescript-eslint/typescript-eslint",
     "upstash/context7",
     "vadimdemedes/ink",

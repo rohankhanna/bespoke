@@ -1,6 +1,6 @@
 # Updated in the last 24 hours · 100 to 999 stars · Unknown
 
-Generated at: `2026-04-25T06:55:57.545791+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 1
-- terms: 0
+- terms: 1
 - components: 0
-- concepts: 0
-- observations: 0
+- concepts: 1
+- observations: 1
 
 ## Static behavior
 
@@ -26,10 +26,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [bitrise-io/bitrise-steplib](https://github.com/bitrise-io/bitrise-steplib) | 164 | 2026-04-24T07:11:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [github/copilot-language-server-release](https://github.com/github/copilot-language-server-release) | 269 | 2026-04-29T23:42:04Z | Unknown | Service/API | 1 | 0 | 1 | 1 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
-| [bitrise-io/bitrise-steplib](https://github.com/bitrise-io/bitrise-steplib) | 164 | 2026-04-24T07:11:43Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [github/copilot-language-server-release](https://github.com/github/copilot-language-server-release) | 269 | 2026-04-29T23:42:04Z | Unknown | Service/API | 1 | 0 | 1 | 1 |

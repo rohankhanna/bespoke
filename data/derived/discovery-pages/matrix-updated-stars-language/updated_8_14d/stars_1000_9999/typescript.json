@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 3688,
-    "concepts": 608,
-    "observations": 612,
-    "repos": 82,
-    "terms": 708
+    "components": 3874,
+    "concepts": 639,
+    "observations": 643,
+    "repos": 86,
+    "terms": 739
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,15 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "0x2E/fusion",
     "a-ghorbani/pocketpal-ai",
     "actions/cache",
+    "actions/setup-python",
     "actions/toolkit",
     "ai-that-works/ai-that-works",
+    "antfu-collective/vite-plugin-inspect",
     "anthropics/claude-code-action",
     "apache/apisix-dashboard",
     "archestra-ai/archestra",
@@ -53,6 +55,7 @@
     "fontsource/fontsource",
     "google/adk-js",
     "gorhom/react-native-bottom-sheet",
+    "graphql-hive/graphql-yoga",
     "i18next/next-i18next",
     "iorate/ublacklist",
     "ipfs/helia",
@@ -80,7 +83,6 @@
     "panva/jose",
     "peter-evans/create-pull-request",
     "piebald-ai/tweakcc",
-    "pixiv/three-vrm",
     "prettier/prettier-vscode",
     "privatenumber/esbuild-loader",
     "react-native-community/cli",
@@ -89,12 +91,14 @@
     "sirmalloc/ccstatusline",
     "stripe/ai",
     "stripe/stripe-node",
+    "tailwindlabs/prettier-plugin-tailwindcss",
     "tensorflow/tensorboard",
     "TooTallNate/proxy-agents",
     "vega/vega-lite",
     "VoltAgent/voltagent",
     "vuejs/eslint-plugin-vue",
     "wighawag/hardhat-deploy",
-    "withastro/starlight"
+    "withastro/starlight",
+    "yarnpkg/berry"
   ]
 }

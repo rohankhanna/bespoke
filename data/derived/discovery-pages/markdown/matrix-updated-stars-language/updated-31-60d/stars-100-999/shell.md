@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 100 to 999 stars · Shell
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 8
-- terms: 22
-- components: 7
-- concepts: 21
-- observations: 21
+- repos: 9
+- terms: 24
+- components: 13
+- concepts: 23
+- observations: 23
 
 ## Static behavior
 
@@ -28,6 +28,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [helm/chart-testing-action](https://github.com/helm/chart-testing-action) | 291 | 2026-03-30T01:04:11Z | Shell | Infrastructure/tooling | 9 | 4 | 9 | 9 |
 | [SWE-bench/experiments](https://github.com/SWE-bench/experiments) | 259 | 2026-03-29T17:52:22Z | Shell | Model/data | 0 | 0 | 0 | 0 |
+| [mklement0/n-install](https://github.com/mklement0/n-install) | 842 | 2026-03-26T11:10:20Z | Shell | Unknown | 2 | 6 | 2 | 2 |
 | [mosaicml/examples](https://github.com/mosaicml/examples) | 468 | 2026-03-25T20:11:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [aws/aws-app-mesh-examples](https://github.com/aws/aws-app-mesh-examples) | 867 | 2026-03-25T18:30:07Z | Shell | Service/API | 2 | 0 | 2 | 2 |
 | [docker-library/hello-world](https://github.com/docker-library/hello-world) | 540 | 2026-03-23T21:06:54Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -40,6 +41,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [aws/aws-app-mesh-examples](https://github.com/aws/aws-app-mesh-examples) | 867 | 2026-03-25T18:30:07Z | Shell | Service/API | 2 | 0 | 2 | 2 |
+| [mklement0/n-install](https://github.com/mklement0/n-install) | 842 | 2026-03-26T11:10:20Z | Shell | Unknown | 2 | 6 | 2 | 2 |
 | [docker-library/hello-world](https://github.com/docker-library/hello-world) | 540 | 2026-03-23T21:06:54Z | Shell | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [mosaicml/examples](https://github.com/mosaicml/examples) | 468 | 2026-03-25T20:11:02Z | Shell | Unknown | 0 | 0 | 0 | 0 |
 | [2KAbhishek/tmux2k](https://github.com/2KAbhishek/tmux2k) | 402 | 2026-03-11T13:52:21Z | Shell | CLI | 6 | 0 | 6 | 6 |

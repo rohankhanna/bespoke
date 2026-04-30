@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 9,
-    "terms": 46
+    "components": 30,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 8,
+    "terms": 40
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "automazeio/ccpm",
     "docker-library/wordpress",
-    "oschwartz10612/poppler-windows",
     "Pal3love/dream-han-cjk",
     "pgsty/pigsty",
     "tianon/gosu",

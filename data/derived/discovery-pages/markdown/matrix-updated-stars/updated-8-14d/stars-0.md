@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 0 stars
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 87
-- terms: 128
-- components: 449
-- concepts: 99
-- observations: 99
+- repos: 90
+- terms: 135
+- components: 487
+- concepts: 106
+- observations: 106
 
 ## Static behavior
 
@@ -25,6 +25,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [DataDog/vault](https://github.com/DataDog/vault) | 0 | 2026-04-23T09:08:34Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
+| [conda-forge/diffutils-feedstock](https://github.com/conda-forge/diffutils-feedstock) | 0 | 2026-04-23T07:16:40Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [conda-forge/blis-feedstock](https://github.com/conda-forge/blis-feedstock) | 0 | 2026-04-23T05:02:51Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -100,6 +102,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [8144225309/lightning](https://github.com/8144225309/lightning) | 0 | 2026-04-18T22:23:51Z | Unknown | Infrastructure/tooling | 12 | 18 | 12 | 12 |
 | [arckoor/jsonwebtoken](https://github.com/arckoor/jsonwebtoken) | 0 | 2026-04-18T21:24:50Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [tornikepe/ai-chatbot](https://github.com/tornikepe/ai-chatbot) | 0 | 2026-04-18T19:51:12Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
+| [i18next/i18next-subliminal](https://github.com/i18next/i18next-subliminal) | 0 | 2026-04-18T18:25:48Z | JavaScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [wblondel/blog](https://github.com/wblondel/blog) | 0 | 2026-04-18T10:03:41Z | Other | Infrastructure/tooling | 2 | 23 | 0 | 0 |
 | [jsleekr/skilldigest](https://github.com/JSLEEKR/skilldigest) | 0 | 2026-04-18T09:04:42Z | Rust | CLI | 3 | 4 | 0 | 0 |
 | [piqrypt/piqrypt-mcp-server](https://github.com/PiQrypt/piqrypt-mcp-server) | 0 | 2026-04-18T08:14:52Z | Python | Service/API | 0 | 3 | 0 | 0 |
@@ -117,6 +120,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [DataDog/vault](https://github.com/DataDog/vault) | 0 | 2026-04-23T09:08:34Z | Go | Infrastructure/tooling | 5 | 10 | 5 | 5 |
+| [conda-forge/diffutils-feedstock](https://github.com/conda-forge/diffutils-feedstock) | 0 | 2026-04-23T07:16:40Z | Shell | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/conda-lock-feedstock](https://github.com/conda-forge/conda-lock-feedstock) | 0 | 2026-04-23T05:44:24Z | Unknown | Infrastructure/tooling | 1 | 0 | 1 | 1 |
 | [conda-forge/cccl-feedstock](https://github.com/conda-forge/cccl-feedstock) | 0 | 2026-04-23T05:17:57Z | Other | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [conda-forge/blis-feedstock](https://github.com/conda-forge/blis-feedstock) | 0 | 2026-04-23T05:02:51Z | Shell | Infrastructure/tooling | 1 | 1 | 1 | 1 |
@@ -192,6 +197,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [8144225309/lightning](https://github.com/8144225309/lightning) | 0 | 2026-04-18T22:23:51Z | Unknown | Infrastructure/tooling | 12 | 18 | 12 | 12 |
 | [arckoor/jsonwebtoken](https://github.com/arckoor/jsonwebtoken) | 0 | 2026-04-18T21:24:50Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
 | [tornikepe/ai-chatbot](https://github.com/tornikepe/ai-chatbot) | 0 | 2026-04-18T19:51:12Z | JavaScript | Unknown | 0 | 10 | 0 | 0 |
+| [i18next/i18next-subliminal](https://github.com/i18next/i18next-subliminal) | 0 | 2026-04-18T18:25:48Z | JavaScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
 | [wblondel/blog](https://github.com/wblondel/blog) | 0 | 2026-04-18T10:03:41Z | Other | Infrastructure/tooling | 2 | 23 | 0 | 0 |
 | [jsleekr/skilldigest](https://github.com/JSLEEKR/skilldigest) | 0 | 2026-04-18T09:04:42Z | Rust | CLI | 3 | 4 | 0 | 0 |
 | [piqrypt/piqrypt-mcp-server](https://github.com/PiQrypt/piqrypt-mcp-server) | 0 | 2026-04-18T08:14:52Z | Python | Service/API | 0 | 3 | 0 | 0 |

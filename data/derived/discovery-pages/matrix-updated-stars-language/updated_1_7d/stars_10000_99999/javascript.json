@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 956,
-    "concepts": 164,
-    "observations": 165,
-    "repos": 16,
-    "terms": 164
+    "components": 1122,
+    "concepts": 170,
+    "observations": 171,
+    "repos": 17,
+    "terms": 170
   },
   "facet_version": 1,
   "filters": {
@@ -12,23 +12,24 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "ampproject/amphtml",
-    "be5invis/Iosevka",
     "cure53/DOMPurify",
     "electerm/electerm",
     "electron/minimal-repro",
     "eslint/eslint",
     "expressjs/express",
     "huggingface/transformers.js",
+    "jsdom/jsdom",
     "lovell/sharp",
     "MagicMirrorOrg/MagicMirror",
     "protobufjs/protobuf.js",
     "rollup/rollup",
     "SillyTavern/SillyTavern",
-    "simple-icons/simple-icons",
+    "swagger-api/swagger-ui",
     "validatorjs/validator.js",
+    "wix/Detox",
     "zloirock/core-js"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 23,
-    "concepts": 26,
-    "observations": 26,
-    "repos": 3,
-    "terms": 26
+    "components": 41,
+    "concepts": 45,
+    "observations": 45,
+    "repos": 5,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "Botspot/pi-apps",
     "home-assistant/addons",
     "mlocati/docker-php-extension-installer",
+    "msys2/MINGW-packages",
     "rbenv/ruby-build"
   ]
 }

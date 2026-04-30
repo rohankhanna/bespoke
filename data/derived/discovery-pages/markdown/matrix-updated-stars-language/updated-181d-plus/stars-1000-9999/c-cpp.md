@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 93
-- terms: 324
-- components: 159
-- concepts: 326
-- observations: 326
+- repos: 103
+- terms: 362
+- components: 182
+- concepts: 364
+- observations: 364
 
 ## Static behavior
 
@@ -29,7 +29,9 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ZipArchive/ZipArchive](https://github.com/ZipArchive/ZipArchive) | 5590 | 2025-10-31T04:29:33Z | C/C++ | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [jstkdng/ueberzugpp](https://github.com/jstkdng/ueberzugpp) | 1260 | 2025-10-28T01:02:45Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [sass/libsass](https://github.com/sass/libsass) | 4331 | 2025-10-24T22:58:42Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [k2-fsa/sherpa-ncnn](https://github.com/k2-fsa/sherpa-ncnn) | 1672 | 2025-10-20T02:16:19Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [adamstark/AudioFile](https://github.com/adamstark/AudioFile) | 1132 | 2025-10-15T20:42:10Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
+| [php-memcached-dev/php-memcached](https://github.com/php-memcached-dev/php-memcached) | 1000 | 2025-10-14T00:11:01Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [aristocratos/btop4win](https://github.com/aristocratos/btop4win) | 1734 | 2025-10-12T16:45:50Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [goldendict/goldendict](https://github.com/goldendict/goldendict) | 6571 | 2025-10-11T18:29:12Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [fraillt/bitsery](https://github.com/fraillt/bitsery) | 1234 | 2025-10-09T19:40:00Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
@@ -58,8 +60,11 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mattingalls/soundflower](https://github.com/mattingalls/Soundflower) | 9049 | 2024-12-07T20:14:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [nst/JSONTestSuite](https://github.com/nst/JSONTestSuite) | 1136 | 2024-11-22T12:55:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [aappleby/smhasher](https://github.com/aappleby/smhasher) | 2859 | 2024-11-14T04:23:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [baidu/braft](https://github.com/baidu/braft) | 4215 | 2024-10-25T07:22:09Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [MegEngine/MegEngine](https://github.com/MegEngine/MegEngine) | 4806 | 2024-10-24T10:10:58Z | C/C++ | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [erwincoumans/tiny-differentiable-simulator](https://github.com/erwincoumans/tiny-differentiable-simulator) | 1358 | 2024-10-18T23:14:47Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [apache/mesos](https://github.com/apache/mesos) | 5363 | 2024-08-23T18:59:16Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
+| [id-Software/Quake-III-Arena](https://github.com/id-Software/Quake-III-Arena) | 7991 | 2024-08-02T00:20:36Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [li-plus/chatglm.cpp](https://github.com/li-plus/chatglm.cpp) | 2961 | 2024-07-31T06:12:02Z | C/C++ | Infrastructure/tooling | 9 | 10 | 9 | 9 |
 | [flann-lib/flann](https://github.com/flann-lib/flann) | 2370 | 2024-07-29T19:01:47Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [sass/node-sass](https://github.com/sass/node-sass) | 8477 | 2024-07-24T21:59:31Z | C/C++ | Infrastructure/tooling | 11 | 24 | 11 | 11 |
@@ -73,15 +78,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [joan2937/pigpio](https://github.com/joan2937/pigpio) | 1587 | 2024-06-24T15:18:29Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [ppogg/YOLOv5-Lite](https://github.com/ppogg/YOLOv5-Lite) | 2486 | 2024-06-22T02:13:22Z | C/C++ | Model/data | 14 | 0 | 14 | 14 |
 | [daipeihust/im-select](https://github.com/daipeihust/im-select) | 1311 | 2024-05-25T08:30:24Z | C/C++ | CLI | 4 | 1 | 4 | 4 |
+| [ReneNyffenegger/cpp-base64](https://github.com/ReneNyffenegger/cpp-base64) | 1031 | 2024-05-22T06:07:36Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [atomicobject/heatshrink](https://github.com/atomicobject/heatshrink) | 1520 | 2024-05-19T06:44:22Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [tensorflow/community](https://github.com/tensorflow/community) | 1282 | 2024-05-07T21:18:25Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [asg017/sqlite-vss](https://github.com/asg017/sqlite-vss) | 1986 | 2024-05-05T20:00:16Z | C/C++ | Infrastructure/tooling | 7 | 18 | 7 | 7 |
+| [leela-zero/leela-zero](https://github.com/leela-zero/leela-zero) | 5571 | 2024-05-02T18:00:51Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [sebbbi/OffsetAllocator](https://github.com/sebbbi/OffsetAllocator) | 1033 | 2024-04-30T15:06:34Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [google/highwayhash](https://github.com/google/highwayhash) | 1600 | 2024-04-18T16:08:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [NVIDIA/FasterTransformer](https://github.com/NVIDIA/FasterTransformer) | 6410 | 2024-03-27T11:25:30Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [Cyan4973/FiniteStateEntropy](https://github.com/Cyan4973/FiniteStateEntropy) | 1478 | 2024-03-21T18:01:36Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [itinance/react-native-fs](https://github.com/itinance/react-native-fs) | 5043 | 2024-03-18T00:17:22Z | C/C++ | Unknown | 3 | 7 | 3 | 3 |
 | [ethereum/aleth](https://github.com/ethereum/aleth) | 3972 | 2024-03-05T10:53:01Z | C/C++ | CLI | 2 | 0 | 2 | 2 |
+| [lucasb-eyer/pydensecrf](https://github.com/lucasb-eyer/pydensecrf) | 2017 | 2024-03-05T08:38:53Z | C/C++ | Unknown | 6 | 0 | 6 | 6 |
 | [mtrebi/thread-pool](https://github.com/mtrebi/thread-pool) | 1232 | 2024-03-01T03:35:48Z | C/C++ | Unknown | 5 | 0 | 5 | 5 |
 | [rprichard/winpty](https://github.com/rprichard/winpty) | 1370 | 2024-02-19T21:10:20Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [aantron/better-enums](https://github.com/aantron/better-enums) | 1814 | 2024-02-10T16:50:13Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
@@ -89,6 +97,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [DmitryUlyanov/Multicore-TSNE](https://github.com/DmitryUlyanov/Multicore-TSNE) | 1915 | 2024-02-06T10:59:55Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
 | [google/gemmlowp](https://github.com/google/gemmlowp) | 1840 | 2024-01-29T14:40:32Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [facebookresearch/SparseConvNet](https://github.com/facebookresearch/SparseConvNet) | 2141 | 2024-01-09T01:47:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [nihui/rife-ncnn-vulkan](https://github.com/nihui/rife-ncnn-vulkan) | 1028 | 2024-01-02T06:05:10Z | C/C++ | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [hyperic/sigar](https://github.com/hyperic/sigar) | 1547 | 2023-12-20T06:44:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [rubyjs/therubyracer](https://github.com/rubyjs/therubyracer) | 1655 | 2023-12-04T13:55:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [gloxec/CrossC2](https://github.com/gloxec/CrossC2) | 2559 | 2023-11-20T10:54:46Z | C/C++ | Infrastructure/tooling | 11 | 6 | 11 | 11 |
@@ -98,6 +107,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [google-deepmind/code_contests](https://github.com/google-deepmind/code_contests) | 2194 | 2023-10-03T13:17:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [libgit2/objective-git](https://github.com/libgit2/objective-git) | 1165 | 2023-09-17T05:16:14Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mitsuba-renderer/mitsuba](https://github.com/mitsuba-renderer/mitsuba) | 1103 | 2023-09-11T19:45:29Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [baidu/sofa-pbrpc](https://github.com/baidu/sofa-pbrpc) | 2144 | 2023-08-24T08:55:55Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
 | [hholtmann/smcFanControl](https://github.com/hholtmann/smcFanControl) | 2502 | 2023-08-17T16:02:51Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [moretension/duti](https://github.com/moretension/duti) | 1946 | 2023-07-09T11:57:53Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [EdVince/Stable-Diffusion-NCNN](https://github.com/EdVince/Stable-Diffusion-NCNN) | 1064 | 2023-07-03T10:31:38Z | C/C++ | CLI | 10 | 0 | 10 | 10 |
@@ -128,6 +138,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mattingalls/soundflower](https://github.com/mattingalls/Soundflower) | 9049 | 2024-12-07T20:14:19Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [progschj/ThreadPool](https://github.com/progschj/ThreadPool) | 8733 | 2024-07-20T12:33:59Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [sass/node-sass](https://github.com/sass/node-sass) | 8477 | 2024-07-24T21:59:31Z | C/C++ | Infrastructure/tooling | 11 | 24 | 11 | 11 |
+| [id-Software/Quake-III-Arena](https://github.com/id-Software/Quake-III-Arena) | 7991 | 2024-08-02T00:20:36Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Squirrel/Squirrel.Windows](https://github.com/Squirrel/Squirrel.Windows) | 7934 | 2024-07-24T10:06:45Z | C/C++ | Infrastructure/tooling | 5 | 2 | 5 | 5 |
 | [google/glog](https://github.com/google/glog) | 7365 | 2025-05-17T11:51:44Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
 | [google-deepmind/lab](https://github.com/google-deepmind/lab) | 7356 | 2023-01-04T15:38:37Z | C/C++ | Infrastructure/tooling | 5 | 1 | 5 | 5 |
@@ -136,6 +147,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [NVIDIA/FasterTransformer](https://github.com/NVIDIA/FasterTransformer) | 6410 | 2024-03-27T11:25:30Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [ethereum-mining/ethminer](https://github.com/ethereum-mining/ethminer) | 5952 | 2023-11-01T16:38:07Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ZipArchive/ZipArchive](https://github.com/ZipArchive/ZipArchive) | 5590 | 2025-10-31T04:29:33Z | C/C++ | Infrastructure/tooling | 7 | 2 | 7 | 7 |
+| [leela-zero/leela-zero](https://github.com/leela-zero/leela-zero) | 5571 | 2024-05-02T18:00:51Z | C/C++ | Model/data | 0 | 0 | 0 | 0 |
 | [ConfettiFX/The-Forge](https://github.com/ConfettiFX/The-Forge) | 5517 | 2025-07-03T23:20:30Z | C/C++ | Framework | 17 | 0 | 17 | 17 |
 | [apache/mesos](https://github.com/apache/mesos) | 5363 | 2024-08-23T18:59:16Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [itinance/react-native-fs](https://github.com/itinance/react-native-fs) | 5043 | 2024-03-18T00:17:22Z | C/C++ | Unknown | 3 | 7 | 3 | 3 |
@@ -146,6 +158,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Tencent/TNN](https://github.com/Tencent/TNN) | 4631 | 2025-05-09T07:33:14Z | C/C++ | Infrastructure/tooling | 17 | 8 | 17 | 17 |
 | [OAID/Tengine](https://github.com/OAID/Tengine) | 4521 | 2025-03-06T07:12:55Z | C/C++ | Infrastructure/tooling | 16 | 7 | 16 | 16 |
 | [sass/libsass](https://github.com/sass/libsass) | 4331 | 2025-10-24T22:58:42Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [baidu/braft](https://github.com/baidu/braft) | 4215 | 2024-10-25T07:22:09Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |
 | [google/AFL](https://github.com/google/AFL) | 4092 | 2021-07-05T14:02:41Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [baidu/lac](https://github.com/baidu/lac) | 3999 | 2021-05-25T10:46:36Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 | [ethereum/aleth](https://github.com/ethereum/aleth) | 3972 | 2024-03-05T10:53:01Z | C/C++ | CLI | 2 | 0 | 2 | 2 |
@@ -167,8 +180,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chjj/compton](https://github.com/chjj/compton) | 2265 | 2021-06-29T13:48:18Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [id-Software/quake2-rerelease-dll](https://github.com/id-Software/quake2-rerelease-dll) | 2203 | 2023-10-03T18:43:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [google-deepmind/code_contests](https://github.com/google-deepmind/code_contests) | 2194 | 2023-10-03T13:17:45Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [baidu/sofa-pbrpc](https://github.com/baidu/sofa-pbrpc) | 2144 | 2023-08-24T08:55:55Z | C/C++ | Framework | 0 | 0 | 0 | 0 |
 | [facebookresearch/SparseConvNet](https://github.com/facebookresearch/SparseConvNet) | 2141 | 2024-01-09T01:47:27Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [mitsuba-renderer/mitsuba2](https://github.com/mitsuba-renderer/mitsuba2) | 2071 | 2022-08-22T09:30:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [lucasb-eyer/pydensecrf](https://github.com/lucasb-eyer/pydensecrf) | 2017 | 2024-03-05T08:38:53Z | C/C++ | Unknown | 6 | 0 | 6 | 6 |
 | [asg017/sqlite-vss](https://github.com/asg017/sqlite-vss) | 1986 | 2024-05-05T20:00:16Z | C/C++ | Infrastructure/tooling | 7 | 18 | 7 | 7 |
 | [moretension/duti](https://github.com/moretension/duti) | 1946 | 2023-07-09T11:57:53Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [DmitryUlyanov/Multicore-TSNE](https://github.com/DmitryUlyanov/Multicore-TSNE) | 1915 | 2024-02-06T10:59:55Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
@@ -181,6 +196,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [aristocratos/btop4win](https://github.com/aristocratos/btop4win) | 1734 | 2025-10-12T16:45:50Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [lh3/bwa](https://github.com/lh3/bwa) | 1731 | 2025-03-22T19:05:09Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [Fyusion/LLFF](https://github.com/Fyusion/LLFF) | 1697 | 2023-06-19T14:26:41Z | C/C++ | Unknown | 4 | 0 | 4 | 4 |
+| [k2-fsa/sherpa-ncnn](https://github.com/k2-fsa/sherpa-ncnn) | 1672 | 2025-10-20T02:16:19Z | C/C++ | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [rubyjs/therubyracer](https://github.com/rubyjs/therubyracer) | 1655 | 2023-12-04T13:55:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [google/highwayhash](https://github.com/google/highwayhash) | 1600 | 2024-04-18T16:08:17Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [joan2937/pigpio](https://github.com/joan2937/pigpio) | 1587 | 2024-06-24T15:18:29Z | C/C++ | Library | 0 | 0 | 0 | 0 |
@@ -193,6 +209,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [adishavit/argh](https://github.com/adishavit/argh) | 1429 | 2025-01-21T09:38:36Z | C/C++ | CLI | 9 | 0 | 9 | 9 |
 | [LunarG/VulkanSamples](https://github.com/LunarG/VulkanSamples) | 1420 | 2021-07-28T18:49:36Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [rprichard/winpty](https://github.com/rprichard/winpty) | 1370 | 2024-02-19T21:10:20Z | C/C++ | Library | 0 | 0 | 0 | 0 |
+| [erwincoumans/tiny-differentiable-simulator](https://github.com/erwincoumans/tiny-differentiable-simulator) | 1358 | 2024-10-18T23:14:47Z | C/C++ | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [sheredom/subprocess.h](https://github.com/sheredom/subprocess.h) | 1346 | 2024-07-20T19:52:09Z | C/C++ | Infrastructure/tooling | 4 | 2 | 4 | 4 |
 | [daipeihust/im-select](https://github.com/daipeihust/im-select) | 1311 | 2024-05-25T08:30:24Z | C/C++ | CLI | 4 | 1 | 4 | 4 |
 | [astrand/xclip](https://github.com/astrand/xclip) | 1292 | 2025-01-09T22:05:21Z | C/C++ | CLI | 0 | 0 | 0 | 0 |
@@ -215,5 +232,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [microsoft/msix-packaging](https://github.com/microsoft/msix-packaging) | 1051 | 2025-04-28T18:04:30Z | C/C++ | Library | 1 | 0 | 1 | 1 |
 | [datenwolf/linmath.h](https://github.com/datenwolf/linmath.h) | 1040 | 2023-05-31T19:52:33Z | C/C++ | Library | 0 | 0 | 0 | 0 |
 | [sebbbi/OffsetAllocator](https://github.com/sebbbi/OffsetAllocator) | 1033 | 2024-04-30T15:06:34Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [ReneNyffenegger/cpp-base64](https://github.com/ReneNyffenegger/cpp-base64) | 1031 | 2024-05-22T06:07:36Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
+| [nihui/rife-ncnn-vulkan](https://github.com/nihui/rife-ncnn-vulkan) | 1028 | 2024-01-02T06:05:10Z | C/C++ | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [ncopa/su-exec](https://github.com/ncopa/su-exec) | 1017 | 2025-10-07T13:49:01Z | C/C++ | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [aklomp/base64](https://github.com/aklomp/base64) | 1003 | 2025-05-06T18:19:59Z | C/C++ | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [php-memcached-dev/php-memcached](https://github.com/php-memcached-dev/php-memcached) | 1000 | 2025-10-14T00:11:01Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |

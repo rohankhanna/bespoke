@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 111,
-    "concepts": 133,
-    "observations": 133,
-    "repos": 11,
-    "terms": 133
+    "components": 137,
+    "concepts": 202,
+    "observations": 202,
+    "repos": 15,
+    "terms": 199
   },
   "facet_version": 1,
   "filters": {
@@ -12,18 +12,22 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "argotorg/solidity",
+    "carla-simulator/carla",
+    "colmap/colmap",
     "dmlc/xgboost",
     "FFmpeg/FFmpeg",
     "ggml-org/ggml",
     "google-ai-edge/mediapipe",
     "google-deepmind/mujoco",
     "ImageMagick/ImageMagick",
-    "iovisor/bcc",
+    "lightgbm-org/LightGBM",
+    "oceanbase/oceanbase",
+    "opencv/opencv",
     "protocolbuffers/protobuf",
     "simdjson/simdjson",
-    "yhirose/cpp-httplib"
+    "v8/v8"
   ]
 }

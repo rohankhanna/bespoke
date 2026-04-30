@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 217,
-    "concepts": 271,
-    "observations": 273,
-    "repos": 50,
-    "terms": 272
+    "components": 253,
+    "concepts": 314,
+    "observations": 316,
+    "repos": 58,
+    "terms": 314
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,11 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "alexreisner/geocoder",
     "apache/casbin-Casbin.NET",
+    "ardalis/ApiEndpoints",
     "athityakumar/colorls",
     "autofac/Autofac",
     "awaescher/OllamaSharp",
@@ -24,6 +26,7 @@
     "clojure/clojurescript",
     "clux/muslrust",
     "container-storage-interface/spec",
+    "copilot-emacs/copilot.el",
     "DavBfr/dart_pdf",
     "dhall-lang/dhall-lang",
     "dimitri/el-get",
@@ -38,6 +41,7 @@
     "google/brax",
     "google/cel-spec",
     "google/jsonnet",
+    "googleapis/google-auth-library-php",
     "gpuweb/gpuweb",
     "grangier/python-goose",
     "hrsh7th/nvim-cmp",
@@ -45,6 +49,7 @@
     "jpanther/congo",
     "lambdalisue/vim-fern",
     "lightning/bolts",
+    "lite-xl/lite-xl",
     "liuchengxu/vim-which-key",
     "lunarmodules/busted",
     "mhinz/vim-signify",
@@ -53,7 +58,9 @@
     "nmattia/niv",
     "onnx/models",
     "pgpartman/pg_partman",
+    "pry/pry",
     "puppetlabs/puppet",
+    "rmcelreath/rethinking",
     "rom1504/clip-retrieval",
     "rrousselGit/provider",
     "salesforce/BLIP",
@@ -62,6 +69,7 @@
     "seancorfield/honeysql",
     "steipete/imsg",
     "steipete/peekaboo",
+    "timdorr/tesla-api",
     "z-x-yang/Segment-and-Track-Anything",
     "zarazhangrui/codebase-to-course"
   ]

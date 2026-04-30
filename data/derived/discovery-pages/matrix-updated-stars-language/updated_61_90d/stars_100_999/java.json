@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 11,
-    "concepts": 12,
-    "observations": 12,
-    "repos": 2,
-    "terms": 13
+    "components": 24,
+    "concepts": 19,
+    "observations": 19,
+    "repos": 3,
+    "terms": 20
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "aws-observability/aws-otel-community",
+    "Azure-Samples/azure-search-openai-demo-java",
     "peergos/nabu"
   ]
 }

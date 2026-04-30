@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · C/C++
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 7
+- repos: 8
 - terms: 7
 - components: 27
 - concepts: 7
@@ -28,6 +28,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [fonwin/libfon9](https://github.com/fonwin/libfon9) | 0 | 2025-10-15T04:04:43Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 | [meinac/oj-introspect](https://github.com/meinac/oj-introspect) | 0 | 2025-07-30T11:37:51Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [AFD-Illinois/EHT-babel](https://github.com/AFD-Illinois/EHT-babel) | 0 | 2024-03-06T17:02:07Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [burntsushi/linux](https://github.com/BurntSushi/linux) | 0 | 2022-12-16T15:13:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [boingoing/node-sass](https://github.com/boingoing/node-sass) | 0 | 2022-02-19T07:43:10Z | C/C++ | Unknown | 0 | 27 | 0 | 0 |
 | [mikesteglich/coliop](https://github.com/MikeSteglich/Coliop) | 0 | 2021-09-09T16:48:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -40,6 +41,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [fonwin/libfon9](https://github.com/fonwin/libfon9) | 0 | 2025-10-15T04:04:43Z | C/C++ | Unknown | 7 | 0 | 7 | 7 |
 | [meinac/oj-introspect](https://github.com/meinac/oj-introspect) | 0 | 2025-07-30T11:37:51Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [AFD-Illinois/EHT-babel](https://github.com/AFD-Illinois/EHT-babel) | 0 | 2024-03-06T17:02:07Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [burntsushi/linux](https://github.com/BurntSushi/linux) | 0 | 2022-12-16T15:13:06Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [boingoing/node-sass](https://github.com/boingoing/node-sass) | 0 | 2022-02-19T07:43:10Z | C/C++ | Unknown | 0 | 27 | 0 | 0 |
 | [mikesteglich/coliop](https://github.com/MikeSteglich/Coliop) | 0 | 2021-09-09T16:48:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

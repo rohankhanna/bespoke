@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 147,
-    "concepts": 99,
-    "observations": 100,
-    "repos": 20,
-    "terms": 98
+    "components": 150,
+    "concepts": 112,
+    "observations": 113,
+    "repos": 22,
+    "terms": 111
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "allan2/dotenvy",
     "cross-rs/cross",
@@ -26,6 +26,8 @@
     "google/tarpc",
     "gyscos/cursive",
     "haleclipse/ccometixline",
+    "LaurentMazare/tch-rs",
+    "lldap/lldap",
     "mitsuhiko/insta",
     "pdf-rs/pdf",
     "rust-lang/flate2-rs",

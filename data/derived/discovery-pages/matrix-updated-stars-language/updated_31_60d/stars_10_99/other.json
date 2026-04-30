@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 117,
-    "concepts": 126,
-    "observations": 127,
-    "repos": 40,
-    "terms": 125
+    "components": 130,
+    "concepts": 144,
+    "observations": 145,
+    "repos": 45,
+    "terms": 143
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "0x-ximon/acario.nvim",
     "0xC0000054/pdn-ddsfiletype-plus",
     "0xrsydn/nix-hermes-agent",
     "219-design/qt-qml-project-template-with-ci",
@@ -29,6 +30,7 @@
     "bokeh/tutorial",
     "BuddiesOfBudgie/budgie-desktop-view",
     "buildfoundation/bazel_rules_detekt",
+    "clojure/tools.deps",
     "coin-or-tools/homebrew-coinor",
     "dominique-unruh/scala-isabelle",
     "DragonFlyBSD/DPorts",
@@ -36,6 +38,7 @@
     "dwyl/content",
     "dwyl/elixir-auth-google-demo",
     "dwyl/email",
+    "dwyl/learn-payment-processing",
     "dwyl/mvp",
     "GaloisInc/cryptol-specs",
     "jakewvincent/texmagic.nvim",
@@ -49,10 +52,12 @@
     "oap-project/oap-mllib",
     "ocurrent/opam-health-check",
     "opencontainers/.github",
+    "PacktPublishing/Natural-Language-Processing-with-Flair",
     "revfactory/claude-code-harness",
     "rust-lang/crates-build-env",
     "tarsius/llama",
     "Triang-jyed-driung/Rapid-Sampling",
-    "typst/typst-flake"
+    "typst/typst-flake",
+    "w3c/element-timing"
   ]
 }

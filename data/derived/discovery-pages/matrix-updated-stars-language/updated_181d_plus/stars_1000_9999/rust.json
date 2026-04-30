@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 163,
-    "observations": 166,
-    "repos": 35,
-    "terms": 162
+    "components": 145,
+    "concepts": 175,
+    "observations": 178,
+    "repos": 39,
+    "terms": 173
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "asciinema/agg",
     "askama-rs/askama-old",
     "async-rs/async-std",
     "autozimu/LanguageClient-neovim",
     "BrainiumLLC/cargo-mobile",
+    "BurntSushi/fst",
     "BurntSushi/rust-csv",
     "cgag/loc",
     "chelsea0x3b/dfdx",
@@ -39,15 +40,18 @@
     "http-rs/tide",
     "japaric/xargo",
     "johnthagen/min-sized-rust",
+    "jrmuizel/raqote",
     "lnx-search/lnx",
     "mgdm/htmlq",
     "mooman219/fontdue",
     "mtshiba/pylyzer",
     "nrc/r4cppp",
+    "nvarner/typst-lsp",
     "racer-rust/racer",
     "rust-lang/rls",
     "stepancheg/grpc-rust",
     "stepancheg/rust-protobuf",
+    "vislyhq/stretch",
     "watchexec/cargo-watch"
   ]
 }

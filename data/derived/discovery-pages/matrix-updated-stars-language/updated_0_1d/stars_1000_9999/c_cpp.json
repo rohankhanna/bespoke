@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 170,
-    "concepts": 189,
-    "observations": 189,
-    "repos": 22,
-    "terms": 189
+    "components": 204,
+    "concepts": 235,
+    "observations": 235,
+    "repos": 28,
+    "terms": 235
   },
   "facet_version": 1,
   "filters": {
@@ -12,29 +12,35 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/openexr",
     "actor-framework/actor-framework",
     "ai-dynamo/nixl",
-    "bitcoin-core/secp256k1",
     "BYVoid/OpenCC",
     "chrisant996/clink",
     "flashrom/flashrom",
     "google/wuffs",
-    "ikawrakow/ik_llama.cpp",
     "iree-org/iree",
     "ispc/ispc",
     "jd-opensource/xllm",
+    "KhronosGroup/KTX-Software",
     "leejet/stable-diffusion.cpp",
     "llvm/torch-mlir",
     "microsoft/onnxruntime-genai",
+    "microsoft/SPTAG",
     "miniupnp/miniupnp",
+    "NetHack/NetHack",
     "onnxsim/onnxsim",
     "OpenMathLib/OpenBLAS",
+    "oracle/graaljs",
     "php-rdkafka/php-rdkafka",
+    "qt-creator/qt-creator",
+    "SchedMD/slurm",
     "swiftlang/swift-llbuild",
     "TrenchBroom/TrenchBroom",
-    "uxlfoundation/oneDNN"
+    "uxlfoundation/oneDNN",
+    "uxlfoundation/oneTBB",
+    "YosysHQ/yosys"
   ]
 }

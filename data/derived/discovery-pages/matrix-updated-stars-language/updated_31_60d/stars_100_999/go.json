@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 155,
-    "concepts": 129,
-    "observations": 129,
-    "repos": 24,
-    "terms": 129
+    "components": 171,
+    "concepts": 136,
+    "observations": 136,
+    "repos": 25,
+    "terms": 136
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "anacrolix/dht",
     "aws/amazon-ec2-spot-interrupter",
@@ -25,6 +25,7 @@
     "cloudwego/kitex-examples",
     "erigontech/interfaces",
     "go-chi/docgen",
+    "gpustack/gguf-parser-go",
     "hashicorp/raft-boltdb",
     "kubernetes-sigs/cluster-proportional-autoscaler",
     "kubernetes-sigs/hydrophone",

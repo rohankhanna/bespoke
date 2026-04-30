@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 19,
-    "observations": 19,
-    "repos": 10,
-    "terms": 19
+    "components": 17,
+    "concepts": 21,
+    "observations": 21,
+    "repos": 13,
+    "terms": 21
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "a-n-t-h-o-n-y/signals-light",
     "amerkoleci/Alimer.Bindings",
@@ -20,9 +20,12 @@
     "DavidKinder/Git",
     "DavidKinder/Windows-Glk",
     "flatpak/flatpak-xdg-utils",
+    "FourierTransformer/lua-simdjson",
     "HolyBlackCat/box2cpp",
+    "jokkebk/JUnzip",
     "JPEWdev/icecream-sundae",
     "smuellerDD/acvpparser",
-    "Taritsyn/LibSassHost"
+    "Taritsyn/LibSassHost",
+    "vincentbernat/vbeterm"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 36
-- terms: 159
-- components: 134
-- concepts: 160
-- observations: 163
+- repos: 37
+- terms: 170
+- components: 153
+- concepts: 172
+- observations: 175
 
 ## Static behavior
 
@@ -26,13 +26,16 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [aibasel/downward](https://github.com/aibasel/downward) | 383 | 2026-04-16T09:35:41Z | C/C++ | Infrastructure/tooling | 7 | 6 | 7 | 7 |
+| [nx10/httpgd](https://github.com/nx10/httpgd) | 499 | 2026-04-16T08:24:51Z | C/C++ | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [google-deepmind/reverb](https://github.com/google-deepmind/reverb) | 776 | 2026-04-16T00:09:40Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [Yubico/libfido2](https://github.com/Yubico/libfido2) | 705 | 2026-04-15T12:54:20Z | C/C++ | Infrastructure/tooling | 14 | 6 | 14 | 14 |
 | [NiklasRosenstein/pbzx](https://github.com/NiklasRosenstein/pbzx) | 132 | 2026-04-14T22:16:18Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [SHI-Labs/NATTEN](https://github.com/SHI-Labs/NATTEN) | 739 | 2026-04-14T18:51:11Z | C/C++ | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [Solo5/solo5](https://github.com/Solo5/solo5) | 970 | 2026-04-14T07:47:23Z | C/C++ | Infrastructure/tooling | 8 | 4 | 8 | 10 |
 | [nfrechette/rtm](https://github.com/nfrechette/rtm) | 783 | 2026-04-14T00:53:39Z | C/C++ | Infrastructure/tooling | 11 | 8 | 11 | 11 |
-| [eddelbuettel/rcppsimdjson](https://github.com/eddelbuettel/rcppsimdjson) | 125 | 2026-04-13T11:58:05Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [fribidi/fribidi](https://github.com/fribidi/fribidi) | 420 | 2026-04-13T19:09:20Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [eddelbuettel/rcppsimdjson](https://github.com/eddelbuettel/rcppsimdjson) | 125 | 2026-04-13T11:58:05Z | C/C++ | Infrastructure/tooling | 4 | 3 | 5 | 5 |
 | [pauldmccarthy/indexed_gzip](https://github.com/pauldmccarthy/indexed_gzip) | 113 | 2026-04-13T10:00:24Z | C/C++ | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [ifduyue/python-xxhash](https://github.com/ifduyue/python-xxhash) | 457 | 2026-04-13T01:43:59Z | C/C++ | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [xiph/vorbis](https://github.com/xiph/vorbis) | 555 | 2026-04-11T20:17:12Z | C/C++ | Unknown | 9 | 0 | 9 | 9 |
@@ -60,8 +63,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [intel/opencl-clang](https://github.com/intel/opencl-clang) | 139 | 2026-04-02T11:25:42Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [DavidKinder/Windows-Frotz](https://github.com/DavidKinder/Windows-Frotz) | 109 | 2026-04-01T19:40:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ng-log/ng-log](https://github.com/ng-log/ng-log) | 103 | 2026-03-31T22:21:20Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |
-| [webgpu-native/webgpu-headers](https://github.com/webgpu-native/webgpu-headers) | 556 | 2026-03-31T08:13:55Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |
-| [amzn/amzn-drivers](https://github.com/amzn/amzn-drivers) | 509 | 2026-03-31T05:54:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -77,13 +78,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [SHI-Labs/NATTEN](https://github.com/SHI-Labs/NATTEN) | 739 | 2026-04-14T18:51:11Z | C/C++ | Infrastructure/tooling | 4 | 0 | 4 | 4 |
 | [Yubico/libfido2](https://github.com/Yubico/libfido2) | 705 | 2026-04-15T12:54:20Z | C/C++ | Infrastructure/tooling | 14 | 6 | 14 | 14 |
 | [artemsen/swayimg](https://github.com/artemsen/swayimg) | 641 | 2026-04-09T09:21:48Z | C/C++ | Infrastructure/tooling | 1 | 6 | 1 | 1 |
-| [webgpu-native/webgpu-headers](https://github.com/webgpu-native/webgpu-headers) | 556 | 2026-03-31T08:13:55Z | C/C++ | Infrastructure/tooling | 3 | 7 | 3 | 3 |
 | [xiph/vorbis](https://github.com/xiph/vorbis) | 555 | 2026-04-11T20:17:12Z | C/C++ | Unknown | 9 | 0 | 9 | 9 |
-| [amzn/amzn-drivers](https://github.com/amzn/amzn-drivers) | 509 | 2026-03-31T05:54:53Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
+| [nx10/httpgd](https://github.com/nx10/httpgd) | 499 | 2026-04-16T08:24:51Z | C/C++ | Infrastructure/tooling | 6 | 16 | 6 | 6 |
 | [NiLuJe/FBInk](https://github.com/NiLuJe/FBInk) | 498 | 2026-04-07T20:33:58Z | C/C++ | Infrastructure/tooling | 9 | 5 | 9 | 9 |
 | [containers/conmon](https://github.com/containers/conmon) | 477 | 2026-04-03T01:56:52Z | C/C++ | Infrastructure/tooling | 2 | 2 | 2 | 2 |
 | [ifduyue/python-xxhash](https://github.com/ifduyue/python-xxhash) | 457 | 2026-04-13T01:43:59Z | C/C++ | Infrastructure/tooling | 5 | 7 | 5 | 5 |
 | [intel/QAT_Engine](https://github.com/intel/QAT_Engine) | 440 | 2026-04-10T10:08:16Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
+| [fribidi/fribidi](https://github.com/fribidi/fribidi) | 420 | 2026-04-13T19:09:20Z | C/C++ | Infrastructure/tooling | 2 | 4 | 2 | 2 |
+| [aibasel/downward](https://github.com/aibasel/downward) | 383 | 2026-04-16T09:35:41Z | C/C++ | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 | [ipsilon/evmc](https://github.com/ipsilon/evmc) | 380 | 2026-04-07T21:15:27Z | C/C++ | CLI | 8 | 0 | 8 | 8 |
 | [WojciechMula/toys](https://github.com/WojciechMula/toys) | 375 | 2026-04-08T08:05:34Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [google/perf_data_converter](https://github.com/google/perf_data_converter) | 342 | 2026-04-09T20:25:57Z | C/C++ | Infrastructure/tooling | 0 | 1 | 0 | 0 |
@@ -98,7 +100,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ankane/faiss-ruby](https://github.com/ankane/faiss-ruby) | 147 | 2026-04-09T00:30:53Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [intel/opencl-clang](https://github.com/intel/opencl-clang) | 139 | 2026-04-02T11:25:42Z | C/C++ | Infrastructure/tooling | 6 | 4 | 6 | 6 |
 | [NiklasRosenstein/pbzx](https://github.com/NiklasRosenstein/pbzx) | 132 | 2026-04-14T22:16:18Z | C/C++ | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [eddelbuettel/rcppsimdjson](https://github.com/eddelbuettel/rcppsimdjson) | 125 | 2026-04-13T11:58:05Z | C/C++ | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [eddelbuettel/rcppsimdjson](https://github.com/eddelbuettel/rcppsimdjson) | 125 | 2026-04-13T11:58:05Z | C/C++ | Infrastructure/tooling | 4 | 3 | 5 | 5 |
 | [pauldmccarthy/indexed_gzip](https://github.com/pauldmccarthy/indexed_gzip) | 113 | 2026-04-13T10:00:24Z | C/C++ | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [DavidKinder/Windows-Frotz](https://github.com/DavidKinder/Windows-Frotz) | 109 | 2026-04-01T19:40:01Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [ng-log/ng-log](https://github.com/ng-log/ng-log) | 103 | 2026-03-31T22:21:20Z | C/C++ | Infrastructure/tooling | 6 | 9 | 6 | 6 |

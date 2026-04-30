@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 342,
-    "concepts": 191,
-    "observations": 191,
-    "repos": 55,
-    "terms": 200
+    "components": 375,
+    "concepts": 202,
+    "observations": 202,
+    "repos": 61,
+    "terms": 211
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "3rd/config",
     "AdaCore/gnatcoll-core",
     "AdaCore/langkit",
+    "alexrudall/midjourney",
     "apache/arrow-dotnet",
     "aquasecurity/trivy-checks",
     "Ascend/Ascend-CI",
@@ -43,9 +44,11 @@
     "harfbuzz/uharfbuzz",
     "hashicorp/web-unified-docs",
     "hexaeder/MCPRepl.jl",
+    "i18next/react-i18next-gitbook",
     "ibmruntimes/zoslib",
     "julia-actions/julia-format",
     "JuliaCI/BaseBenchmarks.jl",
+    "JuliaSMLM/ModelContextProtocol.jl",
     "kahliburke/Kaimon.jl",
     "kata-containers/www.katacontainers.io",
     "lewis6991/async.nvim",
@@ -59,10 +62,13 @@
     "ocurrent/docker-base-images",
     "onnx/steering-committee",
     "optuna/optunahub-web",
+    "ruby-debug/ruby-debug",
     "SAP/abap-file-formats",
+    "SAP/abap-file-formats-tools",
     "sass-contrib/sass-embedded-host-ruby",
     "sbt/sbt-java-formatter",
     "sentientwave/automata",
+    "servo/servo.org",
     "SimplyDanny/SwiftLintPlugins",
     "status-im/nim-eth",
     "steipete/homebrew-tap",

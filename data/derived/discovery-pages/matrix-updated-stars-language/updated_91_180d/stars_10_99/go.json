@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 15,
-    "concepts": 23,
-    "observations": 23,
-    "repos": 6,
-    "terms": 21
+    "components": 26,
+    "concepts": 28,
+    "observations": 28,
+    "repos": 9,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "cloudwego/netpoll-benchmark",
     "doraemonkeys/paddleocr",
     "google/gnostic-models",
     "lesismal/nbio-examples",
+    "mikespook/possum",
     "objectbox/objectbox-generator",
     "spacemeshos/poet",
-    "urfave/cli-altsrc"
+    "urfave/cli-altsrc",
+    "vmware/pmd-next-gen"
   ]
 }

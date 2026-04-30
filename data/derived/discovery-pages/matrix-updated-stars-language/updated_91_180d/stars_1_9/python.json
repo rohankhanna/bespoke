@@ -3,7 +3,7 @@
     "components": 50,
     "concepts": 29,
     "observations": 29,
-    "repos": 14,
+    "repos": 15,
     "terms": 39
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "abersheeran/pdm-version",
     "aiagenta2z/onekey_mcp_router",
@@ -21,6 +21,7 @@
     "b-data/docker-deployment-jupyter",
     "biocypher/collectri",
     "ca-ruz/bumpit",
+    "Computer-use-agents/GUI-Docker-Env",
     "danielrosehill/Agentic-Context-Development-Interview-Demo",
     "hashberg-io/typing-validation",
     "MarcCote/downward",

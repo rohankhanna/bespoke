@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1058,
-    "concepts": 261,
-    "observations": 261,
-    "repos": 35,
-    "terms": 260
+    "components": 1224,
+    "concepts": 287,
+    "observations": 287,
+    "repos": 39,
+    "terms": 286
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "amperser/proselint",
     "apache/cordova-android",
@@ -21,6 +21,7 @@
     "Automattic/juice",
     "bcoe/c8",
     "Blockstream/esplora",
+    "brunch/brunch",
     "coderaiser/cloudcmd",
     "DavidAnson/markdownlint",
     "dequelabs/axe-core",
@@ -34,6 +35,7 @@
     "JuliaPluto/Pluto.jl",
     "mapbox/node-pre-gyp",
     "micromatch/picomatch",
+    "minio/minio-js",
     "newrelic/node-newrelic",
     "nodegit/nodegit",
     "nodejs/undici",
@@ -43,10 +45,12 @@
     "pmmmwh/react-refresh-webpack-plugin",
     "postcss/postcss-nested",
     "rullerzhou-afk/clawd-on-desk",
+    "SabakiHQ/Sabaki",
     "serverless-operations/serverless-step-functions",
     "tc39/test262",
     "tchx84/Flatseal",
     "thlorenz/doctoc",
+    "tw-in-js/twind",
     "vizzuhq/vizzu-lib",
     "webtorrent/bittorrent-dht"
   ]

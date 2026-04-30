@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 176,
-    "concepts": 139,
-    "observations": 141,
-    "repos": 29,
-    "terms": 138
+    "components": 198,
+    "concepts": 140,
+    "observations": 142,
+    "repos": 31,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "arkworks-rs/r1cs-std",
     "ashvardanian/StringWars",
@@ -25,9 +25,11 @@
     "dtolnay/trybuild",
     "esp-rs/embedded-svc",
     "esp-rs/esp-idf-svc",
+    "filecoin-project/rust-fil-proofs",
     "firstbatchxyz/dkn-compute-node",
     "gfx-rs/rspirv",
     "gimli-rs/addr2line",
+    "IWANABETHATGUY/tower-lsp-boilerplate",
     "Kampfkarren/selene",
     "lambdaclass/lambdaworks",
     "LukasKalbertodt/libtest-mimic",

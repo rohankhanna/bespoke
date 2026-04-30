@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 32,
-    "concepts": 48,
-    "observations": 48,
-    "repos": 8,
-    "terms": 48
+    "components": 35,
+    "concepts": 57,
+    "observations": 57,
+    "repos": 14,
+    "terms": 57
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,21 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "0xble/dotagent.nvim",
     "b-data/jupyterlab-julia-docker-stack",
     "b-data/jupyterlab-mojo-docker-stack",
     "beeware/beeware-docs-tools",
     "curiousdannii/emglken",
     "enbop/fungi-app",
+    "googleapis/google-cloud-php-compute",
     "hao-ai-lab/flash-attention-fp4",
+    "jfmengels/elm-review-config",
+    "jk10001/aquainsightai",
     "KhronosGroup/KTX-Software-CTS",
-    "moznion/sbt-spotless"
+    "localstack/homebrew-tap",
+    "moznion/sbt-spotless",
+    "v-iashin/v-iashin.github.io"
   ]
 }

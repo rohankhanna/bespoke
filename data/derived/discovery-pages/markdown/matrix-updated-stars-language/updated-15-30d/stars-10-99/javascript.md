@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · JavaScript
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 22
-- terms: 77
-- components: 306
-- concepts: 77
-- observations: 77
+- repos: 24
+- terms: 80
+- components: 322
+- concepts: 80
+- observations: 80
 
 ## Static behavior
 
@@ -26,6 +26,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [TrigenSoftware/simple-release-action](https://github.com/TrigenSoftware/simple-release-action) | 23 | 2026-04-16T09:44:21Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
+| [evenchange4/graphql.macro-example](https://github.com/evenchange4/graphql.macro-example) | 23 | 2026-04-16T09:31:31Z | JavaScript | Unknown | 3 | 9 | 3 | 3 |
 | [bmad-code-org/bmad-module-creative-intelligence-suite](https://github.com/bmad-code-org/bmad-module-creative-intelligence-suite) | 62 | 2026-04-14T21:10:52Z | JavaScript | Infrastructure/tooling | 4 | 35 | 4 | 4 |
 | [electerm/electerm-locales](https://github.com/electerm/electerm-locales) | 25 | 2026-04-14T04:44:42Z | JavaScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [hectorm/chafa-wasm](https://github.com/hectorm/chafa-wasm) | 77 | 2026-04-13T18:08:40Z | JavaScript | CLI | 11 | 27 | 11 | 11 |
@@ -71,6 +73,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [coderaiser/supertape](https://github.com/coderaiser/supertape) | 26 | 2026-04-08T19:23:32Z | JavaScript | Infrastructure/tooling | 8 | 16 | 8 | 8 |
 | [electerm/electerm-locales](https://github.com/electerm/electerm-locales) | 25 | 2026-04-14T04:44:42Z | JavaScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
 | [ipfs/js-ipfs-utils](https://github.com/ipfs/js-ipfs-utils) | 25 | 2026-04-11T17:28:43Z | JavaScript | Infrastructure/tooling | 4 | 32 | 4 | 4 |
+| [TrigenSoftware/simple-release-action](https://github.com/TrigenSoftware/simple-release-action) | 23 | 2026-04-16T09:44:21Z | JavaScript | Unknown | 0 | 7 | 0 | 0 |
+| [evenchange4/graphql.macro-example](https://github.com/evenchange4/graphql.macro-example) | 23 | 2026-04-16T09:31:31Z | JavaScript | Unknown | 3 | 9 | 3 | 3 |
 | [dwyl/phoenix-liveview-stopwatch](https://github.com/dwyl/phoenix-liveview-stopwatch) | 20 | 2026-04-03T17:42:51Z | JavaScript | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [AdguardTeam/CodeGuidelines](https://github.com/AdguardTeam/CodeGuidelines) | 19 | 2026-04-03T15:15:20Z | JavaScript | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [dwyl/aws-ses-lambda](https://github.com/dwyl/aws-ses-lambda) | 11 | 2026-04-10T06:53:56Z | JavaScript | Service/API | 5 | 12 | 5 | 5 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 783,
-    "concepts": 126,
-    "observations": 128,
-    "repos": 31,
-    "terms": 138
+    "components": 750,
+    "concepts": 121,
+    "observations": 123,
+    "repos": 30,
+    "terms": 133
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "almogdepaz/wolfpack",
     "apollographql/vscode-graphql",
@@ -34,7 +34,6 @@
     "jaegertracing/documentation",
     "jkheadley/instar",
     "Kastalien-Research/thoughtbox",
-    "labring/fastgpt-plugin",
     "llamastack/llama-stack-client-typescript",
     "ogx-ai/llama-stack-client-typescript",
     "overseedai/viwo",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 215,
-    "concepts": 107,
-    "observations": 108,
-    "repos": 18,
-    "terms": 107
+    "components": 269,
+    "concepts": 142,
+    "observations": 143,
+    "repos": 25,
+    "terms": 142
   },
   "facet_version": 1,
   "filters": {
@@ -12,25 +12,32 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "ag2ai/build-with-ag2",
     "AI-Hypercomputer/maxdiffusion",
     "apache/datafusion-python",
     "Backblaze/B2_Command_Line_Tool",
     "basetenlabs/truss-examples",
+    "bazelbuild/continuous-integration",
+    "Comfy-Org/comfy-cli",
     "Dao-AILab/quack",
+    "Dao-AILab/sonic-moe",
     "databrickslabs/ucx",
+    "flagos-ai/FlagGems",
     "google/fiddle",
     "iree-org/iree-turbine",
-    "jolibrain/joliGEN",
     "jupyter-server/jupyter_server",
     "microsoft/dion",
     "mozilla/addons-server",
+    "NVIDIA/JAX-Toolbox",
     "ogx-ai/ogx-client-python",
+    "plotly/Kaleido",
     "prometheus-community/ansible",
+    "pypdfium2-team/pypdfium2",
     "scverse/rapids-singlecell",
     "spack/spack-packages",
+    "svg-project/flash-kmeans",
     "UKGovernmentBEIS/inspect_evals"
   ]
 }

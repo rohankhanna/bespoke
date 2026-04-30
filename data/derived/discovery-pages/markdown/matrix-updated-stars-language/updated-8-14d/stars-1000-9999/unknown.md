@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 1,000 to 9,999 stars · Unknown
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 13
-- terms: 64
-- components: 24
-- concepts: 64
-- observations: 64
+- repos: 14
+- terms: 65
+- components: 26
+- concepts: 65
+- observations: 65
 
 ## Static behavior
 
@@ -29,6 +29,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [dotnet/docs](https://github.com/dotnet/docs) | 4671 | 2026-04-23T04:03:19Z | Unknown | Infrastructure/tooling | 14 | 8 | 14 | 14 |
 | [aws-controllers-k8s/community](https://github.com/aws-controllers-k8s/community) | 2625 | 2026-04-23T00:01:41Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [rustsec/advisory-db](https://github.com/rustsec/advisory-db) | 1103 | 2026-04-22T19:53:50Z | Unknown | Infrastructure/tooling | 10 | 3 | 10 | 10 |
+| [QwenLM/Qwen3.6](https://github.com/QwenLM/Qwen3.6) | 3222 | 2026-04-22T13:00:00Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [flathub/flathub](https://github.com/flathub/flathub) | 1432 | 2026-04-22T12:55:34Z | Unknown | Infrastructure/tooling | 8 | 3 | 8 | 8 |
 | [rust-embedded/awesome-embedded-rust](https://github.com/rust-embedded/awesome-embedded-rust) | 7820 | 2026-04-22T02:59:34Z | Unknown | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [rust-embedded/wg](https://github.com/rust-embedded/wg) | 2122 | 2026-04-21T19:12:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -50,6 +51,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [alchaincyf/zhangxuefeng-skill](https://github.com/alchaincyf/zhangxuefeng-skill) | 6316 | 2026-04-21T05:28:55Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dotnet/docs](https://github.com/dotnet/docs) | 4671 | 2026-04-23T04:03:19Z | Unknown | Infrastructure/tooling | 14 | 8 | 14 | 14 |
 | [android/skills](https://github.com/android/skills) | 3477 | 2026-04-17T09:28:34Z | Unknown | Infrastructure/tooling | 2 | 1 | 0 | 0 |
+| [QwenLM/Qwen3.6](https://github.com/QwenLM/Qwen3.6) | 3222 | 2026-04-22T13:00:00Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [aws-controllers-k8s/community](https://github.com/aws-controllers-k8s/community) | 2625 | 2026-04-23T00:01:41Z | Unknown | Infrastructure/tooling | 2 | 1 | 2 | 2 |
 | [MicrosoftDocs/WSL](https://github.com/MicrosoftDocs/WSL) | 2294 | 2026-04-16T17:23:01Z | Unknown | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [rust-embedded/wg](https://github.com/rust-embedded/wg) | 2122 | 2026-04-21T19:12:58Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1,000 to 9,999 stars · Go
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 84
-- terms: 399
-- components: 190
-- concepts: 397
-- observations: 397
+- repos: 88
+- terms: 414
+- components: 196
+- concepts: 412
+- observations: 412
 
 ## Static behavior
 
@@ -27,6 +27,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [alibaba/sentinel-golang](https://github.com/alibaba/sentinel-golang) | 2952 | 2025-10-28T03:25:12Z | Go | Infrastructure/tooling | 7 | 4 | 7 | 7 |
+| [nsf/termbox-go](https://github.com/nsf/termbox-go) | 4776 | 2025-10-20T05:58:12Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [lesismal/arpc](https://github.com/lesismal/arpc) | 1089 | 2025-10-13T11:57:06Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [yannh/kubeconform](https://github.com/yannh/kubeconform) | 3002 | 2025-10-13T10:36:27Z | Go | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [jsha/minica](https://github.com/jsha/minica) | 3276 | 2025-09-03T23:39:33Z | Go | Infrastructure/tooling | 0 | 1 | 0 | 0 |
 | [c-bata/kube-prompt](https://github.com/c-bata/kube-prompt) | 1819 | 2025-08-12T11:32:18Z | Go | CLI | 7 | 4 | 7 | 7 |
@@ -59,12 +61,14 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [coreos/go-iptables](https://github.com/coreos/go-iptables) | 1219 | 2024-10-15T10:32:59Z | Go | Infrastructure/tooling | 0 | 3 | 0 | 0 |
 | [filhodanuvem/gitql](https://github.com/filhodanuvem/gitql) | 6297 | 2024-10-14T14:32:41Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [google/crfs](https://github.com/google/crfs) | 1404 | 2024-10-09T18:52:42Z | Go | Unknown | 0 | 0 | 0 | 0 |
+| [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) | 6545 | 2024-09-11T10:51:41Z | Go | Unknown | 5 | 0 | 5 | 5 |
 | [0xPolygon/polygon-edge](https://github.com/0xPolygon/polygon-edge) | 1055 | 2024-08-27T17:01:44Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [AliyunContainerService/pouch](https://github.com/AliyunContainerService/pouch) | 4653 | 2024-08-22T02:06:07Z | Go | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [google/btree](https://github.com/google/btree) | 4155 | 2024-08-21T16:46:53Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [gorilla/sessions](https://github.com/gorilla/sessions) | 3143 | 2024-08-20T14:12:54Z | Go | Infrastructure/tooling | 8 | 7 | 8 | 8 |
 | [notaryproject/notary](https://github.com/notaryproject/notary) | 3290 | 2024-08-07T19:02:32Z | Go | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [vulcand/vulcand](https://github.com/vulcand/vulcand) | 3100 | 2024-07-27T08:36:18Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [Masterminds/glide](https://github.com/Masterminds/glide) | 8101 | 2024-07-22T15:41:52Z | Go | Library | 3 | 0 | 3 | 3 |
 | [go-bindata/go-bindata](https://github.com/go-bindata/go-bindata) | 1910 | 2024-07-13T06:20:02Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [zyedidia/eget](https://github.com/zyedidia/eget) | 1956 | 2024-07-09T06:03:04Z | Go | Unknown | 4 | 0 | 4 | 4 |
 | [sorintlab/stolon](https://github.com/sorintlab/stolon) | 4816 | 2024-07-08T16:32:33Z | Go | Infrastructure/tooling | 13 | 0 | 13 | 13 |
@@ -118,11 +122,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [golang/mock](https://github.com/golang/mock) | 9367 | 2024-01-08T08:00:38Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [dinedal/textql](https://github.com/dinedal/textql) | 9118 | 2023-10-22T22:51:40Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [aws/aws-sdk-go](https://github.com/aws/aws-sdk-go) | 8692 | 2025-07-31T16:06:20Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
+| [Masterminds/glide](https://github.com/Masterminds/glide) | 8101 | 2024-07-22T15:41:52Z | Go | Library | 3 | 0 | 3 | 3 |
 | [mitchellh/mapstructure](https://github.com/mitchellh/mapstructure) | 8047 | 2024-06-25T15:17:23Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [Masterminds/squirrel](https://github.com/Masterminds/squirrel) | 7920 | 2024-04-24T05:26:36Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [urfave/negroni](https://github.com/urfave/negroni) | 7532 | 2025-05-03T19:46:24Z | Go | Unknown | 0 | 0 | 0 | 0 |
 | [attic-labs/noms](https://github.com/attic-labs/noms) | 7428 | 2021-08-27T22:44:22Z | Go | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [go-yaml/yaml](https://github.com/go-yaml/yaml) | 7030 | 2025-04-01T17:00:11Z | Go | Infrastructure/tooling | 0 | 2 | 0 | 0 |
+| [DATA-DOG/go-sqlmock](https://github.com/DATA-DOG/go-sqlmock) | 6545 | 2024-09-11T10:51:41Z | Go | Unknown | 5 | 0 | 5 | 5 |
 | [datreeio/datree](https://github.com/datreeio/datree) | 6344 | 2024-04-23T02:14:19Z | Go | CLI | 18 | 11 | 18 | 18 |
 | [filhodanuvem/gitql](https://github.com/filhodanuvem/gitql) | 6297 | 2024-10-14T14:32:41Z | Go | Infrastructure/tooling | 2 | 5 | 2 | 2 |
 | [tidwall/evio](https://github.com/tidwall/evio) | 6036 | 2023-10-22T11:35:20Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
@@ -133,6 +139,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [segmentio/ksuid](https://github.com/segmentio/ksuid) | 5257 | 2023-10-04T17:07:15Z | Go | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [streadway/amqp](https://github.com/streadway/amqp) | 4933 | 2023-09-07T02:58:29Z | Go | CLI | 3 | 0 | 3 | 3 |
 | [sorintlab/stolon](https://github.com/sorintlab/stolon) | 4816 | 2024-07-08T16:32:33Z | Go | Infrastructure/tooling | 13 | 0 | 13 | 13 |
+| [nsf/termbox-go](https://github.com/nsf/termbox-go) | 4776 | 2025-10-20T05:58:12Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [Masterminds/sprig](https://github.com/Masterminds/sprig) | 4704 | 2025-07-18T13:29:21Z | Go | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [AliyunContainerService/pouch](https://github.com/AliyunContainerService/pouch) | 4653 | 2024-08-22T02:06:07Z | Go | Infrastructure/tooling | 7 | 0 | 7 | 7 |
 | [mosn/mosn](https://github.com/mosn/mosn) | 4519 | 2025-07-16T09:03:41Z | Go | Infrastructure/tooling | 6 | 6 | 6 | 6 |
@@ -194,6 +201,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [uswitch/kiam](https://github.com/uswitch/kiam) | 1141 | 2024-03-05T11:39:28Z | Go | Infrastructure/tooling | 3 | 0 | 3 | 3 |
 | [darthsim/hivemind](https://github.com/DarthSim/hivemind) | 1131 | 2023-12-12T00:59:00Z | Go | Unknown | 1 | 0 | 1 | 1 |
 | [h2non/gentleman](https://github.com/h2non/gentleman) | 1130 | 2023-12-17T15:53:50Z | Go | CLI | 9 | 0 | 9 | 9 |
+| [lesismal/arpc](https://github.com/lesismal/arpc) | 1089 | 2025-10-13T11:57:06Z | Go | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [superedge/superedge](https://github.com/superedge/superedge) | 1070 | 2024-02-20T10:02:19Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [0xPolygon/polygon-edge](https://github.com/0xPolygon/polygon-edge) | 1055 | 2024-08-27T17:01:44Z | Go | Infrastructure/tooling | 10 | 9 | 10 | 10 |
 | [csznet/tgState](https://github.com/csznet/tgState) | 1043 | 2025-04-13T11:37:39Z | Go | Infrastructure/tooling | 16 | 6 | 16 | 16 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 17,
-    "concepts": 27,
-    "observations": 27,
-    "repos": 23,
-    "terms": 27
+    "components": 23,
+    "concepts": 36,
+    "observations": 36,
+    "repos": 25,
+    "terms": 36
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "1sh1ro/liangxi-skills",
     "2KAbhishek/BWnB",
@@ -26,6 +26,7 @@
     "danielrosehill/AI-Decision-Eval-Projects",
     "danielrosehill/AI-Synthesised-Perspectives",
     "danielrosehill/Architectural-Plans-Index",
+    "danielrosehill/Awesome-Red-Alerts",
     "danielrosehill/Claude-AI-Attribution-Plugin",
     "danielrosehill/Docs-And-Notes-Index",
     "danielrosehill/Open-Claw-Stack",
@@ -36,6 +37,7 @@
     "llvm/torch-mlir-release",
     "nodejs/web-team",
     "ScoopInstaller/.github",
+    "sigstore/architecture-docs",
     "sp1-patches/bn"
   ]
 }

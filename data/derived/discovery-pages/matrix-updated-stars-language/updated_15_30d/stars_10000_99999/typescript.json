@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 207,
-    "concepts": 33,
-    "observations": 33,
-    "repos": 7,
-    "terms": 36
+    "components": 500,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 10,
+    "terms": 66
   },
   "facet_version": 1,
   "filters": {
@@ -12,14 +12,17 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "chatboxai/chatbox",
+    "fingerprintjs/fingerprintjs",
     "fission-ai/openspec",
     "googleapis/google-api-nodejs-client",
     "lerna/lerna",
     "mlc-ai/web-llm",
     "realworld-apps/realworld",
     "shareai-lab/learn-claude-code",
-    "tobi/qmd"
+    "tobi/qmd",
+    "toon-format/toon"
   ]
 }

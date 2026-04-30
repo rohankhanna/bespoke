@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 261,
-    "concepts": 203,
-    "observations": 203,
-    "repos": 29,
-    "terms": 203
+    "components": 294,
+    "concepts": 216,
+    "observations": 217,
+    "repos": 32,
+    "terms": 216
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "0x676e67/wreq",
     "ankane/tokenizers-ruby",
     "apache/arrow-rs-object-store",
     "apollographql/apollo-mcp-server",
-    "arkworks-rs/algebra",
     "arkworks-rs/crypto-primitives",
     "arkworks-rs/poly-commit",
     "ClickHouse/clickhouse-rs",
@@ -27,19 +26,23 @@
     "eitsupi/arf",
     "enbop/fungi",
     "EspressoSystems/espresso-network",
-    "fancy-regex/fancy-regex",
     "GitoxideLabs/cargo-smart-release",
     "huggingface/hf-hub",
+    "intel/ittapi",
     "JanLikar/cargo-clone",
     "KSXGitHub/parallel-disk-usage",
     "lambdaclass/ethrex",
     "libbpf/blazesym",
     "lu-zero/cargo-c",
+    "MercuryTechnologies/ghciwatch",
+    "microsoft/python-environment-tools",
     "NixOS/nix-installer",
     "OptiVorbis/OptiVorbis",
     "oschwald/maxminddb-rust",
+    "quickwit-oss/search-benchmark-game",
     "rust-bitcoin/rust-miniscript",
     "rust-random/getrandom",
+    "tinted-theming/tinty",
     "typst/packages",
     "yetanotherco/aligned_layer",
     "z-galaxy/zbus"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 717,
-    "concepts": 128,
-    "observations": 129,
-    "repos": 24,
-    "terms": 144
+    "components": 734,
+    "concepts": 131,
+    "observations": 132,
+    "repos": 25,
+    "terms": 147
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "antfu-collective/bumpp",
     "antfu/changelogithub",
@@ -24,6 +24,7 @@
     "ethereum/staking-launchpad",
     "graphql-hive/graphql-eslint",
     "haskell/vscode-haskell",
+    "latex-lsp/texlab-vscode",
     "lobehub/lobe-charts",
     "lobehub/lobe-midjourney-webui",
     "lobehub/lobe-tts",

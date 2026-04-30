@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 100 to 999 stars · JavaScript
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 18
-- terms: 50
-- components: 166
-- concepts: 49
-- observations: 49
+- repos: 19
+- terms: 53
+- components: 180
+- concepts: 52
+- observations: 52
 
 ## Static behavior
 
@@ -27,6 +27,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [gherghett/Antigravity-Shit-Chat](https://github.com/gherghett/Antigravity-Shit-Chat) | 362 | 2026-01-18T09:44:30Z | JavaScript | Unknown | 0 | 2 | 0 | 0 |
+| [kaorahi/lizgoban](https://github.com/kaorahi/lizgoban) | 201 | 2026-01-15T12:07:42Z | JavaScript | Infrastructure/tooling | 3 | 14 | 3 | 3 |
 | [dzeiocom/lucide-astro](https://github.com/dzeiocom/lucide-astro) | 109 | 2026-01-05T13:27:29Z | JavaScript | Infrastructure/tooling | 10 | 10 | 10 | 10 |
 | [Level/awesome](https://github.com/Level/awesome) | 315 | 2026-01-02T17:51:12Z | JavaScript | Infrastructure/tooling | 7 | 21 | 7 | 7 |
 | [scripting/reallysimple](https://github.com/scripting/reallysimple) | 105 | 2025-12-24T14:51:58Z | JavaScript | Library | 0 | 5 | 0 | 0 |
@@ -58,6 +59,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [RReverser/wasm-bindgen-rayon](https://github.com/RReverser/wasm-bindgen-rayon) | 294 | 2025-11-21T15:04:23Z | JavaScript | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [nodejs/abi-stable-node](https://github.com/nodejs/abi-stable-node) | 248 | 2025-12-05T15:13:25Z | JavaScript | Service/API | 2 | 0 | 2 | 2 |
 | [rust-lang/lang-team](https://github.com/rust-lang/lang-team) | 211 | 2025-12-07T10:41:15Z | JavaScript | Infrastructure/tooling | 1 | 3 | 1 | 1 |
+| [kaorahi/lizgoban](https://github.com/kaorahi/lizgoban) | 201 | 2026-01-15T12:07:42Z | JavaScript | Infrastructure/tooling | 3 | 14 | 3 | 3 |
 | [bramstein/url-template](https://github.com/bramstein/url-template) | 194 | 2025-11-25T10:59:46Z | JavaScript | Infrastructure/tooling | 0 | 2 | 0 | 0 |
 | [ayoubben18/ab-method](https://github.com/ayoubben18/ab-method) | 160 | 2025-11-10T21:57:17Z | JavaScript | Infrastructure/tooling | 1 | 7 | 0 | 0 |
 | [attractivechaos/k8](https://github.com/attractivechaos/k8) | 158 | 2025-12-07T18:49:44Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |

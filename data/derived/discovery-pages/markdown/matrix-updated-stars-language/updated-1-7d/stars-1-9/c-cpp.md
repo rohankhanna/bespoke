@@ -1,6 +1,6 @@
 # Updated 1 to 7 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
+- repos: 2
 - terms: 1
 - components: 0
 - concepts: 1
@@ -28,7 +28,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [walbourn/directxtk12test](https://github.com/walbourn/directxtk12test) | 8 | 2026-04-27T19:29:25Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [ROCm/rocJPEG](https://github.com/ROCm/rocJPEG) | 7 | 2026-04-24T17:32:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [DavidKinder/inform](https://github.com/DavidKinder/inform) | 2 | 2026-04-23T06:35:15Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 
 ## Repos sorted by stars
 
@@ -36,4 +35,3 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [walbourn/directxtk12test](https://github.com/walbourn/directxtk12test) | 8 | 2026-04-27T19:29:25Z | C/C++ | Unknown | 1 | 0 | 1 | 1 |
 | [ROCm/rocJPEG](https://github.com/ROCm/rocJPEG) | 7 | 2026-04-24T17:32:10Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
-| [DavidKinder/inform](https://github.com/DavidKinder/inform) | 2 | 2026-04-23T06:35:15Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

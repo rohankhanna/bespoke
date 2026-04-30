@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 177,
-    "concepts": 150,
-    "observations": 150,
-    "repos": 22,
-    "terms": 150
+    "components": 217,
+    "concepts": 190,
+    "observations": 190,
+    "repos": 29,
+    "terms": 190
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,21 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "a2aproject/a2a-go",
     "AdguardTeam/urlfilter",
     "ai-dynamo/grove",
+    "aliyun/aliyun-cli",
+    "aquasecurity/trivy-db",
     "bazel-contrib/rules_img",
     "bitrise-io/bitrise",
     "boj/redistore",
     "bufbuild/protovalidate-go",
     "chainguard-dev/melange",
     "ClickHouse/ch-go",
+    "cloudfoundry/bosh-bootloader",
+    "cloudfoundry/bosh-cli",
     "cloudwego/eino-examples",
     "Consensys/gnark-crypto",
     "ipfs/boxo",
@@ -31,10 +35,13 @@
     "kubernetes-sigs/prow",
     "kubernetes/apiextensions-apiserver",
     "kubernetes/sample-apiserver",
+    "mattn/go-isatty",
     "microsoft/dcp",
     "moul/gotty-client",
-    "ossf/osv-schema",
+    "OffchainLabs/nitro",
+    "sigstore/fulcio",
     "snowflakedb/gosnowflake",
+    "trzsz/tsshd",
     "web-platform-tests/wpt.fyi"
   ]
 }

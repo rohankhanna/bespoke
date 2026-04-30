@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 108,
-    "concepts": 100,
-    "observations": 100,
-    "repos": 19,
-    "terms": 99
+    "components": 113,
+    "concepts": 105,
+    "observations": 105,
+    "repos": 20,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "a16z/helios",
     "anthropics/claudes-c-compiler",
@@ -29,6 +29,7 @@
     "rust-fuzz/cargo-fuzz",
     "sachaos/viddy",
     "sagiegurari/cargo-make",
+    "sharkdp/diskus",
     "tikv/grpc-rs",
     "tokio-rs/bytes",
     "tokio-rs/loom",

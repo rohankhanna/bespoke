@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 12,
-    "concepts": 21,
-    "observations": 21,
-    "repos": 15,
-    "terms": 20
+    "concepts": 33,
+    "observations": 33,
+    "repos": 18,
+    "terms": 32
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "1ilkhamov/opencode-hermes-multiagent",
     "airlift/codestyle",
+    "astro/deadnix-action",
     "automazeio/open-royalties",
     "BingguangHao/BalanceSFT",
     "bl-ue/tweakcc-system-prompts",
@@ -25,7 +26,9 @@
     "json-schema-org/.github",
     "Level/community",
     "oak-security/resources",
+    "PyCQA/bandit-action",
     "rose-pine/rose-pine-template",
+    "sclorg/welcome",
     "stephenschoettler/taches-oc-prompts",
     "VectorSpaceLab/Vis-IR",
     "vega/schema"

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 269,
-    "concepts": 309,
-    "observations": 309,
+    "components": 272,
+    "concepts": 314,
+    "observations": 314,
     "repos": 23,
-    "terms": 308
+    "terms": 313
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "99designs/gqlgen",
     "AdguardTeam/AdGuardHome",
@@ -24,6 +24,7 @@
     "gastownhall/gastown",
     "git-lfs/git-lfs",
     "gofiber/fiber",
+    "goharbor/harbor",
     "GoogleContainerTools/skaffold",
     "grafana/pyroscope",
     "grpc/grpc-go",
@@ -35,7 +36,6 @@
     "milvus-io/milvus",
     "open-policy-agent/opa",
     "php/frankenphp",
-    "prometheus/node_exporter",
     "shirou/gopsutil"
   ]
 }

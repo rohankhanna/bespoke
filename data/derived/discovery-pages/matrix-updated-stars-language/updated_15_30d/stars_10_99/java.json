@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 21,
-    "concepts": 34,
-    "observations": 35,
-    "repos": 6,
-    "terms": 34
+    "components": 25,
+    "concepts": 39,
+    "observations": 40,
+    "repos": 8,
+    "terms": 39
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,10 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "apache/camel-quarkus-examples",
+    "Azure-Samples/agent-openai-java-banking-assistant-langgraph4j",
     "codetyio/codety-scanner",
     "dart4e/dart4e",
     "google/guava-beta-checker",

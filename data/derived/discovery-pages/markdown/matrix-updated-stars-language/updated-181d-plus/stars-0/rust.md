@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Rust
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 15
-- terms: 29
-- components: 81
-- concepts: 29
-- observations: 30
+- repos: 20
+- terms: 33
+- components: 104
+- concepts: 33
+- observations: 34
 
 ## Static behavior
 
@@ -31,13 +31,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Commit-Boost/blstrs](https://github.com/Commit-Boost/blstrs) | 0 | 2025-09-23T19:51:56Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [ComunidadAylas/glsl-lang](https://github.com/ComunidadAylas/glsl-lang) | 0 | 2025-09-22T16:29:20Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [boundless-xyz/reth](https://github.com/boundless-xyz/reth) | 0 | 2025-08-18T02:17:38Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 7 |
+| [lnx-search/memmap2-rs](https://github.com/lnx-search/memmap2-rs) | 0 | 2025-05-19T03:09:57Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [hermit-os/socket2](https://github.com/hermit-os/socket2) | 0 | 2025-05-08T09:20:18Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
+| [ntheanh201/hyper-mcp-release-monitor-id-tool](https://github.com/ntheanh201/hyper-mcp-release-monitor-id-tool) | 0 | 2025-04-10T23:48:07Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [nugine/simd-benches](https://github.com/Nugine/simd-benches) | 0 | 2025-01-29T16:04:35Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [eigenwallet/bdk-old](https://github.com/eigenwallet/bdk-old) | 0 | 2024-12-10T15:54:37Z | Rust | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [mikelodder7/blstrs](https://github.com/mikelodder7/blstrs) | 0 | 2024-07-11T13:29:15Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [OlivierDehaene/candle](https://github.com/OlivierDehaene/candle) | 0 | 2024-07-09T13:21:01Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [cgisky1980/hf-hub](https://github.com/cgisky1980/hf-hub) | 0 | 2024-06-28T00:11:52Z | Rust | CLI | 1 | 3 | 1 | 1 |
+| [madsim-rs/getrandom](https://github.com/madsim-rs/getrandom) | 0 | 2024-04-07T07:28:38Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [delta1/rust-jsonrpc-client](https://github.com/delta1/rust-jsonrpc-client) | 0 | 2024-03-25T07:46:11Z | Rust | CLI | 3 | 10 | 3 | 3 |
 | [s3bk/svg](https://github.com/s3bk/svg) | 0 | 2024-03-23T15:04:33Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [spacemeshos/randomx-rs](https://github.com/spacemeshos/randomx-rs) | 0 | 2023-12-11T10:27:32Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [dustinblackman/rust-hello-world](https://github.com/dustinblackman/rust-hello-world) | 0 | 2023-10-04T00:40:05Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [passcod/cargo-release-pr-test](https://github.com/passcod/cargo-release-pr-test) | 0 | 2023-02-19T00:12:41Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [byron/cargo-release](https://github.com/Byron/cargo-release) | 0 | 2021-05-09T02:43:06Z | Rust | Unknown | 0 | 0 | 0 | 0 |
@@ -51,13 +56,18 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Commit-Boost/blstrs](https://github.com/Commit-Boost/blstrs) | 0 | 2025-09-23T19:51:56Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [ComunidadAylas/glsl-lang](https://github.com/ComunidadAylas/glsl-lang) | 0 | 2025-09-22T16:29:20Z | Rust | Infrastructure/tooling | 2 | 6 | 2 | 2 |
 | [boundless-xyz/reth](https://github.com/boundless-xyz/reth) | 0 | 2025-08-18T02:17:38Z | Rust | Infrastructure/tooling | 7 | 10 | 7 | 7 |
+| [lnx-search/memmap2-rs](https://github.com/lnx-search/memmap2-rs) | 0 | 2025-05-19T03:09:57Z | Rust | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [hermit-os/socket2](https://github.com/hermit-os/socket2) | 0 | 2025-05-08T09:20:18Z | Rust | Infrastructure/tooling | 0 | 5 | 0 | 0 |
+| [ntheanh201/hyper-mcp-release-monitor-id-tool](https://github.com/ntheanh201/hyper-mcp-release-monitor-id-tool) | 0 | 2025-04-10T23:48:07Z | Rust | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [nugine/simd-benches](https://github.com/Nugine/simd-benches) | 0 | 2025-01-29T16:04:35Z | Rust | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [eigenwallet/bdk-old](https://github.com/eigenwallet/bdk-old) | 0 | 2024-12-10T15:54:37Z | Rust | Infrastructure/tooling | 4 | 12 | 4 | 4 |
 | [mikelodder7/blstrs](https://github.com/mikelodder7/blstrs) | 0 | 2024-07-11T13:29:15Z | Rust | Infrastructure/tooling | 0 | 6 | 0 | 0 |
 | [OlivierDehaene/candle](https://github.com/OlivierDehaene/candle) | 0 | 2024-07-09T13:21:01Z | Rust | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [cgisky1980/hf-hub](https://github.com/cgisky1980/hf-hub) | 0 | 2024-06-28T00:11:52Z | Rust | CLI | 1 | 3 | 1 | 1 |
+| [madsim-rs/getrandom](https://github.com/madsim-rs/getrandom) | 0 | 2024-04-07T07:28:38Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
 | [delta1/rust-jsonrpc-client](https://github.com/delta1/rust-jsonrpc-client) | 0 | 2024-03-25T07:46:11Z | Rust | CLI | 3 | 10 | 3 | 3 |
 | [s3bk/svg](https://github.com/s3bk/svg) | 0 | 2024-03-23T15:04:33Z | Rust | Unknown | 0 | 0 | 0 | 0 |
+| [spacemeshos/randomx-rs](https://github.com/spacemeshos/randomx-rs) | 0 | 2023-12-11T10:27:32Z | Rust | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [dustinblackman/rust-hello-world](https://github.com/dustinblackman/rust-hello-world) | 0 | 2023-10-04T00:40:05Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [passcod/cargo-release-pr-test](https://github.com/passcod/cargo-release-pr-test) | 0 | 2023-02-19T00:12:41Z | Rust | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [byron/cargo-release](https://github.com/Byron/cargo-release) | 0 | 2021-05-09T02:43:06Z | Rust | Unknown | 0 | 0 | 0 | 0 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 203,
-    "concepts": 160,
-    "observations": 160,
-    "repos": 37,
-    "terms": 160
+    "components": 234,
+    "concepts": 187,
+    "observations": 187,
+    "repos": 43,
+    "terms": 187
   },
   "facet_version": 1,
   "filters": {
@@ -12,17 +12,20 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "AcademySoftwareFoundation/Imath",
     "actboy168/bee.lua",
-    "aibasel/downward",
     "ampl/mp",
     "ARM-software/CMSIS-NN",
     "aseprite/laf",
     "coin-or/Cbc",
+    "corporateshark/lightweightvk",
     "cusplibrary/cusplibrary",
     "DavidKinder/Inform6",
+    "DolbyLaboratories/dlb_mp4base",
     "Ezibenroc/PyRoaringBitMap",
+    "flatpak/xdg-desktop-portal",
     "flavorjones/ruby-c-extensions-explained",
     "freebsd/kyua",
     "Frommi/miniz_oxide",
@@ -32,24 +35,27 @@
     "hajimes/mmh3",
     "intel/intel-ipsec-mb",
     "KhronosGroup/SPIRV-Headers",
+    "luvit/luv",
     "lxqt/qterminal",
     "lxqt/qtermwidget",
     "marton78/pffft",
     "microsoft/vcpkg-tool",
     "mitsuba-renderer/drjit-core",
     "mybigday/llama.rn",
+    "NetHack-LE/nle",
     "nss-dev/nss",
     "nvpro-samples/nvpro_core2",
     "nvpro-samples/vk_gltf_renderer",
-    "nx10/httpgd",
     "onnx/optimizer",
     "openSUSE/catatonit",
     "powturbo/TurboBench",
     "pyg-team/pyg-lib",
+    "qbs/qbs",
     "rapidsai/rmm",
     "raylib-extras/rlImGui",
     "ROCm/composable_kernel",
     "ruby-debug/debase",
-    "SaschaWillems/HowToVulkan"
+    "SaschaWillems/HowToVulkan",
+    "uxlfoundation/oneCCL"
   ]
 }

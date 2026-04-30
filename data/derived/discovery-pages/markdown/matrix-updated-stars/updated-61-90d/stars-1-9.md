@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1 to 9 stars
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. No frontend-only filtering or sorting is embedded in Markdown; use neighboring facet pages for traversal.
 
@@ -11,11 +11,11 @@ Static generated page. No frontend-only filtering or sorting is embedded in Mark
 
 ## Counts
 
-- repos: 42
-- terms: 152
-- components: 138
-- concepts: 155
-- observations: 155
+- repos: 45
+- terms: 162
+- components: 159
+- concepts: 165
+- observations: 165
 
 ## Static behavior
 
@@ -38,6 +38,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [filip26/copper-multicodec](https://github.com/filip26/copper-multicodec) | 2 | 2026-02-23T23:26:06Z | Java | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [filip26/titanium-rdf-n-quads](https://github.com/filip26/titanium-rdf-n-quads) | 1 | 2026-02-23T18:53:09Z | Java | Infrastructure/tooling | 5 | 3 | 5 | 5 |
 | [filip26/titanium-rdf-canon](https://github.com/filip26/titanium-rdf-canon) | 3 | 2026-02-23T18:50:29Z | Java | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [stephanj/sonarlint-devoxxgenie-intellij](https://github.com/stephanj/sonarlint-devoxxgenie-intellij) | 1 | 2026-02-23T07:41:03Z | Other | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [adityasugandhi/skillsync-mcp](https://github.com/adityasugandhi/skillsync-mcp) | 3 | 2026-02-23T02:53:10Z | TypeScript | Infrastructure/tooling | 13 | 10 | 13 | 13 |
 | [birdofpreyru/js-utils](https://github.com/birdofpreyru/js-utils) | 2 | 2026-02-22T19:58:37Z | TypeScript | Unknown | 5 | 16 | 5 | 5 |
 | [alexpolonsky/agent-skill-strikeradar](https://github.com/alexpolonsky/agent-skill-strikeradar) | 1 | 2026-02-21T10:35:08Z | TypeScript | Unknown | 11 | 0 | 11 | 11 |
@@ -46,6 +47,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [objectbox/objectbox-swift-generator](https://github.com/objectbox/objectbox-swift-generator) | 7 | 2026-02-19T23:43:53Z | Other | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [Afnanksalal/co-op](https://github.com/Afnanksalal/co-op) | 4 | 2026-02-19T18:31:50Z | TypeScript | Model/data | 14 | 0 | 14 | 14 |
 | [apostrophecms/starter-kit-astro-essentials](https://github.com/apostrophecms/starter-kit-astro-essentials) | 6 | 2026-02-18T20:40:27Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
+| [stephanj/spotbugs-devoxxgenie-plugin](https://github.com/stephanj/spotbugs-devoxxgenie-plugin) | 1 | 2026-02-18T11:44:20Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [ansible-community/collection_bot](https://github.com/ansible-community/collection_bot) | 4 | 2026-02-17T20:37:16Z | Python | Unknown | 0 | 0 | 0 | 0 |
 | [feloy/tesh](https://github.com/feloy/tesh) | 1 | 2026-02-16T13:20:48Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [piebald-ai/.github](https://github.com/Piebald-AI/.github) | 2 | 2026-02-15T15:31:04Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
@@ -65,6 +67,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [mlfoundations/SkyRL](https://github.com/mlfoundations/SkyRL) | 1 | 2026-02-04T22:42:59Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [0k/shyaml-rs](https://github.com/0k/shyaml-rs) | 2 | 2026-02-04T09:58:09Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [dart4e/dart4e-studio](https://github.com/dart4e/dart4e-studio) | 7 | 2026-02-03T19:46:33Z | Java | CLI | 6 | 2 | 6 | 6 |
+| [kornia/data](https://github.com/kornia/data) | 1 | 2026-02-02T13:51:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [shesek/electrumd](https://github.com/shesek/electrumd) | 1 | 2026-02-02T01:39:35Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [zwowo1997/pack-repo-4ai](https://github.com/zwowo1997/pack-repo-4ai) | 6 | 2026-01-31T19:20:45Z | Python | CLI | 0 | 0 | 0 | 0 |
 
@@ -107,10 +110,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [0k/shyaml-rs](https://github.com/0k/shyaml-rs) | 2 | 2026-02-04T09:58:09Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [alexpolonsky/agent-skill-jlm-coffee](https://github.com/alexpolonsky/agent-skill-jlm-coffee) | 1 | 2026-02-26T07:13:39Z | Python | Unknown | 9 | 0 | 9 | 9 |
 | [filip26/titanium-rdf-n-quads](https://github.com/filip26/titanium-rdf-n-quads) | 1 | 2026-02-23T18:53:09Z | Java | Infrastructure/tooling | 5 | 3 | 5 | 5 |
+| [stephanj/sonarlint-devoxxgenie-intellij](https://github.com/stephanj/sonarlint-devoxxgenie-intellij) | 1 | 2026-02-23T07:41:03Z | Other | Infrastructure/tooling | 9 | 17 | 9 | 9 |
 | [alexpolonsky/agent-skill-strikeradar](https://github.com/alexpolonsky/agent-skill-strikeradar) | 1 | 2026-02-21T10:35:08Z | TypeScript | Unknown | 11 | 0 | 11 | 11 |
+| [stephanj/spotbugs-devoxxgenie-plugin](https://github.com/stephanj/spotbugs-devoxxgenie-plugin) | 1 | 2026-02-18T11:44:20Z | Java | Infrastructure/tooling | 1 | 4 | 1 | 1 |
 | [feloy/tesh](https://github.com/feloy/tesh) | 1 | 2026-02-16T13:20:48Z | Go | Infrastructure/tooling | 3 | 4 | 3 | 3 |
 | [leaktk/gitleaks](https://github.com/leaktk/gitleaks) | 1 | 2026-02-13T19:37:18Z | Go | Infrastructure/tooling | 3 | 9 | 3 | 3 |
 | [ansible-community/presentations](https://github.com/ansible-community/presentations) | 1 | 2026-02-06T17:10:54Z | JavaScript | Unknown | 0 | 0 | 0 | 0 |
 | [cpojer/js-codemod](https://github.com/cpojer/js-codemod) | 1 | 2026-02-06T10:44:10Z | JavaScript | Unknown | 0 | 9 | 0 | 0 |
 | [mlfoundations/SkyRL](https://github.com/mlfoundations/SkyRL) | 1 | 2026-02-04T22:42:59Z | Python | Infrastructure/tooling | 3 | 3 | 3 | 3 |
+| [kornia/data](https://github.com/kornia/data) | 1 | 2026-02-02T13:51:25Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [shesek/electrumd](https://github.com/shesek/electrumd) | 1 | 2026-02-02T01:39:35Z | Rust | Infrastructure/tooling | 1 | 4 | 1 | 1 |

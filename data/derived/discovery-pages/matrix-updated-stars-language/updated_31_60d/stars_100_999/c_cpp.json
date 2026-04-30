@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 56,
-    "concepts": 103,
-    "observations": 103,
-    "repos": 26,
-    "terms": 102
+    "components": 103,
+    "concepts": 140,
+    "observations": 141,
+    "repos": 32,
+    "terms": 139
   },
   "facet_version": 1,
   "filters": {
@@ -12,8 +12,9 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "amzn/amzn-drivers",
     "anacrolix/go-libutp",
     "apache/rocketmq-client-cpp",
     "ARM-software/EndpointAI",
@@ -21,17 +22,21 @@
     "CrystallineCore/Biscuit",
     "dacap/clip",
     "Dao-AILab/fast-hadamard-transform",
+    "dloebl/cgif",
     "eliemichel/LearnWebGPU",
     "eyalz800/zpp_bits",
     "freebsd/atf",
     "fujitsu/xbyak_aarch64",
     "google/kmsan",
     "intel/gmmlib",
+    "KhronosGroup/OpenCL-Headers",
     "KhronosGroup/OpenGL-Registry",
     "lualanes/lanes",
     "microsoft/jericho",
     "microsoft/xlang",
+    "mongodb-js/kerberos",
     "NetEase-FuXi/EETQ",
+    "NiLuJe/kfmon",
     "objectbox/objectbox-c",
     "PacktPublishing/3D-Graphics-Rendering-Cookbook-Second-Edition",
     "PaddlePaddle/Paddle2ONNX",
@@ -39,6 +44,7 @@
     "rusty1s/pytorch_cluster",
     "stardot/beebasm",
     "Tomas-M/iotop",
-    "VeriSilicon/TIM-VX"
+    "VeriSilicon/TIM-VX",
+    "webgpu-native/webgpu-headers"
   ]
 }

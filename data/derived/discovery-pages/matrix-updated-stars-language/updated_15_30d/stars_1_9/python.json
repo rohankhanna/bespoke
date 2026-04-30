@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 24,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 12,
-    "terms": 16
+    "components": 44,
+    "concepts": 20,
+    "observations": 20,
+    "repos": 13,
+    "terms": 18
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "agenmod/distill-protocol-skill",
     "agenmod/distill-shield-skill",
@@ -24,6 +24,7 @@
     "cdeust/cortex-cowork",
     "cdxeve/scale-openclaw",
     "CoolCat467/idlemypyextension",
+    "danielrosehill/Geopol-Forecaster",
     "Mbed-TLS/mbedtls-framework",
     "ROCm/rbuild"
   ]

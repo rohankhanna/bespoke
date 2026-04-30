@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 43,
-    "concepts": 32,
-    "observations": 32,
-    "repos": 6,
-    "terms": 32
+    "components": 33,
+    "concepts": 29,
+    "observations": 29,
+    "repos": 5,
+    "terms": 29
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "apollographql/federation-rs",
-    "bourumir-wyngs/serde-yaml-bw",
     "fonttools/fontspector",
     "ldclabs/anda-db",
-    "openvm-org/stark-backend",
-    "succinctlabs/sp1-cluster"
+    "ldclabs/anda-hippocampus",
+    "openvm-org/stark-backend"
   ]
 }

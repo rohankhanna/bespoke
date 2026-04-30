@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 300,
-    "concepts": 60,
-    "observations": 60,
-    "repos": 20,
-    "terms": 67
+    "components": 305,
+    "concepts": 63,
+    "observations": 63,
+    "repos": 19,
+    "terms": 70
   },
   "facet_version": 1,
   "filters": {
@@ -12,16 +12,16 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "alexellis/arkade-get",
     "bmad-code-org/bmad-method-test-architecture-enterprise",
     "bufbuild/protobuf-conformance",
-    "evenchange4/graphql.macro-example",
     "GuillaumeGomez/browser-UI-test",
     "i18next/i18next-chained-backend",
     "i18next/i18next-multiload-backend-adapter",
     "itsrishika/payment-bypass-bug-lab",
+    "locize/i18next-locize-backend",
     "locize/locize-cli",
     "milvus-io/community",
     "mypyc/mypy_mypyc-wheels",
@@ -31,7 +31,6 @@
     "rashfael/eslint-plugin-vue-pug",
     "semantic-release/error",
     "Taritsyn/DartSassHost",
-    "TrigenSoftware/simple-release-action",
     "webtorrent/bittorrent-lsd",
     "webtorrent/bittorrent-peerid"
   ]

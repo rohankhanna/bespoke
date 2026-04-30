@@ -1,6 +1,6 @@
 # Updated 31 to 60 days ago · 1 to 9 stars · C/C++
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 3
+- repos: 4
 - terms: 13
 - components: 12
 - concepts: 13
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [objectbox/objectbox-sync-examples](https://github.com/objectbox/objectbox-sync-examples) | 1 | 2026-03-31T07:55:23Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [BinomialLLC/KTX-Software-Binomial-Fork](https://github.com/BinomialLLC/KTX-Software-Binomial-Fork) | 2 | 2026-03-18T20:34:47Z | C/C++ | Infrastructure/tooling | 13 | 12 | 13 | 13 |
 | [intel/iefs-kernel-updates](https://github.com/intel/iefs-kernel-updates) | 5 | 2026-03-13T15:57:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [CROSS-signature/CROSS-lib-oqs](https://github.com/CROSS-signature/CROSS-lib-oqs) | 1 | 2026-03-08T18:50:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
@@ -36,4 +37,5 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [intel/iefs-kernel-updates](https://github.com/intel/iefs-kernel-updates) | 5 | 2026-03-13T15:57:26Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [BinomialLLC/KTX-Software-Binomial-Fork](https://github.com/BinomialLLC/KTX-Software-Binomial-Fork) | 2 | 2026-03-18T20:34:47Z | C/C++ | Infrastructure/tooling | 13 | 12 | 13 | 13 |
+| [objectbox/objectbox-sync-examples](https://github.com/objectbox/objectbox-sync-examples) | 1 | 2026-03-31T07:55:23Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [CROSS-signature/CROSS-lib-oqs](https://github.com/CROSS-signature/CROSS-lib-oqs) | 1 | 2026-03-08T18:50:44Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |

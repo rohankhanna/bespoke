@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Rust
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
-- terms: 66
-- components: 99
-- concepts: 66
-- observations: 66
+- repos: 18
+- terms: 72
+- components: 106
+- concepts: 72
+- observations: 72
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [ldclabs/ic-tee](https://github.com/ldclabs/ic-tee) | 18 | 2026-04-15T11:53:17Z | Rust | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [ldclabs/ic-oss](https://github.com/ldclabs/ic-oss) | 32 | 2026-04-15T11:45:47Z | Rust | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [quininer/x11-clipboard](https://github.com/quininer/x11-clipboard) | 51 | 2026-04-14T14:17:34Z | Rust | CLI | 2 | 1 | 2 | 2 |
 | [tianrking/weixin-agent-rs](https://github.com/tianrking/weixin-agent-rs) | 69 | 2026-04-14T03:39:18Z | Rust | Infrastructure/tooling | 1 | 6 | 1 | 1 |
@@ -63,5 +64,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ashvardanian/NumWars](https://github.com/ashvardanian/NumWars) | 31 | 2026-04-09T11:37:17Z | Rust | Unknown | 7 | 0 | 7 | 7 |
 | [alixinne/glsl-lang](https://github.com/alixinne/glsl-lang) | 25 | 2026-04-13T00:45:34Z | Rust | Infrastructure/tooling | 5 | 6 | 5 | 5 |
 | [neysofu/reltester](https://github.com/neysofu/reltester) | 20 | 2026-04-01T14:24:34Z | Rust | Infrastructure/tooling | 3 | 1 | 3 | 3 |
+| [ldclabs/ic-tee](https://github.com/ldclabs/ic-tee) | 18 | 2026-04-15T11:53:17Z | Rust | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [celestiaorg/hana](https://github.com/celestiaorg/hana) | 15 | 2026-03-31T17:03:52Z | Rust | Unknown | 0 | 0 | 0 | 0 |
 | [lambdaclass/libssz](https://github.com/lambdaclass/libssz) | 10 | 2026-03-31T22:18:13Z | Rust | Infrastructure/tooling | 3 | 12 | 3 | 3 |

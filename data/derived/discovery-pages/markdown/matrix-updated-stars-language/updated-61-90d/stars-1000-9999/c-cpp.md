@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · C/C++
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 16
-- terms: 92
+- repos: 17
+- terms: 100
 - components: 73
-- concepts: 94
-- observations: 94
+- concepts: 102
+- observations: 102
 
 ## Static behavior
 
@@ -42,6 +42,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [martinus/unordered_dense](https://github.com/martinus/unordered_dense) | 1369 | 2026-02-04T17:14:53Z | C/C++ | Infrastructure/tooling | 10 | 8 | 10 | 10 |
 | [OpenNMT/CTranslate2](https://github.com/OpenNMT/CTranslate2) | 4456 | 2026-02-04T06:01:18Z | C/C++ | Infrastructure/tooling | 17 | 12 | 17 | 17 |
 | [jkuhlmann/cgltf](https://github.com/jkuhlmann/cgltf) | 1872 | 2026-02-02T20:32:49Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
+| [guinmoon/LLMFarm](https://github.com/guinmoon/LLMFarm) | 2022 | 2026-01-30T20:52:36Z | C/C++ | Library | 8 | 0 | 8 | 8 |
 
 ## Repos sorted by stars
 
@@ -56,6 +57,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [UB-Mannheim/tesseract](https://github.com/UB-Mannheim/tesseract) | 4256 | 2026-02-20T12:13:37Z | C/C++ | Infrastructure/tooling | 14 | 9 | 14 | 14 |
 | [json-c/json-c](https://github.com/json-c/json-c) | 3261 | 2026-02-20T00:05:53Z | C/C++ | Infrastructure/tooling | 2 | 11 | 3 | 3 |
 | [libgit2/rugged](https://github.com/libgit2/rugged) | 2289 | 2026-02-28T18:12:44Z | C/C++ | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [guinmoon/LLMFarm](https://github.com/guinmoon/LLMFarm) | 2022 | 2026-01-30T20:52:36Z | C/C++ | Library | 8 | 0 | 8 | 8 |
 | [jkuhlmann/cgltf](https://github.com/jkuhlmann/cgltf) | 1872 | 2026-02-02T20:32:49Z | C/C++ | Infrastructure/tooling | 7 | 1 | 7 | 7 |
 | [mitsuba-renderer/nanogui](https://github.com/mitsuba-renderer/nanogui) | 1785 | 2026-02-22T19:39:55Z | C/C++ | Infrastructure/tooling | 1 | 8 | 1 | 1 |
 | [RobertBeckebans/RBDOOM-3-BFG](https://github.com/RobertBeckebans/RBDOOM-3-BFG) | 1785 | 2026-02-10T11:30:41Z | C/C++ | Unknown | 7 | 0 | 8 | 8 |

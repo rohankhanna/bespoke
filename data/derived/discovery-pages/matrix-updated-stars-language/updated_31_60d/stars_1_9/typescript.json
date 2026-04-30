@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 91,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 7,
-    "terms": 20
+    "components": 103,
+    "concepts": 22,
+    "observations": 22,
+    "repos": 8,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,11 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "aquasecurity/tfsec-azure-pipelines-task",
     "Bartheleway/inquirer-table-multiple",
+    "dylibso/xtp-cpp-bindgen",
     "ipfs/helia-delegated-routing-v1-http-api",
     "mattiacolombomc/raycast-handy",
     "maxritter/pilot-shell-demo",

@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10 to 99 stars · Go
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 24
-- terms: 96
-- components: 155
-- concepts: 96
-- observations: 98
+- repos: 25
+- terms: 102
+- components: 158
+- concepts: 103
+- observations: 105
 
 ## Static behavior
 
@@ -29,9 +29,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [cmdjulian/mopy](https://github.com/cmdjulian/mopy) | 57 | 2026-04-15T19:57:09Z | Go | Infrastructure/tooling | 3 | 8 | 3 | 4 |
 | [MShekow/directory-checksum](https://github.com/MShekow/directory-checksum) | 35 | 2026-04-15T19:46:40Z | Go | CLI | 4 | 12 | 4 | 4 |
 | [compozy/kb](https://github.com/compozy/kb) | 34 | 2026-04-15T02:46:17Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
+| [aldernero/sketchy](https://github.com/aldernero/sketchy) | 69 | 2026-04-15T01:42:18Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [benchsci/rules_nodejs_gazelle](https://github.com/benchsci/rules_nodejs_gazelle) | 22 | 2026-04-14T18:54:48Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [apptainer/sif](https://github.com/apptainer/sif) | 53 | 2026-04-13T22:34:27Z | Go | Infrastructure/tooling | 1 | 5 | 1 | 1 |
-| [abhinav/goldmark-anchor](https://github.com/abhinav/goldmark-anchor) | 10 | 2026-04-13T22:16:32Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [abhinav/goldmark-anchor](https://github.com/abhinav/goldmark-anchor) | 10 | 2026-04-13T22:16:32Z | Go | Infrastructure/tooling | 2 | 5 | 3 | 3 |
 | [notaryproject/notation-core-go](https://github.com/notaryproject/notation-core-go) | 14 | 2026-04-13T17:57:13Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [fgrehm/clotilde](https://github.com/fgrehm/clotilde) | 29 | 2026-04-13T07:30:54Z | Go | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [notaryproject/notation-go](https://github.com/notaryproject/notation-go) | 44 | 2026-04-13T00:42:37Z | Go | Infrastructure/tooling | 4 | 5 | 4 | 4 |
@@ -58,6 +59,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [magodo/tfadd](https://github.com/magodo/tfadd) | 97 | 2026-04-02T01:09:25Z | Go | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [ethpandaops/xatu](https://github.com/ethpandaops/xatu) | 93 | 2026-04-10T01:58:54Z | Go | CLI | 7 | 15 | 7 | 7 |
 | [opea-project/GenAIInfra](https://github.com/opea-project/GenAIInfra) | 73 | 2026-04-06T22:42:55Z | Go | Infrastructure/tooling | 6 | 3 | 6 | 6 |
+| [aldernero/sketchy](https://github.com/aldernero/sketchy) | 69 | 2026-04-15T01:42:18Z | Go | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [gopasspw/gopass-jsonapi](https://github.com/gopasspw/gopass-jsonapi) | 69 | 2026-04-02T01:48:26Z | Go | Infrastructure/tooling | 5 | 14 | 5 | 5 |
 | [cloudwego/kitex-benchmark](https://github.com/cloudwego/kitex-benchmark) | 63 | 2026-04-02T03:37:02Z | Go | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [cmdjulian/mopy](https://github.com/cmdjulian/mopy) | 57 | 2026-04-15T19:57:09Z | Go | Infrastructure/tooling | 3 | 8 | 3 | 4 |
@@ -78,4 +80,4 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [notaryproject/notation-core-go](https://github.com/notaryproject/notation-core-go) | 14 | 2026-04-13T17:57:13Z | Go | Infrastructure/tooling | 7 | 8 | 7 | 7 |
 | [darkweak/storages](https://github.com/darkweak/storages) | 14 | 2026-04-07T12:38:57Z | Go | Infrastructure/tooling | 2 | 4 | 2 | 3 |
 | [astro-han/diffpane](https://github.com/Astro-Han/diffpane) | 11 | 2026-04-01T12:44:05Z | Go | CLI | 9 | 3 | 9 | 9 |
-| [abhinav/goldmark-anchor](https://github.com/abhinav/goldmark-anchor) | 10 | 2026-04-13T22:16:32Z | Go | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [abhinav/goldmark-anchor](https://github.com/abhinav/goldmark-anchor) | 10 | 2026-04-13T22:16:32Z | Go | Infrastructure/tooling | 2 | 5 | 3 | 3 |

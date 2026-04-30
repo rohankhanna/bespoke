@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 100 to 999 stars · Unknown
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 25
-- terms: 110
-- components: 62
-- concepts: 110
-- observations: 111
+- repos: 26
+- terms: 121
+- components: 59
+- concepts: 121
+- observations: 122
 
 ## Static behavior
 
@@ -45,12 +45,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [emberjs/rfcs](https://github.com/emberjs/rfcs) | 802 | 2026-04-20T15:19:48Z | Unknown | CLI | 8 | 4 | 8 | 8 |
 | [eslint/rfcs](https://github.com/eslint/rfcs) | 151 | 2026-04-20T06:46:38Z | Unknown | Infrastructure/tooling | 1 | 1 | 1 | 1 |
 | [eudk/awesome-ai-tools](https://github.com/eudk/awesome-ai-tools) | 388 | 2026-04-19T22:34:27Z | Unknown | Infrastructure/tooling | 15 | 1 | 15 | 15 |
+| [actions/partner-runner-images](https://github.com/actions/partner-runner-images) | 229 | 2026-04-17T21:29:35Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [nimbalyst/nimbalyst](https://github.com/Nimbalyst/nimbalyst) | 133 | 2026-04-17T16:52:44Z | Unknown | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [ailev/fpf](https://github.com/ailev/FPF) | 324 | 2026-04-17T12:33:55Z | Unknown | Framework | 11 | 0 | 11 | 11 |
+| [rstackjs/awesome-rstack](https://github.com/rstackjs/awesome-rstack) | 417 | 2026-04-17T02:14:42Z | Unknown | Unknown | 11 | 0 | 11 | 11 |
 | [gautamkrishnar/gautamkrishnar](https://github.com/gautamkrishnar/gautamkrishnar) | 247 | 2026-04-16T22:16:28Z | Unknown | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [piebald-ai/awesome-gemini-cli](https://github.com/Piebald-AI/awesome-gemini-cli) | 419 | 2026-04-16T13:53:06Z | Unknown | CLI | 10 | 0 | 10 | 10 |
 | [cloudflare/skills](https://github.com/cloudflare/skills) | 920 | 2026-04-16T12:56:33Z | Unknown | Unknown | 3 | 0 | 3 | 3 |
-| [Uzaaft/awesome-libghostty](https://github.com/Uzaaft/awesome-libghostty) | 433 | 2026-04-16T08:47:27Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 
 ## Repos sorted by stars
 
@@ -64,14 +65,15 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ocaml/opam-repository](https://github.com/ocaml/opam-repository) | 575 | 2026-04-21T21:46:43Z | Unknown | Infrastructure/tooling | 4 | 5 | 4 | 4 |
 | [stripe/openapi](https://github.com/stripe/openapi) | 474 | 2026-04-21T00:38:44Z | Unknown | Infrastructure/tooling | 3 | 6 | 3 | 3 |
 | [abhisheknaiidu/abhisheknaiidu](https://github.com/abhisheknaiidu/abhisheknaiidu) | 446 | 2026-04-22T20:39:45Z | Unknown | Infrastructure/tooling | 2 | 3 | 2 | 2 |
-| [Uzaaft/awesome-libghostty](https://github.com/Uzaaft/awesome-libghostty) | 433 | 2026-04-16T08:47:27Z | Unknown | Infrastructure/tooling | 1 | 3 | 1 | 1 |
 | [tinted-theming/home](https://github.com/tinted-theming/home) | 423 | 2026-04-21T21:20:23Z | Unknown | Infrastructure/tooling | 6 | 4 | 6 | 7 |
 | [piebald-ai/awesome-gemini-cli](https://github.com/Piebald-AI/awesome-gemini-cli) | 419 | 2026-04-16T13:53:06Z | Unknown | CLI | 10 | 0 | 10 | 10 |
+| [rstackjs/awesome-rstack](https://github.com/rstackjs/awesome-rstack) | 417 | 2026-04-17T02:14:42Z | Unknown | Unknown | 11 | 0 | 11 | 11 |
 | [eudk/awesome-ai-tools](https://github.com/eudk/awesome-ai-tools) | 388 | 2026-04-19T22:34:27Z | Unknown | Infrastructure/tooling | 15 | 1 | 15 | 15 |
 | [ailev/fpf](https://github.com/ailev/FPF) | 324 | 2026-04-17T12:33:55Z | Unknown | Framework | 11 | 0 | 11 | 11 |
 | [apappascs/mcp-servers-hub](https://github.com/apappascs/mcp-servers-hub) | 317 | 2026-04-21T15:10:03Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
 | [mason-org/mason-registry](https://github.com/mason-org/mason-registry) | 284 | 2026-04-22T02:21:31Z | Unknown | Infrastructure/tooling | 6 | 7 | 6 | 6 |
 | [gautamkrishnar/gautamkrishnar](https://github.com/gautamkrishnar/gautamkrishnar) | 247 | 2026-04-16T22:16:28Z | Unknown | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [actions/partner-runner-images](https://github.com/actions/partner-runner-images) | 229 | 2026-04-17T21:29:35Z | Unknown | Unknown | 1 | 0 | 1 | 1 |
 | [CVEProject/automation-working-group](https://github.com/CVEProject/automation-working-group) | 184 | 2026-04-22T00:07:51Z | Unknown | Infrastructure/tooling | 3 | 1 | 3 | 3 |
 | [eryajf/awesome-stars-eryajf](https://github.com/eryajf/awesome-stars-eryajf) | 175 | 2026-04-23T01:53:58Z | Unknown | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [oak-security/audit-reports](https://github.com/oak-security/audit-reports) | 168 | 2026-04-20T16:59:10Z | Unknown | Unknown | 0 | 0 | 0 | 0 |

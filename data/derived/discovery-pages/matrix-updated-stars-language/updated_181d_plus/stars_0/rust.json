@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 81,
-    "concepts": 29,
-    "observations": 30,
-    "repos": 15,
-    "terms": 29
+    "components": 104,
+    "concepts": 33,
+    "observations": 34,
+    "repos": 20,
+    "terms": 33
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_0",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "boundless-xyz/reth",
     "byron/cargo-release",
@@ -23,11 +23,16 @@
     "dustinblackman/rust-hello-world",
     "eigenwallet/bdk-old",
     "eigenwallet/dfx-swiss-rs",
+    "hermit-os/socket2",
     "imandra-ai/tldrs",
+    "lnx-search/memmap2-rs",
+    "madsim-rs/getrandom",
     "mikelodder7/blstrs",
+    "ntheanh201/hyper-mcp-release-monitor-id-tool",
     "nugine/simd-benches",
     "OlivierDehaene/candle",
     "passcod/cargo-release-pr-test",
-    "s3bk/svg"
+    "s3bk/svg",
+    "spacemeshos/randomx-rs"
   ]
 }

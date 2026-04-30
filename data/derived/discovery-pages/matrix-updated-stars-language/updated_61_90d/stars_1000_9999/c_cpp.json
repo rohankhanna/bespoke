@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 73,
-    "concepts": 94,
-    "observations": 94,
-    "repos": 16,
-    "terms": 92
+    "concepts": 102,
+    "observations": 102,
+    "repos": 17,
+    "terms": 100
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "flashlight/flashlight",
+    "guinmoon/LLMFarm",
     "hpjansson/chafa",
     "jkuhlmann/cgltf",
     "JoeDog/siege",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 34,
-    "concepts": 20,
-    "observations": 20,
-    "repos": 16,
-    "terms": 22
+    "components": 36,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 18,
+    "terms": 26
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "abap2UI5-addons/table-maintenance",
     "AdaCore/AdaSAT",
@@ -24,11 +24,13 @@
     "evoskuil/visual-studio-template",
     "hedronvision/bazel-cc-filesystem-backport",
     "infiniflow/resource",
+    "KSXGitHub/aur-packages-builder",
     "ocaml-opam/opam-rt",
     "parruda/ruby_llm",
     "redis-stack/homebrew-redis-stack",
     "rocker-org/bspm",
     "slunsford/coffee-analytics",
-    "thalesgelinger/toon.nvim"
+    "thalesgelinger/toon.nvim",
+    "typstyle-rs/typstyle-action"
   ]
 }

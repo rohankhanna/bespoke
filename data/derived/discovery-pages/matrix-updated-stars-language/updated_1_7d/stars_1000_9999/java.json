@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 128,
-    "concepts": 193,
-    "observations": 194,
-    "repos": 18,
-    "terms": 193
+    "components": 189,
+    "concepts": 229,
+    "observations": 230,
+    "repos": 24,
+    "terms": 228
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,10 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "agents-flex/agents-flex",
     "apache/camel",
-    "apache/lucene",
     "apache/netbeans",
     "apache/poi",
     "apache/seatunnel",
@@ -25,10 +24,17 @@
     "ClickHouse/clickhouse-java",
     "confluentinc/examples",
     "diffplug/spotless",
+    "dylibso/chicory",
+    "eclipse-jdtls/eclipse.jdt.ls",
+    "FasterXML/jackson-annotations",
+    "FasterXML/jackson-core",
     "FasterXML/jackson-databind",
     "google/adk-java",
     "google/google-java-format",
     "google/tsunami-security-scanner-plugins",
+    "helidon-io/helidon",
+    "jhipster/prettier-java",
+    "junit-team/junit-examples",
     "junit-team/junit4",
     "lightbend/config",
     "oshi/oshi"

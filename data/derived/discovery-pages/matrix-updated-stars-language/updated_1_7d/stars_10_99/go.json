@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 71,
-    "concepts": 42,
-    "observations": 42,
-    "repos": 10,
-    "terms": 41
+    "components": 82,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 12,
+    "terms": 45
   },
   "facet_version": 1,
   "filters": {
@@ -12,10 +12,12 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "AbdelrhmanHamouda/locust-k8s-operator",
+    "aquasecurity/trivy-java-db",
     "cloudfoundry/cf-acceptance-tests",
+    "cloudfoundry/cf-smoke-tests",
     "danielgtaylor/mexpr",
     "danielgtaylor/shorthand",
     "ipfs/ipfs-check",

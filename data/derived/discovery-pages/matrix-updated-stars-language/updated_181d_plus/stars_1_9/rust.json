@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 115,
-    "concepts": 52,
-    "observations": 52,
-    "repos": 39,
-    "terms": 52
+    "components": 138,
+    "concepts": 58,
+    "observations": 58,
+    "repos": 45,
+    "terms": 58
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "akavel/rumbac",
     "anza-xyz/curve25519-dalek",
@@ -20,13 +20,16 @@
     "apache/casbin-rust-actix-middleware-example",
     "apache/casbin-rust-actix-postgresql-simple",
     "apache/casbin-rust-axum-middleware-example",
+    "artempyanykh/zeta-note",
     "bwt-dev/libbwt",
+    "ChillFish8/tantivy",
     "clbarnes/djot_ast",
     "comit-network/monero-rs",
     "cryscan/web-rwkv-converter",
     "dabevlohn/rand16",
     "datafuse-extras/clickhouse_driver",
     "dathere/qsv-easy-windows-installer",
+    "Dherse/comemo",
     "EspressoSystems/atomicstore",
     "EspressoSystems/surf-disco",
     "franziskuskiefer/cose-rust",
@@ -39,6 +42,8 @@
     "Kong/proxy-wasm-rust-rate-limiting",
     "Layr-Labs/bn254-bls-keystore-rs",
     "liushuyu/xdelta3-rs",
+    "lnx-search/lnx-vfs",
+    "madsim-rs/rust-postgres",
     "marwes/gluon",
     "mozilla/nss-gk-api",
     "mrsmkl/keep-awake-rs",
@@ -48,6 +53,7 @@
     "rust3ds/shim-3ds",
     "s3bk/pathfinder_view",
     "s3bk/tuple",
+    "spacemeshos/scrypt-jane-rs",
     "thomaseizinger/rust-jsonrpc-client",
     "tmpfs/tamp-rs",
     "valida-xyz/Plonky3",

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 75,
-    "concepts": 56,
-    "observations": 56,
-    "repos": 28,
-    "terms": 56
+    "components": 99,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 33,
+    "terms": 67
   },
   "facet_version": 1,
   "filters": {
@@ -12,15 +12,17 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "0ghny/tlsg10x-cli",
     "13rac1/goldmark-embed",
     "akhettar/gin-jwt-cognito",
     "alexellis/discord-updater",
     "antlabs/pulse",
+    "antlabs/quickws-example",
     "apache/casbin-fasthttp-auth",
     "apache/incubator-seata-ctl",
+    "Binozo/GoStableDiffusion",
     "bored-engineer/httpcache",
     "bors-ng/dockerize",
     "canidam/echo-scs-session",
@@ -34,12 +36,15 @@
     "go-woo/protoc-gen-ent",
     "high-moctane/mocword-data",
     "hungran/hyper-mcp-hackernews-tool",
+    "kitex-contrib/config-apollo",
+    "kitex-contrib/config-etcd",
     "kong/proxy-wasm-go-rate-limiting",
     "kurrent-io/es-gencert-cli",
     "nick-triller/khcheck-external-secrets",
     "norwoodj/hashbash-backend-go",
     "olric-data/olric-consul-plugin",
     "oras-project/distribution",
+    "phamngocquy/hyper-mcp-yfinance",
     "ppc64le-cloud/kubetest2-plugins",
     "sourcegraph/godockerize"
   ]

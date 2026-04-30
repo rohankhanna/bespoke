@@ -1,10 +1,10 @@
 {
   "counts": {
     "components": 85,
-    "concepts": 136,
-    "observations": 136,
-    "repos": 37,
-    "terms": 135
+    "concepts": 161,
+    "observations": 161,
+    "repos": 41,
+    "terms": 160
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "adobe-fonts/source-code-pro",
     "altercation/solarized",
     "animate-css/animate.css",
     "artidoro/qlora",
     "bitcoinbook/bitcoinbook",
+    "bloc97/Anime4K",
     "bmild/nerf",
     "brendangregg/FlameGraph",
     "CamDavidsonPilon/Probabilistic-Programming-and-Bayesian-Methods-for-Hackers",
@@ -27,10 +28,12 @@
     "CompVis/latent-diffusion",
     "CompVis/stable-diffusion",
     "diff-usion/Awesome-Diffusion-Models",
+    "facebookresearch/fastText",
     "facebookresearch/segment-anything",
     "fivethirtyeight/data",
     "h4cc/awesome-elixir",
     "IDEA-Research/Grounded-Segment-Anything",
+    "junyanz/CycleGAN",
     "karpathy/llm.c",
     "karpathy/micrograd",
     "mahmoud/awesome-python-applications",
@@ -39,6 +42,7 @@
     "microsoft/dotnet",
     "morhetz/gruvbox",
     "mozilla/TTS",
+    "nagadomi/waifu2x",
     "neonbjb/tortoise-tts",
     "NVIDIA/DeepLearningExamples",
     "preservim/nerdtree",

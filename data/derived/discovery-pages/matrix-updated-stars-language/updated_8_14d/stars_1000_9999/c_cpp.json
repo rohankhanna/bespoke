@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 647,
-    "concepts": 663,
-    "observations": 664,
-    "repos": 77,
-    "terms": 659
+    "components": 651,
+    "concepts": 684,
+    "observations": 685,
+    "repos": 80,
+    "terms": 679
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "AcademySoftwareFoundation/OpenColorIO",
     "AFLplusplus/AFLplusplus",
@@ -36,6 +36,7 @@
     "fastfloat/fast_float",
     "flatpak/flatpak",
     "fontforge/fontforge",
+    "ganelson/inform",
     "GNOME/glib",
     "google/boringssl",
     "google/gemma.cpp",
@@ -60,6 +61,7 @@
     "lightvector/KataGo",
     "mackron/miniaudio",
     "mamba-org/mamba",
+    "microsoft/cpprestsdk",
     "microsoft/DirectXMath",
     "microsoft/react-native-macos",
     "mitsuba-renderer/mitsuba3",
@@ -73,6 +75,7 @@
     "nvpro-samples/vk_raytracing_tutorial_KHR",
     "ohler55/oj",
     "openssh/openssh-portable",
+    "openxla/xla",
     "plasma-umass/coz",
     "pnggroup/libpng",
     "pytorch/gloo",

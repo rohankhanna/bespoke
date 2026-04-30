@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 1319,
-    "concepts": 784,
-    "observations": 788,
-    "repos": 117,
-    "terms": 774
+    "components": 1707,
+    "concepts": 853,
+    "observations": 857,
+    "repos": 127,
+    "terms": 843
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "2noise/ChatTTS",
     "666ghj/MiroFish",
@@ -19,6 +19,7 @@
     "abiosoft/colima",
     "acornjs/acorn",
     "agarrharr/awesome-cli-apps",
+    "ai/nanoid",
     "ajeetdsouza/zoxide",
     "alchaincyf/nuwa-skill",
     "alirezarezvani/claude-skills",
@@ -27,9 +28,11 @@
     "Automattic/node-canvas",
     "avwo/whistle",
     "be5invis/Sarasa-Gothic",
+    "casey/just",
     "charmbracelet/glow",
     "charmbracelet/gum",
     "charmbracelet/vhs",
+    "chatboxai/chatbox",
     "cloudwu/skynet",
     "cmderdev/cmder",
     "ConardLi/easy-dataset",
@@ -57,6 +60,7 @@
     "facebookresearch/dinov2",
     "facebookresearch/sam2",
     "fastai/fastai",
+    "fingerprintjs/fingerprintjs",
     "fishaudio/fish-speech",
     "fission-ai/openspec",
     "g-truc/glm",
@@ -70,11 +74,13 @@
     "gruns/icecream",
     "guidance-ai/guidance",
     "hapijs/hapi",
+    "heartcombo/devise",
     "hibiken/asynq",
     "hpcaitech/ColossalAI",
     "hpcaitech/Open-Sora",
     "huggingface/open-r1",
     "hyperium/hyper",
+    "jquery/jquery-ui",
     "junegunn/fzf.vim",
     "karpathy/nanochat",
     "koalaman/shellcheck",
@@ -92,6 +98,7 @@
     "microsoft/pyright",
     "microsoft/wslg",
     "mlc-ai/web-llm",
+    "nikitabobko/AeroSpace",
     "ninja-build/ninja",
     "nlohmann/json",
     "nodesource/distributions",
@@ -108,6 +115,7 @@
     "pallets/flask",
     "parcel-bundler/parcel",
     "pgvector/pgvector",
+    "postcss/autoprefixer",
     "pre-commit/pre-commit",
     "preactjs/preact",
     "reactjs/react.dev",
@@ -128,7 +136,9 @@
     "tobi/qmd",
     "tokio-rs/axum",
     "tonsky/FiraCode",
+    "toon-format/toon",
     "tsl0922/ttyd",
-    "zarazhangrui/frontend-slides"
+    "zarazhangrui/frontend-slides",
+    "zeromq/libzmq"
   ]
 }

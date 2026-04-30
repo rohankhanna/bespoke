@@ -3,7 +3,7 @@
     "components": 9,
     "concepts": 10,
     "observations": 10,
-    "repos": 5,
+    "repos": 6,
     "terms": 10
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "docker-library/faq",
     "ipfs/devgrants",
     "JuliaDiff/BlueStyle",
     "libp2p/js-libp2p-examples",
+    "shadowspawn/node-version-usage",
     "snwfdhmp/awesome-ralph"
   ]
 }

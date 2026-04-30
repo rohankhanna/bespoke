@@ -1,6 +1,6 @@
 # Updated 91 to 180 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 2
-- terms: 5
-- components: 13
-- concepts: 5
-- observations: 5
+- repos: 5
+- terms: 13
+- components: 34
+- concepts: 13
+- observations: 13
 
 ## Static behavior
 
@@ -27,11 +27,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [vim-fall/deno-fall-extra](https://github.com/vim-fall/deno-fall-extra) | 2 | 2026-01-14T10:48:01Z | TypeScript | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [typstyle-rs/typstyle-tampermonkey](https://github.com/typstyle-rs/typstyle-tampermonkey) | 7 | 2026-01-11T11:54:05Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
+| [vim-fall/deno-fall-std](https://github.com/vim-fall/deno-fall-std) | 4 | 2025-12-27T13:25:43Z | TypeScript | Infrastructure/tooling | 3 | 5 | 3 | 3 |
+| [KSXGitHub/cargo-scripts-builder](https://github.com/KSXGitHub/cargo-scripts-builder) | 1 | 2025-12-15T11:03:10Z | TypeScript | Infrastructure/tooling | 4 | 4 | 4 | 4 |
 | [Kong/proxy-wasm-assemblyscript-sdk](https://github.com/Kong/proxy-wasm-assemblyscript-sdk) | 5 | 2025-11-08T00:37:40Z | TypeScript | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 
 ## Repos sorted by stars
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [typstyle-rs/typstyle-tampermonkey](https://github.com/typstyle-rs/typstyle-tampermonkey) | 7 | 2026-01-11T11:54:05Z | TypeScript | Infrastructure/tooling | 1 | 12 | 1 | 1 |
 | [Kong/proxy-wasm-assemblyscript-sdk](https://github.com/Kong/proxy-wasm-assemblyscript-sdk) | 5 | 2025-11-08T00:37:40Z | TypeScript | Infrastructure/tooling | 2 | 7 | 2 | 2 |
+| [vim-fall/deno-fall-std](https://github.com/vim-fall/deno-fall-std) | 4 | 2025-12-27T13:25:43Z | TypeScript | Infrastructure/tooling | 3 | 5 | 3 | 3 |
 | [vim-fall/deno-fall-extra](https://github.com/vim-fall/deno-fall-extra) | 2 | 2026-01-14T10:48:01Z | TypeScript | Infrastructure/tooling | 3 | 6 | 3 | 3 |
+| [KSXGitHub/cargo-scripts-builder](https://github.com/KSXGitHub/cargo-scripts-builder) | 1 | 2025-12-15T11:03:10Z | TypeScript | Infrastructure/tooling | 4 | 4 | 4 | 4 |

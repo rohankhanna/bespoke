@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1299,
-    "concepts": 211,
-    "observations": 212,
+    "components": 1037,
+    "concepts": 234,
+    "observations": 235,
     "repos": 23,
-    "terms": 211
+    "terms": 234
   },
   "facet_version": 1,
   "filters": {
@@ -12,30 +12,30 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "AdguardTeam/AdguardBrowserExtension",
     "apollographql/apollo-tooling",
-    "artsy/eigen",
+    "argdown/argdown",
     "aws-powertools/powertools-lambda-typescript",
+    "aws/aws-sdk-js-v3",
     "aws/jsii",
     "conventional-changelog/conventional-changelog",
     "dbeaver/cloudbeaver",
     "ecyrbe/zodios",
     "ggml-org/llama.vscode",
+    "handsontable/hyperformula",
     "huggingface/huggingface.js",
+    "JamesIves/github-pages-deploy-action",
+    "jest-community/eslint-plugin-jest",
     "julia-vscode/julia-vscode",
-    "openai/openai-agents-js",
     "podman-desktop/podman-desktop",
     "posit-dev/positron",
-    "r5n-labs/vscode-react-javascript-snippets",
-    "retorquere/zotero-better-bibtex",
+    "r-lib/actions",
+    "Redocly/redocly-cli",
     "sparkjsdev/spark",
-    "standard/eslint-config-standard",
-    "typescript-language-server/typescript-language-server",
     "unjs/changelogen",
     "web-infra-dev/rsbuild",
-    "web-infra-dev/rsdoctor",
-    "web-infra-dev/rspress"
+    "web-infra-dev/rsdoctor"
   ]
 }

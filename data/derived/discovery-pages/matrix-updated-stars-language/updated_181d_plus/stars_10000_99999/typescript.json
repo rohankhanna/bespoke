@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 281,
-    "concepts": 61,
-    "observations": 62,
-    "repos": 8,
-    "terms": 59
+    "components": 295,
+    "concepts": 67,
+    "observations": 68,
+    "repos": 9,
+    "terms": 65
   },
   "facet_version": 1,
   "filters": {
@@ -12,9 +12,10 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "bytebot-ai/bytebot",
+    "cyclejs/cyclejs",
     "cyrildiagne/ar-cutpaste",
     "fuergaosi233/wechat-chatgpt",
     "mckaywrigley/chatbot-ui",

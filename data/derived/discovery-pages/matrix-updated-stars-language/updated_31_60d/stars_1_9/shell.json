@@ -3,7 +3,7 @@
     "components": 8,
     "concepts": 9,
     "observations": 9,
-    "repos": 5,
+    "repos": 6,
     "terms": 9
   },
   "facet_version": 1,
@@ -12,12 +12,13 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "agents-squads/agents-squads",
     "bendrucker/terraform-configuration-aliases-action",
     "eddelbuettel/github-actions",
     "flinedev/customstatusline",
+    "pacstall/pacup",
     "serpro69/claude-in-docker"
   ]
 }

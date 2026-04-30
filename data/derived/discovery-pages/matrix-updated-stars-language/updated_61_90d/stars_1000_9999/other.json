@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 130,
-    "concepts": 113,
-    "observations": 114,
-    "repos": 21,
-    "terms": 119
+    "components": 135,
+    "concepts": 126,
+    "observations": 127,
+    "repos": 24,
+    "terms": 131
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "3rd/image.nvim",
     "amebalabs/TRex",
@@ -21,10 +21,12 @@
     "breezedeus/Pix2Text",
     "cognitect/transit-format",
     "dashbitco/mox",
+    "datawhalechina/tiny-universe",
     "emacs-lsp/dap-mode",
     "Glavin001/atom-beautify",
     "googleapis/elixir-google-api",
     "greggh/claude-code.nvim",
+    "guard/guard",
     "kristijanhusak/vim-dadbod-ui",
     "krzysztofzablocki/Sourcery",
     "mfussenegger/nvim-jdtls",
@@ -33,6 +35,7 @@
     "OpenBMB/MiniCPM",
     "parruda/swarm",
     "rails/tailwindcss-rails",
+    "SpinalHDL/VexRiscv",
     "stevearc/aerial.nvim",
     "touchlab/droidconkotlin"
   ]

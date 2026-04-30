@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1310,
-    "concepts": 261,
-    "observations": 262,
-    "repos": 39,
-    "terms": 272
+    "components": 1415,
+    "concepts": 285,
+    "observations": 286,
+    "repos": 42,
+    "terms": 295
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "actions/typescript-action",
     "actions/upload-artifact",
@@ -46,10 +46,13 @@
     "microsoft/node-pty",
     "microsoft/playwright-cli",
     "microsoft/vscode-languageserver-node",
+    "mutoe/vue3-realworld-example-app",
     "oclif/oclif",
     "opactorai/claudable",
     "peter-evans/repository-dispatch",
+    "pixiv/three-vrm",
     "redhat-developer/vscode-java",
+    "statoscope/statoscope",
     "the-guild-org/apollo-angular",
     "thx/resvg-js",
     "TypeStrong/ts-loader"

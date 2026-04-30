@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 123,
-    "concepts": 14,
-    "observations": 14,
-    "repos": 9,
-    "terms": 16
+    "components": 144,
+    "concepts": 15,
+    "observations": 15,
+    "repos": 10,
+    "terms": 17
   },
   "facet_version": 1,
   "filters": {
@@ -12,13 +12,14 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "0xBigBoss/vscode-bootty",
     "2slides/mcp-2slides",
     "adevinta/actions-lighthouseci-compare",
     "androidStern-personal/openclaw-mcp-adapter",
     "br14n-sol/inquirer-file-selector",
+    "hsimpson/vscode-glsllint",
     "lnbc1QWFyb24/lnmessage",
     "lobehub/.github",
     "nulone/claude-rules-doctor",

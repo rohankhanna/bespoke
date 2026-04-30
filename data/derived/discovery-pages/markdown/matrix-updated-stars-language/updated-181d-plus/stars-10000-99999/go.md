@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 10,000 to 99,999 stars · Go
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,7 +12,7 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 17
+- repos: 18
 - terms: 85
 - components: 44
 - concepts: 89
@@ -28,6 +28,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [earthly/earthly](https://github.com/earthly/earthly) | 12022 | 2025-10-23T20:10:46Z | Go | Infrastructure/tooling | 21 | 7 | 21 | 21 |
 | [opencode-ai/opencode](https://github.com/opencode-ai/opencode) | 12093 | 2025-09-18T02:54:28Z | Go | CLI | 3 | 3 | 3 | 3 |
+| [gizak/termui](https://github.com/gizak/termui) | 13545 | 2025-07-10T06:33:40Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [GoogleContainerTools/kaniko](https://github.com/GoogleContainerTools/kaniko) | 15769 | 2025-06-03T14:36:10Z | Go | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [tomnomnom/gron](https://github.com/tomnomnom/gron) | 14422 | 2025-05-31T15:00:47Z | Go | CLI | 1 | 3 | 2 | 2 |
 | [gorilla/websocket](https://github.com/gorilla/websocket) | 24674 | 2025-03-19T13:29:08Z | Go | Library | 5 | 0 | 5 | 5 |
@@ -60,6 +61,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [GoogleContainerTools/kaniko](https://github.com/GoogleContainerTools/kaniko) | 15769 | 2025-06-03T14:36:10Z | Go | Infrastructure/tooling | 8 | 11 | 8 | 8 |
 | [tomnomnom/gron](https://github.com/tomnomnom/gron) | 14422 | 2025-05-31T15:00:47Z | Go | CLI | 1 | 3 | 2 | 2 |
 | [json-iterator/go](https://github.com/json-iterator/go) | 13908 | 2024-05-27T09:03:49Z | Go | Unknown | 5 | 0 | 7 | 7 |
+| [gizak/termui](https://github.com/gizak/termui) | 13545 | 2025-07-10T06:33:40Z | Go | CLI | 0 | 0 | 0 | 0 |
 | [opencode-ai/opencode](https://github.com/opencode-ai/opencode) | 12093 | 2025-09-18T02:54:28Z | Go | CLI | 3 | 3 | 3 | 3 |
 | [earthly/earthly](https://github.com/earthly/earthly) | 12022 | 2025-10-23T20:10:46Z | Go | Infrastructure/tooling | 21 | 7 | 21 | 21 |
 | [go-martini/martini](https://github.com/go-martini/martini) | 11614 | 2022-03-29T19:42:09Z | Go | Framework | 0 | 0 | 0 | 0 |

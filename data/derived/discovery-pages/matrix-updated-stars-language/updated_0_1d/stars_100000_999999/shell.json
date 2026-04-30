@@ -1,0 +1,19 @@
+{
+  "counts": {
+    "components": 8,
+    "concepts": 17,
+    "observations": 17,
+    "repos": 1,
+    "terms": 17
+  },
+  "facet_version": 1,
+  "filters": {
+    "language_bucket": "shell",
+    "star_bucket": "stars_100000_999999",
+    "updated_bucket": "updated_0_1d"
+  },
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
+  "repo_ids": [
+    "ohmyzsh/ohmyzsh"
+  ]
+}

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 220,
-    "concepts": 173,
-    "observations": 173,
-    "repos": 18,
-    "terms": 173
+    "components": 264,
+    "concepts": 163,
+    "observations": 163,
+    "repos": 17,
+    "terms": 163
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "aaif-goose/goose",
     "alacritty/alacritty",
@@ -29,8 +29,7 @@
     "rayon-rs/rayon",
     "rust-lang/mdBook",
     "rust-lang/rust-clippy",
-    "servo/servo",
-    "tree-sitter/tree-sitter",
+    "swc-project/swc",
     "web-infra-dev/rspack"
   ]
 }

@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 0 stars · Unknown
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 41
-- terms: 26
-- components: 40
-- concepts: 26
-- observations: 26
+- repos: 49
+- terms: 28
+- components: 50
+- concepts: 28
+- observations: 28
 
 ## Static behavior
 
@@ -45,21 +45,29 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wesfloyd/avs-context-prompt](https://github.com/wesfloyd/avs-context-prompt) | 0 | 2025-04-09T19:13:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [assignUser/delocate](https://github.com/assignUser/delocate) | 0 | 2025-03-26T02:20:32Z | Unknown | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [devongovett/html5ever](https://github.com/devongovett/html5ever) | 0 | 2025-03-23T21:55:09Z | Unknown | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [danielrosehill/HA-Red-Alerts-Model-Automations](https://github.com/danielrosehill/HA-Red-Alerts-Model-Automations) | 0 | 2025-03-21T21:33:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Context-Chunker-Assistant](https://github.com/danielrosehill/Context-Chunker-Assistant) | 0 | 2025-03-07T01:03:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [glandium/rust-objc](https://github.com/glandium/rust-objc) | 0 | 2025-01-07T00:59:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [redis-om/redis-om-dotnet](https://github.com/redis-om/redis-om-dotnet) | 0 | 2024-11-12T09:01:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [madsim-rs/sqlx](https://github.com/madsim-rs/sqlx) | 0 | 2024-11-01T03:06:45Z | Unknown | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [joshmedeski/tmux-list](https://github.com/joshmedeski/tmux-list) | 0 | 2024-09-19T15:24:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [aadil-runpod/rp-logo](https://github.com/aadil-runpod/rp-logo) | 0 | 2024-09-09T21:14:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [newrelic/open-source-office](https://github.com/newrelic/open-source-office) | 0 | 2024-08-26T23:40:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [keathley/finch](https://github.com/keathley/finch) | 0 | 2024-05-22T18:22:23Z | Unknown | CLI | 0 | 3 | 0 | 0 |
+| [chg0901/llama3-Chinese-chat](https://github.com/chg0901/llama3-Chinese-chat) | 0 | 2024-05-08T04:19:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [5scontrol/5s-dev-documentation](https://github.com/5sControl/5s-dev-documentation) | 0 | 2023-11-21T09:57:09Z | Unknown | Docs/knowledge | 3 | 0 | 3 | 3 |
 | [5sControl/5Scontrol-manual](https://github.com/5sControl/5Scontrol-manual) | 0 | 2023-11-21T09:55:10Z | Unknown | Docs/knowledge | 3 | 0 | 3 | 3 |
+| [josejg/google-research](https://github.com/josejg/google-research) | 0 | 2023-11-16T19:40:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dstein64/media](https://github.com/dstein64/media) | 0 | 2023-11-11T00:56:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sundoge/json-benchmark](https://github.com/SunDoge/json-benchmark) | 0 | 2023-08-27T02:27:42Z | Unknown | Infrastructure/tooling | 0 | 4 | 0 | 0 |
+| [filecoin-project/fvm-test-vectors](https://github.com/filecoin-project/fvm-test-vectors) | 0 | 2023-08-16T16:48:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [vizzuhq/.github](https://github.com/vizzuhq/.github) | 0 | 2023-07-18T09:09:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [zwhus/pictures](https://github.com/zwhus/pictures) | 0 | 2023-04-13T05:40:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ashen-sensored/gradio](https://github.com/ashen-sensored/gradio) | 0 | 2023-03-07T05:19:29Z | Unknown | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [alex-petrenko/sf_assets](https://github.com/alex-petrenko/sf_assets) | 0 | 2022-11-30T01:54:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [pengzhendong/files](https://github.com/pengzhendong/files) | 0 | 2022-11-17T09:57:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [americanpresidentjimmycarter/xformers-builds](https://github.com/AmericanPresidentJimmyCarter/xformers-builds) | 0 | 2022-11-06T15:06:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [madsim-rs/rust-tokio-retry](https://github.com/madsim-rs/rust-tokio-retry) | 0 | 2022-08-22T05:02:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [liuzechun0216/images](https://github.com/liuzechun0216/images) | 0 | 2022-07-24T17:40:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [kazuk/cargo-make-coverage-grcov](https://github.com/kazuk/cargo-make-coverage-grcov) | 0 | 2022-04-20T00:13:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [agorshk/daal4py](https://github.com/agorshk/daal4py) | 0 | 2022-02-16T20:17:04Z | Unknown | Service/API | 0 | 0 | 0 | 0 |
@@ -91,21 +99,29 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [wesfloyd/avs-context-prompt](https://github.com/wesfloyd/avs-context-prompt) | 0 | 2025-04-09T19:13:31Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [assignUser/delocate](https://github.com/assignUser/delocate) | 0 | 2025-03-26T02:20:32Z | Unknown | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [devongovett/html5ever](https://github.com/devongovett/html5ever) | 0 | 2025-03-23T21:55:09Z | Unknown | Infrastructure/tooling | 0 | 1 | 0 | 0 |
+| [danielrosehill/HA-Red-Alerts-Model-Automations](https://github.com/danielrosehill/HA-Red-Alerts-Model-Automations) | 0 | 2025-03-21T21:33:52Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [danielrosehill/Context-Chunker-Assistant](https://github.com/danielrosehill/Context-Chunker-Assistant) | 0 | 2025-03-07T01:03:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [glandium/rust-objc](https://github.com/glandium/rust-objc) | 0 | 2025-01-07T00:59:44Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [redis-om/redis-om-dotnet](https://github.com/redis-om/redis-om-dotnet) | 0 | 2024-11-12T09:01:32Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [madsim-rs/sqlx](https://github.com/madsim-rs/sqlx) | 0 | 2024-11-01T03:06:45Z | Unknown | Infrastructure/tooling | 2 | 7 | 2 | 2 |
 | [joshmedeski/tmux-list](https://github.com/joshmedeski/tmux-list) | 0 | 2024-09-19T15:24:05Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [aadil-runpod/rp-logo](https://github.com/aadil-runpod/rp-logo) | 0 | 2024-09-09T21:14:21Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [newrelic/open-source-office](https://github.com/newrelic/open-source-office) | 0 | 2024-08-26T23:40:15Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [keathley/finch](https://github.com/keathley/finch) | 0 | 2024-05-22T18:22:23Z | Unknown | CLI | 0 | 3 | 0 | 0 |
+| [chg0901/llama3-Chinese-chat](https://github.com/chg0901/llama3-Chinese-chat) | 0 | 2024-05-08T04:19:07Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [5scontrol/5s-dev-documentation](https://github.com/5sControl/5s-dev-documentation) | 0 | 2023-11-21T09:57:09Z | Unknown | Docs/knowledge | 3 | 0 | 3 | 3 |
 | [5sControl/5Scontrol-manual](https://github.com/5sControl/5Scontrol-manual) | 0 | 2023-11-21T09:55:10Z | Unknown | Docs/knowledge | 3 | 0 | 3 | 3 |
+| [josejg/google-research](https://github.com/josejg/google-research) | 0 | 2023-11-16T19:40:39Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [dstein64/media](https://github.com/dstein64/media) | 0 | 2023-11-11T00:56:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [sundoge/json-benchmark](https://github.com/SunDoge/json-benchmark) | 0 | 2023-08-27T02:27:42Z | Unknown | Infrastructure/tooling | 0 | 4 | 0 | 0 |
+| [filecoin-project/fvm-test-vectors](https://github.com/filecoin-project/fvm-test-vectors) | 0 | 2023-08-16T16:48:01Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [vizzuhq/.github](https://github.com/vizzuhq/.github) | 0 | 2023-07-18T09:09:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [zwhus/pictures](https://github.com/zwhus/pictures) | 0 | 2023-04-13T05:40:19Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [ashen-sensored/gradio](https://github.com/ashen-sensored/gradio) | 0 | 2023-03-07T05:19:29Z | Unknown | Infrastructure/tooling | 6 | 11 | 6 | 6 |
 | [alex-petrenko/sf_assets](https://github.com/alex-petrenko/sf_assets) | 0 | 2022-11-30T01:54:24Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [pengzhendong/files](https://github.com/pengzhendong/files) | 0 | 2022-11-17T09:57:48Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [americanpresidentjimmycarter/xformers-builds](https://github.com/AmericanPresidentJimmyCarter/xformers-builds) | 0 | 2022-11-06T15:06:53Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
+| [madsim-rs/rust-tokio-retry](https://github.com/madsim-rs/rust-tokio-retry) | 0 | 2022-08-22T05:02:06Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [liuzechun0216/images](https://github.com/liuzechun0216/images) | 0 | 2022-07-24T17:40:56Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [kazuk/cargo-make-coverage-grcov](https://github.com/kazuk/cargo-make-coverage-grcov) | 0 | 2022-04-20T00:13:47Z | Unknown | Unknown | 0 | 0 | 0 | 0 |
 | [agorshk/daal4py](https://github.com/agorshk/daal4py) | 0 | 2022-02-16T20:17:04Z | Unknown | Service/API | 0 | 0 | 0 | 0 |

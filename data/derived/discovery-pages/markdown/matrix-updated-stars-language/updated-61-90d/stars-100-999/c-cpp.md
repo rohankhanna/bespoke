@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 100 to 999 stars · C/C++
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 20
-- terms: 93
-- components: 78
-- concepts: 94
-- observations: 95
+- repos: 21
+- terms: 97
+- components: 79
+- concepts: 98
+- observations: 99
 
 ## Static behavior
 
@@ -36,6 +36,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [devkitPro/libctru](https://github.com/devkitPro/libctru) | 925 | 2026-02-19T17:23:39Z | C/C++ | Infrastructure/tooling | 8 | 2 | 8 | 8 |
 | [google/ruy](https://github.com/google/ruy) | 322 | 2026-02-17T01:04:46Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [martinmoene/lest](https://github.com/martinmoene/lest) | 406 | 2026-02-16T15:21:24Z | C/C++ | Infrastructure/tooling | 8 | 1 | 8 | 8 |
+| [creachadair/imath](https://github.com/creachadair/imath) | 153 | 2026-02-13T06:33:53Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [nvpro-samples/nvpro_core](https://github.com/nvpro-samples/nvpro_core) | 550 | 2026-02-12T10:39:19Z | C/C++ | Unknown | 3 | 0 | 3 | 3 |
 | [rust-fuzz/libfuzzer](https://github.com/rust-fuzz/libfuzzer) | 253 | 2026-02-10T16:37:30Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 5 |
 | [chfast/intx](https://github.com/chfast/intx) | 167 | 2026-02-09T12:44:40Z | C/C++ | Library | 11 | 0 | 11 | 11 |
@@ -66,6 +67,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [chfast/intx](https://github.com/chfast/intx) | 167 | 2026-02-09T12:44:40Z | C/C++ | Library | 11 | 0 | 11 | 11 |
 | [CppCXY/EmmyLuaCodeStyle](https://github.com/CppCXY/EmmyLuaCodeStyle) | 165 | 2026-02-25T02:50:40Z | C/C++ | Infrastructure/tooling | 5 | 8 | 5 | 5 |
 | [proxy-wasm/proxy-wasm-cpp-sdk](https://github.com/proxy-wasm/proxy-wasm-cpp-sdk) | 161 | 2026-02-03T18:24:26Z | C/C++ | Infrastructure/tooling | 1 | 4 | 1 | 1 |
+| [creachadair/imath](https://github.com/creachadair/imath) | 153 | 2026-02-13T06:33:53Z | C/C++ | Infrastructure/tooling | 4 | 1 | 4 | 4 |
 | [Kong/ngx_wasm_module](https://github.com/Kong/ngx_wasm_module) | 137 | 2026-02-03T21:18:17Z | C/C++ | Infrastructure/tooling | 14 | 22 | 14 | 14 |
 | [stardot/b-em](https://github.com/stardot/b-em) | 132 | 2026-02-06T19:23:49Z | C/C++ | Unknown | 0 | 0 | 0 | 0 |
 | [sasha0552/nvidia-pstated](https://github.com/sasha0552/nvidia-pstated) | 123 | 2026-02-24T17:38:15Z | C/C++ | Infrastructure/tooling | 1 | 5 | 1 | 1 |

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 77,
-    "concepts": 188,
-    "observations": 189,
-    "repos": 44,
-    "terms": 187
+    "components": 84,
+    "concepts": 199,
+    "observations": 200,
+    "repos": 47,
+    "terms": 198
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "Alexander-Miller/treemacs",
     "auto-complete/auto-complete",
@@ -24,8 +24,10 @@
     "cncf/tag-security",
     "cpm-cmake/CPM.cmake",
     "EleutherAI/pythia",
+    "elixir-lang/gen_stage",
     "emacs-evil/evil",
     "emacs-lsp/lsp-ui",
+    "FoundationVision/VAR",
     "fsprojects/Paket",
     "Fuco1/smartparens",
     "fukuball/jieba-php",
@@ -35,6 +37,7 @@
     "grpc/grpc-kotlin",
     "haskell/stylish-haskell",
     "huggingface/swift-coreml-diffusers",
+    "jashkenas/docco",
     "joaotavora/eglot",
     "justinmk/vim-sneak",
     "karb94/neoscroll.nvim",

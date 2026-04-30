@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 254,
-    "concepts": 80,
-    "observations": 81,
-    "repos": 11,
-    "terms": 80
+    "components": 407,
+    "concepts": 104,
+    "observations": 105,
+    "repos": 14,
+    "terms": 104
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_0_1d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "apollographql/eslint-plugin-graphql",
     "apostrophecms/apostrophe",
@@ -20,10 +20,13 @@
     "googleapis/google-cloud-node",
     "GoogleChromeLabs/clooney",
     "KhronosGroup/Vulkan-Docs",
+    "LavaMoat/LavaMoat",
     "mermaid-js/mermaid-cli",
     "middyjs/middy",
-    "mozilla/web-ext",
     "parallel-js/parallel.js",
-    "unifiedjs/unified"
+    "paralleldrive/cuid",
+    "swagger-api/swagger-editor",
+    "unifiedjs/unified",
+    "WebKit/WebKit"
   ]
 }

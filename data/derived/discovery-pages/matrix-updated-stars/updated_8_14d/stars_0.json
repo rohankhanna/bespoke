@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 449,
-    "concepts": 99,
-    "observations": 99,
-    "repos": 87,
-    "terms": 128
+    "components": 487,
+    "concepts": 106,
+    "observations": 106,
+    "repos": 90,
+    "terms": 135
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "8144225309/lightning",
     "8144225309/superscalar-cln",
@@ -34,6 +34,7 @@
     "conda-forge/cccl-feedstock",
     "conda-forge/conda-forge-feedstock-ops",
     "conda-forge/conda-lock-feedstock",
+    "conda-forge/diffutils-feedstock",
     "conda-forge/python-isal-feedstock",
     "damacol/ai-hub",
     "damacol/gemma-4-collection",
@@ -58,6 +59,7 @@
     "danielrosehill/Claude-Career-Plugin",
     "danielrosehill/Claude-Code-Bugs-And-FRs",
     "danielrosehill/Claude-Workspace-Reshaping-190426",
+    "DataDog/vault",
     "DeepWok/mase-docker",
     "fabon-f/temporal-polyfill-comparison",
     "fekkak1998/scira",
@@ -72,6 +74,7 @@
     "gyf0311/lorekit",
     "hauntsaninja/mypy",
     "hmellor/vllm",
+    "i18next/i18next-subliminal",
     "jonislutheran87/weclaw",
     "jsleekr/skilldigest",
     "kidshadow79/ogma",

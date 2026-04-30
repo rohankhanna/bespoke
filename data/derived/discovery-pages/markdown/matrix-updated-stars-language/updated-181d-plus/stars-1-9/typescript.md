@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 1 to 9 stars · TypeScript
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,9 +12,9 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 31
-- terms: 62
-- components: 492
+- repos: 32
+- terms: 61
+- components: 503
 - concepts: 63
 - observations: 63
 
@@ -28,6 +28,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
 | [Shougo/dpp-ext-local](https://github.com/Shougo/dpp-ext-local) | 7 | 2025-09-11T03:46:46Z | TypeScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
 | [Shougo/dpp-ext-toml](https://github.com/Shougo/dpp-ext-toml) | 9 | 2025-08-30T07:08:45Z | TypeScript | Infrastructure/tooling | 3 | 2 | 3 | 3 |
+| [LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension](https://github.com/LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension) | 1 | 2025-08-11T15:13:49Z | TypeScript | Unknown | 0 | 11 | 0 | 0 |
 | [clams-tech/ln-ws-proxy](https://github.com/clams-tech/ln-ws-proxy) | 6 | 2025-08-09T12:54:56Z | TypeScript | Infrastructure/tooling | 0 | 13 | 0 | 0 |
 | [litter-coder/midjourney-proxy-admin](https://github.com/litter-coder/midjourney-proxy-admin) | 8 | 2025-08-03T07:33:39Z | TypeScript | Unknown | 0 | 44 | 0 | 0 |
 | [celo-org/socialconnect-template](https://github.com/celo-org/socialconnect-template) | 1 | 2025-06-28T19:50:10Z | TypeScript | Template/starter | 0 | 0 | 0 | 0 |
@@ -56,7 +57,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [ethers-io/ext-signer-ledger](https://github.com/ethers-io/ext-signer-ledger) | 9 | 2023-07-20T22:50:14Z | TypeScript | Unknown | 3 | 9 | 3 | 3 |
 | [LuaLS/LLS-Addons-Action](https://github.com/LuaLS/LLS-Addons-Action) | 1 | 2023-03-08T05:26:56Z | TypeScript | Infrastructure/tooling | 2 | 8 | 2 | 2 |
 | [artemhlezin/webgpu-gerstner-waves](https://github.com/artemhlezin/webgpu-gerstner-waves) | 9 | 2022-01-12T21:01:58Z | TypeScript | Web app | 0 | 12 | 0 | 0 |
-| [iansan5653/vscode-format-python-docstrings](https://github.com/iansan5653/vscode-format-python-docstrings) | 4 | 2021-06-09T00:24:42Z | TypeScript | Unknown | 4 | 20 | 4 | 4 |
+| [iansan5653/vscode-format-python-docstrings](https://github.com/iansan5653/vscode-format-python-docstrings) | 4 | 2021-06-09T00:24:42Z | TypeScript | Unknown | 3 | 20 | 4 | 4 |
 
 ## Repos sorted by stars
 
@@ -76,7 +77,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Azure/actions-toolkit](https://github.com/Azure/actions-toolkit) | 6 | 2023-10-17T02:11:31Z | TypeScript | Infrastructure/tooling | 3 | 19 | 3 | 3 |
 | [intlify/eslint-plugin-svelte](https://github.com/intlify/eslint-plugin-svelte) | 4 | 2025-04-07T07:51:01Z | TypeScript | Infrastructure/tooling | 2 | 27 | 2 | 2 |
 | [dragonkhoi/mercury-mcp](https://github.com/dragonkhoi/mercury-mcp) | 4 | 2025-03-19T06:47:53Z | TypeScript | Infrastructure/tooling | 0 | 6 | 0 | 0 |
-| [iansan5653/vscode-format-python-docstrings](https://github.com/iansan5653/vscode-format-python-docstrings) | 4 | 2021-06-09T00:24:42Z | TypeScript | Unknown | 4 | 20 | 4 | 4 |
+| [iansan5653/vscode-format-python-docstrings](https://github.com/iansan5653/vscode-format-python-docstrings) | 4 | 2021-06-09T00:24:42Z | TypeScript | Unknown | 3 | 20 | 4 | 4 |
 | [5sControl/5s-frontend](https://github.com/5sControl/5s-frontend) | 3 | 2025-06-25T13:30:18Z | TypeScript | Infrastructure/tooling | 9 | 59 | 9 | 9 |
 | [ddisisto/si](https://github.com/ddisisto/si) | 3 | 2025-05-20T01:27:58Z | TypeScript | Unknown | 0 | 0 | 0 | 0 |
 | [ethers-io/ext-provider-plugin-multicoin](https://github.com/ethers-io/ext-provider-plugin-multicoin) | 3 | 2023-09-15T06:54:19Z | TypeScript | Unknown | 0 | 3 | 0 | 0 |
@@ -85,6 +86,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [eastlondoner/pac-man](https://github.com/eastlondoner/pac-man) | 2 | 2025-02-06T22:48:06Z | TypeScript | Unknown | 0 | 3 | 0 | 0 |
 | [vim-fall/deno-fall-custom](https://github.com/vim-fall/deno-fall-custom) | 2 | 2024-11-17T07:39:23Z | TypeScript | Infrastructure/tooling | 3 | 3 | 3 | 3 |
 | [cryptonomic/conseiljs-softsigner](https://github.com/Cryptonomic/ConseilJS-softsigner) | 2 | 2023-08-08T19:41:32Z | TypeScript | Infrastructure/tooling | 1 | 28 | 1 | 1 |
+| [LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension](https://github.com/LogtalkDotOrg/jupyterlab-logtalk-codemirror-extension) | 1 | 2025-08-11T15:13:49Z | TypeScript | Unknown | 0 | 11 | 0 | 0 |
 | [celo-org/socialconnect-template](https://github.com/celo-org/socialconnect-template) | 1 | 2025-06-28T19:50:10Z | TypeScript | Template/starter | 0 | 0 | 0 | 0 |
 | [plrthink/RNZATestApp](https://github.com/plrthink/RNZATestApp) | 1 | 2025-06-15T10:39:56Z | TypeScript | Unknown | 1 | 28 | 1 | 1 |
 | [alexlafroscia/testdouble-qunit](https://github.com/alexlafroscia/testdouble-qunit) | 1 | 2025-03-03T04:03:52Z | TypeScript | Infrastructure/tooling | 5 | 16 | 5 | 5 |

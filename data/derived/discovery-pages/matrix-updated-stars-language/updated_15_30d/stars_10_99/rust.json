@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 99,
-    "concepts": 66,
-    "observations": 66,
-    "repos": 17,
-    "terms": 66
+    "components": 106,
+    "concepts": 72,
+    "observations": 72,
+    "repos": 18,
+    "terms": 72
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_15_30d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "alixinne/glsl-lang",
     "antonWetzel/prettypst",
@@ -26,6 +26,7 @@
     "lambdaclass/libssz",
     "Layr-Labs/eigensdk-rs",
     "ldclabs/ic-oss",
+    "ldclabs/ic-tee",
     "neysofu/reltester",
     "open-telemetry/opentelemetry-rust-contrib",
     "psmux/omp-manager",

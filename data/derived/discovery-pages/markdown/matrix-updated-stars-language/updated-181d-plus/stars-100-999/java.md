@@ -1,6 +1,6 @@
 # Updated more than 180 days ago · 100 to 999 stars · Java
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 23
-- terms: 58
-- components: 26
-- concepts: 58
-- observations: 58
+- repos: 25
+- terms: 68
+- components: 31
+- concepts: 68
+- observations: 68
 
 ## Static behavior
 
@@ -29,6 +29,8 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [MetaGLM/zhipuai-sdk-java-v4](https://github.com/MetaGLM/zhipuai-sdk-java-v4) | 157 | 2025-10-15T08:19:27Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [fnproject/docs](https://github.com/fnproject/docs) | 159 | 2025-09-30T03:44:42Z | Java | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [findbugsproject/findbugs](https://github.com/findbugsproject/findbugs) | 777 | 2025-09-27T03:20:02Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [snapcast/snapdroid](https://github.com/snapcast/snapdroid) | 222 | 2025-09-23T19:54:40Z | Java | CLI | 4 | 3 | 4 | 4 |
+| [ksuid/ksuid](https://github.com/ksuid/ksuid) | 142 | 2025-08-20T17:54:02Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [GiviMAD/whisper-jni](https://github.com/GiviMAD/whisper-jni) | 153 | 2025-04-26T14:22:13Z | Java | Infrastructure/tooling | 0 | 9 | 0 | 0 |
 | [cyberphone/json-canonicalization](https://github.com/cyberphone/json-canonicalization) | 138 | 2024-12-13T10:21:49Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [dirs-dev/directories-jvm](https://github.com/dirs-dev/directories-jvm) | 253 | 2024-11-07T22:30:26Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
@@ -67,11 +69,13 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Byte-Lab/JCoz](https://github.com/Byte-Lab/JCoz) | 281 | 2024-03-07T18:25:45Z | Java | Infrastructure/tooling | 0 | 0 | 0 | 0 |
 | [dirs-dev/directories-jvm](https://github.com/dirs-dev/directories-jvm) | 253 | 2024-11-07T22:30:26Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [mukel/llama2.java](https://github.com/mukel/llama2.java) | 227 | 2024-05-17T00:07:44Z | Java | Unknown | 0 | 0 | 0 | 0 |
+| [snapcast/snapdroid](https://github.com/snapcast/snapdroid) | 222 | 2025-09-23T19:54:40Z | Java | CLI | 4 | 3 | 4 | 4 |
 | [apache/incubator-tuweni](https://github.com/apache/incubator-tuweni) | 175 | 2023-07-21T03:00:26Z | Java | Infrastructure/tooling | 15 | 9 | 15 | 15 |
 | [fnproject/docs](https://github.com/fnproject/docs) | 159 | 2025-09-30T03:44:42Z | Java | Docs/knowledge | 0 | 0 | 0 | 0 |
 | [MetaGLM/zhipuai-sdk-java-v4](https://github.com/MetaGLM/zhipuai-sdk-java-v4) | 157 | 2025-10-15T08:19:27Z | Java | Infrastructure/tooling | 2 | 3 | 2 | 2 |
 | [alibaba/spring-context-support](https://github.com/alibaba/spring-context-support) | 156 | 2024-02-02T21:01:11Z | Java | Unknown | 5 | 0 | 5 | 5 |
 | [GiviMAD/whisper-jni](https://github.com/GiviMAD/whisper-jni) | 153 | 2025-04-26T14:22:13Z | Java | Infrastructure/tooling | 0 | 9 | 0 | 0 |
+| [ksuid/ksuid](https://github.com/ksuid/ksuid) | 142 | 2025-08-20T17:54:02Z | Java | Infrastructure/tooling | 6 | 2 | 6 | 6 |
 | [cyberphone/json-canonicalization](https://github.com/cyberphone/json-canonicalization) | 138 | 2024-12-13T10:21:49Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [julienledem/redelm](https://github.com/julienledem/redelm) | 138 | 2021-08-26T11:16:34Z | Java | Unknown | 0 | 0 | 0 | 0 |
 | [timgifford/maven-buildtime-extension](https://github.com/timgifford/maven-buildtime-extension) | 134 | 2024-08-07T18:19:01Z | Java | Unknown | 0 | 0 | 0 | 0 |

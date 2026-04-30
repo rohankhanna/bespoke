@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 173,
-    "concepts": 271,
-    "observations": 271,
-    "repos": 53,
-    "terms": 272
+    "components": 188,
+    "concepts": 296,
+    "observations": 296,
+    "repos": 58,
+    "terms": 296
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "anapnoe/stable-diffusion-webui-ux",
     "arcee-ai/mergekit",
     "astanin/python-tabulate",
     "bambinos/bambi",
+    "belluzj/fantasque-sans",
+    "bpython/bpython",
     "databricks/megablocks",
     "davidhalter/jedi",
     "deepspeedai/DeepSpeedExamples",
@@ -47,6 +49,7 @@
     "mosaicml/composer",
     "mosaicml/llm-foundry",
     "nunchaku-ai/nunchaku",
+    "NVIDIA/flownet2-pytorch",
     "NVlabs/VILA",
     "open-mmlab/mmaction2",
     "OpenGVLab/InternVideo",
@@ -57,6 +60,8 @@
     "randy3k/radian",
     "rusty1s/pytorch_scatter",
     "rusty1s/pytorch_sparse",
+    "s3prl/s3prl",
+    "ServiceNow/BrowserGym",
     "shareai-lab/claw0",
     "sierra-research/tau-bench",
     "snakers4/silero-vad",

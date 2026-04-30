@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 1363,
-    "concepts": 238,
-    "observations": 240,
-    "repos": 27,
-    "terms": 236
+    "components": 1426,
+    "concepts": 278,
+    "observations": 280,
+    "repos": 30,
+    "terms": 274
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,14 @@
     "star_bucket": "stars_10000_99999",
     "updated_bucket": "updated_8_14d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "ajaxorg/ace",
     "avajs/ava",
     "badges/shields",
+    "be5invis/Iosevka",
     "bmad-code-org/bmad-method",
+    "brianc/node-postgres",
     "commitizen/cz-cli",
     "decaporg/decap-cms",
     "fastify/fastify",
@@ -35,6 +37,7 @@
     "remy/nodemon",
     "semantic-release/semantic-release",
     "serverless/serverless",
+    "simple-icons/simple-icons",
     "svg/svgo",
     "vega/vega",
     "vercel-labs/agent-skills",

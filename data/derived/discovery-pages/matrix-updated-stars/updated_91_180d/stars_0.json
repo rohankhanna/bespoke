@@ -1,17 +1,17 @@
 {
   "counts": {
-    "components": 103,
-    "concepts": 25,
-    "observations": 25,
-    "repos": 25,
-    "terms": 25
+    "components": 114,
+    "concepts": 30,
+    "observations": 30,
+    "repos": 28,
+    "terms": 30
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_91_180d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "abap2UI5-addons/popups",
     "all-the-noises/data",
@@ -32,6 +32,9 @@
     "faradayio/compose_yml",
     "illusionfield/fourseven-scss",
     "kivikakk/cmark-gfm",
+    "KSXGitHub/personal-crates",
+    "maeste/a2a-tck",
+    "openobserve/promql-parser",
     "praw-dev/.github",
     "prestodb/presto-dev",
     "rose-pine/homebrew-tap",

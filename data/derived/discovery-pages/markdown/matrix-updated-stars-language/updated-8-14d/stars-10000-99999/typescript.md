@@ -1,6 +1,6 @@
 # Updated 8 to 14 days ago · 10,000 to 99,999 stars · TypeScript
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -13,10 +13,10 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 ## Counts
 
 - repos: 54
-- terms: 466
-- components: 5002
-- concepts: 447
-- observations: 450
+- terms: 477
+- components: 5350
+- concepts: 458
+- observations: 461
 
 ## Static behavior
 
@@ -26,6 +26,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 
 | Repo | Stars | Updated | Language | Product surface | Terms | Components | Concepts | Observations |
 | --- | ---: | --- | --- | --- | ---: | ---: | ---: | ---: |
+| [grafana/grafana](https://github.com/grafana/grafana) | 73377 | 2026-04-23T08:37:49Z | TypeScript | Infrastructure/tooling | 17 | 362 | 17 | 17 |
 | [cline/cline](https://github.com/cline/cline) | 60627 | 2026-04-23T04:34:54Z | TypeScript | Infrastructure/tooling | 8 | 147 | 8 | 8 |
 | [vuejs/core](https://github.com/vuejs/core) | 53505 | 2026-04-23T03:39:46Z | TypeScript | Infrastructure/tooling | 6 | 63 | 6 | 6 |
 | [google/brotli](https://github.com/google/brotli) | 14672 | 2026-04-22T23:46:28Z | TypeScript | Infrastructure/tooling | 4 | 15 | 4 | 4 |
@@ -79,7 +80,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) | 25150 | 2026-04-17T16:21:09Z | TypeScript | CLI | 8 | 55 | 8 | 8 |
 | [vadimdemedes/ink](https://github.com/vadimdemedes/ink) | 37800 | 2026-04-17T07:15:51Z | TypeScript | CLI | 5 | 56 | 5 | 5 |
 | [microsoft/playwright-mcp](https://github.com/microsoft/playwright-mcp) | 31085 | 2026-04-17T01:18:07Z | TypeScript | Infrastructure/tooling | 3 | 12 | 3 | 3 |
-| [toon-format/toon](https://github.com/toon-format/toon) | 23927 | 2026-04-16T09:04:24Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 
 ## Repos sorted by stars
 
@@ -88,6 +88,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [modelcontextprotocol/servers](https://github.com/modelcontextprotocol/servers) | 84206 | 2026-04-17T22:59:54Z | TypeScript | Infrastructure/tooling | 4 | 14 | 4 | 4 |
 | [vitejs/vite](https://github.com/vitejs/vite) | 80039 | 2026-04-21T09:05:48Z | TypeScript | Infrastructure/tooling | 10 | 40 | 10 | 10 |
 | [garrytan/gstack](https://github.com/garrytan/gstack) | 77075 | 2026-04-19T11:21:38Z | TypeScript | Infrastructure/tooling | 5 | 12 | 0 | 0 |
+| [grafana/grafana](https://github.com/grafana/grafana) | 73377 | 2026-04-23T08:37:49Z | TypeScript | Infrastructure/tooling | 17 | 362 | 17 | 17 |
 | [cline/cline](https://github.com/cline/cline) | 60627 | 2026-04-23T04:34:54Z | TypeScript | Infrastructure/tooling | 8 | 147 | 8 | 8 |
 | [withastro/astro](https://github.com/withastro/astro) | 58578 | 2026-04-19T14:02:13Z | TypeScript | Infrastructure/tooling | 7 | 37 | 0 | 0 |
 | [remix-run/react-router](https://github.com/remix-run/react-router) | 56364 | 2026-04-22T17:43:34Z | TypeScript | Infrastructure/tooling | 8 | 47 | 8 | 8 |
@@ -108,7 +109,6 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [recharts/recharts](https://github.com/recharts/recharts) | 27013 | 2026-04-19T13:50:14Z | TypeScript | Infrastructure/tooling | 12 | 113 | 12 | 12 |
 | [neoclide/coc.nvim](https://github.com/neoclide/coc.nvim) | 25150 | 2026-04-17T16:21:09Z | TypeScript | CLI | 8 | 55 | 8 | 8 |
 | [react-navigation/react-navigation](https://github.com/react-navigation/react-navigation) | 24438 | 2026-04-22T12:34:52Z | TypeScript | Infrastructure/tooling | 9 | 29 | 9 | 9 |
-| [toon-format/toon](https://github.com/toon-format/toon) | 23927 | 2026-04-16T09:04:24Z | TypeScript | Infrastructure/tooling | 6 | 14 | 6 | 6 |
 | [qwenlm/qwen-code](https://github.com/QwenLM/qwen-code) | 23535 | 2026-04-19T14:02:51Z | TypeScript | CLI | 7 | 63 | 7 | 7 |
 | [iOfficeAI/AionUi](https://github.com/iOfficeAI/AionUi) | 22203 | 2026-04-19T13:13:59Z | TypeScript | CLI | 21 | 141 | 21 | 21 |
 | [SBoudrias/Inquirer.js](https://github.com/SBoudrias/Inquirer.js) | 21508 | 2026-04-19T16:51:14Z | TypeScript | CLI | 7 | 30 | 7 | 7 |

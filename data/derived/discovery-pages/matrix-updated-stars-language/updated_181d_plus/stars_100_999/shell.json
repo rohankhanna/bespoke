@@ -1,9 +1,9 @@
 {
   "counts": {
-    "components": 36,
-    "concepts": 135,
-    "observations": 136,
-    "repos": 50,
+    "components": 39,
+    "concepts": 136,
+    "observations": 137,
+    "repos": 52,
     "terms": 131
   },
   "facet_version": 1,
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "27medkamal/tmux-session-wizard",
     "AppImageCommunity/pkg2appimage",
@@ -47,11 +47,13 @@
     "joseluisq/gitnow",
     "joshmedeski/t-smart-tmux-session-manager",
     "koalaman/shellcheck-precommit",
+    "koreader/koxtoolchain",
     "lavabit/robox",
     "lukechilds/gifgen",
     "lukechilds/zsh-better-npm-completion",
     "matchai/spacefish",
     "mattmc3/zsh_unplugged",
+    "nightrome/cocostuff",
     "rbenv/rbenv-default-gems",
     "rbenv/rbenv-gem-rehash",
     "rbenv/rbenv-installer",

@@ -1,6 +1,6 @@
 # Updated 61 to 90 days ago · 1,000 to 9,999 stars · Other
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -12,11 +12,11 @@ Static generated page. Sorting is precomputed in fixed sections below; there is 
 
 ## Counts
 
-- repos: 21
-- terms: 119
-- components: 130
-- concepts: 113
-- observations: 114
+- repos: 24
+- terms: 131
+- components: 135
+- concepts: 126
+- observations: 127
 
 ## Static behavior
 
@@ -38,14 +38,17 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [Glavin001/atom-beautify](https://github.com/Glavin001/atom-beautify) | 1503 | 2026-02-14T14:00:33Z | Other | Library | 7 | 46 | 7 | 7 |
 | [touchlab/droidconkotlin](https://github.com/touchlab/DroidconKotlin) | 1137 | 2026-02-13T21:48:08Z | Other | Infrastructure/tooling | 5 | 5 | 0 | 0 |
 | [amebalabs/TRex](https://github.com/amebalabs/TRex) | 1787 | 2026-02-13T18:43:06Z | Other | Infrastructure/tooling | 7 | 7 | 7 | 7 |
+| [datawhalechina/tiny-universe](https://github.com/datawhalechina/tiny-universe) | 4789 | 2026-02-12T02:00:08Z | Other | Unknown | 5 | 0 | 5 | 5 |
 | [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM) | 8833 | 2026-02-11T13:55:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [krzysztofzablocki/Sourcery](https://github.com/krzysztofzablocki/Sourcery) | 7984 | 2026-02-11T11:16:30Z | Other | Infrastructure/tooling | 13 | 11 | 13 | 13 |
 | [kristijanhusak/vim-dadbod-ui](https://github.com/kristijanhusak/vim-dadbod-ui) | 1984 | 2026-02-11T10:45:39Z | Other | Infrastructure/tooling | 6 | 2 | 6 | 6 |
+| [SpinalHDL/VexRiscv](https://github.com/SpinalHDL/VexRiscv) | 3131 | 2026-02-11T09:06:28Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [mfussenegger/nvim-jdtls](https://github.com/mfussenegger/nvim-jdtls) | 1461 | 2026-02-10T20:22:51Z | Other | CLI | 4 | 0 | 4 | 4 |
-| [artempyanykh/marksman](https://github.com/artempyanykh/marksman) | 3142 | 2026-02-08T21:36:01Z | Other | Infrastructure/tooling | 9 | 5 | 9 | 9 |
+| [artempyanykh/marksman](https://github.com/artempyanykh/marksman) | 3142 | 2026-02-08T21:36:01Z | Other | Infrastructure/tooling | 8 | 5 | 9 | 9 |
 | [emacs-lsp/dap-mode](https://github.com/emacs-lsp/dap-mode) | 1375 | 2026-02-08T14:03:57Z | Other | Infrastructure/tooling | 10 | 5 | 10 | 10 |
 | [breezedeus/Pix2Text](https://github.com/breezedeus/Pix2Text) | 3102 | 2026-02-07T11:13:23Z | Other | Model/data | 9 | 0 | 10 | 10 |
 | [greggh/claude-code.nvim](https://github.com/greggh/claude-code.nvim) | 2007 | 2026-02-04T14:44:51Z | Other | CLI | 2 | 8 | 0 | 0 |
+| [guard/guard](https://github.com/guard/guard) | 6479 | 2026-02-02T11:47:38Z | Other | CLI | 1 | 2 | 1 | 1 |
 | [microsoft/TextWorld](https://github.com/microsoft/TextWorld) | 1405 | 2026-01-30T19:15:32Z | Other | Infrastructure/tooling | 7 | 6 | 7 | 7 |
 
 ## Repos sorted by stars
@@ -55,7 +58,10 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [OpenBMB/MiniCPM](https://github.com/OpenBMB/MiniCPM) | 8833 | 2026-02-11T13:55:08Z | Other | Unknown | 0 | 0 | 0 | 0 |
 | [omniauth/omniauth](https://github.com/omniauth/omniauth) | 8068 | 2026-02-27T14:56:33Z | Other | Infrastructure/tooling | 6 | 3 | 6 | 7 |
 | [krzysztofzablocki/Sourcery](https://github.com/krzysztofzablocki/Sourcery) | 7984 | 2026-02-11T11:16:30Z | Other | Infrastructure/tooling | 13 | 11 | 13 | 13 |
-| [artempyanykh/marksman](https://github.com/artempyanykh/marksman) | 3142 | 2026-02-08T21:36:01Z | Other | Infrastructure/tooling | 9 | 5 | 9 | 9 |
+| [guard/guard](https://github.com/guard/guard) | 6479 | 2026-02-02T11:47:38Z | Other | CLI | 1 | 2 | 1 | 1 |
+| [datawhalechina/tiny-universe](https://github.com/datawhalechina/tiny-universe) | 4789 | 2026-02-12T02:00:08Z | Other | Unknown | 5 | 0 | 5 | 5 |
+| [artempyanykh/marksman](https://github.com/artempyanykh/marksman) | 3142 | 2026-02-08T21:36:01Z | Other | Infrastructure/tooling | 8 | 5 | 9 | 9 |
+| [SpinalHDL/VexRiscv](https://github.com/SpinalHDL/VexRiscv) | 3131 | 2026-02-11T09:06:28Z | Other | Infrastructure/tooling | 7 | 3 | 7 | 7 |
 | [breezedeus/Pix2Text](https://github.com/breezedeus/Pix2Text) | 3102 | 2026-02-07T11:13:23Z | Other | Model/data | 9 | 0 | 10 | 10 |
 | [stevearc/aerial.nvim](https://github.com/stevearc/aerial.nvim) | 2269 | 2026-02-25T17:22:33Z | Other | Infrastructure/tooling | 9 | 8 | 9 | 9 |
 | [greggh/claude-code.nvim](https://github.com/greggh/claude-code.nvim) | 2007 | 2026-02-04T14:44:51Z | Other | CLI | 2 | 8 | 0 | 0 |

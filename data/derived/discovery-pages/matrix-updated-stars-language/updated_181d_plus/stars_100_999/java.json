@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 23,
-    "terms": 58
+    "components": 31,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 25,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_100_999",
     "updated_bucket": "updated_181d_plus"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "abarisain/dmix",
     "alibaba/aliyun-spring-boot",
@@ -33,8 +33,10 @@
     "iTXTech/mirai-console-loader",
     "julienledem/redelm",
     "krasa/EclipseCodeFormatter",
+    "ksuid/ksuid",
     "MetaGLM/zhipuai-sdk-java-v4",
     "mukel/llama2.java",
+    "snapcast/snapdroid",
     "timgifford/maven-buildtime-extension",
     "trustin/os-maven-plugin"
   ]

@@ -1,18 +1,21 @@
 {
   "counts": {
-    "components": 26,
-    "concepts": 36,
-    "observations": 36,
-    "repos": 18,
-    "terms": 36
+    "components": 33,
+    "concepts": 46,
+    "observations": 46,
+    "repos": 22,
+    "terms": 46
   },
   "facet_version": 1,
   "filters": {
     "star_bucket": "stars_0",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
+    "arnaud-lb/php-rdkafka-doc",
+    "buty4649/mruby-yyjson",
+    "conda-forge/equinox-feedstock",
     "conda-forge/tianshou-feedstock",
     "danielrosehill/AI-Presentation-Builders-Index",
     "danielrosehill/AI-Safety-Projects-Index",
@@ -20,10 +23,11 @@
     "danielrosehill/Claude-AI-Video-Producer-Plugin",
     "danielrosehill/Claude-Backup-Planner-Plugin",
     "danielrosehill/Claude-Browser-Data-Capture-Plugin",
+    "danielrosehill/Claude-Business-Idea-Eval-Plugin",
     "danielrosehill/Claude-Israel",
     "danielrosehill/Responsible-Agent-Skill-Development",
-    "DataDog/vault",
     "hermit-os/.github",
+    "ipfs-examples/github-mgmt",
     "kdubbo/xds-api",
     "mukel/gptoss.java",
     "mukel/nemotron3.java",

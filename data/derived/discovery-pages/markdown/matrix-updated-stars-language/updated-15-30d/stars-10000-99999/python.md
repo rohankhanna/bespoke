@@ -1,6 +1,6 @@
 # Updated 15 to 30 days ago · 10,000 to 99,999 stars · Python
 
-Generated at: `2026-04-30T05:52:21.342058+00:00`
+Generated at: `2026-04-30T10:38:47.528645+00:00`
 
 Static generated page. Sorting is precomputed in fixed sections below; there is no client-side Markdown-native filtering.
 
@@ -58,7 +58,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [gruns/icecream](https://github.com/gruns/icecream) | 10041 | 2026-04-03T17:54:33Z | Python | Infrastructure/tooling | 7 | 2 | 7 | 7 |
 | [huggingface/open-r1](https://github.com/huggingface/open-r1) | 26004 | 2026-04-02T14:03:15Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [666ghj/MiroFish](https://github.com/666ghj/MiroFish) | 56856 | 2026-04-02T08:54:54Z | Python | Infrastructure/tooling | 11 | 7 | 11 | 11 |
-| [cookiecutter/cookiecutter](https://github.com/cookiecutter/cookiecutter) | 24843 | 2026-04-01T17:46:44Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
+| [cookiecutter/cookiecutter](https://github.com/cookiecutter/cookiecutter) | 24844 | 2026-04-01T17:46:44Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 
 ## Repos sorted by stars
 
@@ -78,7 +78,7 @@ This is a generated static Markdown page. It has no client-side filtering or sor
 | [hpcaitech/Open-Sora](https://github.com/hpcaitech/Open-Sora) | 28919 | 2026-04-09T01:52:40Z | Python | Infrastructure/tooling | 2 | 4 | 2 | 2 |
 | [huggingface/open-r1](https://github.com/huggingface/open-r1) | 26004 | 2026-04-02T14:03:15Z | Python | Infrastructure/tooling | 1 | 2 | 1 | 1 |
 | [subframe7536/maple-font](https://github.com/subframe7536/maple-font) | 25403 | 2026-04-05T07:58:35Z | Python | CLI | 13 | 4 | 13 | 13 |
-| [cookiecutter/cookiecutter](https://github.com/cookiecutter/cookiecutter) | 24843 | 2026-04-01T17:46:44Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
+| [cookiecutter/cookiecutter](https://github.com/cookiecutter/cookiecutter) | 24844 | 2026-04-01T17:46:44Z | Python | Infrastructure/tooling | 3 | 10 | 3 | 3 |
 | [delgan/loguru](https://github.com/Delgan/loguru) | 23822 | 2026-04-06T15:52:02Z | Python | Infrastructure/tooling | 7 | 9 | 7 | 7 |
 | [danielgatis/rembg](https://github.com/danielgatis/rembg) | 22752 | 2026-04-08T11:44:09Z | Python | Infrastructure/tooling | 7 | 11 | 7 | 7 |
 | [letta-ai/letta](https://github.com/letta-ai/letta) | 22154 | 2026-04-12T20:54:54Z | Python | Infrastructure/tooling | 4 | 10 | 4 | 4 |

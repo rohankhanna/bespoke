@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 14,
-    "concepts": 18,
-    "observations": 18,
-    "repos": 4,
-    "terms": 16
+    "components": 20,
+    "concepts": 24,
+    "observations": 24,
+    "repos": 5,
+    "terms": 22
   },
   "facet_version": 1,
   "filters": {
@@ -12,11 +12,12 @@
     "star_bucket": "stars_1000_9999",
     "updated_bucket": "updated_61_90d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "bats-core/bats-core",
     "blader/claudeception",
     "jorgebucaran/fisher",
-    "just-containers/s6-overlay"
+    "just-containers/s6-overlay",
+    "oschwartz10612/poppler-windows"
   ]
 }

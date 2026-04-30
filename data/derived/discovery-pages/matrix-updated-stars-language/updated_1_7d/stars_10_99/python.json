@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 135,
-    "concepts": 93,
-    "observations": 93,
-    "repos": 23,
-    "terms": 91
+    "components": 164,
+    "concepts": 122,
+    "observations": 122,
+    "repos": 29,
+    "terms": 120
   },
   "facet_version": 1,
   "filters": {
@@ -12,12 +12,15 @@
     "star_bucket": "stars_10_99",
     "updated_bucket": "updated_1_7d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "a2aproject/a2a-tck",
+    "agno-agi/coda",
     "ansible/ansible-compat",
     "AstraZeneca/runnable",
     "atlanhq/application-sdk",
+    "autodeployai/pypmml",
+    "bghira/CaptionFlow",
     "caketop/python-starlark-go",
     "castorini/anserini-tools",
     "cloudfoundry/community",
@@ -25,17 +28,20 @@
     "DanielNoord/pydocstringformatter",
     "DeterminateSystems/determinate-nix-action",
     "executablebooks/mdit-py-plugins",
+    "GreptimeTeam/demo-scene",
     "HabanaAI/vllm-fork",
+    "hiddenswitch/pip-and-uv-installable-ComfyUI",
     "instadeepai/fastpbrl",
     "intel-staging/text-generation-webui",
     "mayeut/pep600_compliance",
     "meta-pytorch/MSLK",
     "notofonts/notobuilder",
-    "OpenHands/benchmarks",
     "plone/cookieplone",
     "pre-commit/sync-pre-commit-deps",
+    "sigstore/sigstore-conformance",
     "sublimelsp/LSP-ruff",
     "symgraph/BinAssistMCP",
-    "theupdateframework/tuf-on-ci"
+    "theupdateframework/tuf-on-ci",
+    "TigreGotico/phoonnx"
   ]
 }

@@ -1,10 +1,10 @@
 {
   "counts": {
-    "components": 53,
-    "concepts": 58,
-    "observations": 58,
-    "repos": 16,
-    "terms": 58
+    "components": 102,
+    "concepts": 68,
+    "observations": 68,
+    "repos": 21,
+    "terms": 68
   },
   "facet_version": 1,
   "filters": {
@@ -12,7 +12,7 @@
     "star_bucket": "stars_1_9",
     "updated_bucket": "updated_31_60d"
   },
-  "generated_at": "2026-04-30T05:52:21.342058+00:00",
+  "generated_at": "2026-04-30T10:38:47.528645+00:00",
   "repo_ids": [
     "abap2UI5-addons/layout-management",
     "Adam-Boesky/astro_SPLASH",
@@ -23,8 +23,13 @@
     "ATProtoKit/MultiformatsKit",
     "clearbluejar/ghidra-python",
     "danielrosehill/Agentic-AI-Architecture-Visualisation",
+    "dylibso/xtp-csharp-bindgen",
+    "dylibso/xtp-go-bindgen",
+    "dylibso/xtp-python-bindgen",
+    "hermit-os/hermit-gcc",
     "MarcCote/TextWorld",
     "objectbox/objectbox-swift-spm",
+    "PyThaiNLP/pythainlp-corpus",
     "redis-developer/redis-starter-csharp",
     "shakacode/package_json",
     "SWE-bench/SWE-smith-envs",
